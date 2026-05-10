@@ -1,0 +1,741 @@
+{
+  "lastUpdated": "2026-05-09T15:00:00Z",
+  "level": "B2",
+  "days": {
+    "2026-05-09": {
+      "label": "5月9日 (周六)",
+      "stories": [
+        {
+          "id": "20260509-1",
+          "category": "tech",
+          "sourceName": "Anthropic 官方公告 (May 6, 2026)",
+          "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
+          "headlineEn": "Anthropic Strikes Compute Deal with Musk's SpaceX, Eyes Data Centers in Space",
+          "headlineCn": "Anthropic 与马斯克的 SpaceX 达成算力交易，并瞄准太空数据中心",
+          "summaryEn": "Anthropic, the maker of Claude, has signed a deal to use the entire compute capacity of SpaceX's Colossus 1 data center in Memphis — gaining access to over 300 megawatts of power and 220,000+ Nvidia GPUs. Notably, Anthropic also expressed interest in collaborating with SpaceX to build gigawatt-scale AI data centers in orbit. The agreement is striking because Elon Musk had previously been a vocal critic of Anthropic.",
+          "summaryCn": "Claude 的开发商 Anthropic 已签约使用 SpaceX 位于孟菲斯的 Colossus 1 数据中心的全部算力，获得 300 兆瓦以上的电力以及超过 22 万块英伟达 GPU。值得关注的是，Anthropic 还表达了与 SpaceX 合作建设吉瓦级太空 AI 数据中心的意向。这项协议引人注目，因为马斯克此前曾多次公开批评 Anthropic。",
+          "excerpt": "Anthropic on Wednesday announced a deal with Elon Musk's SpaceX to use all of the compute capacity at his company's Colossus 1 data center in Memphis, Tennessee. As part of the agreement, Anthropic will get access to more than 300 megawatts of compute capacity, and it also 'expressed interest' in working with SpaceX to develop multiple gigawatts of compute capacity in space.",
+          "vocab": [
+            {
+              "word": "strike a deal",
+              "pos": "phrase",
+              "meaning": "达成协议；敲定一项交易（商业新闻高频搭配）",
+              "exampleEn": "The two carmakers struck a deal to share battery technology after months of secret talks.",
+              "exampleCn": "两家车企经过数月秘密谈判后，达成了共享电池技术的协议。"
+            },
+            {
+              "word": "compute capacity",
+              "pos": "n.",
+              "meaning": "算力，计算能力（注意：此处 compute 用作名词，是 AI 行业的术语化用法）",
+              "exampleEn": "Cloud providers are racing to add compute capacity as demand from AI training workloads keeps surging.",
+              "exampleCn": "由于 AI 训练任务需求持续激增，云服务商正在争相扩充算力。"
+            },
+            {
+              "word": "surging demand",
+              "pos": "n.phrase",
+              "meaning": "激增的需求；surge 比 increase 更有动感，强调'猛涨'",
+              "exampleEn": "The startup is hiring aggressively to keep up with surging demand for its enterprise software.",
+              "exampleCn": "这家初创公司正在大举招聘，以应对其企业软件需求的激增。"
+            },
+            {
+              "word": "vocal critic",
+              "pos": "n.phrase",
+              "meaning": "直言不讳的批评者（vocal 本义'声音的'，引申为'高调表达意见的'）",
+              "exampleEn": "She has been a vocal critic of the company's environmental record for over a decade.",
+              "exampleCn": "十多年来，她一直直言不讳地批评该公司的环境记录。"
+            },
+            {
+              "word": "express interest in",
+              "pos": "phrase",
+              "meaning": "对……表达兴趣（商务英语中比 'be interested in' 更正式、更书面化）",
+              "exampleEn": "Several private equity firms have expressed interest in acquiring the struggling retail chain.",
+              "exampleCn": "数家私募股权公司已表达了收购这家困境中零售连锁的意向。"
+            }
+          ]
+        },
+        {
+          "id": "20260509-2",
+          "category": "biz",
+          "sourceName": "24/7 Wall St. (原始报道)",
+          "sourceUrl": "https://247wallst.com/investing/2026/05/07/tens-of-thousands-of-tech-workers-are-being-laid-off-in-2026-the-725-billion-that-replaced-them-is-going-to-four-companies/",
+          "headlineEn": "Big Tech Pledges $725 Billion in 2026 Capex — While Slashing Headcount",
+          "headlineCn": "科技巨头 2026 年资本支出承诺达 7250 亿美元——同时大幅裁员",
+          "summaryEn": "Meta, Amazon, Microsoft, and Alphabet have collectively signaled around $725 billion in capital expenditures for 2026, almost entirely earmarked for data centers, custom chips, GPUs, and AI models — a year-over-year jump of more than 75%. At the same time, the four hyperscalers are trimming headcount: Meta plans 8,000 layoffs in May, Amazon has cut roughly 30,000 roles in recent months, and Microsoft has offered voluntary buyouts to about 125,000 employees.",
+          "summaryCn": "Meta、亚马逊、微软和谷歌母公司 Alphabet 合计宣告 2026 年资本支出约 7250 亿美元，几乎全部用于数据中心、定制芯片、GPU 和 AI 模型——同比增长超过 75%。与此同时，这四家'超大规模'公司正在缩减人员：Meta 计划 5 月裁员 8000 人，亚马逊近月已裁掉约 3 万岗位，微软则向约 12.5 万名员工提供了自愿离职方案。",
+          "excerpt": "Meta, Amazon, Microsoft, and Alphabet have collectively signaled roughly $725 billion in capital expenditures for 2026, almost entirely earmarked for data centers, custom chips, GPUs, and AI models — an increase of more than 75% year-over-year. At the same time, the sector is trimming headcount.",
+          "vocab": [
+            {
+              "word": "capital expenditures (capex)",
+              "pos": "n.",
+              "meaning": "资本支出（购置长期资产的开支，财经新闻核心词，常缩写为 capex）",
+              "exampleEn": "The airline announced record capital expenditures to modernize its aging fleet.",
+              "exampleCn": "该航空公司宣布了创纪录的资本支出，用于更新其老化的机队。"
+            },
+            {
+              "word": "earmark (sth) for",
+              "pos": "v.",
+              "meaning": "指定（资金）用于某用途；专款专用（比 'set aside' 更正式）",
+              "exampleEn": "The government earmarked $20 billion for clean-energy subsidies in next year's budget.",
+              "exampleCn": "政府在明年预算中专门划拨了 200 亿美元用于清洁能源补贴。"
+            },
+            {
+              "word": "trim headcount",
+              "pos": "v.phrase",
+              "meaning": "削减员工人数（trim 比 'cut' 更委婉，常见于企业公告；headcount = 员工总数）",
+              "exampleEn": "The bank plans to trim its headcount by 5% as it shifts more services to digital platforms.",
+              "exampleCn": "该银行计划将员工人数削减 5%，因为更多业务正转向数字平台。"
+            },
+            {
+              "word": "year-over-year (YoY)",
+              "pos": "adj./adv.",
+              "meaning": "同比；与去年同期相比（财报最常用的对比术语）",
+              "exampleEn": "Revenue grew 12% year-over-year, but profit margins narrowed slightly.",
+              "exampleCn": "营收同比增长 12%，但利润率略有收窄。"
+            },
+            {
+              "word": "strategic reallocation",
+              "pos": "n.phrase",
+              "meaning": "战略性资源重新配置（'reallocate' = 重新分配，企业转型常用词）",
+              "exampleEn": "The CEO defended the layoffs as a strategic reallocation of resources toward higher-growth segments.",
+              "exampleCn": "这位 CEO 为裁员辩护，称其为面向高增长业务的战略性资源再配置。"
+            }
+          ]
+        },
+        {
+          "id": "20260509-3",
+          "category": "econ",
+          "sourceName": "Crestwood Advisors Economic Update",
+          "sourceUrl": "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+          "headlineEn": "Stagflation Fears Re-emerge as Brent Crude Hits $120, Fed Holds Rates Steady",
+          "headlineCn": "布伦特原油涨至 120 美元、美联储按兵不动，'滞胀'担忧再起",
+          "summaryEn": "Brent crude has settled near $120 per barrel — up roughly 50% from pre-conflict levels — and the Federal Reserve, citing the energy shock as a continued source of inflation risk, has held rates steady. Meanwhile, the ISM manufacturing prices index hit 84.6 in April, the highest reading since April 2022. Analysts are revisiting comparisons with the 1970s stagflation, though they note that today's economy is far less energy-intensive and the Fed's policy room is narrower because U.S. federal debt now stands at roughly 100% of GDP.",
+          "summaryCn": "布伦特原油价格已稳定在每桶 120 美元附近，较冲突前上涨约 50%；美联储以能源冲击仍是持续的通胀风险为由，维持利率不变。与此同时，ISM 制造业价格指数 4 月达到 84.6，为 2022 年 4 月以来的最高水平。分析师正重新拿当下与 1970 年代的滞胀作比较，但他们指出当今经济的能源密集度已大幅下降，且由于美国联邦债务约占 GDP 的 100%，美联储的政策空间也更为狭窄。",
+          "excerpt": "Brent crude closed near $120 per barrel, up roughly 50% from pre-conflict levels. The April Federal Reserve meeting statement explicitly cited the energy shock as a source of continued inflation risk, and the ISM manufacturing prices index reached 84.6 in April, its highest level since April 2022, on tariff and energy cost pressures.",
+          "vocab": [
+            {
+              "word": "stagflation",
+              "pos": "n.",
+              "meaning": "滞胀（stagnation 停滞 + inflation 通胀的混合词，指经济停滞与高通胀并存）",
+              "exampleEn": "Persistent supply shocks have raised fears of a return to 1970s-style stagflation.",
+              "exampleCn": "持续的供给冲击引发了人们对 1970 年代式滞胀重演的担忧。"
+            },
+            {
+              "word": "hold rates steady",
+              "pos": "phrase",
+              "meaning": "维持利率不变（央行报道高频表达，同义有 'keep rates on hold' / 'leave rates unchanged'）",
+              "exampleEn": "The European Central Bank held rates steady for a third consecutive meeting, citing sticky core inflation.",
+              "exampleCn": "欧洲央行连续第三次会议维持利率不变，理由是核心通胀粘性较强。"
+            },
+            {
+              "word": "energy shock",
+              "pos": "n.",
+              "meaning": "能源冲击（多指油价等能源品价格的剧烈外生波动）",
+              "exampleEn": "Europe's industrial sector still bears the scars of the 2022 energy shock.",
+              "exampleCn": "欧洲工业部门仍承受着 2022 年那场能源冲击的伤痕。"
+            },
+            {
+              "word": "cite (sth) as",
+              "pos": "v.",
+              "meaning": "将……列为；引述……作为理由（学术与新闻通用，比 'say' 更正式）",
+              "exampleEn": "The ratings agency cited weak governance as a key reason for the downgrade.",
+              "exampleCn": "该评级机构将薄弱的公司治理列为下调评级的主要原因。"
+            },
+            {
+              "word": "narrow policy room",
+              "pos": "n.phrase",
+              "meaning": "狭窄的政策空间（'policy room' 或 'policy space' 指央行/政府可调节的余地，narrow 作形容词）",
+              "exampleEn": "With debt at record highs, emerging-market central banks have far narrower policy room than a decade ago.",
+              "exampleCn": "由于债务处于创纪录高位，新兴市场央行的政策空间远比十年前狭窄。"
+            }
+          ]
+        },
+        {
+          "id": "20260509-4",
+          "category": "tech",
+          "sourceName": "Bloomberg Technology",
+          "sourceUrl": "https://www.bloomberg.com/news/videos/2026-05-07/arm-warns-of-phone-market-weakness-video",
+          "headlineEn": "Arm Issues Bullish Forecast on AI Data Centers, Warns of Sluggish Smartphone Market",
+          "headlineCn": "Arm 发布乐观业绩指引，AI 数据中心需求强劲，但警告智能手机市场疲软",
+          "summaryEn": "UK chip designer Arm issued a stronger-than-expected revenue forecast on the back of growing demand for energy-efficient chip architectures in AI data centers. CEO Rene Haas, however, flagged sluggishness in the smartphone industry, where sales growth has stalled. The result reinforces a broader trend: the AI build-out is spreading beyond Nvidia GPUs into the wider semiconductor stack, with cloud providers actively seeking ways to scale AI workloads while curbing power consumption.",
+          "summaryCn": "英国芯片设计公司 Arm 发布了高于预期的营收指引，受益于 AI 数据中心对节能芯片架构需求的增长。然而，CEO 雷内·哈斯指出智能手机行业出现疲软，销售增长陷入停滞。这一结果强化了一个更广泛的趋势：AI 建设浪潮正从英伟达 GPU 蔓延至整个半导体链条，云服务商正积极寻找在扩展 AI 工作负载的同时抑制能耗的方法。",
+          "excerpt": "Arm issued a stronger-than-expected revenue forecast, helped by growing demand for energy-efficient chip designs in AI data centers. The company's architecture is gaining attention as cloud providers and chipmakers look for ways to reduce power consumption while scaling AI workloads. The forecast shows how the AI boom is spreading beyond Nvidia GPUs into the broader semiconductor stack.",
+          "vocab": [
+            {
+              "word": "stronger-than-expected",
+              "pos": "adj.",
+              "meaning": "超预期的；好于预期的（财经新闻里高频形容业绩、数据，注意连字符）",
+              "exampleEn": "The company posted stronger-than-expected quarterly earnings, sending shares up 8% after hours.",
+              "exampleCn": "公司公布的季度业绩超出预期，股价盘后上涨 8%。"
+            },
+            {
+              "word": "sluggish / sluggishness",
+              "pos": "adj./n.",
+              "meaning": "迟缓的、低迷的；低迷状态（B2 高频词，比 'slow' 更生动，常用于形容市场或经济）",
+              "exampleEn": "Sluggish consumer spending in Europe continues to weigh on luxury brands.",
+              "exampleCn": "欧洲消费支出的低迷持续拖累奢侈品牌。"
+            },
+            {
+              "word": "on the back of",
+              "pos": "phrase",
+              "meaning": "受……推动；得益于（财经报道经典连接词，相当于 'thanks to' 但更地道）",
+              "exampleEn": "The currency rallied on the back of upbeat manufacturing data.",
+              "exampleCn": "受制造业数据向好的推动，该货币大幅反弹。"
+            },
+            {
+              "word": "scale (sth)",
+              "pos": "v.",
+              "meaning": "扩展规模；做大（科技与商业语境中常作及物动词，注意区别于 'scale up'）",
+              "exampleEn": "The startup is struggling to scale its operations beyond its home market.",
+              "exampleCn": "这家初创公司正难以将业务规模扩展到本土市场之外。"
+            },
+            {
+              "word": "curb power consumption",
+              "pos": "v.phrase",
+              "meaning": "抑制 / 控制能耗（curb = 控制、约束，比 'reduce' 更有'刹车'意味）",
+              "exampleEn": "New regulations aim to curb power consumption in commercial real estate.",
+              "exampleCn": "新法规旨在控制商业地产领域的能耗。"
+            }
+          ]
+        },
+        {
+          "id": "20260509-5",
+          "category": "biz",
+          "sourceName": "Reuters (原始报道)",
+          "sourceUrl": "https://www.reuters.com/technology/lime-files-go-public-new-york-2026-05-08/",
+          "headlineEn": "Lime Files for U.S. IPO, Testing Investor Appetite for Micromobility",
+          "headlineCn": "Lime 提交美国 IPO 申请，测试投资者对微出行的兴趣",
+          "summaryEn": "E-bike and scooter operator Lime, backed by Uber, has filed for a U.S. initial public offering and reported a jump in annual revenue. The filing offers public-market investors their first detailed look at a maturing micromobility sector that has weathered years of shakeouts. While Lime's growth numbers suggest the category has moved beyond its early land-grab era, profitability and city-level regulation remain open questions.",
+          "summaryCn": "电动自行车与滑板车运营商、由 Uber 投资的 Lime 已提交美国 IPO 申请，并披露了年营收的大幅增长。这次申报让公募市场投资者首次详尽地审视一个已度过数年洗牌、正趋于成熟的微出行行业。尽管 Lime 的增长数据表明该品类已走出早期'跑马圈地'阶段，但盈利能力和城市层面的监管仍是悬而未决的问题。",
+          "excerpt": "Lime, the electric bike and scooter company backed by Uber, filed for a U.S. IPO and reported a jump in annual revenue. The filing gives public-market investors a fresh look at the micromobility sector after years of shakeouts. The IPO could test whether investors are ready to revisit urban mobility startups.",
+          "vocab": [
+            {
+              "word": "file for an IPO",
+              "pos": "phrase",
+              "meaning": "提交 IPO 申请（IPO = Initial Public Offering 首次公开募股；file for 是法律/监管文件用语）",
+              "exampleEn": "The chipmaker filed for an IPO last week, aiming to raise up to $4 billion.",
+              "exampleCn": "该芯片厂商上周递交了 IPO 申请，计划募资最多 40 亿美元。"
+            },
+            {
+              "word": "shakeout",
+              "pos": "n.",
+              "meaning": "行业洗牌；优胜劣汰式的整顿（弱者被淘汰、强者留下）",
+              "exampleEn": "Analysts expect a major shakeout in the EV charging industry over the next two years.",
+              "exampleCn": "分析师预计未来两年电动车充电行业将经历一次大洗牌。"
+            },
+            {
+              "word": "land-grab era",
+              "pos": "n.phrase",
+              "meaning": "'跑马圈地'时期（land grab 字面'抢地'，引申为公司不惜代价抢占市场份额的阶段）",
+              "exampleEn": "The food-delivery industry has moved from a land-grab era to a phase focused on unit economics.",
+              "exampleCn": "外卖行业已从跑马圈地时代进入聚焦单位经济效益的阶段。"
+            },
+            {
+              "word": "revisit",
+              "pos": "v.",
+              "meaning": "重新审视；再次考虑（不只是'重访'，在新闻语境中常表示'重新评估某个想法或决定'）",
+              "exampleEn": "Investors are revisiting Chinese tech stocks after a string of strong earnings reports.",
+              "exampleCn": "在一连串强劲财报之后，投资者正在重新审视中国科技股。"
+            },
+            {
+              "word": "reopen the (public-market) window",
+              "pos": "phrase",
+              "meaning": "重启 IPO 窗口（'window' 在金融语境特指适合上市/发债的时间窗口）",
+              "exampleEn": "A successful debut from this fintech could reopen the IPO window for the entire sector.",
+              "exampleCn": "这家金融科技公司若上市成功，有望为整个行业重启 IPO 窗口。"
+            }
+          ]
+        }
+      ]
+    },
+    "2026-05-08": {
+      "label": "5月8日 (周五)",
+      "stories": [
+        {
+          "id": "20260508-1",
+          "category": "econ",
+          "sourceName": "U.S. Department of Labor 就业报告解读",
+          "sourceUrl": "https://tradingeconomics.com/united-states/jobless-claims",
+          "headlineEn": "U.S. Initial Jobless Claims Tie 1969 Lows, Defying Layoff Headlines",
+          "headlineCn": "美国初请失业金人数追平 1969 年低位，与裁员新闻形成反差",
+          "summaryEn": "Initial jobless claims in the U.S. came in at 200,000 for the week ending May 2, while continuing claims fell to 1.766 million — the lowest level in over two years. The data consolidates signals of a robust labor market despite a wave of high-profile job cuts at companies like Meta and Nike. The 4-week moving average dropped to 203,250, marking a cycle low. While headline-grabbing layoffs dominate news cycles, broader hiring activity has remained surprisingly resilient.",
+          "summaryCn": "截至 5 月 2 日当周，美国初请失业金人数为 20 万人，持续申请失业金人数降至 176.6 万人——为两年多以来的最低水平。这一数据强化了美国劳动力市场依然稳健的信号，尽管 Meta、耐克等公司接连传出高调裁员消息。四周移动均值降至 20.325 万人，创周期内新低。引人注目的裁员主导了新闻头条，但更广泛的招聘活动表现出令人意外的韧性。",
+          "excerpt": "The number of people claiming unemployment benefits in the US rose by 10,000 to 200,000 in the last week of April, below market expectations of 205,000. Continuing claims fell to 1,766,000, the lowest in over two years. The data consolidated recent signals of a robust labor market despite repeated headlines indicating job cuts by major companies.",
+          "vocab": [
+            {
+              "word": "initial jobless claims",
+              "pos": "n.phrase",
+              "meaning": "初请失业金人数（美国关键劳动力市场指标，每周四发布）",
+              "exampleEn": "Wall Street watches initial jobless claims weekly as a real-time pulse on the labor market.",
+              "exampleCn": "华尔街每周关注初请失业金人数，作为衡量就业市场实时脉搏的指标。"
+            },
+            {
+              "word": "come in at",
+              "pos": "phrase",
+              "meaning": "（数据）报出于；达到（数字）（财经报道描述统计数据时的固定搭配）",
+              "exampleEn": "Q3 GDP came in at 2.8%, well above the 2.3% forecast.",
+              "exampleCn": "三季度 GDP 报出 2.8%，远高于预期的 2.3%。"
+            },
+            {
+              "word": "consolidate",
+              "pos": "v.",
+              "meaning": "强化；巩固（这里是'让某种判断更加确立'，比 'confirm' 更书面）",
+              "exampleEn": "The latest survey consolidates the view that consumer confidence has bottomed out.",
+              "exampleCn": "最新调查强化了消费者信心已触底的判断。"
+            },
+            {
+              "word": "robust",
+              "pos": "adj.",
+              "meaning": "强劲的；稳健的（描述经济、需求、市场表现时的高频褒义词）",
+              "exampleEn": "Despite higher rates, demand for the new EV remained robust through the spring.",
+              "exampleCn": "尽管利率走高，这款新电动车在整个春季的需求依然强劲。"
+            },
+            {
+              "word": "headline-grabbing",
+              "pos": "adj.",
+              "meaning": "抢头条的；博眼球的（headline 头条 + grab 抓取，地道复合形容词）",
+              "exampleEn": "The CEO's headline-grabbing remarks overshadowed an otherwise solid earnings report.",
+              "exampleCn": "这位 CEO 抢头条的言论盖过了原本稳健的财报。"
+            }
+          ]
+        },
+        {
+          "id": "20260508-2",
+          "category": "tech",
+          "sourceName": "AP News",
+          "sourceUrl": "https://apnews.com/article/cyberattack-schools-canvas-instructure-shinyhunters-a0d7719689263e6b5f90d0e633391b5b",
+          "headlineEn": "Canvas Learning Platform Breached, Up to 275 Million Education Records Exposed",
+          "headlineCn": "Canvas 学习平台遭入侵，最多 2.75 亿条教育记录泄露",
+          "summaryEn": "A ransomware group calling itself ShinyHunters has claimed responsibility for breaching Instructure, the parent company of the Canvas learning management system used widely by U.S. universities and K-12 schools. Reports point to a data breach affecting up to 275 million records — including student names, IDs, emails, and private messages. The attack took Canvas offline at many institutions during finals week, causing widespread disruption.",
+          "summaryCn": "自称 ShinyHunters 的勒索软件团伙宣称对入侵 Instructure 公司负责——该公司是被美国大学和 K-12 学校广泛使用的 Canvas 学习管理系统的母公司。报道指出此次数据泄露影响高达 2.75 亿条记录，包括学生姓名、学号、邮箱和私信内容。这次攻击在期末考试周让多所院校的 Canvas 系统下线，造成大范围中断。",
+          "excerpt": "A ransomware group identifying itself as ShinyHunters claimed responsibility for breaching Instructure, the parent company of the widely used Canvas learning management system. The attack took Canvas offline for universities and K-12 schools across the United States and beyond, with ransom notes appearing on login pages and reports of a data breach affecting up to 275 million records.",
+          "vocab": [
+            {
+              "word": "claim responsibility for",
+              "pos": "phrase",
+              "meaning": "宣称对……负责（突发事件、袭击、网络攻击报道高频固定搭配）",
+              "exampleEn": "No group has yet claimed responsibility for the cyberattack on the port.",
+              "exampleCn": "目前尚无组织宣称对这次港口网络攻击负责。"
+            },
+            {
+              "word": "breach",
+              "pos": "v./n.",
+              "meaning": "侵入；（安全/数据）漏洞、入侵事件（既可作动词也可作名词）",
+              "exampleEn": "The breach exposed millions of customer credit card numbers.",
+              "exampleCn": "这次入侵导致数百万客户的信用卡号泄露。"
+            },
+            {
+              "word": "take (sth) offline",
+              "pos": "phrase",
+              "meaning": "使（系统/网站）下线、停止服务",
+              "exampleEn": "Engineers took the booking system offline for emergency maintenance.",
+              "exampleCn": "工程师将订票系统下线以进行紧急维护。"
+            },
+            {
+              "word": "ransom note",
+              "pos": "n.",
+              "meaning": "勒索信（在勒索软件场景中，攻击者通过加密文件后留下的消息要求赎金）",
+              "exampleEn": "After the attack, employees logging in were greeted by a ransom note demanding $5 million in Bitcoin.",
+              "exampleCn": "攻击后，登录的员工看到一封勒索信，索要 500 万美元比特币。"
+            },
+            {
+              "word": "widespread disruption",
+              "pos": "n.phrase",
+              "meaning": "大范围中断/扰乱（widespread 强调地理或影响范围广）",
+              "exampleEn": "The software bug caused widespread disruption to flights across Europe.",
+              "exampleCn": "这一软件漏洞导致欧洲各地航班大范围中断。"
+            }
+          ]
+        },
+        {
+          "id": "20260508-3",
+          "category": "biz",
+          "sourceName": "The Information / Reuters 综合",
+          "sourceUrl": "https://techstartups.com/2026/05/08/top-tech-news-today-may-8-2026/",
+          "headlineEn": "OpenAI's Custom Chip Project with Broadcom Hits Reported $18 Billion Financing Snag",
+          "headlineCn": "OpenAI 与博通的自研芯片项目据报陷入 180 亿美元融资难题",
+          "summaryEn": "OpenAI's effort to build custom AI chips with Broadcom has reportedly run into an $18 billion financing hurdle. The deal is part of OpenAI's broader push to reduce dependence on Nvidia and lower long-term compute costs. The setback highlights how expensive AI hardware independence has become — even the best-funded AI companies face financing, supply chain, and partner-risk challenges when trying to build their own silicon.",
+          "summaryCn": "据报道，OpenAI 与博通联合打造定制 AI 芯片的努力遭遇了 180 亿美元的融资障碍。这笔交易是 OpenAI 减少对英伟达依赖、压低长期算力成本的更大计划的一部分。这一挫折凸显出 AI 硬件自主已变得多么昂贵——即便是融资最充足的 AI 公司，在自研芯片时也要面对融资、供应链和合作伙伴风险等多重挑战。",
+          "excerpt": "OpenAI's effort to build custom AI chips with Broadcom has reportedly run into an $18 billion financing hurdle. The deal is part of OpenAI's broader push to reduce dependence on Nvidia and lower long-term compute costs. The snag highlights how expensive AI independence has become.",
+          "vocab": [
+            {
+              "word": "run into (a hurdle/snag)",
+              "pos": "phrase",
+              "meaning": "遭遇障碍/麻烦（hurdle = 跨栏，引申为障碍；snag = 意外问题；商业新闻常用）",
+              "exampleEn": "The merger has run into antitrust hurdles in three major markets.",
+              "exampleCn": "这桩并购在三个主要市场都遭遇了反垄断障碍。"
+            },
+            {
+              "word": "reduce dependence on",
+              "pos": "phrase",
+              "meaning": "减少对……的依赖（地缘经济与供应链报道中的高频结构）",
+              "exampleEn": "Europe is investing heavily in renewables to reduce dependence on imported gas.",
+              "exampleCn": "欧洲正大力投资可再生能源，以减少对进口天然气的依赖。"
+            },
+            {
+              "word": "setback",
+              "pos": "n.",
+              "meaning": "挫折；倒退；不利进展（中性偏负面，比 'failure' 更轻、可逆转）",
+              "exampleEn": "Despite the regulatory setback, the company expects to launch the drug by year-end.",
+              "exampleCn": "尽管遭遇监管挫折，该公司预计仍能在年底前推出这款药物。"
+            },
+            {
+              "word": "best-funded",
+              "pos": "adj.",
+              "meaning": "资金最充足的（best + 过去分词构成的复合形容词，可类推 best-managed 等）",
+              "exampleEn": "Even the best-funded startups can stumble when scaling internationally.",
+              "exampleCn": "即便是资金最充足的初创公司，在国际化扩张时也可能跌跤。"
+            },
+            {
+              "word": "capital burden",
+              "pos": "n.phrase",
+              "meaning": "资本负担；资金压力（指业务扩展所需的巨大资金投入带来的压力）",
+              "exampleEn": "The capital burden of building chip fabs has consolidated the industry into a few giants.",
+              "exampleCn": "建造芯片厂的巨大资本负担将行业整合到了少数几家巨头手中。"
+            }
+          ]
+        },
+        {
+          "id": "20260508-4",
+          "category": "tech",
+          "sourceName": "VentureBeat / Anthropic Developer Day",
+          "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
+          "headlineEn": "Anthropic Unveils 'Dreaming' — Letting AI Agents Learn from Their Own Mistakes",
+          "headlineCn": "Anthropic 推出'造梦'功能：让 AI 智能体从自身错误中学习",
+          "summaryEn": "Anthropic introduced a new system called 'dreaming' that lets AI agents learn from their own failed attempts. The approach allows systems to rehearse, reflect on, and adjust their behavior between sessions — without relying solely on human correction. If it scales, this could make agents materially more useful in complex enterprise tasks where trial-and-error matters, and points toward a future where AI improves through simulated experience rather than constant fine-tuning.",
+          "summaryCn": "Anthropic 推出了一项名为'造梦'（dreaming）的新系统，让 AI 智能体能从自身的失败尝试中学习。该方法允许系统在不同会话之间预演、反思并调整自身行为，而无需完全依赖人类纠错。如果能规模化，这有望让智能体在需要试错的复杂企业任务中变得显著更有用，也指向一个 AI 通过模拟经验自我改进、而不靠不断微调的未来。",
+          "excerpt": "Anthropic introduced a new system called 'dreaming' that lets AI agents learn from their own failed attempts. The approach aims to improve agent performance by allowing systems to rehearse, reflect, and adjust without relying solely on human correction.",
+          "vocab": [
+            {
+              "word": "unveil",
+              "pos": "v.",
+              "meaning": "推出；发布（产品发布稿、官方公告里比 'release' 更正式、更有仪式感）",
+              "exampleEn": "The carmaker unveiled its first hydrogen-powered SUV at the Tokyo Motor Show.",
+              "exampleCn": "这家车企在东京车展上发布了其首款氢动力 SUV。"
+            },
+            {
+              "word": "trial-and-error",
+              "pos": "n./adj.",
+              "meaning": "试错（法）（既可作名词也可作形容词，注意连字符）",
+              "exampleEn": "Most of her cooking skills were picked up through trial-and-error rather than formal training.",
+              "exampleCn": "她大部分的厨艺都是靠试错学来的，而非正规培训。"
+            },
+            {
+              "word": "rely solely on",
+              "pos": "phrase",
+              "meaning": "完全依赖（solely 作副词加重语气，否定式 'not rely solely on' 也很常用）",
+              "exampleEn": "Investors should not rely solely on credit ratings when assessing risk.",
+              "exampleCn": "投资者在评估风险时不应完全依赖信用评级。"
+            },
+            {
+              "word": "scale (intransitive)",
+              "pos": "v.",
+              "meaning": "（系统/方法）能规模化运行（科技语境特用，如 'if it scales' = 如果它能规模化）",
+              "exampleEn": "The model works well in tests, but no one knows yet if it will scale to billions of users.",
+              "exampleCn": "该模型在测试中表现良好，但没人知道它能否规模化服务数十亿用户。"
+            },
+            {
+              "word": "point toward",
+              "pos": "phrase",
+              "meaning": "指向；预示（用比喻方式表达趋势走向，比 'show' 更含蓄文雅）",
+              "exampleEn": "Falling freight rates point toward weaker global trade in the second half.",
+              "exampleCn": "运费下滑预示着下半年全球贸易将走弱。"
+            }
+          ]
+        },
+        {
+          "id": "20260508-5",
+          "category": "biz",
+          "sourceName": "The Wall Street Journal (Tech Startups 转述)",
+          "sourceUrl": "https://techstartups.com/2026/05/08/top-tech-news-today-may-8-2026/",
+          "headlineEn": "Ramp Reportedly Seeks Funding at $40B Valuation as Fintech Momentum Returns",
+          "headlineCn": "Ramp 据传寻求 400 亿美元估值融资，金融科技势头回归",
+          "summaryEn": "Corporate card and expense management startup Ramp is reportedly raising funds at a valuation above $40 billion, just months after reaching $32 billion. The valuation jump reflects investor appetite for fintech companies that can pair strong revenue growth with AI-driven automation. Ramp has increasingly positioned itself less as a card company and more as an AI-enabled enterprise platform handling expense intelligence, procurement, and finance workflow automation.",
+          "summaryCn": "企业商务卡与费用管理初创公司 Ramp 据报正以超过 400 亿美元的估值融资，距其上一轮 320 亿美元估值仅几个月。估值跳升反映出投资者对兼具强劲营收增长与 AI 驱动自动化能力的金融科技公司充满兴趣。Ramp 也日益将自己定位为一个 AI 赋能的企业平台——负责费用智能、采购和财务流程自动化——而非单纯的商务卡公司。",
+          "excerpt": "Corporate card and expense management startup Ramp is reportedly raising funds at a valuation above $40 billion, just months after reaching $32 billion. The jump reflects investor appetite for fintech companies that can pair strong revenue growth with AI-driven automation.",
+          "vocab": [
+            {
+              "word": "investor appetite",
+              "pos": "n.phrase",
+              "meaning": "投资者胃口/兴趣（appetite 在金融语境是经典隐喻，比 'interest' 更生动）",
+              "exampleEn": "Strong investor appetite for green bonds has pushed yields to record lows.",
+              "exampleCn": "投资者对绿色债券的强劲胃口已将收益率推至历史低点。"
+            },
+            {
+              "word": "pair (sth) with",
+              "pos": "v.",
+              "meaning": "将……与……结合；同时具备（商业写作中描述两种能力或特性叠加的优雅表达）",
+              "exampleEn": "The new model pairs a powerful chip with a much longer battery life.",
+              "exampleCn": "新机型同时具备强大的芯片和更长的续航。"
+            },
+            {
+              "word": "position (oneself) as",
+              "pos": "phrase",
+              "meaning": "把自己定位为（品牌、商业策略中描述身份重塑的高频表达）",
+              "exampleEn": "The legacy retailer is now positioning itself as a tech-driven logistics platform.",
+              "exampleCn": "这家老牌零售商如今正把自己定位为一家科技驱动的物流平台。"
+            },
+            {
+              "word": "valuation jump",
+              "pos": "n.phrase",
+              "meaning": "估值跳升（一二级市场语境，相对于 'valuation increase' 更口语化、更动态）",
+              "exampleEn": "The valuation jump from $5 billion to $12 billion in eight months raised eyebrows.",
+              "exampleCn": "8 个月内估值从 50 亿跳升至 120 亿，引发了质疑。"
+            },
+            {
+              "word": "workflow automation",
+              "pos": "n.phrase",
+              "meaning": "工作流自动化（B2B SaaS 与企业软件领域的核心术语）",
+              "exampleEn": "Mid-sized companies are the biggest spenders on workflow automation tools this year.",
+              "exampleCn": "今年中型企业是工作流自动化工具的最大购买方。"
+            }
+          ]
+        }
+      ]
+    },
+    "2026-05-07": {
+      "label": "5月7日 (周四)",
+      "stories": [
+        {
+          "id": "20260507-1",
+          "category": "tech",
+          "sourceName": "Anthropic 官方公告",
+          "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
+          "headlineEn": "Anthropic Taps All Compute at SpaceX's Memphis Colossus 1 Data Center",
+          "headlineCn": "Anthropic 锁定 SpaceX 孟菲斯 Colossus 1 数据中心全部算力",
+          "summaryEn": "Anthropic announced a deal on May 6 to tap all available compute at SpaceX's Colossus 1 data center in Memphis, gaining access to more than 300 megawatts of power and 220,000+ Nvidia GPUs. The move directly addresses Anthropic's infrastructure strain after 80x growth in Q1 2026, which had caused reliability issues for Claude Pro and Max users. Notably, Elon Musk — who had previously slammed Anthropic — publicly praised the team after meetings.",
+          "summaryCn": "Anthropic 于 5 月 6 日宣布交易，将动用 SpaceX 孟菲斯 Colossus 1 数据中心的全部可用算力，获得 300 兆瓦以上电力以及 22 万块以上的英伟达 GPU。此举直接缓解了 Anthropic 在 2026 一季度增长 80 倍后产生的基础设施紧张，这一压力此前已经导致 Claude Pro 与 Max 用户出现可靠性问题。值得一提的是，曾激烈抨击 Anthropic 的马斯克在会面后公开称赞了 Anthropic 的团队。",
+          "excerpt": "The move directly addresses Anthropic's infrastructure strain after 80x growth in Q1 2026, which had caused reliability issues for Claude Pro and Max users. The agreement highlights the ferocious competition for power-hungry AI training resources and the blurring lines between space and AI infrastructure players.",
+          "vocab": [
+            {
+              "word": "tap (sth)",
+              "pos": "v.",
+              "meaning": "动用、利用（资源/资金/人才）（生动比喻，原意'轻拍'，引申为'打开开关取用'）",
+              "exampleEn": "The company plans to tap the bond market for $2 billion in fresh capital.",
+              "exampleCn": "该公司计划在债券市场动用 20 亿美元的新资金。"
+            },
+            {
+              "word": "infrastructure strain",
+              "pos": "n.phrase",
+              "meaning": "基础设施压力（strain 比 stress/pressure 更具体地指'拉扯到极限'的感觉）",
+              "exampleEn": "Soaring electricity demand from AI is putting unprecedented strain on regional grids.",
+              "exampleCn": "AI 带来的飙升电力需求正给区域电网施加前所未有的压力。"
+            },
+            {
+              "word": "reliability issues",
+              "pos": "n.phrase",
+              "meaning": "可靠性问题（系统/产品报道中的标准说法，比 'problems' 更专业）",
+              "exampleEn": "The carmaker recalled 50,000 vehicles to fix reliability issues with its braking system.",
+              "exampleCn": "该车企召回 5 万辆汽车，以修复刹车系统的可靠性问题。"
+            },
+            {
+              "word": "ferocious competition",
+              "pos": "n.phrase",
+              "meaning": "激烈竞争（ferocious 比 fierce 更强烈，常带'凶猛、凶狠'之意）",
+              "exampleEn": "The streaming wars have entered a phase of ferocious competition for original content.",
+              "exampleCn": "流媒体大战已进入争夺原创内容的激烈竞争阶段。"
+            },
+            {
+              "word": "blurring lines",
+              "pos": "n.phrase",
+              "meaning": "界限模糊化（blur 作动词意为'使模糊'，blurring 是动名词形式）",
+              "exampleEn": "Wearable health tech is blurring the lines between consumer gadgets and medical devices.",
+              "exampleCn": "可穿戴健康科技正在模糊消费电子与医疗设备的界限。"
+            }
+          ]
+        },
+        {
+          "id": "20260507-2",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
+          "headlineEn": "TSMC Ramps Up Wind Power Buys to Fuel AI Chip Boom Amid Taiwan Energy Crunch",
+          "headlineCn": "TSMC 加大风电采购支撑 AI 芯片热潮，台湾电力紧张引发关注",
+          "summaryEn": "TSMC is ramping up wind-power purchases to fuel its advanced fabs amid record AI-driven chip orders, even as Taiwan grapples with broader electricity shortages. The move aims to stabilize supply for major customers, including Nvidia and Apple. Energy constraints are now a material risk to the global semiconductor supply chain — and the world's leading chip foundry's pivot to renewables highlights how AI growth is forcing sustainability trade-offs and exposing geographic vulnerabilities in critical tech manufacturing.",
+          "summaryCn": "面对 AI 驱动的创纪录芯片订单，TSMC 正加大对风能的采购以为其先进晶圆厂供电，与此同时台湾正在应对更广泛的电力短缺。此举旨在为英伟达、苹果等大客户稳定供货。能源约束如今已成为全球半导体供应链的实质性风险——世界领先芯片代工厂转向可再生能源，凸显了 AI 增长正迫使行业做出可持续性权衡，并暴露出关键科技制造的地理脆弱性。",
+          "excerpt": "TSMC is ramping up wind-power purchases to fuel its advanced fabs amid record AI-driven chip orders, even as Taiwan grapples with broader electricity shortages. The move aims to stabilize supply for customers, including Nvidia and Apple. Energy constraints are now a material risk to the global semiconductor supply chain.",
+          "vocab": [
+            {
+              "word": "ramp up",
+              "pos": "phrasal v.",
+              "meaning": "加大；提升（产量、采购、能力）（产业新闻高频短语，反义为 'ramp down'）",
+              "exampleEn": "Pharma companies are ramping up production of obesity drugs to meet booming demand.",
+              "exampleCn": "药企正在加大减肥药生产以满足激增的需求。"
+            },
+            {
+              "word": "grapple with",
+              "pos": "v.",
+              "meaning": "努力应对、与……搏斗（处理棘手问题，比 'deal with' 更有挣扎感）",
+              "exampleEn": "Local governments are grappling with the housing affordability crisis.",
+              "exampleCn": "地方政府正在艰难应对住房可负担性危机。"
+            },
+            {
+              "word": "material risk",
+              "pos": "n.phrase",
+              "meaning": "实质性风险（material 在金融/法律语境是核心词，意为'重大的、有实质影响的'）",
+              "exampleEn": "Climate change has become a material risk that boards must disclose to investors.",
+              "exampleCn": "气候变化已成为董事会必须向投资者披露的实质性风险。"
+            },
+            {
+              "word": "pivot to",
+              "pos": "v.phrase",
+              "meaning": "转向（战略/方向）（科技与商业语境的核心动词，比 'shift to' 更主动）",
+              "exampleEn": "The magazine pivoted to a digital-first strategy after losing 60% of its print readers.",
+              "exampleCn": "在失去 60% 的纸质读者后，这本杂志转向了数字优先的战略。"
+            },
+            {
+              "word": "trade-off",
+              "pos": "n.",
+              "meaning": "权衡；取舍（无法兼得时的让步选择，常带连字符）",
+              "exampleEn": "There's always a trade-off between performance and battery life in laptop design.",
+              "exampleCn": "笔记本设计中性能与续航之间总存在取舍。"
+            }
+          ]
+        },
+        {
+          "id": "20260507-3",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
+          "headlineEn": "Google Shuts Down Project Mariner, Folds AI Browser Agent into Gemini",
+          "headlineCn": "谷歌关停 Project Mariner，将 AI 浏览器智能体并入 Gemini",
+          "summaryEn": "Google has shut down Project Mariner, its experimental AI browser agent that could perform web tasks such as booking hotels or organizing email. The company said the technology has been folded into other Google products, including Gemini Agent and AI Mode. The move is less a retreat from agentic AI than a consolidation — Google is shifting away from standalone experiments toward embedding agentic features inside products people already use, raising fresh questions about trust, permissions, and how much autonomy users will hand over.",
+          "summaryCn": "谷歌已关停其实验性 AI 浏览器智能体 Project Mariner，该项目可执行预订酒店、整理邮件等网页任务。公司表示相关技术已并入 Gemini Agent、AI Mode 等其他谷歌产品。此举与其说是从智能体 AI 撤退，不如说是产品整合——谷歌正从独立实验转向把智能体功能内嵌于人们已经在用的产品中，这也再度引发了关于信任、权限、以及用户愿意让渡多少自主权的讨论。",
+          "excerpt": "Google has shut down Project Mariner, its experimental AI browser agent that could perform web tasks such as booking hotels or organizing email. The company said the technology has moved into other Google products. This is less a retreat from agentic AI than a consolidation of products.",
+          "vocab": [
+            {
+              "word": "shut (sth) down",
+              "pos": "phrasal v.",
+              "meaning": "关闭、停止（项目/系统/工厂）（中性，常用于产品关停的官方说法）",
+              "exampleEn": "The chipmaker shut down its U.K. research lab as part of a global cost-cutting drive.",
+              "exampleCn": "在全球削减成本的行动中，这家芯片厂商关停了其英国研发实验室。"
+            },
+            {
+              "word": "fold (sth) into",
+              "pos": "v.",
+              "meaning": "并入；合并到（fold 原意'折叠'，引申为'把 A 合并进 B'，比 merge 更地道）",
+              "exampleEn": "The startup's payments unit will be folded into the parent bank's retail division.",
+              "exampleCn": "这家初创公司的支付部门将被并入母行的零售业务条线。"
+            },
+            {
+              "word": "less A than B",
+              "pos": "phrase",
+              "meaning": "与其说是 A 不如说是 B（高级写作结构，比 'not A, but rather B' 更精炼）",
+              "exampleEn": "His departure was less a resignation than a quiet retirement.",
+              "exampleCn": "他的离开与其说是辞职，不如说是悄然退休。"
+            },
+            {
+              "word": "consolidation",
+              "pos": "n.",
+              "meaning": "整合；合并（产品、行业、市场）（比 'combination' 更专业）",
+              "exampleEn": "The streaming industry is bracing for another wave of consolidation.",
+              "exampleCn": "流媒体行业正为另一轮整合做准备。"
+            },
+            {
+              "word": "hand over",
+              "pos": "phrasal v.",
+              "meaning": "交出、让渡（权力/控制权/数据）",
+              "exampleEn": "Many users are uncomfortable handing over biometric data to private companies.",
+              "exampleCn": "许多用户对把生物识别数据交给私营公司感到不安。"
+            }
+          ]
+        },
+        {
+          "id": "20260507-4",
+          "category": "tech",
+          "sourceName": "SecurityWeek",
+          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
+          "headlineEn": "AI-Assisted Cyberattack Targets U.S. Water Utility, Pointing to a Darker Side of AI",
+          "headlineCn": "AI 辅助网络攻击瞄准美国水务公司，揭示 AI 应用阴暗面",
+          "summaryEn": "According to a new report, an AI system helped guide attackers toward operational technology assets at a U.S. water utility, including ICS and SCADA control systems. The incident points to a darker side of AI adoption in cybersecurity: the same models that help defenders analyze threats can also help attackers move faster, ask sharper questions, and target critical infrastructure more effectively. Water utilities are especially sensitive because disruptions can directly affect public safety.",
+          "summaryCn": "据一份新报告，一套 AI 系统在一家美国水务公司的网络攻击中帮助攻击者瞄准了运营技术（OT）资产，包括 ICS 和 SCADA 控制系统。事件揭示了 AI 在网络安全中应用的阴暗一面：帮助防御者分析威胁的同款模型，同样可以帮助攻击者动作更快、提问更精准、更有效地瞄准关键基础设施。水务公司尤其敏感，因为任何中断都可能直接危及公众安全。",
+          "excerpt": "According to the report, the AI system helped guide attackers toward operational technology assets, including ICS and SCADA systems. The incident is important because it points to a darker side of AI adoption in cybersecurity. AI can help defenders analyze threats, but it can also help attackers move faster, ask better questions, and target critical infrastructure more effectively.",
+          "vocab": [
+            {
+              "word": "critical infrastructure",
+              "pos": "n.phrase",
+              "meaning": "关键基础设施（电网、水务、交通、通信等社会运行基础——网络安全核心词）",
+              "exampleEn": "New legislation tightens cybersecurity rules for operators of critical infrastructure.",
+              "exampleCn": "新立法收紧了关键基础设施运营商的网络安全规则。"
+            },
+            {
+              "word": "darker side of",
+              "pos": "n.phrase",
+              "meaning": "……的阴暗面（A 的阴暗一面；新闻评论中描述技术/社会现象负面影响的常用表达）",
+              "exampleEn": "The film explores the darker side of celebrity culture.",
+              "exampleCn": "这部电影探索了名人文化的阴暗面。"
+            },
+            {
+              "word": "guide (sb) toward",
+              "pos": "phrase",
+              "meaning": "引导……走向；指引（在攻击/营销/教学语境都有运用）",
+              "exampleEn": "Recommendation algorithms quietly guide users toward more extreme content.",
+              "exampleCn": "推荐算法悄无声息地把用户引向更极端的内容。"
+            },
+            {
+              "word": "disruption",
+              "pos": "n.",
+              "meaning": "中断、扰动；颠覆（这里取'中断'之意，但同一词在科技语境也指'颠覆性创新'，需看上下文）",
+              "exampleEn": "A two-hour disruption at the data center cost the bank an estimated $40 million.",
+              "exampleCn": "数据中心两小时的中断，估计让该银行损失约 4000 万美元。"
+            },
+            {
+              "word": "publicly sensitive",
+              "pos": "adj.phrase",
+              "meaning": "对公众影响敏感的（用 'sensitive' 修饰具体名词，是高级写作技巧）",
+              "exampleEn": "Hospitals and water utilities are uniquely sensitive targets for cyberattacks.",
+              "exampleCn": "医院和水务公司是网络攻击中尤为敏感的目标。"
+            }
+          ]
+        },
+        {
+          "id": "20260507-5",
+          "category": "biz",
+          "sourceName": "The Register",
+          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
+          "headlineEn": "Cutting Staff for AI? Productivity Gains May Not Follow, Report Warns",
+          "headlineCn": "为了 AI 裁员？报告警告：生产力红利未必如约而至",
+          "summaryEn": "A new report highlighted by The Register warns that companies cutting staff in anticipation of AI productivity gains may not see the benefits they expect. The findings suggest that AI adoption works best as a business redesign, not as blind cost-cutting. Firms that simply automate existing workflows often find efficiency improvements offset by integration costs, technical debt, and a loss of institutional knowledge — while companies that thoughtfully reorganize around AI capabilities tend to capture more durable gains.",
+          "summaryCn": "The Register 援引的一份新报告警告：那些为了 AI 红利而提前裁员的公司，未必能看到他们预期的回报。报告认为，AI 应用作为'业务再设计'时效果最好，而不是单纯的盲目裁员降本。仅仅自动化现有工作流程的公司，往往发现效率提升被集成成本、技术债务和组织知识流失所抵消；而那些围绕 AI 能力进行深思熟虑重组的公司，往往能获得更持久的收益。",
+          "excerpt": "A new report warns that companies cutting staff due to AI may not see the productivity gains they expect. AI adoption works best as a business redesign, not blind cost-cutting.",
+          "vocab": [
+            {
+              "word": "in anticipation of",
+              "pos": "phrase",
+              "meaning": "预期/为应对……而（比 'expecting' 更书面，常用于商业决策语境）",
+              "exampleEn": "Retailers stocked up in anticipation of holiday demand.",
+              "exampleCn": "零售商为应对假日需求而大量进货。"
+            },
+            {
+              "word": "blind cost-cutting",
+              "pos": "n.phrase",
+              "meaning": "盲目降本（blind 形容缺乏战略思考的削减成本行为，多带批评意味）",
+              "exampleEn": "Blind cost-cutting in R&D often shows up as weaker products three years later.",
+              "exampleCn": "研发上的盲目降本，往往三年后会以产品力削弱的形式显现。"
+            },
+            {
+              "word": "offset",
+              "pos": "v./n.",
+              "meaning": "抵消；冲销（财务/经济报道高频，作动词或名词都很常见）",
+              "exampleEn": "Higher fuel costs were offset by stronger ticket sales.",
+              "exampleCn": "更高的燃油成本被更强劲的票务销售所抵消。"
+            },
+            {
+              "word": "technical debt",
+              "pos": "n.phrase",
+              "meaning": "技术债（软件工程术语：为追求短期速度而留下的代码遗留问题）",
+              "exampleEn": "After years of rapid releases, the team is now paying down years of technical debt.",
+              "exampleCn": "经过多年的快速发布后，该团队正在偿还多年累积的技术债。"
+            },
+            {
+              "word": "institutional knowledge",
+              "pos": "n.phrase",
+              "meaning": "组织/机构知识（员工头脑里关于公司流程、客户、历史的隐性知识）",
+              "exampleEn": "When the senior engineers retired, the company lost decades of institutional knowledge.",
+              "exampleCn": "高级工程师退休后，公司流失了几十年的组织知识。"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

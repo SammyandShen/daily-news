@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 任务唯一标识符（反向域名格式约定） -->
+    <key>Label</key>
+    <string>com.user.daily-news</string>
+
+    <!-- 要跑的脚本：把 USERNAME 换成你的 Mac 用户名（终端跑 whoami 可看） -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/USERNAME/daily-news/daily-update.sh</string>
+    </array>
+
+    <!-- 每天 7:00 跑 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- 关键：如果到点时电脑在睡眠，唤醒后会立即补跑 -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- 工作目录（脚本会自己 cd 过去，但还是设上更稳） -->
+    <key>WorkingDirectory</key>
+    <string>/Users/USERNAME/daily-news</string>
+
+    <!-- 标准输出和错误日志，方便排查 -->
+    <key>StandardOutPath</key>
+    <string>/Users/USERNAME/daily-news/logs/launchd-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/USERNAME/daily-news/logs/launchd-stderr.log</string>
+
+    <!-- 让脚本能找到 Homebrew、npm、node 等安装的命令 -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/USERNAME/.npm-global/bin</string>
+        <key>HOME</key>
+        <string>/Users/USERNAME</string>
+    </dict>
+</dict>
+</plist>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily English News · 每日英语新闻精读</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: #f5f7fa;
+    color: #1a1a1a;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  .app {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 100vh;
+  }
+  .sidebar {
+    background: #fff;
+    border-right: 1px solid #e0e6f0;
+    padding: 24px 16px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  .sidebar h2 { font-size: 18px; color: #1a365d; margin-bottom: 18px; letter-spacing: -0.2px; }
+  .sidebar h3 { font-size: 11px; color: #718096; text-transform: uppercase; letter-spacing: 0.6px; margin: 18px 0 8px; font-weight: 700; }
+  .last-updated { font-size: 11px; color: #a0aec0; margin-bottom: 14px; padding: 6px 10px; background: #f7fafc; border-radius: 6px; }
+  .date-list { list-style: none; }
+  .date-item { padding: 9px 12px; border-radius: 8px; cursor: pointer; font-size: 14px; color: #4a5568; margin-bottom: 4px; transition: all 0.15s; user-select: none; }
+  .date-item:hover { background: #f0f4f9; }
+  .date-item.active { background: #1a365d; color: #fff; font-weight: 500; }
+  .date-item .date-sub { display: block; font-size: 11px; opacity: 0.7; margin-top: 2px; }
+  .nav-tabs { display: flex; gap: 6px; margin-bottom: 18px; }
+  .nav-tab { flex: 1; padding: 8px 10px; background: #f7fafc; border: 1px solid #e0e6f0; border-radius: 8px; cursor: pointer; font-size: 13px; color: #4a5568; text-align: center; transition: all 0.15s; user-select: none; font-weight: 500; }
+  .nav-tab.active { background: #1a365d; color: #fff; border-color: #1a365d; }
+  .fav-count { display: inline-block; background: #fbd38d; color: #744210; border-radius: 10px; padding: 1px 7px; font-size: 11px; font-weight: 700; margin-left: 4px; }
+
+  .main { padding: 32px 40px 60px; max-width: 920px; }
+  header { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #e0e6f0; }
+  header h1 { font-size: 26px; font-weight: 700; color: #1a365d; }
+  header .subtitle { margin-top: 6px; color: #4a5568; font-size: 14px; }
+  .level-badge { display: inline-block; background: #1a365d; color: #fff; padding: 2px 9px; border-radius: 10px; font-size: 11px; font-weight: 500; margin-left: 6px; }
+
+  .card-tabs { display: flex; gap: 6px; margin-bottom: 20px; flex-wrap: wrap; }
+  .card-tab { padding: 8px 14px; background: #fff; border: 1.5px solid #e0e6f0; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 500; color: #4a5568; transition: all 0.15s; user-select: none; }
+  .card-tab:hover { border-color: #1a365d; color: #1a365d; }
+  .card-tab.active { background: #1a365d; color: #fff; border-color: #1a365d; }
+  .news-card { background: #fff; border-radius: 14px; padding: 26px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.04); animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; gap: 10px; flex-wrap: wrap; }
+  .category { display: inline-block; padding: 3px 10px; border-radius: 5px; font-size: 11px; font-weight: 700; letter-spacing: 0.3px; }
+  .cat-tech { background: #e6f3ff; color: #0066cc; }
+  .cat-biz  { background: #fff3e0; color: #cc6600; }
+  .cat-econ { background: #e6f7ed; color: #1a7a3e; }
+  .source-link { font-size: 12px; color: #718096; }
+  .source-link a { color: #1a365d; text-decoration: none; }
+  .source-link a:hover { text-decoration: underline; }
+  h2.headline { font-size: 20px; font-weight: 700; color: #1a202c; margin-bottom: 6px; line-height: 1.35; }
+  .headline-cn { font-size: 15px; color: #4a5568; margin-bottom: 16px; }
+  .section { margin-top: 18px; padding-top: 16px; border-top: 1px dashed #e0e6f0; }
+  .section-title { font-size: 12px; font-weight: 700; color: #1a365d; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.6px; }
+  .summary-en { font-size: 14.5px; line-height: 1.7; color: #2d3748; margin-bottom: 6px; }
+  .summary-cn { font-size: 13.5px; line-height: 1.7; color: #4a5568; padding-left: 10px; border-left: 3px solid #e0e6f0; }
+  .excerpt { background: #f7fafc; border-left: 4px solid #1a365d; padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 13.5px; line-height: 1.7; color: #2d3748; font-style: italic; }
+  .vocab-item { background: #fafbfc; border: 1px solid #e8ecf2; border-radius: 10px; padding: 13px 16px; margin-bottom: 10px; transition: all 0.15s; }
+  .vocab-item:hover { border-color: #1a365d; box-shadow: 0 2px 6px rgba(26, 54, 93, 0.06); }
+  .vocab-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+  .vocab-content { flex: 1; }
+  .vocab-word { font-size: 15.5px; font-weight: 700; color: #1a365d; }
+  .vocab-pos { display: inline-block; font-size: 11px; color: #718096; background: #edf2f7; padding: 1px 7px; border-radius: 4px; margin-left: 6px; font-style: italic; font-weight: 500; }
+  .vocab-meaning { margin-top: 4px; font-size: 13.5px; color: #4a5568; }
+  .vocab-example { margin-top: 7px; font-size: 13px; color: #2d3748; padding: 7px 11px; background: #fff; border-radius: 6px; border-left: 3px solid #cbd5e0; }
+  .vocab-example .label { font-size: 10px; color: #718096; font-weight: 700; text-transform: uppercase; margin-right: 5px; }
+  .vocab-example-cn { margin-top: 3px; font-size: 12.5px; color: #718096; }
+  .fav-btn { flex-shrink: 0; width: 32px; height: 32px; border-radius: 6px; border: 1px solid #e0e6f0; background: #fff; cursor: pointer; font-size: 16px; color: #a0aec0; transition: all 0.15s; user-select: none; display: flex; align-items: center; justify-content: center; }
+  .fav-btn:hover { border-color: #d69e2e; color: #d69e2e; }
+  .fav-btn.active { background: #fef3c7; border-color: #d69e2e; color: #b7791f; }
+
+  .fav-page { display: none; }
+  .fav-page.active { display: block; }
+  .fav-toolbar { background: #fff; border-radius: 12px; padding: 16px 20px; margin-bottom: 18px; box-shadow: 0 2px 10px rgba(0,0,0,0.04); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .fav-toolbar input[type="text"] { flex: 1; min-width: 180px; padding: 8px 12px; border: 1px solid #e0e6f0; border-radius: 8px; font-size: 14px; outline: none; }
+  .fav-toolbar input[type="text"]:focus { border-color: #1a365d; }
+  .btn { padding: 8px 14px; border: 1px solid #1a365d; background: #fff; color: #1a365d; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.15s; user-select: none; }
+  .btn:hover { background: #1a365d; color: #fff; }
+  .btn-primary { background: #1a365d; color: #fff; }
+  .btn-primary:hover { background: #2d4a7a; }
+  .btn-danger { border-color: #c53030; color: #c53030; }
+  .btn-danger:hover { background: #c53030; color: #fff; }
+  .tag-filter-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+  .tag-chip { padding: 5px 12px; background: #fff; border: 1px solid #e0e6f0; border-radius: 16px; font-size: 12px; color: #4a5568; cursor: pointer; user-select: none; transition: all 0.15s; }
+  .tag-chip:hover { border-color: #1a365d; }
+  .tag-chip.active { background: #1a365d; color: #fff; border-color: #1a365d; }
+  .fav-item { background: #fff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); border-left: 4px solid #d69e2e; }
+  .fav-item-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px; }
+  .fav-word { font-size: 15px; font-weight: 700; color: #1a365d; }
+  .fav-pos { display: inline-block; font-size: 11px; color: #718096; background: #edf2f7; padding: 1px 6px; border-radius: 4px; margin-left: 5px; font-style: italic; }
+  .fav-meta { font-size: 11px; color: #a0aec0; margin-top: 2px; }
+  .fav-meaning { font-size: 13.5px; color: #4a5568; margin-top: 4px; }
+  .fav-example { font-size: 12.5px; color: #2d3748; margin-top: 6px; padding: 6px 10px; background: #f7fafc; border-radius: 5px; border-left: 2px solid #cbd5e0; }
+  .fav-example-cn { font-size: 12px; color: #718096; margin-top: 2px; }
+  .fav-tags { margin-top: 8px; display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
+  .fav-tag { background: #ebf4ff; color: #2c5282; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 500; display: inline-flex; align-items: center; gap: 4px; }
+  .fav-tag .x { cursor: pointer; opacity: 0.5; font-size: 14px; line-height: 1; }
+  .fav-tag .x:hover { opacity: 1; }
+  .fav-tag-input { border: 1px dashed #cbd5e0; background: transparent; border-radius: 10px; font-size: 11px; padding: 2px 8px; outline: none; width: 90px; }
+  .fav-tag-input:focus { border-style: solid; border-color: #1a365d; }
+  .fav-actions { display: flex; gap: 5px; flex-shrink: 0; }
+  .icon-btn { width: 26px; height: 26px; border-radius: 5px; border: 1px solid #e0e6f0; background: #fff; cursor: pointer; font-size: 13px; color: #718096; display: flex; align-items: center; justify-content: center; transition: all 0.15s; }
+  .icon-btn:hover { border-color: #c53030; color: #c53030; }
+  .empty { text-align: center; padding: 50px 20px; color: #a0aec0; }
+  .empty-icon { font-size: 36px; margin-bottom: 10px; }
+  .loading { text-align: center; padding: 60px 20px; color: #718096; }
+  .loading-spinner { display: inline-block; width: 24px; height: 24px; border: 3px solid #e0e6f0; border-top-color: #1a365d; border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 10px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: #1a365d; color: #fff; padding: 10px 20px; border-radius: 8px; font-size: 13px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); opacity: 0; transition: opacity 0.2s; pointer-events: none; z-index: 1000; }
+  .toast.show { opacity: 1; }
+
+  @media (max-width: 760px) {
+    .app { grid-template-columns: 1fr; }
+    .sidebar { position: static; height: auto; border-right: none; border-bottom: 1px solid #e0e6f0; }
+    .main { padding: 22px 18px 50px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <h2>📰 Daily News</h2>
+    <div class="last-updated" id="last-updated">加载中…</div>
+    <div class="nav-tabs">
+      <div class="nav-tab active" data-page="news">News</div>
+      <div class="nav-tab" data-page="favorites">收藏 <span class="fav-count" id="fav-count-badge">0</span></div>
+    </div>
+    <div id="date-section">
+      <h3>选择日期</h3>
+      <ul class="date-list" id="date-list"></ul>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div id="news-page">
+      <header>
+        <h1 id="page-title">📰 Daily English News</h1>
+        <div class="subtitle">每日英语新闻精读 · 科技 / 商业 / 经济 <span class="level-badge" id="level-badge">B2</span></div>
+      </header>
+      <div class="card-tabs" id="card-tabs"></div>
+      <div id="card-container">
+        <div class="loading"><div class="loading-spinner"></div><div>正在加载新闻数据…</div></div>
+      </div>
+    </div>
+
+    <div id="favorites-page" class="fav-page">
+      <header>
+        <h1>⭐ 我的收藏</h1>
+        <div class="subtitle">收藏的单词与表达 · 可分组打标签 · 可导出 Markdown</div>
+      </header>
+      <div class="fav-toolbar">
+        <input type="text" id="fav-search" placeholder="🔍 搜索单词、释义或例句…">
+        <button class="btn btn-primary" id="export-md-btn">📥 导出 Markdown</button>
+        <button class="btn" id="backup-btn">💾 备份 JSON</button>
+        <button class="btn" id="restore-btn">📂 从 JSON 恢复</button>
+        <input type="file" id="restore-file" accept=".json" style="display:none">
+        <button class="btn btn-danger" id="clear-all-btn">🗑️ 清空</button>
+      </div>
+      <div class="tag-filter-row" id="tag-filter-row"></div>
+      <div class="fav-list" id="fav-list"></div>
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ============ STATE ============
+let NEWS_DATA = {};            // 从 news.json 加载
+let LEVEL = "B2";
+let lastUpdated = "";
+let currentPage = "news";
+let currentDate = null;
+let currentStoryIdx = 0;
+let favorites = [];
+let activeTagFilter = null;
+let searchQuery = "";
+
+const FAV_STORAGE_KEY = "english_news_favorites_v3";
+
+const storage = {
+  _mem: {},
+  get(k) { try { return localStorage.getItem(k); } catch(e) { return this._mem[k] || null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch(e) { this._mem[k] = v; } }
+};
+
+function loadFavorites() {
+  const raw = storage.get(FAV_STORAGE_KEY);
+  if (raw) { try { favorites = JSON.parse(raw); } catch(e) { favorites = []; } }
+}
+function saveFavorites() { storage.set(FAV_STORAGE_KEY, JSON.stringify(favorites)); }
+
+let toastTimer = null;
+function toast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove("show"), 1800);
+}
+
+function escapeHtml(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+// ============ DATA LOADING ============
+async function loadNews() {
+  try {
+    // 加 cache-buster 避免 CDN 缓存
+    const resp = await fetch(`news.json?t=${Date.now()}`);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    NEWS_DATA = data.days || {};
+    LEVEL = data.level || "B2";
+    lastUpdated = data.lastUpdated || "";
+    document.getElementById("level-badge").textContent = LEVEL;
+    if (lastUpdated) {
+      const d = new Date(lastUpdated);
+      document.getElementById("last-updated").textContent =
+        `📡 更新于 ${d.toLocaleString("zh-CN", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" })}`;
+    }
+    // 默认选最新日期
+    const dates = Object.keys(NEWS_DATA).sort().reverse();
+    currentDate = dates[0] || null;
+    render();
+  } catch (e) {
+    document.getElementById("card-container").innerHTML =
+      `<div class="empty"><div class="empty-icon">⚠️</div>
+       <div>加载新闻数据失败：${escapeHtml(e.message)}</div>
+       <div style="margin-top:10px;font-size:12px;">如果是首次部署，请先在 GitHub Actions 手动触发一次 Daily News Update</div></div>`;
+    document.getElementById("last-updated").textContent = "⚠️ 加载失败";
+  }
+}
+
+// ============ SIDEBAR ============
+function renderDateList() {
+  const ul = document.getElementById("date-list");
+  const dates = Object.keys(NEWS_DATA).sort().reverse();
+  if (dates.length === 0) {
+    ul.innerHTML = '<div style="font-size:12px;color:#a0aec0;padding:8px;">暂无数据</div>';
+    return;
+  }
+  ul.innerHTML = dates.map(d => {
+    const data = NEWS_DATA[d];
+    const cls = (d === currentDate && currentPage === "news") ? "active" : "";
+    return `<li class="date-item ${cls}" data-date="${d}">
+      ${escapeHtml(data.label || d)}
+      <span class="date-sub">${(data.stories || []).length} 篇</span>
+    </li>`;
+  }).join("");
+  ul.querySelectorAll(".date-item").forEach(item => {
+    item.addEventListener("click", () => {
+      currentDate = item.dataset.date;
+      currentStoryIdx = 0;
+      currentPage = "news";
+      render();
+    });
+  });
+}
+
+// ============ NEWS PAGE ============
+function renderNewsPage() {
+  if (!currentDate || !NEWS_DATA[currentDate]) {
+    document.getElementById("card-container").innerHTML =
+      '<div class="empty"><div class="empty-icon">📭</div><div>请在左侧选择一个日期</div></div>';
+    document.getElementById("card-tabs").innerHTML = "";
+    return;
+  }
+  const data = NEWS_DATA[currentDate];
+  document.getElementById("page-title").textContent = `📰 ${data.label}`;
+
+  const tabs = document.getElementById("card-tabs");
+  tabs.innerHTML = (data.stories || []).map((s, i) => {
+    const cls = (i === currentStoryIdx) ? "active" : "";
+    const num = "①②③④⑤⑥⑦⑧⑨"[i] || (i + 1);
+    const tagShort = s.category === "tech" ? "Tech" : s.category === "biz" ? "Biz" : s.category === "econ" ? "Econ" : "—";
+    return `<div class="card-tab ${cls}" data-idx="${i}">${num} ${tagShort}</div>`;
+  }).join("");
+  tabs.querySelectorAll(".card-tab").forEach(t => {
+    t.addEventListener("click", () => {
+      currentStoryIdx = parseInt(t.dataset.idx);
+      renderNewsPage();
+    });
+  });
+
+  const story = data.stories[currentStoryIdx];
+  if (!story) {
+    document.getElementById("card-container").innerHTML = '<div class="empty">这一天没有故事</div>';
+    return;
+  }
+  const catLabel = { tech: "TECHNOLOGY", biz: "BUSINESS", econ: "ECONOMICS" }[story.category] || story.category.toUpperCase();
+  const container = document.getElementById("card-container");
+  container.innerHTML = `
+    <article class="news-card">
+      <div class="card-header">
+        <span class="category cat-${story.category}">${catLabel}</span>
+        <span class="source-link">Source: <a href="${escapeHtml(story.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(story.sourceName)}</a></span>
+      </div>
+      <h2 class="headline">${escapeHtml(story.headlineEn)}</h2>
+      <p class="headline-cn">${escapeHtml(story.headlineCn)}</p>
+      <div class="section">
+        <div class="section-title">📌 Summary 简略说明</div>
+        <p class="summary-en">${escapeHtml(story.summaryEn)}</p>
+        <p class="summary-cn">${escapeHtml(story.summaryCn)}</p>
+      </div>
+      <div class="section">
+        <div class="section-title">📝 Original Excerpt 原文摘录</div>
+        <p class="excerpt">"${escapeHtml(story.excerpt)}"</p>
+      </div>
+      <div class="section">
+        <div class="section-title">🎯 Key Vocabulary & Expressions 重点单词与表达</div>
+        ${(story.vocab || []).map((v, i) => {
+          const favKey = `${story.id}__${i}`;
+          const isFav = favorites.some(f => f.id === favKey);
+          return `
+          <div class="vocab-item">
+            <div class="vocab-row">
+              <div class="vocab-content">
+                <span class="vocab-word">${escapeHtml(v.word)}</span>
+                <span class="vocab-pos">${escapeHtml(v.pos)}</span>
+                <div class="vocab-meaning">${escapeHtml(v.meaning)}</div>
+                <div class="vocab-example">
+                  <span class="label">EX</span>${escapeHtml(v.exampleEn)}
+                  <div class="vocab-example-cn">${escapeHtml(v.exampleCn)}</div>
+                </div>
+              </div>
+              <button class="fav-btn ${isFav ? "active" : ""}" data-fav-key="${favKey}" data-vocab-idx="${i}" title="收藏">${isFav ? "★" : "☆"}</button>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+    </article>
+  `;
+  container.querySelectorAll(".fav-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const favKey = btn.dataset.favKey;
+      const vIdx = parseInt(btn.dataset.vocabIdx);
+      toggleFavorite(story, vIdx, favKey);
+    });
+  });
+}
+
+function toggleFavorite(story, vIdx, favKey) {
+  const existingIdx = favorites.findIndex(f => f.id === favKey);
+  if (existingIdx >= 0) {
+    favorites.splice(existingIdx, 1);
+    toast("已取消收藏");
+  } else {
+    const v = story.vocab[vIdx];
+    favorites.push({
+      id: favKey,
+      word: v.word, pos: v.pos, meaning: v.meaning,
+      exampleEn: v.exampleEn, exampleCn: v.exampleCn,
+      sourceTitle: story.headlineEn, sourceDate: currentDate,
+      sourceUrl: story.sourceUrl, sourceName: story.sourceName,
+      tags: [], addedAt: Date.now()
+    });
+    toast("⭐ 已收藏到收藏夹");
+  }
+  saveFavorites();
+  renderNewsPage();
+  updateFavCountBadge();
+}
+
+function updateFavCountBadge() {
+  document.getElementById("fav-count-badge").textContent = favorites.length;
+}
+
+// ============ FAVORITES PAGE ============
+function renderFavoritesPage() {
+  const allTags = [...new Set(favorites.flatMap(f => f.tags))].sort();
+  const tagRow = document.getElementById("tag-filter-row");
+  if (allTags.length === 0) {
+    tagRow.innerHTML = '<span style="font-size:12px;color:#a0aec0;">还没有标签 · 在每个收藏项中可以添加</span>';
+  } else {
+    tagRow.innerHTML = `<span style="font-size:12px;color:#718096;font-weight:600;margin-right:4px;">按标签筛选：</span>` +
+      `<span class="tag-chip ${activeTagFilter === null ? "active" : ""}" data-tag="">全部</span>` +
+      allTags.map(t => `<span class="tag-chip ${activeTagFilter === t ? "active" : ""}" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</span>`).join("");
+    tagRow.querySelectorAll(".tag-chip").forEach(c => {
+      c.addEventListener("click", () => {
+        activeTagFilter = c.dataset.tag || null;
+        renderFavoritesPage();
+      });
+    });
+  }
+
+  let list = favorites.slice();
+  if (activeTagFilter) list = list.filter(f => f.tags.includes(activeTagFilter));
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    list = list.filter(f =>
+      f.word.toLowerCase().includes(q) ||
+      f.meaning.toLowerCase().includes(q) ||
+      f.exampleEn.toLowerCase().includes(q) ||
+      f.exampleCn.toLowerCase().includes(q)
+    );
+  }
+  list.sort((a, b) => b.addedAt - a.addedAt);
+
+  const listEl = document.getElementById("fav-list");
+  if (list.length === 0) {
+    listEl.innerHTML = `<div class="empty"><div class="empty-icon">📚</div>
+      <div>${favorites.length === 0 ? "还没有收藏 · 在新闻页点击 ☆ 即可收藏" : "没有匹配的结果"}</div></div>`;
+    return;
+  }
+  listEl.innerHTML = list.map(f => `
+    <div class="fav-item" data-id="${f.id}">
+      <div class="fav-item-header">
+        <div>
+          <span class="fav-word">${escapeHtml(f.word)}</span>
+          <span class="fav-pos">${escapeHtml(f.pos)}</span>
+          <div class="fav-meta">来自 ${escapeHtml(f.sourceDate)} · ${escapeHtml((f.sourceTitle || "").slice(0, 60))}${(f.sourceTitle || "").length > 60 ? "…" : ""}</div>
+        </div>
+        <div class="fav-actions">
+          <button class="icon-btn" title="删除" data-action="delete" data-id="${f.id}">×</button>
+        </div>
+      </div>
+      <div class="fav-meaning">${escapeHtml(f.meaning)}</div>
+      <div class="fav-example">${escapeHtml(f.exampleEn)}<div class="fav-example-cn">${escapeHtml(f.exampleCn)}</div></div>
+      <div class="fav-tags" data-id="${f.id}">
+        ${f.tags.map(t => `<span class="fav-tag">${escapeHtml(t)}<span class="x" data-tag="${escapeHtml(t)}" data-id="${f.id}">×</span></span>`).join("")}
+        <input type="text" class="fav-tag-input" placeholder="+ 添加标签…" data-id="${f.id}">
+      </div>
+    </div>
+  `).join("");
+
+  listEl.querySelectorAll('[data-action="delete"]').forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      if (confirm("确定要删除这个收藏吗？")) {
+        favorites = favorites.filter(f => f.id !== id);
+        saveFavorites();
+        renderFavoritesPage();
+        updateFavCountBadge();
+      }
+    });
+  });
+  listEl.querySelectorAll('.fav-tag .x').forEach(x => {
+    x.addEventListener("click", () => {
+      const id = x.dataset.id;
+      const tag = x.dataset.tag;
+      const f = favorites.find(f => f.id === id);
+      if (f) f.tags = f.tags.filter(t => t !== tag);
+      saveFavorites();
+      renderFavoritesPage();
+    });
+  });
+  listEl.querySelectorAll('.fav-tag-input').forEach(inp => {
+    inp.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") {
+        const tag = inp.value.trim();
+        if (!tag) return;
+        const id = inp.dataset.id;
+        const f = favorites.find(f => f.id === id);
+        if (f && !f.tags.includes(tag)) {
+          f.tags.push(tag);
+          saveFavorites();
+          renderFavoritesPage();
+        }
+      }
+    });
+  });
+}
+
+function exportMarkdown() {
+  if (favorites.length === 0) { toast("收藏夹是空的"); return; }
+  const groups = {};
+  favorites.forEach(f => {
+    if (f.tags.length === 0) (groups["未分类"] = groups["未分类"] || []).push(f);
+    else f.tags.forEach(t => { (groups[t] = groups[t] || []).push(f); });
+  });
+  const tagNames = Object.keys(groups).sort((a, b) => a === "未分类" ? 1 : b === "未分类" ? -1 : a.localeCompare(b));
+  let md = `# 我的英语词汇收藏夹\n\n> 导出时间：${new Date().toLocaleString("zh-CN")}\n> 共 ${favorites.length} 条收藏，分布在 ${tagNames.length} 个分组\n\n---\n\n`;
+  tagNames.forEach(tag => {
+    md += `## 🏷️ ${tag}\n\n`;
+    groups[tag].forEach(f => {
+      md += `### ${f.word} *(${f.pos})*\n\n**释义**：${f.meaning}\n\n**例句**：${f.exampleEn}\n\n> ${f.exampleCn}\n\n<sub>📅 ${f.sourceDate} · 📰 [${f.sourceName}](${f.sourceUrl}) · 标题：*${f.sourceTitle}*</sub>\n\n---\n\n`;
+    });
+  });
+  downloadFile(`vocabulary-favorites-${new Date().toISOString().slice(0,10)}.md`, md, "text/markdown;charset=utf-8");
+  toast("📥 已导出 Markdown");
+}
+
+function backupJson() {
+  if (favorites.length === 0) { toast("收藏夹是空的"); return; }
+  const blob = JSON.stringify({ version: 3, exportedAt: new Date().toISOString(), favorites }, null, 2);
+  downloadFile(`favorites-backup-${new Date().toISOString().slice(0,10)}.json`, blob, "application/json");
+  toast("💾 已备份");
+}
+
+function restoreJson(file) {
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const data = JSON.parse(e.target.result);
+      const incoming = data.favorites || [];
+      if (!Array.isArray(incoming)) throw new Error("格式错误");
+      // 合并：按 id 去重，新数据覆盖旧数据
+      const map = new Map(favorites.map(f => [f.id, f]));
+      incoming.forEach(f => map.set(f.id, f));
+      favorites = Array.from(map.values());
+      saveFavorites();
+      renderFavoritesPage();
+      updateFavCountBadge();
+      toast(`✅ 已合并 ${incoming.length} 条收藏`);
+    } catch (err) {
+      alert("恢复失败：" + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function downloadFile(name, content, type) {
+  const blob = new Blob([content], { type });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+// ============ RENDER ============
+function render() {
+  document.querySelectorAll(".nav-tab").forEach(t => t.classList.toggle("active", t.dataset.page === currentPage));
+  document.getElementById("news-page").style.display = currentPage === "news" ? "" : "none";
+  document.getElementById("favorites-page").classList.toggle("active", currentPage === "favorites");
+  document.getElementById("date-section").style.display = currentPage === "news" ? "" : "none";
+  renderDateList();
+  if (currentPage === "news") renderNewsPage(); else renderFavoritesPage();
+  updateFavCountBadge();
+}
+
+// ============ INIT ============
+loadFavorites();
+document.querySelectorAll(".nav-tab").forEach(t => t.addEventListener("click", () => { currentPage = t.dataset.page; render(); }));
+document.getElementById("export-md-btn").addEventListener("click", exportMarkdown);
+document.getElementById("backup-btn").addEventListener("click", backupJson);
+document.getElementById("restore-btn").addEventListener("click", () => document.getElementById("restore-file").click());
+document.getElementById("restore-file").addEventListener("change", e => { if (e.target.files[0]) restoreJson(e.target.files[0]); e.target.value = ""; });
+document.getElementById("clear-all-btn").addEventListener("click", () => {
+  if (favorites.length === 0) { toast("收藏夹已经是空的"); return; }
+  if (confirm(`确定要清空全部 ${favorites.length} 条收藏吗？此操作不可恢复。`)) {
+    favorites = []; saveFavorites(); render(); toast("已清空收藏");
+  }
+});
+document.getElementById("fav-search").addEventListener("input", e => { searchQuery = e.target.value; renderFavoritesPage(); });
+
+loadNews();
+</script>
+</body>
+</html>
