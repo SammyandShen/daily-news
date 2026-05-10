@@ -1,7 +1,224 @@
 {
-  "lastUpdated": "2026-05-09T15:00:00Z",
+  "lastUpdated": "2026-05-10T04:29:11.569428+00:00",
   "level": "B2",
   "days": {
+    "2026-05-10": {
+      "label": "5月10日 (周日)",
+      "stories": [
+        {
+          "id": "20260510-1",
+          "category": "tech",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/the-most-prestigious-job-in-ai-has-no-description-d517601f?mod=mw_rss_topstories",
+          "headlineEn": "AI's Most Prestigious Title Has No Job Description",
+          "headlineCn": "AI行业最炙手可热的职位头衔，竟无正式岗位描述",
+          "summaryEn": "The title 'Member of Technical Staff' (MTS) has become the most coveted designation in the AI industry, adopted by top labs like Anthropic and countless startups alike. Yet the role carries no standard job description, and responsibilities vary wildly across organizations. Analysts warn this deliberate vagueness reflects a deeper issue: companies are racing to attract elite AI talent without clear hiring criteria, leaving candidates uncertain about what they are actually signing up for — and raising questions about title inflation across the sector.",
+          "summaryCn": "'技术成员'（Member of Technical Staff，简称MTS）已成为AI行业最令人趋之若鹜的职位头衔，从Anthropic到众多初创公司均在大量招募。然而，这一职位既无统一的岗位说明，各公司赋予的职责范围也天差地别。分析人士指出，这种刻意的模糊性折射出科技行业对顶尖AI人才的激烈争夺——企业竞相用光鲜头衔吸引人才，却缺乏清晰的评判标准，也引发了外界对'头衔通胀'的担忧。",
+          "excerpt": "From Anthropic to tiny startups, the 'Member of Technical Staff' title is now among the most sought-after designations in AI — yet no one can quite agree on what it entails. The role carries enormous prestige but comes with no standard job description, raising questions about how companies actually define and compete for elite AI talent.",
+          "vocab": [
+            {
+              "word": "prestigious",
+              "pos": "adj.",
+              "meaning": "享有声望的、受人尊崇的。比 'famous' 更正式，暗含'社会认可度高、竞争激烈才能获得'的含义，常修饰职位、机构、奖项。值得学因为它在商业/学术语境中几乎是标配形容词，而中国学习者常错用 'famous' 或 'honorable'。",
+              "exampleEn": "Joining a prestigious AI research lab often matters more to top engineers than a higher salary at an unknown firm.",
+              "exampleCn": "对顶尖工程师来说，加入一家声望卓著的AI研究机构，往往比在一家无名公司拿更高薪水更重要。"
+            },
+            {
+              "word": "coveted",
+              "pos": "adj.",
+              "meaning": "令人垂涎的、竞相追逐的。源自动词 covet（觊觎），比 'popular' 或 'desirable' 更强调竞争性稀缺感——暗示'很多人想要但只有少数人能得到'。在描述职位、奖项、合同时极为地道，是财经媒体高频词。",
+              "exampleEn": "The coveted seat on the company's board was finally offered to a veteran investor after months of negotiation.",
+              "exampleCn": "经过数月谈判，这个令人觊觎的董事会席位终于被授予了一位资深投资人。"
+            },
+            {
+              "word": "ill-defined",
+              "pos": "adj.",
+              "meaning": "定义不清的、边界模糊的。比 'vague' 更书面，且带有一丝批评语气，暗示'本应清晰却未做到'。在商业分析和政策讨论中常用来指责职责划分不清或标准不明，是表达专业批评的有力措辞。",
+              "exampleEn": "Investors grew nervous as the startup's business model remained ill-defined three months before its planned IPO.",
+              "exampleCn": "距计划IPO还有三个月，这家初创公司的商业模式仍然定义不清，投资者开始感到不安。"
+            },
+            {
+              "word": "cachet",
+              "pos": "n.",
+              "meaning": "（因稀缺或精英性而产生的）特殊吸引力、光环效应。法语借词，比 'prestige' 更强调'让人趋之若鹜的品牌魔力'，常用于描述品牌、头衔、圈子的无形价值。值得学因为它在高端商业、时尚和科技媒体中极其常见，中文近似'光环'或'背书'。",
+              "exampleEn": "A Stanford PhD still carries significant cachet in Silicon Valley, even as alternative credentials gain ground.",
+              "exampleCn": "即便在替代性资历日益受认可的今天，斯坦福博士学位在硅谷依然具有相当大的光环效应。"
+            },
+            {
+              "word": "title inflation",
+              "pos": "phrase",
+              "meaning": "头衔通胀，指企业为吸引或留住人才而滥用高级职位名称，导致头衔贬值、实际意义模糊的现象。类比经济学中的货币通胀，是商业媒体批评HR实践时的常用术语，直接对应中文'职位虚高'或'头衔水分'。",
+              "exampleEn": "Tech companies have been accused of rampant title inflation, handing out 'VP' and 'Director' titles to employees who would be mid-level managers elsewhere.",
+              "exampleCn": "科技公司被批评存在严重的头衔通胀问题——将'副总裁'和'总监'头衔授予那些在其他公司只能算中层经理的员工。"
+            }
+          ]
+        },
+        {
+          "id": "20260510-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+          "headlineEn": "Nvidia Commits $40 Billion to AI Equity Deals in 2025",
+          "headlineCn": "英伟达今年已向AI股权交易投入400亿美元",
+          "summaryEn": "Nvidia has pledged approximately $40 billion in equity investments across AI companies in 2025, cementing its role not just as a chipmaker but as a major financial backer of the AI industry. By taking ownership stakes rather than simply selling hardware, Nvidia is deepening its strategic influence over which technologies shape the next generation of AI. This signals a broader ambition: to become a central architect of the entire AI ecosystem, not merely a component supplier within it.",
+          "summaryCn": "英伟达2025年已向人工智能领域的股权交易承诺约400亿美元的投资，巩固了其不仅是芯片制造商、更是AI行业重要金融支持者的地位。通过持有初创公司和成熟企业的股权，而非仅靠销售硬件盈利，英伟达正深化其对AI技术走向的战略影响力。这一举措表明，英伟达的雄心远不止于此——它正致力于成为整个AI生态系统的核心架构者。",
+          "excerpt": "Nvidia has committed approximately $40 billion to equity deals in the AI sector this year alone, underscoring its ambition to be far more than a chip supplier. By taking ownership stakes across the AI ecosystem, the company is positioning itself as a central financial force shaping the industry's future.",
+          "vocab": [
+            {
+              "word": "commit (to)",
+              "pos": "v.",
+              "meaning": "（正式）承诺投入（资金、资源等）。比 spend 更正式，强调'已做出约束性承诺但资金可能尚未完全到位'，常见搭配：commit capital / funds / resources to sth，在财经新闻中极高频，是描述投资意向的核心动词",
+              "exampleEn": "The venture capital firm committed $500 million to clean energy startups over the next three years.",
+              "exampleCn": "该风险投资公司承诺在未来三年内向清洁能源初创企业投入5亿美元。"
+            },
+            {
+              "word": "equity",
+              "pos": "n.",
+              "meaning": "股权；公司所有权的份额。与 debt（债务融资）相对，equity deal 指以换取公司股份为目的的投资，而非贷款。掌握这个词能精准区分'入股投资'和'借款融资'两种截然不同的商业行为，是财经阅读的基础概念词",
+              "exampleEn": "Unlike a loan, an equity investment gives the firm an ownership stake and a share of future profits.",
+              "exampleCn": "与贷款不同，股权投资赋予投资方所有权份额及未来利润的分成。"
+            },
+            {
+              "word": "ecosystem",
+              "pos": "n.",
+              "meaning": "（商业/科技）生态系统。源自生物学，在科技商业语境中指围绕某一平台或行业形成的相互依存的企业网络。说 AI ecosystem 远比说 AI industry 更强调各参与方之间的协同与依赖关系，是科技报道必备词汇",
+              "exampleEn": "Apple has built a tightly controlled ecosystem that keeps both developers and consumers deeply engaged with its products.",
+              "exampleCn": "苹果打造了一个管控严密的生态系统，让开发者和消费者都与其产品深度绑定。"
+            },
+            {
+              "word": "stake",
+              "pos": "n.",
+              "meaning": "（公司的）股份、权益份额。take / hold a stake in a company 是财经英语描述持股关系的标准表达，比 share 更强调战略性的所有权意义，常暗示对公司具有一定影响力或利益绑定，在并购报道中极为常见",
+              "exampleEn": "SoftBank acquired a significant stake in the ride-hailing startup, giving it a seat at the board table.",
+              "exampleCn": "软银收购了这家网约车初创企业的重要股权，从而获得了董事会席位。"
+            },
+            {
+              "word": "cement",
+              "pos": "v.",
+              "meaning": "（比喻）巩固、稳固（地位、声誉、优势等）。比 strengthen 更生动，强调'使之如水泥般不可撼动'，常见搭配：cement one's role / position / dominance，是商业新闻描述竞争优势时的高频隐喻动词，值得作为写作词汇掌握",
+              "exampleEn": "The acquisition of a major cloud provider would cement the company's dominance in the enterprise software market.",
+              "exampleCn": "收购一家大型云服务商将巩固该公司在企业软件市场的主导地位。"
+            }
+          ]
+        },
+        {
+          "id": "20260510-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/08/rocket-lab-rklb-q1-earnings-2026.html",
+          "headlineEn": "Rocket Lab Surges 34% on Revenue Beat and Record-Setting Launch Deal",
+          "headlineCn": "Rocket Lab单日暴涨34%，业绩超预期并斩获创纪录发射合同",
+          "summaryEn": "Rocket Lab shares surged 34% in their best-ever single trading day after the company reported earnings that beat analyst expectations and secured a record-setting launch contract. The rally reflects broader investor enthusiasm for space stocks, fueled by anticipation of SpaceX's highly awaited IPO. Rocket Lab's strong performance signals that commercial space is maturing into a credible investment sector, and smaller launch providers stand to benefit from the heightened market attention surrounding the industry.",
+          "summaryCn": "Rocket Lab股价单日暴涨34%，创下历史最佳单日涨幅。此次大涨源于公司财报营收超出分析师预期，同时宣布斩获一份创纪录的发射合同。更广泛来看，随着SpaceX预期IPO的临近，投资者对太空概念股的热情持续高涨。Rocket Lab的强劲表现表明，商业航天正逐步成熟为值得关注的投资赛道，中小型发射公司有望借助市场关注度的提升从中获益。",
+          "excerpt": "Enthusiasm for space stocks has skyrocketed ahead of SpaceX's anticipated IPO, lifting Rocket Lab shares by 34% — their best single day on record — after the company posted a revenue beat and announced a landmark launch agreement.",
+          "vocab": [
+            {
+              "word": "surge",
+              "pos": "v. / n.",
+              "meaning": "（股价、需求等）急剧上涨；飙升。财经新闻核心动词，比 rise 或 increase 语气更强，暗含短时间内大幅波动的爆发感，几乎出现在每一篇市场报道中。常见搭配：stocks surge、demand surges、a surge in orders。",
+              "exampleEn": "Tech stocks surged after the Federal Reserve signaled a pause in interest rate hikes.",
+              "exampleCn": "美联储暗示暂停加息后，科技股急剧飙升。"
+            },
+            {
+              "word": "revenue beat",
+              "pos": "phrase",
+              "meaning": "营收超预期；财报超出市场预测。'beat' 在财经语境中专指'超出分析师共识预期'，是财报季最高频的表达，比 exceeded expectations 简洁且更专业。反义词为 revenue miss（未达预期）。掌握这一搭配能大幅提升读懂财报新闻的能力。",
+              "exampleEn": "A strong revenue beat in Q2 pushed the retailer's stock to a 52-week high.",
+              "exampleCn": "第二季度营收大幅超出预期，推动该零售商股价创下52周新高。"
+            },
+            {
+              "word": "skyrocket",
+              "pos": "v.",
+              "meaning": "（价格、热情、估值等）急剧飙升；火箭式上涨。比 surge 更夸张，带有强烈的视觉意象，常用于描述极速、戏剧性的增长。本文中与航天主题形成双关，是记者常用的修辞手法，体现了英语商业写作中以隐喻制造张力的惯用思维。",
+              "exampleEn": "Demand for AI chips has skyrocketed, driving semiconductor companies to record profit margins.",
+              "exampleCn": "对AI芯片的需求急剧攀升，推动半导体公司利润率创下历史新高。"
+            },
+            {
+              "word": "anticipated",
+              "pos": "adj.",
+              "meaning": "备受期待的；预期中的。比 expected 更正式，隐含公众高度关注与热切等待的情绪色彩，常用于修饰 IPO、产品发布、政策决定等重大事件。用 anticipated 而非 expected，能传递出市场蓄势待发的氛围，是商业写作中常见的情绪渲染手法。",
+              "exampleEn": "The highly anticipated merger between the two tech giants faces regulatory scrutiny in multiple countries.",
+              "exampleCn": "这两家科技巨头备受期待的合并案，正面临多国监管机构的审查。"
+            },
+            {
+              "word": "record-setting",
+              "pos": "adj.",
+              "meaning": "创纪录的；破纪录的。复合形容词，强调突破历史最高点，常修饰合同金额、销售额、股价涨幅等。与 record-breaking 可互换，但 record-setting 更侧重'主动树立新标杆'的含义，是商业新闻描述里程碑式数据时的标准用语。",
+              "exampleEn": "The electric vehicle maker signed a record-setting supply agreement worth $4 billion with a leading battery manufacturer.",
+              "exampleCn": "这家电动汽车制造商与一家领先电池厂商签署了价值40亿美元的创纪录供应协议。"
+            }
+          ]
+        },
+        {
+          "id": "20260510-4",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+          "headlineEn": "Cloudflare Says AI Made 1,100 Jobs Obsolete as Revenue Hits Record High",
+          "headlineCn": "Cloudflare称AI致1100个岗位消失，营收却创历史新高",
+          "summaryEn": "Cloudflare has announced its first major layoff, cutting around 1,100 positions it says have been rendered unnecessary by artificial intelligence. CEO Matthew Prince stated that AI-driven efficiency improvements have eliminated the need for many support roles, even as the company posted record-high revenue. This marks a significant shift in how tech firms justify workforce reductions — not due to financial losses, but as a direct consequence of AI productivity gains. The move signals a broader industry trend: AI is actively reshaping employment even at profitable companies.",
+          "summaryCn": "Cloudflare宣布了公司首次大规模裁员，约1100个职位被认定为因人工智能效率提升而不再必要。CEO Matthew Prince表示，AI的广泛应用已取代了大量客户支持类岗位。值得关注的是，此次裁员并非因业绩不佳——公司营收恰恰创下历史新高。这一矛盾现象折射出科技行业的新趋势：即便是盈利企业，也正以AI效率为由主动缩减人力，深刻重塑就业格局。",
+          "excerpt": "Cloudflare announced its first large-scale layoff, with CEO Matthew Prince citing AI efficiency gains as the reason some 1,100 support roles are no longer needed. The announcement came alongside record-high revenue figures, highlighting a growing paradox: companies can be more profitable while employing fewer people.",
+          "vocab": [
+            {
+              "word": "obsolete",
+              "pos": "adj.",
+              "meaning": "过时的、被淘汰的。商业科技报道核心词，固定搭配 'make/render X obsolete' 表示某职位或技术因新发展而失去存在价值。比日常用语 'outdated' 更正式，程度也更深——outdated 是'落后了'，obsolete 是'彻底没用了'。多见于描述技术革命对行业或岗位的颠覆性冲击。",
+              "exampleEn": "The rise of streaming services has made physical DVD rental stores almost completely obsolete.",
+              "exampleCn": "流媒体服务的兴起使实体DVD租赁店几乎彻底被淘汰。"
+            },
+            {
+              "word": "layoff",
+              "pos": "n.",
+              "meaning": "（因公司结构调整导致的）裁员。财经新闻必备词，与 'firing' 的区别至关重要：layoff 强调公司原因（AI取代、业务收缩等），员工无过错；firing/dismissal 则因个人表现问题被解雇。读商业新闻时，看到 layoff 应理解为结构性裁员，而非员工失职，两者在法律和舆论含义上截然不同。",
+              "exampleEn": "The startup announced a layoff of 300 employees after failing to secure its Series C funding round.",
+              "exampleCn": "这家初创公司在未能完成C轮融资后，宣布裁员300人。"
+            },
+            {
+              "word": "efficiency gains",
+              "pos": "phrase",
+              "meaning": "效率提升、效率收益。企业为裁员或自动化辩护时的标准说辞，意指'用更少资源产出更多'。注意其语境色彩：在企业公告中是正面词汇，但在批评性报道中常暗示'以牺牲就业换取利润'。识别这一商业话语习惯，有助于更批判性地解读财经新闻中的企业措辞。",
+              "exampleEn": "The company credited AI-powered automation for the efficiency gains that allowed it to cut operational costs by 18%.",
+              "exampleCn": "该公司将运营成本降低18%的成果归功于AI驱动的自动化所带来的效率提升。"
+            },
+            {
+              "word": "revenue",
+              "pos": "n.",
+              "meaning": "营业收入、营收（未扣除任何成本的总收入）。财务报道三大核心词之一，层级须牢记：revenue（总营收）→ gross profit（毛利润，扣除直接成本）→ net profit/income（净利润，扣除所有成本）。与 income 的区别：income 更常指个人收入或净收入，revenue 专指企业经营所得总额，财经写作中不可混用。",
+              "exampleEn": "Cloudflare's annual revenue hit a record high, yet the company still chose to eliminate over a thousand roles.",
+              "exampleCn": "Cloudflare年度营收创历史新高，但公司仍选择裁撤逾千个岗位。"
+            },
+            {
+              "word": "render",
+              "pos": "v.",
+              "meaning": "使（某物）变成某种状态，核心结构为 'render X obsolete / unnecessary / invalid'。比口语化的 'make X...' 更正式，多出现在高质量商业写作、法律文件和学术报告中。掌握这一结构能让表达立刻升级，尤其在描述技术变革或政策调整的后果时，是区分B2与C1书面表达水平的典型用法。",
+              "exampleEn": "The new regulation rendered several existing data-sharing agreements between tech firms legally invalid.",
+              "exampleCn": "新法规使科技公司之间现有的多项数据共享协议在法律上失效。"
+            }
+          ]
+        },
+        {
+          "id": "20260510-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/08/the-federal-reserve-is-quickly-running-out-of-reasons-to-cut-interest-rates.html",
+          "headlineEn": "The Federal Reserve is quickly running out of reasons to cut interest rates",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Friday's jobs report provided evidence that the central bank's larger concern is a cost of living that is getting increasingly hard to bear.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Friday's jobs report provided evidence that the central bank's larger concern is a cost of living that is getting increasingly hard to bear.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-09": {
       "label": "5月9日 (周六)",
       "stories": [
