@@ -477,17 +477,45 @@
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/05/10/saudi-aramco-q1-profit-jumps-26percent-as-key-pipeline-reaches-capacity.html",
           "headlineEn": "Saudi Aramco Q1 profit jumps 26% as key pipeline reaches capacity amid Iran war",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Aramco says its East-West pipeline has helped to mitigate the energy shock caused by the Iran war.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Aramco says its East-West pipeline has helped to mitigate the energy shock caused by the Iran war.",
+          "headlineCn": "阿美石油一季度利润飙升26%，管道满产缓解伊朗战争能源冲击",
+          "summaryEn": "Saudi Aramco reported a 26% jump in first-quarter profit, driven partly by its East-West crude oil pipeline operating at full capacity. The pipeline, which bypasses the Strait of Hormuz, has become critical in cushioning global energy markets from disruptions caused by the ongoing Iran war. This strong performance underscores Aramco's strategic position as the world's largest oil exporter and its ability to redirect supply flows during geopolitical crises.",
+          "summaryCn": "沙特阿美石油公司公布第一季度利润同比大涨26%，部分得益于其东西输油管道满负荷运营。该管道绕过霍尔木兹海峡，在伊朗战争引发能源市场动荡之际发挥了关键的缓冲作用。此次强劲业绩凸显了阿美作为全球最大石油出口商的战略地位，以及其在地缘政治危机中重新调配供应流向的能力。",
+          "excerpt": "Saudi Aramco said its East-West pipeline, which bypasses the Strait of Hormuz, has helped mitigate the energy shock caused by the Iran war. The pipeline reached full capacity in Q1, contributing to a 26% surge in the company's quarterly profit.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。"
+              "word": "mitigate",
+              "pos": "v.",
+              "meaning": "减轻、缓解（风险或不利影响）。商业和政策文本的高频词，固定搭配为 mitigate risk / mitigate impact / mitigate disruption，比 reduce 更正式，带有「主动采取措施加以控制」的含义，是企业财报和政府声明的核心表达。",
+              "exampleEn": "The central bank intervened to mitigate the impact of the currency crisis on domestic exporters.",
+              "exampleCn": "央行进行干预，以减轻货币危机对国内出口商的冲击。"
+            },
+            {
+              "word": "reach capacity",
+              "pos": "phrase",
+              "meaning": "达到满负荷、满产运营。capacity 在商业语境中指「最大承载量或生产能力」，reach / hit / operate at capacity 是固定搭配，用于描述工厂、管道、数据中心等基础设施的运营状态，比 full production 更专业地道。",
+              "exampleEn": "The new semiconductor fab is expected to reach capacity by year-end, meeting surging demand for AI chips.",
+              "exampleCn": "这座新半导体晶圆厂预计年底前达到满产，以满足人工智能芯片的旺盛需求。"
+            },
+            {
+              "word": "amid",
+              "pos": "prep.",
+              "meaning": "在……之中、在……背景下。新闻标题和财经报道的高频介词，用于点明事件发生的背景环境，比 during 更强调「身处某种氛围或局势之中」的感觉，语气更正式，且在标题中能高效压缩背景信息。",
+              "exampleEn": "Tech stocks rallied amid growing optimism that the Federal Reserve would cut interest rates.",
+              "exampleCn": "在市场对美联储降息的乐观情绪升温之际，科技股强劲反弹。"
+            },
+            {
+              "word": "energy shock",
+              "pos": "n. phrase",
+              "meaning": "能源冲击，指能源供应或价格因突发事件骤然剧变。源自经济学术语「supply shock（供给冲击）」，energy shock 专指能源领域，比 energy crisis 更强调「突然性和冲击力」，常见于地缘政治或自然灾害引发的市场动荡分析中。",
+              "exampleEn": "The energy shock triggered by the pipeline explosion sent natural gas prices soaring across Europe.",
+              "exampleCn": "管道爆炸引发的能源冲击导致欧洲天然气价格飙升。"
+            },
+            {
+              "word": "jump",
+              "pos": "v. / n.",
+              "meaning": "（利润、股价等）骤升、大幅跳涨。在财经新闻中，jump 比 rise 或 increase 语气更强烈，暗示涨幅显著或出乎意料，常与百分比搭配（profit jumps 26%），是彭博、路透等媒体标题的核心动词，值得与 surge、soar、climb 对比掌握其语气强度差异。",
+              "exampleEn": "Apple's quarterly revenue jumped 15% year-on-year, beating analyst expectations by a wide margin.",
+              "exampleCn": "苹果季度营收同比大涨15%，大幅超出分析师预期。"
             }
           ]
         },
@@ -497,17 +525,45 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/powells-legacy-as-fed-chair-is-fighting-inflation-and-trump-he-may-lose-the-battle-against-both-aeb32f89?mod=mw_rss_topstories",
           "headlineEn": "Powell’s legacy as Fed chair is fighting inflation and Trump. He may lose the battle against both.",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Jerome Powell will be remembered for how the struggles against inflation and to preserve Federal Reserve independence ultimately end.",
+          "headlineCn": "鲍威尔的历史遗产：抗击通胀与捍卫美联储独立性",
+          "summaryEn": "Jerome Powell, nearing the end of his term as Federal Reserve chair, faces a dual challenge that will define his legacy. He has largely succeeded in bringing inflation under control after the post-pandemic surge, but now confronts unprecedented political pressure from President Trump, who has repeatedly threatened to remove him and demanded rate cuts. How both struggles ultimately end will determine how history judges Powell's tenure at the world's most powerful central bank.",
+          "summaryCn": "美联储主席杰罗姆·鲍威尔即将卸任，其历史评价将取决于两场较量的最终结果：一是应对疫情后的通货膨胀，二是抵御特朗普政府对美联储独立性的侵蚀。鲍威尔在遏制通胀方面已取得显著成效，但特朗普持续施压要求降息，甚至威胁解除其职务，令美联储政治中立性面临前所未有的考验。两场战役能否胜出，将最终决定他的历史地位。",
+          "excerpt": "Jerome Powell will be remembered for how his struggles against inflation and to preserve Federal Reserve independence ultimately end. With both battles still unresolved, his legacy as chair hangs in the balance — shaped not just by economics, but by the political forces he has tried to resist.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。"
+              "word": "legacy",
+              "pos": "n.",
+              "meaning": "历史遗产；政策遗留影响。在政治和商业语境中，legacy 特指领导人离任后留下的「历史评价」或「制度遗产」，比 reputation（声誉）更强调长期的制度性影响。值得学：财经报道高频词，常搭配 define / shape / cement one's legacy（定义/塑造/巩固某人的历史地位）。",
+              "exampleEn": "The outgoing CEO's legacy was defined by the company's bold pivot to cloud services during a period of industrywide disruption.",
+              "exampleCn": "这位即将离任的首席执行官的历史遗产，正是由其在行业剧变期间大胆转型云服务所定义的。"
+            },
+            {
+              "word": "Fed independence",
+              "pos": "phrase",
+              "meaning": "美联储独立性。指中央银行在制定货币政策时不受政治干预的核心原则，是理解美国经济报道的必备概念。常见搭配：preserve / undermine / erode Fed independence（捍卫/削弱/侵蚀美联储独立性）。值得学：不懂这个短语，读美联储相关新闻会频频卡壳。",
+              "exampleEn": "Analysts warned that direct White House pressure on rate decisions could erode Fed independence and trigger a sell-off in Treasury markets.",
+              "exampleCn": "分析人士警告，白宫直接施压利率决策可能损害美联储独立性，并引发美债市场抛售。"
+            },
+            {
+              "word": "at stake",
+              "pos": "phrase",
+              "meaning": "处于危险之中；岌岌可危。财经新闻极高频短语，强调某重要事物面临输掉的风险，语气比 in danger 更正式，带有新闻感。值得学：结构固定，sth. is at stake 或 with sth. at stake 开头，几乎每篇财经社论都能见到。",
+              "exampleEn": "With its entire cloud division's credibility at stake, the tech giant rushed a patch to address the data breach within 48 hours.",
+              "exampleCn": "整个云业务部门的信誉岌岌可危，这家科技巨头在48小时内紧急发布补丁以应对数据泄露事件。"
+            },
+            {
+              "word": "navigate",
+              "pos": "v.",
+              "meaning": "（在复杂局势中）周旋、驾驭。原义为「航行导航」，在商业英语中是高频隐喻动词，指在政治压力、监管壁垒或市场波动中灵活应对。值得学：比 deal with 专业感强得多，常见搭配：navigate uncertainty / headwinds / political pressure（应对不确定性/逆风/政治压力）。",
+              "exampleEn": "The fintech startup had to navigate a patchwork of state regulations before it could legally offer lending services across the US.",
+              "exampleCn": "这家金融科技初创公司必须在美国各州零散的监管规定中寻找出路，才能合法提供跨州借贷服务。"
+            },
+            {
+              "word": "tenure",
+              "pos": "n.",
+              "meaning": "任期；在职期间。多用于高管、官员等正式职位，比 term 更正式，且常隐含对该人任内表现的评价意味。值得学：财经报道里 during / over sb.'s tenure（在某人任期内）是固定表达，替换 term 可让行文更具分量感。",
+              "exampleEn": "During her tenure as CFO, the firm's operating margin improved from 8% to nearly 20%, cementing her reputation as a cost disciplinarian.",
+              "exampleCn": "在其担任首席财务官期间，公司营业利润率从8%提升至近20%，巩固了她严控成本的业界声誉。"
             }
           ]
         }
