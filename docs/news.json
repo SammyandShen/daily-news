@@ -1,7 +1,224 @@
 {
-  "lastUpdated": "2026-05-12T12:47:47.692715+00:00",
+  "lastUpdated": "2026-05-14T04:05:46.409208+00:00",
   "level": "B2",
   "days": {
+    "2026-05-13": {
+      "label": "5月13日 (周三)",
+      "stories": [
+        {
+          "id": "20260513-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia/",
+          "headlineEn": "Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "A ransomware group has claimed responsibility for hacking the electronics manufacturing giant Foxconn and is attempting to extort the company.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "A ransomware group has claimed responsibility for hacking the electronics manufacturing giant Foxconn and is attempting to extort the company.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。"
+            }
+          ]
+        },
+        {
+          "id": "20260513-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/",
+          "headlineEn": "Geothermal Startup Fervo Energy Surges 33% in IPO Debut on AI Data Center Demand",
+          "headlineCn": "地热初创企业Fervo Energy上市首日大涨33%，AI数据中心需求成核心驱动力",
+          "summaryEn": "Fervo Energy, an enhanced geothermal energy startup, saw its shares surge 33% on its first trading day as AI-powered data centers drove intense demand for reliable, carbon-free electricity. The IPO was upsized multiple times after institutional investors pressed the company on why it was not raising more capital — an unusual sign of overwhelming market confidence. The strong debut positions geothermal energy as a serious contender in the race to power the next generation of AI infrastructure.",
+          "summaryCn": "地热能源初创企业Fervo Energy上市首日股价大涨33%，成为近期IPO市场的亮眼案例。随着AI数据中心对稳定清洁电力的需求急剧攀升，该公司的增强型地热技术受到机构投资者热捧，IPO发行规模数度上调。投资者罕见地追问公司为何不多募集资金，这一细节折射出市场对地热能赛道的高度认可。此次强劲上市，标志着地热能源正式进入AI基础设施电力供应的核心视野。",
+          "excerpt": "Fervo Energy's shares popped 33% on their first trading day, capping an IPO that was upsized several times after potential investors asked why the enhanced geothermal startup wasn't raising more money — a rare signal of overwhelming demand in an otherwise cautious market.",
+          "vocab": [
+            {
+              "word": "pop",
+              "pos": "v.",
+              "meaning": "（股价）骤然大涨。金融报道中的非正式动词，比rise或surge更口语、更生动，带有「突然弹起」的画面感，常用于描述IPO首日或重大利好消息后的快速涨幅。值得学的原因：财经英语媒体标题高频词，surge偏书面，pop偏口语，语气更轻快。",
+              "exampleEn": "The chipmaker's stock popped 18% after it raised its full-year revenue guidance citing AI demand.",
+              "exampleCn": "这家芯片制造商以AI需求为由上调全年营收预期后，股价骤涨18%。"
+            },
+            {
+              "word": "upsize",
+              "pos": "v.",
+              "meaning": "（将IPO或债券发行）扩大规模。专业金融动词，常出现在「the IPO was upsized」句式中，表示承销商因需求超预期而增加发行股数或提高发行价，与downsize相对。值得学的原因：IPO报道的核心术语，中文直译为「扩大规模」，但英语一个词就能承载完整含义。",
+              "exampleEn": "The renewable energy firm upsized its IPO by 15% after orders from sovereign wealth funds exceeded expectations.",
+              "exampleCn": "这家可再生能源公司在主权财富基金认购超出预期后，将IPO规模扩大了15%。"
+            },
+            {
+              "word": "fueled by",
+              "pos": "phrase",
+              "meaning": "由……驱动；以……为燃料。将抽象力量（需求、热情、政策）比作「燃料」的商业写作隐喻，暗示一种持续性的能量输入。值得学的原因：比driven by更生动形象，在科技和财经报道中极为常见，且常与demand、optimism、fears等搭配，是写作中提升表达层次的好选择。",
+              "exampleEn": "Server shipments hit a record high last quarter, fueled by hyperscalers racing to build AI training clusters.",
+              "exampleCn": "上季度服务器出货量创历史新高，超大规模云服务商竞相构建AI训练集群成为核心驱动力。"
+            },
+            {
+              "word": "debut",
+              "pos": "n. / v.",
+              "meaning": "首次亮相；上市首日（表现）。源自法语，在商业语境中特指产品发布或公司上市，「IPO debut」即上市首日。值得学的原因：比first day更简洁，比launch更正式，是财经标题的高频词，同时可作名词（a strong debut）也可作动词（the stock debuted at $20）。",
+              "exampleEn": "The fintech unicorn's lackluster market debut raised questions about its $10 billion valuation.",
+              "exampleCn": "这家金融科技独角兽平淡的上市首日表现，令外界对其百亿美元估值产生质疑。"
+            },
+            {
+              "word": "baseload power",
+              "pos": "n.",
+              "meaning": "基础负荷电力；基荷电力。指电网中全天候、不间断提供的稳定底层电力，与高峰负荷电力相对。值得学的原因：随着AI数据中心对「7×24小时稳定供电」的需求上升，这一能源行业术语正大量出现在科技与投资报道中，是理解地热、核能被资本青睐逻辑的关键词。",
+              "exampleEn": "Unlike solar and wind, enhanced geothermal systems can provide consistent baseload power regardless of weather conditions.",
+              "exampleCn": "与太阳能和风能不同，增强型地热系统可不受天气影响，持续提供稳定的基础负荷电力。"
+            }
+          ]
+        },
+        {
+          "id": "20260513-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html",
+          "headlineEn": "Anduril Doubles Valuation to Over $60 Billion Amid Defense Tech Funding Boom",
+          "headlineCn": "Anduril估值翻番突破600亿美元，国防科技融资热潮持续",
+          "summaryEn": "Defense technology startup Anduril has doubled its valuation to over $60 billion as investor appetite for military-grade technology surges. The company is developing space-based interceptors for the Trump administration's ambitious Golden Dome missile defense system, which carries a projected cost of $185 billion. The deal underscores a broader shift in venture capital toward dual-use and defense tech, as geopolitical tensions fuel demand for next-generation weapons platforms.",
+          "summaryCn": "国防科技初创公司Anduril的估值翻番，突破600亿美元，折射出投资者对军事级技术的强烈兴趣。该公司正为特朗普政府预算高达1850亿美元的「黄金穹顶」导弹防御系统研发天基拦截器。此次融资凸显了风险资本向两用技术和国防科技领域的结构性转移，地缘政治紧张局势正持续推动新一代武器平台的需求攀升。",
+          "excerpt": "Anduril, the defense technology company founded by Palmer Luckey, has doubled its valuation to more than $60 billion. The firm is actively developing space-based interceptors as part of the Trump administration's Golden Dome initiative, a $185 billion missile defense program designed to protect the continental United States from aerial and ballistic threats.",
+          "vocab": [
+            {
+              "word": "double",
+              "pos": "v.",
+              "meaning": "（使）翻番、翻倍。此处作及物动词，主语是公司，宾语是估值，是财经报道极高频的动词用法。与 increase twofold 相比，double 更口语化、更有冲击力，在新闻标题中常暗含「快速增长、令人瞩目」的语气，学会识别其及物用法至关重要。",
+              "exampleEn": "The chipmaker doubled its revenue in just two quarters, driven by surging demand for AI accelerators.",
+              "exampleCn": "受AI加速芯片需求激增推动，这家芯片制造商在短短两个季度内营收翻番。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "（公司）估值。与 value（价值）不同，valuation 特指投融资场景中通过谈判或市场定价得出的公司价值评估结果，是风险投资和IPO报道的核心术语。常见搭配：reach/hit/double a valuation；at a valuation of...。读财经新闻必须掌握。",
+              "exampleEn": "The startup secured Series C funding at a valuation of $2 billion, making it one of the most valuable fintech firms in Southeast Asia.",
+              "exampleCn": "这家初创公司以20亿美元估值完成C轮融资，跻身东南亚最具价值的金融科技企业之列。"
+            },
+            {
+              "word": "boom",
+              "pos": "n.",
+              "meaning": "热潮、爆发式增长。boom 本义为「爆炸轰鸣声」，引申为「快速繁荣」，在商业语境中描述某领域投资或活动的井喷式增长，比 surge 更有画面感。可类比：tech boom（科技热潮）、AI boom、housing boom。funding boom 是新闻报道中的固定搭配，值得整体记忆。",
+              "exampleEn": "The generative AI funding boom has attracted billions of dollars in venture capital, with over 500 startups receiving backing in the past year alone.",
+              "exampleCn": "生成式AI融资热潮吸引了数十亿美元风险资本涌入，仅过去一年就有逾500家初创公司获得投资。"
+            },
+            {
+              "word": "interceptor",
+              "pos": "n.",
+              "meaning": "拦截器；拦截导弹（系统）。源自动词 intercept（拦截），在军事和国防科技语境中特指用于摧毁来袭导弹或飞行器的武器平台。随着太空军事化加速，space-based interceptor（天基拦截器）成为国防科技报道的新兴高频词，理解它有助于读懂相关政策和产业新闻。",
+              "exampleEn": "The Pentagon is accelerating development of hypersonic interceptors capable of neutralizing next-generation ballistic missiles at high altitudes.",
+              "exampleCn": "五角大楼正加快研发高超音速拦截器，以便在高空摧毁新一代弹道导弹。"
+            },
+            {
+              "word": "dual-use",
+              "pos": "adj.",
+              "meaning": "两用的（军民两用）。指技术或产品既可服务于民用市场，也可用于军事目的。这是国防科技和出口管制领域的专业术语，近年随着硅谷科技公司大规模进军国防市场而频繁见于财经报道。理解此词有助于把握科技与军工产业融合这一结构性趋势。",
+              "exampleEn": "Investors are increasingly backing dual-use technology companies that serve both commercial markets and government defense contracts.",
+              "exampleCn": "投资者越来越多地押注于同时服务商业市场和政府国防合同的两用技术公司。"
+            }
+          ]
+        },
+        {
+          "id": "20260513-4",
+          "category": "biz",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/policy/930178/citr-rubio-visa-deportation-misinformation-research",
+          "headlineEn": "Trump Administration Fights to Keep Content Moderation Experts Out of the US",
+          "headlineCn": "特朗普政府为驱逐内容审核专家的权利进行辩护",
+          "summaryEn": "The Trump administration is defending its authority to ban content moderation researchers from entering the United States. In a federal court hearing, Judge James Boasberg heard arguments in a lawsuit brought by the nonprofit Coalition for Independent Technology Research against Secretary of State Marco Rubio. The case raises critical questions about academic freedom, free speech, and whether the government can legally restrict entry to individuals based on their research focus and policy advocacy.",
+          "summaryCn": "特朗普政府正在法庭上为其驱逐内容审核研究人员的权力进行辩护。联邦法官就非营利组织「独立技术研究联盟」针对国务卿鲁比奥提起的诉讼听取了双方陈述。此案引发了关于学术自由、言论自由，以及政府能否依据研究方向和政策倡导立场限制人员入境的重要争议，对科技政策领域的学术生态产生深远影响。",
+          "excerpt": "The Trump administration is fighting for the right to keep some social media content moderation advocates out of the US. A federal judge heard arguments in a lawsuit between the nonprofit Coalition for Independent Technology Research and Secretary of State Marco Rubio over the legality of such entry restrictions.",
+          "vocab": [
+            {
+              "word": "content moderation",
+              "pos": "phrase",
+              "meaning": "内容审核：社交媒体平台对用户发布内容进行筛查和管理的机制。这是科技政策报道的核心术语，比「content management」（内容管理）更具体，特指针对有害内容的主动干预行为，是理解平台治理讨论的必备词汇。",
+              "exampleEn": "Major tech platforms are investing heavily in content moderation tools to remove harmful posts before they go viral.",
+              "exampleCn": "各大科技平台正在大力投资内容审核工具，以便在有害帖子病毒式传播之前将其删除。"
+            },
+            {
+              "word": "advocate",
+              "pos": "n.",
+              "meaning": "倡导者、支持者：指积极推动某一政策或理念的人。比「supporter」（支持者）更正式，带有主动游说和公开发声的含义，常出现在政策、法律和社会议题报道中。注意其动词用法「advocate for」（倡导……），是政治商业新闻高频搭配。",
+              "exampleEn": "She is a leading advocate for stricter data privacy regulations in the tech industry.",
+              "exampleCn": "她是推动科技行业实施更严格数据隐私法规的主要倡导者。"
+            },
+            {
+              "word": "coalition",
+              "pos": "n.",
+              "meaning": "联盟、联合体：强调多个独立主体为共同目标临时联合，比「alliance」（联盟）更常用于非营利、政策倡导或政治语境。往往暗示各方原本利益不同，但在某一议题上形成合力，是读懂利益集团博弈新闻的关键词。",
+              "exampleEn": "A coalition of small businesses and tech startups lobbied Congress to revise the proposed tax reform bill.",
+              "exampleCn": "一个由小企业和科技初创公司组成的联盟游说国会修改拟议的税改法案。"
+            },
+            {
+              "word": "bar from",
+              "pos": "phrasal v.",
+              "meaning": "禁止进入/参与：法律和正式语境中比「ban from」更书面，常见于法院裁决、政府令和正式报道。名词形式「bar」也常出现（如「entry bar」入境禁令）。掌握这一搭配有助于读懂涉及制裁、禁令的商业新闻。",
+              "exampleEn": "The court ruled that the company could not be barred from operating in the country solely based on its foreign ownership.",
+              "exampleCn": "法院裁定，不能仅以外资所有权为由禁止该公司在该国运营。"
+            },
+            {
+              "word": "lawsuit",
+              "pos": "n.",
+              "meaning": "民事诉讼：特指民事法律行动，区别于「criminal case」（刑事案件）。在商业和科技报道中极为常见，核心搭配有「file a lawsuit against」（对……提起诉讼）和「settle a lawsuit」（庭外和解），是阅读企业法律纠纷新闻的必备词。",
+              "exampleEn": "The startup filed a lawsuit against its former investor, alleging breach of contract over the failed acquisition deal.",
+              "exampleCn": "该初创公司对其前投资方提起诉讼，指控其在失败的收购交易中违反合同。"
+            }
+          ]
+        },
+        {
+          "id": "20260513-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/13/kevin-warsh-wins-senate-confirmation-as-the-next-federal-reserve-chair.html",
+          "headlineEn": "Kevin Warsh Confirmed as Next Federal Reserve Chair in Most Divisive Vote Ever",
+          "headlineCn": "凯文·沃什以史上最具争议投票获批出任美联储主席",
+          "summaryEn": "Kevin Warsh, 56, has been confirmed by the U.S. Senate as the next chair of the Federal Reserve, succeeding Jerome Powell in the most contentious confirmation vote in the central bank's history. Warsh, a former Fed governor and Wall Street banker, is widely expected to adopt a more hawkish stance on inflation. His appointment signals a potential shift in U.S. monetary policy, with broad implications for interest rates, the dollar, and global financial markets.",
+          "summaryCn": "美国参议院以史上最具争议性的投票，正式批准56岁的凯文·沃什出任下一任美联储主席，接替杰罗姆·鲍威尔。沃什曾任美联储理事并有华尔街投行背景，外界普遍预期他将在通胀管控上采取更为鹰派的立场。此次任命标志着美国货币政策方向可能发生重大转变，对利率走势、美元汇率及全球金融市场均将产生深远影响。",
+          "excerpt": "In the most divisive vote ever recorded for a Federal Reserve chair, Kevin Warsh, 56, secured Senate confirmation to succeed Jerome Powell. The contentious ballot reflected sharp divisions over the future direction of U.S. monetary policy and the independence of the central bank.",
+          "vocab": [
+            {
+              "word": "divisive",
+              "pos": "adj.",
+              "meaning": "引起严重分歧或「撕裂」的。比 controversial（有争议的）语气更强，暗示支持与反对方势均力敌、难以调和。政治与商业报道高频词，如 a divisive vote（争议性投票）、a divisive figure（引发阵营对立的人物）。",
+              "exampleEn": "The CEO's plan to relocate headquarters proved deeply divisive, splitting the board along regional lines.",
+              "exampleCn": "首席执行官将总部迁址的计划极具争议，致使董事会沿地区派系产生严重分歧。"
+            },
+            {
+              "word": "confirmation",
+              "pos": "n.",
+              "meaning": "（立法机构对行政提名的）审查批准。在美国政治语境中专指「参议院确认」这一程序，与日常用法「确认信息」含义截然不同。固定搭配 Senate confirmation hearing（参议院确认听证会）是财经新闻中的必备词组。",
+              "exampleEn": "The Treasury Secretary's confirmation hearing drew intense scrutiny from senators on both sides of the aisle.",
+              "exampleCn": "财政部长的提名确认听证会受到两党参议员的严格审查。"
+            },
+            {
+              "word": "hawkish",
+              "pos": "adj.",
+              "meaning": "（货币或外交政策上）鹰派的，主张强硬措施的。源自「鹰」的意象，在金融新闻中专指倾向于加息、收紧货币供应以抑制通胀的立场，与 dovish（鸽派的，倾向宽松）相对。这对政策隐喻在财经英语中极为高频，必须成对掌握。",
+              "exampleEn": "Markets fell sharply after the central bank governor delivered surprisingly hawkish remarks about future rate hikes.",
+              "exampleCn": "央行行长就未来加息发表出人意料的鹰派言论后，市场大幅下跌。"
+            },
+            {
+              "word": "stance",
+              "pos": "n.",
+              "meaning": "（对某议题刻意选择并公开持有的）立场、态度。比 position 更正式，常与政策搭配，如 take a hawkish stance on inflation（对通胀采取鹰派立场）。它强调主动性与公开性，是政策和外交报道的核心词汇，搭配极为固定。",
+              "exampleEn": "The new trade minister is expected to take a tougher stance on intellectual property protection.",
+              "exampleCn": "预计新任贸易部长将在知识产权保护问题上采取更为强硬的立场。"
+            },
+            {
+              "word": "succeed",
+              "pos": "v.",
+              "meaning": "继任、接替（某人的职位）。这是中国学习者最易忽视的义项——succeed 不仅意味着「成功」，还有「接任」之意，如 succeed Powell as Fed chair（接替鲍威尔出任美联储主席）。用 succeed sb. 而非 replace sb. 表达继任，语气更正式地道，且不带「取代」的负面含义。",
+              "exampleEn": "She was appointed to succeed the retiring CFO and is expected to continue the company's cost-cutting strategy.",
+              "exampleCn": "她被任命接替即将退休的首席财务官，预计将延续公司的降本战略。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-11": {
       "label": "5月11日 (周一)",
       "stories": [
