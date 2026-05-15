@@ -1,7 +1,224 @@
 {
-  "lastUpdated": "2026-05-14T04:05:46.409208+00:00",
+  "lastUpdated": "2026-05-15T02:36:31.060250+00:00",
   "level": "B2",
   "days": {
+    "2026-05-14": {
+      "label": "5月14日 (周四)",
+      "stories": [
+        {
+          "id": "20260514-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+          "headlineEn": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。"
+            }
+          ]
+        },
+        {
+          "id": "20260514-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/",
+          "headlineEn": "Khosla Ventures Backs Founder of Collapsed Startup Bench With $10M",
+          "headlineCn": "Khosla Ventures豪赌1000万美元，押注首个创业公司已崩溃的创始人",
+          "summaryEn": "Ian Crosby, founder of Bench — a bookkeeping startup that abruptly shut down in late 2024 — is staging a comeback with Synthetic, a fully autonomous AI bookkeeping service aimed at early-stage startups. Khosla Ventures is backing the new venture with $10 million, signaling strong confidence in Crosby's resilience and the surging demand for AI-driven financial automation. The bet reflects a broader Silicon Valley pattern of doubling down on founders who learn from failure and return with sharper, more focused ideas.",
+          "summaryCn": "Ian Crosby曾创办簿记初创公司Bench，该公司于2024年底骤然倒闭。如今他东山再起，推出全自动AI簿记服务Synthetic，专为初创企业提供财务记录自动化方案。Khosla Ventures向其新项目投入1000万美元，既体现了对这位创始人的高度信心，也折射出硅谷的一贯逻辑：押注那些历经失败、却能带着更清晰思路卷土重来的创业者。",
+          "excerpt": "Ian Crosby's first company, Bench, collapsed spectacularly, leaving thousands of small business customers scrambling for their financial records. Now Khosla Ventures is backing his second act: Synthetic, a fully autonomous AI bookkeeping platform designed to replace human accountants for early-stage startups.",
+          "vocab": [
+            {
+              "word": "implode",
+              "pos": "v.",
+              "meaning": "（公司或计划）从内部突然崩溃瓦解。区别于explode（向外爆炸），implode强调「向内坍塌」的隐喻，暗示问题根源在内部，常见于描述公司因资金断裂或管理失控而骤然倒闭，语气比fail更戏剧性，是财经新闻的高频词。",
+              "exampleEn": "The crypto exchange imploded overnight after reports of massive internal fraud surfaced.",
+              "exampleCn": "这家加密货币交易所在内部重大欺诈丑闻曝光后，一夜之间轰然崩溃。"
+            },
+            {
+              "word": "autonomous",
+              "pos": "adj.",
+              "meaning": "自主的，不依赖人工干预即可独立运行。在AI语境中，autonomous比automated（自动化的）更进一步，暗含系统能主动判断而非仅机械执行，是AI产品定位中极关键的区分词，值得与automated仔细辨析。",
+              "exampleEn": "The firm deployed an autonomous trading system that rebalances the portfolio without any human input.",
+              "exampleCn": "该公司部署了一套自主交易系统，无需任何人工干预即可自动调整投资组合。"
+            },
+            {
+              "word": "bet on",
+              "pos": "phrase",
+              "meaning": "押注于某人或某事；在商业语境中指投资者对某标的寄予厚望并愿意承担风险。比invest in更口语化，带有「赌一把」的冒险色彩，常见于风投报道，也常暗示押注的是「人」而非单纯的「项目」。",
+              "exampleEn": "Several top-tier VCs are betting on vertical AI agents to reshape enterprise software within five years.",
+              "exampleCn": "多家顶级风险投资机构正押注于垂直AI智能体，预计其将在五年内重塑企业软件市场。"
+            },
+            {
+              "word": "bookkeeping",
+              "pos": "n.",
+              "meaning": "簿记，指系统性地记录企业日常财务交易的基础工作。区别于accounting（会计，含分析、预测与报告），bookkeeping特指数据录入和账目维护层面，是理解fintech赛道不可或缺的词汇，也是本文讨论AI替代场景的核心概念。",
+              "exampleEn": "Automating bookkeeping can save small businesses dozens of hours each month and reduce costly human errors.",
+              "exampleCn": "将簿记自动化可以每月为小型企业节省数十小时，并大幅减少代价高昂的人工错误。"
+            },
+            {
+              "word": "back",
+              "pos": "v.",
+              "meaning": "（在资金上）支持、投资某人或某项目。在商业新闻中back比invest更简洁有力，且隐含「相信这个人」的人情味，常与创始人搭配而非公司本身，体现风投「投人不投项目」的文化，是财经英语写作中极高频且易被初学者忽视的用法。",
+              "exampleEn": "Sequoia backed the founder even after her previous company failed to reach profitability.",
+              "exampleCn": "红杉资本在这位创始人的上一家公司未能实现盈利后，依然选择对她给予支持。"
+            }
+          ]
+        },
+        {
+          "id": "20260514-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+          "headlineEn": "Cerebras Raises $5.5B and Stock Surges 108% in First Major Tech IPO of 2026",
+          "headlineCn": "Cerebras融资55亿美元，股价飙升108%，成为2026年首个重磅科技IPO",
+          "summaryEn": "AI chip startup Cerebras Systems made a dramatic market debut in 2026, raising $5.5 billion in its IPO and watching its share price soar 108% on the first trading day. The company designs high-performance chips for AI computing and had once faced regulatory scrutiny that cast serious doubt on whether the listing would happen at all. The blockbuster debut signals renewed investor appetite for AI infrastructure plays and marks a significant turning point for the tech IPO market, which has been largely dormant since 2021.",
+          "summaryCn": "AI芯片初创公司Cerebras Systems于2026年强势登陆股市，IPO融资55亿美元，首日股价大涨108%，震惊华尔街。该公司专注于为人工智能计算设计高性能芯片，此前曾受监管审查影响，一度令外界对其上市前景存疑。此次轰动性首秀不仅体现了投资者对AI基础设施的持续高涨热情，也标志着自2021年以来持续低迷的科技IPO市场出现重要复苏信号。",
+          "excerpt": "A year ago, it looked like this day would never happen for Cerebras. Now the AI chip company has raised $5.5 billion in what is being called the first huge tech IPO of 2026, with shares surging more than 108% on opening day — a debut that caught even veteran investors off guard.",
+          "vocab": [
+            {
+              "word": "pop",
+              "pos": "v. / n.",
+              "meaning": "（股价）骤然跳涨；财经新闻标题的高频词，比 surge 或 jump 更口语、更生动，专用于描述IPO首日股价急升，常见搭配有 「stock pops」「first-day pop」。学会这个词，路透社和CNBC的标题就能秒读懂。",
+              "exampleEn": "Shares of the newly listed fintech company popped 75% on their first day of trading, exceeding all analyst expectations.",
+              "exampleCn": "这家新上市金融科技公司的股价在首个交易日暴涨75%，超出所有分析师预期。"
+            },
+            {
+              "word": "raise",
+              "pos": "v.",
+              "meaning": "（企业）融资、募集资金；在商业语境中，raise 后直接接金额是固定搭配（如 raise $5.5 billion），比 obtain funding 或 secure capital 更简洁地道。注意与 raise prices（提价）和 raise awareness（提高意识）区分——同一个词，语境决定含义。",
+              "exampleEn": "The electric vehicle startup raised $2 billion in its Series D round, pushing its valuation above $20 billion.",
+              "exampleCn": "这家电动汽车初创公司在D轮融资中募集20亿美元，估值突破200亿美元。"
+            },
+            {
+              "word": "debut",
+              "pos": "n. / v.",
+              "meaning": "首次亮相、登场；在IPO语境中，market debut 特指企业首次公开上市交易，比 listing 更具仪式感，比 going public 更精炼，是财经媒体标题的标配词。既可作名词（a strong debut），也可作动词（the stock debuted on Nasdaq）。",
+              "exampleEn": "The semiconductor firm made a strong market debut, with its stock climbing 60% above the IPO price within hours.",
+              "exampleCn": "这家半导体公司强势登陆市场，股价在数小时内较IPO定价上涨60%。"
+            },
+            {
+              "word": "appetite",
+              "pos": "n.",
+              "meaning": "（投资者的）兴趣、意愿；investor appetite 是财经英语里极常见的隐喻搭配，将投资欲望比作「食欲」，生动传神。同族搭配还有 risk appetite（风险偏好）、appetite for yield（追求收益的意愿）。这类隐喻在英文财经报道中几乎每天出现，值得熟记。",
+              "exampleEn": "Strong investor appetite for AI-related stocks has driven valuations in the sector to record highs this quarter.",
+              "exampleCn": "投资者对AI相关股票的强烈热情推动该板块估值本季度创历史新高。"
+            },
+            {
+              "word": "blockbuster",
+              "pos": "adj. / n.",
+              "meaning": "轰动性的、超级大手笔；原指卖座大片，在商业语境中引申为「规模巨大且影响深远」的交易、上市或产品，如 blockbuster IPO、blockbuster deal。比 huge 或 massive 更有画面感和情绪张力，是财经报道渲染规模与影响力时的首选词。",
+              "exampleEn": "The blockbuster merger between the two cloud giants reshaped the competitive landscape of enterprise software overnight.",
+              "exampleCn": "这两家云计算巨头之间的轰动性合并，一夜之间重塑了企业软件市场的竞争格局。"
+            }
+          ]
+        },
+        {
+          "id": "20260514-4",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
+          "headlineEn": "Cisco Cuts 4,000 Jobs to Redirect Spending Toward AI While Posting Record Revenue",
+          "headlineCn": "思科裁员4000人押注AI，同期季度营收创历史新高",
+          "summaryEn": "Cisco has announced plans to lay off nearly 4,000 employees — roughly 5% of its global workforce — as part of a strategic shift to increase investment in artificial intelligence. Despite the cuts, the company reported record quarterly revenue, suggesting the restructuring is driven by a desire to reallocate capital toward AI rather than financial distress. CEO Chuck Robbins touted the strong results, framing the layoffs as a forward-looking move. The announcement reflects a broader trend of tech giants pivoting resources toward AI development.",
+          "summaryCn": "思科宣布裁减近4000名员工，约占全球员工总数的5%，并计划将节省的资金重新投入人工智能领域。尽管大规模裁员，公司同期却公布了创纪录的季度营收，表明此轮裁员并非出于财务困境，而是主动进行战略资源重组。首席执行官罗宾斯对公司业绩大加赞扬，将裁员定性为着眼未来的主动布局。思科此番操作折射出科技巨头纷纷将资源向AI领域倾斜的行业大趋势。",
+          "excerpt": "Cisco announced it would cut nearly 4,000 jobs — its latest round of layoffs in recent years — while simultaneously reporting record quarterly revenue. CEO Chuck Robbins touted the company's strong financial performance, positioning the workforce reduction as a strategic reallocation of resources to accelerate AI investment.",
+          "vocab": [
+            {
+              "word": "lay off",
+              "pos": "phrasal v.",
+              "meaning": "（因经济或结构性原因）裁员。与「fire」的关键区别：fire强调因个人过失主动开除，lay off强调因业务调整、成本削减等结构性原因解雇，在财经报道中几乎专用于此场景，语域中性偏正式，搭配固定为「lay off workers/employees」。",
+              "exampleEn": "The automaker announced it would lay off 6,000 workers as it shifts production capacity toward electric vehicles.",
+              "exampleCn": "这家汽车制造商宣布将裁减6000名工人，以将生产能力转向电动汽车。"
+            },
+            {
+              "word": "tout",
+              "pos": "v.",
+              "meaning": "大力宣传、极力称赞。常见于新闻报道，描写高管对自身业绩的积极表述，带有轻微「自我标榜」色彩。比「promote」更口语化生动，比「boast」更中性，是财经新闻高频动词，值得专门记忆。",
+              "exampleEn": "The CFO touted the company's AI-driven cost savings during the earnings call, calling it a game-changer.",
+              "exampleCn": "首席财务官在业绩电话会上大力宣扬公司由AI驱动的成本节约成效，称其为颠覆性创新。"
+            },
+            {
+              "word": "pivot",
+              "pos": "v. / n.",
+              "meaning": "战略转型、转向。源自篮球术语，在商业/科技语境中特指企业将核心资源或方向从A彻底转向B，比「shift」更强调主动性和战略意图，是硅谷创业文化高频词，也常以「pivot to AI」形式出现在科技新闻中。",
+              "exampleEn": "After years of focusing on hardware, the firm pivoted to software subscriptions to capture recurring revenue.",
+              "exampleCn": "在多年专注于硬件之后，该公司转型为软件订阅模式，以获取经常性收入。"
+            },
+            {
+              "word": "restructure",
+              "pos": "v.",
+              "meaning": "（对企业架构或债务）重组。在财经新闻中，corporate restructuring往往是裁员、部门合并、资产剥离等一系列动作的总称，是管理层常用的中性表达，实质通常意味着规模收缩或战略调整，比「reorganize」更正式。",
+              "exampleEn": "The conglomerate restructured its operations, consolidating three regional divisions into one global unit to reduce overhead.",
+              "exampleCn": "这家企业集团对业务进行了重组，将三个地区部门合并为一个全球单元，以降低管理费用。"
+            },
+            {
+              "word": "earmark",
+              "pos": "v.",
+              "meaning": "专项划拨（资金）。特指将预算明确指定用于某一特定用途，比「allocate」更强调事先锁定和专款专用，常见于企业财报、政府预算等正式文件，搭配固定为「earmark funds/budget for sth」，是财经写作必备词汇。",
+              "exampleEn": "The board earmarked $2 billion for AI research and development over the next three fiscal years.",
+              "exampleCn": "董事会为未来三个财年的人工智能研发专项划拨了20亿美元。"
+            }
+          ]
+        },
+        {
+          "id": "20260514-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/14/bond-market-fed-inflation-warsh-powell.html",
+          "headlineEn": "Bond Market Warns Fed Is Behind the Curve on Inflation as Warsh Takes Over",
+          "headlineCn": "债市警告美联储抗通胀落后形势，沃什接任美联储主席在即",
+          "summaryEn": "Bond traders are growing increasingly worried that the Federal Reserve is too slow to respond to persistent inflation. As Kevin Warsh prepares to replace Jerome Powell as Fed Chair, markets are signaling that the central bank's easing bias — its tendency to favor interest rate cuts — must give way to a tightening stance. This shift matters because rising inflation expectations push bond yields higher, lifting borrowing costs for governments and businesses across the globe.",
+          "summaryCn": "债券市场交易员普遍担忧，美联储在应对持续通胀方面行动迟缓、落后于形势。随着凯文·沃什准备接替鲍威尔出任美联储主席，市场发出强烈信号：央行目前倾向于降息的宽松立场应让位于货币紧缩方向。这一判断事关重大——一旦通胀预期升温，债券收益率随之上行，将全面推高全球政府与企业的融资成本，对实体经济产生深远影响。",
+          "excerpt": "Bond traders are betting that the Federal Reserve has fallen behind the curve on inflation. With Kevin Warsh set to take over as Fed Chair, markets are pushing for a hawkish pivot — replacing the central bank's easing bias with a clear tightening stance.",
+          "vocab": [
+            {
+              "word": "behind the curve",
+              "pos": "phrase",
+              "meaning": "落后于形势，未能及时跟上变化。源自统计学「正态曲线」的比喻，引申为政策或行动比市场预期慢。财经报道中常用于批评央行反应迟钝，语气带有指责色彩，远比「slow」更有力度，路透社和彭博社高频使用。",
+              "exampleEn": "Analysts argued the central bank was behind the curve, having kept rates too low for too long as inflation surged.",
+              "exampleCn": "分析人士认为，央行行动迟缓，在通胀飙升之际仍将利率维持在过低水平太久。"
+            },
+            {
+              "word": "easing bias",
+              "pos": "phrase",
+              "meaning": "宽松倾向，指央行在政策决策中偏向降息或扩表的立场，与「tightening bias（紧缩倾向）」相对。这对词组是读懂美联储措辞的关键，教科书几乎不提，但在美联储声明和财经媒体中极为常见。",
+              "exampleEn": "The Fed's easing bias had kept mortgage rates low, but critics warned it was stoking asset bubbles.",
+              "exampleCn": "美联储的宽松倾向使抵押贷款利率维持低位，但批评人士警告这正在催生资产泡沫。"
+            },
+            {
+              "word": "tightening",
+              "pos": "n.",
+              "meaning": "货币紧缩，指央行通过加息或缩表来收紧流动性的政策行动。常见搭配为「monetary tightening」或「policy tightening」。注意：此处是经济学专业名词用法，与日常英语中「拧紧螺丝」的含义完全不同，需结合语境区分。",
+              "exampleEn": "Investors braced for further monetary tightening after the latest inflation report came in hotter than expected.",
+              "exampleCn": "最新通胀数据超预期后，投资者为进一步的货币紧缩政策做好了准备。"
+            },
+            {
+              "word": "skewed",
+              "pos": "adj.",
+              "meaning": "偏斜的，不对称地倾向某一侧。金融语境中描述风险或政策立场的不对称性，如「skewed to the downside（偏下行风险）」。比「biased」更客观书面，是路透社、彭博社描述市场预期时的高频词，值得主动掌握。",
+              "exampleEn": "With supply chain risks mounting, analysts said the outlook for tech earnings was skewed to the downside.",
+              "exampleCn": "随着供应链风险加剧，分析师表示科技股盈利前景偏向下行。"
+            },
+            {
+              "word": "take over",
+              "pos": "phrasal v.",
+              "meaning": "接任、接管。商业报道中特指正式接替某职位或控制权，含权力交接意味。需注意介词用法的区别：「take over a company」是收购公司，「take over as CEO」是接任首席执行官，搭配不同含义迥异，是高频易错点。",
+              "exampleEn": "She will take over as CFO next quarter, following the retirement of the company's longtime financial chief.",
+              "exampleCn": "她将于下季度接任首席财务官一职，接替公司长期任职的财务主管退休后的空缺。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-13": {
       "label": "5月13日 (周三)",
       "stories": [
