@@ -11,17 +11,45 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
           "headlineEn": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
+          "headlineCn": "OpenAI据报考虑起诉苹果，指ChatGPT整合未达预期",
+          "summaryEn": "OpenAI is reportedly preparing legal action against Apple following a deeply disappointing ChatGPT partnership. The deal, which embedded ChatGPT into Apple's iOS ecosystem, failed to deliver the subscriber growth and platform prominence OpenAI had anticipated. Frustrated executives are now actively exploring legal options. The dispute exposes growing tensions between AI companies and Big Tech platforms, as AI firms demand greater visibility and commercial returns from high-profile distribution partnerships.",
+          "summaryCn": "据报道，OpenAI正考虑对苹果公司采取法律行动。此前双方达成协议，将ChatGPT嵌入苹果iOS生态系统，但该合作未能带来预期的订阅用户增长和平台曝光度。对此深感失望的OpenAI高管目前正积极评估法律维权途径。这场纠纷揭示了AI公司与大型科技平台之间日益加剧的张力——AI企业渴望通过高知名度的分发合作获得更大的市场影响力和商业回报。",
+          "excerpt": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker — and it wouldn't be the first partner to feel burned.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。"
+              "word": "reportedly",
+              "pos": "adv.",
+              "meaning": "据报道；新闻写作中常用的「免责词」，表示消息来自他处、尚未被当事方正式确认。与 allegedly 的区别：reportedly 语气较中立，常用于未证实的商业新闻；allegedly 多用于法律/刑事语境，暗含当事方否认之意。",
+              "exampleEn": "The startup is reportedly in advanced talks with a major venture capital firm for a $500 million funding round.",
+              "exampleCn": "据报道，该初创公司正与一家大型风险投资机构就5亿美元融资进行深入谈判。"
+            },
+            {
+              "word": "prominence",
+              "pos": "n.",
+              "meaning": "曝光度；知名度；在商业语境中特指品牌或产品在某平台或生态中的显眼程度。与 visibility 的区别：prominence 强调地位层面的「突出」，visibility 更偏物理或数据意义上的「可见」，两者不可随意互换。",
+              "exampleEn": "The app developer demanded greater prominence in the App Store's featured section as a condition of the exclusive deal.",
+              "exampleCn": "该应用开发商要求在App Store精选版块获得更显眼的位置，作为签署独家协议的条件。"
+            },
+            {
+              "word": "integration",
+              "pos": "n.",
+              "meaning": "整合；嵌入；在科技商业语境中指将一个产品或功能嵌入另一个平台或系统，是谈合作落地时的核心词汇。注意区分 integration（技术或商业层面的整合）与 merger（公司层面的合并），前者强调功能嵌入，后者强调主体合并。",
+              "exampleEn": "The payment company's deep integration into the e-commerce platform drove a 40% increase in checkout conversion rates.",
+              "exampleCn": "该支付公司与电商平台的深度整合使结账转化率提升了40%。"
+            },
+            {
+              "word": "actively exploring",
+              "pos": "phrase",
+              "meaning": "正在积极评估；企业公关和新闻报道中的高频表述，暗示「已超过随口一想的阶段，正在认真推进」，但又保留余地，避免承诺。常见于法律行动、并购、新市场进入等敏感话题，是商业英语中典型的「留退路」表达。",
+              "exampleEn": "The board confirmed it is actively exploring strategic alternatives, including a potential sale of the company.",
+              "exampleCn": "董事会确认，公司正在积极评估各种战略方案，包括潜在的出售计划。"
+            },
+            {
+              "word": "feel burned",
+              "pos": "phrase",
+              "meaning": "感到被坑了；吃了亏；因信任对方而遭受损失后的挫败感。商业语境中暗示合作关系中存在欺骗或严重落差，语气比 feel disappointed 更强烈，带有「被辜负」甚至「被耍了」的含义，常出现在科技媒体的评论分析中。",
+              "exampleEn": "Several early investors felt burned after the company quietly changed the terms of its revenue-sharing agreement.",
+              "exampleCn": "在公司悄然修改收入分成协议条款后，数位早期投资者感到被坑了。"
             }
           ]
         },
