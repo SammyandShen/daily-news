@@ -34,8 +34,10 @@ cd "$PROJECT_DIR"
 
 # 加载用户的 PATH（launchd 启动时 PATH 极简，需要补全）
 # 这样才能找到 claude / python3 / git
-source "$HOME/.zshrc" 2>/dev/null || true
-source "$HOME/.bash_profile" 2>/dev/null || true
+set +e
+source "$HOME/.zshrc" 2>/dev/null
+source "$HOME/.bash_profile" 2>/dev/null
+set -e
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.npm-global/bin:$PATH"
 
 # 检查依赖
@@ -63,6 +65,11 @@ echo "📡 Step 1/3: 抓取 RSS 新闻源..."
 echo ""
 echo "🤖 Step 2/3: 调用 Claude Code 生成讲解（用你的 Pro 订阅，不消耗 API 额度）..."
 "$PYTHON_CMD" scripts/generate_with_claude_code.py
+
+# Step 2.5: 自动重试失败条目（最多 2 轮）
+echo ""
+echo "🔁 检查并重试失败条目..."
+"$PYTHON_CMD" scripts/retry_failed.py
 
 # Step 3: 提交并推送
 echo ""
