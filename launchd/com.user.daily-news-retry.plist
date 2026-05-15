@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.daily-news-retry</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+        <string>source /Users/USERNAME/.zshrc 2>/dev/null; export PATH="/opt/homebrew/bin:/usr/local/bin:/Users/USERNAME/.local/bin:$PATH"; cd /Users/USERNAME/daily-news && TODAY=$(date +%Y-%m-%d) python3 scripts/retry_failed.py >> logs/$(date +%Y-%m-%d).log 2>&1 && git add docs/news.json && git diff --cached --quiet || git commit -m "📰 Noon retry for $(date +%Y-%m-%d)" && git push origin main</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>12</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/USERNAME/daily-news</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/USERNAME/daily-news/logs/launchd-retry-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/USERNAME/daily-news/logs/launchd-retry-stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/Users/USERNAME/.local/bin:/Users/USERNAME/.npm-global/bin</string>
+        <key>HOME</key>
+        <string>/Users/USERNAME</string>
+    </dict>
+</dict>
+</plist>

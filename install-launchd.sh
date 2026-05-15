@@ -13,8 +13,11 @@ set -e
 USERNAME=$(whoami)
 PROJECT_DIR="$HOME/daily-news"
 PLIST_NAME="com.user.daily-news"
+PLIST_RETRY_NAME="com.user.daily-news-retry"
 PLIST_SOURCE="$PROJECT_DIR/launchd/$PLIST_NAME.plist"
+PLIST_RETRY_SOURCE="$PROJECT_DIR/launchd/$PLIST_RETRY_NAME.plist"
 PLIST_DEST="$HOME/Library/LaunchAgents/$PLIST_NAME.plist"
+PLIST_RETRY_DEST="$HOME/Library/LaunchAgents/$PLIST_RETRY_NAME.plist"
 
 case "${1:-install}" in
     install)
@@ -27,26 +30,25 @@ case "${1:-install}" in
             exit 1
         fi
 
-        # 替换模板中的 USERNAME 为真实用户名
         mkdir -p "$HOME/Library/LaunchAgents"
+
+        # 安装 7:00 主任务
         sed "s|USERNAME|$USERNAME|g" "$PLIST_SOURCE" > "$PLIST_DEST"
-        echo "✅ 已生成 $PLIST_DEST"
-
-        # 给主脚本可执行权限
-        chmod +x "$PROJECT_DIR/daily-update.sh"
-
-        # 卸载旧的（如果存在），然后加载新的
         launchctl unload "$PLIST_DEST" 2>/dev/null || true
         launchctl load "$PLIST_DEST"
-        echo "✅ 定时任务已加载"
+        echo "✅ 07:00 主任务已加载"
+
+        # 安装 12:00 重试任务
+        sed "s|USERNAME|$USERNAME|g" "$PLIST_RETRY_SOURCE" > "$PLIST_RETRY_DEST"
+        launchctl unload "$PLIST_RETRY_DEST" 2>/dev/null || true
+        launchctl load "$PLIST_RETRY_DEST"
+        echo "✅ 12:00 重试任务已加载"
+
+        chmod +x "$PROJECT_DIR/daily-update.sh"
 
         echo ""
-        echo "📋 下一步："
-        echo "  1. 跑一次测试：bash install-launchd.sh test"
-        echo "  2. 查看状态：  bash install-launchd.sh status"
-        echo "  3. 看日志：    tail -f $PROJECT_DIR/logs/\$(date +%Y-%m-%d).log"
-        echo ""
-        echo "⏰ 每天早上 07:00 自动跑（如果电脑那时在睡眠，唤醒后会补跑）"
+        echo "⏰ 每天 07:00 生成新闻，12:00 自动重试失败条目"
+        echo "📋 查看状态：bash install-launchd.sh status"
         ;;
 
     test)
@@ -77,9 +79,10 @@ case "${1:-install}" in
 
     remove)
         echo "🗑 卸载定时任务..."
-        launchctl unload "$PLIST_DEST" 2>/dev/null && echo "✅ 已卸载" || echo "ℹ️ 任务未在运行"
+        launchctl unload "$PLIST_DEST" 2>/dev/null && echo "✅ 主任务已卸载" || echo "ℹ️ 主任务未在运行"
         rm -f "$PLIST_DEST"
-        echo "✅ 已删除 $PLIST_DEST"
+        launchctl unload "$PLIST_RETRY_DEST" 2>/dev/null && echo "✅ 重试任务已卸载" || echo "ℹ️ 重试任务未在运行"
+        rm -f "$PLIST_RETRY_DEST"
         echo "项目文件夹和日志保留，可以手动删除：rm -rf $PROJECT_DIR"
         ;;
 
