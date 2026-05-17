@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T02:36:31.060250+00:00",
+  "lastUpdated": "2026-05-17T07:34:32.377399+00:00",
   "level": "B2",
   "days": {
     "2026-05-14": {
@@ -1712,6 +1712,251 @@
               "meaning": "组织/机构知识（员工头脑里关于公司流程、客户、历史的隐性知识）",
               "exampleEn": "When the senior engineers retired, the company lost decades of institutional knowledge.",
               "exampleCn": "高级工程师退休后，公司流失了几十年的组织知识。"
+            }
+          ]
+        }
+      ]
+    },
+    "2026-05-17": {
+      "label": "5月17日 (周日)",
+      "stories": [
+        {
+          "id": "20260517-1",
+          "category": "tech",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/tesla-reveals-new-details-about-robotaxi-crashes-and-the-humans-involved/",
+          "headlineEn": "Tesla Reveals New Details About Robotaxi Crashes—and the Humans Involved",
+          "headlineCn": "特斯拉披露机器人出租车碰撞细节：远程操作员系事故根源",
+          "summaryEn": "Tesla has disclosed new details about crashes involving its robotaxi fleet, revealing that remote human operators—not the onboard AI—were responsible for two incidents. Operators slowly steered the autonomous vehicles into a metal fence and a construction barricade. The disclosure raises critical questions about human oversight in autonomous driving systems and highlights the unresolved liability issues that arise when humans and AI jointly share vehicle control on public roads.",
+          "summaryCn": "特斯拉公开了机器人出租车碰撞事故的新细节，披露两起事故均由远程人类操作员（而非车载AI）负责。操作员以较低速度将车辆分别驶入金属围栏和施工路障。此次披露引发外界对自动驾驶系统中人类监督机制的质疑，也凸显了人与AI共同控制车辆时责任归属尚未厘清的核心困境，对整个自动驾驶行业的监管走向具有重要影响。",
+          "excerpt": "Tesla confirmed that remote operators—not the vehicle's AI system—were at the controls during two minor crashes, slowly guiding the robotaxis into a metal fence and a construction barricade. The disclosure blurs the line between human and machine responsibility in autonomous driving.",
+          "vocab": [
+            {
+              "word": "remote operator",
+              "pos": "phrase",
+              "meaning": "远程操作员。自动驾驶行业专用术语，指不在车内、通过网络远程介入并控制车辆的人员。区别于「driver」（在场驾驶员），该词暗示一种新型人机分工模式，是理解自动驾驶责任归属争议的核心词汇。",
+              "exampleEn": "When the robotaxi encountered an unexpected road closure, a remote operator took over to navigate it safely to the nearest pickup zone.",
+              "exampleCn": "当机器人出租车遭遇意外封路时，远程操作员接管控制，将其安全引导至最近的上客区。"
+            },
+            {
+              "word": "disclose",
+              "pos": "v.",
+              "meaning": "披露、公开（此前未知的信息）。比「reveal」更正式，常见于法律、财务或监管场景，带有「依规定或压力而主动公开」的含义，是财经报道的高频动词。常见搭配：disclose details / disclose findings / disclose to regulators。",
+              "exampleEn": "The automaker was required to disclose all safety-related incidents to federal regulators within five business days.",
+              "exampleCn": "该汽车制造商被要求在五个工作日内向联邦监管机构披露所有安全相关事件。"
+            },
+            {
+              "word": "autonomous",
+              "pos": "adj.",
+              "meaning": "自主的、自动决策的。在科技语境中专指无需人工干预、能独立判断的系统，如「autonomous vehicle」。比「automatic」（强调机械重复）更强调智能决策能力，是AI和科技报道的核心形容词，理解其语义边界有助于准确读懂行业新闻。",
+              "exampleEn": "The company's autonomous warehouse robots can reroute themselves in real time when they detect an obstacle on the floor.",
+              "exampleCn": "该公司的自主仓储机器人在检测到地面障碍物时，能够实时重新规划行进路线。"
+            },
+            {
+              "word": "liability",
+              "pos": "n.",
+              "meaning": "法律责任、赔偿责任。商业和法律场景高频词，指一方因过失须承担的法律或经济后果。自动驾驶领域「责任归属」争议的核心词汇。常见搭配：product liability（产品责任）、shift liability（转移责任）、assume liability（承担责任）。",
+              "exampleEn": "The central legal question is whether liability for an autonomous vehicle crash falls on the manufacturer, the software developer, or the remote operator.",
+              "exampleCn": "核心法律问题在于，自动驾驶车辆事故的责任究竟由制造商、软件开发商还是远程操作员来承担。"
+            },
+            {
+              "word": "barricade",
+              "pos": "n.",
+              "meaning": "路障、临时围挡。施工或交通管理场景中常见，与「barrier」（泛指任何屏障）相比，barricade 特指人为临时设置的阻拦物，常出现于事故报告和安全测试报道中。掌握此词有助于精准读懂自动驾驶、物流机器人等领域的英文技术报告。",
+              "exampleEn": "The self-driving shuttle failed to recognize the temporary barricade placed around the road repair zone and had to be manually stopped.",
+              "exampleCn": "这辆自动驾驶穿梭车未能识别道路维修区域周围的临时路障，不得不由人工紧急停车。"
+            }
+          ]
+        },
+        {
+          "id": "20260517-2",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/tech-policy/2026/05/openai-feels-burned-by-apples-crappy-chatgpt-integration-insiders-say/",
+          "headlineEn": "OpenAI feels “burned” by Apple’s crappy ChatGPT integration, insiders say",
+          "headlineCn": "内部人士称苹果ChatGPT整合令OpenAI深感失望",
+          "summaryEn": "OpenAI is reportedly frustrated with how Apple has implemented its ChatGPT integration on iOS, with insiders saying the partnership has significantly underdelivered. Adding to the tension, a judge has ordered Apple to hand over internal messages about its secretive AI deal with OpenAI to Elon Musk's legal team. The case exposes friction between major tech players over AI partnerships and raises broader concerns about transparency in closed-door tech collaboration agreements.",
+          "summaryCn": "据内部人士透露，OpenAI对苹果在iOS设备上整合ChatGPT的方式深感不满，认为双方合作效果远未达到预期。与此同时，法院下令苹果公司向埃隆·马斯克的法律团队提交涉及这一秘密AI协议的内部通讯记录。此案揭示了科技巨头之间围绕AI合作日益加剧的摩擦，也令外界对大型科技公司闭门谈判的透明度产生更多质疑。",
+          "excerpt": "OpenAI is said to feel \"burned\" by Apple's underwhelming ChatGPT integration, with insiders describing the collaboration as falling well short of expectations. A court has since ordered Apple to disclose internal messages about the secretive deal to Elon Musk's legal representatives.",
+          "vocab": [
+            {
+              "word": "feel burned",
+              "pos": "phrase",
+              "meaning": "感到吃亏、被坑或深感失望。商业谈判中常用，比feel disappointed语气更强烈，带有「因信任他方而遭受损失」的隐含意味，常用于合作破裂或预期落空的场景。",
+              "exampleEn": "After the vendor repeatedly missed deadlines, the startup's CEO admitted the company felt burned by the partnership.",
+              "exampleCn": "在供应商屡次错过截止日期后，这家初创公司的CEO坦言公司在这段合作中深感受伤。"
+            },
+            {
+              "word": "underdeliver",
+              "pos": "v.",
+              "meaning": "表现或交付低于承诺与预期。与overdeliver（超额交付）相对，是商业英语高频动词，常用于评估合作方、产品或季度业绩，比fall short of expectations更简洁专业。",
+              "exampleEn": "Analysts warned that the product launch could underdeliver if the supply chain issues were not resolved in time.",
+              "exampleCn": "分析师警告，如果供应链问题不能及时解决，此次产品发布可能难以达到预期效果。"
+            },
+            {
+              "word": "secretive",
+              "pos": "adj.",
+              "meaning": "神秘的、刻意保密的。比secret（形容事物本身）更强调主体的「主动隐瞒」态度，常修饰谈判、交易或协议，带有一定负面含义，暗示缺乏透明度，是报道科技并购时的常见词。",
+              "exampleEn": "The two firms conducted secretive negotiations for months before announcing their merger to the public.",
+              "exampleCn": "两家公司在数月内秘密谈判，之后才向公众宣布合并消息。"
+            },
+            {
+              "word": "hand over",
+              "pos": "phrasal v.",
+              "meaning": "移交（文件、数据、控制权等）。在法律和商业语境中极为常用，尤其指在法院命令或监管要求下提交证据或资料，比submit更口语化，比produce（法律术语）更易理解，是科技监管报道的高频短语。",
+              "exampleEn": "The regulator ordered the fintech company to hand over all transaction records from the past three years.",
+              "exampleCn": "监管机构命令这家金融科技公司移交过去三年的全部交易记录。"
+            },
+            {
+              "word": "integration",
+              "pos": "n.",
+              "meaning": "（产品与功能的）整合、集成。在科技商业语境中特指将某一服务嵌入另一平台的过程，是科技合作谈判的核心词汇，需与social integration（社会融合）等其他语境区分，搭配seamless、deep、native等形容词使用频率极高。",
+              "exampleEn": "The seamless integration of the payment API into the e-commerce platform boosted conversion rates by 15%.",
+              "exampleCn": "将支付API无缝整合至电商平台后，转化率提升了15%。"
+            }
+          ]
+        },
+        {
+          "id": "20260517-3",
+          "category": "biz",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
+          "headlineEn": "REI Anniversary Sale Offers Deep Discounts on Outdoor Gear and Camping Essentials",
+          "headlineCn": "REI周年庆大促启动：户外装备与露营必需品大幅折扣",
+          "summaryEn": "REI, one of America's most recognized outdoor retail cooperatives, has launched its annual Anniversary Sale — the retailer's largest promotional event of the year. The sale features significant discounts on camping essentials such as tents, sleeping pads, and stoves, making it a prime opportunity for outdoor enthusiasts to stock up before summer trips. The event also reflects sustained consumer interest in outdoor recreation, a sector that has seen strong growth in recent years.",
+          "summaryCn": "REI是美国知名的户外零售合作社，其一年一度的周年庆大促销现已启动，也是该零售商全年最大规模的促销活动。本次大促涵盖帐篷、睡垫、炉具等各类露营必备装备，折扣力度可观。对于有夏季出行计划的消费者而言，这是以优惠价格补充户外装备的绝佳时机，也折射出近年来户外休闲消费市场的持续升温。",
+          "excerpt": "REI's annual Anniversary Sale — the retailer's biggest of the year — has arrived, bringing deep discounts on outdoor essentials including tents, sleeping pads, and camping stoves. Whether you're gearing up for a weekend hike or a longer expedition, now is an ideal time to stock up on the gear you need at reduced prices.",
+          "vocab": [
+            {
+              "word": "stock up on",
+              "pos": "phrasal v.",
+              "meaning": "提前大量购买、囤积某物。比 'buy a lot of' 更地道，暗含'为未来需求而备货'的前瞻性。常见于零售、供应链和消费行为报道，与 'run out of（用完）'构成自然对应，是商业英语中描述消费者行为的高频表达。",
+              "exampleEn": "Many retailers advise customers to stock up on essentials before a major price increase takes effect.",
+              "exampleCn": "许多零售商建议消费者在大幅涨价生效前提前囤好日用必需品。"
+            },
+            {
+              "word": "retailer",
+              "pos": "n.",
+              "meaning": "零售商，指直接面向终端消费者销售商品的企业。学习此词的价值在于厘清供应链层级：manufacturer（制造商）→ wholesaler（批发商）→ retailer（零售商）→ consumer（消费者），是商业报道的核心词汇，不可与 'seller' 混用。",
+              "exampleEn": "Major retailers like Walmart and Target are investing heavily in e-commerce to compete with online giants.",
+              "exampleCn": "沃尔玛、塔吉特等大型零售商正大力投入电商领域，以应对网络巨头的竞争。"
+            },
+            {
+              "word": "essentials",
+              "pos": "n. (plural)",
+              "meaning": "必备品、核心物资。单独使用 essential 是形容词，但复数名词 essentials 在商业和营销语境中极为常见，常见搭配如 'travel essentials''office essentials'，带有明确的品类定位意味，比 'necessities' 更具营销语气，是产品文案高频词。",
+              "exampleEn": "The startup repositioned its entire product line around home office essentials as remote work became the norm.",
+              "exampleCn": "随着远程办公成为常态，这家初创公司将全线产品重新定位于家庭办公必备品。"
+            },
+            {
+              "word": "gear",
+              "pos": "n.",
+              "meaning": "装备、器材，尤指用于特定活动的专业设备。在户外、科技和商业语境中均高频出现，如 'outdoor gear''tech gear'；比 'equipment' 更口语化，更常见于消费品报道和产品营销文案；还可引申为动词短语 'gear up for'（为……做好准备）。",
+              "exampleEn": "Consumer spending on fitness gear rebounded sharply after pandemic-era gym closures came to an end.",
+              "exampleCn": "疫情期间健身房关闭结束后，消费者在健身装备上的支出大幅反弹。"
+            },
+            {
+              "word": "promotional",
+              "pos": "adj.",
+              "meaning": "促销的、推广性的，是 'promotion' 的形容词形式。常见搭配为 'promotional event''promotional offer''promotional campaign'，是商业英语高频词，专指以刺激购买为目的的市场活动。语义比 'discount（折扣）' 更宽泛，涵盖整体营销推广策略，常见于财报和营销分析文本。",
+              "exampleEn": "The company launched a promotional campaign offering free trials to attract new enterprise clients.",
+              "exampleCn": "该公司推出了一项提供免费试用的促销活动，以吸引新的企业客户。"
+            }
+          ]
+        },
+        {
+          "id": "20260517-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html",
+          "headlineEn": "Berkshire's new CEO overhauls portfolio, dumping a slate of stocks",
+          "headlineCn": "伯克希尔新CEO阿贝尔首季大刀阔斧重组投资组合，大举抛售多只股票",
+          "summaryEn": "Greg Abel, who took over as Berkshire Hathaway's CEO from Warren Buffett, made sweeping changes to the company's equity portfolio during his first three months in office. The portfolio saw one of its most significant overhauls ever, with Abel selling off a wide range of stock positions. This signals a potential shift in Berkshire's long-held investment philosophy, raising questions about how the legendary firm will evolve under new leadership.",
+          "summaryCn": "格雷格·阿贝尔从沃伦·巴菲特手中接过伯克希尔·哈撒韦CEO职位后，在任职的首个季度内对公司股票投资组合进行了大幅调整。此番调整堪称伯克希尔历史上规模最大的投资组合重组之一，阿贝尔大举抛售了多个股票持仓。这一举动暗示伯克希尔长期奉行的投资理念或将发生转变，外界也开始关注这家传奇公司在新领导层下将如何演变。",
+          "excerpt": "Berkshire Hathaway's equity portfolio underwent one of its biggest renovations ever during Greg Abel's first three months as CEO. Abel moved swiftly to dump a slate of stocks, signaling that the company's investment strategy may look quite different under its new leadership.",
+          "vocab": [
+            {
+              "word": "overhaul",
+              "pos": "v. / n.",
+              "meaning": "彻底改革、全面整修。比 revise（小修）或 update（更新）语气更强，强调从根本上重新改造。在商业语境中常用于战略、流程或组织结构的大规模重组，隐含'打破旧体系、重建新结构'的意味，是财经报道高频词。",
+              "exampleEn": "The incoming CEO announced plans to overhaul the company's supply chain to cut costs and improve efficiency.",
+              "exampleCn": "新任CEO宣布计划全面改革公司供应链，以降低成本、提升效率。"
+            },
+            {
+              "word": "dump",
+              "pos": "phrasal v.",
+              "meaning": "（金融语境）迅速大量抛售资产或股票。比中性词 sell 更强调速度快、规模大，且常带有'急于脱手'的隐含意味。财经报道中频繁出现，是读懂市场情绪的重要语域标记词。",
+              "exampleEn": "Investors dumped tech stocks after the company issued a profit warning, sending share prices tumbling.",
+              "exampleCn": "该公司发出盈利预警后，投资者纷纷抛售科技股，导致股价大幅下挫。"
+            },
+            {
+              "word": "a slate of",
+              "pos": "phrase",
+              "meaning": "一系列、一批（人或事物）。源自古时用石板（slate）列举候选人名单的习惯，现泛指'一组预定的事项'。在商业英语中常见于描述一批产品、议程或决策，语气比 a list of 更正式，比 a range of 更具'有计划、成套'的含义，值得积累。",
+              "exampleEn": "The tech giant unveiled a slate of new products at its annual developer conference.",
+              "exampleCn": "这家科技巨头在年度开发者大会上发布了一系列新产品。"
+            },
+            {
+              "word": "equity portfolio",
+              "pos": "phrase",
+              "meaning": "股票投资组合。equity 在财经英语中特指'股权/股票'（对应 debt 债务），portfolio 指持有的一组金融资产。理解 equity 与 stock/share 的细微差异（equity 更强调所有权属性）是读懂机构投资报道的基础，两词组合是分析师和媒体的核心术语。",
+              "exampleEn": "The fund manager rebalanced the equity portfolio to reduce exposure to the volatile energy sector.",
+              "exampleCn": "该基金经理对股票投资组合进行了再平衡，以降低对波动性较大的能源板块的风险敞口。"
+            },
+            {
+              "word": "renovation",
+              "pos": "n.",
+              "meaning": "翻新、改造（本义指建筑装修）。此处被 CNBC 用作隐喻，将投资组合的大规模调整比作'房屋翻新'，是财经写作中活用具体词汇描绘抽象概念的典型手法。当媒体将战略或投资组合描述为可'翻新'的空间时，传递出'系统性、大规模改造'的意味，比 adjustment 更生动有力，值得学习这类跨域隐喻。",
+              "exampleEn": "After the merger, the new management team gave the company's entire business model a complete renovation.",
+              "exampleCn": "合并后，新管理团队对公司的整体商业模式进行了彻底改造。"
+            }
+          ]
+        },
+        {
+          "id": "20260517-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
+          "headlineEn": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
+          "headlineCn": "沃什接掌美联储，面临降息「内讧」考验",
+          "summaryEn": "Kevin Warsh is set to lead the Federal Reserve during a turbulent period, walking into an institution deeply divided over when to cut interest rates. With inflation spiking and Treasury yields surging, the Federal Open Market Committee appears unwilling to ease policy anytime soon. Warsh must navigate sharp internal disagreements while managing market expectations and preserving the Fed's credibility under intense economic pressure.",
+          "summaryCn": "凯文·沃什即将执掌美联储，但迎接他的是一场棘手的「内部纷争」。在通胀骤升、美国国债收益率持续攀升的背景下，联邦公开市场委员会普遍不愿放松货币政策、削减利率。沃什不仅需要化解委员会内部的深层分歧，还须稳定市场预期、维护美联储在高压经济环境下的公信力，挑战极为严峻。",
+          "excerpt": "With inflation spiking and Treasury yields surging, Warsh is likely to confront a Federal Open Market Committee in no mood to ease — walking into what insiders describe as a full-blown 'family fight' over the path of interest rates.",
+          "vocab": [
+            {
+              "word": "ease",
+              "pos": "v.",
+              "meaning": "（货币政策）放松、降息。在央行语境中专指降低利率或扩大资产购买，比 cut rates 更正式、更专业，是美联储官员和财经媒体的高频用词。常见搭配：ease policy、ease monetary conditions。值得学的原因：同一个词在不同语境意思差异极大，日常英语是「缓解、减轻」，货币政策语境则特指「宽松操作」。",
+              "exampleEn": "The central bank signaled it was not ready to ease, citing persistent inflationary pressures.",
+              "exampleCn": "央行以持续的通胀压力为由，表示尚未准备好放松货币政策。"
+            },
+            {
+              "word": "spike",
+              "pos": "v. / n.",
+              "meaning": "（价格或数据）骤升、急剧攀升。比 rise 或 increase 更强调「突发性和幅度大」，常用于通胀、油价、收益率等波动场景，带有警示含义。值得学的原因：财经报道的标配词，spike in inflation 比 sharp increase in inflation 更简洁有力，且暗示这一上升是异常的而非趋势性的。",
+              "exampleEn": "Energy prices spiked after the supply disruption, pushing headline inflation well above the 2% target.",
+              "exampleCn": "供应中断后能源价格骤升，推动整体通胀率远超2%的目标。"
+            },
+            {
+              "word": "Treasury yields",
+              "pos": "phrase (n.)",
+              "meaning": "美国国债收益率。指投资者持有美国政府债券所获得的回报率，是全球金融市场的基准利率，收益率上升通常反映市场预期利率走高或经济风险上升。值得学的原因：Treasury 在财经语境中专指「美国财政部/国债」，与日常用法完全不同；读懂任何一篇美联储相关报道都必须掌握这个术语。",
+              "exampleEn": "Treasury yields climbed to their highest level in over a decade, rattling equity markets worldwide.",
+              "exampleCn": "美国国债收益率攀升至十余年来的最高水平，令全球股市动荡不安。"
+            },
+            {
+              "word": "confront",
+              "pos": "v.",
+              "meaning": "（主动）面对困境或对立局面。比 face 更强调直面挑战的主动性与局势的紧张性，常用于政治、商业谈判等高压场景，暗含「无法回避、必须正面交锋」之意。值得学的原因：confront a divided committee 比 face a divided committee 语气更强烈，更能传达新领导人上任即遭遇重重阻力的戏剧张力。",
+              "exampleEn": "The incoming CEO confronted a board deeply divided over the company's long-term strategic direction.",
+              "exampleCn": "新任首席执行官面对的，是一个在公司长期战略方向上严重分歧的董事会。"
+            },
+            {
+              "word": "in no mood to",
+              "pos": "phrase",
+              "meaning": "完全没有心思去做、强烈不愿意做某事。比 unwilling to 更口语化却更有力，比 reluctant to 语气更决断，用来描述机构或个人在特定压力下的强烈抵触情绪。值得学的原因：财经新闻标题和报道中高频出现，用于描述央行、委员会或市场参与者在某一议题上的强硬立场，语感地道且简洁。",
+              "exampleEn": "After three consecutive quarters of losses, shareholders were in no mood to approve another round of executive bonuses.",
+              "exampleCn": "在连续三个季度亏损之后，股东们完全没有心思批准新一轮的高管奖金方案。"
             }
           ]
         }
