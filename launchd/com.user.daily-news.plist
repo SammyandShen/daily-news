@@ -10,7 +10,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/USERNAME/daily-news/daily-update.sh</string>
+        <string>/Users/USERNAME/Documents/CC/daily-news/daily-update.sh</string>
     </array>
 
     <!-- 每天 7:00 跑 -->
@@ -28,13 +28,13 @@
 
     <!-- 工作目录（脚本会自己 cd 过去，但还是设上更稳） -->
     <key>WorkingDirectory</key>
-    <string>/Users/USERNAME/daily-news</string>
+    <string>/Users/USERNAME/Documents/CC/daily-news</string>
 
     <!-- 标准输出和错误日志，方便排查 -->
     <key>StandardOutPath</key>
-    <string>/Users/USERNAME/daily-news/logs/launchd-stdout.log</string>
+    <string>/Users/USERNAME/Documents/CC/daily-news/logs/launchd-stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/USERNAME/daily-news/logs/launchd-stderr.log</string>
+    <string>/Users/USERNAME/Documents/CC/daily-news/logs/launchd-stderr.log</string>
 
     <!-- 让脚本能找到 Homebrew、npm、node 等安装的命令 -->
     <key>EnvironmentVariables</key>

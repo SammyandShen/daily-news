@@ -11,7 +11,7 @@
 set -e
 
 USERNAME=$(whoami)
-PROJECT_DIR="$HOME/daily-news"
+PROJECT_DIR="$HOME/Documents/CC/daily-news"
 PLIST_NAME="com.user.daily-news"
 PLIST_RETRY_NAME="com.user.daily-news-retry"
 PLIST_SOURCE="$PROJECT_DIR/launchd/$PLIST_NAME.plist"

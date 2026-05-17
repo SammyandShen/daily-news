@@ -18,6 +18,11 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+try:
+    from json_repair import repair_json
+except ImportError:
+    repair_json = None
+
 ROOT = Path(__file__).parent.parent
 CANDIDATES = ROOT / "docs" / "_candidates.json"
 OUTPUT = ROOT / "docs" / "news.json"
@@ -62,8 +67,9 @@ PROMPT_TEMPLATE = """你是一位专业的英语教学助理，正在为一位 {
 1. vocab 数组**正好 5 项**
 2. 选词标准：财经/科技英语里高频但教科书少教的搭配、商业语境的隐喻、容易混用的近义词差异。避免超基础词（如 important / good）和过于罕见的词。
 3. 例句要紧扣商业/科技/经济语境
-4. 中文释义要点出"为什么这个词值得学"
-5. 严格输出合法 JSON，不要任何额外内容"""
+4. 中文释义要点出「为什么这个词值得学」
+5. 严格输出合法 JSON，不要任何额外内容
+6. 中文内容里不要使用直引号 " "，改用书名号《》或角引号「」，否则会破坏 JSON 格式"""
 
 
 def call_claude_code(candidate: dict, retries: int = 2) -> dict | None:
@@ -81,26 +87,35 @@ def call_claude_code(candidate: dict, retries: int = 2) -> dict | None:
             # claude -p 是 headless 模式，--output-format json 让它返回结构化输出
             # 但我们要的是 Claude 生成内容里的 JSON，所以用纯文本模式更直接
             result = subprocess.run(
-                ["claude", "-p", prompt],
+                ["claude", "-p", prompt, "--output-format", "json"],
                 env=ENV_FOR_CLAUDE,
                 capture_output=True,
                 text=True,
                 timeout=120,  # 2 分钟超时
                 check=True,
             )
-            text = result.stdout.strip()
+            # --output-format json 把 Claude 的回复放在 result 字段，已正确转义
+            outer = json.loads(result.stdout)
+            text = outer.get("result", "").strip()
 
             # 剥掉可能的 markdown 代码块标记
             text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.MULTILINE)
             text = re.sub(r"\s*```\s*$", "", text, flags=re.MULTILINE)
 
-            # 找到第一个 { 到最后一个 } 之间的内容（防止 Claude 多说几句）
+            # 找到第一个 { 到最后一个 } 之间的内容
             start = text.find("{")
             end = text.rfind("}")
             if start >= 0 and end > start:
                 text = text[start:end + 1]
 
-            return json.loads(text)
+            try:
+                return json.loads(text)
+            except json.JSONDecodeError:
+                if repair_json:
+                    fixed = repair_json(text, return_objects=True)
+                    if isinstance(fixed, dict):
+                        return fixed
+                raise
         except subprocess.TimeoutExpired:
             print(f"    ⏱ Timeout (attempt {attempt + 1})")
         except subprocess.CalledProcessError as e:

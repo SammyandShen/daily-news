@@ -8,7 +8,7 @@ set -e  # 任何一步失败立即退出
 # ============================================
 # 配置区（你可以改）
 # ============================================
-PROJECT_DIR="$HOME/daily-news"        # 你把项目放在哪里
+PROJECT_DIR="$HOME/Documents/CC/daily-news"        # 你把项目放在哪里
 CLAUDE_CMD="claude"                    # Claude Code 命令名（默认就是 claude）
 PYTHON_CMD="python3"                   # Python 命令名
 GIT_BRANCH="main"                      # 推送到哪个分支
