@@ -34,14 +34,14 @@ case "${1:-install}" in
 
         # 安装 7:00 主任务
         sed "s|USERNAME|$USERNAME|g" "$PLIST_SOURCE" > "$PLIST_DEST"
-        launchctl unload "$PLIST_DEST" 2>/dev/null || true
-        launchctl load "$PLIST_DEST"
+        launchctl bootout gui/$(id -u) "$PLIST_DEST" 2>/dev/null || true
+        launchctl bootstrap gui/$(id -u) "$PLIST_DEST"
         echo "✅ 07:00 主任务已加载"
 
         # 安装 12:00 重试任务
         sed "s|USERNAME|$USERNAME|g" "$PLIST_RETRY_SOURCE" > "$PLIST_RETRY_DEST"
-        launchctl unload "$PLIST_RETRY_DEST" 2>/dev/null || true
-        launchctl load "$PLIST_RETRY_DEST"
+        launchctl bootout gui/$(id -u) "$PLIST_RETRY_DEST" 2>/dev/null || true
+        launchctl bootstrap gui/$(id -u) "$PLIST_RETRY_DEST"
         echo "✅ 12:00 重试任务已加载"
 
         chmod +x "$PROJECT_DIR/daily-update.sh"
@@ -79,9 +79,9 @@ case "${1:-install}" in
 
     remove)
         echo "🗑 卸载定时任务..."
-        launchctl unload "$PLIST_DEST" 2>/dev/null && echo "✅ 主任务已卸载" || echo "ℹ️ 主任务未在运行"
+        launchctl bootout gui/$(id -u) "$PLIST_DEST" 2>/dev/null && echo "✅ 主任务已卸载" || echo "ℹ️ 主任务未在运行"
         rm -f "$PLIST_DEST"
-        launchctl unload "$PLIST_RETRY_DEST" 2>/dev/null && echo "✅ 重试任务已卸载" || echo "ℹ️ 重试任务未在运行"
+        launchctl bootout gui/$(id -u) "$PLIST_RETRY_DEST" 2>/dev/null && echo "✅ 重试任务已卸载" || echo "ℹ️ 重试任务未在运行"
         rm -f "$PLIST_RETRY_DEST"
         echo "项目文件夹和日志保留，可以手动删除：rm -rf $PROJECT_DIR"
         ;;
