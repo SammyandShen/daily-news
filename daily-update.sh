@@ -23,7 +23,7 @@ LOG_FILE="$LOG_DIR/$TODAY.log"
 
 mkdir -p "$LOG_DIR"
 
-# 输出到日志（launchd 环境下 tee 进程替换不可靠，直接追加）
+# 输出到日志文件（追加模式）
 # 手动运行时可 tail -f 日志：tail -f logs/$(date +%Y-%m-%d).log
 exec >> "$LOG_FILE" 2>&1
 
@@ -89,3 +89,5 @@ echo "🎉 完成！日志保存在 $LOG_FILE"
 
 # 顺手发个 macOS 通知（可选）
 osascript -e "display notification \"今日 5 条资讯已更新\" with title \"📰 Daily News\" sound name \"Glass\"" 2>/dev/null || true
+
+exit 0

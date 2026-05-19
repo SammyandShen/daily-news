@@ -10,7 +10,8 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/USERNAME/Documents/CC/daily-news/daily-update.sh</string>
+        <string>-c</string>
+        <string>cd "$HOME/Documents/CC/daily-news" &amp;&amp; bash daily-update.sh</string>
     </array>
 
     <!-- 每天 7:00 跑 -->
@@ -32,9 +33,9 @@
 
     <!-- 标准输出和错误日志，方便排查 -->
     <key>StandardOutPath</key>
-    <string>/Users/USERNAME/Documents/CC/daily-news/logs/launchd-stdout.log</string>
+    <string>/Users/USERNAME/Library/Logs/daily-news/launchd-stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/USERNAME/Documents/CC/daily-news/logs/launchd-stderr.log</string>
+    <string>/Users/USERNAME/Library/Logs/daily-news/launchd-stderr.log</string>
 
     <!-- 让脚本能找到 Homebrew、npm、node 等安装的命令 -->
     <key>EnvironmentVariables</key>

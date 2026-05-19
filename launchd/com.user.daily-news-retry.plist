@@ -27,9 +27,9 @@
     <string>/Users/USERNAME/Documents/CC/daily-news</string>
 
     <key>StandardOutPath</key>
-    <string>/Users/USERNAME/Documents/CC/daily-news/logs/launchd-retry-stdout.log</string>
+    <string>/Users/USERNAME/Library/Logs/daily-news/launchd-retry-stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/USERNAME/Documents/CC/daily-news/logs/launchd-retry-stderr.log</string>
+    <string>/Users/USERNAME/Library/Logs/daily-news/launchd-retry-stderr.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
