@@ -1,7 +1,252 @@
 {
-  "lastUpdated": "2026-05-18T09:14:44.958185+00:00",
+  "lastUpdated": "2026-05-19T03:50:13.416313+00:00",
   "level": "B2",
   "days": {
+    "2026-05-19": {
+      "label": "5月19日 (周二)",
+      "stories": [
+        {
+          "id": "20260519-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+          "headlineEn": "Anthropic Acquires Stainless, the SDK Startup Trusted by OpenAI and Google",
+          "headlineCn": "Anthropic 收购被 OpenAI 和谷歌信赖的 SDK 初创公司 Stainless",
+          "summaryEn": "Anthropic has acquired Stainless, a New York-based startup founded in 2022 that automates the creation and maintenance of software development kits — essential libraries developers use to interact with APIs. Stainless gained rapid traction among leading AI companies, including OpenAI, Google, and Cloudflare. The deal signals Anthropic's ambition to deepen its developer ecosystem and strengthen its competitive position in the AI infrastructure race, where controlling developer tooling increasingly determines platform dominance.",
+          "summaryCn": "Anthropic 宣布收购总部位于纽约的初创公司 Stainless。该公司成立于 2022 年，专注于自动化生成和维护软件开发工具包（SDK）——即开发者用来对接 API 的核心库文件。Stainless 成立仅数年便迅速赢得 OpenAI、谷歌和 Cloudflare 等顶级科技公司的信赖。此次收购表明 Anthropic 正积极布局开发者生态，试图通过掌控关键工具链来巩固其在 AI 基础设施竞赛中的平台地位。",
+          "excerpt": "Stainless, a New York-based startup founded in 2022, rose to prominence by automating the creation and maintenance of software development kits — the libraries developers rely on to interact with APIs. Its client list included AI giants such as OpenAI, Google, and Cloudflare before Anthropic moved to acquire it.",
+          "vocab": [
+            {
+              "word": "acquire",
+              "pos": "v.",
+              "meaning": "收购（公司或资产）。比 buy 正式得多，专用于企业并购（M&A）语境，暗含战略布局而非普通购买行为，是财经报道核心词。常见搭配：acquire a startup / acquire a stake in（收购股份）。",
+              "exampleEn": "Microsoft acquired Activision Blizzard in a landmark deal to expand its presence in gaming.",
+              "exampleCn": "微软以里程碑式的交易收购了动视暴雪，以拓展其在游戏领域的版图。"
+            },
+            {
+              "word": "rise to prominence",
+              "pos": "phrase",
+              "meaning": "崭露头角，迅速走红。强调从默默无闻到被业界广泛认可的过程，比 become famous 更书面正式，常见于商业报道描述新兴公司或人物的快速崛起，值得作为写作替换表达积累。",
+              "exampleEn": "The fintech startup rose to prominence after its payment solution was adopted by three major banks.",
+              "exampleCn": "这家金融科技初创公司在其支付方案被三家大型银行采用后迅速崭露头角。"
+            },
+            {
+              "word": "automate",
+              "pos": "v.",
+              "meaning": "使（流程）自动化。在科技报道中特指用软件或 AI 替代人工操作，是 AI 与效率相关报道的超高频词。名词形式 automation 同样常用。标准搭配：automate workflows / tasks / processes，不说 automate people。",
+              "exampleEn": "The company deployed AI tools to automate repetitive customer service tasks, cutting response times by half.",
+              "exampleCn": "该公司部署了 AI 工具，将重复性客服任务自动化，响应时间缩短了一半。"
+            },
+            {
+              "word": "interact with",
+              "pos": "phrasal v.",
+              "meaning": "与……交互；在技术语境中专指软件、系统或用户之间通过接口进行操作，比 use 或 work with 精准得多，是 API 文档和产品报道的标准表达。区别：interact with 强调双向通信，而 use 只是单向使用。",
+              "exampleEn": "Developers use the SDK to interact with the payment gateway's API without writing low-level code.",
+              "exampleCn": "开发者使用 SDK 与支付网关的 API 进行交互，无需编写底层代码。"
+            },
+            {
+              "word": "maintenance",
+              "pos": "n.",
+              "meaning": "（系统或软件的）持续维护。常与 creation 构成固定搭配「creation and maintenance」，区别于 repair（修复已损坏之物），更强调日常性、预防性的保障工作，在 SaaS 和基础设施报道中高频出现，体现软件的隐性成本。",
+              "exampleEn": "Ongoing maintenance of the SDK library consumed more engineering hours than the initial development phase.",
+              "exampleCn": "SDK 库的持续维护所耗费的工程工时，甚至超过了最初的开发阶段。"
+            }
+          ]
+        },
+        {
+          "id": "20260519-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+          "headlineEn": "SandboxAQ Brings Drug Discovery AI to Claude, No Computing Expertise Required",
+          "headlineCn": "SandboxAQ将药物发现AI模型接入Claude，大幅降低使用门槛",
+          "summaryEn": "SandboxAQ, a quantum-AI startup, has integrated its drug discovery models into Anthropic's Claude platform, enabling scientists without deep computing expertise to use advanced AI tools. While rivals such as Chai Discovery and Isomorphic Labs focus on building more powerful models, SandboxAQ argues the real bottleneck is accessibility. By partnering with Claude, the company aims to put cutting-edge drug discovery capabilities within reach of researchers who previously lacked the technical background to use them effectively.",
+          "summaryCn": "量子人工智能初创公司SandboxAQ已将其药物发现模型接入Anthropic的Claude平台，使不具备深厚计算机背景的科学家也能使用前沿AI工具。与Chai Discovery、Isomorphic Labs等竞争对手专注于打造更强大模型的路线不同，SandboxAQ认为真正的瓶颈在于「可及性」而非模型性能本身。借助与Claude的合作，该公司希望让此前因技术门槛而难以入手的研究人员，也能顺畅调用最先进的药物发现能力。",
+          "excerpt": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle — and that Claude solves it.",
+          "vocab": [
+            {
+              "word": "venture-backed",
+              "pos": "adj.",
+              "meaning": "由风险投资支持的。比泛泛的「investor-funded」更精准，特指VC风险资本投资模式，隐含高风险、高增长预期。科技财经报道中出现频率极高，是描述初创公司融资背景的标准用语，值得作为固定搭配记忆。",
+              "exampleEn": "Several venture-backed AI startups are now competing directly with tech giants for talent and market share.",
+              "exampleCn": "几家由风险投资支持的AI初创公司正在与科技巨头直接争夺人才和市场份额。"
+            },
+            {
+              "word": "race to",
+              "pos": "phrasal v.",
+              "meaning": "争相做某事，强调竞争的紧迫感。比「compete to」更生动，带有「抢跑」的隐喻色彩，常用于描述企业在新兴赛道中激烈角逐的场景，语气暗示时间窗口有限、落后即出局。",
+              "exampleEn": "Cloud providers are racing to offer the most competitive AI infrastructure pricing.",
+              "exampleCn": "各大云服务商正争相提供最具竞争力的AI基础设施定价。"
+            },
+            {
+              "word": "obstacle",
+              "pos": "n.",
+              "meaning": "障碍、阻碍。比「problem」更正式，常指结构性或系统性阻碍而非临时问题。常见搭配：「the biggest obstacle」「overcome an obstacle」。在商业战略报道中，用它而非「issue」往往暗示问题根深蒂固、需要战略级解法。",
+              "exampleEn": "Regulatory uncertainty remains the biggest obstacle to widespread adoption of blockchain-based payments.",
+              "exampleCn": "监管的不确定性仍是区块链支付大规模普及的最大障碍。"
+            },
+            {
+              "word": "bet that",
+              "pos": "phrase",
+              "meaning": "押注于某一判断，笃信某事将会发生。比「believe」更有商业语感，隐含承担风险的战略决策意味，常用于描述公司的核心差异化赌注。用这个词时，作者通常在暗示该判断尚存争议、结果未定。",
+              "exampleEn": "The CEO is betting that consumers will prioritize privacy over convenience as AI becomes more pervasive.",
+              "exampleCn": "该CEO押注于随着AI日益普及，消费者将优先考虑隐私而非便利性。"
+            },
+            {
+              "word": "access",
+              "pos": "n.",
+              "meaning": "可及性、使用权。在科技语境中远不止「进入」之意，更指「能否用得上」这一核心门槛问题，是AI民主化讨论的关键词。与「availability」的区别：「availability」强调东西是否存在，「access」强调特定人群能否真正获得并使用它。",
+              "exampleEn": "Expanding access to advanced computing resources is seen as critical to closing the global AI divide.",
+              "exampleCn": "扩大先进计算资源的可及性，被视为弥合全球AI鸿沟的关键举措。"
+            }
+          ]
+        },
+        {
+          "id": "20260519-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/18/trump-stake-in-intel.html",
+          "headlineEn": "Trump Regrets Not Seeking Larger Intel Stake in Government Equity Deal",
+          "headlineCn": "特朗普称谈判英特尔股权时应争取更多份额",
+          "summaryEn": "President Trump publicly admitted he wished he had negotiated a larger equity stake in Intel during talks with the company's CEO. Under a deal struck in August, the U.S. government received a 9.9% share in the chipmaker. Since then, Intel's stock has surged significantly, making the missed opportunity more apparent. The deal marks a rare instance of direct government ownership in a major U.S. tech firm, spotlighting debates over industrial policy and the strategic value of public investment in semiconductors.",
+          "summaryCn": "特朗普总统公开表示，他希望当初在与英特尔首席执行官谈判时能争取到更大的股权份额。去年8月，美国政府通过一项股权交易获得了英特尔9.9%的股份。此后，英特尔股价大幅攀升，令这笔本可更大的投资显得格外诱人。此次交易是美国政府罕见地直接持股大型科技公司的案例，引发了外界对产业政策以及公共资金投入半导体战略领域价值的广泛讨论。",
+          "excerpt": "President Trump said he should have asked for more of Intel when he negotiated an equity deal with the company's CEO. The U.S. government currently holds a 9.9% stake in the chipmaker — a position that has grown considerably more valuable as Intel's stock soared following the August agreement.",
+          "vocab": [
+            {
+              "word": "stake",
+              "pos": "n.",
+              "meaning": "股权、持股份额。在商业语境中，stake 特指某人或机构在公司中持有的所有权比例，比 share 更强调「利益相关性」与「风险共担」。常见搭配：equity stake、government stake、acquire a stake in。值得学因为它横跨金融报道与日常商业谈判，语域灵活。",
+              "exampleEn": "The sovereign wealth fund quietly acquired a 5% stake in the semiconductor company before the merger was announced.",
+              "exampleCn": "这家主权财富基金在并购消息公布前悄悄收购了该半导体公司5%的股份。"
+            },
+            {
+              "word": "soar",
+              "pos": "v.",
+              "meaning": "（股价、销量）急剧攀升、飙升。比 rise 或 increase 语气更强，隐喻「像鸟一样高飞」，暗示涨幅大且速度快。是财经报道描述股价上涨的核心高频动词，常与 stock、revenue、demand 搭配，语气比 surge 更正式。",
+              "exampleEn": "Nvidia's share price soared more than 200% in a single year as demand for AI chips outpaced all forecasts.",
+              "exampleCn": "由于AI芯片需求超出所有预测，英伟达股价在一年内飙升逾200%。"
+            },
+            {
+              "word": "negotiate",
+              "pos": "v.",
+              "meaning": "谈判、协商。在商业语境中强调双方讨价还价达成协议的过程，常搭配 a deal、terms、a contract。特别注意：negotiate for something 表示「主动争取某项条款」，语气更积极，本文标题中 ask for more 正是这层含义的口语化表达。",
+              "exampleEn": "The startup's founder negotiated a higher valuation by presenting three competing term sheets to potential investors.",
+              "exampleCn": "这家初创公司的创始人通过向潜在投资者出示三份竞争性条款清单，成功谈判出了更高的估值。"
+            },
+            {
+              "word": "equity deal",
+              "pos": "phrase",
+              "meaning": "股权交易。equity 在金融中专指「所有者权益／股权」，equity deal 是以换取公司股份为核心的交易结构，区别于纯现金交易（cash deal）或债务融资（debt deal）。值得学因为它是并购、政府纾困和战略投资报道中的标准术语，频繁出现在 FT、Bloomberg 等财经媒体。",
+              "exampleEn": "The government structured the bailout as an equity deal, taking a minority stake in the airline rather than offering a direct subsidy.",
+              "exampleCn": "政府将此次纾困方案设计为股权交易，以持有该航空公司少数股权的方式替代直接补贴。"
+            },
+            {
+              "word": "chipmaker",
+              "pos": "n.",
+              "meaning": "芯片制造商。chip 在科技行业指半导体芯片，chipmaker 是合成词，是科技财经报道中描述英特尔、台积电、英伟达等公司的标准简称，比 semiconductor manufacturer 更口语化，大量出现于新闻标题。掌握此类「行业合成词」是读懂科技财经英语的关键。",
+              "exampleEn": "The leading chipmaker announced plans to build two new fabrication plants in the United States, backed by federal subsidies.",
+              "exampleCn": "这家领先的芯片制造商宣布计划在美国建造两座新的晶圆厂，并获得联邦政府补贴支持。"
+            }
+          ]
+        },
+        {
+          "id": "20260519-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/18/seagate-memory-chip-stocks-ai.html",
+          "headlineEn": "Seagate CEO's Factory Comment Triggers Memory Chip Sector Sell-Off",
+          "headlineCn": "希捷CEO一句「建厂太费时」引发存储股全线抛售",
+          "summaryEn": "Seagate CEO Dave Mosley sparked a sharp decline across the memory and storage sector after stating it would 'take too long' to build new manufacturing facilities. His remarks, made during an investor event, raised concerns that the company has no near-term plan to expand domestic production capacity. The comment dragged down shares of rivals Micron, SanDisk, and Western Digital, illustrating how a single executive's statement can ripple through an entire interconnected industry.",
+          "summaryCn": "希捷公司CEO戴夫·莫斯利在一次投资者活动中表示，新建工厂「耗时太长」，此言论立即引发市场对该公司缺乏扩产计划的担忧，导致希捷股价大幅下挫。受此拖累，美光、闪迪和西部数据的股价也随之走低。这一事件再次说明，在存储芯片供应链高度关联的背景下，企业高管的一句表态足以引发整个板块的连锁反应。",
+          "excerpt": "Seagate CEO Dave Mosley's comment that building new factories would 'take too long' sent the company's shares sinking, pulling down rivals including Micron, SanDisk, and Western Digital in a broad memory sector sell-off.",
+          "vocab": [
+            {
+              "word": "sell-off",
+              "pos": "n.",
+              "meaning": "大规模抛售。特指市场恐慌情绪下的集中卖出，强调规模大、速度快、带有情绪性。与泛指「出售」的动词 sell 不同，sell-off 是财经报道的核心名词，常搭配 trigger/spark a sell-off（引发抛售）。",
+              "exampleEn": "A surprise interest rate hike triggered a sell-off in tech stocks, wiping out billions in market value within hours.",
+              "exampleCn": "一次意外加息引发科技股遭到大规模抛售，数小时内蒸发了数十亿美元市值。"
+            },
+            {
+              "word": "send [sth] sinking",
+              "pos": "phrase",
+              "meaning": "导致（股价）大幅下跌。sink 在金融语境中是「下沉、暴跌」的生动比喻，比 fall 或 decline 更具冲击感，暗含急剧且难以止住之意。「send + 宾语 + 动词」是新闻标题描述因果联动的经典句式，值得整体记忆。",
+              "exampleEn": "The disappointing earnings report sent the company's shares sinking more than 12% in after-hours trading.",
+              "exampleCn": "令人失望的财报导致该公司股价在盘后交易中暴跌逾12%。"
+            },
+            {
+              "word": "lead",
+              "pos": "v.",
+              "meaning": "领跌或领涨。在「lead a sell-off」「lead gains/losses」等结构中，lead 表示「跌幅或涨幅居首」，是财经英语中极易被误解的高频用法——标题里的「Seagate leads sell-off」并非「希捷领导抛售」，而是「希捷领跌」。",
+              "exampleEn": "Energy stocks led the market's decline on Monday as oil prices dropped to a six-month low.",
+              "exampleCn": "周一，随着油价跌至六个月低点，能源股领跌大盘。"
+            },
+            {
+              "word": "capacity",
+              "pos": "n.",
+              "meaning": "产能；制造能力。在工业与科技报道中，capacity 专指生产设施的最大产出能力，而非泛指「能力」（那用 ability 或 capability）。「build/expand capacity」是产业分析的核心搭配，背后隐含资本支出和供应链博弈的深层含义。",
+              "exampleEn": "The chipmaker announced plans to double its production capacity by investing $10 billion in new semiconductor fabs.",
+              "exampleCn": "这家芯片制造商宣布计划投资100亿美元新建半导体工厂，将产能翻倍。"
+            },
+            {
+              "word": "drag down",
+              "pos": "phrasal v.",
+              "meaning": "拖累，连累（其他股票或资产一并下跌）。drag down 生动描绘了「一个下跌资产将周边资产往下拽」的市场联动效应，精准刻画板块传染现象。比 affect 或 impact 更具方向性和力度感，是描述供应链或板块共振下跌的首选表达。",
+              "exampleEn": "Weak results from the sector's largest player dragged down the entire supply chain, from chipmakers to equipment suppliers.",
+              "exampleCn": "该行业龙头企业的疲软业绩拖累了整条供应链，从芯片制造商到设备供应商无一幸免。"
+            }
+          ]
+        },
+        {
+          "id": "20260519-5",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/the-bond-market-has-a-warning-for-the-fed-get-serious-about-inflation-and-potential-rate-hikes-asap-f38bbdcf?mod=mw_rss_topstories",
+          "headlineEn": "Bond Market Warns Fed: Get Serious About Inflation and Rate Hikes Now",
+          "headlineCn": "债券市场向美联储发出警告：立即正视通胀并采取加息行动",
+          "summaryEn": "The US bond market is sending a sharp warning to the Federal Reserve: credible tough talk on potential rate hikes may be urgently needed to calm the ongoing Treasury market selloff. Surging yields reflect deepening investor fears that inflation remains sticky, and the Fed's current tone is widely seen as insufficiently hawkish. If policymakers fail to signal a firm commitment to tightening, long-term borrowing costs could climb further, threatening growth and financial stability.",
+          "summaryCn": "美国债券市场正向美联储发出强烈信号：若要平息国债市场的持续抛售，美联储可能迫切需要就潜在加息释放更强硬的表态。收益率持续飙升，折射出投资者对通胀顽固不退的深层担忧，而美联储目前的措辞被普遍认为鹰派立场不足。若政策制定者未能传递出明确的紧缩承诺，长期借贷成本或将进一步攀升，威胁经济增长与金融稳定。",
+          "excerpt": "The Treasury market is sounding the alarm: bond yields have surged as investors grow increasingly skeptical that inflation is under control. Analysts warn the Federal Reserve needs to adopt a more hawkish tone — and fast — to restore confidence and prevent a further rout in government debt markets.",
+          "vocab": [
+            {
+              "word": "rout",
+              "pos": "n.",
+              "meaning": "溃败；（市场）暴跌、崩盘。源自军事语境「溃不成军」，引申到金融市场指资产价格无序、大幅下跌。比 crash 更强调混乱和失控感，常见搭配：a bond/equity rout；比 selloff 语气更重，值得优先掌握。",
+              "exampleEn": "Investor panic over rising interest rates triggered a rout in global equity markets last week.",
+              "exampleCn": "上周，投资者对利率上升的恐慌引发了全球股市的大崩盘。"
+            },
+            {
+              "word": "hawkish",
+              "pos": "adj.",
+              "meaning": "鹰派的；（货币政策语境）倾向于加息、收紧流动性以对抗通胀的立场。与 dovish（鸽派，倾向于降息）相对，是财经报道中最核心的政策立场词汇，读懂央行新闻必须掌握。",
+              "exampleEn": "The central bank struck a more hawkish tone at its latest meeting, hinting at multiple rate hikes this year.",
+              "exampleCn": "央行在最新会议上释放了更鹰派的信号，暗示今年将多次加息。"
+            },
+            {
+              "word": "ease",
+              "pos": "v.",
+              "meaning": "缓解、平息。在财经语境中专指让市场紧张局势或压力逐步减轻，语气比 relieve 温和，比 solve 更现实。常见搭配：ease tensions / ease inflation pressure / ease the selloff。其名词形式同样高频，如 quantitative easing（量化宽松）。",
+              "exampleEn": "Strong jobs data helped ease fears of an imminent recession, lifting stock futures overnight.",
+              "exampleCn": "强劲的就业数据帮助缓解了市场对经济即将衰退的担忧，隔夜股指期货走高。"
+            },
+            {
+              "word": "sticky",
+              "pos": "adj.",
+              "meaning": "顽固的、黏性的。在通胀语境中，sticky inflation 指通胀率居高不下、难以回落，常描述服务业和工资等结构性价格压力。比 persistent（持续的）更形象，精准传达「降不下来」的状态，是近年美联储讨论的核心词汇。",
+              "exampleEn": "Core services inflation has proved sticky, making it harder for the Fed to justify cutting rates.",
+              "exampleCn": "核心服务业通胀被证明顽固难退，使美联储更难为降息找到理由。"
+            },
+            {
+              "word": "yield",
+              "pos": "n.",
+              "meaning": "（债券）收益率。指债券持有人的年化利息回报相对于债券价格的比率，yield 上升意味着债券价格下跌（两者反向）。需与 return（泛指回报）和 interest rate（政策利率）区分：yield 专指市场交易形成的债券收益率，读懂债市新闻的核心词。",
+              "exampleEn": "The 10-year Treasury yield climbed to its highest level in over a decade, rattling equity investors.",
+              "exampleCn": "10年期美国国债收益率攀升至十余年来的最高水平，令股市投资者深感不安。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-18": {
       "label": "5月18日 (周一)",
       "stories": [
