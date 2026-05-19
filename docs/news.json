@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T06:39:59.555347+00:00",
+  "lastUpdated": "2026-05-19T23:05:59.157401+00:00",
   "level": "B2",
   "days": {
     "2026-05-19": {
@@ -8,240 +8,240 @@
         {
           "id": "20260519-1",
           "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-          "headlineEn": "Anthropic Acquires Stainless, the Dev Tools Startup Behind OpenAI and Google's SDKs",
-          "headlineCn": "Anthropic 收购为 OpenAI 和 Google 构建 SDK 的初创公司 Stainless",
-          "summaryEn": "Anthropic has acquired Stainless, a New York startup founded in 2022 that automates the creation and maintenance of software development kits (SDKs). Stainless had already built SDKs for major AI players including OpenAI, Google, and Cloudflare. The deal signals Anthropic's push to bring critical developer infrastructure in-house, strengthening its ecosystem as competition for developer mindshare intensifies across the AI platform landscape.",
-          "summaryCn": "Anthropic 宣布收购纽约初创公司 Stainless。该公司成立于 2022 年，专注于自动化生成和维护软件开发工具包（SDK）。此前，Stainless 已为 OpenAI、Google 和 Cloudflare 等头部科技公司构建 SDK，在 AI 开发者生态中建立了重要地位。此次收购标志着 Anthropic 正将关键开发者基础设施纳入内部掌控，以在日趋激烈的 AI 平台竞争中争夺开发者心智。",
-          "excerpt": "Stainless, a New York-based startup founded in 2022, rose to prominence in the AI industry by automating the creation and maintenance of software development kits — the code libraries developers rely on to interact with APIs. Its client list included OpenAI, Google, and Cloudflare.",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html",
+          "headlineEn": "Google Debuts Advanced AI Models and Personal Agents to Rival OpenAI and Anthropic",
+          "headlineCn": "谷歌发布新一代AI模型与个人智能体，正面挑战OpenAI和Anthropic",
+          "summaryEn": "At its annual I/O developer conference, Google unveiled a new lineup of more powerful AI models and personal agentic tools aimed at its vast user base. The announcements featured upgrades to the Gemini model family and AI agents capable of autonomously handling complex tasks. The move underscores Google's urgency to remain competitive as rivals OpenAI and Anthropic continue to set the pace in consumer AI, reshaping how millions of users interact with technology daily.",
+          "summaryCn": "在年度开发者大会Google I/O上，谷歌发布了一系列更强大的AI模型及个人智能体工具，面向其庞大的用户群体。本次发布涵盖Gemini系列模型的升级版本，以及能够自主处理复杂任务的AI智能体。此举表明谷歌正加速追赶，力求在OpenAI和Anthropic持续领跑的消费级AI市场中夺回竞争主动权。",
+          "excerpt": "At its annual developer conference, Google rolled out a new lineup of AI models and agentic tools, signaling an aggressive push to keep pace with the rapid advances made by OpenAI and Anthropic in the consumer AI space.",
           "vocab": [
             {
-              "word": "acquire",
+              "word": "debut",
               "pos": "v.",
-              "meaning": "收购；商业语境中专指通过购买取得公司或资产的所有权，比 buy 更正式，是财经报道描述企业并购的核心词。值得学的原因：buy 可用于任何购买，acquire 专用于战略性资产或公司层面的获取，语域更高，常搭配 acquire a company / acquire a stake",
-              "exampleEn": "Microsoft acquired Activision Blizzard in a deal worth nearly $69 billion, reshaping the global gaming industry.",
-              "exampleCn": "微软以近 690 亿美元收购动视暴雪，重塑了全球游戏行业格局。"
+              "meaning": "首次推出；正式亮相。比「launch」更强调「初次登场」的新鲜感与重要性，常用于科技产品或旗舰功能的正式发布场合，语气比「release」更具新闻感，是财经科技报道的高频动词。",
+              "exampleEn": "The startup debuted its flagship AI assistant at CES, drawing immediate interest from venture capital firms.",
+              "exampleCn": "这家初创公司在CES上首次发布了其旗舰AI助手，立即引发风险投资机构的关注。"
             },
             {
-              "word": "rise to prominence",
+              "word": "roll out",
+              "pos": "phrasal v.",
+              "meaning": "逐步推出；分阶段部署。与「launch」的区别在于它强调「渐进式」铺开，常用于产品分批上线或功能逐区域开放的场景，是科技和金融行业描述产品上市策略的高频搭配。",
+              "exampleEn": "The bank plans to roll out its new mobile payment features to customers across Southeast Asia by Q3.",
+              "exampleCn": "该银行计划于第三季度向东南亚客户逐步推出新的移动支付功能。"
+            },
+            {
+              "word": "keep pace with",
               "pos": "phrase",
-              "meaning": "崭露头角，迅速赢得行业认可；比 become famous 更书面正式，常见于财经和科技报道，描述企业或人物在某领域快速建立地位。值得学的原因：这是新闻写作中描述「从默默无闻到行业瞩目」的标准表达，语气中性偏正面，适合商业写作",
-              "exampleEn": "The fintech startup rose to prominence after its payment solution was adopted by three of the world's largest banks.",
-              "exampleCn": "这家金融科技初创公司在其支付方案被全球三大银行采用后声名大噪。"
+              "meaning": "跟上……的步伐；与……保持同步。常用于描述企业或技术在竞争中追赶对手，隐含「努力不落后」的压迫感。比「catch up with」更强调「持续并行」而非「追赶超越」，在竞争格局分析中极为常见。",
+              "exampleEn": "Traditional automakers are under pressure to keep pace with Tesla's rapid advances in battery technology.",
+              "exampleCn": "传统汽车制造商正承受压力，努力跟上特斯拉在电池技术领域的快速进步。"
             },
             {
-              "word": "in-house",
-              "pos": "adj. / adv.",
-              "meaning": "内部的；由公司自身团队完成而非外包给第三方。值得学的原因：这是商业英语高频词，与 outsource（外包）形成精准对比，常见搭配有 in-house team、in-house development、bring X in-house，后者尤为常见于并购和战略报道",
-              "exampleEn": "By moving its data analytics in-house, the company gained tighter control over proprietary customer insights.",
-              "exampleCn": "通过将数据分析工作转为内部处理，该公司对专有客户数据获得了更严格的掌控。"
+              "word": "agentic",
+              "pos": "adj.",
+              "meaning": "具有自主行动能力的；智能体式的。AI领域核心新兴术语，指AI系统能够自主规划并执行多步骤任务，区别于仅被动回答问题的「对话式AI」。当前AI行业报告和投资分析中高频出现，掌握此词是读懂前沿科技新闻的必要条件。",
+              "exampleEn": "The company's new agentic AI platform can autonomously browse the web, draft emails, and schedule meetings on behalf of users.",
+              "exampleCn": "该公司的新型智能体AI平台可以代表用户自主浏览网页、起草邮件并安排日程。"
             },
             {
-              "word": "SDK (software development kit)",
-              "pos": "n.",
-              "meaning": "软件开发工具包；开发者用来与某平台或 API 对接的一套代码库和工具集。值得学的原因：这是 AI 和科技报道中的必备缩写，理解 SDK 是读懂开发者生态、平台竞争和 API 经济等话题的基础，几乎所有 AI 公司的开发者策略都绕不开它",
-              "exampleEn": "After Stripe released an updated SDK for Python, developers reported a significant reduction in payment integration time.",
-              "exampleCn": "Stripe 发布 Python 版升级 SDK 后，开发者反映支付集成所需时间大幅缩短。"
-            },
-            {
-              "word": "mindshare",
-              "pos": "n.",
-              "meaning": "心智占有率；品牌或产品在目标用户心中的认知度与影响力。值得学的原因：这是科技和营销报道中的高频商业隐喻，注意与 market share（市场份额）的区别——mindshare 是无形的认知资产，赢得 mindshare 往往先于赢得 market share，两者搭配出现时语义层次分明",
-              "exampleEn": "In the cloud computing space, winning mindshare among enterprise developers often precedes winning market share.",
-              "exampleCn": "在云计算领域，赢得企业级开发者的心智认同往往先于赢得市场份额。"
+              "word": "expansive",
+              "pos": "adj.",
+              "meaning": "庞大的；覆盖广泛的。用于描述用户群体、平台或市场规模时，比「large」或「big」更具商业语感，暗示「规模大且持续扩张中」，常搭配「user base」「network」「portfolio」等词，是商业写作中体现规模优势的精准用词。",
+              "exampleEn": "With its expansive global network, the logistics firm can deliver to over 200 countries within 48 hours.",
+              "exampleCn": "凭借其覆盖广泛的全球网络，该物流公司能够在48小时内向逾200个国家配送货物。"
             }
           ]
         },
         {
           "id": "20260519-2",
           "category": "tech",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580",
-          "headlineEn": "Google Partners with Blackstone-Backed Group in $5bn AI Data Centre Push",
-          "headlineCn": "谷歌携手黑石支持的AI云计算集团，斥资50亿美元扩建数据中心",
-          "summaryEn": "Google has partnered with a Blackstone-backed AI cloud company in a $5 billion investment deal aimed at bringing 500 megawatts of new data centre capacity online by next year. The move signals Google's aggressive push to secure AI infrastructure amid fierce competition with rivals like Microsoft and Amazon. It also highlights how private capital is increasingly co-funding the enormous buildout required to power the next wave of artificial intelligence.",
-          "summaryCn": "谷歌与黑石集团支持的AI云计算公司达成50亿美元投资协议，计划于明年前将500兆瓦的数据中心容量投入运营。此举彰显了谷歌在AI基础设施领域的激进扩张策略，意在与微软、亚马逊展开正面竞争。与此同时，这笔交易也揭示出一个更大趋势：私募资本正深度参与AI算力基建的巨额投资，共同为下一轮人工智能浪潮提供动力。",
-          "excerpt": "A $5 billion investment by private capital group Blackstone is set to help bring 500 megawatts of data centre capacity online next year, as Google accelerates its push to secure AI cloud infrastructure at scale.",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+          "headlineEn": "With Gemini 3.5 Flash, Google Bets Its Next AI Wave on Agents, Not Chatbots",
+          "headlineCn": "谷歌押注AI智能体时代，发布旗舰编程模型Gemini 3.5 Flash",
+          "summaryEn": "At Google I/O, its annual developer conference, Google unveiled Gemini 3.5 Flash, described as the company's most powerful coding and agentic AI model to date. Unlike conversational chatbots, the model is built to act autonomously — planning, executing, and completing complex multi-step tasks with minimal human input, including building software from scratch. The launch marks a deliberate strategic pivot: Google is signaling that the defining battlefield of the next AI cycle is autonomous action, not dialogue.",
+          "summaryCn": "在年度开发者大会Google I/O上，谷歌发布了Gemini 3.5 Flash，将其定位为迄今最强的编程与智能体AI模型。与以对话见长的聊天机器人不同，该模型被设计为能够自主规划、执行并完成复杂的多步骤任务，甚至可以从零开始构建软件。此次发布标志着谷歌明确的战略转向：AI竞争的下一个主战场是自主行动能力，而非对话体验。",
+          "excerpt": "Google unveiled Gemini 3.5 Flash at its annual developer conference, calling it the company's most capable coding and agentic AI model yet. The system can autonomously execute complex tasks and build software from scratch — a sign that Google is moving its AI ambitions well beyond the chatbot era.",
           "vocab": [
             {
-              "word": "make a push",
+              "word": "agentic",
+              "pos": "adj.",
+              "meaning": "具有自主行动能力的（尤指AI系统）。这是当前AI行业的核心新词，用于区分「被动应答型」聊天机器人与「主动规划执行型」智能体。读AI产品发布和投资报告时必须掌握，否则会错过整个行业叙事的转折点。",
+              "exampleEn": "The firm's new agentic AI can browse the web, draft contracts, and file reports without any human prompting.",
+              "exampleCn": "该公司的新型自主AI无需人工提示，即可自主浏览网页、起草合同并提交报告。"
+            },
+            {
+              "word": "bet on",
               "pos": "phrase",
-              "meaning": "大举发力、全力进军（某领域）。比 enter 或 expand 更强调主动进攻姿态和集中资源的决心，常见于商业报道描述公司战略性布局。标题中「chip push」即「在芯片领域的大举出击」，是财经标题的高频压缩写法，值得掌握。",
-              "exampleEn": "The electric vehicle startup is making a big push into the European market with three new models.",
-              "exampleCn": "这家电动车初创公司正以三款新车型大举进军欧洲市场。"
+              "meaning": "押注于；将战略资源与信念寄托在某事物上。商业报道极高频短语，暗含主动承担风险的决策色彩，比「focus on」更有博弈感，常出现在描述公司战略转型或产品押注的语境中。",
+              "exampleEn": "The chipmaker is betting on AI inference becoming the dominant workload within two years.",
+              "exampleCn": "这家芯片制造商押注AI推理将在两年内成为主导计算负载。"
             },
             {
-              "word": "-backed",
-              "pos": "adj. (compound suffix)",
-              "meaning": "由……支持／出资的。可自由拼接构成复合形容词，如 state-backed（国家支持的）、venture-backed（风投支持的）、Blackstone-backed（黑石支持的）。比 supported by 更简洁，且隐含资金或政治背书关系，是 FT、彭博等财经媒体的标志性用法。",
-              "exampleEn": "Several government-backed initiatives are funding research into next-generation battery technology.",
-              "exampleCn": "多个政府支持的项目正在资助下一代电池技术的研究。"
+              "word": "autonomously",
+              "pos": "adv.",
+              "meaning": "自主地；在无需持续人工指令的情况下独立运作。在AI、机器人和自动化领域，比「independently」更专业，常与「operate」「execute」「navigate」「act」搭配，是理解自动驾驶和AI智能体报道的必备词汇。",
+              "exampleEn": "The logistics platform's AI agents autonomously reroute shipments when supply chain disruptions are detected.",
+              "exampleCn": "该物流平台的AI智能体在检测到供应链中断时，会自主重新规划货运路线。"
             },
             {
-              "word": "bring ... online",
-              "pos": "phrasal v.",
-              "meaning": "使（设施、系统）正式投入运营。与 launch 不同，online 特指基础设施从建设完成到实际可用状态的转变，常搭配数据中心、发电机组、工厂产线等有形资产，是基建和能源报道的核心动词短语，不可与「上网」混淆。",
-              "exampleEn": "The semiconductor plant is expected to bring its first production line online by the end of Q3.",
-              "exampleCn": "这家半导体工厂预计将于第三季度末使其首条生产线投入运营。"
+              "word": "execute",
+              "pos": "v.",
+              "meaning": "执行（任务、计划或代码）。在技术语境中指「运行程序/指令」，在商业语境中指「落地执行策略」，语域比「do」或「carry out」更正式精准。尤其值得注意的是名词形式「execution」在财报和战略分析中极常见，如「strong execution」（执行力强）。",
+              "exampleEn": "The AI agent can execute a full software deployment pipeline — from writing code to running tests — in under an hour.",
+              "exampleCn": "该AI智能体可以在一小时内执行完整的软件部署流程，从编写代码到运行测试一气呵成。"
             },
             {
-              "word": "private capital",
-              "pos": "n.",
-              "meaning": "私募资本，泛指非公开市场的机构投资资金，涵盖私募股权（private equity）、基础设施基金、私募信贷等。比 private equity 外延更广，与 public capital（公开市场资金）相对。近年AI基建报道高频词，说明机构资金正在填补公开市场无力承担的巨额投资缺口。",
-              "exampleEn": "Private capital has become a major driver of infrastructure investment in the AI era, filling gaps left by public markets.",
-              "exampleCn": "在AI时代，私募资本已成为基础设施投资的主要驱动力，填补了公开市场留下的空缺。"
-            },
-            {
-              "word": "capacity",
-              "pos": "n.",
-              "meaning": "容量、产能。在数据中心和能源语境中特指可承载的最大功率或处理规模（如500MW），强调物理或系统层面的上限。注意与 capability（能力、技能）的区别：capacity 是客观的量化上限，capability 是主观的执行能力，两者不可互换。",
-              "exampleEn": "The company plans to double its cloud storage capacity over the next two years to meet surging AI workloads.",
-              "exampleCn": "该公司计划在未来两年内将其云存储容量翻倍，以满足激增的AI计算需求。"
+              "word": "from scratch",
+              "pos": "phrase",
+              "meaning": "从零开始；不依赖任何既有基础或模板。在创业、产品研发和技术报道中高频出现，强调原创性与全程自主构建。常见搭配：「build from scratch」「start from scratch」「design from scratch」。注意：介词后不加冠词，不能说「from the scratch」。",
+              "exampleEn": "Instead of acquiring an existing platform, the team chose to build the trading infrastructure from scratch to ensure full control.",
+              "exampleCn": "团队决定从零开始构建交易基础设施，而非收购现有平台，以确保完全的自主掌控权。"
             }
           ]
         },
         {
           "id": "20260519-3",
           "category": "biz",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/max-promo-code/",
-          "headlineEn": "HBO Max Slashes Subscription Prices by 50% with Limited-Time May Promo Codes",
-          "headlineCn": "HBO Max五月促销：订阅五折优惠码限时开放",
-          "summaryEn": "HBO Max is offering up to 50% off streaming subscriptions through a series of promotional codes available throughout May. The deal targets both new subscribers and lapsed users, representing one of the platform's most aggressive discount campaigns of the year. As the streaming industry grows increasingly competitive, major players like HBO Max are turning to limited-time promotions to combat subscriber churn, attract cord-cutters, and justify their value proposition against rivals such as Netflix and Disney+.",
-          "summaryCn": "HBO Max在五月推出高达五折的订阅促销活动，向新用户和回归用户提供折扣码。这是该平台今年力度最大的降价营销举措之一。随着流媒体行业竞争日趋激烈，HBO Max等主要平台纷纷依赖限时促销手段来降低用户流失率、争夺放弃有线电视的「剪线族」，并在与Netflix、Disney+的激烈角逐中凸显自身的价值优势。",
-          "excerpt": "HBO Max is slashing subscription prices by up to 50% this May, releasing a batch of promotional codes for both new and returning customers. The move reflects a broader trend in the streaming industry, where platforms are competing aggressively on price to retain and grow their subscriber base.",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/tech-policy/2026/05/electrical-utility-megamerger-is-all-about-the-data-centers/",
+          "headlineEn": "Electrical Utility Megamerger Is Fueled by Data Center Demand",
+          "headlineCn": "电力行业超级并购背后：数据中心的用电渴求",
+          "summaryEn": "NextEra Energy has announced a landmark acquisition of Dominion Energy in a blockbuster megamerger that analysts say is primarily driven by explosive electricity demand from AI-powered data centers. As tech giants race to expand computing infrastructure, power utilities are consolidating to secure the scale needed to meet unprecedented grid load growth. However, consumer advocates warn that the merger will reduce competition and likely result in higher energy bills for residential and commercial ratepayers across the affected regions.",
+          "summaryCn": "美国大型电力公司NextEra宣布收购多米尼昂能源，业界将其定性为公用事业领域的标志性超级并购。此次交易的核心驱动力是AI浪潮带动的数据中心用电需求急剧膨胀——科技巨头持续扩建算力基础设施，推动电力需求创历史新高。然而，消费者权益团体对此表示担忧：市场集中度提高将削弱竞争，普通居民和商业用户恐将面临更高的电费账单。",
+          "excerpt": "NextEra's proposed acquisition of Dominion Energy marks a seismic shift in the utility sector, as power companies race to meet the voracious electricity appetite of AI-driven data centers. Consumer groups, however, warn that the megamerger will reduce competition and translate into higher monthly bills for ordinary ratepayers.",
           "vocab": [
             {
-              "word": "promo code",
-              "pos": "phrase",
-              "meaning": "促销码。电商和订阅制服务中最常见的营销工具之一。与coupon（纸质优惠券）不同，promo code专指在线结账时输入的字母数字组合码，语域偏向数字商业和科技产品，是电商文案和平台运营报道的高频词。",
-              "exampleEn": "The e-commerce startup drove a 30% spike in first-time purchases by distributing promo codes through social media influencers.",
-              "exampleCn": "这家电商初创公司通过社交媒体达人分发促销码，使首次购买量激增了30%。"
-            },
-            {
-              "word": "subscriber churn",
-              "pos": "phrase",
-              "meaning": "用户流失（率）。churn原意为「搅动」，在商业语境中特指订阅用户在一段时间内取消服务的比例。流媒体、SaaS和电信行业的核心运营指标，比turnover更精准，常与rate连用构成churn rate，出现在季报和投资人沟通中。",
-              "exampleEn": "Netflix reported that subscriber churn spiked sharply after it raised its monthly fees, prompting the company to introduce an ad-supported tier.",
-              "exampleCn": "Netflix报告称，上调月费后用户流失率急剧攀升，促使该公司推出了含广告的低价订阅档位。"
-            },
-            {
-              "word": "cord-cutter",
+              "word": "megamerger",
               "pos": "n.",
-              "meaning": "「剪线族」，指放弃传统有线电视或卫星电视、转而选择流媒体服务的消费者。cord原指电视连接线缆，cut the cord是一个象征与旧媒介决裂的隐喻。是科技媒体和传媒产业报道中的标志性词汇，理解它有助于读懂整个流媒体行业叙事。",
-              "exampleEn": "Advertising revenue from traditional broadcasters has declined steadily as cord-cutters migrate to ad-free streaming platforms.",
-              "exampleCn": "随着「剪线族」大批转向无广告的流媒体平台，传统广播公司的广告收入持续下滑。"
+              "meaning": "超大规模企业并购。「mega-」前缀强调体量之巨，merger指合并，合在一起专指能重塑行业格局的超级交易。财经媒体用此词而非「large merger」，是为了传递「震动市场」的冲击感，常出现在并购新闻标题中。",
+              "exampleEn": "The proposed megamerger between the two airline groups faces intense scrutiny from antitrust regulators.",
+              "exampleCn": "这两家航空集团拟议中的超级并购正面临反垄断监管机构的严格审查。"
             },
             {
-              "word": "aggressive pricing",
-              "pos": "phrase",
-              "meaning": "激进定价策略，指企业以低于竞争对手或低于市场预期的价格争夺份额。aggressive在商业英语中并无贬义，而是强调「主动出击」的姿态，常搭配strategy、move、campaign使用。财经新闻高频搭配，切勿译成「侵略性」。",
-              "exampleEn": "Amazon's aggressive pricing strategy in cloud computing forced competitors to repeatedly cut their service rates.",
-              "exampleCn": "亚马逊在云计算领域的激进定价策略，迫使竞争对手一再下调服务价格。"
+              "word": "blockbuster",
+              "pos": "adj. / n.",
+              "meaning": "轰动性的；规模极大且影响深远的。源自二战时期的重型炸弹，后借用为「票房大片」，在商业语境中修饰deal、acquisition、quarter等，暗含「震惊市场」之意。比huge或massive更有画面感，是财经标题的高频词。",
+              "exampleEn": "The chipmaker posted a blockbuster quarter, beating analyst forecasts by a wide margin.",
+              "exampleCn": "这家芯片制造商交出了一份轰动性的季报，大幅超越分析师预期。"
             },
             {
-              "word": "value proposition",
-              "pos": "phrase",
-              "meaning": "价值主张，指产品或服务向客户承诺的核心利益与差异化优势。比selling point更正式、更具战略层次，常出现在投资者报告、产品发布会和商业分析中。掌握这个词能帮助你读懂公司战略表述和科技商业评论。",
-              "exampleEn": "Spotify's value proposition centers on its personalized algorithm and massive music library, which justify its monthly subscription fee.",
-              "exampleCn": "Spotify的价值主张围绕其个性化推荐算法和海量曲库展开，这也是其月费定价合理性的核心支撑。"
+              "word": "utility",
+              "pos": "n.",
+              "meaning": "公用事业公司（尤指受政府监管的电力、天然气、供水企业）。在能源和投资语境中含义高度专业化，与日常英语中「有用性」截然不同。股票市场中「utilities」是独立板块，属防御型资产。读到能源政策类文章，遇到utility务必按「公用事业」理解。",
+              "exampleEn": "Regulated utilities are seen as safe-haven investments because their revenue is largely guaranteed by long-term contracts.",
+              "exampleCn": "受监管的公用事业公司被视为避险投资，因为其营收很大程度上受长期合同保障。"
+            },
+            {
+              "word": "ratepayer",
+              "pos": "n.",
+              "meaning": "公用事业费用（电费、水费、天然气费）的缴纳者，即普通居民或商业用电用气客户。在能源监管和政策讨论中比consumer更正式，专指受定价决策直接影响的群体。看到涉及电价监管的新闻，ratepayer就是「被涨价的那些人」。",
+              "exampleEn": "The public utilities commission ruled that the cost of grid upgrades should not be passed on to ratepayers.",
+              "exampleCn": "公用事业委员会裁定，电网升级费用不应转嫁给普通用户。"
+            },
+            {
+              "word": "fuel",
+              "pos": "v.",
+              "meaning": "推动、助长（需求、增长、争议等）。典型的商业隐喻动词，将抽象驱动力比作燃料，比drive或boost更强调「持续供给能量」的过程感。常搭配demand、growth、speculation、debate，是财经写作不可或缺的高频动词，值得优先掌握其比喻用法。",
+              "exampleEn": "Record venture capital inflows are fueling a new wave of AI startup formation across Silicon Valley.",
+              "exampleCn": "创纪录的风险投资涌入正在推动硅谷新一波AI初创企业的涌现。"
             }
           ]
         },
         {
           "id": "20260519-4",
           "category": "biz",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/norton-coupon-code/",
-          "headlineEn": "Norton Security Suite Offers Up to 58% Off with Exclusive Coupon Codes",
-          "headlineCn": "诺顿安全套件推出优惠码活动，最高折扣达58%",
-          "summaryEn": "Norton, one of the most recognized names in cybersecurity software, is currently offering coupon codes that allow users to save up to 58% on its security products. The deals cover personal antivirus subscriptions as well as small-business protection bundles. As subscription-based software becomes the industry standard, promotional discounts play a growing role in customer acquisition. For budget-aware consumers and entrepreneurs, these limited-time offers provide a cost-effective path to premium digital security without paying full retail price.",
-          "summaryCn": "诺顿（Norton）作为网络安全软件领域的知名品牌，目前推出优惠码活动，用户最高可享受58%的折扣，适用于个人防病毒订阅方案及小型企业安全防护套餐。随着订阅制软件成为行业主流，促销折扣在获取新客户方面发挥着越来越重要的作用。对于注重预算的个人用户和企业主而言，这些限时优惠提供了一条以实惠价格获取优质数字安全保护的捷径。",
-          "excerpt": "Norton is rolling out coupon codes offering up to 58% off select security plans. Whether you need coverage for a single device or a full small-business suite, these time-limited deals offer a cost-effective way to lock in premium protection before prices reset.",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/heres-why-astera-labs-stock-just-staged-a-big-gain-ddb2139b?mod=mw_rss_topstories",
+          "headlineEn": "Astera Labs Stock Surges on New Switch Timeline and Optical Networking Revenue Outlook",
+          "headlineCn": "阿斯特拉实验室股价飙升，光网络业务前景提振投资者信心",
+          "summaryEn": "Astera Labs, a semiconductor connectivity company, saw its stock post a significant gain after management provided a firm development timeline for a new data-center switch product. Investors responded positively to the company's detailed discussion of revenue opportunities in optical networking, a fast-growing segment driven by AI infrastructure buildout. The update reinforced confidence that Astera Labs is well-positioned to capture demand as hyperscalers expand their data centers, reflecting broader investor enthusiasm for AI-adjacent connectivity hardware.",
+          "summaryCn": "半导体互联公司阿斯特拉实验室（Astera Labs）股价大幅上涨，原因是管理层为新款数据中心交换机产品提供了明确的研发时间表，并深入探讨了光网络领域的收入机会。投资者对此反应积极，认为公司在AI基础设施扩张浪潮中处于有利位置，有望从超大规模云服务商的数据中心建设中持续受益。此次更新进一步巩固了市场对阿斯特拉实验室长期增长潜力的信心。",
+          "excerpt": "Investors appeared encouraged by Astera Labs' concrete timeline for its upcoming data-center switch, as well as management's discussion of expanding revenue streams in optical networking — a segment gaining traction as hyperscalers upgrade their AI infrastructure. Shares climbed sharply following the update.",
           "vocab": [
             {
-              "word": "redeem",
-              "pos": "v.",
-              "meaning": "兑换（优惠码、积分、礼券等）。比口语中的「use a coupon」更正式，商业场景的标配动词，常见搭配有 redeem a code / voucher / reward points，在结账流程文案中几乎不可替代。",
-              "exampleEn": "New subscribers can redeem a promotional code at checkout to receive 30% off their first annual plan.",
-              "exampleCn": "新订阅用户可在结账时兑换促销码，享受首年套餐七折优惠。"
+              "word": "stage a gain",
+              "pos": "phrase",
+              "meaning": "（股价）创下涨幅、实现上涨。「stage」在财经语境中含「蓄力后爆发」的隐喻，比 record 或 post 更生动形象，常见于财经新闻标题。值得作为标准财经写作词汇记忆，尤其适用于描述股价阶段性反弹。",
+              "exampleEn": "Tech stocks staged their biggest single-day gain of the quarter after the Fed signaled a pause in rate hikes.",
+              "exampleCn": "美联储暗示暂停加息后，科技股创下本季度单日最大涨幅。"
             },
             {
-              "word": "subscription",
+              "word": "optical networking",
               "pos": "n.",
-              "meaning": "订阅；订阅制。SaaS时代的核心商业词汇，有别于一次性购买（one-time purchase），暗含周期性付费的商业逻辑。常见搭配：annual subscription（年订阅）、subscription model（订阅模式）、cancel a subscription（取消订阅）。",
-              "exampleEn": "The software company transitioned from perpetual licenses to a subscription model to generate steadier recurring revenue.",
-              "exampleCn": "该软件公司从永久授权模式转向订阅制，以获得更稳定的经常性收入。"
+              "meaning": "光网络；利用光纤和光信号传输数据的网络技术，是AI数据中心高速互联的核心基础设施。投资语境中与「带宽扩容」「AI算力需求」紧密挂钩，不可与普通「网络」概念混用，是读懂AI硬件供应链投资逻辑的必备专业词汇。",
+              "exampleEn": "As AI model training demands ever-higher bandwidth, optical networking has become a strategic investment priority for major cloud providers.",
+              "exampleCn": "随着AI模型训练对带宽要求不断提升，光网络已成为各大云服务商的战略投资重点。"
             },
             {
-              "word": "bundle",
-              "pos": "v. / n.",
-              "meaning": "捆绑销售；套餐。科技和软件销售中极高频，指将多个产品或功能打包以单一价格出售。作动词时常见「bundle sth with sth」；作名词时指套装产品。比 package 更口语，比 suite 适用范围更广。",
-              "exampleEn": "The vendor bundled cloud storage and password management with its antivirus software to increase the perceived value of the deal.",
-              "exampleCn": "该厂商将云存储和密码管理功能与防病毒软件捆绑出售，以提升整体套餐的感知价值。"
-            },
-            {
-              "word": "tier",
-              "pos": "n.",
-              "meaning": "层级；定价档位。SaaS产品定价中必备词，指不同功能或价格区间的服务等级，如 free tier（免费档）、enterprise tier（企业档）。比 level 更专业，自带「阶梯式差异化」的商业隐喻，常见于产品定价页面。",
-              "exampleEn": "The platform offers three pricing tiers — Basic, Professional, and Enterprise — each unlocking a broader set of security features.",
-              "exampleCn": "该平台提供基础版、专业版和企业版三个定价档位，每个档位对应更丰富的安全功能。"
-            },
-            {
-              "word": "cost-effective",
+              "word": "firm",
               "pos": "adj.",
-              "meaning": "性价比高的；经济合算的。商业写作中替代「cheap」的专业表达，不带贬义，强调「花费与收益相称」。适用于评估方案、产品推荐或投资决策。常见搭配：cost-effective solution / approach / alternative。",
-              "exampleEn": "Switching to open-source infrastructure proved to be the most cost-effective solution for the startup operating on a tight budget.",
-              "exampleCn": "对这家预算有限的初创公司而言，迁移至开源基础设施被证明是最具性价比的解决方案。"
+              "meaning": "明确的、坚定的、有约束力的。修饰 timeline / offer / commitment 时，强调「不会变动」，区别于 tentative（暂定）和 rough（粗略）。在投资者关系语境中，管理层给出「firm timeline」是传递执行力与信心的重要信号，值得与 vague / tentative 对比记忆。",
+              "exampleEn": "The CEO gave investors a firm timeline for the product launch, ruling out any further delays.",
+              "exampleCn": "首席执行官向投资者提供了明确的产品发布时间表，排除了进一步推迟的可能。"
+            },
+            {
+              "word": "hyperscaler",
+              "pos": "n.",
+              "meaning": "超大规模云服务商；指AWS、微软Azure、谷歌云等拥有超大规模数据中心的科技巨头，是AI基础设施投资的主要驱动力。非教科书词汇，但在科技财经报道中极为高频，理解此词才能读懂AI硬件供应链的核心投资逻辑。",
+              "exampleEn": "Demand from hyperscalers for high-speed interconnects has driven a surge in orders for optical networking components.",
+              "exampleCn": "超大规模云服务商对高速互联设备的需求激增，带动光网络元器件订单大幅增长。"
+            },
+            {
+              "word": "revenue opportunity",
+              "pos": "n. phrase",
+              "meaning": "营收机会；在投资者关系和分析师语境中，指公司尚未完全变现但具备可量化潜力的业务方向。比 potential（潜力）更具体，隐含「已有客户需求和商业路径」的意思，是分析公司未来增长空间时的核心表达，常出现在财报电话会和路演材料中。",
+              "exampleEn": "Management highlighted optical networking as a significant revenue opportunity that could double the company's addressable market.",
+              "exampleCn": "管理层将光网络定位为重大营收机会，认为其可能使公司的潜在市场规模翻倍。"
             }
           ]
         },
         {
           "id": "20260519-5",
           "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/the-bond-market-has-a-warning-for-the-fed-get-serious-about-inflation-and-potential-rate-hikes-asap-f38bbdcf?mod=mw_rss_topstories",
-          "headlineEn": "Bond Market Warns Fed: Act Now on Inflation and Potential Rate Hikes",
-          "headlineCn": "债市向美联储发出警告：立即认真对待通胀与加息问题",
-          "summaryEn": "The U.S. Treasury market is experiencing a sharp selloff, pushing yields higher and signaling deep investor concern over persistent inflation. Analysts warn that the Federal Reserve may need to adopt more aggressive rhetoric — or even concrete rate hikes — to restore confidence. If the Fed fails to act decisively, the bond market rout could spread to equities and tighten financial conditions more broadly, posing a wider threat to economic stability.",
-          "summaryCn": "美国国债市场正经历剧烈抛售，收益率持续走高，折射出投资者对通胀长期高企的深切担忧。分析人士警告，美联储可能需要释放更强硬的政策信号，甚至采取实际加息行动，方能稳定市场情绪。若央行反应迟缓，债市动荡或将蔓延至股市，进一步收紧金融条件，对整体经济造成更广泛冲击。",
-          "excerpt": "The Treasury market is sending an urgent warning to the Federal Reserve: tougher rhetoric on inflation — and the credible threat of further rate hikes — may be the only way to stop the ongoing market rout before conditions deteriorate further.",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/19/treasurys-yields-inflation-traders-fed-interest-rates.html",
+          "headlineEn": "30-Year Treasury Yield Surges to 5.19%, a Pre-Financial-Crisis High",
+          "headlineCn": "30年期美债收益率攀升至5.19%，创金融危机前新高",
+          "summaryEn": "The yield on the 30-year U.S. Treasury bond climbed to 5.19%, its highest level since before the 2008 financial crisis, as global bond markets faced sustained pressure. Renewed inflation fears led investors to grow increasingly cautious, raising concerns that central banks may keep interest rates higher for longer. Rising yields signal falling bond prices and higher borrowing costs, potentially weighing on equity markets and broader economic growth.",
+          "summaryCn": "美国30年期国债收益率攀升至5.19%，创2008年金融危机前以来最高水平。全球债券市场持续承压，通胀卷土重来的忧虑令投资者愈发谨慎，市场担心各大央行将在更长时间内维持高利率政策。收益率走高意味着债券价格下跌、借贷成本上升，可能进一步拖累股市表现并给全球经济增长带来压力。",
+          "excerpt": "Global bond markets remained on edge as the 30-year Treasury yield topped 5.19%, a level not seen since before the 2008 financial crisis. Traders closely monitored central bank signals amid fears that persistent inflation could force policymakers to keep rates elevated well into next year.",
           "vocab": [
-            {
-              "word": "rout",
-              "pos": "n.",
-              "meaning": "溃败；市场暴跌。源自军事术语「溃退」，在金融语境中特指资产价格的突然、剧烈下跌。比 selloff（普通抛售）语气更重，暗含恐慌性与不可控性，常见搭配：market rout、bond rout。值得学的原因：它比 crash 更具叙事感，财经媒体标题中极为常见。",
-              "exampleEn": "A surprise inflation reading triggered a rout in the bond market, sending yields to multi-year highs.",
-              "exampleCn": "一项出乎意料的通胀数据引发了债市溃败，收益率飙升至多年高位。"
-            },
-            {
-              "word": "ease",
-              "pos": "v.",
-              "meaning": "缓解；减轻压力。金融语境中需特别注意一词多义：ease 既可表示政策放松（ease rates = 降息），也可描述市场紧张情绪的平息（ease the rout = 平息抛售）。与 reduce 相比，ease 更强调渐进性与平滑感，是央行政策报道的高频词。",
-              "exampleEn": "The central bank's statement helped ease fears in the bond market, causing yields to pull back slightly.",
-              "exampleCn": "央行的声明有助于缓解债市恐慌情绪，收益率随之小幅回落。"
-            },
-            {
-              "word": "hawkish",
-              "pos": "adj.",
-              "meaning": "鹰派的；倾向加息或收紧货币政策的。与 dovish（鸽派，倾向降息宽松）构成财经英语中最重要的一组反义词，是解读美联储立场的核心词汇。不懂这对词，便很难读懂任何央行政策报道。",
-              "exampleEn": "The Fed chair's hawkish remarks pushed the dollar higher and sent stock futures sharply lower.",
-              "exampleCn": "美联储主席的鹰派言论推动美元走强，股指期货应声大幅下跌。"
-            },
             {
               "word": "yield",
               "pos": "n.",
-              "meaning": "（债券）收益率。债市最核心的指标之一，与债券价格呈反向关系——债券遭抛售时价格下跌、收益率上升。教科书常教「yield = 产出」，但在金融报道中 yield 几乎专指债券收益率，是读懂国债新闻的必备词，搭配：yield rises / falls / climbs / spikes。",
-              "exampleEn": "The 10-year Treasury yield climbed above 5% for the first time in over a decade, rattling equity markets.",
-              "exampleCn": "10年期美债收益率十余年来首次突破5%，令股市大幅震动。"
+              "meaning": "收益率；债券领域核心术语。与泛指投资回报的 return 不同，yield 专指债券、股息等固定收益产品的年化回报率。财经报道中不可回避的高频词，收益率上升对应债券价格下跌，理解这一反向关系是读懂债市新闻的关键。",
+              "exampleEn": "The yield on 10-year government bonds rose sharply after the central bank hinted at fewer rate cuts.",
+              "exampleCn": "在央行暗示降息次数将减少后，10年期国债收益率大幅上升。"
             },
             {
-              "word": "tough talk",
+              "word": "top",
+              "pos": "v.",
+              "meaning": "突破、超过（某一数字或水平）；财经新闻标题中极为常见，比 surpass 或 exceed 更简洁有力。常见句式如「sales topped $1 billion」，掌握此用法可显著提升阅读财经标题的速度与准确性。",
+              "exampleEn": "Apple's quarterly revenue topped $90 billion for the first time, beating analyst expectations.",
+              "exampleCn": "苹果季度营收首次突破900亿美元，超出分析师预期。"
+            },
+            {
+              "word": "on edge",
               "pos": "phrase",
-              "meaning": "强硬表态；政策威慑性语言。指官员以言辞而非实际行动释放强硬信号，是央行「前瞻性指引」（forward guidance）的重要工具。与 rhetoric（空洞修辞，含贬义）不同，tough talk 在语境中通常被视为具有一定可信度的政策信号，值得学习这一细微差别。",
-              "exampleEn": "Investors welcomed the Fed chair's tough talk on inflation, interpreting it as a sign that further rate hikes remain on the table.",
-              "exampleCn": "投资者对美联储主席就通胀问题的强硬表态表示欢迎，将其解读为进一步加息仍在考量之中的信号。"
+              "meaning": "处于紧绷、不安的状态；比 nervous 更口语化，且带有「随时可能崩溃」的紧迫感。财经报道中常用来描绘市场情绪，如「markets remained on edge」，比「markets were anxious」更地道，更有画面感，是描述市场情绪的惯用表达。",
+              "exampleEn": "Investors were on edge ahead of the Federal Reserve's policy announcement, with volatility spiking across asset classes.",
+              "exampleCn": "在美联储政策声明发布前，投资者情绪高度紧张，各类资产波动性骤升。"
+            },
+            {
+              "word": "renewed",
+              "pos": "adj.",
+              "meaning": "再度涌现的、重燃的；常与 fears、concerns、optimism 等搭配，暗示某种情绪曾经平息、如今卷土重来，比 new 多了一层历史感。是财经新闻描述市场情绪反复波动的标准搭配，值得重点记忆。",
+              "exampleEn": "Renewed concerns about supply chain disruptions sent semiconductor stocks lower on Monday.",
+              "exampleCn": "供应链中断的忧虑再度升温，半导体股周一普遍下跌。"
+            },
+            {
+              "word": "weigh on",
+              "pos": "phrasal v.",
+              "meaning": "对……造成持续压力、拖累……；隐含「如重物压顶」的持续性负面影响，比 affect 或 hurt 更精准。财经语境中高频搭配有「weigh on growth」「weigh on sentiment」「weigh on earnings」，是描述宏观因素负面拖累的标准表达。",
+              "exampleEn": "Persistently high borrowing costs continued to weigh on the housing market and consumer spending.",
+              "exampleCn": "持续高企的借贷成本继续拖累房地产市场和消费者支出。"
             }
           ]
         }
