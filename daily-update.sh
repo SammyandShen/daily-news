@@ -23,8 +23,9 @@ LOG_FILE="$LOG_DIR/$TODAY.log"
 
 mkdir -p "$LOG_DIR"
 
-# 同时输出到日志和终端
-exec > >(tee -a "$LOG_FILE") 2>&1
+# 输出到日志（launchd 环境下 tee 进程替换不可靠，直接追加）
+# 手动运行时可 tail -f 日志：tail -f logs/$(date +%Y-%m-%d).log
+exec >> "$LOG_FILE" 2>&1
 
 echo "================================================"
 echo "🚀 Daily News Update · $(date '+%Y-%m-%d %H:%M:%S')"
