@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T06:32:43.988310+00:00",
+  "lastUpdated": "2026-05-19T06:39:59.555347+00:00",
   "level": "B2",
   "days": {
     "2026-05-19": {
@@ -10,46 +10,46 @@
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
-          "headlineEn": "Anthropic Acquires Stainless, the SDK Automation Startup Behind OpenAI and Google",
-          "headlineCn": "Anthropic收购SDK自动化初创公司Stainless，此前曾服务OpenAI等科技巨头",
-          "summaryEn": "Anthropic has acquired Stainless, a New York startup that automates the creation and maintenance of software development kits. Founded in 2022, Stainless quickly rose to prominence by serving major players including OpenAI, Google, and Cloudflare. SDKs are critical developer infrastructure — they determine how easily engineers can build applications on top of AI platforms. The deal signals Anthropic's ambition to tighten its grip on the developer ecosystem as competition in the AI industry intensifies.",
-          "summaryCn": "Anthropic宣布收购总部位于纽约的初创公司Stainless。该公司成立于2022年，专注于自动化生成和维护软件开发工具包（SDK）——即开发者调用API所依赖的代码库。Stainless凭借出色的产品迅速赢得OpenAI、谷歌、Cloudflare等科技巨头的青睐。SDK是AI平台开发者生态的核心基础设施，直接影响工程师构建应用的便捷程度。此次收购表明，随着AI行业竞争加剧，Anthropic正积极争夺开发者生态的主导权。",
-          "excerpt": "Stainless, a New York-based startup founded in 2022, rose to prominence in the emerging AI industry by automating the creation and maintenance of SDKs — the libraries developers rely on to interact with APIs from companies like OpenAI, Google, and Cloudflare.",
+          "headlineEn": "Anthropic Acquires Stainless, the Dev Tools Startup Behind OpenAI and Google's SDKs",
+          "headlineCn": "Anthropic 收购为 OpenAI 和 Google 构建 SDK 的初创公司 Stainless",
+          "summaryEn": "Anthropic has acquired Stainless, a New York startup founded in 2022 that automates the creation and maintenance of software development kits (SDKs). Stainless had already built SDKs for major AI players including OpenAI, Google, and Cloudflare. The deal signals Anthropic's push to bring critical developer infrastructure in-house, strengthening its ecosystem as competition for developer mindshare intensifies across the AI platform landscape.",
+          "summaryCn": "Anthropic 宣布收购纽约初创公司 Stainless。该公司成立于 2022 年，专注于自动化生成和维护软件开发工具包（SDK）。此前，Stainless 已为 OpenAI、Google 和 Cloudflare 等头部科技公司构建 SDK，在 AI 开发者生态中建立了重要地位。此次收购标志着 Anthropic 正将关键开发者基础设施纳入内部掌控，以在日趋激烈的 AI 平台竞争中争夺开发者心智。",
+          "excerpt": "Stainless, a New York-based startup founded in 2022, rose to prominence in the AI industry by automating the creation and maintenance of software development kits — the code libraries developers rely on to interact with APIs. Its client list included OpenAI, Google, and Cloudflare.",
           "vocab": [
             {
               "word": "acquire",
               "pos": "v.",
-              "meaning": "收购、获取。商业新闻中acquire比buy更正式，专指通过商业交易取得所有权，常用于公司并购语境，带有「战略性布局」的含义。常见搭配：acquire a startup / acquire assets / acquire talent。区别于purchase（侧重普通买卖行为）。",
-              "exampleEn": "Microsoft acquired Activision Blizzard in a landmark deal worth nearly $69 billion.",
-              "exampleCn": "微软以近690亿美元的里程碑式交易收购了动视暴雪。"
+              "meaning": "收购；商业语境中专指通过购买取得公司或资产的所有权，比 buy 更正式，是财经报道描述企业并购的核心词。值得学的原因：buy 可用于任何购买，acquire 专用于战略性资产或公司层面的获取，语域更高，常搭配 acquire a company / acquire a stake",
+              "exampleEn": "Microsoft acquired Activision Blizzard in a deal worth nearly $69 billion, reshaping the global gaming industry.",
+              "exampleCn": "微软以近 690 亿美元收购动视暴雪，重塑了全球游戏行业格局。"
             },
             {
               "word": "rise to prominence",
               "pos": "phrase",
-              "meaning": "崭露头角、迅速建立声誉。比rise to fame更适合商业/科技语境，暗含「在特定专业圈子内获得认可」，而非娱乐意义上的出名。常用于描述公司或人物在行业中快速立足，语气客观正式。",
-              "exampleEn": "The fintech startup rose to prominence after its payment system was adopted by several major banks.",
-              "exampleCn": "这家金融科技初创公司在其支付系统被多家大型银行采用后迅速崭露头角。"
+              "meaning": "崭露头角，迅速赢得行业认可；比 become famous 更书面正式，常见于财经和科技报道，描述企业或人物在某领域快速建立地位。值得学的原因：这是新闻写作中描述「从默默无闻到行业瞩目」的标准表达，语气中性偏正面，适合商业写作",
+              "exampleEn": "The fintech startup rose to prominence after its payment solution was adopted by three of the world's largest banks.",
+              "exampleCn": "这家金融科技初创公司在其支付方案被全球三大银行采用后声名大噪。"
             },
             {
-              "word": "automate",
-              "pos": "v.",
-              "meaning": "使自动化。科技报道高频词，特指用软件或机器替代人工重复性操作。注意：automate强调「流程的自动化」，区别于optimize（优化效率）和streamline（精简流程）。常见搭配：automate workflows / automate testing / automate deployment。",
-              "exampleEn": "Companies are racing to automate routine data entry tasks using large language models.",
-              "exampleCn": "各公司正争相利用大语言模型将日常数据录入任务自动化。"
+              "word": "in-house",
+              "pos": "adj. / adv.",
+              "meaning": "内部的；由公司自身团队完成而非外包给第三方。值得学的原因：这是商业英语高频词，与 outsource（外包）形成精准对比，常见搭配有 in-house team、in-house development、bring X in-house，后者尤为常见于并购和战略报道",
+              "exampleEn": "By moving its data analytics in-house, the company gained tighter control over proprietary customer insights.",
+              "exampleCn": "通过将数据分析工作转为内部处理，该公司对专有客户数据获得了更严格的掌控。"
             },
             {
-              "word": "interact with",
-              "pos": "phrasal v.",
-              "meaning": "与……交互、调用。在科技文章中，interact with常用于描述软件、系统或用户之间的通信与调用关系，比use更精确，暗含「双向数据交换」的技术含义，是API文档和科技新闻中的标准表达。",
-              "exampleEn": "Developers use the SDK to interact with the model and retrieve real-time responses.",
-              "exampleCn": "开发者通过SDK与模型进行交互并获取实时响应。"
+              "word": "SDK (software development kit)",
+              "pos": "n.",
+              "meaning": "软件开发工具包；开发者用来与某平台或 API 对接的一套代码库和工具集。值得学的原因：这是 AI 和科技报道中的必备缩写，理解 SDK 是读懂开发者生态、平台竞争和 API 经济等话题的基础，几乎所有 AI 公司的开发者策略都绕不开它",
+              "exampleEn": "After Stripe released an updated SDK for Python, developers reported a significant reduction in payment integration time.",
+              "exampleCn": "Stripe 发布 Python 版升级 SDK 后，开发者反映支付集成所需时间大幅缩短。"
             },
             {
-              "word": "emerging",
-              "pos": "adj.",
-              "meaning": "新兴的、正在崛起的。财经/科技语境中，emerging暗含「尚未完全成熟但增长迅速」，语气比new更专业、更具前瞻性。经典搭配：emerging market（新兴市场）、emerging technology（新兴技术）、emerging industry（新兴产业）——这三个搭配在财经英语中几乎是固定表达。",
-              "exampleEn": "Investors are increasingly allocating capital to emerging AI infrastructure companies.",
-              "exampleCn": "投资者正越来越多地将资金配置到新兴AI基础设施公司。"
+              "word": "mindshare",
+              "pos": "n.",
+              "meaning": "心智占有率；品牌或产品在目标用户心中的认知度与影响力。值得学的原因：这是科技和营销报道中的高频商业隐喻，注意与 market share（市场份额）的区别——mindshare 是无形的认知资产，赢得 mindshare 往往先于赢得 market share，两者搭配出现时语义层次分明",
+              "exampleEn": "In the cloud computing space, winning mindshare among enterprise developers often precedes winning market share.",
+              "exampleCn": "在云计算领域，赢得企业级开发者的心智认同往往先于赢得市场份额。"
             }
           ]
         },
@@ -58,46 +58,46 @@
           "category": "tech",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580",
-          "headlineEn": "Google Partners with Blackstone-Backed Group in $5bn AI Cloud Chip Push",
-          "headlineCn": "谷歌携手黑石背书云集团，50亿美元押注AI芯片基础设施",
-          "summaryEn": "Google has entered a major partnership with a Blackstone-backed AI cloud company, committing approximately $5 billion to accelerate the build-out of AI infrastructure. The deal is expected to bring 500 megawatts of data centre capacity online by next year, reflecting the intensifying race among tech giants to secure computing power. The investment signals a strategic push by Google to expand its chip ecosystem and reduce dependence on third-party suppliers as global AI demand surges.",
-          "summaryCn": "谷歌与黑石资本支持的AI云计算集团达成重大合作，承诺投入约50亿美元加速AI基础设施建设。该协议预计将在明年前使500兆瓦的数据中心产能正式投入运营，折射出科技巨头在算力争夺战中日益白热化的竞争态势。对谷歌而言，此次投资标志着其在芯片生态系统扩张上的战略布局，同时也体现出在AI需求持续激增背景下减少对第三方芯片供应商依赖的战略意图。",
-          "excerpt": "Google has committed roughly $5 billion to a Blackstone-backed AI cloud group in a deal designed to bring 500MW of new data centre capacity online next year — underscoring the fierce competition among tech companies to lock in AI computing infrastructure.",
+          "headlineEn": "Google Partners with Blackstone-Backed Group in $5bn AI Data Centre Push",
+          "headlineCn": "谷歌携手黑石支持的AI云计算集团，斥资50亿美元扩建数据中心",
+          "summaryEn": "Google has partnered with a Blackstone-backed AI cloud company in a $5 billion investment deal aimed at bringing 500 megawatts of new data centre capacity online by next year. The move signals Google's aggressive push to secure AI infrastructure amid fierce competition with rivals like Microsoft and Amazon. It also highlights how private capital is increasingly co-funding the enormous buildout required to power the next wave of artificial intelligence.",
+          "summaryCn": "谷歌与黑石集团支持的AI云计算公司达成50亿美元投资协议，计划于明年前将500兆瓦的数据中心容量投入运营。此举彰显了谷歌在AI基础设施领域的激进扩张策略，意在与微软、亚马逊展开正面竞争。与此同时，这笔交易也揭示出一个更大趋势：私募资本正深度参与AI算力基建的巨额投资，共同为下一轮人工智能浪潮提供动力。",
+          "excerpt": "A $5 billion investment by private capital group Blackstone is set to help bring 500 megawatts of data centre capacity online next year, as Google accelerates its push to secure AI cloud infrastructure at scale.",
           "vocab": [
             {
               "word": "make a push",
               "pos": "phrase",
-              "meaning": "发起攻势；在某领域强势布局。比 invest in 更具进攻性，暗含战略主动性与竞争压力，商业新闻中常用于描述企业进入新赛道或集中投入资源的举动，读财经新闻必须掌握的动宾搭配。",
-              "exampleEn": "Amazon is making a major push into enterprise AI services to compete with Microsoft and Google.",
-              "exampleCn": "亚马逊正大举布局企业AI服务，以抗衡微软和谷歌。"
+              "meaning": "大举发力、全力进军（某领域）。比 enter 或 expand 更强调主动进攻姿态和集中资源的决心，常见于商业报道描述公司战略性布局。标题中「chip push」即「在芯片领域的大举出击」，是财经标题的高频压缩写法，值得掌握。",
+              "exampleEn": "The electric vehicle startup is making a big push into the European market with three new models.",
+              "exampleCn": "这家电动车初创公司正以三款新车型大举进军欧洲市场。"
+            },
+            {
+              "word": "-backed",
+              "pos": "adj. (compound suffix)",
+              "meaning": "由……支持／出资的。可自由拼接构成复合形容词，如 state-backed（国家支持的）、venture-backed（风投支持的）、Blackstone-backed（黑石支持的）。比 supported by 更简洁，且隐含资金或政治背书关系，是 FT、彭博等财经媒体的标志性用法。",
+              "exampleEn": "Several government-backed initiatives are funding research into next-generation battery technology.",
+              "exampleCn": "多个政府支持的项目正在资助下一代电池技术的研究。"
             },
             {
               "word": "bring ... online",
               "pos": "phrasal v.",
-              "meaning": "使（设施、系统或产能）正式投入运营。专用于数据中心、工厂、电厂等基础设施从建设阶段过渡到实际运转，比 launch 更强调物理投产的过程，是能源与科技新闻的高频短语，值得区分记忆。",
-              "exampleEn": "The new semiconductor fabrication plant is expected to be brought online by the end of Q3.",
-              "exampleCn": "这座新的半导体制造工厂预计将于第三季度末正式投产。"
-            },
-            {
-              "word": "-backed",
-              "pos": "suffix (adj.)",
-              "meaning": "由……支持的、背书的。商业新闻极高频构词后缀，如 PE-backed（私募支持）、VC-backed（风投支持）、state-backed（国家背书），一词即可清晰说明融资来源与风险承担方，是读懂财经报道资本结构的核心词缀。",
-              "exampleEn": "The VC-backed startup raised $200 million in its latest round despite the broader market slowdown.",
-              "exampleCn": "尽管整体市场放缓，这家风投支持的初创企业在最新一轮融资中筹得2亿美元。"
+              "meaning": "使（设施、系统）正式投入运营。与 launch 不同，online 特指基础设施从建设完成到实际可用状态的转变，常搭配数据中心、发电机组、工厂产线等有形资产，是基建和能源报道的核心动词短语，不可与「上网」混淆。",
+              "exampleEn": "The semiconductor plant is expected to bring its first production line online by the end of Q3.",
+              "exampleCn": "这家半导体工厂预计将于第三季度末使其首条生产线投入运营。"
             },
             {
               "word": "private capital",
               "pos": "n.",
-              "meaning": "私募资本。泛指来自非公开市场的资金，涵盖私募股权、私募信贷、基础设施基金等，比 private equity 范围更广。理解这一区分有助于准确把握财经新闻对资本来源的描述，避免与上市融资混淆。",
-              "exampleEn": "Private capital has increasingly moved into infrastructure assets as traditional fixed-income returns remain low.",
-              "exampleCn": "随着传统固定收益回报持续低迷，私募资本越来越多地流入基础设施资产。"
+              "meaning": "私募资本，泛指非公开市场的机构投资资金，涵盖私募股权（private equity）、基础设施基金、私募信贷等。比 private equity 外延更广，与 public capital（公开市场资金）相对。近年AI基建报道高频词，说明机构资金正在填补公开市场无力承担的巨额投资缺口。",
+              "exampleEn": "Private capital has become a major driver of infrastructure investment in the AI era, filling gaps left by public markets.",
+              "exampleCn": "在AI时代，私募资本已成为基础设施投资的主要驱动力，填补了公开市场留下的空缺。"
             },
             {
-              "word": "build-out",
+              "word": "capacity",
               "pos": "n.",
-              "meaning": "（基础设施或产能的）大规模扩建与部署。常见于数据中心、电网、网络等资本密集型行业，强调系统性扩张过程而非单次建设，比 expansion 更具工程语感，是科技与能源新闻的核心词汇，值得与 scale-up 区分记忆。",
-              "exampleEn": "The rapid build-out of AI data centres is driving unprecedented demand for electricity and cooling systems.",
-              "exampleCn": "AI数据中心的快速扩建正推动对电力和冷却系统的空前需求。"
+              "meaning": "容量、产能。在数据中心和能源语境中特指可承载的最大功率或处理规模（如500MW），强调物理或系统层面的上限。注意与 capability（能力、技能）的区别：capacity 是客观的量化上限，capability 是主观的执行能力，两者不可互换。",
+              "exampleEn": "The company plans to double its cloud storage capacity over the next two years to meet surging AI workloads.",
+              "exampleCn": "该公司计划在未来两年内将其云存储容量翻倍，以满足激增的AI计算需求。"
             }
           ]
         },
@@ -106,46 +106,46 @@
           "category": "biz",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/max-promo-code/",
-          "headlineEn": "HBO Max Offers Up to 50% Off Subscription Plans in May Promotion",
-          "headlineCn": "HBO Max 五月促销：订阅套餐最高享五折优惠",
-          "summaryEn": "HBO Max is running a major May promotion offering up to 50% off its streaming subscription plans through promo codes. Owned by Warner Bros. Discovery, the platform is using aggressive discounts to attract new subscribers and retain existing ones. As Netflix, Disney+, and Apple TV+ intensify competition for viewers, such discount-driven campaigns highlight a broader industry trend: streaming services are increasingly relying on price cuts rather than content alone to drive subscriber growth.",
-          "summaryCn": "HBO Max 推出五月特别促销活动，通过优惠码提供最高五折的订阅套餐折扣。这一举措旨在吸引新用户并留住现有会员。随着 Netflix、Disney+ 和 Apple TV+ 在流媒体市场的竞争日趋白热化，HBO Max 此番激进定价策略折射出行业整体趋势：各大平台越来越依赖价格杠杆而非单纯内容优势来驱动用户增长，消费者也因此获得了以更低成本享受优质内容的机会。",
-          "excerpt": "HBO Max is slashing subscription prices by up to 50% this May, rolling out promo codes that unlock steep discounts across its streaming plans. The move reflects growing pressure on Warner Bros. Discovery's flagship service to compete with Netflix and Disney+ for subscriber growth in an increasingly crowded market.",
+          "headlineEn": "HBO Max Slashes Subscription Prices by 50% with Limited-Time May Promo Codes",
+          "headlineCn": "HBO Max五月促销：订阅五折优惠码限时开放",
+          "summaryEn": "HBO Max is offering up to 50% off streaming subscriptions through a series of promotional codes available throughout May. The deal targets both new subscribers and lapsed users, representing one of the platform's most aggressive discount campaigns of the year. As the streaming industry grows increasingly competitive, major players like HBO Max are turning to limited-time promotions to combat subscriber churn, attract cord-cutters, and justify their value proposition against rivals such as Netflix and Disney+.",
+          "summaryCn": "HBO Max在五月推出高达五折的订阅促销活动，向新用户和回归用户提供折扣码。这是该平台今年力度最大的降价营销举措之一。随着流媒体行业竞争日趋激烈，HBO Max等主要平台纷纷依赖限时促销手段来降低用户流失率、争夺放弃有线电视的「剪线族」，并在与Netflix、Disney+的激烈角逐中凸显自身的价值优势。",
+          "excerpt": "HBO Max is slashing subscription prices by up to 50% this May, releasing a batch of promotional codes for both new and returning customers. The move reflects a broader trend in the streaming industry, where platforms are competing aggressively on price to retain and grow their subscriber base.",
           "vocab": [
-            {
-              "word": "slash",
-              "pos": "v.",
-              "meaning": "大幅削减（价格、成本、预算）。财经报道中比 cut 或 reduce 语气更强，暗含「一刀砍下去」的果断力度，常搭配 prices、costs、budget、workforce 使用。读商业新闻时几乎每天都会遇到。",
-              "exampleEn": "The retailer slashed prices by 40% to clear excess inventory ahead of the new product launch.",
-              "exampleCn": "为在新品上市前清理库存，该零售商将价格大幅下调了 40%。"
-            },
             {
               "word": "promo code",
               "pos": "phrase",
-              "meaning": "促销码；电商和订阅服务中用于解锁折扣的字母数字组合。比 coupon 更现代、更数字化，是科技媒体和 SaaS 营销语境的高频词汇，也是理解订阅制商业模式的入门词。",
-              "exampleEn": "Subscribers who entered the promo code at checkout received three months of premium access at no charge.",
-              "exampleCn": "在结账时输入促销码的用户可免费获得三个月的高级会员权限。"
+              "meaning": "促销码。电商和订阅制服务中最常见的营销工具之一。与coupon（纸质优惠券）不同，promo code专指在线结账时输入的字母数字组合码，语域偏向数字商业和科技产品，是电商文案和平台运营报道的高频词。",
+              "exampleEn": "The e-commerce startup drove a 30% spike in first-time purchases by distributing promo codes through social media influencers.",
+              "exampleCn": "这家电商初创公司通过社交媒体达人分发促销码，使首次购买量激增了30%。"
             },
             {
-              "word": "retain",
-              "pos": "v.",
-              "meaning": "留住（用户、客户、员工）。与 acquire（获取新用户）相对，是订阅经济中核心二元概念之一。商业语境中 retain customers / retain talent 极为高频，强调维系现有关系而非单纯扩张，读财报新闻必备。",
-              "exampleEn": "Streaming platforms invest heavily in original content to retain subscribers and reduce churn rates.",
-              "exampleCn": "流媒体平台大力投资原创内容，以留住订阅用户并降低流失率。"
-            },
-            {
-              "word": "intensify",
-              "pos": "v.",
-              "meaning": "（竞争、压力、争夺）加剧、升温。比 increase 更生动，带有「已经激烈、还在持续升级」的语气，常见于商业新闻描述市场竞争态势，固定搭配 competition、rivalry、scrutiny、pressure。",
-              "exampleEn": "As competition for cloud market share intensifies, major tech firms are cutting enterprise subscription fees.",
-              "exampleCn": "随着云计算市场份额争夺日趋激烈，各大科技公司纷纷下调企业订阅费用。"
-            },
-            {
-              "word": "subscriber growth",
+              "word": "subscriber churn",
               "pos": "phrase",
-              "meaning": "订阅用户增长；流媒体、SaaS 及媒体行业最核心的 KPI 之一。华尔街财报季分析师必问指标，与 churn rate（流失率）和 ARPU（每用户平均收入）并列，理解此词有助于读懂科技公司财报新闻及投资者关系材料。",
-              "exampleEn": "Netflix reported weaker-than-expected subscriber growth last quarter, sending its stock down 8% in after-hours trading.",
-              "exampleCn": "Netflix 上季度订阅用户增长低于预期，导致其股价在盘后交易中下跌 8%。"
+              "meaning": "用户流失（率）。churn原意为「搅动」，在商业语境中特指订阅用户在一段时间内取消服务的比例。流媒体、SaaS和电信行业的核心运营指标，比turnover更精准，常与rate连用构成churn rate，出现在季报和投资人沟通中。",
+              "exampleEn": "Netflix reported that subscriber churn spiked sharply after it raised its monthly fees, prompting the company to introduce an ad-supported tier.",
+              "exampleCn": "Netflix报告称，上调月费后用户流失率急剧攀升，促使该公司推出了含广告的低价订阅档位。"
+            },
+            {
+              "word": "cord-cutter",
+              "pos": "n.",
+              "meaning": "「剪线族」，指放弃传统有线电视或卫星电视、转而选择流媒体服务的消费者。cord原指电视连接线缆，cut the cord是一个象征与旧媒介决裂的隐喻。是科技媒体和传媒产业报道中的标志性词汇，理解它有助于读懂整个流媒体行业叙事。",
+              "exampleEn": "Advertising revenue from traditional broadcasters has declined steadily as cord-cutters migrate to ad-free streaming platforms.",
+              "exampleCn": "随着「剪线族」大批转向无广告的流媒体平台，传统广播公司的广告收入持续下滑。"
+            },
+            {
+              "word": "aggressive pricing",
+              "pos": "phrase",
+              "meaning": "激进定价策略，指企业以低于竞争对手或低于市场预期的价格争夺份额。aggressive在商业英语中并无贬义，而是强调「主动出击」的姿态，常搭配strategy、move、campaign使用。财经新闻高频搭配，切勿译成「侵略性」。",
+              "exampleEn": "Amazon's aggressive pricing strategy in cloud computing forced competitors to repeatedly cut their service rates.",
+              "exampleCn": "亚马逊在云计算领域的激进定价策略，迫使竞争对手一再下调服务价格。"
+            },
+            {
+              "word": "value proposition",
+              "pos": "phrase",
+              "meaning": "价值主张，指产品或服务向客户承诺的核心利益与差异化优势。比selling point更正式、更具战略层次，常出现在投资者报告、产品发布会和商业分析中。掌握这个词能帮助你读懂公司战略表述和科技商业评论。",
+              "exampleEn": "Spotify's value proposition centers on its personalized algorithm and massive music library, which justify its monthly subscription fee.",
+              "exampleCn": "Spotify的价值主张围绕其个性化推荐算法和海量曲库展开，这也是其月费定价合理性的核心支撑。"
             }
           ]
         },
@@ -154,46 +154,46 @@
           "category": "biz",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/norton-coupon-code/",
-          "headlineEn": "Norton Slashes Prices by Up to 58% Off on Cybersecurity Subscriptions",
-          "headlineCn": "诺顿网络安全产品最高优惠58%，个人与企业用户均可受益",
-          "summaryEn": "Norton, a globally recognized cybersecurity brand, is running a promotional campaign offering discount codes worth up to 58% off its core product lineup. The deals cover antivirus protection, VPN services, and identity theft monitoring — key tools for both individual users and small businesses. As cyberattacks grow more sophisticated, these promotions offer a timely window to lock in discounted multi-year subscriptions. Analysts note that bundled security suites are increasingly replacing standalone antivirus tools as the standard for consumer protection.",
-          "summaryCn": "全球知名网络安全品牌诺顿（Norton）正推出最高58%折扣的优惠码活动，覆盖杀毒软件、VPN及身份盗窃监控等核心产品。随着网络攻击手段日趋复杂，个人用户与小型企业对全面安全防护的需求持续上升。分析人士指出，「套装式」安全方案正逐渐取代单一杀毒工具，成为消费者保护的新标准。此次促销为预算有限的用户提供了以较低价格锁定多年订阅套餐的难得机会。",
-          "excerpt": "Norton is running limited-time coupon codes offering up to 58% off its cybersecurity products, including antivirus, VPN, and identity protection plans. The deals are available for both personal and small business users, making premium digital security more accessible across a range of price points.",
+          "headlineEn": "Norton Security Suite Offers Up to 58% Off with Exclusive Coupon Codes",
+          "headlineCn": "诺顿安全套件推出优惠码活动，最高折扣达58%",
+          "summaryEn": "Norton, one of the most recognized names in cybersecurity software, is currently offering coupon codes that allow users to save up to 58% on its security products. The deals cover personal antivirus subscriptions as well as small-business protection bundles. As subscription-based software becomes the industry standard, promotional discounts play a growing role in customer acquisition. For budget-aware consumers and entrepreneurs, these limited-time offers provide a cost-effective path to premium digital security without paying full retail price.",
+          "summaryCn": "诺顿（Norton）作为网络安全软件领域的知名品牌，目前推出优惠码活动，用户最高可享受58%的折扣，适用于个人防病毒订阅方案及小型企业安全防护套餐。随着订阅制软件成为行业主流，促销折扣在获取新客户方面发挥着越来越重要的作用。对于注重预算的个人用户和企业主而言，这些限时优惠提供了一条以实惠价格获取优质数字安全保护的捷径。",
+          "excerpt": "Norton is rolling out coupon codes offering up to 58% off select security plans. Whether you need coverage for a single device or a full small-business suite, these time-limited deals offer a cost-effective way to lock in premium protection before prices reset.",
           "vocab": [
             {
               "word": "redeem",
               "pos": "v.",
-              "meaning": "兑换（优惠码、礼券等）。在电商和订阅服务场景中，「redeem a code/coupon」是固定搭配，比笼统说「use a code」更地道、更专业。此词还有「挽回、救赎」的引申义，属于高频多义词，值得重点掌握。",
-              "exampleEn": "Customers can redeem the promo code at checkout to receive 40% off their first annual subscription.",
-              "exampleCn": "顾客可在结账时兑换促销码，享受首年订阅六折优惠。"
+              "meaning": "兑换（优惠码、积分、礼券等）。比口语中的「use a coupon」更正式，商业场景的标配动词，常见搭配有 redeem a code / voucher / reward points，在结账流程文案中几乎不可替代。",
+              "exampleEn": "New subscribers can redeem a promotional code at checkout to receive 30% off their first annual plan.",
+              "exampleCn": "新订阅用户可在结账时兑换促销码，享受首年套餐七折优惠。"
+            },
+            {
+              "word": "subscription",
+              "pos": "n.",
+              "meaning": "订阅；订阅制。SaaS时代的核心商业词汇，有别于一次性购买（one-time purchase），暗含周期性付费的商业逻辑。常见搭配：annual subscription（年订阅）、subscription model（订阅模式）、cancel a subscription（取消订阅）。",
+              "exampleEn": "The software company transitioned from perpetual licenses to a subscription model to generate steadier recurring revenue.",
+              "exampleCn": "该软件公司从永久授权模式转向订阅制，以获得更稳定的经常性收入。"
             },
             {
               "word": "bundle",
-              "pos": "n. / v.",
-              "meaning": "捆绑销售；套装产品。在科技和SaaS行业极为常见，指将多个产品或功能打包以更优价格出售。与「package」的区别在于：bundle 强调「原本独立的东西被组合在一起」，隐含物超所值的意味，是读懂科技公司定价策略的关键词。",
-              "exampleEn": "The software company bundled its antivirus, VPN, and cloud backup tools into a single subscription to boost average revenue per user.",
-              "exampleCn": "该软件公司将杀毒软件、VPN和云备份工具捆绑为单一订阅套餐，以提升每用户平均收入。"
-            },
-            {
-              "word": "lock in",
-              "pos": "phrasal v.",
-              "meaning": "锁定（价格、利率、合同条款）。金融和商业英语的高频短语，指在价格变动前提前确定某一有利条件。常见搭配：lock in a rate / price / deal。教科书极少收录，但商业新闻中几乎每天出现，不掌握则难以读懂订阅促销或利率报道。",
-              "exampleEn": "Savvy consumers rushed to lock in the discounted annual rate before the promotional period ended.",
-              "exampleCn": "精明的消费者赶在促销期结束前锁定了折扣年费价格。"
-            },
-            {
-              "word": "price point",
-              "pos": "n.",
-              "meaning": "价位；定价点。商业英语中比「price」更精准的表达，强调某一价格在市场竞争格局中的定位及其对消费者的吸引力。常见搭配：competitive price point、hit a certain price point。用这个词而非「price」，能体现出说话者具有市场意识。",
-              "exampleEn": "At its current price point, Norton's premium suite undercuts most rivals while offering comparable features.",
-              "exampleCn": "以目前的价位来看，诺顿高级套餐在功能相当的情况下比大多数竞争对手更具价格优势。"
+              "pos": "v. / n.",
+              "meaning": "捆绑销售；套餐。科技和软件销售中极高频，指将多个产品或功能打包以单一价格出售。作动词时常见「bundle sth with sth」；作名词时指套装产品。比 package 更口语，比 suite 适用范围更广。",
+              "exampleEn": "The vendor bundled cloud storage and password management with its antivirus software to increase the perceived value of the deal.",
+              "exampleCn": "该厂商将云存储和密码管理功能与防病毒软件捆绑出售，以提升整体套餐的感知价值。"
             },
             {
               "word": "tier",
               "pos": "n.",
-              "meaning": "（服务或产品的）档位、等级。SaaS定价模型的核心词汇，如「basic tier / premium tier / enterprise tier」。比「level」更正式，比「grade」更贴近订阅服务语境。掌握这个词能直接看懂几乎所有科技公司的定价页面和财报分析。",
-              "exampleEn": "Norton offers three subscription tiers, with the top tier covering up to ten devices and including identity theft insurance.",
-              "exampleCn": "诺顿提供三个订阅档位，最高档覆盖最多十台设备，并附带身份盗窃保险。"
+              "meaning": "层级；定价档位。SaaS产品定价中必备词，指不同功能或价格区间的服务等级，如 free tier（免费档）、enterprise tier（企业档）。比 level 更专业，自带「阶梯式差异化」的商业隐喻，常见于产品定价页面。",
+              "exampleEn": "The platform offers three pricing tiers — Basic, Professional, and Enterprise — each unlocking a broader set of security features.",
+              "exampleCn": "该平台提供基础版、专业版和企业版三个定价档位，每个档位对应更丰富的安全功能。"
+            },
+            {
+              "word": "cost-effective",
+              "pos": "adj.",
+              "meaning": "性价比高的；经济合算的。商业写作中替代「cheap」的专业表达，不带贬义，强调「花费与收益相称」。适用于评估方案、产品推荐或投资决策。常见搭配：cost-effective solution / approach / alternative。",
+              "exampleEn": "Switching to open-source infrastructure proved to be the most cost-effective solution for the startup operating on a tight budget.",
+              "exampleCn": "对这家预算有限的初创公司而言，迁移至开源基础设施被证明是最具性价比的解决方案。"
             }
           ]
         },
@@ -202,46 +202,46 @@
           "category": "econ",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/the-bond-market-has-a-warning-for-the-fed-get-serious-about-inflation-and-potential-rate-hikes-asap-f38bbdcf?mod=mw_rss_topstories",
-          "headlineEn": "Bond Market Warns the Fed: Act on Inflation and Rate Hikes Now",
-          "headlineCn": "债市向美联储发出警告：立即认真应对通胀与加息问题",
-          "summaryEn": "The U.S. Treasury market is sending a sharp warning to the Federal Reserve, signaling that policymakers must adopt a more aggressive stance on inflation without delay. Analysts say only firm rhetoric — and possibly actual rate hikes — can restore confidence and stop the sell-off in government bonds. The turmoil highlights growing investor anxiety that the Fed may be falling behind the curve on taming price pressures, with long-term yields climbing to multi-year highs.",
-          "summaryCn": "美国国债市场正向美联储发出强烈警告，暗示决策者必须立即采取更强硬的反通胀立场。分析人士指出，只有发出坚定的政策信号——甚至可能实际加息——才能恢复市场信心，遏制国债抛售潮。此次动荡凸显出投资者对美联储在抑制通胀方面可能「落后于形势」的日益担忧，长期国债收益率已升至多年高位。",
-          "excerpt": "Tough talk from the Federal Reserve about rate hikes may be needed to ease the Treasury market's rout. Bond investors are growing increasingly restless, pushing long-term yields higher as they demand policymakers get serious about inflation before the situation spirals further out of control.",
+          "headlineEn": "Bond Market Warns Fed: Act Now on Inflation and Potential Rate Hikes",
+          "headlineCn": "债市向美联储发出警告：立即认真对待通胀与加息问题",
+          "summaryEn": "The U.S. Treasury market is experiencing a sharp selloff, pushing yields higher and signaling deep investor concern over persistent inflation. Analysts warn that the Federal Reserve may need to adopt more aggressive rhetoric — or even concrete rate hikes — to restore confidence. If the Fed fails to act decisively, the bond market rout could spread to equities and tighten financial conditions more broadly, posing a wider threat to economic stability.",
+          "summaryCn": "美国国债市场正经历剧烈抛售，收益率持续走高，折射出投资者对通胀长期高企的深切担忧。分析人士警告，美联储可能需要释放更强硬的政策信号，甚至采取实际加息行动，方能稳定市场情绪。若央行反应迟缓，债市动荡或将蔓延至股市，进一步收紧金融条件，对整体经济造成更广泛冲击。",
+          "excerpt": "The Treasury market is sending an urgent warning to the Federal Reserve: tougher rhetoric on inflation — and the credible threat of further rate hikes — may be the only way to stop the ongoing market rout before conditions deteriorate further.",
           "vocab": [
             {
               "word": "rout",
               "pos": "n.",
-              "meaning": "暴跌；溃败。比 crash 更强调「持续性的混乱性下跌」，带有军事溃败的隐喻，常用于「market rout」「bond rout」等搭配，语气比 sell-off 更激烈，是财经报道中描述市场重挫的高频术语，值得与 sell-off、crash、slump 做对比记忆。",
-              "exampleEn": "The sudden rout in the bond market rattled investors who had expected yields to remain stable.",
-              "exampleCn": "债市的突然暴跌令原本预期收益率保持稳定的投资者大为震惊。"
-            },
-            {
-              "word": "get serious about",
-              "pos": "phrase",
-              "meaning": "认真对待；开始切实行动。语气比 focus on 更重，隐含「之前态度不够认真」的批评意味，常出现在政策评论和财经社论中，用来催促政府或央行采取实质性行动，语域偏口语化但在正式报道中也频繁出现。",
-              "exampleEn": "Investors are urging the central bank to get serious about curbing inflation before it becomes entrenched.",
-              "exampleCn": "投资者敦促央行认真遏制通胀，以免其根深蒂固。"
-            },
-            {
-              "word": "rate hike",
-              "pos": "phrase",
-              "meaning": "加息。央行上调基准利率的标准说法，「hike」原意为「大幅提升」，比 rate increase 语气更强，暗示幅度不小。反义为 rate cut。财经英语必学固定搭配，常与 aggressive、back-to-back、emergency 等词连用，需整体记忆。",
-              "exampleEn": "Traders are now pricing in at least two rate hikes before the end of the year.",
-              "exampleCn": "交易员目前预计年底前至少将有两次加息。"
+              "meaning": "溃败；市场暴跌。源自军事术语「溃退」，在金融语境中特指资产价格的突然、剧烈下跌。比 selloff（普通抛售）语气更重，暗含恐慌性与不可控性，常见搭配：market rout、bond rout。值得学的原因：它比 crash 更具叙事感，财经媒体标题中极为常见。",
+              "exampleEn": "A surprise inflation reading triggered a rout in the bond market, sending yields to multi-year highs.",
+              "exampleCn": "一项出乎意料的通胀数据引发了债市溃败，收益率飙升至多年高位。"
             },
             {
               "word": "ease",
               "pos": "v.",
-              "meaning": "缓解；平息。注意与 relieve 的区别：ease 更侧重渐进性的缓和。此词在货币政策语境中还有「宽松（降息）」之意，因此「ease market tension」和「quantitative easing」用的是同一个词，一词双义、语境截然不同，是理解财经报道的关键词。",
-              "exampleEn": "The Fed's clear forward guidance helped ease concerns about an abrupt policy reversal.",
-              "exampleCn": "美联储明确的前瞻指引有助于缓解市场对政策骤然转向的担忧。"
+              "meaning": "缓解；减轻压力。金融语境中需特别注意一词多义：ease 既可表示政策放松（ease rates = 降息），也可描述市场紧张情绪的平息（ease the rout = 平息抛售）。与 reduce 相比，ease 更强调渐进性与平滑感，是央行政策报道的高频词。",
+              "exampleEn": "The central bank's statement helped ease fears in the bond market, causing yields to pull back slightly.",
+              "exampleCn": "央行的声明有助于缓解债市恐慌情绪，收益率随之小幅回落。"
             },
             {
-              "word": "behind the curve",
+              "word": "hawkish",
+              "pos": "adj.",
+              "meaning": "鹰派的；倾向加息或收紧货币政策的。与 dovish（鸽派，倾向降息宽松）构成财经英语中最重要的一组反义词，是解读美联储立场的核心词汇。不懂这对词，便很难读懂任何央行政策报道。",
+              "exampleEn": "The Fed chair's hawkish remarks pushed the dollar higher and sent stock futures sharply lower.",
+              "exampleCn": "美联储主席的鹰派言论推动美元走强，股指期货应声大幅下跌。"
+            },
+            {
+              "word": "yield",
+              "pos": "n.",
+              "meaning": "（债券）收益率。债市最核心的指标之一，与债券价格呈反向关系——债券遭抛售时价格下跌、收益率上升。教科书常教「yield = 产出」，但在金融报道中 yield 几乎专指债券收益率，是读懂国债新闻的必备词，搭配：yield rises / falls / climbs / spikes。",
+              "exampleEn": "The 10-year Treasury yield climbed above 5% for the first time in over a decade, rattling equity markets.",
+              "exampleCn": "10年期美债收益率十余年来首次突破5%，令股市大幅震动。"
+            },
+            {
+              "word": "tough talk",
               "pos": "phrase",
-              "meaning": "落后于形势；行动迟缓。源自数学「曲线」概念，在货币政策语境中专指「央行应对通胀的举措滞后于实际经济变化」，是经济记者和分析师批评央行时的高频术语。与之对应的是 ahead of the curve（走在前面），两者都值得一并记忆。",
-              "exampleEn": "Critics argue the central bank has been behind the curve in raising rates to combat persistently high prices.",
-              "exampleCn": "批评者认为，央行在加息以应对持续高物价方面行动迟缓，落后于形势。"
+              "meaning": "强硬表态；政策威慑性语言。指官员以言辞而非实际行动释放强硬信号，是央行「前瞻性指引」（forward guidance）的重要工具。与 rhetoric（空洞修辞，含贬义）不同，tough talk 在语境中通常被视为具有一定可信度的政策信号，值得学习这一细微差别。",
+              "exampleEn": "Investors welcomed the Fed chair's tough talk on inflation, interpreting it as a sign that further rate hikes remain on the table.",
+              "exampleCn": "投资者对美联储主席就通胀问题的强硬表态表示欢迎，将其解读为进一步加息仍在考量之中的信号。"
             }
           ]
         }
