@@ -1,7 +1,252 @@
 {
-  "lastUpdated": "2026-05-19T23:05:59.157401+00:00",
+  "lastUpdated": "2026-05-20T23:06:34.931219+00:00",
   "level": "B2",
   "days": {
+    "2026-05-20": {
+      "label": "5月20日 (周三)",
+      "stories": [
+        {
+          "id": "20260520-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/20/sam-altman-makes-mic-drop-offer-to-every-y-combinator-startup/",
+          "headlineEn": "Sam Altman Makes 'Mic Drop' Offer to Every Y Combinator Startup",
+          "headlineCn": "奥特曼向每家YC初创公司抛出「代币换股权」震撼性提案",
+          "summaryEn": "OpenAI CEO Sam Altman stunned the startup world with a sweeping offer at Y Combinator's latest demo day, proposing to invest in every single startup in the current cohort. The deal structure — tokens for equity — means participating startups would receive OpenAI API credits in exchange for an ownership stake. The bold move signals OpenAI's strategy to lock in the next generation of AI-native companies and deepen its ecosystem dominance before rivals can forge competing relationships.",
+          "summaryCn": "OpenAI首席执行官山姆·奥特曼在Y Combinator最新一届演示日上抛出震撼性提案：向本届全体初创公司投资，条件是「以代币换股权」——即以OpenAI的API使用额度换取各公司的股份。这一大范围报价被外界形容为「麦克降」式宣言，折射出OpenAI意图在竞争对手行动之前，将下一代AI原生创业公司锁定在自身生态系统中的战略野心。",
+          "excerpt": "In a move that stunned attendees, OpenAI CEO Sam Altman offered to invest in every startup in the current Y Combinator cohort. The proposed deal — trading OpenAI tokens for equity stakes — would bind an entire generation of AI-native startups to the OpenAI platform.",
+          "vocab": [
+            {
+              "word": "mic drop",
+              "pos": "phrase",
+              "meaning": "指某人说出无懈可击的话后「放下麦克风」离场，比喻令对手哑口无言的决定性举动。商业语境中用来形容一个让竞争对手措手不及的大胆声明或报价，语气带有强烈的戏剧性和自信感，是新闻标题的高频用语。",
+              "exampleEn": "The CEO's surprise acquisition announcement was a mic drop moment that left rivals with no room to respond.",
+              "exampleCn": "首席执行官突然宣布收购消息堪称一次「麦克降」时刻，令竞争对手毫无还手之力。"
+            },
+            {
+              "word": "equity",
+              "pos": "n.",
+              "meaning": "公司的股权或所有权份额。与shares（已发行股票）和stock（泛指股票）不同，equity强调「所有权本身」，常出现在投资协议、估值和融资语境中。「tokens for equity」这一结构即「用代币换取所有权」，是理解科技投资合同的核心词。",
+              "exampleEn": "Early-stage investors often accept equity in lieu of cash returns when backing pre-revenue startups.",
+              "exampleCn": "早期投资者在支持尚无营收的初创公司时，通常接受股权作为现金回报的替代方式。"
+            },
+            {
+              "word": "cohort",
+              "pos": "n.",
+              "meaning": "一批同期经历某一流程的群体，如「YC cohort」指Y Combinator同届孵化的所有公司。比batch更正式，比class更具专业感，常用于教育、医疗临床和商业语境，暗含「共同经历同一周期」的含义，是创投报道中的高频词。",
+              "exampleEn": "All startups in this year's cohort received mentorship from seasoned Silicon Valley founders.",
+              "exampleCn": "今年这一批次的所有初创公司都接受了硅谷资深创始人的辅导。"
+            },
+            {
+              "word": "sweeping",
+              "pos": "adj.",
+              "meaning": "大范围的、一网打尽式的，强调覆盖面极广、无一例外。修饰offer、change、reform等名词时，传达出「全面、彻底」的语气，比broad或wide更具力度和新闻感。注意：sweeping statement则有「过于武断的说法」之意，语境不同含义相反。",
+              "exampleEn": "The regulator introduced sweeping changes to data privacy rules that affected every major tech platform.",
+              "exampleCn": "监管机构对数据隐私规则进行了大范围修订，影响到每一个主要科技平台。"
+            },
+            {
+              "word": "lock in",
+              "pos": "phrasal v.",
+              "meaning": "将某人或某机构「锁定」在某一关系、价格或平台中，使其难以转向竞争对手。商业战略的核心概念，常与ecosystem（生态系统）连用，暗示通过早期绑定建立竞争壁垒。比secure更强调排他性和长期依赖，是分析平台竞争逻辑的必备词汇。",
+              "exampleEn": "By offering deep discounts upfront, the cloud provider aimed to lock in enterprise clients for multi-year contracts.",
+              "exampleCn": "通过提前给予大幅折扣，这家云服务商意在将企业客户锁定在多年期合同中。"
+            }
+          ]
+        },
+        {
+          "id": "20260520-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+          "headlineEn": "OpenAI Claims Reasoning Model Disproved a Geometry Conjecture Unsolved Since 1946",
+          "headlineCn": "OpenAI称推理模型破解逾八十年数学悬案，数学家背书验证",
+          "summaryEn": "OpenAI announced that its latest reasoning model has disproved a geometry conjecture mathematicians failed to resolve since 1946. Crucially, the result is endorsed by the very mathematicians who previously exposed OpenAI's false claim on a different math problem. If confirmed, this marks a rare case where AI contributes a verifiable, novel result to pure mathematics — suggesting that advanced reasoning models may soon become genuine research partners in academic disciplines.",
+          "summaryCn": "OpenAI宣称，其最新推理模型成功证伪了一个自1946年起悬而未决的几何猜想。尤为值得关注的是，曾经揭穿OpenAI上一次数学「乌龙」的那批数学家，这次公开为该结果背书。若最终获得确认，这将是AI在纯数学领域贡献可验证原创成果的罕见案例，意味着高级推理模型有望成为学术研究的真正伙伴。",
+          "excerpt": "OpenAI's reasoning model has reportedly disproved a geometry conjecture left unsolved since 1946. Unlike the company's previous claim — which was publicly debunked — the mathematicians who carried out that debunking are this time endorsing the result.",
+          "vocab": [
+            {
+              "word": "conjecture",
+              "pos": "n.",
+              "meaning": "（数学或学术语境）猜想；尚未经过严格证明的命题。区别于「hypothesis」（可检验的科学假说）和「theory」（已有大量证据支撑的理论），conjecture 特指「有充分理由相信但尚未被证明」的命题，在数学论文和科技报道中高频出现，值得专门掌握。",
+              "exampleEn": "Fermat's Last Theorem was a famous conjecture that remained unproven for over 350 years before Andrew Wiles finally solved it.",
+              "exampleCn": "费马大定理是一个著名猜想，在安德鲁·怀尔斯最终证明它之前，悬而未决超过350年。"
+            },
+            {
+              "word": "disprove",
+              "pos": "v.",
+              "meaning": "证伪；通过举出反例或逻辑推导来证明某命题为假。与「refute」的区别：refute 更多用于口头辩论语境，带有「驳斥」的修辞色彩；disprove 强调通过证据或逻辑严格推翻，是学术写作和科技报道中的首选动词。",
+              "exampleEn": "The research team used real-world transaction data to disprove the long-held assumption that retail investors always act irrationally.",
+              "exampleCn": "该研究团队利用真实交易数据，证伪了「散户永远非理性」这一长期假设。"
+            },
+            {
+              "word": "back up",
+              "pos": "phrasal v.",
+              "meaning": "（以证据或信誉）支持、佐证某一说法或主张。商业英语中极为常用，尤其搭配 claim、statement、data 等词。区别于中性的「support」，back up 带有「用具体证据增强可信度」的含义，语气更强，暗示「不只是口头支持」。",
+              "exampleEn": "Before presenting to the board, make sure you have solid data to back up every projection in your forecast.",
+              "exampleCn": "在向董事会汇报之前，确保你有扎实的数据来支撑预测中的每一个数字。"
+            },
+            {
+              "word": "expose",
+              "pos": "v.",
+              "meaning": "揭露；揭穿（谎言、虚假主张或不当行为）。科技和商业新闻中极为常见，含有「公开揭穿」的语气，比「reveal」更具负面色彩，暗示被揭穿方曾有意或无意地误导他人，新闻标题中出现频率很高。",
+              "exampleEn": "A team of independent auditors exposed serious accounting irregularities in the startup's financial statements.",
+              "exampleCn": "一支独立审计团队揭穿了该初创公司财务报表中存在的严重账目违规问题。"
+            },
+            {
+              "word": "credibility",
+              "pos": "n.",
+              "meaning": "可信度；公信力。商业和科技写作的核心词，值得重点掌握其固定搭配：gain/build credibility（建立公信力）、lend credibility to（为……增添可信度）、credibility gap（公信力落差）。区别于「reliability」（侧重稳定一致），credibility 更强调「他人是否相信你」这一社会层面的信任。",
+              "exampleEn": "Having results verified by third-party researchers significantly lends credibility to the company's breakthrough announcement.",
+              "exampleCn": "由第三方研究人员对结果进行验证，大大增强了该公司突破性公告的可信度。"
+            }
+          ]
+        },
+        {
+          "id": "20260520-3",
+          "category": "biz",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/business/902219/spacex-ipo-details",
+          "headlineEn": "SpaceX Files for What Could Be the Largest IPO in History",
+          "headlineCn": "SpaceX正式申请上市，或成史上规模最大IPO",
+          "summaryEn": "SpaceX has officially filed its S-1 prospectus with the U.S. Securities and Exchange Commission, formally launching what analysts expect to be the largest initial public offering in history. The company, founded by Elon Musk, reported $18.67 billion in revenue for 2025, driven largely by its Starlink satellite internet service and rocket launch contracts. SpaceX plans to list on the Nasdaq stock exchange under the ticker symbol SPCX, giving retail investors their first direct access to the commercial space economy.",
+          "summaryCn": "SpaceX正式向美国证券交易委员会提交S-1招股说明书，启动上市程序，此次IPO有望创下史上最大规模纪录。公司2025年营收达186.7亿美元，主要来源于星链卫星互联网服务及火箭发射合同。SpaceX计划在纳斯达克以「SPCX」为股票代码挂牌，为普通投资者打开参与商业航天经济的大门。",
+          "excerpt": "SpaceX has formally filed its S-1 prospectus with the SEC, kicking off what could become the largest initial public offering in history. The Elon Musk-led company reported $18.67 billion in revenue for 2025 and plans to list on Nasdaq under the ticker SPCX.",
+          "vocab": [
+            {
+              "word": "prospectus",
+              "pos": "n.",
+              "meaning": "招股说明书；公司首次公开募股前向监管机构提交的正式法律披露文件。区别于泛义的「report（报告）」，prospectus特指IPO申请中的核心文件，涵盖财务数据、风险因素和商业模式，是财经新闻和投资语境的高频专业词汇。",
+              "exampleEn": "Before investing in the startup's IPO, analysts spent weeks reviewing its 300-page prospectus for hidden risk disclosures.",
+              "exampleCn": "在投资这家初创公司的IPO之前，分析师花了数周时间仔细研读其长达300页的招股说明书，寻找隐藏的风险披露信息。"
+            },
+            {
+              "word": "file",
+              "pos": "v.",
+              "meaning": "（正式）提交、申报。与「submit」相比，file更强调向政府或监管机构的官方递交，常见搭配：file with the SEC（向证交会申报）、file a lawsuit（提起诉讼）、file for bankruptcy（申请破产），是财经和法律语境的核心高频动词。",
+              "exampleEn": "The pharmaceutical company filed its drug approval application with the FDA six months ahead of schedule.",
+              "exampleCn": "这家制药公司提前六个月向美国食品药品监督管理局提交了药物审批申请。"
+            },
+            {
+              "word": "kick off",
+              "pos": "phrasal v.",
+              "meaning": "正式启动、拉开序幕。原为足球开球术语，现广泛用于商业新闻，表示某项重大活动或进程的开始，语气比「start」更生动有力，带有「大张旗鼓」的含义，常见于财报季、发布会和大型交易报道。",
+              "exampleEn": "The Federal Reserve chair's press conference kicked off a week of intense debate among traders about the pace of interest rate cuts.",
+              "exampleCn": "美联储主席的新闻发布会拉开了交易员们就降息节奏展开激烈辩论的序幕，这场争论持续了整整一周。"
+            },
+            {
+              "word": "ticker",
+              "pos": "n.",
+              "meaning": "股票代码；证券交易所用于识别上市公司的简短字母缩写，如「AAPL」代表苹果。源自早期股票行情纸带机「ticker tape」，现专指市场中公司的唯一标识符，是投资报道和财经新闻不可或缺的词汇，不可与「symbol」混用时忽视其语境。",
+              "exampleEn": "After the merger was finalized, investors scrambled to find the combined company's new ticker symbol on the Nasdaq website.",
+              "exampleCn": "合并协议敲定后，投资者纷纷涌上纳斯达克官网，急着查找合并后公司的新股票代码。"
+            },
+            {
+              "word": "open for business",
+              "pos": "phrase",
+              "meaning": "正式营业；宣告某事已可参与或使用。既可指实体店开业，也广泛用于商业新闻的比喻意义——某个市场、行业或机会对外开放，语气积极，暗含「欢迎投资者或合作者参与」的邀请意味，比「officially launched」更口语化且更具画面感。",
+              "exampleEn": "Following years of regulatory uncertainty, the CEO declared that the digital asset exchange was officially open for business in the European market.",
+              "exampleCn": "在经历多年监管不确定性之后，这位CEO宣布，该数字资产交易所已正式在欧洲市场开门营业。"
+            }
+          ]
+        },
+        {
+          "id": "20260520-4",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
+          "headlineEn": "Intuit to Cut Over 3,000 Jobs in AI-Driven Restructuring",
+          "headlineCn": "Intuit宣布裁员逾3000人，押注AI重塑公司架构",
+          "summaryEn": "Intuit, the financial software giant behind TurboTax and QuickBooks, announced it will lay off more than 3,000 employees — roughly 8% of its global workforce. CEO Sasan Goodarzi said in an internal memo that the cuts are designed to reduce organizational complexity, streamline the corporate structure, and redirect resources toward AI product development. The move reflects a broader industry pattern: even profitable tech companies are trimming headcount to fund AI transformation, fueling debate about white-collar job displacement.",
+          "summaryCn": "金融软件巨头Intuit（旗下拥有TurboTax和QuickBooks）宣布将裁减逾3000名员工，约占全球员工总数的8%。首席执行官萨桑·古达尔齐在内部备忘录中表示，此次裁员旨在降低组织复杂性、精简公司架构，并将资源集中投入AI产品研发。此举折射出科技行业的普遍趋势——即便盈利状况良好的企业，也开始通过削减人力为AI转型输血，引发外界对白领岗位被取代问题的广泛讨论。",
+          "excerpt": "In a memo to employees, CEO Sasan Goodarzi said the layoffs are designed to reduce complexity, simplify Intuit's corporate structure, and enable the company to deliver better AI-powered products to its customers going forward.",
+          "vocab": [
+            {
+              "word": "lay off",
+              "pos": "phrasal v.",
+              "meaning": "裁员；因公司战略或成本原因解雇员工。值得学的原因：与「fire」易混淆——fire 暗指因过失开除，带负面评价；lay off 则语义中性，指结构性裁减，是商业报道中最规范的用法。常见搭配：lay off workers / staff / thousands of employees。",
+              "exampleEn": "The automaker announced it would lay off 5,000 workers as it pivots toward electric vehicle production.",
+              "exampleCn": "这家汽车制造商宣布将裁减5000名工人，以转型专注于电动汽车生产。"
+            },
+            {
+              "word": "refocus on",
+              "pos": "phrasal v.",
+              "meaning": "将注意力或资源重新集中于某一方向。值得学的原因：比「focus on」多了「重新调整」的动态含义，暗示此前战略曾分散或偏离，常出现在CEO声明和财报电话会议中，是描述公司战略转型的标志性表达。",
+              "exampleEn": "After years of rapid expansion, the startup decided to refocus on its core product and cut peripheral services.",
+              "exampleCn": "经过多年快速扩张后，这家初创公司决定重新聚焦核心产品，并削减周边业务。"
+            },
+            {
+              "word": "reduce complexity",
+              "pos": "phrase",
+              "meaning": "降低（组织或流程的）复杂性。值得学的原因：企业重组公告中的高频「官话」，通常是裁员或合并部门的正式理由，学习者需能识别其背后含义：往往意味着削减管理层级、合并重复职能，属于管理咨询语域的核心短语。",
+              "exampleEn": "The merger was intended to reduce complexity across supply chains and eliminate duplicated operational roles.",
+              "exampleCn": "此次合并旨在降低供应链复杂性，并裁撤重复的运营岗位。"
+            },
+            {
+              "word": "deliver",
+              "pos": "v.",
+              "meaning": "（商业语境）交付、实现、产出。值得学的原因：比「provide」或「produce」更具责任感和行动力，常搭配 deliver results / deliver value / deliver products，隐含「兑现承诺」之意，是CEO讲话和商业写作中不可或缺的核心动词。",
+              "exampleEn": "The new engineering team was brought in specifically to deliver AI features before the product launch deadline.",
+              "exampleCn": "新工程团队的引入，正是为了在产品发布截止日期前交付AI功能。"
+            },
+            {
+              "word": "corporate structure",
+              "pos": "n. phrase",
+              "meaning": "公司架构；企业内部各部门、层级与汇报关系的整体安排。值得学的原因：与「organizational structure」可互换，但「corporate structure」更偏向法律和战略层面，出现在裁员语境中时，通常暗示公司正在精简管理层级，是读懂财经新闻的关键术语。",
+              "exampleEn": "Simplifying the corporate structure allowed the firm to accelerate decision-making and respond more swiftly to market shifts.",
+              "exampleCn": "精简公司架构使该企业得以加快决策速度，更迅速地应对市场变化。"
+            }
+          ]
+        },
+        {
+          "id": "20260520-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/20/fed-officials-see-rate-hike-ahead-if-inflation-stays-elevated-minutes-show.html",
+          "headlineEn": "Fed Officials Signal Rate Hikes Ahead If Inflation Stays Elevated, Minutes Show",
+          "headlineCn": "美联储会议纪要：若通胀持续高企，官员倾向进一步加息",
+          "summaryEn": "Federal Reserve meeting minutes revealed that a majority of officials believe further interest rate increases will be necessary if inflation remains persistently high. The concern is partly driven by the ongoing Iran conflict, which has disrupted global energy and commodity markets, pushing prices higher. Officials signaled a cautious but firm stance, indicating readiness to tighten monetary policy further to bring inflation back toward the 2% target. Markets reacted with increased volatility as investors reassessed their expectations for the Fed's next move.",
+          "summaryCn": "美联储最新会议纪要显示，多数官员认为，若通胀持续处于高位，进一步加息将是必要之举。伊朗局势持续紧张，对全球能源和大宗商品市场造成冲击，加剧了价格上行压力。官员们释放出谨慎但坚定的信号，表明愿意继续收紧货币政策，以推动通胀回归2%的目标水平。消息公布后市场波动加剧，投资者纷纷重新评估对美联储下一步行动的预期。",
+          "excerpt": "Federal Reserve officials signaled readiness to raise interest rates further if inflation remains elevated, according to minutes from their latest meeting. A majority of policymakers noted that the Iran conflict had aggravated inflationary pressures, making additional monetary tightening likely if price stability is not restored.",
+          "vocab": [
+            {
+              "word": "rate hike",
+              "pos": "phrase",
+              "meaning": "加息；利率上调。「hike」比「increase」更口语化，专指央行上调政策利率的政策动作。常见搭配：rate hike cycle（加息周期）、aggressive rate hike（激进加息）。值得学的原因：财经媒体高频词组，但学习者常误用 rate increase 或 interest raise，反而显得生硬。",
+              "exampleEn": "The central bank's surprise rate hike sent shockwaves through equity markets worldwide.",
+              "exampleCn": "央行出人意料的加息举措令全球股市震荡。"
+            },
+            {
+              "word": "elevated",
+              "pos": "adj.",
+              "meaning": "（处于）高位的、居高不下的。在经济语境中暗含「高于正常或目标水平且令人担忧」的色彩，比 high 更正式。常搭配 inflation、unemployment、volatility。值得学的原因：央行声明和经济报告里几乎必见，用它替换 high 可立即提升表达的专业感。",
+              "exampleEn": "With inflation remaining elevated, the central bank has little room to ease monetary policy.",
+              "exampleCn": "由于通胀持续高企，央行几乎没有放松货币政策的空间。"
+            },
+            {
+              "word": "minutes",
+              "pos": "n. (plural)",
+              "meaning": "会议纪要（恒用复数）。指对正式会议讨论内容的书面记录。「Fed minutes」是全球金融市场的重要风向标，每次公布都可能引发市场波动。值得学的原因：中国学习者常误用 meeting record 或 conference notes，而 minutes 才是标准商务英语表达。",
+              "exampleEn": "Traders analyzed the central bank's minutes carefully for clues about future interest rate decisions.",
+              "exampleCn": "交易员仔细研读央行会议纪要，寻找未来利率决策的线索。"
+            },
+            {
+              "word": "aggravate",
+              "pos": "v.",
+              "meaning": "加剧、恶化（已有问题）。比 worsen 更正式，强调某外部因素使既有困境进一步放大。常见搭配：aggravate inflation、aggravate tensions、aggravate the deficit。值得学的原因：不少学习者将其与 irritate（惹恼某人）混淆，但在经济和政治报道中，aggravate 几乎专指「使形势恶化」。",
+              "exampleEn": "Supply chain disruptions have aggravated inflationary pressures across the manufacturing sector.",
+              "exampleCn": "供应链中断进一步加剧了整个制造业的通胀压力。"
+            },
+            {
+              "word": "anticipate",
+              "pos": "v.",
+              "meaning": "预期、预判（基于分析的前瞻性判断）。比 expect 更正式，隐含「已做出主动研判」的色彩，常见于官方声明和央行发言。常见搭配：anticipate a slowdown、anticipate further tightening。值得学的原因：在正式财经写作中，anticipate 比 expect 更能体现专业审慎的语气，是提升书面表达层次的关键词。",
+              "exampleEn": "Most economists anticipate at least two more rate cuts before the end of the fiscal year.",
+              "exampleCn": "多数经济学家预计，在本财年结束前至少还会有两次降息。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-19": {
       "label": "5月19日 (周二)",
       "stories": [
