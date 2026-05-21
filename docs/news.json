@@ -1,7 +1,252 @@
 {
-  "lastUpdated": "2026-05-20T23:06:34.931219+00:00",
+  "lastUpdated": "2026-05-21T23:08:48.049746+00:00",
   "level": "B2",
   "days": {
+    "2026-05-21": {
+      "label": "5月21日 (周四)",
+      "stories": [
+        {
+          "id": "20260521-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
+          "headlineEn": "Anthropic and Microsoft in Talks for AI Chip Deal After $5 Billion Investment",
+          "headlineCn": "Anthropic与微软洽谈AI芯片合作，背后是50亿美元战略布局",
+          "summaryEn": "Anthropic and Microsoft are reportedly negotiating an AI chip deal following Microsoft's $5 billion investment in the AI startup. The discussions center on Microsoft's proprietary Maia 200 chips, currently deployed exclusively in its own data centers where they deliver superior energy efficiency compared to conventional silicon. If a deal is reached, Anthropic could gain access to more cost-effective computing power, potentially reducing its dependence on traditional chip suppliers such as Nvidia at a time when AI training costs remain a critical concern.",
+          "summaryCn": "据报道，Anthropic与微软正就AI芯片合作展开谈判，此前微软已向这家AI初创公司投资50亿美元。谈判的核心是微软自研的Maia 200芯片——该芯片目前仅部署于微软内部数据中心，能效优于市场上的通用芯片，尚未向外部客户开放。若协议达成，Anthropic将有望获得更具成本优势的算力资源，在AI训练开支居高不下的背景下，降低对英伟达等传统芯片供应商的依赖。",
+          "excerpt": "Microsoft has not made the Maia 200 chips available to customers, but they are deployed across the company's data centers, offering better efficiency than other silicon. Anthropic and Microsoft are now in talks to extend that chip access as part of a deepening AI partnership.",
+          "vocab": [
+            {
+              "word": "in talks",
+              "pos": "phrase",
+              "meaning": "正在进行谈判、洽商。财经新闻标题中极高频的表达，比「negotiating」更简洁，且语气更正式。常与介词「for」搭配，明确谈判目标，例如：in talks for a merger / acquisition / licensing deal。掌握此短语可大幅提升阅读商业新闻标题的速度。",
+              "exampleEn": "The chipmaker is reportedly in talks for a long-term supply agreement with a leading electric vehicle manufacturer.",
+              "exampleCn": "据报道，这家芯片制造商正与一家领先电动汽车厂商洽谈长期供货协议。"
+            },
+            {
+              "word": "make available",
+              "pos": "phrasal v.",
+              "meaning": "（将某物）向某方开放、提供。科技和商业文本中比「offer」或「provide」更正式，常用于描述产品发布或资源分配。固定结构为：make sth available to sb，介词固定用「to」，不可用「for」，这是中国学习者的易错点。",
+              "exampleEn": "The cloud provider plans to make its new AI inference service available to enterprise clients by year-end.",
+              "exampleCn": "这家云服务商计划在年底前向企业客户开放其新的AI推理服务。"
+            },
+            {
+              "word": "silicon",
+              "pos": "n.",
+              "meaning": "硅；在科技新闻中作为芯片或半导体的换喻（metonym），用材料名称代指产品本身。「other silicon」即「其他芯片」。这种用法在英文科技媒体中普遍存在（如「Silicon Valley」也源于此），能准确理解它有助于避免对字面意思产生误解。",
+              "exampleEn": "Designing proprietary silicon gives hyperscalers greater control over performance and cost per compute unit.",
+              "exampleCn": "自研芯片使超大规模云服务商能够更好地掌控每单位算力的性能与成本。"
+            },
+            {
+              "word": "deploy",
+              "pos": "v.",
+              "meaning": "部署、投入使用。在科技语境中特指将硬件或软件系统正式上线运行，比「use」更专业，暗含「有计划地大规模配置」的含义。常见搭配：deploy chips / models / infrastructure / resources。与「install」的区别在于deploy强调规模化运营，而非单次安装。",
+              "exampleEn": "The company has deployed over 100,000 custom AI accelerators across its global data center network.",
+              "exampleCn": "该公司已在其全球数据中心网络中部署了逾10万枚定制AI加速芯片。"
+            },
+            {
+              "word": "efficiency",
+              "pos": "n.",
+              "meaning": "效率；在芯片和AI语境中特指「能效」或「计算性价比」（如performance per watt），而非泛泛的「工作效率」。这种专属含义在科技财经报道中极为常见，注意与「productivity」区分：efficiency侧重资源利用率，productivity侧重产出总量。读懂这个区别，有助于准确理解AI算力竞赛的讨论。",
+              "exampleEn": "Custom AI chips can achieve dramatically better energy efficiency than general-purpose GPUs for large-scale inference workloads.",
+              "exampleCn": "对于大规模推理任务，定制AI芯片的能效通常远超通用GPU。"
+            }
+          ]
+        },
+        {
+          "id": "20260521-2",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html",
+          "headlineEn": "Nvidia Says It Has Largely Conceded China's AI Chip Market to Huawei",
+          "headlineCn": "英伟达CEO：中国AI芯片市场已基本拱手相让于华为",
+          "summaryEn": "Nvidia CEO Jensen Huang admitted that the company has largely given up competing in China's advanced AI chip market, where Huawei has emerged as the dominant supplier. US export restrictions have prevented Nvidia from selling its highest-performance chips to Chinese customers, pushing major tech firms like ByteDance and Alibaba toward Huawei's alternatives. The admission marks a significant strategic retreat for Nvidia and underscores Huawei's rapidly growing strength in the global AI semiconductor race.",
+          "summaryCn": "英伟达CEO黄仁勋公开承认，公司已基本放弃在中国高端AI芯片市场与华为竞争。受美国出口管制限制，英伟达无法向中国客户销售其最高性能芯片，字节跳动、阿里巴巴等科技巨头纷纷转向华为的替代产品。这一表态标志着英伟达在华战略的重大收缩，也凸显了华为在全球AI半导体领域持续上升的影响力。",
+          "excerpt": "Nvidia CEO Jensen Huang said the company has 'largely conceded' China's advanced artificial intelligence chip market to Huawei, as US export restrictions have prevented Nvidia from selling its highest-end products to Chinese buyers, allowing Huawei to fill the void.",
+          "vocab": [
+            {
+              "word": "concede",
+              "pos": "v.",
+              "meaning": "承认（失利）；（被迫）让出、放弃。比 admit 更正式，常见于竞争、谈判、政治语境，含「不得不承认」的语气。值得学：它不只是「承认」，还隐含「主动放手」的动作，搭配 concede a market / concede defeat / concede ground，是商业报道的核心动词。",
+              "exampleEn": "After years of competition, the telecom giant conceded the budget smartphone segment to its local rivals.",
+              "exampleCn": "经过多年竞争，这家电信巨头最终将低价智能手机细分市场拱手相让给了本土竞争对手。"
+            },
+            {
+              "word": "largely",
+              "pos": "adv.",
+              "meaning": "在很大程度上；基本上（但非完全）。值得学：这是商务英语中「软化」绝对表达的高频技巧，用来保留模糊空间、避免过于武断。largely ≠ completely，黄仁勋用它暗示「差不多放弃，但保留余地」，是高级书面表达的精妙之处。",
+              "exampleEn": "The startup's rapid growth is largely attributed to its early investment in generative AI infrastructure.",
+              "exampleCn": "这家初创公司的快速增长在很大程度上归因于其对生成式AI基础设施的早期投入。"
+            },
+            {
+              "word": "advanced",
+              "pos": "adj.",
+              "meaning": "尖端的；高端的。值得学：在科技与出口管制语境中，advanced chip 是专业术语，特指运算能力超过特定门槛、受美国出口法规限制的芯片，与日常「先进的」含义有法律和政策层面的精确区别。读财经科技新闻时，看到 advanced 要立刻联想到「受管制的高端品」。",
+              "exampleEn": "The new export rules specifically target advanced semiconductors used in training large-scale AI models.",
+              "exampleCn": "新出口法规专门针对用于训练大规模AI模型的尖端半导体芯片。"
+            },
+            {
+              "word": "chip",
+              "pos": "n.",
+              "meaning": "芯片（半导体集成电路的通俗说法）。值得学：chip 是科技财经报道中出现频率最高的行业词汇之一，可泛指 GPU、CPU、AI 加速器等各类芯片。比 semiconductor 更口语，比 processor 更宽泛——读懂科技新闻，chip 必须烂熟于心。",
+              "exampleEn": "The race to design faster AI chips has intensified as demand for generative AI applications continues to soar.",
+              "exampleCn": "随着生成式AI应用需求持续激增，设计更快AI芯片的竞赛愈发激烈。"
+            },
+            {
+              "word": "dominant",
+              "pos": "adj.",
+              "meaning": "占主导地位的；处于支配地位的。值得学：在商业语境中，dominant supplier / dominant player 指拥有压倒性市场份额或影响力的企业，语气比 leading 强得多，隐含「其他竞争者难以撼动」之意。这个词出现时，往往意味着市场格局已定、竞争已近尾声。",
+              "exampleEn": "Once a dominant force in the global smartphone market, the brand struggled to stay relevant as competition from Chinese rivals intensified.",
+              "exampleCn": "这个品牌曾是全球智能手机市场的主导力量，但随着中国竞争对手的压力加剧，它开始难以维持自身的市场地位。"
+            }
+          ]
+        },
+        {
+          "id": "20260521-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle/",
+          "headlineEn": "SpaceX IPO: Elon Musk and Inner Circle Stand to Gain the Most",
+          "headlineCn": "SpaceX上市谁获益最多？马斯克及其亲信圈",
+          "summaryEn": "SpaceX, Elon Musk's private space and satellite company, is moving closer to a public offering. Musk holds the largest stake by billions of shares, while the next biggest shareholders are long-time associates with deep personal ties to him. The eventual IPO is expected to generate extraordinary wealth for this small group. Critics note the highly concentrated ownership structure raises concerns about governance and the benefits available to ordinary investors once the company lists.",
+          "summaryCn": "马斯克旗下私人航天公司SpaceX正逐步推进上市进程。马斯克以数十亿股的绝对优势成为最大股东，其余主要持股者也均与其渊源深厚、关系密切。一旦上市，这一小圈子将获得惊人财富。外界批评人士指出，高度集中的股权结构令人对公司治理及普通投资者的获益空间产生担忧。",
+          "excerpt": "Elon Musk holds the largest stake in SpaceX by billions of shares. The other biggest shareholders also have longstanding and deep ties to Musk — raising questions about who truly benefits when an exclusive inner circle controls most of the equity ahead of a public offering.",
+          "vocab": [
+            {
+              "word": "stake",
+              "pos": "n.",
+              "meaning": "持股份额；利益关系。商业语境中，stake既指具体的股份数量，又隐含风险与收益并存的利益关联，比share更强调「有切肤之利」的含义。常见搭配：hold a stake in（持有……的股份）、majority stake（控股）。",
+              "exampleEn": "The venture capital firm holds a 15% stake in the AI startup, making it the second-largest shareholder.",
+              "exampleCn": "这家风险投资公司持有该AI初创企业15%的股份，是第二大股东。"
+            },
+            {
+              "word": "inner circle",
+              "pos": "phrase",
+              "meaning": "核心圈子；亲信集团。指领导者身边最受信任、最具影响力的少数人，带有排他性色彩。商业报道中常用此词暗示财富或信息分配不透明，语气略带批判意味，比close associates更生动。",
+              "exampleEn": "Only members of the CEO's inner circle were briefed on the acquisition before it was announced publicly.",
+              "exampleCn": "在收购案公开宣布之前，只有CEO的核心圈子成员提前获悉了消息。"
+            },
+            {
+              "word": "longstanding",
+              "pos": "adj.",
+              "meaning": "长期存在的；由来已久的。比long-term更正式，多修饰关系、争议、问题等名词，是财经和新闻报道高频形容词，暗含「积累已久、根深蒂固」的含义，不能随意替换为long。",
+              "exampleEn": "The two firms finally resolved their longstanding dispute over patent rights after three years of litigation.",
+              "exampleCn": "经过三年诉讼，这两家公司终于解决了长期以来的专利权纠纷。"
+            },
+            {
+              "word": "windfall",
+              "pos": "n.",
+              "meaning": "意外横财；意外之财。原指被风吹落无需劳作即可获得的果子，商业语境中专指IPO、并购或政策变化带来的巨额非预期收益。比profit或gain更强调「规模惊人且带有运气成分」的色彩。",
+              "exampleEn": "Early employees received a massive windfall when the company went public at a valuation three times higher than expected.",
+              "exampleCn": "公司以超出预期三倍的估值上市，早期员工因此获得了一笔巨额横财。"
+            },
+            {
+              "word": "vested interest",
+              "pos": "phrase",
+              "meaning": "既得利益；切身利益。vest在法律和金融中有「权利已归属」的含义，vested interest指在某事中有直接的金钱或个人利益驱动，常用于分析某人支持或反对某议题的真实动机，语域偏正式，比interest更精准有力。",
+              "exampleEn": "Analysts warn that board members with a vested interest in the deal should recuse themselves from the vote.",
+              "exampleCn": "分析人士警告，对该交易有既得利益的董事会成员应主动回避表决。"
+            }
+          ]
+        },
+        {
+          "id": "20260521-4",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+          "headlineEn": "Spotify and Universal Music Strike Deal Allowing Fan-Made AI Covers and Remixes",
+          "headlineCn": "Spotify与环球音乐达成协议，开放AI翻唱与混音创作",
+          "summaryEn": "Spotify has partnered with Universal Music Group to enable Premium subscribers to create AI-generated covers and remixes of licensed songs. Participating artists will receive a share of the revenue generated through this feature. The deal marks a significant shift in how the music industry approaches AI creativity — moving from outright opposition to structured monetization. It could set a precedent for how streaming platforms, labels, and artists co-exist in an AI-powered content economy.",
+          "summaryCn": "Spotify与环球音乐集团达成合作协议，允许付费订阅用户利用AI技术创作歌曲翻唱版本和混音作品。参与该计划的艺人将获得相应的收益分成。这一协议标志着音乐行业对AI创作态度的重大转变——从全面抵制转向有序商业化。此举或将为流媒体平台、唱片公司与艺人在AI时代的共存模式树立先例。",
+          "excerpt": "Spotify is partnering with Universal Music Group to let Premium subscribers create AI-generated song covers and remixes. Participating artists will receive a share of the revenue, marking a pivotal shift as the music industry moves from resisting AI to monetizing it.",
+          "vocab": [
+            {
+              "word": "strike a deal",
+              "pos": "phrase",
+              "meaning": "达成协议、谈妥合作。比 reach a deal 更口语化，且更强调双方经过博弈后最终拍板的动态感，商业新闻标题中极为常见，常搭配 with、over、on 等介词。值得学的原因：这是财经报道的核心固定搭配，直译成「打一个交易」会显得生硬。",
+              "exampleEn": "After months of negotiation, the two tech giants finally struck a deal over data-sharing rights.",
+              "exampleCn": "经过数月谈判，两大科技巨头终于就数据共享权达成了协议。"
+            },
+            {
+              "word": "revenue share",
+              "pos": "n. phrase",
+              "meaning": "收益分成，即平台或合作方按比例瓜分所产生的收入。值得学的原因：区别于 royalty（版税，按固定比例或每单位计算），revenue share 更强调动态比例分配，是订阅经济和平台商业模式报道中的核心术语。",
+              "exampleEn": "Under the new revenue share model, content creators keep 70% of the subscription fees their channel generates.",
+              "exampleCn": "根据新的收益分成模式，内容创作者可保留其频道所产生订阅费的70%。"
+            },
+            {
+              "word": "fan-made",
+              "pos": "adj.",
+              "meaning": "粉丝自制的、由普通用户创作的。值得学的原因：这是描述「用户生成内容」（UGC）的常见修饰语，暗含非官方、草根创作的含义，与 official 或 label-produced 形成对比，在版权政策和平台规则讨论中高频出现。",
+              "exampleEn": "The platform decided to monetize fan-made content rather than continue issuing takedown notices.",
+              "exampleCn": "该平台决定将粉丝自制内容变现，而非继续发出下架通知。"
+            },
+            {
+              "word": "participating",
+              "pos": "adj.",
+              "meaning": "参与的、加入该计划的。值得学的原因：在商业协议语境中常修饰 artists、brands、retailers 等，暗示这是一种自愿选择加入的机制（opt-in），而非强制适用于所有人，是理解合作覆盖范围的关键词，不能与 involved 随意互换。",
+              "exampleEn": "Only participating merchants will be eligible for the promotional cashback program.",
+              "exampleCn": "只有参与该计划的商家才有资格享受促销返现活动。"
+            },
+            {
+              "word": "remix",
+              "pos": "v. / n.",
+              "meaning": "重新混音、改编曲目；也指由此产生的翻改版本。值得学的原因：与 cover（翻唱，保留原曲旋律和结构）不同，remix 更强调对音轨的深度重组和再创作，现已从音乐术语延伸至科技语境，泛指对已有内容进行重新组合。",
+              "exampleEn": "The streaming platform now allows users to remix licensed tracks and publish them under their own profiles.",
+              "exampleCn": "该流媒体平台现已允许用户对授权曲目进行混音改编，并以自己的账号名义发布。"
+            }
+          ]
+        },
+        {
+          "id": "20260521-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/05/21/strategys-michael-saylor-says-tokenization-will-let-investors-shop-for-yield.html",
+          "headlineEn": "Saylor Says Tokenization Will Let Investors Shop for Yield, Threatening Banks",
+          "headlineCn": "萨勒：代币化将让投资者「货比三家」追逐收益，银行业面临颠覆",
+          "summaryEn": "Michael Saylor, executive chairman of Strategy and a prominent Bitcoin advocate, told CNBC that tokenization — recording asset ownership on a blockchain — will fundamentally disrupt traditional banking and brokerage. He argued that tokenized assets will allow investors to freely compare and select yield-bearing products across platforms, much like online shoppers compare prices. This competitive dynamic could erode the captive customer relationships that banks and brokerages have long depended on for stable revenue.",
+          "summaryCn": "比特币倡导者、Strategy公司执行主席迈克尔·萨勒在CNBC表示，代币化——即将资产所有权记录于区块链上的过程——将从根本上颠覆传统银行业和经纪业。他认为，代币化资产将使投资者能够跨平台自由比较并选择收益最优的产品，就如同网购者货比三家。这一结构性转变可能逐步瓦解银行和券商长期赖以为生的固定客户群。",
+          "excerpt": "Bitcoin evangelist Michael Saylor told CNBC that tokenization will pose a direct challenge to traditional banking and brokerage businesses, enabling investors to freely shop across platforms for the best yield — a shift he argues could fundamentally reshape how capital is allocated.",
+          "vocab": [
+            {
+              "word": "tokenization",
+              "pos": "n.",
+              "meaning": "代币化；将现实资产（股票、债券、房产等）的所有权转化为区块链数字代币的过程。这是金融科技领域核心术语，区别于普通「数字化」(digitization)——它强调通过智能合约实现可编程、可分割的所有权，是读懂Web3与传统金融融合趋势报道的必备词汇。",
+              "exampleEn": "The tokenization of real estate could allow retail investors to own fractional shares of commercial properties with far lower capital requirements.",
+              "exampleCn": "房地产的代币化可以让散户投资者以低得多的资本门槛持有商业地产的部分权益。"
+            },
+            {
+              "word": "yield",
+              "pos": "n.",
+              "meaning": "收益率；投资产品产生的回报，通常以年化百分比表示。比「return」更专业，多用于固定收益产品语境。常见搭配：yield curve（收益率曲线）、yield spread（利差）、hunt for yield（追逐收益）。掌握此词是读懂债券和利率报道的基础。",
+              "exampleEn": "With interest rates falling, institutional investors began hunting for yield in emerging-market bonds and dividend stocks.",
+              "exampleCn": "随着利率下降，机构投资者开始在新兴市场债券和分红股中追逐更高收益。"
+            },
+            {
+              "word": "shop for",
+              "pos": "phrasal v.",
+              "meaning": "货比三家；在多个选项间比较以寻找最优选择。本文中萨勒借用日常购物隐喻，形象描述投资者跨平台比价的行为。商业写作中此隐喻常用于强调市场竞争与消费者选择权，比「compare」更口语化、更具说服力和画面感。",
+              "exampleEn": "Sophisticated borrowers now shop for the best loan terms across multiple fintech platforms before committing to a lender.",
+              "exampleCn": "精明的借款人如今会在多个金融科技平台间货比三家，找到最优条款后才确定贷款方。"
+            },
+            {
+              "word": "pose a challenge to",
+              "pos": "phrase",
+              "meaning": "对……构成挑战；比单独使用「challenge」更正式，语气偏中性，常见于商业和学术报道，描述竞争威胁或结构性压力，不带「attack」的攻击性色彩。同族搭配：pose a threat / risk / problem to，是财经媒体高频表达，值得整组记忆。",
+              "exampleEn": "The rise of commission-free trading apps poses a serious challenge to full-service brokerage firms that rely on transaction fees.",
+              "exampleCn": "零佣金交易应用的兴起对依赖交易手续费的全服务经纪公司构成了严峻挑战。"
+            },
+            {
+              "word": "brokerage",
+              "pos": "n.",
+              "meaning": "经纪业务；经纪公司。既可指行业整体（brokerage business），也可指具体机构（a brokerage）。与「broker」区分：broker指个人经纪人，brokerage指机构或业务本身。理解此词是读懂美股报道的基础——brokerage account（经纪账户）是美国普通投资者持有股票的标准账户类型。",
+              "exampleEn": "Major brokerages have been forced to slash trading commissions to zero in response to fierce competition from fintech startups.",
+              "exampleCn": "各大经纪公司迫于金融科技初创企业的激烈竞争，已不得不将交易佣金削减至零。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-20": {
       "label": "5月20日 (周三)",
       "stories": [
