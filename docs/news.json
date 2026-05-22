@@ -1,7 +1,252 @@
 {
-  "lastUpdated": "2026-05-21T23:08:48.049746+00:00",
+  "lastUpdated": "2026-05-22T23:06:01.176061+00:00",
   "level": "B2",
   "days": {
+    "2026-05-22": {
+      "label": "5月22日 (周五)",
+      "stories": [
+        {
+          "id": "20260522-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on",
+          "headlineEn": "Meta Launches Forum: A Reddit-Style Community App with Built-In AI Chatbot",
+          "headlineCn": "Meta推出Forum应用：融合Reddit社区讨论与AI问答功能",
+          "summaryEn": "Meta has launched Forum, a new iPhone app that transforms Facebook Groups into a standalone experience enhanced by an AI chatbot. The app positions itself as a rival to Reddit for community discussions and to Google's AI Overview for quick answers. It marks Meta's second attempt at a Groups-focused app — Facebook's original Groups app was shut down in 2017. Forum reflects Meta's broader strategy to embed AI assistants across its platforms while recapturing user engagement lost to competing services.",
+          "summaryCn": "Meta推出全新独立应用Forum，将Facebook群组功能与AI聊天机器人深度整合，同时对标Reddit的社区讨论模式和谷歌「AI概览」的即时问答能力。这是Meta继2017年关闭原版Groups应用后的第二次尝试，折射出该公司在旗下各平台全面嵌入AI助手、从竞争对手处夺回用户注意力的战略布局。",
+          "excerpt": "Rather than going to ChatGPT for quick answers or tacking \"Reddit\" onto a Google search, Meta wants Forum to be your go-to destination. The new iPhone app rebuilds Facebook Groups as a dedicated community platform — complete with an AI chatbot — marking Meta's second attempt at a standalone Groups experience after shutting down the original in 2017.",
+          "vocab": [
+            {
+              "word": "ill-fated",
+              "pos": "adj.",
+              "meaning": "注定失败的、命途多舛的。科技和商业报道中常用于回顾已宣告失败的产品或计划，语气带有新闻叙事感，比「failed」更有文学色彩，隐含「本就注定走向失败」的意味，是复盘类报道的高频词。",
+              "exampleEn": "The ill-fated streaming service was shut down just 18 months after its widely publicized launch.",
+              "exampleCn": "这款命途多舛的流媒体服务在大张旗鼓地发布仅18个月后便宣告关停。"
+            },
+            {
+              "word": "revamp",
+              "pos": "v. / n.",
+              "meaning": "彻底改造、全面翻新。商业与科技写作中极高频词，特指对产品、品牌或策略的大规模重新设计，力度比「update」更强，比「overhaul」更常用于消费软件和品牌重塑语境，兼作名词和动词。",
+              "exampleEn": "The startup announced a complete revamp of its user interface after months of declining engagement metrics.",
+              "exampleCn": "在用户互动数据持续下滑数月后，这家初创公司宣布对用户界面进行全面改版。"
+            },
+            {
+              "word": "dedicated",
+              "pos": "adj.",
+              "meaning": "专用的、专属的。科技语境中特指为某一功能专门设计的独立产品或组件，如「a dedicated chip」「a dedicated app」，强调与「通用型」或「附加功能」的区别，体现产品策略上的独立性与专一性。",
+              "exampleEn": "Apple introduced a dedicated app for its fitness subscription, separating it from the general Health platform.",
+              "exampleCn": "苹果为其健身订阅服务推出了专属独立应用，将其从通用Health平台中剥离出来。"
+            },
+            {
+              "word": "tack onto",
+              "pos": "phrasal v.",
+              "meaning": "仓促地附加、随手加上。常暗含「敷衍了事」或「缺乏深思熟虑」的语气，多用于批评某功能是硬塞进去而非原生设计。比「add to」更口语化且带有负面评价，在科技评论和产品分析中频繁出现。",
+              "exampleEn": "Critics argued the AI feature was merely tacked onto the existing interface rather than thoughtfully integrated.",
+              "exampleCn": "批评者认为，这项AI功能只是被硬塞进现有界面，而非经过深思熟虑地整合其中。"
+            },
+            {
+              "word": "go-to",
+              "pos": "adj.",
+              "meaning": "首选的、默认第一想到的。商业英语中描述某产品或平台在特定场景下占据「默认首选地位」，比「preferred」更口语、更具市场竞争含义，常出现在分析某平台如何争夺用户习惯性行为的语境中，是科技报道的标配词汇。",
+              "exampleEn": "Slack has become the go-to communication tool for distributed engineering teams across the industry.",
+              "exampleCn": "Slack已成为整个行业分布式工程团队的首选沟通工具。"
+            }
+          ]
+        },
+        {
+          "id": "20260522-2",
+          "category": "tech",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/uncanny-valley-podcast-meta-in-crisis-google-search-makeover-ai-booed-by-graduates/",
+          "headlineEn": "Meta's Crisis, Google's Search Overhaul, and AI Faces Campus Backlash",
+          "headlineCn": "Meta深陷危机，谷歌重塑搜索，AI在毕业典礼遭嘘声",
+          "summaryEn": "Meta is facing a serious internal crisis driven by sweeping mass layoffs, raising questions about its long-term strategy. Google, meanwhile, used its annual I/O developer conference to unveil major AI-powered changes to its search engine, signaling a fundamental shift in how users access information. On college campuses, AI is encountering unexpected resistance: graduates at multiple universities booed commencement speakers who championed artificial intelligence, revealing a deepening cultural backlash against the technology's rapid expansion.",
+          "summaryCn": "Meta公司正经历严峻危机，大规模裁员引发外界对其长期战略的质疑。与此同时，谷歌在年度I/O开发者大会上宣布对搜索引擎进行重大AI改造，标志着用户获取信息方式的根本性转变。然而在校园里，AI正遭遇意想不到的抵制——多所大学毕业典礼上，学生向称赞人工智能的演讲嘉宾发出嘘声，折射出社会对AI快速渗透日常生活的广泛反感。",
+          "excerpt": "In a single week, the tech world witnessed Meta's sweeping layoffs, Google's bold reimagining of search powered by AI, and an unexpected scene on college campuses: graduates loudly booing speakers who championed artificial intelligence.",
+          "vocab": [
+            {
+              "word": "backlash",
+              "pos": "n.",
+              "meaning": "强烈的反弹或抵制情绪。比 criticism（批评）语气更强，暗含「大规模、情绪化、有组织性」的抵制，常见于科技、政策、品牌危机语境，是商业报道中描述公众负面反应的核心词。",
+              "exampleEn": "The company's decision to collect user data without consent triggered a massive backlash on social media.",
+              "exampleCn": "该公司在未经用户同意的情况下收集数据，引发了社交媒体上的强烈反弹。"
+            },
+            {
+              "word": "makeover",
+              "pos": "n.",
+              "meaning": "彻底改造或重新设计。源自美容与时尚语境，后延伸至商业、产品与品牌改版，比 update（更新）或 redesign（重新设计）更强调「焕然一新」的整体转型感，常出现在产品战略与品牌报道中。",
+              "exampleEn": "The struggling retail brand is undergoing a complete makeover, from its logo to its in-store experience.",
+              "exampleCn": "这个陷入困境的零售品牌正在进行全面改造，从标志到门店体验均焕然一新。"
+            },
+            {
+              "word": "unpack",
+              "pos": "v.",
+              "meaning": "深入剖析、逐一解读复杂话题或事件。原义为「拆包」，在新闻、播客与商业评论中高频出现，比 analyze（分析）更口语化，暗含「帮助受众理解」的服务意识，是媒体英语中的标志性动词。",
+              "exampleEn": "In today's briefing, we unpack the implications of the Fed's latest rate decision for tech stocks.",
+              "exampleCn": "在今天的简报中，我们将深入解读美联储最新利率决定对科技股的影响。"
+            },
+            {
+              "word": "mass layoffs",
+              "pos": "phrase",
+              "meaning": "大规模裁员。layoff 特指因业务调整（而非个人过失）导致的解雇，比 firing（开除）更中性；mass 强调规模之大。这一短语是科技与商业新闻的核心词汇，常与 restructuring（重组）、cost-cutting（削减成本）搭配。",
+              "exampleEn": "Following the merger, the combined company announced mass layoffs affecting nearly 15% of its global workforce.",
+              "exampleCn": "合并完成后，新公司宣布大规模裁员，影响全球约15%的员工。"
+            },
+            {
+              "word": "boo",
+              "pos": "v.",
+              "meaning": "发出嘘声表示强烈反对或不满。源自现场观演文化（体育、演出），延伸至形容公开场合对演讲者或政策的集体抵制，比 protest（抗议）更即时、更情绪化，用于报道中能生动传达现场氛围。",
+              "exampleEn": "Shareholders booed the CEO when he proposed a controversial executive compensation package at the annual meeting.",
+              "exampleCn": "当CEO在年度股东大会上提出颇具争议的高管薪酬方案时，股东们发出了嘘声。"
+            }
+          ]
+        },
+        {
+          "id": "20260522-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/",
+          "headlineEn": "SpaceX Files for IPO with $28 Trillion Market Vision and Mars Colony Pay Plan",
+          "headlineCn": "SpaceX提交上市申请：28万亿市场愿景与火星殖民薪酬方案",
+          "summaryEn": "SpaceX has officially filed its S-1 registration document, signaling a long-anticipated IPO that could become the largest in U.S. history. The filing's 36 pages of risk factors reflect extraordinary ambition: a $28 trillion total addressable market, executive pay tied to establishing a permanent Mars colony, and a valuation that would dwarf most public companies. Investors will need both rigorous financial analysis and a measure of faith to evaluate this offering.",
+          "summaryCn": "SpaceX正式提交S-1上市申请，标志着这家私人航天巨头向公开资本市场迈出关键一步，此次IPO有望成为美国史上最大规模上市交易。招股说明书包含长达36页的风险因素，数字与野心相称：公司声称总可寻址市场高达28万亿美元，高管薪酬与建立火星永久殖民地挂钩，估值目标更将超越绝大多数现有上市公司。这份文件要求投资者兼具严谨的财务判断力与相当程度的信念。",
+          "excerpt": "SpaceX's S-1 filing runs to 36 pages of risk factors alone. The numbers match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation that could make it the largest IPO in American history.",
+          "vocab": [
+            {
+              "word": "go public",
+              "pos": "phrasal v.",
+              "meaning": "（公司）上市，即首次公开发行股票并在交易所挂牌。与 list 的区别：go public 强调从私有到公开的状态转变，语气偏口语叙事；list 侧重「挂牌」这一技术动作。商业新闻中二者常互换，但 go public 更常出现在叙述性语境，是财经报道必备表达。",
+              "exampleEn": "After years of speculation, the electric vehicle startup finally decided to go public through a traditional IPO rather than a SPAC merger.",
+              "exampleCn": "经过多年猜测，这家电动汽车初创公司最终决定通过传统IPO而非SPAC合并方式上市。"
+            },
+            {
+              "word": "S-1 filing",
+              "pos": "n.",
+              "meaning": "S-1招股说明书，即公司向美国证券交易委员会（SEC）提交的上市注册文件，包含财务数据、商业模式、风险因素等核心信息。filing 在商业英语中专指向监管机构递交的正式文件，比 document 更具法律色彩，是读懂美股IPO新闻的关键词。",
+              "exampleEn": "Analysts combed through the company's S-1 filing to assess whether its projected revenue justified the $50 billion valuation.",
+              "exampleCn": "分析师仔细研究了该公司的S-1招股说明书，以评估其预计收入是否能支撑500亿美元的估值。"
+            },
+            {
+              "word": "total addressable market",
+              "pos": "phrase",
+              "meaning": "总可寻址市场（常缩写为TAM），指某产品或服务在理论上能覆盖的最大市场规模。这是风投和IPO文件中的核心叙事工具，用于描绘增长天花板。注意：TAM往往被刻意夸大，读财报时须批判性看待，这也是本次SpaceX报道的争议焦点。",
+              "exampleEn": "The startup claimed a total addressable market of $500 billion, but critics noted that realistic penetration rates would limit actual revenue to a fraction of that figure.",
+              "exampleCn": "该初创公司声称总可寻址市场规模达5000亿美元，但批评者指出实际渗透率将使真实收入远低于这一数字。"
+            },
+            {
+              "word": "tied to",
+              "pos": "phrase",
+              "meaning": "与……挂钩，取决于……。在薪酬、合同、绩效语境中，tied to 表示某项利益或结果与特定条件绑定，比 dependent on 或 conditional on 更地道、更口语化。其背后是「捆绑」的物理隐喻，暗示强约束关系，是财经英语高频搭配。",
+              "exampleEn": "The CEO's bonus was tied to achieving a 20% increase in annual recurring revenue, aligning his incentives with long-term growth.",
+              "exampleCn": "首席执行官的奖金与年度经常性收入增长20%挂钩，使其激励机制与长期增长保持一致。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值，对公司或资产内在价值的系统性评估。区别于 price（市场价格），valuation 指通过财务模型推导的「合理价值」，在IPO、并购、融资场景中极为高频。常见搭配：valuation target（目标估值）、stretch valuation（激进估值）、implied valuation（隐含估值）。",
+              "exampleEn": "The startup's latest funding round implied a valuation of $10 billion, though some investors questioned whether the figure was sustainable given current market conditions.",
+              "exampleCn": "该初创公司最新一轮融资隐含估值为100亿美元，但部分投资者对这一数字在当前市场条件下是否可持续表示质疑。"
+            }
+          ]
+        },
+        {
+          "id": "20260522-4",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle/",
+          "headlineEn": "SpaceX IPO Would Benefit Musk and His Inner Circle Most",
+          "headlineCn": "SpaceX上市谁获益最多：马斯克与核心圈子",
+          "summaryEn": "SpaceX remains privately held, but growing speculation around a potential IPO spotlights a key question: who will benefit most? Reports confirm Elon Musk holds the largest stake in SpaceX by a wide margin. Beyond Musk, the top shareholders are individuals with deep, longstanding personal and professional ties to him — early backers, longtime collaborators, and trusted allies. Should SpaceX go public, the windfall would flow primarily to Musk and a small, tightly connected inner circle.",
+          "summaryCn": "SpaceX目前仍为私人持股，但围绕潜在IPO的讨论持续升温，一个核心问题随之浮现：谁将获益最多？据报道，马斯克持有SpaceX最大份额，远超其他任何股东。除马斯克外，其余主要股东均与其有深厚且长期的私人及业务纽带——包括早期投资人、长期合作伙伴与亲密盟友。一旦SpaceX上市，这笔意外横财将主要流向马斯克及其规模极小、关系紧密的核心圈子。",
+          "excerpt": "Elon Musk holds the largest stake in SpaceX by billions of shares, dwarfing all other shareholders. Those who follow in the rankings also share deep, longstanding ties to Musk — early investors and trusted collaborators who have built close relationships with him over many years.",
+          "vocab": [
+            {
+              "word": "stake",
+              "pos": "n.",
+              "meaning": "股权；所持份额。比「share」更强调持股的战略意义或影响力大小，常用于描述对公司有实质控制力的持股比例。值得学的原因：财经新闻高频词，搭配丰富，如 majority stake（控股权）、hold a stake in、take a stake in。",
+              "exampleEn": "The venture capital firm acquired a 20% stake in the startup before its Series B funding round.",
+              "exampleCn": "这家风险投资公司在该初创企业B轮融资前收购了其20%的股权。"
+            },
+            {
+              "word": "inner circle",
+              "pos": "phrase",
+              "meaning": "核心圈子；亲信集团。指能够接触权力中心、内部信息或决策的少数人，带有排他性和强烈信任感。值得学的原因：政商报道高频短语，比「close associates」更生动，暗示圈外人难以进入的封闭性。",
+              "exampleEn": "Only members of the CEO's inner circle were briefed on the acquisition plan before the public announcement.",
+              "exampleCn": "在公开宣布前，只有CEO核心圈子的成员才被告知了收购计划。"
+            },
+            {
+              "word": "longstanding",
+              "pos": "adj.",
+              "meaning": "长期存在的；由来已久的。比「long-term」更正式，多修饰关系、争议、传统或问题，暗含历史积淀与稳固性。值得学的原因：常见于新闻和正式商业文件，用错「long-time」是学习者的典型错误。",
+              "exampleEn": "The two companies dissolved their longstanding partnership after years of strategic differences.",
+              "exampleCn": "这两家公司在多年战略分歧后解除了长期以来的合作关系。"
+            },
+            {
+              "word": "ties",
+              "pos": "n.",
+              "meaning": "纽带；关联。在商业语境中比「connections」更强调情感深度与历史积累，常搭配 deep ties、close ties、personal ties。值得学的原因：描述超越普通业务往来的紧密人脉关系时，这是记者和分析师的首选词。",
+              "exampleEn": "Her deep ties to the semiconductor industry gave her unique insight into the supply chain disruption.",
+              "exampleCn": "她与半导体行业的深厚渊源，让她对供应链中断有着独到的见解。"
+            },
+            {
+              "word": "windfall",
+              "pos": "n.",
+              "meaning": "意外横财；意外暴利。源自被风吹落的果实，在财经报道中指意外获得的巨额收益，比「unexpected profit」更生动有力。值得学的原因：IPO、政策红利、资产升值等场景的高频词，带有「天降好运」的隐喻色彩，是财经写作的地道表达。",
+              "exampleEn": "Early employees of the tech giant received a massive windfall when the company went public last year.",
+              "exampleCn": "这家科技巨头去年上市时，早期员工获得了一笔巨额意外横财。"
+            }
+          ]
+        },
+        {
+          "id": "20260522-5",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/7a0b2b54-c62b-4498-8b8d-512ef7f2cb5d",
+          "headlineEn": "Wall Street Bets on 2026 Rate Hike as Warsh Takes the Fed's Helm",
+          "headlineCn": "沃什执掌美联储，华尔街押注2026年加息",
+          "summaryEn": "Financial markets are increasingly pricing in a Federal Reserve interest rate increase by late 2026, as newly appointed Fed Chair Kevin Warsh assumes leadership. The shift in expectations is driven partly by escalating conflict involving Iran, which threatens to push inflation higher. If realized, this would mark a significant policy reversal after years of rate cuts, with broad implications for mortgages, corporate borrowing costs, and global capital flows.",
+          "summaryCn": "随着新任美联储主席凯文·沃什正式上任，金融市场对2026年底前加息的预期大幅升温。推动这一预期转变的重要因素之一，是伊朗局势持续升级所带来的通胀压力。若加息成真，将意味着美联储在经历多年降息周期后实现重大政策转向，对房贷利率、企业融资成本及全球资本流向均将产生深远影响。",
+          "excerpt": "Wall Street is betting that the Federal Reserve will raise interest rates before the end of 2026, as Kevin Warsh takes charge of the central bank. Investors cite the intensifying conflict involving Iran as a key driver of renewed inflation fears, prompting markets to reprice borrowing cost expectations sharply upward.",
+          "vocab": [
+            {
+              "word": "bet on",
+              "pos": "phrasal v.",
+              "meaning": "押注于；预期某事发生。在金融语境中，「bet on」不只有赌博含义，而是指市场参与者通过仓位或定价来反映对某一结果的高度预期，比 expect 更强调「用真金白银表态」的主动性，常见于市场分析报道。",
+              "exampleEn": "Traders are betting on at least two rate cuts this year, pushing bond prices higher.",
+              "exampleCn": "交易员押注今年至少降息两次，推动债券价格走高。"
+            },
+            {
+              "word": "take charge of",
+              "pos": "phrase",
+              "meaning": "接管；掌控。强调正式承担领导职责，比 lead 或 head 更突出「权力交接」的时间节点感，常用于描述高管或官员上任，带有「从此全权负责」的主动语气，是商业报道的标准用法。",
+              "exampleEn": "When the new CEO took charge of the struggling retailer, she immediately cut costs and refocused its strategy.",
+              "exampleCn": "新任首席执行官接管这家陷入困境的零售商后，立即削减成本并重新聚焦战略方向。"
+            },
+            {
+              "word": "lift",
+              "pos": "v.",
+              "meaning": "（将利率）上调。在金融新闻中，「lift rates」是「raise rates」的简洁替换，尤其常见于英国财经媒体（如《金融时报》）。与 hike 相比语气更平稳，不带强制性色彩，仅指数值向上移动，是高频财经动词。",
+              "exampleEn": "The European Central Bank lifted its benchmark rate by 25 basis points to combat persistent inflation.",
+              "exampleCn": "欧洲中央银行将基准利率上调25个基点，以应对持续的通胀压力。"
+            },
+            {
+              "word": "borrowing costs",
+              "pos": "n.",
+              "meaning": "融资成本；借贷成本。这是「利率」的功能性表达，从借款人视角出发，比 interest rates 更能凸显利率变动对企业和家庭的实际影响。财经报道中与 rise、surge、ease 等动词高频搭配，是标准新闻用语。",
+              "exampleEn": "Rising borrowing costs have forced many small businesses to delay their expansion plans.",
+              "exampleCn": "融资成本上升迫使许多小企业推迟了扩张计划。"
+            },
+            {
+              "word": "intensify",
+              "pos": "v.",
+              "meaning": "（使）加剧；升级。可搭配冲突、竞争、通胀压力等抽象名词，比 worsen 更中性（不带负面判断色彩），比 escalate 适用范围更广（escalate 多指对抗性升级）。是经济与地缘政治报道中的高频动词，值得重点掌握。",
+              "exampleEn": "Competition in the electric vehicle market has intensified, squeezing margins for legacy automakers.",
+              "exampleCn": "电动汽车市场的竞争日趋激烈，持续压缩传统车企的利润空间。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-21": {
       "label": "5月21日 (周四)",
       "stories": [
