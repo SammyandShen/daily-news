@@ -122,6 +122,56 @@
   .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: #1a365d; color: #fff; padding: 10px 20px; border-radius: 8px; font-size: 13px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); opacity: 0; transition: opacity 0.2s; pointer-events: none; z-index: 1000; }
   .toast.show { opacity: 1; }
 
+  /* ============ REVIEW SYSTEM ============ */
+  .review-badge { display: inline-block; background: #fc8181; color: #fff; border-radius: 10px; padding: 1px 7px; font-size: 11px; font-weight: 700; margin-left: 4px; }
+  .review-page { display: none; }
+  .review-page.active { display: block; }
+  .review-hero { background: #fff; border-radius: 16px; padding: 36px 40px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); margin-bottom: 20px; text-align: center; }
+  .review-progress-bar { height: 6px; background: #e0e6f0; border-radius: 3px; margin-bottom: 24px; overflow: hidden; }
+  .review-progress-fill { height: 100%; background: #1a365d; border-radius: 3px; transition: width 0.3s ease; }
+  .review-progress-text { font-size: 12px; color: #718096; margin-bottom: 8px; }
+  .flashcard-word { font-size: 32px; font-weight: 700; color: #1a365d; margin-bottom: 8px; }
+  .flashcard-pos { font-size: 14px; color: #718096; background: #edf2f7; display: inline-block; padding: 2px 10px; border-radius: 6px; margin-bottom: 28px; }
+  .flip-btn { padding: 12px 28px; background: #1a365d; color: #fff; border: none; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; transition: background 0.15s; }
+  .flip-btn:hover { background: #2d4a7a; }
+  .flashcard-back { text-align: left; margin-top: 16px; }
+  .flashcard-meaning { font-size: 14px; color: #4a5568; background: #f7fafc; padding: 14px 18px; border-radius: 10px; margin-bottom: 14px; line-height: 1.6; }
+  .flashcard-example { font-size: 13.5px; color: #2d3748; padding: 10px 14px; background: #fff; border-left: 3px solid #1a365d; border-radius: 0 8px 8px 0; margin-bottom: 6px; }
+  .flashcard-example-cn { font-size: 12.5px; color: #718096; margin-top: 4px; }
+  .flashcard-source { font-size: 11px; color: #a0aec0; margin-top: 12px; }
+  .rating-row { display: flex; gap: 10px; justify-content: center; margin-top: 22px; }
+  .rating-btn { flex: 1; max-width: 150px; padding: 12px 10px; border: 2px solid; border-radius: 10px; cursor: pointer; font-size: 14px; font-weight: 700; transition: all 0.15s; background: #fff; }
+  .rating-btn.forgot { border-color: #fc8181; color: #c53030; }
+  .rating-btn.forgot:hover { background: #fc8181; color: #fff; }
+  .rating-btn.fuzzy { border-color: #f6ad55; color: #c05621; }
+  .rating-btn.fuzzy:hover { background: #f6ad55; color: #fff; }
+  .rating-btn.good { border-color: #68d391; color: #276749; }
+  .rating-btn.good:hover { background: #68d391; color: #fff; }
+  .writing-word { font-size: 24px; font-weight: 700; color: #1a365d; margin-bottom: 8px; }
+  .writing-hint { font-size: 14px; color: #4a5568; background: #fefce8; border: 1px solid #fde68a; padding: 10px 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.6; }
+  .writing-textarea { width: 100%; min-height: 80px; padding: 12px 14px; border: 2px solid #e0e6f0; border-radius: 10px; font-size: 14px; resize: vertical; outline: none; font-family: inherit; line-height: 1.6; }
+  .writing-textarea:focus { border-color: #1a365d; }
+  .writing-result { margin-top: 14px; padding: 14px 16px; background: #f7fafc; border-radius: 10px; }
+  .writing-result .wr-label { font-size: 11px; font-weight: 700; color: #718096; text-transform: uppercase; margin-bottom: 4px; }
+  .writing-result .wr-ref { font-size: 13.5px; color: #2d3748; }
+  .review-summary { background: #fff; border-radius: 16px; padding: 36px 40px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-align: center; }
+  .review-summary h2 { font-size: 24px; color: #1a365d; margin-bottom: 20px; }
+  .review-stat-row { display: flex; justify-content: center; gap: 32px; margin-bottom: 20px; flex-wrap: wrap; }
+  .review-stat .num { font-size: 36px; font-weight: 700; }
+  .review-stat .lbl { font-size: 12px; color: #718096; margin-top: 2px; }
+  .review-stat.good .num { color: #38a169; }
+  .review-stat.fuzzy .num { color: #dd6b20; }
+  .review-stat.forgot .num { color: #e53e3e; }
+  .review-status { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; margin-left: 6px; vertical-align: middle; }
+  .rs-due { background: #fed7d7; color: #c53030; }
+  .rs-pending { background: #fefce8; color: #b7791f; }
+  .rs-mastered { background: #c6f6d5; color: #276749; }
+  .review-start-area { background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-align: center; }
+  .review-start-area h2 { font-size: 22px; color: #1a365d; margin-bottom: 10px; }
+  .review-start-area .meta { font-size: 14px; color: #718096; margin-bottom: 28px; }
+  .start-btn { padding: 14px 36px; background: #1a365d; color: #fff; border: none; border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; transition: background 0.15s; }
+  .start-btn:hover { background: #2d4a7a; }
+
   @media (max-width: 760px) {
     .app { grid-template-columns: 1fr; }
     .sidebar { position: static; height: auto; border-right: none; border-bottom: 1px solid #e0e6f0; }
@@ -136,6 +186,7 @@
     <div class="last-updated" id="last-updated">加载中…</div>
     <div class="nav-tabs">
       <div class="nav-tab active" data-page="news">News</div>
+      <div class="nav-tab" data-page="review">📚 复习 <span class="review-badge" id="review-badge" style="display:none">0</span></div>
       <div class="nav-tab" data-page="favorites">收藏 <span class="fav-count" id="fav-count-badge">0</span></div>
     </div>
     <div id="date-section">
@@ -155,6 +206,8 @@
         <div class="loading"><div class="loading-spinner"></div><div>正在加载新闻数据…</div></div>
       </div>
     </div>
+
+    <div id="review-page" class="review-page"></div>
 
     <div id="favorites-page" class="fav-page">
       <header>
@@ -188,8 +241,11 @@ let currentStoryIdx = 0;
 let favorites = [];
 let activeTagFilter = null;
 let searchQuery = "";
+let reviewData = {};
+let reviewSession = null;
 
 const FAV_STORAGE_KEY = "english_news_favorites_v3";
+const REVIEW_KEY = "english_news_review_v1";
 
 const storage = {
   _mem: {},
@@ -202,6 +258,12 @@ function loadFavorites() {
   if (raw) { try { favorites = JSON.parse(raw); } catch(e) { favorites = []; } }
 }
 function saveFavorites() { storage.set(FAV_STORAGE_KEY, JSON.stringify(favorites)); }
+
+function loadReviewData() {
+  const raw = storage.get(REVIEW_KEY);
+  if (raw) { try { reviewData = JSON.parse(raw); } catch(e) { reviewData = {}; } }
+}
+function saveReviewData() { storage.set(REVIEW_KEY, JSON.stringify(reviewData)); }
 
 let toastTimer = null;
 function toast(msg) {
@@ -357,6 +419,8 @@ function toggleFavorite(story, vIdx, favKey) {
   const existingIdx = favorites.findIndex(f => f.id === favKey);
   if (existingIdx >= 0) {
     favorites.splice(existingIdx, 1);
+    delete reviewData[favKey];
+    saveReviewData();
     toast("已取消收藏");
   } else {
     const v = story.vocab[vIdx];
@@ -368,7 +432,12 @@ function toggleFavorite(story, vIdx, favKey) {
       sourceUrl: story.sourceUrl, sourceName: story.sourceName,
       tags: [], addedAt: Date.now()
     });
-    toast("⭐ 已收藏到收藏夹");
+    // 初始化复习记录：今天立即可复习
+    if (!reviewData[favKey]) {
+      reviewData[favKey] = { nextReview: todayStr(), interval: 1, easeFactor: 2.5, reps: 0, lastReview: null };
+      saveReviewData();
+    }
+    toast("⭐ 已收藏 · 今天可开始复习");
   }
   saveFavorites();
   renderNewsPage();
@@ -377,6 +446,255 @@ function toggleFavorite(story, vIdx, favKey) {
 
 function updateFavCountBadge() {
   document.getElementById("fav-count-badge").textContent = favorites.length;
+  updateReviewBadge();
+}
+
+// ============ REVIEW HELPERS ============
+function todayStr() { return new Date().toISOString().slice(0, 10); }
+
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + "T12:00:00");
+  d.setDate(d.getDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+function getReviewRecord(id) {
+  return reviewData[id] || { nextReview: todayStr(), interval: 1, easeFactor: 2.5, reps: 0, lastReview: null };
+}
+
+function getDueItems() {
+  const t = todayStr();
+  return favorites.filter(f => {
+    const r = getReviewRecord(f.id);
+    return r.nextReview <= t && r.interval < 30;
+  });
+}
+
+function applyReview(id, rating) {
+  const r = Object.assign({}, getReviewRecord(id));
+  if (rating === "good") {
+    r.reps++;
+    r.interval = Math.min(30, Math.max(1, Math.round(r.interval * r.easeFactor)));
+  } else if (rating === "fuzzy") {
+    r.interval = Math.min(30, Math.max(1, Math.round(r.interval * 1.2)));
+    r.easeFactor = Math.max(1.3, r.easeFactor - 0.15);
+  } else {
+    r.interval = 1;
+    r.easeFactor = Math.max(1.3, r.easeFactor - 0.2);
+  }
+  r.nextReview = addDays(todayStr(), r.interval);
+  r.lastReview = todayStr();
+  reviewData[id] = r;
+  saveReviewData();
+}
+
+function updateReviewBadge() {
+  const n = getDueItems().length;
+  const badge = document.getElementById("review-badge");
+  if (!badge) return;
+  if (n > 0) { badge.textContent = n; badge.style.display = ""; }
+  else { badge.style.display = "none"; }
+}
+
+// ============ REVIEW PAGE ============
+function renderReviewPage() {
+  const page = document.getElementById("review-page");
+  if (!reviewSession) { renderReviewLanding(page); return; }
+  const s = reviewSession;
+  if (s.phase === "flashcard") showFlashcard(page);
+  else if (s.phase === "writing") showWritingExercise(page);
+  else showReviewSummary(page);
+}
+
+function renderReviewLanding(page) {
+  const due = getDueItems();
+  const t = todayStr();
+  if (due.length === 0) {
+    const total = favorites.length;
+    const mastered = favorites.filter(f => getReviewRecord(f.id).interval >= 30).length;
+    const upcoming = favorites
+      .filter(f => { const r = getReviewRecord(f.id); return r.interval < 30 && r.nextReview > t; })
+      .map(f => getReviewRecord(f.id).nextReview).sort();
+    const nextDate = upcoming[0];
+    const nextCount = nextDate ? upcoming.filter(d => d === nextDate).length : 0;
+    const daysUntil = nextDate ? Math.round((new Date(nextDate + "T12:00:00") - new Date(t + "T12:00:00")) / 86400000) : 0;
+    page.innerHTML = `
+      <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
+        <h1>📚 词汇复习</h1>
+        <div class="subtitle">用间隔重复法，把收藏的词汇真正内化</div>
+      </header>
+      <div class="review-start-area">
+        <div style="font-size:48px;margin-bottom:16px;">✅</div>
+        <h2>今天没有到期任务</h2>
+        <div class="meta">
+          收藏夹共 <strong>${total}</strong> 个词汇${mastered > 0 ? `，已掌握 <strong>${mastered}</strong> 个` : ""}
+          ${nextDate ? `<br>${daysUntil === 1 ? "明天" : daysUntil + " 天后"}有 <strong>${nextCount}</strong> 个词到期` : ""}
+        </div>
+        <button class="btn" onclick="currentPage='favorites';render()">去收藏夹</button>
+        ${total === 0 ? '<p style="margin-top:16px;font-size:13px;color:#a0aec0;">还没有收藏？去新闻页点 ☆ 开始收藏吧</p>' : ""}
+      </div>`;
+    return;
+  }
+  page.innerHTML = `
+    <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
+      <h1>📚 词汇复习</h1>
+      <div class="subtitle">用间隔重复法，把收藏的词汇真正内化</div>
+    </header>
+    <div class="review-start-area">
+      <div style="font-size:48px;margin-bottom:16px;">📚</div>
+      <h2>今日复习</h2>
+      <div class="meta"><strong>${due.length}</strong> 个词汇到期等待复习</div>
+      <button class="start-btn" id="start-review-btn">开始复习 →</button>
+      <div style="margin-top:20px;line-height:2;">
+        ${due.slice(0, 8).map(f => `<span style="display:inline-block;margin:3px 5px;background:#f0f4f9;padding:3px 12px;border-radius:12px;font-weight:600;color:#1a365d;font-size:13px;">${escapeHtml(f.word)}</span>`).join("")}
+        ${due.length > 8 ? `<span style="color:#a0aec0;font-size:13px;">…等 ${due.length} 个</span>` : ""}
+      </div>
+    </div>`;
+  document.getElementById("start-review-btn").addEventListener("click", () => {
+    reviewSession = { queue: [...due], currentIdx: 0, flipped: false, results: { good: 0, fuzzy: 0, forgot: 0 }, forgotItems: [], phase: "flashcard", writingIdx: 0, writingSubmitted: null };
+    showFlashcard(page);
+  });
+}
+
+function showFlashcard(page) {
+  const s = reviewSession;
+  const total = s.queue.length;
+  const idx = s.currentIdx;
+  if (idx >= total) {
+    if (s.forgotItems.length > 0) { s.phase = "writing"; showWritingExercise(page); }
+    else { s.phase = "done"; showReviewSummary(page); }
+    return;
+  }
+  const item = s.queue[idx];
+  const pct = Math.round((idx / total) * 100);
+  const backHtml = s.flipped ? `
+    <div class="flashcard-back">
+      <div class="flashcard-meaning">${escapeHtml(item.meaning)}</div>
+      <div class="flashcard-example">
+        <span style="font-size:10px;font-weight:700;color:#718096;text-transform:uppercase;margin-right:5px;">EX</span>${escapeHtml(item.exampleEn)}
+        <div class="flashcard-example-cn">${escapeHtml(item.exampleCn)}</div>
+      </div>
+      <div class="flashcard-source">来自 ${escapeHtml(item.sourceName)} · ${escapeHtml(item.sourceDate)}</div>
+    </div>
+    <div class="rating-row">
+      <button class="rating-btn forgot" id="rate-forgot">忘了 😅</button>
+      <button class="rating-btn fuzzy" id="rate-fuzzy">有点模糊 🤔</button>
+      <button class="rating-btn good" id="rate-good">记住了 👍</button>
+    </div>` : `<button class="flip-btn" id="flip-card-btn">翻牌看答案 🔄</button>`;
+  page.innerHTML = `
+    <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
+      <h1>📚 闪卡复习</h1>
+    </header>
+    <div class="review-hero">
+      <div class="review-progress-text">${idx + 1} / ${total}</div>
+      <div class="review-progress-bar"><div class="review-progress-fill" style="width:${pct}%"></div></div>
+      <div class="flashcard-word">${escapeHtml(item.word)}</div>
+      <div class="flashcard-pos">${escapeHtml(item.pos)}</div>
+      ${backHtml}
+    </div>`;
+  if (!s.flipped) {
+    document.getElementById("flip-card-btn").addEventListener("click", () => { s.flipped = true; showFlashcard(page); });
+  } else {
+    document.getElementById("rate-forgot").addEventListener("click", () => handleRating("forgot", page));
+    document.getElementById("rate-fuzzy").addEventListener("click", () => handleRating("fuzzy", page));
+    document.getElementById("rate-good").addEventListener("click", () => handleRating("good", page));
+  }
+}
+
+function handleRating(rating, page) {
+  const s = reviewSession;
+  const item = s.queue[s.currentIdx];
+  applyReview(item.id, rating);
+  s.results[rating]++;
+  if (rating === "forgot") s.forgotItems.push(item);
+  s.currentIdx++;
+  s.flipped = false;
+  updateReviewBadge();
+  showFlashcard(page);
+}
+
+function showWritingExercise(page) {
+  const s = reviewSession;
+  const total = s.forgotItems.length;
+  const idx = s.writingIdx;
+  if (idx >= total) { s.phase = "done"; showReviewSummary(page); return; }
+  const item = s.forgotItems[idx];
+  const submitted = s.writingSubmitted;
+  // Show only first sentence of meaning as hint
+  const hintFull = item.meaning || "";
+  const dotIdx = hintFull.indexOf("。");
+  const hint = dotIdx >= 0 ? hintFull.slice(0, dotIdx + 1) : hintFull.slice(0, 60);
+  page.innerHTML = `
+    <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
+      <h1>✏️ 造句练习</h1>
+      <div class="subtitle">${idx + 1} / ${total} · 强化记忆「忘了」的词汇</div>
+    </header>
+    <div class="review-hero" style="text-align:left;">
+      <div class="writing-word">${escapeHtml(item.word)} <span style="font-size:15px;color:#718096;font-weight:400;font-style:italic;">${escapeHtml(item.pos)}</span></div>
+      <div class="writing-hint">💡 ${escapeHtml(hint)}</div>
+      <div style="margin-bottom:10px;font-size:13.5px;color:#4a5568;">用 <strong>${escapeHtml(item.word)}</strong> 写一个英文句子：</div>
+      <textarea class="writing-textarea" id="writing-input" placeholder="在这里输入你的句子… (Ctrl+Enter 提交)">${submitted ? escapeHtml(submitted.userText) : ""}</textarea>
+      ${submitted ? `
+        <div class="writing-result" style="margin-top:14px;">
+          <div class="wr-label">你写的</div>
+          <div class="wr-ref">${escapeHtml(submitted.userText || "(已跳过)")}</div>
+        </div>
+        <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
+          <div class="wr-label">参考例句</div>
+          <div class="wr-ref">${escapeHtml(item.exampleEn)}</div>
+          <div style="font-size:12px;color:#718096;margin-top:4px;">${escapeHtml(item.exampleCn)}</div>
+        </div>
+        <div style="display:flex;justify-content:flex-end;margin-top:16px;">
+          <button class="btn btn-primary" id="next-writing-btn">${idx + 1 < total ? "下一个 →" : "完成练习 ✓"}</button>
+        </div>` : `
+        <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px;">
+          <button class="btn" id="skip-writing-btn">跳过</button>
+          <button class="btn btn-primary" id="submit-writing-btn">提交并看参考</button>
+        </div>`}
+    </div>`;
+  if (!submitted) {
+    const doSubmit = () => {
+      s.writingSubmitted = { userText: document.getElementById("writing-input").value.trim() };
+      showWritingExercise(page);
+    };
+    document.getElementById("skip-writing-btn").addEventListener("click", () => { s.writingSubmitted = { userText: "" }; showWritingExercise(page); });
+    document.getElementById("submit-writing-btn").addEventListener("click", doSubmit);
+    document.getElementById("writing-input").addEventListener("keydown", e => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter") doSubmit(); });
+  } else {
+    document.getElementById("next-writing-btn").addEventListener("click", () => { s.writingIdx++; s.writingSubmitted = null; showWritingExercise(page); });
+  }
+}
+
+function showReviewSummary(page) {
+  const s = reviewSession;
+  const { good, fuzzy, forgot } = s.results;
+  const t = todayStr();
+  const upcoming = favorites
+    .filter(f => { const r = getReviewRecord(f.id); return r.interval < 30 && r.nextReview > t; })
+    .map(f => getReviewRecord(f.id).nextReview).sort();
+  const nextDate = upcoming[0];
+  const nextCount = nextDate ? upcoming.filter(d => d === nextDate).length : 0;
+  const daysUntil = nextDate ? Math.round((new Date(nextDate + "T12:00:00") - new Date(t + "T12:00:00")) / 86400000) : 0;
+  page.innerHTML = `
+    <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
+      <h1>📚 词汇复习</h1>
+    </header>
+    <div class="review-summary">
+      <div style="font-size:52px;margin-bottom:16px;">🎉</div>
+      <h2>今日复习完成！</h2>
+      <div class="review-stat-row">
+        <div class="review-stat good"><div class="num">${good}</div><div class="lbl">记住了 👍</div></div>
+        <div class="review-stat fuzzy"><div class="num">${fuzzy}</div><div class="lbl">有点模糊 🤔</div></div>
+        <div class="review-stat forgot"><div class="num">${forgot}</div><div class="lbl">忘了 😅</div></div>
+      </div>
+      <div style="color:#718096;font-size:14px;margin-bottom:24px;">
+        ${nextDate ? `下次复习：${daysUntil === 1 ? "明天" : daysUntil + " 天后"}有 <strong>${nextCount}</strong> 个词到期` : "收藏夹里的词全部进入长期记忆状态 🏆"}
+      </div>
+      <button class="btn btn-primary" id="review-done-btn">返回资讯 →</button>
+    </div>`;
+  reviewSession = null;
+  updateReviewBadge();
+  document.getElementById("review-done-btn").addEventListener("click", () => { currentPage = "news"; render(); });
 }
 
 // ============ FAVORITES PAGE ============
@@ -416,12 +734,24 @@ function renderFavoritesPage() {
       <div>${favorites.length === 0 ? "还没有收藏 · 在新闻页点击 ☆ 即可收藏" : "没有匹配的结果"}</div></div>`;
     return;
   }
-  listEl.innerHTML = list.map(f => `
+  const t = todayStr();
+  listEl.innerHTML = list.map(f => {
+    const r = getReviewRecord(f.id);
+    let statusBadge = "";
+    if (r.interval >= 30) {
+      statusBadge = `<span class="review-status rs-mastered">✅ 已掌握</span>`;
+    } else if (r.nextReview <= t) {
+      statusBadge = `<span class="review-status rs-due">🔴 今天到期</span>`;
+    } else {
+      const days = Math.round((new Date(r.nextReview + "T12:00:00") - new Date(t + "T12:00:00")) / 86400000);
+      statusBadge = `<span class="review-status rs-pending">⏳ ${days}天后</span>`;
+    }
+    return `
     <div class="fav-item" data-id="${f.id}">
       <div class="fav-item-header">
         <div>
           <span class="fav-word">${escapeHtml(f.word)}</span>
-          <span class="fav-pos">${escapeHtml(f.pos)}</span>
+          <span class="fav-pos">${escapeHtml(f.pos)}</span>${statusBadge}
           <div class="fav-meta">来自 ${escapeHtml(f.sourceDate)} · ${escapeHtml((f.sourceTitle || "").slice(0, 60))}${(f.sourceTitle || "").length > 60 ? "…" : ""}</div>
         </div>
         <div class="fav-actions">
@@ -435,14 +765,16 @@ function renderFavoritesPage() {
         <input type="text" class="fav-tag-input" placeholder="+ 添加标签…" data-id="${f.id}">
       </div>
     </div>
-  `).join("");
+  `; }).join("");
 
   listEl.querySelectorAll('[data-action="delete"]').forEach(btn => {
     btn.addEventListener("click", () => {
       const id = btn.dataset.id;
       if (confirm("确定要删除这个收藏吗？")) {
         favorites = favorites.filter(f => f.id !== id);
+        delete reviewData[id];
         saveFavorites();
+        saveReviewData();
         renderFavoritesPage();
         updateFavCountBadge();
       }
@@ -536,15 +868,19 @@ function downloadFile(name, content, type) {
 function render() {
   document.querySelectorAll(".nav-tab").forEach(t => t.classList.toggle("active", t.dataset.page === currentPage));
   document.getElementById("news-page").style.display = currentPage === "news" ? "" : "none";
+  document.getElementById("review-page").classList.toggle("active", currentPage === "review");
   document.getElementById("favorites-page").classList.toggle("active", currentPage === "favorites");
   document.getElementById("date-section").style.display = currentPage === "news" ? "" : "none";
   renderDateList();
-  if (currentPage === "news") renderNewsPage(); else renderFavoritesPage();
+  if (currentPage === "news") renderNewsPage();
+  else if (currentPage === "review") renderReviewPage();
+  else renderFavoritesPage();
   updateFavCountBadge();
 }
 
 // ============ INIT ============
 loadFavorites();
+loadReviewData();
 document.querySelectorAll(".nav-tab").forEach(t => t.addEventListener("click", () => { currentPage = t.dataset.page; render(); }));
 document.getElementById("export-md-btn").addEventListener("click", exportMarkdown);
 document.getElementById("backup-btn").addEventListener("click", backupJson);
