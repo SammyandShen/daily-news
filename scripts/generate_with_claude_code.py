@@ -57,6 +57,9 @@ PROMPT_TEMPLATE = """你是一位专业的英语教学助理，正在为一位 {
       "word": "词或短语",
       "pos": "词性，如 v. / n. / adj. / phrase / phrasal v.",
       "meaning": "中文释义 + 简短的用法说明（说清楚为什么这个词比同义词更值得学，例如它的语域、隐喻、搭配习惯）",
+      "etymology": "词源 30-80 字：来源语言（拉丁/希腊/古英语/法语等）+ 原义 + 语义演变路径。短语类词条若无明显词源可写『短语/复合词，无独立词源』",
+      "morphology": "构词拆解 30-80 字：前缀 + 词根 + 后缀分解，附 2-3 个同词根/同前缀的英语词（帮助横向扩展）。若是不可拆解的简单词，写出常见派生词（如名词→动词→形容词形式）",
+      "mnemonic": "记忆窍门 30-80 字：用具体画面、类比、谐音、易混词对比等帮助快速记忆。要够鲜活、够具体，能在脑中形成画面",
       "exampleEn": "一句使用该词的英文例句，主题贴近商业/科技/经济，{level} 难度",
       "exampleCn": "对应的中文翻译"
     }}
@@ -68,8 +71,9 @@ PROMPT_TEMPLATE = """你是一位专业的英语教学助理，正在为一位 {
 2. 选词标准：财经/科技英语里高频但教科书少教的搭配、商业语境的隐喻、容易混用的近义词差异。避免超基础词（如 important / good）和过于罕见的词。
 3. 例句要紧扣商业/科技/经济语境
 4. 中文释义要点出「为什么这个词值得学」
-5. 严格输出合法 JSON，不要任何额外内容
-6. 中文内容里不要使用直引号 " "，改用书名号《》或角引号「」，否则会破坏 JSON 格式"""
+5. **etymology / morphology / mnemonic 三字段必须填，不能省略，不能写成 null 或空字符串**。即使是简单常见词也要努力挖掘记忆点
+6. 严格输出合法 JSON，不要任何额外内容
+7. 中文内容里不要使用直引号 " "，改用书名号《》或角引号「」，否则会破坏 JSON 格式"""
 
 
 def call_claude_code(candidate: dict, retries: int = 2) -> dict | None:
@@ -160,6 +164,12 @@ def build_story(candidate: dict, idx: int, date_str: str) -> dict:
         content = template_fallback(candidate)
     else:
         print(f"        ✅ 生成成功")
+    # 确保每条 vocab 都有完整字段（兼容旧的生成结果）
+    vocab_list = (content.get("vocab") or [])[:5]
+    for v in vocab_list:
+        v.setdefault("etymology", "")
+        v.setdefault("morphology", "")
+        v.setdefault("mnemonic", "")
     return {
         "id": f"{date_str.replace('-', '')}-{idx + 1}",
         "category": candidate["category"],
@@ -170,7 +180,7 @@ def build_story(candidate: dict, idx: int, date_str: str) -> dict:
         "summaryEn": content.get("summaryEn", ""),
         "summaryCn": content.get("summaryCn", ""),
         "excerpt": content.get("excerpt", ""),
-        "vocab": (content.get("vocab") or [])[:5],
+        "vocab": vocab_list,
     }
 
 

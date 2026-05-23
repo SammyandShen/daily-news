@@ -77,6 +77,17 @@
   .vocab-example { margin-top: 7px; font-size: 13px; color: #2d3748; padding: 7px 11px; background: #fff; border-radius: 6px; border-left: 3px solid #cbd5e0; }
   .vocab-example .label { font-size: 10px; color: #718096; font-weight: 700; text-transform: uppercase; margin-right: 5px; }
   .vocab-example-cn { margin-top: 3px; font-size: 12.5px; color: #718096; }
+  .vocab-extra { margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+  .vocab-extra-row { display: flex; gap: 8px; font-size: 12.5px; line-height: 1.6; padding: 7px 11px; border-radius: 6px; align-items: flex-start; }
+  .vocab-extra-row .ve-icon { flex-shrink: 0; font-size: 14px; line-height: 1.4; }
+  .vocab-extra-row .ve-label { flex-shrink: 0; font-weight: 700; font-size: 11px; letter-spacing: 0.3px; text-transform: uppercase; padding-top: 2px; }
+  .vocab-extra-row .ve-text { color: #2d3748; }
+  .vocab-extra-row.etym { background: #f0f7ff; border-left: 3px solid #4299e1; }
+  .vocab-extra-row.etym .ve-label { color: #2c5282; }
+  .vocab-extra-row.morph { background: #f0fff4; border-left: 3px solid #48bb78; }
+  .vocab-extra-row.morph .ve-label { color: #276749; }
+  .vocab-extra-row.mnem { background: #fffaf0; border-left: 3px solid #ed8936; }
+  .vocab-extra-row.mnem .ve-label { color: #c05621; }
   .fav-btn { flex-shrink: 0; width: 32px; height: 32px; border-radius: 6px; border: 1px solid #e0e6f0; background: #fff; cursor: pointer; font-size: 16px; color: #a0aec0; transition: all 0.15s; user-select: none; display: flex; align-items: center; justify-content: center; }
   .fav-btn:hover { border-color: #d69e2e; color: #d69e2e; }
   .fav-btn.active { background: #fef3c7; border-color: #d69e2e; color: #b7791f; }
@@ -336,6 +347,15 @@ function speakBtnHtml(text, big) {
   return `<button class="speak-btn${big ? " big" : ""}" data-speak="${escapeHtml(text)}" title="朗读 ${escapeHtml(text)}" onclick="event.stopPropagation();speakText(this.dataset.speak, this)">🔊</button>`;
 }
 
+// 渲染词汇的词源/构词/记忆法三段（旧数据缺这些字段时会自动跳过）
+function vocabExtraHtml(v) {
+  const rows = [];
+  if (v.etymology) rows.push(`<div class="vocab-extra-row etym"><span class="ve-icon">📜</span><span class="ve-label">词源</span><span class="ve-text">${escapeHtml(v.etymology)}</span></div>`);
+  if (v.morphology) rows.push(`<div class="vocab-extra-row morph"><span class="ve-icon">🧩</span><span class="ve-label">构词</span><span class="ve-text">${escapeHtml(v.morphology)}</span></div>`);
+  if (v.mnemonic) rows.push(`<div class="vocab-extra-row mnem"><span class="ve-icon">💡</span><span class="ve-label">记忆</span><span class="ve-text">${escapeHtml(v.mnemonic)}</span></div>`);
+  return rows.length ? `<div class="vocab-extra">${rows.join("")}</div>` : "";
+}
+
 // 选中文本浮动朗读按钮
 (function initSelectionSpeak() {
   if (!("speechSynthesis" in window)) return;
@@ -487,6 +507,7 @@ function renderNewsPage() {
                   <span class="label">EX</span>${escapeHtml(v.exampleEn)} ${speakBtnHtml(v.exampleEn, false)}
                   <div class="vocab-example-cn">${escapeHtml(v.exampleCn)}</div>
                 </div>
+                ${vocabExtraHtml(v)}
               </div>
               <button class="fav-btn ${isFav ? "active" : ""}" data-fav-key="${favKey}" data-vocab-idx="${i}" title="收藏">${isFav ? "★" : "☆"}</button>
             </div>
@@ -517,6 +538,7 @@ function toggleFavorite(story, vIdx, favKey) {
       id: favKey,
       word: v.word, pos: v.pos, meaning: v.meaning,
       exampleEn: v.exampleEn, exampleCn: v.exampleCn,
+      etymology: v.etymology || "", morphology: v.morphology || "", mnemonic: v.mnemonic || "",
       sourceTitle: story.headlineEn, sourceDate: currentDate,
       sourceUrl: story.sourceUrl, sourceName: story.sourceName,
       tags: [], addedAt: Date.now()
@@ -663,6 +685,7 @@ function showFlashcard(page) {
         <span style="font-size:10px;font-weight:700;color:#718096;text-transform:uppercase;margin-right:5px;">EX</span>${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}
         <div class="flashcard-example-cn">${escapeHtml(item.exampleCn)}</div>
       </div>
+      ${vocabExtraHtml(item)}
       <div class="flashcard-source">来自 ${escapeHtml(item.sourceName)} · ${escapeHtml(item.sourceDate)}</div>
     </div>
     <div class="rating-row">
@@ -849,6 +872,7 @@ function renderFavoritesPage() {
       </div>
       <div class="fav-meaning">${escapeHtml(f.meaning)}</div>
       <div class="fav-example">${escapeHtml(f.exampleEn)} ${speakBtnHtml(f.exampleEn, false)}<div class="fav-example-cn">${escapeHtml(f.exampleCn)}</div></div>
+      ${vocabExtraHtml(f)}
       <div class="fav-tags" data-id="${f.id}">
         ${f.tags.map(t => `<span class="fav-tag">${escapeHtml(t)}<span class="x" data-tag="${escapeHtml(t)}" data-id="${f.id}">×</span></span>`).join("")}
         <input type="text" class="fav-tag-input" placeholder="+ 添加标签…" data-id="${f.id}">

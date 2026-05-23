@@ -21,35 +21,50 @@
               "pos": "adj.",
               "meaning": "注定失败的、命途多舛的。科技和商业报道中常用于回顾已宣告失败的产品或计划，语气带有新闻叙事感，比「failed」更有文学色彩，隐含「本就注定走向失败」的意味，是复盘类报道的高频词。",
               "exampleEn": "The ill-fated streaming service was shut down just 18 months after its widely publicized launch.",
-              "exampleCn": "这款命途多舛的流媒体服务在大张旗鼓地发布仅18个月后便宣告关停。"
+              "exampleCn": "这款命途多舛的流媒体服务在大张旗鼓地发布仅18个月后便宣告关停。",
+              "etymology": "「ill」源自古挪威语「illr」，意为「坏、邪恶」；「fated」源自拉丁语「fatum」（命运、神谕）。两词合并字面义为「被命运判定走向坏结局的」，后成为新闻叙事中回顾失败事件的惯用语。",
+              "morphology": "ill-（前缀，意为「坏、不吉」）+ fate（名词词根，命运）+ -d（形容词后缀）。同前缀扩展：ill-conceived（考虑不周的）、ill-advised（不明智的）；同根扩展：fateful（决定性的）、fatal（致命的）。",
+              "mnemonic": "想象一艘命名为「Ill号」的船，出港时就乌云密布——它是「fated」（命中注定）要沉的。ill + fated = 打从一开始就注定走向悲剧，记住这艘永远无法平安到港的船。"
             },
             {
               "word": "revamp",
               "pos": "v. / n.",
               "meaning": "彻底改造、全面翻新。商业与科技写作中极高频词，特指对产品、品牌或策略的大规模重新设计，力度比「update」更强，比「overhaul」更常用于消费软件和品牌重塑语境，兼作名词和动词。",
               "exampleEn": "The startup announced a complete revamp of its user interface after months of declining engagement metrics.",
-              "exampleCn": "在用户互动数据持续下滑数月后，这家初创公司宣布对用户界面进行全面改版。"
+              "exampleCn": "在用户互动数据持续下滑数月后，这家初创公司宣布对用户界面进行全面改版。",
+              "etymology": "re-（拉丁语前缀，「再次」）+ vamp（源自古法语「avant-pied」，原指鞋面补片，后泛指修补翻新）。原义为「重新缝补鞋面」，语义扩大后演变为「对产品或策略进行全面改造」。",
+              "morphology": "re-（前缀：再次、重新）+ vamp（修补改造）。同前缀词：rebuild（重建）、redesign（重新设计）、revise（修订）。vamp 派生形式：vamped（翻新过的）、vampire（吸血鬼，同形不同源）。",
+              "mnemonic": "re-（再次）+ vamp（吸血鬼）——吸血鬼每次复活都彻底变身，换装换造型，面目全非地再度登场。产品 revamp 后同样焕然一新，让人认不出原来面目。"
             },
             {
               "word": "dedicated",
               "pos": "adj.",
               "meaning": "专用的、专属的。科技语境中特指为某一功能专门设计的独立产品或组件，如「a dedicated chip」「a dedicated app」，强调与「通用型」或「附加功能」的区别，体现产品策略上的独立性与专一性。",
               "exampleEn": "Apple introduced a dedicated app for its fitness subscription, separating it from the general Health platform.",
-              "exampleCn": "苹果为其健身订阅服务推出了专属独立应用，将其从通用Health平台中剥离出来。"
+              "exampleCn": "苹果为其健身订阅服务推出了专属独立应用，将其从通用Health平台中剥离出来。",
+              "etymology": "源自拉丁语「dedicare」，由 de-（加强语气）+ dicare（宣告、奉献）构成，原指将神庙正式「献给神明」的仪式行为，后语义扩展为「专门投入于某一目的」，科技语境进一步固化为「专用的」。",
+              "morphology": "de-（加强前缀）+ dic-（词根，源自拉丁「dicere」，意为宣告）+ -ate（动词后缀）+ -d（形容词）。同根词：indicate（指示）、predict（预测）、dictate（口述/支配）、dedicate（献给）。",
+              "mnemonic": "想象一块芯片上刻着「只为你一人」的誓言——它不兼任别的任务，只专心服务一个功能。「dedicated chip」就是那位只效忠一位主人、专一到底的骑士。"
             },
             {
               "word": "tack onto",
               "pos": "phrasal v.",
               "meaning": "仓促地附加、随手加上。常暗含「敷衍了事」或「缺乏深思熟虑」的语气，多用于批评某功能是硬塞进去而非原生设计。比「add to」更口语化且带有负面评价，在科技评论和产品分析中频繁出现。",
               "exampleEn": "Critics argued the AI feature was merely tacked onto the existing interface rather than thoughtfully integrated.",
-              "exampleCn": "批评者认为，这项AI功能只是被硬塞进现有界面，而非经过深思熟虑地整合其中。"
+              "exampleCn": "批评者认为，这项AI功能只是被硬塞进现有界面，而非经过深思熟虑地整合其中。",
+              "etymology": "复合短语，无独立词源。「tack」源自古挪威语「taka」（抓取），引申为用图钉随意别上；与「onto」组合表示「随手附加到某物上」，隐含敷衍了事、缺乏设计的负面语气。",
+              "morphology": "复合短语，无独立词源。tack（用图钉钉、随意附加）+ onto（到……上面）。近义对比词：append（正式附加）、bolt on（生硬拼上）、add on（加上）；tack 派生：thumbtack（图钉）、tacking（假缝、临时固定）。",
+              "mnemonic": "图钉（thumbtack）轻轻一按就别到公告栏上——随时可能掉落，毫不牢靠。tack onto 就是「用图钉随手别上去」，暗示这个功能是临时凑数的「外挂」，并非原生设计。"
             },
             {
               "word": "go-to",
               "pos": "adj.",
               "meaning": "首选的、默认第一想到的。商业英语中描述某产品或平台在特定场景下占据「默认首选地位」，比「preferred」更口语、更具市场竞争含义，常出现在分析某平台如何争夺用户习惯性行为的语境中，是科技报道的标配词汇。",
               "exampleEn": "Slack has become the go-to communication tool for distributed engineering teams across the industry.",
-              "exampleCn": "Slack已成为整个行业分布式工程团队的首选沟通工具。"
+              "exampleCn": "Slack已成为整个行业分布式工程团队的首选沟通工具。",
+              "etymology": "复合词/短语，无独立词源。由古英语「gan」（行走）演变而来的「go」与介词「to」组合，原为动词短语，20世纪美式英语中连字符固化为形容词，意指「条件反射般首先想到并使用的」。",
+              "morphology": "复合形容词，无前缀后缀分解。go（动词）+ to（介词）连字符固化为修饰名词的形容词。常见搭配：go-to person（第一联络人）、go-to solution（首选方案）、go-to app（默认首选应用）、go-to source（权威来源）。",
+              "mnemonic": "早晨不假思索就走向那家咖啡店——那就是你的「go-to」咖啡店。「go to」反映一种肌肉记忆式的本能选择，不需要思考就直接「go」过去，这正是「默认首选地位」的精髓。"
             }
           ]
         },
