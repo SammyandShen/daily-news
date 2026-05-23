@@ -172,6 +172,17 @@
   .start-btn { padding: 14px 36px; background: #1a365d; color: #fff; border: none; border-radius: 12px; font-size: 16px; font-weight: 700; cursor: pointer; transition: background 0.15s; }
   .start-btn:hover { background: #2d4a7a; }
 
+  /* ============ TTS / SPEAK ============ */
+  .speak-btn { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 5px; border: none; background: transparent; color: #718096; cursor: pointer; font-size: 13px; padding: 0; margin-left: 4px; vertical-align: middle; transition: all 0.12s; user-select: none; }
+  .speak-btn:hover { background: #ebf4ff; color: #1a365d; }
+  .speak-btn.speaking { background: #1a365d; color: #fff; animation: pulse 1s ease-in-out infinite; }
+  .speak-btn.big { width: 36px; height: 36px; font-size: 18px; border: 1px solid #e0e6f0; }
+  .speak-btn.big:hover { border-color: #1a365d; }
+  @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+  .speak-float { position: fixed; background: #1a365d; color: #fff; padding: 6px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; box-shadow: 0 4px 12px rgba(0,0,0,0.2); cursor: pointer; z-index: 999; display: none; user-select: none; transition: transform 0.1s; }
+  .speak-float:hover { transform: scale(1.05); }
+  .speak-float.show { display: block; }
+
   @media (max-width: 760px) {
     .app { grid-template-columns: 1fr; }
     .sidebar { position: static; height: auto; border-right: none; border-bottom: 1px solid #e0e6f0; }
@@ -229,6 +240,7 @@
 </div>
 
 <div class="toast" id="toast"></div>
+<div class="speak-float" id="speak-float">🔊 朗读选中文本</div>
 
 <script>
 // ============ STATE ============
@@ -277,6 +289,83 @@ function toast(msg) {
 function escapeHtml(s) {
   return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
+
+// ============ TTS / SPEAK ============
+let _enVoice = null;
+function pickEnglishVoice() {
+  if (_enVoice) return _enVoice;
+  if (!("speechSynthesis" in window)) return null;
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices.length) return null;
+  // 优先用本地高质量英语女声（macOS 上的 Samantha、Ava 等）
+  const prefer = ["Samantha", "Ava", "Allison", "Karen", "Moira", "Serena", "Daniel"];
+  for (const name of prefer) {
+    const v = voices.find(v => v.name.includes(name) && v.lang.startsWith("en"));
+    if (v) { _enVoice = v; return v; }
+  }
+  const enUs = voices.find(v => v.lang === "en-US") || voices.find(v => v.lang.startsWith("en"));
+  _enVoice = enUs;
+  return enUs;
+}
+if ("speechSynthesis" in window) {
+  window.speechSynthesis.onvoiceschanged = () => { _enVoice = null; pickEnglishVoice(); };
+}
+
+function speakText(text, btn) {
+  if (!("speechSynthesis" in window)) { toast("当前浏览器不支持语音朗读"); return; }
+  if (!text) return;
+  // 中断当前正在播放的
+  window.speechSynthesis.cancel();
+  // 清掉所有 speaking 状态
+  document.querySelectorAll(".speak-btn.speaking").forEach(b => b.classList.remove("speaking"));
+  const u = new SpeechSynthesisUtterance(text);
+  const voice = pickEnglishVoice();
+  if (voice) u.voice = voice;
+  u.lang = "en-US";
+  u.rate = 0.95;
+  u.pitch = 1.0;
+  if (btn) {
+    btn.classList.add("speaking");
+    u.onend = () => btn.classList.remove("speaking");
+    u.onerror = () => btn.classList.remove("speaking");
+  }
+  window.speechSynthesis.speak(u);
+}
+
+function speakBtnHtml(text, big) {
+  return `<button class="speak-btn${big ? " big" : ""}" data-speak="${escapeHtml(text)}" title="朗读 ${escapeHtml(text)}" onclick="event.stopPropagation();speakText(this.dataset.speak, this)">🔊</button>`;
+}
+
+// 选中文本浮动朗读按钮
+(function initSelectionSpeak() {
+  if (!("speechSynthesis" in window)) return;
+  const floatBtn = document.getElementById("speak-float");
+  let lastText = "";
+  document.addEventListener("mouseup", (e) => {
+    // 不影响点击 speak-float 自身
+    if (e.target.id === "speak-float") return;
+    setTimeout(() => {
+      const sel = window.getSelection();
+      const text = sel ? sel.toString().trim() : "";
+      // 只对包含英文字母的选区显示
+      if (text && /[a-zA-Z]/.test(text) && text.length < 300) {
+        lastText = text;
+        const rect = sel.getRangeAt(0).getBoundingClientRect();
+        floatBtn.style.left = Math.min(window.innerWidth - 160, rect.left + window.scrollX) + "px";
+        floatBtn.style.top = (rect.top + window.scrollY - 36) + "px";
+        floatBtn.classList.add("show");
+      } else {
+        floatBtn.classList.remove("show");
+      }
+    }, 10);
+  });
+  floatBtn.addEventListener("mousedown", (e) => {
+    e.preventDefault();
+    speakText(lastText, null);
+    floatBtn.classList.remove("show");
+  });
+  document.addEventListener("scroll", () => floatBtn.classList.remove("show"), true);
+})();
 
 // ============ DATA LOADING ============
 async function loadNews() {
@@ -371,16 +460,16 @@ function renderNewsPage() {
         <span class="category cat-${story.category}">${catLabel}</span>
         <span class="source-link">Source: <a href="${escapeHtml(story.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(story.sourceName)}</a></span>
       </div>
-      <h2 class="headline">${escapeHtml(story.headlineEn)}</h2>
+      <h2 class="headline">${escapeHtml(story.headlineEn)} ${speakBtnHtml(story.headlineEn, false)}</h2>
       <p class="headline-cn">${escapeHtml(story.headlineCn)}</p>
       <div class="section">
         <div class="section-title">📌 Summary 简略说明</div>
-        <p class="summary-en">${escapeHtml(story.summaryEn)}</p>
+        <p class="summary-en">${escapeHtml(story.summaryEn)} ${speakBtnHtml(story.summaryEn, false)}</p>
         <p class="summary-cn">${escapeHtml(story.summaryCn)}</p>
       </div>
       <div class="section">
         <div class="section-title">📝 Original Excerpt 原文摘录</div>
-        <p class="excerpt">"${escapeHtml(story.excerpt)}"</p>
+        <p class="excerpt">"${escapeHtml(story.excerpt)}" ${speakBtnHtml(story.excerpt, false)}</p>
       </div>
       <div class="section">
         <div class="section-title">🎯 Key Vocabulary & Expressions 重点单词与表达</div>
@@ -391,11 +480,11 @@ function renderNewsPage() {
           <div class="vocab-item">
             <div class="vocab-row">
               <div class="vocab-content">
-                <span class="vocab-word">${escapeHtml(v.word)}</span>
+                <span class="vocab-word">${escapeHtml(v.word)}</span>${speakBtnHtml(v.word, false)}
                 <span class="vocab-pos">${escapeHtml(v.pos)}</span>
                 <div class="vocab-meaning">${escapeHtml(v.meaning)}</div>
                 <div class="vocab-example">
-                  <span class="label">EX</span>${escapeHtml(v.exampleEn)}
+                  <span class="label">EX</span>${escapeHtml(v.exampleEn)} ${speakBtnHtml(v.exampleEn, false)}
                   <div class="vocab-example-cn">${escapeHtml(v.exampleCn)}</div>
                 </div>
               </div>
@@ -571,7 +660,7 @@ function showFlashcard(page) {
     <div class="flashcard-back">
       <div class="flashcard-meaning">${escapeHtml(item.meaning)}</div>
       <div class="flashcard-example">
-        <span style="font-size:10px;font-weight:700;color:#718096;text-transform:uppercase;margin-right:5px;">EX</span>${escapeHtml(item.exampleEn)}
+        <span style="font-size:10px;font-weight:700;color:#718096;text-transform:uppercase;margin-right:5px;">EX</span>${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}
         <div class="flashcard-example-cn">${escapeHtml(item.exampleCn)}</div>
       </div>
       <div class="flashcard-source">来自 ${escapeHtml(item.sourceName)} · ${escapeHtml(item.sourceDate)}</div>
@@ -588,7 +677,7 @@ function showFlashcard(page) {
     <div class="review-hero">
       <div class="review-progress-text">${idx + 1} / ${total}</div>
       <div class="review-progress-bar"><div class="review-progress-fill" style="width:${pct}%"></div></div>
-      <div class="flashcard-word">${escapeHtml(item.word)}</div>
+      <div class="flashcard-word">${escapeHtml(item.word)} ${speakBtnHtml(item.word, true)}</div>
       <div class="flashcard-pos">${escapeHtml(item.pos)}</div>
       ${backHtml}
     </div>`;
@@ -630,7 +719,7 @@ function showWritingExercise(page) {
       <div class="subtitle">${idx + 1} / ${total} · 强化记忆「忘了」的词汇</div>
     </header>
     <div class="review-hero" style="text-align:left;">
-      <div class="writing-word">${escapeHtml(item.word)} <span style="font-size:15px;color:#718096;font-weight:400;font-style:italic;">${escapeHtml(item.pos)}</span></div>
+      <div class="writing-word">${escapeHtml(item.word)} ${speakBtnHtml(item.word, true)} <span style="font-size:15px;color:#718096;font-weight:400;font-style:italic;">${escapeHtml(item.pos)}</span></div>
       <div class="writing-hint">💡 ${escapeHtml(hint)}</div>
       <div style="margin-bottom:10px;font-size:13.5px;color:#4a5568;">用 <strong>${escapeHtml(item.word)}</strong> 写一个英文句子：</div>
       <textarea class="writing-textarea" id="writing-input" placeholder="在这里输入你的句子… (Ctrl+Enter 提交)">${submitted ? escapeHtml(submitted.userText) : ""}</textarea>
@@ -641,7 +730,7 @@ function showWritingExercise(page) {
         </div>
         <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
           <div class="wr-label">参考例句</div>
-          <div class="wr-ref">${escapeHtml(item.exampleEn)}</div>
+          <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
           <div style="font-size:12px;color:#718096;margin-top:4px;">${escapeHtml(item.exampleCn)}</div>
         </div>
         <div style="display:flex;justify-content:flex-end;margin-top:16px;">
@@ -750,7 +839,7 @@ function renderFavoritesPage() {
     <div class="fav-item" data-id="${f.id}">
       <div class="fav-item-header">
         <div>
-          <span class="fav-word">${escapeHtml(f.word)}</span>
+          <span class="fav-word">${escapeHtml(f.word)}</span>${speakBtnHtml(f.word, false)}
           <span class="fav-pos">${escapeHtml(f.pos)}</span>${statusBadge}
           <div class="fav-meta">来自 ${escapeHtml(f.sourceDate)} · ${escapeHtml((f.sourceTitle || "").slice(0, 60))}${(f.sourceTitle || "").length > 60 ? "…" : ""}</div>
         </div>
@@ -759,7 +848,7 @@ function renderFavoritesPage() {
         </div>
       </div>
       <div class="fav-meaning">${escapeHtml(f.meaning)}</div>
-      <div class="fav-example">${escapeHtml(f.exampleEn)}<div class="fav-example-cn">${escapeHtml(f.exampleCn)}</div></div>
+      <div class="fav-example">${escapeHtml(f.exampleEn)} ${speakBtnHtml(f.exampleEn, false)}<div class="fav-example-cn">${escapeHtml(f.exampleCn)}</div></div>
       <div class="fav-tags" data-id="${f.id}">
         ${f.tags.map(t => `<span class="fav-tag">${escapeHtml(t)}<span class="x" data-tag="${escapeHtml(t)}" data-id="${f.id}">×</span></span>`).join("")}
         <input type="text" class="fav-tag-input" placeholder="+ 添加标签…" data-id="${f.id}">
