@@ -16,7 +16,7 @@ OUTPUT = ROOT / "docs" / "news.json"
 MAX_ROUNDS = 2
 
 sys.path.insert(0, str(ROOT / "scripts"))
-from generate_with_claude_code import call_claude_code
+from generate_with_claude_code import call_claude_code, collect_used_words
 
 TODAY = os.environ.get("TODAY", date.today().isoformat())
 
@@ -46,6 +46,10 @@ def main():
 
     print(f"  发现 {len(failed)} 条失败，开始重试...")
 
+    # 收集历史已选词汇作为排除清单（含已修复故事的新词、当天其它成功故事的词）
+    used_words = collect_used_words()
+    print(f"  📚 历史已选词汇 {len(used_words)} 个，将作为排除清单")
+
     for round_num in range(1, MAX_ROUNDS + 1):
         failed = get_failed(stories)
         if not failed:
@@ -60,7 +64,7 @@ def main():
                 "category": s["category"],
             }
             print(f"    [{idx}] {candidate['title'][:60]}...")
-            content = call_claude_code(candidate)
+            content = call_claude_code(candidate, exclude_words=used_words)
             if content:
                 stories[idx].update({
                     "headlineCn": content.get("headlineCn", ""),
@@ -69,6 +73,11 @@ def main():
                     "excerpt": content.get("excerpt", ""),
                     "vocab": (content.get("vocab") or [])[:5],
                 })
+                # 累加这次新选的词到排除集，给后续重试用
+                for v in content.get("vocab") or []:
+                    w = (v.get("word") or "").strip().lower()
+                    if w and "生成失败" not in w and not w.startswith("（"):
+                        used_words.add(w)
                 print(f"        ✅ {content.get('headlineCn', '')[:30]}")
                 with open(OUTPUT, "w", encoding="utf-8") as f:
                     json.dump(data, f, ensure_ascii=False, indent=2)

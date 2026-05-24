@@ -76,8 +76,28 @@ PROMPT_TEMPLATE = """你是一位专业的英语教学助理，正在为一位 {
 7. 中文内容里不要使用直引号 " "，改用书名号《》或角引号「」，否则会破坏 JSON 格式"""
 
 
-def call_claude_code(candidate: dict, retries: int = 2) -> dict | None:
-    """调用 claude -p 生成内容。失败时重试 1 次。"""
+def collect_used_words() -> set:
+    """从现有 news.json 收集所有已选过的词汇（小写归一）"""
+    if not OUTPUT.exists():
+        return set()
+    try:
+        with open(OUTPUT, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return set()
+    used = set()
+    for day_data in data.get("days", {}).values():
+        for story in day_data.get("stories", []):
+            for v in story.get("vocab", []) or []:
+                w = (v.get("word") or "").strip().lower()
+                # 跳过失败兜底占位符
+                if w and "生成失败" not in w and not w.startswith("（"):
+                    used.add(w)
+    return used
+
+
+def call_claude_code(candidate: dict, retries: int = 2, exclude_words: set | None = None) -> dict | None:
+    """调用 claude -p 生成内容。失败时重试 1 次。exclude_words 是已选过、需避免重复的词汇集合。"""
     prompt = PROMPT_TEMPLATE.format(
         level=LEVEL,
         title=candidate["title"],
@@ -85,6 +105,14 @@ def call_claude_code(candidate: dict, retries: int = 2) -> dict | None:
         source=candidate["source"],
         category=candidate["category"],
     )
+    if exclude_words:
+        # 按字母排序便于 Claude 扫描；过多时只保留最近 500 个
+        excl = sorted(exclude_words)[:500]
+        prompt += (
+            "\n\n**避免与历史重复**：以下词汇/短语在过往新闻中已选过，请优先挑选不在此列表中的新词。"
+            "只有当这条新闻的核心概念恰好就是其中某个词时，才可保留该词。\n"
+            + ", ".join(excl)
+        )
 
     for attempt in range(retries):
         try:
@@ -156,9 +184,9 @@ def template_fallback(candidate: dict) -> dict:
     }
 
 
-def build_story(candidate: dict, idx: int, date_str: str) -> dict:
+def build_story(candidate: dict, idx: int, date_str: str, exclude_words: set | None = None) -> dict:
     print(f"  [{idx + 1}/5] {candidate['title'][:60]}...")
-    content = call_claude_code(candidate)
+    content = call_claude_code(candidate, exclude_words=exclude_words)
     if content is None:
         print(f"        ⚠️ 生成失败，使用兜底内容")
         content = template_fallback(candidate)
@@ -221,7 +249,18 @@ def main():
         print("⚠️ No candidates today, skipping")
         return
 
-    stories = [build_story(c, i, date_str) for i, c in enumerate(candidates)]
+    # 收集历史已选词汇，并在生成过程中逐条累加，避免同一天内 5 条故事互相重复
+    used_words = collect_used_words()
+    print(f"📚 历史已选词汇 {len(used_words)} 个，将作为排除清单")
+    stories = []
+    for i, c in enumerate(candidates):
+        story = build_story(c, i, date_str, exclude_words=used_words)
+        stories.append(story)
+        # 把这条故事新选的词追加进排除集，给下一条用
+        for v in story.get("vocab", []):
+            w = (v.get("word") or "").strip().lower()
+            if w and "生成失败" not in w and not w.startswith("（"):
+                used_words.add(w)
 
     existing = load_existing()
     days = existing.get("days", {})
