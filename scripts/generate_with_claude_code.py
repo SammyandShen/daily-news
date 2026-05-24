@@ -123,7 +123,7 @@ def call_claude_code(candidate: dict, retries: int = 2, exclude_words: set | Non
                 env=ENV_FOR_CLAUDE,
                 capture_output=True,
                 text=True,
-                timeout=120,  # 2 分钟超时
+                timeout=240,  # 4 分钟超时（带历史词汇排除清单后 prompt 略长，留足余量）
                 check=True,
             )
             # --output-format json 把 Claude 的回复放在 result 字段，已正确转义
