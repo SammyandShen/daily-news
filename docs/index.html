@@ -162,9 +162,21 @@
   .writing-hint { font-size: 14px; color: #4a5568; background: #fefce8; border: 1px solid #fde68a; padding: 10px 16px; border-radius: 8px; margin-bottom: 16px; line-height: 1.6; }
   .writing-textarea { width: 100%; min-height: 80px; padding: 12px 14px; border: 2px solid #e0e6f0; border-radius: 10px; font-size: 14px; resize: vertical; outline: none; font-family: inherit; line-height: 1.6; }
   .writing-textarea:focus { border-color: #1a365d; }
+  .writing-input { width: 100%; padding: 12px 14px; border: 2px solid #e0e6f0; border-radius: 10px; font-size: 16px; outline: none; font-family: inherit; }
+  .writing-input:focus { border-color: #1a365d; }
   .writing-result { margin-top: 14px; padding: 14px 16px; background: #f7fafc; border-radius: 10px; }
   .writing-result .wr-label { font-size: 11px; font-weight: 700; color: #718096; text-transform: uppercase; margin-bottom: 4px; }
   .writing-result .wr-ref { font-size: 13.5px; color: #2d3748; }
+  .exercise-mode-badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 10px; margin-bottom: 14px; letter-spacing: 0.5px; }
+  .mode-cloze { background: #e6f3ff; color: #2c5282; }
+  .mode-translate { background: #fefce8; color: #b7791f; }
+  .cloze-sentence { font-size: 17px; line-height: 1.7; color: #2d3748; padding: 16px 18px; background: #f7fafc; border-radius: 10px; margin-bottom: 12px; font-weight: 500; }
+  .cloze-blank { display: inline-block; min-width: 80px; padding: 0 10px; margin: 0 2px; border-bottom: 3px solid #1a365d; font-weight: 700; color: #1a365d; }
+  .feedback-correct { background: #f0fff4 !important; border: 2px solid #68d391; }
+  .feedback-correct .wr-label { color: #276749 !important; }
+  .feedback-wrong { background: #fff5f5 !important; border: 2px solid #fc8181; }
+  .feedback-wrong .wr-label { color: #c53030 !important; }
+  .feedback-icon { font-size: 18px; margin-right: 6px; vertical-align: middle; }
   .review-summary { background: #fff; border-radius: 16px; padding: 36px 40px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-align: center; }
   .review-summary h2 { font-size: 24px; color: #1a365d; margin-bottom: 20px; }
   .review-stat-row { display: flex; justify-content: center; gap: 32px; margin-bottom: 20px; flex-wrap: wrap; }
@@ -713,12 +725,55 @@ function showFlashcard(page) {
   }
 }
 
+// 把例句中的目标词（含词形变化）替换为 ____，并返回原文中被替换的实际字符串
+function buildCloze(text, word) {
+  if (!text || !word) return { masked: text, expected: "", found: false };
+  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const trimmed = word.trim();
+  // 尝试1：整词/短语精确匹配
+  let pat = new RegExp("\\b" + escRe(trimmed) + "\\b", "i");
+  let m = text.match(pat);
+  if (m) return { masked: text.replace(pat, "____"), expected: m[0], found: true };
+  // 尝试2：第一个词的词干 + 任意后缀（处理 revamp→revamped、reduce→reducing 等规则变化）
+  const firstWord = trimmed.split(/\s+/)[0];
+  const rest = trimmed.slice(firstWord.length); // 短语剩余部分如 " public"
+  const stem = firstWord.length > 4 ? firstWord.slice(0, -2) : firstWord.length > 2 ? firstWord.slice(0, -1) : firstWord;
+  pat = new RegExp("\\b" + escRe(stem) + "\\w*" + escRe(rest) + "\\b", "i");
+  m = text.match(pat);
+  if (m) return { masked: text.replace(pat, "____"), expected: m[0], found: true };
+  return { masked: text, expected: "", found: false };
+}
+
+// 判断用户填空是否正确（容忍大小写、词形变化）
+function clozeMatches(userInput, expected, baseWord) {
+  if (!userInput) return false;
+  const u = userInput.trim().toLowerCase();
+  const e = (expected || "").toLowerCase();
+  const w = (baseWord || "").toLowerCase();
+  if (u === e || u === w) return true;
+  // 词干模糊匹配：取前 N-2 字符
+  const stem = s => s.length > 4 ? s.slice(0, -2) : s;
+  if (stem(u) === stem(e) && u.length >= e.length - 2) return true;
+  if (stem(u) === stem(w) && u.length >= w.length - 2) return true;
+  return false;
+}
+
 function handleRating(rating, page) {
   const s = reviewSession;
   const item = s.queue[s.currentIdx];
   applyReview(item.id, rating);
   s.results[rating]++;
-  if (rating === "forgot") s.forgotItems.push(item);
+  if (rating === "forgot") {
+    // 进入造句练习队列时即决定模式（避免重渲染时模式跳变）
+    const cloze = buildCloze(item.exampleEn, item.word);
+    const wantCloze = cloze.found && Math.random() < 0.5;
+    s.forgotItems.push({
+      ...item,
+      exerciseMode: wantCloze ? "cloze" : "translate",
+      clozeText: wantCloze ? cloze.masked : null,
+      clozeExpected: wantCloze ? cloze.expected : null,
+    });
+  }
   s.currentIdx++;
   s.flipped = false;
   updateReviewBadge();
@@ -732,38 +787,81 @@ function showWritingExercise(page) {
   if (idx >= total) { s.phase = "done"; showReviewSummary(page); return; }
   const item = s.forgotItems[idx];
   const submitted = s.writingSubmitted;
-  // Show only first sentence of meaning as hint
-  const hintFull = item.meaning || "";
-  const dotIdx = hintFull.indexOf("。");
-  const hint = dotIdx >= 0 ? hintFull.slice(0, dotIdx + 1) : hintFull.slice(0, 60);
-  page.innerHTML = `
+  const isCloze = item.exerciseMode === "cloze";
+  const modeBadge = isCloze
+    ? `<span class="exercise-mode-badge mode-cloze">📝 选词填空</span>`
+    : `<span class="exercise-mode-badge mode-translate">🌏 中译英</span>`;
+  const header = `
     <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
-      <h1>✏️ 造句练习</h1>
-      <div class="subtitle">${idx + 1} / ${total} · 强化记忆「忘了」的词汇</div>
-    </header>
-    <div class="review-hero" style="text-align:left;">
-      <div class="writing-word">${escapeHtml(item.word)} ${speakBtnHtml(item.word, true)} <span style="font-size:15px;color:#718096;font-weight:400;font-style:italic;">${escapeHtml(item.pos)}</span></div>
-      <div class="writing-hint">💡 ${escapeHtml(hint)}</div>
-      <div style="margin-bottom:10px;font-size:13.5px;color:#4a5568;">用 <strong>${escapeHtml(item.word)}</strong> 写一个英文句子：</div>
-      <textarea class="writing-textarea" id="writing-input" placeholder="在这里输入你的句子… (Ctrl+Enter 提交)">${submitted ? escapeHtml(submitted.userText) : ""}</textarea>
-      ${submitted ? `
+      <h1>✏️ 强化练习</h1>
+      <div class="subtitle">${idx + 1} / ${total} · 加深「忘了」的词汇</div>
+    </header>`;
+  const wordTitle = `<div class="writing-word">${escapeHtml(item.word)} ${speakBtnHtml(item.word, true)} <span style="font-size:15px;color:#718096;font-weight:400;font-style:italic;">${escapeHtml(item.pos)}</span></div>`;
+
+  let body = "";
+  if (isCloze) {
+    // 填空模式：显示挖空后的英文 + 中文提示，单行输入
+    const clozeHtml = escapeHtml(item.clozeText).replace(/____/g, '<span class="cloze-blank">____</span>');
+    body = `
+      ${modeBadge}
+      ${wordTitle}
+      <div class="cloze-sentence">${clozeHtml}</div>
+      <div class="writing-hint" style="margin-bottom:14px;">💡 ${escapeHtml(item.exampleCn)}</div>
+      <input type="text" class="writing-input" id="writing-input" autocomplete="off" autocapitalize="off" placeholder="填入合适的词…" value="${submitted ? escapeHtml(submitted.userText) : ""}" ${submitted ? "disabled" : ""}>`;
+  } else {
+    // 中译英模式：显示中文 + 提示，多行输入
+    body = `
+      ${modeBadge}
+      ${wordTitle}
+      <div class="cloze-sentence">${escapeHtml(item.exampleCn)}</div>
+      <div class="writing-hint" style="margin-bottom:14px;">💡 必须使用 <strong>${escapeHtml(item.word)}</strong>（可以是任意词形）</div>
+      <textarea class="writing-textarea" id="writing-input" placeholder="翻译成英文… (Ctrl+Enter 提交)" ${submitted ? "disabled" : ""}>${submitted ? escapeHtml(submitted.userText) : ""}</textarea>`;
+  }
+
+  // 结果反馈区
+  let resultArea = "";
+  if (submitted) {
+    if (isCloze) {
+      const correct = clozeMatches(submitted.userText, item.clozeExpected, item.word);
+      const cls = correct ? "feedback-correct" : "feedback-wrong";
+      const icon = correct ? "✅" : "❌";
+      const label = correct ? "答对了" : "不太对";
+      resultArea = `
+        <div class="writing-result ${cls}" style="margin-top:14px;">
+          <div class="wr-label"><span class="feedback-icon">${icon}</span>${label}</div>
+          <div class="wr-ref">
+            你填：<strong>${escapeHtml(submitted.userText || "(空)")}</strong>
+            ${correct ? "" : ` &nbsp;·&nbsp; 正确答案：<strong style="color:#276749;">${escapeHtml(item.clozeExpected)}</strong>`}
+          </div>
+        </div>
+        <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
+          <div class="wr-label">完整例句</div>
+          <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
+        </div>`;
+    } else {
+      resultArea = `
         <div class="writing-result" style="margin-top:14px;">
           <div class="wr-label">你写的</div>
           <div class="wr-ref">${escapeHtml(submitted.userText || "(已跳过)")}</div>
         </div>
         <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
-          <div class="wr-label">参考例句</div>
+          <div class="wr-label">参考译文</div>
           <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
-          <div style="font-size:12px;color:#718096;margin-top:4px;">${escapeHtml(item.exampleCn)}</div>
-        </div>
-        <div style="display:flex;justify-content:flex-end;margin-top:16px;">
-          <button class="btn btn-primary" id="next-writing-btn">${idx + 1 < total ? "下一个 →" : "完成练习 ✓"}</button>
-        </div>` : `
-        <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px;">
-          <button class="btn" id="skip-writing-btn">跳过</button>
-          <button class="btn btn-primary" id="submit-writing-btn">提交并看参考</button>
-        </div>`}
+        </div>`;
+    }
+  }
+
+  const buttons = submitted ? `
+    <div style="display:flex;justify-content:flex-end;margin-top:16px;">
+      <button class="btn btn-primary" id="next-writing-btn">${idx + 1 < total ? "下一个 →" : "完成练习 ✓"}</button>
+    </div>` : `
+    <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px;">
+      <button class="btn" id="skip-writing-btn">跳过</button>
+      <button class="btn btn-primary" id="submit-writing-btn">${isCloze ? "提交" : "提交并看参考"}</button>
     </div>`;
+
+  page.innerHTML = `${header}<div class="review-hero" style="text-align:left;">${body}${resultArea}${buttons}</div>`;
+
   if (!submitted) {
     const doSubmit = () => {
       s.writingSubmitted = { userText: document.getElementById("writing-input").value.trim() };
@@ -771,7 +869,15 @@ function showWritingExercise(page) {
     };
     document.getElementById("skip-writing-btn").addEventListener("click", () => { s.writingSubmitted = { userText: "" }; showWritingExercise(page); });
     document.getElementById("submit-writing-btn").addEventListener("click", doSubmit);
-    document.getElementById("writing-input").addEventListener("keydown", e => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter") doSubmit(); });
+    const inp = document.getElementById("writing-input");
+    inp.focus();
+    inp.addEventListener("keydown", e => {
+      // 填空模式回车直接提交；中译英只接受 Ctrl+Enter（避免换行误触发）
+      if (e.key === "Enter" && (isCloze || e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        doSubmit();
+      }
+    });
   } else {
     document.getElementById("next-writing-btn").addEventListener("click", () => { s.writingIdx++; s.writingSubmitted = null; showWritingExercise(page); });
   }
