@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-05-24T23:14:10.414600+00:00",
+  "lastUpdated": "2026-05-25T23:14:06.200801+00:00",
   "level": "B2",
   "days": {
+    "2026-05-25": {
+      "label": "5月25日 (周一)",
+      "stories": [
+        {
+          "id": "20260525-1",
+          "category": "tech",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/5630ed79-a263-41ed-9a1a-321617ae310e",
+          "headlineEn": "AI Guardrails Stripped from Meta and Google Models in Minutes",
+          "headlineCn": "Meta和谷歌AI安全护栏数分钟内遭破解",
+          "summaryEn": "Researchers have found that safety guardrails built into Meta and Google's AI models can be removed in minutes using specialized software. These jailbreaking tools bypass content filters that prevent harmful outputs, enabling models to generate detailed instructions on biological weapons and malware. The findings expose a critical gap between AI companies' stated safety commitments and real-world model robustness, raising urgent questions about whether current guardrails can resist deliberate misuse at scale.",
+          "summaryCn": "研究人员发现，Meta和谷歌AI模型内置的安全护栏可在数分钟内被专用软件彻底移除。这类「越狱」工具能绕过内容过滤机制，使模型生成涉及生物武器和恶意软件的详细指令。此事件暴露了AI企业公开承诺的安全标准与模型实际抗攻击能力之间的巨大落差，令外界对现有机制能否有效防范大规模蓄意滥用产生严重质疑。",
+          "excerpt": "Safety software designed to strip guardrails from major AI models can be deployed in under five minutes, researchers warn. The resulting systems freely provide guidance on creating biological weapons and writing malware, exposing deep flaws in how leading AI labs implement content restrictions.",
+          "vocab": [
+            {
+              "word": "guardrail",
+              "pos": "n.",
+              "meaning": "（AI／监管领域的）安全护栏、限制边界。比 safeguard 或 restriction 更形象，已成为AI安全讨论的专用高频术语，暗含「防止系统越轨」的隐喻，读AI安全报告必掌握。",
+              "etymology": "由古英语 gyrdan（围住）与 rail（横杆）合成；原指道路边缘防止车辆坠落的金属护栏，20世纪引申至法规与金融监管的「限制边界」，2020年代起专指AI系统安全约束机制。",
+              "morphology": "guard（保护）+ rail（轨道／横杆）构成复合名词。同族词：bodyguard（保镖）、safeguard（保障措施）；rail 同族：railing（栏杆）、railroad（铁路）。",
+              "mnemonic": "想象高速公路边的金属护栏，防止汽车冲出去——AI系统的 guardrail 就是防止模型「冲出界」说出危险内容的那道栏，画面感强，一记就牢。",
+              "exampleEn": "Regulators are demanding stronger guardrails on generative AI to prevent the spread of dangerous misinformation.",
+              "exampleCn": "监管机构要求对生成式AI建立更严格的安全护栏，以防危险虚假信息扩散。"
+            },
+            {
+              "word": "jailbreak",
+              "pos": "v. / n.",
+              "meaning": "（使AI模型）越狱，即通过特殊提示词绕过安全限制；原指越狱逃跑，后指破解iOS系统，现已成为AI安全核心术语，掌握此词可读懂绝大多数AI安全报告。",
+              "etymology": "jail 源自古法语 jaole（囚笼）+ break 源自古英语 brecan（打破）；1970年代指囚犯越狱，2007年起指破解iPhone系统锁定，2022年起专指通过提示词绕过AI安全约束。",
+              "morphology": "jail（监禁）+ break（突破）构成复合词，可兼作动词与名词。近义复合词：breakout（突围）、bypass（绕过）；同结构词：daybreak（黎明）、groundbreaking（突破性的）。",
+              "mnemonic": "把AI的安全规则想象成一座监狱——jailbreak 就是越狱，精心设计的提示词就是那把撬锁工具，帮模型「冲出牢笼」。监狱画面鲜活，绝不会忘。",
+              "exampleEn": "Security researchers published a new technique to jailbreak large language models using carefully crafted role-play prompts.",
+              "exampleCn": "安全研究人员发布了一种通过精心设计的角色扮演提示词越狱大型语言模型的新技术。"
+            },
+            {
+              "word": "circumvent",
+              "pos": "v.",
+              "meaning": "绕过、规避（规则、系统、限制）；比 bypass 更正式，常见于法律、技术、监管语境，带有「聪明地找漏洞」的含义；与 avoid 的区别在于强调主动设法绕开既定障碍。",
+              "etymology": "来自拉丁语 circumvenire：circum（周围）+ venire（走来）；原义「从四面包围、用计谋困住敌人」，后语义翻转为「通过迂回路线逃脱障碍」，颇具戏剧性的演变。",
+              "morphology": "circum-（环绕，如 circumference 圆周、circumstance 环境）+ -ven-（来走，如 prevent 预防、convene 召集）+ -t（动词词尾）。",
+              "mnemonic": "circum = circle（圆圈）——circumvent 就是「绕着圆圈走过去」，面对障碍不正面突破，而是兜一个圈子避开，路线图即是记忆图。",
+              "exampleEn": "The startup circumvented export controls by routing its chip shipments through a third-country intermediary.",
+              "exampleCn": "该初创公司通过第三国中间商转运芯片，从而规避了出口管制。"
+            },
+            {
+              "word": "proliferate",
+              "pos": "v.",
+              "meaning": "（数量）激增、迅速扩散；比 spread 或 increase 更学术正式，常用于武器、技术、病毒等「令人担忧的事物」快速蔓延，自带隐性负面色彩，财经与科技新闻中高频出现。",
+              "etymology": "来自拉丁语 proles（后代）+ ferre（携带／产生）；生物学原义「快速繁殖」，20世纪因「核扩散」（nuclear proliferation）进入政治语汇，现广泛用于技术与信息领域的扩散。",
+              "morphology": "proli-（后代，如 proletariat 无产阶级）+ -fer-（携带，如 transfer 转移、fertile 肥沃的）+ -ate（动词后缀）。派生词：proliferation（n. 扩散）、proliferative（adj. 增殖性的）。",
+              "mnemonic": "pro（向前）+ life（生命）——想象生命体不断向前疯狂繁殖蔓延，速度极快，用「生命前进」联想牢记「激增扩散」这一核心含义。",
+              "exampleEn": "Deepfake creation tools have proliferated online, making it increasingly difficult to verify the authenticity of footage.",
+              "exampleCn": "深度伪造内容制作工具已在网上迅速扩散，使核实影像真实性愈发困难。"
+            },
+            {
+              "word": "red-team",
+              "pos": "v.",
+              "meaning": "对（系统／计划）进行红队测试，即模拟攻击者视角主动寻找漏洞；源自军事对抗演练，在AI安全领域高频出现，比 test 或 evaluate 更专业，暗含「主动对抗性探测」的含义。",
+              "etymology": "冷战军事术语：red（红色，代指苏联／敌方）+ team（小组）；原指模拟苏联军队来检验己方防御的团队，1990年代泛化为任何「扮演攻击者」的安全测试活动，后动词化。",
+              "morphology": "red（颜色词，象征对立方）+ team（团队）构成复合词后动词化。相关术语：blue team（防御方）、purple team（红蓝协同）；同类复合动词：stress-test（压力测试）、sandbox（沙盒化）。",
+              "mnemonic": "想象一队穿红色制服的「假想敌」来攻击你的系统——红队就是「友军扮演的敌人」，专门找破绽。红色对立的画面让人一秒记住其含义。",
+              "exampleEn": "Before launch, the company hired independent researchers to red-team its AI assistant for potential misuse scenarios.",
+              "exampleCn": "发布前，该公司聘请独立研究人员对其AI助手进行红队测试，排查潜在的滥用场景。"
+            }
+          ]
+        },
+        {
+          "id": "20260525-2",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/gadgets/936610/apple-macbook-air-m5-memorial-day-2026-deal-sale",
+          "headlineEn": "Apple MacBook Air M5 Gets $200 Discount Ahead of Memorial Day",
+          "headlineCn": "苹果 MacBook Air M5 趁阵亡将士纪念日大促降价 200 美元",
+          "summaryEn": "Apple's latest MacBook Air, powered by the M5 chip and 16GB of RAM, is now $200 off at Amazon in both 13-inch and 15-inch configurations ahead of Memorial Day weekend. The MacBook Air is widely praised for its fanless design and power-efficient architecture, making it a laptop that holds up well for several years. For consumers already in the market for a premium ultrabook, this sale lands at the sweet spot of timing and value — making it one of the more compelling laptop deals of the season.",
+          "summaryCn": "苹果最新款 MacBook Air 正在亚马逊以 200 美元折扣促销，13 英寸和 15 英寸两款均在活动之列，正值阵亡将士纪念日长周末前夕。这款搭载 M5 芯片、配备 16GB 内存的笔记本以无风扇设计和出色能效著称，性能预计可延续多年。对于正在物色高性能超薄本的消费者来说，此次折扣在时机与性价比两方面都堪称「甜蜜区间」，是本季度颇具吸引力的笔记本优惠之一。",
+          "excerpt": "Apple's latest MacBook Air, equipped with an M5 chip and 16GB of RAM, is available at Amazon for $200 off its regular price — in both 13-inch and 15-inch sizes — as part of a Memorial Day promotion. If you've been putting off buying a new laptop, this may be the nudge you need.",
+          "vocab": [
+            {
+              "word": "compelling",
+              "pos": "adj.",
+              "meaning": "令人信服的、极具吸引力的。商业语境中常用于描述「无法拒绝的价值主张」，比 attractive 更强调逻辑上的说服力，暗示对方很难找到理由拒绝；常见搭配：a compelling offer / compelling evidence / compelling reason",
+              "etymology": "来自拉丁语 compellere（com-「一起、加强」+ pellere「推、驱动」），原义为「强迫、驱使」，演变为「使人不得不信服」，现用于形容理由充分、令人折服的事物",
+              "morphology": "com-（加强前缀）+ -pel-（推动，词根源自拉丁 pellere）+ -ling（现在分词后缀）→ compelling。同词根扩展：propel（推进）、expel（驱逐）、repel（排斥）——均含「推」的核心义",
+              "mnemonic": "想象一块强力磁铁把你「推着走」，毫无抗拒余地——compelling 就是那种让你「不得不买、不得不信」的感觉。记忆口诀：com（来）+ pel（推）→ 被推着走，抵挡不住",
+              "exampleEn": "The startup presented a compelling case for its subscription model, convincing investors to fund another round.",
+              "exampleCn": "这家初创公司为其订阅模式提出了极具说服力的论据，成功说服投资者追加融资。"
+            },
+            {
+              "word": "longevity",
+              "pos": "n.",
+              "meaning": "持久性、长期可用性。在科技与消费电子语境中，指产品能长期保持良好性能的能力，比 durability（耐用性）更强调「时间跨度与生命周期」；常见搭配：product longevity、software longevity、battery longevity",
+              "etymology": "来自拉丁语 longaevitas（longus「长的」+ aevum「时代、生命」），原指人的「长寿」，后延伸到产品、组织或政策的「持续性与生命力」",
+              "morphology": "long-（长）+ -aev-（时代，同 medieval 的词根 aev-）+ -ity（名词后缀）→ longevity。同词根扩展：medieval（中世纪的，med-「中间」+ aev-）、primeval（原始时代的，prime-「最初」+ aev-）",
+              "mnemonic": "longevity 拆成 long + age + -ity，就是「能活很长时间」。想象一棵千年银杏树，树干上刻着「LONGEVITY」——时间越长，价值越高",
+              "exampleEn": "The company's reputation for product longevity has made it a trusted brand among enterprise customers who cannot afford frequent hardware upgrades.",
+              "exampleCn": "该公司产品经久耐用的口碑，使其成为无力频繁升级硬件的企业客户最信赖的品牌之一。"
+            },
+            {
+              "word": "snap up",
+              "pos": "phrasal v.",
+              "meaning": "抢购、迅速买下。强调「速度快且带有强烈购买欲」，比 buy 更生动，常用于限时折扣、热门商品被迅速售罄的场景；在财经报道中也频繁出现于股票与资产抢购语境，例：snap up shares / snap up a bargain",
+              "etymology": "snap 来自中古荷兰语 snappen（「咬住、抓取」），与「啪的一声猛然抓住」的动作意象相关；up 作小品词强化「完全取走、一扫而空」的完成义；整个短语形象描述「像动物咬猎物一样迅速抢到」的行为",
+              "morphology": "snap（咬、抓）+ up（完成义小品词）→ 复合短语动词，无独立词源。近义短语比较：scoop up（铲走，更强调「一大批」）、pounce on（扑向，更强调「机会突然出现」）；反义：pass on（放弃）、let go（放手）",
+              "mnemonic": "想象鳄鱼张嘴「啪！」一声咬住猎物——snap up 就是消费者在促销时像鳄鱼一样「迅速咬住」好价格，绝不松口。听到那声「snap」，东西就没了",
+              "exampleEn": "Investors snapped up shares of the semiconductor firm within minutes of the earnings beat announcement.",
+              "exampleCn": "业绩超预期公告发布后，投资者在数分钟内就抢购了这家半导体公司的股票。"
+            },
+            {
+              "word": "sweet spot",
+              "pos": "phrase",
+              "meaning": "最佳平衡点、甜蜜区间。来自体育击球意象，在商业与科技语境中指「价格、性能、时机等多方因素达到最优交叉点」，是产品评测与消费决策报道的高频表达；比 optimal point 更口语化且形象，常见搭配：hit the sweet spot / find the sweet spot",
+              "etymology": "源自体育用语，指球拍或球棒上「击球效果最好的位置」（sweet 意为最顺手有效；spot 意为点位）。1970 年代起被引入商业和工程领域，泛指「各因素达到最优平衡的区间」",
+              "morphology": "sweet（甜蜜、最佳）+ spot（点、位置）→ 复合名词短语，无独立词源。相关表达：hit the sweet spot（恰到好处，动词短语形式）、Goldilocks zone（同义，天文与经济学常用，源自「三只熊」童话）",
+              "mnemonic": "想象网球拍正中央画了一颗糖果——击中那里球飞得最远、最稳、最甜。sweet spot 就是「刚刚好、甜到心坎里」的那个完美点位，不多不少恰恰好",
+              "exampleEn": "The new mid-range smartphone hits the sweet spot between processing power and battery life, appealing to budget-conscious professionals.",
+              "exampleCn": "这款新款中端智能手机在处理性能与续航之间找到了完美平衡，深受注重性价比的职场人士青睐。"
+            },
+            {
+              "word": "in the market for",
+              "pos": "phrase",
+              "meaning": "正在物色、有意购买（某物）。是消费与商业语境中表达「有明确购买意向、已进入考虑阶段」的地道说法，比 looking for 更正式且特指「有购买意愿」而非泛泛寻找；也可用于企业并购语境，例：in the market for an acquisition",
+              "etymology": "market 来自拉丁语 mercatus（「交易、买卖场所」）；in the market 原指「处于交易活跃状态中」，19 世纪起引申固定为「正在积极寻找买入机会」的短语，强调主动意图",
+              "morphology": "in（处于）+ the market（市场/买卖状态）+ for（目标对象）→ 介词短语，无独立词源。近义比较：shopping for（更口语，强调「在逛」）、looking to buy（直白表达购买意图）；并购语境近义：on the lookout for（留意寻找）",
+              "mnemonic": "想象自己站在「市集」里，手里已经拿着购物袋——in the market for something 就是「我已经进场了，就差找到那件东西」，不是随便逛逛，而是有备而来",
+              "exampleEn": "Several major tech firms are reportedly in the market for AI startups with proprietary training datasets.",
+              "exampleCn": "据报道，多家大型科技公司正在积极物色拥有专有训练数据集的人工智能初创企业。"
+            }
+          ]
+        },
+        {
+          "id": "20260525-3",
+          "category": "biz",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
+          "headlineEn": "Best Last-Minute Deals From REI's Giant Annual Anniversary Sale",
+          "headlineCn": "REI年度周年大促临近尾声，户外装备折扣不容错过",
+          "summaryEn": "REI's Anniversary Sale, the outdoor retailer's largest annual event, is still running with significant discounts on camping gear and essentials. Shoppers can save on tents, sleeping pads, and portable stoves — ideal timing ahead of summer trips. The sale highlights how brick-and-mortar retailers leverage perennial seasonal promotions to drive foot traffic and clear inventory, competing with e-commerce platforms for the wallets of outdoor enthusiasts.",
+          "summaryCn": "REI年度周年促销作为这家户外零售商全年规模最大的促销活动，目前仍在持续进行中，帐篷、睡垫和便携炉具等露营必备品均有大幅优惠。恰逢夏季户外出行高峰前夕，此刻入手装备可谓时机绝佳。这也折射出实体零售商如何借助年年举办的季节性促销活动来吸引客流、清理库存，并与电商平台争夺户外爱好者的消费份额。",
+          "excerpt": "REI's annual Anniversary Sale — the retailer's biggest of the year — is still going strong, offering steep discounts on outdoor essentials. Whether you need a tent, sleeping pad, or portable stove for an upcoming camping trip, now is an ideal moment to gear up before prices return to normal.",
+          "vocab": [
+            {
+              "word": "perennial",
+              "pos": "adj.",
+              "meaning": "经年不断的，长期反复出现的。商业语境中常用来描述「年年如期举办」的促销活动或「经久不衰」的热销品类，比 annual（仅指一年一次的频率）更强调持续性与可预期的重复性，带有「必然归来」的语气，是财经写作中描述周期性现象的高频词。",
+              "etymology": "源自拉丁语 perennis，由 per-（贯穿、穿越）与 annus（年）合成，原义「贯穿整年、持续一整年」，后演变为「多年持续」乃至「反复出现」，16世纪进入英语书面语。",
+              "morphology": "per-（贯穿/完全）+ enni-（年，词根 annus 的变体）+ -al（形容词后缀）。同词根扩展：annual（一年一度的）、anniversary（周年纪念）、biennial（两年一届的）、centennial（百年纪念的），构成一族「与年份相关」的核心词汇。",
+              "mnemonic": "把 perennial 拆成「per + annual」：per 是「贯穿」，annual 是「年度」，合起来就是「年年贯穿、年年都来」。想象 REI 的促销如同多年生植物（perennial plant）一样，每年春天必然冒头开花，从不爽约——花开了又开，促销来了又来。",
+              "exampleEn": "Black Friday has become a perennial event for retailers, reliably generating the highest sales volumes of the entire year.",
+              "exampleCn": "黑色星期五已成为零售商年年上演的固定大戏，稳定带来全年最高销售额。"
+            },
+            {
+              "word": "clearance (sale)",
+              "pos": "n.",
+              "meaning": "清仓特卖，指为清空库存而大幅降价出售商品。与泛义的 sale 相比，clearance 强调「腾出空间、处理积压」的动机，通常出现在季末或新款上市前，折扣力度更大、时效性更强。这个词在零售财报、门店标牌和商业新闻中极为常见，是读懂零售行业的必备词。",
+              "etymology": "clearance 源自动词 clear（清除），clear 来自拉丁语 clarus（明亮、清澈），引申为「清空、扫除障碍」；名词后缀 -ance 表行为或状态。零售语境中专指「通过降价来清空货架」这一商业行为。",
+              "morphology": "clear（清除）+ -ance（名词后缀，表行为/结果）。同后缀词：performance（表演）、insurance（保险）、endurance（耐力）。clear 的派生家族：clearly（副词）、clearance（名词）、to clear（动词）——注意 clearance 还有「通关许可/安全许可」义，一词多义需注意语境。",
+              "mnemonic": "想象超市货架被「清扫一空」（clear the shelf）的画面：折扣越狠，货架越空，clearance 就越彻底。sale 是「打折」，clearance sale 是「打折到货架见底」，层次感一目了然——清仓就是用价格换空间。",
+              "exampleEn": "The electronics brand launched a clearance sale at the end of Q4 to move unsold inventory before the new product line arrived.",
+              "exampleCn": "这家电子品牌在第四季度末发起清仓特卖，力争在新品系列上市前清空积压库存。"
+            },
+            {
+              "word": "inventory",
+              "pos": "n.",
+              "meaning": "库存；存货清单。商业必备词，既指仓库里的实物存货（physical inventory），也指库存管理这一行为（inventory management / inventory control）。比口语词 stock 更正式，常见于财务报表、供应链分析和零售业报道，是阅读英文财报的核心词汇之一。",
+              "etymology": "源自中世纪拉丁语 inventarium，由动词 invenire（发现、找到）派生，原义「通过清点找到并记录的物品清单」，即「盘点记录」。in-（进入）+ venire（来），合为「进来并被记录下来的东西」。",
+              "morphology": "in-（进入）+ ven-（来，词根 venire）+ -tory（名词后缀，表场所或事物集合）。同词根词：invent（发明，原义也是「发现」）、event（事件）、venture（冒险/风险投资）、convention（会议/惯例）——这一族词都有「来到/聚合」的底层含义。",
+              "mnemonic": "inventory = in + vent（来）+ ory（地方）：所有货物「进入（in）仓库这个地方（ory）」排成一列等待盘点，这就是 inventory。有趣的是它和 invent（发明）同根——发现新事物与清点已有存货，都是「找到（venire）」的过程，同根不同命。",
+              "exampleEn": "Apple tightly manages its global inventory levels to avoid both stockouts and excess supply ahead of major product launches.",
+              "exampleCn": "苹果严格管控全球库存水平，在重大新品发布前力求既不断货也不积压。"
+            },
+            {
+              "word": "savvy",
+              "pos": "adj. / n.",
+              "meaning": "精明的，有实战头脑的（形容词）；实战智慧（名词）。商业语境中常以复合词形式出现：deal-savvy（善于捡便宜的）、market-savvy（市场嗅觉灵敏的）、tech-savvy（精通技术的）。比 smart 更强调「由经验积累而成的机敏」，带有由衷赞赏的语气，是英文商业报道中描述精明消费者或投资者的首选词。",
+              "etymology": "借自英属加勒比海克里奥尔语，源头是葡萄牙语 saber（知道、懂得），与西班牙语 saber、法语 savoir 同源，最终追溯至拉丁语 sapere（有品味，有判断力）。航海时代由葡萄牙水手传入英语世界。",
+              "morphology": "无可分解词缀，系完整借词。同拉丁词根 sap-（有智慧）：sapient（有智慧的）、Homo sapiens（智人，字面义「懂得思考的人」）。savvy 词性灵活：形容词（a savvy investor）、名词（business savvy）、口语动词（You savvy? = Do you get it?）。",
+              "mnemonic": "发音近似「赛维」，联想「赛场上维持冷静、见招拆招的智者」。记忆公式：savvy ≈ savoir（法语「知道」）。也可记住固定搭配：tech-savvy 是硅谷标配词，凡是夸人「懂行、有实战经验」就用 savvy，比 smart 更有江湖气。",
+              "exampleEn": "Savvy consumers wait for REI's Anniversary Sale each year to purchase high-end outdoor gear at a fraction of the original price.",
+              "exampleCn": "精明的消费者每年都守着 REI 周年大促，以远低于原价的价格入手高端户外装备。"
+            },
+            {
+              "word": "brick-and-mortar",
+              "pos": "adj.",
+              "meaning": "实体（店铺）的，有形经营场所的。专指拥有实际物理地址的传统零售商，与纯线上的 e-commerce 或 online-only 相对。在描述零售格局时极为高频，隐含「传统商业模式正面临线上冲击」的语境压力，是财经新闻和商学院案例的标志性词汇，必须掌握。",
+              "etymology": "字面义「砖块与灰浆」——这两种材料是构成建筑物的基础，以「砖石建筑的实体」隐喻「拥有实体店面的商业模式」。纯英语隐喻构词，20世纪末随电商崛起而大量涌入财经报道，如今已固化为专业术语。",
+              "morphology": "复合形容词：brick（砖块）+ and + mortar（砂浆）。属意象型构词，无词源可拆解。相关衍生表达：brick-and-click（线上线下融合的零售模式）；对比词组：online-only、pure-play e-commerce、digital-first。掌握这组对比词可覆盖零售行业报道的核心词汇。",
+              "mnemonic": "想象一家用「砖头（brick）和水泥（mortar）」一块块砌起来的真实商店——沉甸甸、搬不走，这就是 brick-and-mortar。电商点点手机就下单，实体店得进去摸货、排队结账。砖头越沉，数字化转型越难——这个画面能让你一辈子记住这个词。",
+              "exampleEn": "Despite the rise of e-commerce, brick-and-mortar retailers like REI still attract loyal customers who prefer to try gear in person before committing to a purchase.",
+              "exampleCn": "尽管电商持续崛起，像 REI 这样的实体零售商仍能吸引喜欢亲自试用后再下单的忠实顾客。"
+            }
+          ]
+        },
+        {
+          "id": "20260525-4",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/trump-says-theres-no-rush-as-deal-to-end-iran-war-reopen-strait-of-hormuz-appears-close-c60056c0?mod=mw_rss_topstories",
+          "headlineEn": "Oil Prices Tumble as US-Iran Deal Nears, Strait of Hormuz May Reopen",
+          "headlineCn": "美伊协议临近油价大跌，霍尔木兹海峡或将重开",
+          "summaryEn": "Oil prices fell sharply Monday after reports indicated the United States is close to finalizing a deal to end its conflict with Iran and reopen the Strait of Hormuz — a critical waterway through which roughly 20% of the world's seaborne oil passes. Stock futures rallied on the news. However, President Trump cautioned there was 'no rush,' injecting uncertainty. A completed agreement would ease supply disruption fears, reduce geopolitical risk premiums baked into crude prices, and potentially unlock Iranian oil exports long blocked by sanctions.",
+          "summaryCn": "周一，油价大幅下跌，美股期货强劲上涨。据报道，美国与伊朗接近达成协议，有望终结双方冲突并重开霍尔木兹海峡——全球约20%的海运石油途经这一战略咽喉要道。然而，特朗普总统表示「并不着急」，为谈判前景增添不确定性。若协议最终落实，将缓解市场对供应中断的担忧，压低原油价格中的地缘政治风险溢价，并可能将长期遭受制裁封锁的伊朗原油重新释放至国际市场。",
+          "excerpt": "Oil prices were sharply lower Monday as reports suggested the U.S. may be on the verge of a deal to end its conflict with Iran. The potential agreement could reopen the Strait of Hormuz — a chokepoint through which roughly a fifth of the world's seaborne oil passes — easing fears of prolonged supply disruptions.",
+          "vocab": [
+            {
+              "word": "tumble",
+              "pos": "v.",
+              "meaning": "急速下跌、大幅下滑。比 fall 或 decline 更口语化、更戏剧化，常见于财经报道描述资产价格突然急剧下跌，暗含「失去控制地滚落」的意象。掌握此词可让财经英语写作更生动有力，避免一味用 fall 显得单调。",
+              "etymology": "来自古英语 tumbian（跳跃、翻滚），经中古英语演变，原指杂技演员翻筋斗，后引申为「失去平衡而跌落」，约14世纪进入英语。20世纪财经语言借用此词，专指价格急速、失控式下跌，保留了原词「骨碌碌滚落」的生动感。",
+              "morphology": "简单动词，无可拆解前后缀。常见派生：tumble（v./n.）→ tumbling（adj.，如 tumbling prices 暴跌的价格）。同义词梯度对比：slide（平缓下滑）< tumble（急速跌落，带失控感）< plunge（骤然暴跌）< collapse（彻底崩溃）。熟悉整条梯度，写作时可精准选词。",
+              "mnemonic": "想象杂技演员突然失去重心，「tumble」翻筋斗骨碌碌滚落舞台——油价就像这位失控的演员，从高处一路往下滚。记住：tumble 比 fall 戏剧化，比 plunge 没那么猛烈，财经头条最爱用它渲染气氛。",
+              "exampleEn": "Tech stocks tumbled more than 4% after the company issued a surprise profit warning ahead of its quarterly earnings report.",
+              "exampleCn": "该公司在季度财报发布前发出意外盈利预警，科技股随即骤跌逾4%。"
+            },
+            {
+              "word": "chokepoint",
+              "pos": "n.",
+              "meaning": "咽喉要道、战略瓶颈。特指航运或军事上极为关键、一旦封锁即可切断整条供应链的狭窄通道，如霍尔木兹海峡、马六甲海峡。财经语境中也泛指供应链上的关键节点。比 bottleneck 更强调地理或战略上的不可替代性，是能源与地缘政治报道的核心词汇。",
+              "etymology": "由 choke（窒息、卡住，来自古英语 aceocian）与 point（地点、节点）合成的复合词，20世纪军事战略语境中出现，原义为「能使敌方补给窒息的地理要点」，后扩展至能源、航运、供应链等经济领域，冷战时期随地缘政治分析普及而广泛传播。",
+              "morphology": "复合词：choke（v. 窒息、掐住）+ point（n. 地点）→ chokepoint（n.）。相关词族：chokehold（绞锁控制，体育/执法语境）、bottleneck（流量瓶颈，侧重容量限制而非战略封锁）。区别记忆：chokepoint 强调「被掐住脖子」的战略意义，bottleneck 强调「流速受阻」的效率问题。",
+              "mnemonic": "choke = 掐住脖子，point = 地点 →「掐住脖子的那个地方」。霍尔木兹海峡最窄处仅33公里，全球20%的石油从这里通过——掐住这里，全球石油供应就会「窒息」。画面感极强：两只手掐住地图上一个细细的水道。",
+              "exampleEn": "The Panama Canal remains a critical chokepoint for global trade; any disruption there sends ripple effects through supply chains across multiple industries.",
+              "exampleCn": "巴拿马运河仍是全球贸易的关键咽喉要道，一旦受阻，多个行业的供应链都将受到连锁冲击。"
+            },
+            {
+              "word": "geopolitical",
+              "pos": "adj.",
+              "meaning": "地缘政治的。描述受地理位置影响的国际政治关系。财经语境中最常见于「geopolitical risk」（地缘政治风险）与「geopolitical premium」（地缘政治溢价）——后者指油价因战争、制裁等政治不确定性而额外抬升的部分，是能源定价分析的必备术语。",
+              "etymology": "由希腊语 gē（大地）与 politikos（城邦的、政治的）合成，19世纪末由瑞典政治学家 Rudolf Kjellén 首创德语词 Geopolitik，20世纪初译入英语，冷战期间随超级大国博弈广泛普及，现已成为财经媒体描述国际风险的高频词。",
+              "morphology": "geo-（前缀，来自希腊语 gē，大地/地球）+ political（政治的）→ geopolitical（adj.）→ geopolitics（n. 地缘政治学）。同前缀扩展：geography（地理学）、geology（地质学）、geothermal（地热的）、geocentric（地心说的）。记住 geo- = 「与大地/地球相关」，横向扩词一网打尽。",
+              "mnemonic": "geo = 地球仪（想象课堂上那个大地球仪）+ political = 政治 →「在地球仪上落子布局的政治棋局」。中东产油国、东欧战线、台海通道——凡是地理位置决定国际政治走向的，都叫 geopolitical。",
+              "exampleEn": "Investors are pricing in a higher geopolitical risk premium as tensions in the Middle East threaten to disrupt global energy supplies.",
+              "exampleCn": "随着中东紧张局势威胁全球能源供应，投资者正将更高的地缘政治风险溢价纳入定价。"
+            },
+            {
+              "word": "ceasefire",
+              "pos": "n.",
+              "meaning": "停火协议、休战。军事冲突中双方正式同意停止战斗的安排。在大宗商品市场中，ceasefire 相关新闻往往直接触发原油价格剧烈波动，是影响能源定价的高频事件词。注意与 truce（非正式短暂休战）和 peace treaty（最终和平条约）的程度差异。",
+              "etymology": "由 cease（停止，来自古法语 cesser，源自拉丁语 cessare，意为「停下来、放弃行动」）与 fire（开枪/炮）构成，二战期间广泛使用，原指命令部队「停止射击」的军事指令，后泛化为任何正式停止军事行动的协议，现为国际新闻标准用词。",
+              "morphology": "cease（v. 停止）+ fire（n. 射击）→ ceasefire（n.）。程度梯度：ceasefire（停火，最初步）≈ truce（休战，较非正式）< armistice（停战协定，更正式，如一战停战协定）< peace treaty（和平条约，永久解决）。cease 的常见短语：cease and desist（法律停止令）、cease operations（停止运营）。",
+              "mnemonic": "cease = 「停！」（法律文书 cease and desist order 就是「停止令」）+ fire = 开枪 →「停止开枪」。关键记忆点：ceasefire 不等于 peace（和平），只是暂时先停下来不打，政治谈判仍在继续——就像这条新闻里，协议还没签，特朗普说「不着急」。",
+              "exampleEn": "Crude futures dropped 5% within minutes after news broke of a potential ceasefire agreement between the two warring nations in the region.",
+              "exampleCn": "该地区两个交战国可能达成停火协议的消息传出后，原油期货在数分钟内下跌5%。"
+            },
+            {
+              "word": "crude",
+              "pos": "n.",
+              "meaning": "原油（名词用法）。交易员和财经媒体惯用 crude 直接代替 crude oil，是典型的行业内简称。掌握此用法能让财经英语听起来更专业地道——不熟悉的人会误以为是形容词「粗糙的」，知道的人才明白这是能源交易行话，值得专项记忆。",
+              "etymology": "来自拉丁语 crudus，意为「生的、未处理的、原始状态的」，与 raw 同源，中世纪经由拉丁语进入英语，原指一切未经加工的天然物质。后逐渐专化于石油领域，crude oil（原油）再经名词化简省为 crude，成为交易员和分析师的日常用语。",
+              "morphology": "单一词根，来自拉丁语 crudus。派生词：crude（adj. 粗糙的/粗鄙的；n. 原油）→ crudely（adv. 粗糙地）→ crudeness / crudity（n. 粗糙、粗鄙）。注意多义陷阱：crude 作形容词有「未加工的」和「粗鲁无礼的」两种含义，作名词专指原油，务必依语境判断。",
+              "mnemonic": "crude = 「没有经过处理的原始东西」——石油从地下抽出来，黑乎乎脏兮兮，尚未经过「refinery」（炼油厂）精炼，就叫 crude。反义词联想：crude oil（原油）↔ refined oil（精炼油），crude 和 refined 是一对完美反义词，一记双得，顺带复习 refine（精炼、精进）。",
+              "exampleEn": "West Texas Intermediate crude fell below $70 a barrel on Monday, its lowest level in three months, as traders reassessed Middle East supply risks.",
+              "exampleCn": "周一，西德克萨斯中质原油跌破每桶70美元，创三个月新低，交易员正重新评估中东供应风险。"
+            }
+          ]
+        },
+        {
+          "id": "20260525-5",
+          "category": "econ",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/policy/937027/cox-media-marketing-ai-powered-phone-spying-ads-ftc-fine",
+          "headlineEn": "Cox Media Fined for Claiming It Secretly Spied on Users Via Phones",
+          "headlineCn": "FTC 罚款科克斯传媒：吹嘘可通过手机秘密监听用户",
+          "summaryEn": "The Federal Trade Commission has fined Cox Media Group and two marketing partners — MindSift and 1010 Digital Works — for boasting to advertisers that their technology could secretly listen to users' conversations through smartphones and smart devices. Despite scant evidence the capability was real, they marketed it as a targeted-advertising tool. The FTC ruled this constituted deceptive advertising, marking a significant enforcement action against firms that exploit consumer privacy fears for commercial gain.",
+          "summaryCn": "美国联邦贸易委员会对科克斯传媒集团及其两家合作营销公司 MindSift 和 1010 Digital Works 处以罚款。这些公司曾向广告商吹嘘，其技术可通过智能手机和智能设备秘密监听用户对话，并将此作为精准广告投放的卖点。尽管几乎没有证据证明该技术真实存在，FTC 仍裁定上述行为构成欺骗性广告宣传。此案是监管机构打击利用消费者隐私恐惧牟利行为的一次重要执法行动。",
+          "excerpt": "The Federal Trade Commission announced that Cox Media Group, MindSift, and 1010 Digital Works would pay fines after bragging to advertisers that their platform used ambient audio from phones and smart devices to serve targeted ads — a claim that drew sharp scrutiny despite scant evidence the technology actually worked.",
+          "vocab": [
+            {
+              "word": "brag",
+              "pos": "v.",
+              "meaning": "吹嘘、炫耀自身能力或成就。本文标题中指公司向广告商夸口自己的监听技术。与 boast 相比更口语化，语气更轻浮，常隐含「言过其实」之意，是科技/商业报道中描述过度营销时的常用词，值得与 boast、tout 三词对比掌握。",
+              "etymology": "约 14 世纪进入英语，可能源自古北法语或斯堪的纳维亚语，与古挪威语 bragr（最佳、荣耀、诗歌）有关，原义含「称颂夸赞」的正面意味，后演变为「自我吹嘘」的贬义用法。",
+              "morphology": "单音节动词，无前后缀可拆。主要派生词：brag (n.) 吹嘘，bragger (n.) 爱吹牛的人，braggart (n./adj.) 吹牛大王（语气更强，带鄙视色彩），bragging (gerund/adj.)。",
+              "mnemonic": "想象一个穿破旧外套的人，却拍着胸口说自己多了不起——用破东西炫耀，就是 brag。或记：brag 里藏着 br（胸 breast 缩写），拍胸脯夸口，就是 brag。",
+              "exampleEn": "The startup bragged to investors that its AI could predict market crashes with 98% accuracy, but the backtesting data told a very different story.",
+              "exampleCn": "这家初创公司向投资者吹嘘其 AI 能以 98% 的准确率预测市场崩盘，但回测数据却讲述了截然不同的故事。"
+            },
+            {
+              "word": "eavesdrop",
+              "pos": "v.",
+              "meaning": "偷听他人私人对话（尤指未经授权的监听）。在隐私法和科技安全报道中高频出现，比 listen in 正式，比 wiretap 适用范围更广（不限于电话线路）。本文中公司声称通过手机麦克风实施的正是 eavesdropping，是理解数据隐私新闻的必备词。",
+              "etymology": "源自古英语 yfesdrype（屋檐滴水处），eaves 指屋檐，drop 指滴水。最初指「站在屋檐外水滴落处偷听室内谈话」的行为，17 世纪后由名词演变为动词，沿用至今。",
+              "morphology": "eaves（屋檐）+ drop（滴落）构成的图像型复合词，无传统前后缀。同族词：eaves (n.) 屋檐，eavesdropper (n.) 偷听者，eavesdropping (n./gerund) 偷听行为。",
+              "mnemonic": "想象一个人躲在别人家的屋檐（eaves）下，雨水不断 drop（滴落）在他头上，他却专心偷听室内的秘密——画面鲜活，一旦想到屋檐和水滴，词义立刻浮现。",
+              "exampleEn": "The lawsuit alleged that the app was effectively eavesdropping on users' private conversations without obtaining proper consent.",
+              "exampleCn": "诉状称，该应用程序在未获得适当同意的情况下，实际上是在偷听用户的私人对话。"
+            },
+            {
+              "word": "deceptive",
+              "pos": "adj.",
+              "meaning": "欺骗性的、误导性的。FTC（联邦贸易委员会）的核心执法术语，「deceptive practices / deceptive advertising」是具体法律概念。比 misleading 语气更强，含有主观故意的意味，商业法律文件和监管报道中极常见，是读懂执法公告的关键词。",
+              "etymology": "源自拉丁语 deceptivus，来自 decipere，由 de-（偏离、向下）+ capere（抓取）构成，原义「用诡计捕获某人」，引申为「以虚假手段欺骗」，13 世纪通过古法语进入英语。",
+              "morphology": "de-（偏离/否定）+ cept（抓取，词根 capere）+ -ive（形容词后缀）。同词根词：perceive（感知）、receive（接收）、conceive（构想）、intercept（拦截）、except（除外）——都含「抓取/获取」的核心义。",
+              "mnemonic": "de-（向下/偏离）+ cept（捕捉）→「把人往错误方向引」就是 deceptive（欺骗的）。想象骗子面带笑容把手伸向你的口袋——那张笑脸就是 deceptive。与 receptive（愿意接受的）对比：re- 是「回来接」，de- 是「引偏带走」。",
+              "exampleEn": "The FTC ruled that the company's marketing materials were deceptive because they promised features the product had never actually delivered.",
+              "exampleCn": "FTC 裁定，该公司的营销材料具有欺骗性，因为其承诺的功能从未真正实现。"
+            },
+            {
+              "word": "sanction",
+              "pos": "n. / v.",
+              "meaning": "制裁、处罚（名词/动词）；同一词也可反义表示「批准、认可」。这种一词双义且互相矛盾的特性在财经新闻中极易混淆——联合国 sanctions（制裁）与 government-sanctioned（政府批准的）含义截然相反，掌握它对读懂国际贸易和监管执法报道不可或缺。",
+              "etymology": "源自拉丁语 sanctio，来自 sancire（使神圣/使具约束力），原义指「由宗教或法律赋予的约束力」，后分裂为两义：正面「批准授权」与负面「惩罚违规」，两义并存至今。",
+              "morphology": "sanct（神圣、被认可，词根 sancire）+ -ion（名词后缀）。同词根词：sanctify（使神圣化）、sanctuary（圣地/避难所）、sacred（神圣的）。sanction 既作名词也作动词（impose sanctions = sanction a country）。",
+              "mnemonic": "sanction 来自「神圣的规则」——有规则就有批准（sanction），违反规则就有处罚（sanction）。矛盾本身是最佳记忆点：同一个词，顺从规则时是「认可」，违反规则时是「制裁」。看到联合国新闻里的 sanctions，就是「制裁」。",
+              "exampleEn": "The regulatory body imposed sanctions on three fintech firms for failing to disclose material risks to retail investors.",
+              "exampleCn": "监管机构对三家金融科技公司实施制裁，原因是这些公司未能向散户投资者披露重大风险。"
+            },
+            {
+              "word": "consent",
+              "pos": "n.",
+              "meaning": "同意、知情许可。在隐私法（GDPR、CCPA）和数据保护语境中是核心术语，常与 informed 连用构成「informed consent（知情同意）」。本文中违规核心正是「未经用户同意的监听」，理解其法律精确含义对读懂科技监管新闻不可或缺。",
+              "etymology": "源自拉丁语 consentire，con-（共同）+ sentire（感受、思考）→「共同感受/思想一致」→「同意」，13 世纪通过古法语 consentir 进入英语。",
+              "morphology": "con-（共同）+ sent（感受，词根 sentire）。同词根词：sense（感觉）、sentiment（情感）、dissent（异议，dis-=分离）、assent（赞同，as-=向着）、resent（怨恨）——同一词根 sent，不同前缀产生不同情感方向。",
+              "mnemonic": "con-（共同）+ sent（感受）→「你我感受一致」才叫 consent（同意）。与 dissent（dis-=分开，不同意）对比：两个人走同一方向是 consent，一个人往相反方向走是 dissent。想象签合同时双方同时点头「sent！sent！」。",
+              "exampleEn": "Under the new privacy regulations, companies must obtain explicit consent from users before collecting or selling their personal data.",
+              "exampleCn": "根据新的隐私法规，企业在收集或出售用户个人数据之前，必须获得用户的明确同意。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-24": {
       "label": "5月24日 (周日)",
       "stories": [
