@@ -1,7 +1,167 @@
 {
-  "lastUpdated": "2026-05-29T23:22:08.651610+00:00",
+  "lastUpdated": "2026-05-31T13:10:03.981112+00:00",
   "level": "B2",
   "days": {
+    "2026-05-30": {
+      "label": "5月30日 (周六)",
+      "stories": [
+        {
+          "id": "20260530-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+          "headlineEn": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260530-2",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home/",
+          "headlineEn": "Startup offers free home cleaning—if it can record it all for robot training",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The latest twist in paying humans to wear head cameras for robot training data.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The latest twist in paying humans to wear head cameras for robot training data.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260530-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
+          "headlineEn": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "SpaceX already generated one-fifth of its 2025 revenue from government contracts, the company revealed in its IPO filing.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "SpaceX already generated one-fifth of its 2025 revenue from government contracts, the company revealed in its IPO filing.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260530-4",
+          "category": "biz",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
+          "headlineEn": "Proposed new US funding rules: We can cancel any grant at any time",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Peer review now optional, political staff would screen grants for forbidden topics.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Peer review now optional, political staff would screen grants for forbidden topics.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260530-5",
+          "category": "econ",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/entertainment/940421/backrooms-blockbuster-38-million-opening",
+          "headlineEn": "Backrooms Opens to $38 Million, Obliterating A24's All-Time Box Office Record",
+          "headlineCn": "《Backrooms》首日票房3800万美元，打破A24历史纪录",
+          "summaryEn": "Kane Parsons' horror film Backrooms has shattered expectations with a $38 million opening day, putting it on track for a $90 million opening weekend. The result obliterates A24's previous record of $25.5 million set by Civil War and outperforms The Mandalorian's opening day. The achievement marks a watershed moment for A24, historically known as an arthouse indie label, signaling a bold crossover from niche internet subculture into mainstream commercial cinema.",
+          "summaryCn": "导演凯恩·帕森斯的恐怖电影《Backrooms》以3800万美元的首日票房远超市场预期，首映周末预计将突破9000万美元。这一成绩将A24此前由《内战》创下的2550万美元首周末纪录碾压殆尽，同时超越《曼达洛人》的首日表现。对于长期以文艺院线品牌著称的A24而言，这是一个历史性转折点，也标志着网络亚文化IP正式跻身主流商业院线。",
+          "excerpt": "Backrooms is expected to earn up to $90 million in its opening weekend after pulling down $38 million on Friday alone — not only above expectations, but a result that absolutely obliterates A24's previous opening weekend record of $25.5 million set by Alex Garland's Civil War.",
+          "vocab": [
+            {
+              "word": "obliterate",
+              "pos": "v.",
+              "meaning": "彻底摧毁、抹去；在商业语境中引申为「远超/碾压」某个纪录或竞争对手，语气比 surpass、beat 强烈得多，带有「对方几乎不复存在」的隐喻色彩，常见于财报和竞争分析报道",
+              "etymology": "来自拉丁语 obliterare，由 ob-（朝向、消除）与 littera（字母、文字）构成，原义为「抹去文字」，后引申为「彻底消除某事物的痕迹」，16世纪经由法语进入英语",
+              "morphology": "ob-（反向/消除）+ liter-（字/字母，源自拉丁 littera）+ -ate（动词后缀）。同词根扩展：literacy（识字率）、literal（字面的）、literature（文学）、literate（有文化的）",
+              "mnemonic": "把 obliterate 拆成「ob + letter + ate」——想象用一块大橡皮把黑板上所有字母（letter）全部「吃掉」（ate），什么都不剩。碾压纪录就是把对手的痕迹彻底抹去",
+              "exampleEn": "The new AI chip obliterated its competitors' benchmarks, delivering twice the performance at a fraction of the energy cost.",
+              "exampleCn": "这款新型AI芯片将竞品的基准测试成绩碾压殆尽，以极低的能耗实现了两倍的性能表现。"
+            },
+            {
+              "word": "certified",
+              "pos": "adj.",
+              "meaning": "字面义为「经官方认证的」；在新闻标题和口语中用作强调语气词，意为「货真价实的、毫无疑问的」。与 verified（核实的）相比，certified 更强调公认的、无可辩驳的身份，常搭配 hit、genius、disaster、classic",
+              "etymology": "源自中世纪拉丁语 certificare，由 certus（确定的，源自 cernere「辨别、确定」）+ facere（做）构成，原义为「使某事确定无疑」，14世纪经由古法语 certifier 进入英语",
+              "morphology": "certif(y)（动词：使确定/认证）+ -ed（形容词后缀）。同词根：certain（确定）、certify（认证）、certificate（证书）、certitude（确信）、certifiable（可认证的）",
+              "mnemonic": "cert = certain（确定），整个词就像「已经盖了官方大红章」的东西。想象一张烙着红色印章的证书（certificate）——certified 就是「盖章确认、不容置疑」，用在标题里语气极强",
+              "exampleEn": "After three consecutive quarters of record revenue, the startup is now a certified unicorn in the eyes of the market.",
+              "exampleCn": "在连续三个季度创下营收纪录后，这家初创公司在市场眼中已是货真价实的独角兽。"
+            },
+            {
+              "word": "tentpole",
+              "pos": "n.",
+              "meaning": "原指帐篷的支撑柱；在娱乐/商业语境中特指「支撑整个公司财务的核心大制作或旗舰项目」。好莱坞常用 tentpole film/release 描述高预算、高回报的商业巨制，与 arthouse（艺术院线）形成对比",
+              "etymology": "英语复合词，tent（帐篷，源自拉丁语 tenda，来自 tendere「拉伸」）+ pole（柱子，源自古英语 pal，借自拉丁语 palus「桩」）。马戏团帐篷须靠中央支柱撑起，20世纪末引申至好莱坞商业片语境",
+              "morphology": "tent（帐篷）+ pole（柱子），纯粹复合词，无前后缀。相关商业词汇：flagship（旗舰）、franchise（系列IP）、anchor（锚定产品）。tent 词根派生：tension（张力）、extend（延伸）",
+              "mnemonic": "想象一顶巨型马戏团帐篷，中间那根柱子（pole）一旦倒了，整个帐篷就塌了——tentpole 就是那个「不能倒」的核心项目，公司的财务全靠它撑着，一旦扑街后果惨烈",
+              "exampleEn": "Disney's strategy has long relied on tentpole franchises like Marvel and Star Wars to cross-subsidize smaller, riskier productions.",
+              "exampleCn": "迪士尼长期依赖漫威、星球大战等核心大IP的票房收益，来为规模较小、风险较高的项目提供交叉补贴。"
+            },
+            {
+              "word": "front-loaded",
+              "pos": "adj.",
+              "meaning": "指收益、成本或需求高度集中在早期阶段，后续逐渐递减；与 back-loaded（后置型）相对。电影票房、债券票息、SaaS合同成本均可用此词，是财务分析中描述现金流时间结构的精准用词",
+              "etymology": "英语复合形容词，front（前端）+ loaded（装载/集中）。源于货运或武器装填语境（前端装弹），20世纪中期广泛引申至金融、媒体行业，描述资源或回报在时间轴上的分布特征",
+              "morphology": "front（前端，古英语 fronte）+ load（装载，古英语 lad「携带」）+ -ed（形容词后缀）。对应词：back-loaded（后置型）。相关词：upfront（预付的）、top-heavy（头重脚轻）",
+              "mnemonic": "想象一辆货车所有货物都堆在车头（front），后面空荡荡——front-loaded 就是「好处/钱全在开头就给完，后面越来越少」。电影首映周末票房暴涨、后续骤降就是典型的 front-loaded 票房曲线",
+              "exampleEn": "The bond's front-loaded coupon structure appealed to income investors who prioritized early cash flows over terminal value.",
+              "exampleCn": "该债券的前置票息结构吸引了注重早期现金流而非到期价值的收益型投资者。"
+            },
+            {
+              "word": "pull down",
+              "pos": "phrasal v.",
+              "meaning": "非正式用法，意为「赚取/获得（一笔收入）」，比 earn 更口语化、更有力，常见于财经媒体描述公司营收、票房或个人薪酬。注意同一短语还有「拆除建筑」「拉低数值」之义，需结合语境判断",
+              "etymology": "短语动词，pull（拉，古英语 pullian）+ down（向下）。「赚钱」义源于19世纪美国俚语，隐喻把钱从高处「拽进」口袋；「拆除」义则保留了物理动作的字面原义",
+              "morphology": "短语/复合词，无独立词源可拆分。pull 的常见商业搭配：pull in（吸引/赚取）、pull off（成功完成）、pull through（渡过难关）。近义俚语：rake in（大赚）、haul in（大收获）",
+              "mnemonic": "想象用力把一袋金币从货架上「拉下来」（pull down）——哗哗地掉进口袋，生动表示「赚到手」。与 bring home 意思相近，但 pull down 更强调主动争取、实实在在落袋为安的感觉",
+              "exampleEn": "Despite a challenging macro environment, the e-commerce giant managed to pull down $4.2 billion in net profit last quarter.",
+              "exampleCn": "尽管宏观环境严峻，这家电商巨头上季度仍成功斩获净利润42亿美元。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-29": {
       "label": "5月29日 (周五)",
       "stories": [
