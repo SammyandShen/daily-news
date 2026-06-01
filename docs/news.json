@@ -1,7 +1,328 @@
 {
-  "lastUpdated": "2026-05-31T13:10:03.981112+00:00",
+  "lastUpdated": "2026-06-01T23:15:08.984597+00:00",
   "level": "B2",
   "days": {
+    "2026-06-01": {
+      "label": "6月1日 (周一)",
+      "stories": [
+        {
+          "id": "20260601-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+          "headlineEn": "Microsoft and Google Scramble to Catch Up in the AI Coding Race",
+          "headlineCn": "微软与谷歌奋力追赶AI编程赛道，争夺增长关键窗口",
+          "summaryEn": "Coding assistance tools have emerged as a critical battleground in the AI industry. Microsoft and Google, despite their massive resources and developer relationships, find themselves trailing Anthropic and OpenAI in this fast-moving market. Both tech giants are aggressively investing in AI coding capabilities—Microsoft through GitHub Copilot and Google through Gemini Code Assist—as the developer tools space represents enormous long-term revenue potential. Analysts warn that ceding this arena to rivals could fundamentally weaken their enterprise software positions.",
+          "summaryCn": "AI编程辅助工具已成为科技巨头争夺的核心战场。尽管微软和谷歌拥有庞大资源与广泛的开发者生态，两者在这一快速演进的市场中仍落后于Anthropic和OpenAI。目前，微软正借助GitHub Copilot、谷歌则依托Gemini Code Assist加速追赶。分析人士指出，开发者工具市场具有巨大的长期营收潜力，若此刻将这一赛道拱手相让，将对两大巨头的企业软件版图产生深远影响。",
+          "excerpt": "Coding tools have become an increasingly contested arena as Microsoft and Google race to close the gap with Anthropic and OpenAI. Analysts describe competing in this space as 'absolutely critical' for both companies' long-term growth, warning that ceding developer mindshare now could have far-reaching consequences.",
+          "vocab": [
+            {
+              "word": "scramble",
+              "pos": "v. / n.",
+              "meaning": "争抢、匆忙竞争。商业语境中指多方紧急争夺同一资源或市场，比 rush 更强调竞争的混乱感与紧迫性，常搭配 for 使用，如 scramble for market share（争抢市场份额），语气生动有力，是财经报道描写激烈竞争的高频词",
+              "etymology": "源自16世纪英语，可能来自低地德语 schrabbeln（爬行、抓挠），原义指费力爬行或抓取，后引申为多人争抢。19世纪起广泛用于体育和商业竞争语境，语义从肢体动作演变为抽象的争夺行为",
+              "morphology": "单一词根，无前后缀。常见派生词：scrambler（争抢者）、scrambled（混乱的）。常构成搭配：scramble for power（争权夺利）、land scramble（土地争夺）；作名词时表示「激烈的争夺局面」，如 a scramble for dominance",
+              "mnemonic": "联想 scram（快跑）+ cram（塞满）——一边拼命跑，一边拼命抢，脑中画面：科技公司高管们争先恐后地扑向「AI编程」这块蛋糕，场面混乱而紧迫。scramble = 慌乱中的抢夺",
+              "exampleEn": "Startups and tech giants alike are scrambling for AI engineering talent as demand far outstrips supply.",
+              "exampleCn": "随着需求远超供给，初创公司和科技巨头都在争抢AI工程师人才。"
+            },
+            {
+              "word": "moat",
+              "pos": "n.",
+              "memory": "护城河（商业隐喻）",
+              "meaning": "护城河（商业隐喻）。在投资和战略分析中特指企业难以被竞争对手复制的持续性竞争优势，由巴菲特推广普及。比 competitive advantage 更形象，暗示这种优势具有防御性与持久性，是读懂巴菲特致股东信和行业研报的必备词",
+              "etymology": "源自古法语 mote（土丘、堡垒），中世纪指城堡周围的护城河，用于抵御入侵。现代商业用法由沃伦·巴菲特引入并广泛普及，已成为价值投资分析的核心术语，从实体防御工事演变为抽象竞争壁垒的隐喻",
+              "morphology": "简单词，无前后缀。常见搭配：wide moat（宽护城河）、narrow moat（窄护城河）、economic moat（经济护城河）、moat erosion（护城河消蚀）。可派生形容词：moat-less（无竞争壁垒的）",
+              "mnemonic": "想象微软的「城堡」（Windows + Azure + Office），周围挖着一条又宽又深的护城河，竞争对手的「士兵」（新公司/新产品）都难以渡河进攻。moat = 让对手望洋兴叹的那条「护城之河」",
+              "exampleEn": "Google's vast search index and advertising network give it an enormous moat that rivals have struggled to bridge for decades.",
+              "exampleCn": "谷歌庞大的搜索索引与广告网络构筑了难以逾越的护城河，竞争对手数十年来难以企及。"
+            },
+            {
+              "word": "leapfrog",
+              "pos": "v.",
+              "meaning": "跨越式超越、弯道超车。指不经历中间发展阶段、直接赶上或超过竞争对手，常见于科技追赶与市场竞争语境。比 overtake 更强调跳跃性与跨阶段性，是描述「弯道超车」最地道的英文表达，在科技和新兴市场报道中极为常见",
+              "etymology": "源自16世纪儿童游戏 leapfrog（跳背游戏），指一人弯腰、另一人从其背上纵身跳过。20世纪引入商业与科技语境，指跳过某一发展阶段直接超越对手，从游戏动作演变为战略隐喻",
+              "morphology": "复合词：leap（跳跃，源自古英语 hlēapan）+ frog（青蛙）。相关词组：leapfrog strategy（跨越式战略）、leapfrogging technology（跨越式技术）、leap forward（大跃进式进步）、leap of faith（信念之跃）",
+              "mnemonic": "青蛙（frog）跳跃（leap）——不是一步一步走，而是直接「扑通」一跳越到前面。想象一只青蛙从落后者背上直接跳到领先者前面，完美诠释「弯道超车」。OpenAI就是从默默无名直接 leapfrogged 过了谷歌",
+              "exampleEn": "Some analysts believe emerging markets could leapfrog traditional banking infrastructure by adopting mobile payments directly.",
+              "exampleCn": "部分分析人士认为，新兴市场可通过直接采用移动支付，跨越传统银行基础设施的建设阶段。"
+            },
+            {
+              "word": "tailwind",
+              "pos": "n.",
+              "meaning": "顺风（商业隐喻），指有利于企业增长的外部有利条件，与 headwinds（逆风、阻力）相对。财报电话会议和行业分析报告中极高频，掌握这对反义词是读懂英文财经报道的关键。比 favorable condition 更简洁专业，是分析师和CEO的惯用表达",
+              "etymology": "航空/航海专业术语，指从正后方吹来的风，能推动飞行器或船只加速前进、降低能耗。20世纪下半叶引入商业语言，成为描述有利宏观或行业条件的标准表达，沿用了方向性的物理隐喻",
+              "morphology": "复合词：tail（尾部）+ wind（风）。核心对立词：headwind（逆风、阻力）。延伸搭配：macro tailwind（宏观顺风）、secular tailwind（长期结构性顺风）、near-term tailwind（短期利好）、tailwind from AI（来自AI的增长动力）",
+              "mnemonic": "风从「尾巴」（tail）方向吹来，把你往前推——就像骑自行车顺风而行，毫不费力地加速。对比记忆：headwind 是顶风骑车，逆水行舟，累得要死。AI编程浪潮就是相关工具公司当下最大的 tailwind",
+              "exampleEn": "The rapid adoption of cloud computing provided a decade-long tailwind for SaaS companies worldwide.",
+              "exampleCn": "云计算的迅速普及为全球SaaS企业提供了长达十年的增长顺风。"
+            },
+            {
+              "word": "cede",
+              "pos": "v.",
+              "meaning": "让出、放弃（市场份额、领地、主导权）。正式书面用词，多见于地缘政治和商业战略分析，比 give up 更正式，暗含被迫性或战略性退让的意味。常见搭配：cede ground（丢失阵地）、cede market share（让出市场份额）、cede control（放弃控制权），是财经英文中描述竞争失利的高级表达",
+              "etymology": "源自拉丁语 cedere（走开、退让、让步），与 concede（承认、让步）、precede（先于）、accede（同意）、recede（后退）同词根，原义为身体上的退后动作，后引申为抽象的权益移交与退让",
+              "morphology": "词根 -ced-/-cess-（走、退）极其活跃：precede（先行）、proceed（前进）、recede（后退）、concede（承认）、secede（脱离）、intercede（调停）、accede（同意）。掌握此词根可解锁大量英语高频词，是构词学习的高性价比词根",
+              "mnemonic": "「cede」谐音「退」——想象一张市场地图，你把一块区域缓缓「推」给对手，从此那里不再属于你。cede = 把地盘拱手相让。若微软放弃AI编程赛道，就是 ceding the developer market to Anthropic，后悔莫及",
+              "exampleEn": "By failing to invest in mobile early, the tech giant effectively ceded the smartphone market to more agile rivals.",
+              "exampleCn": "由于未能及早布局移动端，这家科技巨头实际上将智能手机市场拱手让给了更为灵活的竞争对手。"
+            }
+          ]
+        },
+        {
+          "id": "20260601-2",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/01/nvidia-unitree-humanoid-robotics-system-researchers.html",
+          "headlineEn": "Nvidia Selects Unitree as Partner for Its First Humanoid Robotics Platform",
+          "headlineCn": "英伟达选定宇树，打造首款商用人形机器人平台",
+          "summaryEn": "Nvidia has selected Chinese startup Unitree as the hardware foundation for its first publicly available humanoid robotics system, marking the chipmaker's most concrete entry into physical AI. The partnership gives developers a standardized bipedal robot platform to build and test autonomous applications. Separately, Unitree—already recognized for its agile quadruped and bipedal robots—is reportedly exploring an IPO, and Nvidia's high-profile endorsement could meaningfully elevate its valuation ahead of any public offering.",
+          "summaryCn": "美国芯片巨头英伟达宣布选择中国初创企业宇树科技作为其首款面向开发者的人形机器人平台硬件合作方，标志着英伟达在具身智能领域迈出最具实质意义的一步。此次合作为开发者提供标准化的双足机器人平台，用于训练和测试自主应用程序。与此同时，宇树科技据悉正筹划IPO，英伟达的高调背书有望在上市前显著提升其估值。",
+          "excerpt": "Nvidia has named Chinese robotics startup Unitree as the hardware partner for its first commercially available humanoid robotics platform. The collaboration marks a significant step in Nvidia's push into physical AI, while Unitree—known for its agile bipedal robots—simultaneously explores a public listing that could be substantially boosted by the high-profile endorsement.",
+          "vocab": [
+            {
+              "word": "humanoid",
+              "pos": "adj. / n.",
+              "meaning": "形似人类的（机器人）；人形机器人。在机器人和AI领域，humanoid特指具有人类外形（双足行走、有手臂）的机器人，区别于四足机器人或无人机等形态。随具身智能热潮频繁出现于科技财经报道，是读懂机器人赛道不可绕开的核心术语。",
+              "etymology": "来自希腊语词根 anthropo-（人）与后缀 -oid（形似……的），经由拉丁语进入英语。-oid 源自希腊语 -oeides，意为「形状、外形」，引申为「类似……的事物」，19世纪起被科学界广泛用于命名「类似某物」的概念。",
+              "morphology": "human（人类，古英语 guma）+ -oid（类似……的后缀，希腊语 -oeides）。同后缀词：android（仿人机器人，andro- = 男人）、asteroid（小行星，aster- = 星）、trapezoid（梯形，trapeza- = 桌子）。派生词：humanoids（复数名词）。",
+              "mnemonic": "把 humanoid 拆成 human + -oid：-oid 就像一张「类似……」的标签贴纸。想象一个贴着「类人」标签的机器人站在你面前——走路像人，手也像人，但不是人。同理，android（安卓）字面也是「仿人」，两者共享完全相同的构词逻辑。",
+              "exampleEn": "The startup unveiled a humanoid capable of assembling electronics at the same pace as a human factory worker.",
+              "exampleCn": "这家初创公司发布了一款人形机器人，其组装电子产品的速度与人类工厂工人相当。"
+            },
+            {
+              "word": "forge",
+              "pos": "v.",
+              "meaning": "缔结、建立（合作关系、联盟、协议）。比 build 或 establish 更正式有力，暗含「经过努力与磨合」的艰辛过程，常与 alliance、partnership、deal、ties 搭配。财经新闻高频动词，值得学因为它把「建立关系」的坚固感与来之不易感都融入一个词。",
+              "etymology": "来自古法语 forgier，意为「锻造、塑造」，源自拉丁语 fabricare（制造、建造）。原指铁匠在高温熔炉中锻造金属，后来隐喻延伸为「通过努力建立某种关系或协议」，语义从物理锻造演变为抽象建立。",
+              "morphology": "简单词根，无明显前后缀。派生词：forged（锻造的；伪造的）、forgery（伪造品）、forger（伪造者）、forge ahead（奋力前进）。注意 forge 有双义：「建立」与「伪造」，语境决定含义——商业报道中几乎只用「建立」义。",
+              "mnemonic": "想象铁匠在熔炉前挥锤锻造——forge a partnership 就是把两块金属「高温锤击」成一体。建立合作关系需要高温（谈判压力）和锤击（反复磨合），结果却极为坚固。记住这幅铁匠图，forge 就再也忘不掉了。",
+              "exampleEn": "The two tech giants forged a strategic alliance to accelerate the deployment of AI-powered logistics systems.",
+              "exampleCn": "这两家科技巨头缔结了战略联盟，以加速基于AI的物流系统部署。"
+            },
+            {
+              "word": "inaugural",
+              "pos": "adj.",
+              "meaning": "首次的、开创性的；首届的。比 first 更正式，带有「里程碑式开端」的含义，常用于产品发布、活动、职位就任等场合。财经报道中用于 inaugural product / launch / edition，暗示历史性意义，是区分「普通第一次」与「具有象征意义的首次」的关键词。",
+              "etymology": "来自拉丁语 inaugurare，意为「通过占卜预兆来为……开幕或就职」（in- 进入 + augur 占卜师）。原指古罗马就职典礼须请占卜师观鸟兆以确认吉兆，后泛化为「开幕式的、首次的」，沿用至今。",
+              "morphology": "in-（进入）+ augur（占卜师，拉丁语）+ -al（形容词后缀）。同族词：augur（v./n. 预示；占卜师）、augury（预兆）、inaugurate（v. 为……举行就职典礼；开创）。掌握 augur 这一词根，三个词一网打尽。",
+              "mnemonic": "记住 augur（占卜师）：古罗马人开始任何大事前都要请 augur 观鸟兆，inaugural 就是「进行占卜仪式的（首次）」。联想美国总统 inaugural address（就职演讲）——每届政府最「有仪式感的第一次」，和 inaugural product（首款产品）同理。",
+              "exampleEn": "The company's inaugural AI chip for edge devices sold out within hours of its official release.",
+              "exampleCn": "该公司首款面向边缘设备的AI芯片在正式发布后数小时内便告售罄。"
+            },
+            {
+              "word": "ecosystem",
+              "pos": "n.",
+              "meaning": "（商业/科技语境）生态系统；指围绕某一平台、技术或企业形成的合作伙伴、开发者、产品与服务的整体网络。从生物学借喻而来，是平台战略讨论的核心词汇——理解「生态系统」逻辑，才能理解为何平台公司的估值往往远高于单纯的产品公司。",
+              "etymology": "生物学术语，由 eco-（源自希腊语 oikos，意为「家、居所、环境」）+ system（系统，希腊语 systema）构成，1935年由英国生态学家 Arthur Tansley 提出，专指生物与其环境构成的功能单元，后被科技和商业界借用描述平台网络。",
+              "morphology": "eco-（环境/家，希腊语 oikos）+ system（系统）。同前缀词：ecology（生态学）、economy（经济，字面义「管理家务」）、ecotourism（生态旅游）。注意 eco- 与 econ- 共享同一希腊语词根 oikos，「家」是两者的共同起点。",
+              "mnemonic": "eco = economy = ecology，都来自「oikos（家）」。把科技生态系统想象成一个「大家庭」：苹果是家长（平台掌控者），开发者是孩子（合作方），App Store 是餐桌（分发渠道），大家住在同一屋檐下互相依存——这就是 ecosystem 的商业逻辑。",
+              "exampleEn": "By partnering with Unitree, Nvidia aims to build a thriving ecosystem of robotics developers around its platform.",
+              "exampleCn": "通过与宇树合作，英伟达旨在围绕其平台构建一个繁荣的机器人开发者生态系统。"
+            },
+            {
+              "word": "commercialize",
+              "pos": "v.",
+              "meaning": "将（技术/产品）商业化，推向市场以实现规模化盈利。区别于 develop（研发）和 deploy（部署）：commercialize 强调「从原型/实验室走向大规模市场销售」这一关键跨越，是科技企业叙事与投资分析的核心动词，学会它才能准确描述技术转化的关键节点。",
+              "etymology": "来自 commercial（商业的），源自拉丁语 commercium（贸易，com- 共同 + merx 商品），加上使动词后缀 -ize（使……化）。语义路径：「共同交换商品」→「贸易」→「商业的」→「使商业化」，完整记录了从物物交换到规模化市场的演变。",
+              "morphology": "commercial（adj. 商业的）+ -ize（动词化后缀）。派生词：commercialization（n. 商业化）、commercialized（adj. 已商业化的）。同后缀词：monetize（货币化/变现）、prioritize（优先化）、incentivize（激励）——-ize 后缀的核心含义是「使成为某种状态」。",
+              "mnemonic": "commercial 是「商业广告」，加上 -ize = 「把东西变成能打广告卖钱的商品」。实验室里的人形机器人→英伟达合作背书→批量生产→卖给企业，这就是 commercialize 的完整路径。对比记忆：monetize（变现，侧重收入模式）vs commercialize（商业化，侧重进入市场）。",
+              "exampleEn": "The biotech firm is racing to commercialize its mRNA platform before competitors secure regulatory approval.",
+              "exampleCn": "这家生物科技公司正抢在竞争对手获得监管批准之前，加速将其mRNA平台推向市场。"
+            }
+          ]
+        },
+        {
+          "id": "20260601-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/01/defense-tech-darling-mach-industries-hits-1-8b-valuation-a-4x-jump-in-a-year/",
+          "headlineEn": "Mach Industries Hits $1.8B Valuation After Fourfold Surge in One Year",
+          "headlineCn": "Mach Industries估值一年翻四倍，达18亿美元",
+          "summaryEn": "Mach Industries, the defense-tech startup helmed by 22-year-old CEO Ethan Thornton, has closed a $300 million funding round, pushing its valuation to $1.8 billion — a fourfold increase in just one year. The company, with five autonomous vehicles in active development, also completed a significant acquisition, signaling its rapid expansion from early-stage R&D into full-scale defense contracting. Thornton's rise as a young wunderkind in a traditionally slow-moving sector is drawing intense investor attention.",
+          "summaryCn": "由22岁CEO埃森·桑顿领导的防务科技初创公司Mach Industries完成3亿美元融资，估值跃升至18亿美元，较一年前翻了整整四倍。公司目前有五款自主飞行器在研，并已完成一项重要收购，显示其正从早期研发阶段快速扩张至全面防务承包业务。桑顿作为一位在传统、节奏缓慢的防务行业中异军突起的年轻天才，正在吸引大量投资者的目光。",
+          "excerpt": "Mach Industries, led by 22-year-old founder Ethan Thornton, has raised $300 million in new funding, lifting its valuation to $1.8 billion — a fourfold jump in a single year. The defense-tech startup has five autonomous vehicles in development and has already completed a major acquisition.",
+          "vocab": [
+            {
+              "word": "darling",
+              "pos": "n.",
+              "meaning": "宠儿、新宠。在商业和媒体语境中指某领域最受追捧的公司或人物，如「华尔街宠儿」「科技界新宠」。比 favorite 更带情感色彩和媒体聚焦感，常出现于财经报道标题，暗示市场对其给予超高期待与热度",
+              "etymology": "来自古英语 dēorling，由 dēor（亲爱的、珍贵的）加小称后缀 -ling 构成，原义为「至爱之人」。数百年间语义不断扩展，现代商业语境中演变为「备受追捧的明星公司或人物」",
+              "morphology": "dear（亲爱的）+ -ling（小称/指人后缀）。同后缀词：underling（下属）、foundling（弃儿）、sibling（兄弟姐妹）。形容词用法与名词同形，如 a darling idea（绝妙的点子）",
+              "mnemonic": "dar 谐近 dear（亲爱的），-ling 是「小宝贝」后缀。想象投资人把一家初创公司当作「掌上明珠」捧在手心，每次登上头条都倍受宠爱——这就是 darling 的画面",
+              "exampleEn": "Once Wall Street's darling, the electric vehicle startup saw its share price collapse after missing three consecutive earnings targets.",
+              "exampleCn": "这家曾是华尔街宠儿的电动车初创公司，在连续三次未达盈利目标后股价崩跌。"
+            },
+            {
+              "word": "unicorn",
+              "pos": "n.",
+              "meaning": "独角兽；专指估值超过10亿美元的未上市初创公司。2013年由风投人Aileen Lee创造并引入商业词汇，因此类公司在彼时极为罕见而得名。如今已是科技金融标准行话，比「billion-dollar startup」更简洁，并带有行业标志性地位的含义",
+              "etymology": "来自拉丁语 unicornis，由 uni-（一）加 cornu（角）构成，原指神话中的独角兽。2013年风险投资人Aileen Lee将其引入商业词汇，用以形容极难诞生、估值逾十亿美元的私有创业公司",
+              "morphology": "uni-（一，拉丁语）+ corn（角，来自拉丁语 cornu）。同前缀词：uniform（制服）、unite（联合）、unilateral（单边的）。相关派生词：decacorn（百亿美元级）、hectocorn（千亿美元级）",
+              "mnemonic": "独角兽是神话中极稀有的生物，就像估值破10亿美元的初创公司一样难得。记住：每一家 unicorn 都曾是普通的「马」，直到找到「魔法商业模式」才长出那只让投资人疯狂的「角」",
+              "exampleEn": "After its latest funding round, the fintech firm officially became a unicorn, attracting attention from global institutional investors.",
+              "exampleCn": "完成最新一轮融资后，这家金融科技公司正式晋升为独角兽，吸引了全球机构投资者的关注。"
+            },
+            {
+              "word": "acquisition",
+              "pos": "n.",
+              "meaning": "收购；企业买入另一家公司并取得控制权的行为。区别于 merger（合并，双方地位相对平等）——acquisition 强调买方主导、取得所有权。M&A（并购）报道中的核心词汇，常见搭配：complete / close / announce an acquisition",
+              "etymology": "来自拉丁语 acquisitio，词根 acquirere 由 ad-（朝向）加 quaerere（寻求、获取）构成，原义为「追求并获得某物」，法律和商业语境中演变为「取得资产或公司控制权」的专业术语",
+              "morphology": "ac-（ad- 的变体，表「朝向」）+ quir（= quer，寻求）+ -ition（名词后缀）。同词根词：acquire（获取）、inquisition（审讯）、query（查询）、quest（探索）",
+              "mnemonic": "ac + quire 听起来像「追求」。想象买方「一路追求」目标公司，最终将其纳入麾下——acquisition 就是这场追求的终点。记忆链：acquire（获得）→ acquisition（获得的行为）",
+              "exampleEn": "The tech giant's acquisition of the AI startup for $2 billion gave it immediate access to a proprietary dataset and a team of 80 researchers.",
+              "exampleCn": "这家科技巨头以20亿美元收购该人工智能初创公司，立即获得了一套专有数据集和一支80人的研究团队。"
+            },
+            {
+              "word": "wunderkind",
+              "pos": "n.",
+              "meaning": "神童、年轻天才；尤指在商界或专业领域年纪轻轻便取得非凡成就的人。直接借自德语，比 prodigy 更常见于商业媒体报道，带有「令人叹服的年轻成功者」语气，略含赞叹与惊奇。值得学，因为它是商业新闻中报道年轻创始人的高频词",
+              "etymology": "直接借自德语，由 Wunder（奇迹，同源英语 wonder）加 Kind（孩子，同源 kindergarten 中的 kinder）构成，字面义为「奇迹孩子」。19世纪起进入英语，起初指音乐神童，后扩展至商界、科技界的年轻成功者",
+              "morphology": "德语复合词，Wunder 同源英语 wonder，Kind 同源 kindergarten（幼儿园）中的 kinder。不可按英语构词法拆解。复数形式：wunderkinder（德语式）或 wunderkinds（英语式）均可接受",
+              "mnemonic": "wonder（奇迹）+ kid（孩子）= 令人称奇的孩子。想象一个22岁的CEO站在董事会里，周围全是50岁的老将，那个让所有人发出「Wonder！」的「Kid」就是 wunderkind",
+              "exampleEn": "At 24, she was already a wunderkind of Silicon Valley, having founded and sold two software companies before most peers had landed their first job.",
+              "exampleCn": "年仅24岁，她已是硅谷的年轻天才，在大多数同龄人找到第一份工作之前，她就已经创立并出售了两家软件公司。"
+            },
+            {
+              "word": "venture-backed",
+              "pos": "adj.",
+              "meaning": "风险投资支持的；描述获得风险资本（VC）注资的初创公司。在科技和商业报道中极为常见，暗示公司处于高增长、烧钱扩张模式，尚未盈利但资金充裕。与 bootstrapped（自筹资金）或 PE-backed（私募支持）形成对比，值得掌握整个系列",
+              "etymology": "venture 来自古法语 aventure（冒险、运气），最终源于拉丁语 adventura（将要发生之事）；backed 来自 back（支撑）的过去分词。venture capital 作为术语兴起于20世纪50年代美国，指专门支持高风险高回报初创企业的资本形式",
+              "morphology": "venture（风险/冒险投资）+ backed（过去分词作形容词，表「被支持」）。同构复合形容词：equity-backed（股权支持的）、state-backed（国家支持的）、PE-backed（私募支持的）、debt-backed（债务支持的）",
+              "mnemonic": "venture = 冒险，backed = 有人在背后撑腰。想象创业者背后站着一排西装革履的风投人，给他「撑腰壮胆」——这幅画面就是 venture-backed 公司的日常写照",
+              "exampleEn": "As a venture-backed startup, the company prioritizes rapid user growth over near-term profitability, burning through cash while chasing market share.",
+              "exampleCn": "作为一家风险投资支持的初创公司，该公司将快速用户增长置于近期盈利能力之上，在追逐市场份额的过程中大量消耗现金。"
+            }
+          ]
+        },
+        {
+          "id": "20260601-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/01/spacex-sets-aside-up-to-5percent-of-shares-in-ipo-for-employees-and-friends.html",
+          "headlineEn": "SpaceX Reserves 5% of IPO Shares for Employees and Friends",
+          "headlineCn": "SpaceX 为员工及友人预留 5% 的 IPO 股份",
+          "summaryEn": "SpaceX has updated its IPO prospectus to reserve up to 5% of offered shares through a directed share program targeting certain employees and their associates. This practice, common among high-profile tech listings, allows insiders to purchase shares at the offer price before public trading begins. The move signals that SpaceX may be accelerating its path to a public market debut, a long-anticipated event that could rank among the largest tech IPOs in history.",
+          "summaryCn": "SpaceX 在更新后的 IPO 招股书中披露，将最多 5% 的发行股份纳入「定向股份计划」，供特定员工及相关人士以发行价优先认购。这一做法在科技巨头上市时较为常见，旨在让公司内部人士在股票公开交易前享有优先购股权。此举被市场视为 SpaceX 正在加速推进上市进程的信号，若成功上市，其规模或将跻身史上最大科技 IPO 之列。",
+          "excerpt": "In an updated IPO prospectus, SpaceX said that up to 5% of stock being offered will be available through a direct share program, giving certain employees and friends the opportunity to purchase shares at the initial offering price before the stock begins trading on the open market.",
+          "vocab": [
+            {
+              "word": "set aside",
+              "pos": "phrasal v.",
+              "meaning": "预留、拨出（资金、股份或资源）用于特定目的。在商业语境中比 reserve 更正式，固定搭配为 set aside X for Y（为 Y 拨出 X）。值得学因为它在财经文件和企业公告中极为高频，且中国学习者常将其误解为「放在一边不管」，而实际含义恰恰相反——是「主动专项保留」",
+              "etymology": "古英语 settan（放置）与 sīdan（在一边）组合。字面义「把某物放到旁边」，后引申为「专门保留供特定用途」。是典型的英语虚词短语，两个普通词叠加后产生专门的商业含义，此类演变在英语中极为普遍",
+              "morphology": "set（放置）+ aside（在旁边）。同一动词 set 配不同副词形成截然不同含义：set back（使推迟）、set off（引爆 / 出发）、set up（创立）、set out（阐述 / 出发）。名词形式：a set-aside（已拨备的资金 / 配额）",
+              "mnemonic": "想象财务总监把一叠股票证书「推到桌子一边」，贴上标签「仅供员工」。set = 放，aside = 旁边的专属区域。每次见到 set aside，就想那叠被物理隔开、贴了标签的股票",
+              "exampleEn": "The venture fund set aside 15% of its new vehicle for co-investment by its limited partners.",
+              "exampleCn": "该风险投资基金为有限合伙人的跟投专门预留了新基金 15% 的份额。"
+            },
+            {
+              "word": "allotment",
+              "pos": "n.",
+              "meaning": "（股份）配额、分配额，尤指 IPO 中向特定投资者分配的认购股数。比 allocation 更书面，专用于证券发行文件；常见搭配：share allotment（股份配售）、allotment letter（配股通知书）。值得学因为它频繁出现在港股和美股招股书正式条款中，是阅读 IPO 文件的必备词汇",
+              "etymology": "古法语 aloter（按批次分配），由 a-（表目的，来自拉丁语 ad）+ lot（签 / 份额，来自日耳曼语 hlot）构成，意为「按签分批给出」。中世纪欧洲常用抽签（lot）决定资源分配，这一文化痕迹保留至今",
+              "morphology": "allot（v. 分配）+ -ment（名词后缀，表行为或结果）。词族：allot v. / allotment n. / allotted adj. / allottee n.（受配方）。类比构词：appoint → appointment，invest → investment，同一后缀规律可横向扩展",
+              "mnemonic": "allot 里藏着 lot（签 / 命运）——IPO 配股就像「抽签」，机构和散户各自的 allotment 决定了他们能拿到多少份额。记住「签里藏玄机，配多少是多少」，见到 lot 就联想到分配",
+              "exampleEn": "Retail investors were disappointed when their allotment was cut to just 20% of their original subscription due to massive oversubscription.",
+              "exampleCn": "由于认购严重超额，散户投资者的配股数量被削减至原申请量的 20%，令不少人深感失望。"
+            },
+            {
+              "word": "directed share program",
+              "pos": "phrase",
+              "meaning": "定向股份计划（DSP），IPO 时公司预留一定比例股份、让指定群体（员工、合作伙伴、亲友）以发行价认购的正式机制，是「friends-and-family shares」的书面说法。值得学因为它直接出现在美股招股书核心条款中，是理解 IPO 文件架构的关键术语，中文媒体译法不统一，认准英文原词更可靠",
+              "etymology": "短语 / 复合词，无独立词源。directed 来自拉丁语 dirigere（引导、瞄准）；program 来自希腊语 programma（书面公告）。合义：「有明确目标对象的预留方案」，强调分配方向的刻意性与排他性",
+              "morphology": "directed（pp. 定向的，来自 direct v.）+ share（股份）+ program（计划）。同义短语：friends-and-family allocation、insider share program；相关词：direct v. / direction n. / directive n.（指令）——词根 -rect 表「引导」",
+              "mnemonic": "「directed = 有方向的」——普通 IPO 股票向公众「广撒网」，而这个 program 像激光一样「定点照射」特定人群。想象一束聚光灯只打在公司员工和朋友身上，其他人站在黑暗中，无法参与",
+              "exampleEn": "Through its directed share program, the company allocated 3% of IPO shares to key customers and long-term vendors at the offer price.",
+              "exampleCn": "该公司通过定向股份计划，以发行价向核心客户和长期供应商分配了 3% 的 IPO 股份。"
+            },
+            {
+              "word": "preferential",
+              "pos": "adj.",
+              "meaning": "优先的、优惠的，表示对特定群体给予有别于大众的特殊待遇。常见搭配：preferential access（优先获取权）、preferential terms（优惠条款）、preferential treatment（优待）。比 special 更正式，带有「制度性偏向」含义。值得学因为它在法律、金融和外交文件中均高频出现，且误用 special 会显得口语化、失去书面感",
+              "etymology": "拉丁语 praeferre（放在前面）→ 古法语 préférence → 英语 prefer（v.）→ preference（n.）→ preferential（adj.，加形容词后缀 -ential）。核心词根 prae-（之前）+ ferre（携带 / 搬运），语义核心：「被搬到队伍最前面」",
+              "morphology": "prefer（v.）→ preference（n.）→ preferential（adj.）→ preferentially（adv.）。前缀 prae- 与词根 ferre 结合，类比：transfer（转移）、infer（推断）、confer（商讨）——均含词根 -fer（携带），可横向记忆",
+              "mnemonic": "pre-（在前）+ fer（携带）→「被优先搬到前面」。联想：机场贵宾通道标注 Preferred Customers，就是享有 preferential treatment 的人——插队是合法的！每次过海关看到 Preferred，就记住这个词",
+              "exampleEn": "Early-stage backers were granted preferential terms in the bridge round, including a 20% discount to the upcoming Series C valuation.",
+              "exampleCn": "早期投资者在过桥轮融资中获得了优惠条款，包括以即将到来的 C 轮估值八折价格认购。"
+            },
+            {
+              "word": "insider",
+              "pos": "n.",
+              "meaning": "内部人士，在证券法语境中特指持有公司非公开信息或对公司有特殊访问权的人（高管、员工、大股东）。值得学因为：它比中文「内幕人士」含义更广——不一定违法；insider trading（内幕交易）是非法行为，但 insider access（内部人士权限）可以是中性甚至正面的，直接等同「内幕」会导致语义偏差",
+              "etymology": "古英语 inne（在内）→ inside（内部）+ -r（行为者后缀，类比 worker、speaker）→「处于内部的人」。1800 年代起被金融界借用，特指掌握非公开信息或享有特殊权限的公司相关人士",
+              "morphology": "in-（内）+ side（侧面 / 位置）+ -r（人）。对应词：outsider（局外人）。常见复合词：insider trading（内幕交易）、insider knowledge（内部消息）、insider threat（内部威胁）。类比：bystander（旁观者）、upstander（挺身者）",
+              "mnemonic": "极度字面：「在 inside（里面）的 -er（人）」。把 insider 和 outsider 并排放——insider 是进了公司大门、知道内部消息的人，outsider 只能靠公开信息猜测。两个词放一起，信息差一目了然，永远不会混淆",
+              "exampleEn": "Insiders at the company were prohibited from selling shares during the 180-day lock-up period following the IPO.",
+              "exampleCn": "公司内部人士被禁止在 IPO 完成后 180 天的锁定期内出售所持股份。"
+            }
+          ]
+        },
+        {
+          "id": "20260601-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/01/remote-work-youth-unemployment-new-york-fed.html",
+          "headlineEn": "Remote Work Is Driving Up Youth Unemployment, New York Fed Finds",
+          "headlineCn": "纽约联储研究：远程办公加剧青年失业问题",
+          "summaryEn": "Research from the Federal Reserve Bank of New York suggests that the rise of remote work may be a key driver behind the recent spike in youth unemployment. As experienced workers shift to home-based roles, they tend to hold onto positions that might otherwise open up to younger job-seekers. Entry-level candidates, who rely heavily on in-person networking and on-the-job mentorship, find themselves increasingly squeezed out — a trend with serious long-term consequences for career development and wage growth.",
+          "summaryCn": "纽约联储的最新研究表明，远程办公的普及可能是近年来青年失业率攀升的重要原因之一。有经验的员工转为居家办公后，往往更牢固地占据现有职位，导致原本可能流向年轻求职者的入门级岗位大幅减少。与此同时，初入职场的年轻人尤其依赖面对面的人际网络建立和导师式职场培训，远程工作环境大大压缩了这些机会，对他们的职业成长和薪资水平构成长远威胁。",
+          "excerpt": "A study from the Federal Reserve Bank of New York indicates that the spread of remote work may be crowding younger workers out of entry-level positions, as established employees hold on to roles that would otherwise have opened up to new graduates entering the labor market.",
+          "vocab": [
+            {
+              "word": "crowd out",
+              "pos": "phrasal v.",
+              "meaning": "排挤、挤占（某人的机会或空间）。比 replace 或 displace 更强调竞争性挤压的动态过程，常见于经济学场景，如政府借贷「挤出」私人投资，或在职员工「占据」本可属于新人的岗位。语域偏正式，书面经济分析和新闻报道中极常见。",
+              "etymology": "来自古英语 crowd（推挤人群）与副词 out 的组合，原指在拥挤场所中将人向外推开；19 世纪起经济学家借用此词，描述资源或机会因竞争而被占据，形成专业术语 crowding-out effect（挤出效应），广泛用于宏观经济分析。",
+              "morphology": "短语动词，由 crowd（聚集、推挤）+ out（向外）构成。同族词：crowded（拥挤的）、overcrowded（过度拥挤的）；经济学同义短语：squeeze out、push out、edge out；名词形式：crowding-out effect（挤出效应）。",
+              "mnemonic": "想象地铁高峰期：满车的成年通勤族把想挤上车的年轻人「crowd out」到车门外。远程时代恰如此——老员工稳坐「满员列车」，年轻求职者只能眼睁睁看着车门关上。",
+              "exampleEn": "Rising government bond issuance can crowd out private investment by pushing up borrowing costs across the economy.",
+              "exampleCn": "政府债券发行量上升会推高整体借贷成本，从而排挤私人投资的空间。"
+            },
+            {
+              "word": "atrophy",
+              "pos": "v. / n.",
+              "meaning": "（技能、能力、机构等）逐渐萎缩、退化。医学上指肌肉因长期不用而萎缩；引申到商业和职场，指因缺乏培养或使用，能力悄然退化。比 weaken 更强调渐进性与不可逆性，常见于分析远程办公、人才断层等议题，是财经评论中颇具分量的词。",
+              "etymology": "源自希腊语 atrophia，由 a-（无、缺乏）+ trophe（营养）构成，字面意为「得不到营养」。最初用于生物学，描述因营养不足导致的组织退化；后扩展至技能、制度等抽象事物的衰退，进入英语约在 16 世纪。",
+              "morphology": "a-（否定前缀，如 amoral 无道德的、asymmetric 不对称的）+ -troph-（营养，如 dystrophy 营养不良、trophy 奖杯原义为「战利品/滋养物」）+ -y（名词后缀）。派生词：atrophied（已萎缩的）、atrophying（正在萎缩的）。",
+              "mnemonic": "「a-」是「无」，「trophy」是奖杯——「无奖杯可得」意味着没有荣耀滋养，于是一切开始萎缩退化。想象一名运动员长期不训练，奖杯积满灰尘，肌肉也随之 atrophy——两个画面同步消退。",
+              "exampleEn": "Without regular cross-team collaboration, institutional knowledge can atrophy surprisingly fast in remote-first companies.",
+              "exampleCn": "在远程优先的公司里，若缺乏跨团队协作，机构知识可能出乎意料地迅速退化。"
+            },
+            {
+              "word": "precarious",
+              "pos": "adj.",
+              "meaning": "不稳定的、随时可能崩塌的（就业、财务状况、依存关系等）。比 unstable 更文学化，隐含「完全依赖外部好意、随时可被收回」的紧张感。常见搭配：precarious employment（不稳定就业）、precarious position（岌岌可危的处境）。政策报告和财经新闻中高频，教科书却少有收录。",
+              "etymology": "源自拉丁语 precarius，意为「靠祈求获得的、依赖他人好意的」，来自 precari（祈祷、恳求），与英语 prayer（祈祷）同根。暗示某事物的存续完全取决于他人意愿，随时面临被剥夺的风险，带有天然的脆弱感。",
+              "morphology": "precari（祈求）+ -ous（形容词后缀，表「充满……性质的」，如 dangerous、generous）。同族词：prayer（祈祷）、imprecation（诅咒，字面为「向内祈祷使坏事降临」）；派生词：precariously（副词）、precariousness（名词）。",
+              "mnemonic": "「precarious」里藏着「prayer」（祈祷）——处境如此不稳，只能靠祈祷维持。脑海中浮现一个年轻求职者站在摇摇欲坠的岩石上，双手合十，那块石头随时会掉落。",
+              "exampleEn": "Young workers in gig economy platforms often find themselves in precarious employment, with no job security or benefits to fall back on.",
+              "exampleCn": "零工经济平台上的年轻工人往往处于不稳定的就业状态，既缺乏工作保障，也没有任何福利可以依靠。"
+            },
+            {
+              "word": "onboarding",
+              "pos": "n.",
+              "meaning": "入职融入流程——不仅指签合同，更涵盖技能培养、文化适应、人际网络建立的全过程。远程时代「onboarding」质量大打折扣，是青年职业发展受阻的核心议题。HR 圈和商业媒体中极高频，但教科书鲜少收录，实用性远超其知名度。",
+              "etymology": "借自航海与航空术语「on board」（登上船或飞机），20 世纪末被人力资源领域采用，比喻将新成员「带上船」（纳入组织）的过程。属于复合词，无独立的拉丁或希腊词源，是典型的现代职场造词。",
+              "morphology": "on（在……上）+ board（船板、委员会）+ -ing（动名词后缀）。同族词/短语：on board（赞同、已在职）、board of directors（董事会）、overboard（过头、越界）；反义词：offboarding（离职流程）。",
+              "mnemonic": "新员工就像刚登上大船的水手——「on board」了。老船长（前辈）要带他们熟悉这艘船（公司）：这个「带上船」的过程就是 onboarding。远程时代，水手在家用视频学开船，自然学不扎实。",
+              "exampleEn": "Effective onboarding is especially critical for junior hires, who depend on early mentorship to build the skills and networks needed for career advancement.",
+              "exampleCn": "有效的入职培训对初级员工尤为关键，他们需要依靠早期辅导来建立职业晋升所需的技能和人脉。"
+            },
+            {
+              "word": "disproportionate",
+              "pos": "adj.",
+              "meaning": "不成比例的、过度集中的（影响、负担、收益等在不同群体间的分配失衡）。比 unequal 更精确，常用于分析政策效应或经济冲击如何在特定群体身上过度集中，如「青年群体承受了不成比例的就业冲击」。财经分析、政策报告和学术写作中极高频。",
+              "etymology": "来自拉丁语：dis-（分离、否定）+ proportio（比例），其中 proportio 由 pro-（按照）+ portio（份额、部分）构成，字面意为「脱离了应有的份额比例」。14 世纪进入英语，最初用于数学，后扩展至社会与经济领域。",
+              "morphology": "dis-（否定前缀，如 disagree 不同意、disrupt 打断）+ proportion（比例）+ -ate（形容词后缀）。同族词：proportional（成比例的）、proportionate（相称的）；副词：disproportionately；名词：disproportion。",
+              "mnemonic": "「dis-」是「不」，「proportion」是「比例」，合起来就是「不成比例」。记住：每当新闻说某个群体「受影响最大、最深」时，记者脑中想的通常就是这个词——disproportionate impact / burden / effect，背会这三个搭配就够用了。",
+              "exampleEn": "Smaller tech firms bear a disproportionate compliance burden when new data privacy regulations require companies to maintain dedicated legal teams.",
+              "exampleCn": "新数据隐私法规要求企业配备专职法务团队，这让规模较小的科技公司承受了不成比例的合规负担。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-05-30": {
       "label": "5月30日 (周六)",
       "stories": [
