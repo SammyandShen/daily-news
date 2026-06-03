@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-06-01T23:15:08.984597+00:00",
+  "lastUpdated": "2026-06-03T02:37:38.192778+00:00",
   "level": "B2",
   "days": {
+    "2026-06-02": {
+      "label": "6月2日 (周二)",
+      "stories": [
+        {
+          "id": "20260602-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+          "headlineEn": "Microsoft Launches AI Models to Reduce OpenAI Dependence and Cut Developer Costs",
+          "headlineCn": "微软发布自研AI模型，剑指降低对OpenAI依赖与开发成本",
+          "summaryEn": "At its annual Build developer conference, Microsoft unveiled a family of proprietary generative AI models designed to challenge the dominance of OpenAI, Anthropic, and Google. The move signals a strategic push to reduce its heavy reliance on OpenAI—a partner it has invested billions in—while simultaneously lowering inference costs for developers building on Azure. Analysts see this as Microsoft's bid to commoditize the AI model layer and retain developers within its own ecosystem rather than ceding ground to rivals.",
+          "summaryCn": "微软在年度Build开发者大会上发布了一系列自研生成式AI模型，旨在挑战OpenAI、Anthropic和谷歌在该领域的主导地位。此举标志着微软在战略上寻求降低对OpenAI的高度依赖——尽管其已向后者投入数十亿美元——同时为在Azure云平台上构建产品的开发者削减推理成本。业内分析师认为，这是微软试图将AI模型层「商品化」、将开发者留在自身生态系统内、避免将市场拱手相让的关键布局。",
+          "excerpt": "At its Build developer conference, Microsoft announced a series of generative AI models to try and crack a market controlled by OpenAI, Anthropic and Google. The move is designed to lessen the company's reliance on OpenAI while undercutting rivals on price for developers building on Azure.",
+          "vocab": [
+            {
+              "word": "crack a market",
+              "pos": "phrase",
+              "meaning": "成功打入（某竞争激烈的市场）。比 enter 或 penetrate 更生动，隐含「费力突破壁垒」的意味，常见于商业报道描述新进入者挑战既有格局。学这个词是因为它是财经新闻里描述市场竞争的高频惯用语。",
+              "etymology": "crack 来自古英语 cracian，原义为「发出断裂声、破碎」。商业语境中引申为「突破壁垒、打入市场」，保留了「用力破开坚硬外壳」的隐喻，14世纪起开始用于比喻义。",
+              "morphology": "crack 为单音节不可拆分词根。常见派生词：crackdown（n. 打压、整治）、cracker（n. 破解者）、crack-up（n. 崩溃）。商业搭配固定为 crack a market / crack the code，注意不说 break a market。",
+              "mnemonic": "想象用锤子砸开一颗坚硬的核桃——crack 就是那声脆响。「crack a market」= 把被对手牢牢占据的市场像核桃一样砸开。脑海中浮现微软举锤砸向OpenAI守卫的市场城墙，声音清脆，画面鲜明。",
+              "exampleEn": "Despite years of effort, no Chinese smartphone brand has fully cracked the premium European market.",
+              "exampleCn": "尽管努力多年，还没有中国智能手机品牌真正打入欧洲高端市场。"
+            },
+            {
+              "word": "wean off",
+              "pos": "phrasal v.",
+              "meaning": "逐步使……摆脱对某事物的依赖。本义是「给婴儿断奶」，商业中引申为「逐步减少对某平台、供应商或技术的依赖」，语气比 reduce dependence 更生动，且暗示存在一个「过渡适应期」，是科技报道里描述供应链多元化的精准用词。",
+              "etymology": "来自古英语 wenian，原义为「使（婴儿）习惯新食物，脱离母乳」，词根与「习惯」相关。中世纪英语中扩展为比喻义「使逐渐脱离某种习惯或依赖」，16世纪起广泛用于非字面语境。",
+              "morphology": "wean 为简单词根，无前后缀可拆分。固定搭配：wean off（从…断开）、wean onto（转移依赖至…）、wean away from。派生词极少，主要以原形出现。近义短语对比：detach from（更正式）、break free from（更强烈）。",
+              "mnemonic": "婴儿断奶——先哭闹，慢慢接受新食物。微软「给开发者断OpenAI的奶」，就是 wean developers off OpenAI。记住：wean 的发音像「ween」（哭哭），断奶当然要哭，画面感十足。",
+              "exampleEn": "The startup spent two years weaning its infrastructure off a single cloud provider to avoid vendor lock-in.",
+              "exampleCn": "这家初创公司花了两年时间，逐步摆脱对单一云服务商的依赖，以避免供应商锁定。"
+            },
+            {
+              "word": "commoditize",
+              "pos": "v.",
+              "meaning": "将（产品或服务）商品化，使其失去差异化优势、变得可替代、价格透明。科技和商业报道中的高频词，尤指曾经稀缺的技术变得普通低价——这正是当前AI模型市场的核心趋势。值得学是因为它精准描述了整个行业竞争格局的演变逻辑。",
+              "etymology": "源自拉丁语 commoditas（便利、利益），经法语演变为英语 commodity（大宗商品、日用品）。加后缀 -ize 构成动词，意为「使成为商品」，20世纪80年代随PC行业兴起而在商业语境中广泛流行。",
+              "morphology": "commodity（n. 商品）+ -ize（动词后缀，表示「使成为…」）= commoditize。同根词：commodification（n. 商品化过程，更偏学术）、commodity exchange（大宗商品交易所）。同后缀对比：monetize（货币化）、incentivize（激励化）、prioritize（优先化）。",
+              "mnemonic": "commodity = 超市货架上的大米、面粉——你不在乎哪个牌子，谁便宜买谁。commoditize 就是「把高科技产品变成大米」：价格透明、随时可替换。记住：commo（大妈）+ dity + ize = 大妈把AI模型砍成白菜价。",
+              "exampleEn": "Cloud computing has commoditized enterprise storage, forcing legacy hardware vendors to compete on price alone.",
+              "exampleCn": "云计算已将企业级存储商品化，迫使传统硬件供应商只能靠价格竞争。"
+            },
+            {
+              "word": "reliance",
+              "pos": "n.",
+              "meaning": "依赖、依靠（常搭配 on/upon）。与 dependence 同义，但 reliance 更常出现在商业和政策报道中，搭配固定：heavy reliance on（严重依赖）、reduce reliance（降低依赖）、sole reliance（单一依赖）。微妙差异：reliance 偏中性，dependence 有时带贬义色彩。",
+              "etymology": "来自动词 rely，源自法语 relier（重新绑定），再溯至拉丁语 religare（绑、连接，同 religion 的词根）。-ance 为名词后缀，表示「状态或行为」。16世纪进入英语，最初指「对某事物的信任依靠」。",
+              "morphology": "rely（v. 依靠）→ reliance（n. 依赖状态）。完整词族：rely / reliant（adj. 依赖的）/ reliance / reliable（adj. 可靠的）/ reliability（n. 可靠性）/ reliably（adv.）。前缀 re- 此处含「反复」之义，ligare 为拉丁词根「绑」。",
+              "mnemonic": "rely = re（反复）+ ly（来自 ligare 绑）——被反复捆绑在一起，就是「依赖」。想象微软被OpenAI的粗绳子反复缠绕，动弹不得——这就是 heavy reliance。reliance = 被绑住的状态。",
+              "exampleEn": "The automaker's heavy reliance on a single battery supplier created significant vulnerabilities when the factory went offline.",
+              "exampleCn": "这家汽车制造商对单一电池供应商的严重依赖，在该工厂停产时暴露出重大脆弱性。"
+            },
+            {
+              "word": "undercut",
+              "pos": "v.",
+              "meaning": "以低于竞争对手的价格出售，或从根本上削弱对手的竞争优势。商业报道核心词，既指「价格战」策略（undercut rivals on price），也可指「从根基上瓦解」某种优势。比 lower price 精准，暗含「主动竞争、蓄意为之」的意图，是描述价格竞争时的首选动词。",
+              "etymology": "古英语构词，under（在…之下）+ cut（切割）。原为屠宰业术语，指切下动物腹部下方的嫩肉。17世纪起演变为「从价格下方切入、以更低报价夺取订单」的商业含义，隐喻「从底部削去对手立足点」。",
+              "morphology": "under-（前缀：在…之下，含「从下方突破」之意）+ cut（v. 切割）。同前缀词对比：undermine（从下方挖空→暗中破坏）、underwrite（在下方签名→承保）、underprice（定价过低）、undersell（低价销售）。cut 派生：price cut（降价）、cutting-edge（前沿的）。",
+              "mnemonic": "竞争对手报价100元，你报90元——从「下方」把对手的价格「切掉」10元。想象微软拿着刀从OpenAI定价标签的下方一刀划过去，标价应声而落。under = 从下面，cut = 切，合起来就是「从价格底部切入」。",
+              "exampleEn": "The new cloud provider undercut AWS on storage pricing by nearly 40%, winning several large enterprise contracts within months.",
+              "exampleCn": "这家新云服务商以低于AWS近40%的存储报价，在数月内赢得了多份大型企业合同。"
+            }
+          ]
+        },
+        {
+          "id": "20260602-2",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+          "headlineEn": "Microsoft and Google Are Late to AI Coding but Must Compete to Grow",
+          "headlineCn": "微软与谷歌AI编程工具起步滞后，竞争被指「绝对关键」",
+          "summaryEn": "Microsoft and Google have been slow to enter the AI-powered coding tools market, ceding early ground to startups like Anthropic and OpenAI. However, industry analysts argue it is absolutely critical for these tech giants to compete aggressively in this space. AI coding assistants are rapidly transforming software development workflows, and the market is expanding fast. For Microsoft and Google, establishing a strong presence in developer tooling could determine long-term platform dominance and enterprise revenue growth.",
+          "summaryCn": "微软和谷歌在AI编程工具赛道起步较晚，将早期市场先机拱手相让给Anthropic和OpenAI等初创公司。然而业内分析人士指出，这两大科技巨头参与竞争「绝对至关重要」。AI编程助手正迅速改变软件开发流程，市场增长迅猛。对微软和谷歌而言，在开发者工具领域占据强势地位，将直接影响其长期平台主导权与企业营收增长。",
+          "excerpt": "Coding tools are becoming an increasingly high-stakes battleground for Google and Microsoft as they scramble to catch up with Anthropic and OpenAI. Analysts say it is absolutely critical that the two tech giants compete in this space, where AI-powered assistants are redefining how software is written and shipped.",
+          "vocab": [
+            {
+              "word": "vie for",
+              "pos": "phrase / v.",
+              "meaning": "激烈争夺某物。比 compete 更强调双方势均力敌、针锋相对的对抗态势，常用于商业或政治等正式语境，暗含「寸步不让」的争斗意味。值得学习：中文「争夺」往往笼统，而 vie for 精准传达「多方同时角力同一目标」的场景，是财经新闻的标志性搭配。",
+              "etymology": "源自拉丁语 invitare（邀请、挑战），经古法语 envier（叫牌、出价挑战对手）演变。16世纪进入英语，最初用于赌局中的「出价对抗」，后泛化为一切「角力争夺」之意，语域偏书面正式。",
+              "morphology": "单音节动词，无复杂词缀。现在分词 vying 更常见于新闻标题，如 firms vying for AI talent。常见搭配：vie for attention / vie for market share / vie for dominance。注意不与 compete 混用——vie for 更强调「争夺有限资源」。",
+              "mnemonic": "想象两根「V形」箭头从左右同时指向同一个目标，谁也不肯退让——这就是 vie for 的感觉。发音近似中文「为」，记为「两人都在拼命'为'同一件事争个你死我活」，画面感强。",
+              "exampleEn": "Dozens of startups are vying for a slice of the enterprise AI assistant market as demand for developer tools surges.",
+              "exampleCn": "随着开发者工具需求激增，数十家初创公司正争相抢夺企业级AI助手市场的一席之地。"
+            },
+            {
+              "word": "traction",
+              "pos": "n.",
+              "meaning": "（产品或想法在市场上获得的）早期势头、初步认可与落地。投资人和创业者的超高频词，特指一家公司开始获得用户、收入或媒体关注的阶段，与中文「牵引力」的物理含义完全不同。值得学习：gain traction 几乎是「产品跑通了、市场接受了」的标准商业表达。",
+              "etymology": "源自拉丁语 trahere（拉、拖），原义为物理上的「拉力、摩擦力」，如轮胎 traction 指抓地力。20世纪进入商业英语后，比喻创业公司在市场中「站稳脚跟」，如同轮胎抓住路面才能前行加速。",
+              "morphology": "名词，通常不可数。词根 tract-（拉）衍生词：attract（吸引）、contract（合约）、extract（提取）、subtract（减去）。常见搭配：gain traction、lose traction、initial traction、get traction with users。",
+              "mnemonic": "想象汽车轮胎在冰面打滑（无 traction）vs. 在柏油路上稳稳加速（有 traction）——产品「抓住市场」才有 traction。「trac」联想 track（轨道），踏上轨道就是 gaining traction，形象贴切。",
+              "exampleEn": "The AI coding assistant gained significant traction among enterprise developers within six months of its public launch.",
+              "exampleCn": "该AI编程助手在公开发布后短短六个月内，在企业开发者群体中获得了显著的市场势头。"
+            },
+            {
+              "word": "mindshare",
+              "pos": "n.",
+              "meaning": "品牌或产品在目标受众心智中占据的「心理份额」。与 market share（市场份额）相对：market share 量化销售数据，mindshare 衡量「消费者第一个想到谁」。值得学习：科技营销战略中，抢占 mindshare 往往先于抢占 market share，是理解品牌竞争的核心概念。",
+              "etymology": "复合词，由 mind（心智，源自古英语 gemynd，含「记忆、思想」之义）与 share（份额，源自古英语 scearu，分割）构成。1990年代随品牌战略研究兴起，强调「占领心智」先于「占领市场」的营销哲学。",
+              "morphology": "复合名词，无词缀变化，不可数。相关复合词家族：market share（市场份额）、wallet share（钱包份额）、voice share（声量份额）、share of attention（注意力份额）。这一家族词汇构成了现代营销分析的核心词汇网络。",
+              "mnemonic": "把你的大脑想象成一块广告牌，哪个品牌占据了最大面积？那就是它的 mindshare。谷歌在搜索领域拥有近100%的 mindshare，所以「搜索」在很多语言里几乎成了「谷歌」的代名词——这就是 mindshare 的终极体现。",
+              "exampleEn": "OpenAI's early release of coding tools helped it capture significant developer mindshare before the tech giants could respond.",
+              "exampleCn": "OpenAI提前发布编程工具，帮助其在科技巨头做出反应之前就抢占了大量开发者心智份额。"
+            },
+            {
+              "word": "play catch-up",
+              "pos": "phrase",
+              "meaning": "奋力追赶领先者，弥补落下的差距。暗含当前处于被动、被迫跟随的处境，语气比 catch up 更强调「疲于奔命」的狼狈感与战略被动性。值得学习：它不只描述追赶动作，还隐含「本可领先却错失先机」的遗憾，是商业报道中刻画竞争劣势的标准表达。",
+              "etymology": "源自儿童游戏 catch（抓人）的引申义，属短语/复合词，无独立词源。catch up 字面义为「追上、追平」，加上 play 强调这是一种持续性的、战略层面的追赶行动，而非偶发的一次冲刺努力。",
+              "morphology": "短语，play（动词）+ catch-up（名词/形容词，有连字符）。注意：catch up（动词，无连字符，如 we need to catch up）vs. catch-up（名词/形容词，有连字符，如 a catch-up game）。相关：catch-up growth（追赶式增长，宏观经济学术语）。",
+              "mnemonic": "想象田径赛道：领跑者已跑出一大段，落后者拼命奔跑——这就是 playing catch-up 的画面。谐音记忆：Ketchup（番茄酱）≈ catch up，番茄酱瓶子倒置后酱料慢慢才流出，正如谷歌在AI编程领域迟缓地追赶OpenAI。",
+              "exampleEn": "After years of playing catch-up, the legacy automaker finally released an electric vehicle line that rivaled Tesla's offerings.",
+              "exampleCn": "经过多年的追赶，这家传统汽车制造商终于推出了可与特斯拉媲美的电动汽车产品线。"
+            },
+            {
+              "word": "imperative",
+              "pos": "adj. / n.",
+              "meaning": "（形容词）绝对必要的、刻不容缓的；（名词）紧迫的要务、战略使命。比 necessary 或 important 语气强烈得多，带有「不得不为」的强制感与权威性。值得学习：strategic imperative 是商业战略报告和高管演讲中的标志性搭配，直接体现「最高优先级、不可回避」的决策语气。",
+              "etymology": "源自拉丁语 imperare（命令、统治），由 im-（进入、向内）+ parare（准备、装备）构成，原义为「下达命令」。与 emperor（皇帝）、empire（帝国）同根，均携带「最高权威的指令，不可违抗」之意。",
+              "morphology": "词根 imper-（命令、统治）：emperor（皇帝）、empire（帝国）、imperious（专横的，含贬义）。后缀 -ative 表「具有……性质的」。副词：imperatively；名词可数（an imperative = 一项要务）或抽象用法（out of imperative = 出于必要）。",
+              "mnemonic": "记住：imperative 的核心是 emperor（皇帝）的命令——皇帝开口，谁敢不从？这种「不得不服从」的紧迫感就是 imperative 的精髓。拆字联想：im（立刻）+ perative（联想中文「迫」），立刻被迫去做 = imperative，画面直接。",
+              "exampleEn": "For established tech firms, building competitive AI products is no longer optional—it has become a business imperative.",
+              "exampleCn": "对于成熟的科技公司而言，打造具有竞争力的AI产品不再是可选项，而已成为一项商业必要任务。"
+            }
+          ]
+        },
+        {
+          "id": "20260602-3",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/palo-alto-networks-stock-is-rising-as-earnings-show-ai-is-a-friend-not-a-foe-0f6b289a?mod=mw_rss_topstories",
+          "headlineEn": "Palo Alto Networks Stock Rises as Earnings Show AI Is a Friend, Not a Foe",
+          "headlineCn": "Palo Alto Networks业绩证明AI是网络安全的助力而非威胁",
+          "summaryEn": "Palo Alto Networks reported strong quarterly earnings, sending its stock higher as investors embraced the company's view that artificial intelligence strengthens rather than threatens the cybersecurity sector. CEO Nikesh Arora emphasized that rapid AI advancements have created new urgency for enterprises to protect their digital infrastructure. Palo Alto's platform strategy — integrating multiple security products into a single offering — is gaining momentum as AI-generated threats grow more complex, confirming that AI is the sector's biggest growth engine, not an existential threat.",
+          "summaryCn": "Palo Alto Networks发布强劲季度业绩，股价随之走高。首席执行官Nikesh Arora表示，AI领域的最新进展大幅提升了企业在网络安全方面的紧迫感，AI非但不是威胁，反而正成为该行业最强大的增长引擎。公司将多种安全产品整合为统一平台的战略持续获得市场认可，随着AI生成的网络威胁日趋复杂，企业对综合安全解决方案的需求显著增加，凸显了网络安全在AI时代的核心价值与战略地位。",
+          "excerpt": "\"The latest advancements at the AI frontier have increased the level of urgency around cybersecurity,\" Palo Alto Networks CEO Nikesh Arora said as the company posted better-than-expected earnings. The results pushed shares higher, reinforcing the view that AI is amplifying demand for comprehensive security tools rather than rendering them obsolete.",
+          "vocab": [
+            {
+              "word": "foe",
+              "pos": "n.",
+              "meaning": "对手；敌人。语域偏正式，常出现于新闻标题的修辞对比（如「friend or foe」）。与 enemy 相比，foe 更具文学感和修辞张力，常用于二元对立框架；在商业分析中也用来指代竞争威胁或技术颠覆者，值得掌握其修辞用法。",
+              "etymology": "来自古英语 fāh（敌对的、不和解的），可追溯至原始日耳曼语 *faiha-。最初为形容词，义为「有罪的、怀有敌意的」，中古英语演变为名词 fo，现代英语定形为 foe。词义始终紧扣「敌对关系」，无明显语义漂移。",
+              "morphology": "单音节词，不可拆解。相关词：反义词 friend；同语源词 feud（世仇）、fiend（恶魔）均带「敌对」语义场；派生形式较少，主要通过搭配扩展，如 sworn foe（死敌）、foe within（内部威胁）。",
+              "mnemonic": "联想「foe」= Fight Our Enemy 首字母缩写 F-O-E。或想象一场商业大戏：AI 曾被网络安全公司视为「foe」（会抢饭碗的威胁），如今却翻转为盟友——这个剧情反转正是本文标题的张力所在，记住这个反转就记住了这个词。",
+              "exampleEn": "Once perceived as a foe to traditional financial institutions, fintech startups are now forming strategic alliances with the very banks they once threatened.",
+              "exampleCn": "曾被传统金融机构视为对手的金融科技初创公司，如今正与它们当初威胁的那些银行建立战略联盟。"
+            },
+            {
+              "word": "frontier",
+              "pos": "n.",
+              "meaning": "前沿；边界。在科技/商业语境中专指「知识或技术的最前沿」（如 AI frontier），比 cutting edge 更书面，比 forefront 更有「未知领域待探索」的感觉，常见于财报、战略文件和学术报告，是描述技术竞争格局的精准词汇。",
+              "etymology": "源自古法语 frontière，由 front（额头、正面）派生，拉丁语词根 frons 义为「额头」。本义指「面对敌境的边疆地带」，后扩展为「知识/探索的边界」；美国西进运动赋予 frontier「开拓未知」的文化意涵，影响延续至今。",
+              "morphology": "front-（前面、正面）+ -ier（法语名词后缀，表「与…相关之处」）。同词根词：front（前面）、confront（对抗）、affront（冒犯）、frontline（前线）；掌握 front- 词根可横向扩展多个商业与军事词汇。",
+              "mnemonic": "frontier = front（前面）+ ier（更靠前的地方）。AI frontier 就是探索地图的边缘——已知的地图画完了，frontier 是那片还没画完、充满未知的区域。每一次 AI 突破，就是把这条边界再往外推一点，想象地图不断扩张的画面。",
+              "exampleEn": "Companies racing to operate at the frontier of generative AI must simultaneously manage soaring compute costs and unpredictable regulatory risks.",
+              "exampleCn": "竞相在生成式AI前沿运营的公司，必须同时应对高企的算力成本和难以预测的监管风险。"
+            },
+            {
+              "word": "urgency",
+              "pos": "n.",
+              "meaning": "紧迫性；紧急程度。商业语境中常见搭配为「create / increase / convey a sense of urgency」（营造紧迫感），比 emergency（突发危机状态）更侧重「心理上需要立即行动的持续压力」，是销售话术、财报电话会议和战略报告中的核心词，值得精准掌握其语用场景。",
+              "etymology": "源自拉丁语 urgēre（推、施压），经由晚期拉丁语 urgentia 进入英语。字面义是「有东西在持续推着你」，演变为「迫切需要立即处理」的心理状态，强调持续施压感而非一次性突发事件。",
+              "morphology": "urgent（adj.）→ urgency（n.），后缀 -cy 将形容词转为表「状态/性质」的名词。完整词族：urge（v. 催促；n. 冲动）→ urgent（adj.）→ urgency（n.）→ urgently（adv.）；整个词族围绕「施加推力」的核心语义展开。",
+              "mnemonic": "urgency = urge（强烈推力）+ -ency（状态）。想象 AI 威胁像一只大手在背后猛推企业安全负责人——那种被推着不得不立即行动的状态就是 urgency。Palo Alto CEO 正是用这个词向客户传递「现在不采取行动就晚了」的压迫感。",
+              "exampleEn": "The data breach at a rival firm created a sense of urgency among board members, fast-tracking approval of the new cybersecurity budget.",
+              "exampleCn": "竞争对手遭遇数据泄露事件，在董事会成员中营造了一种紧迫感，加速了新网络安全预算的审批。"
+            },
+            {
+              "word": "platformization",
+              "pos": "n.",
+              "meaning": "平台化；将多个独立产品整合为统一平台的商业战略。这是网络安全和科技行业的核心战略术语，Palo Alto Networks 正以此战略区别于提供单点工具的竞争对手。读财报、听电话会议时高频出现，是理解科技公司竞争逻辑和定价权的关键词汇。",
+              "etymology": "platform（平台）+ -ize（动词化后缀，源自希腊语 -izein）+ -ation（名词化后缀，源自拉丁语 -atio）。platform 本身源自法语 plate-forme（平坦结构），16世纪指建筑平台，后扩展为「数字平台/商业平台」。",
+              "morphology": "platform + -ize（使成为…）+ -ation（过程/结果名词）。同类构词：digitize → digitization，optimize → optimization，monetize → monetization；掌握 -ize/-ization 构词规律可迅速扩展大量商业科技词汇，触类旁通。",
+              "mnemonic": "把 platformization 想成「把所有安全工具搬上同一个舞台（platform）演出」——以前各家安全产品是各自为战的小剧团，现在合并成统一管理的大剧场。Palo Alto 就是在网络安全领域盖这个「大剧场」，让客户只买一张票看全场。",
+              "exampleEn": "Analysts credit the company's platformization approach for reducing clients' total cost of ownership while raising switching costs for rivals.",
+              "exampleCn": "分析师认为，该公司的平台化策略有效降低了客户的总拥有成本，同时提高了竞争对手的替代壁垒。"
+            },
+            {
+              "word": "inflection point",
+              "pos": "phrase",
+              "meaning": "拐点；转折点。数学术语借用至商业语境，指「增长轨迹、市场结构或竞争格局发生根本性转变的关键时刻」。比 turning point 更精准，因为暗示变化具有可量化、曲线性的特征，是财报电话会议和投资者演讲中极高频的词组，值得精读商业英语的学习者重点掌握。",
+              "etymology": "inflection 源自拉丁语 inflectere（弯曲），in-（向内）+ flectere（弯曲）；point 源自拉丁语 punctum（刺穿的点）。数学上指曲线由凹变凸（或反之）的那个点，商业中借用其「增长方向发生根本改变」的含义。",
+              "morphology": "in-（向内）+ flect-（弯曲词根）+ -ion（名词后缀）+ point（点）。同词根词：reflect（反射）、deflect（偏转）、flexible（灵活的）、flex（弯曲）；掌握 flect/flex 词根可扩展大量描述「方向/变化」的词汇。",
+              "mnemonic": "想象一条增长曲线图，到了「inflection point」就像开车遇到弯道——之前一直匀速直行，突然「弯了」（flect）。AI让网络安全需求在这个弯道从平缓增长变成指数爬升，这个弯道的起点就是 inflection point，记住「曲线拐弯的那一刻」。",
+              "exampleEn": "The CEO told analysts the company had reached an inflection point where enterprise AI adoption would drive a sustained acceleration in security spending.",
+              "exampleCn": "首席执行官告诉分析师，公司已到达一个拐点——企业AI应用的普及将推动安全支出持续加速增长。"
+            }
+          ]
+        },
+        {
+          "id": "20260602-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/02/ulta-beauty-ulta-q1-earnings-2026.html",
+          "headlineEn": "Ulta Beauty Beats Expectations and Raises Earnings Outlook",
+          "headlineCn": "Ulta美妆业绩超预期，上调全年盈利展望",
+          "summaryEn": "Ulta Beauty delivered a strong fiscal first quarter, surpassing Wall Street estimates on both revenue and net profit. CEO Kecia Steelman credited the company's focused strategy for the outperformance. Following the results, Ulta raised its full-year earnings outlook, signaling growing confidence in consumer demand for beauty products. The stock climbed sharply after the announcement, reflecting positive investor sentiment toward the retailer's disciplined execution.",
+          "summaryCn": "Ulta美妆公布了强劲的2026财年第一季度业绩，营收与净利润均超越华尔街分析师预期。首席执行官Kecia Steelman将这一表现归功于公司专注且清晰的运营策略。受业绩提振，Ulta同步上调了全年盈利预期，显示管理层对美妆消费市场的持续复苏充满信心。消息公布后，公司股价大幅上涨，投资者对其执行能力给出了积极评价。",
+          "excerpt": "Ulta Beauty exceeded Wall Street expectations on both the top and bottom lines for its fiscal first quarter. CEO Kecia Steelman credited the company's strategy, and the beauty retailer subsequently raised its full-year earnings outlook, sending shares sharply higher.",
+          "vocab": [
+            {
+              "word": "hike",
+              "pos": "v. / n.",
+              "meaning": "大幅上调、提高。财经语境中指对利率、薪资、价格或业绩指引的显著上调，比 raise 语气更强，暗示幅度较大且带有主动决策色彩。「hike the outlook」是财报季的高频句式，必须掌握。",
+              "etymology": "源自19世纪美国方言，原义为「费力徒步攀爬」，后引申为「向上拉升」，20世纪进入金融语言，专指数值的大幅上调。",
+              "morphology": "单一词根，无前后缀；派生词：hiker（n. 徒步者）、hiking（v./n. 徒步/上涨）；金融高频搭配：rate hike（加息）、wage hike（涨薪）、hike guidance（上调指引）。",
+              "mnemonic": "想象一个背包客拼命爬山——每一步脚都「向上抬」，利率、工资、业绩预期一路「爬坡」就叫 hike。核心画面：hike = 向上用力攀登。",
+              "exampleEn": "After reporting record revenue, the company hiked its annual earnings outlook by 15 percent.",
+              "exampleCn": "在公布创纪录营收后，该公司将全年盈利预期上调了15%。"
+            },
+            {
+              "word": "outlook",
+              "pos": "n.",
+              "meaning": "前景展望；财报语境中特指企业对未来业绩的官方指引（即 guidance），比 forecast 更常见于企业对外的正式表态。「raise / hike the outlook」是财报季最常见句式之一，不可不知。",
+              "etymology": "源自古英语，out（向外）+ look（看），字面义为「向外眺望」，16世纪起引申为对未来的预判，后被商业英语广泛采用。",
+              "morphology": "out-（向外、超越）+ look（看）；同前缀词：outcome（结果）、output（产出）、outperform（表现超越）；注意与 forecast（预测）区别：outlook 更强调主观判断与方向性。",
+              "mnemonic": "outlook = out（朝外）+ look（看）：CEO 站在季报发布会的窗口，把目光投向远方描述未来——那就是「业绩展望」。方向是向外、向前看。",
+              "exampleEn": "The chipmaker raised its quarterly outlook, citing stronger-than-expected demand from cloud providers.",
+              "exampleCn": "这家芯片制造商上调了季度展望，理由是来自云服务商的需求强于预期。"
+            },
+            {
+              "word": "fiscal",
+              "pos": "adj.",
+              "meaning": "财政的；财年的。「fiscal year / quarter」是阅读英文财报的基础词汇，注意公司财年未必与自然年一致（如 Ulta 的 Q1 约对应2月至4月）。与 financial 的区别：fiscal 更聚焦于年度核算周期或政府税收，financial 泛指一切金融事务。",
+              "etymology": "源自拉丁语 fiscus，原指罗马时代盛放国库税款的「编织篮筐」，后引申为国家财政体系，经法语进入英语，现代英语中特指财务年度或财政属性。",
+              "morphology": "无常见前后缀变形；派生词：fiscally（adv. 财政上地）；高频搭配：fiscal year（财年）、fiscal policy（财政政策）、fiscal deficit（财政赤字）、fiscal Q1（财年第一季度）。",
+              "mnemonic": "「fiscal」里藏着「fist」（拳头）——国家用「铁拳」管住钱袋子，凡是跟钱的年度核算有关的就叫 fiscal。记：fist + cal(culate) = 用拳头「掌控计算」的财政事务。",
+              "exampleEn": "The tech firm reported a 20 percent revenue jump for its fiscal first quarter, which ended in March.",
+              "exampleCn": "这家科技公司公布了截至3月的财年第一季度业绩，营收同比增长20%。"
+            },
+            {
+              "word": "top line",
+              "pos": "phrase (n.)",
+              "meaning": "营业总收入。来自损益表版式：收入永远写在最上面一行，故称「顶行」。与 bottom line（净利润）相对，衡量公司的成长性。「beat on the top line」= 营收超预期，是财报评论的必知短语，直接用收入数字说话。",
+              "etymology": "短语/复合词，无独立词源；来自会计损益表（income statement）的物理排版传统：总营收是第一行，各项成本依次往下扣除，最后一行才是净利润。",
+              "morphology": "top（顶部）+ line（行）；同类结构：bottom line（净利润）、headline number（头条数据）、above-the-line cost（广告等线上成本）；可形容词化：top-line growth（营收增长）。",
+              "mnemonic": "把损益表想象成一栋楼：最顶层（top）住着「营收」这个大房客，越往下楼层越少——扣掉各种成本后，底层才是净利润。top line 就是住在顶楼的那个数字。",
+              "exampleEn": "Investors cheered as the streaming company beat on the top line, reporting quarterly revenue of $9.8 billion.",
+              "exampleCn": "这家流媒体公司营收超预期，季度营收达98亿美元，投资者为之欢呼。"
+            },
+            {
+              "word": "bottom line",
+              "pos": "phrase (n.)",
+              "meaning": "净利润；引申义为「最终结论/核心要点」。损益表最后一行记录所有成本扣除后的实际盈利。此词一词两用：财务语境 = 净利润，日常语境 = 「重点是……」，两种用法均极高频，建议同时掌握。",
+              "etymology": "短语/复合词，无独立词源；源自19世纪会计账本底行记录最终盈亏的传统，口语引申义「说到底、重点是」在20世纪广泛普及。",
+              "morphology": "bottom（底部）+ line（行）；对应结构：top line（营收）；常见句式：The bottom line is...（重点是……）、bottom-line growth（利润增长）、bottom-line impact（对利润的影响）。",
+              "mnemonic": "会计表格最「底」下（bottom）那「行」（line）数字，是老板每晚睡前最想看的那个——净利润。口语里「bottom line」也指「压箱底的结论」：说了半天，bottom line 就是……",
+              "exampleEn": "Cost cuts helped the automaker improve its bottom line despite a modest decline in top-line revenue.",
+              "exampleCn": "尽管营收小幅下滑，但削减成本帮助这家汽车制造商改善了净利润。"
+            }
+          ]
+        },
+        {
+          "id": "20260602-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/02/intelligence-trump-bill-pulte-tulsi-gabbard.html",
+          "headlineEn": "Trump Appoints Housing Chief Pulte as Acting Intelligence Director, Replacing Gabbard",
+          "headlineCn": "特朗普任命房屋金融负责人普尔特为代理国家情报总监，取代加巴德",
+          "summaryEn": "President Trump has appointed Bill Pulte, former head of the Federal Housing Finance Agency, as acting Director of National Intelligence, replacing Tulsi Gabbard. Pulte is known for publicly alleging financial misconduct against political opponents, including Federal Reserve Governor Lisa Cook and New York Attorney General Letitia James, citing mortgage irregularities. The move raises concerns about politicizing U.S. intelligence agencies, as Pulte lacks the national security credentials conventionally expected for the role.",
+          "summaryCn": "特朗普总统任命前联邦住房金融局局长比尔·普尔特出任代理国家情报总监，接替图尔西·加巴德。普尔特曾在社交媒体上公开指控多名政治对手存在抵押贷款违规行为，涉及美联储理事丽莎·库克和纽约州检察长莱蒂希娅·詹姆斯。此次任命引发外界对美国情报机构政治化的担忧，因普尔特缺乏担任这一要职所需的国家安全专业背景。",
+          "excerpt": "President Trump named Bill Pulte, the housing finance chief, as acting Director of National Intelligence, replacing Tulsi Gabbard. Pulte had previously alleged mortgage-related wrongdoing by several of Trump's political adversaries, including a Federal Reserve governor and a state attorney general.",
+          "vocab": [
+            {
+              "word": "acting",
+              "pos": "adj.",
+              "meaning": "代理的、临时的（指尚未经正式确认而暂时履职的官员）。美国政府任命新闻中「acting + 职务名」是固定搭配，与经国会确认的正式官员有本质区别，是政治报道的核心修饰词。",
+              "etymology": "源自拉丁语 actus（已完成之事、行动），经古英语 act 演变而来。用作形容词修饰职务名称，表示「代行其职」，即正式人选缺位时暂时执行职责的状态，语义由「行动」延伸至「代行角色」。",
+              "morphology": "act（行动、执行）+ -ing（形容词／现在分词后缀）。同词根扩展：enact（颁布法律）、transaction（交易，字面为「跨越行动」）、react（反应）、proactive（主动的）。",
+              "mnemonic": "演员（actor）在正主缺席时「代演」角色——acting director 就是「代演总监」，还没拿到正式剧本（国会确认）的临时替补。acting 在舞台上是「表演」，在政治上是「代行」，同一个词，两种场景。",
+              "exampleEn": "The board named the CFO as acting CEO while conducting a global search for a permanent successor.",
+              "exampleCn": "董事会在全球寻访永久继任者期间，任命首席财务官担任代理首席执行官。"
+            },
+            {
+              "word": "allege",
+              "pos": "v.",
+              "meaning": "声称、指控（在缺乏确凿证据的情况下指控某人有不当行为）。新闻报道中区别于 accuse（侧重正式法律程序），allege 专指「尚未经证实的主张」，是财经和法律报道最高频的动词之一，用错语域会显得不专业。",
+              "etymology": "来自拉丁语 allegare，由 ad-（朝向）+ legare（委派、引证）构成，原义为「引证某事作为依据」，中世纪英语中演变为「提出声明或主张」，强调「言之凿凿但未经证明」。",
+              "morphology": "al-（ad- 的同化变体，朝向）+ lege（来自 legare，委托／引证）。同族词：delegate（委派）、relegate（降级）；名词形式 allegation 同样是新闻高频词（注意已列入复习过词汇，重点掌握动词形式）。",
+              "mnemonic": "「allege」拆成「a + ledge」——想象站在悬崖边缘（ledge）大声指控别人，但自己还没掉下去证明真伪。悬在半空的指控，就是 allege：说了，但未必属实。",
+              "exampleEn": "The whistleblower alleged that the company had falsified its quarterly revenue figures.",
+              "exampleCn": "举报人声称该公司伪造了季度营收数据。"
+            },
+            {
+              "word": "mortgage",
+              "pos": "n.",
+              "meaning": "抵押贷款（尤指以房产为抵押的长期贷款）。理解美国房产市场、住房政策和金融监管不可绕开的核心词，延伸搭配 mortgage-backed securities（MBS，抵押支持证券）在金融报道中极为常见。",
+              "etymology": "来自古法语 mort gage，字面意为「死亡的质押」——mort（死亡，来自拉丁语 mors）+ gage（抵押、保证）。贷款还清或房产被没收时，这份质押才算「死去」，词源本身就是一个商业逻辑的隐喻。",
+              "morphology": "mort（死亡）+ gage（质押）。mort 同根词：mortal（致命的）、immortal（不朽的）、mortuary（太平间）。金融延伸词：mortgage rate（房贷利率）、mortgage-backed securities（MBS）、underwater mortgage（资不抵债的房贷）。",
+              "mnemonic": "「mort = 死」：房子「死死押」在银行手里，还完贷款这份「死亡协议」才解除。想象骷髅头坐在你的房契上守着——记住 mort 就记住了 mortgage。",
+              "exampleEn": "Rising interest rates have made mortgage payments unaffordable for many first-time homebuyers.",
+              "exampleCn": "利率上升使许多首次购房者难以负担抵押贷款的月供。"
+            },
+            {
+              "word": "oust",
+              "pos": "v.",
+              "meaning": "驱逐、撤换（将某人从权力职位上强行移除）。比中性词 replace 更强调非自愿性和政治博弈色彩，在政治人事和企业高管更迭报道中极为常见，是财经新闻必备词，传递「被迫离开」的语感。",
+              "etymology": "来自古法语 oster（移除、取走），源自拉丁语 obstare（阻挡、占据位置）。语义经由「阻挡」演变为「把人从位置上清除出去」，强调主动施力将人驱逐的动作。",
+              "morphology": "单音节词，无词缀结构。派生词：ousted（被驱逐的，过去分词常用作形容词，如 the ousted CEO）、ousting（撤换行动，名词）。近义词辨析：remove（中性行政程序）、oust（强制性、政治性）、fire（口语，解雇）、unseat（政治领域，推翻）。",
+              "mnemonic": "「oust」发音近似「奥斯特」——想象一位叫奥斯特的高管被董事会一脚踢出会议室大门，箱子飞出去，人站在走廊里。这就是 oust：被强行踢走，不是自己走的。",
+              "exampleEn": "Activist investors ousted the CEO after three consecutive quarters of declining revenue.",
+              "exampleCn": "在连续三个季度营收下滑后，维权投资者成功迫使该首席执行官下台。"
+            },
+            {
+              "word": "oversee",
+              "pos": "v.",
+              "meaning": "监管、主管（负责从宏观层面监督某机构或项目的整体运作）。比 manage 更强调俯瞰式的宏观监督视角，常用于描述政府官员或高管的职责范围，是政治和商业报道的惯用动词，指「把控全局」而非事必躬亲。",
+              "etymology": "来自古英语 oferseon，由 ofer（在……之上）+ seon（看）构成，字面意为「从高处俯视全局」，引申为「监督管理」。词源清晰保留了「居高临下」的空间隐喻。",
+              "morphology": "over-（在上、超越）+ see（看）。同前缀词：overlook（俯瞰／忽视，一词两义）、overrule（否决）、oversight（监管／失察，同样一词两义，需注意语境区分）。",
+              "mnemonic": "over（在上）+ see（看）= 从高处往下看 = 监管。想象老鹰在空中盘旋（over）俯视（see）整片猎场——居高临下，掌握全局，这就是 oversee 的画面感。",
+              "exampleEn": "The newly appointed director will oversee all domestic and foreign intelligence operations.",
+              "exampleCn": "新任命的总监将监管所有国内和境外情报行动。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-01": {
       "label": "6月1日 (周一)",
       "stories": [
