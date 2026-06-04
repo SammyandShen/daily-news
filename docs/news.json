@@ -1,7 +1,167 @@
 {
-  "lastUpdated": "2026-06-03T02:37:38.192778+00:00",
+  "lastUpdated": "2026-06-04T02:26:22.165083+00:00",
   "level": "B2",
   "days": {
+    "2026-06-03": {
+      "label": "6月3日 (周三)",
+      "stories": [
+        {
+          "id": "20260603-1",
+          "category": "tech",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/data-center-operators-fix-water-use-problems/",
+          "headlineEn": "Data Center Operators Are Trying to Fix Their Water Use Problems",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Google, Microsoft, and other hyperscalers have come under scrutiny for their impact on water quality and availability.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Google, Microsoft, and other hyperscalers have come under scrutiny for their impact on water quality and availability.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260603-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+          "headlineEn": "Lovable signs multi-year deal with Google Cloud to up usage 5x, source says",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Lovable and Google signed an expanded multi-year deal athat involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Lovable and Google signed an expanded multi-year deal athat involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260603-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
+          "headlineEn": "SpaceX targets $135 IPO price at valuation of $1.77 trillion",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The valuation would make Elon Musk's company the seventh-biggest in the U.S., above Tesla, which has a market cap of about $1.6 trillion.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The valuation would make Elon Musk's company the seventh-biggest in the U.S., above Tesla, which has a market cap of about $1.6 trillion.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260603-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/03/historic-stock-rally-faces-key-test.html",
+          "headlineEn": "Historic stock rally faces key test",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Two key tech companies reporting earnings after the bell could determine the next move higher or lower.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Two key tech companies reporting earnings after the bell could determine the next move higher or lower.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260603-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html",
+          "headlineEn": "U.S. Proposes New Import Duties on 60 Economies Over Forced Labor Practices",
+          "headlineCn": "美国拟对60个经济体征收新关税，打击强迫劳动贸易行为",
+          "summaryEn": "The U.S. Trade Representative (USTR) has proposed new import duties on goods from 60 economies, targeting forced labor trade practices. Economies that have enacted full or partial prohibitions on forced labor in trade would face a 10% duty rate, while all others would be subject to 12.5%. The move signals Washington's use of trade policy as a lever to enforce global labor rights standards, and could disrupt supply chains for multinational companies sourcing from affected regions.",
+          "summaryCn": "美国贸易代表办公室（USTR）提议对来自60个经济体的商品征收新进口关税，重点打击强迫劳动贸易行为。根据该提案，已全面或部分禁止强迫劳动贸易的经济体将面临10%的关税税率，其余经济体则须缴纳12.5%。此举标志着华盛顿正将贸易政策作为推动全球劳工权利标准的重要手段，也可能对在受影响地区进行采购的跨国企业供应链造成冲击。",
+          "excerpt": "The U.S. Trade Representative has proposed a 10% duty rate on imports from economies that have adopted a full or partial prohibition on forced labor trade, and a 12.5% rate for all other economies — targeting labor rights compliance across 60 trading partners.",
+          "vocab": [
+            {
+              "word": "levy",
+              "pos": "v. / n.",
+              "meaning": "征收（税款、关税等）；也作名词「税款」。比 charge 或 impose 更正式，专门用于官方、法律语境下对税费的强制征收，财经新闻中极为高频。值得学：levy a duty / levy a fine 是固定搭配，语域比 impose 更偏法律文书。",
+              "etymology": "来自古法语 lever（举起、征集），源自拉丁语 levare（举起）。中世纪时指「征召军队」，后引申为「由权威机构强制征收款项」，语义从物理「举起」演变为抽象「向上索取」。",
+              "morphology": "词根 lev-（举起）→ levy, elevate（提升）, lever（杠杆）, levitate（悬浮）, alleviate（减轻，al- 使 + lev- 轻）。名词与动词同形，复数及第三人称单数为 levies。",
+              "mnemonic": "想象税务官「把你的钱举起来（lev = lift）拿走」——levy 就是「官方把钱征走」。记住 levy a tax 固定搭配，就像 raise a flag，都是「举起」的动作，画面感强。",
+              "exampleEn": "The government plans to levy a 15% import duty on all electronic goods entering the country.",
+              "exampleCn": "政府计划对所有进口电子产品征收15%的进口关税。"
+            },
+            {
+              "word": "prohibition",
+              "pos": "n.",
+              "meaning": "正式禁止；由权威机构颁布的明文禁令。比口语化的 ban 更正式，常出现在法律和贸易政策文本中。值得学：掌握搭配 prohibition on sth，并注意 prohibitive（adj.）另有「贵得令人望而却步」的引申义，财经新闻中同样高频。",
+              "etymology": "来自拉丁语 prohibitio，由 pro-（向前、阻挡）和 habere（持有、拥有）派生，原义「阻止持有某物」，后泛化为「正式禁止」。英语中大写 Prohibition 特指美国1920年代的禁酒令。",
+              "morphology": "pro-（向前/阻止）+ hibit（持有，源自 habere）→ prohibit（v. 禁止）, prohibition（n.）, prohibitive（adj. 高得令人望而却步的）, prohibitory（adj. 禁止性的）。",
+              "mnemonic": "pro-「前面」+ hibit「持有」→「在前面拦住不让持有」= 禁止。顺便记 prohibitive price 是「贵到令人无力承担的价格」，是财经新闻必备词，一词两用效率高。",
+              "exampleEn": "The new trade agreement includes a prohibition on the import of goods manufactured under forced labor conditions.",
+              "exampleCn": "新贸易协定明确禁止进口在强迫劳动条件下生产的商品。"
+            },
+            {
+              "word": "duty",
+              "pos": "n.",
+              "meaning": "关税；进口税。与 tariff 微妙不同：duty 偏向具体征收的税额（如 10% duty rate），tariff 更常指整体关税体系或税率表。官方文件和法律文本中 duty 更精确，掌握区别能让表达更专业地道。",
+              "etymology": "来自古法语 duete（应尽之事），源自中世纪拉丁语 debitum（债务、义务），与 due（应付的）同源。「向国家缴税」被视为公民义务，因此 duty 兼有「税」和「职责/义务」两义，一词双关。",
+              "morphology": "duty 属古法语借词，无独立拉丁词根。派生词：duties（复数，也指「关税」总称），dutiful（adj. 尽职的），duty-free（adj. 免税的），on duty / off duty（在岗/下班）。",
+              "mnemonic": "duty = 「义务」，向海关缴税是进入该国的「义务」，所以 customs duty = 关税。机场免税店 duty-free shop 是最直观记忆点：免掉了「义务税」就是免税，见到就能想起。",
+              "exampleEn": "Imported steel components are now subject to a 25% anti-dumping duty, raising costs for domestic manufacturers.",
+              "exampleCn": "进口钢铁部件现须缴纳25%的反倾销税，进一步提高了国内制造商的生产成本。"
+            },
+            {
+              "word": "unilateral",
+              "pos": "adj.",
+              "meaning": "单边的；由一方单独决定或采取行动的，不经多方协商。在贸易、外交语境中常含「单方面施压」的负面意味，与 bilateral（双边）、multilateral（多边）形成鲜明对比，是国际贸易报道的必备词。",
+              "etymology": "来自拉丁语 uni-（一）+ lateralis（侧面的，源自 latus 侧面）。字面义「只有一侧」，引申为「只有一方参与或决定」。16世纪进入英语，最初用于法律合同语境，后扩展至外交和贸易。",
+              "morphology": "uni-（一）+ later-（侧面）+ -al（形容词后缀）。同族词：bilateral（双边的，bi-=二），multilateral（多边的，multi-=多），lateral（横向的），collateral（附带的，col-=共同，旁侧）。",
+              "mnemonic": "uni = 一（unicorn 独角兽只有一只角）+ lateral = 侧面（lateral thinking 横向思维）→「只有一侧」= 单边。规律：uni=1，bi=2，multi=多，套用到所有 -lateral 词，一次掌握整个词族。",
+              "exampleEn": "The company's unilateral decision to exit the market without consulting its partners triggered a wave of lawsuits.",
+              "exampleCn": "该公司未经合伙人协商便单方面决定退出市场，随即引发了一系列诉讼。"
+            },
+            {
+              "word": "punitive",
+              "pos": "adj.",
+              "meaning": "惩罚性的；以惩戒或威慑为目的，而非单纯补偿损失。punitive tariffs（惩罚性关税）、punitive damages（惩罚性赔偿）是财经和法律新闻核心词，比 penalty 更书面，暗含「超出正常水平、专门为了教训对方」的强烈意味。",
+              "etymology": "来自拉丁语 punitīvus，源自 punire（惩罚），词根 poen-/pun- 来自希腊语 poinē（惩罚、赔偿）。与 punish、punishment、impunity（不受惩罚，im-=不）同根，构成完整词族。",
+              "morphology": "punit-（惩罚）+ -ive（形容词后缀，表「具有某种性质」）→ punish（v.）, punishment（n.）, punitive（adj.）, impunity（n. 不受惩罚，im-=不 + punity）。",
+              "mnemonic": "punitive 和 punishment 都以 pun- 开头，看到 pun- 就想「惩罚」。记住 punitive damages 是法庭超出实际损失的「额外惩罚金」，专门用来「让对方长记性」，画面鲜活好记。",
+              "exampleEn": "The regulator imposed punitive fines on the bank for repeatedly violating anti-money-laundering rules.",
+              "exampleCn": "监管机构因该银行多次违反反洗钱规定，对其处以惩罚性罚款。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-02": {
       "label": "6月2日 (周二)",
       "stories": [
