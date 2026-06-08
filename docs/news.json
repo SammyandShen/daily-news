@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-06-07T23:14:45.384239+00:00",
+  "lastUpdated": "2026-06-08T23:13:45.254639+00:00",
   "level": "B2",
   "days": {
+    "2026-06-08": {
+      "label": "6月8日 (周一)",
+      "stories": [
+        {
+          "id": "20260608-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/08/apple-google-nvidia-ai-chips.html",
+          "headlineEn": "Apple Unveils AI Partnerships with Google and Nvidia at WWDC",
+          "headlineCn": "苹果携手谷歌与英伟达，WWDC发布会力推最先进AI模型战略",
+          "summaryEn": "At its annual Worldwide Developers Conference, Apple unveiled a bold AI strategy centered on partnerships with Google and Nvidia to develop its most advanced AI models to date. The move signals Apple's intent to remain competitive in the fast-moving AI race, leveraging external expertise rather than building entirely in-house. For consumers, this could mean significantly smarter Siri and on-device intelligence features arriving in future iOS and macOS releases.",
+          "summaryCn": "在一年一度的全球开发者大会（WWDC）上，苹果公司宣布了一项大胆的人工智能战略，核心是与谷歌和英伟达建立合作伙伴关系，共同开发迄今最先进的AI模型。此举表明苹果有意在快速演进的AI竞赛中保持竞争力，选择借助外部技术力量而非完全依赖内部研发。对于普通消费者而言，这意味着未来的iOS和macOS系统中，Siri及设备端智能功能将得到大幅提升。",
+          "excerpt": "At Apple's Worldwide Developers Conference in Cupertino, the company's artificial intelligence strategy took center stage. Apple announced it is partnering with both Google and Nvidia to power its most advanced AI models yet — a sign that even the world's most valuable company is looking outside its walls for AI firepower.",
+          "vocab": [
+            {
+              "word": "unveil",
+              "pos": "v.",
+              "meaning": "公开揭幕；首次正式宣布（新产品、战略或合作关系）。比 announce 更强调「首次亮相」的仪式感，常见于科技发布会报道和企业公关稿，语域偏正式，值得学因为它是科技新闻标题的核心动词。",
+              "etymology": "来自古法语前缀 un-（取消、反转）与中古英语 veil（面纱），veil 源自拉丁语 vela（帆布、覆盖物）。原义「揭开面纱」，后演变为「正式公开展示某项新事物」的比喻用法。",
+              "morphology": "un-（反转/去除前缀）+ veil（名词/动词：遮盖）。同前缀词：uncover（揭开）、unwrap（拆开）、unlock（解锁）。派生词：unveiling（n. 揭幕式）、re-unveil（再次发布，罕见）。",
+              "mnemonic": "想象发布会舞台上一块红布盖着新产品，CEO 走上台「un-veil」（取下面纱）——此画面与苹果发布会高度契合，每次看到 WWDC 报道就能联想到这个词。",
+              "exampleEn": "Tesla unveiled its long-awaited humanoid robot at a packed shareholder event last spring.",
+              "exampleCn": "特斯拉在去年春季人头攒动的股东大会上正式发布了期待已久的人形机器人。"
+            },
+            {
+              "word": "tout",
+              "pos": "v.",
+              "meaning": "大力推销、吹捧（产品、功能或理念）。比 promote 更带批判性距离，暗含「言过其实」的语感，常见于新闻报道描述公司在发布会上「大肆宣传」某功能。much-touted 是高频书面搭配，值得单独记忆。",
+              "etymology": "源自中古英语 tuten（向外张望、窥探），后演变为「招揽顾客」，18世纪起在英式英语中广泛用于赛马小贩叫卖，进而泛化为「夸张推销」之义，保留了「街头叫卖」的市井气。",
+              "morphology": "单音节词，无可拆解词根。常见派生形式：touting（现在分词）、touted（much-touted 意为「备受吹捧的」，高频书面搭配）、touter（n. 推销员，英式英语）。",
+              "mnemonic": "想象街头小贩（tout）对着人群大声叫喊「来来来！最好的！最棒的！」——声音响亮、带点夸张，帮你记住这个词含有「过度推销」的语感，不同于中性的 promote。",
+              "exampleEn": "The startup has been touting its AI chip as a direct rival to Nvidia's H100, though analysts remain skeptical.",
+              "exampleCn": "这家初创公司一直大力鼓吹其AI芯片是英伟达H100的直接竞争对手，但分析师们仍持怀疑态度。"
+            },
+            {
+              "word": "tie-up",
+              "pos": "n.",
+              "meaning": "商业合作关系；战略联盟协议。比 partnership 更口语化，常见于商业报道标题，带有「为特定项目绑定利益」的语感，暗示合作具有针对性而非长期股权关系，是商业新闻必备词汇。",
+              "etymology": "由动词短语 tie up（捆绑）名词化而来。tie 源自古英语 tīegan（绑住），up 为副词强化。原指将船只系泊码头，后引申为「双方绑定共同利益」的商业关系。",
+              "morphology": "短语复合词，无独立词源。动词原形：tie up（系住；捆绑合作）。近义商业词对比：joint venture（合资，有股权转让）、alliance（正式同盟）、tie-up（口语化，项目性合作，无股权含义）。",
+              "mnemonic": "把两家公司想象成两艘船，用绳子 tie（绑）up（在一起）靠港——合作就是把船系在同一个码头，松绳就是结束合作，画面直观。苹果把谷歌和英伟达的绳子都系上了。",
+              "exampleEn": "The tie-up between the two semiconductor firms is expected to fast-track the development of next-generation memory chips.",
+              "exampleCn": "这两家半导体公司之间的合作预计将加速下一代存储芯片的研发进程。"
+            },
+            {
+              "word": "underscore",
+              "pos": "v.",
+              "meaning": "强调、突显（某一事实或重要性）。比 emphasize 更书面正式，多见于分析报告、新闻社论和学术写作，常用于「这一事件凸显了……深层问题」的句式，是高端商业写作的必备词汇。",
+              "etymology": "由 under-（在下方）+ score（刻痕、划线）构成。原义为「在文字下方划线以示强调」，源自抄写员用笔在重要词语下方划横线的传统做法，后引申为抽象的「着重指出」。",
+              "morphology": "under-（在…之下）+ score（n./v. 划线；得分）。同前缀词：underline（下划线/强调，更口语）、underpin（支撑基础）、undermine（从底部削弱）。underscore 与 underline 近义但语域更正式书面。",
+              "mnemonic": "想象老师在黑板重要词语下方划一道粗线（under + score = 在下面刻一道），这个动作本身就是「强调」。与 underline 共用同一画面，但 underscore 出现在正式报告和社论中。",
+              "exampleEn": "The record-breaking chip shortage underscores the urgent need for companies to diversify their supply chains.",
+              "exampleCn": "这场破纪录的芯片短缺深刻揭示了企业迫切需要实现供应链多元化的现实。"
+            },
+            {
+              "word": "harness",
+              "pos": "v.",
+              "meaning": "利用、驾驭（某种强大力量、技术或资源）。比 use 或 utilize 更强调「将难以控制的力量引导为生产力」，AI/能源/科技报道的核心词汇，如 harness AI capabilities、harness renewable energy，语感比 leverage 更具体形象。",
+              "etymology": "源自古法语 harneis（战马全套装备）。中世纪原义：将马匹「套进挽具」使其为人所用，后引申为对任何强大力量（自然力、技术能量）的「套牢与引导」，保留了「驯服野性」的核心隐喻。",
+              "morphology": "既作名词（马具；安全带）又作动词（利用驾驭）。同义动词对比：leverage（侧重杠杆放大效应）、tap into（侧重接入/开采资源）、capitalize on（侧重抓住机遇）。harness 最强调「驾驭野性能量」的主动意象。",
+              "mnemonic": "想象一匹野马（狂暴的 AI 算力），套上马具（harness）才能为人耕地——这个词完美传达「将强大、潜在失控的力量转化为生产力」的意象。看到 AI/能源新闻中的 harness 就想起被套住的野马。",
+              "exampleEn": "Pharmaceutical companies are racing to harness large language models to accelerate early-stage drug discovery.",
+              "exampleCn": "各大制药公司正竞相利用大型语言模型来加速早期药物研发进程。"
+            }
+          ]
+        },
+        {
+          "id": "20260608-2",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
+          "headlineEn": "Apple Unveils 'Siri AI': A More Conversational, Google-Powered Voice Assistant",
+          "headlineCn": "苹果推出「Siri AI」：更具对话感的谷歌赋能语音助手",
+          "summaryEn": "Apple has announced a major rebrand of its voice assistant, now called 'Siri AI,' promising a more conversational experience set to arrive this fall. The upgrade introduces a two-tiered AI model structure, with Google's technology playing a key role. The move signals Apple's most aggressive push yet to compete with ChatGPT and Google Assistant, as the company acknowledges its earlier AI efforts failed to meet rising user expectations.",
+          "summaryCn": "苹果公司宣布对旗下语音助手进行重大升级，正式更名为「Siri AI」，承诺带来更自然的对话体验，预计随今秋系统更新一同推出。此次升级引入两级AI模型架构，部分核心能力由谷歌技术驱动。这一举措标志着苹果在AI领域最大力度的一次追赶行动，也间接承认此前的AI布局未能满足用户日益提升的期待。",
+          "excerpt": "Apple announced 'Siri AI,' a rebranded and more conversational version of its longtime voice assistant, featuring a two-tiered AI model structure powered in part by Google. The updated assistant is expected to arrive this fall, marking Apple's most ambitious AI push to date.",
+          "vocab": [
+            {
+              "word": "unveil",
+              "pos": "v.",
+              "meaning": "正式发布、公开推出（新产品或计划）。比 announce 更强调「首次亮相」的仪式感，常见于科技发布会和新品首发报道，是财经/科技新闻的核心动词",
+              "etymology": "来自古法语 voile（面纱），前缀 un- 表「去除/反向」，原义为「揭去面纱」，后引申为「公开展示原本隐藏之物」，16世纪正式进入英语",
+              "morphology": "un-（去除/反向）+ veil（面纱→v.遮盖）。同前缀扩展：uncover（揭露）、unravel（解开）、unlock（解锁）",
+              "mnemonic": "想象苹果发布会舞台中央有一块黑色幕布，Tim Cook 走上来一把拉开——这个动作就是 unveil。每次看发布会，脑中浮现「揭幕」瞬间",
+              "exampleEn": "The startup unveiled its flagship AI chip at the annual developer conference, sending its stock up 12%.",
+              "exampleCn": "这家初创公司在年度开发者大会上发布了旗舰AI芯片，股价随即上涨12%。"
+            },
+            {
+              "word": "two-tiered",
+              "pos": "adj.",
+              "meaning": "两级的、双层架构的。在商业和科技语境中描述产品或服务按功能和价格分为两个层次，是「差异化定价」和「分级架构」的核心描述词，比 two-level 更地道",
+              "etymology": "tier 源自古法语 tire（顺序、行列），原指剧场中排列成行的多层观众席，后泛指任何层级结构；two-tiered 为复合形容词",
+              "morphology": "two（数词）+ tier（层级）+ -ed（形容词化）。横向扩展：single-tiered（单层）、multi-tiered（多层）、tiered pricing（分级定价）",
+              "mnemonic": "想象婚礼蛋糕（wedding cake）——两层叠放，下大上小。科技产品的「基础版+高级版」就是 two-tiered 结构，每次见到分级产品线就想到这个蛋糕",
+              "exampleEn": "The company adopted a two-tiered subscription model, offering basic features for free and premium AI tools for $20 a month.",
+              "exampleCn": "该公司采用两级订阅模式，基础功能免费，高级AI工具每月收费20美元。"
+            },
+            {
+              "word": "conversational",
+              "pos": "adj.",
+              "meaning": "对话式的、像日常交谈一样自然流畅的。在AI语境中特指系统能理解上下文、支持多轮交流，比 interactive（互动的）更强调语言的自然度，是大模型时代的关键描述词",
+              "etymology": "源自拉丁语 conversatio（交往），词根 conversari 由 con-（共同）+ versari（移动/往来）构成，原义为「共同往来走动」，17世纪引申为「交谈」",
+              "morphology": "converse（v.交谈）+ -ation（名词化）+ -al（形容词化）。同族词：conversation（n.对话）、converse（v./n.）、conversationalist（n.健谈者）",
+              "mnemonic": "con-（共同）+ verse（诗句/翻转）→ 两人一起「接力翻转」话题，你说一句我接一句，这就是 conversational。想象两人对坐，话题自然流转的画面",
+              "exampleEn": "The new AI assistant is designed to be more conversational, maintaining context across dozens of follow-up questions without losing track.",
+              "exampleCn": "新AI助手旨在实现更自然的对话体验，能在数十个追问中保持上下文连贯。"
+            },
+            {
+              "word": "rebrand",
+              "pos": "v. / n.",
+              "meaning": "品牌重塑、更名升级。不只是改名，而是重新定位产品形象和市场认知。商业/科技新闻高频词，比 rename 更强调战略意图，暗示公司试图摆脱旧标签、构建新叙事",
+              "etymology": "re-（再次）+ brand（品牌），brand 源自古诺尔斯语 brandr（火焰/烙铁），原指在牲畜身上烙印标记所有权，后演变为「商标/品牌」的现代含义",
+              "morphology": "re-（再次）+ brand（品牌）。同前缀扩展：reposition（重新定位）、relaunch（重新发布）、redesign（重新设计）；派生名词：rebranding（品牌重塑过程）",
+              "mnemonic": "brand 原意是「烙印」——牧场主用烧红的铁棒烙在牛身上的记号。rebrand = 重新烙印，把旧烙印换掉。苹果把 Siri 换成「Siri AI」，就是给产品换了块「烙印」",
+              "exampleEn": "After years of negative press, the social media giant rebranded its parent company to distance itself from past controversies.",
+              "exampleCn": "经历多年负面报道后，这家社交媒体巨头对母公司进行了品牌重塑，以与过去的争议划清界限。"
+            },
+            {
+              "word": "seamless",
+              "pos": "adj.",
+              "meaning": "无缝的、毫无断点的。在科技语境中形容用户体验、系统集成或产品切换流畅无阻，是产品文案和科技报道超高频词，比 smooth 更强调「没有任何接缝感」的工程精细度",
+              "etymology": "源自古英语 seam（缝合处、接缝），-less 为「没有……」的形容词后缀，原指布料无缝线痕迹，后引申为任何领域「浑然一体、无接缝」的状态",
+              "morphology": "seam（缝合处）+ -less（无……的）。同后缀扩展：wireless（无线）、effortless（毫不费力）、flawless（无瑕）；名词形式：seamlessness",
+              "mnemonic": "想象一件没有任何缝线的T恤，穿在身上完全感觉不到接缝——这就是 seamless。科技产品宣传「无缝体验」，就是让用户感觉不到技术的「针脚」",
+              "exampleEn": "Apple's goal is to deliver a seamless handoff between Siri AI on iPhone and the same assistant running on Mac or iPad.",
+              "exampleCn": "苹果的目标是实现iPhone上的Siri AI与Mac、iPad上同一助手之间的无缝切换。"
+            }
+          ]
+        },
+        {
+          "id": "20260608-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+          "headlineEn": "Sam Altman's Eye-Scanning Startup Faces Layoffs as OpenAI Heads Toward IPO",
+          "headlineCn": "奥特曼虹膜扫描公司裁员，OpenAI同期推进上市",
+          "summaryEn": "Tools for Humanity, the iris-scanning identity startup co-founded by OpenAI CEO Sam Altman, is laying off staff amid sustained struggles to generate meaningful revenue. The company, known for orb-shaped devices that scan users' eyes to build a biometric digital identity, has reportedly failed to attract sufficient paying customers. The news coincides with Altman advancing OpenAI's IPO preparations, spotlighting a stark contrast between his flagship AI venture and a struggling side project.",
+          "summaryCn": "由OpenAI首席执行官山姆·奥特曼共同创立的虹膜扫描身份认证公司Tools for Humanity正在裁员，原因是长期难以实现稳定变现。该公司以球形扫描设备著称，通过读取用户虹膜建立生物特征数字身份，但据报道始终未能吸引到足够的付费用户。消息传出之际，奥特曼正同步推进OpenAI的IPO进程，两家公司的境遇形成鲜明对比。",
+          "excerpt": "Tools for Humanity, the biometric identity startup backed by Sam Altman, is reportedly downsizing its workforce as the company struggles to generate revenue and maintain a viable business model. The layoffs come at a sensitive moment: Altman is concurrently steering OpenAI through its long-anticipated IPO process.",
+          "vocab": [
+            {
+              "word": "downsize",
+              "pos": "v.",
+              "meaning": "缩减（公司规模或员工人数）。比「lay off」更正式，常出现于企业公告和财经报道，带有「主动精简以求效率」的管理语感，而非单纯的「被迫解雇」；实际使用中往往是裁员的委婉表达，值得学因为它是企业重组报道中最高频的动词之一。",
+              "etymology": "由古英语词根 down（向下、减少）与 size（规模）直接合成，1970年代在美国企业管理语境中兴起；最初指将产品或建筑物缩小尺寸，后迅速引申为削减公司人员规模，成为企业重组报道中的标准用词。",
+              "morphology": "down-（向下、减少）+ size（规模/大小）；合成动词，可派生为名词 downsizing（裁员/规模缩减）。同类构词：upsize（扩大规模）、downgrade（降级）、downscale（缩减档次）。",
+              "mnemonic": "想象一件量身定做的大衣（size），被剪刀从两侧往中间裁短（down）——原来容纳一千人的公司，「尺寸」硬生生缩了一半。每次看到 downsize，脑海中浮现那把剪刀就对了。",
+              "exampleEn": "Facing declining ad revenue, the media conglomerate announced plans to downsize its editorial team by 20 percent.",
+              "exampleCn": "面对广告收入下滑，这家媒体集团宣布计划将编辑团队规模缩减20%。"
+            },
+            {
+              "word": "monetize",
+              "pos": "v.",
+              "meaning": "将（流量、技术、数据或资产）转化为收入来源。科技和商业分析中极高频词，精准描述从「有价值」到「能持续赚钱」这一关键跨越；比 make money from 更正式，比 commercialize 更聚焦于「找到具体收费模式」，是分析初创公司时必备的判断动词。",
+              "etymology": "源自拉丁语 moneta（铸币厂，罗马神话中朱诺女神的称号，其神庙用作铸币之所），经由法语 monétiser 进入英语；20世纪末随互联网经济兴起，词义从「将实物资产转为货币」扩展为「从数字流量或技术中获利」。",
+              "morphology": "monet-（货币，来自拉丁 moneta）+ -ize（使…化，动词后缀）；同族词：monetary（货币的）、mint（铸币/薄荷，同源）。派生：monetization（变现/货币化）、monetizable（可变现的）。",
+              "mnemonic": "money + -ize = 「让它变成钱」的动作。Tools for Humanity 掌握数百万人的虹膜数据，却无法 monetize——有金矿却没矿机，这正是投资者最担心的困境。",
+              "exampleEn": "The app amassed 50 million users but failed to monetize the platform before its funding dried up.",
+              "exampleCn": "这款应用积累了5000万用户，却在资金耗尽之前始终未能将平台变现。"
+            },
+            {
+              "word": "biometric",
+              "pos": "adj. / n.",
+              "meaning": "生物特征识别的；指利用人体独特的生理或行为特征（虹膜、指纹、声纹、面部等）进行身份验证。金融科技、网络安全、人工智能领域的核心术语，理解现代数字身份认证产品的必备词，远比「fingerprint scanning」等具体词通用。",
+              "etymology": "源自希腊语 bios（生命）+ metron（测量），-ic 为形容词后缀；19世纪末最初用于生物统计学，20世纪后期随数字安全技术普及，成为「用生理数据做身份验证」的标准术语。",
+              "morphology": "bio-（生命/生物，来自希腊 bios）+ -metric（测量的，来自 metron）；bio- 族词：biology（生物学）、biochemistry（生物化学）、biodiversity（生物多样性）；-metric 族词：geometric（几何的）、symmetric（对称的）。",
+              "mnemonic": "bio（生命）+ metric（度量衡）= 「用你的生命体征来量你」。想象一个球形设备对准眼睛，正在「测量」虹膜上几百个独特点位——这就是 biometric 的核心画面，也是 Tools for Humanity 产品的本质。",
+              "exampleEn": "The bank rolled out biometric login across its mobile app, replacing four-digit PINs with facial recognition.",
+              "exampleCn": "这家银行在其移动应用中全面推出生物特征登录功能，以面部识别取代四位数密码。"
+            },
+            {
+              "word": "concurrent",
+              "pos": "adj.",
+              "meaning": "同时发生的，并发的。在商业报道中用于描述两件同期进行但相互独立的事件，强调「时间重叠」而非「直接因果」；书面语感比 simultaneous 略强，在财经文章和企业分析中更为常见，也是计算机「并发处理」的专业术语。",
+              "etymology": "源自拉丁语 concurrere（共同奔向同一目标），由 con-（共同）+ currere（奔跑）构成；16世纪进入英语，最初指「共同发生」，20世纪计算机科学领域进一步衍生出「并发处理」的含义。",
+              "morphology": "con-（共同，来自拉丁 cum）+ -curr-（奔跑，来自 currere）+ -ent（形容词后缀）；同族词：occur（发生，ob+curr）、current（流动/当前）、currency（货币流通，钱在「流动」）、recur（反复发生）。",
+              "mnemonic": "con（一起）+ current（水流）= 两条水流「同时奔涌」。奥特曼的两件大事——OpenAI IPO 与 Tools for Humanity 裁员——就像两条同向的河，concurrent 地流向截然不同的结局，形成戏剧性对比。",
+              "exampleEn": "The concurrent announcements of the merger and the regulatory investigation rattled investors on both sides of the deal.",
+              "exampleCn": "并购消息与监管调查的同步曝光令交易双方的投资者感到不安。"
+            },
+            {
+              "word": "viable",
+              "pos": "adj.",
+              "meaning": "可行的，有生存能力的。在商业语境中特指「经济上可持续的、有盈利可能的」，常与 commercially、financially、economically 搭配；比 possible 更强调「现实条件下能长期存活」，是分析初创公司和商业模式时的高频判断词，Tools for Humanity 的困境正是缺乏 viable 的商业模式。",
+              "etymology": "源自法语 viable，来自拉丁语 vita（生命）加 -able（能够）后缀，原义「能存活的（如婴儿）」；19世纪后引申为「计划、方案在现实中行得通的」，20世纪商业语言中进一步固化为「有商业可行性的」。",
+              "morphology": "vi-（生命，来自拉丁 vita/vivere）+ -able（能……的后缀）；同族词：vivid（生动的，充满生命力）、survive（存活，sur+vive）、revive（复兴）、vital（重要的/生命攸关的）。",
+              "mnemonic": "via（路）+ able（走得通）= 「这条路能走通」。一个 viable 的商业模式，就是「找到了一条能持续走下去的营收路径」。Tools for Humanity 的困境正是：有技术，却没找到那条 viable 的路。",
+              "exampleEn": "Before committing further capital, the board demanded a clear plan demonstrating that the new product line was commercially viable.",
+              "exampleCn": "在追加资金之前，董事会要求提供清晰方案，证明新产品线在商业上具有可行性。"
+            }
+          ]
+        },
+        {
+          "id": "20260608-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/08/united-ceo-airline-mergers.html",
+          "headlineEn": "United CEO Dismisses Airline Merger Talk: 'There's Nothing'",
+          "headlineCn": "联合航空CEO否认并购传闻：「毫无此事」",
+          "summaryEn": "United Airlines CEO Scott Kirby has firmly shut down speculation about potential mergers, declaring 'There's nothing' when pressed on the topic. His remarks follow reports that American Airlines rejected overtures from a prospective merger partner. Kirby's blunt response signals that further consolidation in the already-concentrated U.S. airline industry is unlikely near-term. The statement matters because airline mergers reshape competitive dynamics, affect ticket prices, and draw intense regulatory scrutiny from the Department of Justice.",
+          "summaryCn": "联合航空首席执行官斯科特·柯比近日明确否认了该公司可能参与并购的市场传言，在被追问时直接回应「毫无此事」。此前，美国航空据报拒绝了来自潜在合并方的试探。柯比的强硬表态意味着，美国本已高度集中的航空市场短期内将维持现状。值得关注的是，航空业并购不仅会重塑竞争格局、影响机票价格，还将面临司法部的严格审查。",
+          "excerpt": "Asked about a fresh wave of airline consolidation following American's reported rejection of a potential partner, United CEO Scott Kirby was blunt: 'There's nothing.' The remarks suggest that the U.S. airline industry, already dominated by a handful of carriers, is unlikely to see major mergers in the near future.",
+          "vocab": [
+            {
+              "word": "brush off",
+              "pos": "phrasal v.",
+              "meaning": "轻描淡写地驳回；不予理会。比 reject 或 dismiss 更口语化，带有居高临下、懒得正面回应的意味，常见于商业采访和新闻报道，暗示说话人根本不把某事当作威胁或机会",
+              "etymology": "由 brush（扫、刷）+ off 构成短语；brush 源自古诺尔斯语 burstr，原义为摩擦接触。brush off 字面意思是像掸去衣服上灰尘一样随手拂开，后隐喻对问题或提案漠然置之，无需认真回应",
+              "morphology": "短语复合词，无独立词源可拆解；brush 本身派生词有：brushed（adj.）、brush-off（n.，名词形式，意为冷遇）、brushwork（n.，笔触）；off 作副词/介词广泛构成短语动词",
+              "mnemonic": "想象一位CEO在发布会上被记者追问并购，他抬手像掸西装上灰尘一样轻轻一挥——brush off，问题就这样被「刷走」了。动作越轻描淡写，越能体现这个词的精髓",
+              "exampleEn": "The CFO brushed off analysts' concerns about rising debt, insisting the balance sheet remained healthy.",
+              "exampleCn": "首席财务官对分析师关于债务攀升的担忧不以为然，坚称资产负债表依然健康。"
+            },
+            {
+              "word": "merger",
+              "pos": "n.",
+              "meaning": "（公司）合并；兼并。M&A 报道中最核心的词汇，与 acquisition（收购）的区别在于：merger 更强调双方地位相对对等地走到一起，而 acquisition 侧重一方出资买下另一方，两者语境不可混用",
+              "etymology": "源自拉丁语 mergere（沉入、淹没），经由法语进入英语法律词汇；原义为两者合为一体，如两条河流汇流——语义从物理融合演变为法律与商业层面的企业合并",
+              "morphology": "merge（v.，合并）+ -er（名词后缀，表行为结果）→ merger；同词根词：emerge（浮现，em- + merge，字面「从水中升出」）、submerge（淹没）、immerse（沉浸）",
+              "mnemonic": "记住 merge = 合并；merger 就是「合并的结果」。两家公司像两条河 merge（汇流），最终形成 merger 这条大河。看地图上两条蓝线合为一条——那个画面就是 merger",
+              "exampleEn": "Regulators blocked the proposed merger between the two telecom giants, citing concerns over reduced competition.",
+              "exampleCn": "监管机构以竞争减弱为由，叫停了这两家电信巨头拟议中的合并计划。"
+            },
+            {
+              "word": "a wave of",
+              "pos": "phrase",
+              "meaning": "一波……；（某种现象的）浪潮。财经英语超高频结构，用于描述大规模、密集爆发的事件（如并购、裁员、监管收紧），比 a series of 更有视觉冲击力，隐含「难以阻挡、此起彼伏」的意味，是新闻写作的标配表达",
+              "etymology": "wave 源自古英语 wafian（挥手、摇摆），与德语 weben（编织、波动）同源，原指水面波浪；后逐渐隐喻一切「成批涌现、密集爆发」的现象，这一用法在新闻英语中极为普遍",
+              "morphology": "短语复合词，无独立词源；wave 本身派生词：wavy（adj.，波浪状的）、wavelength（n.，波长）、waveform（n.，波形）；固定搭配：a wave of + 名词（mergers / layoffs / defaults / protests）",
+              "mnemonic": "想象海浪一波接一波打来——每一波都带来新的并购案。「a wave of mergers」比「many mergers」更生动，读者眼前会浮现出无数并购席卷而来的画面。看到密集爆发的事件，就条件反射地想到 wave",
+              "exampleEn": "A wave of tech layoffs swept through Silicon Valley as companies rushed to cut costs ahead of a potential recession.",
+              "exampleCn": "随着各公司抢在潜在衰退前削减成本，一波科技行业裁员浪潮席卷了硅谷。"
+            },
+            {
+              "word": "combination",
+              "pos": "n.",
+              "meaning": "（M&A 正式用语）合并；联合体。在并购报道中，combination 常作为 merger 的正式替代词，多见于官方声明、监管文件和法律文书，语气更中性，含「双方合意走到一起」之意，比 merger 少一些市场炒作色彩，出现在官方文件里是关键信号",
+              "etymology": "源自拉丁语 combinare（两两相合），由 com-（共同，together）+ bini（两个一组，two by two）构成；原义是把东西成对组合，后扩展为任何形式的合并与联合",
+              "morphology": "com-（共同）+ bin（两个，联想 binary 二进制）+ -ation（名词后缀，表行为或结果）→ combination；同前缀词：combine（v.）、combined（adj.）；同后缀词：confirmation（确认）、transformation（转型）",
+              "mnemonic": "com- = 共同，bin = 两个（记住 binary 二进制），-ation = 名词：两家公司「共同走到一起」的结果就叫 combination。下次在并购官方文件里看到 combination，就知道这是 merger 的「正式马甲」",
+              "exampleEn": "The board approved the combination after months of negotiations, creating the world's largest aerospace supplier.",
+              "exampleCn": "经过数月谈判，董事会批准了这项合并，由此诞生了全球最大的航空航天供应商。"
+            },
+            {
+              "word": "rejection",
+              "pos": "n.",
+              "meaning": "拒绝；否决。在 M&A 语境中，rejection 特指目标公司董事会正式拒绝收购或合并提案，语气比 decline（婉拒）更强硬，带有主动防御色彩；这个词一旦出现，往往意味着并购战进入对抗阶段，新闻价值显著上升",
+              "etymology": "源自拉丁语 reicere（抛回），由 re-（向后、回）+ iacere（抛掷）构成；原义是把东西扔还回去，比 refusal 更形象地传达出「主动推开、弹回」的感觉",
+              "morphology": "re-（向后）+ ject（抛，来自 iacere）+ -ion（名词后缀）→ rejection；同词根词：project（投射，向前抛）、inject（注射，向内抛）、eject（弹出，向外抛）、subject（使服从，抛于其下）",
+              "mnemonic": "ject = 抛掷（想象投篮）；re-ject = 往回抛，像篮球被 blocked 弹回来。想象美国航空把并购提案像投篮一样「block 弹回去」——这就是 rejection。记住 ject 这个词根，能认出一大族高频词",
+              "exampleEn": "The target company's rejection of the unsolicited bid forced the acquirer to sweeten its offer or walk away.",
+              "exampleCn": "目标公司拒绝了这份非主动要约，迫使收购方要么提高报价，要么选择放弃。"
+            }
+          ]
+        },
+        {
+          "id": "20260608-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/08/household-financial-worries-at-highest-level-since-2022-new-york-fed-says.html",
+          "headlineEn": "US Household Financial Worries Hit Four-Year High, Fed Survey Shows",
+          "headlineCn": "美联储调查：家庭财务忧虑升至四年来最高水平",
+          "summaryEn": "The New York Federal Reserve's monthly consumer survey revealed that household anxiety over personal finances has climbed to its highest point since July 2022. While respondents' expectations for inflation remained largely stable, their broader assessment of current economic conditions worsened noticeably. The findings suggest that despite a resilient job market, Americans are increasingly feeling the squeeze from elevated prices and borrowing costs. This deterioration in financial confidence could signal weaker consumer spending ahead, a key driver of overall economic growth.",
+          "summaryCn": "纽约联储最新月度调查显示，美国家庭对个人财务状况的担忧程度升至2022年7月以来的最高水平。尽管受访者对通胀的预期基本保持稳定，但他们对整体经济状况的评估却明显转差。这一结果表明，持续高企的物价和借贷成本正让越来越多的美国家庭感到捉襟见肘。消费者信心的下滑可能预示着未来消费支出走弱，而这正是推动整体经济增长的关键引擎。",
+          "excerpt": "The New York Fed's latest monthly survey found that household concerns about financial conditions rose to the highest level in nearly four years. While the inflation outlook remained broadly stable, the overall perception of economic conditions deteriorated markedly, raising concerns about the resilience of consumer spending.",
+          "vocab": [
+            {
+              "word": "deteriorate",
+              "pos": "v.",
+              "meaning": "恶化、变差。在经济报道中常用来描述经济指标或市场环境的下滑，比 worsen 更正式，适合书面财经文体，典型搭配如 conditions deteriorate（形势恶化）、credit quality deteriorates（信用质量下降）",
+              "etymology": "来自拉丁语 deterior（更坏的），意为「变得更差」。17世纪经由学术拉丁语进入英语，最初用于描述物质状态的退化，后扩展至经济、外交关系等抽象领域",
+              "morphology": "de-（向下、离开）+ terior（拉丁比较级词根，意为「更坏的」）+ -ate（动词后缀）。同族词：deterioration（n. 恶化过程）、deteriorative（adj. 导致退化的）",
+              "mnemonic": "想象一辆汽车在下坡路上（de- 向下）越跑越坏——轮胎磨损、引擎冒烟。每次听到 deteriorate，就想到这辆不断「往下滑」的破车，状况一格一格变差",
+              "exampleEn": "The company's financial position continued to deteriorate as revenue fell for the third consecutive quarter.",
+              "exampleCn": "随着营收连续第三个季度下滑，该公司的财务状况持续恶化。"
+            },
+            {
+              "word": "sentiment",
+              "pos": "n.",
+              "meaning": "情绪、市场情绪。在金融语境中特指投资者或消费者对经济前景的整体看法，「consumer sentiment」（消费者信心）是核心经济指标，远比 feeling 更专业，常见于美联储报告和经济分析文本",
+              "etymology": "来自拉丁语 sentire（感受、感知），经由中世纪法语 sentement 传入英语。原义是「通过感官感受到的东西」，后演变为「集体情绪或态度」",
+              "morphology": "sent-（词根，感知、感受）+ -iment（名词后缀）。同族词：sentimental（adj. 感情用事的）、assent（v. 同意）、consent（v. 同意）、dissent（v. 持异议）——这一族词都围绕「感知与认同」展开",
+              "mnemonic": "「sentiment」里有「sent」——想象大家把自己的感受「sent」（发送）给调查机构，汇总起来就成了「市场情绪」。sent + iment = 集体发出去的感受",
+              "exampleEn": "Weak consumer sentiment data released on Friday weighed on retail stocks across the board.",
+              "exampleCn": "周五公布的疲软消费者信心数据对零售板块股票造成了全面压制。"
+            },
+            {
+              "word": "wary",
+              "pos": "adj.",
+              "meaning": "谨慎的、警觉的。因担忧潜在风险而保持戒备，固定搭配为 wary of（对……保持警惕），比 careful 更强调主动防范风险的意识，金融报道中常用来描述投资者或消费者面对不确定性时的戒备态度",
+              "etymology": "来自古英语 wær（小心的、警觉的），与德语 wahr（真实的）、荷兰语 waar 同源，原义是「意识到危险并保持警觉」，核心是「有所觉察后的主动谨慎」",
+              "morphology": "wary 本身是简单词，无明显词缀拆分。派生词：warily（adv. 谨慎地）、wariness（n. 警觉性）；同源词 beware（be + ware，当心！）和 aware（a + ware，意识到的）",
+              "mnemonic": "「wary」谐音「危」——感觉到「危险」时，你就变得 wary（谨慎警觉）。想象一只小动物竖起耳朵、睁大眼睛四处张望，全身戒备——那就是 wary 的状态",
+              "exampleEn": "Investors remained wary of tech stocks amid uncertainty over interest rate policy.",
+              "exampleCn": "在利率政策不确定性持续的情况下，投资者对科技股保持谨慎。"
+            },
+            {
+              "word": "tighten one's belt",
+              "pos": "phrase",
+              "meaning": "节衣缩食、削减开支。形象比喻通过「收紧腰带」应对财务压力，在报道家庭预算紧缩或企业削减成本时极为常用，比 spend less 更生动，能传递出被迫压缩的无奈感，是财经写作的高频惯用语",
+              "etymology": "短语/复合词，无独立词源。源自字面意义：食物匮乏时人消瘦，需收紧腰带；引申为「缩减开支以应对困难」，19世纪末开始在英语中流行，至今仍是描述经济困难时最鲜活的惯用语之一",
+              "morphology": "tighten（v. 使紧，tight + -en 使动后缀）+ one's（所有格）+ belt（腰带）。反义用法：loosen one's belt（放松腰带，喻经济宽裕）——两个短语形成鲜明对照，记一个等于记两个",
+              "mnemonic": "钱包空了，肚子越来越小，只好把腰带收紧一格——这就是 tighten one's belt 的字面画面。每次看到这个短语，想象一个愁眉苦脸地收紧裤腰带的人",
+              "exampleEn": "With inflation eating into disposable income, millions of households have been forced to tighten their belts.",
+              "exampleCn": "随着通胀侵蚀可支配收入，数百万家庭被迫节衣缩食。"
+            },
+            {
+              "word": "distress",
+              "pos": "n.",
+              "meaning": "困境、极度痛苦。在金融语境中，「financial distress」（财务困境）是专业术语，指个人或企业面临严重债务压力或无力偿债的状态，比 trouble 更正式，常出现在信用分析、风险评估和破产研究中",
+              "etymology": "来自古法语 destresse，源自拉丁语 distringere（拉紧、束缚），原义是「被强力拉扯、无法动弹的状态」，引申为「极度痛苦或困难的处境」，13世纪传入英语",
+              "morphology": "dis-（分开、使……分散）+ stress（压力，源自拉丁 stringere，拉紧）。同族词：distressed（adj. 困窘的；亦指做旧风格）、distressing（adj. 令人痛苦的）、stressed（adj. 承受压力的）",
+              "mnemonic": "dis + stress = 被压力（stress）彻底「分解」（dis-）。想象一根绳子被同时从两端使劲拉，快要断裂的那一刻就是 distress——双重拉力，就是财务困境的感觉",
+              "exampleEn": "Rising credit card delinquencies are a warning sign that many consumers are in financial distress.",
+              "exampleCn": "信用卡逾期率上升是许多消费者陷入财务困境的预警信号。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-07": {
       "label": "6月7日 (周日)",
       "stories": [
