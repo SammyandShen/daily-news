@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-06-09T23:24:32.215920+00:00",
+  "lastUpdated": "2026-06-10T23:13:41.067127+00:00",
   "level": "B2",
   "days": {
+    "2026-06-10": {
+      "label": "6月10日 (周三)",
+      "stories": [
+        {
+          "id": "20260610-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+          "headlineEn": "Cybersecurity Researchers Criticize Overly Strict Guardrails on Anthropic's Fable Model",
+          "headlineCn": "安全研究者批评Anthropic新模型Fable的限制过于严苛",
+          "summaryEn": "Anthropic's newly released model Fable has drawn sharp criticism from cybersecurity researchers who argue its built-in restrictions are too aggressive for professional security work. Researchers report that Fable refuses to assist with tasks commonly required in legitimate penetration testing, vulnerability research, and malware analysis. The controversy highlights a persistent tension in AI development: how to prevent misuse without inadvertently blocking the very experts who defend systems from attack. Critics warn the overly cautious approach could push security professionals toward less-responsible AI tools.",
+          "summaryCn": "Anthropic最新发布的模型Fable遭到网络安全研究者的强烈批评。研究者指出，该模型内置的安全限制对专业安全工作而言过于严格——渗透测试、漏洞研究、恶意软件分析等日常任务均遭到拒绝。这场争议揭示了AI开发中长期存在的矛盾：如何在防止滥用的同时，不阻碍正当从事防御工作的安全专家？批评者警告，过于谨慎的策略可能反而将安全从业者推向责任意识更薄弱的AI工具。",
+          "excerpt": "Cybersecurity researchers are pushing back against Anthropic's new model Fable, arguing that its safety restrictions are so broad they block legitimate professional tasks — including routine penetration testing and vulnerability research — raising fears of a chilling effect on the wider security community.",
+          "vocab": [
+            {
+              "word": "restrictive",
+              "pos": "adj.",
+              "meaning": "限制性的；过于约束的。常用于批评性语境，暗指规定「管得太宽」，比 limiting 更正式，带有「过度干预」的负面含义，在AI政策和安全讨论中极为高频。",
+              "etymology": "来自拉丁语 restrictus，是 restringere 的过去分词。re-（回、再）+ stringere（绑紧、束缚）。原义「绑紧、收束」，经中古法语进入英语，语义演变为「施加约束的、限制性的」。",
+              "morphology": "re-（回）+ strict（拉丁 stringere，绑紧）+ -ive（形容词后缀，表「具有……性质的」）。同词根词：constrict（收缩、压迫）、stricture（严厉批评）、stringent（严格的、严苛的）。",
+              "mnemonic": "想象一条绳子（string）把你的手「绑死」（strict），restrictive 就是「绑得太紧了、管得太死了」。每次看到 strict，联想绳子收紧的画面即可。",
+              "exampleEn": "The new data privacy law is so restrictive that even internal analytics teams must file separate access requests.",
+              "exampleCn": "新的数据隐私法限制如此严格，就连内部分析团队也必须单独提交数据访问申请。"
+            },
+            {
+              "word": "chilling effect",
+              "pos": "phrase",
+              "meaning": "寒蝉效应。指某种规则或处罚虽不直接禁止，却让人因恐惧后果而不敢行动。法律、政策和科技伦理语境中的核心短语，比 deterrent（威慑）更强调对「正当行为」的无意压制，学会此词可读懂大量监管争议报道。",
+              "etymology": "短语/复合词，无独立词源。chilling 来自 chill（寒冷、使冷却），effect 来自拉丁 effectus（成果、效果）。合用时借「寒冷令人僵住」的具体感觉比喻「压制行为的无形力量」，20世纪在美国宪法言论自由判例中正式成词。",
+              "morphology": "chill（v./n. 寒冷）+ -ing（现在分词作形容词）+ effect（n. 效果）。相关词：chilling（令人不安的）、deterrence（威慑机制）、self-censorship（自我审查，常是 chilling effect 的直接后果）。",
+              "mnemonic": "想象法律的「寒气」吹来，原本想说话或行动的人都「打了个哆嗦」，默默闭上嘴——这就是 chilling effect。寒气 = 无声的压力，让人主动退缩。",
+              "exampleEn": "Overly broad content moderation policies can have a chilling effect on legitimate academic research into extremism.",
+              "exampleCn": "过于宽泛的内容审核政策可能对针对极端主义的正当学术研究产生寒蝉效应。"
+            },
+            {
+              "word": "false positive",
+              "pos": "n.",
+              "meaning": "误报、假阳性。安全领域指系统将合法行为错误标记为威胁，与 false negative（漏报）相对。值得学：这对概念在网络安全、机器学习和医学检测中通用，一词贯通多领域，是评估AI模型准确性的核心术语。",
+              "etymology": "短语/复合词，无独立词源。源自统计学和医学检测术语。positive 指「检测结果为阳性（判定有问题）」，false 指「这个判断本身是错的」。20世纪随信号检测理论（signal detection theory）进入计算机安全领域。",
+              "morphology": "false（adj. 错误的，来自拉丁 falsus）+ positive（adj./n. 阳性/正面结果，来自拉丁 positivus）。配对记忆：false negative（假阴性/漏报）、true positive（真阳性/正确检出）、true negative（真阴性/正确放行）。",
+              "mnemonic": "安检仪器「响了」（positive），但你只是带了个金属腰带——这就是 false positive，「虚惊一场」。positive = 系统判有问题，false = 其实没问题。",
+              "exampleEn": "The email spam filter produced too many false positives, blocking important vendor invoices along with junk mail.",
+              "exampleCn": "这款垃圾邮件过滤器产生了太多误报，把重要的供应商发票和垃圾邮件一起拦截了。"
+            },
+            {
+              "word": "legitimate",
+              "pos": "adj.",
+              "meaning": "合法的、正当的。强调行为同时符合法律规则与道义标准，常用于区分「善意用途」与「恶意用途」。比 legal（仅指合法）含义更广，包含道义层面的认可，是政策和科技伦理讨论中的核心词汇。",
+              "etymology": "来自拉丁语 legitimatus（使合法化），由 legitimus（依法的）派生，而 legitimus 来自 lex/legis（法律）。经中古英语进入英语，原义「依法认可的嫡出子女」，后泛化为「合法的、正当的」。",
+              "morphology": "legit-（法律词根，来自拉丁 lex/legis）+ -imate（形容词化后缀）。同族词：legislation（立法）、legitimize（使合法化）、illegitimate（非法的；私生的）、legal（合法的）。",
+              "mnemonic": "年轻人俚语说某事「很 legit（靠谱、货真价实）」，legitimate 就是「官方认证版的 legit」——有法律背书、无可置疑的正当性。",
+              "exampleEn": "The startup had to prove its data collection practices were legitimate before institutional investors would commit funding.",
+              "exampleCn": "这家初创公司必须证明其数据采集行为具有正当性，机构投资者才愿意注入资金。"
+            },
+            {
+              "word": "impede",
+              "pos": "v.",
+              "meaning": "阻碍、妨碍。通过制造障碍减缓或阻止进展，比 block（完全阻断）程度轻，比 hinder 更正式，比 slow down 更书面。常用于描述政策、规定或技术限制对工作效率的干扰，是科技政策报道的高频动词。",
+              "etymology": "来自拉丁语 impedire，im-（进入）+ pes/pedis（脚）。原义字面意思是「缠住脚、套上脚镣」，形象地表达「妨碍前行」。经古法语进入英语，语义保持稳定至今。",
+              "morphology": "im-（进入）+ ped-（脚，拉丁 pes/pedis）+ -e（动词化）。同词根词：pedestrian（行人）、expedition（远征，字面「解开脚镣出发」）、pedal（踏板）、impediment（障碍物）。",
+              "mnemonic": "ped = 脚（想想 pedal 踏板、pedestrian 行人）；im-pede = 「卡住脚」= 阻碍前进。脑中画面：一块石头卡在脚踝之间，寸步难行。",
+              "exampleEn": "Excessive regulatory uncertainty could impede the development of AI-driven drug discovery platforms.",
+              "exampleCn": "过度的监管不确定性可能阻碍以AI驱动的药物研发平台的发展。"
+            }
+          ]
+        },
+        {
+          "id": "20260610-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+          "headlineEn": "Ex-Datadog Veterans Launch AI Coding Startup Niteshift to Fight Vendor Lock-in",
+          "headlineCn": "Datadog老将创立AI编程初创公司Niteshift，押注打破大模型绑定",
+          "summaryEn": "Niteshift, an AI coding agent startup co-founded by Datadog veterans, has closed a $7 million seed round backed by a high-profile roster of angel investors. The company is positioning itself as an antidote to vendor lock-in — the growing concern that enterprises will become over-reliant on a single AI model provider. Niteshift believes businesses will prioritize control and flexibility, giving model-agnostic startups a competitive edge as enterprise AI adoption matures.",
+          "summaryCn": "AI编程助手初创公司Niteshift由Datadog资深人士联合创立，刚完成700万美元种子轮融资，资方名单星光熠熠。该公司押注：随着AI应用深入，企业将越来越不愿被单一大模型厂商绑定，转而寻求对AI工具链的自主掌控。Niteshift希望凭借「模型无关」的产品策略，在大厂林立的AI编程赛道中走出差异化路线。",
+          "excerpt": "AI coding agent startup Niteshift, founded by Datadog alumni, has raised $7 million in seed funding from a notable roster of angels. The company is wagering that enterprises will demand control over which AI models power their tools — rather than defaulting to whatever the biggest players offer.",
+          "vocab": [
+            {
+              "word": "veteran",
+              "pos": "n.",
+              "meaning": "在某行业或公司积累了丰富经验的资深人士。与 expert 不同，veteran 强调「久经沙场」的经历感而非单纯知识水平，常见搭配：industry veteran、startup veteran、tech veteran。科技新闻里描述创业者背景时高频出现，值得熟练掌握",
+              "etymology": "来自拉丁语 veteranus（老兵），源自 vetus（老的、年迈的）。最初专指经验丰富的士兵，后语义迁移至任何领域的「老手」，尤其在英语商业写作中大量使用",
+              "morphology": "词根 veter-/vetus- 表「老」；同族词：inveterate（根深蒂固的，in- + veter- + -ate）、veterinarian（兽医，字面「照顾老动物的人」）；常见派生形式：veteran（名词/形容词）→ veterancy（资历，较罕用）",
+              "mnemonic": "把 veteran 拆成「vet + eran」：vet 联想「老兵体检」，eran 谐音「额然」——想象一位额头刻满皱纹的老兵，眼神沉稳。科技圈的 veteran 虽不打仗，但创业失败、融资碰壁、产品迭代都是他们的「战场勋章」",
+              "exampleEn": "As a payments veteran with stints at Stripe and Square, she brought instant credibility to the startup's fundraising pitch.",
+              "exampleCn": "作为曾在Stripe和Square任职的支付行业老将，她的加入立刻为初创公司的融资路演增添了可信度。"
+            },
+            {
+              "word": "seed round",
+              "pos": "n. (phrase)",
+              "meaning": "创业公司获得的最早期正式融资轮次，通常来自天使投资人或早期VC，发生在产品规模化验证之前。区别于后续的 Series A/B/C，seed round 风险最高、金额相对较小（通常数十万至千万美元级别），是读科技融资新闻的必备词汇",
+              "etymology": "seed 来自古英语 sǣd（种子），比喻「播下的第一批资金，期待日后生长」；round 此处指「一轮」融资。整个短语作为商业术语整体使用，是行业约定俗成的表达，无单独词源",
+              "morphology": "短语/复合词。seed 派生词：seedy（破旧的）、seedling（幼苗）；round 在融资语境的其他搭配：bridge round（过桥融资）、down round（估值下调融资）、pre-seed（种子前轮，比 seed 更早）",
+              "mnemonic": "融资就像种地：先撒 seed（种子，最小最早），长出幼苗后再施肥浇水（Series A），长成大树（Series B/C）。记住融资顺序：pre-seed → seed round → Series A → B → C → IPO，越往后钱越多、估值越高",
+              "exampleEn": "The startup closed a $5 million seed round led by two prominent angels before hiring its first engineer.",
+              "exampleCn": "这家初创公司在招募第一位工程师之前，就已完成了由两位知名天使投资人领投的500万美元种子轮融资。"
+            },
+            {
+              "word": "who's who",
+              "pos": "phrase",
+              "meaning": "指某领域最重要、最具影响力人物的「名人花名册」；固定搭配「a who's who of [investors / executives]」，意为「汇聚了……界名流」。比直说 prominent people 更生动，隐含「你叫得出名字的人都在里面」的语气，常见于科技媒体描述明星投资阵容",
+              "etymology": "源自《Who's Who》，一本自1849年起出版的英国名人传记年鉴，专门收录社会精英。书名直译「谁是谁」，后演变为普通用语，泛指任何领域的「精英名单」",
+              "morphology": "短语，由两个疑问词叠加构成，无可拆分词根。结构类似的英语熟语：do's and don'ts（注意事项）、ins and outs（来龙去脉）、give-and-take（互让互利）",
+              "mnemonic": "想象一场顶级投资人晚宴的「嘉宾名单」——每一位都让人忍不住问「他/她是谁？」（who's who）。当你读到「a who's who of angels」，脑海里应该浮现的是一张满是知名天使投资人名字的清单，个个响当当",
+              "exampleEn": "The conference attracted a who's who of semiconductor executives, from TSMC's CEO to Nvidia's chief architect.",
+              "exampleCn": "这场会议汇聚了半导体行业的顶尖人物，从台积电CEO到英伟达首席架构师，无不到场。"
+            },
+            {
+              "word": "angel",
+              "pos": "n.",
+              "meaning": "用自有资金投资早期初创公司的个人投资者（天使投资人），区别于机构风险投资（VC）。Angel 往往是成功的创业者或高管，除资金外还提供人脉与经验（「聪明钱」）。理解 angel 与 VC 的核心区别——前者用「自己的钱」，后者用「基金的钱」——是读科技融资新闻的基础",
+              "etymology": "来自希腊语 angelos（信使、天使）。此商业含义起源于20世纪初百老汇戏剧圈：资助演出的富有赞助人被称为「天使金主」，后被硅谷风险投资界借用，指为初创公司「雪中送炭」的个人投资者",
+              "morphology": "来自 angelos，同族词：evangelist（布道者，eu- 好 + angel + -ist）、archangel（大天使，arch- 最高级前缀 + angel）；商业语境衍生：angel round（天使轮）、super angel（超级天使，投资规模更大、更主动）、angel network（天使投资网络）",
+              "mnemonic": "初创公司在最难熬的早期，突然从天而降一位「天使」，带着自己口袋里的钱出手相救——这就是 angel investor 的商业叙事。记住关键区别：angel 用「自己的钱」，VC 用「LP的钱」，所以 angel 决策更快、更靠直觉",
+              "exampleEn": "Several angels who backed the company at seed stage saw returns of over 50x when it went public.",
+              "exampleCn": "几位在种子阶段押注这家公司的天使投资人，在其上市后获得了超过50倍的回报。"
+            },
+            {
+              "word": "vendor lock-in",
+              "pos": "n. (phrase)",
+              "meaning": "企业因深度依赖某供应商的产品、接口或生态，而难以低成本迁移到竞争对手的状态。AI时代尤为关键：一旦代码库、工作流和数据管道绑定某家大模型，更换成本极高。是读懂云计算竞争、平台战略和AI基础设施新闻的核心概念",
+              "etymology": "vendor 来自拉丁语 vendere（出售）；lock 来自古英语 loc（锁、门闩）；in 为方向介词。三者组合传达「被供应商用锁链套住、困于其内部生态」的隐喻，是典型的商业隐喻词汇",
+              "morphology": "vendor 派生：vend（贩卖）、vending machine（自动贩卖机）；lock 派生：lockdown（封锁）、deadlock（僵局，dead + lock）、padlock（挂锁）；lock-in 变体：lock-in period（锁定期）、contractual lock-in（合同锁定）",
+              "mnemonic": "想象你把所有数据都存进了某家云厂商的「专属锁箱」，想搬走时发现只有他们的钥匙能开——这就是 vendor lock-in。AI时代更隐蔽：你的提示词工程、微调数据、API调用习惯都在悄悄把你「锁」进某个大模型的生态，越陷越深",
+              "exampleEn": "To avoid vendor lock-in, the CTO insisted that every AI integration use an abstraction layer compatible with multiple model providers.",
+              "exampleCn": "为避免被供应商锁定，技术总监坚持要求每个AI集成都使用兼容多家模型厂商的抽象层。"
+            }
+          ]
+        },
+        {
+          "id": "20260610-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/10/spacex-elizabeth-warren-elon-musk-sec-ipo.html",
+          "headlineEn": "Sen. Warren Urges SEC to Delay SpaceX IPO Over Governance Concerns",
+          "headlineCn": "沃伦参议员呼吁证交会推迟SpaceX上市，指马斯克权力缺乏制衡",
+          "summaryEn": "Senator Elizabeth Warren has written to the SEC urging a delay of SpaceX's potential IPO, citing Elon Musk's 'uniquely unchecked' power as majority shareholder and serious governance deficiencies. She argues the company's reported valuation fails to reflect underlying risks and that investor protections are inadequate. The letter intensifies regulatory scrutiny on Musk-linked ventures and raises a broader question: can a company dominated by one person be safely listed on public markets?",
+          "summaryCn": "参议员伊丽莎白·沃伦致信美国证券交易委员会（SEC），呼吁推迟SpaceX的IPO进程。她在信中指出，埃隆·马斯克作为公司最大股东，拥有「几乎不受任何制衡」的独特权力，公司治理结构严重缺失，对投资者的保护措施也远远不够。沃伦还质疑SpaceX高达数千亿美元的估值是否真实反映了潜在风险。此举进一步加强了外界对马斯克旗下企业的监管审查，也引发了更广泛的讨论：一家由单一个人主导的公司，是否已具备公开上市的条件？",
+          "excerpt": "Senator Warren cited Musk's 'uniquely unchecked' power as SpaceX's majority shareholder, urging the SEC to delay any IPO until investors receive a full and transparent picture of the company's governance structure and true valuation.",
+          "vocab": [
+            {
+              "word": "flag",
+              "pos": "v.",
+              "meaning": "标记、示警、提出（问题或关切）。在商业和监管语境中比 raise 或 mention 语气更正式，且带有「需要特别关注」的含义，暗示所提问题已具备一定严重性。常见搭配：flag concerns / flag risks / flag issues。",
+              "etymology": "源自古英语及中古英语，原义为「旗帜」（flag = banner）。16世纪起用作动词，指「用旗子标记位置」，后引申为任何形式的「标记以示关注」，尤用于商业、监管与法律语境中。",
+              "morphology": "单一词根，无明显前后缀。常见派生及相关形式：red flag（n.，危险信号）、flag up（phrasal v.，英式英语，强调提出注意）、flagged（过去式/形容词）。注意 flagging 另有「衰退、减弱」之义，需区分语境。",
+              "mnemonic": "想象一位监管官员在一摞文件上插上一面红色小旗——这份文件需要特别审查！Flag a concern = 在风险点上插旗示警。记住：插旗的动作就是提醒别人「这里要重点看！」",
+              "exampleEn": "The audit committee flagged several inconsistencies in the company's earnings report before it was released to the public.",
+              "exampleCn": "审计委员会在公司收益报告公开发布前，标记了其中几处不一致之处。"
+            },
+            {
+              "word": "governance",
+              "pos": "n.",
+              "meaning": "治理、管理体制——尤指公司的权力架构与问责机制（corporate governance，公司治理）。比 management 更宏观，强调「谁有权力、如何制衡、如何问责」的制度层面，是投资者评估公司质量的核心维度，也是本文 IPO 争议的核心词。",
+              "etymology": "源自拉丁语 gubernare（掌舵、统治），经由古法语 gouverner 进入英语。与 government 同源，但 governance 更强调「管理的过程、原则与机制」，而非具体的政府机构本身。",
+              "morphology": "govern（v.，统治/管理）+ -ance（名词后缀，表「行为/持续状态」）→ governance。同族词：governor（州长/监管者）、governable（adj.，可治理的）、ungovernable（adj.，难以管控的）。",
+              "mnemonic": "govern = 驾驭/统治，-ance = 持续的状态。Governance = 「维持有序统治的那套机制」。联想一艘船：船长（governor）必须按照操舵规程（governance）掌舵，否则航向失控，整船人遭殃。",
+              "exampleEn": "Institutional investors are increasingly demanding stronger corporate governance before committing capital to high-growth tech firms.",
+              "exampleCn": "机构投资者在向高增长科技公司投入资本之前，越来越多地要求其具备更健全的公司治理体系。"
+            },
+            {
+              "word": "scrutiny",
+              "pos": "n.",
+              "meaning": "严格审查、细致检视。比 review 或 check 强度更高，带有「不放过任何细节」的意味，且隐含「可能发现问题」的预设。常见搭配：under scrutiny（受到审查）、face scrutiny（面临审查）、close/intense scrutiny。在监管、财务与政治语境中极高频，是新闻英语必备词。",
+              "etymology": "源自拉丁语 scrutinium（搜查、调查），来自动词 scrutari（翻捡、搜索），原义是「翻找破烂堆」（scruta = 破旧杂物）。语义从字面的「翻箱倒柜」演变为「仔细调查核查」，保留了「不遗漏任何角落」的语感。",
+              "morphology": "词根 scrutin- + 名词后缀 -y → scrutiny。核心派生词：scrutinize（v.，仔细审查）、scrutinizer（n.，审查者）、scrutineer（n.，监票员）。记住这一词根，遇到含 scrutin- 的词均与「仔细检查」相关。",
+              "mnemonic": "可拆成 s-cru-TINY：连「tiny（微小）」的细节也不放过，才叫 scrutiny。或联想「撕入」——监管机构「撕入」文件堆，把每个细节都翻出来逐一核查。",
+              "exampleEn": "SpaceX's reported valuation of over $350 billion has drawn intense scrutiny from analysts who question whether the figure is grounded in fundamentals.",
+              "exampleCn": "SpaceX据报逾3500亿美元的估值引发了分析师的严格审查，他们质疑这一数字是否有基本面支撑。"
+            },
+            {
+              "word": "call on",
+              "pos": "phrasal v.",
+              "meaning": "正式呼吁、要求（某人/某机构）采取行动。比 ask 更正式，带有公开施压或问责的语气，常见于政治、监管与新闻报道中。关键区分：call on 后接人/机构（call on the SEC），call for 后接措施/事物（call for a delay）——两者不可混用。",
+              "etymology": "短语动词，无独立词源。由 call（呼叫/喊话）+ on（指向、针对）组合而成，字面意思「向某人喊话」，引申为「公开点名要求某人履行职责」，强调问责的公开性与方向性。",
+              "morphology": "短语动词，无独立词源。相关区分：call on sb to do（要求某人做某事）、call for sth（呼吁某项措施）、call out sb（公开批评某人）、call off（取消）。四个搭配含义各异，建议分组对比记忆。",
+              "mnemonic": "想象参议员站在讲台上，手指着SEC主席大声说：「I call ON you to act！」——call on = 点名施压，公开问责。「点名要求某人行动」就是 call on 的核心画面，比 ask 多了一份公开与压迫感。",
+              "exampleEn": "Several lawmakers called on the Federal Trade Commission to investigate the company's data privacy practices more aggressively.",
+              "exampleCn": "多位立法者呼吁联邦贸易委员会对该公司的数据隐私行为展开更为积极的调查。"
+            },
+            {
+              "word": "unchecked",
+              "pos": "adj.",
+              "meaning": "不受制约的、不受任何制衡的。比 uncontrolled 更强调「本应有机制来制约却缺失」的含义，突出制度性监督的空白与失位。常见搭配：unchecked power / unchecked authority / unchecked ambition。在公司治理和政治语境中是高频词，带有明显的负面评价色彩。",
+              "etymology": "un-（否定前缀）+ checked（来自 check，制止/核查）。check 源自古法语 eschec，即象棋术语「将军」——将军是对对方王的直接制约，后引申为「阻止、核查、制衡」，unchecked 则是「将军」状态的缺失。",
+              "morphology": "un-（否定前缀）+ check（v./n.）+ -ed（形容词化后缀）→ unchecked。相关词族：checks and balances（三权制衡）、checkmate（将死，彻底制服）、double-check（反复核实）、cross-check（交叉核对）。",
+              "mnemonic": "象棋里 check 是「将军」——对方的王受到了制约和威胁。un-checked = 没人来将你的军，权力可以肆意横行。想象棋盘上的王四面无子、无人能制——这就是 unchecked power 的画面。",
+              "exampleEn": "Critics warned that allowing a single founder to exercise unchecked voting control creates serious risks for minority shareholders and long-term investors.",
+              "exampleCn": "批评人士警告称，允许单一创始人行使不受制衡的投票控制权，会给少数股东和长期投资者带来严重风险。"
+            }
+          ]
+        },
+        {
+          "id": "20260610-4",
+          "category": "biz",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/games/948142/microsoft-xbox-layoffs-reset-asha-sharma",
+          "headlineEn": "Xbox Warns of a 'Reset' as Microsoft Readies Significant Layoffs",
+          "headlineCn": "Xbox 宣告「重置」战略，微软游戏部门即将大规模裁员",
+          "summaryEn": "Microsoft's Xbox division is bracing for significant layoffs as early as next month, with CEO Asha Sharma having already hinted at 'making hard choices.' The restructuring, described internally as a 'reset,' may include outright studio closures. The move marks one of the most dramatic shake-ups in Xbox's recent history and raises fresh questions about Microsoft's long-term gaming strategy following its $69 billion acquisition of Activision Blizzard.",
+          "summaryCn": "微软旗下 Xbox 部门最快将于下月实施大规模裁员，首席执行官 Asha Sharma 此前已暗示将「做出艰难抉择」。此次内部被称为「重置」的结构调整甚至可能涉及游戏工作室关闭。这是 Xbox 近年来最剧烈的组织变革之一，也令外界对微软斥资 690 亿美元收购动视暴雪后的长期游戏战略走向产生新的疑问。",
+          "excerpt": "Microsoft's Xbox division will be hit with significant layoffs next month. CEO Asha Sharma has hinted about 'making hard choices,' and sources suggest the cuts could even involve a studio closure — part of what the company is internally calling a 'reset.'",
+          "vocab": [
+            {
+              "word": "reset",
+              "pos": "n.",
+              "meaning": "「重置；战略重启」在商业语境中指企业彻底放弃旧路线、重新规划方向，而非技术上的重启。此词从游戏和科技术语借入企业管理领域，暗含「承认前期方向失误、从头来过」的意味，比 restructuring（重组）更口语化，也更具戏剧性。Xbox 用这个词尤其耐人寻味——它本是游戏界最熟悉的动作。",
+              "etymology": "来自古英语 settan（放置），加前缀 re-（再次），原义为「再次放置/设定」。机械时代指重置开关或仪表指针，进入数字时代成为科技高频词，21 世纪初起被商界借用，指战略层面的彻底重新定向。",
+              "morphology": "re-（再次）+ set（设定）。同前缀词：reboot（重启）、rebrand（品牌重塑）、recalibrate（重新校准）。「reset」名词、动词同形，形容词用 reset 或 resettable，构词极为灵活。",
+              "mnemonic": "游戏机卡死了，你按下机身上那个小小的 RESET 键——Xbox 现在对整个公司按下了同一个键。想象董事会会议室里有一台巨大的主机，屏幕上弹出「RESET？确认 / 取消」，这正是新闻标题的双关妙处。",
+              "exampleEn": "After three consecutive quarters of declining revenue, the board demanded a complete strategic reset of the product division.",
+              "exampleCn": "连续三个季度营收下滑后，董事会要求对产品部门进行彻底的战略重置。"
+            },
+            {
+              "word": "severance",
+              "pos": "n.",
+              "meaning": "「遣散费；离职补偿金」指企业裁员时支付给被解雇员工的一次性补偿，几乎是裁员报道的标配词汇。区别于 salary（日常工资）和 bonus（绩效奖金），专指因雇佣关系终止而产生的补偿性支付。最常见搭配：severance package（遣散方案）、severance pay（遣散薪资）。",
+              "etymology": "来自拉丁语 separare（分离），经由古法语 sevrer 演变为英语 sever（切断）。后缀 -ance 表示「行为或状态」。原义为切断联系的动作，延伸为雇佣关系断裂时企业给予的经济补偿。",
+              "morphology": "sever（切断）+ -ance（名词后缀）。同词根词：separate（分开）。常见派生搭配：severance pay、severance package、severance clause（合同中的离职条款）。注意 sever 本身即可作动词：to sever ties（切断关系）。",
+              "mnemonic": "「sever」像一把剪刀把合同书剪成两半——severance 就是剪断那一刻公司递过来的「伤口贴」，用现金安抚被切断的雇佣关系。画面：一把大剪刀、一张合同、旁边飘落着钞票。",
+              "exampleEn": "Employees affected by the restructuring will receive a severance package equivalent to three months' salary plus extended health benefits.",
+              "exampleCn": "受重组影响的员工将获得相当于三个月薪资加延长医疗保险的遣散方案。"
+            },
+            {
+              "word": "streamline",
+              "pos": "v.",
+              "meaning": "「精简；优化流程」在商业语境中指通过削减冗余部门、岗位或流程来提升效率。这是企业公关语言中的常客，往往是裁员的委婉表达。听到管理层说「streamline operations」，需要意识到背后很可能意味着人员削减。注意它天然带有正面语气，这正是其被频繁滥用的原因。",
+              "etymology": "来自 streamline（流线型），19 世纪的工程术语，指让流体阻力最小的形状（如鱼身、飞机机翼）。20 世纪中期被商界引用，比喻消除组织「阻力」（冗余环节），使运营像流线型物体一样高效顺滑。",
+              "morphology": "stream（流）+ line（线）构成复合词后用作动词。名词形式：streamlining；形容词：streamlined（精简的、流线型的）。同类商业委婉词：optimize（优化）、rationalize（合理化）、right-size（调整至合适规模）。",
+              "mnemonic": "想象一条臃肿的河豚——满身是刺和赘肉，游得极慢。管理层要把它「streamline」成一条细长的梭子鱼，水流过时毫无阻力。裁员就是在「刮鱼鳞」，最终留下的才是「流线型」公司。",
+              "exampleEn": "To cut costs ahead of the IPO, the startup streamlined its operations by eliminating three overlapping engineering teams.",
+              "exampleCn": "为在上市前削减成本，这家初创公司裁撤了三个职能重叠的工程团队，精简了运营架构。"
+            },
+            {
+              "word": "attrition",
+              "pos": "n.",
+              "meaning": "「自然减员；消耗战」在人力资源语境中指通过员工自然离职（退休、主动辞职）而非主动裁员来缩减人员规模，是比 layoffs 更温和也更隐蔽的缩编方式。在竞争语境中则指靠持续消耗对手资源取胜的战略（war of attrition，消耗战）。两种含义在科技商业报道中都极为常见。",
+              "etymology": "来自拉丁语 atterere（磨损），由 ad-（向）+ terere（摩擦、研磨）构成，原义为反复摩擦使物体磨损殆尽。中世纪神学将其引申为「出于恐惧而非真诚的不完全悔罪」，后扩展为对人员、资源或军队的逐渐消耗。",
+              "morphology": "at-（ad- 的同化变体，向）+ trit-（磨损词根）+ -ion（名词后缀）。同词根词：trite（陈腐的，被反复「磨损」用旧的）、contrite（悔恨的）、detritus（碎屑，磨损后的残余物）。",
+              "mnemonic": "「attrition」里藏着 trit，联想「摩擦」(friction)——两支军队像两块石头相互磨，谁先碎谁就输，这就是「消耗战」。公司靠 attrition 减员，就是等员工像石头一样被时间慢慢磨走，无需主动推人。",
+              "exampleEn": "Rather than announcing mass layoffs, the company opted to reduce headcount through natural attrition over the next two fiscal years.",
+              "exampleCn": "该公司没有宣布大规模裁员，而是选择在未来两个财年通过自然减员来缩减员工总数。"
+            },
+            {
+              "word": "shake-up",
+              "pos": "n.",
+              "meaning": "「大洗牌；重大变革」指组织内部大规模的人事调动或结构重组，通常意味着高层更替、部门撤并或战略方向转变。比 restructuring 更口语化，也更具冲击感，多见于新闻标题。注意与 shakeout 的区别：shake-up 强调内部剧变，shakeout 则指市场竞争中弱者被淘汰出局的过程。",
+              "etymology": "由动词短语 shake up（剧烈摇动、打乱）名词化而来。shake 源自古英语 scacan（摇动）。「shake up」原指大力摇晃使内容物重新排列——如摇骰子、摇鸡尾酒——后比喻对组织结构的彻底打散和重组。",
+              "morphology": "shake（摇动）+ up（彻底、完全，表强化的副词）构成动词短语，名词化时加连字符。相关词族：shake out（n. 市场整合淘汰）、shakedown（n. 测试磨合；勒索）、shaken（adj. 被震动的）。",
+              "mnemonic": "想象一个雪球玩具——猛地一摇（shake up），里面的雪花（员工和部门）全部腾空，落下后格局焕然一新。Xbox 这次的 shake-up 就是这个动作：把原来的组织架构摇散，等雪花重新落定，公司面貌已大变。",
+              "exampleEn": "The appointment of a new CFO triggered a major shake-up across the company's finance and strategy divisions.",
+              "exampleCn": "新任首席财务官的上任引发了公司财务与战略部门的大规模人事洗牌。"
+            }
+          ]
+        },
+        {
+          "id": "20260610-5",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/the-4-2-inflation-rate-is-a-bummer-but-the-worst-might-be-over-ef27170d?mod=mw_rss_topstories",
+          "headlineEn": "U.S. Inflation at 4.2%: Disappointing, but the Worst May Be Over",
+          "headlineCn": "美国通胀率达4.2%，但最坏时刻或已过去",
+          "summaryEn": "The U.S. Consumer Price Index rose 4.2% year-over-year, frustrating consumers and investors hoping for faster progress. However, economists argue the worst may be behind us. Gasoline prices have retreated significantly, and the one-time price shock from tariffs is expected to fade rather than compound. If these trends hold, headline inflation could drift meaningfully lower by late 2026, giving the Federal Reserve more room to consider cutting interest rates.",
+          "summaryCn": "美国消费者价格指数同比上涨4.2%，令期望通胀更快回落的消费者和投资者感到失望。不过，经济学家认为最艰难的时期可能已经过去。汽油价格已显著回落，而关税带来的价格冲击预计将逐渐消退而非持续累积。若上述趋势延续，整体通胀率有望在2026年底前明显下降，为美联储讨论降息创造更大空间。",
+          "excerpt": "Lower gasoline prices and the fading impact of tariffs are expected to pull U.S. inflation down from its current 4.2% rate by the close of 2026. While the figure remains well above the Fed's 2% target, economists say the ceiling may already be in the rearview mirror.",
+          "vocab": [
+            {
+              "word": "bummer",
+              "pos": "n. (informal)",
+              "meaning": "令人失望的事；口语化的「扫兴之事」。在财经报道标题中出现极为罕见，体现出英文媒体刻意采用口语化写法拉近与读者距离。学会这个词有助于读懂英文财经媒体越来越常见的非正式语气，也能辨别标题的情感倾向。",
+              "etymology": "源自19世纪美国俚语，最初来自德语「Bummler」（游手好闲者），后在1960年代美国嬉皮文化中演变为「令人沮丧的事」。与「bum」（流浪汉、懒汉）同根，后缀 -er 完成名词化。",
+              "morphology": "词根 bum（无用之人）+ 后缀 -er（名词化）。相关词：bum（v. 蹭，n. 流浪汉），bumbling（adj. 笨手笨脚的），bum out（phrasal v. 使沮丧）。派生短语：on a bummer（处于低落状态）。",
+              "mnemonic": "想象一个失望的人拉长声调叹气：「Bum~~~mer...」——「mm」的拖音本身就像在叹气，声音形状完全吻合情绪。记住：朋友告诉你坏消息时，你低沉地回一句「Bummer...」就对了。",
+              "exampleEn": "Missing the quarterly earnings forecast by such a wide margin was a real bummer for shareholders who had expected a strong recovery.",
+              "exampleCn": "本季度业绩大幅低于预期，这对寄望于强劲复苏的股东来说实在是一件令人沮丧的事。"
+            },
+            {
+              "word": "nudge",
+              "pos": "v. / n.",
+              "meaning": "轻推、微幅引导。在经济学语境中特指「行为经济学轻推理论（Nudge Theory）」——通过温和设计而非强制措施引导行为或走势。描述通胀或利率「微幅移动」时，nudge 比 push 或 drive 更能传达「缓慢渐进」的含义，是财经写作的高频词汇。",
+              "etymology": "源自17世纪斯堪的纳维亚语，挪威方言「nugge/nyggje」意为「轻推、摩擦」。1990年代行为经济学家塞勒（Thaler）和桑斯坦（Sunstein）将其发展为学术理论，该词由此获得正式经济学含义，并随诺贝尔奖广为人知。",
+              "morphology": "无明显前后缀，属简单词根，但派生丰富：nudge（v./n.），nudge theory（n. 行为经济学术语），nudger（n. 施推者）。近义辨析：push（用力推）、prod（用尖物刺），nudge 专指「力度最小的温和影响」。",
+              "mnemonic": "想象用手肘轻轻碰一下旁边的朋友，提醒他注意某事——这就是 nudge。通胀被「轻推」下行，就像手肘微微一碰，不是猛推，只是悄悄引导方向。手肘一碰（elbow nudge）= 最温柔的提示。",
+              "exampleEn": "Central bank rhetoric alone can sometimes nudge market expectations without any actual change in interest rates.",
+              "exampleCn": "仅凭央行的措辞，有时就能在不实际调整利率的情况下，轻推市场预期向既定方向移动。"
+            },
+            {
+              "word": "tariff",
+              "pos": "n.",
+              "meaning": "关税；政府对进口（或出口）商品征收的税。与 tax（泛指各类税）、duty（更正式的进出口税）区分：tariff 专指贸易壁垒语境，常出现在中美贸易谈判、WTO规则、供应链成本报道中，是当前国际财经新闻绝对高频词，必须掌握。",
+              "etymology": "来自阿拉伯语「ta'rīf」（通知、价目表），经西班牙语「tarifa」进入欧洲，最初指港口收费价目表，后专指进口税率表。16世纪随大航海贸易传入英语，是少数直接源自阿拉伯语的经济词汇之一。",
+              "morphology": "不可拆分的借词。派生与搭配：tariff（n./v.），tariff wall（关税壁垒），tariff rate（税率），retaliatory tariff（报复性关税），tariff shock（关税冲击）。复数形式 tariffs 在财经新闻中极为常见。",
+              "mnemonic": "「ta-riff」——想象海关官员对着货船吹了一声短促的「riff」（爵士即兴短句），宣告：「你的货，交钱！」这位「海关乐手」的画面帮你记住：tariff = 进关前要交的那笔钱。",
+              "exampleEn": "The newly imposed tariffs on semiconductors are expected to raise production costs for consumer electronics manufacturers worldwide.",
+              "exampleCn": "新近实施的半导体关税预计将推高全球消费电子制造商的生产成本。"
+            },
+            {
+              "word": "sticky",
+              "pos": "adj.",
+              "meaning": "（经济学专业术语）粘性的，指价格或工资在经济条件改变后仍难以向下调整的特性。「Sticky inflation」是当前美联储讨论的核心概念，比 persistent（持续的）更生动地传达「想降却降不下去」的状态，是读懂货币政策报道的必备词汇。",
+              "etymology": "古英语「stician」（刺、粘着），与 stick 同源，原义为「粘在某物上」。经济学借用其物理隐喻——凯恩斯经济学中，价格粘性（price stickiness）是解释经济衰退为何持续的核心概念，由此进入主流财经词汇。",
+              "morphology": "词根 stick（粘）+ 后缀 -y（形容词化）。相关词：stickiness（n. 粘性），stuck（adj. 卡住的），sticky wicket（英式英语：棘手局面）。经济学扩展：sticky prices / sticky wages / downward rigidity（向下刚性，同义学术表达）。",
+              "mnemonic": "想象通胀数字被口香糖粘在高位——你用力往下拉，它就是不动。「Sticky inflation = 口香糖通胀」，粘在高处死活降不下来。下次看到 sticky 和经济数据并排，立刻联想那团粘在鞋底的口香糖。",
+              "exampleEn": "Services inflation has proven especially sticky, remaining elevated even as goods prices have started to come down.",
+              "exampleCn": "服务业通胀已被证明格外具有粘性，即便商品价格已开始回落，服务价格仍居高不下。"
+            },
+            {
+              "word": "abate",
+              "pos": "v.",
+              "meaning": "（风、价格、压力等）减弱、平息。比 decrease 或 fall 更具文学性与专业感，常出现在描述风险或压力「逐渐消退」的场景。财经写作中「abating inflation pressures」（通胀压力消退）是高级表达，比用 dropping 更显专业层次，值得主动积累。",
+              "etymology": "来自古法语「abatre」（打倒、削减），由拉丁语前缀「ad-」（向）+ 「battere」（打）构成，原义是「向下打」，引申为「削减、减弱」。13世纪经诺曼征服进入英语，与 battery（原指「打击」）、debate（反复交锋）同词根。",
+              "morphology": "前缀 a-（ad- 的弱化形式）+ 词根 bat（打）+ 词尾 -e。派生词：abatement（n. 减弱，如 noise abatement 噪音治理、tax abatement 税收减免），unabated（adj. 未减弱的），abating（adj. 正在消退的）。",
+              "mnemonic": "「a-bate」——想象钓鱼时把鱼饵（bait）收走，鱼的兴奋劲立刻减弱。同理，当「bait」（刺激因素）消失，某种势头也随之 abate（平息）。注意拼写陷阱：是 abate，不是 abait——去掉 bait 里的 i，情绪也随之减弱。",
+              "exampleEn": "Supply chain disruptions that had driven input costs sharply higher began to abate as port backlogs cleared in early 2023.",
+              "exampleCn": "随着港口积压问题在2023年初逐步疏解，曾大幅推高投入成本的供应链中断开始消退。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-09": {
       "label": "6月9日 (周二)",
       "stories": [
@@ -8878,266 +9198,6 @@
               "etymology": "复合短语，无独立词源。workflow 由古英语 weorc（劳动）+ flowan（流动）合成，原义「工序像水流般依次推进」；automation 来自希腊语 automatos（自动的），由 auto-（自己）+ matos（行动、意志）构成，20 世纪工业革命后广泛进入英语，意为「无需人工干预、自行运作」。",
               "morphology": "auto-（自己，希腊语）为高频前缀，同前缀词：automobile（汽车）、autonomous（自主的）、autopilot（自动驾驶仪）、automate（使自动化）。flow 同根词：overflow（溢出）、inflow（流入）、cashflow（现金流）。automation 派生：automate（动词）、automated（形容词）、automating（进行时）。",
               "mnemonic": "想象一条工厂流水线（flow），原本每道工序都需要工人，现在机器人（auto- = 自己）接管了全部环节——workflow（工作流）+ automation（机器人化）= 流水线上再没有人影，只有机械臂在流畅运转。B2B 软件销售场景里，这个词每次出现都能召唤出那条无人流水线的画面。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-07": {
-      "label": "5月7日 (周四)",
-      "stories": [
-        {
-          "id": "20260507-1",
-          "category": "tech",
-          "sourceName": "Anthropic 官方公告",
-          "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
-          "headlineEn": "Anthropic Taps All Compute at SpaceX's Memphis Colossus 1 Data Center",
-          "headlineCn": "Anthropic 锁定 SpaceX 孟菲斯 Colossus 1 数据中心全部算力",
-          "summaryEn": "Anthropic announced a deal on May 6 to tap all available compute at SpaceX's Colossus 1 data center in Memphis, gaining access to more than 300 megawatts of power and 220,000+ Nvidia GPUs. The move directly addresses Anthropic's infrastructure strain after 80x growth in Q1 2026, which had caused reliability issues for Claude Pro and Max users. Notably, Elon Musk — who had previously slammed Anthropic — publicly praised the team after meetings.",
-          "summaryCn": "Anthropic 于 5 月 6 日宣布交易，将动用 SpaceX 孟菲斯 Colossus 1 数据中心的全部可用算力，获得 300 兆瓦以上电力以及 22 万块以上的英伟达 GPU。此举直接缓解了 Anthropic 在 2026 一季度增长 80 倍后产生的基础设施紧张，这一压力此前已经导致 Claude Pro 与 Max 用户出现可靠性问题。值得一提的是，曾激烈抨击 Anthropic 的马斯克在会面后公开称赞了 Anthropic 的团队。",
-          "excerpt": "The move directly addresses Anthropic's infrastructure strain after 80x growth in Q1 2026, which had caused reliability issues for Claude Pro and Max users. The agreement highlights the ferocious competition for power-hungry AI training resources and the blurring lines between space and AI infrastructure players.",
-          "vocab": [
-            {
-              "word": "tap (sth)",
-              "pos": "v.",
-              "meaning": "动用、利用（资源/资金/人才）（生动比喻，原意'轻拍'，引申为'打开开关取用'）",
-              "exampleEn": "The company plans to tap the bond market for $2 billion in fresh capital.",
-              "exampleCn": "该公司计划在债券市场动用 20 亿美元的新资金。",
-              "etymology": "源自古英语 tæppian，原义「轻轻敲击」，后演变为「打开水龙头取水」，再进一步抽象为「打开某种通道以获取资源」，形成「动用、利用」之义，语义从物理动作跨越至抽象资源调配。",
-              "morphology": "单音节简单词，无可拆解前缀后缀。常见派生形式：tapping（敲击/窃听）、tapper（轻敲者）、untapped（未被开发的）、tap into（深入挖掘利用）；untapped resources 是新闻高频搭配。",
-              "mnemonic": "想象一桶宝藏封着盖子，你轻轻「tap」（敲）一下，开关打开，资源就哗哗流出来——tap reserves / tap talent 就是「敲开宝藏桶」的画面，一敲即用。"
-            },
-            {
-              "word": "infrastructure strain",
-              "pos": "n.phrase",
-              "meaning": "基础设施压力（strain 比 stress/pressure 更具体地指'拉扯到极限'的感觉）",
-              "exampleEn": "Soaring electricity demand from AI is putting unprecedented strain on regional grids.",
-              "exampleCn": "AI 带来的飙升电力需求正给区域电网施加前所未有的压力。",
-              "etymology": "复合短语，无独立词源。infrastructure 来自拉丁语 infra-（下方）与 structura（建造），指「底层建造物」；strain 来自古法语 estreindre、拉丁语 stringere，原义「紧绷、勒紧」，强调拉扯至极限的物理感。",
-              "morphology": "infra-（下方/低于）+ structure（结构）= infrastructure；strain 可派生 strained（紧绷的）、overstrain（过度拉伸）；同词根 stringere 衍生出 stringent（严苛的）、constrain（约束）、restrict（限制），均含「绑紧」语义。",
-              "mnemonic": "想象城市地下管网像一根橡皮筋被越拉越紧——strain 不是普通的「压力」，而是「快断还没断」的极限撕裂感。infrastructure strain 就是「城市筋骨被拉到极限」。"
-            },
-            {
-              "word": "reliability issues",
-              "pos": "n.phrase",
-              "meaning": "可靠性问题（系统/产品报道中的标准说法，比 'problems' 更专业）",
-              "exampleEn": "The carmaker recalled 50,000 vehicles to fix reliability issues with its braking system.",
-              "exampleCn": "该车企召回 5 万辆汽车，以修复刹车系统的可靠性问题。",
-              "etymology": "复合短语，无独立词源。reliability 源自 rely，来自古法语 relier、拉丁语 religare，原义「重新绑紧、依附」，引申为「可以依靠」；-ability 为抽象名词后缀，表示「具备某种能力」。",
-              "morphology": "rely → reliable（加 -able）→ reliability（加 -ity）；同族词：reliant（依赖的）、reliance（信赖）、unreliable（不可靠的）；-ity 后缀同族：stability、visibility、durability，均表「程度/性质」。",
-              "mnemonic": "re-（一再）+ ly（倚靠），reliability 就是「值得一再倚靠的能力」。reliability issues 则是「你倚靠过去，发现它靠不住」——想象靠在一把松动的椅子上，那种不安感就是 reliability issue。"
-            },
-            {
-              "word": "ferocious competition",
-              "pos": "n.phrase",
-              "meaning": "激烈竞争（ferocious 比 fierce 更强烈，常带'凶猛、凶狠'之意）",
-              "exampleEn": "The streaming wars have entered a phase of ferocious competition for original content.",
-              "exampleCn": "流媒体大战已进入争夺原创内容的激烈竞争阶段。",
-              "etymology": "ferocious 来自拉丁语 ferox（凶猛的、野性的），词根 fer- 与 ferus（野生动物）同源，核心义为「像猛兽般不受驯化的」；-ious 为形容词后缀。比 fierce 更强调「原始凶性」而非单纯「激烈」。",
-              "morphology": "feroc-（词根，凶猛野性）+ -ious（形容词后缀）；派生：ferocity（凶猛，名词）、ferociously（副词）；同词根扩展：feral（野性未驯的）、fierce（凶猛，不同词根但语义近邻），三者构成「凶猛」语义家族。",
-              "mnemonic": "ferocious 里藏着「fierce + roar（咆哮）」的感觉——想象一头狮子张嘴怒吼，毫无克制，那就是 ferocious 的现场。ferocious competition 就是「狮子群抢一块肉」，不是比赛，是搏命。"
-            },
-            {
-              "word": "blurring lines",
-              "pos": "n.phrase",
-              "meaning": "界限模糊化（blur 作动词意为'使模糊'，blurring 是动名词形式）",
-              "exampleEn": "Wearable health tech is blurring the lines between consumer gadgets and medical devices.",
-              "exampleCn": "可穿戴健康科技正在模糊消费电子与医疗设备的界限。",
-              "etymology": "blur 可能源自斯堪的纳维亚语，或与古英语 blear（眼睛模糊、流泪）相关，原义「使视觉不清晰」；后语义扩展至任何界限、概念、身份的模糊化，blurring 为现在分词/动名词形式。",
-              "morphology": "blur（动词/名词）+ -ring（进行时/动名词后缀）；派生：blurry（模糊的，形容词）、blurred（已模糊的，过去分词）、blur out（涂抹处理）；近义词族：smear、smudge 均含「涂抹使模糊」之意，可横向扩展。",
-              "mnemonic": "想象刚用铅笔画好一条清晰的界线，用手指轻轻一抹——线条「blur」了，消失在灰色地带。blurring lines between A and B，就是「A 和 B 之间的界线被手指抹掉了」，画面感极强，一用难忘。"
-            }
-          ]
-        },
-        {
-          "id": "20260507-2",
-          "category": "tech",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
-          "headlineEn": "TSMC Ramps Up Wind Power Buys to Fuel AI Chip Boom Amid Taiwan Energy Crunch",
-          "headlineCn": "TSMC 加大风电采购支撑 AI 芯片热潮，台湾电力紧张引发关注",
-          "summaryEn": "TSMC is ramping up wind-power purchases to fuel its advanced fabs amid record AI-driven chip orders, even as Taiwan grapples with broader electricity shortages. The move aims to stabilize supply for major customers, including Nvidia and Apple. Energy constraints are now a material risk to the global semiconductor supply chain — and the world's leading chip foundry's pivot to renewables highlights how AI growth is forcing sustainability trade-offs and exposing geographic vulnerabilities in critical tech manufacturing.",
-          "summaryCn": "面对 AI 驱动的创纪录芯片订单，TSMC 正加大对风能的采购以为其先进晶圆厂供电，与此同时台湾正在应对更广泛的电力短缺。此举旨在为英伟达、苹果等大客户稳定供货。能源约束如今已成为全球半导体供应链的实质性风险——世界领先芯片代工厂转向可再生能源，凸显了 AI 增长正迫使行业做出可持续性权衡，并暴露出关键科技制造的地理脆弱性。",
-          "excerpt": "TSMC is ramping up wind-power purchases to fuel its advanced fabs amid record AI-driven chip orders, even as Taiwan grapples with broader electricity shortages. The move aims to stabilize supply for customers, including Nvidia and Apple. Energy constraints are now a material risk to the global semiconductor supply chain.",
-          "vocab": [
-            {
-              "word": "ramp up",
-              "pos": "phrasal v.",
-              "meaning": "加大；提升（产量、采购、能力）（产业新闻高频短语，反义为 'ramp down'）",
-              "exampleEn": "Pharma companies are ramping up production of obesity drugs to meet booming demand.",
-              "exampleCn": "药企正在加大减肥药生产以满足激增的需求。"
-            },
-            {
-              "word": "grapple with",
-              "pos": "v.",
-              "meaning": "努力应对、与……搏斗（处理棘手问题，比 'deal with' 更有挣扎感）",
-              "exampleEn": "Local governments are grappling with the housing affordability crisis.",
-              "exampleCn": "地方政府正在艰难应对住房可负担性危机。"
-            },
-            {
-              "word": "material risk",
-              "pos": "n.phrase",
-              "meaning": "实质性风险（material 在金融/法律语境是核心词，意为'重大的、有实质影响的'）",
-              "exampleEn": "Climate change has become a material risk that boards must disclose to investors.",
-              "exampleCn": "气候变化已成为董事会必须向投资者披露的实质性风险。"
-            },
-            {
-              "word": "pivot to",
-              "pos": "v.phrase",
-              "meaning": "转向（战略/方向）（科技与商业语境的核心动词，比 'shift to' 更主动）",
-              "exampleEn": "The magazine pivoted to a digital-first strategy after losing 60% of its print readers.",
-              "exampleCn": "在失去 60% 的纸质读者后，这本杂志转向了数字优先的战略。"
-            },
-            {
-              "word": "trade-off",
-              "pos": "n.",
-              "meaning": "权衡；取舍（无法兼得时的让步选择，常带连字符）",
-              "exampleEn": "There's always a trade-off between performance and battery life in laptop design.",
-              "exampleCn": "笔记本设计中性能与续航之间总存在取舍。"
-            }
-          ]
-        },
-        {
-          "id": "20260507-3",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
-          "headlineEn": "Google Shuts Down Project Mariner, Folds AI Browser Agent into Gemini",
-          "headlineCn": "谷歌关停 Project Mariner，将 AI 浏览器智能体并入 Gemini",
-          "summaryEn": "Google has shut down Project Mariner, its experimental AI browser agent that could perform web tasks such as booking hotels or organizing email. The company said the technology has been folded into other Google products, including Gemini Agent and AI Mode. The move is less a retreat from agentic AI than a consolidation — Google is shifting away from standalone experiments toward embedding agentic features inside products people already use, raising fresh questions about trust, permissions, and how much autonomy users will hand over.",
-          "summaryCn": "谷歌已关停其实验性 AI 浏览器智能体 Project Mariner，该项目可执行预订酒店、整理邮件等网页任务。公司表示相关技术已并入 Gemini Agent、AI Mode 等其他谷歌产品。此举与其说是从智能体 AI 撤退，不如说是产品整合——谷歌正从独立实验转向把智能体功能内嵌于人们已经在用的产品中，这也再度引发了关于信任、权限、以及用户愿意让渡多少自主权的讨论。",
-          "excerpt": "Google has shut down Project Mariner, its experimental AI browser agent that could perform web tasks such as booking hotels or organizing email. The company said the technology has moved into other Google products. This is less a retreat from agentic AI than a consolidation of products.",
-          "vocab": [
-            {
-              "word": "shut (sth) down",
-              "pos": "phrasal v.",
-              "meaning": "关闭、停止（项目/系统/工厂）（中性，常用于产品关停的官方说法）",
-              "exampleEn": "The chipmaker shut down its U.K. research lab as part of a global cost-cutting drive.",
-              "exampleCn": "在全球削减成本的行动中，这家芯片厂商关停了其英国研发实验室。"
-            },
-            {
-              "word": "fold (sth) into",
-              "pos": "v.",
-              "meaning": "并入；合并到（fold 原意'折叠'，引申为'把 A 合并进 B'，比 merge 更地道）",
-              "exampleEn": "The startup's payments unit will be folded into the parent bank's retail division.",
-              "exampleCn": "这家初创公司的支付部门将被并入母行的零售业务条线。"
-            },
-            {
-              "word": "less A than B",
-              "pos": "phrase",
-              "meaning": "与其说是 A 不如说是 B（高级写作结构，比 'not A, but rather B' 更精炼）",
-              "exampleEn": "His departure was less a resignation than a quiet retirement.",
-              "exampleCn": "他的离开与其说是辞职，不如说是悄然退休。"
-            },
-            {
-              "word": "consolidation",
-              "pos": "n.",
-              "meaning": "整合；合并（产品、行业、市场）（比 'combination' 更专业）",
-              "exampleEn": "The streaming industry is bracing for another wave of consolidation.",
-              "exampleCn": "流媒体行业正为另一轮整合做准备。"
-            },
-            {
-              "word": "hand over",
-              "pos": "phrasal v.",
-              "meaning": "交出、让渡（权力/控制权/数据）",
-              "exampleEn": "Many users are uncomfortable handing over biometric data to private companies.",
-              "exampleCn": "许多用户对把生物识别数据交给私营公司感到不安。"
-            }
-          ]
-        },
-        {
-          "id": "20260507-4",
-          "category": "tech",
-          "sourceName": "SecurityWeek",
-          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
-          "headlineEn": "AI-Assisted Cyberattack Targets U.S. Water Utility, Pointing to a Darker Side of AI",
-          "headlineCn": "AI 辅助网络攻击瞄准美国水务公司，揭示 AI 应用阴暗面",
-          "summaryEn": "According to a new report, an AI system helped guide attackers toward operational technology assets at a U.S. water utility, including ICS and SCADA control systems. The incident points to a darker side of AI adoption in cybersecurity: the same models that help defenders analyze threats can also help attackers move faster, ask sharper questions, and target critical infrastructure more effectively. Water utilities are especially sensitive because disruptions can directly affect public safety.",
-          "summaryCn": "据一份新报告，一套 AI 系统在一家美国水务公司的网络攻击中帮助攻击者瞄准了运营技术（OT）资产，包括 ICS 和 SCADA 控制系统。事件揭示了 AI 在网络安全中应用的阴暗一面：帮助防御者分析威胁的同款模型，同样可以帮助攻击者动作更快、提问更精准、更有效地瞄准关键基础设施。水务公司尤其敏感，因为任何中断都可能直接危及公众安全。",
-          "excerpt": "According to the report, the AI system helped guide attackers toward operational technology assets, including ICS and SCADA systems. The incident is important because it points to a darker side of AI adoption in cybersecurity. AI can help defenders analyze threats, but it can also help attackers move faster, ask better questions, and target critical infrastructure more effectively.",
-          "vocab": [
-            {
-              "word": "critical infrastructure",
-              "pos": "n.phrase",
-              "meaning": "关键基础设施（电网、水务、交通、通信等社会运行基础——网络安全核心词）",
-              "exampleEn": "New legislation tightens cybersecurity rules for operators of critical infrastructure.",
-              "exampleCn": "新立法收紧了关键基础设施运营商的网络安全规则。"
-            },
-            {
-              "word": "darker side of",
-              "pos": "n.phrase",
-              "meaning": "……的阴暗面（A 的阴暗一面；新闻评论中描述技术/社会现象负面影响的常用表达）",
-              "exampleEn": "The film explores the darker side of celebrity culture.",
-              "exampleCn": "这部电影探索了名人文化的阴暗面。"
-            },
-            {
-              "word": "guide (sb) toward",
-              "pos": "phrase",
-              "meaning": "引导……走向；指引（在攻击/营销/教学语境都有运用）",
-              "exampleEn": "Recommendation algorithms quietly guide users toward more extreme content.",
-              "exampleCn": "推荐算法悄无声息地把用户引向更极端的内容。"
-            },
-            {
-              "word": "disruption",
-              "pos": "n.",
-              "meaning": "中断、扰动；颠覆（这里取'中断'之意，但同一词在科技语境也指'颠覆性创新'，需看上下文）",
-              "exampleEn": "A two-hour disruption at the data center cost the bank an estimated $40 million.",
-              "exampleCn": "数据中心两小时的中断，估计让该银行损失约 4000 万美元。"
-            },
-            {
-              "word": "publicly sensitive",
-              "pos": "adj.phrase",
-              "meaning": "对公众影响敏感的（用 'sensitive' 修饰具体名词，是高级写作技巧）",
-              "exampleEn": "Hospitals and water utilities are uniquely sensitive targets for cyberattacks.",
-              "exampleCn": "医院和水务公司是网络攻击中尤为敏感的目标。"
-            }
-          ]
-        },
-        {
-          "id": "20260507-5",
-          "category": "biz",
-          "sourceName": "The Register",
-          "sourceUrl": "https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/",
-          "headlineEn": "Cutting Staff for AI? Productivity Gains May Not Follow, Report Warns",
-          "headlineCn": "为了 AI 裁员？报告警告：生产力红利未必如约而至",
-          "summaryEn": "A new report highlighted by The Register warns that companies cutting staff in anticipation of AI productivity gains may not see the benefits they expect. The findings suggest that AI adoption works best as a business redesign, not as blind cost-cutting. Firms that simply automate existing workflows often find efficiency improvements offset by integration costs, technical debt, and a loss of institutional knowledge — while companies that thoughtfully reorganize around AI capabilities tend to capture more durable gains.",
-          "summaryCn": "The Register 援引的一份新报告警告：那些为了 AI 红利而提前裁员的公司，未必能看到他们预期的回报。报告认为，AI 应用作为'业务再设计'时效果最好，而不是单纯的盲目裁员降本。仅仅自动化现有工作流程的公司，往往发现效率提升被集成成本、技术债务和组织知识流失所抵消；而那些围绕 AI 能力进行深思熟虑重组的公司，往往能获得更持久的收益。",
-          "excerpt": "A new report warns that companies cutting staff due to AI may not see the productivity gains they expect. AI adoption works best as a business redesign, not blind cost-cutting.",
-          "vocab": [
-            {
-              "word": "in anticipation of",
-              "pos": "phrase",
-              "meaning": "预期/为应对……而（比 'expecting' 更书面，常用于商业决策语境）",
-              "exampleEn": "Retailers stocked up in anticipation of holiday demand.",
-              "exampleCn": "零售商为应对假日需求而大量进货。"
-            },
-            {
-              "word": "blind cost-cutting",
-              "pos": "n.phrase",
-              "meaning": "盲目降本（blind 形容缺乏战略思考的削减成本行为，多带批评意味）",
-              "exampleEn": "Blind cost-cutting in R&D often shows up as weaker products three years later.",
-              "exampleCn": "研发上的盲目降本，往往三年后会以产品力削弱的形式显现。"
-            },
-            {
-              "word": "offset",
-              "pos": "v./n.",
-              "meaning": "抵消；冲销（财务/经济报道高频，作动词或名词都很常见）",
-              "exampleEn": "Higher fuel costs were offset by stronger ticket sales.",
-              "exampleCn": "更高的燃油成本被更强劲的票务销售所抵消。"
-            },
-            {
-              "word": "technical debt",
-              "pos": "n.phrase",
-              "meaning": "技术债（软件工程术语：为追求短期速度而留下的代码遗留问题）",
-              "exampleEn": "After years of rapid releases, the team is now paying down years of technical debt.",
-              "exampleCn": "经过多年的快速发布后，该团队正在偿还多年累积的技术债。"
-            },
-            {
-              "word": "institutional knowledge",
-              "pos": "n.phrase",
-              "meaning": "组织/机构知识（员工头脑里关于公司流程、客户、历史的隐性知识）",
-              "exampleEn": "When the senior engineers retired, the company lost decades of institutional knowledge.",
-              "exampleCn": "高级工程师退休后，公司流失了几十年的组织知识。"
             }
           ]
         }
