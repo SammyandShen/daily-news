@@ -51,7 +51,38 @@ NEGATIVE_KEYWORDS = [
 ]
 
 OUTPUT = Path(__file__).parent.parent / "docs" / "_candidates.json"
+NEWS_JSON = Path(__file__).parent.parent / "docs" / "news.json"
 LOOKBACK_HOURS = 36  # 只看过去 36 小时的新闻
+DEDUP_DAYS = 7       # 过去 N 天选过的故事不再选
+
+
+def normalize_title(t: str) -> str:
+    """归一化标题用于精确去重：小写 + 折叠所有非字母数字为空格"""
+    return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+
+
+def collect_recent_stories():
+    """从 news.json 收集过去 DEDUP_DAYS 天的 URL 和归一化标题"""
+    if not NEWS_JSON.exists():
+        return set(), set()
+    try:
+        with open(NEWS_JSON, encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception:
+        return set(), set()
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=DEDUP_DAYS)).strftime("%Y-%m-%d")
+    urls, titles = set(), set()
+    for date_str, day_data in data.get("days", {}).items():
+        if date_str < cutoff_date:
+            continue
+        for story in day_data.get("stories", []):
+            url = (story.get("sourceUrl") or "").strip()
+            title = (story.get("headlineEn") or "").strip()
+            if url:
+                urls.add(url)
+            if title:
+                titles.add(normalize_title(title))
+    return urls, titles
 
 
 def score_entry(title: str, summary: str) -> dict:
@@ -88,6 +119,10 @@ def main():
     cutoff = now - timedelta(hours=LOOKBACK_HOURS)
     candidates = []
 
+    recent_urls, recent_titles = collect_recent_stories()
+    print(f"📚 过去 {DEDUP_DAYS} 天已用过的故事：URL {len(recent_urls)} 条 · 标题 {len(recent_titles)} 条")
+
+    skipped_dup = 0
     for src in RSS_SOURCES:
         print(f"Fetching {src['name']}...")
         try:
@@ -103,6 +138,15 @@ def main():
             title = entry.get("title", "").strip()
             summary = clean_summary(entry.get("summary", ""))
             if not title:
+                continue
+
+            # 去重：URL 完全相同 或 归一化标题相同
+            url = (entry.get("link") or "").strip()
+            if url and url in recent_urls:
+                skipped_dup += 1
+                continue
+            if normalize_title(title) in recent_titles:
+                skipped_dup += 1
                 continue
 
             scores = score_entry(title, summary)
@@ -139,7 +183,7 @@ def main():
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump({"date": now.strftime("%Y-%m-%d"), "candidates": final}, f, ensure_ascii=False, indent=2)
-    print(f"✅ Saved {len(final)} candidates to {OUTPUT}")
+    print(f"✅ Saved {len(final)} candidates to {OUTPUT} (跳过重复 {skipped_dup} 条)")
 
 
 if __name__ == "__main__":
