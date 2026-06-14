@@ -172,6 +172,14 @@
   .mode-translate { background: #fefce8; color: #b7791f; }
   .cloze-sentence { font-size: 17px; line-height: 1.7; color: #2d3748; padding: 16px 18px; background: #f7fafc; border-radius: 10px; margin-bottom: 12px; font-weight: 500; }
   .cloze-blank { display: inline-block; min-width: 80px; padding: 0 10px; margin: 0 2px; border-bottom: 3px solid #1a365d; font-weight: 700; color: #1a365d; }
+  .cloze-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .cloze-option { padding: 13px 16px; background: #fff; border: 2px solid #e0e6f0; border-radius: 10px; font-size: 15px; font-weight: 600; color: #2d3748; cursor: pointer; transition: all 0.12s; text-align: center; font-family: inherit; }
+  .cloze-option:hover:not(:disabled) { border-color: #1a365d; background: #f0f7ff; transform: translateY(-1px); }
+  .cloze-option:disabled { cursor: default; }
+  .cloze-option.correct { background: #f0fff4; border-color: #48bb78; color: #276749; }
+  .cloze-option.wrong { background: #fff5f5; border-color: #fc8181; color: #c53030; }
+  .cloze-option.dimmed { opacity: 0.5; }
+  @media (max-width: 600px) { .cloze-options { grid-template-columns: 1fr; } }
   .feedback-correct { background: #f0fff4 !important; border: 2px solid #68d391; }
   .feedback-correct .wr-label { color: #276749 !important; }
   .feedback-wrong { background: #fff5f5 !important; border: 2px solid #fc8181; }
@@ -744,6 +752,45 @@ function buildCloze(text, word) {
   return { masked: text, expected: "", found: false };
 }
 
+// 从用户收藏夹（含其它未学好的词）中随机抽 N 个干扰词
+function pickDistractors(correctWord, count) {
+  const correct = (correctWord || "").trim().toLowerCase();
+  const favs = loadFavorites();
+  const pool = [];
+  const seen = new Set([correct]);
+  for (const f of favs) {
+    const w = (f.word || "").trim();
+    const k = w.toLowerCase();
+    if (!w || seen.has(k)) continue;
+    seen.add(k);
+    pool.push(w);
+  }
+  // 收藏不足时用常见商业/科技动词、名词作为兜底
+  const fallback = ["surge", "decline", "boost", "curb", "stall", "rebound", "trim", "unveil", "unwind", "tighten", "ease", "lag", "tout", "pivot", "scale", "ramp up", "roll out", "lay off", "spike", "plunge"];
+  for (const w of fallback) {
+    const k = w.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    pool.push(w);
+  }
+  // Fisher-Yates 洗牌取前 count 个
+  for (let i = pool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  return pool.slice(0, count);
+}
+
+// 把正确词 + 干扰词混合后随机排列，返回 4 项
+function buildClozeOptions(correctWord) {
+  const opts = [correctWord, ...pickDistractors(correctWord, 3)];
+  for (let i = opts.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [opts[i], opts[j]] = [opts[j], opts[i]];
+  }
+  return opts;
+}
+
 // 判断用户填空是否正确（容忍大小写、词形变化）
 function clozeMatches(userInput, expected, baseWord) {
   if (!userInput) return false;
@@ -772,6 +819,7 @@ function handleRating(rating, page) {
       exerciseMode: wantCloze ? "cloze" : "translate",
       clozeText: wantCloze ? cloze.masked : null,
       clozeExpected: wantCloze ? cloze.expected : null,
+      clozeOptions: wantCloze ? buildClozeOptions(item.word) : null,
     });
   }
   s.currentIdx++;
@@ -800,14 +848,28 @@ function showWritingExercise(page) {
 
   let body = "";
   if (isCloze) {
-    // 填空模式：显示挖空后的英文 + 中文提示，单行输入
+    // 填空模式：选词填空。不显示目标词（避免泄露答案），只显示挖空英文 + 中文提示 + 4 个选项按钮
     const clozeHtml = escapeHtml(item.clozeText).replace(/____/g, '<span class="cloze-blank">____</span>');
+    const options = item.clozeOptions || buildClozeOptions(item.word);
+    const correctLower = (item.word || "").trim().toLowerCase();
+    const userPick = submitted ? (submitted.userText || "").trim().toLowerCase() : "";
+    const optsHtml = options.map(opt => {
+      let cls = "cloze-option";
+      if (submitted) {
+        const isCorrect = opt.toLowerCase() === correctLower;
+        const isUserPick = opt.toLowerCase() === userPick;
+        if (isCorrect) cls += " correct";
+        else if (isUserPick) cls += " wrong";
+        else cls += " dimmed";
+      }
+      const disabled = submitted ? "disabled" : "";
+      return `<button class="${cls}" data-opt="${escapeHtml(opt)}" ${disabled}>${escapeHtml(opt)}</button>`;
+    }).join("");
     body = `
       ${modeBadge}
-      ${wordTitle}
       <div class="cloze-sentence">${clozeHtml}</div>
       <div class="writing-hint" style="margin-bottom:14px;">💡 ${escapeHtml(item.exampleCn)}</div>
-      <input type="text" class="writing-input" id="writing-input" autocomplete="off" autocapitalize="off" placeholder="填入合适的词…" value="${submitted ? escapeHtml(submitted.userText) : ""}" ${submitted ? "disabled" : ""}>`;
+      <div class="cloze-options" id="cloze-options">${optsHtml}</div>`;
   } else {
     // 中译英模式：显示中文 + 提示，多行输入
     body = `
@@ -826,17 +888,18 @@ function showWritingExercise(page) {
       const cls = correct ? "feedback-correct" : "feedback-wrong";
       const icon = correct ? "✅" : "❌";
       const label = correct ? "答对了" : "不太对";
+      // 中文释义帮助加深印象（特别是答错时）
+      const meaningHint = item.meaning ? `<div style="margin-top:6px;font-size:12.5px;color:#4a5568;">📖 <strong>${escapeHtml(item.word)}</strong>（${escapeHtml(item.pos)}）${escapeHtml(item.meaning)}</div>` : "";
       resultArea = `
         <div class="writing-result ${cls}" style="margin-top:14px;">
           <div class="wr-label"><span class="feedback-icon">${icon}</span>${label}</div>
-          <div class="wr-ref">
-            你填：<strong>${escapeHtml(submitted.userText || "(空)")}</strong>
-            ${correct ? "" : ` &nbsp;·&nbsp; 正确答案：<strong style="color:#276749;">${escapeHtml(item.clozeExpected)}</strong>`}
-          </div>
+          ${correct ? "" : `<div class="wr-ref">正确答案：<strong style="color:#276749;">${escapeHtml(item.word)}</strong></div>`}
+          ${meaningHint}
         </div>
         <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
           <div class="wr-label">完整例句</div>
           <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
+          <div style="font-size:12.5px;color:#718096;margin-top:4px;">${escapeHtml(item.exampleCn)}</div>
         </div>`;
     } else {
       resultArea = `
@@ -851,33 +914,53 @@ function showWritingExercise(page) {
     }
   }
 
-  const buttons = submitted ? `
-    <div style="display:flex;justify-content:flex-end;margin-top:16px;">
-      <button class="btn btn-primary" id="next-writing-btn">${idx + 1 < total ? "下一个 →" : "完成练习 ✓"}</button>
-    </div>` : `
-    <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px;">
-      <button class="btn" id="skip-writing-btn">跳过</button>
-      <button class="btn btn-primary" id="submit-writing-btn">${isCloze ? "提交" : "提交并看参考"}</button>
-    </div>`;
+  // cloze 模式：点选项即提交，无需「提交」按钮；只在未提交时给「跳过」按钮
+  let buttons;
+  if (submitted) {
+    buttons = `
+      <div style="display:flex;justify-content:flex-end;margin-top:16px;">
+        <button class="btn btn-primary" id="next-writing-btn">${idx + 1 < total ? "下一个 →" : "完成练习 ✓"}</button>
+      </div>`;
+  } else if (isCloze) {
+    buttons = `
+      <div style="display:flex;justify-content:flex-end;margin-top:14px;">
+        <button class="btn" id="skip-writing-btn">跳过</button>
+      </div>`;
+  } else {
+    buttons = `
+      <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px;">
+        <button class="btn" id="skip-writing-btn">跳过</button>
+        <button class="btn btn-primary" id="submit-writing-btn">提交并看参考</button>
+      </div>`;
+  }
 
   page.innerHTML = `${header}<div class="review-hero" style="text-align:left;">${body}${resultArea}${buttons}</div>`;
 
   if (!submitted) {
-    const doSubmit = () => {
-      s.writingSubmitted = { userText: document.getElementById("writing-input").value.trim() };
-      showWritingExercise(page);
-    };
     document.getElementById("skip-writing-btn").addEventListener("click", () => { s.writingSubmitted = { userText: "" }; showWritingExercise(page); });
-    document.getElementById("submit-writing-btn").addEventListener("click", doSubmit);
-    const inp = document.getElementById("writing-input");
-    inp.focus();
-    inp.addEventListener("keydown", e => {
-      // 填空模式回车直接提交；中译英只接受 Ctrl+Enter（避免换行误触发）
-      if (e.key === "Enter" && (isCloze || e.ctrlKey || e.metaKey)) {
-        e.preventDefault();
-        doSubmit();
-      }
-    });
+    if (isCloze) {
+      // 点选项按钮即提交
+      document.querySelectorAll("#cloze-options .cloze-option").forEach(btn => {
+        btn.addEventListener("click", () => {
+          s.writingSubmitted = { userText: btn.dataset.opt };
+          showWritingExercise(page);
+        });
+      });
+    } else {
+      const doSubmit = () => {
+        s.writingSubmitted = { userText: document.getElementById("writing-input").value.trim() };
+        showWritingExercise(page);
+      };
+      document.getElementById("submit-writing-btn").addEventListener("click", doSubmit);
+      const inp = document.getElementById("writing-input");
+      inp.focus();
+      inp.addEventListener("keydown", e => {
+        if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+          e.preventDefault();
+          doSubmit();
+        }
+      });
+    }
   } else {
     document.getElementById("next-writing-btn").addEventListener("click", () => { s.writingIdx++; s.writingSubmitted = null; showWritingExercise(page); });
   }
