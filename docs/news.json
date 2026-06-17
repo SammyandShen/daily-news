@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-06-16T23:17:41.862834+00:00",
+  "lastUpdated": "2026-06-17T23:14:02.992105+00:00",
   "level": "B2",
   "days": {
+    "2026-06-17": {
+      "label": "6月17日 (周三)",
+      "stories": [
+        {
+          "id": "20260617-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/17/amazon-quantum-computing-timeline.html",
+          "headlineEn": "Amazon AI Executive Predicts Commercially Viable Quantum Computers Within 5-7 Years",
+          "headlineCn": "亚马逊AI高管预测：商用量子计算机将在5至7年内问世",
+          "summaryEn": "Amazon's head of artificial intelligence has predicted that the first quantum computers with genuine commercial value will emerge within five to seven years. Speaking at a major technology conference, the executive noted that quantum computing has entered a critical phase, with Microsoft, Google, and IBM racing toward a practical breakthrough. Such systems could transform drug discovery, logistics optimization, and financial modeling — making this timeline highly consequential for enterprises planning long-term technology strategy.",
+          "summaryCn": "亚马逊人工智能负责人预测，首批具有真正商业价值的量子计算机将在未来五到七年内诞生。这位高管在重要科技会议上指出，量子计算已进入关键阶段，微软、谷歌和IBM正竞相实现实际突破。量子计算机一旦成熟，有望彻底变革药物研发、物流优化和金融建模等领域，这一时间节点对于正在制定长期技术战略的企业而言意义深远。",
+          "excerpt": "Quantum computing is rapidly becoming one of the most competitive battlegrounds in tech, with industry heavyweights Microsoft, Google, and IBM investing billions to reach the milestone first. An Amazon AI executive recently placed the timeline for commercially useful quantum systems at five to seven years — a bold forecast that could reshape enterprise computing.",
+          "vocab": [
+            {
+              "word": "viable",
+              "pos": "adj.",
+              "meaning": "可行的；有商业存活能力的。「commercially viable」是商业英语的高频搭配，比 feasible 更强调经济上能持续运转、有生命力，不只是技术上能实现，隐含「能在市场中存活」之意，科技新闻中极为常见。",
+              "etymology": "来自法语 viable，源于拉丁语 vita（生命）。原义指「有生命力的、能存活的」，最初用于描述婴儿或植物能否存活，后延伸至商业领域，指「能在市场中持续运营、具有经济可行性」。",
+              "morphology": "词根 vi-（来自拉丁语 vita，生命）+ 后缀 -able（能够……的）。同族词：vital（至关重要的）、vitality（活力）、vitamin（维生素，字面意思是「生命胺」），三词均围绕「生命力」这一核心意义展开。",
+              "mnemonic": "想象一粒种子种入土中——它能否 viable，取决于能否「活下去、长出来」。商业语境里，viable = 能在市场丛林中存活的项目。vi 谐音「唯」——「唯有能活下来的方案才叫可行」。",
+              "exampleEn": "After three rounds of testing, the engineering team confirmed that the new battery design was commercially viable for mass production.",
+              "exampleCn": "经过三轮测试，工程团队确认新电池设计在商业上具有可行性，达到量产条件。"
+            },
+            {
+              "word": "on the horizon",
+              "pos": "phrase",
+              "meaning": "即将出现；近在眼前。表示「可以预见但尚未实现」，比 coming soon 更正式，带有画面感；「within a five-year horizon」则指「在五年的时间框架内」。商业报告、科技预测和投资者演讲中极为常见。",
+              "etymology": "horizon 来自希腊语 horizōn（kuklos），意为「划定界限的圆」，源于动词 horizō（划定界限）。引申义：视野所及之处即地平线，后发展为时间或可能性的边界，形成了「地平线上 = 即将到来」这一隐喻。",
+              "morphology": "希腊词根 horiz-（限定、划界）+ 名词后缀 -on。派生词：horizontal（水平的）。短语结构：on the + 名词，表「处于某状态」，如 on the agenda（在议程上）、on the rise（正在上升）、on the horizon（在视野边缘）。",
+              "mnemonic": "站在海边望向远方——horizon 是目力所及的「边界线」。「on the horizon」= 你已经能看见了但还没到，正是「近未来」的完美画面。想象量子计算机像远处若隐若现的船，慢慢从地平线上驶来。",
+              "exampleEn": "Several disruptive AI applications are on the horizon that could fundamentally change how enterprises manage their supply chains.",
+              "exampleCn": "数项颠覆性的AI应用即将问世，有望从根本上改变企业管理供应链的方式。"
+            },
+            {
+              "word": "breakthrough",
+              "pos": "n.",
+              "meaning": "重大突破；关键性进展。科技报道的核心词汇，强调跨越了此前无法逾越的障碍，比 progress（进展）或 advance（推进）语气更强，暗示改变游戏规则的发现。常用搭配：「achieve a breakthrough」「major breakthrough」「awaiting a breakthrough」。",
+              "etymology": "古英语 brecan（打破）与 thurh（穿过）复合而来，字面义「突破而过」。原指军事上攻破敌方防线，后扩展到科学、技术、商业领域，指「克服长期难题、取得决定性进展」，是现代科技新闻最高频词之一。",
+              "morphology": "break（打破）+ through（穿越），典型英语动词+介词复合名词。同族词：breakout（爆发式增长）、breakeven（盈亏平衡）、groundbreaking（开创性的）、trailblazing（开拓性的）——均含「突破常规」之意。",
+              "mnemonic": "想象一堵砖墙挡住所有人（= the unsolved problem），某天有人拿锤子 break through——那一刻就是 breakthrough。科技新闻里每次看到这个词，脑中就浮现那面被砸穿的砖墙，感受冲击力。",
+              "exampleEn": "The startup's breakthrough in solid-state battery technology could give electric vehicles a range of over 800 kilometers on a single charge.",
+              "exampleCn": "这家初创公司在固态电池技术上取得重大突破，有望使电动汽车单次充电续航超过800公里。"
+            },
+            {
+              "word": "imminent",
+              "pos": "adj.",
+              "meaning": "即将发生的；迫在眉睫的。与中性词 upcoming 不同，imminent 自带紧迫感和压迫感，时间极短。金融语境常搭配风险或危机（「imminent recession」），科技语境中则中性使用，指「预期很快实现」，值得与 impending（同样带压迫感但更负面）区分。",
+              "etymology": "来自拉丁语 imminere，意为「悬挂在上方、向下压迫」，由 in-（向上/向内）+ minere（突出、悬垂）构成。原义是「某物悬在头顶即将落下」，因此天然带有时间紧迫性和物理压迫感。",
+              "morphology": "前缀 im-（in- 的变体，表「向、在……上」）+ 词根 min-（突出，来自 minere）+ 形容词后缀 -ent。同族词：prominent（突出的、显著的）、eminent（卓越的）、preeminent（最杰出的）——三词同根，用途截然不同。",
+              "mnemonic": "三兄弟对比记忆：eminent = 人才「冒出头」（卓越）；prominent = 地位「凸显」（显著）；imminent = 危险「悬在头顶」（迫在眉睫）。记住「im = in，往下压」，压感最强、时间最紧的那个就是 imminent。",
+              "exampleEn": "Analysts warned that an imminent rate decision by the Federal Reserve could trigger significant volatility in tech stocks.",
+              "exampleCn": "分析师警告称，美联储即将宣布的利率决定可能引发科技股大幅波动。"
+            },
+            {
+              "word": "contender",
+              "pos": "n.",
+              "meaning": "竞争者；有实力的角逐者。比 competitor（泛指对手）或 rival（强调对立关系）更强调「有资格争夺某一重要地位」，隐含实力认可。常见搭配：「serious contender」「top contender」「emerge as a contender」，多用于市场争霸、技术竞赛语境。",
+              "etymology": "来自拉丁语 contendere（努力、竞争、拉紧），由 con-（共同、一起）+ tendere（拉伸、伸展）构成。原义是「共同拉紧绳子」（如拔河），引申为「争夺、角逐」，contender 即「参与角逐的有力一方」。",
+              "morphology": "前缀 con-（共同）+ 词根 tend-（拉、伸展）+ 行为者后缀 -er。同族词：contend（v. 竞争）、contention（n. 争论）、tend（趋向）、tendency（趋势）、extend（延伸）、intend（意图）——tend 这个词根极其多产。",
+              "mnemonic": "con（一起）+ tend（拉）+ er = 拔河比赛里一起拉绳子的人。contender 就是那个实力足以把绳子往自己这边拽的选手。下次量子领域三巨头争霸，脑中就浮现微软、谷歌、IBM 三方拔河的画面。",
+              "exampleEn": "With its latest chip announcement, AMD has emerged as a serious contender to challenge Nvidia's dominance in the AI accelerator market.",
+              "exampleCn": "凭借最新的芯片发布，AMD已跻身为挑战英伟达在AI加速器市场主导地位的有力竞争者。"
+            }
+          ]
+        },
+        {
+          "id": "20260617-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+          "headlineEn": "Anthropic Becomes First AI Startup to Join Frontier Carbon Removal Coalition",
+          "headlineCn": "Anthropic成为首家加入Frontier碳清除联盟的AI初创公司",
+          "summaryEn": "Anthropic has become the first artificial intelligence startup to join Frontier, a corporate coalition dedicated to funding carbon removal technologies. Originally launched by Stripe, Alphabet, Shopify, and McKinsey, the coalition recently announced $915 million in new pledges from incoming members. Unlike traditional carbon offsets, carbon removal directly extracts CO₂ from the atmosphere. Anthropic's membership signals a growing commitment among tech companies to address climate impact beyond standard renewable energy credits, potentially catalyzing wider AI industry participation in climate solutions.",
+          "summaryCn": "Anthropic近日成为首家加入Frontier联盟的AI初创企业。Frontier专门出资支持碳清除技术研发，由Stripe、Alphabet、Shopify等科技巨头联合发起。此次联盟新增认捐金额达9.15亿美元，显示出企业界对该领域的持续重视。与传统碳抵消机制不同，碳清除技术旨在从大气中直接提取并封存CO₂，被视为实现净零排放目标的关键路径。Anthropic的加入表明AI行业开始正视自身气候责任，有望带动更多科技公司跟进投入。",
+          "excerpt": "Anthropic has become the first AI startup to join Frontier, the corporate coalition dedicated to funding carbon removal projects. The move came as Frontier announced $915 million in new pledges, signaling that the tech industry is increasingly willing to invest in technologies that pull CO₂ directly from the atmosphere.",
+          "vocab": [
+            {
+              "word": "coalition",
+              "pos": "n.",
+              "meaning": "联盟、联合体。指多方为共同目标临时结成的联合阵线。比 alliance 更强调利益驱动的临时性，比 union 更正式且不含劳工含义。在ESG和气候报道中高频出现，值得重点掌握",
+              "etymology": "来自拉丁语 coalescere（共同生长），由 co-（共同）和 alescere（生长）构成，17世纪经由法语进入英语，最初指政治上的临时联合执政，后逐渐扩展至商业与社会领域",
+              "morphology": "co-（共同）+ -alition（源自拉丁语 alescere，生长）。同前缀扩展词：co-found（共同创立）、co-invest（联合投资）、collaborate（协作）。掌握 co- 可快速理解一系列合作类词汇",
+              "mnemonic": "拆解：co（共同）+ ali（联手）+ tion（名词后缀）→「共同联手」。想象一群公司负责人把手叠在一起宣誓结盟，就是 coalition 的画面",
+              "exampleEn": "A coalition of tech giants and environmental nonprofits pledged $2 billion to accelerate sustainable battery research.",
+              "exampleCn": "一个由科技巨头和环保非营利组织组成的联盟承诺投入20亿美元，以加速可持续电池研究。"
+            },
+            {
+              "word": "pledge",
+              "pos": "n. / v.",
+              "meaning": "正式承诺、认捐。作名词指「认捐金额」，作动词指「正式宣布将提供资金」。在ESG和慈善报道中极高频，比 promise 更正式、更具公开约束力，常与具体金额搭配（pledge $X million）。注意区分 pledge（公开承诺）与 commit（内部决策）",
+              "etymology": "来自古法语 plege（担保人、抵押物），源自法兰克语 *plegan（承担责任），13世纪进入英语，原指将财产抵押以作担保，后引申为庄严的道义承诺",
+              "morphology": "无明显词缀，为独立词根词。常见派生词：pledger（承诺方）、pledgee（受诺方），以及复合用法 pledge drive（募捐活动）、pledge card（认捐卡）",
+              "mnemonic": "pledge 发音近似「撇了个誓」→ 在公众面前「撇出支票」认捐，既是金钱承诺也是声誉抵押。记住：pledge 的庄重程度介于 promise 和 contract 之间",
+              "exampleEn": "The Fortune 500 company pledged $500 million over five years to fund green infrastructure projects across Southeast Asia.",
+              "exampleCn": "这家财富500强公司承诺在五年内拨款5亿美元，用于资助东南亚各地的绿色基础设施项目。"
+            },
+            {
+              "word": "catalyze",
+              "pos": "v.",
+              "meaning": "催化、推动加速。借自化学术语，在商业语境中指某一事件像催化剂一样显著加速其他变化。比 trigger（触发）更强调持续的乘数效应，比 initiate（启动）更突出推动力而非起点，是科技投资报道的高频隐喻动词",
+              "etymology": "来自希腊语 katalyein（溶解、松开），由 kata-（向下、彻底）和 lyein（松开、分解）组成。19世纪化学家用其命名催化反应，20世纪起引申进入商业和社会科学语境",
+              "morphology": "cata-（向下、彻底）+ -lyze（分解、作用）。同词根扩展词：analyze（分析，an-+lyze）、paralyze（使瘫痪，para-+lyze）、electrolysis（电解）。掌握 -lyze 词根可触类旁通",
+              "mnemonic": "想象催化剂像运动员「猛地向下冲（kata）」把反应「打开（lyze）」，让原本缓慢的进程飞速运转。商业语境：一笔大额投资 catalyzes 整个行业跟进",
+              "exampleEn": "Anthropic's decision to join the coalition is expected to catalyze other AI companies to make similar climate commitments.",
+              "exampleCn": "Anthropic加入该联盟的决定预计将催化其他AI公司做出类似的气候承诺。"
+            },
+            {
+              "word": "sequester",
+              "pos": "v.",
+              "meaning": "封存、隔离（尤指碳封存）。在气候科技语境中特指将大气中的CO₂提取并永久储存的过程，是碳清除（carbon removal）的核心动作词。注意：该词在法律语境中另有「查封资产」之意，需据语境判断，两种用法差异极大",
+              "etymology": "来自拉丁语 sequestrare（委托第三方保管、隔离），源自 sequester（中间人、受托人）。15世纪以法律术语进入英语，指将争议财产委托第三方保管；气候科技兴起后引申为将碳「隔离保管」",
+              "morphology": "se-（分离）+ questor（保管者，源自 quaero 寻找）→「分开寻找并保管」。派生词：sequestration（封存；资产扣押）、sequestered（被隔离的）、carbon sequestration（碳封存）",
+              "mnemonic": "se（分开）+ quest（探寻）→ 把CO₂「找出来、分开锁起来」。想象科学家像侦探（quest）把「逃窜的碳分子」（se=分离）一一抓获关押，就是碳封存",
+              "exampleEn": "The startup's direct air capture technology can sequester up to one metric tonne of CO₂ per day at a cost under $500.",
+              "exampleCn": "这家初创公司的直接空气捕获技术每天可封存多达一公吨二氧化碳，成本低于500美元。"
+            },
+            {
+              "word": "net zero",
+              "pos": "phrase",
+              "meaning": "净零排放。指温室气体排放量与碳清除量完全抵消，余额归零。ESG投资和气候政策语境的核心术语。注意与 carbon neutral（碳中和）的微妙差异：net zero 通常须符合更严格的科学标准（如 Science Based Targets），是当前企业气候承诺中最权威的目标表述",
+              "etymology": "短语/复合词，无独立词源。net 源自古法语 net（清洁、纯粹、去除杂质后的余额），zero 源自阿拉伯语 sifr（空、虚无），经由意大利语进入英语。两词在气候政策语境中结合，形成「排放余额为零」之意",
+              "morphology": "net（净额，即去除抵消后的余量）+ zero（零）。常见搭配：net-zero target（净零目标）、net-zero pathway（净零路径）、achieve net zero（实现净零）、net-zero by 2050（2050年前实现净零）",
+              "mnemonic": "想象一杆天平：左盘放碳排放，右盘放碳清除。net zero 就是天平完全水平、指针归零的那一刻——净余额为零。与 gross zero（完全不排放，几乎不可能实现）对比记忆效果更佳",
+              "exampleEn": "Frontier's advance purchase model is designed to help corporations reach net zero faster by scaling up carbon removal supply.",
+              "exampleCn": "Frontier的预购承诺模式旨在通过扩大碳清除供给规模，帮助企业更快实现净零排放目标。"
+            }
+          ]
+        },
+        {
+          "id": "20260617-3",
+          "category": "biz",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/the-motley-fool-promo-code/",
+          "headlineEn": "Motley Fool Offers $200 Off Stock Advisor Subscription for June 2026",
+          "headlineCn": "「傻瓜理财」六月大促：订阅股票顾问立省200美元",
+          "summaryEn": "The Motley Fool, one of America's most recognized retail investment advisory platforms, is offering a $200 discount on its flagship Stock Advisor membership for June 2026. Stock Advisor has historically delivered above-market returns by recommending individual stocks to subscribers. The promotion also includes Epic Bundle deals. For everyday investors looking to scale their portfolios at a lower cost, these verified promo codes lower the barrier to accessing professional-grade financial guidance.",
+          "summaryCn": "知名投资咨询平台The Motley Fool在2026年6月推出促销活动，旗舰产品「股票顾问」（Stock Advisor）订阅可享200美元优惠。该服务以历史上跑赢大盘的选股建议闻名，深受寻求专业指导的散户投资者青睐。此次促销还涵盖「史诗捆绑套餐」等打包优惠，进一步降低了普通投资者获取高端理财建议的门槛。",
+          "excerpt": "The Motley Fool is offering verified promo codes and membership discounts to help investors scale their portfolios for less. Its flagship Stock Advisor service — known for beating the market over the long term — is now available at $200 off, with additional savings through the Epic Bundle deal.",
+          "vocab": [
+            {
+              "word": "affiliate",
+              "pos": "n. / adj.",
+              "meaning": "联属合作方；附属机构。在数字营销中特指「通过推广他人产品/服务赚取佣金的合作伙伴」，比 partner 更强调分成分润的商业模式。促销码（promo code）往往正是 affiliate 营销的典型产物，理解此词是读懂互联网商业变现逻辑的关键。",
+              "etymology": "源自拉丁语 affiliare，由 ad-（向、到）加 filius（儿子）构成，原义「收为义子、正式归入家族」，后引申为商业上的正式隶属或合作关系，17世纪进入英语。",
+              "morphology": "af-（ad- 的同化变体，表「向」）+ fili-（词根，儿子/后代）+ -ate（动词/形容词化后缀）。同族词：filial（子女的）、affiliation（隶属关系）、affiliated（附属的）。",
+              "mnemonic": "联想「a + fili（儿子）」：品牌认了个「儿子」一起卖货，儿子帮拉来客户、按单分佣金，这就是 affiliate marketing。记住「认儿子→分家产」的画面，affiliate 永不忘。",
+              "exampleEn": "The fintech startup built its early user base almost entirely through affiliate partnerships with personal finance blogs.",
+              "exampleCn": "这家金融科技初创公司几乎完全通过与个人理财博客建立联属合作来积累早期用户群。"
+            },
+            {
+              "word": "bundle",
+              "pos": "n. / v.",
+              "meaning": "捆绑套餐；打包销售。商业中特指将多个产品/服务合并以低于单独购买总价出售，比 package 更强调「原本分开定价、现在策略性合并」的意图。其反操作 unbundle（拆包）是金融科技公司颠覆传统银行的常见手法，两词都值得掌握。",
+              "etymology": "源自中古荷兰语 bondel（捆、束），与古英语 bindan（捆绑）同源，原指物理上绑在一起的东西，后引申为商业上的「打包组合销售」，16世纪进入英语。",
+              "morphology": "词根与 bind（绑）同源，核心意象是「绑在一起」。派生词：bundled（捆绑的）、bundling（捆绑定价策略）、unbundle（拆解/分拆）。unbundle 在金融科技语境中极为常见，表示将银行综合服务拆分为独立产品。",
+              "mnemonic": "bundle 读音近似「绑的」——想象超市收银台把几个商品用绳子捆在一起打折卖，就是 bundle deal。记住「bundle = 绑在一起 = 打包优惠」，顺带记住 unbundle 是把它再拆开。",
+              "exampleEn": "Microsoft bundles Teams with its Office 365 subscription, making it harder for standalone collaboration tools to compete on price.",
+              "exampleCn": "微软将Teams捆绑进Office 365订阅套餐，使独立协作工具更难在价格上与之竞争。"
+            },
+            {
+              "word": "redemption",
+              "pos": "n.",
+              "meaning": "兑换；赎回。营销语境中指「兑换优惠码/积分/礼券」，金融语境中指「赎回债券/基金份额」，掌握此词可跨场景使用。比 exchange 更正式，且专属于「凭资格换回所得权益」的语义，是财经英语的双料高频词。",
+              "etymology": "源自拉丁语 redemptio，由 re-（回）加 emere（购买）构成，原义「把某物买回来」。宗教中引申为「赎罪/救赎」，商业中演变为「兑现权益」，金融中指「赎回资产」。",
+              "morphology": "re-（回、再）+ -dempt-（来自拉丁语 emere，购买）+ -ion（名词后缀）。同族词：redeem（兑换/赎回）、redeemable（可兑换的）、irredeemable（不可赎回的/不可救药的）。",
+              "mnemonic": "re（回）+ deem（想象成「买」）→「买回来」。就像用积分换机票，是在「买回」你过去消费积累的权益。想象终于攒够里程去 redeem 一张免费机票，那种「收回」的满足感正是 redemption。",
+              "exampleEn": "The coupon's redemption rate dropped sharply after the company reduced the discount from 30% to 10%.",
+              "exampleCn": "优惠券的兑换率在公司将折扣从30%削减至10%后大幅下滑。"
+            },
+            {
+              "word": "compound",
+              "pos": "v. / adj.",
+              "meaning": "（使）复利增长；使（问题）叠加加剧。投资语境中 compound interest（复利）是最核心的理财概念——收益再生收益，是长期投资的底层逻辑。日常也用于「compound a problem（使问题雪上加霜）」。一词通吃投资与风险两大场景，值得深记。",
+              "etymology": "源自拉丁语 componere，由 com-（共同、一起）加 ponere（放置）构成，原义「把东西放在一起」，引申为「复合、叠加」，再演变为数学/金融上的「复利计算」。",
+              "morphology": "com-（共同）+ pound（来自 ponere，放置）。同前缀同词根词：compose（构成）、component（组成部分）、composite（复合的）。派生词：compounding（复利效应）、compounded（复合的）、compound interest（复利）。",
+              "mnemonic": "巴菲特最爱的词就是 compounding——想象一个雪球从山顶滚下，每圈都把新雪「加在一起」往前滚，越滚越大。com（一起）+ pound（砸）= 钱叠着钱砸出更多钱，就是复利魔法。",
+              "exampleEn": "Investors who reinvest dividends allow their returns to compound over decades, dramatically outpacing simple interest strategies.",
+              "exampleCn": "将股息持续再投资的投资者可让收益在数十年间复利增长，表现远超单利策略。"
+            },
+            {
+              "word": "vet",
+              "pos": "v.",
+              "meaning": "严格审查核实；对（人/信息/来源）进行尽职调查。比 check 或 verify 更正式，暗含「全面、深入」的审查意味，常用于招聘背调、媒体核实信源、投资尽调等高风险决策场景。文中「verified promo codes」背后的审查流程正是 vetting。",
+              "etymology": "19世纪英国军队对军马进行医学检查时，由 veterinarian（兽医）缩写而来。兽医对马匹做全面体检以确认适役，后来「vet」延伸为对任何对象进行彻底检查审核，20世纪广泛进入商业英语。",
+              "morphology": "veterinarian 的缩写形式，无可拆解的前缀/词根结构。派生词：vetted（经过审查的，如「a vetted source」）、vetting（审查流程，如「background vetting」）。近义辨析：verify 侧重核实具体事实，vet 侧重系统性的全方位尽职调查。",
+              "mnemonic": "兽医（vet）检查一匹军马，从牙口到蹄子、从眼神到背脊，360°全面不放过——这就是 vetting 的精髓。HR 对候选人做「背调」= vet candidates。记住：vet 就是用兽医的严谨态度检查一切。",
+              "exampleEn": "Before publishing the investigation, the editorial team spent two weeks vetting every source and cross-checking financial documents.",
+              "exampleCn": "在发表这篇调查报道之前，编辑团队花了两周时间严格审查每一个信源并交叉核实财务文件。"
+            }
+          ]
+        },
+        {
+          "id": "20260617-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/17/allbirds-bird-ai-smartbird-ceo.html",
+          "headlineEn": "Allbirds Rebrands as NewBird AI, Ditches Shoes for Compute Infrastructure",
+          "headlineCn": "Allbirds更名NewBird AI，放弃制鞋转型AI算力基础设施",
+          "summaryEn": "Allbirds, once celebrated for its sustainable wool sneakers, is undergoing a dramatic reinvention. The company rebranded as NewBird AI in April and announced it would exit the footwear business entirely to focus on AI compute infrastructure. A new CEO hire has reinforced the strategic shift, sending the stock soaring. The move reflects a broader trend of legacy consumer brands attempting high-risk pivots to ride the AI investment wave, though analysts remain divided on whether the reinvention carries long-term credibility.",
+          "summaryCn": "曾以可持续羊毛运动鞋著称的Allbirds，正经历一场戏剧性的自我再造。公司于四月更名为NewBird AI，宣布彻底退出鞋履业务，转而专注于AI算力基础设施。新任CEO的加入进一步强化了这一战略转型信号，推动股价大幅飙升。此举折射出更广泛的趋势——部分传统消费品牌正孤注一掷，试图借助AI投资热潮完成高风险转型，但分析师对这场「再造」能否具备长期可信度仍存分歧。",
+          "excerpt": "Allbirds, once known for its wool sneakers, has rebranded as NewBird AI and said it would trade shoes for AI compute infrastructure. The appointment of a new CEO sent the stock soaring, as investors bet on the company's dramatic reinvention.",
+          "vocab": [
+            {
+              "word": "soaring",
+              "pos": "adj. / v.",
+              "meaning": "（价格、股价）急剧飙升。比 rising 或 increasing 语气强烈得多，专用于描述速度快、幅度大的上涨，财经报道高频词，暗含「远超预期」的惊喜感。搭配：stock soaring、profits soaring、demand soaring。",
+              "etymology": "源自古法语 essorer（展翅高飞），进一步追溯至拉丁语 ex aura（在空气中）。14世纪传入英语，原指鸟类高飞，17世纪后引申至价格、情感等抽象事物的急速上升。",
+              "morphology": "soar（词根，高飞）+ -ing（现在分词/形容词后缀）。派生族：soar（v.）→ soaring（adj./v.-ing）→ soared（v. 过去式）。英式俚语 soaraway 亦表「股价飞涨」，见于英国财经媒体。",
+              "mnemonic": "想象一只老鹰展翅 soaring 直冲云霄——股价 soaring 就是图表上那根直插天际的蜡烛线。对比 boring（无聊、平的）：boring 是水平线，soaring 是向上冲的箭头，形状上恰好相反。",
+              "exampleEn": "After the earnings beat, the company's shares went soaring past their 52-week high within minutes of the market open.",
+              "exampleCn": "财报超预期后，该公司股价在开盘数分钟内便飙升突破52周高点。"
+            },
+            {
+              "word": "pivot",
+              "pos": "n. / v.",
+              "meaning": "（战略性）转型；改变核心业务方向。创投圈核心词汇，指公司在保留部分现有资源的前提下将业务方向大幅调整。比 shift 更强调「以某个支点为轴心有意为之地转动」，暗含「主动求变而非被动失败」。常见搭配：AI pivot、strategic pivot、pivot to SaaS。",
+              "etymology": "源自法语 pivot（旋转轴、枢纽），17世纪传入英语，最初指机械装置中的转轴销。20世纪初用于军事战术，21世纪创业文化兴起后（尤其是《精益创业》一书）成为「战略转向」的标准术语。",
+              "morphology": "pivot 本身即词根，无前后缀。派生词：pivot（v./n.）→ pivoting（v.-ing，进行时常用）→ pivotal（adj. 关键的、枢纽性的）。注意区分：pivotal 侧重「至关重要」，作动词的 pivot 才是「转型」。",
+              "mnemonic": "篮球中的「转身步」叫 pivot step——一只脚钉在地上不动（固定资产/核心团队），另一只脚转方向找机会。公司 pivot 也如此：保留某个支撑点，业务大转弯。Allbirds 的「固定脚」是公司架构，转走的是鞋子换成了算力。",
+              "exampleEn": "Facing slowing growth in hardware sales, the startup pivoted to a software-as-a-service model and doubled its annual recurring revenue within a year.",
+              "exampleCn": "面对硬件销售增速放缓，该初创公司转型为SaaS模式，年度经常性收入在一年内翻了一番。"
+            },
+            {
+              "word": "compute",
+              "pos": "n.（不可数）",
+              "meaning": "算力；计算资源。这是AI时代最值得掌握的新兴用法——将「计算能力」视为可买卖、租赁、囤积的商品名词。比 computing power 更精炼，是数据中心和AI投资领域的核心行话。听到有人说「we need more compute」，立刻能判断他是圈内人。",
+              "etymology": "源自拉丁语 computare（共同计算），由 com-（共同）+ putare（修剪、计算、考虑）合成，13世纪传入英语，原义「计算、估算」。21世纪随AI算力成为稀缺资源，演变为专指「计算资源本身」的不可数名词。",
+              "morphology": "com-（共同，拉丁前缀）+ put-（词根，计算/考虑）+ -e（词尾）。同词根族：computer（计算机）、computation（计算过程）、impute（归咎）、dispute（争议，字面「各自计算」）、reputation（声誉，字面「反复计算/评估」）。",
+              "mnemonic": "把 compute 想象成「一桶原油」——AI时代算力就是新石油，可以储备、交易、争抢。说「I need compute」就像说「我需要油」，是AI公司老板每天挂在嘴边的话。Allbirds 转型卖的正是这桶「油」。",
+              "exampleEn": "Cloud providers are racing to secure enough compute to meet the surging demand from enterprises training large language models.",
+              "exampleCn": "云服务商正竞相抢购足够的算力，以满足企业训练大型语言模型的激增需求。"
+            },
+            {
+              "word": "legacy",
+              "pos": "adj. / n.",
+              "meaning": "（形容词）遗留的、旧有的——商业语境中特指「曾经辉煌但正在被新技术淘汰、如今成为包袱的旧业务或旧系统」。比 old 或 traditional 多了一层「时代已经抛弃它」的隐喻张力。高频搭配：legacy business（旧有业务）、legacy system（遗留系统）、legacy brand（传统品牌）。",
+              "etymology": "源自中世纪拉丁语 legatum（遗嘱中的遗赠物），由 legare（委托、遗赠）派生。14世纪进入英语，原指「遗产」，20世纪IT领域首先引申为「遗留系统」，后扩展至商业语境中所有「被时代甩在身后的旧事物」。",
+              "morphology": "leg-（法律/委托词根，拉丁 legare）+ -acy（名词后缀，表状态/性质）。同词根族：legal（合法的）、delegate（委托、代表）、colleague（同事，字面「共同被选出的人」）、relegate（降级，字面「再次委托/遣送」）。",
+              "mnemonic": "Legacy 原是「祖先留下的遗产」——有时遗产是财富，有时是负担。Allbirds 的鞋子业务就成了它的 legacy business：曾经是骄傲，现在是拖累，必须甩掉才能转型。想象老祖宗留下一栋破旧老宅，你想卖掉它去买比特币。",
+              "exampleEn": "The bank's costly legacy systems made it nearly impossible to compete with fintech startups offering real-time payment features.",
+              "exampleCn": "该银行高昂的遗留系统使其几乎无法与提供实时支付功能的金融科技初创公司竞争。"
+            },
+            {
+              "word": "turnaround",
+              "pos": "n.",
+              "meaning": "（企业）逆转；转危为安。指一家陷入困境的公司通过战略调整实现业绩或股价的显著反转。与 recovery（复苏，侧重缓慢恢复）不同，turnaround 强调快速、大幅的「翻转」，常指管理层主导的主动救援行动。投资分析和财经报道核心词，常见搭配：engineer a turnaround、turnaround story、turnaround CEO。",
+              "etymology": "由 turn（转向，古英语 tyrnan，源自拉丁 tornare「用车床旋转」）+ around（方位副词）复合而成，字面义「转一圈」。19世纪末进入商业语境，20世纪后成为「企业扭亏为盈」的专业术语，同时也用于飞机「周转时间」等场景。",
+              "morphology": "turn（动词，转）+ around（方位词）= 复合名词（合写）。类似「动词+方位词」构成商业概念的词族：breakthrough（突破）、setback（挫折）、takeoff（腾飞）、shakeout（洗牌）——英语商业词汇的高频构词模式。",
+              "mnemonic": "把公司比作一艘快沉的船——turnaround 就是新船长猛打方向舵，让船「掉头」躲开冰山。Allbirds 的新CEO正是被请来做这个 turnaround 的「救火船长」，而股价飙升就是市场对这次「掉头」的第一声欢呼。",
+              "exampleEn": "The incoming CEO was hired specifically to engineer a turnaround after three consecutive quarters of declining revenues and shrinking margins.",
+              "exampleCn": "新任CEO的引进正是为了在连续三个季度营收下滑、利润率收窄后主导一场企业逆转。"
+            }
+          ]
+        },
+        {
+          "id": "20260617-5",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/warsh-launches-his-push-to-change-how-the-fed-operates-3ddd9b90?mod=mw_rss_topstories",
+          "headlineEn": "New Fed Chair Kevin Warsh Launches Five Task Forces to Reshape Central Bank Operations",
+          "headlineCn": "新美联储主席沃什成立五个工作组，推动央行运营改革",
+          "summaryEn": "Kevin Warsh, the newly appointed Federal Reserve chair, has launched five task forces to reform how America's central bank functions. These groups will examine the Fed's communication strategies, inflation-targeting approaches, and other core operational policies. The move signals Warsh's intent to bring fresh thinking to an institution often criticized for opacity. Markets are closely watching, as shifts in Fed communication can significantly affect interest rate expectations and global asset prices.",
+          "summaryCn": "新任美联储主席凯文·沃什宣布成立五个工作小组，旨在从根本上改革美国央行的运作模式。这些工作组将聚焦于美联储的沟通策略、通货膨胀应对框架以及其他核心政策领域。此举标志着沃什希望为这一长期被批评缺乏透明度的机构注入新思维。市场密切关注此动向，因为美联储沟通方式的任何变化都可能显著影响全球利率预期与资产价格走势。",
+          "excerpt": "Kevin Warsh, the new Federal Reserve chair, rolled out five task forces focused on the central bank's communications strategy, inflation frameworks, and broader operational policies — a clear signal that he plans to shake up how the Fed engages with the public and sets monetary policy.",
+          "vocab": [
+            {
+              "word": "task force",
+              "pos": "n. / phrase",
+              "meaning": "工作组；特遣队。商业政策语境中指为解决特定问题而临时组建的跨职能团队。比「committee」更强调任务导向和时效性，完成目标后即解散，是政府文件和商业新闻中的高频词",
+              "etymology": "源自二战军事术语。「task」来自古北法语 tasque（指定的工作量），「force」来自拉丁语 fortia（力量）。二战后被移植到商业与政府语境，指为完成特定使命临时组建的行动队",
+              "morphology": "复合名词：task（任务）+ force（力量/团队）。同类复合词：workforce（劳动力）、sales force（销售团队）、task-based（基于任务的）、joint task force（联合特遣队）",
+              "mnemonic": "想象一支精锐「特攻队」(force)被派去完成特定任务(task)——完成即解散，不像常规委员会那样永久存在。好莱坞电影里的特遣队就是 task force",
+              "exampleEn": "The company assembled a cross-functional task force to investigate the data breach and recommend security upgrades within 30 days.",
+              "exampleCn": "公司组建了一支跨职能工作组，负责在30天内调查数据泄露事件并提出安全升级建议。"
+            },
+            {
+              "word": "forward guidance",
+              "pos": "phrase / n.",
+              "meaning": "前瞻性指引。特指央行向市场预告未来货币政策走向的沟通工具。学这个词是因为它是读懂美联储声明的核心词汇，且「forward」在此有特殊的时间含义而非空间方向",
+              "etymology": "「forward」来自古英语 foreweard（朝前方的）；「guidance」来自古法语 guider（引导）加名词后缀 -ance。作为货币政策术语，forward guidance 于2003年由美联储正式引入，2008年金融危机后被全球央行广泛采用",
+              "morphology": "forward（形容词，向前的）+ guidance（名词：guide + -ance）。相关词：guide（引导）、misguide（误导）、guided（受指引的）；forward-looking（前瞻性的）",
+              "mnemonic": "央行站在现在，手指「向前方」(forward)发出「指引」(guidance)——就像导游提前告诉你「下一站我们去故宫」，让市场可以提前做好准备，减少不确定性",
+              "exampleEn": "The central bank's forward guidance suggested interest rates would remain elevated for at least two more quarters, causing bond yields to rise sharply.",
+              "exampleCn": "央行的前瞻性指引暗示利率至少将在未来两个季度内保持高位，导致债券收益率大幅攀升。"
+            },
+            {
+              "word": "transparency",
+              "pos": "n.",
+              "meaning": "透明度；信息公开性。在金融和政策语境中特指机构主动披露决策依据的程度。与「openness」相比，transparency 更侧重「可被外部核查」的制度性公开，是公司治理和央行改革讨论中的核心议题",
+              "etymology": "来自中世纪拉丁语 transparere，其中 trans- 意为「穿透」，parere 意为「出现、显现」。原义为光学上的「透明」，17世纪后逐渐引申为组织信息公开的隐喻，20世纪后成为治理改革的标准词汇",
+              "morphology": "trans-（穿越/透过）+ parent（来自拉丁 parere，出现）+ -cy（名词后缀）。同前缀词：transfer（转移）、transform（转变）、transact（交易）；形容词：transparent，副词：transparently",
+              "mnemonic": "想象一面「透明」(transparent)玻璃——透过它什么都能看见，没有秘密。央行提高 transparency，就是把原本不透明的黑盒决策换成玻璃箱操作",
+              "exampleEn": "Critics argue that greater transparency in the Fed's decision-making process would help markets price in policy changes more accurately.",
+              "exampleCn": "批评者认为，提高美联储决策过程的透明度，将有助于市场更准确地对政策变化进行定价。"
+            },
+            {
+              "word": "tenure",
+              "pos": "n.",
+              "meaning": "任期；任职期间。比「term」更正式，多用于描述高管、学者、政府官员的任职。财经报道中描述 CEO、央行主席任期时，tenure 比 term 更地道，且常暗含「对该职位的持有权」这一层含义",
+              "etymology": "来自古法语 tenir（持有）和拉丁语 tenere（持有、保持）。原义指封建制度下土地的持有权，后引申为任何职位的「持有/占据」期间",
+              "morphology": "来自拉丁词根 ten-/tin-（持有）。同词根词：contain（包含）、maintain（维持）、retain（保留）、obtain（获得）；形容词形式：tenured（有终身职位的）",
+              "mnemonic": "ten-（持有）+ -ure（名词后缀）= 持续「拥有」某个职位的时间段。想象大学教授获得「终身教职」(tenure)——一旦拥有就长期持有，很难被开除",
+              "exampleEn": "During his tenure as CFO, the company's revenue grew by 40%, driven largely by aggressive expansion into emerging markets.",
+              "exampleCn": "在其担任首席财务官期间，公司收入增长了40%，主要得益于对新兴市场的积极扩张。"
+            },
+            {
+              "word": "monetary",
+              "pos": "adj.",
+              "meaning": "货币的；与货币体系相关的。专用于 monetary policy（货币政策）、monetary tightening（货币紧缩）等固定搭配。比「financial」范围更窄，专指货币本身及其管理，是阅读经济新闻的必备核心词",
+              "etymology": "来自拉丁语 monetarius（与铸币有关的），源自 Moneta——罗马神话中朱诺女神的别称，因古罗马铸币厂设在朱诺神庙旁而得名，英语 money 也由此而来",
+              "morphology": "monet-（来自 Moneta，铸币）+ -ary（形容词后缀，「与……相关的」）。相关词：money（金钱）、mint（铸币厂）、monetize（货币化/变现）、monetization（货币化过程）",
+              "mnemonic": "记住「Moneta」是古罗马朱诺女神庙旁的铸币厂——money、mint、monetary 三词同根，都和「铸钱」有关，一口气记住三个！",
+              "exampleEn": "The central bank's monetary tightening cycle has raised borrowing costs for businesses across the country, slowing investment and hiring.",
+              "exampleCn": "央行的货币紧缩周期提高了全国企业的借贷成本，拖慢了投资和招聘步伐。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-16": {
       "label": "6月16日 (周二)",
       "stories": [
@@ -8878,326 +9198,6 @@
               "etymology": "源自古英语「on middan」，意为「在正中间」；其中「mid」与拉丁语「medius」（中间的）同源。中古英语先缩写为「amidst」，后进一步简化为「amid」。核心义始终是「处于……的包围之中」。",
               "morphology": "a-（古英语介词前缀，表「在……中」）＋ mid（中间），结构类似 ashore（在岸上）、afloat（漂浮中）。同根词：middle、midway；拉丁同源：medium、mediate、Mediterranean（地中海，即「海的中间」）。",
               "mnemonic": "amid＝a＋mid（中间）——它永远把自己夹在名词短语「中间」：「amid chaos」「amid uncertainty」。记住一条铁律：它身后只接名词，绝不接从句，就像一个永远待在队伍里、从不单飞的人。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-17": {
-      "label": "5月17日 (周日)",
-      "stories": [
-        {
-          "id": "20260517-1",
-          "category": "tech",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/tesla-reveals-new-details-about-robotaxi-crashes-and-the-humans-involved/",
-          "headlineEn": "Tesla Reveals New Details About Robotaxi Crashes—and the Humans Involved",
-          "headlineCn": "特斯拉披露机器人出租车碰撞细节：远程操作员系事故根源",
-          "summaryEn": "Tesla has disclosed new details about crashes involving its robotaxi fleet, revealing that remote human operators—not the onboard AI—were responsible for two incidents. Operators slowly steered the autonomous vehicles into a metal fence and a construction barricade. The disclosure raises critical questions about human oversight in autonomous driving systems and highlights the unresolved liability issues that arise when humans and AI jointly share vehicle control on public roads.",
-          "summaryCn": "特斯拉公开了机器人出租车碰撞事故的新细节，披露两起事故均由远程人类操作员（而非车载AI）负责。操作员以较低速度将车辆分别驶入金属围栏和施工路障。此次披露引发外界对自动驾驶系统中人类监督机制的质疑，也凸显了人与AI共同控制车辆时责任归属尚未厘清的核心困境，对整个自动驾驶行业的监管走向具有重要影响。",
-          "excerpt": "Tesla confirmed that remote operators—not the vehicle's AI system—were at the controls during two minor crashes, slowly guiding the robotaxis into a metal fence and a construction barricade. The disclosure blurs the line between human and machine responsibility in autonomous driving.",
-          "vocab": [
-            {
-              "word": "remote operator",
-              "pos": "phrase",
-              "meaning": "远程操作员。自动驾驶行业专用术语，指不在车内、通过网络远程介入并控制车辆的人员。区别于「driver」（在场驾驶员），该词暗示一种新型人机分工模式，是理解自动驾驶责任归属争议的核心词汇。",
-              "exampleEn": "When the robotaxi encountered an unexpected road closure, a remote operator took over to navigate it safely to the nearest pickup zone.",
-              "exampleCn": "当机器人出租车遭遇意外封路时，远程操作员接管控制，将其安全引导至最近的上客区。",
-              "etymology": "复合词/短语，无独立词源。remote 源自拉丁语 remotus（远离），operator 源自 operari（劳作），合指「远处操控车辆之人」，是自动驾驶兴起后形成的行业专用复合术语。",
-              "morphology": "re-（向后）+ mote（移动，源自拉丁语 movere）构成 remote；operat-（操作）+ -or（施动者后缀）构成 operator。同族词：operation（操作）、operative（特工/有效的）、remotely（远程地）。",
-              "mnemonic": "想象一人坐在千里外的控制室，戴耳机盯着屏幕，手握操纵杆遥控街上跑的无人车——这个「隔空开车的人」就是 remote operator。"
-            },
-            {
-              "word": "disclose",
-              "pos": "v.",
-              "meaning": "披露、公开（此前未知的信息）。比「reveal」更正式，常见于法律、财务或监管场景，带有「依规定或压力而主动公开」的含义，是财经报道的高频动词。常见搭配：disclose details / disclose findings / disclose to regulators。",
-              "exampleEn": "The automaker was required to disclose all safety-related incidents to federal regulators within five business days.",
-              "exampleCn": "该汽车制造商被要求在五个工作日内向联邦监管机构披露所有安全相关事件。",
-              "etymology": "源自拉丁语 dis-（取消、分离）+ claudere（关闭），经古法语 desclore 传入英语，原义「打开紧闭之物」，后引申为「公开此前隐藏的信息」，现多见于法律与财经语境。",
-              "morphology": "dis-（否定前缀，表「取消」）+ close（关，源自拉丁语 claudere）。同族词：enclose（封入）、foreclose（取消赎回权）；名词派生形式：disclosure（正式披露文件）。",
-              "mnemonic": "dis（拆掉）+ close（关门）= 把关着的门拆开。想象律师猛地撬开保险柜铁门，里面机密文件全部曝光——这个「强行开门」的动作就是 disclose。"
-            },
-            {
-              "word": "autonomous",
-              "pos": "adj.",
-              "meaning": "自主的、自动决策的。在科技语境中专指无需人工干预、能独立判断的系统，如「autonomous vehicle」。比「automatic」（强调机械重复）更强调智能决策能力，是AI和科技报道的核心形容词，理解其语义边界有助于准确读懂行业新闻。",
-              "exampleEn": "The company's autonomous warehouse robots can reroute themselves in real time when they detect an obstacle on the floor.",
-              "exampleCn": "该公司的自主仓储机器人在检测到地面障碍物时，能够实时重新规划行进路线。",
-              "etymology": "源自希腊语 autos（自己）+ nomos（法律、规则），原指能「自我立法」的独立城邦，后演变为「无需外部指令、独立运作」，现代科技语境中专指可自主决策的智能系统。",
-              "morphology": "auto-（自我，希腊语）+ -nom-（法则，来自希腊语 nomos）+ -ous（形容词后缀）。同族词：autonomy（自治权）、autobiography（自传）、autonomously（副词形式）。",
-              "mnemonic": "auto = 自动，nomy = 法则，「自己给自己立规则」= autonomous。想象无人车在十字路口，旁边没有司机，它独自「裁判」该转弯还是直行——那就是 autonomous 系统。"
-            },
-            {
-              "word": "liability",
-              "pos": "n.",
-              "meaning": "法律责任、赔偿责任。商业和法律场景高频词，指一方因过失须承担的法律或经济后果。自动驾驶领域「责任归属」争议的核心词汇。常见搭配：product liability（产品责任）、shift liability（转移责任）、assume liability（承担责任）。",
-              "exampleEn": "The central legal question is whether liability for an autonomous vehicle crash falls on the manufacturer, the software developer, or the remote operator.",
-              "exampleCn": "核心法律问题在于，自动驾驶车辆事故的责任究竟由制造商、软件开发商还是远程操作员来承担。",
-              "etymology": "源自古法语 lier（捆绑），再溯至拉丁语 ligare（绑、连），-ability 为抽象名词后缀，原义「被捆绑的状态」，引申为「无法推脱、须承担的法律或财务后果」。",
-              "morphology": "liable（应负责任的，来自法语 lier「绑」）+ -ity（名词后缀）。同族词：rely（依靠，re-+ligare）、reliable（可靠的）、obligation（义务，同源 ob-+ligare）。",
-              "mnemonic": "ligare = 绳子捆绑。出了事故就像被一根法律绳子死死套住跑不掉，这就是 liability。记忆钩：词中含 liable，liable 谐音「赖不了」——赖不掉就是你的责任。"
-            },
-            {
-              "word": "barricade",
-              "pos": "n.",
-              "meaning": "路障、临时围挡。施工或交通管理场景中常见，与「barrier」（泛指任何屏障）相比，barricade 特指人为临时设置的阻拦物，常出现于事故报告和安全测试报道中。掌握此词有助于精准读懂自动驾驶、物流机器人等领域的英文技术报告。",
-              "exampleEn": "The self-driving shuttle failed to recognize the temporary barricade placed around the road repair zone and had to be manually stopped.",
-              "exampleCn": "这辆自动驾驶穿梭车未能识别道路维修区域周围的临时路障，不得不由人工紧急停车。",
-              "etymology": "源自法语 barricade，来自西班牙语 barricada，再溯至 barrica（酒桶），词根为拉丁语 barra（横木、栏杆）。16世纪巴黎暴乱中市民以酒桶堵路，由此得名并传入英语。",
-              "morphology": "barra（横木）+ -icade（法语名词/动作后缀），无典型英语前缀词根可拆。barricade 兼作动词（设路障）；近义辨析：barrier（泛指屏障）vs. barricade（临时人为设置的路障）。",
-              "mnemonic": "barricade ≈ barrel（桶）+ blockade（封锁）。想象1789年大革命，巴黎市民把街边酒桶滚出来堵路——「用桶筑成的封锁」就是 barricade，看到此词脑海中浮现滚桶路障即可。"
-            }
-          ]
-        },
-        {
-          "id": "20260517-2",
-          "category": "tech",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/tech-policy/2026/05/openai-feels-burned-by-apples-crappy-chatgpt-integration-insiders-say/",
-          "headlineEn": "OpenAI feels “burned” by Apple’s crappy ChatGPT integration, insiders say",
-          "headlineCn": "内部人士称苹果ChatGPT整合令OpenAI深感失望",
-          "summaryEn": "OpenAI is reportedly frustrated with how Apple has implemented its ChatGPT integration on iOS, with insiders saying the partnership has significantly underdelivered. Adding to the tension, a judge has ordered Apple to hand over internal messages about its secretive AI deal with OpenAI to Elon Musk's legal team. The case exposes friction between major tech players over AI partnerships and raises broader concerns about transparency in closed-door tech collaboration agreements.",
-          "summaryCn": "据内部人士透露，OpenAI对苹果在iOS设备上整合ChatGPT的方式深感不满，认为双方合作效果远未达到预期。与此同时，法院下令苹果公司向埃隆·马斯克的法律团队提交涉及这一秘密AI协议的内部通讯记录。此案揭示了科技巨头之间围绕AI合作日益加剧的摩擦，也令外界对大型科技公司闭门谈判的透明度产生更多质疑。",
-          "excerpt": "OpenAI is said to feel \"burned\" by Apple's underwhelming ChatGPT integration, with insiders describing the collaboration as falling well short of expectations. A court has since ordered Apple to disclose internal messages about the secretive deal to Elon Musk's legal representatives.",
-          "vocab": [
-            {
-              "word": "feel burned",
-              "pos": "phrase",
-              "meaning": "感到吃亏、被坑或深感失望。商业谈判中常用，比feel disappointed语气更强烈，带有「因信任他方而遭受损失」的隐含意味，常用于合作破裂或预期落空的场景。",
-              "exampleEn": "After the vendor repeatedly missed deadlines, the startup's CEO admitted the company felt burned by the partnership.",
-              "exampleCn": "在供应商屡次错过截止日期后，这家初创公司的CEO坦言公司在这段合作中深感受伤。",
-              "etymology": "复合短语，无独立词源。burn 源自古英语 beornan（燃烧），原义指火焰炙烤肌肤，后引申为心理层面「被坑害后的灼痛感」，feel burned 即感受到被人「烫了一下」的懊悔与损失。",
-              "morphology": "feel（感受）+ burned（burn 的过去分词）。burn 常见派生：burner（燃烧器）、burning（灼热的/迫切的）、burnout（精力耗竭）；短语扩展：get burned（被坑）、burn bridges（断绝关系）。",
-              "mnemonic": "想象你信任某人伸出手，对方却把烙铁压上去——那种「我真是太蠢了」的刺痛与懊悔，就是 feel burned 的感觉。合作失败后回望，心口那股灼热感，词义自然浮现。"
-            },
-            {
-              "word": "underdeliver",
-              "pos": "v.",
-              "meaning": "表现或交付低于承诺与预期。与overdeliver（超额交付）相对，是商业英语高频动词，常用于评估合作方、产品或季度业绩，比fall short of expectations更简洁专业。",
-              "exampleEn": "Analysts warned that the product launch could underdeliver if the supply chain issues were not resolved in time.",
-              "exampleCn": "分析师警告，如果供应链问题不能及时解决，此次产品发布可能难以达到预期效果。",
-              "etymology": "under- 源自古英语 under，表「不足、低于标准」；deliver 源自古法语 delivrer，拉丁语 de+liberare（彻底释放/交出）。两者结合，字面义为「交付量低于应有标准」，商业场景中指未能兑现承诺。",
-              "morphology": "under-（不足/低于）+ deliver（交付）。同前缀扩展：underperform（表现不佳）、underpromise（谨慎承诺）、underfund（资金不足）；反义词 overdeliver（超额交付）。",
-              "mnemonic": "老板期待你送来「整头牛」，你却只端上「一碗牛肉汤」。under = 量严重不足，deliver = 送达，画面一出，差距即是 underdeliver 的本质。"
-            },
-            {
-              "word": "secretive",
-              "pos": "adj.",
-              "meaning": "神秘的、刻意保密的。比secret（形容事物本身）更强调主体的「主动隐瞒」态度，常修饰谈判、交易或协议，带有一定负面含义，暗示缺乏透明度，是报道科技并购时的常见词。",
-              "exampleEn": "The two firms conducted secretive negotiations for months before announcing their merger to the public.",
-              "exampleCn": "两家公司在数月内秘密谈判，之后才向公众宣布合并消息。",
-              "etymology": "源自拉丁语 secretus（隔离的、私密的），由 secernere（筛分、分离）派生，原义为「被单独隔开的事物」。英语加入 -ive 后缀后，语义从「事物本身隐秘」转向「人主动隐瞒的倾向」。",
-              "morphology": "secret（秘密）+ -ive（形容词后缀，表「倾向于……」）。同族词：secretly（副词）、secretiveness（名词）；注意区分 secret（描述事物）与 secretive（描述人的态度，带负面色彩）。",
-              "mnemonic": "secret 是「一件秘密的事」，secretive 是「一个爱藏事的人」。记法：secretive 的人把自己整个裹进 secret 里，连动作都是藏着掖着——多出来的 -ive 就是那层不透明的外壳。"
-            },
-            {
-              "word": "hand over",
-              "pos": "phrasal v.",
-              "meaning": "移交（文件、数据、控制权等）。在法律和商业语境中极为常用，尤其指在法院命令或监管要求下提交证据或资料，比submit更口语化，比produce（法律术语）更易理解，是科技监管报道的高频短语。",
-              "exampleEn": "The regulator ordered the fintech company to hand over all transaction records from the past three years.",
-              "exampleCn": "监管机构命令这家金融科技公司移交过去三年的全部交易记录。",
-              "etymology": "复合短语，无独立词源。hand 源自古英语 hand（手），over 源自古英语 ofer（越过/跨越）。短语合义为「从己方手中越过界限移交给对方」，在法律与监管场景中沿用至今，强调主动且不可逆的转交动作。",
-              "morphology": "hand（名词兼动词，用手递出）+ over（副词小品词，表方向转移）。同类短语动词：turn over（移交/翻转）、sign over（签字转让）、pass over（转交）；名词形式：handover（交接，一词）。",
-              "mnemonic": "想象法庭上，法官一声令下，律师双手捧着文件夹，缓缓「越过桌面」递给对方。那个身体前倾、双手穿越空间界限的动作，就是 hand over——手（hand）越过（over）去了。"
-            },
-            {
-              "word": "integration",
-              "pos": "n.",
-              "meaning": "（产品与功能的）整合、集成。在科技商业语境中特指将某一服务嵌入另一平台的过程，是科技合作谈判的核心词汇，需与social integration（社会融合）等其他语境区分，搭配seamless、deep、native等形容词使用频率极高。",
-              "exampleEn": "The seamless integration of the payment API into the e-commerce platform boosted conversion rates by 15%.",
-              "exampleCn": "将支付API无缝整合至电商平台后，转化率提升了15%。",
-              "etymology": "源自拉丁语 integratio（更新、复原），词根 integer（完整的，字面义「未被触碰的」）= in-（非）+ tangere（触碰）。语义由「恢复完整」逐步演变为「将分散部分合并为一个有机整体」，科技语境中指功能嵌入与平台融合。",
-              "morphology": "in-（非）+ teg/tang（词根，触碰，源自 tangere）+ -ation（名词后缀）。同族词：integer（整数）、integrity（诚信/完整性）、integrate（动词）、disintegration（瓦解）——共享「完整」这一核心意象。",
-              "mnemonic": "把 integration 和 integrity（诚信）放在一起记：两者同根 integer（完整）。一个「没有裂缝的人」有 integrity；把「零散模块无缝拼合」叫 integration。记忆画面：一块毫无裂缝的完整石头。"
-            }
-          ]
-        },
-        {
-          "id": "20260517-3",
-          "category": "biz",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/gadgets/931274/rei-anniversary-sale-2026",
-          "headlineEn": "REI Anniversary Sale Offers Deep Discounts on Outdoor Gear and Camping Essentials",
-          "headlineCn": "REI周年庆大促启动：户外装备与露营必需品大幅折扣",
-          "summaryEn": "REI, one of America's most recognized outdoor retail cooperatives, has launched its annual Anniversary Sale — the retailer's largest promotional event of the year. The sale features significant discounts on camping essentials such as tents, sleeping pads, and stoves, making it a prime opportunity for outdoor enthusiasts to stock up before summer trips. The event also reflects sustained consumer interest in outdoor recreation, a sector that has seen strong growth in recent years.",
-          "summaryCn": "REI是美国知名的户外零售合作社，其一年一度的周年庆大促销现已启动，也是该零售商全年最大规模的促销活动。本次大促涵盖帐篷、睡垫、炉具等各类露营必备装备，折扣力度可观。对于有夏季出行计划的消费者而言，这是以优惠价格补充户外装备的绝佳时机，也折射出近年来户外休闲消费市场的持续升温。",
-          "excerpt": "REI's annual Anniversary Sale — the retailer's biggest of the year — has arrived, bringing deep discounts on outdoor essentials including tents, sleeping pads, and camping stoves. Whether you're gearing up for a weekend hike or a longer expedition, now is an ideal time to stock up on the gear you need at reduced prices.",
-          "vocab": [
-            {
-              "word": "stock up on",
-              "pos": "phrasal v.",
-              "meaning": "提前大量购买、囤积某物。比 'buy a lot of' 更地道，暗含'为未来需求而备货'的前瞻性。常见于零售、供应链和消费行为报道，与 'run out of（用完）'构成自然对应，是商业英语中描述消费者行为的高频表达。",
-              "exampleEn": "Many retailers advise customers to stock up on essentials before a major price increase takes effect.",
-              "exampleCn": "许多零售商建议消费者在大幅涨价生效前提前囤好日用必需品。",
-              "etymology": "复合短语，无独立词源。stock 源自古英语 stocc（树桩、储备），up 为方向副词，on 为介词，三词合用形成「针对某物补充库存」的固定搭配，语义重心在「提前备足」的预见性动作。",
-              "morphology": "stock（库存/储备）+ up（充满/补足）+ on（针对某物），结构类似 load up on、pile up on。stock 本身可派生：stockpile（囤积）、livestock（牲畜）、overstock（库存过剩），横向扩展覆盖供应链词汇。",
-              "mnemonic": "想象超市货架在台风前被人扫空，店员拼命把货物一箱箱「堆（stock）上去（up）」——画面中每一个疯狂推车的顾客都是在 stock up on 生活必需品。"
-            },
-            {
-              "word": "retailer",
-              "pos": "n.",
-              "meaning": "零售商，指直接面向终端消费者销售商品的企业。学习此词的价值在于厘清供应链层级：manufacturer（制造商）→ wholesaler（批发商）→ retailer（零售商）→ consumer（消费者），是商业报道的核心词汇，不可与 'seller' 混用。",
-              "exampleEn": "Major retailers like Walmart and Target are investing heavily in e-commerce to compete with online giants.",
-              "exampleCn": "沃尔玛、塔吉特等大型零售商正大力投入电商领域，以应对网络巨头的竞争。",
-              "etymology": "源自古法语 retailler，re-（再次）+ tailler（切割），原义「把大块商品切成小份出售」，14 世纪进入英语，语义从「切零出售」演变为「直接面向消费者的销售商」，切割意象至今保留在 detail（细节，切出的小块）中。",
-              "morphology": "retail（零售）+ -er（职业者后缀）。retail 由 re-（再）+ tail（切，同源于 tailor 裁缝、detail 细节）构成；同根扩展：tailor（裁缝）、detail（细节）、entail（蕴含）；-er 同类：wholesaler、supplier、manufacturer。",
-              "mnemonic": "供应链像一条鱼：制造商是鱼头，批发商是鱼身，retailer 是鱼「尾（tail）」——re + tail + er，链条末端把货物「再切小」卖给你的人，就是零售商。"
-            },
-            {
-              "word": "essentials",
-              "pos": "n. (plural)",
-              "meaning": "必备品、核心物资。单独使用 essential 是形容词，但复数名词 essentials 在商业和营销语境中极为常见，常见搭配如 'travel essentials''office essentials'，带有明确的品类定位意味，比 'necessities' 更具营销语气，是产品文案高频词。",
-              "exampleEn": "The startup repositioned its entire product line around home office essentials as remote work became the norm.",
-              "exampleCn": "随着远程办公成为常态，这家初创公司将全线产品重新定位于家庭办公必备品。",
-              "etymology": "源自拉丁语 essentia（本质、存在），由动词 esse（to be，存在）派生，原义「构成事物本质的属性」。中古英语经由法语引入，复数名词 essentials 在 17 世纪固化为「不可或缺之物」，商业语境中进一步演变为品类标签。",
-              "morphology": "词根 ess-/esse（存在）+ -ntial（形容词后缀）+ -s（名词复数）。同根族：essence（精华）、essentially（本质上）、quintessential（典范的）；-ntial 同缀：potential、credential、differential，掌握词根即可贯穿整组词。",
-              "mnemonic": "essential 藏着 essence（精华），精华就是不能少的东西。记住「精华 → 必备」的链条：一瓶护肤品最不能缺的那几滴 essence，就是你的 skincare essentials。"
-            },
-            {
-              "word": "gear",
-              "pos": "n.",
-              "meaning": "装备、器材，尤指用于特定活动的专业设备。在户外、科技和商业语境中均高频出现，如 'outdoor gear''tech gear'；比 'equipment' 更口语化，更常见于消费品报道和产品营销文案；还可引申为动词短语 'gear up for'（为……做好准备）。",
-              "exampleEn": "Consumer spending on fitness gear rebounded sharply after pandemic-era gym closures came to an end.",
-              "exampleCn": "疫情期间健身房关闭结束后，消费者在健身装备上的支出大幅反弹。",
-              "etymology": "源自古挪威语 gervi（装备、服饰），经古英语 gearwe 进入中古英语，原义「使人准备就绪的全套物品」。现代英语语义扩展为一切专业活动所需器材，并发展出齿轮义（咬合传动的装置）及动词短语 gear up（做好准备）。",
-              "morphology": "单音节简单词，无前后缀可拆；常见派生与搭配：geared（针对……设计的）、gear up（备战）、high-gear（高速运转）、ungeared（无财务杠杆）、gearbox（变速箱）；记住核心义「使运转的装备」可统摄全部用法。",
-              "mnemonic": "gear 与「给力」谐音——专业装备就是让你「给力」的东西。或者想象自行车齿轮（gear）咬合时「咔哒」一声换挡，机器瞬间提速：有了合适的 gear，一切都 gear up 了。"
-            },
-            {
-              "word": "promotional",
-              "pos": "adj.",
-              "meaning": "促销的、推广性的，是 'promotion' 的形容词形式。常见搭配为 'promotional event''promotional offer''promotional campaign'，是商业英语高频词，专指以刺激购买为目的的市场活动。语义比 'discount（折扣）' 更宽泛，涵盖整体营销推广策略，常见于财报和营销分析文本。",
-              "exampleEn": "The company launched a promotional campaign offering free trials to attract new enterprise clients.",
-              "exampleCn": "该公司推出了一项提供免费试用的促销活动，以吸引新的企业客户。",
-              "etymology": "源自拉丁语 promotio，由 pro-（向前）+ movere（移动）构成，原义「向前推进」，古典拉丁语多指晋升提拔。中世纪经法语进入英语后，商业革命中语义分化出「推广商品、刺激购买」的营销含义，-al 后缀使其形容词化。",
-              "morphology": "pro-（向前）+ mot/mov（移动词根）+ -ion（名词化）+ -al（形容词后缀）；同根族：promote（推进）、motion（运动）、motivation（动机）、remote（远端，re- 往回 + mot）、commotion（骚动）；掌握 mot/mov 词根可横扫二三十个高频词。",
-              "mnemonic": "promotional = pro（向前）+ motion（运动）+ al，促销活动就是「推着销量向前跑」的运动。脑海中浮现一辆购物车被人从后面猛推向前冲——那就是一场 promotional campaign 的本质。"
-            }
-          ]
-        },
-        {
-          "id": "20260517-4",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/16/berkshires-new-ceo-overhauls-portfolio-dumping-a-slate-of-stocks.html",
-          "headlineEn": "Berkshire's new CEO overhauls portfolio, dumping a slate of stocks",
-          "headlineCn": "伯克希尔新CEO阿贝尔首季大刀阔斧重组投资组合，大举抛售多只股票",
-          "summaryEn": "Greg Abel, who took over as Berkshire Hathaway's CEO from Warren Buffett, made sweeping changes to the company's equity portfolio during his first three months in office. The portfolio saw one of its most significant overhauls ever, with Abel selling off a wide range of stock positions. This signals a potential shift in Berkshire's long-held investment philosophy, raising questions about how the legendary firm will evolve under new leadership.",
-          "summaryCn": "格雷格·阿贝尔从沃伦·巴菲特手中接过伯克希尔·哈撒韦CEO职位后，在任职的首个季度内对公司股票投资组合进行了大幅调整。此番调整堪称伯克希尔历史上规模最大的投资组合重组之一，阿贝尔大举抛售了多个股票持仓。这一举动暗示伯克希尔长期奉行的投资理念或将发生转变，外界也开始关注这家传奇公司在新领导层下将如何演变。",
-          "excerpt": "Berkshire Hathaway's equity portfolio underwent one of its biggest renovations ever during Greg Abel's first three months as CEO. Abel moved swiftly to dump a slate of stocks, signaling that the company's investment strategy may look quite different under its new leadership.",
-          "vocab": [
-            {
-              "word": "overhaul",
-              "pos": "v. / n.",
-              "meaning": "彻底改革、全面整修。比 revise（小修）或 update（更新）语气更强，强调从根本上重新改造。在商业语境中常用于战略、流程或组织结构的大规模重组，隐含'打破旧体系、重建新结构'的意味，是财经报道高频词。",
-              "exampleEn": "The incoming CEO announced plans to overhaul the company's supply chain to cut costs and improve efficiency.",
-              "exampleCn": "新任CEO宣布计划全面改革公司供应链，以降低成本、提升效率。",
-              "etymology": "源自荷兰语航海术语，over（全面地）+ haul（拖拽，来自古法语 haler），原指水手将缆绳重新拉开检查，18世纪引申为「对机械设备彻底检修」，20世纪进一步抽象为「对制度或组织的根本性改造」。",
-              "morphology": "over-（前缀：全面、超越）+ haul（词根：拖拽）。同前缀扩展：overhaul（彻底改造）、overwrite（覆盖重写）、overhaul → overturn（推翻）、overhaul → overcome（克服）。派生形式：overhauled、overhauling。",
-              "mnemonic": "想象工厂工人「over（全面地）haul（拖拽）」机器——把每个零件拖出来翻检再装回去，这种「把机器大卸八块重组」的画面，就是 overhaul 的精髓。"
-            },
-            {
-              "word": "dump",
-              "pos": "phrasal v.",
-              "meaning": "（金融语境）迅速大量抛售资产或股票。比中性词 sell 更强调速度快、规模大，且常带有'急于脱手'的隐含意味。财经报道中频繁出现，是读懂市场情绪的重要语域标记词。",
-              "exampleEn": "Investors dumped tech stocks after the company issued a profit warning, sending share prices tumbling.",
-              "exampleCn": "该公司发出盈利预警后，投资者纷纷抛售科技股，导致股价大幅下挫。",
-              "etymology": "源自古诺尔斯语 dumpa 或中低地德语 dumpen，原义「重重摔落、倾倒」，指像倒垃圾一样将物体抛弃。金融语境中「急于脱手」的含义直接继承了「随意大量倾倒」的原始意象，语义演变路径清晰。",
-              "morphology": "简单动词，无法拆解词根。常见派生与复合形式：dumping（倾销）、dump price（倾销价）、dumpster（垃圾箱）、dump truck（自卸卡车）。金融固定搭配：dump shares / dump positions。",
-              "mnemonic": "想象一个恐慌的投资人把一袋股票证书「像垃圾一样哗啦倒进垃圾桶」——速度快、量大、毫不留恋，这个「倒垃圾」的画面完美锁定 dump 在财经中的语感。"
-            },
-            {
-              "word": "a slate of",
-              "pos": "phrase",
-              "meaning": "一系列、一批（人或事物）。源自古时用石板（slate）列举候选人名单的习惯，现泛指'一组预定的事项'。在商业英语中常见于描述一批产品、议程或决策，语气比 a list of 更正式，比 a range of 更具'有计划、成套'的含义，值得积累。",
-              "exampleEn": "The tech giant unveiled a slate of new products at its annual developer conference.",
-              "exampleCn": "这家科技巨头在年度开发者大会上发布了一系列新产品。",
-              "etymology": "复合短语，无独立词源。slate（石板）源自古法语 esclat（碎片），中世纪选举时政客将候选人名字刻在石板上公示，「a slate of candidates」由此固化为「一批预定人选/事项」，后泛化为任何「有计划的一组」。",
-              "morphology": "复合短语，无独立词源可拆解。slate 的常见搭配：clean slate（白板重来）、slate-colored（石板灰色）、on the slate（记在账上）。理解 slate 的「预定名单」含义是掌握该短语的关键。",
-              "mnemonic": "脑补古罗马广场上一块石板，上面密密麻麻凿着十几个名字——「a slate of」就是「石板上列出的一批」，有计划、成套、提前安排好，比「a list of」多一份「正式预定」的厚重感。"
-            },
-            {
-              "word": "equity portfolio",
-              "pos": "phrase",
-              "meaning": "股票投资组合。equity 在财经英语中特指'股权/股票'（对应 debt 债务），portfolio 指持有的一组金融资产。理解 equity 与 stock/share 的细微差异（equity 更强调所有权属性）是读懂机构投资报道的基础，两词组合是分析师和媒体的核心术语。",
-              "exampleEn": "The fund manager rebalanced the equity portfolio to reduce exposure to the volatile energy sector.",
-              "exampleCn": "该基金经理对股票投资组合进行了再平衡，以降低对波动性较大的能源板块的风险敞口。",
-              "etymology": "equity 源自拉丁语 aequitas（公平、均等），经由古法语 équité 进入英语，原指「公平分配的份额」，金融化后专指「股权所有权」；portfolio 源自意大利语 portafoglio（porta 携带＋foglio 纸张），原为「公文包」，后引申为「持有的一组资产」。",
-              "morphology": "equity：equi-（词根：平等，如 equal、equitable、equation）+ -ty（名词后缀）。portfolio：port-（词根：携带，如 transport、import）+ folio（词根：纸/页，如 folio、portfolio）。两词组合覆盖「所有权＋资产集合」的完整含义。",
-              "mnemonic": "equity 联想 equal——股东「平等」拥有公司所有权；portfolio 想象一个皮质文件夹（port 带着 folio 纸张），里面夹满股票凭证——「equity portfolio」就是「装满股权文件的那只公文包」。"
-            },
-            {
-              "word": "renovation",
-              "pos": "n.",
-              "meaning": "翻新、改造（本义指建筑装修）。此处被 CNBC 用作隐喻，将投资组合的大规模调整比作'房屋翻新'，是财经写作中活用具体词汇描绘抽象概念的典型手法。当媒体将战略或投资组合描述为可'翻新'的空间时，传递出'系统性、大规模改造'的意味，比 adjustment 更生动有力，值得学习这类跨域隐喻。",
-              "exampleEn": "After the merger, the new management team gave the company's entire business model a complete renovation.",
-              "exampleCn": "合并后，新管理团队对公司的整体商业模式进行了彻底改造。",
-              "etymology": "源自拉丁语 renovatio，由 re-（再次）+ novus（新的）+ -atio（名词后缀）构成，原义「重新使之焕新」。拉丁语 novus 是印欧语系 *newo-（新）的直接后裔，与英语 new 同源，语义从建筑翻新到财经隐喻均保留「重塑为新」的核心意象。",
-              "morphology": "re-（前缀：再次）+ nov-（词根：新，如 novel、novelty、innovate、innovation）+ -ation（名词后缀）。同根族词链：novus → novel（新颖）→ innovate（创新）→ renovate / renovation（翻新），词根 nov- 是扩展词汇量的高价值节点。",
-              "mnemonic": "re（再次）+ nova（新星）——把一栋老房子「变成一颗新星」，就是 renovation。财经语境里把投资组合「翻新」也是同一个画面：把旧仓位全拆掉重建，让它重新发光。"
-            }
-          ]
-        },
-        {
-          "id": "20260517-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/16/kevin-warsh-comes-into-the-fed-facing-a-big-family-fight-over-cutting-interest-rates.html",
-          "headlineEn": "Kevin Warsh comes into the Fed facing a big 'family fight' over cutting interest rates",
-          "headlineCn": "沃什接掌美联储，面临降息「内讧」考验",
-          "summaryEn": "Kevin Warsh is set to lead the Federal Reserve during a turbulent period, walking into an institution deeply divided over when to cut interest rates. With inflation spiking and Treasury yields surging, the Federal Open Market Committee appears unwilling to ease policy anytime soon. Warsh must navigate sharp internal disagreements while managing market expectations and preserving the Fed's credibility under intense economic pressure.",
-          "summaryCn": "凯文·沃什即将执掌美联储，但迎接他的是一场棘手的「内部纷争」。在通胀骤升、美国国债收益率持续攀升的背景下，联邦公开市场委员会普遍不愿放松货币政策、削减利率。沃什不仅需要化解委员会内部的深层分歧，还须稳定市场预期、维护美联储在高压经济环境下的公信力，挑战极为严峻。",
-          "excerpt": "With inflation spiking and Treasury yields surging, Warsh is likely to confront a Federal Open Market Committee in no mood to ease — walking into what insiders describe as a full-blown 'family fight' over the path of interest rates.",
-          "vocab": [
-            {
-              "word": "ease",
-              "pos": "v.",
-              "meaning": "（货币政策）放松、降息。在央行语境中专指降低利率或扩大资产购买，比 cut rates 更正式、更专业，是美联储官员和财经媒体的高频用词。常见搭配：ease policy、ease monetary conditions。值得学的原因：同一个词在不同语境意思差异极大，日常英语是「缓解、减轻」，货币政策语境则特指「宽松操作」。",
-              "exampleEn": "The central bank signaled it was not ready to ease, citing persistent inflationary pressures.",
-              "exampleCn": "央行以持续的通胀压力为由，表示尚未准备好放松货币政策。",
-              "etymology": "来自古法语 aise（舒适、便利），源自拉丁语 adjacens（毗邻），原义指「紧靠处带来的宽裕空间」，后演变为「减轻压力、使宽松」，货币政策语境中专指放宽利率或购债力度。",
-              "morphology": "单音节简单词，无前缀后缀可拆。常见派生形式：easy（形容词）、unease（不安）、easement（缓和）；量化宽松固定表达 quantitative easing 中的 easing 即其动名词形式，是最重要的派生用法。",
-              "mnemonic": "想象美联储主席轻轻「松了一口气」——ease 就是那个「松」的动作，利率像紧绷的弹簧被慢慢放开。与 squeeze（挤压收紧）正好相反，一松一紧对比记忆，货币宽松还是收紧一眼即判。"
-            },
-            {
-              "word": "spike",
-              "pos": "v. / n.",
-              "meaning": "（价格或数据）骤升、急剧攀升。比 rise 或 increase 更强调「突发性和幅度大」，常用于通胀、油价、收益率等波动场景，带有警示含义。值得学的原因：财经报道的标配词，spike in inflation 比 sharp increase in inflation 更简洁有力，且暗示这一上升是异常的而非趋势性的。",
-              "exampleEn": "Energy prices spiked after the supply disruption, pushing headline inflation well above the 2% target.",
-              "exampleCn": "供应中断后能源价格骤升，推动整体通胀率远超2%的目标。",
-              "etymology": "来自古诺尔斯语 spík（铁钉、尖刺），经中古英语演变，原义为「突出的尖状物」，因折线图上骤然刺出的「尖峰」形如钉子，引申为「价格或数据的突然急升」，带有异常突发的警示含义。",
-              "morphology": "简单词，可作名词或动词，无须拆解。常见派生：spiked（骤升的）、spiky（多刺的）；同族联想词：spine（脊柱/刺）、spear（矛），均含「尖锐突出」语义，便于横向扩展记忆。",
-              "mnemonic": "把折线图想象成一排钉子，忽然某根钉子「刺穿天花板」——那就是 a spike in inflation。通胀像钉子猛地扎上去，画面刺眼，远比「sharp rise」更有冲击力，且暗示这是异常而非趋势。"
-            },
-            {
-              "word": "Treasury yields",
-              "pos": "phrase (n.)",
-              "meaning": "美国国债收益率。指投资者持有美国政府债券所获得的回报率，是全球金融市场的基准利率，收益率上升通常反映市场预期利率走高或经济风险上升。值得学的原因：Treasury 在财经语境中专指「美国财政部/国债」，与日常用法完全不同；读懂任何一篇美联储相关报道都必须掌握这个术语。",
-              "exampleEn": "Treasury yields climbed to their highest level in over a decade, rattling equity markets worldwide.",
-              "exampleCn": "美国国债收益率攀升至十余年来的最高水平，令全球股市动荡不安。",
-              "etymology": "Treasury 来自古法语 trésor，源自拉丁语 thesaurus（宝库）；yield 来自古英语 gieldan（偿还、给予回报），原义「产出」。两词组合专指「美国国债的回报率」，是全球金融市场的利率基准锚点。",
-              "morphology": "复合短语，无独立词源。Treasury 派生族群：treasurer（财务官）、treasury bill/note/bond（短中长期国债）；yield 派生族群：high-yield（高收益）、yield curve（收益率曲线）、yielding（顺从的）。",
-              "mnemonic": "Treasury = 宝库（treasure 去 e 加 y），yield = 产出。想象美国财政部「大宝库」每年给持债人「产出」回报——宝库越不受信任，承诺的产出就越高，国债危机时收益率飙升正是此逻辑的直观体现。"
-            },
-            {
-              "word": "confront",
-              "pos": "v.",
-              "meaning": "（主动）面对困境或对立局面。比 face 更强调直面挑战的主动性与局势的紧张性，常用于政治、商业谈判等高压场景，暗含「无法回避、必须正面交锋」之意。值得学的原因：confront a divided committee 比 face a divided committee 语气更强烈，更能传达新领导人上任即遭遇重重阻力的戏剧张力。",
-              "exampleEn": "The incoming CEO confronted a board deeply divided over the company's long-term strategic direction.",
-              "exampleCn": "新任首席执行官面对的，是一个在公司长期战略方向上严重分歧的董事会。",
-              "etymology": "来自中世纪拉丁语 confrontare，由 con-（相对、共同）与 frons/frontis（额头、正面）合成，原义「额头对额头地站立」，即「正面对峙」，后引申为主动直面困境或强硬对手，强调无路可退的紧张感。",
-              "morphology": "con-（相对/共同）+ front（额头/正面）。同词根扩展：frontier（前沿/边境）、frontal（正面的）、affront（冒犯，af- 即 ad- 表「面向」）；同前缀扩展：conflict（冲突）、contest（竞争）、contest（抗争）。",
-              "mnemonic": "con-（face to face）+ front（额头）——两人「额头顶额头」硬碰硬，就是 confront。新 Fed 主席上任第一天就和反对派「额头对额头」——比 face 多了一层「刀光剑影、无路可退」的戏剧张力，语气强度差异一目了然。"
-            },
-            {
-              "word": "in no mood to",
-              "pos": "phrase",
-              "meaning": "完全没有心思去做、强烈不愿意做某事。比 unwilling to 更口语化却更有力，比 reluctant to 语气更决断，用来描述机构或个人在特定压力下的强烈抵触情绪。值得学的原因：财经新闻标题和报道中高频出现，用于描述央行、委员会或市场参与者在某一议题上的强硬立场，语感地道且简洁。",
-              "exampleEn": "After three consecutive quarters of losses, shareholders were in no mood to approve another round of executive bonuses.",
-              "exampleCn": "在连续三个季度亏损之后，股东们完全没有心思批准新一轮的高管奖金方案。",
-              "etymology": "复合短语，无独立词源。mood 来自古英语 mōd（心境、精神状态），与德语 Mut（勇气）同源；in no mood to 为固定习语，字面义「处于完全没有……心境的状态」，强调情绪上的强烈抵触而非理性权衡。",
-              "morphology": "复合短语，无独立词源。mood 派生：moody（情绪化的）、moodily（情绪化地）；关键对比搭配：in the mood for sth（有兴致做）vs in no mood to do（零兴致做），一个 no 令态度180度翻转，务必成对记忆。",
-              "mnemonic": "想象美联储会议室里主席板着脸——「我今天 mood 拨到零格」。in no mood to cut rates，脸上写满「别跟我提降息」。mood 归零代表态度绝决，财经新闻里遇到它，秒懂：这件事没有商量余地。"
             }
           ]
         }
