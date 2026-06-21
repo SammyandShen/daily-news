@@ -1,7 +1,127 @@
 {
-  "lastUpdated": "2026-06-20T23:04:23.111004+00:00",
+  "lastUpdated": "2026-06-21T23:01:11.713006+00:00",
   "level": "B2",
   "days": {
+    "2026-06-21": {
+      "label": "6月21日 (周日)",
+      "stories": [
+        {
+          "id": "20260621-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+          "headlineEn": "When the Trump administration cracks down on Anthropic, who benefits?",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260621-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+          "headlineEn": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260621-3",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549?mod=mw_rss_topstories",
+          "headlineEn": "Micron’s earnings are a must-watch market event — with profit growth approaching 1,000%",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Micron’s massive growth is “coming at nearly pure profit,” and that’s starting to have real implications for the S&amp;P 500.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Micron’s massive growth is “coming at nearly pure profit,” and that’s starting to have real implications for the S&amp;P 500.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260621-4",
+          "category": "biz",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe",
+          "headlineEn": "Wars trigger $12bn venture capital rush into defence tech",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Funding this year has already surpassed 2025 total as soaring valuations fuel fears of a hype cycle",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Funding this year has already surpassed 2025 total as soaring valuations fuel fears of a hype cycle",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260621-5",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/6a9330ad-a2db-494b-bf61-7dd417ab9c9a",
+          "headlineEn": "Warsh’s push to axe Fed guidance may lift US borrowing costs, investors warn",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Traders see more volatility ahead as new central bank chair declines to give dot plot on future path of interest rates",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Traders see more volatility ahead as new central bank chair declines to give dot plot on future path of interest rates",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-20": {
       "label": "6月20日 (周六)",
       "stories": [
@@ -8678,326 +8798,6 @@
               "etymology": "源自拉丁语 intensus（拉紧、紧绷），来自 intendere（拉伸、向内绷紧），后缀 -fy 表「使……化」，17世纪进入英语，整体义为「使变得更强烈、更紧绷」，适用于冲突、竞争、通胀压力等多种抽象语境。",
               "morphology": "intense（词根，拉丁语 intensus）+ -ify（动词后缀，表「使……」）；同后缀扩展：clarify（澄清）、magnify（放大）、simplify（简化）；同根词族：intensity（强度）、intensive（密集的）、intent（意图）。",
               "mnemonic": "拆成「intense（紧绷）+ -ify（使变成）」——想象拉弓射箭，弓弦越拉越紧（intense），局势也跟着「绷紧升级」。冲突 intensify，就是这根弦越绷越紧、随时要断裂的画面，简单直观。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-21": {
-      "label": "5月21日 (周四)",
-      "stories": [
-        {
-          "id": "20260521-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/21/anthropic-microsoft-maia-200-ai-chip.html",
-          "headlineEn": "Anthropic and Microsoft in Talks for AI Chip Deal After $5 Billion Investment",
-          "headlineCn": "Anthropic与微软洽谈AI芯片合作，背后是50亿美元战略布局",
-          "summaryEn": "Anthropic and Microsoft are reportedly negotiating an AI chip deal following Microsoft's $5 billion investment in the AI startup. The discussions center on Microsoft's proprietary Maia 200 chips, currently deployed exclusively in its own data centers where they deliver superior energy efficiency compared to conventional silicon. If a deal is reached, Anthropic could gain access to more cost-effective computing power, potentially reducing its dependence on traditional chip suppliers such as Nvidia at a time when AI training costs remain a critical concern.",
-          "summaryCn": "据报道，Anthropic与微软正就AI芯片合作展开谈判，此前微软已向这家AI初创公司投资50亿美元。谈判的核心是微软自研的Maia 200芯片——该芯片目前仅部署于微软内部数据中心，能效优于市场上的通用芯片，尚未向外部客户开放。若协议达成，Anthropic将有望获得更具成本优势的算力资源，在AI训练开支居高不下的背景下，降低对英伟达等传统芯片供应商的依赖。",
-          "excerpt": "Microsoft has not made the Maia 200 chips available to customers, but they are deployed across the company's data centers, offering better efficiency than other silicon. Anthropic and Microsoft are now in talks to extend that chip access as part of a deepening AI partnership.",
-          "vocab": [
-            {
-              "word": "in talks",
-              "pos": "phrase",
-              "meaning": "正在进行谈判、洽商。财经新闻标题中极高频的表达，比「negotiating」更简洁，且语气更正式。常与介词「for」搭配，明确谈判目标，例如：in talks for a merger / acquisition / licensing deal。掌握此短语可大幅提升阅读商业新闻标题的速度。",
-              "exampleEn": "The chipmaker is reportedly in talks for a long-term supply agreement with a leading electric vehicle manufacturer.",
-              "exampleCn": "据报道，这家芯片制造商正与一家领先电动汽车厂商洽谈长期供货协议。",
-              "etymology": "复合短语，无独立词源。talk 源自古英语 talian（讲述、计算），与 tell 同源，经中古英语 talken 演变为「交谈」；in talks 作固定短语，强调谈判「正在进行中」的持续状态。",
-              "morphology": "复合短语，不可拆分为词根结构。talk 的常见派生形式：talks（复数名词，即「谈判」本身）、talker（发言者）、talking point（谈判要点）；in 作介词表示「处于某状态之中」，与 in negotiations、in discussions 构成同义平行结构。",
-              "mnemonic": "想象两位西装革履的高管坐在会议桌两端，桌上竖着一块牌子写着「TALKS」——他们人「in（在里面）」这场对话里出不来，就是 in talks。下次看到新闻标题里的 in talks，脑海中就浮现这张谈判桌。"
-            },
-            {
-              "word": "make available",
-              "pos": "phrasal v.",
-              "meaning": "（将某物）向某方开放、提供。科技和商业文本中比「offer」或「provide」更正式，常用于描述产品发布或资源分配。固定结构为：make sth available to sb，介词固定用「to」，不可用「for」，这是中国学习者的易错点。",
-              "exampleEn": "The cloud provider plans to make its new AI inference service available to enterprise clients by year-end.",
-              "exampleCn": "这家云服务商计划在年底前向企业客户开放其新的AI推理服务。",
-              "etymology": "复合短语，无独立词源。available 源自古法语 availer（有用、有益），由 a-（向）与 valoir（有价值）合成，拉丁语根为 valere（强壮、有价值）；make available 即「使某物进入可被获取的状态」，语义重心在「开放」而非「给予」。",
-              "morphology": "available = a-（方向前缀）+ vail（词根，源自拉丁 valere，有价值、有效）+ -able（形容词后缀，表「可…的」）；同根词：avail（利用，名词/动词）、prevail（占上风）、value（价值）；make 为使役动词，固定结构 make sth available to sb，介词只用 to。",
-              "mnemonic": "available 里藏着 vail，形似「面纱（veil）」——东西蒙着面纱就不可用，make available 就是「揭开面纱」让大家都能拿到。记住介词用 to：东西揭开「朝向（to）」你，不是「为了（for）」你。"
-            },
-            {
-              "word": "silicon",
-              "pos": "n.",
-              "meaning": "硅；在科技新闻中作为芯片或半导体的换喻（metonym），用材料名称代指产品本身。「other silicon」即「其他芯片」。这种用法在英文科技媒体中普遍存在（如「Silicon Valley」也源于此），能准确理解它有助于避免对字面意思产生误解。",
-              "exampleEn": "Designing proprietary silicon gives hyperscalers greater control over performance and cost per compute unit.",
-              "exampleCn": "自研芯片使超大规模云服务商能够更好地掌控每单位算力的性能与成本。",
-              "etymology": "源自拉丁语 silex/silicis（燧石、坚硬岩石），19 世纪初化学家以此命名非金属元素硅（Si），因其大量存在于岩石与沙土中；20 世纪下半叶在科技语境中演变为芯片与半导体的换喻，以材料名称代指产品本身。",
-              "morphology": "silic-（词根，源自拉丁 silex，燧石）+ -on（化学元素命名后缀，如 carbon、boron、radon）；关键区分：silicon（硅，元素，芯片材料）vs. silicone（硅酮/硅胶，有机高分子，医美材料）；同系词：silica（二氧化硅）、silicate（硅酸盐）、siliceous（含硅的）。",
-              "mnemonic": "silicon 和 silicone 差一个字母 e——芯片里的硅「没有 e」，整形手术的硅胶「有 e」。Silicon Valley 里造芯片，没有 e；silicone implants 是整形，有 e。用这对比牢牢锁住两个词，不再混淆。"
-            },
-            {
-              "word": "deploy",
-              "pos": "v.",
-              "meaning": "部署、投入使用。在科技语境中特指将硬件或软件系统正式上线运行，比「use」更专业，暗含「有计划地大规模配置」的含义。常见搭配：deploy chips / models / infrastructure / resources。与「install」的区别在于deploy强调规模化运营，而非单次安装。",
-              "exampleEn": "The company has deployed over 100,000 custom AI accelerators across its global data center network.",
-              "exampleCn": "该公司已在其全球数据中心网络中部署了逾10万枚定制AI加速芯片。",
-              "etymology": "源自法语 déployer（展开、铺开），由 dé-（分开、向外）与 ployer（折叠，源自拉丁语 plicare）合成；原为军事术语，指将士兵从行军纵队「展开」成战斗队形，后引申为「有计划地大规模配置资源或系统」。",
-              "morphology": "de-（前缀，分开、向外展开）+ ploy/plier（词根，源自拉丁 plicare，折叠）；同根词：employ（雇用，将人「折入」工作中）、imply（暗含，将意思「折入」言语中）；派生形式：deployment（部署行为）、deployable（可部署的）、redeployment（重新部署）。",
-              "mnemonic": "想象军队打仗前把紧密行军的士兵「de-（展开）」铺满整个战场——deploy 就是「把折叠的力量全部铺开」。科技公司 deploy 模型，就是把 AI 从实验室「铺开」到全球服务器上，迎接数百万用户同时涌入。"
-            },
-            {
-              "word": "efficiency",
-              "pos": "n.",
-              "meaning": "效率；在芯片和AI语境中特指「能效」或「计算性价比」（如performance per watt），而非泛泛的「工作效率」。这种专属含义在科技财经报道中极为常见，注意与「productivity」区分：efficiency侧重资源利用率，productivity侧重产出总量。读懂这个区别，有助于准确理解AI算力竞赛的讨论。",
-              "exampleEn": "Custom AI chips can achieve dramatically better energy efficiency than general-purpose GPUs for large-scale inference workloads.",
-              "exampleCn": "对于大规模推理任务，定制AI芯片的能效通常远超通用GPU。",
-              "etymology": "源自拉丁语 efficientia（产生效果的能力），由 efficere 构成，进一步拆为 ex-（向外）与 facere（做、制作）；原义为「真正产生实际效果的能力」，经法语传入英语后演变为「效率」，在芯片与 AI 语境中特化为「能效/每瓦算力性价比」。",
-              "morphology": "ef-（前缀，ex- 的变体，向外）+ fic-（词根，源自 facere，做）+ -iency（名词后缀，表状态）；同根词：efficient（形容词）、effect（效果，ex+fect）、deficient（不足的，de- 向下）、proficient（熟练的，pro- 向前做）；对比名词 sufficiency（充足量）。",
-              "mnemonic": "efficiency 里藏着 fic（做）——想象一台发动机「向外（ef-）做（fic）」功，每升油能「做」出多少公里，就是它的 efficiency（能效）。与 productivity 的区别：efficiency 看「油耗」（资源利用率），productivity 看「总里程」（产出总量）。"
-            }
-          ]
-        },
-        {
-          "id": "20260521-2",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/21/nvidia-jensen-huang-china-ai-chip-market-huawei.html",
-          "headlineEn": "Nvidia Says It Has Largely Conceded China's AI Chip Market to Huawei",
-          "headlineCn": "英伟达CEO：中国AI芯片市场已基本拱手相让于华为",
-          "summaryEn": "Nvidia CEO Jensen Huang admitted that the company has largely given up competing in China's advanced AI chip market, where Huawei has emerged as the dominant supplier. US export restrictions have prevented Nvidia from selling its highest-performance chips to Chinese customers, pushing major tech firms like ByteDance and Alibaba toward Huawei's alternatives. The admission marks a significant strategic retreat for Nvidia and underscores Huawei's rapidly growing strength in the global AI semiconductor race.",
-          "summaryCn": "英伟达CEO黄仁勋公开承认，公司已基本放弃在中国高端AI芯片市场与华为竞争。受美国出口管制限制，英伟达无法向中国客户销售其最高性能芯片，字节跳动、阿里巴巴等科技巨头纷纷转向华为的替代产品。这一表态标志着英伟达在华战略的重大收缩，也凸显了华为在全球AI半导体领域持续上升的影响力。",
-          "excerpt": "Nvidia CEO Jensen Huang said the company has 'largely conceded' China's advanced artificial intelligence chip market to Huawei, as US export restrictions have prevented Nvidia from selling its highest-end products to Chinese buyers, allowing Huawei to fill the void.",
-          "vocab": [
-            {
-              "word": "concede",
-              "pos": "v.",
-              "meaning": "承认（失利）；（被迫）让出、放弃。比 admit 更正式，常见于竞争、谈判、政治语境，含「不得不承认」的语气。值得学：它不只是「承认」，还隐含「主动放手」的动作，搭配 concede a market / concede defeat / concede ground，是商业报道的核心动词。",
-              "exampleEn": "After years of competition, the telecom giant conceded the budget smartphone segment to its local rivals.",
-              "exampleCn": "经过多年竞争，这家电信巨头最终将低价智能手机细分市场拱手相让给了本土竞争对手。",
-              "etymology": "源自拉丁语 concedere，由 con-（完全地）+ cedere（走、让步）构成，原义为「彻底退让、走开」。经由古法语进入英语后，语义收窄为「在竞争或谈判中不得不承认或放弃」，保留了「主动走出、让出地盘」的动作感。",
-              "morphology": "con-（加强语气前缀）+ -cede（来自拉丁词根 cedere，行走、让步）。同根词：recede（后退）、precede（走在前面）、secede（分裂退出）。派生形式：concession（让步/特许权）、conceding、conceded。",
-              "mnemonic": "cede 本身就是外交术语「割让领土」，con 是「彻底、完全」——「把地盘彻底割让出去」就是 concede。脑海画面：谈判桌旁，败方苦涩地把地图上的一块推向对方，口中说「我认了」。"
-            },
-            {
-              "word": "largely",
-              "pos": "adv.",
-              "meaning": "在很大程度上；基本上（但非完全）。值得学：这是商务英语中「软化」绝对表达的高频技巧，用来保留模糊空间、避免过于武断。largely ≠ completely，黄仁勋用它暗示「差不多放弃，但保留余地」，是高级书面表达的精妙之处。",
-              "exampleEn": "The startup's rapid growth is largely attributed to its early investment in generative AI infrastructure.",
-              "exampleCn": "这家初创公司的快速增长在很大程度上归因于其对生成式AI基础设施的早期投入。",
-              "etymology": "由 large 加副词后缀 -ly 构成。large 源自古法语 large（宽阔、慷慨），再溯至拉丁语 largus（丰盛、大量）。原义强调空间或数量上的「宽广」，后抽象化为程度副词，刻意保留「未完全覆盖」的余白感。",
-              "morphology": "large（形容词，宽广的）+ -ly（副词后缀，来自古英语 -lice）。同族词：enlarge（扩大）、largesse（慷慨赐予）、large-scale（大规模的）。派生：largeness（宽广度）、enlargement（扩展）。",
-              "mnemonic": "想象一幅「large（大）画框」，画布几乎填满，但四边仍露出细细一圈空白——largely 就是「基本覆盖、仍有余地」，完美对应「并非 completely，只是 to a large extent」的语气差异。"
-            },
-            {
-              "word": "advanced",
-              "pos": "adj.",
-              "meaning": "尖端的；高端的。值得学：在科技与出口管制语境中，advanced chip 是专业术语，特指运算能力超过特定门槛、受美国出口法规限制的芯片，与日常「先进的」含义有法律和政策层面的精确区别。读财经科技新闻时，看到 advanced 要立刻联想到「受管制的高端品」。",
-              "exampleEn": "The new export rules specifically target advanced semiconductors used in training large-scale AI models.",
-              "exampleCn": "新出口法规专门针对用于训练大规模AI模型的尖端半导体芯片。",
-              "etymology": "源自古法语 avancier（向前推进），追溯至通俗拉丁语 *abantiare，由 ab-（离开）+ ante（前方）构成，原义为「向前移动」。advanced 作形容词意为「已推进到前沿的」，科技出口管制语境中特指「超越法规门槛的高端品」。",
-              "morphology": "ad-（朝向）+ -vance（源自 ante，前方）+ -ed（形容词/分词后缀）。同族词：advancement（进步）、advantage（优势，同源 ante）、avant-garde（法语同源，先锋）。派生：advancing、advance（名词/动词）。",
-              "mnemonic": "ad + VANCE：「VANCE 队长已冲到最前线」——advance team 是先头部队，advanced 就是「已站在最前沿的」。读到 advanced chip 时，立刻联想「冲过红线的芯片」，即受出口管制的尖端品。"
-            },
-            {
-              "word": "chip",
-              "pos": "n.",
-              "meaning": "芯片（半导体集成电路的通俗说法）。值得学：chip 是科技财经报道中出现频率最高的行业词汇之一，可泛指 GPU、CPU、AI 加速器等各类芯片。比 semiconductor 更口语，比 processor 更宽泛——读懂科技新闻，chip 必须烂熟于心。",
-              "exampleEn": "The race to design faster AI chips has intensified as demand for generative AI applications continues to soar.",
-              "exampleCn": "随着生成式AI应用需求持续激增，设计更快AI芯片的竞赛愈发激烈。",
-              "etymology": "源自古英语 cipp（圆木、横梁），与古高地德语 kipfa（车轴）同源，原义为「从大块材料上切下的碎片」。1960 年代半导体工业兴起后，因芯片正是从硅晶圆上切割而来，chip 被借用为 microchip 的口语简称，沿用至今。",
-              "morphology": "单音节简单词，无前缀后缀可拆解。常见派生与复合形式：micro + chip = microchip（微芯片）；chip + set = chipset（芯片组）；chipmaker（芯片制造商）；chip-level（芯片级别的）。",
-              "mnemonic": "chip 本义就是「切下来的碎片」——想象工人从大硅圆片上「咔嚓」切下薄薄一小片，那一片就是芯片。易混提示：chip（芯片）vs. chip（薯片）——同一个词，科技财经新闻里绝对不是在说零食。"
-            },
-            {
-              "word": "dominant",
-              "pos": "adj.",
-              "meaning": "占主导地位的；处于支配地位的。值得学：在商业语境中，dominant supplier / dominant player 指拥有压倒性市场份额或影响力的企业，语气比 leading 强得多，隐含「其他竞争者难以撼动」之意。这个词出现时，往往意味着市场格局已定、竞争已近尾声。",
-              "exampleEn": "Once a dominant force in the global smartphone market, the brand struggled to stay relevant as competition from Chinese rivals intensified.",
-              "exampleCn": "这个品牌曾是全球智能手机市场的主导力量，但随着中国竞争对手的压力加剧，它开始难以维持自身的市场地位。",
-              "etymology": "源自拉丁语 dominantem（dominari 的现在分词，意为「统治、支配」），再溯至 dominus（主人、领主）。经由中古法语进入英语，原义为「正在行使统治权的」，商业语境中引申为「占压倒性市场优势的」。",
-              "morphology": "domin-（词根，来自拉丁 dominus，主人）+ -ant（形容词后缀，表示「正在…的」）。同根词：dominate（支配）、dominion（领地）、domain（领域）、condominium（共管公寓）。派生：dominance（主导地位）、domination（统治）。",
-              "mnemonic": "domin- 联想 domain（领地）：dominant 就是「在自己领地上作主的那个」。商业语境中，dominant player 是「所有人都要看脸色的大房东」——其他竞争者都是租客，只有他才是领主。"
-            }
-          ]
-        },
-        {
-          "id": "20260521-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle/",
-          "headlineEn": "SpaceX IPO: Elon Musk and Inner Circle Stand to Gain the Most",
-          "headlineCn": "SpaceX上市谁获益最多？马斯克及其亲信圈",
-          "summaryEn": "SpaceX, Elon Musk's private space and satellite company, is moving closer to a public offering. Musk holds the largest stake by billions of shares, while the next biggest shareholders are long-time associates with deep personal ties to him. The eventual IPO is expected to generate extraordinary wealth for this small group. Critics note the highly concentrated ownership structure raises concerns about governance and the benefits available to ordinary investors once the company lists.",
-          "summaryCn": "马斯克旗下私人航天公司SpaceX正逐步推进上市进程。马斯克以数十亿股的绝对优势成为最大股东，其余主要持股者也均与其渊源深厚、关系密切。一旦上市，这一小圈子将获得惊人财富。外界批评人士指出，高度集中的股权结构令人对公司治理及普通投资者的获益空间产生担忧。",
-          "excerpt": "Elon Musk holds the largest stake in SpaceX by billions of shares. The other biggest shareholders also have longstanding and deep ties to Musk — raising questions about who truly benefits when an exclusive inner circle controls most of the equity ahead of a public offering.",
-          "vocab": [
-            {
-              "word": "stake",
-              "pos": "n.",
-              "meaning": "持股份额；利益关系。商业语境中，stake既指具体的股份数量，又隐含风险与收益并存的利益关联，比share更强调「有切肤之利」的含义。常见搭配：hold a stake in（持有……的股份）、majority stake（控股）。",
-              "exampleEn": "The venture capital firm holds a 15% stake in the AI startup, making it the second-largest shareholder.",
-              "exampleCn": "这家风险投资公司持有该AI初创企业15%的股份，是第二大股东。",
-              "etymology": "源自古英语「staca」（木桩、尖桩），原指驱入地面的木桩。中世纪赌博中人们将赌注挂在木桩上，由此演变为「押注的财物」，再引申为「在某事中持有的份额与风险」。",
-              "morphology": "单一词根，不可拆分。常见派生与合成形式：stakeholder（利益相关方）、at stake（处于风险中）、stakeout（监视蹲守）。掌握这三个搭配可覆盖该词在商业、法律和新闻语境中的主要用法。",
-              "mnemonic": "想象一根木桩（stake）钉在地里，你的钱就绑在上面——拔不走、跑不掉，有风险也有收益，这就是「切肤之利」。每次见到stake，就想起那根绑着真金白银的木桩。"
-            },
-            {
-              "word": "inner circle",
-              "pos": "phrase",
-              "meaning": "核心圈子；亲信集团。指领导者身边最受信任、最具影响力的少数人，带有排他性色彩。商业报道中常用此词暗示财富或信息分配不透明，语气略带批判意味，比close associates更生动。",
-              "exampleEn": "Only members of the CEO's inner circle were briefed on the acquisition before it was announced publicly.",
-              "exampleCn": "在收购案公开宣布之前，只有CEO的核心圈子成员提前获悉了消息。",
-              "etymology": "复合短语，无独立词源。inner来自古英语「innera」（内部的），circle来自拉丁语「circulus」（小圆形），两词合用借用几何意象描述权力核心层，是政治与商业报道中的隐喻表达。",
-              "morphology": "inner（内部）+ circle（圆圈）。横向扩展：inner sanctum（最核心的私密场所）、inner workings（内部运作机制）；circle系列另有social circle（社交圈）、vicious circle（恶性循环），均以「圆」隐喻封闭的关系网络。",
-              "mnemonic": "想象圆形会议桌：最外圈是普通员工，往里一圈是中层，而CEO身边那一小圈亲信才是真正的inner circle——圆越小、权越重，外人永远被挡在圆圈之外。"
-            },
-            {
-              "word": "longstanding",
-              "pos": "adj.",
-              "meaning": "长期存在的；由来已久的。比long-term更正式，多修饰关系、争议、问题等名词，是财经和新闻报道高频形容词，暗含「积累已久、根深蒂固」的含义，不能随意替换为long。",
-              "exampleEn": "The two firms finally resolved their longstanding dispute over patent rights after three years of litigation.",
-              "exampleCn": "经过三年诉讼，这两家公司终于解决了长期以来的专利权纠纷。",
-              "etymology": "复合词，由long（古英语「lang」，长久）与standing（古英语「standan」，站立、持续存在）合成。standing作形容词时含「持续屹立不倒」之意，合成后强调某事物长期存在且根基稳固，比long-term更带历史感。",
-              "morphology": "long + standing（现在分词转形容词）。同类构词逻辑：long-running（持续播出的）、outstanding（长期突出而「尚未了结」的）、freestanding（独立支撑的）。规律：long-/free-/out- + standing均可构成持久状态类形容词。",
-              "mnemonic": "想象一棵几百年的老树，它一直「standing」（站着），而且站了很「long」——这棵树就像longstanding争议，根扎得太深，砍不倒、解决不了。记住老树的画面，这个词就不会忘。"
-            },
-            {
-              "word": "windfall",
-              "pos": "n.",
-              "meaning": "意外横财；意外之财。原指被风吹落无需劳作即可获得的果子，商业语境中专指IPO、并购或政策变化带来的巨额非预期收益。比profit或gain更强调「规模惊人且带有运气成分」的色彩。",
-              "exampleEn": "Early employees received a massive windfall when the company went public at a valuation three times higher than expected.",
-              "exampleCn": "公司以超出预期三倍的估值上市，早期员工因此获得了一笔巨额横财。",
-              "etymology": "15世纪英语，wind（风）+ fall（落下）合成。原义指暴风将果树上的果实吹落，农民无需劳作即可拾取，后引申为任何「意外获得的大额收益」。词源中的「运气成分」语义一直保留至今。",
-              "morphology": "wind（风）+ fall（落下）。fall系复合词族：rainfall（降雨量）、snowfall（降雪量）、downfall（垮台、衰败）、shortfall（缺口、不足额）。windfall tax（暴利税）是财经报道中的高频搭配，专指对意外超额利润征收的特别税。",
-              "mnemonic": "大风（wind）过后，苹果哗哗落（fall）满地，果农弯腰就能捡——不用种、不用摘，纯属天赐。IPO暴富、并购套现，就是商业世界的「风吹苹果落」，牢记这幅画面，windfall永不混淆。"
-            },
-            {
-              "word": "vested interest",
-              "pos": "phrase",
-              "meaning": "既得利益；切身利益。vest在法律和金融中有「权利已归属」的含义，vested interest指在某事中有直接的金钱或个人利益驱动，常用于分析某人支持或反对某议题的真实动机，语域偏正式，比interest更精准有力。",
-              "exampleEn": "Analysts warn that board members with a vested interest in the deal should recuse themselves from the vote.",
-              "exampleCn": "分析人士警告，对该交易有既得利益的董事会成员应主动回避表决。",
-              "etymology": "vest源自拉丁语「vestire」（穿衣、赋予），法律英语中「vested」指权利已正式归属某人、不可撤销。「vested interest」因此特指在某事中已确立的、无法剥夺的直接利益，语气比interest更强调「归属已定、利益锁定」。",
-              "morphology": "vest（赋予权利）+ -ed（完成态，已归属）+ interest（利益）。同根词族：invest（投资，原义「赋予权力/职位」）、divest/divestiture（剥离资产）、reinvest（再投资）。vest词根贯穿整个金融词汇体系，是理解投融资术语的关键词根。",
-              "mnemonic": "vest是马甲，想象某人穿了一件印着「$$$」的马甲（vest），这件马甲已经穿上身、缝死了脱不下来——利益一旦归属就赖着不走，这就是vested interest。下次看到「既得利益者」，就想起那件脱不掉的钞票马甲。"
-            }
-          ]
-        },
-        {
-          "id": "20260521-4",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
-          "headlineEn": "Spotify and Universal Music Strike Deal Allowing Fan-Made AI Covers and Remixes",
-          "headlineCn": "Spotify与环球音乐达成协议，开放AI翻唱与混音创作",
-          "summaryEn": "Spotify has partnered with Universal Music Group to enable Premium subscribers to create AI-generated covers and remixes of licensed songs. Participating artists will receive a share of the revenue generated through this feature. The deal marks a significant shift in how the music industry approaches AI creativity — moving from outright opposition to structured monetization. It could set a precedent for how streaming platforms, labels, and artists co-exist in an AI-powered content economy.",
-          "summaryCn": "Spotify与环球音乐集团达成合作协议，允许付费订阅用户利用AI技术创作歌曲翻唱版本和混音作品。参与该计划的艺人将获得相应的收益分成。这一协议标志着音乐行业对AI创作态度的重大转变——从全面抵制转向有序商业化。此举或将为流媒体平台、唱片公司与艺人在AI时代的共存模式树立先例。",
-          "excerpt": "Spotify is partnering with Universal Music Group to let Premium subscribers create AI-generated song covers and remixes. Participating artists will receive a share of the revenue, marking a pivotal shift as the music industry moves from resisting AI to monetizing it.",
-          "vocab": [
-            {
-              "word": "strike a deal",
-              "pos": "phrase",
-              "meaning": "达成协议、谈妥合作。比 reach a deal 更口语化，且更强调双方经过博弈后最终拍板的动态感，商业新闻标题中极为常见，常搭配 with、over、on 等介词。值得学的原因：这是财经报道的核心固定搭配，直译成「打一个交易」会显得生硬。",
-              "exampleEn": "After months of negotiation, the two tech giants finally struck a deal over data-sharing rights.",
-              "exampleCn": "经过数月谈判，两大科技巨头终于就数据共享权达成了协议。",
-              "etymology": "复合短语，无独立词源。strike 源自古英语 strīcan（击打、滑过），deal 源自古英语 dǣlan（分割、分配），后引申为「协议」。短语将「击掌」的物理动作与「达成协议」的抽象含义融合，反映拍板成交的仪式感。",
-              "morphology": "复合短语，无独立词源。strike（动词：打击／达成）+ a（冠词）+ deal（名词：交易／协议）。同类 strike 短语：strike a balance（取得平衡）、strike a pose（摆姿势）；同类 deal 短语：close a deal（完成交易）、seal the deal（敲定协议）。",
-              "mnemonic": "想象两位谈判者在桌上猛力击掌（strike），「啪」的一声代表协议拍板（deal）——中文「拍板」本就是「用力击打」的动作，与 strike a deal 完美呼应，画面感极强。"
-            },
-            {
-              "word": "revenue share",
-              "pos": "n. phrase",
-              "meaning": "收益分成，即平台或合作方按比例瓜分所产生的收入。值得学的原因：区别于 royalty（版税，按固定比例或每单位计算），revenue share 更强调动态比例分配，是订阅经济和平台商业模式报道中的核心术语。",
-              "exampleEn": "Under the new revenue share model, content creators keep 70% of the subscription fees their channel generates.",
-              "exampleCn": "根据新的收益分成模式，内容创作者可保留其频道所产生订阅费的70%。",
-              "etymology": "revenue 源自法语 revenu（归来之物），来自拉丁语 re-（回来）+ venire（来），原指「回流的收入」。share 源自古英语 scearu（切割、分配）。两词合并描述「将回流收入切割分配」的商业机制。",
-              "morphology": "revenue（名词：营收）+ share（名词：份额）。revenue 同根词：revenant（亡灵，字面「归来者」）、venue（场所，同源 venire）；share 派生：shareholder（股东）、profit-sharing（利润分享）、time-share（分时租用）。",
-              "mnemonic": "revenue = re（回来）+ venue（来处）→ 钱「流回来」就是收入；share 想象切蛋糕。revenue share 就是「把流回来的蛋糕按比例切开分」，对比 royalty（版税，按件计算的固定小零钱）更显动态。"
-            },
-            {
-              "word": "fan-made",
-              "pos": "adj.",
-              "meaning": "粉丝自制的、由普通用户创作的。值得学的原因：这是描述「用户生成内容」（UGC）的常见修饰语，暗含非官方、草根创作的含义，与 official 或 label-produced 形成对比，在版权政策和平台规则讨论中高频出现。",
-              "exampleEn": "The platform decided to monetize fan-made content rather than continue issuing takedown notices.",
-              "exampleCn": "该平台决定将粉丝自制内容变现，而非继续发出下架通知。",
-              "etymology": "复合词，无独立词源。fan 是 fanatic 的缩写，来自拉丁语 fanaticus（受神灵感召的狂热者）；made 来自古英语 macian（制作）的过去分词。合指「由狂热者亲手制作」，天然带有草根、非官方的色彩。",
-              "morphology": "fan（粉丝，fanatic 缩写）+ made（制作的，过去分词作形容词）。同类《-made》复合词：home-made（家制的）、hand-made（手工的）、tailor-made（量身定制的）、custom-made（定制的）。",
-              "mnemonic": "fan（风扇转个不停 = 疯狂粉丝）+ made（做的）→ 粉丝像风扇一样停不下来，亲手做出致敬作品。与 official release（官方出品，工厂流水线）对比，fan-made 是「爱心手工版」，充满草根温度。"
-            },
-            {
-              "word": "participating",
-              "pos": "adj.",
-              "meaning": "参与的、加入该计划的。值得学的原因：在商业协议语境中常修饰 artists、brands、retailers 等，暗示这是一种自愿选择加入的机制（opt-in），而非强制适用于所有人，是理解合作覆盖范围的关键词，不能与 involved 随意互换。",
-              "exampleEn": "Only participating merchants will be eligible for the promotional cashback program.",
-              "exampleCn": "只有参与该计划的商家才有资格享受促销返现活动。",
-              "etymology": "源自拉丁语 participare，由 pars／partis（部分）+ capere（抓取、获得）构成，原义为「取得一份」，后演变为「参与其中」，强调主动加入并获取份额的双重含义，暗含自愿选择（opt-in）的属性。",
-              "morphology": "parti-（= part 部分）+ -cip-（= capere 抓取）+ -at-（动词化后缀）+ -ing（形容词／进行时后缀）。同词根 capere 族：capture（捕获）、capable（有能力的）、anticipate（预期）；自身派生：participant（参与者）、participation（参与行为）。",
-              "mnemonic": "parti（联想 party 聚会）+ cip（联想 grip 抓住）→ 在聚会（party）上伸手「抓住」属于自己的那一份——这就是 participating！商业语境牢记：参与者是主动选择加入拿一份，不是被强制的。"
-            },
-            {
-              "word": "remix",
-              "pos": "v. / n.",
-              "meaning": "重新混音、改编曲目；也指由此产生的翻改版本。值得学的原因：与 cover（翻唱，保留原曲旋律和结构）不同，remix 更强调对音轨的深度重组和再创作，现已从音乐术语延伸至科技语境，泛指对已有内容进行重新组合。",
-              "exampleEn": "The streaming platform now allows users to remix licensed tracks and publish them under their own profiles.",
-              "exampleCn": "该流媒体平台现已允许用户对授权曲目进行混音改编，并以自己的账号名义发布。",
-              "etymology": "复合词，无独立词源。re- 来自拉丁语前缀，表「再次、重新」；mix 源自拉丁语 miscere（混合）。合指「将已有素材打散重新混合再造」，1970年代起源于黑胶 DJ 文化，后扩展至泛指对已有内容进行重新组合的科技语境。",
-              "morphology": "re-（再次，拉丁前缀）+ mix（混合）。re- 同前缀词：redo（重做）、rewrite（重写）、rethink（重思）；mix 派生：mixture（混合物）、mixer（混音器）、premix（预混合）。remix 本身兼作名词和动词使用。",
-              "mnemonic": "DJ 在转盘上「re（重新）+ mix（混合）」旧曲，把原音轨全部打碎再拼装。对比：cover 像穿别人的旧外套（旋律结构不变），remix 是把外套拆了重新裁剪设计，面目全新——深度改造才叫 remix。"
-            }
-          ]
-        },
-        {
-          "id": "20260521-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/21/strategys-michael-saylor-says-tokenization-will-let-investors-shop-for-yield.html",
-          "headlineEn": "Saylor Says Tokenization Will Let Investors Shop for Yield, Threatening Banks",
-          "headlineCn": "萨勒：代币化将让投资者「货比三家」追逐收益，银行业面临颠覆",
-          "summaryEn": "Michael Saylor, executive chairman of Strategy and a prominent Bitcoin advocate, told CNBC that tokenization — recording asset ownership on a blockchain — will fundamentally disrupt traditional banking and brokerage. He argued that tokenized assets will allow investors to freely compare and select yield-bearing products across platforms, much like online shoppers compare prices. This competitive dynamic could erode the captive customer relationships that banks and brokerages have long depended on for stable revenue.",
-          "summaryCn": "比特币倡导者、Strategy公司执行主席迈克尔·萨勒在CNBC表示，代币化——即将资产所有权记录于区块链上的过程——将从根本上颠覆传统银行业和经纪业。他认为，代币化资产将使投资者能够跨平台自由比较并选择收益最优的产品，就如同网购者货比三家。这一结构性转变可能逐步瓦解银行和券商长期赖以为生的固定客户群。",
-          "excerpt": "Bitcoin evangelist Michael Saylor told CNBC that tokenization will pose a direct challenge to traditional banking and brokerage businesses, enabling investors to freely shop across platforms for the best yield — a shift he argues could fundamentally reshape how capital is allocated.",
-          "vocab": [
-            {
-              "word": "tokenization",
-              "pos": "n.",
-              "meaning": "代币化；将现实资产（股票、债券、房产等）的所有权转化为区块链数字代币的过程。这是金融科技领域核心术语，区别于普通「数字化」(digitization)——它强调通过智能合约实现可编程、可分割的所有权，是读懂Web3与传统金融融合趋势报道的必备词汇。",
-              "exampleEn": "The tokenization of real estate could allow retail investors to own fractional shares of commercial properties with far lower capital requirements.",
-              "exampleCn": "房地产的代币化可以让散户投资者以低得多的资本门槛持有商业地产的部分权益。",
-              "etymology": "token来自古英语「tacen」，意为「标志、符号」，源自Proto-Germanic词根*taiknam，与teach同源，原义「使人知晓之物」。-ization为过程化名词后缀，整词语义演变为「将实物所有权转化为可流通符号的过程」。",
-              "morphology": "token（代币/符号）+ -ize（动词化后缀）+ -ation（名词化后缀），即tokenize的名词形式。同构词：securitization（证券化）、digitization（数字化）、standardization（标准化），均表「使……化的过程」。",
-              "mnemonic": "想象把一栋摩天大楼切成百万张游乐场「token」硬币，每枚币代表一小块产权，全球投资者人手一枚——这就是tokenization把大资产「硬币化」的核心画面。"
-            },
-            {
-              "word": "yield",
-              "pos": "n.",
-              "meaning": "收益率；投资产品产生的回报，通常以年化百分比表示。比「return」更专业，多用于固定收益产品语境。常见搭配：yield curve（收益率曲线）、yield spread（利差）、hunt for yield（追逐收益）。掌握此词是读懂债券和利率报道的基础。",
-              "exampleEn": "With interest rates falling, institutional investors began hunting for yield in emerging-market bonds and dividend stocks.",
-              "exampleCn": "随着利率下降，机构投资者开始在新兴市场债券和分红股中追逐更高收益。",
-              "etymology": "古英语「gieldan」，意为「偿还、给付报酬」，源自Proto-Germanic *geldan（支付）。中古英语中兼有「顺从」与「产出」两义，现代财务语境中「产生回报」直接延续「给付」本义，语义演变路径清晰。",
-              "morphology": "简单词，无前缀后缀。常见派生形式：yield（v./n.）→ yielding（adj. 顺从的/产出的）→ high-yield（高收益）。核心搭配成组记忆：yield curve（收益率曲线）、yield spread（利差）、dividend yield（股息率）。",
-              "mnemonic": "想象一片麦田——农民播种（投资）后，秋天麦田「yield丰收」，粮食就是回报。债券如同那片田，年年「yield」利息，收益率越高，地越肥。农业意象让抽象财务数字立刻有了土地的重量。"
-            },
-            {
-              "word": "shop for",
-              "pos": "phrasal v.",
-              "meaning": "货比三家；在多个选项间比较以寻找最优选择。本文中萨勒借用日常购物隐喻，形象描述投资者跨平台比价的行为。商业写作中此隐喻常用于强调市场竞争与消费者选择权，比「compare」更口语化、更具说服力和画面感。",
-              "exampleEn": "Sophisticated borrowers now shop for the best loan terms across multiple fintech platforms before committing to a lender.",
-              "exampleCn": "精明的借款人如今会在多个金融科技平台间货比三家，找到最优条款后才确定贷款方。",
-              "etymology": "复合短语，无独立词源。shop源自古英语「scoppa」（棚屋、摊位），for表目的方向。两词合用后固化为「货比三家、比价选购」的惯用搭配，日常口语色彩浓，借购物场景隐喻一切「多方比较择优」的行为。",
-              "morphology": "复合词/短语，无独立词源。shop派生：shopkeeper（店主）、window-shopping（只看不买）、go shopping。for介词搭配成组扩展：hunt for（追寻）、search for（搜寻）、look for（寻找），均表「为……而行动」。",
-              "mnemonic": "画面：投资者推着超市购物车，穿行于各大理财平台的「货架」之间，举起Fidelity和Schwab两款产品比较收益率标签——shop for就是这个「比价推车」的动作，比compare更有画面感和市场竞争的生动气息。"
-            },
-            {
-              "word": "pose a challenge to",
-              "pos": "phrase",
-              "meaning": "对……构成挑战；比单独使用「challenge」更正式，语气偏中性，常见于商业和学术报道，描述竞争威胁或结构性压力，不带「attack」的攻击性色彩。同族搭配：pose a threat / risk / problem to，是财经媒体高频表达，值得整组记忆。",
-              "exampleEn": "The rise of commission-free trading apps poses a serious challenge to full-service brokerage firms that rely on transaction fees.",
-              "exampleCn": "零佣金交易应用的兴起对依赖交易手续费的全服务经纪公司构成了严峻挑战。",
-              "etymology": "pose经法语「poser」源自拉丁语pausare（放置/摆出姿态）；challenge源自拉丁语calumnia（指控），经古法语演变为「正式挑战」。两词合用形成书面固定搭配，语气中性，描述结构性压力而非主动攻击。",
-              "morphology": "核心动词pose可替换构成系列短语：pose a threat to（构成威胁）、pose a risk to（带来风险）、pose a problem to（造成问题）——整组「pose a _____ to」框架一次记忆，财经媒体通用。challenge派生：challenging（有挑战性的）、challenger（挑战者）。",
-              "mnemonic": "想象一位拳击手「pose摆好架势」，面朝对手「challenge发出挑战」，手指指向对方（to）——整个姿势就是「对某人摆出挑战架势」。记住这个拳击画面，三个词的逻辑顺序永不混淆。"
-            },
-            {
-              "word": "brokerage",
-              "pos": "n.",
-              "meaning": "经纪业务；经纪公司。既可指行业整体（brokerage business），也可指具体机构（a brokerage）。与「broker」区分：broker指个人经纪人，brokerage指机构或业务本身。理解此词是读懂美股报道的基础——brokerage account（经纪账户）是美国普通投资者持有股票的标准账户类型。",
-              "exampleEn": "Major brokerages have been forced to slash trading commissions to zero in response to fierce competition from fintech startups.",
-              "exampleCn": "各大经纪公司迫于金融科技初创企业的激烈竞争，已不得不将交易佣金削减至零。",
-              "etymology": "broker源自古法语「brocheor」（葡萄酒中间商贩），后泛指一切「居间撮合者」。-age为名词后缀，表「行业、机构或行为」，如storage（储藏业）、marriage（婚姻行为）。合体后brokerage指经纪机构本身或其业务整体。",
-              "morphology": "broker（经纪人个体）+ -age（行业/机构后缀）。同后缀扩展：storage（存储机构）、coverage（覆盖范围）、passage（通道/经过行为）。三者对比：broker指人，brokerage指机构或业务，brokered deal指由经纪人促成的交易。",
-              "mnemonic": "broker谐音「broke穷了」——经纪人帮你买卖股票，收取佣金让你钱包变「broke」，而brokerage就是这家让你「broke」的机构。幽默记忆：进了brokerage，钱包可能broke，但至少你记住了这个词！"
             }
           ]
         }
