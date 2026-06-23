@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-06-22T23:15:07.181956+00:00",
+  "lastUpdated": "2026-06-23T23:16:25.350641+00:00",
   "level": "B2",
   "days": {
+    "2026-06-23": {
+      "label": "6月23日 (周二)",
+      "stories": [
+        {
+          "id": "20260623-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+          "headlineEn": "Nvidia Cuts Data Center Water Use, But AI's Bigger Water Problem Remains",
+          "headlineCn": "英伟达削减数据中心用水，但AI用水「大头」仍无解",
+          "summaryEn": "Nvidia has unveiled a new liquid cooling system that significantly reduces water consumption inside its data centers. The technology circulates coolant to absorb heat from servers, replacing traditional air-cooled or open-loop water systems. However, critics note that on-site water use is only a fraction of AI's total water footprint. The majority is consumed by fossil fuel power plants generating electricity for those facilities — an upstream problem that no data center hardware upgrade can address.",
+          "summaryCn": "英伟达推出了一套新型液冷系统，可大幅减少数据中心内部的用水量。该系统通过循环冷却液吸收服务器散发的热量，取代传统风冷或开路水冷方案。然而批评者指出，数据中心本地用水仅是AI总用水足迹的一小部分；更大的耗水来自为其供电的化石燃料发电厂——而这一「上游」问题，任何数据中心层面的硬件升级都无力触及。",
+          "excerpt": "Nvidia's new cooling technology cuts water use inside the data center. But the far larger share of AI's water consumption happens upstream, at fossil fuel power plants generating electricity for those facilities — and no hardware fix addresses that.",
+          "vocab": [
+            {
+              "word": "dissipate",
+              "pos": "v.",
+              "meaning": "使（热量、能量）散逸、消散。在数据中心语境中特指散热，比 remove 或 eliminate 更精确，强调热量「向四周扩散直至消失」而非物理移除，是工程、物理和芯片报道的高频词",
+              "etymology": "源自拉丁语 dissipare，由 dis-（分散、四处）与 supare（抛掷）组合而成，原义为「向四面八方抛散」，后演变为「使消散、耗尽」",
+              "morphology": "dis-（分散）+ -sipate（来自拉丁 supare，抛掷）。同前缀延伸：disperse（分散）、distribute（分配）、dissolve（溶解）；派生词：dissipation（n. 消散、耗散）、dissipative（adj. 耗散的）",
+              "mnemonic": "想象一块滚烫的芯片，热量像烟雾一样向四周「dis（分散）+ sip（一口一口地吸走）+ ate（被吃掉）」——热气就这样消散了",
+              "exampleEn": "The new cooling system is engineered to dissipate heat more efficiently, cutting the energy needed to keep server rooms at safe operating temperatures.",
+              "exampleCn": "新冷却系统专为更高效地散逸热量而设计，降低了维持机房安全运行温度所需的能耗。"
+            },
+            {
+              "word": "upstream",
+              "pos": "adj. / adv.",
+              "meaning": "（供应链或流程中）上游的、前端的。原指水流方向，商业中指价值链中更早的环节。此处指「发电厂」相对于「数据中心」属于上游问题——是财经和环保报道中核心的空间隐喻，比 earlier stage 更有张力",
+              "etymology": "古英语复合词，up（向上）+ stream（流、河流）。最初为地理术语指「河流上游」，工业革命后延伸为供应链隐喻，现已固化为商业英语惯用词",
+              "morphology": "up（向上）+ stream（流）。对应词：downstream（下游的）；三段式供应链：upstream / midstream / downstream；类似空间隐喻：upfront（预付的）、overhead（间接费用）",
+              "mnemonic": "想象一条河：你在河边工厂取水（数据中心），但水污染发生在更上游的化工厂（发电厂）——「upstream problem」就是「源头病，在下游治标没用」",
+              "exampleEn": "Carbon emissions from raw material extraction are an upstream issue that cannot be solved by making the final assembly process greener.",
+              "exampleCn": "原材料开采产生的碳排放是一个上游问题，单靠让最终组装流程更环保根本无法解决。"
+            },
+            {
+              "word": "footprint",
+              "pos": "n.",
+              "meaning": "（环境）足迹、资源占用量。最常见搭配为 carbon footprint（碳足迹）、water footprint（水足迹），比 impact 更具体，暗示「可量化、可追踪的痕迹」。ESG 报告和可持续发展报道必备词，也可指物理占地面积或市场覆盖范围",
+              "etymology": "古英语 fōtprint，foot（脚）+ print（印记）。20 世纪 90 年代环保运动将其引申为「资源消耗的可测量痕迹」，carbon footprint 一词由此在英语中固化",
+              "morphology": "foot（脚）+ print（印记）。常见搭配：carbon / water / land footprint；动词搭配：reduce / offset / disclose one's footprint；延伸含义：geographic footprint（地理覆盖）、market footprint（市场触达）",
+              "mnemonic": "脚踩在雪地上留下一个印（footprint）——AI 的耗水就像这个印，你以为只在数据中心，但发电厂那块雪地上还留着更大的脚印",
+              "exampleEn": "Companies are under increasing pressure to disclose their full water footprint, including consumption tied to their electricity suppliers.",
+              "exampleCn": "企业面临越来越大的压力，需要披露完整的水足迹，包括与其电力供应商相关的耗水量。"
+            },
+            {
+              "word": "retrofit",
+              "pos": "v. / n.",
+              "meaning": "对现有设施或设备进行技术改造、事后加装升级。与 upgrade 相比，retrofit 特指「原本未设计该功能，事后追加」，常见于数据中心节能改造、建筑绿色化，是工程和基础设施报道中的精准用词",
+              "etymology": "20 世纪中期英语构词，retro-（向后、追溯，源自拉丁 retro）+ fit（安装、配装）。最初用于飞机零件改装，后广泛用于任何「将新技术装入旧设备」的场景",
+              "morphology": "retro-（向后、追溯）+ fit（安装）。同前缀词：retroactive（追溯适用的）、retrospective（回顾的）；近义区分：upgrade（原有功能的量级提升）vs. retrofit（加装原本缺失的新功能）",
+              "mnemonic": "retro = 老旧 + fit = 装上去。就像给老房子装空调——原设计里根本没有，retrofit 就是「往老系统里强塞新技术」",
+              "exampleEn": "The company plans to retrofit its legacy data centers with liquid cooling systems to comply with new energy efficiency mandates.",
+              "exampleCn": "该公司计划对旗下老旧数据中心进行液冷系统改造，以符合新的能效监管要求。"
+            },
+            {
+              "word": "aggregate",
+              "pos": "adj. / v. / n.",
+              "meaning": "（adj.）总计的、综合的；（v.）汇总、聚合；（n.）总量。比 total 更正式，常见于数据分析、财报和政策报告。关键用法：aggregate water use 强调「跨多个环节加总」，提醒读者不能只看单一来源",
+              "etymology": "源自拉丁语 aggregare，ad-（朝向）+ gregare（聚群，来自 grex「羊群」），原义为「把羊群赶到一处」，后演变为「汇集、合计」",
+              "morphology": "ag-（ad- 的变体，朝向）+ greg-（群、聚集）+ -ate（动词/形容词后缀）。同词根词：congregate（聚集）、segregate（隔离）、gregarious（群居的、爱社交的）",
+              "mnemonic": "greg = 群（想象一群羊 aggregate 成一大群）。财报里 aggregate revenue 就是「把所有羊（收入来源）赶到一起数头数」——数量越大越吓人",
+              "exampleEn": "When you aggregate water consumption across power plants and data centers, AI's total usage is far higher than most published estimates.",
+              "exampleCn": "如果将发电厂和数据中心的耗水量汇总计算，AI 的总用水量远高于大多数公开估算。"
+            }
+          ]
+        },
+        {
+          "id": "20260623-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
+          "headlineEn": "Tata Electronics Confirms Data Breach Amid Global Supply Chain Expansion",
+          "headlineCn": "塔塔电子确认数据泄露，事发时正值其全球供应链版图扩张",
+          "summaryEn": "Tata Electronics, a critical manufacturing partner for Apple and Tesla, has officially confirmed a data breach affecting its systems. The incident raises urgent questions about supply chain security, as a compromise at a major vendor can expose multiple downstream clients to data, reputational, and regulatory risk. With Tata Electronics expanding its global manufacturing footprint, the breach carries outsized implications. The company has not yet fully disclosed the scope of compromised data or the number of individuals affected.",
+          "summaryCn": "作为苹果和特斯拉的重要制造合作伙伴，塔塔电子近日正式确认发生数据泄露事件。此次事故引发了业界对供应链安全的迫切反思——主要供应商一旦失守，其下游多个客户的数据安全、商业声誉及合规状况均可能随之受到波及。在塔塔电子持续拓展全球制造版图之际，此次泄露的影响尤为深远。目前，公司尚未完整披露被泄露数据的范围及受影响人员的具体数量。",
+          "excerpt": "Tata Electronics, one of Asia's largest contract manufacturers and a key supplier to Apple and Tesla, has confirmed that a data breach occurred within its systems. The company is investigating the incident, though the full scope of the compromise and the identities of those responsible remain unclear.",
+          "vocab": [
+            {
+              "word": "breach",
+              "pos": "n. / v.",
+              "meaning": "缺口、违反；（数据）泄露。「breach」在商业与法律语境中极为高频：data breach（数据泄露）、breach of contract（违约）、breach of duty（失职）。比「violation」更常见于新闻报道和法律文书，是财经科技英语的必备核心词。",
+              "etymology": "源自古英语「bræc」（破裂），与「break」同宗，原义指堤坝或城墙上出现的缺口，后引申为对规则、协议或安全系统的「突破口」。语义核心始终是「某道防线被打开」，从物理防御延伸至数字安全领域。",
+              "morphology": "单一词根词，无前后缀；常见派生：breach（名词）→ breach（动词，如 to breach a firewall）→ breachable（形容词，可被攻破的）。同族词 break、broke、broken 均源于同一原始日耳曼语词根 *brekan（断裂）。",
+              "mnemonic": "想象城墙上出现一道「缺口」（breach），敌人从中涌入——数据泄露正是黑客在防火墙上打开「缺口」让数据流出。与「beach（海滩）」仅差一个字母 r，记住：有 r 才能「突破」防线。",
+              "exampleEn": "The healthcare provider confirmed a breach affecting over two million patient records.",
+              "exampleCn": "该医疗机构确认发生数据泄露，超过两百万条患者记录受到影响。"
+            },
+            {
+              "word": "vendor",
+              "pos": "n.",
+              "meaning": "（企业级）供应商、卖方。在科技采购语境中，「vendor」特指向企业提供产品或服务的外部公司，比「supplier」更强调合同与商业交易关系，常见于 vendor management（供应商管理）、vendor lock-in（供应商锁定）等搭配，是 B2B 场景的核心词汇，供应链报道中随处可见。",
+              "etymology": "源自拉丁语「vendere」（出售），由「venum」（货物/销售）+「dare」（给予）合成，13世纪经古法语「vendeur」进入英语，原指街头小贩，后扩展至任何商业卖方，现尤指科技行业的软硬件供应商。",
+              "morphology": "词根 vend-（出售）+ 后缀 -or（表执行者）；同词根词：vend（自动销售，如 vending machine 自动售货机）、vendible（可销售的）、vending（销售行为）。派生词族简洁，记住 vend- = 卖即可横向扩展。",
+              "mnemonic": "「vendor」= 「ven（出售）+ dor（者）」，想象一个站在自动售货机（vending machine）旁的商人，他就是这台机器的「vendor」（供应商）。供应链里的 vendor，就是那个把零件「卖给」你的人。",
+              "exampleEn": "After the breach, Apple immediately began auditing its hardware vendor's security protocols.",
+              "exampleCn": "泄露事件发生后，苹果立即开始审查其硬件供应商的安全协议。"
+            },
+            {
+              "word": "disclose",
+              "pos": "v.",
+              "meaning": "正式披露、公开（本应保密的信息）。「disclose」强调主动、正式地揭示信息，常用于企业向监管机构或公众披露事故、财务数据或漏洞。比「reveal」更正式，多出现在法律和监管语境，如 disclose a breach（披露泄露事件）、disclose material information（披露重大信息），其名词 disclosure 在财务报告中极为常见。",
+              "etymology": "源自拉丁语前缀「dis-」（解除、取消）+「claudere」（关闭），原义为「打开原本封闭之物」，14世纪经古法语进入英语，语义演变为「揭开原本封锁的信息」，始终保留「解除封闭」的核心意象。",
+              "morphology": "dis-（否定/解除）+ close（关闭）；派生词：disclose（动词）→ disclosure（名词，如 full disclosure 完整披露）。「claudere」词根衍生词：enclose（封入）、foreclose（丧失赎回权）、recluse（隐士，主动封闭自我的人）。",
+              "mnemonic": "「dis-（解除）+ close（关闭）」= 把原本「关闭」的信息「解封」。想象一个保险箱被打开（dis-closed），里面的机密文件终于公之于众。监管机构要求企业「打开保险箱」，就是 disclose。",
+              "exampleEn": "Under GDPR, companies must disclose a data breach to regulators within 72 hours of discovery.",
+              "exampleCn": "根据《通用数据保护条例》，企业必须在发现数据泄露后72小时内向监管机构披露。"
+            },
+            {
+              "word": "exfiltrate",
+              "pos": "v.",
+              "meaning": "（网络攻击中）秘密窃取并传输数据。「exfiltrate」是网络安全专业术语，原为军事用语，专指黑客悄悄将数据从受害者系统中「带走」的行为。比「steal」更精确地描述了攻击者绕过监测、分批渗出数据的技术过程，是安全事故报告和科技新闻中的高频词，B2 学习者掌握此词可直接提升阅读技术新闻的能力。",
+              "etymology": "源自拉丁语「ex-」（向外）+「filtrare」（过滤、渗透），军事术语原指将间谍或人员秘密撤出敌方领土，后被网络安全领域借用，描述数据被悄悄「渗出」系统的过程，与「infiltrate（渗入）」构成方向相反的一对词。",
+              "morphology": "ex-（向外）+ filtrate（过滤/渗透）；对应词：infiltrate（渗入，方向相反）；同前缀 ex- 词群：export（出口）、extract（提取）、exclude（排除）。方向口诀：in- = 进入，ex- = 出去，两词合起来记效率翻倍。",
+              "mnemonic": "「ex（出去）+ filtrate（渗透）」——黑客像水一样「渗出」防火墙，把数据偷偷「过滤」出去。与「infiltrate（渗入）」对比记忆：infiltrate 是黑客钻进去，exfiltrate 是把数据带出来，一进一出，前缀不同方向相反。",
+              "exampleEn": "Investigators found that the attackers had exfiltrated sensitive employee data over a period of three weeks.",
+              "exampleCn": "调查人员发现，攻击者在长达三周的时间内持续窃取了敏感员工数据。"
+            },
+            {
+              "word": "liability",
+              "pos": "n.",
+              "meaning": "法律责任；（会计）负债。「liability」在商业和法律语境中有双重含义：法律层面指因过错或违规须承担的赔偿或处罚义务（如 regulatory liability 监管责任）；财务层面指资产负债表上的「负债」（liabilities vs. assets）。数据泄露事件往往同时触发两种含义，是财经英语必掌握的高价值核心词。",
+              "etymology": "源自法语「liable」（有义务的），最终追溯至拉丁语「ligare」（绑定），17世纪进入英语，原义为「被法律所绑定的义务」，后扩展为任何形式的责任或负债。「ligare」是英语中极为多产的词根，衍生出大量常见词汇。",
+              "morphology": "liable（形容词）+ -ity（名词化后缀）；「ligare」词根衍生词：rely（依赖）、ally（盟友）、oblige（使承担义务）、ligament（韧带，将骨头「绑定」在一起）、religion（宗教，被信仰「绑定」的人）。认识这个词根可解锁数十个英语词。",
+              "mnemonic": "想象一根绳子（来自拉丁语 ligare = 绑）将公司「绑」在了赔偿台上——一旦发生数据泄露，企业就被「绑定」上了巨额罚款和诉讼，无法脱身。liability = 被法律绑住的状态，画面鲜明易记。",
+              "exampleEn": "A confirmed data breach can expose a company to significant legal liability and regulatory fines.",
+              "exampleCn": "一旦数据泄露被证实，企业可能面临巨大的法律责任和监管罚款。"
+            }
+          ]
+        },
+        {
+          "id": "20260623-3",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/cerebras-delivers-its-first-earnings-report-but-its-not-enough-to-lift-the-stock-8e80cb6d?mod=mw_rss_topstories",
+          "headlineEn": "Cerebras Posts First Earnings Report but Stock Slides in After-Hours Trading",
+          "headlineCn": "赛布拉斯首份财报出炉，盘后股价仍承压下行",
+          "summaryEn": "Cerebras, the AI chip startup, released its debut earnings report showing stronger-than-expected revenue driven by demand for its high-speed AI inference chips. However, the upbeat figures failed to temper investor concerns, and the stock fell in after-hours trading. Analysts suggest the selloff reflects lingering questions about the company's path to profitability and fierce competition in the AI semiconductor market — a familiar challenge for growth-stage tech firms entering the public markets.",
+          "summaryCn": "AI芯片创业公司赛布拉斯发布了上市以来的首份财务报告，营收表现优于预期，受益于市场对其高速AI推理芯片的强劲需求。然而，亮眼的收入数据未能打消投资者疑虑，公司股价在盘后交易中仍告下跌。分析人士认为，此次抛售折射出市场对该公司盈利路径及AI半导体行业激烈竞争的持续顾虑，这也是成长期科技公司进入公开市场时普遍面临的挑战。",
+          "excerpt": "Despite posting upbeat revenue figures in its debut earnings report, Cerebras saw its stock fall in after-hours trading. Investors appeared unmoved by the headline numbers, as lingering concerns about profitability and competition in the AI chip market continued to weigh on sentiment.",
+          "vocab": [
+            {
+              "word": "upbeat",
+              "pos": "adj.",
+              "meaning": "乐观的、积极的。财经新闻中高频词，用于描述业绩、预测或市场情绪的正面基调，如 upbeat revenue figures（亮眼的营收数据）、upbeat outlook（乐观前景）。比 positive 更有「语气活跃、充满动能」的色彩，是记者报道好消息时的首选词，值得作为财经写作词汇主动掌握。",
+              "etymology": "源自音乐术语：up（向上）+ beat（拍子）。最初指指挥棒「向上挥动」的那个弱拍（对应 downbeat 强拍）。19世纪后期延伸出「情绪高涨、乐观」的比喻义——向上的节拍象征轻盈积极的心情，后广泛用于新闻和商业语境。",
+              "morphology": "up-（前缀，表示方向向上或状态提升）+ beat（节拍）。同前缀词：uptrend（上升趋势）、upswing（回升）、upgrade（升级）。upbeat 既可作名词（音乐弱拍），也可作形容词（乐观的），两种用法均源于同一词形。",
+              "mnemonic": "想象指挥家的指挥棒「向上一挥」——UP + BEAT——整个乐团精神振奋。每次看到 upbeat，就想到那根往上挥的棒子，情绪和股价都在往上走，气氛积极热烈。",
+              "exampleEn": "The company's CFO delivered an upbeat outlook for the next quarter, citing strong cloud adoption among enterprise clients.",
+              "exampleCn": "公司首席财务官对下季度给出了乐观预期，理由是企业客户中云服务的普及率持续提升。"
+            },
+            {
+              "word": "after-hours",
+              "pos": "adj. / phrase",
+              "meaning": "盘后的、正常交易时段结束后的。专指美股常规交易时段（9:30–16:00 ET）结束后的延伸交易。财经新闻核心词汇，财报季尤为常见——公司多在收盘后发布财报，after-hours 股价反应往往预示次日开盘走势，是读懂财经新闻的必备词。",
+              "etymology": "复合词，由 after（古英语 æfter，表示「在……之后」）+ hours（拉丁语 hora，经由法语 heure 演变而来，意为「时段」）构成。字面义为「在正常营业时段之后」，在金融语境中特指交易所闭市后的电子交易时段。",
+              "morphology": "after-（前缀，表示时间上的「之后」）+ hours（名词复数）。同前缀词：aftermarket（售后/盘后市场）、aftermath（后果）、afterthought（事后想法）。after-hours 整体作形容词，修饰 trading、session、move 等名词。",
+              "mnemonic": "想象交易所大钟敲响下午四点——铃声一过，大厅灯灭，但场外依然有人在暗处买卖，那就是 after-hours。记住：财报总在「灯灭之后」发布，这时的涨跌最值得关注。",
+              "exampleEn": "Shares of the semiconductor firm jumped 9% in after-hours trading after the company raised its full-year revenue forecast.",
+              "exampleCn": "在该公司上调全年营收预期后，其股票在盘后交易中涨幅达9%。"
+            },
+            {
+              "word": "weigh on",
+              "pos": "phrasal v.",
+              "meaning": "对……形成压力、拖累、使承压。财经新闻极高频短语，描述负面因素对股价、情绪或业绩的拖累，如 weigh on stocks / weigh on sentiment / weigh on margins。比 affect negatively 更生动——「重量压在上面」的物理感让读者瞬间感受到那种向下的力量，是地道商业英语的标志性用法。",
+              "etymology": "weigh 源自古英语 wegan（搬运、移动），与德语 wiegen（称重）同源。「weigh on」借助重量的物理隐喻描述负面压力，这一用法至少可追溯至16世纪英语文学，「心事压身」的意象跨越了商业与文学两个语域延用至今。",
+              "morphology": "weigh（古英语词根 wegan）+ on（介词，表示接触施压）。同词根词：outweigh（超过）、counterweigh（抵消）、weightless（无重力的）。注意区分三个近似短语：weigh on（压制）、weigh in（称重/表态）、weigh up（权衡利弊）。",
+              "mnemonic": "想象一块巨石压在K线图上面——图表只能往下压，动弹不得。Weigh ON = 重量压在某物之「上」，方向向下。坏消息 weigh on 股价，就是坏消息这块石头压住了股价。",
+              "exampleEn": "Supply chain disruptions and rising energy costs continued to weigh on operating margins throughout the fiscal year.",
+              "exampleCn": "供应链中断和能源成本上涨在整个财年内持续压制公司运营利润率。"
+            },
+            {
+              "word": "temper",
+              "pos": "v.",
+              "meaning": "缓和、抑制、调节（情绪、预期或影响）。商业语境中，temper expectations（抑制预期）、temper enthusiasm（平息热情）、temper concerns（缓解顾虑）均为固定搭配，指「把过度高涨或过度悲观的情绪拉回理性区间」。比 reduce 更有「精细调节」的含义，语域偏正式，带有克制、专业的语气。",
+              "etymology": "源自拉丁语 temperare（按比例混合、调节），与 temperature（温度）、temperate（温和的）同根。原义是冶金中的「回火」工艺——把过硬的钢加热再冷却，使韧性恢复平衡。「调节使其适中」的核心语义延续至今。",
+              "morphology": "拉丁词根 temper-（调节、混合）。同族词群：temperature（温度）、temperate（温带的）、temperament（性情）、intemperate（无节制的）。整个词族都围绕「平衡调节」展开，掌握词根可横向识记多个高频词。",
+              "mnemonic": "铁匠「回火」的画面：钢太硬就加热冷却，使其不软不硬、恰到好处。Temper = 让事物回到「刚好的温度」。分析师 temper expectations，就是把过热的预期「冷却」到合理水平，不过冷也不过热。",
+              "exampleEn": "Better-than-expected jobs data tempered speculation that the Fed would cut interest rates as early as September.",
+              "exampleCn": "好于预期的就业数据抑制了市场对美联储最早于9月降息的猜测。"
+            },
+            {
+              "word": "debut",
+              "pos": "n. / v.",
+              "meaning": "首次登场、首秀；初次发布（报告、产品）。财经语境中，debut earnings report（首份财报）、market debut（市场首秀）、stock debuts at $X（股票以X价格首日开盘）均为标准搭配。比 first 更正式，带有「公众瞩目的首次亮相」仪式感，暗示此前有充分期待与积累，常见于新股上市、产品发布等报道。",
+              "etymology": "借自法语 début（开始、首次出场），词根为古法语 but（目标、界桩）加前缀 dé-（表示起点/离开）。最初是剧场术语，指演员第一次正式登台演出；18世纪进入英语后逐渐扩展到商业、体育、金融等领域。",
+              "morphology": "法语前缀 dé-（起点）+ but（目标），整体为不可拆解的借词。派生词：debutante（初入社交界的年轻女性）。在金融语境中常作动词，如「the stock debuted at $18」（该股首日以18美元开盘）；作名词时常见「market debut」「earnings debut」等搭配。",
+              "mnemonic": "想象一个新演员第一次走上舞台，聚光灯打下来——紧张、期待、全场瞩目，那就是 debut 的感觉。赛布拉斯的首份财报，正是它在公开市场的「首次亮相」，所有投资者的目光都聚焦于此。",
+              "exampleEn": "The robotics startup's stock debuted at $24 per share, valuing the company at just over $3 billion on its first day of trading.",
+              "exampleCn": "这家机器人初创公司的股票以每股24美元首日开盘，上市首日公司估值略超30亿美元。"
+            }
+          ]
+        },
+        {
+          "id": "20260623-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/23/social-security-reform-cassidy.html",
+          "headlineEn": "Sen. Cassidy Proposes Stock Market Investment to Fix Social Security Shortfall",
+          "headlineCn": "卡西迪参议员提议投资股市，为社保资金缺口「续命」",
+          "summaryEn": "Senator Bill Cassidy, in his final days in office, is championing a bold proposal to rescue Social Security by directing a portion of the program's funds into the stock market. With actuarial projections warning of a funding shortfall within the decade, Cassidy argues that equity returns could keep the program solvent without raising taxes or cutting benefits. Critics, however, caution that tying retirement entitlements to market volatility poses serious risks to millions of Americans.",
+          "summaryCn": "美国参议员比尔·卡西迪在任期最后阶段，力推一项大胆方案：将社会保障基金的一部分投入股市，借助权益类资产回报填补迫在眉睫的资金缺口。精算预测显示，社保信托基金将于本十年内面临财务危机。卡西迪认为，此举可在不增税、不削减福利的前提下维持体系偿付能力。但批评者警告，将法定退休福利与股市波动挂钩，将使数百万美国人面临巨大风险。",
+          "excerpt": "With Social Security facing a projected funding shortfall within the decade, Sen. Bill Cassidy said he has developed a plan to invest in the stock market on the program's behalf — a move he calls a 'big idea' that could keep the system solvent without raising taxes or cutting benefits.",
+          "vocab": [
+            {
+              "word": "shortfall",
+              "pos": "n.",
+              "meaning": "资金或收入的「缺口/差额」——比 deficit（赤字）更常见于特定项目预算语境，强调实际收入或储备「未达到预期目标」的差距，而非整体负债。核心搭配：funding shortfall（资金缺口）、budget shortfall（预算缺口）、revenue shortfall（收入缺口）",
+              "etymology": "来自古英语 scort（短缺）与 fall（下落、减少）的组合，字面义为「数量落在目标之下」，约13世纪起用于指数量不足的状况，后广泛进入财经语境，成为预算分析的标准术语",
+              "morphology": "short（不足的）+ fall（下落）→ 复合名词 shortfall（缺口）。同词根扩展：shortcoming（不足/缺点）、shortchange（少找零钱，引申为欺骗）；对比 windfall（意外之财，wind + fall，「风吹落下的果实」），两者方向相反",
+              "mnemonic": "想象一个水桶，目标水位是满的，但水位「short（短）」了一段，向下「fall（落）」——资金缺口就是「差那么一截」的感觉。short + fall = 没达标的那个差距，比 deficit 更形象",
+              "exampleEn": "The pension fund reported a $2 billion shortfall, forcing managers to reconsider their long-term investment strategy.",
+              "exampleCn": "养老基金报告了20亿美元的资金缺口，迫使管理层重新审视长期投资策略。"
+            },
+            {
+              "word": "solvency",
+              "pos": "n.",
+              "meaning": "偿付能力——财经报道核心词，指一个机构能否用其总资产覆盖全部负债。与 liquidity（流动性）的关键区别：liquidity 看短期现金够不够用，solvency 看长期资产总量是否足以偿清所有债务。社保改革语境中，solvency 专指基金能否长期维持正常发放，是政策辩论的核心指标",
+              "etymology": "来自拉丁语 solvere（解开、偿还，字面义「松绑」）→ 法语 solvant → 英语 solvent（有偿付能力的）+ -cy（名词后缀，表状态），14世纪经由法语进入英语金融语境，随现代银行业发展成为监管核心概念",
+              "morphology": "solv-（拉丁词根，来自 solvere，偿还/解决）+ -ency（名词后缀，表状态/性质）。同词根家族：solve（解决）、dissolve（溶解/解散）、resolve（决心）、insolvent（资不抵债的，in- 否定前缀）、absolution（赦免，ab- 离开）",
+              "mnemonic": "sol 联想「太阳（sol）」，太阳给万物能量——有 solvency 就有「还债的能量」。反过来 insolvency（破产）就是「失去了太阳、断了能量」。也可联想：solve（解决问题）→ solvency（有能力解决债务问题的状态）",
+              "exampleEn": "Regulators require banks to maintain a minimum capital ratio to ensure long-term solvency under stress scenarios.",
+              "exampleCn": "监管机构要求银行在压力情景下维持最低资本充足率，以确保长期偿付能力。"
+            },
+            {
+              "word": "entitlement",
+              "pos": "n.",
+              "meaning": "（美式政治/财经语境）法定福利项目，指公民依法享有的政府福利（如社保、医保）——此词有双重含义需区分：财经/政策语境为中性义（法定权利）；口语中常带贬义（无理要求特殊待遇的心态）。「entitlement spending」是美国联邦预算最大支出项，读懂美国财政必须掌握",
+              "etymology": "来自古法语 entituler（授予头衔、赋予权利）→ 英语 entitle（授权、使有资格）+ -ment（名词后缀），中世纪起指「依法被授予的权利或资格」，20世纪美国政治中专指通过立法确立的社会福利项目",
+              "morphology": "en-（使成为，前缀）+ title（头衔/名称/权利，来自拉丁 titulus）+ -ment（名词后缀，表结果/状态）。近族词：entitled（有权的/自以为是的）、entitle（授予权利）、title（标题/产权/称号）、subtitle（副标题）",
+              "mnemonic": "en + title + ment——政府给你颁发了一个「title（头衔）」，这个头衔就代表你「有权享受」某项福利。想象官方盖章：「此公民有权领取养老金」——那个盖章的权利就是 entitlement",
+              "exampleEn": "Entitlement programs such as Social Security and Medicare represent the largest and fastest-growing share of the federal budget.",
+              "exampleCn": "社保和医保等法定福利项目占联邦预算的最大份额，且增速最快。"
+            },
+            {
+              "word": "lame-duck",
+              "pos": "adj.",
+              "meaning": "「跛脚鸭」的，指即将卸任、权力大减的官员或政府——政治新闻高频词，常见搭配：lame-duck session（权力交接前的国会末期会期）、lame-duck president/senator。卡西迪在任期最后几天力推大改革，正是典型的 lame-duck 困境：有想法、缺筹码",
+              "etymology": "18世纪英国股票交易所俚语，指无力偿还债务、「飞不动」的失败投机者（鸭子因腿伤无法飞翔）；19世纪传入美国政治语境，转指任期将满、无力推动议程的官员，因其「跛行」般的无力感得名",
+              "morphology": "lame（跛的、无力的，来自古英语 lama）+ duck（鸭子）→ 固定隐喻复合词，无独立词根拆解。近义表达：outgoing（即将离任的）、departing（离任的）；对比 rubber-stamp（橡皮图章，指有名无实的批准机构）",
+              "mnemonic": "想象一只鸭子瘸着腿慢慢走——既追不上议程，也无法飞离。任期末尾的政客就是这只「跛脚鸭」：还在位子上，但大家都知道他说了不算。lame（跛）+ duck（鸭）= 有名无实，走走过场",
+              "exampleEn": "As a lame-duck senator, his chances of passing major reform legislation before the session ends are slim.",
+              "exampleCn": "作为一名即将卸任的参议员，他在会期结束前通过重大改革立法的机会极为渺茫。"
+            },
+            {
+              "word": "actuarial",
+              "pos": "adj.",
+              "meaning": "精算的——与保险、养老金长期财务测算密切相关，「actuarial projections」指基于人口统计、死亡率、利率等数据对资金未来状况的科学预测。读社保、养老金、保险相关财经报道的必备词，教材罕见但新闻高频，不认识就看不懂社保改革的技术依据",
+              "etymology": "来自拉丁语 actuarius（记录员、会计，源自 actus「记录/行动」）→ 英语 actuary（精算师）+ -ial（形容词后缀），19世纪随英美现代保险业兴起而进入专业词汇体系，成为精算学的核心术语",
+              "morphology": "act-（拉丁词根 agere，做/行动/记录）+ -uary（拉丁后缀，表「与……相关的人/事」，如 February「净化月」、sanctuary「圣所」）+ -ial（形容词后缀）。同词根扩展：actual（实际的）、actuary（精算师）、enact（制定法律）、transaction（交易）",
+              "mnemonic": "actuarial ≈ actual + ial——精算师用「真实（actual）」的历史数据做「实际」的概率计算。口诀：「actual（实际）数据 + 精密建模 = actuarial（精算的）」。精算师就是把养老基金的未来算得跟「实际」一样准的人",
+              "exampleEn": "According to actuarial projections, the Social Security trust fund could be depleted by 2033 without legislative reform.",
+              "exampleCn": "根据精算预测，若不进行立法改革，社会保障信托基金可能于2033年耗尽。"
+            }
+          ]
+        },
+        {
+          "id": "20260623-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/23/fed-warsh-atlanta-michael-faulkender.html",
+          "headlineEn": "Kevin Warsh Uses Atlanta Fed Search to Reshape the Central Bank",
+          "headlineCn": "沃什借亚特兰大联储行长遴选重塑美联储格局」",
+          "summaryEn": "The vacancy at the Federal Reserve Bank of Atlanta gives new Fed Chair Kevin Warsh an early and concrete chance to put his stamp on the institution. Regional Fed presidents hold rotating voting seats on the Federal Open Market Committee, directly influencing interest rate decisions. By steering the selection process, Warsh can build a board more aligned with his economic philosophy—signaling that a leadership transition at the top may ripple through the Fed's entire policymaking culture.",
+          "summaryCn": "亚特兰大联储行长职位的空缺，为新任美联储主席凯文·沃什提供了一次难得的早期机会，使其得以将个人经济理念注入这一核心机构。亚特兰大联储行长在联邦公开市场委员会（FOMC）中拥有轮值投票权，对利率决策具有直接影响。通过主导此次遴选，沃什有望打造一个与自身政策立场更为契合的委员会阵容，外界将此次人事布局视为美联储新一轮权力重塑的重要信号。",
+          "excerpt": "The search for Atlanta's next Fed president offers Warsh a rare early chance to shape the central bank's direction. Regional presidents hold rotating voting seats on the FOMC and can meaningfully shift the balance of opinion on interest rates and inflation policy.",
+          "vocab": [
+            {
+              "word": "vetting",
+              "pos": "n. / v.",
+              "meaning": "对候选人进行严格的背景审查与资质核查。比 screening（筛选）更正式，暗含对个人立场、背景和能力的全面调查，是政治任命和高级职位报道中的高频词，值得专门掌握。",
+              "etymology": "源自古英语 vet（兽医），原义为「由兽医检查马匹的健康状况」，20世纪初扩展为「对人员进行彻底审查」，从畜牧业术语演变为人事与政治语境的核心词汇。",
+              "morphology": "vet（词根，兽医/检查）+ -ting（动词现在分词后缀）。同根词：veterinarian（兽医），veteran（老兵，源自拉丁 vetus「老」，词源不同但形近易混）。派生名词：vetting（审查过程），vetter（审查者）。",
+              "mnemonic": "想象一位「vet（兽医）」在检查一匹赛马的每颗牙、每块蹄铁——vetting 就是这种「一丝不苟逐项检查」的感觉，只不过对象从马变成了候选人。",
+              "exampleEn": "The board spent three months vetting candidates before announcing the appointment of a new CFO.",
+              "exampleCn": "董事会花了三个月对候选人进行严格审查，才宣布新任首席财务官人选。"
+            },
+            {
+              "word": "shortlist",
+              "pos": "n. / v.",
+              "meaning": "最终候选名单；将某人列入决赛名单。比 select 更精确，特指从初轮筛选进入最终竞争阶段，商界招聘、政策评奖和政治任命报道中极为常见，是一个看似简单却容易写成两个词的词。",
+              "etymology": "短语复合词，无独立词源。short（短/精简）+ list（名单），字面义为「缩短了的名单」，20世纪中期起广泛进入商界和政界英语，反映现代人事流程的标准化。",
+              "morphology": "short（形容词）+ list（名词）构成复合词，可作动词（shortlist sb. for a role）或名词（be on the shortlist）。反义构词：longlist（初步候选长名单）。两者合用可描述完整的遴选流程。",
+              "mnemonic": "面试流程可视化：先 longlist 大网捞鱼，再 shortlist 精挑细选——名单越来越「short（短）」，你离录用越来越近。记住它是一个词，不加连字符。",
+              "exampleEn": "Three fintech startups have been shortlisted for the central bank's digital currency pilot program.",
+              "exampleCn": "三家金融科技初创公司已入围央行数字货币试点项目的最终候选名单。"
+            },
+            {
+              "word": "succession",
+              "pos": "n.",
+              "meaning": "继任；权力传承。在商业报道中特指高层职位的有序交接，「succession planning（继任规划）」是企业治理的核心议题。比 replacement 更强调连续性与计划性，语域更正式。",
+              "etymology": "源自拉丁语 successio，由 succedere 演变而来：sub-（在……之下、紧随其后）+ cedere（行走、前进），原义「走到前任之后」，后泛指任何形式的继承与接替。",
+              "morphology": "suc-（sub- 的变体）+ -cess-（来自 cedere，行走）+ -ion（名词后缀）。同词根家族：precede（在前）、concede（让步）、proceed（前进）、access（进入），掌握 -ced-/-cess- 可解锁大量词汇。",
+              "mnemonic": "suc-CESS-ion 里藏着「success（成功）」——成功接班就是 succession，两个词共享 -cess- 词根，都是「往前走」的意思。想到接班就想到「走向成功」。",
+              "exampleEn": "The sudden resignation of the CEO triggered an urgent succession debate among board directors.",
+              "exampleCn": "首席执行官的突然辞职在董事会中引发了紧迫的继任讨论。"
+            },
+            {
+              "word": "anoint",
+              "pos": "v.",
+              "meaning": "非正式地指定某人为接班人或领袖（原义为涂圣油祝圣）。财经报道中用于描述有影响力的人物「钦点」某人，带有「加冕」隐喻，语气比 appoint 更具戏剧性，暗示权力的非正式传递。",
+              "etymology": "源自古法语 enoint，来自拉丁语 inunguere：in-（在……上）+ unguere（涂抹油脂）。原为宗教仪式专用语，指国王或祭司就职时由神职人员涂抹圣油，后引申为任何「钦定」行为。",
+              "morphology": "a-（前缀，强调动作）+ noint（来自拉丁 unctum，油膏）。派生词：anointed（被钦点的人），anointing（涂圣油仪式）。近义词辨析：anoint（非正式钦点，含隐喻色彩）vs. appoint（正式任命）vs. designate（指定，较中性）。",
+              "mnemonic": "想象古代国王加冕典礼——大祭司把油涂（-noint）到（a-）国王额头，从此他是「被神选中的人」。记者用 anoint 写商界时，就在借用这种「神圣加冕」的隐喻，画面感极强。",
+              "exampleEn": "The outgoing chairman effectively anointed his deputy as successor before the board held its formal vote.",
+              "exampleCn": "即将卸任的董事长在董事会正式投票前，实际上已将副手钦点为接班人。"
+            },
+            {
+              "word": "clout",
+              "pos": "n.",
+              "meaning": "实际影响力；权势。比 influence 更口语化、更有力量感，暗含「说话算数、能推动事情发生」的实质权力，而非仅仅名义上的地位。财经评论中极常用，尤其描述政界与商界的非正式权力。",
+              "etymology": "源自古英语 clut（一块布；一记重击），中世纪英语中指「猛击」。现代「影响力」义源于美国俚语，约20世纪初从「击打的力量」隐喻扩展至「政治与社会力量」，体现语言的具身认知。",
+              "morphology": "单一词根，无前后缀可拆解。近义词辨析：clout（实际权力，非正式）vs. authority（正式权威，来自制度授权）vs. leverage（可用来施压的筹码）——三者侧重点不同，是财经写作中值得细辨的近义词组。",
+              "mnemonic": "clout 谐音「靠拢」——有 clout 的人，大家都向他靠拢。或者联想「一记重拳（clout）」：有 clout 的人发话，就像打出一拳，别人不得不让步。",
+              "exampleEn": "As a former Fed governor, Warsh carries enough clout to steer the committee's approach to rate decisions.",
+              "exampleCn": "作为前美联储理事，沃什拥有足够的影响力，能够引导委员会在利率决策上的整体方向。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-22": {
       "label": "6月22日 (周一)",
       "stories": [
@@ -8838,326 +9158,6 @@
               "mnemonic": "想象一只猫把老鼠逼到墙角——那就是 cornered。美联储被通胀和衰退风险这两堵「墙」夹住：降息怕通胀失控，不降又怕经济崩，被逼到角落出不来。这幅猫鼠画面完美诠释 cornered",
               "exampleEn": "With inflation still elevated and recession fears mounting, the central bank found itself cornered, unable to cut rates without risking a price spiral.",
               "exampleCn": "通胀居高不下、衰退担忧加剧，央行陷入两难困局——降息恐引发价格螺旋，按兵不动又面临增长下行压力。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-23": {
-      "label": "5月23日 (周六)",
-      "stories": [
-        {
-          "id": "20260523-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back/",
-          "headlineEn": "These special phone and app features can help protect you from spyware",
-          "headlineCn": "苹果、谷歌和Meta的特殊安全模式如何防御间谍软件",
-          "summaryEn": "Apple, Google, and Meta each offer specialized security modes designed to protect high-risk users from targeted spyware attacks. Apple's Lockdown Mode, Android's Advanced Protection Program, and Meta's equivalent restrict certain device functions to shrink the attack surface. These tools matter because sophisticated spyware—such as Pegasus—can silently compromise devices belonging to journalists, activists, and executives. As mobile spyware becomes more accessible to threat actors globally, knowing how to enable these protections is increasingly critical.",
-          "summaryCn": "苹果、谷歌和Meta均推出了专为高风险用户设计的特殊安全模式，以抵御定向间谍软件攻击。苹果的「隔离模式」、安卓的「高级保护计划」以及Meta的同类功能，通过限制部分设备功能来压缩攻击面。这些工具的重要性日益凸显，因为Pegasus等高端间谍软件能够静默入侵记者、活动人士和企业高管的设备。随着移动端间谍软件在全球威胁行为者中愈发普及，了解如何开启这些防护措施已成为当务之急。",
-          "excerpt": "Apple, Meta, and Google offer special security modes that make devices more resistant to targeted spyware attacks. These features limit certain functions to reduce vulnerabilities, and knowing how to toggle them on could be critical for users facing elevated digital threats.",
-          "vocab": [
-            {
-              "word": "spyware",
-              "pos": "n.",
-              "meaning": "间谍软件——在目标不知情的情况下秘密收集数据的恶意软件。与「malware（恶意软件）」相比，spyware 特指「监视与数据窃取」功能，语域偏技术安全，常见搭配：mobile spyware、install spyware、detect spyware。掌握这个词能精准区分不同攻击类型。",
-              "etymology": "由英语本土词根构成的复合词，约形成于1990年代末：spy 源自古法语 espier，意为「暗中观察」；ware 来自 software/hardware 的缩略用法，泛指软件产品。随互联网安全威胁兴起而进入主流词汇。",
-              "morphology": "spy + ware 两部分构成：spy 可派生 spying（v.）、spymaster（n.）；-ware 后缀广泛用于软件命名，如 malware、adware、ransomware、freeware，构成一族科技词汇，认识这个后缀可批量习得同类词。",
-              "mnemonic": "想象一只「spy（间谍）」悄悄潜入你的手机，把聊天记录打包带走——这就是 spyware。把「spy」的谍战画面感直接移植，记住这个词专指「偷窥型软件」，而非普通病毒。",
-              "exampleEn": "The security firm discovered that commercial spyware had been silently installed on the executive's phone for over three months.",
-              "exampleCn": "这家安全公司发现，一款商业间谍软件已在该高管手机上悄然运行了三个多月。"
-            },
-            {
-              "word": "targeted",
-              "pos": "adj.",
-              "meaning": "定向的、针对特定目标的——在网络安全语境中，targeted attack 指攻击者有意识地锁定某一人或组织，与「广撒网式」随机攻击相对。该词搭配价值极高：targeted advertising、targeted campaign、targeted sanctions，跨越科技、商业、政治多领域，是高频商业修饰词。",
-              "etymology": "源自古诺尔斯语 targa（小圆盾），经中古英语演变为 target（靶子/目标），19世纪后衍生出动词用法 to target（瞄准），targeted 为其形容词及过去分词形式，完成了从实物到抽象目标的语义扩展。",
-              "morphology": "target（n./v.）加 -ed 后缀构成形容词；同族词有 targeting（n.，定向投放）、untargeted（adj.，无差别的）、retarget（v.，重新定向）。词根 targ- 在英语中较孤立，但 target 本身的派生链值得整体记忆。",
-              "mnemonic": "靶场上的「target（靶心）」只有一个，谁被打中谁就是「targeted（被盯上的）」。网络攻击里 targeted attack，就是把你当成靶心精准瞄准，而不是随机扫射——画面感极强，不易混淆。",
-              "exampleEn": "The startup deployed AI-driven filters to block targeted phishing campaigns before they reached employees' inboxes.",
-              "exampleCn": "这家初创公司部署了AI过滤系统，在定向钓鱼邮件到达员工收件箱之前将其全部拦截。"
-            },
-            {
-              "word": "toggle",
-              "pos": "v. / n.",
-              "meaning": "切换、拨动（开关）——原指机械拨杆，现在数字产品界面中专指「在两种状态之间切换」的操作，如开/关、启用/停用。与 switch 相比，toggle 更强调「反复横跳」的双态切换语义，是 UI/UX 领域高频词，写产品文档或技术说明时不可或缺。",
-              "etymology": "18世纪英语造词，源义为「横销、别针」（一种固定绳索的木钉），形象描述「插入-旋转」的机械动作。20世纪计算机时代引申为「在两种状态间切换」，完成了从硬件机械到软件界面的语义迁移。",
-              "morphology": "toggle 为不可拆解的简单词，无明显前后缀；常见派生及复合词：toggle switch（n.，拨动开关）、toggling（v.，切换中）、toggle button、dark mode toggle。在 UI 语境中几乎成为独立的界面元素专名。",
-              "mnemonic": "想象手机设置页面那个小圆圈滑来滑去的「滑动开关」——它就叫 toggle。「tog-gle」发音像「土拨」，土拨鼠钻进钻出洞口，形象对应开关在 ON 和 OFF 之间来回拨动的样子。",
-              "exampleEn": "Users can toggle the privacy settings on or off directly from the app's main dashboard without navigating through multiple menus.",
-              "exampleCn": "用户可以直接在应用主界面拨动隐私设置开关，无需层层进入子菜单。"
-            },
-            {
-              "word": "lockdown mode",
-              "pos": "phrase",
-              "meaning": "隔离模式（苹果安全功能）/ 封锁状态——特指苹果为高风险用户推出的极端安全设置，主动关闭大量功能以减少攻击面。在更广泛的商业语境中，lockdown 指系统或机构进入高度管控状态（如 security lockdown），兼具技术与管理双重语域。",
-              "etymology": "lock 源自古英语 loc（锁），down 为方向副词（向下/彻底封闭），短语动词 lock down 原指监狱「就地封禁」措施，疫情后广泛用于「全面封控」，苹果于2022年将其品牌化为安全功能专有名称。",
-              "morphology": "短语复合词，无独立词源。lock 可派生：lockout（n.，封锁）、locked-in（adj.，被锁定的）、lock-in（n.，用户绑定）；down 构成系列商业词汇：shutdown、markdown、countdown、crackdown，认识这一构词模式可批量理解同类词。",
-              "mnemonic": "「lock（锁）」+「down（彻底）」= 把手机彻底锁死。想象把手机扔进保险箱再加把大锁——数据安全了，但很多功能也用不了。这就是 Lockdown Mode 的设计哲学：牺牲便利换安全，取舍极为鲜明。",
-              "exampleEn": "After receiving credible threats, the journalist enabled Lockdown Mode on her iPhone, which blocked most message attachment types and restricted web browsing features.",
-              "exampleCn": "在收到可信威胁后，这位记者在iPhone上开启了隔离模式，该模式屏蔽了大多数附件类型并限制了部分网页浏览功能。"
-            },
-            {
-              "word": "exploit",
-              "pos": "v. / n.",
-              "meaning": "（v.）利用（漏洞/弱点）；（n.）漏洞利用程序——在网络安全语境中专指攻击者利用软件缺陷发动攻击，与日常含义「开发/利用资源」相比多了「恶意利用」色彩。区分：exploit a bug（利用漏洞）vs. exploit a market（开拓市场），语境决定褒贬，是阅读安全报告的必备词汇。",
-              "etymology": "源自拉丁语 explicare（展开、发挥），经古法语 esploit（成就、行动）演变为英语 exploit（功绩，后引申为「充分利用」）。网络安全领域在20世纪末将其语义窄化为「利用系统漏洞」，是典型的专业语域语义分化案例。",
-              "morphology": "来自拉丁前缀 ex-（向外）+ plicare（折叠/展开）；同词根词：explicit（adj.，明确的，字面意「完全展开的」）、implicate（v.，牵涉）、replicate（v.，复制）。名词 exploitation（n.，剥削/利用）在商业与劳工语境中同样高频。",
-              "mnemonic": "「ex-（向外）+ ploit（折叠）」= 把系统的裂缝「翻开」来钻空子。画面：黑客发现墙上有条裂缝，用力把它撬开爬进去。记住：exploit 在安全语境里永远是攻击者的动作——利用别人的漏洞为自己谋利。",
-              "exampleEn": "Hackers exploited a zero-day vulnerability in the firm's VPN software to gain unauthorized access to internal financial records.",
-              "exampleCn": "黑客利用该公司VPN软件中的一个零日漏洞，非法访问了内部财务记录。"
-            }
-          ]
-        },
-        {
-          "id": "20260523-2",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
-          "headlineEn": "Google’s new anything-to-anything AI model is wild",
-          "headlineCn": "谷歌发布「万能互转」AI模型，支持跨模态任意格式转换",
-          "summaryEn": "Google has unveiled a powerful new AI model — likely built on its Gemini platform — capable of converting virtually any input type into any output type, including text, images, video, and audio. Dubbed an 'anything-to-anything' model, it marks a significant milestone in multimodal AI. Journalists testing the technology successfully deepfaked realistic video content, highlighting both the model's astonishing capabilities and growing concerns about synthetic media misuse.",
-          "summaryCn": "谷歌推出了一款强大的新型AI模型，据报道基于Gemini平台构建，能够将几乎任何输入格式转换为任意输出格式，涵盖文本、图像、视频和音频。这款被称为「万能互转」的模型标志着多模态AI领域的重要里程碑。记者在测试中成功生成了逼真的深度伪造视频，既展示了模型的惊人能力，也引发了外界对合成媒体滥用的深切担忧。",
-          "excerpt": "Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation — an experiment to see if I could re-create the events shown in a Gemini ad Google was running. I never showed the videos to my four-year-old.",
-          "vocab": [
-            {
-              "word": "deepfake",
-              "pos": "v. / n.",
-              "meaning": "深度伪造；利用AI技术合成逼真的虚假影像或音频。这个词比 forge 或 fake 更值得学，因为它专指AI驱动的媒体造假，已成为科技与传媒报道的高频词汇，且同时兼具动词和名词用法，表达极为高效",
-              "etymology": "由「deep learning」（深度学习）与「fake」（伪造）合并而成的混成词（portmanteau），约2017年前后出现于网络社区，最初指用深度学习算法将人脸替换到视频中的技术，后泛指一切AI合成的虚假媒体内容",
-              "morphology": "deep（深层，指深度学习）+ fake（伪造）直接合并。同类技术合成词：shallowfake（低技术门槛的视频伪造）、cheapfake（简单剪辑伪造）；派生词：deepfaker（制作者）、deepfaked（形容词／过去式）",
-              "mnemonic": "记忆公式：deep（深）+ fake（假）= 越「深」的AI越能造出以假乱真的假货。想象一个AI在深水下精心伪造一段视频——越深越逼真，越深越难辨别。2017年出现，至今仍是AI伦理讨论必备词",
-              "exampleEn": "The startup's detection tool can identify deepfaked executive videos used in financial fraud schemes with over 95% accuracy.",
-              "exampleCn": "这家初创公司的检测工具能以超过95%的准确率识别用于金融欺诈的深度伪造高管视频。"
-            },
-            {
-              "word": "multimodal",
-              "pos": "adj.",
-              "meaning": "多模态的；能同时处理文本、图像、音频、视频等多种数据类型。比 versatile 更专业，是当今AI产品报道的核心术语——不理解这个词，就很难读懂GPT-4o、Gemini等现代AI模型的技术介绍",
-              "etymology": "来自拉丁语 modus（方式、模式）加前缀 multi-（多）及后缀 -al（形容词），原指「使用多种感知通道的」，在统计学中早已存在（multimodal distribution = 多峰分布），AI领域借用后专指能处理多种数据类型的模型",
-              "morphology": "multi-（多，来自拉丁语 multus）+ modal（模态的，来自 mode／modus）+ -al（形容词后缀）。同前缀扩展：multilingual（多语言）、multimedia（多媒体）、multitasking（多任务）、multibillion（数十亿）",
-              "mnemonic": "multi = 多，modal = 模式 → 像「多模式」瑞士军刀，一把刀能切、能锯、能挖。记住：multimodal AI = 「全能选手」，文字图片视频音频通吃。与 modal 区分：modal 单独使用时是语法术语（情态的）",
-              "exampleEn": "Investors are betting heavily on multimodal AI platforms that can analyze earnings call transcripts, presentation slides, and audio recordings simultaneously.",
-              "exampleCn": "投资者正大力押注多模态AI平台，这类平台能同时分析财报电话会议文字记录、演示幻灯片和音频录音。"
-            },
-            {
-              "word": "synthetic",
-              "pos": "adj.",
-              "meaning": "合成的、人工制造的；在媒体和AI语境中特指AI生成的内容（synthetic media = 合成媒体）。比 artificial 语气更中性学术，是监管文件、科研论文和行业标准中讨论AI生成内容的规范用词，值得与 artificial、generated 区分掌握",
-              "etymology": "来自希腊语 synthetikos，源自 syn-（共同、合并）+ tithenai（放置），原义「放在一起构成的」，17世纪进入英语，语义从「人工合成」延伸至现代AI语境的「AI生成」，对应词为 organic／natural（天然的）",
-              "morphology": "syn-（共同、合并，希腊语前缀）+ -thet-（放置，同 thesis 的词根）+ -ic（形容词后缀）。同词根扩展：synthesis（合成，名词）、synthesize（合成，动词）、thesis（论点）、hypothesis（假设）、antithesis（对立面）",
-              "mnemonic": "syn = 合在一起，thet = 放置 → 把材料「拼放在一起」合成的东西。类比：合成纤维（synthetic fiber）就是把化学材料拼在一起做的布，AI合成媒体同理——不是天然生长的，是「拼」出来的",
-              "exampleEn": "Regulators are drafting rules requiring clear labeling of synthetic media in political advertisements ahead of national elections.",
-              "exampleCn": "监管机构正在起草规定，要求在全国大选前对政治广告中的合成媒体进行明确标注。"
-            },
-            {
-              "word": "replicate",
-              "pos": "v.",
-              "meaning": "精确复制、再现、重现；比 copy 更正式，强调过程的严格还原，常用于科学实验（replicate results）、技术（replicate a model）和商业（replicate a strategy）。文章中 re-create 是口语化版本，正式写作和技术报告应首选 replicate",
-              "etymology": "来自拉丁语 replicare，re-（再次）+ plicare（折叠），原义「折回、回复（信件）」，后演变为「重复制作」，16世纪进入英语。plicare 与 imply、comply、deploy 同源，均含「折叠／弯曲」的核心意象",
-              "morphology": "re-（再次）+ -plic-（折叠，同 ply、complex、explicit 的词根）+ -ate（动词后缀）。派生词：replication（名词，复制／副本）、replicable（可复现的）、replica（复制品，名词）。注意 replica 是名词，不能作动词",
-              "mnemonic": "re = 再次，plic = 折叠 → 把同一张纸「再折一次」= 复制出同样的形状。实验室里 replicate 结果，就是把实验再「折」一遍，看能不能折出同样的答案。记住：比 copy 更强调「严格还原过程」",
-              "exampleEn": "The engineering team struggled to replicate the benchmark results from the research paper under real-world production conditions.",
-              "exampleCn": "工程团队难以在真实生产环境中复现该研究论文中的基准测试结果。"
-            },
-            {
-              "word": "uncanny",
-              "pos": "adj.",
-              "meaning": "诡异的、令人不安的逼真；专指「超出正常范畴的精准所带来的不适感」。AI内容领域高频词，尤其出现在 uncanny valley（恐怖谷效应）这一核心概念中。比 strange 或 weird 层次更深——不是「普通的怪」，而是「因为太像真实反而让人不安的怪」",
-              "etymology": "来自苏格兰语／古英语 canny（谨慎、精明、自然），前缀 un-（否定），最初指「超自然的、不受人力控制的」，19世纪弗洛伊德的「unheimlich（诡秘之物）」概念使其广泛流传，uncanny 在英语中承担了类似语义",
-              "morphology": "un-（否定前缀）+ canny（精明、自然，苏格兰英语词）→「不自然的」。派生词：uncannily（副词，诡异地）、uncanniness（名词）。注意 canny 本身在苏格兰和北英格兰方言中仍常用，意为「精明节俭」",
-              "mnemonic": "un + canny → 「不自然」让人后背发凉。想象一个机器人微笑得「太完美」——它试图模仿 canny（精明人类），却差了那么一点点，反而更让人不安。这就是 uncanny valley 的精髓：越像越怪，越真越诡异",
-              "exampleEn": "The AI avatar's uncanny resemblance to the CEO raised serious concerns among investors about the authenticity of the video announcement.",
-              "exampleCn": "这个AI虚拟形象与CEO的诡异相似度，令投资者对视频声明的真实性产生了严重担忧。"
-            }
-          ]
-        },
-        {
-          "id": "20260523-3",
-          "category": "econ",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/01c5ea35-a0fa-469f-b8bb-356d98c05fb0",
-          "headlineEn": "How to Tame the Inflation Python",
-          "headlineCn": "如何驯服「通胀之蟒」：货币政策不能再观望",
-          "summaryEn": "Central banks that adopt a 'wait and see' approach to rising inflation risk repeating the policy errors of 2008, when delayed action allowed price pressures to become entrenched. Like a python slowly constricting its prey, inflation left unchecked steadily squeezes consumer purchasing power and business margins. Economists argue that proactive monetary tightening — even before inflation peaks — is essential to preserving long-term credibility and avoiding a harder economic landing later.",
-          "summaryCn": "采取「观望」策略应对通胀的央行，可能重蹈2008年的政策失误。当年，决策者行动迟缓，最终让价格压力根深蒂固。正如蟒蛇慢慢勒紧猎物，不加遏制的通胀会持续侵蚀消费者购买力与企业利润。经济学家认为，即便在通胀见顶之前便主动收紧货币政策，也是维护央行公信力、避免日后更硬着陆的必要之举。",
-          "excerpt": "A 'wait and see' monetary policy strategy risks repeating the mistakes made in 2008, when central banks hesitated too long before acting on inflation. Like a python tightening its coils, price pressures can quickly become unmanageable if policymakers fail to act decisively and early.",
-          "vocab": [
-            {
-              "word": "tame",
-              "pos": "v.",
-              "meaning": "驯服；使受控制。在财经语境中常以隐喻方式出现，如「tame inflation（驯服通胀）」，比「control」更生动地传达「制服一股危险野性力量」的含义，是财经评论的高频词汇。",
-              "etymology": "来自古英语「tam」（驯养的），源于原始日耳曼语 *tamaz，与德语「zahm」（温顺的）同源，原指动物被人类驯化，后引申为「使某种强大力量变得可控」。",
-              "morphology": "单一词根，无前后缀。派生词：tamer（驯兽师）、untamed（未经驯服的）、tameable（可驯服的）。记住「tame」可带出整个词族，尤其「untamed」在形容「失控的市场」时很常见。",
-              "mnemonic": "想象马戏团里的驯兽师（tamer）举着椅子对峙猛兽——通胀就是那头兽，央行就是驯兽师。标题偏偏用「python（蟒蛇）」而非「lion」，暗示通胀那种慢慢勒紧、让人窒息的危险性。",
-              "exampleEn": "The central bank raised rates aggressively in an effort to tame inflation before it became entrenched in wage contracts.",
-              "exampleCn": "央行大幅加息，力图在通胀固化进入工资合同之前将其驯服。"
-            },
-            {
-              "word": "stagflation",
-              "pos": "n.",
-              "meaning": "滞胀——经济停滞（stagnation）与高通胀（inflation）同时出现的宏观困境。这是货币政策最棘手的场景，因为加息对抗通胀会进一步压制增长。理解这个词，才能读懂央行「进退两难」的深层逻辑。",
-              "etymology": "混成词（portmanteau），由英国政治家 Iain Macleod 于1965年首创，将「stagnation」（源自拉丁语 stagnare，意为「积水停滞、不流动」）与「inflation」（源自拉丁语 inflare，意为「吹胀」）压缩合并而成。",
-              "morphology": "stag-（截取自 stagnation 前半段）+ -flation（截取自 inflation 后半段）。拆解：stagnation = stagna-（停滞的水）+ -tion；inflation = in-（向内）+ flat-（吹）+ -ion。同类混成词：Brexit（英国脱欧）、brunch（早午餐）。",
-              "mnemonic": "把「STAG」想成一头陷在泥潭里动弹不得的雄鹿（stagnant），同时身上绑着一个越吹越大的气球（inflation）——经济动不了，物价还越来越高，这就是滞胀的双重痛苦。",
-              "exampleEn": "The 1970s oil shocks pushed many Western economies into stagflation, forcing central banks to choose between fighting unemployment and fighting inflation.",
-              "exampleCn": "1970年代的石油冲击将许多西方经济体推入滞胀，迫使央行在对抗失业与对抗通胀之间艰难抉择。"
-            },
-            {
-              "word": "transitory",
-              "pos": "adj.",
-              "meaning": "短暂的、过渡性的。2021至2022年全球通胀辩论的核心词——美联储主席鲍威尔起初坚称通胀是「transitory」，后被迫放弃这一判断。比「temporary」更正式，更常见于政策文件和央行声明，学会它才能读懂央行表态的语气变化。",
-              "etymology": "源自拉丁语「transitorius」（供人通过的、过渡性的），由「transire」演变而来，其中 trans-（穿越）+ ire（走），原义是「仅供人通行的场所」，引申为「只是路过，不会永久留驻」。",
-              "morphology": "trans-（穿越）+ -itor-（行为者词根）+ -y（形容词后缀）。同族词：transit（过境）、transition（过渡）、transient（短暂的，比 transitory 更强调「瞬间消逝」，两词易混，transient 多指人或现象，transitory 多用于政策、状态）。",
-              "mnemonic": "想象地铁的「transit（过境）」站——乘客只是经过，不在此定居。「Transitory inflation」就是「路过型通胀」，理论上不会赖着不走。结果2021年的通胀偏偏「定居」了，央行被迫认错。",
-              "exampleEn": "Fed officials initially described the 2021 price surge as transitory, a label they were forced to abandon as inflation persisted well into 2022.",
-              "exampleCn": "美联储官员起初将2021年的价格飙升定性为短暂现象，但随着通胀延续至2022年，他们被迫放弃了这一说法。"
-            },
-            {
-              "word": "tighten",
-              "pos": "v.",
-              "meaning": "收紧（货币政策）。「tighten monetary policy」是加息、缩减资产负债表等一系列紧缩操作的总称，比「raise rates」含义更广。财经报道中极高频，掌握这个词才能读懂央行整体动作的叙事逻辑。其反义词「ease / loosen」同样重要。",
-              "etymology": "由形容词「tight」（紧绷的）加使动后缀「-en」构成。「tight」源自古挪威语「þéttr」（不透水的、密实的），经中古英语演变为「tyght」，核心义始终是「没有多余空间、没有松动余地」。",
-              "morphology": "tight（词根，紧）+ -en（使动后缀，使某物变成某种状态）。类比构词：darken（使变暗）、loosen（放松，tighten 的直接反义动词）、strengthen（使变强）。常用搭配：tighten policy / tighten lending standards / tighten supply。",
-              "mnemonic": "想象央行手握经济的「皮带」——加息就是扣紧皮带扣（tighten the belt），让钱变贵、流通收紧；降息则是松皮带（loosen）。每次读到「tighten」，脑中浮现这条被拉紧的皮带，立刻明白政策方向。",
-              "exampleEn": "The European Central Bank signalled it would continue to tighten policy until core inflation returned sustainably to its 2% target.",
-              "exampleCn": "欧洲央行发出信号，将持续收紧货币政策，直至核心通胀率可持续地回归2%目标。"
-            },
-            {
-              "word": "unwind",
-              "pos": "v.",
-              "meaning": "（政策或头寸的）逐步退出、解除。央行「unwind」资产负债表指缩减量化宽松时积累的债券持仓；投资者「unwind」头寸指平仓退出。比「reverse」更强调「慢慢松开」的过程感，是金融报道的高频词，理解它有助于读懂缩表（QT）相关报道。",
-              "etymology": "古英语「unwindan」，由前缀「un-」（表示动作逆转）+ 「windan」（缠绕、盘旋）组成，字面义为「把缠绕的东西一圈圈解开」，金融语境中引申为「逐步解除已积累的头寸或政策仓位」。",
-              "morphology": "un-（逆转前缀）+ wind（缠绕，动词）。同前缀词：undo（撤销）、unravel（解开纠缠）、unlock（解锁）。同词根词：rewind（倒回）、winding（蜿蜒的）；注意「wound up（紧绷的）」是 wind 的过去分词形式，与 unwind 语义相对。",
-              "mnemonic": "把央行的量化宽松想象成一团越缠越大的毛线球——QE 时不断缠绕，缩表时一点点「unwind（解开）」。对比「wind up（结束 / 上紧发条）」：wind up 是越绕越紧，unwind 是慢慢放松，方向完全相反。",
-              "exampleEn": "The Federal Reserve began to unwind its $9 trillion balance sheet by allowing maturing bonds to roll off without reinvestment.",
-              "exampleCn": "美联储开始通过让到期债券自然到期、不再续购的方式，逐步缩减其9万亿美元的资产负债表。"
-            }
-          ]
-        },
-        {
-          "id": "20260523-4",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/buffett-indicator-warns-of-a-market-top-8-crucial-signs-that-stocks-are-running-on-fumes-12e4b4d8?mod=mw_rss_topstories",
-          "headlineEn": "‘Buffett Indicator’ warns of a market top — 8 crucial signs that stocks are running on fumes",
-          "headlineCn": "巴菲特指标预警市场见顶：八大信号揭示股市泡沫",
-          "summaryEn": "The Buffett Indicator — the ratio of total US stock market capitalization to GDP — has surged to a grotesque 230%, a level that historically signals a market peak. Analysts identify eight warning signs suggesting equities are dangerously overextended: from record valuations and investor complacency to a brewing energy crisis. While markets appear unstoppable, their fragility is masked by momentum and optimism, raising fears that the next correction could be severe.",
-          "summaryCn": "巴菲特指标（美国股市总市值与GDP之比）已飙升至230%的极端水平，历史上接近此类高位时往往预示市场见顶。分析人士列出八大警示信号：从创纪录的估值水平、投资者的过度自满情绪，到潜在的能源危机，不一而足。尽管市场表面强势，但这种强劲背后隐藏着脆弱性——若情绪逆转，调整幅度可能相当剧烈。",
-          "excerpt": "The Buffett Indicator has ballooned to a grotesque 230%—meaning the total value of US stocks is more than double the country's annual economic output. Historically, readings above 200% have preceded painful market corrections, yet investor complacency remains stubbornly high.",
-          "vocab": [
-            {
-              "word": "running on fumes",
-              "pos": "phrase",
-              "meaning": "强弩之末，即将耗尽动力。比字面的「靠废气行驶」更生动，专指在资源或驱动力即将耗尽时仍在维持运转。在金融语境中描述「靠惯性或投机情绪支撑的市场」极为贴切，是高端财经写作的常见表达，比 barely surviving 更有画面冲击力。",
-              "etymology": "短语/复合表达，由 run（运行）+ on（依靠）+ fumes（蒸气/废气）构成，源于汽车油箱即将见底时靠剩余油气维持行驶的场景，20世纪中期起被广泛引申为比喻用法，表示「勉强维持」。",
-              "morphology": "run（动词，运转）+ on（介词）+ fumes（名词复数，废气；源自拉丁语 fumus，意为烟雾）。同族词：fumigate（熏蒸消毒）、perfume（香水，per- 穿透 + fume 烟气），可见「fume」家族都与气体散逸有关。",
-              "mnemonic": "想象一辆油箱空了的老爷车，仪表盘红灯狂闪，却还在颤颤巍巍地往前爬——这就是「running on fumes」的画面。市场也如此：繁荣的外表下，真正的燃料快烧尽了。",
-              "exampleEn": "After three consecutive quarters of declining revenue, the startup's growth story was clearly running on fumes.",
-              "exampleCn": "连续三个季度营收下滑后，这家初创公司的增长故事显然已是强弩之末。"
-            },
-            {
-              "word": "grotesque",
-              "pos": "adj.",
-              "meaning": "极度扭曲的、荒诞离奇的。比 extreme 或 absurd 更强烈，带有「令人不安的变形感」。在财经写作中用来形容严重偏离正常水平的数据（如估值、贫富差距），语气犀利，带强烈批判色彩，值得学习因为它让数字「有了表情」。",
-              "etymology": "源自意大利语 grottesco，意为「洞穴风格的」，指文艺复兴时期在罗马地下洞穴（grotta）中发现的奇异装饰壁画。这类图案以怪异变形的人兽混合体为特征，后引申为「荒诞扭曲的」，17世纪进入英语。",
-              "morphology": "grotto（洞穴，源自希腊语 kryptē）+ -esque（形容词后缀，表示「……风格的」，如 picturesque 如画的、statuesque 雕塑般的）。派生词：grotesquely（副词）、grotesqueness（名词）、grotesquerie（名词，怪诞之物）。",
-              "mnemonic": "「grotto（洞穴）里画满怪兽」——古罗马人在地下洞穴发现扭曲的壁画，觉得又怪又不安。记住：grotesque = grotto（洞穴）里那些变形的怪异图案。看到 grott- 开头就想到「扭曲变形」。",
-              "exampleEn": "The CEO's compensation package, 400 times the median worker's salary, struck many shareholders as grotesque.",
-              "exampleCn": "这位CEO的薪酬方案是员工中位薪资的400倍，许多股东认为这简直荒诞离奇。"
-            },
-            {
-              "word": "frothy",
-              "pos": "adj.",
-              "meaning": "（市场/资产）泡沫化的、虚高的。在金融语境中专指估值明显偏高但尚未崩溃的市场状态，比 overvalued 更口语化、更生动，是华尔街分析师和财经媒体的高频词。学会它能让你的英文评论更接近「真实华尔街腔调」。",
-              "etymology": "源自古英语 freoðan（起泡沫），与 froth（泡沫）同源，原指液体表面的气泡层，如啤酒或咖啡的奶泡。17世纪起引申为「轻浮的、华而不实的」，金融泡沫用法在20世纪末随科技股狂潮逐渐普及。",
-              "morphology": "froth（名词/动词，泡沫/起泡）+ -y（形容词后缀，表示「充满……的」，如 cloudy、foggy）。同族词：froth（n./v.）、frothiness（n.）。近义财经词群：bubbly（泡沫的）、overheated（过热的）、stretched（拉伸过度的）。",
-              "mnemonic": "想象拿铁咖啡杯口那层厚厚的奶泡——好看，却不是真正的咖啡，一口喝下去全是空气。「Frothy market」就像这层奶泡：表面繁荣，内里是虚的。",
-              "exampleEn": "The venture capital community warned that startup valuations had become frothy, with pre-revenue companies raising billions at impossible multiples.",
-              "exampleCn": "风投界警告称，初创公司估值已严重泡沫化，一些尚未有营收的公司竟以离谱的倍数融资数十亿美元。"
-            },
-            {
-              "word": "complacency",
-              "pos": "n.",
-              "meaning": "自满、盲目乐观、麻痹大意。在金融语境中专指「投资者对潜在风险的低估和漠视」，是描述泡沫顶部心态的核心词汇。与 confidence（有据可查的信心）形成对比——complacency 是无根据的安逸感，带强烈贬义，值得学因为它精准捕捉了市场周期的心理特征。",
-              "etymology": "源自拉丁语 complacere（完全取悦），由 com-（完全/强调）+ placere（取悦，英语 please 的词根）构成。原义为「感到完全满足」，16-17世纪英语借入后逐渐演化出「危险的自满、对风险视而不见」的贬义。",
-              "morphology": "com-（前缀，完全/共同）+ plac-（词根，取悦，源自拉丁语 placere）+ -ency（名词后缀）。同族词：complacent（adj. 自满的）、placate（v. 安抚）、placid（adj. 平静的）、implacable（adj. 无法平息的，im- 否定）。",
-              "mnemonic": "com-（完全）+ plac（= please，取悦）——「完全被取悦了」就是 complacency 的本质：市场涨得太好，投资者被涨势「完全取悦」，忘记了风险。记住：被取悦到忘乎所以 = 危险的自满。",
-              "exampleEn": "Record-low volatility indices suggest dangerous investor complacency, leaving portfolios vulnerable to sudden shocks.",
-              "exampleCn": "创历史低位的波动率指数表明投资者存在危险的自满情绪，使其投资组合极易受到突发冲击的伤害。"
-            },
-            {
-              "word": "overextended",
-              "pos": "adj.",
-              "meaning": "过度扩张的、超出承受极限的。在金融语境中指市场、企业或投资者承担了超出自身能力的风险或负债；在技术分析中常指「涨幅远超均值、亟待回调」的状态。比 overleveraged 更通用，适用于描述任何「超出合理边界」的场景，是财经分析的常用词。",
-              "etymology": "来自 over-（前缀，超过正常限度）+ extend（延伸，源自拉丁语 extendere，ex- 向外 + tendere 伸展）+ -ed（形容词后缀）。字面义为「伸展过度」，引申为「超出合理承受范围的」。",
-              "morphology": "over-（前缀，超过，如 overvalued 估值过高、overleveraged 杠杆过高、overheated 过热）+ extend（来自拉丁语 ex- 向外 + tendere 伸展）+ -ed。同族词：extend、extension、extensive、extent；及 contend（争论）、pretend（假装），共享 -tend- 词根。",
-              "mnemonic": "想象一根橡皮筋被拉得过长——over（超过）+ extend（拉伸）。橡皮筋到达极限只有两种结果：弹回来（回调），或者断裂（崩盘）。「Overextended market」就处于这个危险的临界点，随时可能回弹。",
-              "exampleEn": "Analysts warned that tech stocks looked dangerously overextended after a 40% rally with no fundamental catalyst.",
-              "exampleCn": "分析师警告称，科技股在缺乏基本面支撑的情况下大涨40%，已处于危险的过度拉伸状态。"
-            }
-          ]
-        },
-        {
-          "id": "20260523-5",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/kevin-warsh-walks-into-a-trap-where-the-fed-cant-cut-rates-even-if-it-wants-to-8475e97c?mod=mw_rss_topstories",
-          "headlineEn": "Kevin Warsh walks into a trap where the Fed can’t cut rates even if it wants to",
-          "headlineCn": "沃什接任美联储主席，降息空间极为有限",
-          "summaryEn": "Kevin Warsh is poised to become the next Federal Reserve chair at a critical juncture for the U.S. economy. Known as a reform-minded figure who favored bold policy shifts, Warsh now faces a structural trap: persistent inflation limits the Fed's leeway to cut interest rates even as growth falters. This constraint may force him to maintain tight monetary policy rather than act as the disruptor he envisioned, putting his credibility and leadership under immediate pressure from day one.",
-          "summaryCn": "凯文·沃什即将出任美联储主席，接手的却是一个进退两难的经济局面。他以改革派著称，希望推动大胆的政策变革，然而当前持续的通货膨胀令美联储即便面对经济放缓也难以降息。这一结构性困境意味着沃什或许无法充当自己设想中的「颠覆者」，而必须维持紧缩的货币政策立场。其领导力与公信力从上任第一天起便面临严峻考验。",
-          "excerpt": "Kevin Warsh takes over as Federal Reserve chair at a moment when the central bank's hands may be tied — with inflation still elevated and growth fragile, even a rate-friendly chair may find it impossible to deliver the cuts markets are hoping for.",
-          "vocab": [
-            {
-              "word": "pivotal",
-              "pos": "adj.",
-              "meaning": "关键的、决定性的——常用于描述「历史转折点」，比 important 更强调「此刻能左右全局走向」，在财经政治报道中极为常见，值得作为高频替换词掌握",
-              "etymology": "来自法语 pivot（枢轴），原指机械旋转的轴心；19世纪引入英语后延伸为「起决定性作用的」，暗含「以此为轴，一切随之转动」的意象",
-              "morphology": "pivot（枢轴）+ -al（形容词后缀）→ pivotal；同族词：pivot（v. 转身/战略转向）、pivot point（转折点）；近义词辨析：pivotal 强调转折性，crucial 强调紧迫性，critical 强调危急性",
-              "mnemonic": "想象一个大天平，pivot 是正中央的支点——支点一动，两边全变。「a pivotal moment」就是那个「一念之差、全盘皆赢或皆输」的支点时刻，记住「支点决定方向」",
-              "exampleEn": "The merger talks reached a pivotal stage when both boards agreed to an independent valuation of the combined entity.",
-              "exampleCn": "当双方董事会同意对合并后实体进行独立估值时，并购谈判进入了关键阶段。"
-            },
-            {
-              "word": "walk into (a trap)",
-              "pos": "phrasal v.",
-              "meaning": "懵然落入（陷阱/困境）——强调当事人并非被强迫，而是主动走入却浑然不知，带有「自投罗网」的含义；常见于政治、商业和谈判报道，语气比 fall into 更强调主动性与讽刺意味",
-              "etymology": "短语/复合词，无独立词源。walk（行走）源自古英语 wealcan；trap 来自古英语 træppe（陷阱，猎人布下的机关）；二者合用构成生动的视觉隐喻",
-              "morphology": "walk（走）+ into（方向介词）；语义梯度辨析：step into（不经意踏入）< walk into（大步走入，略带讽刺）< march into（大摇大摆走入，语气更强）；反义：sidestep（巧妙回避）",
-              "mnemonic": "画面：一个西装革履的人大步走进标着「FREE CUTS」的会议室，门在身后咔嗒关上——这就是 walk into a trap，满怀信心地踏进别人设好的局，毫不自知",
-              "exampleEn": "The startup walked into a trap by signing an exclusive distribution deal before verifying the partner's financial health.",
-              "exampleCn": "这家初创公司在核实合作方财务状况之前便签署了独家分销协议，自投罗网。"
-            },
-            {
-              "word": "hamstrung",
-              "pos": "adj.",
-              "meaning": "受到严重制约、无力行动——源自割断马腿筋使其瘫痪的意象，在政策/商业语境中指「被条件或规则绑住手脚」；比 constrained 更生动有力，适合描述机构或决策者陷入两难困境",
-              "etymology": "来自古英语 hamm（大腿内侧）+ streng（腱/绳）；hamstring 作动词原意「割断腿后大腱使其无法行走」，hamstrung 为过去分词，后引申为「使陷入无力状态」",
-              "morphology": "ham（腿内侧）+ string（腱）→ hamstring（v. 削弱/束缚）→ hamstrung（adj. 被束缚的）；类义词梯度：limited（轻度受限）< constrained（受制约）< hamstrung（严重受困，近乎瘫痪）",
-              "mnemonic": "想象一匹战马，后腿大腱（hamstring）被切断——站都站不稳，更别说冲锋。「The Fed is hamstrung」就是美联储这匹马被割了腿筋，想跑也跑不了，画面感极强",
-              "exampleEn": "The company was hamstrung by legacy contracts that prevented it from adopting more competitive pricing strategies.",
-              "exampleCn": "该公司被历史遗留合同束缚，无法采用更具竞争力的定价策略。"
-            },
-            {
-              "word": "leeway",
-              "pos": "n.",
-              "meaning": "回旋余地、操作空间——指规则或限制之内的灵活度；财经语境中常说「little leeway to cut rates」（降息空间有限），比口语化的 room 或 space 更专业地道，是政策报道中的高频词",
-              "etymology": "来自航海术语：lee 指「背风面（船的避风侧）」，源自古挪威语 hlé；way 指「路径/偏移量」；leeway 原指船因风力偏离既定航向的程度，后引申为「允许偏差的余地」",
-              "morphology": "lee（背风面）+ way（方向/余地）；同族词：leeward（下风方向的）；近义词辨析：leeway 强调「规则内的灵活空间」，latitude 强调「更大的自由度」，room 最通用但最不正式",
-              "mnemonic": "想象一艘帆船——顺风时可以稍微偏离航线而不出事，这段可偏量就是 leeway。「政策 leeway」就是决策者可以「偏一偏」而不翻船的那点空间，记住「顺风偏航」",
-              "exampleEn": "With inflation still above target, the central bank has very little leeway to stimulate the economy through rate cuts.",
-              "exampleCn": "由于通胀仍高于目标水平，央行通过降息刺激经济的回旋余地极为有限。"
-            },
-            {
-              "word": "mandate",
-              "pos": "n. / v.",
-              "meaning": "（官方）授权、职责使命——在美联储语境中，「dual mandate」（双重使命：充分就业＋物价稳定）是核心概念；比 mission 更强调正式授权与法律依据，是理解央行政策报道必须掌握的词",
-              "etymology": "来自拉丁语 mandatum（命令/委托），由 manus（手）+ dare（给予）合成，原义「亲手交付/委托」；经由古法语 mander 进入英语，保留了「正式授权交付」的核心义",
-              "morphology": "mand-（命令/托付，来自 mandare）+ -ate（名词/动词后缀）；同词根族：command（命令）、demand（要求）、remand（还押）、mandatory（强制性的）——mand 族词均含「权力指令」意味",
-              "mnemonic": "mand = 「命令之手」（拉丁 manus = hand）——上级把任务「亲手」放到你手里，就是 mandate。联想「曼德拉（Mandela）」含 mand——他的政治使命（mandate）是解放南非，音形意三合一",
-              "exampleEn": "The central bank's dual mandate requires it to balance price stability against maximum employment, which can pull policy in opposite directions.",
-              "exampleCn": "央行的双重职责要求其在物价稳定与充分就业之间寻求平衡，而这两个目标有时会将政策导向相互对立的方向。"
             }
           ]
         }
