@@ -331,20 +331,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
           "headlineEn": "When the Trump administration cracks down on Anthropic, who benefits?",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+          "headlineCn": "特朗普政府打压Anthropic，谁将从中获益？",
+          "summaryEn": "The Trump administration's recent regulatory moves against Anthropic, the AI safety company backed by Amazon and Google, have raised urgent questions about both motive and consequence. While the precise trigger remains unclear, analysts suggest competitors could gain market ground if Anthropic faces operational constraints. The episode underscores a broader tension: government intervention intended to rein in one player often reshapes the entire competitive landscape in ways that are unpredictable and far-reaching.",
+          "summaryCn": "特朗普政府近期对AI安全公司Anthropic发起监管行动，引发外界对其动机及潜在影响的广泛讨论。究竟是什么触发了这次打压？哪些竞争对手可能从中获益？科技媒体TechCrunch的播客节目「Equity」对此展开深度分析，指出政府对单一企业的干预，往往会以出人意料的方式重塑整个行业的竞争格局，其连锁效应值得AI生态系统中的各方密切关注。",
+          "excerpt": "On the latest episode of Equity, analysts examined what actually prompted the Trump administration's moves against Anthropic — and asked which AI players stand to benefit when a key rival suddenly faces government pressure and potential operational constraints.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "beneficiary",
+              "pos": "n.",
+              "meaning": "受益人、受益方。比「winner」更正式，常用于法律、金融和政策分析，暗含「因外部环境变化而获益，而非主动争取」的语义色彩。财经报道中描述竞争格局变化时的高频词，值得重点掌握。",
+              "etymology": "源自拉丁语 beneficium（恩惠），由 bene（好）+ facere（做）构成，原义为「获得恩惠之人」。16世纪进入英语，最初指遗嘱受益人，后扩展为泛指所有「因外部事件而获益的一方」。",
+              "morphology": "bene-（好、有益）+ fic-（做，来自 facere）+ -ary（……的人）。同词根词：benefactor（恩人）、beneficial（有益的）、benefit（利益）。前缀 bene- 同族词：benevolent（仁慈的）、benign（良性的）。",
+              "mnemonic": "把 beneficiary 拆成「benefit（好处）+ -ary（人）」，就是「得到好处的那个人」。想象遗嘱宣读现场，律师宣布「您是受益人」，那人立刻露出笑容——画面自带情绪，难以忘怀！",
+              "exampleEn": "The smaller AI startups were the unexpected beneficiaries of the regulatory probe into their larger rival.",
+              "exampleCn": "在对大型竞争对手展开监管调查之后，规模较小的AI创业公司意外成为了受益方。"
+            },
+            {
+              "word": "antitrust",
+              "pos": "adj. / n.",
+              "meaning": "反垄断（的）；指旨在防止企业垄断市场、保护竞争秩序的法律体系或政府行动。美国法律语境中几乎只用 antitrust，而非 anti-monopoly，是读懂科技监管报道的核心词汇，务必掌握。",
+              "etymology": "anti-（反对）+ trust（托拉斯）。「trust」在19世纪末美国专指石油、铁路等大型垄断企业联合体（如洛克菲勒的 Standard Oil Trust），1890年《谢尔曼反垄断法》（Sherman Antitrust Act）专门针对这类「trust」而立，词义由此固定。",
+              "morphology": "anti-（反、对抗）+ trust（托拉斯/信托）。前缀 anti- 同族词：antibody（抗体）、antidote（解毒剂）、antipathy（反感）。注意此处 trust 是历史特定含义，与日常「信任」义截然不同。",
+              "mnemonic": "anti = 反对，trust = 托拉斯（垄断巨头）。想象19世纪洛克菲勒的石油帝国像章鱼一样伸出触角垄断一切，「antitrust law」就是来剪掉那些触角的法律剪刀——画面感极强！",
+              "exampleEn": "The Justice Department launched an antitrust investigation into whether the company's exclusive data agreements stifled competition.",
+              "exampleCn": "司法部启动了一项反垄断调查，以确认该公司的独家数据协议是否阻碍了市场竞争。"
+            },
+            {
+              "word": "windfall",
+              "pos": "n.",
+              "meaning": "意外横财、意外收益。原指被风吹落的果实（不劳而获），引申为「因外部事件带来的非预期巨额收益」。比「unexpected gain」生动，财经报道中常用于描述监管打压、竞争对手受挫后的连锁获益者，语感鲜活。",
+              "etymology": "源自中世纪英语，字面义为「风吹落之物」（wind + fall），最初指被风吹倒的树或吹落的果实，农民可免费捡拾。15世纪起引申为「意外之财」，现多用于形容政策或市场事件带来的非预期收益，衍生出 windfall tax（暴利税）等常见搭配。",
+              "morphology": "wind（风）+ fall（落下）。简单复合名词，无独立词缀。常见搭配：windfall tax（暴利税）、windfall profit（意外利润）。类比同构词：rainfall（降雨量）、downfall（垮台）、shortfall（缺口）——fall 系列复合词规律强。",
+              "mnemonic": "想象一棵苹果树，一阵大风吹来，苹果哗哗落了一地，你啥都没干就捡了满筐——这就是 windfall（风落果）。对应竞争语境：Anthropic被打压，竞争对手「捡」到了意外的市场份额！",
+              "exampleEn": "The antitrust investigation into the market leader proved to be a windfall for smaller competitors, who quickly gained market share.",
+              "exampleCn": "针对市场领导者的反垄断调查意外成为了小型竞争对手的横财，它们迅速瓜分了大量市场份额。"
+            },
+            {
+              "word": "probe",
+              "pos": "v. / n.",
+              "meaning": "（正式）调查、审查；作名词指「调查行动」。是英美新闻标题的超高频词（字短、有力），比「investigate」更简洁，常见搭配：「launch a probe」「congressional probe」「probe into」。暗含「深入探查、寻找证据」的语义，务必与 investigate 一起掌握。",
+              "etymology": "源自拉丁语 proba（检验、测试），与 probare（检验、证明）同源。14世纪进入英语，最初是医学术语指「探针」（插入伤口检查深度的器具），后引申为「深入调查」。如今 probe 既指具体探针（太空探测器），也指抽象的正式调查行动。",
+              "morphology": "来自拉丁词根 prob-（检验、验证）。同词根词：prove（证明）、approve（批准）、probable（可能的）、probation（试用期/缓刑），均含「检验/验证」之义。probe 本身即为词根直接形态，无前后缀。",
+              "mnemonic": "probe = 探针。想象医生用细长探针插入伤口，仔细检查每个角落——这个「深入、仔细探查」的动作感，正好对应调查时「刨根问底」的含义。记住「probe = 探针式深挖」！",
+              "exampleEn": "Regulators announced they would probe the merger to determine whether it would reduce competition in the cloud computing market.",
+              "exampleCn": "监管机构宣布将对此次并购展开调查，以确认其是否会削弱云计算市场的竞争格局。"
+            },
+            {
+              "word": "zero-sum",
+              "pos": "adj.",
+              "meaning": "零和（的）；来自博弈论，指一方所得必然等于另一方所失、总收益为零的竞争态势。固定搭配「zero-sum game」（零和博弈）极为常见。与之对立的是「positive-sum」（正和，各方均可获益）。掌握此词能大幅提升读懂竞争分析文章的能力。",
+              "etymology": "来自博弈论（game theory）术语，由数学家约翰·冯·诺依曼于20世纪中叶系统化。zero（零）+ sum（总和，来自拉丁语 summa，意为「最高点/总量」），即所有参与者收益之和恒为零。1960年代后广泛进入政策和商业语言，成为描述竞争格局的核心词汇。",
+              "morphology": "zero（零）+ sum（总和，来自拉丁语 summa）。复合形容词，通常带连字符。sum 的同源词：summary（摘要）、summit（峰会，最高点）、consummate（完美的）。对比词族：positive-sum（正和）、non-zero-sum（非零和）——掌握这组对比词可举一反三。",
+              "mnemonic": "想象两个人分一块蛋糕——你多得一块，我就少一块，总量不变，这就是 zero-sum（零和）。若两人合作把蛋糕做大，双赢就是 positive-sum（正和）。AI竞争中，打压一家未必等于对手净赚，因为整个蛋糕可能同时缩小！",
+              "exampleEn": "Not all competition in the AI sector is zero-sum; a rising tide of adoption can lift revenues for multiple players simultaneously.",
+              "exampleCn": "AI领域的竞争并非全是零和博弈，用户使用量的整体提升可以同时推动多家公司的营收增长。"
             }
           ]
         },
@@ -354,20 +394,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
           "headlineEn": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+          "headlineCn": "iOS 27最实用的AI功能，藏在Siri之外",
+          "summaryEn": "Apple's WWDC showcase put Siri's AI overhaul front and center, but iOS 27's most impactful intelligence upgrades are quietly embedded in everyday apps—Photos, Mail, Notes, and the keyboard. These on-device features handle summarization, transcription, and contextual suggestions without sending data to the cloud, making them faster and more privacy-friendly. For most users, these under-the-radar additions may prove more transformative than the headline-grabbing Siri redesign Apple spent hours demoing on stage.",
+          "summaryCn": "苹果在WWDC发布会上将Siri的AI升级推到了聚光灯下，但iOS 27中最具实际价值的智能功能，其实悄悄分布在相册、邮件、备忘录和系统键盘等日常应用之中。这些「设备端」功能无需将数据上传至云端，便可完成内容摘要、语音转写和上下文建议，不仅响应速度更快，也更有利于保护用户隐私。对大多数普通用户而言，这些低调的新功能或许比苹果在台上花大篇幅演示的Siri改版，更能切实改变日常使用体验。",
+          "excerpt": "Siri's AI overhaul may have grabbed the headlines at WWDC, but some of Apple's most useful AI features are quietly arriving in Photos, Mail, and Notes—on-device tools that handle transcription, summarization, and contextual suggestions without a cloud round-trip.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "grab the headlines",
+              "pos": "phrase",
+              "meaning": "占据头条、引发广泛关注。比「attract attention」更生动，隐含「抢走聚光灯」的竞争感，媒体和商业报道中极常见，尤其用于对比「哗众取宠的事物」与「低调但重要的事物」，是科技发布会报道的高频套语",
+              "etymology": "短语/复合词，无独立词源。「grab」源自中古英语 grabben，意为「抓取」；「headline」17世纪指印刷品顶部的大标题，后引申为新闻焦点。两词合用约在19世纪末新闻业兴起时形成固定搭配",
+              "morphology": "短语由动词 grab + 定冠词 the + 名词 headline 构成。headline 可拆解为 head（首位）+ line（行）。同类搭配扩展：make the headlines（登上头条）、dominate the headlines（主导新闻周期）、steal the spotlight（抢走聚光灯）",
+              "mnemonic": "想象一个人双手「抓住」（grab）报纸的巨型「标题」（headline）不松手——Siri 在发布会上就是这样把所有目光「强行抢走」的。记住：grab 动作越猛，说明新闻越轰动",
+              "exampleEn": "The electric vehicle startup grabbed the headlines with a record-breaking IPO, overshadowing its quieter but far more profitable battery division.",
+              "exampleCn": "这家电动汽车初创公司以创纪录的IPO占据头条，反而让其更为盈利的电池业务黯然失色。"
+            },
+            {
+              "word": "on-device",
+              "pos": "adj.",
+              "meaning": "在设备本地运行的（而非依赖云端服务器）。AI与隐私语境中的核心术语，与 cloud-based 直接对立，暗含「数据不离开手机」的隐私保障承诺，是理解苹果、谷歌AI战略差异的必备词",
+              "etymology": "复合形容词，无独立词源。由介词短语 on device 加连字符构成，约2010年代随移动端AI兴起而普及。device 源自古法语 devis，意为「计划、设计」，后演变为「装置、设备」",
+              "morphology": "on-（介词前缀，表示「在……之上/之内」）+ device（装置）。同类构词模式：on-premise（本地部署）、on-chip（芯片内置）、on-board（板载）。反义词组：cloud-based、server-side、off-device",
+              "mnemonic": "「on」= 在上面，「device」= 设备——数据就待在设备「上面」，不飞去云端。类比：on-campus（在校内）vs off-campus（在校外），on-device 就是「数据不出门」，隐私留家里",
+              "exampleEn": "Apple's on-device processing ensures that health metrics analyzed by the iPhone remain private, with no information transmitted to external servers.",
+              "exampleCn": "苹果的设备端处理确保iPhone分析的健康数据保持私密，不会传输至任何外部服务器。"
+            },
+            {
+              "word": "roll out",
+              "pos": "phrasal v.",
+              "meaning": "逐步推出、分阶段部署（产品、功能或政策）。比「launch」更强调「循序渐进」的过程，科技与商业报道中极高频，常搭配 gradually、in phases、to all users 等修饰语；名词形式 rollout 同样常见",
+              "etymology": "短语动词，无独立词源。roll 源自古法语 roler，原指「滚动」，引申为「展开地图或画卷」，再演变为商业语境中「逐步铺开某事物」。20世纪中期起在军事物资调配和商业发布中固定使用",
+              "morphology": "roll（滚动/展开）+ out（向外延伸）。同类短语：roll back（回滚/撤销）、roll up（汇总归并）、phase in（逐步引入）、push out（强制推送）。名词形式：rollout（无空格，指一次发布行动）",
+              "mnemonic": "想象把一张大地毯「向外缓缓滚动展开」——新功能就像地毯，从边缘慢慢铺向全体用户。特别注意：rollout（名词，一次性发布）与 roll out（动词短语）拼写不同，别混淆",
+              "exampleEn": "The software company plans to roll out the AI writing assistant to enterprise clients first before expanding access to individual subscribers.",
+              "exampleCn": "该软件公司计划先向企业客户推出AI写作助手，再逐步开放给个人订阅用户。"
+            },
+            {
+              "word": "ambient",
+              "pos": "adj.",
+              "meaning": "环境的、周围的；在科技语境中特指「隐于后台、无需主动触发、无感知地运行」的计算或智能。「ambient intelligence / ambient computing」是AI领域重要概念，描述技术融入日常环境而非需要显式指令的状态",
+              "etymology": "源自拉丁语 ambiens（现在分词形式），意为「围绕四周的」，来自 amb-（四周）+ ire（行走），字面义为「在周围行走的」。17世纪进入英语，最初描述「环境光线或温度」，21世纪延伸至「环境计算」领域",
+              "morphology": "ambi-（前缀，意为「两侧/周围」，源自拉丁语）+ -ent（形容词后缀）。同前缀词横向扩展：ambiguous（模棱两可）、ambidextrous（双手灵巧）、ambiance / ambience（氛围、环境感）",
+              "mnemonic": "ambi = 「两侧都有/四周包围」，就像空气「环绕」你——ambient 智能就像空气，你感觉不到它存在，但它无处不在地为你服务。记住口诀：ambi = around（环绕四周）",
+              "exampleEn": "Tech giants are racing to build ambient AI that anticipates user needs throughout the day without requiring explicit voice commands or screen taps.",
+              "exampleCn": "科技巨头们正争相打造「环境AI」，使其能全天候预判用户需求，无需明确的语音指令或屏幕操作触发。"
+            },
+            {
+              "word": "upstage",
+              "pos": "v.",
+              "meaning": "使……相形见绌、抢走……的风头。源自剧院专业术语，现广泛用于科技和商业报道，描述某产品、功能或事件压过另一个。比 overshadow 更含「主动争抢」的竞争意味，科技发布会报道中尤为常见",
+              "etymology": "源自剧院术语。舞台分「前台」（downstage，靠近观众）与「后台」（upstage，远离观众）。站在 upstage 区域的演员会迫使其他演员背对观众。19世纪末引申为「夺走他人风头」，后进入商业和媒体语境",
+              "morphology": "up-（方向前缀，表示向后/向上）+ stage（舞台）。同类舞台词汇：backstage（幕后）、downstage（前台区）、center stage（舞台中央，引申为「焦点位置」）。常见搭配：upstage a rival、be upstaged by something",
+              "mnemonic": "想象舞台上一个演员「强行走到高处后台」（upstage），逼得前台演员不得不转身背对观众——于是前者「失去所有目光」。Siri 就是那个强势占据高台的演员，让其他iOS功能全成了配角",
+              "exampleEn": "Samsung's foldable phone launch was completely upstaged by Apple's surprise announcement of a thinner, lighter model released the very same week.",
+              "exampleCn": "三星可折叠手机的发布会被苹果同周突然宣布的更薄更轻新机型彻底抢走了风头。"
             }
           ]
         },
@@ -400,20 +480,60 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe",
           "headlineEn": "Wars trigger $12bn venture capital rush into defence tech",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Funding this year has already surpassed 2025 total as soaring valuations fuel fears of a hype cycle",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Funding this year has already surpassed 2025 total as soaring valuations fuel fears of a hype cycle",
+          "headlineCn": "战争引发120亿美元风投热潮涌入国防科技",
+          "summaryEn": "A surge in global conflicts has triggered a $12 billion rush of venture capital into defence technology in 2026, already surpassing the entire 2025 funding total. Rapidly rising valuations are attracting investors but fuelling fears that the sector may be entering a hype cycle — where irrational enthusiasm inflates prices beyond what fundamentals can justify. While demand for defence tech is real and urgent, the speed of capital inflows risks creating a speculative bubble.",
+          "summaryCn": "全球冲突持续升级，推动风险投资大规模涌入国防科技领域。2026年的融资额已超越2025年全年总量，累计达120亿美元。然而，估值的快速攀升引发市场担忧：该行业是否正在步入「炒作周期」——即非理性热情推高价格，远超基本面所能支撑的水平。分析师警告，尽管国防科技的需求真实且迫切，资本快速涌入仍有催生投机性泡沫的风险。",
+          "excerpt": "Global conflicts have ignited a $12bn venture capital rush into defence technology in 2026, with funding already surpassing last year's full total. But rapidly rising valuations are fuelling fears that the sector is entering a hype cycle — where enthusiasm outpaces reality and prices lose touch with fundamentals.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "hype cycle",
+              "pos": "phrase",
+              "meaning": "炒作周期；指某项技术或行业经历「过度期望峰值→幻灭低谷→稳步复苏→成熟落地」的典型发展曲线。由咨询公司 Gartner 提出，是科技投资分析的核心概念，帮助投资者区分「真实价值」与「市场噪音」，在 VC 报道和科技媒体中高频出现。",
+              "etymology": "hype 源自20世纪美国俚语，由 hyper（过度）演变而来，意为夸大宣传；cycle 来自希腊语 kyklos（圆圈、循环）。两词结合描述技术发展中周期性过度炒作的普遍现象。",
+              "morphology": "hype（过度宣传）+ cycle（周期）。相关词：overhyped（adj. 被过度炒作的）、life cycle（生命周期）、business cycle（商业周期）、hype man（造势者）。",
+              "mnemonic": "想象一个过山车：先高喊「hype！hype！」冲上顶点，然后急坠谷底，再缓缓爬升至平稳——这就是 hype cycle 的完整形状。Gartner 每年发布的那张「S形曲线图」是最好的记忆锚点。",
+              "exampleEn": "Many analysts believe generative AI is currently at the peak of the hype cycle, with valuations likely to correct before real enterprise adoption matures.",
+              "exampleCn": "许多分析师认为，生成式人工智能目前正处于炒作周期的顶峰，估值在真正的企业级应用成熟之前可能会出现回调。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司或资产市场价值的评估结果。在风投语境中，pre-money valuation（融资前估值）和 post-money valuation（融资后估值）是判断融资条款的核心指标，远比「价格」更专业。掌握这个词是读懂 VC 报道的必备基础。",
+              "etymology": "来自拉丁语 valere（有价值、有力量），经由古法语 valeur 演变为英语 value，再加名词后缀 -ation（表行为或结果）构成。字面义：「评估价值的过程与结果」。",
+              "morphology": "value（价值）+ -ation（名词后缀）。相关词：overvalued（adj. 高估的）、undervalued（adj. 低估的）、devaluation（贬值）、revaluation（重新估值）。",
+              "mnemonic": "val- 联想「value 价值」，-ation 就是「行动结果」——估值就是「给公司价值打分」的那张成绩单。关键区别：valuation 是专业评估出的「理论价值」，price 是实际成交价，两者常有差距。",
+              "exampleEn": "The defence-tech startup closed its Series B at a $2 billion valuation, a tenfold increase from its seed round just three years ago.",
+              "exampleCn": "这家国防科技初创公司以20亿美元估值完成B轮融资，是三年前种子轮的十倍。"
+            },
+            {
+              "word": "venture capital",
+              "pos": "phrase",
+              "meaning": "风险投资；专指投资于早期、高增长潜力但风险极高的初创企业的私募资金。区别于 private equity（私募股权，主投成熟企业）和 angel investment（天使投资，更早期、金额更小）。掌握三者差异是读懂金融英语的基础入门。",
+              "etymology": "venture 源自拉丁语 adventura（冒险之事），capital 来自拉丁语 caput（头、本金）。合起来字面义是「冒险的本金」，精准描述了这类高风险投资押注未来的本质。",
+              "morphology": "venture（v./n. 冒险）+ capital（n. 资本）。相关词：venture capitalist / VC（风险投资人）、venture-backed（获风投支持的）、joint venture（合资企业）、human capital（人力资本）。",
+              "mnemonic": "venture = ad-venture（冒险）去掉前缀 ad-，剩下「冒险」；capital 是钱。风险投资 = 拿钱去冒险。缩写 VC 在科技圈几乎人人皆知，从熟悉的缩写反推全称是强化记忆的好方法。",
+              "exampleEn": "Venture capital flowing into climate technology has more than doubled over three years, reflecting both investor appetite and strong policy-driven demand.",
+              "exampleCn": "流入气候科技领域的风险投资在三年内翻了一番以上，反映出投资者的热情和政策驱动的强劲需求。"
+            },
+            {
+              "word": "surpass",
+              "pos": "v.",
+              "meaning": "超过、超越；财经报道高频动词，常用于数据对比场景（surpass expectations / records / targets）。比 exceed 更强调「明显突破」，比 outpace 更静态（outpace 侧重速度差距持续拉大），精准掌握三者差异能让表达更专业。",
+              "etymology": "源自法语 surpasser，由 sur-（超过，来自拉丁语 super）+ passer（通过，来自拉丁语 passus，步伐）构成。字面义：「迈步走过并超越」，动态感强烈。",
+              "morphology": "sur-（超过）+ pass（通过）。相关词：surpassing（adj. 卓越的）、unsurpassed（adj. 无与伦比的）、bypass（绕过）、overpass（高架桥）、trespass（擅自进入）。",
+              "mnemonic": "sur- = super（超级）+ pass（通过）——「超级通过」就是超越。想象赛跑中一名选手用「超级步伐」从对手身边飞奔而过，那一刻就是 surpass。这个动词通常搭配积极或中性的超越，语气干净利落。",
+              "exampleEn": "Revenue from cloud services surpassed hardware sales for the first time in the company's history, marking a clear strategic turning point.",
+              "exampleCn": "公司历史上首次出现云服务收入超过硬件销售额的情况，标志着一个清晰的战略转折点。"
+            },
+            {
+              "word": "fuel",
+              "pos": "v.",
+              "meaning": "助燃、加剧、推波助澜；作动词时描述某因素持续推动另一事物发展。财经报道极为常见（fuel inflation / fears / growth / speculation）。比 drive 更强调「持续供给能量」的隐喻，比 cause 更生动，是地道商业英语写作的标配动词，值得与 drive / spark / trigger 一起对比记忆。",
+              "etymology": "源自古法语 fouaille，来自拉丁语 focus（炉灶、火）。原义是「供炉火燃烧的柴料」，中世纪后扩展为比喻义：推动某事持续发展的动力来源。",
+              "morphology": "单一词根，无复杂前后缀。相关词：fuel（n. 燃料）、refuel（v. 重新加油/补充动力）、fuel-efficient（adj. 燃油经济的）、fossil fuel（化石燃料）。",
+              "mnemonic": "汽车加油叫 refuel（加油）——加了油才能跑得快。新闻里说某事 fuel 某种趋势，就是「往趋势的火堆里不断加油」，让它烧得更旺。恐慌是火，坏消息是燃料：bad news fuels fear，画面感强，一学即会。",
+              "exampleEn": "Rising interest rates fuelled fears of a recession, prompting investors to rotate out of growth stocks and into defensive assets.",
+              "exampleCn": "利率上升加剧了市场对经济衰退的担忧，促使投资者将资金从成长股转向防御性资产。"
             }
           ]
         },
@@ -423,20 +543,60 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/6a9330ad-a2db-494b-bf61-7dd417ab9c9a",
           "headlineEn": "Warsh’s push to axe Fed guidance may lift US borrowing costs, investors warn",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Traders see more volatility ahead as new central bank chair declines to give dot plot on future path of interest rates",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Traders see more volatility ahead as new central bank chair declines to give dot plot on future path of interest rates",
+          "headlineCn": "沃什拟废除美联储利率点阵图，投资者警告借贷成本将攀升",
+          "summaryEn": "Kevin Warsh, widely expected to become the next Federal Reserve chair, is pushing to eliminate the central bank's dot plot — its quarterly chart showing policymakers' interest rate projections. Investors warn the move could trigger greater market volatility and lift US borrowing costs. Without this forward-signalling tool, bond markets may demand higher yields to compensate for increased uncertainty over the Fed's future rate path, effectively raising the price of debt across the economy.",
+          "summaryCn": "据报道，有望出任下届美联储主席的凯文·沃什正积极推动废除「点阵图」——这一每季度发布、显示政策制定者利率预期的核心图表。投资者警告，此举可能引发市场更剧烈的波动，并推高美国整体借贷成本。失去这一前瞻性工具后，债券市场或将要求更高的收益率以弥补政策不确定性，进而导致全经济体的融资成本实质性上升。",
+          "excerpt": "Traders are bracing for more volatility as Kevin Warsh, widely seen as the frontrunner to lead the Federal Reserve, signals his intention to scrap the central bank's dot plot — a quarterly projection chart that markets rely on to gauge the future path of interest rates.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "axe",
+              "pos": "v.",
+              "meaning": "（英式英语）砍掉、废除；对某项目、职位或政策进行果断削减。比 eliminate 更生动有力，常见于财经新闻标题，带有突然性与决绝感。值得学习是因为它在商业头条中出现频率极高，却在教科书中鲜少收录",
+              "etymology": "古英语 æx，源自原始日耳曼语 *akwjō，再追溯至印欧语根 *agʷesi-（斧头）。原义指砍伐工具，后引申为「用斧头般的力道削减」，20世纪起大量进入商业语境，表示大刀阔斧的裁减行动",
+              "morphology": "单一词根词，无前后缀。常见搭配：axe jobs（裁员）、axe a programme（砍掉项目）、get the axe（被解雇）。近义辨析：cut 更温和渐进，axe 强调突然且不可逆，scrap 则侧重「彻底废弃、不再使用」",
+              "mnemonic": "想象一把闪亮的斧头「哐」地砍向会议桌上的政策文件——那就是 axe a policy。斧头（axe）= 砍掉（axe），形义完全合一，一刀两断。记住这个画面，财经标题里再见到它就秒懂",
+              "exampleEn": "The board voted to axe the entire product line after three consecutive quarters of declining sales.",
+              "exampleCn": "在连续三个季度销售下滑后，董事会投票决定砍掉整条产品线。"
+            },
+            {
+              "word": "dot plot",
+              "pos": "n. (phrase)",
+              "meaning": "「点阵图」，美联储每季度发布的利率预测图，每个「点」代表一位政策委员对未来利率水平的预测中值。是解读美联储政策立场最权威的工具，几乎是央行前瞻指引的代名词，属于财经英语必掌握的核心术语",
+              "etymology": "短语/复合词，无独立词源。dot（点）来自古英语 dott（顶点），plot（图表）来自中古英语/古法语，原义为「地块、地图」，后延伸为「图表、坐标图」，两词合并成为美联储政策沟通的专有名词",
+              "morphology": "dot（点）+ plot（图）构成复合名词。相关词族：scatter plot（散点图）、box plot（箱线图）、candlestick plot（K线图）。掌握「plot = 图表」可横向扩展大量数据可视化词汇，在金融与科技报道中均适用",
+              "mnemonic": "想象美联储18位委员各自在未来利率的位置上「戳了一个点」——18人18个点，散布在坐标图上，就是 dot plot。每次季度发布，全球市场屏息等待这些点落在哪一行，点往上移就意味着加息预期升温",
+              "exampleEn": "When the Fed released its dot plot last week, markets interpreted the upward shift in projections as a signal that rates would stay higher for longer.",
+              "exampleCn": "美联储上周发布点阵图后，市场将预测值上移解读为利率将长期维持高位的信号。"
+            },
+            {
+              "word": "volatility",
+              "pos": "n.",
+              "meaning": "波动性、不稳定性；金融语境中特指资产价格短期内剧烈起伏的程度，可量化为统计标准差（VIX 恐慌指数衡量的正是股市 volatility）。与 fluctuation 相比，volatility 更具统计精度，是风险管理的核心词汇，值得精准区分",
+              "etymology": "拉丁语 volatilis（能飞的），源自 volare（飞翔），原义指「飞翔的、易逝的」，引申为「容易变化的」。17世纪进入英语，20世纪在金融领域固化为「价格波动率」的专业术语，并催生了 VIX 等衍生概念",
+              "morphology": "词根 vol-（飞）+ -atil-（形容词化）+ -ity（名词后缀）。同词根词：volatile（adj. 易挥发的/情绪不稳定的）、volant（飞翔的，纹章学）。记住 vol = 飞，飞来飞去的价格就是 volatility",
+              "mnemonic": "VOLatility 和 VOLcano（火山）共享词头 VOL——火山喷发时岩浆四处飞溅，市场 volatility 时价格同样失控乱飞。两者都让人措手不及，都很难预测何时爆发",
+              "exampleEn": "Options traders are pricing in higher volatility following the unexpected policy announcement from the central bank.",
+              "exampleCn": "在央行发布出人意料的政策声明后，期权交易员正在为更高的波动率定价。"
+            },
+            {
+              "word": "lift",
+              "pos": "v.",
+              "meaning": "（金融语境）推高、抬升价格、利率或成本。与 raise 或 push up 相比，lift 带有「外力轻柔但确实地向上托起」的隐喻，常描述市场力量或政策对某指标形成上行压力，语气更书面精准，是财经报道中的高频动词",
+              "etymology": "古诺尔斯语 lypta（举起），源自原始日耳曼语 *luftijanan，与德语「空气」（Luft）同根，原义为「举向空中」。13世纪进入英语，在商业语境中自然引申为「使某数值或指标上升」",
+              "morphology": "单音节词根词，无前后缀。常见搭配：lift rates（推高利率）、lift borrowing costs（抬升借贷成本）、lift a ban（解除禁令）。反义搭配：depress（压低）、weigh on（压制）、drag down（拖低）——四个方向各有专属动词",
+              "mnemonic": "把 lift（电梯/举起）和价格联想在一起：当政策像电梯一样把借贷成本「往上托」，就用 lift。利率坐上了电梯——「叮」——借贷成本上了一层楼，楼里的租客就是普通贷款人",
+              "exampleEn": "Strong consumer demand data lifted Treasury yields to a three-month high, pushing mortgage rates higher alongside.",
+              "exampleCn": "强劲的消费需求数据将国债收益率推至三个月高位，同时带动抵押贷款利率走高。"
+            },
+            {
+              "word": "yield",
+              "pos": "n.",
+              "meaning": "（债券/投资）收益率；债券的实际年化回报率，是衡量借贷成本最直接的市场指标。与 return 不同，yield 专指固定收益产品的回报，且与债券价格呈反向关系（价格跌则收益率涨）。读懂债市新闻必须掌握的基础词",
+              "etymology": "古英语 gieldan（支付、偿还），源自原始日耳曼语 *geldan（付款），原义为「给予、支付」，引申为「产出、收益」。在金融语境中固化为「收益率」，并衍生出 yield to maturity（到期收益率）等核心术语",
+              "morphology": "单一词根，兼作名词与动词。核心搭配：high-yield bonds（高收益债券）、yield curve（收益率曲线）、yield spread（收益率利差）。掌握 yield curve 可进一步理解「曲线倒挂」（inverted yield curve）这一经典衰退预警信号",
+              "mnemonic": "Yield 谐音「你欠的」——债券的 yield 就是借款人「欠」你的回报率，风险越高，欠得越多，yield 越高。yield curve 就是一张「不同期限分别欠你多少」的全景总账单",
+              "exampleEn": "As uncertainty over the Fed's policy path grew, investors demanded higher yields on long-dated Treasuries, pushing borrowing costs across the economy higher.",
+              "exampleCn": "随着市场对美联储政策路径的不确定性加剧，投资者要求长期国债提供更高收益率，推动全经济体借贷成本上升。"
             }
           ]
         }
@@ -451,20 +611,60 @@
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/16ace46c-aeac-40c9-8598-3c01fa4481cb",
           "headlineEn": "Did Anthropic talk its way into an AI export ban?",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "FT analysis shows company warned about dangers of advanced AI far more than rival OpenAI this year",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "FT analysis shows company warned about dangers of advanced AI far more than rival OpenAI this year",
+          "headlineCn": "Anthropic频繁警告AI风险，是否为自己引来了出口禁令？",
+          "summaryEn": "An FT analysis reveals that Anthropic issued significantly more warnings about the dangers of advanced AI than rival OpenAI in 2026. The irony is striking: by repeatedly alerting policymakers to existential risks, Anthropic may have unwittingly supplied the political justification for AI export controls that now restrict its own technology. The episode raises a critical question about corporate advocacy — when a company speaks too loudly about its own products' dangers, it may trigger the very regulations that constrain its global ambitions.",
+          "summaryCn": "《金融时报》分析显示，与竞争对手OpenAI相比，Anthropic今年就先进AI风险发出的警告次数要多得多。讽刺的是，这种频繁的「末日预警」，可能恰恰为美国政府实施AI出口管制提供了政治依据，而这些限制如今也波及了Anthropic自身的技术。这一事件引发深刻反思：当公司过度渲染自家产品的危险性时，是否会为自己招来束缚全球业务的监管枷锁？",
+          "excerpt": "An FT analysis found that Anthropic, the AI safety-focused startup, warned about the dangers of advanced artificial intelligence far more frequently than rival OpenAI this year. The pattern has sparked debate over whether the company's own cautionary advocacy helped build the political case for export controls on cutting-edge AI models.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "blowback",
+              "pos": "n.",
+              "meaning": "指某一政策、言论或行动所产生的意外负面反应或后果，尤其是「搬起石头砸自己的脚」的情形。值得学：比「backlash」更强调后果来自自身行为的反弹，政治和商业报道中高频，教科书几乎不教。",
+              "etymology": "源自美国英语军事术语（1930年代），原指枪械发射时气体向后喷出的现象。二战后被CIA情报圈借用，专指秘密行动引发的意外不利后果，后广泛进入政治与媒体语言。",
+              "morphology": "blow（吹/爆发）+ back（向后）合成词。同族复合词：blowout（爆胎/压倒性胜利），blowup（突然爆发/争吵），blowdown（强风吹倒）。名词形式固定为blowback，无词形变化。",
+              "mnemonic": "想象Anthropic把「AI很危险」这句话大力吹出去（blow），结果风向反转吹回来（back），把自己的出口许可证吹飞了。谁吹出去的，就被谁的风打回来——这就是blowback。",
+              "exampleEn": "The tech giant faced severe blowback after its CEO publicly testified that the company's own AI could pose catastrophic risks.",
+              "exampleCn": "这家科技巨头的CEO公开作证称公司AI可能带来灾难性风险后，遭遇了严重的反噬。"
+            },
+            {
+              "word": "existential",
+              "pos": "adj.",
+              "meaning": "涉及存在本身或生死存亡的。在AI安全话语中，「existential risk」特指威胁人类文明甚至整个物种存续的风险，是AI安全圈最高等级的警示词。比「serious」或「severe」分量重得多，含终极性、不可逆的意味，是读懂AI政策讨论的必备词。",
+              "etymology": "源自拉丁语existentia（存在），由existere（ex-出+sistere站立）演变而来，字面义「站出来存在」。20世纪中叶因萨特等人的存在主义哲学而广为人知，后被风险研究领域借用，专指威胁存在本身的极端风险。",
+              "morphology": "exist（存在）+ -ent（形容词化后缀）+ -ial（形容词后缀）。同族词：existence（n.存在），exist（v.存在），existentialism（n.存在主义），existentially（adv.在存在层面上）。",
+              "mnemonic": "exist（存在）是核心——existential就是关于「能否继续存在」的终极问题。记住：existential risk = AI界的「存在还是毁灭」，是比「严重」高出好几个等级的红色警报。",
+              "exampleEn": "Several leading AI researchers describe unaligned superintelligence as an existential threat to humanity, not merely a technical safety concern.",
+              "exampleCn": "多位顶尖AI研究人员将未对齐的超级智能描述为对人类的生存威胁，而不仅仅是技术安全问题。"
+            },
+            {
+              "word": "caveat",
+              "pos": "n.",
+              "meaning": "附加的警告、告诫或限制性条件。在商业、法律和技术写作中极为常用，指正面陈述后加上的「但是……」式限制说明。值得学：比「warning」更正式，比「disclaimer」更简洁，常见于研究报告和合同。核心搭配：add a caveat / with the caveat that…",
+              "etymology": "直接借自拉丁语caveat，意为「让他当心」，是cavēre（谨慎、注意）的虚拟式第三人称单数形式，字面义「愿他谨慎」。15世纪进入英语法律语言，作为法律程序中的「警示令」，后扩展为一般性「附加警告」。",
+              "morphology": "源自拉丁动词cavēre（谨慎）。同族词：precaution（预防措施，pre-提前+caution谨慎），cautious（谨慎的），beware（小心，be+ware警觉），incautious（不谨慎的）。",
+              "mnemonic": "「洞穴」cave + at = 进洞穴前要先「当心」（caveat）！拉丁文原义就是「当心」。下次看到分析报告里「with the caveat that…」就知道：作者在洞口立了块警示牌。",
+              "exampleEn": "The consultant praised the new AI strategy with one important caveat: the growth projections assumed regulators would not impose new export restrictions.",
+              "exampleCn": "顾问肯定了新的AI战略，但附上一个重要告诫：增长预测假设监管机构不会实施新的出口限制。"
+            },
+            {
+              "word": "precipitate",
+              "pos": "v.",
+              "meaning": "使（负面事件）突然发生、加速引发。强调「提前推倒」的意味，比cause更有突然性，比trigger更强调事件的仓促和意外。在金融和政治报道中常见：precipitate a crisis / a selloff / a ban。也可用作形容词，意为「鲁莽仓促的」。",
+              "etymology": "源自拉丁语praecipitare（从高处抛下），由prae（前/高处）+ caput（头）构成，字面义「头朝下扔出」。化学术语「沉淀」（precipitate）同源，指物质从溶液中「骤然落下」。英语约16世纪引入，兼有「使骤然发生」和「化学沉淀」两义。",
+              "morphology": "pre-（向前/提前）+ cipit（=caput，头）+ -ate（动词后缀）。相关词：capital（首都/资本，同源caput），decapitate（斩首，de-去掉+capit头），captain（首领，头头），precipitation（降水/骤然发生）。",
+              "mnemonic": "想象一个人头朝下（caput=头）从悬崖上被推落——precipitate就是把某件危机「推下悬崖」，让它骤然坠落。Anthropic的警告，把出口禁令这块石头从悬崖边推了下去。",
+              "exampleEn": "The sudden leak of the internal risk memo precipitated a market selloff, wiping out billions in market capitalization within hours.",
+              "exampleCn": "内部风险备忘录突然泄露引发了市场抛售，数小时内市值蒸发数十亿美元。"
+            },
+            {
+              "word": "advocacy",
+              "pos": "n.",
+              "meaning": "公开倡导、为某一立场或事业积极发声的行为。在科技和政策圈，指公司或个人向公众、媒体或立法者推广特定观点。与lobbying（游说，通常指私下接触政客）的区别：advocacy更强调公开、道义层面的呼吁。AI safety advocacy是当前AI政策讨论的核心词汇。",
+              "etymology": "源自拉丁语advocatus（被召唤来帮助的人），由ad（向）+ vocare（呼唤）构成，原指古罗马法庭中被「召唤」来为当事人辩护的律师。经由中世纪法语advocate进入英语，后演化出advocacy（倡导行为本身）。",
+              "morphology": "ad-（向/加强）+ voc-（声音/呼唤，来自拉丁vocare）+ -acy（名词后缀，表状态或行为）。同词根词：vocal（声音的），invoke（调用），provoke（激怒），evoke（唤起），vocation（职业/使命）。",
+              "mnemonic": "ad（向）+ voc（声音/呼唤）+ acy = 「对外大声发声」的行为。Anthropic的AI safety advocacy就是不断向外「呼唤」危险，结果真的把监管「召唤」来了——呼唤者，得偿所愿。",
+              "exampleEn": "The startup's relentless advocacy for stricter AI regulation ultimately shaped the very policy framework that limited its own overseas sales.",
+              "exampleCn": "这家初创公司不遗余力地倡导更严格的AI监管，最终塑造了限制其自身海外销售的政策框架。"
             }
           ]
         },
@@ -474,20 +674,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
           "headlineEn": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Jumper isn't the only big name leaving Google DeepMind.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Jumper isn't the only big name leaving Google DeepMind.",
+          "headlineCn": "诺贝尔奖得主约翰·贾珀离开DeepMind 加盟Anthropic",
+          "summaryEn": "John Jumper, the Nobel Prize-winning scientist behind DeepMind's groundbreaking AlphaFold protein-structure model, is departing Google DeepMind to join Anthropic, a leading AI safety startup. Jumper shared the 2024 Nobel Prize in Chemistry for revolutionizing biological research. His departure is part of a broader exodus of senior talent from DeepMind, signaling intense competition for top researchers across the AI industry. Anthropic, backed by Amazon and Google, is racing to challenge OpenAI's dominance in the generative AI space.",
+          "summaryCn": "因主导AlphaFold蛋白质结构预测模型而荣获2024年诺贝尔化学奖的科学家约翰·贾珀，宣布离开谷歌DeepMind，加入AI安全初创公司Anthropic。贾珀并非单独出走——多位DeepMind高层人才相继离职，折射出AI行业对顶尖研究人员的激烈争夺。Anthropic获亚马逊和谷歌巨额支持，正积极挑战OpenAI在生成式AI市场的主导地位，此次成功挖角堪称一次重大战略胜利。",
+          "excerpt": "John Jumper, who shared the 2024 Nobel Prize in Chemistry for his work on AlphaFold, is departing Google DeepMind to join AI safety startup Anthropic. He is reportedly not the only senior figure leaving the organization, reflecting fierce competition for elite AI talent.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "laureate",
+              "pos": "n.",
+              "meaning": "桂冠得主；某领域最高荣誉获得者，尤指诺贝尔奖得主或桂冠诗人。在正式报道中比「winner」更庄重、更有文化分量，常以「Nobel laureate」「poet laureate」形式出现，体现对获奖者的高度尊崇，是学术与新闻写作必备词",
+              "etymology": "来自拉丁语 laurea（月桂冠），源于 laurus（月桂树）。古希腊罗马以月桂冠象征荣誉与胜利，授予英雄、诗人和运动冠军。「laureate」最初指「戴月桂冠者」，后演变为各领域最高荣誉获得者的正式称谓",
+              "morphology": "laure-（月桂，词根）+ -ate（拉丁后缀，表「具有某状态的人」）。同族词：laurel（月桂树／荣誉）、baccalaureate（学士学位，bachelor + laureate）、laureation（授予荣誉学位的仪式）",
+              "mnemonic": "想象一位诺贝尔奖得主头顶月桂冠（laurel wreath）登台领奖，「laure-」就是那顶绿叶冠，「-ate」说明他「拥有」这顶冠。月桂冠 → laureate，画面鲜明，一步到位",
+              "exampleEn": "The Nobel laureate delivered a keynote at the conference, drawing a capacity crowd of researchers and investors.",
+              "exampleCn": "这位诺贝尔奖得主在大会上发表主旨演讲，吸引了众多研究人员和投资者到场聆听。"
+            },
+            {
+              "word": "poach",
+              "pos": "v.",
+              "meaning": "挖角；以更优厚条件将人才从竞争对手处招募过来。比「recruit」更强调掠夺性，带有「侵入他人领地」的隐喻色彩，是科技和商业报道中极高频词，暗示竞争激烈甚至有违行业惯例，用这个词比「hire away」更有新闻张力",
+              "etymology": "源自古法语 pocher（刺穿、戳入），最初指非法猎取他人土地上的猎物（偷猎），17世纪延伸为「侵占他人领地」，20世纪商业语境中引申为「挖走竞争对手的员工」，保留了「非法侵入」的隐喻底色",
+              "morphology": "单一词根，无法拆解前缀后缀。派生词：poacher（挖角者／偷猎者）、poaching（挖角行为）。近义词辨析：recruit（中性招募）vs. headhunt（猎头，强调主动精准寻访）vs. poach（带负面色彩，暗示不正当竞争）",
+              "mnemonic": "联想「水波纹荷包蛋」（poached egg）——把蛋从原来的壳里「偷」出来放进开水里。挖角也是把人才从原来公司「偷」出来放进自己锅里。一个 poach，两种「偷」，画面美味又好记",
+              "exampleEn": "The startup managed to poach three senior engineers from the tech giant by offering equity packages worth twice their current compensation.",
+              "exampleCn": "这家初创公司通过提供相当于现有薪酬两倍的股权方案，成功从那家科技巨头挖走了三名高级工程师。"
+            },
+            {
+              "word": "brain drain",
+              "pos": "phrase / n.",
+              "meaning": "人才流失；指一个机构、行业或国家的顶尖人才大量流向其他地方。政策讨论和商业报道中的核心词汇，带有结构性警示意味，比「talent loss」更正式，隐含对长期竞争力的深层忧虑，常出现在分析企业危机或国家竞争力的文章中",
+              "etymology": "20世纪60年代英国媒体首创，用于描述英国科学家大量赴美的现象。「brain」喻指智识人才，「drain」（排水管／流失）比喻人才如水般流走，是典型的英语隐喻造词法，形象生动，一经推出迅速流行于全球媒体",
+              "morphology": "brain（大脑→智力人才）+ drain（排水→流失），复合名词，无独立词源可拆。近义词扩展：talent exodus（人才外流）、talent flight（人才出走）。反义词：brain gain（人才净流入）",
+              "mnemonic": "想象一个装满聪明大脑的水桶，桶底有个洞，脑子一个个顺水流走——这就是 brain drain。画面越夸张越难忘。下次看到大批科研人员离职新闻，脑海里就浮现这只漏水的桶",
+              "exampleEn": "The country's leading universities warned of a brain drain as funding cuts pushed top scientists to seek positions at overseas institutions.",
+              "exampleCn": "该国顶尖大学警告称，随着资金削减迫使顶尖科学家赴海外任职，人才流失问题日益严峻。"
+            },
+            {
+              "word": "coup",
+              "pos": "n.",
+              "meaning": "妙举；重大成功。在商业语境中特指一次出其不意、令竞争对手瞠目结舌的战略性胜利，如挖来顶级人才或拿下重量级客户。须注意与「political coup（政变）」区分——商业语境下语气是积极的，值得单独建立记忆锚点",
+              "etymology": "源自法语 coup（一击），来自中世纪拉丁语 colpus，再追溯至希腊语 kolaphos（拳击）。「coup de grâce」（致命一击）、「coup d'état」（政变，字面意思是「对国家的一击」）均同源，核心语义是「决定性的一击」",
+              "morphology": "法语直接借词，结构不可拆解。相关短语：coup de grâce（最后一击）、coup d'état（政变）。英语常用搭配：a major coup、score a coup、pull off a coup（成功策划一次出色行动）",
+              "mnemonic": "法语 coup 发音类似英语「coo」（鸽子咕咕叫）。想象 Anthropic 像一只安静的鸽子，悄悄飞进 DeepMind 的巢，叼走最值钱的蛋（John Jumper）——那就是一次 coup。悄无声息，却效果惊人",
+              "exampleEn": "Hiring the former chief scientist was considered a major coup for the startup, instantly boosting its credibility with investors.",
+              "exampleCn": "聘用这位前首席科学家被视为该初创公司的一次重大成功，立即提升了其在投资者眼中的公信力。"
+            },
+            {
+              "word": "exodus",
+              "pos": "n.",
+              "meaning": "大批离去；集体出走。在商业／科技报道中指一群重要人物相继离开某机构，语气比「departure」强烈得多，隐含「事情不妙」的警示信号，常用于分析企业文化危机或人才争夺战，读者一看到这个词就知道问题严峻",
+              "etymology": "直接借自希腊语 Éxodos（出路、离开），由 ex-（向外）+ hodos（道路）构成。《圣经》第二卷（Exodus，出埃及记）描述以色列人集体离开埃及，「exodus」由此成为「大规模集体出走」的通用词，沿用至今",
+              "morphology": "ex-（向外，前缀）+ -odus / -hodos（道路，词根）。同前缀词：export（向外运输）、exhaust（向外抽空）。同词根词：method（沿路前行→方法，meta- + hodos）、episode（插曲，epi- + hodos）",
+              "mnemonic": "记住《圣经》里的「出埃及记」（Exodus）——摩西举杖分开红海，带领整个民族集体出走。以后看到公司大批人才离职的新闻，脑海里就浮现摩西领路的画面，exodus 一字不忘",
+              "exampleEn": "The sudden exodus of senior engineers following the merger left the company struggling to maintain its product development schedule.",
+              "exampleCn": "合并完成后，高级工程师的突然集体离职让公司在维持产品研发进度上陷入了困境。"
             }
           ]
         },
@@ -497,20 +737,60 @@
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/early-prime-day-deals-june-2026-2/",
           "headlineEn": "I Found 29 Early Prime Day Deals That Are Worth Shopping Now (2026)",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "We’ve trawled the depths of Amazon to find the best deals on gear we’ve tested.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "We’ve trawled the depths of Amazon to find the best deals on gear we’ve tested.",
+          "headlineCn": "《连线》编辑精选29款亚马逊Prime Day提前开抢好物",
+          "summaryEn": "Amazon Prime Day 2026 is approaching, and Wired editors have already uncovered 29 early deals worth serious attention. Every featured product has been personally tested and reviewed by the editorial team, ensuring recommendations go beyond simple price reductions. From tech gadgets to home gear, these discounts reflect genuine value rather than artificially inflated sale prices. For informed shoppers, early-bird deals often sell out quickly, making now the smart time to act before the official event launches.",
+          "summaryCn": "距亚马逊Prime Day 2026正式开幕尚有时日，《连线》杂志编辑团队已率先披露29款值得关注的提前折扣商品。每款入选产品均经编辑亲测，确保推荐不只是价格噱头，而是真正物有所值。涵盖科技配件、家用装备等多个品类，这些折扣代表真实优惠，而非虚标原价后的「假打折」。对于精明的购物者而言，提前抢购往往更划算，因为热门商品常在正式活动前便已售罄。",
+          "excerpt": "Wired editors have trawled Amazon's vast catalog to surface 29 early Prime Day deals on gear they have personally tested. Rather than chasing the lowest sticker price, the focus is on products that represent real value — worth buying today, even before the official Prime Day event begins.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "trawl",
+              "pos": "v.",
+              "meaning": "系统性地翻遍、搜寻大量内容以寻找目标。比 search 更强调「大海捞针式的彻底搜索」，常见于新闻调研语境，如 trawl the internet / trawl through data。原文即用此词描述编辑翻遍亚马逊的动作，画面感极强。",
+              "etymology": "源自古诺斯语 trawl（拖网捕鱼），进入中古英语后专指渔业拖网作业；16世纪起逐步隐喻为「在大量内容中拖网搜寻」，延伸至信息检索与新闻调查语境。",
+              "morphology": "单一词根，无前后缀。派生词：trawler（n. 拖网渔船/搜寻者）、trawling（n. 搜寻过程）。横向扩展：drag（拖拽）、dredge（疏浚/深挖）同为「拖底式搜索」类动词族群。",
+              "mnemonic": "想象一艘渔船拖着巨大渔网缓缓穿过海底——那就是你「trawl」亚马逊商品页面时的样子，把一切都网进来再慢慢筛选，绝不放过任何漏网之鱼。",
+              "exampleEn": "The research team spent weeks trawling through thousands of user reviews to identify the most reliable budget laptops.",
+              "exampleCn": "研究团队花了数周时间翻遍数千条用户评价，以找出最可靠的平价笔记本电脑。"
+            },
+            {
+              "word": "vetted",
+              "pos": "adj. / v.",
+              "meaning": "经过专业人士严格审查和验证的。比 checked 或 verified 更强调「由权威人士进行深度背景核查」，常见于产品测评、人事审查和投资尽调语境，如 vetted products / vetted candidates。出现在此处暗示编辑的推荐经过了真实使用验证，而非广告软文。",
+              "etymology": "源自 veterinarian（兽医），拉丁语 veterinarius（负责役畜的人），由 vetus（老/有经验的）衍生。19世纪末「vet」从「让兽医检查动物健康」引申为「由专家对某人或某物进行彻底核查」。",
+              "morphology": "vet（v.）→ vetted（过去式/形容词）→ vetting（动名词）。词根 vetus 还衍生出：veteran（老兵/老手）、inveterate（根深蒂固的）。注意 vet 双写 t 再加 -ed。",
+              "mnemonic": "想象一只领养前被兽医从头到脚仔细检查的小狗——「vetted」产品就像被「兽医式」逐一检验过，确保没有隐患才推荐给你，和随便拍张图就上架的商品截然不同。",
+              "exampleEn": "Only vetted suppliers with verified quality certifications are permitted to list products on the enterprise procurement platform.",
+              "exampleCn": "只有经过严格审查并持有质量认证的供应商，才被允许在企业采购平台上架产品。"
+            },
+            {
+              "word": "flash sale",
+              "pos": "n. / phrase",
+              "meaning": "「闪购」——极短时间内（数小时乃至数分钟）以大幅折扣销售的促销活动。比 discount 或 sale 更突出「时间紧迫性」，是电商制造稀缺感、刺激快速决策的核心营销手段，也是理解亚马逊Prime Day底层逻辑的关键词。",
+              "etymology": "flash 源自中古英语拟声词，原指光的一闪而过，后引申为「瞬间发生」；sale 来自古诺斯语 sala（销售/交换）。两词组合精准捕捉这类促销「转瞬即逝」的核心特征，最早盛行于2000年代电商平台。",
+              "morphology": "flash（adj.）+ sale（n.）构成复合名词。flash 系列词族：flash mob（快闪族）、flash drive（U盘）、flash flood（山洪暴发）——均强调「突然、短暂、强烈」三重含义。",
+              "mnemonic": "相机闪光灯「咔嚓」一下不到一秒——flash sale 就是这么短。眨个眼，商品售罄；再想买，已是原价。Prime Day 的倒计时条就是这个「闪」字的可视化。",
+              "exampleEn": "The startup's flash sale of its latest fitness tracker sold out 10,000 units within 90 minutes of going live.",
+              "exampleCn": "这家初创公司为新款健身追踪器举办的闪购活动，上线仅90分钟便售出了1万台。"
+            },
+            {
+              "word": "sticker price",
+              "pos": "n. / phrase",
+              "meaning": "标牌价、建议零售价（常指未经任何折扣的原始定价）。源自汽车行业，现广泛用于消费品领域；与 list price 近义，但更口语，且隐含「这个价格往往可以砍价或优化」的语感，是分析「真实折扣力度」时的必备参照词。",
+              "etymology": "sticker 来自古英语 stician（刺入/粘附），指粘贴标签；price 来自拉丁语 pretium（价值/代价）。组合词起源于20世纪初美国汽车经销商贴在新车车窗上的官方定价标贴（Monroney sticker），后泛化为各类商品原价。",
+              "morphology": "sticker（n.）+ price（n.）复合名词，不可拆解为更小语素。同族词组：sticker shock（因高价而震惊）、price tag（价格标签）、MSRP（制造商建议零售价）。",
+              "mnemonic": "想象在汽车4S店，销售员把一张大贴纸贴在车窗上写着「¥300,000」——那就是 sticker price，而你的任务是让他把那张贴纸撕掉，给你个更低的成交价。购物时永远别只看 sticker price。",
+              "exampleEn": "The electric sedan's sticker price of $52,000 drops to roughly $44,500 after applying the federal tax credit.",
+              "exampleCn": "这款电动轿车的标牌价为52,000美元，申请联邦税收抵免后实际到手价约为44,500美元。"
+            },
+            {
+              "word": "deal fatigue",
+              "pos": "n. / phrase",
+              "meaning": "「优惠疲劳」——消费者因频繁接触促销信息而产生的麻木感，导致对折扣失去兴趣和行动力。营销人员和零售分析师用此词描述过度促销对品牌吸引力和转化率的侵蚀，是解释为何零售商争相「提前发动」促销的核心原因。",
+              "etymology": "deal 来自古英语 dælan（分配/交换）；fatigue 来自法语 fatiguer（使疲倦），再溯至拉丁语 fatigare（彻底耗尽），词根含「重负压垮」之意。两词组合描述消费者被连绵不断的「交易」信息「彻底压垮」的心理状态。",
+              "morphology": "deal（n.）+ fatigue（n.）复合名词。fatigue 系列：compassion fatigue（同情疲劳）、decision fatigue（决策疲劳）、Zoom fatigue（视频会议疲劳）——均指「某种刺激过度导致的感知麻木」，是现代商业心理学的重要概念族。",
+              "mnemonic": "想象每天收到20封「今日特惠！限时折扣！手慢无！」的邮件——到第10天你连标题都懒得看了，直接划走。这种麻木就是 deal fatigue。Prime Day 「提前优惠」正是想在你麻木之前先抓住你的注意力。",
+              "exampleEn": "Retailers are launching Prime Day promotions earlier each year to capture shoppers before deal fatigue sets in during the main event.",
+              "exampleCn": "零售商每年提前发起Prime Day促销活动，目的是在主活动期间消费者产生优惠疲劳之前，率先锁住购物者的注意力。"
             }
           ]
         },
@@ -520,20 +800,60 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/im-73-and-living-100-off-dividends-from-my-stocks-how-can-i-create-even-more-income-74b372f1?mod=mw_rss_topstories",
           "headlineEn": "I’m 73 and living 100% off dividends from my stocks. How can I create even more income?",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "A “bulletproof” portfolio may be impossible, but you can try to get close if you have enough money invested",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "A “bulletproof” portfolio may be impossible, but you can try to get close if you have enough money invested",
+          "headlineCn": "73岁靠分红全额养老：如何进一步提升退休收入",
+          "summaryEn": "A 73-year-old retiree who funds their entire lifestyle through stock dividends is asking how to generate even more income. Financial advisers caution that a truly 'bulletproof' portfolio is nearly impossible, but investors with substantial holdings can come close through diversification across dividend-paying blue-chip equities, dividend ETFs, and fixed-income instruments. Key recommendations include monitoring payout ratios to assess sustainability, maintaining a cash buffer to avoid forced selling during downturns, and selectively reinvesting a portion of dividends to grow the income base over time.",
+          "summaryCn": "一位73岁的退休人士完全依靠股票分红维持生计，并希望进一步扩大收入。理财顾问指出，打造「无懈可击」的投资组合几乎不可能，但只要资产规模足够、配置合理，就可以无限接近这一目标。专家建议在蓝筹股、股息ETF和固定收益资产之间广泛分散，同时关注股息支付率的可持续性，保留现金缓冲以防市场下跌时被迫抛售，并将部分股息再投入以持续扩大收入基础。",
+          "excerpt": "A truly bulletproof portfolio may be impossible to construct, but for retirees with enough capital spread across dividend-paying equities and fixed-income assets, getting remarkably close is within reach. The key lies in monitoring payout ratios for sustainability and maintaining a cash buffer to weather market downturns without selling positions at a loss.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "dividend yield",
+              "pos": "phrase",
+              "meaning": "股息收益率——股票年度分红总额除以当前股价，是衡量分红类股票「性价比」的核心指标。值得学：财经报道中出现频率极高，是评估退休投资组合时最常用的量化工具，比单说「分红」更精确，直接揭示投资回报率，常与bond yield（债券收益率）对比使用。",
+              "etymology": "dividend源自拉丁语dividendum（应被分割之物），是dividere（分割）的动名词形式，17世纪进入英语特指股份收益；yield源自古英语gieldan（偿还、给予产出），最初指土地农作物的产出，后泛化为任何形式的回报率。两词组合在19世纪末成为股市标准术语。",
+              "morphology": "dividend（分红）+ yield（收益率）。dividend可拆解为di-（分开）+ vid（分，词根videre）+ -end（拉丁动名词后缀）；同族词：divide、division、individual。yield本身为简单词，常见派生搭配：high-yield（高收益的）、yield curve（收益率曲线）、earnings yield（盈利收益率）。",
+              "mnemonic": "想象一棵苹果树（股票），每年结出苹果（dividend分红）。树价100元，一年结10元苹果，yield（产出率）就是10%。买树就是买「能持续产苹果的资产」，yield告诉你每块钱买树换来多少苹果——数字越大，树越值得买。",
+              "exampleEn": "Utility companies tend to offer a higher dividend yield than tech growth stocks, making them attractive for income-focused retirees.",
+              "exampleCn": "公用事业公司的股息收益率往往高于科技成长股，因而对注重收入的退休投资者颇具吸引力。"
+            },
+            {
+              "word": "payout ratio",
+              "pos": "phrase",
+              "meaning": "股息支付率——公司将净利润中多大比例以分红形式派发给股东。值得学：这是判断分红是否「可持续」的关键指标，支付率过高（如超过90%）意味着公司几乎没有留存利润用于再投资，一旦业绩下滑分红即面临削减风险，是退休投资者选股时必查的数据。",
+              "etymology": "payout为pay（支付，源自古法语payer，再溯至拉丁语pacare：平息债务、使债主满意）与out（向外）的复合词，强调「对外支出」；ratio源自拉丁语ratio（计算、推理），与reason同源，指两个数量之间的比例关系，17世纪经由数学术语进入英语。",
+              "morphology": "pay-out（动词短语名词化）+ ratio（比率）。pay的派生词：payment、payable、repay、overpay；ratio构成的金融搭配：P/E ratio（市盈率）、debt ratio（负债率）、retention ratio（留存率，payout ratio的对立面：留存 + 支付 = 100%）。",
+              "mnemonic": "把公司比作一只母鸡：每天下10个蛋（利润），把8个蛋分给股东就是80%的payout ratio，剩下2个蛋孵小鸡（再投资）。payout ratio太高，母鸡没精力长大，分红迟早缩水——这就是「高派息陷阱」，一个画面记住核心风险。",
+              "exampleEn": "Before adding a stock to his retirement portfolio, the analyst always checks the payout ratio to ensure dividends remain sustainable even during an earnings slowdown.",
+              "exampleCn": "在将某只股票纳入退休投资组合之前，这位分析师总会先检查其股息支付率，以确保即便在盈利放缓期间分红也能持续。"
+            },
+            {
+              "word": "drawdown",
+              "pos": "n.",
+              "meaning": "回撤——投资组合从阶段性高点到最低点的跌幅，是衡量风险的关键指标。值得学：对依赖投资收益生活的退休人士而言，「最大回撤」（maximum drawdown）直接关系到能否撑过熊市而不被迫抛售资产，比「波动率」更直观地描述了最坏情况下的实际损失幅度。",
+              "etymology": "draw源自古英语dragan（拉、拖），down作方向副词；最初为军事与航海用语，指撤兵或舱底排水；20世纪中叶进入金融领域，专指资产净值从峰值到谷值的跌幅。后来在退休规划中也指「每期从账户中提取资金」，形成双重含义。",
+              "morphology": "draw + down（方向副词，表示向下）。同构型金融复合词：markdown（降价）、writedown（资产减值）、rundown（衰退摘要）、breakdown（崩溃；细项拆解）。drawdown的延伸搭配：maximum drawdown（MDD，最大回撤）、drawdown period（退休后提款阶段）、recover from a drawdown（从回撤中复原）。",
+              "mnemonic": "想象一个水库（portfolio）：雨季蓄满水到最高点，旱季水位下降——从最高到最低的落差就是drawdown（回撤）。退休人士最怕旱季太长，水还没涨回来就见底了。这个水库画面足以让人记住：drawdown = 水位从峰值下跌的幅度。",
+              "exampleEn": "The fund manager highlighted that despite a 30% drawdown during the financial crisis, the portfolio recovered fully within 18 months.",
+              "exampleCn": "基金经理强调，尽管在金融危机期间投资组合出现了30%的回撤，但在18个月内便完全复原。"
+            },
+            {
+              "word": "blue-chip",
+              "pos": "adj.",
+              "meaning": "蓝筹（股）的——形容财务状况稳健、市值大、历史悠久且持续派息的公司或其股票。值得学：该词来自赌场比喻，在财经英语中是「默认高质量」的标签，常出现在退休投资建议中，与penny stock（仙股）、speculative stock（投机股）形成鲜明对比，也可用于比喻任何领域的顶尖品牌。",
+              "etymology": "来自美国扑克与赌场术语：赌筹码按颜色分级，蓝色筹码（blue chip）价值最高。1920年代道琼斯新闻记者Oliver Gingold首次将其用于形容价格最高的股票，此后沿用至今，语义从「价格高」逐渐演变为「稳定、优质、可靠」。",
+              "morphology": "blue（蓝色）+ chip（筹码；小薄片，古英语cipp：木桩）。复合形容词，作定语时加连字符：blue-chip company、blue-chip stock。品质层级：blue-chip（顶级稳健）> large-cap（大市值）> mid-cap（中市值）> small-cap（小市值）> penny stock（仙股）。blue chip也可作名词：a blue chip，blue chips（泛指蓝筹板块）。",
+              "mnemonic": "赌场里颜色代表价值：红筹便宜，蓝筹最贵也最「值钱」。记住：blue chip = 赌桌上最不会让你倾家荡产的那枚筹码，类比到股市就是苹果、可口可乐这类「百年老店」。蓝色天空 = 晴朗稳定 = 稳如泰山，这个颜色联想帮助记忆。",
+              "exampleEn": "Retirees on fixed income often anchor their portfolios in blue-chip dividend stocks to ensure a steady and predictable cash flow.",
+              "exampleCn": "依靠固定收入的退休人士通常将蓝筹分红股作为投资组合的压舱石，以确保稳定可预测的现金流。"
+            },
+            {
+              "word": "reinvest",
+              "pos": "v.",
+              "meaning": "再投资——将获得的股息、利息或利润重新投入资产而非提取消费，以实现复利增长。值得学：在退休规划语境中，「部分再投资」是在不削减生活支出的前提下扩大收入基础的关键策略；与withdrawal（提款）形成张力，体现了平衡当下消费与未来保障这一退休理财的核心矛盾。",
+              "etymology": "re-（拉丁前缀：再次、重新）+ invest；invest源自拉丁语investire（为某人穿上衣服，引申为「赋予职位/权力」），17世纪出现金融语义，指「将钱放入某项事业以期回报」。re-的加入表示「把产出的收益再次放回去」，强调循环增殖的动态过程。",
+              "morphology": "re-（再次）+ invest（投资）。re-前缀同族词：rebalance（再平衡）、restructure（重组）、reallocate（重新配置）。invest的派生词：investment（投资）、investor（投资者）、investable（可投资的）、disinvest/divest（撤资）。注意：reinvest与disinvest方向相反，一进一出构成完整的资金流动图。",
+              "mnemonic": "想象滚雪球：你把雪球（分红）捡起来重新压回大雪球（投资组合），雪球越滚越大——这就是reinvest。对比：把雪球拿回家融化喝掉 = 提现消费。退休人士的艺术是：喝一半，滚一半，让雪球继续长大。re-（再次）就是那个「压回去」的动作。",
+              "exampleEn": "By choosing to reinvest 20% of her quarterly dividends, she gradually expanded her income base without sacrificing her current standard of living.",
+              "exampleCn": "通过将每季度股息的20%再投资，她在不降低当前生活水准的前提下，逐步扩大了自己的收入基础。"
             }
           ]
         },
@@ -543,20 +863,60 @@
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/20/south-korea-tech-samsung-sk-hynix-bonus-bank-of-korea.html",
           "headlineEn": "Massive bonuses for South Korea's chip workers puts central bank on inflation alert",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Workers from tech industries receive bonus worth millions of won, prompting the Bank of Korea to warn of the upward pressure to inflation.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Workers from tech industries receive bonus worth millions of won, prompting the Bank of Korea to warn of the upward pressure to inflation.",
+          "headlineCn": "韩国芯片工人巨额奖金引发央行通胀预警",
+          "summaryEn": "South Korea's semiconductor workers are receiving massive bonuses worth millions of won, reflecting the chip industry's strong recent performance. The Bank of Korea has issued a warning that these large payouts could fuel consumer spending and drive inflation higher. When a concentrated group of high-earning workers suddenly receive significant cash windfalls, it creates upward pressure on prices across the broader economy, highlighting the tension between rewarding a booming sector's workers and maintaining overall price stability.",
+          "summaryCn": "韩国半导体行业工人正在获得价值数百万韩元的巨额奖金，折射出该行业近年来的强劲表现。韩国银行（央行）对此发出警告，指出这些大规模派息可能刺激消费支出，进而推高通胀水平。当大批高收入工人突然获得可观的意外之财时，会对整体经济物价水平形成上行压力。这一现象凸显了在繁荣行业奖励员工与维护整体物价稳定之间的内在张力。",
+          "excerpt": "South Korean semiconductor workers are receiving year-end bonuses worth millions of won, a reflection of the booming chip industry. The Bank of Korea flagged the trend as a potential source of inflationary pressure, warning that the sudden surge in high-income workers' purchasing power could drive up prices across the broader economy.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "windfall",
+              "pos": "n.",
+              "meaning": "意外之财；横财。指意外获得的大笔收入或利润。财经语境中常指企业或个人意外获得的超额收益（如巨额奖金、超预期回报），比「unexpected gain」更生动，带有「从天而降」的隐喻色彩，在财经新闻中高频出现。常见搭配：windfall bonus（意外奖金）、windfall tax（暴利税）、windfall profit（意外利润）。",
+              "etymology": "古英语复合词，字面义为「被风吹落的果实」（apples blown down by wind），14世纪已有记录。因捡拾风落果实无需费力，后引申为「意外得到的好处或财富」，语义路径由具体物质到抽象财富。",
+              "morphology": "wind（风）+ fall（落下）复合词，构词直观。同族词：rainfall（降雨量）、downfall（衰落）、windfall tax（暴利税）、snowfall（降雪量）。fall 作词根还可见于 pitfall（陷阱）、shortfall（缺口）、landfall（登陆）。",
+              "mnemonic": "想象果园里一阵大风吹来，苹果哗哗落地——不费力气就捡到果实，就像意外之财从天而降。「wind（风）+ fall（落）」= 风吹来的钱。记住：windfall tax 就是对「天上掉馅饼」式暴利征税。",
+              "exampleEn": "Semiconductor workers received a windfall bonus this year, thanks to record chip demand from AI data centers.",
+              "exampleCn": "由于人工智能数据中心对芯片的需求创历史新高，半导体工人今年获得了一笔丰厚的意外奖金。"
+            },
+            {
+              "word": "remuneration",
+              "pos": "n.",
+              "meaning": "薪酬；报酬（尤指工资、奖金等全部劳动收入的总称）。比 salary 或 pay 更正式，常出现在公司年报、劳动合同、央行报告中，指员工从雇主处获得的全部经济回报（含基本工资、奖金、福利）。值得学，因为财经英语描述高管薪酬时几乎必用此词，能体现专业语域，显示写作者对财经文体的驾驭。",
+              "etymology": "源自拉丁语 remuneratio，由 re-（回）+ munus（礼物、职责）+ -atio（名词后缀）构成，原义「回报礼物」，后演变为「对劳动付出的经济回报」，16世纪进入英语书面语。",
+              "morphology": "re-（再次/回）+ mun-（词根，义「礼物/职责」）+ -er（动词化）+ -ation（名词后缀）。同词根词：munificent（慷慨的）、immunity（免疫/豁免，原义「免于职责」）、communal（公共的）、municipality（市政机构）。",
+              "mnemonic": "把 remuneration 拆成 re-（回）+ money（钱，发音近似 mun）+ -ation，「把钱还回去」就是「付报酬」。或记：CEO 的巨额 remuneration（re-money-ation）总是上头条，因为这个词专属于「大额薪酬」语境。",
+              "exampleEn": "The board approved a new remuneration package for chip engineers, including base salary, performance bonuses, and stock grants.",
+              "exampleCn": "董事会批准了一项针对芯片工程师的新薪酬方案，涵盖基本工资、绩效奖金和股票授予。"
+            },
+            {
+              "word": "wage-price spiral",
+              "pos": "phrase",
+              "meaning": "工资-物价螺旋式上涨。指「工资上涨→企业成本上升→产品价格上涨→员工要求更高工资→再度推高物价」的恶性循环。这是央行最担忧的通胀情景之一，理解此词是读懂货币政策新闻的关键，在韩国央行发出此次预警的背景下尤为重要。",
+              "etymology": "wage 源自古法语 wage/gage（抵押、担保），后引申为「劳动报酬」；price 来自拉丁语 pretium（价格）；spiral 源自拉丁语 spira、希腊语 speira（线圈、螺旋）。三词组合成固定财经术语，短语/复合词，无独立词源。",
+              "morphology": "wage + price + spiral 三词组合。相关词族：spiral v.（螺旋式上升）、inflationary spiral（通胀螺旋）、price-wage feedback loop（价格-工资反馈循环）、cost-push inflation（成本推动型通胀）。",
+              "mnemonic": "画一个向上旋转的螺旋楼梯：工资涨一级→价格涨一级→工资再涨一级……像两只手互相推着往上爬，停不下来。「工资推物价，物价推工资」——spiral（螺旋）说的正是这种停不下来的循环。",
+              "exampleEn": "The central bank warned that generous tech bonuses could trigger a wage-price spiral if workers in other sectors demand similar pay rises.",
+              "exampleCn": "央行警告称，若其他行业工人纷纷要求类似加薪，科技行业的丰厚奖金可能引发工资-物价螺旋上涨。"
+            },
+            {
+              "word": "inflationary",
+              "pos": "adj.",
+              "meaning": "通货膨胀的；导致或加剧通胀的。财经报道中极高频，常见搭配：inflationary pressure（通胀压力）、inflationary expectations（通胀预期）、inflationary environment（通胀环境）。与 deflationary（通缩的）相对，是央行报告和宏观分析的核心词汇，比说「causing inflation」更简洁权威，是财经写作的标配形容词。",
+              "etymology": "源自 inflation（通货膨胀），inflation 来自拉丁语 inflatio，由 in-（向内）+ flare（吹气）+ -tion 构成，原义「吹胀膨大」，后引申为货币「膨胀贬值」；-ary 为形容词后缀，表「与……相关的、具有……性质的」。",
+              "morphology": "inflat-（词根，吹胀）+ -ion（名词后缀）+ -ary（形容词后缀）。同词根词：inflate v.（使膨胀/虚报）、deflation n.（通缩）、reflation n.（再通胀）、stagflation n.（滞胀）。前缀 in- 在此作「向内」义，与 flare（吹）结合描述「向内充气膨胀」。",
+              "mnemonic": "把 inflationary 和气球联系起来——「in（向内）吹气」让气球 inflate（膨胀）；气球越吹越大象征物价上涨；inflationary 就是「让气球越吹越大的力量」。通胀 = 货币这个气球被吹瘪了价值。",
+              "exampleEn": "Rapid wage growth in the semiconductor sector is raising concerns about broader inflationary effects on the South Korean economy.",
+              "exampleCn": "半导体行业工资的快速增长引发了外界对韩国整体经济产生更广泛通胀效应的担忧。"
+            },
+            {
+              "word": "ripple effect",
+              "pos": "phrase",
+              "meaning": "涟漪效应；连锁反应。指一个事件引发的一系列间接影响，像石头投入水中荡漾开来的波纹，逐圈向外传导。在财经语境中，常描述某行业或政策的影响如何扩散至整个经济体，比 chain reaction 更强调「渐进扩散、层层传导」的过程性，是宏观经济分析的高频表达。",
+              "etymology": "ripple 一词约17世纪出现于英语，可能源自低地德语 rippeln 或模拟水波声的拟声词，指水面的轻微波动；effect 来自拉丁语 effectus（由 ex-「出」+ facere「做」构成，原义「做出的结果」）。短语/复合词，无独立词源。",
+              "morphology": "ripple（涟漪）+ effect（效果）两词组合。相关词族：ripple v.（泛起涟漪）、ripple through（波及、蔓延至）、knock-on effect（连带效应，英式英语同义词）、second-order effects（二阶效应，更学术的说法）。",
+              "mnemonic": "想象向平静湖面扔一枚硬币——一圈圈涟漪向外扩散，越来越大。科技工人拿到巨额奖金是那枚「硬币」；消费增加、物价上涨是向外扩散的 ripple（涟漪）。记住：ripple through the economy = 波及整体经济。",
+              "exampleEn": "The tech sector bonuses are expected to have a ripple effect on consumer spending, potentially driving up prices in restaurants and retail.",
+              "exampleCn": "科技行业奖金预计将产生涟漪效应，推动消费支出增加，进而可能推高餐饮和零售价格。"
             }
           ]
         }
