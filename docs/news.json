@@ -1,7 +1,207 @@
 {
-  "lastUpdated": "2026-06-25T23:13:37.795874+00:00",
+  "lastUpdated": "2026-06-27T02:27:02.268507+00:00",
   "level": "B2",
   "days": {
+    "2026-06-26": {
+      "label": "6月26日 (周五)",
+      "stories": [
+        {
+          "id": "20260626-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+          "headlineEn": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260626-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+          "headlineEn": "It’s not about Anthropic vs. OpenAI anymore",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260626-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
+          "headlineEn": "Jeremy Grantham says this is the most expensive market in 'American history'",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Jeremy Grantham says soaring valuations around AI makes the U.S. stock market historically expensive.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Jeremy Grantham says soaring valuations around AI makes the U.S. stock market historically expensive.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260626-4",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories",
+          "headlineEn": "SpaceX Stock Is Overhyped — But That Doesn't Doom the Bull Market",
+          "headlineCn": "SpaceX股票估值虚高，但这并不预示牛市终结",
+          "summaryEn": "SpaceX is approaching a public offering at a jaw-dropping valuation, prompting analysts to warn that overhyped IPOs rarely deliver strong short-term returns for ordinary investors. History shows high-profile tech listings often underperform in their debut year as early euphoria fades and profit-taking sets in. Yet this pattern doesn't signal broader market weakness — a stock priced for perfection reflects investor risk appetite, not an imminent crash. The key takeaway: distinguish between a frothy individual name and the health of the overall bull market.",
+          "summaryCn": "SpaceX正以惊人估值筹备上市，MarketWatch分析师警告称，被过度炒作的IPO鲜少在短期内为普通投资者带来丰厚回报。历史数据显示，高调科技股上市后首年往往表现平平，早期市场亢奋消退后随即迎来获利回吐。然而，这一规律并不意味着整体市场走弱——某只股票被按完美预期定价，折射的是投资者的风险偏好，而非崩盘的前兆。文章的核心结论是：应将单一股票的泡沫与整体牛市的健康状况区分开来。",
+          "excerpt": "Overhyped IPOs rarely make you money in the short term. When a marquee listing captures headlines, retail investors often rush in at peak prices — only to watch gains evaporate as early euphoria fades. But that is a stock-picking problem, not a bull-market problem.",
+          "vocab": [
+            {
+              "word": "frothy",
+              "pos": "adj.",
+              "meaning": "泡沫化的；形容市场价格虚高、投机情绪过热。「frothy market」是华尔街高频词，比「overvalued」更口语化，隐含随时可能破灭的危险感，常用于描述接近顶部但尚未崩盘的过热市场，是分析师的预警用词。",
+              "etymology": "来自古英语 frōth（泡沫），原指啤酒或咖啡上的泡沫层。17世纪起被金融界借用，以液体泡沫比喻市场价格虚而不实、随时可能消散的状态，语义从物理现象迁移至金融隐喻。",
+              "morphology": "froth（泡沫，n./v.）+ -y（形容词后缀）。同族词：froth(n./v.)、frothiness(n.)。同类液体隐喻构词：bubbly（同样来自气泡意象，兼指香槟，语气更轻松）、fizzy（碳酸气泡感）。",
+              "mnemonic": "想象一杯卡布奇诺上厚厚的奶泡——看起来丰盛，戳一下全是空气。「frothy market」就是这杯咖啡：表面热闹，经不起考验。记忆链：froth（奶泡）→ frothy（泡沫化的）→ 市场随时可能「缩水」。",
+              "exampleEn": "Analysts warned the tech IPO market was getting frothy, with several companies trading at 50 times revenue on their first day.",
+              "exampleCn": "分析师警告称，科技IPO市场正变得泡沫化，部分公司在上市首日的市销率高达50倍。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司或资产价值的评估结论。在商业语境中特指投资方给出的公司定价，「at a $350 billion valuation」是融资和IPO新闻的核心句型，比泛泛的「value」更具专业分量，是读懂科技财经报道的必备词。",
+              "etymology": "源自拉丁语 valere（有价值、强壮），经中世纪法语 valuation 进入英语。16世纪起用于财产估价，现代金融语境中扩展至公司定价与股权评估，语义从「物的价格」扩展到「企业的身价」。",
+              "morphology": "valu(e)（价值，源自拉丁 valere）+ -ation（名词后缀，表行为或结果）。同族词：value(n./v.)、valuable(adj.)、devalue(v.)、overvalued(adj.)、revaluation(n.)，词根 val- 贯穿整个价值语义场。",
+              "mnemonic": "拆成「value（价值）」的行动版——「为价值采取行动、打上数字标签」就是「估值」。或者记：val = value，-ation = 行为，合起来是「给价值定数字」的过程，每次融资新闻必出现。",
+              "exampleEn": "SpaceX's pre-IPO valuation reportedly exceeded $350 billion, making it one of the most valuable private companies ever.",
+              "exampleCn": "据报道，SpaceX上市前估值超过3500亿美元，跻身有史以来最有价值的私人公司之列。"
+            },
+            {
+              "word": "euphoria",
+              "pos": "n.",
+              "meaning": "市场亢奋；投资者因市场大涨产生的过度乐观情绪。在金融语境中暗含非理性成分，常与「irrational」搭配出现，是描述市场顶部情绪的高频词，比「excitement」更能传递「危险信号」的警示含义。",
+              "etymology": "源自希腊语 euphoria，由 eu-（好、顺利）+ pherein（承受、携带）构成，原义为「承受良好状态」。17世纪进入英语初为医学术语，描述身体舒适感，后扩展至心理和市场情绪领域，成为行为金融学核心词汇。",
+              "morphology": "eu-（好，希腊前缀）+ -phoria（感受/状态，来自 pherein）。反义词：dysphoria（烦躁不安，dys-=坏）。派生词：euphoric(adj.)。同前缀词：eulogy（颂词）、euphemism（委婉语），eu- 在希腊语中始终表示「好」。",
+              "mnemonic": "eu 发音像「you」，phoria 联想「for ya」= 「everything is good for you！」——股市大涨时人人亢奋如此，但历史告诉我们这往往是顶部信号。「euphoria = 最危险的美好感觉」。",
+              "exampleEn": "Post-earnings euphoria quickly gave way to profit-taking as investors realized the company had already priced in three years of growth.",
+              "exampleCn": "财报后的市场亢奋很快被获利回吐取代，因投资者意识到股价已提前消化了三年的增长预期。"
+            },
+            {
+              "word": "priced for perfection",
+              "pos": "phrase",
+              "meaning": "按完美预期定价；指股票价格已将所有利好因素完全反映，任何一点失误都可能引发大跌。这是华尔街分析师描述高估股票时最常用的短语，比「overvalued」更精准地点出了风险的不对称性——向上空间有限，向下风险巨大。",
+              "etymology": "短语/复合词，无独立词源。price 源自拉丁语 pretium（价格）；perfection 源自拉丁语 perfectio（完成、完美）。该短语约形成于1990年代美股大牛市期间，用于警示涨幅过大、容错空间归零的个股。",
+              "morphology": "price（定价，v.）+ for（介词，表目的/对象）+ perfection（完美，n.）。price 派生：pricing、overpriced、price-sensitive；perfection 派生：perfect(adj.)、imperfect(adj.)、perfectionist(n.)，词根 fect 来自拉丁 facere（做）。",
+              "mnemonic": "想象一个老师把100分定为「刚好及格」——学生任何低于满分的表现都算失败。高估股票就是这样：市场要求公司每步都完美，稍有差池便暴跌。记忆口诀：「priced for perfection = 没有容错空间」。",
+              "exampleEn": "With a P/E ratio exceeding 100, the AI chipmaker's stock is clearly priced for perfection — one disappointing quarter could trigger a sharp selloff.",
+              "exampleCn": "这家AI芯片公司市盈率超过100倍，股价显然已按完美预期定价——一旦某季度业绩令人失望，可能引发大幅抛售。"
+            },
+            {
+              "word": "unwind",
+              "pos": "v.",
+              "meaning": "平仓；有序地减持或退出投资头寸。比「sell」更专业，含有「逐步、有控制地」退出的意味，多用于机构投资者操作场景，暗示规模较大且需谨慎处理，以避免冲击市场价格，是资产管理类报道的常用动词。",
+              "etymology": "来自古英语 unwindan，由 un-（逆转、解除）+ windan（缠绕）构成，原义为「解开缠绕的线」。金融语境中将持仓头寸比喻为缠绕的线，平仓即「慢慢解开」，约在20世纪中期形成该专业用法。",
+              "morphology": "un-（逆转，表相反动作）+ wind（缠绕，发音 /waɪnd/，注意非「风」wind /wɪnd/）。同类 un- 构词：unravel（解开）、undo（撤销）、unload（卸载）。wind 本义派生：rewind（倒带）、windlass（绞盘）。",
+              "mnemonic": "把头寸想象成一个毛线团：买入是「wind up」（越缠越紧、越来越大），卖出是「unwind」（慢慢解开）。机构大户不能一把抛完，得一圈圈「unwind」，否则自己砸自己的盘——这个画面让人秒懂为何要「有序平仓」。",
+              "exampleEn": "Hedge funds began quietly unwinding their positions in SpaceX-adjacent aerospace stocks after the IPO excitement subsided.",
+              "exampleCn": "在SpaceX上市热潮消退后，对冲基金开始悄悄平仓其在相关航天股上的头寸。"
+            }
+          ]
+        },
+        {
+          "id": "20260626-5",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
+          "headlineEn": "Bond Yields Fall as New Fed Chair Warsh Talks Tough on Inflation",
+          "headlineCn": "美联储新主席沃什强硬表态，国债收益率应声回落",
+          "summaryEn": "Kevin Warsh, who recently became Federal Reserve chair, is using firm public statements to pull Treasury yields lower — without raising interest rates. As inflation shows renewed signs of heating up, Warsh's commitment to price stability is reassuring bond markets and driving yields down. This matters because lower yields reduce borrowing costs across the economy, from mortgages to corporate loans. The episode highlights how central bank credibility and tough communication can move markets almost as effectively as actual policy action.",
+          "summaryCn": "美联储新任主席凯文·沃什近期就通胀问题采取强硬立场，这一表态正产生实质效果。尽管尚未实际加息，沃什通过公开声明向市场传递出坚定的控通胀信号，推动美国国债收益率持续走低。收益率下行意味着从房贷到企业融资的整体借贷成本降低，对实体经济形成支撑。此案例表明，央行主席的「口头干预」有时与真实政策行动同样有效——公信力本身就是最强大的政策工具。",
+          "excerpt": "Kevin Warsh, the newly appointed Federal Reserve chair, is leaning on tough rhetoric to pull Treasury yields down. As inflation shows renewed signs of heating up, Warsh's firm signals on price stability appear to be reassuring bond markets — without a single rate hike.",
+          "vocab": [
+            {
+              "word": "coax",
+              "pos": "v.",
+              "meaning": "以温和、间接的方式逐步引导某事物朝预期方向移动。金融语境常见搭配：「coax yields lower」「coax inflation down」，暗示效果非强制达成，而是靠间接影响力慢慢「哄」出来的。比 push 或 force 更显手腕精妙，适合描述央行通过语言而非政策「软性引导」市场。",
+              "etymology": "源自17世纪英语 cokes（傻瓜、轻信者），原指「把人当傻瓜哄骗」，后语义软化为「温柔说服、轻言哄诱」。约1600年进入标准英语，逐渐去除贬义色彩，保留「以巧劲而非蛮力达成目的」之义。",
+              "morphology": "单一词根，无前后缀拆解。派生形式：coaxing（动名词/形容词，含「循循善诱」之意）、coaxingly（副词）。近义词群：cajole（奉承哄骗）、wheedle（甜言蜜语）、entice（诱导），coax 语气最温和、最无贬义。",
+              "mnemonic": "想象你在哄一只猫走进笼子——用食物慢慢「coax」它靠近，轻声细语，绝不硬推。记住：央行主席用「coax」而非「force」，说明他在用语言而非政策硬推市场，两字之差道出权力的微妙。",
+              "exampleEn": "The central bank coaxed inflation expectations lower through a series of carefully worded public statements.",
+              "exampleCn": "央行通过一系列措辞谨慎的公开声明，逐步引导通胀预期下行。"
+            },
+            {
+              "word": "pop",
+              "pos": "v.",
+              "meaning": "（价格或数据）骤然跳升，多指短暂的急剧波动。财经报道常见「inflation pops」「the stock popped 5%」「the number popped」，比 rise 或 surge 更口语化，强调突发性和短暂性。是财经英文中活泼而高频的动词，与 spike（更强调峰值极值）、surge（更强调持续上行）有微妙区别，值得辨析。",
+              "etymology": "来自中世纪英语 poppen，拟声词，模仿突然爆裂声。原义「砰地发出声响」，后引申为「突然出现/跳升」。因气球、瓶塞爆开的声音联想，延伸至价格数据「骤然弹起」的金融含义，20世纪后半叶在财经媒体中广泛使用。",
+              "morphology": "单音节拟声词，无词缀拆解。常见搭配：pop up（突然出现）、pop off（突然离去/爆发）。近义对比：spike（尖峰上涨，强调极值）、surge（汹涌上涨，强调持续）、pop（骤弹，口语，常含短暂义）、jump（跳升，较中性）。",
+              "mnemonic": "想象气球被针戳破——「pop」！物价像气球一样突然弹起，快速且出人意料。带着爆破音的 pop 和缓慢上涨的 rise 截然不同——rise 是爬楼梯，pop 是直接从一楼弹到五楼。",
+              "exampleEn": "Core CPI popped 0.4% month-on-month, catching traders off guard and sending yields sharply higher.",
+              "exampleCn": "核心CPI环比骤升0.4%，令交易员措手不及，国债收益率随之急剧走高。"
+            },
+            {
+              "word": "jawbone",
+              "pos": "v.",
+              "meaning": "（政府官员或央行行长）通过公开发言影响市场或经济行为，而非采取实际政策行动。专属政策语境的核心术语，意为「动嘴皮子施压」，是理解美联储沟通策略的关键词。区别于真实政策工具（加息/降息），jawboning 指纯粹的「语言干预」——本文沃什的核心策略正是此道。",
+              "etymology": "由 jaw（下颌骨→说话动作）+ bone（骨头）构成复合词。最初为解剖学术语「下颌骨」，因 jaw 与说话相关，演化出「靠话语施压」之义。1960年代在美国政治经济语境中广泛流行，尤指约翰逊总统时代对企业价格进行口头施压的做法。",
+              "morphology": "jaw（嘴巴/下颌，古英语 ceage）+ bone（骨头，古英语 ban）构成。名词形式：jawboning（口头干预行为）。类似构造：backbone（脊梁骨→勇气）、wishbone（叉骨→愿望）、funny bone（肘部神经→幽默感）。",
+              "mnemonic": "JAW = 嘴巴，BONE = 骨头 → 「嘴骨头在动」。想象美联储主席只动了动下巴（jaw+bone），债券市场就乖乖低头了——这就是 jawboning 的魔力：无需动一分钱，只靠动嘴就能撼动数万亿市场。",
+              "exampleEn": "When rate hikes seemed politically sensitive, the Treasury Secretary chose to jawbone the currency markets instead of intervening directly.",
+              "exampleCn": "当加息在政治上显得敏感时，财长选择通过公开言辞干预汇市，而非直接出手。"
+            },
+            {
+              "word": "tame",
+              "pos": "v.",
+              "meaning": "驯服、压制（使失控之物变得可控）。经济语境中专指「控制通胀/平息波动」，如 tame inflation、tame volatility。这一动词携带「驯化野兽」的隐喻，将通胀比作脱缰猛兽，生动呈现其危险性。比 control 或 reduce 更有画面感和力道，是财经写作中极具感染力的动词选择。",
+              "etymology": "来自古英语 tam，意为「驯服的、温顺的」，与德语 zahm、荷兰语 tam 同源，均源自原始日耳曼语 *tamaz。与人类驯化野生动物的农业实践密切相关，原指使野生动物顺从人类，后泛化为「使任何失控事物归顺」。",
+              "morphology": "单一词根词，兼作动词和形容词（tame = 平淡的/已驯服的）。派生：tameness（n.驯服状态）、tamely（adv.温顺地）、tamer（n.驯兽师）、untamed（adj.未驯服的）。反义词：rampant（横行肆虐的）、wild（狂野的）、unruly（难以驾驭的）。",
+              "mnemonic": "想象一位驯兽师（tamer）手持椅子，面对一头名叫「Inflation」的狮子——他的任务就是 tame it。美联储主席 Warsh 就是那位驯兽师，而通胀就是试图逃跑的猛兽。tamer 里藏着 tame，记住职业就记住了动词。",
+              "exampleEn": "Policymakers failed to tame inflation in the 1970s, allowing it to spiral into double-digit territory for years.",
+              "exampleCn": "政策制定者未能在1970年代驯服通胀，致使其多年来在两位数区间螺旋上升。"
+            },
+            {
+              "word": "credibility",
+              "pos": "n.",
+              "meaning": "可信度、公信力。在央行政策语境中，credibility 特指市场和公众相信央行会兑现承诺的程度，是货币政策最核心的「无形资产」。与 reputation（声誉，强调过去表现积累的口碑）相比，credibility 更聚焦于「言行一致的可预测性」——这正是沃什通过强硬表态所维护的东西。",
+              "etymology": "来自拉丁语 credibilis，由 credere（相信、托付）+ -ibilis（可…的后缀）构成，原义「值得相信的」。credere 是一个核心拉丁词根，同时孕育了 credit（信用）、creed（信条）、incredible（难以置信）等一批英语词汇，均围绕「信任」这一核心概念展开。",
+              "morphology": "cred-（相信，源自拉丁 credere）+ -ibility（能力/性质名词后缀）。家族词：credible（可信的）、incredible（难以置信的）、credit（信用）、discredit（使失信）、creed（信条）、accredit（认证授权）。掌握 cred 族群，一通百通。",
+              "mnemonic": "cred 就是「信」（像 credit 卡里的核心）+ ibility 是「能力」→「有能力被相信的程度」。美联储的 credibility 就是它的「市场信用分」——一旦烧掉，就算主席说破天市场也不买账。这正是沃什为何要率先表态强硬的原因：先刷分，再说话才有人听。",
+              "exampleEn": "The central bank's credibility in fighting inflation was severely damaged after it kept rates near zero for too long.",
+              "exampleCn": "由于将利率长期维持在接近零的水平，央行在抗通胀方面的公信力遭到严重损害。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-25": {
       "label": "6月25日 (周四)",
       "stories": [
@@ -8838,326 +9038,6 @@
               "mnemonic": "拆成 over（打开）+ ture（门）：overture 就是「把门推开」的那个动作——外交官主动推开谈判之门发出的第一个信号就是 overture。想象歌剧大幕升起前的序曲：还没开始，但已经在铺垫了",
               "exampleEn": "The startup's initial overture to the tech giant sparked interest and eventually led to a three-billion-dollar acquisition.",
               "exampleCn": "这家初创公司对科技巨头的初步接触引发了对方的兴趣，最终促成了一笔30亿美元的收购。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-26": {
-      "label": "5月26日 (周二)",
-      "stories": [
-        {
-          "id": "20260526-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
-          "headlineEn": "India Startup Pays Gig Workers to Collect Robot Training Data",
-          "headlineCn": "初创公司雇用印度零工采集机器人训练数据",
-          "summaryEn": "Human Archive, founded by UC Berkeley and Stanford researchers, is hiring gig workers in India to collect physical-world training data for AI and robotics companies. Workers wear camera-equipped caps and motion sensors to record real-world human movements. As AI labs race to improve robotic systems, high-quality embodied data has become a critical bottleneck. By tapping India's large gig workforce, Human Archive is positioning itself at the intersection of the global data economy and the robotics boom.",
-          "summaryCn": "由加州大学伯克利分校和斯坦福大学研究人员创立的初创公司「Human Archive」，正在雇用印度零工采集真实世界的物理训练数据，供AI和机器人实验室使用。工人佩戴装有摄像头的帽子和传感器设备，记录人类在现实环境中的动作与交互行为。随着机器人技术快速发展，高质量的具身数据已成为稀缺资源。该公司通过整合印度庞大的零工经济劳动力，在全球数据供应链中占据了独特位置。",
-          "excerpt": "Human Archive is paying gig workers in India to wear camera-equipped caps and sensor devices, capturing the real-world physical data that AI and robotics labs are racing to acquire. Founded by UC Berkeley and Stanford researchers, the startup believes India's vast gig workforce holds the key to training the next generation of robots.",
-          "vocab": [
-            {
-              "word": "crowdsource",
-              "pos": "v.",
-              "meaning": "众包；通过向大量普通用户征集资源来完成任务。科技和商业新闻中极高频，比「outsource（外包）」更强调「群众参与」而非专业机构，常用于数据采集、创意征集、软件测试等场景，是描述现代平台经济模式的核心词汇。",
-              "etymology": "2000年代初由「crowd（人群）」和「outsource（外包）」合成的混成词（blend），最早由记者Jeff Howe于2006年在《连线》杂志正式提出。词义从「向外部机构外包」演变为「向不特定大众征集资源」，标志着互联网驱动的协作生产模式的兴起。",
-              "morphology": "crowd（人群）+ source（来源；提供）→ crowdsource（向大众征集）。同词根拓展：crowdfunding（众筹资金）、crowdworker（众包工人）、crowdvoting（众包投票）；source作动词的其他形式：outsource（外包）、open-source（开源）。",
-              "mnemonic": "想象一片「crowd（人群）」变成巨大的「source（数据来源）」——数千名印度工人戴着摄像帽，合力为机器人提供训练素材，这就是crowdsource最直观的画面。crowd + source，字面即义，别让它难倒你。",
-              "exampleEn": "The company decided to crowdsource its product testing by inviting thousands of beta users to report bugs before the official launch.",
-              "exampleCn": "该公司在正式发布前邀请数千名测试用户报告漏洞，以众包方式完成产品测试。"
-            },
-            {
-              "word": "annotation",
-              "pos": "n.",
-              "meaning": "（数据）标注；注释。在AI领域专指为训练数据添加标签或元数据的过程，是机器学习流水线的基础环节。比「labeling（贴标签）」更正式、更学术，暗含详细的说明性注解，常见搭配：data annotation（数据标注）、image annotation（图像标注）、annotator（标注员）。",
-              "etymology": "源自拉丁语「annotatio」，由「ad-（朝向）+ nota（标记、符号）」构成，原义为「做标记、附加注解」，古典时代指文本旁批或评注。20世纪末被计算机科学借用，专指为数据集添加机器可读标签的工序，完成了从人文批注到AI工程术语的语义跨越。",
-              "morphology": "前缀ad-（朝向，d在n前同化省略）+ 词根not-（标记，来自拉丁语nota）+ 后缀-ation（名词化）→ annotation。同词根词：note（笔记）、notable（显著的）、notation（符号体系）、annotate（v. 标注）、annotator（n. 标注员）。",
-              "mnemonic": "「annotation」里藏着「note（笔记）」——想象AI训练师像批改作业的老师，在每张机器人视角的图片上「note（标注）」信息：这是椅子、那是门把手。数据annotation就是给AI世界写的「批注本」，note是线索单词。",
-              "exampleEn": "Data annotation remains a labor-intensive step: each image must be tagged with precise bounding boxes before a vision model can learn from it.",
-              "exampleCn": "数据标注仍是劳动密集型工序：每张图像都必须用精确的边界框加以标记，视觉模型才能从中学习。"
-            },
-            {
-              "word": "proprietary",
-              "pos": "adj.",
-              "meaning": "专有的；私有的（指属于某公司或个人、受知识产权保护的信息或技术）。常见搭配：proprietary data（专有数据）、proprietary algorithm（专有算法）、proprietary technology（专有技术）。比「private（私人的）」更强调「商业所有权」和「封闭不对外」的含义，是科技报道的核心词汇。",
-              "etymology": "源自拉丁语「proprietarius」（所有者、业主），由「proprius（自己的、专属的）」演变而来，17世纪进入英语，最初指土地或不动产的所有权，后扩展到商业知识产权和技术版权领域，完成了从「物权」到「智识产权」的语义迁移。",
-              "morphology": "词根propr-（自己的，来自拉丁语proprius）+ 后缀-etary（形容词化）→ proprietary。同词根词：property（财产）、proprietor（所有人、业主）、appropriate（v. 占用；adj. 适当的）、proper（适当的）——这一族词都围绕「属于自己」这一核心义。",
-              "mnemonic": "「proprietary」里藏着「property（财产）」——想象一把大锁挂在「property」上，标签写着「proper owner only（仅限业主）」。专有数据就是公司的「私人财产」，别人不能随便碰。property → proprietary，多几个字母，意思一脉相承。",
-              "exampleEn": "The robotics firm refused to reveal its proprietary data pipeline, arguing it was the key competitive advantage over rivals.",
-              "exampleCn": "这家机器人公司拒绝披露其专有数据流水线，称这是超越竞争对手的核心竞争优势。"
-            },
-            {
-              "word": "incentivize",
-              "pos": "v.",
-              "meaning": "（通过报酬或奖励）激励、刺激（某人做某事）。比「motivate（激励）」更强调「外部物质激励手段」，常与工资、奖金、补贴搭配，是描述平台经济和商业模式的高频词。注意：美式英语用incentivize，英式英语有时写作incentivise；两者皆可接受。",
-              "etymology": "由「incentive（激励、奖励）」加动词后缀「-ize」构成。「incentive」源自拉丁语「incentivum」，原意为「拨动琴弦引出旋律」（incantare），引申为「触发行为的诱因」，20世纪进入商业英语主流后逐渐被动词化，反映了平台经济对「行为设计」的高度重视。",
-              "morphology": "词根incent-（来自拉丁语incinere，点燃、激发）+ 后缀-ive（名词/形容词化）+ -ize（动词化）→ incentivize。同族词：incentive（n. 激励）、disincentive（n. 反向激励）；类比构词模式：monetize（货币化）、prioritize（优先处理）、optimize（优化）。",
-              "mnemonic": "「incentivize」里藏着「cent（分币）」——想象老板手持硬币对员工说「I will incentivize you with cents」。记住：用金钱等有形奖励「诱导」别人行动就是incentivize，它比motivate更「物质」更「商业」，这正是它在平台经济报道中大行其道的原因。",
-              "exampleEn": "The platform incentivizes drivers to work during peak hours by offering surge pricing bonuses on top of the standard fare.",
-              "exampleCn": "该平台通过在标准费率基础上叠加高峰时段奖励，激励司机在繁忙时段出车。"
-            },
-            {
-              "word": "wearable",
-              "pos": "n. (also adj.)",
-              "meaning": "可穿戴设备（名词用法）；可穿戴的（形容词用法）。作名词时特指能穿戴于身体的智能硬件，如摄像头帽子、传感器腕带、智能手表等，是科技媒体的核心词汇。特别值得学：这是英语科技行业「形容词名词化」的典型案例（类似「a mobile（手机）」「a hybrid（混动车）」），直接指代一类产品品类。",
-              "etymology": "由「wear（穿戴）」+ 后缀「-able（可…的）」构成，原本只是普通形容词。21世纪初随着智能硬件兴起，被名词化为「wearable（可穿戴设备）」，是科技行业造词能力的典型体现，记录了硬件从「穿戴特征」到「产品品类」的语义跃迁。",
-              "morphology": "wear（穿戴，来自古英语werian）+ -able（来自拉丁语-abilis，表「可…的」）→ wearable。同后缀词：scalable（可扩展的）、deployable（可部署的）、actionable（可操作的）；wear的派生词：outerwear（外衣）、footwear（鞋类）——而software中的「ware」与wear同源，是一条有趣的词源暗线。",
-              "mnemonic": "「wearable」字面就是「可以wear（穿戴）的」东西——在科技语境里，记住它特指「带传感器的智能穿戴硬件」。想象Human Archive的工人戴着摄像帽在街头行走，那顶帽子就是最生动的wearable：能wear，能able（采集数据）。形容词变名词，一词两用。",
-              "exampleEn": "The clinical trial used wearables to continuously monitor patients' heart rate and sleep patterns without requiring hospital visits.",
-              "exampleCn": "该临床试验使用可穿戴设备持续监测患者的心率和睡眠规律，无需患者亲赴医院。"
-            }
-          ]
-        },
-        {
-          "id": "20260526-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/26/iranian-hackers-blamed-for-breach-of-los-angeles-transit-system-that-took-weeks-to-recover/",
-          "headlineEn": "Iranian Hackers Used Fake Hacktivist Persona to Breach Los Angeles Transit System",
-          "headlineCn": "伊朗黑客伪装「维权黑客」身份攻入洛杉矶公共交通系统",
-          "summaryEn": "An Israeli cybersecurity firm has linked Iran's government to a series of cyberattacks on the Los Angeles transit system, orchestrated under the fake hacktivist persona 'Ababil of Minab.' The breach took weeks to recover from and forms part of a broader false-flag campaign that escalated after the start of the war. By masquerading as independent activists, Iranian state-sponsored hackers concealed their true origins while claiming responsibility for data theft targeting critical public infrastructure.",
-          "summaryCn": "以色列网络安全公司披露，伊朗政府是一系列针对洛杉矶公共交通系统网络攻击的幕后主导方，行动以虚假「维权黑客」身份「米纳布的阿巴比尔」为掩护。此次入侵造成系统长达数周的瘫痪，是战事爆发后伊朗发动的更大范围虚假旗帜行动的组成部分。通过伪装成独立活动人士，国家支持的黑客团伙成功混淆溯源，并宣称对多起针对关键公共基础设施的数据窃取事件负责。",
-          "excerpt": "An Israeli cybersecurity firm identified 'Ababil of Minab' as a fake hacktivist persona operated by Iran's government. The group claimed responsibility for a series of data breaches targeting public infrastructure, including the Los Angeles transit system, which took weeks to recover from the intrusion.",
-          "vocab": [
-            {
-              "word": "hacktivist",
-              "pos": "n.",
-              "meaning": "「黑客行动主义者」，将黑客技术用于政治或社会目的的人。与普通网络罪犯不同，hacktivist 带有意识形态驱动的色彩，常出现在网络战与政治运动报道中。理解此词有助于辨别网络犯罪、国家行为与民间抗议之间的界限，是阅读地缘政治科技新闻的必备词汇。",
-              "etymology": "1990 年代末英语新造词，由 hacker（黑客，来自古英语 haccian，意为「砍劈、凿开」）与 activist（活动主义者，来自拉丁语 activus，意为「主动的、积极的」）拼合而成，属混成词（portmanteau）。最早见于 1990 年代美国黑客团体对自身的称谓。",
-              "morphology": "hack（入侵/砍劈）+ activist（社会活动人士）混合构成。同类混成词：blog（web+log）、brunch（breakfast+lunch）。派生词：hacktivism（n. 网络行动主义）。横向扩展同词根：hacker、hacking、hackathon（黑客马拉松）。",
-              "mnemonic": "想象一个手持键盘的街头抗议者——他既是 hacker（黑客）也是 activist（活动家）。两个词「撞」在一起，就像他同时出现在服务器机房和示威现场，键盘就是他的武器和标语牌，记住这个画面就记住了这个词。",
-              "exampleEn": "The group was initially mistaken for a hacktivist collective, but investigators later confirmed it was a state-sponsored operation.",
-              "exampleCn": "该组织起初被误认为是黑客行动主义团体，但调查人员随后证实这是一次国家支持的行动。"
-            },
-            {
-              "word": "false flag",
-              "pos": "phrase (n.)",
-              "meaning": "「虚假旗帜行动」，指一方伪装成另一方实施攻击或制造事件，使真实责任难以追溯。源自军事情报术语，现广泛用于网络安全与地缘政治分析。理解此词对于辨别谁真正发动了网络攻击至关重要，是威胁情报报告中的核心概念。",
-              "etymology": "源自 17 世纪海战术语：船只挂起敌方旗帜（false flag，假旗）靠近目标，待对方放松警惕后发动突袭。flag 来自古北欧语 flaga，意为「片状物」，原指旗帜。20 世纪情报领域将其引申为一切掩盖真实施害者身份的欺骗行动。",
-              "morphology": "false（虚假，来自拉丁语 falsus，意为「欺骗的」）+ flag（旗帜，象征身份归属）。作为固定短语无法拆解前/后缀。常见搭配：false-flag operation（虚假旗帜行动）、false-flag attack（伪装攻击）、plant a false flag（嫁祸于人）。",
-              "mnemonic": "想象一艘海盗船挂着英国国旗靠近商船——假旗子是掩护，真目的是抢劫。false = 假，flag = 旗帜，合起来就是「打着假旗干真坏事」。网络世界里，假旗就是精心伪造的数字身份和虚假归因线索。",
-              "exampleEn": "Security analysts warned that the cyberattack bore hallmarks of a false flag operation designed to implicate a rival nation.",
-              "exampleCn": "安全分析人士警告称，此次网络攻击具有虚假旗帜行动的典型特征，旨在嫁祸于竞争国。"
-            },
-            {
-              "word": "masquerade as",
-              "pos": "phrasal v.",
-              "meaning": "「伪装成、假扮成」，指以虚假身份持续示人使他人误信。比 pretend to be 更正式、语气更强，暗含蓄意欺骗的成分，常出现在安全事件、法律案件和新闻调查报道中。网络安全语境中尤为高频，指恶意程序或行为者冒充合法实体长期潜伏。",
-              "etymology": "来自法语 mascarade，源自意大利语 mascherata，意为「戴面具的化装舞会」，词根 masca 指「面具」（可能源自阿拉伯语 maskara，意为「嘲弄、滑稽」）。17 世纪进入英语，由化装舞会之义演变为「欺骗性伪装」之义，语义逐渐带有负面色彩。",
-              "morphology": "masquerade（伪装，n./v.）+ as（充当/作为）。词根 masque 还见于：masque（假面剧）、unmask（揭露真相）、masker（佩戴面具者）。近义辨析：impersonate 强调冒充具体某人；masquerade as 强调以某类身份持续欺骗，时间跨度更长。",
-              "mnemonic": "mask（面具）藏在 masquerade 里——戴着面具参加 parade（游行）就是 masquerade，加上 as，就是「戴着某人的面具招摇过市」。想象化装舞会上一个人假扮成王子，全场无人识破他的真实身份。",
-              "exampleEn": "The fraudulent app masqueraded as a legitimate banking tool to steal users' login credentials.",
-              "exampleCn": "这款欺诈性应用伪装成合法银行工具，以窃取用户的登录凭据。"
-            },
-            {
-              "word": "orchestrate",
-              "pos": "v.",
-              "meaning": "「精心策划、幕后统筹主导」，比 organize 或 plan 更强调操控的周密性与隐蔽性，常用于描述复杂阴谋、网络攻击行动或大规模商业并购的幕后推手。该词自带「有人在背后指挥」的隐喻，是商业与安全新闻报道中极为高频的动词。",
-              "etymology": "来自希腊语 orchēstra（剧院中乐队的演奏区，源自 orcheisthai，意为「跳舞」）。原义为「为管弦乐团编曲、配器」，19 世纪引申为「协调多方资源以达成复杂目标」，借用指挥家统领各声部的隐喻，强调幕后的统一意志。",
-              "morphology": "orchestra（管弦乐团）→ orchestrate（v. 编排/幕后策划）→ orchestration（n. 编排/统筹协调）→ orchestrator（n. 幕后策划者）。近义辨析：coordinate 中性强调协调；orchestrate 暗含隐蔽主导；engineer（v.）强调技术性操纵。",
-              "mnemonic": "想象音乐厅里的指挥家——台上乐手各自演奏，台下观众浑然不觉，但一切都由指挥棒掌控。orchestrate 就是「当那个看不见的指挥家」。网络攻击的幕后黑手正是这样的角色：指挥全局，却从不现身。",
-              "exampleEn": "The CEO was accused of orchestrating a cover-up to conceal the data leak from regulators and shareholders.",
-              "exampleCn": "该首席执行官被指控精心策划掩盖行动，向监管机构和股东隐瞒数据泄露事件。"
-            },
-            {
-              "word": "persona",
-              "pos": "n.",
-              "meaning": "「（对外呈现的）身份、人设、虚假角色」，在网络安全语境中特指用于掩盖真实身份的虚假在线形象。比 identity 更强调「刻意构建与长期维护」的色彩，常见于威胁情报报告和信息操控分析中。掌握此词可读懂现代网络战与社交媒体操控报道。",
-              "etymology": "来自拉丁语 persona，原义为「古罗马戏剧演员佩戴的面具」，进而引申为「角色、人物」。演员通过不同面具扮演不同角色，persona 由此成为「外在呈现的自我」之代名词。心理学家荣格（C.G. Jung）将其引入现代心理学，指个体向外界展示的社会面具。",
-              "morphology": "persona 为拉丁语直接借词，本身无法拆解前/后缀。现代英语派生词系列：personal（adj. 个人的）→ personality（n. 人格）→ impersonate（v. 冒充某人）→ personify（v. 拟人化）→ personage（n. 重要人物）。",
-              "mnemonic": "per（通过）+ sona（来自拉丁语 sonare，意为「发声」）——古罗马演员通过面具上的开口「发声」，观众只听到角色的声音，不见演员真身。「通过声音展示的那个角色」就是 persona。网络假身份也是同理：你只能看到他想让你看到的那个「声音」。",
-              "exampleEn": "The threat actor maintained multiple online personas to avoid attribution by cybersecurity researchers.",
-              "exampleCn": "该威胁行为者维护着多个在线虚假身份，以规避网络安全研究人员的溯源分析。"
-            }
-          ]
-        },
-        {
-          "id": "20260526-3",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/why-double-digit-earnings-growth-wont-stop-the-next-bear-market-791ae3ef?mod=mw_rss_topstories",
-          "headlineEn": "Why Double-Digit Earnings Growth Won't Prevent the Next Bear Market",
-          "headlineCn": "双位数盈利增长为何无法阻止下一轮熊市到来",
-          "summaryEn": "Surging corporate profits on the S&P 500 may feel bullish, but history reveals a troubling pattern: strong earnings growth often marks the final phase of a bull market, not the beginning of a sustained rally. Analysts warn that investors celebrating record profits may be ignoring structural risks such as stretched valuations and slowing economic momentum. If past cycles repeat, today's earnings boom could mark the market's peak, leaving stocks dangerously exposed to a sharp reversal.",
-          "summaryCn": "标普500指数企业盈利大幅攀升令市场看似一片向好，然而历史数据揭示出一个令人警惕的规律：强劲的盈利增长往往标志着牛市的尾声，而非新一轮上涨行情的起点。分析人士警告，沉浸在创纪录利润中的投资者可能正忽视估值过高、经济动能放缓等结构性风险。如果历史周期再度重演，当前的盈利繁荣或许恰恰预示着市场见顶，股市正如履薄冰，随时面临大幅回调。",
-          "excerpt": "Record S&P 500 profits are drawing investor enthusiasm, but history cautions against complacency. Spiking earnings have often marked the final innings of a bull market, leaving stocks on thin ice — just before the bear arrives.",
-          "vocab": [
-            {
-              "word": "innings",
-              "pos": "n.",
-              "meaning": "局（棒球）；在财经语境中隐喻市场或商业周期所处的阶段，如「final innings of a bull market」（牛市的最后阶段）。比 stage 或 phase 更生动，带有「倒计时」的紧迫感，是英美财经媒体标志性的隐喻用法，值得专门记忆",
-              "etymology": "源自古英语 inning，由 in（进入）加动名词后缀 -ing 构成，原指棒球中「进场击球的机会」。20世纪起被金融媒体广泛借用，以棒球「局」的结构比喻经济或市场周期的各个阶段，语义从体育跨界至商业",
-              "morphology": "in-（进入）+ -ning（动名词后缀）；复数同形 innings；财经高频搭配：late innings（尾声阶段）、early innings（初期阶段）、final innings（最后阶段）；同族词：inn（旅店，同源于「进入」），但语义已完全分化",
-              "mnemonic": "想象棒球比赛进入最后一局（final inning）：打者全力出击，裁判随时可能喊停。市场也一样——盈利最亮眼的时刻往往是「最后一棒」，接下来等待的是下场休息（熊市）。记住：最精彩的局往往是最后一局",
-              "exampleEn": "With interest rates still elevated, many economists believe we are in the late innings of the current economic expansion.",
-              "exampleCn": "随着利率仍处高位，许多经济学家认为我们正处于本轮经济扩张的尾声阶段。"
-            },
-            {
-              "word": "on thin ice",
-              "pos": "phrase",
-              "meaning": "如履薄冰；处于危险或极不稳固的境地。在财经语境中形容市场、企业或政策处于脆弱易崩的状态，比 at risk 或 precarious 更具画面感，情感强度也更高，常出现在警示性财经评论中，是记者最爱的隐喻之一",
-              "etymology": "源自字面义：在薄薄的冰面上行走，随时可能跌入水中。18世纪起在英语中广泛流传，后扩展为一切高风险、一触即溃状态的通用比喻。属英语本土短语，无拉丁或希腊词源",
-              "morphology": "短语/复合词，无独立词源；相关表达：skate on thin ice（踩薄冰而行，处境危险）；反义表达：on solid ground（处境稳固）；近义短语：walking a tightrope（走钢丝，同样强调危险平衡）",
-              "mnemonic": "闭眼想象：一人小心翼翼踩在快要碎裂的冰面，每走一步都传来「咔嚓」声，冰冷的水面就在脚下。股市盈利再好看，底下的冰正在开裂——这就是 on thin ice 的精髓。画面一出，永不忘记",
-              "exampleEn": "After three consecutive quarters of cash burn, the startup is on thin ice with its remaining investors.",
-              "exampleCn": "在连续三个季度消耗现金后，这家初创公司与剩余投资者的关系已岌岌可危。"
-            },
-            {
-              "word": "bear market",
-              "pos": "n.",
-              "meaning": "熊市；主要股指从近期高点下跌20%以上并持续一段时间的市场状态，与 bull market（牛市）相对。需精准区分：correction（调整，跌幅10%-20%）并不等同于 bear market，两词在投资分析中含义有别，混用会显得不专业",
-              "etymology": "18世纪初伦敦交易所俚语。传说源自「卖熊皮商人」（bearskin jobber）：先出售尚未拿到的熊皮（即做空），再等价格下跌后低价买入交割。「熊」由此成为做空和跌市的象征，与 bull（公牛顶架，象征做多）共同构成最核心的市场隐喻对",
-              "morphology": "bear（熊，名词作定语）+ market（市场）；相关词族：bearish（adj. 看跌的）、bear trap（熊市陷阱，假反弹诱多）、bear rally（熊市中的短暂反弹）；对比：bull market / bullish / bull trap，形成完整的多空词族",
-              "mnemonic": "熊用爪子「向下拍」——价格被熊掌拍落就是熊市；牛用角「向上顶」——价格被牛角顶高就是牛市。两个动物，两个方向，简单粗暴，永不混淆。下次看到熊，就想起「市场在下跌」",
-              "exampleEn": "Historically, a bear market officially begins when major indices fall more than 20% from their recent peaks and remain depressed for at least two months.",
-              "exampleCn": "从历史经验看，当主要指数从近期高点下跌超过20%且持续低迷至少两个月时，熊市便正式开始。"
-            },
-            {
-              "word": "cyclical",
-              "pos": "adj.",
-              "meaning": "周期性的；随经济或商业周期规律性起伏的。在财经语境中，cyclical stocks（周期股）特指与宏观景气度高度挂钩的板块（如工业、汽车、大宗商品），与 defensive stocks（防御股，如公用事业、医疗）形成对比。理解这一区分是资产配置分析的基础，也是 CFA 考试的常考点",
-              "etymology": "源自希腊语 kyklos（圆、轮），经拉丁语 cyclus 进入英语，17世纪起广泛使用，原指自然界的循环现象，后逐渐扩展至经济、商业和市场周期的规律性运动",
-              "morphology": "cycl-（词根，圆/循环）+ -ic（形容词后缀）+ -al（强化形容词后缀）；同词根词：cycle（n. 周期）、recycle（v. 回收再利用）、bicycle（n. 自行车）、encyclopedia（n. 百科全书，意为「完整的教育循环」）",
-              "mnemonic": "cycl- 让你想到 bicycle（自行车轮子转圈）——cyclical 就是像车轮一样周而复始地转动。经济好时周期股涨，经济差时跌，再好再跌，永不停歇。骑车踩踏板的节奏，就是 cyclical 的节奏",
-              "exampleEn": "Investors tend to rotate out of cyclical sectors like manufacturing and into defensive stocks when recession fears mount.",
-              "exampleCn": "当衰退担忧加剧时，投资者往往从制造业等周期性板块撤资，转向防御性股票。"
-            },
-            {
-              "word": "capitulation",
-              "pos": "n.",
-              "meaning": "（市场）投降式抛售；在持续下跌压力下，投资者彻底放弃持仓、恐慌性出逃的现象。常被视为熊市底部的重要标志——当最后一批死守的多头也「割肉」出逃时，卖压往往随之衰竭。比 selloff 更戏剧化，暗含「心理防线彻底崩溃」之意，是判断市场底部的关键信号术语",
-              "etymology": "源自中世纪拉丁语 capitulare（按条款投降），由 caput（头、首领）派生，原义为「在协议各章节上逐条签字」，引申为「正式投降」。19世纪进入金融用语，形容投资者彻底放弃抵抗、斩仓离场的集体行为",
-              "morphology": "capit-（词根，头/首领）+ -ul-（小词缀）+ -ation（名词后缀）；同词根词：capital（首都/资本）、captain（队长/船长）、decapitate（斩首）；动词形式：capitulate；近义词对比：selloff（泛指抛售）< capitulation（彻底投降式抛售），程度更深",
-              "mnemonic": "capit- 联想到 capital（首都）——古代战争中首都被攻破意味着彻底投降（capitulation）。股市里，当最后一批多头也「割头」（capit-）离场，就是 capitulation，也往往是最佳买入时机。投降即见底，记住这个反直觉的逻辑",
-              "exampleEn": "Traders watch for signs of capitulation — a massive surge in volume combined with steep price drops — as a potential indicator that a bear market is nearing its bottom.",
-              "exampleCn": "交易员密切关注投降式抛售的迹象——成交量骤增伴随价格急跌——将其视为熊市可能临近底部的潜在指标。"
-            }
-          ]
-        },
-        {
-          "id": "20260526-4",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/this-new-quantum-stock-could-debut-with-a-valuation-of-nearly-13-billion-9593b4e4?mod=mw_rss_topstories",
-          "headlineEn": "Quantinuum Eyes $13 Billion Market Cap in Up-to-$1 Billion Public Offering",
-          "headlineCn": "量子计算公司Quantinuum拟IPO，目标市值近130亿美元",
-          "summaryEn": "Quantum computing firm Quantinuum has set the terms for its initial public offering, seeking to raise up to $1 billion at a market capitalization of nearly $13 billion. Backed by industrial giant Honeywell, Quantinuum is among the leading players in the rapidly maturing quantum computing sector. The offering tests whether public markets are ready to assign billion-dollar price tags to deep-tech hardware companies still in early commercialization. A successful listing could open the door for other quantum startups eyeing public markets.",
-          "summaryCn": "量子计算公司Quantinuum已公布IPO条款，计划募资最多10亿美元，上市市值或接近130亿美元。这家由工业巨头霍尼韦尔控股的公司，是量子计算赛道的领军企业之一。此次上市将检验公众市场是否愿意为仍处于商业化早期的深科技硬件公司给出百亿美元估值。若成功上市，可能为其他有意公开募股的量子初创公司打开市场窗口。",
-          "excerpt": "Quantinuum, the quantum computing company majority-owned by Honeywell, has set terms for an initial public offering that could value the firm at nearly $13 billion. The company is seeking to raise up to $1 billion in the offering, making it one of the most significant deep-tech IPOs of the year.",
-          "vocab": [
-            {
-              "word": "underwrite",
-              "pos": "v.",
-              "meaning": "（承销）由投资银行保证购买IPO中未售出的股票，承担发行风险。比「support」更专业，专用于金融证券领域，暗含「兜底风险」的承诺，是IPO报道的核心动词；常见搭配：underwrite a deal / an offering / a bond issue",
-              "etymology": "源自古英语书写传统：保险业承保人须在保单底部「write」自己名字以示担保，17世纪从保险业延伸至金融证券领域，现泛指承担证券发行风险",
-              "morphology": "under-（在下方）+ write（书写）→ 原指「在文件下方签名」。同前缀词：underpin（支撑）、undermine（动摇基础）；派生词：underwriter（承销商/保险商）、underwriting（承销业务）",
-              "mnemonic": "想象一位银行家在合同最底部「under」签下自己名字「write」，意思是「我来兜底，卖不出去的股票我全买」——一个签名代表一份担保，这就是承销的本质",
-              "exampleEn": "Goldman Sachs agreed to underwrite the tech startup's IPO, committing to purchase any shares that failed to find buyers in the open market.",
-              "exampleCn": "高盛同意承销这家科技初创公司的IPO，承诺购买任何在公开市场未能找到买家的股票。"
-            },
-            {
-              "word": "roadshow",
-              "pos": "n.",
-              "meaning": "（路演）公司在IPO前巡回向机构投资者推介商业计划和财务状况的系列会议。不同于普通「演示」，roadshow特指上市前「走遍各地拉投资」的巡回推介，是影响定价和认购规模的关键环节；常见搭配：go on a roadshow / conduct a roadshow",
-              "etymology": "复合词借用自演艺界：剧团在各城市「road」巡回「show」演出；20世纪后期被金融界采用，指公司管理层在IPO定价前巡回「演出」，向各地基金经理推介商业故事",
-              "morphology": "road（路途）+ show（展示/演出）→ 复合名词，无前后缀。相关词：roadmap（路线图）、dog-and-pony show（华而不实的演示）；近义词：investor day（投资者开放日）、pitch（推介）",
-              "mnemonic": "想象CEO拖着行李箱踏上「road」，在纽约、伦敦、香港连续三天对着基金经理「show」PPT——路演就是融资前的「巡回演唱会」，唱的是公司业绩和未来愿景",
-              "exampleEn": "Before pricing its shares, the company's executives spent two weeks on a roadshow, pitching to institutional fund managers across Asia and Europe.",
-              "exampleCn": "在股票定价之前，公司高管花了两周时间进行路演，向亚洲和欧洲各地的机构基金经理推介。"
-            },
-            {
-              "word": "oversubscribed",
-              "pos": "adj.",
-              "meaning": "（超额认购的）IPO或债券发行收到的认购需求超过实际供应量。比「popular」更精准，是衡量IPO热度的专业术语，常与倍数连用（five times oversubscribed），暗示市场信心强劲，是判断发行是否成功的核心信号",
-              "etymology": "来自拉丁语：sub-（在下方）+ scribere（书写），subscribe原义「在下方签名以示认购」；over-（超过）前缀表示需求超额。最初用于债券认购，后延伸至所有证券发行",
-              "morphology": "over-（超过）+ subscribe（认购）+ -d（形容词后缀）。同前缀词：overvalued（高估）、overwhelming（压倒性的）；同词根词：subscription（订阅/认购）、prescribe（开处方）、inscribe（题写）",
-              "mnemonic": "把认购想象成排队买演唱会门票——oversubscribed就是票只印了1000张，却来了10000人排队。IPO超额认购就是这种「一票难求」的感觉，承销商反而有权挑选买家",
-              "exampleEn": "The biotech firm's IPO was more than ten times oversubscribed, forcing underwriters to use a lottery system to allocate shares among applicants.",
-              "exampleCn": "这家生物科技公司的IPO认购超额逾十倍，承销商不得不通过抽签方式向申请者分配股份。"
-            },
-            {
-              "word": "lock-up period",
-              "pos": "n. (phrase)",
-              "meaning": "（锁定期）IPO完成后，公司内部人员（创始人、早期投资者）被合同禁止出售股票的时间段，通常为90至180天。是理解IPO后股价走势的关键词——锁定期到期往往伴随大量抛售压力，是散户须重点警惕的时间节点",
-              "etymology": "lock-up（锁死）+ period（时期）；period源自希腊语 periodos（循环、时间段），经拉丁语传入英语。复合短语，金融语境下专指「强制持有期」，短语本身无独立词源",
-              "morphology": "lock（锁）+ up（完全封闭）= lock-up（锁死）+ period（时期）。近义短语：vesting period（归属期）、blackout period（静默期）、holding period（持有期）；相关词：lock-up expiry（锁定期到期）",
-              "mnemonic": "早期投资人手里的股票像被一把大锁「lock up」锁在保险箱里，钥匙要180天后才能拿到。解锁那天大量股票涌出市场，股价往往承压——买IPO的散户最需要在日历上圈出这个日期",
-              "exampleEn": "Many retail investors were caught off guard when the share price tumbled sharply after the company's six-month lock-up period expired and insiders began selling.",
-              "exampleCn": "公司六个月锁定期到期后内部人员开始抛售，股价急剧下跌，许多散户投资者措手不及。"
-            },
-            {
-              "word": "price band",
-              "pos": "n. (phrase)",
-              "meaning": "（发行价区间）IPO中承销商与发行公司协商确定的股票发行价格上下限范围。比 price range 更专业，是路演期间机构投资者提交认购意向书的参考框架；定价于区间上限通常表明认购火热，是判断IPO热度的重要信号",
-              "etymology": "price源自拉丁语 pretium（价值、价格）；band源自古法语 bande（条带、带状物），在金融语境中引申为「范围、区间」。复合短语，金融行业术语，无独立词源",
-              "morphology": "price（价格）+ band（带状范围）→ 复合名词。band另见：bandwidth（带宽）、broadband（宽带）、armband（臂章）；金融近义词：indicative range（指示区间）、bookbuild range（询价区间）",
-              "mnemonic": "把IPO定价想象成一根橡皮「band」（带子），两端分别夹着最低价和最高价。路演期间机构投资者在这根带子里出价报单，最后「弹」出一个最终定价——认购越火爆，定价越靠近带子上端",
-              "exampleEn": "The company set a price band of $18 to $22 per share for its IPO, implying a market capitalization of approximately $10 billion at the midpoint.",
-              "exampleCn": "该公司将IPO每股发行价区间定为18至22美元，按中间价计算对应市值约100亿美元。"
-            }
-          ]
-        },
-        {
-          "id": "20260526-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/26/ecb-villeroy-inflation-iran-war.html",
-          "headlineEn": "ECB Pledges to 'Do What Is Necessary' as Markets Price In Rate Hike",
-          "headlineCn": "法国央行行长：欧央行将不惜一切手段抑制通胀",
-          "summaryEn": "The European Central Bank is doubling down on its inflation-fighting stance. The Bank of France governor told CNBC that the ECB 'will do what is necessary' to bring prices under control, reiterating a firm policy commitment ahead of the bank's next meeting. Financial markets are overwhelmingly pricing in another rate hike, reflecting near-unanimous investor consensus that elevated inflation leaves the central bank with little choice but to continue tightening monetary conditions.",
-          "summaryCn": "欧洲央行正进一步巩固其抗通胀立场。法国央行行长接受CNBC采访时表示，欧央行将「不惜一切手段」控制物价，在下次政策会议前夕再次重申坚定的政策承诺。金融市场已压倒性地预期将再次加息，反映出投资者几乎一致认为，居高不下的通胀使得央行别无选择，只能继续收紧货币条件。",
-          "excerpt": "The Bank of France governor, speaking to CNBC, stressed that the ECB 'will do what is necessary' to tame inflation. Markets are overwhelmingly pricing in a rate hike at the central bank's next policy meeting, reflecting strong investor conviction that the tightening cycle is far from over.",
-          "vocab": [
-            {
-              "word": "tame",
-              "pos": "v.",
-              "meaning": "驯服；抑制（失控的强大力量）——比 control 或 curb 更形象生动，带有「驯服野兽」的隐喻色彩，常见于正式财经写作，暗示通胀或市场波动如同一头需要被制服的猛兽，语气更具力量感",
-              "etymology": "古英语 tamian，源自原始日耳曼语 *tamjaną，原义「将野生动物驯化为家畜」；随时间演变，逐渐引申至对抽象力量（如通胀、市场波动）的制服与控制",
-              "morphology": "单音节词，无前后缀；常见派生词：tamer（n. 驯服者）、tameable（adj. 可驯服的）、untamed（adj. 未被驯服的）；反义词 untamed 恰可形容「失控的通胀」，形成鲜明对照",
-              "mnemonic": "想象一只凶猛的通胀「怪兽」被央行行长用加息「鞭子」一步步制服——tame the beast（驯服野兽）= tame inflation（抑制通胀）。画面越具体越好记：怪兽低下头颅，鞭子就是不断上调的利率",
-              "exampleEn": "The Federal Reserve's aggressive rate hikes have so far failed to fully tame inflation in the services sector.",
-              "exampleCn": "美联储激进加息迄今未能完全抑制服务业的通胀。"
-            },
-            {
-              "word": "price in",
-              "pos": "phrasal v.",
-              "meaning": "（金融市场）将某预期或消息计入当前价格——财经英语核心短语，表示市场已提前消化某事件，是分析师和交易员的必备表达，比 factor in 更专属于定价与市场预期的语境，频繁出现在利率、财报、政策报道中",
-              "etymology": "短语/复合词，无独立词源；price 源自拉丁语 pretium（价值、代价），in 为副词表「纳入其中」；整体含义为「将某因素纳入价格体系」，是金融市场术语在日常英语中的自然组合",
-              "morphology": "price（价格）+ in（进入/纳入）；近义表达：factor in（计入）、bake in（内嵌，强调已无法更改）、discount（折现，强调概率权重）；反向表达：price out（因价格过高被排除在外）",
-              "mnemonic": "把「价格」想象成一个密封容器——把对未来的预期「装进去」，就像把食材放入蛋糕面糊中烘烤（bake in）。price in = 把消息「压缩打包」塞入当前市价，盖上盖子，生米煮成熟饭",
-              "exampleEn": "Bond markets have already priced in three more rate cuts before the end of the fiscal year.",
-              "exampleCn": "债券市场已将本财年结束前再降息三次的预期计入当前价格。"
-            },
-            {
-              "word": "overwhelmingly",
-              "pos": "adv.",
-              "meaning": "压倒性地；以绝对多数（描述市场共识或投票结果的力度）——比 mostly 或 largely 强烈得多，暗含「几乎无异议」，在报道市场预期、机构观点时是标志性副词，选用此词说明共识程度接近一致，反面声音几乎可以忽略",
-              "etymology": "来自 overwhelm，古英语 oferwhelm，over-（从上方超越）+ whelm（淹没，原指洪水漫过船体），原义为「洪水从上方倾覆淹没」；后引申为以压倒性优势制服一切，16世纪起大量出现于英语书面语",
-              "morphology": "over-（超越/从上）+ whelm（淹没）+ -ing（现在分词形容词化）+ -ly（副词后缀）；同前缀扩展：overpower（压倒）、override（凌驾）、overturn（推翻）；whelm 单独在现代英语中已极少单独使用",
-              "mnemonic": "想象汪洋大水（whelm）从四面八方涌来，将所有反对声音彻底淹没——市场「压倒性地」押注加息，就像洪水（over + whelm）漫过船舷，没有任何声音能从水面冒出来",
-              "exampleEn": "Shareholders voted overwhelmingly in favor of the proposed merger, with over 94% supporting the deal.",
-              "exampleCn": "股东以压倒性多数赞成拟议中的合并，逾94%支持该交易。"
-            },
-            {
-              "word": "reiterate",
-              "pos": "v.",
-              "meaning": "重申；再次强调（官方立场或政策承诺）——比 repeat 更正式，专用于官员、企业在不同场合刻意确认同一立场，是财经新闻和企业公告高频词；语气中带有「有意为之的反复强调」，暗示说话者希望市场或公众不要对此产生任何怀疑",
-              "etymology": "来自拉丁语 reiterare，re-（再次）+ iterare（重复，源自 iterum「再一次、再度」）；15世纪通过法语进入英语，最初是法律和外交用语，后扩展至一般书面语",
-              "morphology": "re-（再次）+ iter（词根，路径/旅程）+ -ate（动词后缀）；同词根词：iterate（迭代）、itinerary（行程单）；re-前缀扩展：reaffirm（重申）、reassert（再次主张）、reinforce（强化）",
-              "mnemonic": "re-（再）+ iter（旅行，走同一条路）：沿着完全相同的路再走一遍 = 重申完全相同的立场。想象央行行长每次亮相都踩着同一条「鹰派路线」，永远走那条老路，从不偏离",
-              "exampleEn": "The CEO reiterated the company's commitment to profitability during the earnings call, reassuring nervous investors.",
-              "exampleCn": "在财报电话会议上，首席执行官再次重申公司对盈利能力的承诺，安抚了紧张的投资者。"
-            },
-            {
-              "word": "commitment",
-              "pos": "n.",
-              "meaning": "承诺；坚定立场（尤指机构层面的公开保证）——比 promise 更正式、更具约束力，央行的「commitment」具有引导市场预期的信号作用，是前瞻性指引（forward guidance）的核心词；使用此词暗含「说到做到的政治意志」，若央行食言将损害公信力",
-              "etymology": "来自法语 commettre，拉丁语 committere，com-（共同/一起）+ mittere（派遣、投入），原义「把某事托付给某人、委以重任」；中世纪演变为「承担义务、做出无法轻易撤回的保证」",
-              "morphology": "com-（共同）+ mit/miss（词根，发送/投入）+ -ment（名词后缀）；同词根扩展：submit（提交）、transmit（传输）、emit（排放）、permit（允许）；派生词：commit（v.）、committed（adj. 坚定的）、noncommittal（adj. 含糊其辞的）",
-              "mnemonic": "com-（共同）+ mit（发射/投出）：把自己「发射出去」交给对方，一旦发出无法收回 = 做出承诺。想象央行把「抗通胀」的承诺像火箭一样发射向市场——once launched, you cannot take it back",
-              "exampleEn": "The central bank's unwavering commitment to price stability helped anchor long-term inflation expectations.",
-              "exampleCn": "央行对价格稳定坚定不移的承诺，有效稳定了市场的长期通胀预期。"
             }
           ]
         }
