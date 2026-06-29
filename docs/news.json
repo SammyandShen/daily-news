@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-06-28T23:13:27.897192+00:00",
+  "lastUpdated": "2026-06-29T23:17:28.134241+00:00",
   "level": "B2",
   "days": {
+    "2026-06-29": {
+      "label": "6月29日 (周一)",
+      "stories": [
+        {
+          "id": "20260629-1",
+          "category": "tech",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
+          "headlineEn": "This Humanoid Robot Makes a Terrifyingly Competent Office Intern",
+          "headlineCn": "仿人机器人成为令人咋舌的称职办公室实习生",
+          "summaryEn": "Flexion Robotics, a startup co-founded by former Nvidia engineers, is developing humanoid robots trained to perform real office tasks. Unlike rivals relying on pre-programmed movements, Flexion uses an innovative training approach that lets robots learn through demonstration and repeated iteration. The company's robot can already handle a range of dexterous tasks typically performed by human workers. This signals a broader shift toward practical, office-ready robotics — and raises fresh questions about automation's impact on white-collar employment.",
+          "summaryCn": "Flexion Robotics 是由前英伟达工程师联合创办的初创公司，正在开发能胜任真实办公任务的仿人机器人。该公司采用创新训练方式，让机器人通过示范学习与反复迭代掌握精细动作，而非依赖预先编程的动作库。目前这款机器人已可执行多项人类员工日常任务，标志着机器人技术正从工厂车间走向办公室，也引发了外界对白领岗位自动化的新一轮讨论。",
+          "excerpt": "Founded by engineers who previously worked at Nvidia, Flexion Robotics has developed a training pipeline that allows its humanoid robot to learn office tasks through observation and iteration. The result is a machine that can handle everyday workplace duties with a level of precision that feels, frankly, a little unsettling.",
+          "vocab": [
+            {
+              "word": "dexterous",
+              "pos": "adj.",
+              "meaning": "手指或动作灵巧的；在机器人和工程领域专指精细动作能力，比 skillful 更具体指手部操作，学术与工业语境均常见，是描述机械臂和仿人机器人的核心词",
+              "etymology": "来自拉丁语 dexter（右手，引申为灵巧），因古代右手被视为熟练的那只手，语义演变为「手艺精湛」，17世纪进入英语",
+              "morphology": "dextr-（词根，拉丁语 dexter = 右手）+ -ous（形容词后缀）；同词根词：dexterity（n. 灵活性）、ambidextrous（两手都灵巧的）、dextral（右侧的）",
+              "mnemonic": "dexter 联想 right hand——想象外科医生用右手（right = dexter）做精细手术，那双手就是 dexterous。注意别与 texture（质感）混淆，一个讲灵巧，一个讲触感",
+              "exampleEn": "The warehouse robot impressed engineers with its dexterous ability to sort fragile packages without causing damage.",
+              "exampleCn": "这台仓储机器人凭借灵巧的分拣能力令工程师印象深刻，能够无损地处理易碎包裹。"
+            },
+            {
+              "word": "iterate",
+              "pos": "v.",
+              "meaning": "反复执行某一流程并逐步改进；在科技和初创企业文化中极高频，比 repeat 更强调「每轮都有改进」，是硅谷工程思维的核心词汇，常见搭配：iterate on a product / model",
+              "etymology": "来自拉丁语 iterare（再做一次），词根 iter 意为「旅程、道路」，引申为「再走一遍这条路」，16世纪进入英语，20世纪在编程和产品开发中广泛普及",
+              "morphology": "iter-（词根，拉丁语「再次/道路」）+ -ate（动词后缀）；相关词：iteration（n. 迭代次数）、iterative（adj. 迭代的）、reiterate（v. 再次强调）",
+              "mnemonic": "把 iterate 拆成 I + ter + ate——想象你「吃了（ate）一遍又一遍」，每次都更有经验，这就是迭代精神。记住初创圈名言：Fail fast, iterate faster.",
+              "exampleEn": "The AI team needed to iterate on the model dozens of times before it could reliably classify financial documents.",
+              "exampleCn": "AI 团队对模型进行了数十轮迭代，才能可靠地对财务文件进行分类。"
+            },
+            {
+              "word": "compelling",
+              "pos": "adj.",
+              "meaning": "令人信服的、引人注目的；在商业和科技语境中常见于 pitch deck 和产品发布报道，比 convincing 更强调「让人无法忽视、有强迫性吸引力」，是投资人和科技记者的高频词",
+              "etymology": "来自拉丁语 compellere（强迫、驱使），com-（加强）+ pellere（推动），原义「强制别人行动」，后语义软化为「在心理上令人无法拒绝」",
+              "morphology": "com-（加强前缀）+ pel/pell-（词根，推动）+ -ing（形容词化）；同词根词：expel（驱逐）、repel（排斥）、propel（推进）、impel（驱使）",
+              "mnemonic": "compelling = com + pelling（像 pushing）——想象一个演讲者把观点「强推进」你大脑，你根本无法拒绝。a compelling demo 就是让人欲罢不能的那种展示，VC 最爱用这个词",
+              "exampleEn": "The startup's demo was so compelling that three venture capital firms requested follow-up meetings the same afternoon.",
+              "exampleCn": "这家初创公司的演示极具说服力，当天下午便有三家风险投资公司申请了后续会谈。"
+            },
+            {
+              "word": "plausible",
+              "pos": "adj.",
+              "meaning": "表面上看似合理的、貌似可信的；用于描述技术路线或市场假设，隐含「可能是真的但尚未验证」的批判距离，比 believable 更正式，也比 credible 更保留怀疑空间",
+              "etymology": "来自拉丁语 plausibilis（值得鼓掌的），源自 plaudere（鼓掌），原义「受到喝彩的」，后演变为「看似值得认可的→表面合理的」，16世纪进入英语",
+              "morphology": "plaus-（词根，来自 plaudere = 鼓掌）+ -ible（形容词后缀，表「可以…的」）；相关词：plausibility（n.）、implausible（不合理的）；同后缀：feasible、credible、flexible",
+              "mnemonic": "plausible 里藏着 applause（掌声）——一个想法刚提出时赢得掌声，大家觉得「听起来不错」，但鼓掌不等于正确。plausible ≠ true，只是「说得过去」，分析师最爱用它保持距离",
+              "exampleEn": "The CFO admitted the five-year revenue projection was plausible but cautioned that it assumed no major market disruptions.",
+              "exampleCn": "财务总监承认五年收入预测听起来合理，但提醒道这一预测假设市场不会出现重大波动。"
+            },
+            {
+              "word": "uncanny",
+              "pos": "adj.",
+              "meaning": "令人不安地相似或奇异的；在 AI 和机器人领域专指「恐怖谷」效应，当机器人过于接近人类时产生的诡异感，比 strange/eerie 更带有「超出正常范围让人起鸡皮疙瘩」的含义，核心短语是 uncanny valley",
+              "etymology": "来自苏格兰语/古英语 canny（精明、谨慎），加否定前缀 un- 后语义奇特演变——并非「不精明」，而是「不寻常到令人不安」，19世纪固定为「诡异的」",
+              "morphology": "un-（否定前缀）+ canny（精明的，词根来自古英语 can = 知道、能做）；相关词：uncanniness（n.）、canny（精明的）；同前缀反义词：unlike、unsettle、uncertain",
+              "mnemonic": "uncanny 联想「太 canny（太精明）了，反而不对劲」——机器人精确到令你起鸡皮疙瘩，感觉它「知道得太多了」，这种不适就是 uncanny。记住：uncanny valley 是机器人领域的必备词",
+              "exampleEn": "The chatbot's ability to mimic human empathy was uncanny — testers struggled to believe they were not talking to a real person.",
+              "exampleCn": "这款聊天机器人模拟人类共情的能力令人不安地逼真，测试人员很难相信对话对象不是真人。"
+            }
+          ]
+        },
+        {
+          "id": "20260629-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+          "headlineEn": "Anthropic Partners with California for Half-Price Claude Government Access",
+          "headlineCn": "Anthropic与加州政府达成协议，提供半价Claude AI服务",
+          "summaryEn": "Anthropic has struck a deal with California Governor Gavin Newsom to provide state agencies with access to Claude AI at a 50% discount, deepening the company's push into public-sector procurement. The agreement positions Anthropic as a key AI vendor for one of America's largest state governments. However, the partnership coincides with growing tensions between Anthropic and the federal government, which has reportedly treated the OpenAI rival as an adversary. The deal highlights the intensifying competition among AI companies to secure long-term government contracts.",
+          "summaryCn": "Anthropic与加州州长加文·纽森签署协议，为加州政府机构提供半价Claude AI服务，进一步强化了该公司在公共部门采购市场的战略布局。此举将Anthropic确立为美国最大州政府之一的核心AI供应商。然而，此次合作恰逢Anthropic与联邦政府关系日趋紧张之际——联邦政府据报已将这家OpenAI竞争对手视为敌对方。这一协议凸显了AI企业争夺长期政府合同的竞争愈发激烈。",
+          "excerpt": "Anthropic and Governor Gavin Newsom have reached an agreement to give California state agencies access to Claude at half the standard price, strengthening the AI company's ties with the state even as tensions with the federal government continue to grow.",
+          "vocab": [
+            {
+              "word": "procurement",
+              "pos": "n.",
+              "meaning": "采购，尤指政府或大型机构通过正式流程获取商品或服务的过程。比 purchase 正式得多，固定搭配 government/public/defense procurement，是读懂政企AI合同新闻的必备词汇",
+              "etymology": "来自拉丁语 procurare（pro- 向前 + curare 照管），原义为「代为安排、代为处理」，经由古法语 procurer 在14世纪进入英语，后逐渐专指通过正式渠道获取资源的制度性过程",
+              "morphology": "pro-（向前、代为）+ cur-（词根，照料，源自拉丁 cura）+ -ment（名词后缀）。同词根词：cure（治疗）、curious（好奇的，原义「爱照管细节的」）、curate（策展人）；同前缀词：produce、proclaim",
+              "mnemonic": "想象政府官员拿着「pro」（专业）级别的「cure」（处方），像开药一样开采购单——procurement就是这套严格规范的「专业获取」流程。pro + cure + ment，念快了就是「搞定采购」",
+              "exampleEn": "The state's new AI procurement policy requires all vendors to undergo a security audit before signing any contract.",
+              "exampleCn": "该州新出台的AI采购政策要求所有供应商在签署合同前须通过安全审计。"
+            },
+            {
+              "word": "adversary",
+              "pos": "n.",
+              "meaning": "对手，敌对方；比 enemy 更正式，强调在竞争、法律或政治博弈中处于对立位置的一方。本文中联邦政府将Anthropic视为 adversary，暗示关系已超越商业竞争，上升至政治对抗层面，语气远比 competitor 更重",
+              "etymology": "来自拉丁语 adversarius，由 ad-（朝向）+ vertere（转动）构成，原义为「转身面对之人」，即站在对面的人。13世纪经由古法语进入英语，逐渐引申为战略性对手或政治敌手",
+              "morphology": "ad-（朝向）+ vers-（词根，转，源自拉丁 vertere）+ -ary（名词后缀）。同词根词：adverse（不利的）、avert（避开）、divert（转移注意力）、reverse（逆转）；常见派生词：adversarial（adj. 对抗性的）",
+              "mnemonic": "ad（向着）+ vers（转向）+ ary（人）= 转过身来面对你的人，就是你的「对手」。想象两位武士在决斗场上相向而立——那就是adversary。与 adverse（逆风、不利局面）一起记：对手和逆境都让你「转向面对」",
+              "exampleEn": "Once a potential partner, the regulatory body became a vocal adversary to the tech giant's global expansion ambitions.",
+              "exampleCn": "曾经的潜在合作方，如今已成为这家科技巨头全球扩张计划的公开反对者。"
+            },
+            {
+              "word": "concession",
+              "pos": "n.",
+              "meaning": "让步；价格减免；特许经营权。本文中半价协议本质上是一种价格 concession。比 discount 更正式，暗含谈判博弈，固定搭配 make a concession（做出让步）、pricing concession（价格让步），是合同谈判报道的高频词",
+              "etymology": "来自拉丁语 concedere（con- 加强 + cedere 退让、走开），原义为「完全退让、允准」，15世纪进入英语。法律中「特许经营权」义也源于此——政府「退让」出一块权利给经营者",
+              "morphology": "con-（加强）+ cess-（词根，走/让，源自拉丁 cedere）+ -ion（名词后缀）。同词根词：recession（经济衰退，往后退）、succession（继承，一个接一个走）、accession（加入/就位）、secession（分裂退出）",
+              "mnemonic": "con（共同）+ cess（退让）= 双方各退一步。谈判桌上，供应商说「好吧我让步」——这就是concession。把 recession（经济后退）和 concession（谈判退让）放在一起记，都有「退」的动作，只是退的方向不同",
+              "exampleEn": "After months of negotiation, the software company agreed to offer a 30% pricing concession in exchange for a five-year exclusive contract.",
+              "exampleCn": "经过数月谈判，该软件公司同意提供30%的价格让步，以换取一份五年期独家合同。"
+            },
+            {
+              "word": "vendor",
+              "pos": "n.",
+              "meaning": "供应商，卖方；在科技和政府采购语境中特指向企业或政府机构提供软件、硬件或服务的公司。比 supplier 更常见于科技与SaaS行业，与 client/customer 对应，是IT合同报道的标准词汇，学会它才能读懂采购新闻",
+              "etymology": "来自拉丁语 vendere（出售），由 venum（商品，与希腊语 onos 价格同源）+ dare（给予）合并演化而来，16世纪经由法语 vendeur 进入英语，原指街头小贩，后在商业语境中扩展至所有供货方",
+              "morphology": "vend-（词根，出售）+ -or（名词后缀，表执行者）。同词根词：vend（v. 出售，正式用法）、vending machine（自动售货机）、vendetta（家族仇杀，词源上与「出售复仇权」有关）；同后缀词：investor、operator、contractor",
+              "mnemonic": "vendor = vend（卖）+ or（人）= 卖东西的人。想想超市里的「vending machine」（自动售货机），vendor就是那台机器背后的「卖家公司」。政府找AI vendor，就是在找能持续「卖」智能服务的供应商",
+              "exampleEn": "The government's AI vendor selection process took over a year, with Anthropic ultimately beating out several cloud competitors.",
+              "exampleCn": "政府的AI供应商遴选流程历时逾一年，Anthropic最终击败了数家云计算竞争对手。"
+            },
+            {
+              "word": "penetrate",
+              "pos": "v.",
+              "meaning": "渗透，打入（市场/行业）；在商业语境中指企业成功进入此前难以突破的市场或客户群体。比 enter 更强调克服阻力、深度切入的过程，常与 market、sector、industry 搭配，体现战略主动性，是科技媒体报道市场扩张的高频动词",
+              "etymology": "来自拉丁语 penetrare（pen- 内部 + -etrare 进入），原义为「深入内部」，16世纪进入英语。商业语境中「市场渗透」（market penetration）是20世纪营销学发展后的引申义，现已成为商业报道标准词汇",
+              "morphology": "pen-（词根，内部，源自拉丁 penes 在…之内）+ etr-（进入）+ -ate（动词后缀）。派生词：penetration（n. 渗透率，如 market penetration rate）、penetrating（adj. 深刻的）；反义构词：impenetrable（不可渗透的，im- 否定前缀）",
+              "mnemonic": "想象一支「pen」（钢笔）用力刺穿一张厚纸——penetrate就是这种「穿透进去」的动作。打入政府市场就像钢笔穿透厚纸，需要力道（资金）和精准（产品契合）。「pen」的画面牢牢锁住这个词",
+              "exampleEn": "Anthropic's deal with California signals its determination to penetrate the public-sector AI market ahead of its rivals.",
+              "exampleCn": "Anthropic与加州达成的协议，表明其决心抢在竞争对手之前率先打入公共部门AI市场。"
+            }
+          ]
+        },
+        {
+          "id": "20260629-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/",
+          "headlineEn": "Rocket Lab Acquires Iridium in $8 Billion Deal to Challenge Amazon and SpaceX",
+          "headlineCn": "Rocket Lab斥资80亿美元收购卫星公司Iridium，加码对抗亚马逊与SpaceX",
+          "summaryEn": "Rocket Lab has acquired Iridium, a leading satellite communications company, in an all-stock deal valuing the target at $8 billion. The move extends Rocket Lab's aggressive buying spree, folding Iridium's established global satellite network into its existing launch services business. The acquisition significantly boosts Rocket Lab's competitive firepower against Amazon's Project Kuiper and SpaceX's Starlink, both of which dominate commercial satellite broadband. The deal reflects a broader push toward vertical integration across the commercial space economy.",
+          "summaryCn": "Rocket Lab宣布以全股票方式收购卫星通信公司Iridium，交易估值约80亿美元。这是Rocket Lab近期持续并购攻势中的最新一笔，将Iridium成熟的全球卫星网络纳入麾下，与其火箭发射服务形成协同。此次收购大幅提升了Rocket Lab与亚马逊Project Kuiper及SpaceX Starlink正面竞争的底气与实力。交易背后折射出商业航天领域向垂直整合加速演进的深层趋势。",
+          "excerpt": "The all-stock acquisition of Iridium, valued at $8 billion, marks Rocket Lab's boldest move yet in its ongoing buying spree. With Iridium's global satellite constellation now in its portfolio, Rocket Lab has considerably more firepower to take on Amazon and SpaceX in the rapidly consolidating commercial space market.",
+          "vocab": [
+            {
+              "word": "buying spree",
+              "pos": "phrase",
+              "meaning": "（企业）疯狂并购潮；spree 指「一段密集、冲动式的行为」，buying spree 在商业语境中特指企业短期内连续发起多笔收购。比单说 acquisitions 更生动，强调节奏快、攻势猛，常出现在科技和并购报道标题中。",
+              "etymology": "spree 词源存争议，可能来自苏格兰语或爱尔兰语，19世纪起在英语中泛指「一阵子放纵或密集行为」，如 spending spree（挥霍）、crime spree（连环犯罪）；buying spree 是商业媒体对这一结构的专用延伸，本新闻标题即为典型用例。",
+              "morphology": "buying（buy 的动名词）+ spree（名词，密集行为）；同系列搭配：shopping spree（购物狂欢）、spending spree（挥霍消费）、acquisition spree（并购浪潮）；spree 本身无法继续拆解词根，属于不透明借词。",
+              "mnemonic": "想象一个土豪拿着信用卡在商场「扫货」——每家店都买，停不下来，这就是 spree。Rocket Lab 就是在太空行业「扫公司」，一家接一家地买，典型的 buying spree。画面感：购物车装满卫星公司。",
+              "exampleEn": "The software giant went on a buying spree, acquiring six cybersecurity startups in under twelve months to fortify its enterprise product lineup.",
+              "exampleCn": "这家软件巨头展开了一轮疯狂并购，不到12个月内收购了六家网络安全初创公司，以强化其企业产品线。"
+            },
+            {
+              "word": "firepower",
+              "pos": "n.",
+              "meaning": "（商业语境）竞争实力、资金弹药；字面意为军事「火力」，在科技和金融报道中喻指企业凭借资金、技术、资产与对手抗衡的综合能力。比 strength 或 resources 更有对抗紧迫感，是财经媒体标志性的战争隐喻词。",
+              "etymology": "fire（火，古英语 fȳr）+ power（力量，古英语 mægen）构成的军事复合词，原指武器系统单位时间内能投射的弹药总量；19世纪末随着商业竞争语言军事化，逐渐被引入财经报道，现已成为高频商业隐喻。",
+              "morphology": "fire（n./v.）+ power（n.）；同类商业军事隐喻复合词：manpower（人力）、brainpower（智力资源）、horsepower（马力）；fire 商业词群还有 fire sale（贱卖）、rapid-fire（快节奏的）、cross fire（交叉火力→舆论交锋）。",
+              "mnemonic": "把 Rocket Lab 想象成一艘战舰：收购 Iridium = 给战舰装上更多大炮。炮越多，firepower 越强，跟亚马逊、SpaceX 这两艘航母对打才有胜算。火力不足 = 没资格上桌竞争。",
+              "exampleEn": "After closing a $2 billion funding round, the startup had the financial firepower to outbid incumbents for prime data center real estate.",
+              "exampleCn": "完成20亿美元融资后，这家初创公司拥有了足够的财务实力，能够在争夺优质数据中心资产时压过在位企业。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值（对公司或资产经济价值的量化评估结果）；是并购、融资、IPO 报道中最核心的术语之一。注意与 value（价值）的区别：value 是广义概念，valuation 特指通过财务分析得出的「市场认可数字」，常以 valued at $X billion 形式出现在新闻中。",
+              "etymology": "源自拉丁语 valere（有力量、值得），经法语 valuation 进入英语，15世纪起使用；词根 val- 在拉丁语中核心义为「力量/价值」，是英语中极为多产的词根之一，贯穿金融、哲学、语言学词汇。",
+              "morphology": "value（词根，价值）+ -ation（名词后缀，表示行为或结果）；派生词族：valuate（动词，较少见）→ valuation（名词）→ valuator（估值师）；反义构词：overvaluation（高估）、undervaluation（低估）；同根词：evaluate、equivalent、valid、valor。",
+              "mnemonic": "val- = 价值（联想 valid 有效、valor 英勇）；-ation = 行为结果。valuation 就是「给某物定价值这件事的结果」——银行家用天平称量一家公司，称出来那个数字，就是它的 valuation。Iridium 被称出了80亿美元。",
+              "exampleEn": "The startup's valuation soared to $10 billion after it secured a major government contract, despite posting losses for three consecutive years.",
+              "exampleCn": "这家初创公司在获得一份政府大合同后估值飙升至100亿美元，尽管此前已连续三年亏损。"
+            },
+            {
+              "word": "inorganic growth",
+              "pos": "phrase",
+              "meaning": "无机增长／外延式增长（通过并购实现的规模扩张，区别于依靠自身运营改善的「有机增长」organic growth）；是 M&A 分析中的核心对立术语，掌握这对概念才能精准讨论企业增长策略的来源与可持续性。",
+              "etymology": "in-（否定前缀，源自拉丁语）+ organic（有机的，源自希腊语 organon「工具/器官」，引申为「自然发展的」）+ growth（增长）；类比生物学：有机物自然生长，无机物需外部合成——企业并购正是「外部合成」式扩张。",
+              "morphology": "in-（否定）+ organ-（词根，器官/组织）+ -ic（形容词后缀）；对应词 organic growth；同前缀构词：inorganic chemistry（无机化学）、inorganic compound（无机化合物）；organic 家族：organism、organize、reorganize、disorganize。",
+              "mnemonic": "「有机蔬菜」（organic）是自家田里长出来的 = 企业靠自身运营增长；「无机化肥」（inorganic）是外部添加的 = 买别人来壮大自己。Rocket Lab 买 Iridium 就是施了一剂「无机化肥」，让自己迅速变大。",
+              "exampleEn": "Faced with slowing organic growth, the telecom operator pursued an inorganic growth strategy by acquiring a regional broadband provider for $3.5 billion.",
+              "exampleCn": "面对有机增长放缓，这家电信运营商以35亿美元收购了一家区域宽带服务商，采取无机增长策略来扩大规模。"
+            },
+            {
+              "word": "war chest",
+              "pos": "phrase",
+              "meaning": "战略资金储备／并购弹药库（指企业为重大战略行动预留的大额现金或资产储备）；比 funds 或 reserves 更有战略意图和攻击性，暗示企业正在主动备战某场竞争或并购；常出现于并购竞争格局报道中，是财经英语必备短语。",
+              "etymology": "war（战争，古英语 wyrre）+ chest（箱子，古英语 cest，源自拉丁语 cista「篮子/箱子」）；原指古代军队携带的装有金币、物资的木箱；现代商业语境完整保留了「为战斗准备的资源储备」这一核心比喻，语义迁移极为直接。",
+              "morphology": "war（n.）+ chest（n.）构成复合名词，无独立词根可拆解；同类战争隐喻商业词群：battle plan（战略计划）、campaign（战役→营销活动）、ammunition（弹药→论据/资源）、arsenal（军火库→技能/工具储备）；chest 另有「胸腔」义，两义无关联。",
+              "mnemonic": "想象古代将军出征前，把所有黄金锁进一口大铁箱（chest）——那就是「战争宝箱」。企业的 war chest 就是他们准备用来「打商战」的钱：箱子越满，并购越敢出手。Rocket Lab 的箱子装满了，于是直接买下 Iridium。",
+              "exampleEn": "Flush with proceeds from its bond issuance, the chipmaker built a sizeable war chest to fund potential acquisitions in the advanced packaging space.",
+              "exampleCn": "凭借债券发行所得的资金，这家芯片制造商积累了一笔可观的战略储备，为潜在的先进封装领域并购提供弹药。"
+            }
+          ]
+        },
+        {
+          "id": "20260629-4",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/29/trump-axon-stock-ice-taser-immigration-enforcement.html",
+          "headlineEn": "Trump Invested Up to $5M in Axon Before ICE Sought $220M Taser Contract",
+          "headlineCn": "特朗普在ICE推进2.2亿泰瑟枪采购前买入最多500万美元Axon股票",
+          "summaryEn": "President Trump reportedly purchased up to $5 million in Axon Enterprise stock before the U.S. Immigration and Customs Enforcement agency began pursuing a potential $220 million Taser contract with the company. Axon simultaneously ramped up its lobbying efforts in Congress on federal law enforcement technology. The timing has raised serious concerns about a conflict of interest, as the president may stand to profit personally from a government deal his own administration is facilitating.",
+          "summaryCn": "据报道，特朗普总统在美国移民与海关执法局（ICE）开始寻求与Axon公司签订高达2.2亿美元泰瑟枪采购合同之前，已买入最多500万美元的Axon股票。与此同时，Axon公司大幅加强了在国会的游说活动，重点针对联邦执法技术领域。这一时间节点引发严重的利益冲突争议——总统本人可能从其政府正在推进的采购合同中直接获益，形成典型的权钱交织格局。",
+          "excerpt": "Axon Enterprise has significantly increased its lobbying activity in Congress around federal law enforcement technology, even as ICE pursues a potential $220 million Taser deal. The revelations raise profound questions about conflict of interest, given that President Trump reportedly held up to $5 million in Axon shares prior to the negotiations.",
+          "vocab": [
+            {
+              "word": "lobbying",
+              "pos": "n. / v.",
+              "meaning": "游说（政府官员或立法者），指企业或利益集团通过非正式途径影响政策或立法的行为。比 advocacy（倡导）更具操作性和私利色彩，常带有金钱或政治交换的隐含意味，是政治风险分析中的核心词汇。",
+              "etymology": "源自18世纪英语，原指议会大厅（lobby）入口处的走廊——利益集团代表常在此等候议员并施加影响。19世纪起引申为动词「向官员游说」，语义从空间转向行为。",
+              "morphology": "lobby（大厅/走廊）+ -ing（动名词后缀）。相关词：lobbyist（n. 职业游说者）、lobby group（n. 游说团体）、lobby for sth.（phrase. 游说争取某事）。",
+              "mnemonic": "想象一群西装革履的商人挤在国会大楼的「大厅」（lobby）里等议员下班，塞名片、递资料——lobbying 就是在这条走廊里发生的政治生意。",
+              "exampleEn": "The defense contractor spent over $20 million lobbying Congress to secure a favorable procurement framework for its new drone systems.",
+              "exampleCn": "这家国防承包商花费逾2000万美元游说国会，以为其新型无人机系统争取有利的采购框架。"
+            },
+            {
+              "word": "conflict of interest",
+              "pos": "phrase (n.)",
+              "meaning": "利益冲突，指个人私利（如持股、家族关系）与职务职责相互矛盾的结构性问题。合规（compliance）领域的核心概念，比「不公平」更中性客观，强调制度性风险而非道德谴责，是董事会治理和政府伦理报道中的必备词组。",
+              "etymology": "conflict 源自拉丁语 conflictus（碰撞、冲突），interest 源自拉丁语 interesse（处于其中、与之相关）。两词结合在16-17世纪起用于英语法律语境，描述裁判者因私利而无法公正裁决的情形。",
+              "morphology": "conflict（冲突）+ of（介词）+ interest（利益/利害关系）。相关词：vested interest（既得利益）、recusal（n. 回避行为）、impartiality（n. 公正性，其反义场景）。",
+              "mnemonic": "想象一位法官在审一个案子，但他持有被告公司的股票——他的「兴趣/利益」（interest）和职责发生了「冲突」（conflict）。这个画面就是 conflict of interest 的经典注脚。",
+              "exampleEn": "The board member was required to abstain from the vote due to a clear conflict of interest, as his private equity firm stood to benefit from the merger.",
+              "exampleCn": "由于该董事会成员的私募股权公司将从此次合并中受益，他被要求因明显的利益冲突而回避投票。"
+            },
+            {
+              "word": "windfall",
+              "pos": "n.",
+              "meaning": "意外横财，指因外部事件（政策变化、政府合同、并购）带来的非经营性、意料之外的巨额收益。比 profit（利润）更强调「意外性」，语气带有「天上掉馅饼」的色彩。windfall tax（暴利税）是新闻中的高频搭配。",
+              "etymology": "源自古英语，字面义为「被风吹落的果实」（wind 风 + fall 落下）。最初指被风吹倒、无需劳动即可捡拾的树木或果实，16世纪起引申为「意外之财」，语义从自然现象扩展至财务语境。",
+              "morphology": "wind（风）+ fall（落下）——复合词，无独立词源。相关词：windfall tax（暴利税）、windfall profit（意外利润）、bonanza（同义词，来自西班牙语，矿业语境常用）。",
+              "mnemonic": "想象站在苹果园里，一阵大风刮来，苹果哗哗往下掉——不用爬树，白捡。这就是 windfall：风带来的「天降之财」，努力无关，运气使然。",
+              "exampleEn": "Early shareholders of the cybersecurity firm received a windfall when a government agency signed a $500 million sole-source contract with the company.",
+              "exampleCn": "当一家政府机构与该网络安全公司签署5亿美元的独家合同后，公司早期股东意外获得了一笔横财。"
+            },
+            {
+              "word": "recuse",
+              "pos": "v.",
+              "meaning": "（使自己）回避，指因存在利益冲突或个人偏见，主动退出某一决策、审判或调查程序。法律与政府伦理语境中的专业动词，教科书少见但财经新闻极高频。注意：recuse oneself 是标准用法，区别于 disqualify（被他方强制取消资格）。",
+              "etymology": "源自拉丁语 recusare（拒绝、反对），由 re-（反、退）+ causa（原因、案件）构成，16世纪经由法语进入英语法律词汇，原义为「拒绝接受（法官）身份」，后演变为「主动回避」。",
+              "morphology": "re-（反/退）+ cuse（源自拉丁语 causa，原因/案件）。相关词：recusal（n. 回避行为）、excuse（借口；ex- + causa，同根）、accuse（指控；ac- + causa，同根，方向相反）。",
+              "mnemonic": "re-（退）+ cuse 谐音「局」→「退局」。遇到利益冲突，官员 recuse 自己，就是主动「退出这个局」。记住同根词：excuse 是找借口「逃出」，accuse 是「指向」别人，recuse 是「退出」。",
+              "exampleEn": "Three board members were asked to recuse themselves from the vote after it emerged they held significant personal stakes in the acquisition target.",
+              "exampleCn": "在发现三名董事会成员持有被收购方的重大个人股份后，他们被要求回避此次投票。"
+            },
+            {
+              "word": "vested interest",
+              "pos": "phrase (n.)",
+              "meaning": "既得利益，指某人在某事中已经拥有的、通常为财务性质的个人利害关系，会导致其判断或行为带有偏向性。比 conflict of interest 更强调利益「已经到手、根深蒂固」，vesting period（股权归属期）是投资语境中的高频搭配。",
+              "etymology": "vested 源自拉丁语 vestire（穿上、授予），引申为「已授予的、不可剥夺的」。19世纪英语法律语境中，vested interest 指「已确立的合法权益」，后口语化为「个人私利」，带有轻微的负面色彩。",
+              "morphology": "vest（v. 授予；n. 背心）+ -ed（已完成态）+ interest（利益）。相关词：vested rights（既得权利）、vesting period（归属期）、divest（v. 剥离资产，di- 表分离）。",
+              "mnemonic": "把 vest 想成「马甲/背心」——一件穿上身就紧贴身体、难以脱下的衣服，正是「vested」的感觉：已经授予、贴身持有、脱不掉。vested interest 就是那件穿在身上、摘不掉的「利益马甲」。",
+              "exampleEn": "Critics argued the senator had a vested interest in blocking the antitrust bill, given that her family trust held substantial shares in two of the firms under review.",
+              "exampleCn": "批评人士指出，由于该参议员的家族信托持有两家被调查公司的大量股份，她在阻止反垄断法案上存在既得利益。"
+            }
+          ]
+        },
+        {
+          "id": "20260629-5",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/b4c27cf9-f1f6-4709-b2b0-7c6df47531b1",
+          "headlineEn": "Supreme Court Shields the Fed but Leaves Other Regulators Exposed",
+          "headlineCn": "最高法院护住美联储独立性，其他监管机构何去何从",
+          "summaryEn": "The U.S. Supreme Court has ruled to uphold the Federal Reserve's independence, affirming Congress's right to insulate the central bank from presidential removal powers. However, the decision did not extend the same statutory protections to other regulatory bodies such as the Consumer Financial Protection Bureau or the Federal Trade Commission. Legal experts warn the ruling's ramifications could reshape the administrative state, exposing dozens of agencies to greater executive control and reigniting debate over the balance of power in Washington.",
+          "summaryCn": "美国最高法院裁定维护美联储的独立性，确认国会有权将央行领导层保护起来，使其免遭总统随意免职。然而，这一裁决并未为其他独立监管机构提供同等的法定保护，消费者金融保护局、联邦贸易委员会等机构的命运由此悬而未决。法律专家警告，该判决的深远影响可能重塑「行政国家」格局，使数十个机构面临更大的行政干预压力，并再度点燃华盛顿内部的权力平衡之争。",
+          "excerpt": "The Supreme Court carved out a unique shelter for the Federal Reserve, citing the distinctive statutory framework Congress built for the central bank. But while the Fed emerges largely intact, the ruling leaves open a far larger question — whether other independent agencies can survive a new era of executive pressure.",
+          "vocab": [
+            {
+              "word": "uphold",
+              "pos": "v.",
+              "meaning": "维持、支持（法律裁决或原则）有效。法律语境中比 confirm 更正式，专用于法院「维持」下级判决或宪法原则；口语中也可表示「捍卫某种价值观」。它是法庭报道的核心词，与 overturn（推翻）构成一对反义词，对比记忆效果极佳。",
+              "etymology": "古英语 up（向上）+ healdan（持有、保持），15世纪起用于「举起以支撑」，后法律语境引申为「宣布裁决继续有效、不予推翻」，语义从物理动作演变为法律判定。",
+              "morphology": "up-（向上前缀）+ hold（持有）→ upheld（过去式/过去分词）；同前缀词：upkeep（维护）、upgrade（升级）、upend（颠覆）；词根 hold 派生：withhold（扣押）、behold（注视）、household（家庭）。",
+              "mnemonic": "想象法官双手「向上托举」写有法律条文的石板，庄严宣告「此条文有效、不倒」——uphold = 举起来撑住它，不让它倒。与 overturn（把石板推翻砸碎）画面对比，两词同时记住。",
+              "exampleEn": "The appeals court upheld the regulator's authority to fine fintech companies operating without a proper licence.",
+              "exampleCn": "上诉法院维持了监管机构对无证经营金融科技公司进行罚款的权力。"
+            },
+            {
+              "word": "insulate",
+              "pos": "v.",
+              "meaning": "使隔绝（外部影响）、保护某机构免受政治干预。央行独立性语境中几乎是固定搭配「insulate from political pressure」，比 protect 更强调「主动构建隔离屏障」的制度设计意图，是财经新闻的高频词。",
+              "etymology": "拉丁语 insula（岛屿），18世纪进入英语，原义「使成为岛屿」即令其四面与外界隔绝，后扩展至物理隔热，再引申至政治与金融语境中的「与外界隔绝」，语义路径清晰。",
+              "morphology": "in-（进入）+ sul-（岛屿词根，同 island）+ -ate（动词化后缀）→ insulation（n. 隔离/绝热）、insulated（adj.）；同根词：island（岛）、isolate（孤立）、peninsula（半岛，pene- = 几乎）。",
+              "mnemonic": "insulate = in + island，把央行「关进一座小岛」——四面环水，政治浪潮打不进来。记住「孤岛央行」这个画面，就记住了这个词在金融报道中的核心含义。",
+              "exampleEn": "A strong governance structure helps insulate the central bank's rate decisions from short-term electoral pressures.",
+              "exampleCn": "完善的治理结构有助于使央行的利率决策免受短期选举压力的干扰。"
+            },
+            {
+              "word": "ramification",
+              "pos": "n.",
+              "meaning": "（常用复数）复杂的连锁后果、深远影响。比 consequence 层次更丰富，强调像树枝分叉一样向四面蔓延的多重影响；常见于法律与政策分析报道，固定搭配：the ramifications of a ruling / decision / policy。",
+              "etymology": "拉丁语 ramus（树枝）+ -ficare（使成为）+ -ation（名词后缀），字面义「分枝化」，17世纪引申为「一个事件产生的多个分支后果」，是英语中典型的植物隐喻词。",
+              "morphology": "ramus（树枝词根）+ -ific-（使成为）+ -ation（名词化后缀）；同根词：branch（树枝，与拉丁 ramus 同源）；-ation 派生类比：specification（规范）、clarification（澄清）、ratification（批准）。",
+              "mnemonic": "想象法庭判决是一棵树的主干，ramification（树枝群）就是从这个判决生长出来的各种连锁影响——树枝越多，影响越复杂。记住「判决树」这个画面，用这个词时自然就想到「枝蔓四延」的感觉。",
+              "exampleEn": "Investors are still mapping the full ramifications of the new data-privacy law for cloud service providers.",
+              "exampleCn": "投资者仍在梳理新数据隐私法对云服务商的全面连锁影响。"
+            },
+            {
+              "word": "carve out",
+              "pos": "phrasal v. / phrase",
+              "meaning": "从更大范围中划出例外或豁免；也可指在某领域开辟独特地位。法律与贸易协议语境极高频，强调「从整体中切割出一块给予特殊待遇」，与 single out（单独挑出）有微妙差异——carve out 通常暗含刻意设计的制度性例外，而非随机点名。",
+              "etymology": "短语/复合词，无独立词源。carve 来自古英语 ceorfan（切割），out 为副词强调「向外切出」；两词组合的引申义「划出特区/豁免例外」约形成于20世纪商业英语，是典型的实体动作→制度操作的隐喻迁移。",
+              "morphology": "carve（切割）+ out（向外）；同类短语：cut out（剪去）、single out（单独挑出）、hive off（分拆独立）；carve 派生：carving（雕刻，n.）、carved（adj.）、woodcarver（木雕师）。",
+              "mnemonic": "想象一块大奶酪代表「所有监管机构」，律师拿刀专门给美联储「切出一块」放进单独的小盘子——这就是 carve out：从整体切走一块给予特别待遇。奶酪画面很具体，不容易忘。",
+              "exampleEn": "The trade deal carves out an exemption for semiconductor equipment, keeping it outside the scope of new export tariffs.",
+              "exampleCn": "该贸易协议为半导体设备划出豁免条款，使其不受新出口关税的约束。"
+            },
+            {
+              "word": "statutory",
+              "pos": "adj.",
+              "meaning": "法定的、依据成文法明确规定的。区别于「宪法性的（constitutional）」或「习惯法的（common-law）」，专指由立法机构明文写入法律的权力或义务。三者在财经新闻中频繁出现且容易混淆，掌握 statutory 是读懂美国监管报道的关键。",
+              "etymology": "拉丁语 statutum（法令），来自 statuere（建立、制定），与 statue（雕像，字面义「竖立之物」）、status（地位）同源，17世纪进入英语法律词汇，指「经立法程序确立并以文字固定下来的」。",
+              "morphology": "statute（成文法）+ -ory（形容词后缀，表「与…有关」）→ statutory；同族词：statute（法规）、status（地位）、stature（声望）、constitution（宪法）；-ory 派生类比：regulatory（监管的）、mandatory（强制的）、obligatory（义务性的）。",
+              "mnemonic": "statutory ≈ statue（雕像）+ ory——国会把法条像「石碑」一样凿刻进成文法，凿进去的就是 statutory（法定的）。「石碑法条」的画面既帮助拼写，又暗示其「不可随意更改」的特性，区别于宪法（需修宪程序）。",
+              "exampleEn": "The agency's statutory mandate covers consumer protection but does not extend to regulating cryptocurrency exchanges.",
+              "exampleCn": "该机构的法定职责涵盖消费者保护，但不延伸至对加密货币交易所的监管。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-28": {
       "label": "6月28日 (周日)",
       "stories": [
@@ -8718,326 +9038,6 @@
               "mnemonic": "想象用力把一袋金币从货架上「拉下来」（pull down）——哗哗地掉进口袋，生动表示「赚到手」。与 bring home 意思相近，但 pull down 更强调主动争取、实实在在落袋为安的感觉",
               "exampleEn": "Despite a challenging macro environment, the e-commerce giant managed to pull down $4.2 billion in net profit last quarter.",
               "exampleCn": "尽管宏观环境严峻，这家电商巨头上季度仍成功斩获净利润42亿美元。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-29": {
-      "label": "5月29日 (周五)",
-      "stories": [
-        {
-          "id": "20260529-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-          "headlineEn": "Groq Seeks $650M as AI Chip Startup Shifts Focus to Inference",
-          "headlineCn": "AI芯片初创公司Groq拟融资6.5亿美元，战略转向AI推理",
-          "summaryEn": "Groq, an AI chip startup, is reportedly seeking to raise $650 million in a new internal funding round as it shifts its strategic focus from custom hardware design to AI inference — the process of deploying trained models to generate real-time responses to user queries. The move follows Nvidia's landmark $20 billion deal tied to Groq's talent. The fundraise signals growing investor confidence in inference-focused AI infrastructure as demand for scalable, efficient AI deployment accelerates across the industry.",
-          "summaryCn": "据报道，AI芯片初创公司Groq正寻求从现有投资者处筹集6.5亿美元，公司战略重心正从自研定制硬件转向AI推理——即已训练模型响应用户提示请求、实时生成输出的计算过程。此次融资发生在英伟达以约200亿美元完成一笔与Groq人才密切相关的重大交易之后。这笔融资表明，随着行业对高效AI部署的需求持续攀升，以推理基础设施为核心的赛道正吸引越来越多的投资者关注。",
-          "excerpt": "Chipmaker Groq is looking to raise $650 million in internal funding as it shifts away from hardware toward AI inference — the process through which trained models generate responses to user-prompted requests. The move follows Nvidia's $20 billion deal tied to Groq's talent, per Axios.",
-          "vocab": [
-            {
-              "word": "acqui-hire",
-              "pos": "n.",
-              "meaning": "「人才收购」：以获取目标公司人才为主要目的的企业并购行为，而非看重其产品或市场份额。硅谷财经报道高频词，比 acquisition 更精准，暗示买家真正想要的是「人」而不是「公司资产」，读懂科技并购新闻必掌握。",
-              "etymology": "合成词，由 acquisition（收购，源自拉丁语 acquirere，「获取、寻求」）与 hire（雇用，古英语 hȳrian）拼合而成，约2005年前后在硅谷语境中兴起，专指以人才获取为核心目的的企业并购行为。",
-              "morphology": "acqui-（取自 acquire/acquisition，拉丁语 ad- + quaerere「寻求获取」）+ hire（古英语「雇用」）。同源扩展：acquire（v. 获取）、acquirer（n. 收购方）、acquisition（n. 收购）、inquisition（n. 审讯，同词根 quaerere）。",
-              "mnemonic": "拆成「acquire（收购）+ hire（雇人）」= 「通过收购来雇人」。想象大厂 CEO 拿着巨额支票说：「我不要你的产品，我只要你的工程师！」这句话就是 acqui-hire 的完整定义，画面感极强，难以忘记。",
-              "exampleEn": "The social media giant's acqui-hire of the five-person AI lab cost $80 million but secured the talent needed to rebuild its recommendation engine.",
-              "exampleCn": "这家社交媒体巨头以8000万美元完成对这支五人AI实验室的人才收购，获得了重建推荐引擎所需的核心人才。"
-            },
-            {
-              "word": "inference",
-              "pos": "n.",
-              "meaning": "在AI领域专指「推理」：将已训练好的模型部署后，接收用户输入并生成输出的计算过程，区别于「训练（training）」阶段。理解这个词是读懂AI产业链商业逻辑的基础——训练烧钱建壁垒，推理才是日常赚钱的环节。",
-              "etymology": "源自拉丁语 inferentia，由动词 inferre 派生：in-（进入）+ ferre（携带，与 transfer、ferry 同源）。16世纪进入英语，原义「从前提推导结论」；AI语境中专指「从输入推导输出」的计算过程，延续了逻辑推导的核心语义。",
-              "morphology": "in-（前缀，「向内/引入」）+ fer-（词根，「携带」，拉丁 ferre）+ -ence（名词后缀）。同词根扩展：transfer（转移）、confer（商议）、refer（参照）、fertile（肥沃的，ferre「承载」之义）。派生：infer（v.）、inferential（adj.）。",
-              "mnemonic": "infer = in（进去）+ fer（搬运）：把问题「搬进」模型，把答案「搬出来」——这就是推理。训练是「学」，推理是「用」，记住这对比，AI新闻里的 inference chip、inference cost 都迎刃而解。",
-              "exampleEn": "The company's new chip architecture cuts inference latency by 40%, enabling real-time AI responses at enterprise scale.",
-              "exampleCn": "该公司的新芯片架构将推理延迟降低了40%，使企业级实时AI响应成为可能。"
-            },
-            {
-              "word": "refine",
-              "pos": "v.",
-              "meaning": "「精炼、优化、打磨」，强调通过反复迭代去除杂质、提升精度。比 improve 更正式、更具「层层去粗取精」的过程感，在AI/科技语境中常搭配 model、process、algorithm，暗示一种专业且系统化的持续改进。",
-              "etymology": "源自法语 raffiner，re-（再次）+ finer（使精细），追溯至拉丁语 finis（终点、极致）。原为冶金术语「去除杂质提纯金属」，后引申至任何领域的「精益求精」，语义核心始终是「趋近于完美状态」。",
-              "morphology": "re-（前缀，「再次/更深层」）+ fine（词根，「精细」，拉丁 finis「终极」）。派生词：refinement（n. 精炼/改进）、refined（adj. 精致的/有品位的）、refinery（n. 炼油厂/精炼厂）。同前缀扩展：rebuild、rethink、restructure。",
-              "mnemonic": "refine = re（再）+ fine（好）→ 「反复变好」→ 不断打磨直到极致。想象炼油厂把原油一遍遍过滤，最终变成纯净汽油——AI模型调优、产品迭代都是同样的「去粗取精」，记住这个工厂画面就记住了这个词。",
-              "exampleEn": "The startup spent a year refining its inference pipeline before launch, eliminating most of the latency bottlenecks that plagued early demos.",
-              "exampleCn": "这家初创公司在发布前花了一年时间打磨其推理流水线，消除了早期演示中存在的大部分延迟瓶颈。"
-            },
-            {
-              "word": "prompt",
-              "pos": "n. / v.",
-              "meaning": "名词：输入给AI模型的指令或问题，即「提示词」——AI时代最核心的交互术语，衍生出 prompt engineering（提示工程）整个新兴领域；动词：促使、触发某行为。注意AI含义与日常「催促、提示」含义的内在延伸关系，两者逻辑相通。",
-              "etymology": "源自拉丁语 promptus（promptere 的过去分词），意为「取出、使准备就绪」，由 pro-（向前）+ emere（取出）合成。14世纪进入英语，原义「及时的、敏捷的」，后演变为「提示、促使」，数字化AI时代获得专业技术新义。",
-              "morphology": "源自拉丁 pro-（向前）+ emere（取出），为简单词，无现代可拆前后缀。派生词：promptly（adv. 及时地）、prompter（n. 提词器）、prompting（n. AI提示行为）。近义对比：cue（暗示/提示，更口语）、trigger（触发，更技术性）。",
-              "mnemonic": "prompt 日常意思是「催促某人做某事」——给AI下命令也是在「催促」它开口！记住「prompt = 给AI的指令」，就抓住了现代AI最核心的人机交互概念。面试时随口提到 prompt engineering，立刻显示出AI素养。",
-              "exampleEn": "Writing a well-crafted prompt is now considered a core competency for product managers building AI-powered applications.",
-              "exampleCn": "撰写精心设计的提示词，如今已被视为构建AI应用产品经理的核心能力之一。"
-            },
-            {
-              "word": "chipmaker",
-              "pos": "n.",
-              "meaning": "半导体芯片制造商：设计或生产芯片的公司。科技财经报道极高频复合词，读懂AI硬件产业链必知。重要区分：chipmaker（泛指）≠ chip designer（纯设计公司，如 Arm）≠ foundry（纯代工厂，如台积电），三者商业模式截然不同。",
-              "etymology": "合成词。chip 源自古英语 cipp（「木屑、薄片」），因半导体芯片由硅晶圆切割而成，沿用「薄片」之义；maker 源自古英语 macian（「制作」）。两词合并随20世纪后半叶半导体产业崛起而普及为行业标准术语。",
-              "morphology": "chip（「芯片」）+ -maker（「制造者」，复合名词后缀）。同构词模式：automaker（汽车制造商）、policymaker（政策制定者）、watchmaker（钟表匠）、troublemaker（麻烦制造者）。-maker 是高产后缀，掌握后可类推大量复合词。",
-              "mnemonic": "chip = 「薄片」→ 从硅晶圆上切下来的超薄小片 = 芯片；maker = 做这玩意的人/公司。英伟达、英特尔、AMD都是 chipmaker，记住这个词，以后读 AI 硬件新闻再也不会卡壳。",
-              "exampleEn": "The veteran chipmaker announced a $5 billion investment in domestic fabrication capacity to reduce its reliance on overseas foundries.",
-              "exampleCn": "这家老牌芯片制造商宣布投资50亿美元扩建国内产能，以降低对海外代工厂的依赖。"
-            }
-          ]
-        },
-        {
-          "id": "20260529-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
-          "headlineEn": "Korean Chip Startup XCENA Raises $135M, Betting AI's Bottleneck Is Memory, Not Compute",
-          "headlineCn": "韩国芯片初创公司 XCENA 融资 1.35 亿美元，押注 AI 瓶颈在内存而非算力",
-          "summaryEn": "South Korean chip startup XCENA has secured $135 million in funding, challenging the prevailing view that AI performance is constrained by raw processing power. The company argues that memory — specifically how fast data moves between storage and processors — is the true bottleneck. As AI models grow larger and more data-intensive, memory bandwidth and latency become critical factors. XCENA's thesis positions it against established chip giants and signals a broader shift in how investors are evaluating AI hardware infrastructure.",
-          "summaryCn": "韩国芯片初创公司 XCENA 完成 1.35 亿美元融资，押注 AI 真正的瓶颈不是算力，而是内存。随着 AI 模型规模持续扩大，对数据的渴求与日俱增，内存带宽与延迟正成为制约系统性能的关键所在。XCENA 的这一判断挑战了英伟达等算力巨头主导的行业叙事，也标志着 AI 硬件投资逻辑正在发生重要转变。",
-          "excerpt": "South Korean startup XCENA has raised $135 million from investors who believe AI's next hardware challenge is not raw computing power but memory. As models grow increasingly data-hungry, the speed at which processors access memory — bandwidth and latency — may prove decisive in the AI hardware race.",
-          "vocab": [
-            {
-              "word": "bottleneck",
-              "pos": "n. / v.",
-              "meaning": "瓶颈；限制整体速度或产能的薄弱环节。在 AI 硬件、供应链和系统架构讨论中极为常见。比 constraint（约束）更形象，带有「流量被卡住」的动态感，是财经科技报道必掌握的高频词。",
-              "etymology": "来自英语复合词 bottle（瓶子）+ neck（颈部），原义为瓶颈最细处限制液体流速。19 世纪工业革命期间借用于工厂流程优化，描述生产线上的产能制约点，20 世纪末正式进入计算机工程词汇。",
-              "morphology": "bottle（瓶）+ neck（颈部）构成复合名词，无前后缀。同类空间隐喻复合词：roadblock（路障/障碍）、chokepoint（要道/阻塞点）、pipeline（管道/流程）。可作动词：traffic bottlenecked at the bridge（交通在桥处堵塞）。",
-              "mnemonic": "想象把水从一个细颈瓶中倒出——瓶颈越细，水流越慢，整个系统的速度由「最细的那段」决定。AI 内存就是当下卡住整个算力系统的「细颈」。画面记住了，词就记住了。",
-              "exampleEn": "Engineers discovered that memory access speed, not the GPU itself, was the bottleneck limiting AI inference performance at scale.",
-              "exampleCn": "工程师发现，限制大规模 AI 推理性能的瓶颈是内存访问速度，而非 GPU 本身。"
-            },
-            {
-              "word": "bandwidth",
-              "pos": "n.",
-              "meaning": "带宽；单位时间内可传输的数据量。技术语境中指内存或网络的传输速率，是衡量硬件性能的核心指标；商业口语中也比喻人或团队的「承接能力」，如 I don't have the bandwidth for this project。一词双义，极具实用价值。",
-              "etymology": "来自英语 band（频带）+ width（宽度），源于无线电工程，原指无线信号可使用的频率范围宽度。1990 年代随互联网普及引申为网络数据传输容量，后延伸至内存和存储领域，再借用为商业隐喻。",
-              "morphology": "band（频带）+ width（宽度）构成复合词，无前后缀。相关词族：broadband（宽带）、narrowband（窄带）、wideband（宽频）、bandwidth-intensive（带宽密集型）。",
-              "mnemonic": "把带宽想成高速公路：band 是「车道」，width 是「宽度」，车道越多越宽，数据「车辆」通行越快。内存带宽不足就是「堵车」——算力再强也没用，XCENA 正是要解决这条「数据公路」的拥堵问题。",
-              "exampleEn": "The new AI chip was engineered to maximize memory bandwidth, allowing models to process far more data per second than previous architectures.",
-              "exampleCn": "这款新型 AI 芯片专为最大化内存带宽而设计，使模型每秒可处理的数据量远超以往架构。"
-            },
-            {
-              "word": "throughput",
-              "pos": "n.",
-              "meaning": "吞吐量；单位时间内系统完成处理的数据或任务总量。是 AI 硬件、数据中心和云计算报道中的核心度量词，比 speed（速度）更精确，强调「批量产出效率」而非单次快慢，与 latency（延迟，关注响应速度）形成互补的一对概念。",
-              "etymology": "来自古英语 through（穿过）+ put（放置/推进），合义为「通过系统推进的总量」。最初用于工业工程的工厂产能管理，20 世纪中期引入计算机科学，描述处理器或网络单位时间内处理的数据量。",
-              "morphology": "through（穿越）+ put（推进）构成复合词，无独立前后缀。同类产出类复合词：output（产出）、input（输入）、turnover（周转率）、run rate（运营速率）。",
-              "mnemonic": "想象一条传送带：throughput 就是单位时间内「送过去（through + put）」多少货物。AI 芯片的吞吐量越高，就能越快地「批量生产」推理结果，像工厂流水线一样高效。记住「穿越（through）推进（put）的量」即可。",
-              "exampleEn": "XCENA claims its memory-centric architecture can deliver three times the throughput of conventional GPU systems when running large language models.",
-              "exampleCn": "XCENA 声称，其以内存为核心的架构在运行大型语言模型时，吞吐量可达传统 GPU 系统的三倍。"
-            },
-            {
-              "word": "latency",
-              "pos": "n.",
-              "meaning": "延迟；从发出请求到收到第一个响应的时间间隔。在 AI 推理和云服务中是衡量实时性的关键指标，与 bandwidth（带宽，关注数据总量）相对，latency 关注「快不快」。低延迟对自动驾驶、高频交易等时间敏感场景至关重要。",
-              "etymology": "来自拉丁语 latens（隐藏的），为动词 latēre（躲藏、潜伏）的现在分词形式。医学上最早指疾病症状出现前的「潜伏期」，20 世纪中期计算机科学借用，指数据请求与响应之间「隐藏的等待时间」。",
-              "morphology": "词根 lat-（隐藏、潜伏）+ 后缀 -ency（状态/性质名词化）。同词根词：latent（潜在的）、latent space（潜在空间，AI 常见术语）。同后缀词：frequency（频率）、urgency（紧迫性）、efficiency（效率）。",
-              "mnemonic": "latency 和 late（迟到）共享 lat- 词根——系统「迟到」的时间就是延迟。延迟越高，系统越「迟到」，用户等待越久。记住「lat = late = 慢/迟」这个关联，再也不会忘这个词。",
-              "exampleEn": "Reducing memory latency is critical for real-time AI applications like autonomous driving, where milliseconds can determine safety outcomes.",
-              "exampleCn": "降低内存延迟对自动驾驶等实时 AI 应用至关重要，因为毫秒级的差距可能决定安全结果。"
-            },
-            {
-              "word": "funding round",
-              "pos": "phrase (n.)",
-              "meaning": "融资轮次；初创公司向投资人募集资金的特定阶段，通常按顺序命名为 Seed（种子轮）、Series A、Series B 等。是科技和商业新闻中出现频率最高的术语之一，掌握此短语可读懂绝大多数创投报道。注意与 fundraiser（募捐活动）区分，后者多指慈善场景。",
-              "etymology": "短语复合词，无独立词源。fund 来自拉丁语 fundus（底部、地基），引申为「资金基础」；round 原义「一圈/一轮」，商业语境中指「一次完整的融资过程」，类比体育赛事中的「一局」或拳击中的「一回合」。",
-              "morphology": "fund（资金，来自 fundus 底部）+ -ing（名词化）+ round（轮次）。词族延伸：fundraise（募资）、lead investor（领投方）、follow-on round（跟投轮）、down round（估值下调融资轮）、bridge round（过桥融资轮）。",
-              "mnemonic": "把融资想象成拳击比赛：每一「round（轮）」投资人和创始人「过招」谈判，谈成了就完成一轮融资。Series A 是第一轮正式对决，越往后金额越大、要求越严。XCENA 这次打赢了一场 1.35 亿美元的硬仗。",
-              "exampleEn": "XCENA's $135 million funding round was led by prominent venture capital firms betting that memory architecture will define the next generation of AI chips.",
-              "exampleCn": "XCENA 的 1.35 亿美元融资轮次由知名风险投资机构领投，这些机构押注内存架构将定义下一代 AI 芯片的走向。"
-            }
-          ]
-        },
-        {
-          "id": "20260529-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
-          "headlineEn": "SpaceX Lands $6.45B Space Force Contracts Ahead of IPO",
-          "headlineCn": "SpaceX获65亿美元太空军合同，IPO文件揭示政府收入占比",
-          "summaryEn": "SpaceX has secured $6.45 billion in Space Force contracts as it prepares for its initial public offering. In its IPO filing, the company disclosed that government contracts account for roughly one-fifth of its projected 2025 revenue. The deals bolster SpaceX's financial credentials with investors while also raising concentration risk concerns, since a significant share of its revenue depends on federal procurement decisions rather than commercial market competition.",
-          "summaryCn": "SpaceX斩获64.5亿美元的美国太空军合同，恰逢公司筹备首次公开上市之际。根据其IPO文件披露，政府合同约占该公司2025年预期收入的五分之一，凸显其对联邦支出的高度依赖。合同落地既彰显了SpaceX在国防航天领域根深蒂固的主导地位，也令潜在投资者对其收入集中风险产生关注，因为相当一部分营收取决于联邦采购决策，而非商业市场竞争。",
-          "excerpt": "SpaceX, in its IPO filing, revealed that roughly one-fifth of its projected 2025 revenue stems from government contracts — a figure that underscores both the company's strategic value to national defense and its growing dependence on federal procurement.",
-          "vocab": [
-            {
-              "word": "lucrative",
-              "pos": "adj.",
-              "meaning": "利润丰厚的、高回报的。比 profitable 更强调金额大且收益可观，常用于描述合同、行业或商机，出现在正式商业报道中。值得学：它自带「数额惊人、令人眼红」的隐含语气，单词本身就能渲染出商业新闻的张力",
-              "etymology": "源自拉丁语 lucrativus，由词根 lucrum（利润、财富）派生，经古法语进入英语，16世纪起广泛用于商业语境，原义即「能带来财富的」，语义几乎未变",
-              "morphology": "lucr-（词根，利润）+ -ative（形容词后缀，表「具有…性质」）。同词根词：lucre（金钱，常带贬义，如 filthy lucre 肮脏的钱）；类似后缀构词：creative, productive, cumulative",
-              "mnemonic": "联想「lucky + revenue」：lucky 谐音 lucra-，能带来 revenue 的东西就是 lucrative。想象中了大奖后签下的「超级合同」，钞票哗哗流进来，画面越鲜活越好记",
-              "exampleEn": "Winning a multi-year government contract proved highly lucrative for the aerospace startup.",
-              "exampleCn": "赢得一份多年期政府合同对这家航天初创公司来说利润极为丰厚。"
-            },
-            {
-              "word": "backlog",
-              "pos": "n.",
-              "meaning": "积压订单；尚待交付的合同或工作量。在国防、航天领域，backlog 是衡量企业未来收入可见性的核心指标，比 orders 更强调「已签约但尚未完成交付」的状态，是分析师财报季最高频的词之一",
-              "etymology": "源自古英语，back（后面）+ log（大木头），原指放在壁炉后方备用的大块木柴储备，17世纪引申为「积压的储备或待处理之事」，逐步进入商业语境",
-              "morphology": "back-（前缀，向后、延迟）+ log（名词，原义木材）。相关词：backorder（延期交货订单）、backdate（追溯日期）；log 另见：log（日志）、logbook（航行日志）、logging（伐木/记录）",
-              "mnemonic": "想象壁炉后面堆满还没烧的大木头（log）——那些「还没处理完的事情」就是 backlog。航天公司的 backlog = 还没造完的火箭订单清单，清单越长说明生意越红火",
-              "exampleEn": "The defense contractor reported a record $40 billion backlog, signaling strong revenue visibility for the next three years.",
-              "exampleCn": "这家国防承包商报告了创纪录的400亿美元积压订单，预示着未来三年强劲的收入可见性。"
-            },
-            {
-              "word": "entrench",
-              "pos": "v.",
-              "meaning": "巩固（地位）、使根深蒂固。商业语境中常用 entrench oneself 或被动式 be entrenched，描述企业建立起难以撼动的竞争优势。比 establish 更强调「防御性」与「难以颠覆」，读者一看就感受到壁垒之深",
-              "etymology": "源自法语 retrancher（挖战壕防守），en-（使进入某状态）+ trench（壕沟），军事原义为「挖壕固守阵地」，后隐喻延伸至商业和政治，指「建立牢不可破的地位」",
-              "morphology": "en-（前缀，使进入某状态）+ trench（壕沟）；名词形式：entrenchment。同前缀词：enrich, endorse, enforce；同词根：trench coat（战壕风衣）、trenchant（犀利的，比喻「挖得很深、一针见血」）",
-              "mnemonic": "战壕（trench）里的士兵 en- 进入阵地后很难被赶走——商业上「挖好壕沟」就是建立竞争壁垒。SpaceX 每签一份政府合同，就是在加深自己的「战壕」，让对手更难进攻",
-              "exampleEn": "By securing long-term government contracts, SpaceX has further entrenched its position as the dominant launch provider for U.S. defense missions.",
-              "exampleCn": "通过锁定长期政府合同，SpaceX进一步巩固了其作为美国国防任务主要发射服务商的主导地位。"
-            },
-            {
-              "word": "bolster",
-              "pos": "v.",
-              "meaning": "支撑、强化（收入、地位、信心等）。比 boost 更强调「从下方支撑使其不倒」，隐含「原本有些薄弱，现在被加固」的语气。常搭配：bolster confidence / credentials / revenue / case，是财经新闻高频用词，值得和 boost、reinforce 仔细区分",
-              "etymology": "源自古英语 bolster（长枕、支撑物），原指放在床上或马鞍下的长条形垫子，用于提供支撑。动词化后引申为「提供支撑、增强」，语义一脉相承至今",
-              "morphology": "词根为 bolster（名词→动词转化，无典型前后缀）。近义辨析：boost（向上猛推）、reinforce（强化已有结构）、underpin（从根基支撑）、prop up（撑住摇摇欲坠之物）——四词侧重各有不同",
-              "mnemonic": "想象一个快要倒下的书架，你从下面塞进一个长枕（bolster）顶住——bolster = 从底部托住、让它稳住。公司用大合同从下方「撑住」收入预期，就是 bolster revenue outlook",
-              "exampleEn": "The new government contract will bolster the company's revenue outlook and strengthen its case ahead of the IPO.",
-              "exampleCn": "这份新的政府合同将强化公司的收入前景，并在IPO前增强其市场说服力。"
-            },
-            {
-              "word": "concentration risk",
-              "pos": "phrase / n.",
-              "meaning": "集中风险，指收入、客户或资产过度集中于单一来源时所面临的脆弱性。投资者评估IPO时的核心风险指标。值得学：这是风险管理和财务分析的必用专业短语，掌握它能让英语报告瞬间提升专业度",
-              "etymology": "concentration 来自拉丁语 concentrare（con- 共同 + centrum 中心），risk 来自意大利语 risco（暗礁、危险，源于航海语境）。两词组合约于20世纪中期在金融风险管理领域固化为标准术语",
-              "morphology": "concentration（con- 集中 + centr- 中心 + -ation 名词后缀）+ risk（名词）。同词根：center, central, concentric（同心圆的）；同结构风险术语：liquidity risk（流动性风险）、counterparty risk（交易对手风险）、tail risk（尾部风险）",
-              "mnemonic": "想象把所有鸡蛋放进一个篮子（concentrate = 集中在一起），篮子掉了就全完——这就是 concentration risk。SpaceX 政府收入占五分之一，精明的投资者会问：「这个篮子够不够稳？」",
-              "exampleEn": "Analysts flagged concentration risk in the IPO filing, noting that a single government client accounted for nearly 30% of annual revenue.",
-              "exampleCn": "分析师在IPO文件中指出了集中风险，称单一政府客户占年收入近30%。"
-            }
-          ]
-        },
-        {
-          "id": "20260529-4",
-          "category": "biz",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/gadgets/939842/lenovo-legion-go-s-windows-gaming-handheld-deal-sale",
-          "headlineEn": "At $549, Lenovo's Legion Go S Gaming Handheld Is Suddenly a Good Deal",
-          "headlineCn": "竞品大幅涨价，联想拯救者Go S成549美元性价比之选",
-          "summaryEn": "Valve raised the price of its Steam Deck OLED 512GB from $549 to $789, pushing the popular gaming handheld further out of reach for many buyers who had been waiting for it to return to stock. This price hike has unexpectedly boosted Lenovo's Legion Go S, which remains at $549 and now represents a compelling alternative in the growing PC gaming handheld market. For budget-conscious gamers, the pricing shift makes the Legion Go S a much stronger contender.",
-          "summaryCn": "Valve将Steam Deck OLED 512GB版本售价从549美元上调至789美元，令许多等待补货的玩家望而却步。这一涨价举措意外为联想拯救者Go S提供了竞争优势——后者售价维持在549美元不变，在日益壮大的PC掌机市场中成为更具吸引力的替代方案。对于注重性价比的玩家而言，这一价格变动使拯救者Go S的市场竞争力大幅提升，成为目前最值得考虑的便携游戏设备之一。",
-          "excerpt": "This week, the Steam Deck OLED with 512GB of storage jumped from $549 to $789, putting it further out of reach for buyers who had been waiting for it to return to stock. As a small consolation, Lenovo's Legion Go S remains at $549 — a capable PC gaming handheld that has suddenly become the more competitive option.",
-          "vocab": [
-            {
-              "word": "consolation",
-              "pos": "n.",
-              "meaning": "安慰；慰藉。指在失望或损失已无法挽回的情况下所获得的心理补偿。与 comfort 相比，consolation 更强调「次优替代」的语气，常见搭配为 consolation prize（安慰奖）。在商业报道中，常用来轻描淡写地承认某个情况虽不理想但尚有可取之处，语气带有一丝自嘲或无奈。",
-              "etymology": "来自拉丁语 consolatio，由 con-（加强前缀）和 solari（安慰、抚慰）组合而成，原义为「给予他人精神安慰」。经由古法语 consolacion 于14世纪进入英语，语义始终与「减轻痛苦或失落」紧密相关。",
-              "morphology": "con-（加强/共同）+ sol（词根，来自 solari，安慰）+ -ation（名词后缀）。同族词：console（v. 安慰）、inconsolable（adj. 无法安慰的）、disconsolate（adj. 郁郁不乐的）、solace（n. 慰藉，更书面化的近义词）。",
-              "mnemonic": "sol 像太阳☀️——consolation 就是用一缕阳光照进郁闷的心情。但注意这阳光很小，只是「tiny consolation」，不是真正解决问题，只是让你好受一点点。记住：有 con 的「共同安慰」，聊胜于无。",
-              "exampleEn": "The startup failed to close its Series B, but as a consolation, the acquisition price returned investors' capital in full.",
-              "exampleCn": "这家初创公司未能完成B轮融资，但令人稍感欣慰的是，收购价格让投资者全额收回了本金。"
-            },
-            {
-              "word": "out of reach",
-              "pos": "phrase",
-              "meaning": "超出可及范围；（价格上）买不起、遥不可及。在商业报道中常用来描述产品因涨价或供应不足而变得难以购得，比 unaffordable 更生动，隐含「曾经有希望但现在距离更远」的遗憾感，是科技和消费品报道的高频表达。注意搭配：put sth out of reach（使某物变得难以获取）。",
-              "etymology": "短语/复合词，无独立词源。reach 来自古英语 rǣcan（伸手触及、延伸），out of reach 字面意为「超出伸手可及的范围」，由具体的身体动作引申为抽象的「无法实现或获取」，这一隐喻在英语中使用已逾千年。",
-              "morphology": "out of（超出…范围）+ reach（n. 可及范围）。reach 的派生词：reachable（adj. 可达到的）、outreach（n. 对外拓展服务）、overreach（v. 过度延伸、野心过大）。反义短语：within reach（触手可及）、well within reach（完全负担得起）。",
-              "mnemonic": "想象一个孩子踮起脚尖想够架子上的玩具，却怎么也够不到——out of reach。Steam Deck 涨价后，就像架子被抬高了240美元，那台掌机离普通玩家越来越远。",
-              "exampleEn": "Premium smartphones have moved out of reach for many consumers in emerging markets following recent currency devaluations.",
-              "exampleCn": "近期货币贬值后，高端智能手机对许多新兴市场消费者而言已变得遥不可及。"
-            },
-            {
-              "word": "handheld",
-              "pos": "adj. / n.",
-              "meaning": "手持式的；手持设备。在科技产品语境中，特指可双手握持操作的便携电子设备，如掌机、手持扫描仪等。比 portable 更强调「直接握在手中操作」这一物理形态，是消费电子和游戏行业的标准术语，近年因掌机品类复兴而使用频率大幅上升。",
-              "etymology": "纯英语复合词，由 hand（手）和 held（hold 的过去分词，被握住）组成，随20世纪便携电子设备兴起而广泛使用，无拉丁或希腊词源，体现英语通过直接组合具象词汇来命名新事物的构词习惯。",
-              "morphology": "hand（手）+ held（hold 的过去分词）。类似以 hand 开头的复合词：handset（手机听筒）、handbook（手册）、handout（讲义/补贴）、handover（移交）。hold 的派生词：holder（持有人）、household（家庭）、beholder（旁观者）。",
-              "mnemonic": "hand（手）+ held（被握住）= 被手握住的设备。想象一台小巧的游戏机安稳地躺在你掌心，这就是 handheld——整个游戏世界就在你手里，随时随地，无需插电。",
-              "exampleEn": "The latest handheld gaming device targets commuters who want console-quality performance without carrying a laptop.",
-              "exampleCn": "这款最新手持游戏设备面向通勤族，让他们无需携带笔记本电脑也能享受主机级游戏体验。"
-            },
-            {
-              "word": "price hike",
-              "pos": "n.",
-              "meaning": "价格大幅上涨。hike 原为「远足/跋涉」，在商业语境中引申为「大幅提升」，price hike 比 price increase 语气更强烈，隐含「出乎意料或令消费者不满」的负面色彩，是媒体报道中的高频词。语气梯度：price increase（中性）< price hike（偏负面）< price gouging（宰客，强烈谴责）。",
-              "etymology": "hike 来自18-19世纪美国方言英语，原义为「长途跋涉、远足」，20世纪初引申为「把…猛力拉高、提升」，形象来自将某物用力往上拽的动作。price hike 是典型的美式英语搭配，在英式英语中有时用 price rise 替代。",
-              "morphology": "price（价格）+ hike（n. 大幅上涨 / v. 大幅提升）。hike 的其他高频搭配：hike up prices（抬高价格）、interest rate hike（加息）、tax hike（加税）、wage hike（加薪）。掌握这一搭配模式可举一反三。",
-              "mnemonic": "hike 是「徒步爬山」——想象价格像登山者一样拼命往上爬，消费者在山脚仰望钱包越来越瘪。Steam Deck 这次从549爬到789，足足爬了240美元的山！price hike = 价格爬山。",
-              "exampleEn": "The unexpected price hike on cloud storage plans prompted many small businesses to evaluate switching providers.",
-              "exampleCn": "云存储套餐的意外涨价促使许多小企业开始评估是否应更换服务商。"
-            },
-            {
-              "word": "availability",
-              "pos": "n.",
-              "meaning": "可获得性；供货状况。在科技和零售语境中，指产品是否有货、能否被消费者购买到，如 limited availability（供应有限）、back in stock（重新有货）。比 supply 更强调「消费者视角的可购买性」，是产品发布、缺货和补货报道中的核心词汇，也常见于 SaaS 语境中的「服务可用性」（99.9% availability）。",
-              "etymology": "溯源至古法语 availer（有用、有益），再上溯至拉丁语 ad-（朝向）+ valere（有价值、有力量）。-able 为形容词后缀，-ity 为抽象名词后缀，合成「具备可被利用的状态」之义，兼具「有货」和「有能力/有空」两层含义。",
-              "morphology": "avail（v. 有用 / n. 效用）+ -able（形容词后缀）+ -ity（名词后缀）。同族词：available（adj.）、unavailable（adj.）、avail oneself of（利用某物）。注意成语：to no avail（徒劳无功）——这个 avail 就是「效用」的意思。",
-              "mnemonic": "把 avail 想成「面纱（veil）」的谐音——产品被面纱遮住就是 unavailable（没货），揭开面纱就是 available（有货）。availability 就是衡量「面纱掀开了多少」的程度，掀得越开，越容易买到。",
-              "exampleEn": "Limited availability of the new AI chip has frustrated developers who need it for large-scale model training.",
-              "exampleCn": "新款AI芯片供货有限，令需要用它进行大规模模型训练的开发者深感困扰。"
-            }
-          ]
-        },
-        {
-          "id": "20260529-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/05/29/feds-bowman-warns-against-hiking-interest-rates-due-to-inflation-spike.html",
-          "headlineEn": "Fed Governor Bowman Cautions Against Rate Hikes Amid Tariff-Driven Inflation",
-          "headlineCn": "美联储理事鲍曼：关税驱动的通胀不应成为加息理由",
-          "summaryEn": "Fed Governor Michelle Bowman cautioned against raising interest rates in response to the current inflation surge, arguing that price pressures are primarily driven by energy costs and tariffs rather than demand overheating. Bowman stated that hiking rates to counter supply-driven inflation has proven ineffective and risks unnecessarily restraining economic growth. Her comments highlight a deepening debate within the Fed over how to respond to structural inflation, signaling a preference for a cautious, data-dependent policy approach rather than preemptive tightening.",
-          "summaryCn": "美联储理事鲍曼警告，不应以应对当前通胀上行为由急于加息。她指出，此轮价格压力主要来自能源价格与关税推动，属于供给侧冲击而非需求过热，用加息来压制这类通胀已被证明效果欠佳，还可能无谓地拖累经济增长。鲍曼的表态折射出联储内部日益深化的政策分歧：面对结构性通胀，货币政策该如何拿捏分寸，将成为未来决策的核心考验。",
-          "excerpt": "Fed Governor Michelle Bowman said reacting to the inflation surge — driven primarily by energy prices and tariffs — through interest rate hikes has proven ineffective. She cautioned against using monetary tightening as the default response when price pressures stem from supply-side shocks rather than excessive demand.",
-          "vocab": [
-            {
-              "word": "tariff",
-              "pos": "n.",
-              "meaning": "关税。政府对进口商品征收的税，是贸易政策的核心工具。值得专门记忆，因为它不同于 tax（泛指一切税收），tariff 专指贸易壁垒语境下的进口税，在财经新闻中极高频，且常与 impose（征收）、lift（取消）、pass-through（价格传导）等词搭配，是阅读贸易和通胀报道的必备词。",
-              "etymology": "源自阿拉伯语 ta'rif（通知、定价表），经西班牙语 tarifa 进入英语，原义是「价目表/收费清单」，后演变为「关税税率表」，再引申为关税本身。",
-              "morphology": "无可拆解的前后缀，属简单借词。常见派生及复合形式：tariff-free（免税的）、tariff barrier（关税壁垒）、tariff rate（税率）。近义词对比：duty（法律意义上的关税义务，如 customs duty）、levy（泛指征税行为）。",
-              "mnemonic": "谐音记忆：「他收费」——政府「他」对每件进口货「收费」。或者想象海关门口挂着一张「tariff」价目表，每件进口品对号入座缴税，过了这关才能进市场。",
-              "exampleEn": "The new steel tariff raised production costs for domestic automakers by an estimated 8 percent.",
-              "exampleCn": "新出台的钢铁关税使国内汽车制造商的生产成本上涨了约8%。"
-            },
-            {
-              "word": "pass-through",
-              "pos": "n. / phrase",
-              "meaning": "价格传导；成本转嫁。指上游成本变化（如关税、能源涨价）转化为终端消费品价格上涨的程度。比 transfer（转移）更精准，专指价格链中的「成本渗透」机制。分析师常说 full pass-through（完全传导）或 partial pass-through（不完全传导），是理解通胀来源与货币政策有效性的关键概念。",
-              "etymology": "由 pass（通过）与 through（穿透）复合而成，无独立词源，是英语将空间位移动作隐喻化为经济流动的典型构词方式。",
-              "morphology": "短语/复合词，无独立词源。相关组合：pass-through rate（传导率）、cost pass-through（成本转嫁）、tariff pass-through（关税传导率）。动词形式不加连字符：costs pass through to consumers（成本传导给消费者）。",
-              "mnemonic": "想象成本像水流，从生产端「穿管而过」（pass through），最终从消费者端的水龙头里流出来变成涨价。管道越细，流出越少（部分传导）；管道全开，全部到达消费者（完全传导）。",
-              "exampleEn": "Economists estimate only partial pass-through from tariffs to consumer prices, as retailers absorb some of the added costs.",
-              "exampleCn": "经济学家估计关税向消费价格的传导只是部分性的，因为零售商会消化部分额外成本。"
-            },
-            {
-              "word": "blunt instrument",
-              "pos": "phrase",
-              "meaning": "钝器；粗放手段。比喻某种政策工具虽然有效但缺乏精准性、容易造成附带伤害。在货币政策讨论中，利率常被批评为「blunt instrument」，因为它影响整体经济而无法只针对特定通胀来源（如关税）。掌握此词组，能让你迅速理解央行政策辩论的核心张力：精准性 vs. 力度。",
-              "etymology": "blunt 源自古诺斯语 blundr（迟钝/昏睡），中世纪英语中指刀刃「不锋利」；instrument 来自拉丁语 instrumentum（工具）。两词合用，字面义「不锋利的工具」，后引申为「缺乏针对性的政策手段」。",
-              "morphology": "短语/复合词，无独立词源。blunt 派生词：bluntly（直率地）、bluntness（钝感/直率）。instrument 构词：instru-（安排/建造）+ -ment（名词后缀），同族词 instruct、construct、infrastructure。",
-              "mnemonic": "想象用一把大锤（钝器）敲一颗小钉子——钉是钉进去了，但周围的木板也被砸烂了。加息就是这把大锤：能打压通胀，但就业和增长也跟着一起受伤。",
-              "exampleEn": "Critics argue that interest rate hikes are a blunt instrument when inflation is caused by supply disruptions rather than overheating demand.",
-              "exampleCn": "批评者认为，当通胀由供应中断而非需求过热引发时，加息不过是一种粗放的手段。"
-            },
-            {
-              "word": "preemptive",
-              "pos": "adj.",
-              "meaning": "先发制人的；预防性的。指在问题完全显现之前采取行动以防患于未然。在央行语境中，preemptive rate hike 指尚未看到通胀确认信号便提前加息，风险较高。与 reactive（被动反应）形成鲜明对比，这对概念是理解货币政策辩论的核心词对，值得同时掌握。",
-              "etymology": "来自拉丁语 praemere（preemere），前缀 prae-（之前）+ emere（购买/取得），原义是「优先购买权（先买权）」，后引申为「先于问题爆发之前采取行动」。",
-              "morphology": "prae-（前）+ empt-（取，来自 emere）+ -ive（形容词后缀）。同族词：preempt（v. 先发制人）、preemption（n.）、exempt（豁免，ex- + emere 意为「取出/免除」）、redeem（赎回，re- + emere）。",
-              "mnemonic": "拆解记忆：pre-（提前）+ empt（夺取）→「提前把主动权夺到手」。下棋时在对手走之前你已抢先占住关键位——这就是 preemptive move。军事新闻中 preemptive strike（先发制人的打击）与此完全同一逻辑。",
-              "exampleEn": "The central bank took a preemptive approach by cutting rates before the economic slowdown fully materialized in the data.",
-              "exampleCn": "央行采取了预防性措施，在经济放缓完全体现于数据之前便提前降息。"
-            },
-            {
-              "word": "calibrate",
-              "pos": "v.",
-              "meaning": "校准；精细调整。原为仪器/科学术语，在政策语境中指根据实时数据精密调整政策力度，而非激进大幅操作。比 adjust（调整）更强调精准与专业性，是美联储官员演讲稿中的高频词，体现「数据驱动、按需微调」的政策哲学。听到这个词，通常意味着央行倾向于渐进、审慎而非激进行动。",
-              "etymology": "源自阿拉伯语 qālib（模具/铸型），经中世纪拉丁语 calibrare（测量枪管口径），原义是「用标准量具测量管径」，后扩展为「将任何精密系统对准标准刻度」。",
-              "morphology": "calibr-（口径，来自 caliber/calibre）+ -ate（动词后缀）。派生词：calibration（n. 校准过程）、calibrated（adj. 经过精密校准的）、recalibrate（重新校准，常指政策方向调整）、miscalibrate（校准失误）。",
-              "mnemonic": "caliber（口径）→ calibrate（校准口径）：想象枪械师用精密卡尺测量每支枪的管径——差 0.1 毫米，子弹就会卡膛。政策「校准」同理：利率差一点点，经济的「弹道」就完全偏离目标。",
-              "exampleEn": "The Fed signaled it would carefully calibrate future rate adjustments based on incoming inflation and employment data.",
-              "exampleCn": "美联储表示将根据最新通胀与就业数据，审慎地校准未来的利率调整幅度。"
             }
           ]
         }
