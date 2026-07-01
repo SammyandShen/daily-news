@@ -1,7 +1,247 @@
 {
-  "lastUpdated": "2026-06-29T23:17:28.134241+00:00",
+  "lastUpdated": "2026-07-01T01:46:39.131885+00:00",
   "level": "B2",
   "days": {
+    "2026-06-30": {
+      "label": "6月30日 (周二)",
+      "stories": [
+        {
+          "id": "20260630-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/30/white-house-ai-china-crackdown.html",
+          "headlineEn": "Trump's AI Restrictions Give China a Window to Close the Tech Gap",
+          "headlineCn": "特朗普AI管控为中国缩小技术差距打开窗口",
+          "summaryEn": "The Trump administration's export controls and restrictions targeting leading U.S. AI firms like Anthropic are producing unintended consequences: they may be handing China a major strategic advantage. By hamstringing American AI companies from operating globally, the policy risks galvanizing Chinese competitors, who can now make inroads into markets previously dominated by U.S. technology. Analysts warn that unilateral restrictions, imposed without coordinating with allies, could become an unexpected windfall for Beijing's AI ambitions.",
+          "summaryCn": "特朗普政府针对Anthropic等顶尖美国AI公司的出口管制和限制措施正产生意外后果：这些政策可能正将战略优势拱手相让给中国。通过束缚美国AI企业的全球运营能力，相关管控举措有可能激励中国竞争对手加速进入此前由美国科技主导的市场。分析人士警告，若未能与盟友协调就单边推行限制措施，这些政策最终可能成为北京AI雄心的意外馈赠。",
+          "excerpt": "The Trump administration's restrictions on Anthropic's leading AI models are looking like a strategic gift to China. By limiting how American AI companies operate globally, Washington risks galvanizing Chinese rivals and handing them a window to close what was once a formidable technological gap.",
+          "vocab": [
+            {
+              "word": "windfall",
+              "pos": "n.",
+              "meaning": "意外之财；横财。商业语境中常指「意外获得的竞争优势或利润」，语气中性偏正面，强调「非预期性」，比 unexpected gain 更生动，常见于财经报道分析某一外部事件带来的意外受益方。",
+              "etymology": "源自古英语，字面义为「被风吹落的果实」（wind 风 + fall 落下）。中世纪英国，风吹落地的果实可被佃农自由捡拾、无需地主许可，因而引申为「意外获得的好处」，后进入商业用语。",
+              "morphology": "wind（风）+ fall（落下）= 风吹落之物，固定名词复合形式。同族对比词：downfall（垮台）、rainfall（降雨量）、pitfall（陷阱/隐患）。注意 windfall 不可用作动词。",
+              "mnemonic": "想象一棵苹果树——大风一吹，苹果全掉下来，你一分钱没花就捡了一地。「Wind吹来的Fall（掉落）」= 天上掉苹果 = 意外之财。记住这个画面，windfall 就再难忘记。",
+              "exampleEn": "The collapse of a key competitor proved to be a windfall for the startup, which swiftly captured a large share of the market.",
+              "exampleCn": "一家关键竞争对手的崩溃对这家初创公司来说是一笔意外之财，它迅速占领了大量市场份额。"
+            },
+            {
+              "word": "hamstring",
+              "pos": "v.",
+              "meaning": "严重束缚、削弱（某人或机构的行动能力）。政策与商业报道中极常用，指通过规定、制裁或内部矛盾「捆住手脚」，比 restrict 更形象，暗含「主动造成伤害」的含义，多出现在批评性分析中。",
+              "etymology": "源自中古英语，字面义为「割断腿筋」——hamstring 本是大腿后侧的肌腱。猎人常切断猎物腿筋使其无法逃跑，引申为「使人失去行动能力」，20世纪进入商业政策用语。",
+              "morphology": "ham（大腿后部）+ string（筋、弦）。无常见同前缀派生词，但可与同义引申词对比：hobble（蹒跚/束缚）、shackle（枷锁/束缚）、fetter（脚镣/羁绊）。名词与动词同形。",
+              "mnemonic": "「Ham（火腿）+ string（绳子）」——想象用绳子把火腿捆起来，动弹不得。公司被政策 hamstring，就像腿被绑住的火腿，寸步难行。这个画面既荒诞又难忘。",
+              "exampleEn": "Stringent compliance requirements hamstrung the fintech startup, preventing it from expanding into new markets as quickly as planned.",
+              "exampleCn": "严苛的合规要求束缚了这家金融科技初创公司，使其无法按计划迅速进军新市场。"
+            },
+            {
+              "word": "galvanize",
+              "pos": "v.",
+              "meaning": "激励、刺激（使采取行动）。商业语境中指「外部冲击唤醒了此前被动的竞争者或团队」，带有「电击式唤醒」的隐喻，比 motivate 或 inspire 更强调外部刺激的突然性与强度，常见于战略分析和科技报道。",
+              "etymology": "源自意大利科学家 Luigi Galvani（1737-1798），他发现电流可使青蛙腿部肌肉收缩，由此产生「galvanism」（动物电学）。19世纪由「用电刺激」引申为「激励某人突然行动」。",
+              "morphology": "Galvani（人名）+ -ize（动词后缀，表「使……化/进行……动作」）。同后缀词：modernize（现代化）、prioritize（优先处理）、incentivize（激励）。名词形式：galvanization。",
+              "mnemonic": "记住「Galvani 电青蛙腿」的故事——电一通，腿立刻跳！galvanize 就是给人「通电」，让原本懒散的团队或竞争对手瞬间「跳起来」行动。记住这位科学家，单词就记住了。",
+              "exampleEn": "The rival firm's surprise product launch galvanized the engineering team into working around the clock to accelerate their own roadmap.",
+              "exampleCn": "竞争对手出人意料的产品发布激励工程团队日夜奋战，加速推进自己的产品路线图。"
+            },
+            {
+              "word": "inroad",
+              "pos": "n.",
+              "meaning": "（向新市场或领域的）突破、渗透；常以复数 inroads 出现，固定搭配为 make inroads into（打入……市场/领域）。比 entry 更强调「侵入他人原有地盘」的竞争性，是科技和市场争夺报道的核心词汇。",
+              "etymology": "源自16世纪英语，in-（向内）+ road（道路，古义为「骑行突袭」，与 ride 同源）。原指军队向敌境的突袭，19世纪逐渐引申为商业领域的「市场渗透」，语气至今保留竞争性色彩。",
+              "morphology": "in-（进入）+ road（路/侵袭）。同前缀词：influx（涌入）、intrusion（侵入）、inflow（流入）。复数 inroads 更为常见，固定搭配「make inroads into」务必整体记忆，不说「make an inroad」。",
+              "mnemonic": "把 inroad 想成「杀进去的一条路」——军队 raid（突袭）进入（in）敌方领地，留下一条通道。中国AI公司 make inroads into 全球市场，就像找到了「攻进去的缺口」，画面感极强。",
+              "exampleEn": "Chinese electric vehicle makers are rapidly making inroads into European markets, challenging established automakers on both price and technology.",
+              "exampleCn": "中国电动车制造商正迅速打入欧洲市场，在价格和技术上向成熟汽车制造商发起挑战。"
+            },
+            {
+              "word": "unilateral",
+              "pos": "adj.",
+              "meaning": "单边的、单方面的（未经他方协商或同意）。外交与政策报道核心词，指一国单独采取行动，常隐含「未与盟友协调」的批评色彩。务必掌握它与 bilateral（双边）、multilateral（多边）的对比组合，这三个词在国际新闻中几乎成套出现。",
+              "etymology": "源自拉丁语：uni-（一、单一）+ lateralis（侧面的，来自 latus「侧面/边」）+ -al（形容词后缀）。直译为「一侧的」，引申为「只涉及一方的」，17世纪进入英语法律和外交用语。",
+              "morphology": "uni-（单一：unicorn 独角兽、uniform 制服、universe 宇宙）+ later-（侧/边：lateral 侧面的、bilateral 双边的）+ -al（形容词）。三词对比：unilateral → bilateral → multilateral，数量递增。",
+              "mnemonic": "「Uni = 一个，lateral = 侧面」——只有一面，就是单边！想象一枚硬币，只有一面有图案（unilateral），而正常的协议应该两面都有（bilateral）。美国单独制裁就是 unilateral action，盟友们没被问到。",
+              "exampleEn": "Critics argued that the unilateral tech sanctions, imposed without consulting allies, would ultimately weaken the West's collective bargaining power.",
+              "exampleCn": "批评人士认为，在未与盟友磋商的情况下单方面实施科技制裁，最终将削弱西方的集体谈判能力。"
+            }
+          ]
+        },
+        {
+          "id": "20260630-2",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+          "headlineEn": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260630-3",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
+          "headlineEn": "Realta Fusion Becomes Apparent First to Generate Electricity Directly from a Fusion Reaction",
+          "headlineCn": "Realta Fusion疑创史上首例：直接从核聚变中提取电力",
+          "summaryEn": "Realta Fusion, a US startup, has achieved what appears to be a world first: generating electricity directly from a nuclear fusion reaction. Co-founder and CEO Kieran Furlong confirmed the feat to TechCrunch, stating the company can now \"take power from a plasma.\" While the output was modest in scale, the achievement demonstrates that fusion energy can produce usable electricity—a proof of concept that could reshape investor confidence in the nascent fusion industry and accelerate the race toward commercial viability.",
+          "summaryCn": "美国初创公司Realta Fusion完成了一项看似史无前例的壮举：直接从核聚变反应中获取电力。联合创始人兼CEO基兰·弗隆向TechCrunch确认，公司已能「从等离子体中提取电力」。尽管发电量尚小，这一成就证明核聚变可以产生可用电能，为长期备受期待的清洁能源技术商业化提供了关键概念验证，有望重振投资者对这一新兴行业的信心。",
+          "excerpt": "\"We can take power from a plasma,\" said Kieran Furlong, co-founder and CEO of Realta Fusion. The company says it has achieved what appears to be a world first—generating electricity directly from a nuclear fusion reaction, a result Furlong described as a demonstration of \"what's possible.\"",
+          "vocab": [
+            {
+              "word": "fusion",
+              "pos": "n.",
+              "meaning": "核聚变；轻原子核合并释放巨大能量的过程。与fission（裂变，重核分裂）相对，fusion是太阳能量的来源，也是清洁能源领域的「终极圣杯」。值得学习原因：科技投资报告与能源政策文件中高频出现，且与日常义「融合」（如fusion cuisine、jazz fusion）形成有趣对照，一词连接科学与商业两个语域",
+              "etymology": "来自拉丁语 fusio（熔化、倾倒），源自动词 fundere（熔化、浇铸），原义指金属在高温下熔合为一体，16世纪进入英语，20世纪物理学将其借用于描述原子核层面的「合并」过程，语义从宏观冶金扩展至微观粒子",
+              "morphology": "词根 fus-（熔合，来自 fundere）+ 名词后缀 -ion。同族词：confuse（con-混合+fuse，混为一谈）、infuse（灌入）、diffuse（向四周扩散）、profuse（丰沛的）、transfusion（输血，trans-跨越传输）",
+              "mnemonic": "想象两个氢原子像两滴水珠一样「fuse（熔合）」变成一滴氦，释放的能量比核弹还猛——fusion就是核层面的「强制合并收购」，比商业merger更彻底。记住：fuse是动词，fusion是名词，中间加个-ion就行",
+              "exampleEn": "Several governments are pouring billions into fusion research, hoping the technology will deliver clean, virtually limitless energy within two decades.",
+              "exampleCn": "多国政府正向核聚变研究投入数十亿资金，希望该技术能在二十年内实现清洁且近乎无限的能源供给。"
+            },
+            {
+              "word": "plasma",
+              "pos": "n.",
+              "meaning": "等离子体；物质的第四态，气体在极高温度下电子脱离原子形成的带电粒子云。核聚变必须在等离子体状态下进行，维持其稳定是最大技术难点。值得学习原因：在能源、半导体、医疗三大领域均高频出现（plasma display等离子屏、plasma cutting等离子切割、blood plasma血浆），掌握此词可解锁多个科技子领域",
+              "etymology": "来自希腊语 plasma（被塑造之物），源自动词 plassein（塑造、模制），原义指「可流动被塑形的物质」，医学上最先用于指血浆，20世纪物理学再度借用，描述这种「形态可变的带电气体云」，一词横跨生物与物理",
+              "morphology": "不可拆解的完整借词，但派生家族丰富：cytoplasm（细胞质，cyto-细胞+plasma）、protoplasm（原生质）、plasmid（质粒，分子生物学）、ectoplasm（外质，也是《捉鬼敢死队》里黏液的科学名）",
+              "mnemonic": "plasma TV（等离子电视）——屏幕里无数微型等离子体发光。核聚变的plasma温度超过一亿摄氏度，是太阳表面温度的10倍，是地球上最「火爆」的物质状态。口诀：固→液→气→plasma，物质加热的「终极形态」",
+              "exampleEn": "Sustaining a stable plasma at temperatures exceeding 100 million degrees Celsius remains one of the greatest engineering challenges in the fusion sector.",
+              "exampleCn": "在超过一亿摄氏度的高温下维持稳定的等离子体，至今仍是核聚变领域最艰巨的工程挑战之一。"
+            },
+            {
+              "word": "apparent",
+              "pos": "adj.",
+              "meaning": "表面上的、看似的；新闻报道中用于修饰尚未经独立核实的重大声明或「首次」记录，语气审慎，保留质疑空间。值得学习原因：apparently和apparent是科技财经报道的高频「免责词」，能读懂它们就能判断一条新闻的确定程度，区别于obvious（显而易见、无争议）",
+              "etymology": "来自拉丁语 apparere（出现、显现），由 ad-（朝向，缩写为 ap-）+ parere（出现、呈现）构成，原义「呈现于眼前之物」，后演化为「看起来如此但实际情况可能不同」，14世纪进入英语，语义从「可见」漂移至「存疑」",
+              "morphology": "ap-（ad-的同化变体，朝向）+ par-（出现，来自parere）+ -ent（形容词后缀）。派生词：apparently（adv.表面上看来）、appearance（n.外观）、disappear（di-+appear=消失）、transparent（trans-穿越+parent「可见的」=透明的）",
+              "mnemonic": "apparent = appear + -ant，「看起来出现的东西」不等于真实存在，就像魔术里的「apparent disappearance」——兔子好像消失了，其实藏在帽子里。记住：新闻标题里见到apparent，等于记者在打「待核实」标签",
+              "exampleEn": "The firm posted what appeared to be record-breaking quarterly revenue, though analysts cautioned that audited figures could tell a different story.",
+              "exampleCn": "该公司公布了看似创纪录的季度营收数字，但分析师提醒称，经审计的最终数据可能呈现不同面貌。"
+            },
+            {
+              "word": "nascent",
+              "pos": "adj.",
+              "meaning": "新兴的、萌芽阶段的；描述一个行业、技术或趋势「刚刚开始发展、尚未成熟」。值得学习原因：比emerging更文学、更正式，常见于投资报告和科技评论，暗含「充满潜力但风险极高」的双重信号，是投资圈和科技媒体的高阶词汇，用对了显功底",
+              "etymology": "来自拉丁语 nascens（正在诞生的），是动词 nasci（出生）的现在分词。与 nature（自然，天生之物）、native（本土的，生于此地的）、nation（由出生地/民族构成）同根，核心义均锚定于「生命的起源与诞生」",
+              "morphology": "词根 nasc-/nat-（出生，来自nasci/natus）+ 现在分词后缀 -ent。同族词：renaissance（re-重生+naissance法语诞生=文艺复兴）、innate（先天的，in-内在+nat-出生）、natal（出生的，如postnatal产后）、cognate（同源词）",
+              "mnemonic": "nascent ≈ \"just born\"（刚出生的）。想象一只雏鸟刚破壳而出——脆弱、充满潜力、需要呵护——这正是nascent technology或nascent market的状态。注意别与adjacent（邻近的）形近混淆，两者仅一字母之差但意思天差地别",
+              "exampleEn": "The nascent fusion energy sector has attracted over six billion dollars in private investment as startups race to achieve commercial viability.",
+              "exampleCn": "新兴核聚变能源领域已吸引逾60亿美元私人投资，初创公司竞相迈向商业可行性。"
+            },
+            {
+              "word": "proof of concept",
+              "pos": "phrase",
+              "meaning": "概念验证（常缩写PoC）；通过小规模实验证明某项技术或商业想法「在原理上可行」，是走向规模化和商业化的第一步。值得学习原因：风险投资、工程开发、科技报道中的核心术语，需区别于pilot（试点，更大规模）和MVP（最小可行产品，已有用户），三者是产品化路径上的不同阶段",
+              "etymology": "短语/复合词，无独立词源。proof来自拉丁语 probare（检验、证明）；concept来自拉丁语 concipere（con-共同+capere抓取→在脑中构思），合意「对所构思的概念进行实证检验」，是科学精神与商业逻辑的语言交汇点",
+              "morphology": "proof（来自probare→prove→proof，同族：approve批准、reprobate堕落者）+ of + concept（来自concipere→conceive→concept→conceptual）。关联短语：proof of work（区块链工作量证明）、proof of stake（权益证明）；近义框架词：pilot program（试点）、minimum viable product（MVP）",
+              "mnemonic": "把proof of concept想象成「概念的驾照考试」——先在考场（实验室）通过路考（PoC），证明你会开车，才能上路（规模化量产）。Realta这次从核聚变中发电，就是核能拿到了「L牌学员驾照」——能上路了，但距离高速还早",
+              "exampleEn": "Before committing full capital, the board required a proof of concept showing the battery technology could sustain consistent output for at least 72 hours.",
+              "exampleCn": "在投入全额资本之前，董事会要求先完成概念验证，证明该电池技术能持续稳定输出至少72小时。"
+            }
+          ]
+        },
+        {
+          "id": "20260630-4",
+          "category": "biz",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
+          "headlineEn": "LG’s 27-inch Tandem OLED gaming monitor is cheaper than ever",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99 (originally $599.99). That’s a great deal considering this is one of LG’s Primary RGB Tandem panels built with fourth-generation WOLED [&#8230;]",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99 (originally $599.99). That’s a great deal considering this is one of LG’s Primary RGB Tandem panels built with fo",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260630-5",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/06/30/cleveland-fed-president-hammack-sees-ai-fueling-inflation-says-rate-hikes-may-be-necessary.html",
+          "headlineEn": "Cleveland Fed's Hammack Warns AI May Fuel Inflation, Rate Hikes Likely",
+          "headlineCn": "克利夫兰联储主席警告：AI或推高通胀，加息可能在所难免",
+          "summaryEn": "Cleveland Federal Reserve President Beth Hammack warned that artificial intelligence could act as an inflationary force, potentially requiring further interest rate increases. Speaking to CNBC's Sara Eisen, Hammack noted that inflation has remained persistently elevated for five years. She argued that AI's massive capital expenditure demands—on data centers, energy, and infrastructure—could tighten labor markets and push prices higher, complicating the Fed's efforts to return inflation to its 2% target.",
+          "summaryCn": "克利夫兰联储主席贝丝·哈马克在接受CNBC采访时发出警告，认为人工智能的快速扩张可能成为新的通胀推手。她指出，美国通胀率过去五年来持续偏高，而AI热潮带动的数据中心建设、能源消耗及劳动力需求激增，可能进一步拉动价格上涨，迫使美联储重新考虑加息路径。这一表态被市场解读为联储内部鹰派声音再度抬头。",
+          "excerpt": "\"We've got inflation that's too high, and it's been too high for the past five years,\" Hammack told CNBC's Sara Eisen. She warned that AI-driven capital spending could spur demand and tighten labor markets, potentially forcing policymakers to consider raising interest rates once again.",
+          "vocab": [
+            {
+              "word": "entrenched",
+              "pos": "adj.",
+              "meaning": "根深蒂固的；在经济语境中形容通胀或预期「久久不去、嵌入结构性层面」，比 persistent 更强调「已固化于系统中、难以撼动」，常见搭配：entrenched inflation / entrenched expectations，是读懂央行措辞的关键词",
+              "etymology": "源自法语 trancher（切割、挖掘）及前缀 en-（进入），16世纪军事术语，指「挖掘战壕以固守阵地」，后演变为「使某物深深嵌入体系、难以根除」的比喻义",
+              "morphology": "en-（使...进入）+ trench（战壕/沟渠）+ -ed（形容词后缀）。同前缀 en- 系列：enclose（围住）、enforce（强制执行）、engulf（吞没）；同词根：trench（战壕）、trenching（挖掘作业）",
+              "mnemonic": "想象通胀像一支军队在经济体内「挖好了战壕（trench）」，en-（进入）trench-ed，深挖固守，加息都难以将其驱逐——战壕越深越难攻克，这就是 entrenched inflation 的核心画面",
+              "exampleEn": "If AI-driven demand keeps pushing wages higher, inflation expectations could become entrenched, making the Fed's 2% target increasingly elusive.",
+              "exampleCn": "若AI驱动的需求持续推高工资，通胀预期可能根深蒂固，令美联储2%的目标愈发难以实现。"
+            },
+            {
+              "word": "spur",
+              "pos": "v. / n.",
+              "meaning": "刺激、推动（某事发展）；作动词比 stimulate 更口语化且更有力度感，常见于「spur growth / demand / investment」，暗含外力催化的意味；作名词则指「催化剂」，值得同时掌握两种词性",
+              "etymology": "古英语 spura（马刺），与骑士脚踝处踢马的金属工具同源，中世纪后引申为「激励、促进」的比喻义——用马刺刺激马匹加速前进",
+              "morphology": "单一不可拆解词根，无前后缀。常见派生：spurred（被激励的）、spurring（现在分词）、spur-of-the-moment（即兴的，复合词）",
+              "mnemonic": "想象骑手用马刺（spur）踢马腹，马立刻飞奔——AI投资热潮就是那根「马刺」，spur inflation（刺激通胀）：金属刺入马腹→经济急速加热，画面鲜明、动作感极强",
+              "exampleEn": "Massive investment in AI data centers is expected to spur demand for electricity, land, and skilled engineers across multiple sectors.",
+              "exampleCn": "对AI数据中心的大规模投资预计将在多个行业刺激对电力、土地及技术工程师的需求。"
+            },
+            {
+              "word": "tighten",
+              "pos": "v.",
+              "meaning": "（货币政策）收紧；「tighten monetary policy / credit conditions」是美联储语境中的核心表达，比 raise rates 涵盖更广，还包括缩减资产负债表等工具，读财经新闻必须作为整体短语掌握",
+              "etymology": "来自古英语 tīht（紧绷的）加使动后缀 -en（使...变得...），原义为「使绳索或结变紧」，金融语境中比喻「收紧货币供给或信贷条件」",
+              "morphology": "tight（形容词）+ -en（使动后缀）。-en 后缀系列：loosen（放松）、harden（硬化）、soften（软化）、broaden（拓宽）；tight 派生族：tightly（副词）、tightness（名词）、tightrope（钢丝绳）",
+              "mnemonic": "tight（紧）+ -en（使动）= tighten（收紧）。想象美联储把信贷的「皮带」扣紧一格，借钱立刻变贵、经济降速——字形本身就是答案，tight 已经藏着意思了",
+              "exampleEn": "The Fed may need to tighten financial conditions further if AI-related capital spending keeps labor markets too hot to cool on their own.",
+              "exampleCn": "若AI相关资本支出使劳动力市场持续过热，美联储可能需要进一步收紧金融条件。"
+            },
+            {
+              "word": "underscore",
+              "pos": "v.",
+              "meaning": "强调、突出（某重要性）；正式程度高于 emphasize，常见于新闻报道和官方声明，如「The data underscore the urgency of...」，带有「用事实客观印证」的语气，比 highlight 更书面，是新闻英语的高频动词",
+              "etymology": "under-（在下方）+ score（划线/刻痕），原义为「在文字下方划线以示重要」，即手稿时代的重点标注方式，后演变为「强调」的抽象义",
+              "morphology": "under-（下方）+ score（划线）。under- 系列：underline（下划线/强调）、underpin（支撑）、undermine（削弱）、understate（轻描淡写）；score 系列：scorecard（成绩单）、scoreboard（计分板）",
+              "mnemonic": "想象老师在教科书重点下方用红笔画线（under + score），画完就是「强调」——underscore 字面即其用法，且与 underline 共享记忆：两个词都是「在下面画线」，只是 score 更正式",
+              "exampleEn": "Hammack's remarks underscore the Fed's concern that AI-fueled capital spending could keep inflation above the 2% target well into 2027.",
+              "exampleCn": "哈马克的言论凸显了美联储的担忧——AI带动的资本支出可能使通胀在2027年前持续高于2%目标。"
+            },
+            {
+              "word": "persistent",
+              "pos": "adj.",
+              "meaning": "持续的、顽固的；「persistent inflation」专指通胀在多个经济周期内拒绝回落，比 high 更强调「时间维度的顽固性」，是美联储报告和经济学论文中的超高频词，掌握它能直接读懂大量央行措辞",
+              "etymology": "源自拉丁语 persistere，由 per-（彻底、贯穿始终）+ sistere（站立、坚持）构成，原义为「坚定不移地保持某一立场或状态」，经中古法语进入英语",
+              "morphology": "per-（贯穿始终）+ sist（站立，来自拉丁 sistere）+ -ent（形容词后缀）。同词根：insist（坚持）、resist（抵抗）、consist（由...构成）、desist（停止）；派生：persistently、persistence、persist",
+              "mnemonic": "per-（全程）+ sist（站着不走）+ -ent = persistent。通胀就像一个「全程站在原地不动的人」，你推它（加息）它就是不走——联想 insist（坚持）同根，二者都有「sist = 死站着」这个核心画面",
+              "exampleEn": "Persistent core inflation has forced central banks worldwide to delay rate cuts, even as economic growth shows clear signs of slowing.",
+              "exampleCn": "持续居高的核心通胀迫使全球各大央行推迟降息，尽管经济增速已出现明显放缓迹象。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-06-29": {
       "label": "6月29日 (周一)",
       "stories": [
@@ -8878,166 +9118,6 @@
               "mnemonic": "「dis-」是「不」，「proportion」是「比例」，合起来就是「不成比例」。记住：每当新闻说某个群体「受影响最大、最深」时，记者脑中想的通常就是这个词——disproportionate impact / burden / effect，背会这三个搭配就够用了。",
               "exampleEn": "Smaller tech firms bear a disproportionate compliance burden when new data privacy regulations require companies to maintain dedicated legal teams.",
               "exampleCn": "新数据隐私法规要求企业配备专职法务团队，这让规模较小的科技公司承受了不成比例的合规负担。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-05-30": {
-      "label": "5月30日 (周六)",
-      "stories": [
-        {
-          "id": "20260530-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-          "headlineEn": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260530-2",
-          "category": "tech",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home/",
-          "headlineEn": "Startup offers free home cleaning—if it can record it all for robot training",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The latest twist in paying humans to wear head cameras for robot training data.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The latest twist in paying humans to wear head cameras for robot training data.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260530-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
-          "headlineEn": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "SpaceX already generated one-fifth of its 2025 revenue from government contracts, the company revealed in its IPO filing.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "SpaceX already generated one-fifth of its 2025 revenue from government contracts, the company revealed in its IPO filing.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260530-4",
-          "category": "biz",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/science/2026/05/the-office-of-management-and-budget-tries-again-to-cripple-us-science/",
-          "headlineEn": "Proposed new US funding rules: We can cancel any grant at any time",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Peer review now optional, political staff would screen grants for forbidden topics.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Peer review now optional, political staff would screen grants for forbidden topics.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260530-5",
-          "category": "econ",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/entertainment/940421/backrooms-blockbuster-38-million-opening",
-          "headlineEn": "Backrooms Opens to $38 Million, Obliterating A24's All-Time Box Office Record",
-          "headlineCn": "《Backrooms》首日票房3800万美元，打破A24历史纪录",
-          "summaryEn": "Kane Parsons' horror film Backrooms has shattered expectations with a $38 million opening day, putting it on track for a $90 million opening weekend. The result obliterates A24's previous record of $25.5 million set by Civil War and outperforms The Mandalorian's opening day. The achievement marks a watershed moment for A24, historically known as an arthouse indie label, signaling a bold crossover from niche internet subculture into mainstream commercial cinema.",
-          "summaryCn": "导演凯恩·帕森斯的恐怖电影《Backrooms》以3800万美元的首日票房远超市场预期，首映周末预计将突破9000万美元。这一成绩将A24此前由《内战》创下的2550万美元首周末纪录碾压殆尽，同时超越《曼达洛人》的首日表现。对于长期以文艺院线品牌著称的A24而言，这是一个历史性转折点，也标志着网络亚文化IP正式跻身主流商业院线。",
-          "excerpt": "Backrooms is expected to earn up to $90 million in its opening weekend after pulling down $38 million on Friday alone — not only above expectations, but a result that absolutely obliterates A24's previous opening weekend record of $25.5 million set by Alex Garland's Civil War.",
-          "vocab": [
-            {
-              "word": "obliterate",
-              "pos": "v.",
-              "meaning": "彻底摧毁、抹去；在商业语境中引申为「远超/碾压」某个纪录或竞争对手，语气比 surpass、beat 强烈得多，带有「对方几乎不复存在」的隐喻色彩，常见于财报和竞争分析报道",
-              "etymology": "来自拉丁语 obliterare，由 ob-（朝向、消除）与 littera（字母、文字）构成，原义为「抹去文字」，后引申为「彻底消除某事物的痕迹」，16世纪经由法语进入英语",
-              "morphology": "ob-（反向/消除）+ liter-（字/字母，源自拉丁 littera）+ -ate（动词后缀）。同词根扩展：literacy（识字率）、literal（字面的）、literature（文学）、literate（有文化的）",
-              "mnemonic": "把 obliterate 拆成「ob + letter + ate」——想象用一块大橡皮把黑板上所有字母（letter）全部「吃掉」（ate），什么都不剩。碾压纪录就是把对手的痕迹彻底抹去",
-              "exampleEn": "The new AI chip obliterated its competitors' benchmarks, delivering twice the performance at a fraction of the energy cost.",
-              "exampleCn": "这款新型AI芯片将竞品的基准测试成绩碾压殆尽，以极低的能耗实现了两倍的性能表现。"
-            },
-            {
-              "word": "certified",
-              "pos": "adj.",
-              "meaning": "字面义为「经官方认证的」；在新闻标题和口语中用作强调语气词，意为「货真价实的、毫无疑问的」。与 verified（核实的）相比，certified 更强调公认的、无可辩驳的身份，常搭配 hit、genius、disaster、classic",
-              "etymology": "源自中世纪拉丁语 certificare，由 certus（确定的，源自 cernere「辨别、确定」）+ facere（做）构成，原义为「使某事确定无疑」，14世纪经由古法语 certifier 进入英语",
-              "morphology": "certif(y)（动词：使确定/认证）+ -ed（形容词后缀）。同词根：certain（确定）、certify（认证）、certificate（证书）、certitude（确信）、certifiable（可认证的）",
-              "mnemonic": "cert = certain（确定），整个词就像「已经盖了官方大红章」的东西。想象一张烙着红色印章的证书（certificate）——certified 就是「盖章确认、不容置疑」，用在标题里语气极强",
-              "exampleEn": "After three consecutive quarters of record revenue, the startup is now a certified unicorn in the eyes of the market.",
-              "exampleCn": "在连续三个季度创下营收纪录后，这家初创公司在市场眼中已是货真价实的独角兽。"
-            },
-            {
-              "word": "tentpole",
-              "pos": "n.",
-              "meaning": "原指帐篷的支撑柱；在娱乐/商业语境中特指「支撑整个公司财务的核心大制作或旗舰项目」。好莱坞常用 tentpole film/release 描述高预算、高回报的商业巨制，与 arthouse（艺术院线）形成对比",
-              "etymology": "英语复合词，tent（帐篷，源自拉丁语 tenda，来自 tendere「拉伸」）+ pole（柱子，源自古英语 pal，借自拉丁语 palus「桩」）。马戏团帐篷须靠中央支柱撑起，20世纪末引申至好莱坞商业片语境",
-              "morphology": "tent（帐篷）+ pole（柱子），纯粹复合词，无前后缀。相关商业词汇：flagship（旗舰）、franchise（系列IP）、anchor（锚定产品）。tent 词根派生：tension（张力）、extend（延伸）",
-              "mnemonic": "想象一顶巨型马戏团帐篷，中间那根柱子（pole）一旦倒了，整个帐篷就塌了——tentpole 就是那个「不能倒」的核心项目，公司的财务全靠它撑着，一旦扑街后果惨烈",
-              "exampleEn": "Disney's strategy has long relied on tentpole franchises like Marvel and Star Wars to cross-subsidize smaller, riskier productions.",
-              "exampleCn": "迪士尼长期依赖漫威、星球大战等核心大IP的票房收益，来为规模较小、风险较高的项目提供交叉补贴。"
-            },
-            {
-              "word": "front-loaded",
-              "pos": "adj.",
-              "meaning": "指收益、成本或需求高度集中在早期阶段，后续逐渐递减；与 back-loaded（后置型）相对。电影票房、债券票息、SaaS合同成本均可用此词，是财务分析中描述现金流时间结构的精准用词",
-              "etymology": "英语复合形容词，front（前端）+ loaded（装载/集中）。源于货运或武器装填语境（前端装弹），20世纪中期广泛引申至金融、媒体行业，描述资源或回报在时间轴上的分布特征",
-              "morphology": "front（前端，古英语 fronte）+ load（装载，古英语 lad「携带」）+ -ed（形容词后缀）。对应词：back-loaded（后置型）。相关词：upfront（预付的）、top-heavy（头重脚轻）",
-              "mnemonic": "想象一辆货车所有货物都堆在车头（front），后面空荡荡——front-loaded 就是「好处/钱全在开头就给完，后面越来越少」。电影首映周末票房暴涨、后续骤降就是典型的 front-loaded 票房曲线",
-              "exampleEn": "The bond's front-loaded coupon structure appealed to income investors who prioritized early cash flows over terminal value.",
-              "exampleCn": "该债券的前置票息结构吸引了注重早期现金流而非到期价值的收益型投资者。"
-            },
-            {
-              "word": "pull down",
-              "pos": "phrasal v.",
-              "meaning": "非正式用法，意为「赚取/获得（一笔收入）」，比 earn 更口语化、更有力，常见于财经媒体描述公司营收、票房或个人薪酬。注意同一短语还有「拆除建筑」「拉低数值」之义，需结合语境判断",
-              "etymology": "短语动词，pull（拉，古英语 pullian）+ down（向下）。「赚钱」义源于19世纪美国俚语，隐喻把钱从高处「拽进」口袋；「拆除」义则保留了物理动作的字面原义",
-              "morphology": "短语/复合词，无独立词源可拆分。pull 的常见商业搭配：pull in（吸引/赚取）、pull off（成功完成）、pull through（渡过难关）。近义俚语：rake in（大赚）、haul in（大收获）",
-              "mnemonic": "想象用力把一袋金币从货架上「拉下来」（pull down）——哗哗地掉进口袋，生动表示「赚到手」。与 bring home 意思相近，但 pull down 更强调主动争取、实实在在落袋为安的感觉",
-              "exampleEn": "Despite a challenging macro environment, the e-commerce giant managed to pull down $4.2 billion in net profit last quarter.",
-              "exampleCn": "尽管宏观环境严峻，这家电商巨头上季度仍成功斩获净利润42亿美元。"
             }
           ]
         }
