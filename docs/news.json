@@ -11,20 +11,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
           "headlineEn": "Meta, like SpaceX, looks to turn excess AI compute into cash",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+          "headlineCn": "Meta计划出售AI算力，进军云计算挑战AWS与谷歌",
+          "summaryEn": "Meta is building a cloud infrastructure business to sell access to its AI computing power and proprietary models to external customers. The strategy mirrors SpaceX's approach of turning spare capacity into revenue — rather than letting expensive GPU clusters sit idle, Meta aims to cash in on its AI investments. The move would pit Meta directly against established cloud giants Amazon Web Services, Google Cloud, and Microsoft Azure, marking a bold expansion beyond social media.",
+          "summaryCn": "Meta正计划建立云计算基础设施业务，向外部客户出售AI算力和自研模型的访问权限。这一策略与SpaceX将多余产能变现的做法如出一辙——与其让昂贵的GPU集群闲置，不如从剩余算力中获取收入。此举将使Meta直接与亚马逊云服务（AWS）、谷歌云和微软Azure等云巨头正面交锋，标志着Meta的商业版图正式从社交媒体向更广泛的科技基础设施领域延伸。",
+          "excerpt": "Meta is developing plans for a cloud infrastructure business, selling access to its AI compute power and in-house models to outside customers. The move is designed to turn excess GPU capacity into a new revenue stream, pitting Meta directly against hyperscalers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "pit against",
+              "pos": "phrasal v.",
+              "meaning": "使（某方）与……正面较量；比「compete with」对抗色彩更浓，带有「让两方在擂台上厮杀」的画面感，商业新闻中常用于描述激烈竞争格局，尤其是新进者挑战老牌巨头的场景",
+              "etymology": "「pit」源自古英语pytt（坑、竞技场），可能借自拉丁语puteus（井/矿坑）；词义从字面的「斗兽坑/角斗场」演变为「使双方对立较量」，pit A against B即「将A和B扔进同一个竞技场厮杀」",
+              "morphology": "pit为单音节基础词，无前后缀；名词pit派生出多个方向：pitfall（陷阱，字面为「坑中陷阱」）、pit stop（赛车中途停站）、armpit（腋窝，手臂下方的「坑」）；作动词时还有pitted（有凹痕的/留有坑洞的）",
+              "mnemonic": "想象古罗马斗兽场：两头狮子被扔进同一个「坑」（pit）里厮杀——这就是「pit A against B」的原始画面。Meta被「扔进」云计算这个大坑，与AWS、谷歌贴身肉搏，谁也跑不掉",
+              "exampleEn": "The new pricing strategy will pit the startup directly against established players in the enterprise software market.",
+              "exampleCn": "这一全新定价策略将使该初创公司与企业软件市场的老牌玩家直接正面交锋。"
+            },
+            {
+              "word": "hyperscaler",
+              "pos": "n.",
+              "meaning": "超大规模云服务商（如AWS、微软Azure、谷歌云）；科技行业核心术语，指拥有数十万台服务器、能提供全球级别云基础设施的顶级企业。读懂此词才能看懂云计算竞争格局报道，是财经科技阅读必备词",
+              "etymology": "源自英语词素组合：hyper-来自希腊语hyper（在……之上/超越），scale来自拉丁语scala（梯子/规模），-er为行为者后缀；合指「规模已超越普通云服务商量级、达到另一维度」的企业，约2010年代后随云计算兴起普及",
+              "morphology": "hyper-（超/过度）+ scal-（规模）+ -er（名词后缀）；hyper-族词：hyperlink（超链接）、hyperinflation（恶性通胀）、hyperactive（过度活跃）；scale族词：scalable（可扩展的）、scalability（可扩展性）、rescale（重新调整规模）",
+              "mnemonic": "hyper = 孩子吃完糖后亢奋到「超出正常范围」的状态；scaler = 爬梯子的人。「超级爬梯人」：这些公司把服务器规模堆到平流层，普通梯子根本够不着，得用「超级梯子」才行",
+              "exampleEn": "As hyperscalers continue to pour billions into data center construction, smaller cloud providers struggle to compete on price.",
+              "exampleCn": "随着超大规模云服务商持续向数据中心建设砸入数十亿美元，规模较小的云服务商在价格竞争中越来越难以为继。"
+            },
+            {
+              "word": "excess capacity",
+              "pos": "phrase",
+              "meaning": "剩余产能/闲置产能；指企业现有资源超出实际需求的部分。科技语境下特指未被充分利用的算力或硬件资源。理解此概念是读懂「为何科技公司热衷出租自己基础设施」这一商业逻辑的关键",
+              "etymology": "excess来自拉丁语excessus（超出），由ex-（出）+ cedere（走/超越）构成，原指「越过边界」；capacity来自拉丁语capacitas，源自capere（容纳/抓住），原指「能容纳的量」；合指「超出可容纳量的那部分资源」",
+              "morphology": "excess：ex-（出）+ cess（走，源自cedere）→ 超出；派生词：excessive（过度的）、exceed（超过）、excess baggage（超重行李）。capacity：capere词根→ capable（有能力的）、capture（捕获）、capacitor（电容器）、incapable（无能力的）",
+              "mnemonic": "想象一个超大集装箱（capacity = 容量），里面只装了一半货物，空出来的位置就是「excess capacity」。Meta的GPU机房像装了一半的超大仓库，把空位「租」出去赚钱——这就是这篇新闻的核心商业逻辑",
+              "exampleEn": "After the construction boom slowed, many steel mills found themselves sitting on excess capacity that dragged down their profit margins.",
+              "exampleCn": "建设热潮退去后，许多钢铁厂发现自身背负大量闲置产能，严重拖累了利润率。"
+            },
+            {
+              "word": "cash in on",
+              "pos": "phrasal v.",
+              "meaning": "趁机从……中获利、将……变现；比「profit from」更口语化，带有「把握时机、主动出击」的行动感。商业新闻高频词，常描述公司或个人抢在窗口期关闭前将资产或机遇兑换成真实收益，隐含「时机稍纵即逝」的紧迫感",
+              "etymology": "cash源自法语caisse（钱箱）← 意大利语cassa ← 拉丁语capsa（盒子）；「cash in」原指赌场里「把筹码兑换成现金」，后引申为「将任何有价值的东西套现变现」；「on」指「借助某一机遇/趋势」",
+              "morphology": "cash（n./v.）+ in + on；cash系列短语：cash out（套现退出）、cash up（盘点现金）、cash-strapped（资金紧张的）、cashflow（现金流）；结构近似：capitalize on（利用……获益）、bank on（依赖/押注）",
+              "mnemonic": "想象赌场结束时你赢了一大堆筹码，走到收银台把筹码「换成现金」（cash in）。「cash in on AI」= 把AI这堆「筹码」兑成真金白银。Meta正把GPU算力这堆「筹码」拿到市场上兑现",
+              "exampleEn": "Several chipmakers are racing to cash in on the surge in demand for AI training hardware before competition intensifies.",
+              "exampleCn": "在竞争加剧之前，多家芯片制造商正竞相抢占AI训练硬件需求暴增所带来的商机。"
+            },
+            {
+              "word": "infrastructure",
+              "pos": "n.",
+              "meaning": "基础设施；科技/商业语境中特指支撑数字服务运行的底层硬件和软件系统（服务器、网络、数据中心等）。「cloud infrastructure」是云计算行业核心术语，理解它才能读懂AWS、Azure等公司的商业模式",
+              "etymology": "源自法语infrastructure（1875年），infra-来自拉丁语（意为「在……之下/基础层面」）+ structure来自拉丁语structura（建筑/构造）← struere（堆砌/建造）；字面意为「在上层建筑之下的基础结构」，20世纪中期才广泛用于非工程语境",
+              "morphology": "infra-（下方/低于，如infrared = 低于红光频率的红外线）+ struct-（建造）+ -ure（名词后缀）；struct-族词极为丰富：construct（建造）、destruct（破坏）、instruct（指导）、restructure（重组）、superstructure（上层建筑）；派生：infrastructural（adj.）",
+              "mnemonic": "infra = 「在下面」（infrared红外线 = 频率在红光之下）；把infrastructure拆成「infra + structure」= 「藏在地下的建筑」。云基础设施就像城市的地下管道和电网——用户看不见，但断掉了一切崩溃",
+              "exampleEn": "Building reliable cloud infrastructure requires massive upfront investment in data centers, networking equipment, and software tooling.",
+              "exampleCn": "建设可靠的云基础设施需要在数据中心、网络设备和软件工具上进行大规模前期投入。"
             }
           ]
         },
@@ -160,20 +200,60 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/servicenow-and-salesforce-shares-now-look-like-buys-as-armageddon-fears-are-too-extreme-analyst-says-3c3d8887?mod=mw_rss_topstories",
           "headlineEn": "ServiceNow and Salesforce shares now look like buys, as ‘Armageddon’ fears are too extreme, analyst says",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "A Guggenheim analyst says that valuations for the two software stocks are too depressed, even though the AI threat is real.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "A Guggenheim analyst says that valuations for the two software stocks are too depressed, even though the AI threat is real.",
+          "headlineCn": "分析师：AI恐慌过度，ServiceNow与Salesforce估值显现买入机会",
+          "summaryEn": "A Guggenheim analyst argues that market fears over AI disrupting ServiceNow and Salesforce have pushed their valuations to unjustifiably low levels. While AI does pose a genuine competitive threat to established software vendors, the analyst contends that current share prices already reflect far too much pessimism. Both stocks now represent attractive buying opportunities for investors willing to look past near-term anxiety about AI displacement.",
+          "summaryCn": "古根海姆分析师表示，市场对人工智能冲击ServiceNow和Salesforce的担忧已被过度放大，导致两家公司估值被压至不合理的低位。尽管AI确实对传统软件厂商构成真实的竞争威胁，但分析师认为目前股价已消化了过多的悲观预期。对于愿意忽略短期情绪波动的投资者而言，两只股票目前均呈现出具有吸引力的买入机会。",
+          "excerpt": "A Guggenheim analyst says fears of an AI-driven 'Armageddon' for ServiceNow and Salesforce are far too extreme. Even though the AI threat is real, current valuations are too depressed and both stocks now look like compelling buys.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司或资产价值的量化评估。财经分析核心词，常见搭配：stretched valuation（过高估值）、compressed valuation（被压缩的估值）、justify a valuation（支撑某估值水平）。读懂估值逻辑，才能看懂几乎所有的公司分析报告和投资建议。",
+              "etymology": "来自拉丁语 valere（强壮、有价值），经由中世纪法语 valuation 进入英语。词根 val- 原义为「强健有力、有价值」，后演变为「量化某物价值」的动作，最终名词化为对价值的正式评估结论。",
+              "morphology": "val-（词根：价值）+ -u-（过渡音）+ -ation（名词后缀，表示动作或结果）。同词根词：valid（有效的）、value（价值）、evaluate（评估）、devalue（贬值）。动词形式为 value，形容词为 valued 或 valuable。",
+              "mnemonic": "val 谐音「沃」，联想肥沃土地的价值。估值就是给「价值」贴数字标签的过程。记住：分析师说 valuation is depressed，不是在说「估值很沮丧」，而是在说「估值被压低了，便宜了」——这是买入信号！",
+              "exampleEn": "The startup's valuation surged to $10 billion after its latest funding round, despite having no profitable products yet.",
+              "exampleCn": "这家初创公司在最新一轮融资后估值飙升至100亿美元，尽管尚无盈利产品问世。"
+            },
+            {
+              "word": "depressed",
+              "pos": "adj.",
+              "meaning": "（金融语境）被压低的、低迷的；指价格或估值低于其应有的合理水平。切勿混淆日常语义「抑郁的」——在财经报道中，depressed prices / valuations 是纯粹的技术用语，表示「处于异常低位」，背后隐含「存在反弹空间」的判断，值得重点掌握。",
+              "etymology": "来自拉丁语 deprimere，由 de-（向下）+ premere（压、按）构成，字面义为「向下按压」。17世纪引入英语初指心情低落，19世纪经济学家借用此意象描述价格被「压制」在低位的市场状态，两种语义并行沿用至今。",
+              "morphology": "de-（向下、去除）+ press（压）+ -ed（过去分词形容词后缀）。同前缀词：deflate（通缩）、devalue（贬值）、decline（下跌）。派生词：depression（经济萧条／抑郁症）、depressing（令人沮丧的）、depressant（抑制剂）。",
+              "mnemonic": "de-（向下）+ pressed（被按压）。想象一根弹簧被手掌死死按住弹不起来——这就是 depressed valuation 的画面：估值被「按」在低位，里面憋着反弹的力量。分析师说「太 depressed 了」，潜台词是「该买了」。",
+              "exampleEn": "After months of relentless selling, the company's share price looked deeply depressed relative to its actual earnings power.",
+              "exampleCn": "经历数月持续抛售后，该公司股价相对于其实际盈利能力显得严重被低估。"
+            },
+            {
+              "word": "Armageddon",
+              "pos": "n.",
+              "meaning": "（商业／金融借用词）末日灾难、毁灭性崩溃。原为《圣经》专有名词，在商业新闻中常作「极端负面情景」的代名词，如 retail Armageddon（零售末日）、AI Armageddon（AI颠覆灾难）。注意首字母须大写。此词出现往往意味着悲观情绪已被高度渲染，反而可能是逆向买入信号。",
+              "etymology": "来自希伯来语 Har Megiddo（米吉多山），《启示录》记载天使在此召集各国军队进行终极之战。通过英语《圣经》译本广泛传播后，逐渐从宗教专有名词演变为世俗语境中泛指任何规模宏大的灾难性对决。",
+              "morphology": "专有名词，无可拆解的构词成分。其用法已从专有名词泛化为可数普通名词，常见搭配：face an Armageddon（面临末日）、avoid Armageddon（避免灾难）、Armageddon scenario（末日情景）、fear an Armageddon（对末日的担忧）。",
+              "mnemonic": "Arma-（联想 arms = 武器）+ geddon（联想 gone = 消失）。武器齐上、一切归零——这就是 Armageddon 的画面。在财经圈听到这个词，说明有人在用「灭世」来形容某个风险。本文的信号是：当媒体开始用 Armageddon，往往已经过度悲观。",
+              "exampleEn": "Investors feared an AI Armageddon for legacy software firms, but analysts argued the sell-off had far exceeded any rational risk assessment.",
+              "exampleCn": "投资者担忧传统软件公司将遭遇AI末日，但分析师认为这轮抛售已远远超出任何合理的风险评估。"
+            },
+            {
+              "word": "buy",
+              "pos": "n.",
+              "meaning": "（分析师评级语境）买入评级；华尔街研究报告中分析师给出的最高推荐级别。常见表达：look like a buy（看起来值得买入）、initiate with a buy（首次覆盖给予买入评级）、reiterate a buy（重申买入评级）。此处 buy 是名词而非动词，是读财经报道必须掌握的行业用法。",
+              "etymology": "来自古英语 bycgan（购买、获得），原义为「以某价格换取某物」。作为分析师评级的名词用法是20世纪华尔街的行业术语演化——将「推荐买入」这一动作名词化，意指「值得执行买入操作」的市场状态或分析师立场。",
+              "morphology": "简单单音节词，无前缀后缀。常见派生形式：buyer（买方）、buyout（杠杆收购）、buyback（股票回购）、buy-side（买方机构，对应 sell-side 卖方）。在评级体系中，buy > hold > sell 构成三档标准评级，部分机构使用 strong buy 作为最高档。",
+              "mnemonic": "记住华尔街评级三档口诀：B-H-S（Buy / Hold / Sell）从高到低。当分析师说「it's a buy」时，他在用名词，不是动词——意思是「这是一个买入机会」。把 buy 和 reiterate（重申）绑在一起背：reiterate a buy = 坚定维持看涨，这是最常见的研报表达之一。",
+              "exampleEn": "Following the sharp correction, the analyst reiterated his buy rating on the stock and lifted his price target by 20%.",
+              "exampleCn": "经历大幅回调后，该分析师重申对该股的买入评级，并将目标价上调了20%。"
+            },
+            {
+              "word": "incumbent",
+              "pos": "adj. / n.",
+              "meaning": "（商业语境）在位的、现有市场主导者；指当前占据市场份额的企业或产品。incumbent software vendors 即「现有软件巨头」。此词关键价值在于：它隐含「既有优势但面临挑战者威胁」的竞争格局，比 existing 或 current 多了一层「防守者」含义，是科技和商业文章描述行业颠覆时的高频词。",
+              "etymology": "来自拉丁语 incumbere（躺在……上面、占据），由 in-（在……上）+ cumbere（躺、卧）构成。原义为「俯身从事某职务」，后演变为「现任官员」，再借用至商业语境，指「稳稳占据市场位置的现有玩家」。",
+              "morphology": "in-（在内、向上）+ cumb-（词根：躺、倚）+ -ent（形容词后缀，表示正处于某状态）。同词根词：succumb（屈服，字面为「在……下倒下」）、recumbent（斜倚的）。名词与形容词同形：the incumbent（现任者）、an incumbent advantage（在位优势）。",
+              "mnemonic": "in-（在里面）+ cumb（谐音「坎」）+ ent。想象一个老大稳稳「坐在」宝座上，谁想动他都得过「坎」。这就是本文核心叙事：AI 挑战者 vs. incumbent software giants（在位软件巨头）。记住这个词，读任何行业颠覆的报道都能立刻抓住主角是谁。",
+              "exampleEn": "Incumbent cloud providers face mounting pressure from nimble AI-native startups that can undercut their pricing significantly.",
+              "exampleCn": "在位的云服务巨头正面临来自灵活的AI原生初创企业的日益沉重的压力，后者能以大幅更低的价格提供服务。"
             }
           ]
         },
@@ -183,20 +263,60 @@
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/07/01/bitcoins-summer-swoon-creates-unique-trade-in-strategy.html",
           "headlineEn": "Bitcoin's summer swoon creates unique trade in Strategy",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Outright shorting bitcoin or high-beta crypto equities after a steep decline carries immense tail risk.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Outright shorting bitcoin or high-beta crypto equities after a steep decline carries immense tail risk.",
+          "headlineCn": "比特币夏季暴跌为Strategy公司创造独特交易机会",
+          "summaryEn": "Bitcoin's sharp summer decline has created an unusual trading opportunity centered on Strategy, formerly MicroStrategy, which holds roughly 590,000 Bitcoin on its balance sheet. While traders might be tempted to short bitcoin or high-beta crypto equities after a steep drop, doing so outright carries immense tail risk — the danger that a sudden rebound could trigger catastrophic losses. Analysts suggest that asymmetric positioning strategies, rather than naked short bets, may offer better risk-adjusted returns in this environment.",
+          "summaryCn": "比特币遭遇夏季急剧下跌，为重仓持币的上市公司Strategy（前身为MicroStrategy）创造了独特的交易机会。该公司持有约59万枚比特币，股价与币价高度联动。尽管有交易者考虑在大幅下跌后直接做空比特币或高贝塔值加密货币股票，但这种策略面临巨大的「尾部风险」——一旦市场意外强劲反弹，裸空仓位可能遭受灾难性损失。分析人士认为，采用非对称定向策略比简单做空具有更优的风险收益比。",
+          "excerpt": "Outright shorting bitcoin or high-beta crypto equities after a steep decline carries immense tail risk. Bitcoin's summer swoon has created a unique trade in Strategy — the firm with one of the largest corporate bitcoin treasuries — where asymmetric positioning may offer more attractive risk-adjusted returns than a naked short.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "swoon",
+              "pos": "n. / v.",
+              "meaning": "（市场）骤然急挫、大幅下跌。比普通的 fall 或 drop 更具戏剧张力，暗示价格像晕厥般猝然滑落，常出现在财经标题中制造感官冲击，值得学因为它是新闻写作的高频隐喻词。",
+              "etymology": "源自古英语 swōgan（窒息、昏倒），原指人因极度悲伤或惊恐而失去意识；19世纪起被借用描述事物骤然崩落，20世纪进入财经语言，用于形容市场价格像人晕倒般急速下滑。",
+              "morphology": "简单词根，无前后缀可拆解；派生形式：swooning（现在分词/形容词）、swooned（过去式）。同语域近义词梯度：dip（小跌）→ slide（滑落）→ plunge（暴跌）→ swoon（戏剧性急挫），swoon 最具文学色彩。",
+              "mnemonic": "想象K线图上的价格像舞台上的女演员「晕倒」——头一歪，直线栽下去，这就是 swoon。与加密圈的「to the moon」（涨到月亮上）对比：moon 是飞升，swoon 是晕倒，一上一下，谐音还像「死亡」，强化记忆。",
+              "exampleEn": "The stock's dramatic swoon after the earnings miss wiped out nearly a year's worth of gains in a single session.",
+              "exampleCn": "业绩不及预期后，该股戏剧性的急挫在单个交易日内抹去了近一年的涨幅。"
+            },
+            {
+              "word": "high-beta",
+              "pos": "adj.",
+              "meaning": "高贝塔值的；指相较于大盘波动幅度更大的股票或资产。比笼统的 volatile（波动的）更精确、更专业，是量化股票风险敏感度的核心术语，掌握它才能准确理解机构报告中的风险描述。",
+              "etymology": "beta（β）取自希腊字母，是1960年代威廉·夏普在资本资产定价模型（CAPM）中引入的统计量，衡量个股相对于市场指数的系统性风险；high-beta 为复合形容词，描述 β 值显著大于1的资产。",
+              "morphology": "high（高）+ beta（贝塔系数，希腊字母 β）；对应词：low-beta（低波动防御型）、negative-beta（与市场负相关，如黄金）；延伸概念：beta-neutral（贝塔中性，对冲策略术语）。",
+              "mnemonic": "把 beta 想象成放大器的「增益旋钮」：旋钮拨到1是原声，拨到2（high-beta）是加倍放大——市场涨10%，高贝塔股涨20%；市场跌10%，它跌20%。高音量、高风险，一个画面全记住。",
+              "exampleEn": "High-beta semiconductor stocks tend to outperform in bull markets but suffer disproportionate losses when risk appetite evaporates.",
+              "exampleCn": "高贝塔值半导体股票在牛市中往往表现突出，但一旦市场风险偏好消退，跌幅也会不成比例地扩大。"
+            },
+            {
+              "word": "tail risk",
+              "pos": "phrase",
+              "meaning": "尾部风险；指统计分布「尾部」发生的极端不利事件——概率低但一旦发生损失极为惨烈。比笼统的 downside risk（下行风险）更具体、更极端，是风险管理领域最核心的概念，2008年后进入主流财经词汇。",
+              "etymology": "来自统计学中正态分布的「肥尾」（fat tail）概念；tail 指概率密度曲线两端的极端值区域；纳西姆·塔勒布在《黑天鹅》（2007年）普及了这一概念，使其从学术术语变为金融行业日常用语。",
+              "morphology": "tail（统计学意义上的「尾部」）+ risk（风险）；相关术语族：left-tail risk（下行极端风险）、fat tail（肥尾分布）、black swan（黑天鹅，特指极端尾部事件）、tail hedge（尾部风险对冲）。",
+              "mnemonic": "画一条正态分布曲线：中间大肚子是日常波动，两侧细细的「尾巴」（tail）藏着核弹级损失。做空比特币后遭遇尾部风险，就像踩到了藏在曲线角落里的隐形地雷——小概率，大爆炸。",
+              "exampleEn": "The portfolio manager bought out-of-the-money put options specifically to hedge against tail risk during the election season.",
+              "exampleCn": "该投资组合经理专门购买了价外看跌期权，以对冲大选季期间可能出现的尾部风险。"
+            },
+            {
+              "word": "outright",
+              "pos": "adv. / adj.",
+              "meaning": "完全地、直接地（不附带任何条件或对冲）。在交易语境中，outright short 特指「裸空仓」——无任何保护措施的纯粹做空，与有对冲的策略形成鲜明对比。掌握此词能精准理解机构报告中的仓位描述。",
+              "etymology": "源自中古英语 out + right（笔直向外），16世纪起使用，原义「立刻、毫无保留地」；在金融语境中演化出「不附带任何条件或对冲措施」的专业含义，与 naked（裸露的）在交易术语中有部分重叠。",
+              "morphology": "out-（向外、完全）+ right（直接）；副词形式：outrightly；近义辨析：outright（强调「无附加条件」）vs. naked（naked short，强调「无备兑资产保护」）vs. speculative（投机性的，更广泛）。",
+              "mnemonic": "「out + right = 直接冲出去」——不穿盔甲、不带盾牌，直接冲锋，就是 outright。做 outright short 就像赤手空拳上战场：没有期权保护，没有对冲垫底，一旦市场反向，全部亏损直接承担。",
+              "exampleEn": "Instead of using a spread to limit downside, the trader took an outright short position and was forced to cover when the stock unexpectedly surged.",
+              "exampleCn": "这位交易员没有用价差策略来控制下行风险，而是建立了裸空仓位，结果股价意外飙升，被迫平仓止损。"
+            },
+            {
+              "word": "steep",
+              "pos": "adj.",
+              "meaning": "（价格跌幅/涨幅）急剧的、大幅的。steep decline / drop / fall 是财经新闻描述价格骤降的标准搭配，比 sharp（突然的）更强调幅度之大，比 dramatic（戏剧性的）更客观中性，是新闻写作必备词。",
+              "etymology": "来自古英语 stēap（高耸、陡峭），原指地形坡度极大；15世纪起引申为「程度过大的、过分的」；在金融语境中形容价格变动的「坡度」极大，如悬崖般直线下跌，是地形隐喻的典型迁移。",
+              "morphology": "简单词根，无前后缀；派生词：steeply（副词，如「fell steeply」）、steepness（名词）；易混辨析：steep（幅度大）vs. sharp（速度快/突然）vs. severe（程度严重），三者均可修饰 decline，但语义侧重不同。",
+              "mnemonic": "想象一座陡峭（steep）的雪山斜坡，股价像雪球从顶端滚下——近乎垂直的下坠，速度越来越快。与「gentle slope」（温和坡道）对比：gentle decline 是缓慢回落，steep decline 是悬崖式暴跌，一陡一缓，画面清晰。",
+              "exampleEn": "Following a steep decline of over 35% in two months, contrarian investors began accumulating shares of the battered semiconductor company.",
+              "exampleCn": "在两个月内急剧下跌逾35%之后，逆向投资者开始逢低买入这家饱受打击的半导体公司股票。"
             }
           ]
         }
@@ -274,20 +394,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
           "headlineEn": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+          "headlineCn": "英伟达竞争对手Etched估值达50亿美元，AI推理芯片合同额破10亿",
+          "summaryEn": "Etched, a startup building chips exclusively for AI inference workloads, has reached a $5 billion valuation and secured $1 billion in contracts. Unlike Nvidia's general-purpose GPUs, Etched's chip is purpose-built for transformer-based inference, offering superior speed and efficiency for that specific task. The company's rapid commercial traction signals that enterprise buyers are increasingly willing to bet on specialized silicon over established vendors, marking a potential inflection in the AI hardware landscape.",
+          "summaryCn": "Etched是一家专注于AI推理芯片的初创公司，近日估值达50亿美元，并已签订价值10亿美元的合同订单。与英伟达通用GPU不同，Etched的芯片专为基于Transformer架构的推理任务而设计，在该细分领域具备更高的速度与能效优势。此次商业进展表明，企业买家正越来越愿意押注专用芯片，而非继续依赖老牌供应商，AI硬件市场格局或将迎来新变局。",
+          "excerpt": "Etched, an AI chip startup competing directly with Nvidia, says it has already booked $1 billion in contracts for inference systems powered by its custom chip. The announcement puts Etched's valuation at $5 billion, underscoring surging enterprise demand for specialized AI hardware beyond Nvidia's dominant GPU lineup.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "（公司）估值。指投资者对一家通常未上市公司的价值判断，常以「达到X估值」形式出现在融资新闻中。与stock price（股价）不同，valuation多用于VC融资谈判语境，是读懂科技投融资报道的必备词。",
+              "etymology": "来自拉丁语 valere（意为「有价值、强壮」），经由中世纪法语 valuation 进入英语。原义为对某物价值的系统估算，现专指企业在融资或并购场景下的评估价值。",
+              "morphology": "value（价值）+ -ation（名词后缀，表示行为或结果）→「评估价值的行为/结果」。同族词：evaluate（评估）、devalue（贬值）、overvalue（高估）、valuable（有价值的）。",
+              "mnemonic": "val- 联想「value（价值）」，-ation 表示动作结果——valuation 就是「给公司的价值打了个分」。投资者给 Etched「val了一个50亿的价」，这就是 valuation。",
+              "exampleEn": "The startup's latest funding round pushed its valuation to $10 billion, making it one of the most valuable AI companies in the world.",
+              "exampleCn": "该初创公司最新一轮融资将其估值推至100亿美元，成为全球最具价值的AI公司之一。"
+            },
+            {
+              "word": "book",
+              "pos": "v.",
+              "meaning": "（商业语境）正式签订并录入订单/合同。「book $1B in sales」意为将10亿美元的销售合同计入订单系统。与sign不同，book强调将交易落账至财务记录，是财报和商业报道中描述「签单落账」最地道的表达，区别于sign（签署）和close（成交）。",
+              "etymology": "来自古英语 bōc（书），最初指在账簿上记录条目。13世纪起用于商业记账，后引申为「预订/登记」，现广泛用于「预订机票/酒店/合同收入」等多种场景。",
+              "morphology": "基础词 book，无复杂词缀。核心派生词：booking（预订/订单量）、bookkeeper（记账员）、bookings（总预订额/订单总量）。",
+              "mnemonic": "想象古代账房先生把每笔交易「写进账本（book）」——book 作动词就是「把这笔生意写进书里」。Etched「booked $1B」，就是把10亿美元的合同写进了订单本。",
+              "exampleEn": "The cloud provider booked over $3 billion in new contracts during the quarter, far exceeding analyst expectations.",
+              "exampleCn": "该云服务商本季度新签合同超过30亿美元，远超分析师预期。"
+            },
+            {
+              "word": "upstart",
+              "pos": "n. / adj.",
+              "meaning": "新兴挑战者；指近年崛起、挑战行业巨头的新公司。带有「资历浅但来势凶猛」的语气，常见于科技报道（如「an upstart chipmaker」），比 competitor 多了「初出茅庐却野心勃勃」的色彩，是描述 Etched 这类公司的绝佳词。",
+              "etymology": "由 up（向上）+ start（启动/开始）合成，16世纪原指「突然暴发的人」（带贬义），后语义弱化，现多为中性或轻微褒义，强调「快速崛起、打破格局」。",
+              "morphology": "up-（向上）+ start（开始/起步）→「向上起步者」。类似构词：upscale（高端的）、upend（颠覆）、startup（初创企业，近义词，侧重「从零开始」而非「挑战者」身份）。",
+              "mnemonic": "「up（向上）+ start（起步）」——一家从零起步但拼命往上冲的公司。想象一个选手从起跑线突然跳起来冲向终点，这就是 upstart 的气势。与 startup 对比：startup 中性，upstart 带竞争挑战意味。",
+              "exampleEn": "The upstart chipmaker managed to win contracts from several major cloud providers, catching Nvidia off guard.",
+              "exampleCn": "这家新兴芯片公司成功拿下多家主要云服务商的合同，令英伟达措手不及。"
+            },
+            {
+              "word": "backlog",
+              "pos": "n.",
+              "meaning": "积压订单；已签约但尚未交付的订单总量。「$1B backlog」是科技和制造业财报中的核心指标，反映公司未来收入的可见性。容易与 inventory（库存，已有但未售出）混淆——backlog是「已承诺的未来收入」，对投资者更具参考价值，两者须区分。",
+              "etymology": "back（后面/积累）+ log（原木/记录）→ 最初指堆在后院待处理的木材，后引申为「积压待处理的工作或订单」。19世纪工业化时期进入商业语境，现为制造业和科技行业的标准财务术语。",
+              "morphology": "back-（后面/积累）+ log（记录/木头）→「堆积在后面的记录」。同族词：log（日志/记录）、catalog（目录）、dialog（对话）。注意与 lag（滞后）区分——backlog是名词，lag是动词或名词。",
+              "mnemonic": "想象仓库后门（back）堆满了木头（log）——那些已订购但还没送出去的货就是 backlog。Etched的10亿积压订单，就是一仓库还没交货的芯片。",
+              "exampleEn": "The semiconductor company reported a record $8 billion backlog, giving investors confidence in its revenue outlook for the next two years.",
+              "exampleCn": "该半导体公司报告了创纪录的80亿美元积压订单，令投资者对未来两年营收前景信心大增。"
+            },
+            {
+              "word": "inference",
+              "pos": "n.",
+              "meaning": "推理/推断；AI语境中特指「模型推断」——用训练好的模型处理新输入并生成输出的过程，区别于 training（训练，让模型学习权重）。Etched的芯片专为 inference 优化，这是AI应用落地的核心环节，也是当前AI芯片军备竞赛的主战场，是读懂AI产业新闻的必备词。",
+              "etymology": "来自拉丁语 inferre（「带入、引导出」），由 in-（进入）+ ferre（携带）构成。逻辑学中指「由前提推导结论」，AI时代引申为「由模型参数推导输出结果」。",
+              "morphology": "in-（进入）+ fer（拉丁词根，携带/带来）+ -ence（名词后缀）→「带入并得出结论」。同词根词：transfer（转移）、refer（参考）、confer（商议）、defer（推迟）——fer 族词群值得整批记忆。",
+              "mnemonic": "infer（推断）+ -ence = inference。记住「往里（in）拿（fer）答案」：把问题放进模型里，模型「拿出」答案，这就是 inference。对比 training：训练是让模型「学」，inference 是让模型「用」。",
+              "exampleEn": "Running inference on a large language model requires massive computing power, which is why specialized chips like Etched's are attracting serious enterprise interest.",
+              "exampleCn": "在大型语言模型上运行推理任务需要巨大算力，这正是为何像Etched这样的专用芯片正引发企业客户的高度关注。"
             }
           ]
         },
@@ -360,20 +520,60 @@
           "sourceName": "The Verge",
           "sourceUrl": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
           "headlineEn": "LG’s 27-inch Tandem OLED gaming monitor is cheaper than ever",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99 (originally $599.99). That’s a great deal considering this is one of LG’s Primary RGB Tandem panels built with fourth-generation WOLED [&#8230;]",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The price of LG’s UltraGear 27GX700A-B 1440p gaming monitor that came out last August has dropped to nearly its best price yet. You can grab it at Amazon for $484.99 or at LG for $499.99 (originally $599.99). That’s a great deal considering this is one of LG’s Primary RGB Tandem panels built with fo",
+          "headlineCn": "LG 27英寸叠层OLED游戏显示器跌至历史最低价附近",
+          "summaryEn": "LG's UltraGear 27GX700A-B, a 27-inch 1440p gaming monitor featuring fourth-generation Tandem OLED technology with Primary RGB panels, has dropped to $484.99 on Amazon—nearly its lowest price since launching last August at $599.99. The deal stands out because Tandem OLED stacks two OLED layers for significantly higher brightness without sacrificing the deep blacks OLED is known for, making this a strong value proposition in the high-end monitor market.",
+          "summaryCn": "LG UltraGear 27GX700A-B 是一款搭载第四代叠层OLED面板（Primary RGB Tandem）的27英寸1440p游戏显示器，自去年8月上市以来首次跌至484.99美元（亚马逊），接近历史最低价，较原价599.99美元降幅约19%。叠层OLED技术通过叠加两层OLED发光单元，在保留OLED深邃黑色的同时大幅提升亮度，此次降价使其在高端显示器市场的性价比更加突出。",
+          "excerpt": "The price of LG's UltraGear 27GX700A-B 1440p gaming monitor has dropped to nearly its best price yet. You can snag it at Amazon for $484.99—down from its original $599.99 launch price—making this one of the most affordable Tandem OLED monitors available right now.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "tandem",
+              "pos": "adj. / n.",
+              "meaning": "「串联的、叠层的；双人自行车」。科技报道中常见 in tandem（协同、同步推进），此处 Tandem OLED 指两层OLED叠加的屏幕架构。比 dual 更强调「前后纵向叠加」的结构感，是显示器与光伏行业的高频术语，值得掌握。",
+              "etymology": "源自拉丁语 tandem，原义为「终于、纵向延伸」，17世纪英语借用后指两匹马前后纵向套驾（而非并排）的马车，19世纪延伸至前后双座自行车，现代科技语境中引申为「串联叠加」的硬件架构。",
+              "morphology": "单音节借词，无前缀后缀。核心搭配：in tandem with（与……协同）、tandem architecture（串联架构）、tandem cell（叠层电池，光伏领域同义用法）。对比记忆：in tandem（纵向串联）vs. in parallel（横向并联），两词放在一起掌握事半功倍。",
+              "mnemonic": "想象一辆双人自行车（tandem bike）：前后两个座位叠在同一条直线上——Tandem OLED就是把两层OLED「前后叠」在一起。记住那辆自行车，叠层串联的画面就永远忘不了。",
+              "exampleEn": "The two chipmakers announced they would develop the next-generation processor in tandem, sharing both costs and intellectual property.",
+              "exampleCn": "这两家芯片制造商宣布将联合开发下一代处理器，共同分担成本与知识产权。"
+            },
+            {
+              "word": "slash",
+              "pos": "v. / n.",
+              "meaning": "「大幅削减（价格、成本、人员等）」。比 reduce、cut 语气猛烈得多，暗含「刀砍」般的激进幅度，适用于 slash prices / slash costs / slash headcount。财经媒体高频动词，能精准传递「断崖式下调」的情绪色彩，远比 lower 生动。",
+              "etymology": "源自古法语 esclachier（劈砍），约14世纪进入英语，最初指用刀斧猛力斜切，后引申为「大幅删减」。标点符号「/」的英文名称 slash 也由此而来，形似一刀斜切留下的痕迹。",
+              "morphology": "动词原形 slash，名词同形；派生词：slashed（adj.，如 slashed prices）、slasher（n.，砍价者）。近义动词梯度：trim（小幅修剪）→ cut（削减）→ slash（大砍）→ gut（掏空式削减），语气依次加强，新闻写作中选词要匹配降幅量级。",
+              "mnemonic": "斜线符号「/」英文就叫 slash——想象用这把斜刀在价格标签上划一刀，从$599直接划到$484，那个砍价动作就是 slash。看到「/」就想到「大幅削减」。",
+              "exampleEn": "To stay competitive ahead of the holiday season, the retailer slashed prices on its best-selling laptops by up to 30%.",
+              "exampleCn": "为在节日季前保持竞争力，该零售商将畅销笔记本电脑的价格最高下调了30%。"
+            },
+            {
+              "word": "snag",
+              "pos": "v. / n.",
+              "meaning": "动词义「趁机抢购到（好物）」；名词义「障碍、麻烦」。在消费科技报道中，snag a deal / snag it at Amazon 语气比 buy 口语化，带有「眼疾手快抓住」的紧迫感。读懂 The Verge、Wired 等英文科技媒体的必备词，两个截然不同的含义都高频，需要区分。",
+              "etymology": "约16世纪借自斯堪的纳维亚语（挪威语 snage，意为「钩子、突出的树桩」），原指水中隐藏的木桩使船只勾住停下，后引申为「勾住、抓住」，美式英语进一步演变为「顺手抢走、低价买到」。",
+              "morphology": "动词 snag，名词同形；无常见前缀后缀。近义词语域对比：snag（速度感强，强调机遇）vs. grab（通用）vs. score（俚语，带炫耀意味）vs. land（较正式，如 land a contract）。掌握这四个词的语域差异，写作和阅读都受益。",
+              "mnemonic": "想象一个钩子（snag原义）挂在特价标签上——你经过被「钩住」了，忍不住出手买走。这种「被好价格钩住、顺手抢到」的感觉，就是 snag 作为动词的精髓。",
+              "exampleEn": "Early adopters managed to snag the limited-edition smartwatch at launch before inventory sold out within hours.",
+              "exampleCn": "早期用户赶在库存数小时内售罄之前，抢在发布时购得了限量版智能手表。"
+            },
+            {
+              "word": "iteration",
+              "pos": "n.",
+              "meaning": "「迭代、版本更新」。科技和商业语境中指产品或技术的每一轮改进周期，「fourth-generation WOLED」正是第四次 iteration 的成果。比 version 更强调「循环改进的过程」，是理解硅谷产品文化（fail fast, iterate）的关键词，软件开发、硬件产品报道中均极高频。",
+              "etymology": "源自拉丁语 iteratio，由动词 iterare（重复做）派生，词根 iter 意为「行程、道路」，原义为「再走一遍」。15世纪进入英语，初用于修辞学（反复重申），现代语境中转指「每一轮改进循环」。",
+              "morphology": "iterate（v.）→ iteration（n.）→ iterative（adj.）；构词：iter-（道路/行程）+ -ation（名词后缀）。同词根词：itinerary（行程单，同源 iter）。编程中 iterate over a list（遍历列表）也是高频用法，三个场景共享同一词根，横向记忆效率高。",
+              "mnemonic": "iter 联想「一趟又一趟」——产品迭代就是工程师一遍遍「跑腿打磨」的过程。第四代WOLED就是跑了四趟的成果。每次 iteration 都是又一趟改进之旅。",
+              "exampleEn": "Each iteration of the software brought measurable improvements in processing speed, reducing latency by roughly 15% per release.",
+              "exampleCn": "该软件每次迭代都带来了可量化的处理速度提升，每个版本的延迟约降低15%。"
+            },
+            {
+              "word": "list price",
+              "pos": "n.",
+              "meaning": "「标牌价、官方定价」，即厂商公布的建议零售价，与实际成交的 street price（市场价）相对。文中「originally $599.99」就是 list price，亚马逊的$484.99则是 street price。理解这组对比是读懂消费品和电商报道的基础，商务谈判中也不可回避。",
+              "etymology": "list 取「价目清单」之义，源自古法语 liste（边界、清单），17世纪进入英语后逐渐发展出「列表定价」含义。list price 作为复合名词固定使用，是零售与会计领域的标准术语；美式商务中对应缩写 MSRP（Manufacturer's Suggested Retail Price）。",
+              "morphology": "复合名词：list（清单）+ price（价格）。相关价格词群：list price（官方标价）→ street price（市场实际价）→ floor price（底价）→ ceiling price（限价上限）→ going rate（行情价）。掌握这条价格词链，财经报道的价格描述可以全面覆盖。",
+              "mnemonic": "「List」就是清单——厂商印在产品目录清单上的价格就是 list price（挂牌价）。但消费者真正掏钱的，是走出清单、走上街头的 street price（市场价）。「清单 vs. 街头」，两个概念一张图搞定。",
+              "exampleEn": "The enterprise software suite carries a list price of $50,000 per year, but most customers negotiate discounts of 20 to 40 percent.",
+              "exampleCn": "该企业软件套件的官方标价为每年5万美元，但大多数客户会谈判获得20%至40%的折扣。"
             }
           ]
         },
@@ -1411,20 +1611,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
           "headlineEn": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building",
+          "headlineCn": "从OpenAI到SpaceX：科技巨头为何纷纷自研AI芯片",
+          "summaryEn": "For years, Nvidia has held near-total control over the AI chip market. But a growing list of tech giants—including OpenAI, Google, Apple, and SpaceX—are now developing proprietary chips to reduce dependence on a single supplier. OpenAI recently unveiled 'Jalapeño,' a custom inference chip co-designed with Broadcom. This shift toward custom silicon reflects a broader push for supply chain resilience and cost efficiency, signaling that Nvidia's grip on the market, while still formidable, may finally be loosening.",
+          "summaryCn": "多年来，英伟达几乎垄断了AI芯片市场，但这一局面正在改变。包括OpenAI、谷歌、苹果和SpaceX在内的科技巨头纷纷投入自研专属芯片，以降低对单一供应商的依赖风险。OpenAI近日披露了代号「Jalapeño」的定制推理芯片计划，由博通协助设计。这场向自研芯片的战略转型，折射出企业对供应链韧性与成本管控的迫切需求，也预示着英伟达对AI芯片市场的主导地位正面临前所未有的挑战。",
+          "excerpt": "Nvidia has dominated the AI chip market for years, but that era of total dependence may be ending. OpenAI's custom inference chip, codenamed Jalapeño and co-designed with Broadcom, joins a growing list of proprietary designs from Google, Apple, and SpaceX—all aimed at reducing single-supplier risk.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "vendor lock-in",
+              "pos": "n. phrase",
+              "meaning": "供应商锁定。指企业因深度依赖单一供应商的产品或技术，导致切换成本极高、难以转换的结构性困境。比「dependence」更精准地描述这种被动局面，是科技与采购领域的核心术语，财报和战略文件中高频出现。",
+              "etymology": "「vendor」源自拉丁语 vendere（出售）；「lock-in」为英语复合词，原指物理锁定；20世纪末商业语境中引申为「客户被绑定于某一供应商、难以脱身」的状态。",
+              "morphology": "vendor（供应商）+ lock（锁）+ in（困住）= 被供应商锁住。相关词：switching cost（转换成本，与此概念高度关联）、lock in（锁定，动词形式）、proprietary（专有的，锁定的常见原因）。",
+              "mnemonic": "想象供应商拿着钥匙把你「锁进」了合同的牢笼——想换人都走不了。英伟达对AI企业的吸引力正是这种锁定效应：换掉它的成本太高，这就是 vendor lock-in 的画面感。",
+              "exampleEn": "By adopting open standards early, the startup avoided vendor lock-in and retained the flexibility to switch cloud providers at any time.",
+              "exampleCn": "「通过早期采用开放标准，这家初创公司避免了供应商锁定，保留了随时更换云服务商的灵活性。」"
+            },
+            {
+              "word": "custom silicon",
+              "pos": "n. phrase",
+              "meaning": "自研芯片；定制芯片。「silicon」（硅）在此为转喻，以材料代指半导体芯片整体。「custom silicon」特指企业为特定用途自主设计的专属芯片，语气比「chip」更专业书面，是科技报道和财报中替代泛称「chip」的高频精准表达。",
+              "etymology": "「silicon」源自拉丁语 silex（燧石、硅石），因半导体材料以硅为主而转喻整个芯片行业；「custom」源自古法语 costume（习惯/惯例），后演变为「定制」含义。",
+              "morphology": "custom（定制的）+ silicon（硅→芯片，转喻）。同类转喻：Silicon Valley（硅谷，代指科技产业）。custom 派生词：customize（动词）、customization（名词）、customized（形容词）。",
+              "mnemonic": "硅（silicon）= 芯片的代名词，就像「钢铁」代表重工业。「custom silicon」= 你自己量身「定制」的芯片，不是买现货。苹果的 M 系列芯片就是教科书级别的 custom silicon。",
+              "exampleEn": "Developing custom silicon allows hyperscalers to optimize performance per watt and reduce dependence on third-party chip suppliers.",
+              "exampleCn": "「自研定制芯片使超大规模云服务商得以优化每瓦性能，同时降低对第三方芯片供应商的依赖。」"
+            },
+            {
+              "word": "diversify",
+              "pos": "v.",
+              "meaning": "（使）多元化；分散（风险）。商业语境中既指产品线多元化，也指供应链或投资组合的分散布局。此处特指「分散对单一芯片供应商的依赖」。比「spread risk」更正式，常见于财报、战略文件和商业报道，是买方分析师和 CFO 必用词。",
+              "etymology": "源自中世纪拉丁语 diversificare，由 diversus（不同的，来自 divertere 转向）+ facere（做）构成，原义为「使不同」，商业语境中演变为「分散布局/多元化经营」。",
+              "morphology": "di-（分开/两个方向）+ vers-（转向，来自拉丁语 vertere）+ -ify（使……化，动词后缀）= 使转向不同方向。同词根：divert（转移）、diverse（多样的）、diversity（多样性）、version（版本）。",
+              "mnemonic": "di-（两个方向）+ verse（诗有多行多样）→ diversify = 把鸡蛋放进多个篮子，让布局朝多方向延伸。科技巨头自研芯片，正是在 diversify 供应链，不把宝全押在英伟达身上。",
+              "exampleEn": "Apple has been quietly working to diversify its chip supply chain, reducing its exposure to any single foundry or chip designer.",
+              "exampleCn": "「苹果一直在悄然推进芯片供应链多元化，以降低对任何单一代工厂或芯片设计商的风险敞口。」"
+            },
+            {
+              "word": "turn up the heat",
+              "pos": "phrase",
+              "meaning": "向……施压；加剧竞争态势。字面义「调高温度」，引申为对竞争对手施加更大压力或令局势更加激烈。商业和体育报道中极常见的生动表达，比「increase pressure on」更口语、更有冲击力，常直接出现于新闻标题，此处正是指众多自研芯片的公司对英伟达形成围压。",
+              "etymology": "来自烹饪隐喻——对锅里食物「加大火力」，20世纪引申至商业竞争语境，表示让对手「感到烫手」、难以招架。短语/复合词，无独立词源。",
+              "morphology": "短语/复合词，无独立词源。相关搭配：feel the heat（感受到压力）、take the heat（承受批评）、heat up（局势升温）、in the hot seat（处于压力焦点）。",
+              "mnemonic": "把英伟达想象成锅里的食材，竞争对手们齐齐「拧大火旋钮」——turn up the heat。这条新闻的标题直接用了这个词，记住它，你就记住了整篇文章的核心动态。",
+              "exampleEn": "Chinese smartphone brands have turned up the heat on Apple by launching flagship devices at significantly more competitive price points.",
+              "exampleCn": "「中国智能手机品牌以更具竞争力的旗舰机定价向苹果施压，竞争愈演愈烈。」"
+            },
+            {
+              "word": "vertically integrate",
+              "pos": "phrasal v.",
+              "meaning": "垂直整合。指企业将供应链上下游环节纳入自身控制，减少对外部供应商的依赖，以降低成本或构建竞争壁垒。科技巨头自研芯片正是典型的垂直整合策略。比「do everything in-house」更精准正式，是财经报道与战略分析的核心术语。",
+              "etymology": "「vertical」源自拉丁语 verticalis（顶点的，来自 vertex 顶点）；「integrate」源自拉丁语 integrare（使完整，来自 integer 完整的）；垂直整合作为商业概念兴起于20世纪工业经济，描述企业沿产业链纵向扩张。",
+              "morphology": "vertical（垂直的）+ integrate（整合，来自 integer 完整）= 沿纵向把各环节整合成一体。同词根：integrity（完整性）、integer（整数）、integration（整合，名词）、disintegrate（瓦解）。",
+              "mnemonic": "想象一家公司在产业链「垂直」地从上到下全部自己包揽——从芯片到软件到终端，一条龙不假手于人。苹果自研 M 系列芯片就是最经典的 vertically integrate 案例，也正是本文所有主角正在做的事。",
+              "exampleEn": "Tesla's decision to vertically integrate battery production gave it a lasting cost and supply-chain advantage that rivals are still struggling to replicate.",
+              "exampleCn": "「特斯拉垂直整合电池生产的决策为其带来了持久的成本与供应链优势，竞争对手至今仍难以复制。」"
             }
           ]
         },
@@ -1434,20 +1674,60 @@
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
           "headlineEn": "It’s not about Anthropic vs. OpenAI anymore",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+          "headlineCn": "AI影响超越企业竞争，政治后果需要各方集体行动",
+          "summaryEn": "Artificial intelligence has advanced to a stage where its capabilities carry significant political weight, moving far beyond the corporate rivalry between Anthropic and OpenAI. As frontier models grow more powerful, their deployment raises national security, regulatory, and geopolitical concerns that no single company can resolve alone. Experts and policymakers increasingly argue that addressing these systemic challenges demands coordinated, collective action across governments, industries, and civil society.",
+          "summaryCn": "人工智能的能力已发展到具有真实政治影响力的阶段，议题已远超Anthropic与OpenAI之间的企业竞争。随着前沿模型日益强大，其部署引发的国家安全、监管与地缘政治问题，已非任何单一公司所能独力应对。专家和政策制定者越来越一致认为，解决这些系统性挑战需要政府、产业界与公民社会协调一致的集体行动。",
+          "excerpt": "AI models have progressed to the point where their capabilities carry real political consequences. The conversation has shifted well beyond which company builds the best model — it now demands coordinated responses from governments and institutions that no single tech firm can provide alone.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "transcend",
+              "pos": "v.",
+              "meaning": "超越（某种限制或范畴）。比 go beyond 更书面、更有力，常用于能力或概念突破既有边界的语境，尤其适合描述技术影响力从单一领域扩散至更广泛社会层面。与 exceed 对比：exceed 强调数量超过，transcend 强调质的飞跃。",
+              "etymology": "源自拉丁语 transcendere：trans-（越过）+ scandere（攀登）。字面义为「爬越过去」，后引申为突破界限、超越既有范畴，16世纪进入英语。",
+              "morphology": "trans-（越过）+ scend（攀登，源自拉丁 scandere）。同词根派生：ascend（上升）、descend（下降）、condescend（屈尊俯就）；同前缀词：transform（转变）、transmit（传输）、transparent（透明）。",
+              "mnemonic": "想象一个人「越过」(trans-)一座山「攀爬」(scend)——transcend 就是翻山越岭、跨越障碍。记住一个场景：AI 的影响力 transcended the boardroom（超越了董事会层面），蔓延到了国会山。",
+              "exampleEn": "The impact of generative AI has transcended the tech sector, reshaping industries from finance to healthcare.",
+              "exampleCn": "生成式AI的影响已超越科技行业本身，重塑了从金融到医疗保健的各个领域。"
+            },
+            {
+              "word": "collective action",
+              "pos": "phrase",
+              "meaning": "集体行动。政治学与经济学核心术语，指多方协调一致采取的共同行动，区别于个体独自应对，强调协调合力。AI治理、气候变化等领域高频词，体现「单打独斗无效、必须联合」的逻辑，是分析全球性问题的必备表达。",
+              "etymology": "短语/复合词，无独立词源。collective 来自拉丁 collectivus（聚集的），由 col-（共同）+ legere（收集）构成；action 来自拉丁 actio（行动），由 agere（驱动/行动）派生。",
+              "morphology": "collective：col-（共同）+ lect-（收集）+ -ive（形容词后缀），同词根：collect、selection、election；action：act-（行动）+ -ion（名词后缀），同族：react、enact、transaction。",
+              "mnemonic": "「collective」想成「大家一起 collect（收集）力量」，加上「action」就是众人拾柴火焰高。经典记忆锚点：气候变化是典型的 collective action problem——一国独力减排毫无意义，必须各方协力，AI 治理同理。",
+              "exampleEn": "Climate change and AI governance both require collective action, as no single nation or corporation can address them unilaterally.",
+              "exampleCn": "气候变化和AI治理都需要集体行动，因为任何单一国家或企业都无法单方面应对这些问题。"
+            },
+            {
+              "word": "accountability",
+              "pos": "n.",
+              "meaning": "问责制；可问责性。比 responsibility（主动承担义务）更强调外部监督和追责机制——有没有「必须向他人交代」的约束。AI治理、企业合规领域的核心词，二者不可混用：responsibility 是自我感，accountability 是他人能追你的责。",
+              "etymology": "源自古法语 aconter（计算、清算账目）→ account（账目）→ accountable（可被清算的）→ accountability。「清账」的隐喻引申为「给出解释并承担后果」，14世纪进入英语。",
+              "morphology": "account（账目）+ -able（能……的）+ -ity（名词后缀）。可进一步拆解：a-（向）+ count（计算）+ -ability。近义辨析：responsibility（自我义务感）vs. accountability（被外部追责的机制）。",
+              "mnemonic": "想象高管向董事会「交账」(account)——accountability 就是「账目算不算得清、能不能被追责」的属性。每次看到科技公司丑闻新闻，追问的都是 accountability：谁该负责，谁能被惩处？",
+              "exampleEn": "As AI systems gain more influence over critical decisions, the demand for corporate accountability in algorithm design has intensified.",
+              "exampleCn": "随着AI系统对关键决策的影响力日益增强，外界对企业在算法设计中问责机制的要求也愈加迫切。"
+            },
+            {
+              "word": "geopolitical",
+              "pos": "adj.",
+              "meaning": "地缘政治的。涉及地理因素与政治权力关系，科技新闻中常描述AI、芯片、数据等战略资源引发的大国博弈。比 political 更强调地理位置和国际权力结构，是分析中美科技竞争格局不可或缺的词，几乎每篇半导体或AI政策报道都会出现。",
+              "etymology": "希腊语 gē（地球/土地）+ polis（城邦/政治体）+ -ical（形容词后缀）。19世纪末政治学家 Rudolf Kjellén 首创 geopolitics，专指地理因素如何塑造国家战略，后成为国际关系学核心概念。",
+              "morphology": "geo-（地球，见 geography 地理学、geology 地质学、geothermal 地热的）+ polit-（城邦/政治，见 politics、policy、metropolitan 大都市的）+ -ical（形容词后缀）。三个词根均可横向扩展。",
+              "mnemonic": "geo = 地球（想想 Google Earth 的 geo 前缀）+ political = 政治 →「地球尺度的政治博弈」。每次看到 AI 芯片出口管制、数据跨境流通被叫停的新闻，背后驱动力都是 geopolitical 博弈，记住这个场景就记住了这个词。",
+              "exampleEn": "The race to dominate AI development has become a major geopolitical flashpoint between the United States and China.",
+              "exampleCn": "争夺AI发展主导权已成为中美之间一个重大的地缘政治引爆点。"
+            },
+            {
+              "word": "incumbent",
+              "pos": "adj. / n.",
+              "meaning": "（adj.）现任的；（n.）现任者、在位者、现有市场主导玩家。商业分析中与 challenger（挑战者）对应，是描述竞争格局的核心词汇。说 OpenAI 是 AI 领域的 incumbent，言简意赅，远比「老牌公司」更专业，且隐含「优势地位随时可能被颠覆」的张力。",
+              "etymology": "拉丁语 incumbere（躺在……上面、倚靠）：in-（在上）+ cumbere（躺/倚）。字面义「坐在位子上的人」，引申为「现任者」。15世纪进入英语，最初用于教职，后扩展至政治和商业领域。",
+              "morphology": "in-（在内/上面）+ cumb-（躺，同词根：recumbent 斜躺的、succumb 屈服倒下、encumber 阻碍「如重物压在上面」）+ -ent（形容词/名词后缀）。",
+              "mnemonic": "想象一个人「in（在）」自己的椅子上「cumb（躺着）」不肯走——这就是 incumbent，「赖在位子上的现任者」。科技圈常说：incumbents face disruption（现有巨头面临颠覆），记住这个搭配就够用了。",
+              "exampleEn": "As the AI market matures, incumbent players like OpenAI face growing pressure from well-funded challengers and open-source alternatives.",
+              "exampleCn": "随着AI市场日趋成熟，OpenAI等现有巨头面临来自资金充裕的挑战者和开源替代方案越来越大的竞争压力。"
             }
           ]
         },
@@ -1457,20 +1737,60 @@
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
           "headlineEn": "Jeremy Grantham says this is the most expensive market in 'American history'",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Jeremy Grantham says soaring valuations around AI makes the U.S. stock market historically expensive.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Jeremy Grantham says soaring valuations around AI makes the U.S. stock market historically expensive.",
+          "headlineCn": "格兰瑟姆警告：AI热潮将美股估值推至美国历史最高水平",
+          "summaryEn": "Legendary investor Jeremy Grantham, who correctly predicted both the dot-com crash and the 2008 financial crisis, warns that U.S. equities have reached their most expensive levels in American history. He attributes this extreme overvaluation to AI-driven euphoria, which has pushed stock valuations far beyond historical norms. Grantham argues that inflated AI expectations are creating a dangerous bubble, leaving markets highly exposed to a sharp correction that could rival previous historic downturns.",
+          "summaryCn": "以精准预判科网泡沫与2008年金融危机而闻名的传奇投资人杰里米·格兰瑟姆近日发出严厉警告：受人工智能热潮推波助澜，美国股市估值已升至有史以来最高水平。他认为，投资者对AI前景的过度乐观正在重演非理性繁荣的历史，当前股价已严重脱离基本面支撑，市场面临的剧烈回调风险，其幅度可能堪比历史上最惨重的几次市场崩溃。",
+          "excerpt": "\"This is the most expensive market in U.S. history,\" Grantham said, pointing to AI-inflated valuations as the primary driver. The veteran investor, who correctly called both the 2000 tech crash and the 2008 financial crisis, argues that current stock prices have dangerously disconnected from economic reality.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司或资产市场价值的量化评估。财经英语核心词，常见搭配有 stretched/elevated/rich valuation（估值偏高），比 value 更专业，专指「被市场赋予的价格」而非内在价值。读财报、看分析师报告时此词无处不在",
+              "etymology": "来自拉丁语 valere（有价值、有力量），经由法语进入英语，16世纪起用于商业语境，语义从「判断价值的行为」演变为「市场对资产的定价结果」",
+              "morphology": "value（词根，价值）+ -ation（名词后缀，表行为或结果）。同族词：evaluate（评估）、devalue（贬值）、undervalued（被低估的）、overvalued（被高估的）",
+              "mnemonic": "想象华尔街分析师每天用一把「价值秤」（value + ation）称量公司，秤出来的数字就是 valuation。秤盘越高，估值越贵——格兰瑟姆觉得现在的秤盘已快碰到天花板",
+              "exampleEn": "Tech stocks are trading at stretched valuations, with price-to-earnings ratios far above their historical averages.",
+              "exampleCn": "科技股估值严重偏高，市盈率远超历史均值。"
+            },
+            {
+              "word": "exuberance",
+              "pos": "n.",
+              "meaning": "（市场）过度乐观，非理性繁荣。源自美联储主席格林斯潘1996年名言「irrational exuberance」，在财经语境中专指投资者情绪过热、资产价格脱离基本面的状态，情绪色彩远比 optimism 强烈，一旦出现在市场评论中往往暗含泡沫警告",
+              "etymology": "来自拉丁语 exuberare（极度丰盛），由 ex-（超出）+ uber（丰饶）构成，原指土地超常丰收，后引申为情绪或市场的「过度充盈」",
+              "morphology": "ex-（超出）+ uber（丰饶）+ -ance（名词后缀）。派生词：exuberant（adj. 过度热情的）、exuberantly（adv.）；近义词：ebullience（沸腾般的热情）",
+              "mnemonic": "记住格林斯潘金句「irrational exuberance」——一头奶牛（uber=乳）产奶太多（ex-=超出限度），就像市场涨过了头，总要回落。把这头奶牛刻在脑子里，此词终生不忘",
+              "exampleEn": "The irrational exuberance surrounding AI startups has driven venture capital deals to record highs despite weak profitability.",
+              "exampleCn": "围绕AI初创企业的非理性狂热将风投交易额推至历史高点，尽管这些公司盈利能力依然薄弱。"
+            },
+            {
+              "word": "mean reversion",
+              "pos": "phrase",
+              "meaning": "均值回归，指资产价格或经济指标偏离长期均值后最终回归的规律。量化交易者与价值投资者的核心信念，隐含「物极必反」的市场哲学。读懂这个概念，才能理解格兰瑟姆等看空派「泡沫终将破灭」逻辑的理论基础",
+              "etymology": "短语/复合词，无独立词源。mean 来自拉丁语 medianus（中间的）；reversion 来自拉丁语 revertere（转回），合意为「回到中间值」",
+              "morphology": "mean（均值）+ reversion（回归，re-=再次 + vertere=转动）。相关词：revert（v. 恢复原状）、reverse（v./n. 反转）、convert（v. 转换）",
+              "mnemonic": "想象一根橡皮筋：无论拉得多远（市场泡沫），松手后总会弹回原位（mean）。格兰瑟姆就是拿着这根橡皮筋警告你：它现在被拉得太远了，快松手了",
+              "exampleEn": "Value investors rely on mean reversion to justify buying beaten-down stocks, betting that prices will eventually return to fair value.",
+              "exampleCn": "价值投资者依赖均值回归理论为买入被打压的股票提供依据，押注价格终将回归合理水平。"
+            },
+            {
+              "word": "perma-bear",
+              "pos": "n.",
+              "meaning": "永久看空派，指长期持续看空市场的投资人或分析师。「perma」是 permanent 的口语缩写，带有一定调侃意味，暗指其悲观立场可能先于事实而存在。格兰瑟姆、鲁比尼等人常被如此标签。掌握此词有助于批判性地评估市场警告的信源可靠性",
+              "etymology": "perma- 来自 permanent（永久的，源自拉丁语 permanere，per=贯穿 + manere=留存）；bear 作为金融术语指空头，源于熊爪向下拍击的动作，象征价格下行",
+              "morphology": "perma-（前缀，永久的，亦见于 permafrost 永冻土）+ bear（空头）。对立词：perma-bull（永久多头）；基础对立：bull market（牛市）vs bear market（熊市）",
+              "mnemonic": "Perma = permanent（永远），Bear = 熊（看空）。一只永远嗥叫「要崩！要跌！」的熊就是 perma-bear；对应还有 perma-bull（永远喊涨的牛）——遇到两者都要保持独立判断",
+              "exampleEn": "Labeled a perma-bear for years, the economist's latest warning about AI-driven overvaluation is once again dividing Wall Street.",
+              "exampleCn": "多年来被贴上「永久看空派」标签的这位经济学家，其最新关于AI泡沫的警告再度令华尔街意见分裂。"
+            },
+            {
+              "word": "capitulation",
+              "pos": "n.",
+              "meaning": "市场投降式抛售，指投资者在持续亏损后被迫大规模出售资产，通常标志着恐慌抛售的高潮，也常被视为市场见底信号。与普通 selloff 不同，capitulation 强调心理层面的「彻底放弃」，是技术分析师判断底部的重要观察指标",
+              "etymology": "来自拉丁语 capitulare（按条款谈判、投降），由 caput（头、章节）衍生。中世纪原指签订投降条款，金融语境借用「举白旗认输」的隐喻，指投资者放弃抵抗、割肉离场",
+              "morphology": "capit-（词根，头，来自 caput）+ -ul-（小词缀）+ -ation（名词后缀）。同根词：capital（资本/首都）、captain（队长）、decapitate（斩首）",
+              "mnemonic": "战败将军低下「头」（capit=头）举起白旗——这就是 capitulation。股市散户在最低点割肉认亏，正是向市场「低头投降」。低头（capit）认输，形象又准确",
+              "exampleEn": "Analysts are watching for signs of capitulation among retail investors before calling a definitive market bottom.",
+              "exampleCn": "分析师正在寻找散户出现投降式抛售的迹象，以此作为判断市场确认触底的依据。"
             }
           ]
         },
@@ -3017,20 +3337,60 @@
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549?mod=mw_rss_topstories",
           "headlineEn": "Micron’s earnings are a must-watch market event — with profit growth approaching 1,000%",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Micron’s massive growth is “coming at nearly pure profit,” and that’s starting to have real implications for the S&amp;P 500.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Micron’s massive growth is “coming at nearly pure profit,” and that’s starting to have real implications for the S&amp;P 500.",
+          "headlineCn": "美光财报成市场焦点：利润增速接近1000%，对标普500影响深远",
+          "summaryEn": "Micron Technology's upcoming earnings report is shaping up to be a landmark market event, with analysts forecasting nearly 1,000% year-over-year profit growth. Fueled by AI-driven demand for memory chips, the company's revenue surge is converting to profit at an exceptionally high rate — a sign of powerful operating leverage. The scale of this earnings growth is now beginning to affect Micron's weighting in the S&P 500, with real implications for the broader index's performance.",
+          "summaryCn": "美光科技即将发布的季度财报正受到市场广泛关注。分析师预计，受人工智能对内存芯片需求的强劲推动，美光净利润同比增速可能接近1000%。更引人注目的是，其营收增长几乎全部转化为利润，体现出极强的经营杠杆效应。如此规模的盈利爆发，已开始对标普500指数中美光的成分权重产生实质影响，并向更广泛的指数表现传导。",
+          "excerpt": "Micron's massive growth is coming at nearly pure profit — meaning almost every incremental dollar of revenue is falling directly to the bottom line. That kind of operating leverage, with profit growth approaching 1,000%, is starting to have real implications for the S&P 500.",
           "vocab": [
             {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
+              "word": "operating leverage",
+              "pos": "phrase",
+              "meaning": "经营杠杆。指固定成本相对稳定时，营收增长带来利润的放大效应。财报分析中的高频词，比「盈利能力」更精准地描述成本结构与利润弹性的关系，是理解「近乎纯利润增长」的核心概念",
+              "etymology": "leverage 源自古法语 levier（撬杆），再溯至拉丁语 levare（举起）。17世纪引入英语后先指物理杠杆，19世纪延伸为金融隐喻：用小力量撬动大成果。operating 源自拉丁语 operari（工作、运作）",
+              "morphology": "operat(e) 词根「运作」+ -ing 现在分词形式；lever 词根「杠杆」+ -age 名词后缀表「行为/状态」。同族词：financial leverage（财务杠杆）、leverage ratio（杠杆比率）、deleverage（去杠杆）",
+              "mnemonic": "想象一根撬杠：轻轻一压（营收微涨），另一端高高翘起（利润飞涨）。美光的案例就是教科书级别的撬杠效应——固定成本不动，利润就被放大了近10倍。记住：lever 就是撬杠，leverage 就是撬杠的力量",
+              "exampleEn": "The software company demonstrated strong operating leverage, with revenue rising 20% while operating profit jumped 60%.",
+              "exampleCn": "这家软件公司展现出强劲的经营杠杆效应：营收增长20%，但营业利润却跃升了60%。"
+            },
+            {
+              "word": "earnings",
+              "pos": "n. (pl.)",
+              "meaning": "（公司季度/年度）财报业绩，特指盈利数据及其发布事件。注意：日常英语中 earnings 可指个人薪资，但在财经语境中几乎专指「季报发布」这一市场事件，是华尔街最高频词之一，务必区分两种用法",
+              "etymology": "源自古英语 earnian（通过劳动获得、赚取），与德语 ernten（收获庄稼）同源。词义从「劳动所得」延伸至「企业经营所得」，进而演变为金融报告语境中的专业事件术语",
+              "morphology": "earn（赚取）+ -ings 名词化后缀，常用于表示「结果/产物」的词，如 savings（存款）、winnings（奖金）、proceedings（会议记录）。派生词：earner（赚钱者）、pre-earnings（财报前期）",
+              "mnemonic": "记住四个黄金搭配：earnings season（财报季）、earnings beat（超预期）、earnings call（财报电话会）、earnings per share（每股收益）。四个搭配一并记，读财经新闻再也不陌生",
+              "exampleEn": "Investors are bracing for Nvidia's earnings next week, with the consensus estimate pointing to a 120% surge in net income.",
+              "exampleCn": "投资者正为下周英伟达财报做好准备，市场一致预期净利润将大幅增长120%。"
+            },
+            {
+              "word": "index weighting",
+              "pos": "phrase",
+              "meaning": "指数权重，即某只股票在指数（如标普500）中所占的比例。权重越大，该股票的涨跌对指数影响越显著。理解这个词能帮你读懂「美光盈利爆发为何会牵动整个标普500」",
+              "etymology": "index 源自拉丁语 index（指示者、食指），由 indicare（指出）派生，17世纪引入英语；weight 源自古英语 wiht/gewiht（重量）。两词结合描述「在指数构成中所占的分量」",
+              "morphology": "index（拉丁词根 indic- 指向）+ weight（古英语词根）+ -ing 名词化。相关词：market-cap weighting（市值加权）、equal weighting（等权重）、rebalancing（指数再平衡）、constituent（成分股）",
+              "mnemonic": "把标普500想象成一锅汤，每只成分股是一种食材。美光利润暴涨→市值暴涨→这种食材分量变重了→整锅汤的味道都变了。这就是 index weighting 的影响力，权重越大，「调味」能力越强",
+              "exampleEn": "Apple's index weighting in the S&P 500 has grown so large that a single bad earnings day can drag the entire index lower.",
+              "exampleCn": "苹果在标普500中的指数权重已大到这种程度：哪怕只是一天的财报表现不佳，就能拖累整个指数下跌。"
+            },
+            {
+              "word": "must-watch",
+              "pos": "adj.",
+              "meaning": "不可错过的、必须密切关注的（复合形容词）。在金融媒体中形容某个财报或市场事件重要到足以主导市场走向，比 important 更有画面感和紧迫感。掌握「must + 动词」这类复合形容词能大幅提升标题阅读能力",
+              "etymology": "must 源自古英语 moste（情态动词 motan 的过去式，意为「被允许或必须」），属于情态动词中最古老的词形之一；watch 源自古英语 wæccan（保持清醒、守夜）。合用强调「义务性关注」",
+              "morphology": "must（情态助动词）+ watch（动词）= must-watch（复合形容词，用连字符连接）。同类构词：must-read（必读）、must-have（必备）、must-own（必持）——这是财经与科技媒体标题的典型句式",
+              "mnemonic": "把 must-watch 想象成「红色预警」级别：不是 should-watch（建议看），不是 could-watch（可以看），是 MUST-watch（必须看）。用在财报身上，意味着「这份数字会让整个市场动起来，你不看就会错过行情」",
+              "exampleEn": "Tesla's quarterly delivery report has become a must-watch event for both equity traders and macro analysts worldwide.",
+              "exampleCn": "特斯拉的季度交付报告已成为全球股票交易员和宏观分析师都不可错过的必看事件。"
+            },
+            {
+              "word": "consensus estimate",
+              "pos": "phrase",
+              "meaning": "（华尔街）一致预期，即多家机构分析师预测数据的平均值或中位数。财报季最核心的参照系——实际业绩「超预期」还是「不及预期」，都是相对于 consensus estimate 而言，而非绝对数字的好坏",
+              "etymology": "consensus 源自拉丁语 consentire（共同感受、达成一致），由 con-（共同）+ sentire（感受）构成，17世纪进入英语；estimate 源自拉丁语 aestimare（估价、评估），与 esteem（尊重）同根同源",
+              "morphology": "con-（前缀，共同）+ sens-（词根，感受，来自 sentire）+ -us 拉丁名词结尾；estim-（词根，估值）+ -ate 动词/名词后缀。同族词：consent（同意）、dissent（异议）、estimation（评估）、overestimate（高估）",
+              "mnemonic": "想象华尔街100位分析师各自预测美光的利润，然后取平均值——这个平均值就是 consensus estimate（众人共识）。若实际利润超过这个平均，就叫「beat the consensus」，股价通常立刻飞涨",
+              "exampleEn": "Micron's actual earnings per share came in 15% above the consensus estimate, triggering a sharp rally in after-hours trading.",
+              "exampleCn": "美光实际每股收益比市场一致预期高出15%，引发盘后交易价格急剧上涨。"
             }
           ]
         },
