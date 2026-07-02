@@ -2,11 +2,11 @@
   "lastUpdated": "2026-07-02T02:15:51.556748+00:00",
   "level": "B2",
   "days": {
-    "2026-07-01": {
-      "label": "7月1日 (周三)",
+    "2026-07-02": {
+      "label": "7月2日 (周四)",
       "stories": [
         {
-          "id": "20260701-1",
+          "id": "20260702-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "id": "20260701-2",
+          "id": "20260702-2",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/07/01/palantir-karp-open-ai-anthropic-tokens.html",
@@ -132,7 +132,7 @@
           ]
         },
         {
-          "id": "20260701-3",
+          "id": "20260702-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
@@ -195,7 +195,7 @@
           ]
         },
         {
-          "id": "20260701-4",
+          "id": "20260702-4",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/servicenow-and-salesforce-shares-now-look-like-buys-as-armageddon-fears-are-too-extreme-analyst-says-3c3d8887?mod=mw_rss_topstories",
@@ -258,7 +258,7 @@
           ]
         },
         {
-          "id": "20260701-5",
+          "id": "20260702-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/07/01/bitcoins-summer-swoon-creates-unique-trade-in-strategy.html",
@@ -322,11 +322,11 @@
         }
       ]
     },
-    "2026-06-30": {
-      "label": "6月30日 (周二)",
+    "2026-07-01": {
+      "label": "7月1日 (周三)",
       "stories": [
         {
-          "id": "20260630-1",
+          "id": "20260701-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/30/white-house-ai-china-crackdown.html",
@@ -389,7 +389,7 @@
           ]
         },
         {
-          "id": "20260630-2",
+          "id": "20260701-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
@@ -452,7 +452,7 @@
           ]
         },
         {
-          "id": "20260630-3",
+          "id": "20260701-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
@@ -515,7 +515,7 @@
           ]
         },
         {
-          "id": "20260630-4",
+          "id": "20260701-4",
           "category": "biz",
           "sourceName": "The Verge",
           "sourceUrl": "https://www.theverge.com/gadgets/906880/lg-ultragear-tandem-oled-1440p-gaming-monitor-deal-sale",
@@ -578,7 +578,7 @@
           ]
         },
         {
-          "id": "20260630-5",
+          "id": "20260701-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/30/cleveland-fed-president-hammack-sees-ai-fueling-inflation-says-rate-hikes-may-be-necessary.html",
@@ -642,11 +642,11 @@
         }
       ]
     },
-    "2026-06-29": {
-      "label": "6月29日 (周一)",
+    "2026-06-30": {
+      "label": "6月30日 (周二)",
       "stories": [
         {
-          "id": "20260629-1",
+          "id": "20260630-1",
           "category": "tech",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/this-robot-is-going-to-replace-your-interns-flexion/",
@@ -709,7 +709,7 @@
           ]
         },
         {
-          "id": "20260629-2",
+          "id": "20260630-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
@@ -772,7 +772,7 @@
           ]
         },
         {
-          "id": "20260629-3",
+          "id": "20260630-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/",
@@ -835,7 +835,7 @@
           ]
         },
         {
-          "id": "20260629-4",
+          "id": "20260630-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/29/trump-axon-stock-ice-taser-immigration-enforcement.html",
@@ -898,7 +898,7 @@
           ]
         },
         {
-          "id": "20260629-5",
+          "id": "20260630-5",
           "category": "econ",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/b4c27cf9-f1f6-4709-b2b0-7c6df47531b1",
@@ -962,11 +962,11 @@
         }
       ]
     },
-    "2026-06-28": {
-      "label": "6月28日 (周日)",
+    "2026-06-29": {
+      "label": "6月29日 (周一)",
       "stories": [
         {
-          "id": "20260628-1",
+          "id": "20260629-1",
           "category": "tech",
           "sourceName": "The Verge",
           "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
@@ -1029,7 +1029,7 @@
           ]
         },
         {
-          "id": "20260628-2",
+          "id": "20260629-2",
           "category": "tech",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378",
@@ -1092,7 +1092,7 @@
           ]
         },
         {
-          "id": "20260628-3",
+          "id": "20260629-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/28/top-analysts-bullish-on-these-stocks-for-long-term-growth-potential.html",
@@ -1155,7 +1155,7 @@
           ]
         },
         {
-          "id": "20260628-4",
+          "id": "20260629-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/27/berkshire-ceo-greg-abel-sworn-in-as-us-citizen-at-baseball-game.html",
@@ -1218,7 +1218,7 @@
           ]
         },
         {
-          "id": "20260628-5",
+          "id": "20260629-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/27/trading-in-these-two-etfs-suggests-inflation-fears-are-overblown.html",
@@ -1282,11 +1282,11 @@
         }
       ]
     },
-    "2026-06-27": {
-      "label": "6月27日 (周六)",
+    "2026-06-28": {
+      "label": "6月28日 (周日)",
       "stories": [
         {
-          "id": "20260627-1",
+          "id": "20260628-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
@@ -1349,7 +1349,7 @@
           ]
         },
         {
-          "id": "20260627-2",
+          "id": "20260628-2",
           "category": "tech",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/openai-gpt-56-model-release-trump-admin-approval/",
@@ -1412,7 +1412,7 @@
           ]
         },
         {
-          "id": "20260627-3",
+          "id": "20260628-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/27/spacex-jobs-stem-careers-labor-economy.html",
@@ -1475,7 +1475,7 @@
           ]
         },
         {
-          "id": "20260627-4",
+          "id": "20260628-4",
           "category": "biz",
           "sourceName": "Ars Technica",
           "sourceUrl": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
@@ -1538,7 +1538,7 @@
           ]
         },
         {
-          "id": "20260627-5",
+          "id": "20260628-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/27/inflation-as-major-reason-to-invest-in-global-bond-markets.html",
@@ -1602,11 +1602,11 @@
         }
       ]
     },
-    "2026-06-26": {
-      "label": "6月26日 (周五)",
+    "2026-06-27": {
+      "label": "6月27日 (周六)",
       "stories": [
         {
-          "id": "20260626-1",
+          "id": "20260627-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
@@ -1669,7 +1669,7 @@
           ]
         },
         {
-          "id": "20260626-2",
+          "id": "20260627-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
@@ -1732,7 +1732,7 @@
           ]
         },
         {
-          "id": "20260626-3",
+          "id": "20260627-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/26/jeremy-grantham-says-this-is-the-most-expensive-market-in-american-history.html",
@@ -1795,7 +1795,7 @@
           ]
         },
         {
-          "id": "20260626-4",
+          "id": "20260627-4",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/spacex-is-a-bad-buy-why-openai-and-anthropic-will-be-too-2448ea73?mod=mw_rss_topstories",
@@ -1858,7 +1858,7 @@
           ]
         },
         {
-          "id": "20260626-5",
+          "id": "20260627-5",
           "category": "econ",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/bond-yields-are-falling-as-inflation-pops-the-feds-tough-talk-under-warsh-is-helping-7d538b3b?mod=mw_rss_topstories",
@@ -1922,11 +1922,11 @@
         }
       ]
     },
-    "2026-06-25": {
-      "label": "6月25日 (周四)",
+    "2026-06-26": {
+      "label": "6月26日 (周五)",
       "stories": [
         {
-          "id": "20260625-1",
+          "id": "20260626-1",
           "category": "tech",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/8c02de04-5516-405b-941d-289e586d8eb8",
@@ -1989,7 +1989,7 @@
           ]
         },
         {
-          "id": "20260625-2",
+          "id": "20260626-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
@@ -2052,7 +2052,7 @@
           ]
         },
         {
-          "id": "20260625-3",
+          "id": "20260626-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/25/gm-gmc-sierra-pickup.html",
@@ -2115,7 +2115,7 @@
           ]
         },
         {
-          "id": "20260625-4",
+          "id": "20260626-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/25/chan-zuckerberg-biohub-rare-disease-funding.html",
@@ -2178,7 +2178,7 @@
           ]
         },
         {
-          "id": "20260625-5",
+          "id": "20260626-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/25/chicago-fed-president-goolsbee-says-inflation-is-too-high-calls-warsh-a-serious-guy.html",
@@ -2242,11 +2242,11 @@
         }
       ]
     },
-    "2026-06-24": {
-      "label": "6月24日 (周三)",
+    "2026-06-25": {
+      "label": "6月25日 (周四)",
       "stories": [
         {
-          "id": "20260624-1",
+          "id": "20260625-1",
           "category": "tech",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/broadcom-unveils-a-custom-chip-for-openai-as-it-challenges-nvidias-dominance-b9b17dd1?mod=mw_rss_topstories",
@@ -2309,7 +2309,7 @@
           ]
         },
         {
-          "id": "20260624-2",
+          "id": "20260625-2",
           "category": "tech",
           "sourceName": "The Verge",
           "sourceUrl": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
@@ -2372,7 +2372,7 @@
           ]
         },
         {
-          "id": "20260624-3",
+          "id": "20260625-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
@@ -2435,7 +2435,7 @@
           ]
         },
         {
-          "id": "20260624-4",
+          "id": "20260625-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
@@ -2498,7 +2498,7 @@
           ]
         },
         {
-          "id": "20260624-5",
+          "id": "20260625-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/24/treasury-secretary-bessent-says-us-gdp-growth-can-return-to-3percent-before-end-of-the-year.html",
@@ -2562,11 +2562,11 @@
         }
       ]
     },
-    "2026-06-23": {
-      "label": "6月23日 (周二)",
+    "2026-06-24": {
+      "label": "6月24日 (周三)",
       "stories": [
         {
-          "id": "20260623-1",
+          "id": "20260624-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
@@ -2629,7 +2629,7 @@
           ]
         },
         {
-          "id": "20260623-2",
+          "id": "20260624-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
@@ -2692,7 +2692,7 @@
           ]
         },
         {
-          "id": "20260623-3",
+          "id": "20260624-3",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/cerebras-delivers-its-first-earnings-report-but-its-not-enough-to-lift-the-stock-8e80cb6d?mod=mw_rss_topstories",
@@ -2755,7 +2755,7 @@
           ]
         },
         {
-          "id": "20260623-4",
+          "id": "20260624-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/23/social-security-reform-cassidy.html",
@@ -2818,7 +2818,7 @@
           ]
         },
         {
-          "id": "20260623-5",
+          "id": "20260624-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/23/fed-warsh-atlanta-michael-faulkender.html",
@@ -2882,11 +2882,11 @@
         }
       ]
     },
-    "2026-06-22": {
-      "label": "6月22日 (周一)",
+    "2026-06-23": {
+      "label": "6月23日 (周二)",
       "stories": [
         {
-          "id": "20260622-1",
+          "id": "20260623-1",
           "category": "tech",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
@@ -2949,7 +2949,7 @@
           ]
         },
         {
-          "id": "20260622-2",
+          "id": "20260623-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
@@ -3012,7 +3012,7 @@
           ]
         },
         {
-          "id": "20260622-3",
+          "id": "20260623-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html",
@@ -3075,7 +3075,7 @@
           ]
         },
         {
-          "id": "20260622-4",
+          "id": "20260623-4",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/microns-stock-momentum-builds-as-the-company-inks-a-new-anthropic-partnership-484e3845?mod=mw_rss_topstories",
@@ -3138,7 +3138,7 @@
           ]
         },
         {
-          "id": "20260622-5",
+          "id": "20260623-5",
           "category": "econ",
           "sourceName": "BBC Business",
           "sourceUrl": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
@@ -3202,11 +3202,11 @@
         }
       ]
     },
-    "2026-06-21": {
-      "label": "6月21日 (周日)",
+    "2026-06-22": {
+      "label": "6月22日 (周一)",
       "stories": [
         {
-          "id": "20260621-1",
+          "id": "20260622-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
@@ -3269,7 +3269,7 @@
           ]
         },
         {
-          "id": "20260621-2",
+          "id": "20260622-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
@@ -3332,7 +3332,7 @@
           ]
         },
         {
-          "id": "20260621-3",
+          "id": "20260622-3",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549?mod=mw_rss_topstories",
@@ -3395,7 +3395,7 @@
           ]
         },
         {
-          "id": "20260621-4",
+          "id": "20260622-4",
           "category": "biz",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe",
@@ -3458,7 +3458,7 @@
           ]
         },
         {
-          "id": "20260621-5",
+          "id": "20260622-5",
           "category": "econ",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/6a9330ad-a2db-494b-bf61-7dd417ab9c9a",
@@ -3522,11 +3522,11 @@
         }
       ]
     },
-    "2026-06-20": {
-      "label": "6月20日 (周六)",
+    "2026-06-21": {
+      "label": "6月21日 (周日)",
       "stories": [
         {
-          "id": "20260620-1",
+          "id": "20260621-1",
           "category": "tech",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/16ace46c-aeac-40c9-8598-3c01fa4481cb",
@@ -3589,7 +3589,7 @@
           ]
         },
         {
-          "id": "20260620-2",
+          "id": "20260621-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
@@ -3652,7 +3652,7 @@
           ]
         },
         {
-          "id": "20260620-3",
+          "id": "20260621-3",
           "category": "biz",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/early-prime-day-deals-june-2026-2/",
@@ -3715,7 +3715,7 @@
           ]
         },
         {
-          "id": "20260620-4",
+          "id": "20260621-4",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/im-73-and-living-100-off-dividends-from-my-stocks-how-can-i-create-even-more-income-74b372f1?mod=mw_rss_topstories",
@@ -3778,7 +3778,7 @@
           ]
         },
         {
-          "id": "20260620-5",
+          "id": "20260621-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/20/south-korea-tech-samsung-sk-hynix-bonus-bank-of-korea.html",
@@ -3842,11 +3842,11 @@
         }
       ]
     },
-    "2026-06-19": {
-      "label": "6月19日 (周五)",
+    "2026-06-20": {
+      "label": "6月20日 (周六)",
       "stories": [
         {
-          "id": "20260619-1",
+          "id": "20260620-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
@@ -3909,7 +3909,7 @@
           ]
         },
         {
-          "id": "20260619-2",
+          "id": "20260620-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
@@ -3972,7 +3972,7 @@
           ]
         },
         {
-          "id": "20260619-3",
+          "id": "20260620-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/19/spacex-stock-risk-buy-sell.html",
@@ -4035,7 +4035,7 @@
           ]
         },
         {
-          "id": "20260619-4",
+          "id": "20260620-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/19/fedspeak-vs-war-deal-here-are-the-things-that-drove-this-weeks-stock-market.html",
@@ -4098,7 +4098,7 @@
           ]
         },
         {
-          "id": "20260619-5",
+          "id": "20260620-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/18/markets-are-set-for-a-much-more-hawkish-warsh-fed-than-expected.html",
@@ -4162,11 +4162,11 @@
         }
       ]
     },
-    "2026-06-18": {
-      "label": "6月18日 (周四)",
+    "2026-06-19": {
+      "label": "6月19日 (周五)",
       "stories": [
         {
-          "id": "20260618-1",
+          "id": "20260619-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
@@ -4229,7 +4229,7 @@
           ]
         },
         {
-          "id": "20260618-2",
+          "id": "20260619-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
@@ -4292,7 +4292,7 @@
           ]
         },
         {
-          "id": "20260618-3",
+          "id": "20260619-3",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/two-big-reasons-accentures-stock-is-sliding-in-the-wake-of-earnings-9353b184?mod=mw_rss_topstories",
@@ -4355,7 +4355,7 @@
           ]
         },
         {
-          "id": "20260618-4",
+          "id": "20260619-4",
           "category": "biz",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/8b73b4ce-3855-4b89-9110-3d892567f28a",
@@ -4418,7 +4418,7 @@
           ]
         },
         {
-          "id": "20260618-5",
+          "id": "20260619-5",
           "category": "econ",
           "sourceName": "BBC Business",
           "sourceUrl": "https://www.bbc.com/news/articles/cdjkl78vd7lo?at_medium=RSS&at_campaign=rss",
@@ -4482,11 +4482,11 @@
         }
       ]
     },
-    "2026-06-17": {
-      "label": "6月17日 (周三)",
+    "2026-06-18": {
+      "label": "6月18日 (周四)",
       "stories": [
         {
-          "id": "20260617-1",
+          "id": "20260618-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/17/amazon-quantum-computing-timeline.html",
@@ -4549,7 +4549,7 @@
           ]
         },
         {
-          "id": "20260617-2",
+          "id": "20260618-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
@@ -4612,7 +4612,7 @@
           ]
         },
         {
-          "id": "20260617-3",
+          "id": "20260618-3",
           "category": "biz",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/the-motley-fool-promo-code/",
@@ -4675,7 +4675,7 @@
           ]
         },
         {
-          "id": "20260617-4",
+          "id": "20260618-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/17/allbirds-bird-ai-smartbird-ceo.html",
@@ -4738,7 +4738,7 @@
           ]
         },
         {
-          "id": "20260617-5",
+          "id": "20260618-5",
           "category": "econ",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/warsh-launches-his-push-to-change-how-the-fed-operates-3ddd9b90?mod=mw_rss_topstories",
@@ -4802,11 +4802,11 @@
         }
       ]
     },
-    "2026-06-16": {
-      "label": "6月16日 (周二)",
+    "2026-06-17": {
+      "label": "6月17日 (周三)",
       "stories": [
         {
-          "id": "20260616-1",
+          "id": "20260617-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
@@ -4869,7 +4869,7 @@
           ]
         },
         {
-          "id": "20260616-2",
+          "id": "20260617-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
@@ -4932,7 +4932,7 @@
           ]
         },
         {
-          "id": "20260616-3",
+          "id": "20260617-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
@@ -4995,7 +4995,7 @@
           ]
         },
         {
-          "id": "20260616-4",
+          "id": "20260617-4",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
@@ -5058,7 +5058,7 @@
           ]
         },
         {
-          "id": "20260616-5",
+          "id": "20260617-5",
           "category": "econ",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/ee4e7722-5488-4c22-ae04-fce60440c28c",
@@ -5122,11 +5122,11 @@
         }
       ]
     },
-    "2026-06-15": {
-      "label": "6月15日 (周一)",
+    "2026-06-16": {
+      "label": "6月16日 (周二)",
       "stories": [
         {
-          "id": "20260615-1",
+          "id": "20260616-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
@@ -5189,7 +5189,7 @@
           ]
         },
         {
-          "id": "20260615-2",
+          "id": "20260616-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
@@ -5252,7 +5252,7 @@
           ]
         },
         {
-          "id": "20260615-3",
+          "id": "20260616-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
@@ -5315,7 +5315,7 @@
           ]
         },
         {
-          "id": "20260615-4",
+          "id": "20260616-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/15/oil-tumbles-on-us-iran-deal-framework-how-one-trader-is-playing-the-move.html",
@@ -5378,7 +5378,7 @@
           ]
         },
         {
-          "id": "20260615-5",
+          "id": "20260616-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/15/treasury-yields-peace-deal-investor-fears-interest-rates.html",
@@ -5442,11 +5442,11 @@
         }
       ]
     },
-    "2026-06-14": {
-      "label": "6月14日 (周日)",
+    "2026-06-15": {
+      "label": "6月15日 (周一)",
       "stories": [
         {
-          "id": "20260614-1",
+          "id": "20260615-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
@@ -5509,7 +5509,7 @@
           ]
         },
         {
-          "id": "20260614-2",
+          "id": "20260615-2",
           "category": "tech",
           "sourceName": "The Verge",
           "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
@@ -5572,7 +5572,7 @@
           ]
         },
         {
-          "id": "20260614-3",
+          "id": "20260615-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
@@ -5635,7 +5635,7 @@
           ]
         },
         {
-          "id": "20260614-4",
+          "id": "20260615-4",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
@@ -5698,7 +5698,7 @@
           ]
         },
         {
-          "id": "20260614-5",
+          "id": "20260615-5",
           "category": "econ",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
@@ -5762,11 +5762,11 @@
         }
       ]
     },
-    "2026-06-13": {
-      "label": "6月13日 (周六)",
+    "2026-06-14": {
+      "label": "6月14日 (周日)",
       "stories": [
         {
-          "id": "20260613-1",
+          "id": "20260614-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
@@ -5829,7 +5829,7 @@
           ]
         },
         {
-          "id": "20260613-2",
+          "id": "20260614-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
@@ -5892,7 +5892,7 @@
           ]
         },
         {
-          "id": "20260613-3",
+          "id": "20260614-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
@@ -5955,7 +5955,7 @@
           ]
         },
         {
-          "id": "20260613-4",
+          "id": "20260614-4",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
@@ -6018,7 +6018,7 @@
           ]
         },
         {
-          "id": "20260613-5",
+          "id": "20260614-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/12/fed-kevin-warsh-chairman-title.html",
@@ -6082,11 +6082,11 @@
         }
       ]
     },
-    "2026-06-12": {
-      "label": "6月12日 (周五)",
+    "2026-06-13": {
+      "label": "6月13日 (周六)",
       "stories": [
         {
-          "id": "20260612-1",
+          "id": "20260613-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
@@ -6149,7 +6149,7 @@
           ]
         },
         {
-          "id": "20260612-2",
+          "id": "20260613-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/",
@@ -6212,7 +6212,7 @@
           ]
         },
         {
-          "id": "20260612-3",
+          "id": "20260613-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
@@ -6275,7 +6275,7 @@
           ]
         },
         {
-          "id": "20260612-4",
+          "id": "20260613-4",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
@@ -6338,7 +6338,7 @@
           ]
         },
         {
-          "id": "20260612-5",
+          "id": "20260613-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/12/fed-kevin-warsh-chairman-title.html",
@@ -6402,11 +6402,11 @@
         }
       ]
     },
-    "2026-06-11": {
-      "label": "6月11日 (周四)",
+    "2026-06-12": {
+      "label": "6月12日 (周五)",
       "stories": [
         {
-          "id": "20260611-1",
+          "id": "20260612-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/",
@@ -6469,7 +6469,7 @@
           ]
         },
         {
-          "id": "20260611-2",
+          "id": "20260612-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
@@ -6532,7 +6532,7 @@
           ]
         },
         {
-          "id": "20260611-3",
+          "id": "20260612-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/11/iran-strait-hormuz-oil-tanker-traffic-frontline.html",
@@ -6595,7 +6595,7 @@
           ]
         },
         {
-          "id": "20260611-4",
+          "id": "20260612-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-11percent-on-increased-capital-raise-cash-concerns.html",
@@ -6658,7 +6658,7 @@
           ]
         },
         {
-          "id": "20260611-5",
+          "id": "20260612-5",
           "category": "econ",
           "sourceName": "BBC Business",
           "sourceUrl": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
@@ -6722,11 +6722,11 @@
         }
       ]
     },
-    "2026-06-10": {
-      "label": "6月10日 (周三)",
+    "2026-06-11": {
+      "label": "6月11日 (周四)",
       "stories": [
         {
-          "id": "20260610-1",
+          "id": "20260611-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
@@ -6789,7 +6789,7 @@
           ]
         },
         {
-          "id": "20260610-2",
+          "id": "20260611-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
@@ -6852,7 +6852,7 @@
           ]
         },
         {
-          "id": "20260610-3",
+          "id": "20260611-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/10/spacex-elizabeth-warren-elon-musk-sec-ipo.html",
@@ -6915,7 +6915,7 @@
           ]
         },
         {
-          "id": "20260610-4",
+          "id": "20260611-4",
           "category": "biz",
           "sourceName": "The Verge",
           "sourceUrl": "https://www.theverge.com/games/948142/microsoft-xbox-layoffs-reset-asha-sharma",
@@ -6978,7 +6978,7 @@
           ]
         },
         {
-          "id": "20260610-5",
+          "id": "20260611-5",
           "category": "econ",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/the-4-2-inflation-rate-is-a-bummer-but-the-worst-might-be-over-ef27170d?mod=mw_rss_topstories",
@@ -7042,11 +7042,11 @@
         }
       ]
     },
-    "2026-06-09": {
-      "label": "6月9日 (周二)",
+    "2026-06-10": {
+      "label": "6月10日 (周三)",
       "stories": [
         {
-          "id": "20260609-1",
+          "id": "20260610-1",
           "category": "tech",
           "sourceName": "Ars Technica",
           "sourceUrl": "https://arstechnica.com/apple/2026/06/apple-says-its-ai-is-still-private-even-when-its-running-on-googles-servers/",
@@ -7109,7 +7109,7 @@
           ]
         },
         {
-          "id": "20260609-2",
+          "id": "20260610-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
@@ -7172,7 +7172,7 @@
           ]
         },
         {
-          "id": "20260609-3",
+          "id": "20260610-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/",
@@ -7235,7 +7235,7 @@
           ]
         },
         {
-          "id": "20260609-4",
+          "id": "20260610-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/09/liv-golf-ceo-pif-funding-cliff.html",
@@ -7298,7 +7298,7 @@
           ]
         },
         {
-          "id": "20260609-5",
+          "id": "20260610-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html",
@@ -7362,11 +7362,11 @@
         }
       ]
     },
-    "2026-06-08": {
-      "label": "6月8日 (周一)",
+    "2026-06-09": {
+      "label": "6月9日 (周二)",
       "stories": [
         {
-          "id": "20260608-1",
+          "id": "20260609-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/08/apple-google-nvidia-ai-chips.html",
@@ -7429,7 +7429,7 @@
           ]
         },
         {
-          "id": "20260608-2",
+          "id": "20260609-2",
           "category": "tech",
           "sourceName": "Ars Technica",
           "sourceUrl": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
@@ -7492,7 +7492,7 @@
           ]
         },
         {
-          "id": "20260608-3",
+          "id": "20260609-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
@@ -7555,7 +7555,7 @@
           ]
         },
         {
-          "id": "20260608-4",
+          "id": "20260609-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/08/united-ceo-airline-mergers.html",
@@ -7618,7 +7618,7 @@
           ]
         },
         {
-          "id": "20260608-5",
+          "id": "20260609-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/08/household-financial-worries-at-highest-level-since-2022-new-york-fed-says.html",
@@ -7682,11 +7682,11 @@
         }
       ]
     },
-    "2026-06-07": {
-      "label": "6月7日 (周日)",
+    "2026-06-08": {
+      "label": "6月8日 (周一)",
       "stories": [
         {
-          "id": "20260607-1",
+          "id": "20260608-1",
           "category": "tech",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
@@ -7749,7 +7749,7 @@
           ]
         },
         {
-          "id": "20260607-2",
+          "id": "20260608-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
@@ -7812,7 +7812,7 @@
           ]
         },
         {
-          "id": "20260607-3",
+          "id": "20260608-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/07/the-6-big-things-were-watching-in-the-stock-market-this-week.html",
@@ -7875,7 +7875,7 @@
           ]
         },
         {
-          "id": "20260607-4",
+          "id": "20260608-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html",
@@ -7938,7 +7938,7 @@
           ]
         },
         {
-          "id": "20260607-5",
+          "id": "20260608-5",
           "category": "econ",
           "sourceName": "Financial Times",
           "sourceUrl": "https://www.ft.com/content/7eced198-5045-4447-885b-7aa0dfe4490d",
@@ -8002,11 +8002,11 @@
         }
       ]
     },
-    "2026-06-06": {
-      "label": "6月6日 (周六)",
+    "2026-06-07": {
+      "label": "6月7日 (周日)",
       "stories": [
         {
-          "id": "20260606-1",
+          "id": "20260607-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html",
@@ -8069,7 +8069,7 @@
           ]
         },
         {
-          "id": "20260606-2",
+          "id": "20260607-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
@@ -8132,7 +8132,7 @@
           ]
         },
         {
-          "id": "20260606-3",
+          "id": "20260607-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html",
@@ -8195,7 +8195,7 @@
           ]
         },
         {
-          "id": "20260606-4",
+          "id": "20260607-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html",
@@ -8258,7 +8258,7 @@
           ]
         },
         {
-          "id": "20260606-5",
+          "id": "20260607-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/05/hot-jobs-report-puts-fed-cuts-further-out-of-reach-as-chair-warsh-faces-policy-tests.html",
@@ -8322,11 +8322,11 @@
         }
       ]
     },
-    "2026-06-05": {
-      "label": "6月5日 (周五)",
+    "2026-06-06": {
+      "label": "6月6日 (周六)",
       "stories": [
         {
-          "id": "20260605-1",
+          "id": "20260606-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html",
@@ -8349,7 +8349,7 @@
           ]
         },
         {
-          "id": "20260605-2",
+          "id": "20260606-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
@@ -8372,7 +8372,7 @@
           ]
         },
         {
-          "id": "20260605-3",
+          "id": "20260606-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html",
@@ -8435,7 +8435,7 @@
           ]
         },
         {
-          "id": "20260605-4",
+          "id": "20260606-4",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
@@ -8498,7 +8498,7 @@
           ]
         },
         {
-          "id": "20260605-5",
+          "id": "20260606-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/05/odds-of-a-fed-hike-this-year-jump-on-prediction-markets-.html",
@@ -8562,11 +8562,11 @@
         }
       ]
     },
-    "2026-06-04": {
-      "label": "6月4日 (周四)",
+    "2026-06-05": {
+      "label": "6月5日 (周五)",
       "stories": [
         {
-          "id": "20260604-1",
+          "id": "20260605-1",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
@@ -8629,7 +8629,7 @@
           ]
         },
         {
-          "id": "20260604-2",
+          "id": "20260605-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
@@ -8692,7 +8692,7 @@
           ]
         },
         {
-          "id": "20260604-3",
+          "id": "20260605-3",
           "category": "biz",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
@@ -8755,7 +8755,7 @@
           ]
         },
         {
-          "id": "20260604-4",
+          "id": "20260605-4",
           "category": "biz",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/",
@@ -8818,7 +8818,7 @@
           ]
         },
         {
-          "id": "20260604-5",
+          "id": "20260605-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/04/higher-mortgage-rates-push-application-denial-rates-up.html",
@@ -8882,11 +8882,11 @@
         }
       ]
     },
-    "2026-06-03": {
-      "label": "6月3日 (周三)",
+    "2026-06-04": {
+      "label": "6月4日 (周四)",
       "stories": [
         {
-          "id": "20260603-1",
+          "id": "20260604-1",
           "category": "tech",
           "sourceName": "Wired",
           "sourceUrl": "https://www.wired.com/story/data-center-operators-fix-water-use-problems/",
@@ -8909,7 +8909,7 @@
           ]
         },
         {
-          "id": "20260603-2",
+          "id": "20260604-2",
           "category": "tech",
           "sourceName": "TechCrunch",
           "sourceUrl": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
@@ -8932,7 +8932,7 @@
           ]
         },
         {
-          "id": "20260603-3",
+          "id": "20260604-3",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html",
@@ -8955,7 +8955,7 @@
           ]
         },
         {
-          "id": "20260603-4",
+          "id": "20260604-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/03/historic-stock-rally-faces-key-test.html",
@@ -8978,7 +8978,7 @@
           ]
         },
         {
-          "id": "20260603-5",
+          "id": "20260604-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html",
@@ -9042,11 +9042,11 @@
         }
       ]
     },
-    "2026-06-02": {
-      "label": "6月2日 (周二)",
+    "2026-06-03": {
+      "label": "6月3日 (周三)",
       "stories": [
         {
-          "id": "20260602-1",
+          "id": "20260603-1",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
@@ -9109,7 +9109,7 @@
           ]
         },
         {
-          "id": "20260602-2",
+          "id": "20260603-2",
           "category": "tech",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
@@ -9172,7 +9172,7 @@
           ]
         },
         {
-          "id": "20260602-3",
+          "id": "20260603-3",
           "category": "biz",
           "sourceName": "MarketWatch",
           "sourceUrl": "https://www.marketwatch.com/story/palo-alto-networks-stock-is-rising-as-earnings-show-ai-is-a-friend-not-a-foe-0f6b289a?mod=mw_rss_topstories",
@@ -9235,7 +9235,7 @@
           ]
         },
         {
-          "id": "20260602-4",
+          "id": "20260603-4",
           "category": "biz",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/02/ulta-beauty-ulta-q1-earnings-2026.html",
@@ -9298,7 +9298,7 @@
           ]
         },
         {
-          "id": "20260602-5",
+          "id": "20260603-5",
           "category": "econ",
           "sourceName": "CNBC Top News",
           "sourceUrl": "https://www.cnbc.com/2026/06/02/intelligence-trump-bill-pulte-tulsi-gabbard.html",

@@ -181,9 +181,11 @@ def main():
                 final.append(c)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    # 用本地日期（daily-update.sh 在中国时间 07:00 触发；用 UTC 会滞后一天）
+    local_date = datetime.now().strftime("%Y-%m-%d")
     with open(OUTPUT, "w", encoding="utf-8") as f:
-        json.dump({"date": now.strftime("%Y-%m-%d"), "candidates": final}, f, ensure_ascii=False, indent=2)
-    print(f"✅ Saved {len(final)} candidates to {OUTPUT} (跳过重复 {skipped_dup} 条)")
+        json.dump({"date": local_date, "candidates": final}, f, ensure_ascii=False, indent=2)
+    print(f"✅ Saved {len(final)} candidates as {local_date} → {OUTPUT} (跳过重复 {skipped_dup} 条)")
 
 
 if __name__ == "__main__":
