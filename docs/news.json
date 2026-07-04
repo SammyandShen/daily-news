@@ -1,7 +1,327 @@
 {
-  "lastUpdated": "2026-07-03T23:17:49.260958+00:00",
+  "lastUpdated": "2026-07-04T23:13:02.181340+00:00",
   "level": "B2",
   "days": {
+    "2026-07-05": {
+      "label": "7月5日 (周日)",
+      "stories": [
+        {
+          "id": "20260705-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+          "headlineEn": "Mistral AI: The Open-Source Challenger Aiming to Democratize Frontier AI",
+          "headlineCn": "Mistral AI：力争让前沿 AI 人人可用的开源挑战者",
+          "summaryEn": "Founded in 2023, Mistral AI has rapidly emerged as Europe's most prominent competitor to OpenAI, offering both open-source and proprietary large language models. The French startup has secured substantial venture funding, driven by the ambitious mission to democratize frontier artificial intelligence. By releasing publicly available models, Mistral disrupts the closed, subscription-based dominance of incumbents, providing developers and enterprises with flexible, cost-effective alternatives while intensifying global debate around AI accessibility and governance.",
+          "summaryCn": "Mistral AI 于 2023 年在法国成立，迅速成长为欧洲最具代表性的 OpenAI 竞争者。该公司同时提供开源与专有大型语言模型，已获得大量风险投资支持。其核心使命是「让人人都能使用前沿 AI」，通过发布可公开获取的模型，直接挑战现有巨头的闭源订阅制主导地位，为开发者和企业提供更灵活、更经济的替代选择，同时在全球范围内引发了关于 AI 可及性与治理的广泛讨论。",
+          "excerpt": "Mistral AI, a French startup founded in 2023, has raised significant funding and released a growing suite of open-source models — all in pursuit of its stated ambition to put frontier AI in the hands of everyone, positioning itself as a credible alternative to OpenAI.",
+          "vocab": [
+            {
+              "word": "democratize",
+              "pos": "v.",
+              "meaning": "使（技术、知识或资源）普及化，让原本只有少数人能获取的东西向大众开放。在科技语境中尤指打破大公司垄断、让普通开发者或小企业也能使用昂贵能力。比 popularize 更强调「权力下放」的政治隐喻，语气更具使命感，是科技公司愿景陈述中的高频词。",
+              "etymology": "源自希腊语 demos（人民）与 kratos（权力、统治），原义为「将权力交还人民」。18 世纪经法语 démocratiser 进入英语，最初专指政治领域的民主化进程，20 世纪后语义扩展至技术、教育、金融等领域。",
+              "morphology": "demo-（人民）+ -crat-（统治/权力）+ -ize（动词后缀，使…化）。同词根衍生词：democracy（民主制度）、democrat（民主主义者）、demographic（人口统计的）。-ize 后缀还见于 digitize、monetize、customize，规律性强，易于举一反三。",
+              "mnemonic": "想象一场「demo 演示」现场，台下坐满了普通老百姓——demo 本义就是「人民」。原本只有精英企业才能用的 AI 工具，现在免费展示给所有人——这就是 democratize 的核心画面：权力从少数人手中流向大众。",
+              "exampleEn": "Cloud computing has helped democratize access to enterprise-grade software, enabling small startups to compete with large corporations on equal footing.",
+              "exampleCn": "云计算帮助普及了企业级软件的使用权，使小型初创公司得以在平等基础上与大型企业竞争。"
+            },
+            {
+              "word": "traction",
+              "pos": "n.",
+              "meaning": "（产品、公司或想法的）市场认可度与增长动力，通常指用户增长、营收上升或合作落地等可量化的早期成果。创投和商业媒体中极高频词，比 growth 更强调「从零到一」的突破感——有 traction 意味着市场已经开始「咬住」这个产品。常见搭配：gain traction、get traction、lose traction。",
+              "etymology": "源自拉丁语 trahere（拉、拖拽），原义指物理上的牵引力，如车轮与路面之间的摩擦抓地力。19 世纪工业革命后广泛用于机械工程，20 世纪末商业写作借用这一力学比喻，形容产品在市场上「站稳脚跟、获得推进力」的状态。",
+              "morphology": "tract-（拉、拖）+ -ion（名词后缀）。同词根词：extract（提取，ex-向外拉）、attract（吸引，ad-向内拉）、contract（合同，con-拉紧双方）、distract（分心，dis-把注意力拉开）。掌握 tract 这个词根，可解锁大量常用词。",
+              "mnemonic": "想象一辆车在结冰的坡道上打滑——轮子在转，却没有 traction（抓地力），车纹丝不动。初创公司「没有 traction」是完全相同的道理：产品在运转，但市场没有「咬住」它。有了 traction，就像轮子真正抓住地面，开始加速冲坡。",
+              "exampleEn": "The AI startup gained traction rapidly after its coding assistant attracted over a million developers within the first month of launch.",
+              "exampleCn": "这家 AI 初创公司的编程助手在上线首月便吸引了逾百万开发者，迅速获得了市场认可。"
+            },
+            {
+              "word": "war chest",
+              "pos": "phrase",
+              "meaning": "（公司或组织为应对竞争、扩张或危机而积累的）充裕资金储备。原为军事术语，商业中借用来形容企业为「打仗」储备的「弹药」（资金）。语气比 capital reserve 更生动、更具对抗意味，暗示资金是为了打败竞争对手而准备的。常见搭配：build a war chest、tap its war chest、a well-stocked war chest。",
+              "etymology": "字面义为「战争用的箱子」，源于 17—18 世纪欧洲军队随军携带的木箱，内装军饷与军备采购经费。随着时代演变，先被政治领域借用（指竞选经费），后扩展至商业语境，形容企业为竞争而备妥的资金池。",
+              "morphology": "war（战争，源自古英语 werre，可能来自古法语）+ chest（箱子，源自古英语 cest，再溯至拉丁语 cista）。复合名词，无独立词缀可拆解。近义复合词对比：slush fund（秘密/非正式小金库）、capital reserve（资本储备，正式财务术语）、piggy bank（个人小额储蓄，规模小得多）。",
+              "mnemonic": "脑中画一个装满金币的木箱，箱盖上烙着「WAR CHEST」，旁边站着持枪的守卫。Mistral AI 完成大额融资，就是在填满这只箱子，随时准备和 OpenAI 打一场硬仗。资金 = 弹药，这个军事比喻非常直观。",
+              "exampleEn": "After closing its latest funding round, the startup had built a sizeable war chest to accelerate model development and expand into enterprise markets.",
+              "exampleCn": "完成最新一轮融资后，这家初创公司积累了充裕的资金储备，以加速模型研发并向企业市场扩张。"
+            },
+            {
+              "word": "upstart",
+              "pos": "n.",
+              "meaning": "突然崛起的新晋公司或个人，含有「挑战既有权威」的意味。在科技媒体中常用来形容快速成长、威胁行业巨头的新兴企业。比 startup 多一层「异军突起、令人刮目相看」的语感，有时略带贬义（暗示对方自不量力），但在商业报道中多为中性甚至正面，强调其搅局姿态值得关注。",
+              "etymology": "源自 16 世纪英语，由 up（向上）与 start（突然跳起）合成，原义指「一夜之间蹦出来的人」，带有强烈贬义（暴发户、不知天高地厚者）。随着创业文化兴起，20—21 世纪逐渐中性化，多用于形容「快速崛起的新兴竞争者」。",
+              "morphology": "up-（向上，表方向或状态提升，见于 upswing 上扬、upturn 好转、upend 颠覆）+ start（跳起，动词词根用作名词）。与 start-up（初创公司）同源，但语序相反、语气更强——upstart 强调「猛地蹦出来」的突然性，start-up 中性描述成立阶段。",
+              "mnemonic": "想象一个人从椅子上猛地「跳起来」（start up），冲上台挑战在场所有人——这就是 upstart 的画面：突然冒出、快速上位的搅局者。Mistral 就是 AI 界的 upstart：2023 年才诞生，已经让 OpenAI 感受到压力。",
+              "exampleEn": "The Chinese upstart BYD has overtaken legacy automakers in electric vehicle sales, reshaping the global automotive landscape in just a few years.",
+              "exampleCn": "中国新晋车企比亚迪在电动车销量上超越了传统汽车巨头，仅用数年便重塑了全球汽车格局。"
+            },
+            {
+              "word": "disruptive",
+              "pos": "adj.",
+              "meaning": "颠覆性的，能从根本上改变行业规则的。源自克里斯坦森「颠覆性创新」理论，在科技媒体中几乎是标配词汇。关键区别：它不只是「有破坏性」，而特指「以更低成本或更简单方式攻占低端市场，最终取代主流产品」的策略，与 innovative（创新的）有本质区别——innovation 可以在原有框架内改进，disruptive 则是打碎旧框架。",
+              "etymology": "源自拉丁语 disrumpere（打碎、打断），由 dis-（分开、相反）与 rumpere（打破）构成，原义指物理上的断裂或中断。19 世纪扩展为「扰乱秩序」，1990 年代经哈佛商学院教授克莱顿·克里斯坦森的著作《创新者的窘境》，disruptive 获得了现代商业的精确含义。",
+              "morphology": "dis-（分开、相反）+ rupt-（打破）+ -ive（形容词后缀，表「具有…性质」）。rupt 词根高度多产：rupture（破裂）、corrupt（腐化，彻底打破道德）、interrupt（打断，中途插入打破）、erupt（爆发，向外冲破）。掌握 rupt 可解锁一组动感十足的词汇。",
+              "mnemonic": "dis（打散）+ rupt（破）+ -ive = 不断打破现有格局的。记忆钩：想象一个爆破工人（rupt = rupture，炸裂）不停炸掉旧建筑——他就是 disruptive 的化身。Mistral 用开源模型「炸掉」了 AI 领域的收费高墙，典型的 disruptive 打法。",
+              "exampleEn": "Open-source AI models are proving disruptive to incumbents that rely on proprietary, subscription-based access, forcing them to rethink their pricing strategies.",
+              "exampleCn": "开源 AI 模型正在颠覆那些依赖专有订阅制模式的现有玩家，迫使它们重新审视自身的定价策略。"
+            }
+          ]
+        },
+        {
+          "id": "20260705-2",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
+          "headlineEn": "From Macron to Modi: Governments Roll Out the Red Carpet for AI Giants",
+          "headlineCn": "从马克龙到莫迪：各国政府争相为AI巨头铺设红毯",
+          "summaryEn": "France and India are among a growing number of governments actively courting major AI companies, offering incentives to secure data center construction and cloud infrastructure investment. President Macron and Prime Minister Modi have personally engaged with Silicon Valley executives, signaling that AI infrastructure has become a top priority in national economic strategy. The competition underscores how countries view AI investment not just as a tech opportunity, but as a geopolitical asset.",
+          "summaryCn": "法国和印度等越来越多的国家政府正积极向人工智能巨头抛出橄榄枝，以优厚条件争取数据中心建设和云基础设施投资。法国总统马克龙和印度总理莫迪亲自与硅谷高管接触，表明AI基础设施已成为各国经济战略的重中之重。这场竞争折射出各国将AI投资视为地缘政治筹码的深层逻辑，而非单纯的技术机遇。",
+          "excerpt": "From Macron to Modi, heads of state are personally courting the CEOs of AI giants, offering tax breaks, fast-tracked permits, and bilateral agreements to attract data center and cloud infrastructure investment to their shores.",
+          "vocab": [
+            {
+              "word": "woo",
+              "pos": "v.",
+              "meaning": "努力争取（某人的）支持、业务或好感。商业报道中常用于描述政府或企业主动拉拢客户、投资者或合作伙伴，比 attract 更有「主动示好、用力追求」的色彩，是财经新闻的高频词",
+              "etymology": "古英语 wōgian，意为「求爱、求婚」，最初专指主动向他人示爱的行为。中世纪后语义扩展，泛指一切「主动争取对方好感」的场景，商业语境中延伸为政府或企业主动拉拢的行为",
+              "morphology": "单音节简单词，无前缀后缀可拆。派生词：wooer（n. 追求者）、wooing（n./adj. 追求行为）。近义词对比：woo 强调持续努力与主动姿态，attract 偏被动，court 更正式且含礼遇意味",
+              "mnemonic": "联想「woo」的发音像温柔的哄声——想象一位国家领导人对着科技CEO发出「woo~」的示好声，用尽浑身解数争取对方。发音短促有力，正如商业拉拢行动那样直接而急迫",
+              "exampleEn": "The government launched an aggressive campaign to woo semiconductor manufacturers with tax incentives and subsidized land.",
+              "exampleCn": "政府发起大规模行动，以税收优惠和补贴土地积极拉拢半导体制造商。"
+            },
+            {
+              "word": "overture",
+              "pos": "n.",
+              "meaning": "（谈判或合作的）试探性接触、开场提议。在商业和外交语境中特指「主动发出的第一步信号」，暗示关系尚未建立、己方正在试探。比 proposal 更含蓄，比 offer 更初步，是高端商务英语的常见词",
+              "etymology": "来自法语 ouverture，意为「开启、开放」，源自拉丁语 apertura（开口处）。音乐中指交响乐的「序曲」，外交和商业语境中引申为「开场白、试探性接触」，均保留「开端」的核心含义",
+              "morphology": "词根 aper-（开放，同源 aperture 光圈）+ -ture（名词后缀，表动作结果）。同族词：aperture（光圈、孔径）、overt（公开的）、covert（隐秘的，对比记忆）",
+              "mnemonic": "overture = 交响乐的「序曲」。谈判之前，双方像听序曲一样各自试探。政府向AI巨头发出 overture，就像在正式演出前先奏一段轻柔序曲，试探对方是否愿意入场",
+              "exampleEn": "The startup received overtures from three major cloud providers interested in acquiring its proprietary AI training platform.",
+              "exampleCn": "这家初创公司收到三家大型云服务商的接触意向，它们均对收购其专有AI训练平台感兴趣。"
+            },
+            {
+              "word": "vie (for)",
+              "pos": "phrasal v.",
+              "meaning": "激烈竞争（某物）。常见于描述国家、企业之间争夺投资、市场份额或人才。比 compete 更强调「势均力敌的你争我夺」，带有焦灼感，是经济报道中描述竞争态势的精准用词",
+              "etymology": "来自中世纪英语 vien，源自古法语 envier（挑战、下注），最终追溯至拉丁语 invitare（邀请、挑战）。原义为赌博中「叫牌挑战」，后演变为一般意义上的激烈竞争",
+              "morphology": "单音节词，无明显词缀。最常见形式为现在分词 vying（如 countries vying for AI investment）。与 rival、contend、compete 构成近义词族：vie 最强调「紧张角力、不相上下」",
+              "mnemonic": "vie 读音像「伐」——多国争夺AI投资，就像伐木工人争着抢同一棵大树。或者记：字母 V 像两个人背靠背向两方向奔跑，正是「你争我夺」的画面",
+              "exampleEn": "Dozens of cities are vying for the tech company's new headquarters, offering billions in tax relief packages.",
+              "exampleCn": "数十座城市正竞相争夺该科技公司新总部的落地资格，纷纷提出数十亿美元的税收减免方案。"
+            },
+            {
+              "word": "lure",
+              "pos": "v. / n.",
+              "meaning": "（以利益或诱惑）吸引、诱使。商业报道中常指政府或企业用优惠条件吸引投资、人才或企业入驻。比 attract 多了「主动设饵」的策略意味，暗含对方原本未必会来，是分析政府招商引资政策的常见词",
+              "etymology": "来自古法语 loirre，意为「猎鹰诱饵」——训鹰时用来召回猎鹰的道具。中世纪欧洲猎鹰术的专业词汇，后泛化为「以诱惑吸引」，保留了「用饵钓鱼、诱鸟归巢」的隐喻",
+              "morphology": "无明显词缀，简单动词。派生词：allure（n. 魅力；v. 诱惑，al- 加强前缀 + lure）、alluring（adj. 极具吸引力的）。近义对比：lure 含策略性诱导，attract 偏中性，entice 强调情感诱惑",
+              "mnemonic": "lure = 钓鱼用的「路亚」假饵（英文 lure 本就是此义）。想象各国政府像钓鱼一样，把税收优惠和土地资源做成「路亚假饵」甩出去，等待AI公司这条大鱼上钩",
+              "exampleEn": "Several Southeast Asian nations have offered generous tax holidays to lure semiconductor fabs away from more expensive manufacturing hubs.",
+              "exampleCn": "东南亚数国纷纷提供丰厚免税期，以吸引半导体工厂从成本更高的制造中心迁来落户。"
+            },
+            {
+              "word": "statecraft",
+              "pos": "n.",
+              "meaning": "治国之道、经营国家事务的艺术与技巧。在科技外交兴起的当下，常见于讨论政府如何将AI政策、数据主权和技术联盟转化为地缘政治优势。比 governance 更强调「战略层面的运作智慧」，是高端政经报道的必备词",
+              "etymology": "由 state（国家）+ craft（技艺、手艺）复合而成。craft 源自古英语 cræft，意为「力量、技能」，与德语 Kraft（力量）同源。statecraft 字面义为「管理国家的技艺」，16世纪开始使用",
+              "morphology": "state（国家）+ craft（技艺）复合名词。craft 作为后缀，均表示「某领域的技艺或制品」：woodcraft（林野技艺）、witchcraft（巫术）、aircraft（飞行器）、stagecraft（舞台艺术）",
+              "mnemonic": "state + craft = 「国家」+「手艺」。把治国想象成一种精密手艺，就像木匠的 woodcraft。马克龙接待科技CEO，就是在展示他的 statecraft——把AI投资谈判变成外交筹码的高超艺术",
+              "exampleEn": "Securing AI infrastructure deals with American tech giants has become a key element of modern statecraft for countries seeking economic relevance.",
+              "exampleCn": "与美国科技巨头达成AI基础设施协议，已成为寻求经济影响力的国家现代治国之道的核心要素。"
+            }
+          ]
+        },
+        {
+          "id": "20260705-3",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
+          "headlineEn": "Feds Seek Reduced Sentence for $100M Deli Fraudster, but Key Reasons Remain Sealed",
+          "headlineCn": "联邦检方为新泽西熟食店股骗案被告申请轻判，关键理由遭封存",
+          "summaryEn": "James Patten faces sentencing as the third defendant in a stock fraud scheme tied to Hometown International — a New Jersey company whose sole asset was one deli, yet briefly reached a market capitalization exceeding $100 million. Federal prosecutors are seeking a below-guidelines prison term, though key portions of their reasoning remain sealed from public view. The case illustrates how obscure, thinly traded companies can be exploited as vehicles for pump-and-dump fraud targeting retail investors.",
+          "summaryCn": "詹姆斯·帕顿是新泽西州「Hometown International」股票欺诈案中第三名待判被告，该公司名下仅有一家熟食小店，市值却一度虚高至逾1亿美元。联邦检察官已申请判处低于量刑准则的刑期，但部分理由已被法院封存、不对外公开，原因疑与被告配合调查有关。此案揭示了不法分子如何利用冷门小市值公司作为工具，操纵股价坑害散户投资者。",
+          "excerpt": "James Patten is the third person set to be sentenced in the stock fraud scheme tied to Hometown International, a company that owned just one deli in New Jersey yet somehow commanded a valuation topping $100 million. Prosecutors are requesting a sentence below federal guidelines, though their full reasoning remains partly sealed from public view.",
+          "vocab": [
+            {
+              "word": "fraudster",
+              "pos": "n.",
+              "meaning": "欺诈者、骗子。比 fraud（欺诈行为本身）更具体地指「实施欺诈的人」，语域偏新闻口语化，尤其常见于英美商业报道和法庭新闻。语气比 swindler 更现代，比 con man 更正式，是财经记者描述金融罪犯的高频词",
+              "etymology": "源自古法语 fraude，再溯至拉丁语 fraus（欺骗、伤害）；后缀 -ster 来自古英语 -estre，表「从事某类行为的人」，原多用于女性职业称谓（如 webster 织布工），后泛化为行为者标签",
+              "morphology": "fraud（欺诈）+ -ster（行为者后缀）→ fraudster。同后缀词：gangster（黑帮分子）、prankster（恶作剧者）、trickster（骗子）；同词根派生词：fraudulent（adj. 欺骗性的）、defraud（v. 骗取财物）",
+              "mnemonic": "把 fraud 想成「弗劳德」这个人名，他是职业骗子，名片上印着「-ster」职称——fraudster。类比 gangster（黑帮老大），两个词结构一模一样；脑海中浮现一个穿西装的骗子站在法庭上，胸口别着写有 -ster 的胸牌",
+              "exampleEn": "The SEC charged the fraudster with artificially inflating the company's stock price through fabricated press releases.",
+              "exampleCn": "美国证券交易委员会指控该欺诈者通过捏造新闻稿人为拉高公司股价。"
+            },
+            {
+              "word": "scheme",
+              "pos": "n. / v.",
+              "meaning": "（名词）阴谋、骗局，尤指系统性的非法计划；（动词）密谋。金融语境中常见组合：Ponzi scheme（庞氏骗局）、stock fraud scheme（股票欺诈骗局）。注意：英式英语中 scheme 也可中性指「方案」，但美式商业新闻中几乎总带负面色彩，是财经法律报道的必备词",
+              "etymology": "源自拉丁语 schema，再溯至希腊语 skhēma（形状、外形、方式），原义为「图表、计划」，属中性词；进入英语后，尤其在美式英语中逐渐发展出「密谋、阴谋」的负面色彩",
+              "morphology": "单一词根，源自希腊语 skhēma，无前缀/后缀结构。派生词：schematic（adj. 图解的）、schemer（n. 阴谋者）；近义词辨析：scheme（系统性骗局）vs scam（小骗局）vs racket（有组织的非法勾当，规模更大）",
+              "mnemonic": "scheme 发音像「斯基姆」，联想「撇脂」(skim)——骗子系统地把投资者的钱像奶油一样撇走，这就是 scheme 的本质。记住最著名的骗局：Ponzi scheme（庞氏骗局），只要想到庞氏骗局，就锁定了 scheme",
+              "exampleEn": "The CEO was convicted of running a scheme to defraud investors by falsifying the company's quarterly revenue figures.",
+              "exampleCn": "该首席执行官因通过伪造季度营收数据欺骗投资者的骗局而被定罪。"
+            },
+            {
+              "word": "leniency",
+              "pos": "n.",
+              "meaning": "宽大处理、从轻量刑。法律语境中专指对被告比通常标准更宽松的处置；常见搭配：seek leniency（寻求从宽）、grant leniency（给予宽大处理）、leniency program（宽大处理计划，常见于反垄断案，举报者可获豁免）。在企业合规、反垄断和刑事司法报道中极为常见，值得重点掌握",
+              "etymology": "源自拉丁语 lenis（温和的、柔和的），加抽象名词后缀 -ency。拉丁语 lenis 还衍生出 lenient（adj. 宽大的）和 relent（v. 软化、放宽），后者加前缀 re- 表「再次变柔和」",
+              "morphology": "lenient（adj. 宽大的）→ leniency（n.），变化规则：去 -t 加 -cy。同构型变化：efficient→efficiency，fluent→fluency；同根词：relent（v. 心软）、relentless（adj. 无情的，即「绝不放松」）",
+              "mnemonic": "leniency 拆成「leni + ency」：leni 读音近似「怜悯」（连你），-ency 是名词后缀。法官「怜悯」地对被告从轻发落，就是 leniency。对比记忆：relentless（无情的）= re + lent + less，「不再心软」= 无情，正好反义",
+              "exampleEn": "The whistleblower's full cooperation with federal investigators earned significant leniency in the final sentencing recommendation.",
+              "exampleCn": "该举报人与联邦调查人员的全力配合，为其在最终量刑建议中赢得了相当程度的从宽处理。"
+            },
+            {
+              "word": "sealed",
+              "pos": "adj.",
+              "meaning": "（法庭文件、法院记录）被封存的、不对公众公开的。法律语境中，sealed 特指经法院命令禁止公开的文件，如 sealed indictment（密封起诉书）、sealed settlement（保密和解协议）。理解这个词是读懂美国司法和商业新闻的关键，重大案件中此词频繁出现，与「透明」形成对立",
+              "etymology": "源自古法语 seel（印章），再溯至拉丁语 sigillum（小印章），是 signum（标志、符号）的指小词。古代用蜡封印封住文件表示官方认证或机密性质，现代引申为「封存、保密」",
+              "morphology": "seal（v. 封印 / n. 印章；也指海豹）+ -ed（形容词后缀）→ sealed。派生词：unseal（v. 解封）、sealing（n. 封存行为）；注意 seal 作为名词的双重含义：「印章」（法律义）与「海豹」（动物义），是同形异义词",
+              "mnemonic": "想象古代国王用火漆（seal）封住绝密文件——蜡封之后任何人不得拆开，就是 sealed。联想：海豹（seal）嘴巴永远紧闭，守口如瓶——sealed documents 就像海豹一样「嘴封得严严的」，不透露半个字",
+              "exampleEn": "The acquisition agreement was sealed by mutual consent, keeping the final purchase price confidential for two years.",
+              "exampleCn": "此次收购协议经双方同意封存，最终收购价格在两年内保持保密。"
+            },
+            {
+              "word": "redacted",
+              "pos": "adj. / v. (past participle)",
+              "meaning": "（文件中敏感信息）被删除的、被涂黑的。特指在公开文件中将敏感内容遮蔽或删去，留下空白块或黑色涂抹。与 censored（审查，多指政治压制）不同，redacted 更多指出于隐私、安全或法律原因的技术性删除，是商业、法律和政府报道中的高频词，值得与 sealed 一起配套记忆",
+              "etymology": "源自拉丁语 redigere（整理、归纳、汇编），过去分词 redactus；由 re-（回、重新）+ agere（做、驱动）构成，原义是「将材料重新整理成文」即编辑，现代英语中专指「从文件中删除或遮蔽敏感信息」",
+              "morphology": "re-（重新）+ -dact-（源自拉丁语 agere 变体，「做、处理」）+ -ed（过去分词）→ redacted。相关词：redact（v.）、redaction（n. 删节版本、编辑稿）；editor 与 redactor 同源于拉丁语根 agere",
+              "mnemonic": "redacted 的经典形象就是 FBI 解密文件里大片「████████」黑色方块。记忆法：re（重新）+ dact（联想「打字」dactylo）+ ed = 文件被「重新打」过，把秘密部分用黑块替换。见到黑色涂块，就想到 redacted",
+              "exampleEn": "The internal audit report released to shareholders had several critical financial disclosures redacted on legal advice.",
+              "exampleCn": "应律师建议，向股东公开的内部审计报告中多项关键财务披露内容已被删除涂黑。"
+            }
+          ]
+        },
+        {
+          "id": "20260705-4",
+          "category": "econ",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
+          "headlineEn": "Hip-Hop Producer Erick the Architect Misses BlackBerry's Tactile Keyboard",
+          "headlineCn": "说唱制作人 Erick the Architect 怀念 BlackBerry 实体键盘",
+          "summaryEn": "Erick the Architect, founding member and lead producer of hip-hop group Flatbush Zombies, has publicly expressed his nostalgia for the BlackBerry physical keyboard. Having toured globally and collaborated with artists from Joey Bada$$ to James Blake, Erick credits the tactile feedback of BlackBerry's hardware keyboard for enhancing his creative workflow. As touchscreen devices dominate today's market, his sentiment resonates with a generation of professionals who prized the ergonomic precision of physical keys — reigniting debate around productivity and device design.",
+          "summaryCn": "说唱团体 Flatbush Zombies 的创始成员及主要制作人 Erick the Architect 近日公开表达了对 BlackBerry 实体键盘的深切怀念。他曾与 Joey Bada$$、RZA、James Blake 等跨界艺人合作，足迹遍布全球各大音乐节及知名脱口秀舞台。Erick 认为，BlackBerry 键盘的触感反馈极大提升了他的创作效率。随着触屏设备主导消费市场，他的感慨引发众多专业人士共鸣，也再度点燃了关于实体键盘与触屏设备在人机工程学和生产力方面孰优孰劣的讨论。",
+          "excerpt": "Erick the Architect — founding member and lead producer of Flatbush Zombies — has gone on record about his deep fondness for the BlackBerry keyboard. Despite a career spanning global tours and cross-genre collaborations, he still misses the tactile precision of physical keys that no smartphone touchscreen has quite managed to replicate.",
+          "vocab": [
+            {
+              "word": "tactile",
+              "pos": "adj.",
+              "meaning": "触觉的，与触感相关的。在科技语境中常指「可感知的物理反馈」，如键盘的按压感。与 haptic（触觉振动反馈）相比，tactile 更强调自然的手指触摸体验而非人工模拟，是产品设计和用户体验评测的高频词，值得掌握。",
+              "etymology": "来自拉丁语 tactilis（可触摸的），源于动词 tangere（触摸）。17世纪进入英语，最初用于哲学和感官描述，后扩展至科技与产品设计领域。与 contact（接触）、tangible（有形的）同源。",
+              "morphology": "词根 tact-（触摸）+ 后缀 -ile（可……的）。同词根词：contact（接触）、tangible（可感知的）、intact（完整无缺的）、intangible（无形的）。掌握词根 tact- 可串联一族「触摸」相关词。",
+              "mnemonic": "联想「tact（机智、得体）」——机智的人懂得「触摸」对方情绪，两词共享「碰触」核心。或想象用指尖按下 BlackBerry 键盘时那种「咔哒」实感——那就是 tactile feedback（触觉反馈）。",
+              "exampleEn": "The new laptop's tactile keyboard received high praise from professional writers who spend hours typing every day.",
+              "exampleCn": "这款笔记本电脑的触感键盘受到了每天长时间打字的专业写作者的高度评价。"
+            },
+            {
+              "word": "nostalgia",
+              "pos": "n.",
+              "meaning": "对过去的深切怀念。在商业语境中常见于「nostalgia marketing（怀旧营销）」，品牌借助消费者的情感记忆推广复古产品或拉动复购。比「fondness（喜爱）」情感浓度更高，带有「回不去」的惆怅色彩，是营销心理学的关键词。",
+              "etymology": "来自希腊语 nostos（返乡）+ algos（痛苦）。17世纪由瑞士医生首次用于描述士兵思乡之苦的「医学症状」，后语义扩展为对任何过去事物的情感眷恋。",
+              "morphology": "nostos（回家）+ -algia（痛苦/疾病后缀）。同后缀词：neuralgia（神经痛）、nostalgia → nostalgic（adj.）→ nostalgically（adv.），派生形式规律整齐。",
+              "mnemonic": "nos-（回家）+ talgia（痛）= 「回不了家的痛」。记住它本来是医学病名，情绪浓度远比「怀念」更深。想象老兵望着旧照片，胸口隐隐作痛——那就是 nostalgia 的本义。",
+              "exampleEn": "Tech brands are banking on nostalgia to sell retro-styled gadgets to millennials who grew up with early smartphones.",
+              "exampleCn": "科技品牌正押注怀旧情绪，向伴随早期智能手机成长的千禧一代销售复古风格的电子产品。"
+            },
+            {
+              "word": "aficionado",
+              "pos": "n.",
+              "meaning": "某领域的狂热爱好者、行家。比 fan 更正式、更有品位感，常用于媒体和商业报道描述对某类产品（如机械键盘、胶片相机）有深度偏好的核心用户群体。这类用户口碑传播力强，是品牌「种子用户」策略的目标群体，值得学习。",
+              "etymology": "来自西班牙语 aficionado（热衷者），源于 afición（热情），动词 aficionar 意为「使迷上」。最初用于描述斗牛迷，后经英语借用，泛指各领域发烧友。",
+              "morphology": "西班牙语直接借词，无英语形态拆解。英语近义词梯度：fan（粉丝，最口语）→ enthusiast（热情者）→ aficionado（行家级爱好者）→ connoisseur（鉴赏家，更强调专业判断力）。",
+              "mnemonic": "西班牙斗牛场上那些激动鼓掌、眼睛放光的观众——那股痴迷劲儿就是 aficionado。发音近似「啊-fick-yo-nah-do」，想象一个发烧友看到爱物时忍不住惊叫「啊！」的画面。",
+              "exampleEn": "BlackBerry aficionados still gather in online forums to discuss the superior typing experience of physical keyboards.",
+              "exampleCn": "BlackBerry 发烧友至今仍聚集在网络论坛上，探讨实体键盘卓越的打字体验。"
+            },
+            {
+              "word": "ergonomic",
+              "pos": "adj.",
+              "meaning": "符合人体工程学的，为减少疲劳和提高效率而专门设计的。在消费电子、办公设备和硬件评测中极为常见，比 comfortable（舒适的）更专业，隐含「经过科学验证」的意思，是产品说明书和科技媒体的必备词汇。",
+              "etymology": "来自希腊语 ergon（工作）+ nomos（规律/法则）。20世纪中期由人因工程学（human factors engineering）领域引入，最初用于工业设计，后广泛应用于电子产品与家具设计。",
+              "morphology": "ergon（工作）+ nom-（规律）+ -ic（形容词后缀）。同词根词：energy（能量，同源于 ergon）、ergonomics（人机工程学，名词）；同后缀：economic（经济的）、astronomical（天文的）。",
+              "mnemonic": "ergo-（工作）+ nomic（规律）= 「让工作符合规律」。记忆口诀：ergonomic 是「身体的经济学」——用最少的力气干最多的活。和 economic 长相相似，一个管钱的效率，一个管身体的效率。",
+              "exampleEn": "The startup designed an ergonomic keyboard that reduces wrist strain for software engineers who type for eight hours a day.",
+              "exampleCn": "这家初创公司设计了一款符合人体工程学的键盘，可减轻每天打字八小时的软件工程师的手腕疲劳。"
+            },
+            {
+              "word": "workflow",
+              "pos": "n.",
+              "meaning": "工作流程，完成某项任务的一系列步骤或过程。在 SaaS、创意工作和项目管理中极为常见，比 process（流程）更强调步骤间的连贯性与自动化潜力。「disrupt one's workflow（打乱工作流程）」是科技报道中的高频搭配，值得整体记忆。",
+              "etymology": "英语复合词，work（工作）+ flow（流动）。20世纪随工业管理学兴起而广泛使用，后在软件工程和创意产业中成为核心术语。flow 本义指液体流动，引申为「顺畅推进」的状态。",
+              "morphology": "work + flow 直接复合构成。相关词：workflow automation（工作流自动化）、workflow management（工作流管理）。近义词梯度：routine（例行程序，偏个人）→ process（流程，偏正式）→ workflow（含自动化潜力）→ pipeline（管道，偏数据/软件开发）。",
+              "mnemonic": "联想「go with the flow（顺势而为）」——workflow 就是让工作「跟着流动」的设计。想象一条流水线，每道工序顺畅衔接，一气呵成，那就是 workflow 顺畅；卡在某个环节，就是 workflow disrupted（流程中断）。",
+              "exampleEn": "Switching from a physical keyboard to a touchscreen disrupted the journalist's workflow and slowed her article output by 30%.",
+              "exampleCn": "从实体键盘换成触屏后，这位记者的工作流程被打乱，文章产出速度下降了30%。"
+            }
+          ]
+        },
+        {
+          "id": "20260705-5",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+          "headlineEn": "Google Ad Imagines Founding Fathers Drafting Declaration of Independence with AI",
+          "headlineCn": "谷歌广告设想：如果开国元勋用AI起草《独立宣言》",
+          "summaryEn": "To mark the 250th anniversary of the Declaration of Independence, Google released a commercial envisioning America's Founding Fathers using Google Workspace to draft the historic document. The ad blends patriotic nostalgia with AI-assisted productivity, positioning Google's suite as a catalyst for transformative ideas. It sparks debate about AI's role in human creativity and illustrates how tech companies are weaving artificial intelligence into cultural milestones to deepen brand relevance.",
+          "summaryCn": "在《独立宣言》签署250周年之际，谷歌推出一支创意广告，设想美国开国元勋们借助Google Workspace起草这份历史性文件。广告将爱国情怀与AI辅助写作相融合，引发公众对人工智能在人类创作中角色的广泛讨论。这也展现出科技公司如何将AI嵌入重大文化节点，以强化品牌共鸣、扩大市场影响力。",
+          "excerpt": "Two hundred and fifty years after America's Founding Fathers signed the Declaration of Independence, Google's new commercial poses a bold question: what if Thomas Jefferson had Google Workspace at his fingertips? The ad reimagines a landmark moment in history through the lens of AI-assisted collaboration.",
+          "vocab": [
+            {
+              "word": "envision",
+              "pos": "v.",
+              "meaning": "想象、展望（尤指对积极未来的主动构想）。比 imagine 更正式，常见于商业计划、产品发布和战略演讲，强调「把未来画面主动装进脑海」的意志感，是科技公司CEO演讲中的超高频词，值得优先掌握",
+              "etymology": "来自法语 en-（使进入某状态）加 vision（视觉），词根源自拉丁语 visio（看见）。字面义为「使某事进入视野」，16世纪起进入英语，最初用于宗教「异象」语境，后演变为世俗的「构想未来」",
+              "morphology": "en-（使成为）+ vision（看见）。同前缀词：enable, enrich, encompass；同词根词：visible, visual, supervise, provision。掌握词根 vis-/vid- 可串联一族「视觉系」词汇",
+              "mnemonic": "把 en-vision 理解为「把画面装进你的眼球」——想象 Steve Jobs 站在台上，眼前投影出未来世界，那种「我看见了未来」的气势就是 envision。听到 CEO 演讲开口就用这个词，画面感极强",
+              "exampleEn": "The startup's pitch deck opened with a bold statement: 'We envision a world where every small business has access to enterprise-grade AI tools.'",
+              "exampleCn": "这家初创公司的路演幻灯片以一句大胆宣言开场：「我们展望一个每家小企业都能使用企业级AI工具的世界。」"
+            },
+            {
+              "word": "counterfactual",
+              "pos": "adj. / n.",
+              "meaning": "反事实的；「如果历史不同会怎样」的假设性情景。AI研究中指「反事实推理」（counterfactual reasoning），投资复盘中指「假设另一种策略会怎样」。比 hypothetical 更精确，专指与已知事实相反的假设，是分析类英文写作的利器",
+              "etymology": "counter-（反对）来自拉丁语 contra；factual 源自拉丁语 factum（已做之事，即 fact 的词根）。合义「与事实相对的」，20世纪中期由哲学家和逻辑学家引入英语，后被AI与机器学习领域大量采用",
+              "morphology": "counter-（反）+ fact（事实）+ -ual（形容词后缀）。同前缀词：counterpart, counterintuitive, countermeasure；同词根词：artifact, manufacture, factor。理解词根 fact- 可连接一族「做/事实」相关词",
+              "mnemonic": "counter 有「柜台」也有「反击」之意，factual 是「事实性的」。想象你站在「事实柜台」的对面说：「不对，如果当初那样做，结果应该是……」——这就是 counterfactual 分析，AI论文里的常客",
+              "exampleEn": "The research team ran a counterfactual analysis to estimate how much revenue the company would have lost had it not adopted cloud infrastructure in 2020.",
+              "exampleCn": "研究团队进行了反事实分析，以估算该公司若未在2020年采用云基础设施将损失多少收入。"
+            },
+            {
+              "word": "evoke",
+              "pos": "v.",
+              "meaning": "唤起、引发（情感、记忆或联想）。品牌营销、产品设计和广告文案中的核心词，比 trigger（触发）更具温度，强调情感共鸣而非单纯刺激。掌握此词可大幅提升品牌和设计类英文写作的质感，与 provoke、invoke 是易混三兄弟",
+              "etymology": "来自拉丁语 evocare：e-（向外）加 vocare（呼唤）。原义是「呼唤神灵显现」，为古罗马宗教仪式用词。约17世纪进入英语，演变为「唤起记忆或情感」的世俗含义",
+              "morphology": "e-（向外）+ voc（声音/呼唤）词根。同词根词：vocal, vocation, advocate, provoke, invoke。三词区分：provoke 偏「激怒」，invoke 偏「正式调用」，evoke 偏「情感唤起」，语域各有侧重",
+              "mnemonic": "evoke = e（出来）+ voke（voice 声音的变体）——用广告词、旋律、画面把深藏心底的情感「叫出来」。品牌设计师最爱说「This design evokes trust and warmth」，记住这个场景就记住这个词",
+              "exampleEn": "Apple's product launches are carefully choreographed to evoke a sense of wonder and aspiration in the audience.",
+              "exampleCn": "苹果的产品发布会经过精心编排，旨在唤起观众内心的惊奇感与对美好生活的向往。"
+            },
+            {
+              "word": "commemorate",
+              "pos": "v.",
+              "meaning": "纪念、庆祝（某一重要历史事件或人物）。企业常用于周年营销活动（如「to commemorate our 10th anniversary」）。比 celebrate 更庄重，带有向过去致敬的仪式感，常出现于新闻稿、品牌声明和官方公告",
+              "etymology": "来自拉丁语 commemorare：com-（共同、加强语气）加 memorare（记住），词根 memor 表示「记忆」，与 memory、memorial 同源。原为宗教仪式中「共同铭记」之义，后泛化为一般性纪念",
+              "morphology": "com-（共同）+ memor（记忆）+ -ate（动词后缀）。同词根词：memory, memorial, memorize, memorable；同前缀词：community, combine, commerce。掌握词根 memor- 可串联所有「记忆」类词汇",
+              "mnemonic": "com（一起）加 memory（记忆）等于「大家一起记住某件事」。想象公司全员手捧蛋糕，背景展示创始人照片，commemorate 公司创立十周年——这个画面就是这个词的完美注脚",
+              "exampleEn": "The tech giant launched a limited-edition product line to commemorate the 30th anniversary of its founding, generating significant media coverage.",
+              "exampleCn": "这家科技巨头推出了限量版产品线以纪念创立30周年，引发了大量媒体报道。"
+            },
+            {
+              "word": "speculative",
+              "pos": "adj.",
+              "meaning": "推测性的；基于假设而非已知事实的。在科技/金融中有两大用法：①「speculative investment」指高风险投机性投资；②「speculative scenario」指推测性情景分析。同一个词在不同语境意思差异显著，务必结合上下文判断，避免误读",
+              "etymology": "来自拉丁语 speculari（瞭望、侦察），词根 specul- 与 spectare（看）同源，原义为「从高处观察地形」。中世纪哲学引申为「理论性推思」，17世纪进入英语后同时发展出「猜测」和「投机」双义",
+              "morphology": "speculat（推测）+ -ive（形容词后缀）。同词根词：speculate, speculation, spectacle, inspect, prospect, perspective。金融高频搭配：speculative bubble（投机泡沫）、speculative grade（投机级债券）",
+              "mnemonic": "spec 联想 spectacle（眼镜/奇观），你透过望远镜眺望遥远的未来——那些「看到的东西」都是模糊不确定的猜测，就是 speculative。投资里「speculative stock」就是那些只能靠望远镜猜涨跌的股票",
+              "exampleEn": "While the roadmap remains speculative, analysts believe the company is on track to launch its autonomous vehicle platform within five years.",
+              "exampleCn": "尽管路线图仍具推测性，分析师认为该公司有望在五年内推出自动驾驶汽车平台。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-04": {
       "label": "7月4日 (周六)",
       "stories": [
@@ -9197,326 +9517,6 @@
               "mnemonic": "想象一台赛车引擎转速飙红冒烟——经济「引擎」也一样，增长太快就会 overheat，通胀报警，央行踩刹车（加息）强制降温。热就要降温，逻辑一目了然",
               "exampleEn": "Analysts warned that the labor market was overheating, with wage growth running well above levels consistent with the Fed's 2% inflation target.",
               "exampleCn": "分析人士警告称劳动力市场正在过热，工资增速已远超与联储2%通胀目标相符的水平。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-05": {
-      "label": "6月5日 (周五)",
-      "stories": [
-        {
-          "id": "20260605-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
-          "headlineEn": "Apple Approves Poke as First AI Agent on Messages for Business Platform",
-          "headlineCn": "Apple 批准 Poke 入驻商务消息平台，成首个 AI 智能体",
-          "summaryEn": "Apple has approved Poke, an AI startup, as the first AI agent on its Messages for Business platform. Poke allows businesses to deploy AI-powered agents that communicate with customers through standard text messages, eliminating the need for separate apps. The approval marks a pivotal moment for conversational AI in enterprise messaging, signaling Apple's willingness to open its tightly controlled messaging infrastructure to AI-driven third-party services and potentially reshaping how companies engage customers at scale.",
-          "summaryCn": "苹果公司已批准 AI 初创公司 Poke 成为「商务消息」平台上的首个 AI 智能体。Poke 的核心功能允许企业通过普通短信渠道向客户提供 AI 智能体服务，用户无需下载任何专属应用程序即可交互。此次获批意义深远——苹果历来以严格管控平台生态闻名，此举标志着其开始向 AI 驱动的第三方服务开放消息基础设施。对企业而言，借助苹果官方消息渠道直接触达用户将大幅降低获客门槛，或将重塑企业客服与用户沟通的未来形态。",
-          "excerpt": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple's Messages for Business platform — a tightly controlled channel businesses use to reach iPhone users directly without a dedicated app.",
-          "vocab": [
-            {
-              "word": "greenlight",
-              "pos": "v. / n.",
-              "meaning": "批准；正式放行。比 approve 更生动，源自交通灯意象，商业语境中常指高层对项目或合作「开绿灯」，语气轻松却含权威性。值得学是因为它在科技媒体报道中极高频，且兼作动词和名词两用。",
-              "etymology": "20世纪初英语，源自交通信号灯中绿灯（green light）表示「可通行」的含义，20世纪中期引申为「给予官方批准」，是典型的英语隐喻词汇化案例，由物理信号演变为权力许可的象征。",
-              "morphology": "green（颜色词）+ light（光）→ 合成动词/名词，可说 greenlight a project 或 give the greenlight。同类合成词：spotlight（聚焦）、highlight（重点标记）、flashlight（手电筒）。",
-              "mnemonic": "想象交通灯：红灯停、绿灯行。Apple 对 Poke「亮了绿灯」就是 greenlighted it。绿灯 = 通行 = 批准，画面感极强，一想到路口就能记住这个词。",
-              "exampleEn": "The board greenlighted the $200 million acquisition after months of due diligence.",
-              "exampleCn": "经过数月尽职调查，董事会批准了这笔2亿美元的收购案。"
-            },
-            {
-              "word": "gatekeeper",
-              "pos": "n.",
-              "meaning": "守门人；掌控准入权的机构或个人。科技语境中特指苹果、谷歌等控制平台入口的大公司，常出现在反垄断和平台监管讨论中，带有权力集中的隐含批评色彩，是理解平台经济必备词汇。",
-              "etymology": "源自中古英语，gate（门）+ keeper（看守者），原指字面意义上看守城门或庄园大门的人，现广泛引申为「控制信息或资源流通的机构」，语义从物理门禁演变为制度性权力。",
-              "morphology": "gate（门，来自古诺尔斯语 gat）+ keep（保管）+ -er（施动者后缀）。同族词：goalkeeper（守门员）、shopkeeper（店主）、timekeeper（计时员），规律清晰。",
-              "mnemonic": "把苹果 App Store 想象成一扇大门，Apple 就是站在门口的 keeper——不点头，任何服务都进不来。Gatekeeper = 门口的把关人，这个画面记住了，词就记住了。",
-              "exampleEn": "Regulators are scrutinizing Apple and Google as digital gatekeepers that control access to billions of smartphone users.",
-              "exampleCn": "监管机构正在审查苹果和谷歌，认为它们是控制数十亿智能手机用户入口的数字守门人。"
-            },
-            {
-              "word": "vet",
-              "pos": "v.",
-              "meaning": "审查；严格核查。指在正式批准前对产品、人员或方案进行彻底审核。比 check 或 review 更正式，暗含「专业、挑剔、有标准」的意味，常见于招聘、合规和平台审核场景，是商业英语的高频动词。",
-              "etymology": "19世纪英语，由 veterinarian（兽医）缩写而来——兽医赛前须仔细检查马匹健康状况以确认是否适合参赛，后引申为「对任何对象进行专业审查」，是职业词缩写引申的典型案例。",
-              "morphology": "vet 是 veterinarian 的缩写，衍生出 vetting（名词化，审查过程）、vetted（已审查的）、unvetted（未经审查的）。类似缩写词：lab（laboratory）、ad（advertisement）、exec（executive）。",
-              "mnemonic": "兽医（vet）赛前检查赛马——只有通过检查的马才能上场。Apple 批准 Poke 前也要先「兽医」一番。兽医 = vet = 审查，一词双义，用兽医检查马的画面锁定记忆。",
-              "exampleEn": "All third-party vendors must be vetted by the compliance team before being added to the approved supplier list.",
-              "exampleCn": "所有第三方供应商必须经过合规团队的审查，才能被列入批准供应商名单。"
-            },
-            {
-              "word": "frictionless",
-              "pos": "adj.",
-              "meaning": "无摩擦的；体验顺畅无阻的。科技和电商语境的高频词，描述用户流程极简、步骤少、不需费力的状态。比 smooth 或 easy 更专业，是产品经理和投资人的标志性词汇，Poke 的短信交互正是主打这一体验卖点。",
-              "etymology": "源自物理学术语 friction（摩擦力，来自拉丁语 frictio，意为揉搓、摩擦），加否定后缀 -less，本义「无摩擦」。20世纪末被科技和商业界借用，比喻「没有阻力的用户体验或交易流程」。",
-              "morphology": "friction（摩擦，拉丁语 frictio）+ -less（无……的后缀）。同类否定形容词：seamless（无缝的）、effortless（不费力的）、flawless（无瑕的）、cashless（无现金的），构词规律完全一致。",
-              "mnemonic": "想象用短信聊天购物：不用下 App，不用注册，直接发消息就完成交易，就像在冰面上滑行——零阻力。冰面 = 无摩擦 = frictionless，记住这块冰就够了。",
-              "exampleEn": "The startup's goal is to create a frictionless checkout experience that takes fewer than ten seconds to complete.",
-              "exampleCn": "这家初创公司的目标是打造一种不到十秒即可完成的顺畅结账体验。"
-            },
-            {
-              "word": "foray",
-              "pos": "n.",
-              "meaning": "初次涉足；试探性进入新领域。比 attempt 或 entry 更有探险感，暗示大机构走出舒适区、试水新业务的动作，常用于科技公司跨界或平台扩张的报道中。Apple 开放 AI 智能体准入，正是向新领地的一次 foray。",
-              "etymology": "14世纪借自法语 forrier（掠夺者），源自古法语 forre（饲料），原指骑兵出击掠夺粮草的军事行动，后引申为「短暂的冒险或初次尝试」，语义从军事突袭转向商业探索。",
-              "morphology": "整词借自法语，无英语词根可拆解。常见搭配：make a foray into（涉足……）、foray into new markets（进军新市场）。近义辨析：foray（首次试水，带冒险感）vs. entry（进入，中性）vs. incursion（强行介入，贬义）。",
-              "mnemonic": "想象中世纪骑士冲出城堡去抢粮草——短暂、大胆、带点冒险。Apple 开放 AI 智能体，就是向 AI 新领地的一次 foray：试探性出击，探探水深。骑士抢粮 = 试探出击 = foray。",
-              "exampleEn": "Amazon's foray into healthcare with the acquisition of One Medical reshaped expectations for big tech in the sector.",
-              "exampleCn": "亚马逊通过收购 One Medical 首次大举进军医疗健康领域，重塑了外界对大型科技公司涉足该行业的预期。"
-            }
-          ]
-        },
-        {
-          "id": "20260605-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/04/helion-the-sam-altman-backed-fusion-startup-raises-465m-to-build-a-power-plant-for-microsoft/",
-          "headlineEn": "Helion Raises $465M to Build First Commercial Fusion Power Plant for Microsoft",
-          "headlineCn": "核聚变初创公司Helion融资4.65亿美元，将为微软建造首座商业聚变电厂",
-          "summaryEn": "Nuclear fusion startup Helion Energy, backed by OpenAI CEO Sam Altman, has raised $465 million to help build a fusion power plant for Microsoft by 2028. Fusion energy mimics reactions that power the sun, offering a potentially limitless, clean energy source. This funding marks a major step toward making fusion commercially viable. For Microsoft, which faces rising energy demands from AI data centers, a dedicated fusion plant could provide a stable, green power supply—an increasingly urgent priority.",
-          "summaryCn": "核聚变初创公司Helion Energy完成新一轮4.65亿美元融资，该公司背后有OpenAI首席执行官萨姆·奥特曼的支持。这笔资金将加速建设一座专为微软供电的核聚变电厂，目标是在2028年前完工。核聚变能源模拟太阳内部的反应过程，有望成为近乎无限且清洁的能源来源。对于因人工智能数据中心而面临日益增长用电需求的微软而言，拥有一座专属核聚变电厂将大幅提升绿色能源供应的稳定性。此次融资标志着人类距离核聚变商业化又迈进了关键一步。",
-          "excerpt": "Fusion startup Helion is racing to complete a power plant for Microsoft by 2028. A fresh infusion of cash — $465 million — should help with that. Backed by OpenAI CEO Sam Altman, Helion aims to prove that nuclear fusion can be commercially viable, not just a scientific milestone.",
-          "vocab": [
-            {
-              "word": "infusion",
-              "pos": "n.",
-              "meaning": "（资金）注入；活力输入。原为医学术语，后引申为向公司「输血」。搭配「cash infusion」或「fresh infusion of capital」，比injection更正式且更有活力感，常见于商业融资报道，是财经英语高频词，值得重点掌握",
-              "etymology": "来自拉丁语infusio，由in-（向内）和fundere（倾倒、浇注）构成，原义「将液体倒入某容器」，经由医学「输液」义逐步引申为商业「注资」",
-              "morphology": "in-（向内）+ fuse（源自fundere，倾倒）+ -ion（名词后缀）。同词根词：transfusion（输血/转移）、diffusion（扩散）、confuse（使混乱，原义「倒在一起」）",
-              "mnemonic": "想象医生将生理盐水输入病人体内，商业报道里把钱「输入」公司也用这个词——都是「往里倒」。in + fuse（熔合、倒入）= 往里注入，医院画面直接套用到融资场景，秒记",
-              "exampleEn": "The struggling EV startup survived thanks to a $200 million cash infusion from its strategic partner.",
-              "exampleCn": "这家陷入困境的电动汽车初创公司依靠其战略合作伙伴注入的2亿美元资金得以存活。"
-            },
-            {
-              "word": "viable",
-              "pos": "adj.",
-              "meaning": "可行的；有生存能力的。常见搭配：commercially viable（商业上可行的）。比feasible更强调「能独立存活、可持续运营」，常用于评估技术或商业模式是否真正有前景，是科技投资报道的核心判断词",
-              "etymology": "来自法语viable，源自拉丁语vita（生命）。原义指「有生命力的、能存活的」，最初用于描述新生儿是否能存活，后扩展为「可行的、有发展潜力的」",
-              "morphology": "via（生命，源自拉丁vita）+ -ble（能……的形容词后缀）。同族词：vital（生命的、至关重要的）、vitality（活力）、vitamin（维生素，字面义「生命所需胺类物质」）",
-              "mnemonic": "via + ble谐音「Via（路）+ able（能）」，走这条路能走通 = viable（可行的）。想象有人问「这条路通吗？」→ It's viable!（行得通！）一个问路场景，永远不会忘",
-              "exampleEn": "Analysts questioned whether the company's subscription model was commercially viable in such a competitive market.",
-              "exampleCn": "分析师质疑该公司的订阅模式在如此竞争激烈的市场中是否具有商业可行性。"
-            },
-            {
-              "word": "milestone",
-              "pos": "n.",
-              "meaning": "里程碑；重要阶段性节点。原指道路上标注距离的石碑，现广泛用于项目管理和融资报道。搭配：hit a milestone（达到里程碑）、key milestone。比achievement更有时间轴意识，强调「进程中某个具体的可量化节点」",
-              "etymology": "古英语与中古英语复合词，字面义为「道路上每隔一英里设置的石头标记」（mile + stone），用于标注旅行距离。17世纪起开始隐喻重要的历史或项目节点",
-              "morphology": "mile（英里）+ stone（石头）= 英里标记石，属复合词无词缀。同类道路隐喻词：landmark（地标，同样有隐喻用法）、benchmark（基准，另一道路测量隐喻词）",
-              "mnemonic": "想象古代公路旁每隔一英里立着一块石头，旅人看到它就知道「走到哪了」。商业里的milestone也一样——让你知道项目走到哪个节点了。mile + stone，画面直白，秒记",
-              "exampleEn": "The biotech firm reached a critical milestone after its drug successfully passed Phase 2 clinical trials.",
-              "exampleCn": "这家生物技术公司在其药物成功通过二期临床试验后，达到了一个关键里程碑。"
-            },
-            {
-              "word": "grid",
-              "pos": "n.",
-              "meaning": "电网；输电基础设施网络。在能源语境中特指the grid（国家或区域电网）。常见搭配：connect to the grid（并网）、off-grid（离网）、grid-scale storage（电网级储能）。理解清洁能源与数据中心用电讨论的核心词汇，在AI能源报道中出现频率极高",
-              "etymology": "来自中古英语gridire，源自古法语grédil，与grill（烤架）同源，原义为「交叉排列的金属条」。20世纪初开始用于指代纵横交错如网格的电力传输系统",
-              "morphology": "单音节词，无词缀。常见复合词：power grid（电力网）、smart grid（智能电网）、grid-scale（电网规模的）。派生词：gridlock（交通或谈判僵局，grid + lock，比喻「卡住走不动」）",
-              "mnemonic": "grid本义是「方格网」，想象Excel表格的方格线。电网也是纵横交错如网格，所以叫the grid。Excel grid = 方格 → power grid = 电力方格网。用Excel打开「电网」，一秒记住",
-              "exampleEn": "The new solar farm will generate enough electricity to supply 50,000 homes once it connects to the national grid.",
-              "exampleCn": "这座新太阳能发电场一旦接入国家电网，将能为5万户家庭供电。"
-            },
-            {
-              "word": "race to",
-              "pos": "phrase",
-              "meaning": "争分夺秒地赶着完成某事；全力冲刺。将时间压力具象化为一场赛跑，是商业和科技报道中极常见的紧迫感表达，比hurry或rush更有竞争对抗意味，暗含「如果不快就会落后甚至失败」的危机感",
-              "etymology": "race来自古诺尔斯语rás，意为「奔跑、洪流」。进入中古英语后保留「快速移动」之义，后扩展为「竞赛」，再引申为「争分夺秒完成某事」的比喻用法",
-              "morphology": "race（单音节词，无词缀）+ to（不定式标记）。常见扩展短语：race against time（与时间赛跑）、race to the bottom（竞相压低底线）、race to the top（竞相提升标准）",
-              "mnemonic": "想象短跑运动员在跑道上拼命冲刺——race to the finish line。商业报道里「race to complete a project」就是把截止日期比作终点线。Helion正向2028年终点线全力冲刺，画面感极强",
-              "exampleEn": "Tech companies are racing to deploy AI-powered tools before their rivals capture the market.",
-              "exampleCn": "科技公司正争分夺秒地部署人工智能工具，以期在竞争对手占领市场之前抢先布局。"
-            }
-          ]
-        },
-        {
-          "id": "20260605-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-          "headlineEn": "Airbnb CEO Brian Chesky Plans to Launch a New AI Research Lab",
-          "headlineCn": "Airbnb CEO切斯基计划创立全新AI研究实验室",
-          "summaryEn": "Airbnb CEO Brian Chesky has announced plans to establish a new artificial intelligence lab, marking a significant strategic shift for the home-sharing platform. Chesky had previously declined LLM partnerships, stating that existing products were not quite ready for Airbnb's needs. By building AI capabilities in-house rather than licensing third-party models, Airbnb aims to develop proprietary tools tailored specifically to its platform. The move reflects growing corporate conviction that off-the-shelf AI solutions cannot deliver meaningful competitive differentiation.",
-          "summaryCn": "Airbnb CEO布莱恩·切斯基宣布计划创立全新AI实验室，标志着这家民宿平台迈出大胆的战略转型一步。切斯基此前拒绝与大型语言模型供应商合作，称现有产品尚未达到Airbnb的需求标准。此举旨在自主研发平台专属AI工具，而非依赖现成第三方模型，折射出企业界对「开箱即用」AI方案难以形成真正竞争差异化优势的日益普遍的判断。",
-          "excerpt": "Airbnb CEO Brian Chesky is planning to launch a new AI lab. Chesky previously noted the company had not struck an LLM partnership because existing products were not quite ready, suggesting the new lab aims to develop in-house capabilities tailored specifically to Airbnb's platform needs.",
-          "vocab": [
-            {
-              "word": "spin up",
-              "pos": "phrasal v.",
-              "meaning": "（科技/创业语境）快速启动或建立（项目、团队、系统）；比泛泛的「start」更具工程师文化语感，隐含「从零加速至全功率」的动态过程，多用于描述内部行动的迅速落地，例如「spin up a lab」「spin up a task force」",
-              "etymology": "源自机械与物理领域，原指让涡轮或发动机转速提升至工作状态；1990年代后被硅谷科技行业借用，意为「快速启动一个新项目或团队」，现已成为工程师与创投圈日常用语",
-              "morphology": "spin（旋转）+ up（提升/向上）——典型的方向性副词短语动词；同族短语：spin off（拆分为独立公司）、spin out（剥离/失控）、wind up（收尾/清算），可见方向副词改变动作语义的规律",
-              "mnemonic": "想象直升机旋翼从静止到全速旋转——「spin up」就是让一个新实验室/项目从零加速到满功率运转。旋翼不转，飞机飞不起来；AI lab不「spin up」，研究无从开始。旋转起来的那一刻，就是它",
-              "exampleEn": "The startup spun up a dedicated safety team within weeks of closing its Series B round.",
-              "exampleCn": "该初创公司在B轮融资结束后数周内便迅速组建了一支专职安全团队。"
-            },
-            {
-              "word": "in-house",
-              "pos": "adj. / adv.",
-              "meaning": "内部自研/自建的，相对于外包或采购第三方产品；理解科技公司「战略自主性」的核心词，常见搭配：in-house development、build in-house、keep it in-house；用它能精准区分「自己做」与「买来用」两种战略路径",
-              "etymology": "英语 in（在内部）+ house（机构/公司），20世纪初商业英语开始广泛使用，最初指「公司内部制作」的广告或出版物，后扩展至所有「内部自建」的能力与资源",
-              "morphology": "前缀 in-（在内部）+ house（组织）；对立词：outsource（外包）、third-party（第三方）；相关搭配：in-house counsel（企业内部法律顾问）、in-house model（自研模型）、in-house talent（内部人才）",
-              "mnemonic": "想象一家餐厅「自己在厨房做蛋糕」vs「从外面订购」——in-house就是那个亲手在「house」里做的版本。Airbnb选择不买现成LLM，而是在自家「house」里建AI实验室，这就是战略上的in-house",
-              "exampleEn": "Apple has long preferred to develop its processors in-house rather than rely on third-party chip suppliers.",
-              "exampleCn": "苹果长期以来倾向于自研处理器，而非依赖第三方芯片供应商。"
-            },
-            {
-              "word": "vet",
-              "pos": "v.",
-              "meaning": "仔细审查、严格筛选（合作伙伴、产品、候选人）；比 review（审阅）更强调主动的、标准化的全面评估，带有「合格才放行」的含义；Chesky拒绝LLM合作，背后正是一轮严格的「vetting」过程",
-              "etymology": "缩写自 veterinarian（兽医），19世纪英国赛马业最先使用——「让兽医检查赛马是否适合上场」；19世纪末扩展为政治与商业语境中的「严格审核」，现广泛用于招聘、尽调、合规等场景",
-              "morphology": "vet（动词，由名词兽医直接转化而来，零派生）；常见派生：vetting（n. 审查过程，如「background vetting」）、vetted（adj. 已通过审核的）、unvetted（adj. 未经审核的）",
-              "mnemonic": "赛马场上，骑师出赛前兽医要逐一「检查马蹄、心肺、体重」。vet一匹马就是给它做一次全面体检——公司「vet」一个LLM合作伙伴，就像兽医检查赛马一样，从头到脚把它审一遍，不合格不放行",
-              "exampleEn": "Before signing any data-sharing agreement, the legal team thoroughly vets each third-party vendor.",
-              "exampleCn": "在签署任何数据共享协议之前，法务团队会对每家第三方供应商进行严格审查。"
-            },
-            {
-              "word": "conviction",
-              "pos": "n.",
-              "meaning": "强烈信念、坚定判断；在投资与商业语境中特指「基于深度研究的高确信度押注」（如「high-conviction position」），表达的确定性远强于 belief 或 view，是华尔街与创投圈的核心词汇，也常用来形容CEO做战略决策时的底气",
-              "etymology": "来自拉丁语 convincere（彻底证明、击败），经古法语进入英语；原义是法庭上「定罪」，延伸为「内心深处无法动摇的确信」；商业语境完整保留了这种「不可撼动」的强烈语气",
-              "morphology": "con-（完全、彻底）+ vinc/vic-（词根：征服、证明）+ -tion（名词后缀）；同词根：convince（说服）、invincible（不可战胜的）、evict（驱逐）、province（管辖范围）",
-              "mnemonic": "con-（完全）+ vince（征服）——当你「完全被一个观点征服」，你就有了conviction。想象陪审团宣布定罪时那种不可动摇的确定感，就是商业中「high-conviction bet」背后的底气。被征服了，才叫conviction",
-              "exampleEn": "The fund manager entered the position with high conviction, allocating 8% of the portfolio to the stock.",
-              "exampleCn": "该基金经理以高度确信的姿态建仓，将投资组合的8%配置于该股票。"
-            },
-            {
-              "word": "adjacent",
-              "pos": "adj.",
-              "meaning": "（商业/战略语境）相邻领域的、周边市场的；指「与核心业务密切关联但尚未深度涉足」的机会区域；比 related（相关的）更具「战略距离感」，常见于麦肯锡式战略分析：「expand into adjacencies」「adjacent market opportunity」",
-              "etymology": "来自拉丁语 adjacēre（躺在旁边），由 ad-（靠近）+ jacēre（躺、位于）构成；原为地理术语指物理空间上「紧邻的」，后延伸为商业战略中「相邻市场/领域」的抽象含义",
-              "morphology": "ad-（靠近、向）+ jac-（词根：躺、位于）+ -ent（形容词后缀）；派生：adjacency（n. 相邻性，常用复数 adjacencies 指多个周边机会）；同词根近亲：project（投射）、object（物体）、subject（主题）",
-              "mnemonic": "ad-（靠近）+ jacēre（躺在那里）——想象两块紧挨着的土地，一块是你的，另一块「静静躺在旁边」。「adjacent market」就是那块「躺在你隔壁」的市场，随时可以扩张过去，唾手可得却还没动",
-              "exampleEn": "After dominating ride-hailing, the company is now eyeing adjacent markets in food delivery and financial services.",
-              "exampleCn": "在主导网约车市场之后，该公司正将目光投向外卖和金融服务等相邻领域。"
-            }
-          ]
-        },
-        {
-          "id": "20260605-4",
-          "category": "biz",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/jeff-bezos-is-funding-a-wild-hunt-for-the-brains-core-algorithm/",
-          "headlineEn": "Jeff Bezos Backs $500M Hunt for the Brain's Core Algorithm",
-          "headlineCn": "贝索斯押注5亿美元，追寻大脑「核心算法」",
-          "summaryEn": "Flourish, a neuroscience-AI startup backed by Jeff Bezos, has raised $500 million at a reported $2.5 billion valuation. The company's bold ambition is to reverse-engineer how biological neurons process information and extract a core algorithm that could fundamentally reshape artificial intelligence. Unlike conventional AI built on mathematical abstractions, Flourish places actual neurons under microscopes to decode the brain's computational logic. Investors believe that bridging neuroscience and machine learning could unlock the next paradigm in AI development.",
-          "summaryCn": "由杰夫·贝索斯参与投资的神经科学初创公司Flourish已完成5亿美元融资，据报道估值高达25亿美元。该公司志向远大，试图通过研究真实神经元的运作方式，提取出大脑处理信息的「核心算法」，从而从根本上重塑人工智能的设计逻辑。与依赖数学抽象模型的传统AI路线不同，Flourish将真实神经元置于显微镜下进行观察与解码。投资者相信，融合神经科学与机器学习的新范式，有望开启AI发展的下一个里程碑。",
-          "excerpt": "Flourish is betting that the brain holds a hidden computational blueprint that modern AI has yet to discover. With $500 million in fresh funding and a $2.5 billion valuation, the Bezos-backed startup is placing real neurons under the microscope, hoping to bridge biological intelligence and artificial systems.",
-          "vocab": [
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "（公司）估值；指投资方对企业价值的判断与定价。在融资语境中，valuation 比 value 更专业，专指外部投资人给出的定价，而非账面资产价值。几乎出现在所有科技融资报道中，是读懂商业新闻的核心词。",
-              "etymology": "来自拉丁语 valere（有价值、有力量），经由中世纪英语 value 演变，加上名词后缀 -ation，形成「估算价值的行为或结果」之义，14世纪进入英语。",
-              "morphology": "val-（词根，价值）+ -ation（名词后缀）。同词根词：valuable（有价值的）、devalue（贬值）、equivalent（等值的）、valor（英勇，字面义「有力量的品质」）。",
-              "mnemonic": "想象一位VC拿着计算器（val = value），给创业公司「贴价签」——这张价签上的数字就是 valuation。与 evaluation 区分：evaluation 是评估的过程，valuation 是定价的结果，一字之差，商业语义天壤之别。",
-              "exampleEn": "The startup's valuation surged to $10 billion after its latest funding round, despite having yet to turn a profit.",
-              "exampleCn": "这家初创公司在最新一轮融资后估值飙升至100亿美元，尽管尚未实现盈利。"
-            },
-            {
-              "word": "emulate",
-              "pos": "v.",
-              "meaning": "仿效、模拟（以超越为目标）；在科技语境中特指软件或系统复现另一套系统的行为。区别于 imitate（模仿外形）和 simulate（模拟过程），emulate 强调「以匹敌甚至超越原版为目标」的仿效，带竞争意味，是AI仿脑研究报道的核心词。",
-              "etymology": "来自拉丁语 aemulari，意为「竞争、角逐」，与 aemulus（竞争者）同源，原义是「与强者比肩」。语义从「争胜」演变为「以...为榜样并力求超越」，16世纪进入英语。",
-              "morphology": "拉丁词根 aemul-（竞争）+ -ate（动词后缀）。派生词：emulation（n. 仿效；竞争）、emulator（n. 模拟器）、emulative（adj. 好胜的）。",
-              "mnemonic": "e（出发）+ mulate（联想 mule 骡子）——骡子是马和驴的「混合升级版」，emulate 就是「以超越为目标的模仿」。记住它比 imitate 多一层「要超越」的野心，与 simulate 的区别是「有竞争心」。",
-              "exampleEn": "The chip designer spent three years building hardware that can emulate the neural architecture of the human cortex at scale.",
-              "exampleCn": "这家芯片设计公司花了三年时间打造能够大规模复现人类大脑皮层神经架构的硬件。"
-            },
-            {
-              "word": "cognitive",
-              "pos": "adj.",
-              "meaning": "认知的，与思维、感知、记忆、学习等心理过程相关；在AI和科技报道中极高频，如 cognitive computing（认知计算）、cognitive load（认知负荷）、cognitive architecture（认知架构）。掌握此词可解锁大量相关术语，是阅读AI与神经科学报道的必备基础词。",
-              "etymology": "来自拉丁语 cognoscere（认识、了解），由 co-（共同）+ gnoscere（知道）构成，与英语 know 同属印欧词根 *gno-（知道），16世纪进入英语学术词汇。",
-              "morphology": "cogni-（认知词根）+ -tive（形容词后缀）。同族词：cognition（n. 认知）、recognize（v. 识别，re- 再次 + cogni- 认知）、incognito（adj. 匿名的，字面义「不被识别的」）。",
-              "mnemonic": "「cog」联想齿轮（cog = gear），大脑里的「认知齿轮」转动 → cognitive。还可联系 recognize（re + cognize = 再次认知），两词共享 cogni- 词根，一记两得。",
-              "exampleEn": "Tech companies are racing to build cognitive computing systems capable of reasoning and self-correction without human input.",
-              "exampleCn": "科技公司正竞相打造能够在无人工干预的情况下进行推理和自我纠错的认知计算系统。"
-            },
-            {
-              "word": "unravel",
-              "pos": "v.",
-              "meaning": "解开（谜团或复杂问题）；字面义为拆开缠绕的线，引申为「弄清楚复杂事物的来龙去脉」。语气比 solve 更强调过程的艰难与层层剥开的特性，且反向也可表示「（局面）崩解瓦解」，如 the deal unraveled（谈判破裂），一词两义需注意语境。",
-              "etymology": "来自荷兰语 ravelen（缠绕、纠缠），加逆向前缀 un-，形成「解开缠绕」之义。17世纪进入英语，逐渐引申为「解开谜团」，也可反用表示「局势失控瓦解」。",
-              "morphology": "un-（逆向/否定前缀）+ ravel（缠绕）。同前缀近义词：undo（撤销）、uncover（揭露）、unpack（拆解，现常用于「深入分析」某一议题）。",
-              "mnemonic": "想象一团毛线（ravel = 缠），科学家用镊子一点一点解开（un-ravel）——这种「费劲但有序的解开」就是 unravel。反向画面：合同谈崩，线团重新缠乱 = the deal unraveled。",
-              "exampleEn": "Researchers are working to unravel the complex mechanisms behind neuroplasticity, hoping to apply the findings to next-generation AI models.",
-              "exampleCn": "研究人员正努力解开神经可塑性背后的复杂机制，希望将研究成果应用于下一代AI模型。"
-            },
-            {
-              "word": "paradigm",
-              "pos": "n.",
-              "meaning": "范式、典范；指某一领域公认的理论框架或思维模式。「paradigm shift」（范式转变）是科技商业报道的核心固定搭配，意指颠覆性的根本转变而非渐进改良。比 model 或 framework 更强调「整个领域共同认可的基础假设」，出现即意味着作者在主张这是颠覆级事件。",
-              "etymology": "来自希腊语 paradeigma（模式、榜样），由 para-（旁边）+ deiknynai（展示）构成，原义为「并排展示以供对照的范例」。科学哲学家托马斯·库恩1962年在《科学革命的结构》中赋予其「科学范式」的现代含义。",
-              "morphology": "para-（旁边、平行）+ deigm-（展示）。同前缀词：parallel（平行）、parameter（参数，字面义「旁边的度量」）、paradox（悖论，字面义「与常识相悖的话」）。",
-              "mnemonic": "para（旁边）+ digm（联想 diagram 图表）——在「旁边」放一张所有人都参照的「基准图表」，这就是 paradigm（范式）。记住「paradigm shift」= 换掉那张大家都在参照的基准图表，彻底另起炉灶。",
-              "exampleEn": "The shift from rule-based programming to machine learning represented a paradigm change that fundamentally reshaped the software industry.",
-              "exampleCn": "从基于规则的编程转向机器学习，代表着一次范式转变，从根本上重塑了整个软件行业。"
-            }
-          ]
-        },
-        {
-          "id": "20260605-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/04/higher-mortgage-rates-push-application-denial-rates-up.html",
-          "headlineEn": "Rising Loan Denial Rate Signals Deeper Harm From High Mortgage Costs",
-          "headlineCn": "贷款拒批率升至15.1%，高利率冲击不止令买家观望",
-          "summaryEn": "A St. Louis Federal Reserve study reveals that the mortgage loan application denial rate climbed to 15.1% in 2024, up sharply from 12.2% in 2021. The increase parallels a sustained rise in mortgage rates, which have priced many prospective buyers out of the market. Beyond keeping buyers on the sidelines, higher rates worsen borrowers' debt-to-income ratios, reducing their creditworthiness in lenders' eyes. The finding suggests the damage from elevated rates extends well beyond reduced buyer demand into the loan approval process itself.",
-          "summaryCn": "圣路易斯联储最新研究显示，2024年房贷申请拒批率升至15.1%，较2021年的12.2%大幅提高。这一趋势与持续高企的房贷利率密切相关——利率上涨不仅令潜在购房者望而却步，还会拉高借款人的负债收入比，使其信用资质在放贷机构眼中打折扣。研究表明，高利率对楼市的冲击远不止于压制需求，更直接削弱了购房者的贷款获批能力，两重打压叠加，进一步加深住房市场困局。",
-          "excerpt": "The loan application denial rate reached 15.1% in 2024, up from 12.2% in 2021, according to the St. Louis Fed. The rise coincided with elevated mortgage rates that have not only deterred buyers from entering the market but also made it harder for applicants to satisfy lenders' underwriting standards.",
-          "vocab": [
-            {
-              "word": "denial",
-              "pos": "n.",
-              "meaning": "拒绝；拒批——在金融语境中专指对贷款或申请的官方否决，比 rejection 更正式，常出现在监管报告和统计数据中。loan denial（贷款拒批）是房贷领域的核心搭配，值得作为固定短语记忆",
-              "etymology": "源自拉丁语 denegare（de-「完全」+ negare「否定」），经古法语 dénier 演变为英语动词 deny，再加名词后缀 -al 形成 denial；原义为「对某事的彻底否定」，后扩展为对正式请求的拒绝",
-              "morphology": "deny（动词）+ -al（名词化后缀）→ denial；同族词：deny（动词）、deniable（可否认的）、undeniable（不可否认的）、deniability（可推诿性，常见于政治语境）",
-              "mnemonic": "denial 拆读像「de-NY-al」——纽约（NY）的银行对你的贷款说了「NO」，而且是彻底的（de- 强调前缀）否定。脑中画面：银行柜员在申请表上盖了一个巨大红色「拒」章，递还给你",
-              "exampleEn": "The startup received a loan denial after the bank flagged its negative cash flow projections.",
-              "exampleCn": "银行在审查该初创公司的负现金流预测后，拒绝了其贷款申请。"
-            },
-            {
-              "word": "on the sidelines",
-              "pos": "phrase",
-              "meaning": "处于观望状态，按兵不动——源自体育用语，指运动员坐在场边未上场，引申为买家或投资者虽有能力却选择暂不入市。比 waiting 更传神，隐含「随时可入场却主动等待」的意味，是财经报道极高频的隐喻",
-              "etymology": "短语/复合词，无独立词源；sideline 本义为运动场边线（side「侧面」+ line「线」），19世纪末体育报道中引申为「坐板凳、不上场」，20世纪进入金融报道比喻「置身场外观望」",
-              "morphology": "side（侧面）+ line（线）构成复合名词 sideline，加介词 on 构成短语；sideline 还可作动词，如 be sidelined by injury（因伤缺阵），引申为「被迫退出、受阻」",
-              "mnemonic": "想象一个手握现金的购房者，像替补球员一样坐在房产市场的「边线」外，眼巴巴盯着场内——他不是没钱，只是在等利率降下来再「入场」。这张画面就是 on the sidelines 的精髓",
-              "exampleEn": "With valuations still stretched, many institutional investors are keeping billions of dollars on the sidelines.",
-              "exampleCn": "由于估值仍然偏高，许多机构投资者将数十亿美元按兵不动，保持观望。"
-            },
-            {
-              "word": "affordability",
-              "pos": "n.",
-              "meaning": "可负担性；经济承受能力——在房地产和宏观经济学中是核心术语，特指商品（尤指住房）价格与普通收入水平的匹配程度。比「价格」更强调社会公平维度，housing affordability crisis（住房可负担性危机）是财经报道的固定短语",
-              "etymology": "afford 源自古英语 geforthian（「推进、完成」），中古英语演变为「有能力提供」；依次加 -able（形容词后缀）→ affordable，再加 -ity（名词后缀）→ affordability；语义从「能够做到」逐渐收窄为「在经济上能承担」",
-              "morphology": "afford + -able + -ity；同族词：afford（动词）、affordable（形容词）、unaffordable（形容词）；注意 affordable housing（经济适用房）是固定搭配，affordability index（可负担性指数）是房地产分析常用指标",
-              "mnemonic": "afford 读音像「a Ford（一辆福特车）」——「你 a-FORD 得起吗？」加上 -ability 变成「买得起福特的能力」，进而泛化为「可负担性」。以后看到房价新闻里的 affordability，就想想：「这房子，你 Ford 得起吗？」",
-              "exampleEn": "The housing affordability crisis in coastal cities has forced many essential workers to commute over two hours daily.",
-              "exampleCn": "沿海城市的住房可负担性危机迫使许多基础岗位工人每天通勤超过两小时。"
-            },
-            {
-              "word": "creditworthiness",
-              "pos": "n.",
-              "meaning": "信用资质；信贷信用度——指借款人按时还款的综合能力与可信度，是银行审批贷款的核心评估维度，涵盖收入水平、负债比率、还款历史等。比 credit score（信用评分）更宏观，读懂抵押贷款审核报道的必备词",
-              "etymology": "credit 源自拉丁语 credere（「相信、信任」），经意大利商业术语进入英语；worthy 源自古英语 weorthig（「有价值的」）；-ness 为名词后缀；三者合一意为「值得被信任（借款给他）的程度」",
-              "morphology": "credit + worth + -y + -ness；同族词：creditworthy（形容词）；credit 家族延伸：credible（可信的）、incredible（难以置信的）、discredit（使丧失信誉）、credential（资质证明）",
-              "mnemonic": "credit（信任）+ worthy（值得）+ ness（名词化）= 「值得被信任的程度」。银行审贷时就在心里问：「你 WORTHY 吗？能还钱吗？」把这个灵魂拷问钉在脑子里，creditworthiness 便永不遗忘",
-              "exampleEn": "Lenders assess creditworthiness by examining an applicant's debt-to-income ratio, employment history, and repayment record.",
-              "exampleCn": "贷款机构通过审查申请人的负债收入比、就业历史及还款记录来评估其信用资质。"
-            },
-            {
-              "word": "underwriting",
-              "pos": "n.",
-              "meaning": "（贷款/证券）承销；风险审核——在银行业指对贷款申请进行风险评估和审批的完整流程，在投行业指包销证券发行的承诺。理解此词有助于读懂 tighter underwriting standards（更严格的承销标准）等财经报道核心表达",
-              "etymology": "源自17世纪伦敦劳合社的海上保险实践：愿意承担风险的保险商在保单底部（under）亲笔签名（write），表示对赔付负责；这一具体行为后来泛化为「承担金融风险审核」的含义，是金融英语中词源最生动的词之一",
-              "morphology": "under（在...下方）+ write（书写）+ -ing（动名词后缀）→ underwriting；同族词：underwrite（动词）、underwriter（承销商/承保人）、underwritten（过去分词，常见于 underwritten by 某机构）",
-              "mnemonic": "想象17世纪伦敦保险商，坐在一份羊皮纸合同下方（under），用鹅毛笔郑重签名（write）——签下去就意味着愿意赔钱承担风险。这个画面完美还原了 underwriting 的字面含义和金融本质，记一次终生不忘",
-              "exampleEn": "Banks tightened their underwriting standards after a wave of defaults exposed flaws in earlier loan approval processes.",
-              "exampleCn": "在一波违约潮暴露出早期贷款审批流程的缺陷后，各银行收紧了承销标准。"
             }
           ]
         }
