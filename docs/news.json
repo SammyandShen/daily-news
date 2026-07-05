@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-04T23:13:02.181340+00:00",
+  "lastUpdated": "2026-07-05T23:07:18.027250+00:00",
   "level": "B2",
   "days": {
+    "2026-07-06": {
+      "label": "7月6日 (周一)",
+      "stories": [
+        {
+          "id": "20260706-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+          "headlineEn": "AI Frenzy Drives Nearly 90 New Unicorn Startups in 2026",
+          "headlineCn": "AI投资热潮催生近90家独角兽企业",
+          "summaryEn": "The global startup ecosystem is experiencing a remarkable surge, with nearly 90 companies achieving unicorn status — a valuation of $1 billion or more — in the first half of 2026. Artificial intelligence has been the primary catalyst, igniting an investor frenzy that has accelerated funding rounds and driven valuations to record highs. This rapid pace of unicorn creation reflects both the transformative potential investors see in AI and the intensity of competition for stakes in promising early-stage companies.",
+          "summaryCn": "2026年上半年，全球初创企业生态系统迎来强劲增长，已有近90家企业跻身独角兽行列（估值逾10亿美元）。人工智能成为主要推手，点燃了投资者热情，加速了融资轮次，将估值推向历史新高。独角兽诞生速度的加快，折射出投资者对AI变革潜力的高度认可，以及各方对早期优质资产的激烈争夺。",
+          "excerpt": "With artificial intelligence igniting an investor frenzy unlike anything seen in recent years, the startup world is producing new unicorns at a breathtaking pace. Nearly 90 companies have crossed the billion-dollar valuation threshold in 2026 alone, signaling that AI-driven optimism continues to reshape venture capital priorities worldwide.",
+          "vocab": [
+            {
+              "word": "frenzy",
+              "pos": "n.",
+              "meaning": "狂热，疯狂状态。商业语境中常搭配 investor frenzy（投资狂热）或 buying frenzy（抢购热潮），比 enthusiasm 更强调情绪化和非理性的集体行为，隐含泡沫风险，是形容市场过热的高频新闻词。",
+              "etymology": "来自希腊语 phrenitis（脑炎、精神错乱），经中世纪拉丁语 phrenesia 和古法语 frenesie 演变而来，原指由疾病引发的神志混乱，后语义拓展至任何强烈的情绪失控状态。",
+              "morphology": "词根源自希腊语 phren（心智、横膈膜），古希腊人认为心智藏于横膈膜；同根词有 frantic（狂乱的）、phrenology（颅相学）；派生词 frenzied（adj. 疯狂的），frenzied buying 是财经报道的标配搭配。",
+              "mnemonic": "frenzy 的「fr-」与 frantic（狂乱）共享开头——两个词都描述失控状态，记住一个等于记住两个。想象华尔街交易所里投资者疯狂敲键盘的画面，那种集体失控就是 frenzy。",
+              "exampleEn": "The launch of the new AI chip triggered a buying frenzy among institutional investors, pushing the stock up 40% in a single session.",
+              "exampleCn": "新款AI芯片的发布在机构投资者中引发了一阵抢购狂热，使股价在单日内飙升40%。"
+            },
+            {
+              "word": "ignite",
+              "pos": "v.",
+              "meaning": "点燃，引发（激烈反应）。在商业报道中常描述某事件如何「点燃」市场热情或争议，比 trigger 更有「星星之火」的意象，暗含被点燃的事物随后会迅速蔓延；常见搭配：ignite enthusiasm / ignite a debate / ignite growth。",
+              "etymology": "来自拉丁语 ignire（使燃烧），源自 ignis（火）。ignis 是印欧语系词根 *egnis 的后代，在梵语中对应 agni（火神阿耆尼），体现了印欧语系对「火」这一概念共同的古老词源。",
+              "morphology": "词根 ign-（火）；同根词有 igneous（火成岩的）、ignition（点火装置）；派生形式：ignition（n.）、ignitable（adj.）；与火相关的商业比喻还有 spark、kindle、fuel，这四个词构成一组从弱到强的强度梯队。",
+              "mnemonic": "ignite → ignition（点火装置）：钥匙插入车门旋转，发动机点火，这个动作就是 ignition，往前一步就是 ignite。AI点燃（ignite）了投资者热情，就像钥匙点燃了引擎。",
+              "exampleEn": "The CEO's announcement at CES ignited enthusiasm across the semiconductor sector, sparking a wave of analyst upgrades.",
+              "exampleCn": "首席执行官在CES上的发言点燃了半导体行业的热情，引发了一波分析师上调评级的浪潮。"
+            },
+            {
+              "word": "unicorn",
+              "pos": "n.",
+              "meaning": "独角兽企业（估值超过10亿美元的未上市创业公司）。创投领域核心术语，由VC Aileen Lee于2013年首创；理解其比喻根源——独角兽象征极度稀有——有助于体会这个词从「奇迹」变为「常态」的语义漂移，读懂科技财经报道的必备词。",
+              "etymology": "来自拉丁语 unicornis（独角兽），由 uni-（一）+ cornu（角）合成，对应希腊语 monokerōs。作为商业术语由风险投资人 Aileen Lee 在2013年首创，当时全球此类公司仅39家，堪称「神话般稀有」。",
+              "morphology": "uni-（一，如 uniform 统一、universe 宇宙、unique 独一无二）+ corn/cornu-（角，如 cornucopia 丰收角）；已衍生出估值梯队专属词族：unicorn（10亿+）→ decacorn（100亿+）→ hectocorn（1000亿+），构成创投英语独特的量级词系。",
+              "mnemonic": "uni（唯一）+ corn（角）= 独一无二的独角兽。想象它额头上戴着写有「$1B」的招牌角——只有估值超过10亿美元才能「长出」这根角。独角兽越来越多，但这个词的神话色彩提醒你它曾多么罕见。",
+              "exampleEn": "The fintech startup became Southeast Asia's latest unicorn after closing a $200 million Series D round that valued the company at $1.5 billion.",
+              "exampleCn": "这家金融科技初创公司完成2亿美元D轮融资，估值达到15亿美元，成为东南亚最新的独角兽企业。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值（对公司或资产价值的评估结果）。在创投语境中，valuation 通常指融资轮中投资人认可的公司价值，与实际盈利能力可能严重脱节；比 value 多了「被专业评估、被市场定价」的过程感，是融资文件和财经报道的高频核心词。",
+              "etymology": "来自中世纪拉丁语 valuationem，源自 valere（有价值、有力量），与 valid（有效的）、valor（勇气/价值）同源。词根 val- 在拉丁语中兼有「健康、强壮、有价值」三重含义，体现了「力量即价值」的古罗马观念。",
+              "morphology": "value（v./n.）+ -ation（名词后缀，表行为/过程/结果）；同族词链：value → valuable → valuation → overvaluation / undervaluation；常见复合搭配：pre-money valuation（融资前估值）、post-money valuation（融资后估值）、stretch valuation（拉伸估值）。",
+              "mnemonic": "valuation = value + action——对价值执行一个「动作（action）」，就是给它「定价」。想象一位估值师拿着放大镜检查公司，然后贴上价格标签，这个打标签的动作就是 valuation。",
+              "exampleEn": "The startup's valuation doubled to $4 billion after it demonstrated 300% year-on-year revenue growth at its latest funding round.",
+              "exampleCn": "这家初创公司在最新一轮融资中展示了300%的同比营收增长，估值随之翻番至40亿美元。"
+            },
+            {
+              "word": "threshold",
+              "pos": "n.",
+              "meaning": "门槛，临界值。在商业和金融语境中常描述触发某一状态的关键数值（如10亿美元的独角兽门槛），比 limit 或 bar 更强调「跨越前后截然不同」的质变感；常见搭配：cross/reach/hit a threshold、profitability threshold（盈亏临界点）。",
+              "etymology": "来自古英语 therscold/therscwald（门槛），可能与 thresh（打谷，用脚踩踏）和 wald（木材）相关，最初指字面上踏入房间时踩到的那块木头，后语义引申为任何「进入新状态」的临界点。",
+              "morphology": "古英语复合词，难以用前缀/后缀系统拆解；常见搭配族群：pain threshold（痛觉阈值）、tax threshold（纳税起征点）、profitability threshold（盈亏平衡点）、threshold effect（临界效应）；形容词用法 threshold-level 也常见于政策文件。",
+              "mnemonic": "想象农夫踏过（thresh=踩踏）门槛走入谷仓——跨过去才能「保住（hold）」粮食。商业语境中，跨过10亿美元的「门槛」，你就从普通创业公司变成了独角兽，是真正的「质变时刻」。",
+              "exampleEn": "Once a startup crosses the $1 billion valuation threshold, it enters a different tier of investor scrutiny and regulatory attention.",
+              "exampleCn": "一旦初创公司跨越10亿美元估值门槛，就会进入一个受到投资者和监管机构更严格审视的全新层级。"
+            }
+          ]
+        },
+        {
+          "id": "20260706-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/05/analysts-prefer-these-dividend-stocks-for-boosting-portfolio-returns.html",
+          "headlineEn": "Wall Street Analysts Reveal Top Dividend Stock Picks for Portfolio Returns",
+          "headlineCn": "华尔街分析师精选：这些高股息股有望提升投资组合回报",
+          "summaryEn": "Top Wall Street analysts have named their preferred dividend-paying stocks as income investing regains traction in 2026. With thousands of candidates available, selecting the right names requires rigorous screening for yield sustainability, earnings coverage, and long-term growth potential. Analysts at major research firms focus on companies with robust free cash flow and a consistent track record of dividend growth, aiming to help investors generate steady income while limiting downside risk in volatile markets.",
+          "summaryCn": "随着收益型投资重新受到市场青睐，华尔街顶级分析师公布了他们最看好的高股息股票名单。面对数千只派息股票，挑选合适标的需从股息可持续性、盈利覆盖率及长期增长潜力等维度进行严格筛选。各大研究机构分析师重点关注现金流稳健、股息记录良好的公司，旨在帮助投资者在震荡市场中获取稳定收益、控制下行风险。",
+          "excerpt": "With thousands of dividend-paying companies to choose from, identifying the right stocks demands more than chasing the highest yields. Top analysts screen for sustainable payout ratios, strong earnings coverage, and consistent dividend growth histories — making expert curation more valuable than ever for income-focused investors.",
+          "vocab": [
+            {
+              "word": "conviction",
+              "pos": "n.",
+              "meaning": "坚定信念；投资领域特指分析师对某只股票的强烈看好程度。与普通的 belief 不同，conviction 暗含专业判断和承担风险的意愿，常见搭配为「high-conviction pick」或「high-conviction trade」，出现在券商报告里往往意味着分析师愿意押上声誉背书",
+              "etymology": "来自拉丁语 convincere（彻底证明），由 con-（完全）和 vincere（征服、战胜）构成，原义「彻底战胜反对意见」，中世纪英语引申为「使人信服的定论」，进而演变为「坚定信念」",
+              "morphology": "con-（完全）+ vict（词根，征服）+ -ion（名词后缀）。同词根扩展：convince（说服）、victory（胜利）、convict（v. 定罪；n. 囚犯），帮助记住 vict- 的「战胜」核心义",
+              "mnemonic": "con（完全）+ vict（联想 victory 胜利）—— conviction 就是「完全赢得了内心那场战斗」。想象分析师在路演上拍桌子：「我对这只股票有十足的 conviction，所有质疑都被我驳倒了！」",
+              "exampleEn": "The analyst reiterated her high-conviction buy rating on the telecom giant after its earnings beat expectations.",
+              "exampleCn": "在电信巨头季报超预期后，该分析师重申了对其的强烈买入评级。"
+            },
+            {
+              "word": "screen",
+              "pos": "v.",
+              "meaning": "筛选、甄别；投资语境中特指根据财务指标或条件过滤股票，比 filter 更专业，常搭配介词 for（screen for dividend stocks），是量化选股流程的核心动词，能体现系统性分析的专业感",
+              "etymology": "来自古法语 escren（防护物、屏障），最初指分离谷物或矿石的「筛网」，17世纪引申为「遮蔽与审查」，20世纪进入金融领域，专指「按标准过滤候选项」",
+              "morphology": "screen 是不可拆解的简单词根。常见派生词：screening（n. 筛选过程）、screener（n. 选股工具）、pre-screen（v. 预筛）；复合词 screen time、silver screen 体现「过滤与展示」双重义",
+              "mnemonic": "想象把一大桶沙子倒进「纱窗（screen）」——只有细沙能穿过网眼。选股就是把几千只股票倒进财务指标的「筛网」，只有通过所有条件的才能留下来",
+              "exampleEn": "Portfolio managers typically screen for dividend stocks with a payout ratio below 60% and consistent earnings growth.",
+              "exampleCn": "基金经理通常会筛选派息率低于60%且盈利持续增长的股息股。"
+            },
+            {
+              "word": "outperform",
+              "pos": "v.",
+              "meaning": "超越（某基准或竞争对手）；在券商研究报告中，Outperform 是正式的股票评级，等同于「建议买入」，通常意味着分析师预期该股在未来12个月跑赢大盘。比日常英语的 do better than 更具权威性和行业背景",
+              "etymology": "由前缀 out-（超过、胜过）和 perform（表现）合成。out- 来自古英语 ūt（向外），表示「在某方面冲出、超越他人」，与「冲出去」的意象相关",
+              "morphology": "out-（超越）+ perform（表现）。同前缀词族：outpace（超速赶超）、outlast（比……持久）、outshine（比……耀眼）、outsell（销量超过）。掌握 out- 前缀即可解锁大量「超越类」商业词汇",
+              "mnemonic": "out = 冲出去；perform = 表现。「冲出去表现」就是跑赢同行。记住券商评级三级梯：Underperform（跑输，卖出信号）→ Neutral（中性持有）→ Outperform（跑赢，买入信号）",
+              "exampleEn": "The dividend fund has consistently outperformed its benchmark index over the past five years, attracting steady inflows.",
+              "exampleCn": "该股息基金在过去五年中持续跑赢基准指数，吸引了稳定的资金流入。"
+            },
+            {
+              "word": "yield",
+              "pos": "n. / v.",
+              "meaning": "（n.）收益率；特指股息或利息收入与资产价格之比，是股息投资的核心指标。需与 return（总回报，含资本利得）区分：yield 只计「定期现金流÷价格」。（v.）产生回报、带来收益。掌握这个词能读懂几乎所有股息类研报",
+              "etymology": "来自古英语 gieldan（支付、回报、给予应得之物），与德语 gelten（有价值）和荷兰语 gelden（有效）同源，原义「给予应得的报酬」，现代英语引申为「产生投资回报」",
+              "morphology": "yield 是古英语词根，无典型前后缀。主要派生和复合形式：yielding（adj. 产生收益的；也有「顺从」义）、high-yield（adj. 高收益的）、yield curve（收益率曲线）",
+              "mnemonic": "yield 谐音「一得」——投资一份，「一得」多少回报。或想象农田收割：农民种下种子，yield（收获）就是土地「给予你的报酬」。股息 yield 就是公司「给你的那份庄稼」",
+              "exampleEn": "A stock's yield can compress sharply if the share price rallies faster than the annual dividend payout grows.",
+              "exampleCn": "如果股价涨幅远超年度股息增幅，该股的股息收益率就会被大幅压缩。"
+            },
+            {
+              "word": "curate",
+              "pos": "v.",
+              "meaning": "精心遴选、策展式筛选；原指博物馆策展人的工作，现广泛用于商业和媒体语境，指从海量选项中凭借专业眼光挑出最优内容或资产。比 select（选择）更强调「品味、专业判断和责任感」，暗示选者为质量背书",
+              "etymology": "来自拉丁语 curare（照料、关注），词根 cura 意为「照管与关心」。curator（策展人）、cure（治疗）、accurate（精确，ac-+cura-=全神贯注于准确）皆同源，共享「专注照管某物」的语义核心",
+              "morphology": "curat-（拉丁词根，照料）+ -e（动词后缀）。同根词族：curator（策展人）、curative（adj. 有疗效的）、accurate（精确的）、procure（采购，pro+cure=提前照管）",
+              "mnemonic": "curate 联想「库管人（curator）」——博物馆管理员戴白手套，对每件展品反复审视才决定上架。分析师推荐股票时就像策展人，不是随便选，而是为每一只「负责任地照管（cure）」",
+              "exampleEn": "The research desk curated a watchlist of twelve dividend stocks with rising payouts and investment-grade balance sheets.",
+              "exampleCn": "研究部门精心筛选出十二只股息持续提升、资产负债表达到投资级的高息股纳入观察名单。"
+            }
+          ]
+        },
+        {
+          "id": "20260706-3",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
+          "headlineEn": "OPEC+ Raises Output Again Despite Tumbling Crude Prices",
+          "headlineCn": "欧佩克+再度增产，原油价格持续下挫",
+          "summaryEn": "OPEC+ agreed Sunday to modestly increase crude oil production for another month, extending a pattern of incremental output hikes. Yet analysts warn the move is largely symbolic: a durable supply shift depends on whether the U.S.-Iran peace deal sticks and the Strait of Hormuz is fully reopened to tanker traffic. Until those conditions are met, the production boost will do little to alter global oil balances, while placing additional downward pressure on already tumbling prices.",
+          "summaryCn": "欧佩克+于周日再次同意小幅提高原油产量，延续近几个月来的增产势头。然而分析人士警告，此次增产在很大程度上仍属象征性举措——能否真正改变供应格局，取决于美伊和平协议能否持续落地，以及霍尔木兹海峡能否完全向油轮重新开放。在上述条件满足之前，增产对全球石油供需平衡几乎没有实质影响，反而会给已持续下跌的油价带来更大的下行压力。",
+          "excerpt": "Major oil producers agreed Sunday to modestly increase crude production, though the hike is largely symbolic. Any meaningful supply shift hinges on whether the U.S.-Iran peace deal holds and the Strait of Hormuz is fully reopened to tanker traffic.",
+          "vocab": [
+            {
+              "word": "tumbling",
+              "pos": "v. / adj.",
+              "meaning": "（价格）急剧下跌、急速走低。比「falling」更生动，隐含失控、快速且连续的动态感。财经报道中常用于描述股价、油价、汇率骤跌，值得学因为它自带「无序、惯性」的隐喻，一个词就传达出市场恐慌情绪。",
+              "etymology": "源自古英语 tumbian 与中古低地德语 tummelen，原义「翻跟斗、打滚」，描述杂技演员在地上无序滚动的状态，后引申为任何快速无序的下落运动，进入财经语域专指价格急跌。",
+              "morphology": "词根 tumble（动词/名词，翻滚）加现在分词后缀 -ing → tumbling；派生词：tumbler（杂技演员；无柄玻璃杯）、tumbledown（破旧摇摇欲坠的）、tumble-dry（甩干）。简单词根，靠搭配扩展语义。",
+              "mnemonic": "想象杂技演员在舞台上连续翻滚失控——价格「tumbling」就是在K线图上接连翻跟头往下砸，比「falling」多了一种停不下来的惯性感。记住：跟头翻得越多，跌得越惨。",
+              "exampleEn": "Oil futures kept tumbling through the session as traders priced in a possible supply surge from reopened Gulf shipping lanes.",
+              "exampleCn": "由于交易员预期波斯湾航运通道重开后供应激增，油价期货整个交易时段持续急跌。"
+            },
+            {
+              "word": "hike",
+              "pos": "n.",
+              "meaning": "（价格、利率、产量的）上调、提升。是财经语境里极高频的词，远比「increase」口语化且有力度，常见搭配：rate hike（加息）、price hike（涨价）、output hike（增产）。值得学因为它与「cut」构成一对核心对立词，读财经新闻必须掌握。",
+              "etymology": "源自19世纪美国英语方言，可能与 hitch（拉起、挂钩）同源，原义「用力向上拉扯」，后引申为数量或价格层面的强力上拉。同一个词也有「徒步旅行」的含义，两者共享「向上走、费力攀升」的核心语义。",
+              "morphology": "hike 名词/动词同形；派生词：hiker（徒步者；比喻推高价格的人）、hiking（徒步旅行；价格上涨的进行时）。注意「go for a hike」（徒步）和「a rate hike」（加息）是同一个词的两个截然不同义项。",
+              "mnemonic": "把「rate hike」想象成美联储主席拉着利率去爬山——每次加息就是「上山一步」，山越爬越高，借贷成本越来越重。这幅画面能同时锁定徒步和涨价两个含义，一箭双雕。",
+              "exampleEn": "The surprise output hike by OPEC+ caught many energy traders off guard, triggering a sharp sell-off in Brent crude.",
+              "exampleCn": "欧佩克+意外宣布增产，令众多能源交易员措手不及，布伦特原油随即遭到大幅抛售。"
+            },
+            {
+              "word": "symbolic",
+              "pos": "adj.",
+              "meaning": "象征性的、有名无实的。在政治经济报道中，「largely symbolic」是固定搭配，暗示某举措在形式上有动作，但实质影响微乎其微。值得学因为它是理解政策新闻语气的关键词——当记者用它时，往往是在含蓄批评官方行为雷声大雨点小。",
+              "etymology": "源自希腊语 symbolon（标志、信物），由 sym-（共同）+ ballein（投掷）构成，原指古希腊人把一块骨牌折成两半、各执一半作为契约凭证，后泛化为「代表某种意义的符号或标记」。",
+              "morphology": "symbol（名词）→ symbolic（形容词）→ symbolically（副词）→ symbolize（动词）→ symbolism（名词/流派）；词根 -bol- 还出现在 emblem 的近义词族中。记住 sym-（共同）这个前缀，还见于 symphony、symmetry。",
+              "mnemonic": "「largely symbolic」想象一个巨大的橡皮章（symbol）用力盖下去——动作声势浩大，但纸上什么都没印出来。有形式、无实质，这就是「largely symbolic」的精髓。",
+              "exampleEn": "The tech giant's pledge to halve its carbon footprint by 2030 was largely symbolic without a binding roadmap or third-party audits.",
+              "exampleCn": "这家科技巨头承诺2030年前将碳足迹减半，但因缺乏具有约束力的路线图和第三方审计，很大程度上只是象征性表态。"
+            },
+            {
+              "word": "stick",
+              "pos": "v. (idiomatic)",
+              "meaning": "（协议、政策、决定）持续有效、站稳脚跟、不被推翻。「if a deal sticks」意为协议能真正落地并维持。与「hold」近义，但「stick」更强调在外部压力下的韧性与粘合力，常见于谈判结果和政策落地的场景，是财经新闻里不可忽视的动词。",
+              "etymology": "源自古英语 stician，原义「刺入、粘附」，与德语 stechen（刺）和荷兰语 steken 同源，核心语义是「附着不动」，引申为「协议或规则维持在位、不脱落」。",
+              "morphology": "stick（动词/名词）→ sticky（形容词，粘的；比喻棘手的、用户留存率高的）→ stickiness（名词，用户黏性）→ stuck（过去式，陷入僵局）；常见搭配：stick to a plan（坚守计划）、stick with（继续支持）、make it stick（让它真正落实）。",
+              "mnemonic": "谈判双方在协议文件上涂了超强胶水——「the deal sticks」就是胶水粘牢了，谁也撕不开；「the deal fell apart」就是胶水没粘住、合同散了架。用胶水的画面记住「持续有效」的隐喻。",
+              "exampleEn": "The trade truce between the two nations will only matter if it sticks long enough for companies to rebuild their supply chains.",
+              "exampleCn": "两国之间的贸易休战只有在维持足够长时间后，才能真正让企业有机会重建供应链。"
+            },
+            {
+              "word": "modestly",
+              "pos": "adv.",
+              "meaning": "小幅地、适度地、温和地。财经报道中用于量化增减幅度，暗示变化存在但幅度有限，是「slightly」的正式替代词，带有刻意低调的语气。值得学因为它常出现在央行、OPEC等官方机构声明的转述中，读懂它就能判断政策力度是否足够。",
+              "etymology": "源自拉丁语 modestus（适度的、有节制的），词根 modus 意为「尺度、方式、节拍」，与 mode（模式）、moderate（温和）、modify（修改）、modulate（调节）同源，核心含义始终是「在合适的刻度内」。",
+              "morphology": "modus（拉丁词根）→ modest（形容词）→ modestly（副词）→ modesty（名词，谦逊）→ immodest（反义词，过分的）；同族词：moderate、modify、modulate、model——所有这些词都含有「按尺度调整」的意思。",
+              "mnemonic": "mod- = modus（尺度）。「modestly raise」就是「按刻度来、不超出刻度地」提升——想象在一把刻度尺上只轻轻推了一格，not too much, not too little。背住 mod- 词根，同时搞定 moderate、modify 一整族词。",
+              "exampleEn": "Revenue grew modestly in the latest quarter, falling short of analyst expectations amid a cautious consumer environment.",
+              "exampleCn": "在消费者谨慎消费的环境下，公司最新季度营收温和增长，未能达到分析师预期。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-05": {
       "label": "7月5日 (周日)",
       "stories": [
@@ -9277,246 +9471,6 @@
               "mnemonic": "想象飞机剧烈颠簸时空姐大喊「Brace! Brace!」——乘客双手撑住扶手、身体绷紧准备硬扛冲击。brace for = 「崩紧肌肉准备挨撞」，财经语境即「绷紧神经准备承受市场冲击」",
               "exampleEn": "Retailers are bracing for weaker holiday demand as consumer confidence drops to a two-year low.",
               "exampleCn": "随着消费者信心跌至两年低点，零售商正为节日季需求走弱做好准备。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-06": {
-      "label": "6月6日 (周六)",
-      "stories": [
-        {
-          "id": "20260606-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html",
-          "headlineEn": "Model routing is a fix for AI overspending. That's a problem for OpenAI and Anthropic",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Companies are shifting from running everything on the most powerful AI model to matching each task to the right one, a practice called model routing.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Companies are shifting from running everything on the most powerful AI model to matching each task to the right one, a practice called model routing.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260606-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
-          "headlineEn": "Reid Hoffman is leaving Microsoft’s board to go ‘founder mode’ with  startup Manus",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "After a very profitable decade on Microsoft's board, Reid Hoffman is stepping down to focus on his AI drug discovery startup Manus.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "After a very profitable decade on Microsoft's board, Reid Hoffman is stepping down to focus on his AI drug discovery startup Manus.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260606-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html",
-          "headlineEn": "WWDC 2026: Tim Cook Faces His Final AI Test as Apple CEO",
-          "headlineCn": "苹果WWDC大会：库克以最后一届CEO身份迎接AI大考",
-          "summaryEn": "Apple heads into its annual Worldwide Developers Conference under intense pressure, with CEO Tim Cook's AI legacy and Siri's transformation into a capable AI assistant both on the line. Analysts are watching whether Apple can close the gap with rivals like Google and OpenAI in generative AI. The company's stock carries a rich valuation that leaves little margin for disappointment, making this year's keynote particularly high-stakes for investors and developers alike.",
-          "summaryCn": "苹果公司即将召开年度全球开发者大会（WWDC），这也可能是蒂姆·库克以CEO身份主持的最后一届大会。分析师密切关注苹果能否在生成式AI领域缩小与谷歌、OpenAI的差距，以及Siri能否真正转型为具备自主行动能力的智能助手。与此同时，苹果股价估值高企，市场对其容错空间几乎为零，令本届发布会的重要性远超以往。",
-          "excerpt": "Apple heads into WWDC with enormous pressure on CEO Tim Cook to prove the company can compete in generative AI. Siri's evolution into a fully capable AI platform and the justification of Apple's rich stock valuation both hinge on what gets unveiled on the main stage this week.",
-          "vocab": [
-            {
-              "word": "unveil",
-              "pos": "v.",
-              "meaning": "（正式）揭幕、公开发布新产品或功能。比 announce 更强调「首次公开亮相」的仪式感，是科技媒体报道新品发布的高频动词，常见搭配：unveil a product / feature / plan。值得学的原因：它比 release 或 launch 多一层「神秘感被打破」的戏剧张力",
-              "etymology": "源自古法语 voile（面纱），前缀 un- 表示「去除」，字面意为「揭开面纱」，17世纪进入英语，后引申为「首次公开展示某物」",
-              "morphology": "un-（去除）＋ veil（面纱）→ unveil；同前缀词：undo、unwrap、unlock；名词形式：unveiling（发布会/揭幕仪式）",
-              "mnemonic": "想象一块红布盖着新iPhone，库克走上台一把揭开「面纱（veil）」——那一刻就是 unveil。有面纱才有揭幕，科技发布会必备动词，每逢 WWDC 必出现",
-              "exampleEn": "The tech giant is expected to unveil a redesigned AI assistant at its annual developer conference next month.",
-              "exampleCn": "这家科技巨头预计将在下个月的年度开发者大会上发布经过重新设计的AI助手。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "（市场/财务）估值，即市场认为一家公司值多少钱。常见搭配：rich valuation（估值偏高）、stretched valuation（估值过度拉伸）、justify a valuation（支撑估值）——这三个搭配在财经英语里极其高频，是读懂分析师报告的必备词",
-              "etymology": "源自拉丁语 valere（有价值、强壮），经法语 valuation 进入英语，约16世纪出现，原指「估算物品价值」的行为，后扩展至金融领域的公司估值",
-              "morphology": "value（价值）＋ -ation（名词后缀，表示行为或结果）→ valuation；同族词：value、valuable、evaluate、devalue、overvalue",
-              "mnemonic": "val- 是「价值」词根（联想 value），-ation 是「动作结果」后缀。valuation = 给价值定价这件事的结果 = 估值。rich valuation = 「富得」离谱的估值 = 股价贵得没道理，市场要求你必须表现完美",
-              "exampleEn": "With a forward price-to-earnings ratio above 30, Apple's valuation leaves investors with very little margin for error.",
-              "exampleCn": "苹果的预期市盈率超过30倍，高估值几乎不给投资者留下任何容错空间。"
-            },
-            {
-              "word": "watershed",
-              "pos": "n.",
-              "meaning": "转折点、分水岭（比喻义）。原指地理上分隔两个流域的山脊，商业/历史语境中指「此前此后截然不同」的关键节点。比 turning point 更有「不可逆、影响深远」的语气，常见搭配：watershed moment、watershed event",
-              "etymology": "源自德语 Wasserscheide（水＋分界），18世纪进入英语指「分水岭」地形，19世纪引申为「历史性转折点」，英美两地用法略有差异，但比喻义已完全通用",
-              "morphology": "water（水）＋ shed（分隔、流淌；shed 有「散落、流淌」之意）→ watershed；类比复合词：landmark（里程碑）、milestone（里程碑）、turning point（转折点）",
-              "mnemonic": "水（water）沿山脊向两侧流（shed），山脊就是分水岭。历史上一件大事把「之前」和「之后」彻底分开，就像水分流一样——这就是 watershed moment。这届WWDC能否成为苹果AI史上的分水岭？",
-              "exampleEn": "The launch of GPT-4 proved to be a watershed moment for the entire AI industry, forcing every major tech firm to reassess its strategy.",
-              "exampleCn": "GPT-4的发布被证明是整个AI行业的分水岭时刻，迫使每家大型科技公司重新评估其战略。"
-            },
-            {
-              "word": "hallmark",
-              "pos": "n.",
-              "meaning": "标志性特征、显著特质。原指英国金银器官方认证印章，引申为「某品牌/某人最具代表性的不可复制特质」。常见搭配：hallmark of（……的标志）、a hallmark feature。比 feature 或 characteristic 更有「品质认证、独一无二」的内涵，适合描述品牌核心DNA",
-              "etymology": "源自英国伦敦金匠公会所在地 Goldsmiths' Hall，15世纪起在金银制品上打印官方认证标记（hall + mark），后引申为「品质保证的标志」，18世纪起广泛用于比喻义",
-              "morphology": "hall（大厅，指行业公会总部）＋ mark（标记、印章）→ hallmark；无独立前后缀，可关联近义词：trademark（商标）、benchmark（基准）、signature（签名/标志性的）",
-              "mnemonic": "想象英国金匠公会大厅（Hall）里盖下的认证印章（mark）——只有真金才能得到这个印。苹果「简洁设计」就是其 hallmark，就像一枚无法伪造的品质认证印章，一眼认出",
-              "exampleEn": "Seamless integration across devices has long been a hallmark of Apple's product strategy.",
-              "exampleCn": "跨设备无缝集成长期以来是苹果产品战略的标志性特征。"
-            },
-            {
-              "word": "poised",
-              "pos": "adj.",
-              "meaning": "蓄势待发的、处于某种转变临界点的。财经报道高频词，固定句式：be poised to do sth（即将……）、poised for growth / a breakout（蓄势增长/爆发）。比 ready 更强调「条件已经到位、一触即发」的张力，是分析师预测语气的标配",
-              "etymology": "源自古法语 peser（称重），拉丁语 pensare（悬挂、衡量），原指「保持平衡」的静止状态，后引申为「处于关键平衡点上、随时可以行动」",
-              "morphology": "poise（平衡、镇定；n./v.）＋ -d（形容词后缀）→ poised；同族词：poise (n.)「优雅的平衡感」、composure「镇定」；注意：poised ≠ posed（摆姿势），不要混淆",
-              "mnemonic": "想象一只雄鹰展翅站在悬崖边缘，身体保持完美平衡（poise），随时准备俯冲——这就是 poised，蓄势待发。苹果站在AI爆发的边缘：poised to lead，或者 poised to fall behind",
-              "exampleEn": "With its vast installed base and developer ecosystem, Apple appears poised to become a dominant force in on-device AI processing.",
-              "exampleCn": "凭借庞大的用户基础和开发者生态，苹果似乎已蓄势待发，有望成为设备端AI处理领域的主导力量。"
-            }
-          ]
-        },
-        {
-          "id": "20260606-4",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
-          "headlineEn": "Airbnb CEO Brian Chesky Plans to Launch a New AI Research Lab",
-          "headlineCn": "Airbnb首席执行官切斯基计划创建全新AI研究实验室",
-          "summaryEn": "Airbnb CEO Brian Chesky has announced plans to launch a dedicated AI lab, marking a bold strategic move beyond the company's core hospitality platform. Chesky previously held off on LLM partnerships, stating that existing products were not sufficiently mature for Airbnb's needs. The new lab signals an intent to develop proprietary AI capabilities internally rather than licensing third-party technology, representing a significant shift for a company whose strength has historically been its marketplace model.",
-          "summaryCn": "Airbnb首席执行官布莱恩·切斯基宣布计划创建一个独立的人工智能实验室，标志着公司向AI领域迈出重要战略步伐。切斯基此前表示，Airbnb尚未与大语言模型（LLM）服务商建立合作，原因是现有产品的成熟度尚不足以满足公司需求。此次AI实验室的设立意味着Airbnb或将选择自主研发专有AI能力，而非依赖第三方技术授权。对于一家以平台经济模式著称的企业而言，这是一次值得关注的战略转型。",
-          "excerpt": "Airbnb CEO Brian Chesky announced plans to launch a new AI lab, a move that follows the company's deliberate decision to hold back from LLM partnerships last year. Chesky noted that existing products were not quite ready for Airbnb's needs, suggesting the lab will chart a more independent course in AI development.",
-          "vocab": [
-            {
-              "word": "venture",
-              "pos": "v. / n.",
-              "meaning": "冒险涉足（新领域）；商业新举措。比 try 更正式，带有「风险与回报并存」的商业语气，常搭配 venture into（进军某领域），或作名词指「风险项目/创业尝试」。理解此词可同步掌握 venture capital（风险投资）整个词族。",
-              "etymology": "来自中古英语 aventure，源自古法语 aventure（冒险、机遇），最终追溯至拉丁语 adventura（即将发生之事，ad-+venire「到来」）。原指骑士的冒险旅程，后演变为商业冒险投资的含义，venture capital 即由此而来。",
-              "morphology": "词根 ven-（来，拉丁 venire）+ -ture（名词后缀）。同族词：adventure（冒险）、avenue（途径）、revenue（营收，re-+venue「再次到来」）。动词派生：venture→ventured→venturing；名词复数：ventures。",
-              "mnemonic": "想象一个勇敢的探险家踏上未知旅程——venture就是商界的「探险」。记住固定搭配：venture capital（风险投资）= 投资人愿意「冒险」押注新创公司，整个词族就串起来了。",
-              "exampleEn": "The tech giant decided to venture into the smart home market despite fierce competition from established players.",
-              "exampleCn": "尽管面临成熟竞争对手的激烈竞争，这家科技巨头仍决定进军智能家居市场。"
-            },
-            {
-              "word": "vet",
-              "pos": "v.",
-              "meaning": "仔细审查、评估（产品、候选人、合作伙伴）。比 check 更正式，带有专业鉴定的含义，常见于商业尽职调查语境，强调系统性审核而非随意浏览。切斯基「审查」LLM产品是否成熟，用的正是这个动词的逻辑。",
-              "etymology": "源自 veterinarian（兽医）的缩写。19世纪英国赛马界术语，指兽医对赛马进行体检以评估其参赛资格，后引申为对任何人或事物进行资格审查。「动物医生把关」→「专业人士把关」，语义迁移路径清晰可见。",
-              "morphology": "由 veterinarian 缩短而来；vet- 源自拉丁语 veterinus（与牲畜有关的，来自 vetus「老、有经验的」）。派生词：vetting（名词，审查过程）、vetted（形容词，经过审查的）、un-vetted（未经审查的）。",
-              "mnemonic": "兽医（vet）要检查动物的每一个部位才能放行——用这个画面记住：vet = 像兽医一样「逐项检查」。下次看到「the deal was vetted」，想象那匹被兽医通体检查才能上赛场的马。",
-              "exampleEn": "Before signing the agreement, the board spent three months vetting the startup's technology stack and financial records.",
-              "exampleCn": "在签署协议前，董事会花了三个月时间对这家初创公司的技术架构和财务记录进行了仔细审查。"
-            },
-            {
-              "word": "at the helm",
-              "pos": "phrase",
-              "meaning": "掌舵；担任领导职位。比 in charge 更生动，带有主动驾驶方向的含义，常用于描述CEO或创始人对公司的实际掌控，隐含「方向由此人决定」的语气，是商业报道描述高管领导力的经典短语。",
-              "etymology": "helm 来自古英语 helma（舵），源自原始日耳曼语 *halmaz。航海隐喻：船长站在船舵处掌控方向，引申为掌控组织或国家走向。中世纪起广泛用于政治和商业语境，沿用至今。",
-              "morphology": "helm 是不可拆解的简单词根；派生词：helmsman（舵手）、overwhelming（压倒性的，over-+helm「翻过舵」→淹没→形容词化）。常见短语变体：take the helm（接掌领导权）、hand over the helm（移交权力）。",
-              "mnemonic": "画面：巨轮在暗夜中航行，CEO站在驾驶室紧握船舵——at the helm就是这个「掌舵人」的画面。顺便记住：helm 的字形像一个人双手张开握住船舵两侧，正是掌控全局的姿态。",
-              "exampleEn": "With the founder still at the helm, the company managed to navigate through the market downturn without major layoffs.",
-              "exampleCn": "创始人仍在掌舵，公司得以在市场下行期间平稳度过，未进行大规模裁员。"
-            },
-            {
-              "word": "incubate",
-              "pos": "v.",
-              "meaning": "孵化（创意、项目、初创企业）。比 develop 更形象，借用生物学「孵蛋」的比喻，强调在受保护环境中培育早期阶段的脆弱想法或业务，科技创业报道中极为常见。搭配：incubate ideas / projects / startups。",
-              "etymology": "来自拉丁语 incubare，由 in-（在…上）+ cubare（躺、卧）构成，原义为「趴在蛋上孵化」（母鸡孵蛋的动作）。17世纪先用于生物学，19世纪后引入商业语境，指为初创企业提供受保护的成长环境。",
-              "morphology": "in-（在内/向内）+ cub-（躺，词根）+ -ate（动词后缀）。派生词：incubator（孵化器）、incubation（孵化期）。同词根词：succumb（屈服，sub-+cumb-「倒下」）、recumbent（斜倚的）。",
-              "mnemonic": "想象一只母鸡趴在蛋上保温——incubate就是「给脆弱的新想法保温」。AI lab就是Airbnb为其AI项目搭建的「孵化箱」：in-（进入）+ cubate（趴着）= 把想法关进温室里慢慢养大。",
-              "exampleEn": "The company set up an internal lab to incubate AI projects that could eventually evolve into standalone product lines.",
-              "exampleCn": "该公司设立了一个内部实验室，用于孵化AI项目，这些项目最终有望发展成独立的产品线。"
-            },
-            {
-              "word": "deliberate",
-              "pos": "adj.",
-              "meaning": "经过深思熟虑的；刻意为之的。比 careful 层次更高，强调「有意识地选择」而非偶然，常出现在商业战略报道中，暗含「这不是随意之举，背后有充分考量」。副词形式 deliberately 在新闻中同样高频。",
-              "etymology": "来自拉丁语 deliberatus，由 de-（彻底）+ librare（称重）构成，librare 来自 libra（天平、磅秤）。原义为「用天平反复权衡」。演变路径：权衡→深思熟虑→有意为之。Libra（天秤座）与此同源。",
-              "morphology": "de-（彻底）+ liber-（天平，词根 libra）+ -ate（形容词/动词后缀）。派生词：deliberately（副词）、deliberation（名词，审议）、deliberative（形容词，审议性的）。同族词：equilibrium（平衡，equi-+libr-）、calibrate（校准）。",
-              "mnemonic": "de-（彻底）+ liber（天平，即 Libra 天秤座，两盘反复权衡）= deliberate。想象天秤座做任何决定前都要把选项放在天平上来回称——这就是 deliberate 的精髓。切斯基「刻意」等待AI产品成熟，正是这种审慎的体现。",
-              "exampleEn": "Chesky's decision to hold off on any LLM partnership was deliberate, reflecting a broader strategy of building proprietary AI capabilities from the ground up.",
-              "exampleCn": "切斯基推迟任何大语言模型合作的决定是经过深思熟虑的，反映了从零开始自主构建AI能力的更宏观战略。"
-            }
-          ]
-        },
-        {
-          "id": "20260606-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/05/odds-of-a-fed-hike-this-year-jump-on-prediction-markets-.html",
-          "headlineEn": "Prediction Markets Give 52% Odds of Fed Rate Increase After Hot Jobs Report",
-          "headlineCn": "就业数据超预期，预测市场对联储加息概率升至52%",
-          "summaryEn": "After the U.S. economy added far more jobs than expected in the latest monthly report, traders on prediction markets sharply repriced their bets on Federal Reserve policy. The probability of at least one rate increase before year-end now stands at 52%, up from near single digits just weeks ago. The stronger-than-anticipated labor market suggests the economy may still be overheating, forcing markets to revisit the once-dismissed scenario of further monetary tightening.",
-          "summaryCn": "美国最新就业报告远超市场预期，推动预测市场大幅重新定价联储政策路径。预测市场交易者目前认为，联储今年内至少加息一次的概率已升至52%，而数周前这一数字几近个位数。强劲的劳动力市场数据显示美国经济可能仍在过热运行，令联储降息前景愈加渺茫，市场开始重新审视此前几乎被摒弃的进一步货币紧缩情景。",
-          "excerpt": "Following an unexpectedly hot jobs report, prediction market traders now assign a 52% probability to the Federal Reserve raising interest rates at least once before year-end — a dramatic repricing from near-zero odds just weeks ago, signaling that monetary tightening may not yet be off the table.",
-          "vocab": [
-            {
-              "word": "prediction market",
-              "pos": "n. phrase",
-              "meaning": "预测市场——允许参与者对未来事件结果下注的市场机制，以集体价格聚合群体信息。在财经语境中特指Polymarket、PredictIt等平台。值得学因为它已成为现代金融分析的重要参考工具，常与「implied probability」搭配出现在彭博、路透等主流财经媒体",
-              "etymology": "「prediction」来自拉丁语 praedicere（pre-「提前」+ dicere「说」），意为「预先宣告」；「market」来自拉丁语 mercatus（交易场所）。两词组合形成于20世纪末，指以价格机制聚合群体预测信息的金融工具",
-              "morphology": "predict（动词）+ -ion（名词后缀）→ prediction；market 为基础词。同根词：predictive（adj. 预测性的）、predictor（n. 预测因子）、predictability（n. 可预测性）",
-              "mnemonic": "想象一群人在「市场」里买卖「未来事件」的彩票——谁赢大选？利率会不会涨？市场成交价即集体对概率的判断。prediction market 就是把民意调查变成可以赚钱的交易所",
-              "exampleEn": "Prediction market odds on a U.S. recession climbed to 60% after the central bank's hawkish statement rattled bond investors.",
-              "exampleCn": "在央行鹰派声明令债券投资者震动后，预测市场对美国经济衰退的概率押注攀升至60%。"
-            },
-            {
-              "word": "odds",
-              "pos": "n.",
-              "meaning": "胜算；概率（以比率或百分比形式表达）。财经语境中特指某事发生的可能性，常说「odds of a rate increase」「odds are stacked against」。与 probability 相比，odds 更口语、更带博彩色彩，常见于新闻标题；读财经媒体必须掌握这个词",
-              "etymology": "来自古英语 odd（奇数、不均等），源自古北欧语 oddi（尖端、奇数）。最初指「不均等的条件」，后演变为赌博中双方胜负的比率，再泛化为「可能性」，进入金融和政策分析语境",
-              "morphology": "单词本身结构简单，无前后缀。常见固定搭配：odds-on（胜算大的）、long odds（可能性极低）、against all odds（克服重重困难）、the odds favor（形势有利于）",
-              "mnemonic": "想象赌马时庄家给出的赔率牌——「odds of 52%」就是「这匹马」有52%概率跑赢。联储加息就是那匹马，预测市场正在实时给它挂赔率牌",
-              "exampleEn": "The odds of the startup securing a Series B round improved sharply after it posted its first profitable quarter.",
-              "exampleCn": "在录得首个盈利季度后，该初创公司成功完成B轮融资的胜算大幅提升。"
-            },
-            {
-              "word": "nonfarm payrolls",
-              "pos": "n.",
-              "meaning": "非农就业人数——美国劳工统计局每月首个周五公布的核心就业指标，排除农业及部分其他行业。是全球最受关注的宏观数据之一，直接影响联储利率决策及美元、股市、债市走势。读财经新闻必须认识这个固定术语",
-              "etymology": "non-（拉丁语前缀，表「非/否定」）+ farm（古英语 feorm，原意「粮食供给」，引申为农场）+ payroll（pay「薪酬」+ roll「名单卷轴」）。三词合用为20世纪美国劳工统计的专业术语",
-              "morphology": "non-（否定前缀，如 nonfiction 非虚构、nonprofit 非营利）+ farm + pay + -roll。payroll 派生词：paycheck（工资支票）、payslip（工资条）、payroll tax（工资税）",
-              "mnemonic": "Non = 不是，farm = 农场，payrolls = 工资单。想象劳工部把全美「非农场员工」的工资单叠在一起计人头——每月第一个周五数字一出，全球市场屏息等待",
-              "exampleEn": "Nonfarm payrolls surged by 350,000 in May, far exceeding the 180,000 consensus estimate and sending Treasury yields sharply higher.",
-              "exampleCn": "5月非农就业人数激增35万，远超市场18万的一致预期，推动美债收益率大幅走高。"
-            },
-            {
-              "word": "tighten",
-              "pos": "v.",
-              "meaning": "（货币政策）收紧——指央行通过加息、缩减资产负债表等手段减少货币供应、抑制通胀。反义词为 ease/loosen。金融媒体高频词，常说「tighten policy」「tightening cycle」「tightening bias」，是理解央行政策报道的核心动词",
-              "etymology": "来自古英语 tēon（拉、拽），演变为形容词 tight（紧的）+ -en（动词化后缀）。字面义「使变紧」，货币政策语境中是隐喻用法——「收紧信贷闸门」，使借贷成本上升、货币流通减少",
-              "morphology": "tight（adj. 紧的）+ -en（使动后缀，如 brighten 使变亮、widen 使变宽）→ tighten。相关词族：tightening（n. 收紧周期）、overtighten（v. 过度收紧）、tight（adj. 货币紧张的）",
-              "mnemonic": "想象央行行长用力拧紧一个水龙头——水（货币/信贷）流出减少，利率升高，经济降温，这就是 tighten。对应地，ease 就是松开水龙头放水",
-              "exampleEn": "The central bank signaled it may need to tighten policy further if core inflation fails to return to the 2% target by year-end.",
-              "exampleCn": "央行发出信号称，若核心通胀未能在年底前回落至2%目标，可能需要进一步收紧货币政策。"
-            },
-            {
-              "word": "overheat",
-              "pos": "v.",
-              "meaning": "（经济）过热——指经济增速超过潜在产出，导致通胀攀升和资源瓶颈。常说「the economy is overheating」「signs of overheating」。这是理解央行政策逻辑的关键隐喻：经济像引擎，跑太快会烧坏，央行必须加息降温",
-              "etymology": "over-（表「超过/过度」，来自古英语 ofer）+ heat（古英语 hǣtu，热量）。字面义「过度加热」，工业革命时用于描述机器过载，后被经济学家借用为比喻，描述经济运行过速导致通胀的状态",
-              "morphology": "over-（超过，如 overcapacity 产能过剩、overleverage 过度杠杆）+ heat（热）。派生词：overheating（n.）、overheated（adj. 过热的，如 an overheated labor market 过热的劳动力市场）",
-              "mnemonic": "想象一台赛车引擎转速飙红冒烟——经济「引擎」也一样，增长太快就会 overheat，通胀报警，央行踩刹车（加息）强制降温。热就要降温，逻辑一目了然",
-              "exampleEn": "Analysts warned that the labor market was overheating, with wage growth running well above levels consistent with the Fed's 2% inflation target.",
-              "exampleCn": "分析人士警告称劳动力市场正在过热，工资增速已远超与联储2%通胀目标相符的水平。"
             }
           ]
         }
