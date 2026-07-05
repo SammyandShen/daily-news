@@ -5,7 +5,7 @@ generate_with_claude_code.py
 关键点：claude -p "提示词" 是 headless 模式，会用你的 Pro 订阅而不是 API key。
 
 工作流程：
-  1. 读 docs/_candidates.json（fetch_news.py 已经抓好的 5 条候选新闻）
+  1. 读 docs/_candidates.json（fetch_news.py 抓好的候选新闻）
   2. 对每条新闻，把"原始标题+摘要"作为提示词，让 Claude Code 生成结构化 JSON
   3. 把所有结果合并到 docs/news.json
 """
@@ -184,8 +184,9 @@ def template_fallback(candidate: dict) -> dict:
     }
 
 
-def build_story(candidate: dict, idx: int, date_str: str, exclude_words: set | None = None) -> dict:
-    print(f"  [{idx + 1}/5] {candidate['title'][:60]}...")
+def build_story(candidate: dict, idx: int, date_str: str, exclude_words: set | None = None, total: int = 0) -> dict:
+    total_str = f"/{total}" if total else ""
+    print(f"  [{idx + 1}{total_str}] {candidate['title'][:60]}...")
     content = call_claude_code(candidate, exclude_words=exclude_words)
     if content is None:
         print(f"        ⚠️ 生成失败，使用兜底内容")
@@ -249,12 +250,12 @@ def main():
         print("⚠️ No candidates today, skipping")
         return
 
-    # 收集历史已选词汇，并在生成过程中逐条累加，避免同一天内 5 条故事互相重复
+    # 收集历史已选词汇，并在生成过程中逐条累加，避免同一天多条故事互相重复
     used_words = collect_used_words()
     print(f"📚 历史已选词汇 {len(used_words)} 个，将作为排除清单")
     stories = []
     for i, c in enumerate(candidates):
-        story = build_story(c, i, date_str, exclude_words=used_words)
+        story = build_story(c, i, date_str, exclude_words=used_words, total=len(candidates))
         stories.append(story)
         # 把这条故事新选的词追加进排除集，给下一条用
         for v in story.get("vocab", []):

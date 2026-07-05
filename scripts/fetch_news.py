@@ -1,7 +1,7 @@
 """
 fetch_news.py
 从主流英语媒体的免费 RSS 源抓取当日新闻，
-按"科技 / 商业 / 经济"主题打分排序，挑出 5 条候选写入临时文件。
+按"科技 / 商业 / 经济"主题打分排序，挑出 STORIES_PER_DAY 条候选写入临时文件。
 """
 
 import feedparser
@@ -54,6 +54,7 @@ OUTPUT = Path(__file__).parent.parent / "docs" / "_candidates.json"
 NEWS_JSON = Path(__file__).parent.parent / "docs" / "news.json"
 LOOKBACK_HOURS = 36  # 只看过去 36 小时的新闻
 DEDUP_DAYS = 7       # 过去 N 天选过的故事不再选
+STORIES_PER_DAY = 3  # 每天几条故事：tech 1 + biz 1 + econ 1
 
 
 def normalize_title(t: str) -> str:
@@ -168,16 +169,16 @@ def main():
     # 在每个分类内按分数排序，挑出 top 候选
     by_cat = {"tech": [], "biz": [], "econ": []}
     for c in sorted(candidates, key=lambda x: -x["score"]):
-        if len(by_cat[c["category"]]) < 4:  # 每类最多 4 条候选
+        if len(by_cat[c["category"]]) < 3:  # 每类最多 3 条候选
             by_cat[c["category"]].append(c)
 
-    # 拼成最终 5 条：tech 2 + biz 2 + econ 1（可调）
-    final = (by_cat["tech"][:2] + by_cat["biz"][:2] + by_cat["econ"][:1])
-    if len(final) < 5:
-        # 不够 5 条 → 用剩余的填
+    # 拼成最终 STORIES_PER_DAY 条：每类各 1 条，保持多样性
+    final = (by_cat["tech"][:1] + by_cat["biz"][:1] + by_cat["econ"][:1])
+    if len(final) < STORIES_PER_DAY:
+        # 某个分类候选不够 → 用剩余的按分数填
         leftover = sorted(candidates, key=lambda x: -x["score"])
         for c in leftover:
-            if c not in final and len(final) < 5:
+            if c not in final and len(final) < STORIES_PER_DAY:
                 final.append(c)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
