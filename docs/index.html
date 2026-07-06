@@ -169,7 +169,8 @@
   .writing-result .wr-ref { font-size: 13.5px; color: #2d3748; }
   .exercise-mode-badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 10px; margin-bottom: 14px; letter-spacing: 0.5px; }
   .mode-cloze { background: #e6f3ff; color: #2c5282; }
-  .mode-translate { background: #fefce8; color: #b7791f; }
+  .mode-type { background: #f0fff4; color: #276749; }
+  .mode-spell { background: #fefce8; color: #b7791f; }
   .cloze-sentence { font-size: 17px; line-height: 1.7; color: #2d3748; padding: 16px 18px; background: #f7fafc; border-radius: 10px; margin-bottom: 12px; font-weight: 500; }
   .cloze-blank { display: inline-block; min-width: 80px; padding: 0 10px; margin: 0 2px; border-bottom: 3px solid #1a365d; font-weight: 700; color: #1a365d; }
   .cloze-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
@@ -811,16 +812,22 @@ function handleRating(rating, page) {
   applyReview(item.id, rating);
   s.results[rating]++;
   if (rating === "forgot") {
-    // 进入造句练习队列时即决定模式（避免重渲染时模式跳变）
+    // 进入强化练习队列时即决定模式：cloze（四选一）或 type（键入填空）
+    // 两种都基于挖空句子 + 中文提示，只是输入方式不同，避免造整句的高门槛
     const cloze = buildCloze(item.exampleEn, item.word);
-    const wantCloze = cloze.found && Math.random() < 0.5;
-    s.forgotItems.push({
-      ...item,
-      exerciseMode: wantCloze ? "cloze" : "translate",
-      clozeText: wantCloze ? cloze.masked : null,
-      clozeExpected: wantCloze ? cloze.expected : null,
-      clozeOptions: wantCloze ? buildClozeOptions(item.word) : null,
-    });
+    if (cloze.found) {
+      const useChoice = Math.random() < 0.5;
+      s.forgotItems.push({
+        ...item,
+        exerciseMode: useChoice ? "cloze" : "type",
+        clozeText: cloze.masked,
+        clozeExpected: cloze.expected,
+        clozeOptions: useChoice ? buildClozeOptions(item.word) : null,
+      });
+    } else {
+      // 少数情况：目标词在例句里匹配不上，用简单默写模式（看中文写英文单词）
+      s.forgotItems.push({ ...item, exerciseMode: "spell" });
+    }
   }
   s.currentIdx++;
   s.flipped = false;
@@ -836,9 +843,13 @@ function showWritingExercise(page) {
   const item = s.forgotItems[idx];
   const submitted = s.writingSubmitted;
   const isCloze = item.exerciseMode === "cloze";
+  const isType = item.exerciseMode === "type";
+  const isSpell = item.exerciseMode === "spell";
   const modeBadge = isCloze
-    ? `<span class="exercise-mode-badge mode-cloze">📝 选词填空</span>`
-    : `<span class="exercise-mode-badge mode-translate">🌏 中译英</span>`;
+    ? `<span class="exercise-mode-badge mode-cloze">📝 四选一</span>`
+    : isType
+      ? `<span class="exercise-mode-badge mode-type">⌨️ 键入填空</span>`
+      : `<span class="exercise-mode-badge mode-spell">✍️ 默写</span>`;
   const header = `
     <header style="margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #e0e6f0;">
       <h1>✏️ 强化练习</h1>
@@ -870,67 +881,63 @@ function showWritingExercise(page) {
       <div class="cloze-sentence">${clozeHtml}</div>
       <div class="writing-hint" style="margin-bottom:14px;">💡 ${escapeHtml(item.exampleCn)}</div>
       <div class="cloze-options" id="cloze-options">${optsHtml}</div>`;
-  } else {
-    // 中译英模式：显示中文 + 提示，多行输入
+  } else if (isType) {
+    // 键入填空：与 cloze 结构相同（挖空句子 + 中文提示），改成键盘输入而非点选
+    const clozeHtml = escapeHtml(item.clozeText).replace(/____/g, '<span class="cloze-blank">____</span>');
     body = `
       ${modeBadge}
-      ${wordTitle}
-      <div class="cloze-sentence">${escapeHtml(item.exampleCn)}</div>
-      <div class="writing-hint" style="margin-bottom:14px;">💡 必须使用 <strong>${escapeHtml(item.word)}</strong>（可以是任意词形）</div>
-      <textarea class="writing-textarea" id="writing-input" placeholder="翻译成英文… (Ctrl+Enter 提交)" ${submitted ? "disabled" : ""}>${submitted ? escapeHtml(submitted.userText) : ""}</textarea>`;
+      <div class="cloze-sentence">${clozeHtml}</div>
+      <div class="writing-hint" style="margin-bottom:14px;">💡 ${escapeHtml(item.exampleCn)}</div>
+      <input type="text" class="writing-input" id="writing-input" autocomplete="off" autocapitalize="off" placeholder="键入合适的词… (回车提交)" value="${submitted ? escapeHtml(submitted.userText) : ""}" ${submitted ? "disabled" : ""}>`;
+  } else {
+    // 默写模式（少数无法挖空时的兜底）：给中文释义，键入英文单词
+    body = `
+      ${modeBadge}
+      <div class="writing-hint" style="margin-bottom:14px;font-size:15px;line-height:1.7;">
+        请写出该释义对应的英文词汇：<br>
+        <strong style="color:#1a365d;">${escapeHtml(item.meaning || "(无中文释义)")}</strong>
+      </div>
+      <input type="text" class="writing-input" id="writing-input" autocomplete="off" autocapitalize="off" placeholder="键入英文单词… (回车提交)" value="${submitted ? escapeHtml(submitted.userText) : ""}" ${submitted ? "disabled" : ""}>`;
   }
 
-  // 结果反馈区
+  // 结果反馈区（三种模式都基于是否答对来给统一反馈）
   let resultArea = "";
   if (submitted) {
-    if (isCloze) {
-      const correct = clozeMatches(submitted.userText, item.clozeExpected, item.word);
-      const cls = correct ? "feedback-correct" : "feedback-wrong";
-      const icon = correct ? "✅" : "❌";
-      const label = correct ? "答对了" : "不太对";
-      // 中文释义帮助加深印象（特别是答错时）
-      const meaningHint = item.meaning ? `<div style="margin-top:6px;font-size:12.5px;color:#4a5568;">📖 <strong>${escapeHtml(item.word)}</strong>（${escapeHtml(item.pos)}）${escapeHtml(item.meaning)}</div>` : "";
-      resultArea = `
-        <div class="writing-result ${cls}" style="margin-top:14px;">
-          <div class="wr-label"><span class="feedback-icon">${icon}</span>${label}</div>
-          ${correct ? "" : `<div class="wr-ref">正确答案：<strong style="color:#276749;">${escapeHtml(item.word)}</strong></div>`}
-          ${meaningHint}
-        </div>
-        <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
-          <div class="wr-label">完整例句</div>
-          <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
-          <div style="font-size:12.5px;color:#718096;margin-top:4px;">${escapeHtml(item.exampleCn)}</div>
-        </div>`;
-    } else {
-      resultArea = `
-        <div class="writing-result" style="margin-top:14px;">
-          <div class="wr-label">你写的</div>
-          <div class="wr-ref">${escapeHtml(submitted.userText || "(已跳过)")}</div>
-        </div>
-        <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
-          <div class="wr-label">参考译文</div>
-          <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
-        </div>`;
-    }
+    const correct = clozeMatches(submitted.userText, item.clozeExpected, item.word);
+    const cls = correct ? "feedback-correct" : "feedback-wrong";
+    const icon = correct ? "✅" : "❌";
+    const label = correct ? "答对了" : "不太对";
+    const meaningHint = item.meaning ? `<div style="margin-top:6px;font-size:12.5px;color:#4a5568;">📖 <strong>${escapeHtml(item.word)}</strong>（${escapeHtml(item.pos)}）${escapeHtml(item.meaning)}</div>` : "";
+    const wrongInfo = correct ? "" : `<div class="wr-ref">你填：<strong>${escapeHtml(submitted.userText || "(空)")}</strong> · 正确答案：<strong style="color:#276749;">${escapeHtml(item.word)}</strong></div>`;
+    // 只有在有例句挖空时才显示完整例句参考
+    const exampleRef = (isCloze || isType) ? `
+      <div class="writing-result" style="margin-top:10px;background:#f0fff4;border-left:4px solid #68d391;">
+        <div class="wr-label">完整例句</div>
+        <div class="wr-ref">${escapeHtml(item.exampleEn)} ${speakBtnHtml(item.exampleEn, false)}</div>
+        <div style="font-size:12.5px;color:#718096;margin-top:4px;">${escapeHtml(item.exampleCn)}</div>
+      </div>` : "";
+    resultArea = `
+      <div class="writing-result ${cls}" style="margin-top:14px;">
+        <div class="wr-label"><span class="feedback-icon">${icon}</span>${label}</div>
+        ${wrongInfo}
+        ${meaningHint}
+      </div>
+      ${exampleRef}`;
   }
 
-  // cloze 模式：点选项即提交，无需「提交」按钮；只在未提交时给「跳过」按钮
+  // 三种模式都不再需要「提交并看参考」按钮：
+  // - cloze：点选项即提交
+  // - type / spell：单行输入 + 回车提交
   let buttons;
   if (submitted) {
     buttons = `
       <div style="display:flex;justify-content:flex-end;margin-top:16px;">
         <button class="btn btn-primary" id="next-writing-btn">${idx + 1 < total ? "下一个 →" : "完成练习 ✓"}</button>
       </div>`;
-  } else if (isCloze) {
+  } else {
     buttons = `
       <div style="display:flex;justify-content:flex-end;margin-top:14px;">
         <button class="btn" id="skip-writing-btn">跳过</button>
-      </div>`;
-  } else {
-    buttons = `
-      <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:14px;">
-        <button class="btn" id="skip-writing-btn">跳过</button>
-        <button class="btn btn-primary" id="submit-writing-btn">提交并看参考</button>
       </div>`;
   }
 
@@ -947,17 +954,14 @@ function showWritingExercise(page) {
         });
       });
     } else {
-      const doSubmit = () => {
-        s.writingSubmitted = { userText: document.getElementById("writing-input").value.trim() };
-        showWritingExercise(page);
-      };
-      document.getElementById("submit-writing-btn").addEventListener("click", doSubmit);
+      // type / spell：文本框 + 回车提交
       const inp = document.getElementById("writing-input");
       inp.focus();
       inp.addEventListener("keydown", e => {
-        if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+        if (e.key === "Enter") {
           e.preventDefault();
-          doSubmit();
+          s.writingSubmitted = { userText: inp.value.trim() };
+          showWritingExercise(page);
         }
       });
     }
