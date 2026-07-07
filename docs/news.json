@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-05T23:07:18.027250+00:00",
+  "lastUpdated": "2026-07-07T00:24:19.643427+00:00",
   "level": "B2",
   "days": {
+    "2026-07-07": {
+      "label": "7月7日 (周二)",
+      "stories": [
+        {
+          "id": "20260707-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+          "headlineEn": "If you use Google, you’re training its AI. Here’s how to opt out.",
+          "headlineCn": "用谷歌就是在为其AI提供训练数据？教你如何关闭授权",
+          "summaryEn": "Google has quietly updated its privacy settings to allow broader storage of user data — including images, files, and audio and video recordings — for AI model training. This change takes effect by default for users who have not actively opted out, meaning most people are unknowingly contributing to Google's AI development. Privacy advocates warn that the lack of clear, upfront consent mechanisms raises serious questions about user rights and data sovereignty in the generative AI era.",
+          "summaryCn": "谷歌近期悄然修改隐私政策，默认允许收集并存储更多用户数据，包括图片、文件及音视频录像，用于改进旗下AI模型。这一变更对未主动退出的用户自动生效，意味着大多数人在不知情的情况下，正持续为谷歌的AI训练贡献个人数据。隐私倡导者对此提出批评，认为缺乏透明、明确的知情同意机制，引发了关于大模型时代用户数据主权的广泛讨论。",
+          "excerpt": "A recent change to Google's privacy settings now allows the company to store more of your data — including images, files, and audio and video recordings — to improve its AI models. The new policy is enabled by default; users who wish to opt out must manually navigate their account settings to toggle it off.",
+          "vocab": [
+            {
+              "word": "opt out",
+              "pos": "phrasal v.",
+              "meaning": "选择退出（某项默认服务或政策），主动行使「不参与」的权利。区别于「withdraw」（正式撤回），opt out 更强调面对一个默认开启的机制时，用户主动拒绝的动作，常见于隐私设置、数据收集、邮件订阅等场景，语气中性但暗含消费者权利意识。",
+              "etymology": "「opt」来自拉丁语 optare，意为「选择、希望」，约17世纪经法语进入英语。「out」表方向，指「选择离开某个默认状态」。opt out 的反义短语 opt in 同源，二者构成「主动加入 vs 主动退出」的对立框架，在隐私法（如GDPR）中是核心概念。",
+              "morphology": "opt（选择）+ out（方向副词，离开）。同词根词：option（选项）、optional（可选的）、opt in（选择加入）。注意 opt 单独使用时也常见，如「opt for sth」表示「选择某物」。",
+              "mnemonic": "想象你收到一封邮件，默认已勾选「同意接收广告」，你把那个勾「拿出去」（out）——这就是 opt out。与之对比：opt in 是你主动把勾「放进去」。现实中大量科技公司的数据收集都是 opt-out 机制，即默认开启、需自己关闭。",
+              "exampleEn": "Users must navigate three separate settings menus to opt out of Google's AI training data collection.",
+              "exampleCn": "用户必须进入三个不同的设置菜单，才能退出谷歌的AI训练数据收集。"
+            },
+            {
+              "word": "consent",
+              "pos": "n. / v.",
+              "meaning": "知情同意；许可。在隐私法、数据保护（如GDPR）和医疗伦理中是核心法律概念，强调「知情后主动授权」，而非被动接受。与「agree」相比，consent 更正式、更强调明确授权的法律效力，常出现在合同、隐私政策和监管文件中，是科技公司必须面对的合规红线。",
+              "etymology": "来自拉丁语 consentire，由 con-（共同）+ sentire（感受、思考）构成，原义「共同感知、达成一致」。14世纪经古法语 consentir 进入英语，从「心理上达成一致」演变为「正式授权许可」的法律含义。",
+              "morphology": "con-（共同）+ sent（感受，来自拉丁 sentire）+ -ent（名词/形容词后缀）。同词根词：dissent（异议，dis-=分离）、assent（赞同，as-=朝向）、sentiment（情感）、sentient（有感知的）。这一词根家族覆盖了「感知→态度→意愿」的语义链。",
+              "mnemonic": "con = together，sent = feel（感受）。两个人「一起感受并达成一致」才叫 consent。想象医生手术前，必须让病人「感受并认可」（con-sent）手术方案才能动刀——没有 consent 就动刀，在法律上是违规的。",
+              "exampleEn": "The platform's updated terms require explicit user consent before any personal data can be used for AI model training.",
+              "exampleCn": "该平台更新后的条款要求，在将任何个人数据用于AI模型训练之前，必须获得用户的明确同意。"
+            },
+            {
+              "word": "granular",
+              "pos": "adj.",
+              "meaning": "细粒度的、精细化的。在科技和商业语境中指「按细分维度进行的控制或分析」，如「granular controls」（精细化权限设置）、「granular data」（细颗粒度数据）。与「detailed」相比，granular 更强调可操作性和层次分解，是产品经理、数据分析师和隐私工程师的高频行话，值得重点掌握。",
+              "etymology": "来自拉丁语 granulum（小颗粒），是 granum（谷粒、颗粒）的指小词。17世纪进入英语时原指物质层面的细小颗粒结构，20世纪后在科技领域引申为「细粒度的、可精细操控的」，完成了从物理到抽象的语义迁移。",
+              "morphology": "gran（颗粒，来自拉丁 granum）+ -ul-（指小词缀）+ -ar（形容词后缀）。同词根词：grain（谷粒）、granite（花岗岩，因颗粒状纹理得名）、granule（细颗粒）、granularity（细粒度，名词形式，在技术文档中极常见）。",
+              "mnemonic": "想象用显微镜看「grain」（颗粒），颗粒越细小，看到的细节越多——这就是 granular。商业会议上说「we need more granular data」，就是「把数据拆得更细」；说「granular controls」就是「每项权限都能单独调节」，而不是一刀切地开或关。",
+              "exampleEn": "The new privacy dashboard offers granular controls, allowing users to decide exactly which data types Google can use for AI training.",
+              "exampleCn": "新版隐私控制面板提供精细化设置，让用户可以精确决定谷歌能将哪些类型的数据用于AI训练。"
+            },
+            {
+              "word": "default",
+              "pos": "n. / adj. / v.",
+              "meaning": "默认值；默认状态。在技术和法律语境中指「用户未做任何操作时系统自动适用的预设状态」。「by default」是固定搭配，意为「在无其他操作时自然生效」。与「standard」不同，default 暗含「如果你不改变，就会是这样」的被动逻辑，是隐私权讨论中的关键词，也用于金融（违约）和法律（缺席判决）。",
+              "etymology": "来自古法语 defaute（过失、缺失），由 de-（否定/离开）+ faillir（失败，来自拉丁 fallere）构成。最初义为「未能履行义务」（金融违约至今沿用此义），后演变为「未设定时的标准状态」——即「什么都没做」时系统的行为。",
+              "morphology": "de-（否定/离开）+ fault（过失，来自拉丁 fallere 「欺骗、失败」）。同词根词：fault（过错）、fallible（易犯错的）、infallible（无误的）、false（虚假的）、fallacy（谬误）。这一词根揭示了「违约」和「默认」这两个看似无关含义的共同起源：都是「什么都没做」的状态。",
+              "mnemonic": "把 default 拆成「de + fault」：没有过失（de-fault）就是你什么都没做，系统按预设走——这就是默认。金融里「债务违约」也是 default，因为「未能履行」是它最初的含义。两个意思都指向「没有主动动作」，记住这个共同逻辑就全记住了。",
+              "exampleEn": "Google's AI data collection is enabled by default, so users must actively change their settings to opt out.",
+              "exampleCn": "谷歌的AI数据收集功能默认开启，因此用户必须主动修改设置才能退出。"
+            },
+            {
+              "word": "toggle",
+              "pos": "v. / n.",
+              "meaning": "切换（开关状态）；开关按钮。在科技产品设计中极高频，指在两种状态（开/关、启用/禁用）之间来回切换。与「switch」相比，toggle 更强调「拨来拨去」的反复动作，且几乎专指二元切换，是UI/UX设计师和工程师的标准用语，在隐私设置说明中尤为常见。",
+              "etymology": "17世纪起源于航海用语，toggle 原指固定绳索用的横销（一根横穿绳圈的短木棒）——拨入卡住、拨出松开，天然具有二元切换的物理结构。20世纪随计算机普及，这一意象被移植到软件界面，成为「在两种状态间切换的开关」的专用术语。",
+              "morphology": "无明显前缀/后缀拆解，属单一历史词根。常见复合形式：toggle switch（拨动开关）、toggle button（切换按钮）。近义词对比有助于辨析：toggle（在A/B两态间反复切换）vs switch（强调单次动作或更广义的切换）vs flip（强调快速翻转的动作感）。",
+              "mnemonic": "想象老式电灯的「拨动开关」（toggle switch）：向左拨关灯，向右拨开灯，来来回回。在手机隐私设置里看到一个小圆形滑块，「toggle it off」就是把它拨到关的那侧。记住那根在绳圈里进进出出的航海横销，你就永远记住 toggle 的「来回拨动」感了。",
+              "exampleEn": "Users can toggle off the AI personalization feature in their Google account settings under the Data & Privacy tab.",
+              "exampleCn": "用户可以在谷歌账户设置的「数据与隐私」标签页中，将AI个性化功能的开关关闭。"
+            }
+          ]
+        },
+        {
+          "id": "20260707-2",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/if-the-stock-markets-double-bubble-bursts-it-could-usher-in-the-next-crash-de54c1b2?mod=mw_rss_topstories",
+          "headlineEn": "Stock Market's Double Bubble Could Trigger the Next Major Crash",
+          "headlineCn": "股市「双重泡沫」或将引发下一场重大崩盘",
+          "summaryEn": "Stock market analysts are warning that a rare 'double bubble' may be forming — one in which both equity valuations and corporate earnings appear dangerously stretched beyond historical norms. While elevated price-to-earnings multiples alone can signal overheating, the concern deepens when earnings themselves look inflated above their long-run trend. If both revert to historical levels at once, the resulting market correction could be sharp and severe. Investors face a critical question: can earnings growth justify today's valuations, or is a major de-rating ahead?",
+          "summaryCn": "市场分析人士警告，股市正面临罕见的「双重泡沫」困境：股票估值已远超历史常态，与此同时企业盈利增速也明显偏离长期趋势，两大支柱均处于虚高状态。当估值倍数和盈利本身同时过度拉伸时，一旦发生均值回归，市场调整的幅度可能远超普通回调。投资者面临关键拷问：当前盈利增长能否支撑高估值，还是一场深度的重新定价已无可避免？",
+          "excerpt": "Equity valuations remain extreme by historical standards, but a second, subtler risk has emerged: corporate earnings growth itself appears to be running well above its long-term trend. If this gap closes while multiples are also compressing, the market could face a double unwind with few safe harbors.",
+          "vocab": [
+            {
+              "word": "usher in",
+              "pos": "phrasal v.",
+              "meaning": "引领进入、开启（某个新时期或重大变化）。比 bring about 更正式，常用于描述历史性转变，带有「宣告某个新时代到来」的仪式感，多见于财经报道和政治叙事中，强调新旧交替的节点意义。",
+              "etymology": "源自古法语 ussier（门卫），来自拉丁语 ostiarius（守门人，ostium = 门口）。守门人的职责是「引领来宾进入」，逐渐从具体的「带路」引申为抽象的「开启、引入某个新阶段」，语义演变历经约五百年。",
+              "morphology": "usher（n. 领座员、引路人 / v. 引领）+ in（副词，表示进入方向）→ 短语动词。延伸用法：usher out（宣告某事结束）、usher sb. into（引领某人进入某场合）；herald 和 inaugurate 语义接近但更正式书面。",
+              "mnemonic": "想象电影院里的 usher（引座员）拿着手电筒，把你「领进」黑暗大厅——股市双重泡沫破裂，就像那位引座员把整个市场「ushered into」一场崩盘的恐怖片，灯一灭，大幕拉开，无处可逃。",
+              "exampleEn": "The Federal Reserve's pivot to rate cuts is widely expected to usher in a new era of cheap capital and renewed risk appetite across emerging markets.",
+              "exampleCn": "美联储转向降息被普遍认为将开启廉价资本和新兴市场风险偏好回升的新时代。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司、资产或整体市场价值的量化评估，通常通过市盈率（P/E）、市销率（P/S）等指标体现。核心投资词汇，「估值过高/偏低」是买卖方分析的基础语言，直接决定是否值得持仓，不懂此词就无法读懂任何一份机构研报。",
+              "etymology": "源自拉丁语 valere（有价值、健康强壮）→ 法语 valuer（评估价值）→ 英语 value（价值）+ -ation（名词后缀，表示行为或结果）→ 「进行价值评估」这一行为及其产物，16世纪进入英语金融语境。",
+              "morphology": "value（n./v. 价值）+ -ation（名词化后缀）→ valuation。同族词族：valuable（adj. 有价值的）、devalue（v. 贬值）、overvalued（adj. 估值过高）、undervalued（adj. 被低估的）；-ation 同族：formation、regulation、inflation。",
+              "mnemonic": "val- 联想 value（价值），-ation 是「行动结果」。把 valuation 想成分析师开给公司的一张「定价单」：每赚1块钱，市场愿意为你付几倍的钱——这个「几倍」就是 valuation 的核心。泡沫时期，这张单子开得离谱高。",
+              "exampleEn": "Tech sector valuations remain elevated, with many AI-focused firms trading at over 50 times forward earnings despite slowing revenue growth.",
+              "exampleCn": "科技板块估值依然偏高，许多聚焦 AI 的公司尽管营收增速放缓，预期市盈率仍超过50倍。"
+            },
+            {
+              "word": "unwind",
+              "pos": "v.",
+              "meaning": "（仓位/风险）平仓、逆转；金融语境中特指系统性地减少已建立的投资仓位或套利头寸。比 sell 更精准，暗示这是一个有序或被迫的过程。泡沫破裂时「forced unwind」（被迫平仓）常引发连锁踩踏，是理解市场崩盘机制的关键词。",
+              "etymology": "源自古英语 windan（缠绕、旋转，同源德语 winden）→ un-（表反向动作）+ wind（缠绕）→ 字面义「松开缠绕」→ 金融引申为「松开/清除已建立的仓位结构」，如同松开一根被紧绷的弹簧，19世纪末进入金融语境。",
+              "morphology": "un-（反向动作前缀，如 undo、unpack、unravel）+ wind（v. 缠绕）→ unwind。常见金融搭配：unwind a trade（平仓）、unwind a carry trade（结束套息交易）、forced unwind（被迫平仓）、orderly unwind（有序清仓）。",
+              "mnemonic": "想象一个弹簧被慢慢拧紧（投资者不断加仓、风险积累）——泡沫破裂就像弹簧突然「unwind」弹开，被压缩的能量瞬间释放，仓位被迫快速平仓，市场剧烈震荡。弹簧松开 = unwind，画面感极强。",
+              "exampleEn": "Hedge funds began to unwind their leveraged long positions as the central bank signaled earlier-than-expected rate hikes.",
+              "exampleCn": "随着央行发出早于预期加息的信号，对冲基金开始平掉杠杆多头仓位。"
+            },
+            {
+              "word": "multiple",
+              "pos": "n.",
+              "meaning": "（估值）倍数，尤指市盈率（P/E ratio）。「股票以30倍交易」即 trading at a 30x multiple。这是华尔街日常分析语言的核心词，比直接说 P/E ratio 更口语，研报和电话会议中高频出现，掌握此词才能听懂机构投资者的真实对话。",
+              "etymology": "源自拉丁语 multiplex（多重的），由 multi-（多）+ plicare（折叠、层叠）构成 → 引申为「倍数」→ 金融中特化为「股价是盈利的几倍」这一核心估值比率，即用倍数语言表达市盈率，20世纪进入华尔街日常用语。",
+              "morphology": "multi-（多，如 multiply、multilateral、multimedia）+ -ple（折叠/层，如 triple、quadruple、simple = 单层）→ multiple。财经核心搭配：earnings multiple（市盈率倍数）、multiple compression/expansion（估值收缩/扩张）、re-rate to a higher multiple（给予更高估值倍数）。",
+              "mnemonic": "分析师做乘法：盈利（earnings）× 倍数（multiple）= 股价。泡沫时期这个乘数被「乘」得极高；一旦泡沫破裂，multiple 被压缩（compression），即使盈利不变，股价也会大跌——这就是「估值杀」的数学本质，multiple 是那把关键的乘数。",
+              "exampleEn": "Even after the recent pullback, the index still trades at a premium multiple of 22 times forward earnings, well above the historical average of 16 times.",
+              "exampleCn": "即便经历近期回调，该指数的估值倍数仍高达22倍预期市盈率，远高于16倍的历史均值。"
+            },
+            {
+              "word": "de-risk",
+              "pos": "v.",
+              "meaning": "降低风险敞口；指投资者主动调整组合以减少潜在损失，如减持高波动资产、增加现金或债券配置。与 hedge（对冲，用衍生品中和风险）有别：de-risk 是直接减少风险暴露，而非通过工具保护。是机构投资者在不确定时期最常用的操作描述词。",
+              "etymology": "de-（拉丁前缀，表示「去除、减少、逆向」，如 deflate、devalue、decelerate）+ risk（风险，源自意大利语 risco，原意为「礁石/悬崖」，水手用来描述航行险情）→ 现代合成词，直译「去除/减少风险」，20世纪末金融行业造词。",
+              "morphology": "de-（去除/逆向，同族：deleverage 去杠杆、deflate 通缩、detach 分离）+ risk（n./v. 风险）→ de-risk（v.）。同族操作词：deleverage（去杠杆）、de-risk the portfolio（降低组合风险）、de-risking catalyst（触发降险的催化事件）。",
+              "mnemonic": "de- 是「撤退/拆除」信号，就像军队「demining」（扫雷）是清除地雷。de-risk = 从风险中撤退。想象投资者看到双重泡沫警报，开始「de-risk」——把手里的「地雷」（高波动成长股）换成「防弹衣」（国债/现金），提前规避爆炸。",
+              "exampleEn": "Institutional investors began de-risking their portfolios ahead of earnings season, rotating out of high-multiple growth stocks and into defensive sectors.",
+              "exampleCn": "机构投资者在财报季前开始降低组合风险，将资金从高估值成长股轮换至防御性板块。"
+            }
+          ]
+        },
+        {
+          "id": "20260707-3",
+          "category": "econ",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+          "headlineEn": "Smart Glasses Still Can't Escape the 'Spy' Stigma Hollywood Created",
+          "headlineCn": "智能眼镜难逃好莱坞塑造的「间谍」刻板印象",
+          "summaryEn": "For years, Hollywood has both shaped and distorted public expectations for smart glasses. A tech writer reflects on Netflix's A Man on the Inside, starring Ted Danson, as an unexpected case study in why smart glasses face a deep cultural barrier. The show highlights how society instinctively links wearable cameras with covert surveillance, making mainstream adoption far harder than solving any engineering challenge.",
+          "summaryCn": "长期以来，好莱坞一边塑造了人们对智能眼镜的浪漫想象，一边也埋下了难以消解的「间谍」刻板印象。作者在追完奈飞剧集《内线》后意识到，这部剧无意中揭示了智能眼镜最深层的文化困境——社会本能地将可穿戴摄像设备与秘密监控画上等号。这种认知偏见比任何技术难题都更难克服，直接制约着智能眼镜走向大众市场。",
+          "excerpt": "Hollywood has simultaneously set and ruined our expectations for smart glasses. Netflix's A Man on the Inside may be the first show to illustrate the biggest cultural problem with smart glasses as they exist today — their deep association with covert surveillance.",
+          "vocab": [
+            {
+              "word": "binge-watch",
+              "pos": "phrasal v.",
+              "meaning": "一口气追剧；连续观看多集视频内容。比 watch 更生动，强调「停不下来」的沉浸感，在流媒体时代成为媒体和商业报道中的高频词，直接对应「用户黏性」（user engagement）这一核心商业指标，值得掌握。",
+              "etymology": "源自英语本土词「binge」（19世纪出现，原指暴饮暴食或纵情狂欢，词源可能来自英国方言中浸泡桶底木塞使其膨胀的动作），与「watch」合成为复合动词短语。21世纪流媒体兴起后迅速进入主流商业词汇。",
+              "morphology": "binge（纵情放纵）+ watch（观看）→ 复合动词短语，无独立词源。同类「binge」复合词：binge-eat（暴食）、binge-drink（酗酒）、binge-listen（连续听播客）。名词形式：binge-watching（追剧行为）。",
+              "mnemonic": "想象抱着薯片坐在沙发上，屏幕上一集接一集自动播放根本停不下来——「binge」= 放纵，「watch」= 看，合起来就是「放纵地刷剧」。Netflix专门设计「自动播放下一集」功能，就是为了助长 binge-watching。",
+              "exampleEn": "After binge-watching three seasons of the startup documentary in a weekend, the venture capitalist decided to lead the company's Series B round.",
+              "exampleCn": "在一个周末一口气看完那部初创公司纪录片的三季后，这位风投决定领投该公司的B轮融资。"
+            },
+            {
+              "word": "in a nutshell",
+              "pos": "phrase",
+              "meaning": "简而言之；一言以蔽之。比 in short 更口语化、更生动，常用于演讲、商业简报或采访中快速切入核心，是「电梯演讲」（elevator pitch）的常用起手式。职场英语中出现频率极高，却少见于教科书。",
+              "etymology": "源自古罗马作家普林尼（Pliny）记载的典故：荷马史诗《伊利亚特》全文据说能写在一颗核桃壳上。英语中16世纪出现此短语，意为「压缩进最小的容器」，引申为「极度精炼地表达」，沿用至今。",
+              "morphology": "短语/复合词，无独立词源。nut（坚果）+ shell（外壳）→ nutshell（核桃壳）→ in a nutshell（装进核桃壳 = 极度压缩）。近义辨析：in short（更正式书面）、to put it briefly（更强调主动简化）、bottom line（更聚焦商业结论）。",
+              "mnemonic": "想象把一整份商业计划书「塞进核桃壳」——物理上不可能，但语言上就是 in a nutshell：把复杂信息压缩成一句话。下次在会议上总结要点时，开口说「In a nutshell...」，专业又简洁。",
+              "exampleEn": "In a nutshell, the startup's pitch was simple: cut enterprise cloud costs by 40% without sacrificing performance.",
+              "exampleCn": "简而言之，这家初创公司的演讲主旨很简单：在不牺牲性能的前提下将企业云成本降低40%。"
+            },
+            {
+              "word": "wearable",
+              "pos": "n. / adj.",
+              "meaning": "可穿戴设备（名词）；可穿戴的（形容词）。科技行业核心品类术语，涵盖智能手表、智能眼镜、健康追踪器等。作为名词单独使用是科技商业英语的典型特征（形容词名词化），在硬件投资分析和产品策略报告中极为常见，普通字典收录有限但实际使用频率极高。",
+              "etymology": "源自古英语「werian」（穿着、携带），中古英语演变为「wear」，加拉丁语后缀「-able」（可…的，来自拉丁语 -abilis）构成形容词。21世纪科技产业将其名词化，形成专属产品品类术语并广泛进入投资人用语。",
+              "morphology": "wear（穿戴，古英语词根）+ -able（可…的，拉丁后缀）→ wearable。同后缀词：scalable（可扩展的）、deployable（可部署的）、actionable（可执行的）。派生词族：wear（v.）→ wearable（adj./n.）→ wearer（n. 佩戴者）→ worn（adj. 磨损的）。",
+              "mnemonic": "wear（穿）+ able（能）= 能穿在身上的东西。手机不是 wearable，但把它缩小绑在手腕上就成了 wearable（智能手表）。苹果 wearables 部门覆盖三个感官：耳朵（AirPods）+ 手腕（Apple Watch）+ 眼睛（Vision Pro）。",
+              "exampleEn": "Apple's wearables segment now generates more annual revenue than the entire Mac product line, underscoring the category's strategic importance.",
+              "exampleCn": "苹果可穿戴设备业务线的年收入现已超过整个Mac产品线，凸显了这一品类的战略重要性。"
+            },
+            {
+              "word": "covert",
+              "pos": "adj.",
+              "meaning": "秘密的；隐蔽的。与 overt（公开的）构成核心对立词对，在网络安全、商业竞争情报、科技政策分析中高频出现。比 secret 更书面，更强调「有意策略性掩盖」的含义，是阅读英文安全与地缘政治报道的必备词汇。",
+              "etymology": "源自古法语「covert」（覆盖的、隐藏的），来自拉丁语「cooperire」（co- 完全 + operire 覆盖）。12世纪进入英语，原指「有遮蔽的地方」如树丛，后随军事情报用语扩展，引申为「隐秘行动」，与 overt 构成对立。",
+              "morphology": "co-（完全，强调前缀）+ -vert（来自 operire 覆盖）→ covert（完全被覆盖 = 隐秘）。对立词：overt（公开的）。派生词：covertly（adv.）、covertness（n.）。近义辨析：clandestine（强调非法秘密）、undercover（强调卧底身份）、covert（强调策略性隐蔽，可合法可非法）。",
+              "mnemonic": "covert ≈ covered（被覆盖的）——「covert ops」（秘密行动）就是被「盖」起来不让人看见的行动。智能眼镜的文化困境：人们看到它就联想到 covert surveillance（秘密监控），因为镜片像一面遮住真实意图的帘子。",
+              "exampleEn": "The cybersecurity firm uncovered a covert data-harvesting operation embedded in a widely used enterprise productivity app.",
+              "exampleCn": "该网络安全公司发现了一项隐蔽的数据采集行动，被嵌入在一款被广泛使用的企业生产力应用中。"
+            },
+            {
+              "word": "stigma",
+              "pos": "n.",
+              "meaning": "污名；社会负面标签。指社会对某种事物、行为或群体的标签化歧视，比 prejudice 更强调「被烙印」的社会过程，比 stereotype 更强调「羞耻感」。在科技产品市场推广和品牌管理中，「去污名化」（destigmatize）是产品能否大众化的核心命题，值得专门学习。",
+              "etymology": "源自希腊语「stigma」（烙印、刺痕），指古代在奴隶或罪犯皮肤上烙下的永久标记。拉丁语直接借用，17世纪进入英语，引申为「社会羞耻标记」。神学中「stigmata」指圣痕，保留了希腊语复数形式，可见词义的历史厚度。",
+              "morphology": "来自希腊语动词「stizein」（刺、刺入）。复数形式：stigmata（正式/宗教语境）或 stigmas（日常用法）。派生词：stigmatize（v. 污名化）、stigmatized（adj. 被污名化的）、destigmatize（v. 去污名化，de- 前缀表示「去除」）。同词根远亲：instinct（本能，in- + stinct 刺入内心）。",
+              "mnemonic": "古代用烙铁在皮肤上烙下「stigma」（烙印），永久洗不掉——现代引申为社会给某类事物贴的「永久负面标签」。智能眼镜的 stigma：「你戴着它，周围人都觉得你在偷拍」，这个印象比技术本身更难消除。",
+              "exampleEn": "Fintech lenders are working to remove the stigma around buy-now-pay-later products by rebranding them as budgeting tools rather than debt instruments.",
+              "exampleCn": "金融科技贷款机构正努力消除「先买后付」产品的污名，将其重新定位为预算管理工具而非债务工具。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-06": {
       "label": "7月6日 (周一)",
       "stories": [
@@ -9151,326 +9345,6 @@
               "mnemonic": "hostilities 里藏着 host（主人）——这个「主人」对你极不友好，充满敌意；复数形式则升级为「真实动手打架」。不友好的 host 最终引爆了 hostilities",
               "exampleEn": "A resumption of hostilities in the region could push oil prices well above $100 per barrel.",
               "exampleCn": "该地区敌对行动一旦重燃，油价可能轻松突破每桶100美元大关。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-07": {
-      "label": "6月7日 (周日)",
-      "stories": [
-        {
-          "id": "20260607-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html",
-          "headlineEn": "Model Routing Cuts AI Costs, Threatening OpenAI and Anthropic's Revenue",
-          "headlineCn": "「模型路由」压低AI成本，威胁OpenAI与Anthropic营收",
-          "summaryEn": "Companies are rethinking how they deploy AI. Instead of running every task on the most powerful—and expensive—frontier model, businesses now route simpler queries to smaller, cheaper models while reserving top-tier AI for complex work. This practice, called model routing, dramatically reduces AI spending. The shift threatens revenue for premium providers like OpenAI and Anthropic, whose business models depend on customers defaulting to their flagship models for nearly all tasks.",
-          "summaryCn": "企业正在重新审视AI部署方式。过去，许多公司将所有任务都交给最强大（也最昂贵）的前沿模型处理；如今，它们开始将简单查询分配给更小、更便宜的模型，仅在处理复杂任务时才调用顶级AI。这种被称为「模型路由」的做法能大幅削减AI开支。对于OpenAI和Anthropic等高端AI提供商而言，此趋势构成威胁——它们的商业模式依赖用户将旗舰模型作为处理几乎所有任务的默认选择。",
-          "excerpt": "Companies are no longer defaulting to the most powerful AI model for every task. By routing simpler queries to lighter, cheaper models and reserving flagship AI for complex work, businesses are cutting AI bills significantly—a trend that threatens the premium pricing strategy of top AI providers.",
-          "vocab": [
-            {
-              "word": "routing",
-              "pos": "n. / v.",
-              "meaning": "路由；任务分流。指将不同类型的请求自动导向最合适处理资源的技术。比「directing」更专业，常见于网络、AI工程和物流领域，是本文核心概念，掌握此词可直接读懂大量AI工程文献",
-              "etymology": "来自古法语 route（道路、路线），源自拉丁语 rupta via（破开的路）。词义从「物理道路」演变为「数据或任务流向的路径」，20世纪随计算机网络兴起正式成为技术术语",
-              "morphology": "词根 rout-（路线）+ -ing（名词或动名词后缀）。同族词：route（路线）、router（路由器）、reroute（重新路由）、en route（在途中）。掌握词根可快速识别整个词族",
-              "mnemonic": "想象城市十字路口的交通指挥员（router），把去不同目的地的车辆分流到对应道路——AI路由就是把不同难度的任务「指挥」到对应模型：简单任务走小路，复杂任务走高速",
-              "exampleEn": "The startup uses intelligent routing to send customer FAQs to a lightweight model, saving thousands in monthly API costs.",
-              "exampleCn": "这家初创公司使用智能路由，将客户常见问题发送至轻量模型，每月节省数千美元的API费用。"
-            },
-            {
-              "word": "overspend",
-              "pos": "v. / n.",
-              "meaning": "超支；过度花费。指在某项目或资源上支出超过预算或实际需要，带有「本可避免」的含义。比 overpay 更侧重整体预算层面，是财务汇报、科技采购讨论中的高频词，常见搭配：overspend on AI / cloud / infrastructure",
-              "etymology": "古英语前缀 over-（超过）加 spend（花费），spend 来自拉丁语 expendere，意为「称量、支付」。复合词结构，16世纪开始普遍使用，随企业预算管理概念深入而流行",
-              "morphology": "前缀 over-（过度）+ 词根 spend。同前缀高频词：overestimate（高估）、overcommit（过度承诺）、overflow（溢出）、overextend（过度延伸）。over- 系列词均传达「超过合理限度」之意",
-              "mnemonic": "想象一个水桶（预算）已经装满，却还继续往里倒水（开销），水溢出来就是 overspend——over 就是「溢出来」的那一部分钱",
-              "exampleEn": "Without usage controls, enterprises routinely overspend on AI infrastructure by allocating premium compute to routine data queries.",
-              "exampleCn": "缺乏使用管控的企业往往在AI基础设施上超支，将高端算力用于处理日常数据查询。"
-            },
-            {
-              "word": "tiered",
-              "pos": "adj.",
-              "meaning": "分层的；分级的。形容按照能力、价格或权限分成不同等级的体系。「tiered pricing」（分层定价）和「tiered access」（分级访问）是商业和科技文章的高频搭配，比 layered 更正式，暗含「等级差异与对应价值」",
-              "etymology": "来自古法语 tire（排、列），16世纪指剧院看台的「层」，后引申为任何按等级排列的结构，20世纪进入商业和技术语境，与 SaaS 定价模式兴起同步普及",
-              "morphology": "tier（n. 层级）+ -ed（形容词后缀）。相关词：top-tier（顶层的、一流的）、multi-tiered（多层级的）、tier-one supplier（一级供应商）。tier 本身可作动词，意为「分层排列」",
-              "mnemonic": "想象婚礼蛋糕（tiered cake）的多层结构——最顶层小而精贵，是最昂贵的旗舰AI模型；底层大而实惠，是轻量廉价模型。蛋糕每一层对应不同价位和能力",
-              "exampleEn": "The cloud provider introduced a tiered model subscription, letting companies pay less for lighter AI workloads.",
-              "exampleCn": "该云服务商推出分层模型订阅方案，让企业为轻量AI任务支付更低费用。"
-            },
-            {
-              "word": "granular",
-              "pos": "adj.",
-              "meaning": "精细的；细粒度的。形容对数据、分析或控制的精细程度，常见于「granular control」（精细控制）、「granular data」（细粒度数据）、「granular visibility」（精细可视化）。比 detailed 更专业，暗示可细分到最小单元，是技术和财务报告的高级用词",
-              "etymology": "来自拉丁语 granulum（小颗粒），是 granum（谷粒）的指小词形式。从「物理颗粒」引申为「信息或分析的细粒度」，18世纪进入英语，20世纪在数据科学领域广泛使用",
-              "morphology": "granu-（颗粒，词根）+ -lar（拉丁语形容词后缀）。同词根词：grain（谷粒）、granule（颗粒）、granite（花岗岩，因颗粒状纹理得名）、granulate（使成颗粒状）",
-              "mnemonic": "想象放大镜下的沙粒（grains of sand）——数量极多、极细小，每一粒都清晰可见。「granular analysis」就是把数据拆解到沙粒级别逐一审视，一粒都不放过",
-              "exampleEn": "With model routing, finance teams get granular visibility into exactly which AI tasks are driving up their cloud bills.",
-              "exampleCn": "通过模型路由，财务团队能精细查看究竟是哪些AI任务拉高了云端账单。"
-            },
-            {
-              "word": "right-size",
-              "pos": "v.",
-              "meaning": "将规模调整到恰好合适的大小。在科技和商业语境中，指将资源、系统或部署调整到与实际需求匹配的规模，避免浪费。注意：此词有时也是裁员的委婉说法，需结合语境判断；用于AI部署时则是中性的效率优化概念",
-              "etymology": "复合动词，由 right（恰当）和 size（规模）合成。20世纪80年代企业管理语境中兴起，最初常被批评为 downsizing（裁员）的委婉替代表达，后语义扩展至更广泛的资源优化场景",
-              "morphology": "right（形容词，恰当的）+ size（名词或动词，规模）= 复合动词。派生形式：right-sized（adj. 规模适当的）、right-sizing（n. 规模优化）。对比：downsize（缩减规模）、upsize（扩大规模）",
-              "mnemonic": "买衣服时不选最贵的加大号（顶级模型），而是量体裁衣选刚好合适的尺寸——right-size 就是给每个AI任务「量身定制」，不浪费算力也不将就效果",
-              "exampleEn": "CIOs are under pressure to right-size their AI deployments after realizing that 80% of queries never needed a frontier model.",
-              "exampleCn": "首席信息官们面临优化AI部署规模的压力，因为他们意识到80%的查询根本不需要前沿模型处理。"
-            }
-          ]
-        },
-        {
-          "id": "20260607-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
-          "headlineEn": "Reid Hoffman Steps Down from Microsoft's Board to Lead AI Startup Manus",
-          "headlineCn": "霍夫曼卸任微软董事会，全力押注AI药物研发公司Manus",
-          "summaryEn": "Reid Hoffman, LinkedIn co-founder and Greylock partner, is stepping down from Microsoft's board after nearly a decade of service. He will devote his full attention to Manus, his AI-powered drug discovery startup. Hoffman described this shift as entering \"founder mode\" — a term popularized by Paul Graham for the intensely hands-on, operationally engaged style startup founders adopt. The move is a significant personal bet that AI can dramatically accelerate pharmaceutical research, reflecting Silicon Valley's growing conviction that life sciences will be transformed by artificial intelligence.",
-          "summaryCn": "领英联合创始人、Greylock合伙人里德·霍夫曼宣布从微软董事会卸任，结束近十年的任职。他将全力投入自己的AI药物研发初创公司Manus。霍夫曼将此次转变描述为进入「创始人模式」——这一说法由知名投资人保罗·格雷厄姆推广，指创始人亲力亲为、深度参与公司运营的工作方式，有别于职业经理人的授权管理风格。此举被视为霍夫曼对AI加速医药研发前景的重大押注，也折射出硅谷对AI变革生命科学领域的坚定信心。",
-          "excerpt": "After a very profitable decade on Microsoft's board, Reid Hoffman is stepping down to focus entirely on Manus, his AI drug discovery startup. Describing the shift as entering \"founder mode,\" Hoffman signals a deep personal commitment to hands-on company building over the oversight role of a corporate director.",
-          "vocab": [
-            {
-              "word": "founder mode",
-              "pos": "phrase",
-              "meaning": "「创始人模式」，指创始人亲力亲为、深度介入公司日常运营的工作方式，与职业经理人的「授权管理」模式相对。由保罗·格雷厄姆2024年提出后迅速在科技圈流行，值得学是因为它精准捕捉了创业文化中一种特有的领导力风格，是阅读科技圈报道的必备词汇。",
-              "etymology": "短语/复合词，无独立词源。founder 源于古法语 fondeur（奠基者），与拉丁语 fundus（底部、基础）同根；mode 源于拉丁语 modus（方式、节拍）。两词在2024年科技语境中合用，构成新兴商业词汇。",
-              "morphology": "构词：founder（创始人）+ mode（模式）。与之对应的是 manager mode（经理人模式）。founder 派生词：co-founder（联合创始人）、founding（创立的）、foundational（基础性的）。mode 同族词：modal（模态的）、model（模型，同源）、modify（调整）。",
-              "mnemonic": "想象一位戴着头盔、亲手搬砖的建筑公司老板——不坐在总部发号施令，而是每天下到工地，这就是 founder mode。创始人（founder）像奠基（found）那块石头一样压在最底层，亲自撑起整栋楼。",
-              "exampleEn": "After sales stalled for two quarters, the CEO switched to founder mode, personally reviewing every product decision and customer complaint.",
-              "exampleCn": "连续两个季度销售停滞后，CEO切换至「创始人模式」，亲自审查每项产品决策和客户投诉。"
-            },
-            {
-              "word": "step down",
-              "pos": "phrasal v.",
-              "meaning": "（从职位）卸任、辞去。专用于高管或董事主动离职的语境，语气比 resign（辞职）更正式、体面，暗示主动、有序的权力交接，而非迫于压力被迫离开。是财经英语报道中出现频率极高的短语，值得与 resign、quit、leave 仔细区分。",
-              "etymology": "短语/复合词，无独立词源。step 源于古英语 stæppan（踏步、行走）；down 作方向副词，隐喻「从高处走下来」。合用时构成「从高位台阶上走下来」的生动画面，暗含体面、自愿地离开权力中心之意。",
-              "morphology": "构词：step（步、台阶）+ down（向下）。方向对应词：step up（升任、挺身而出）、step aside（退位让贤）、step in（介入、代替）。标准搭配：step down from a position / step down as CEO / step down from the board。",
-              "mnemonic": "想象一位穿西装的董事长站在高高的台阶上，开完最后一次董事会，缓缓走下台阶，把话筒递给继任者——这就是 step down。是主动「走下来」，不是「被踢下去」（被迫离开要用 ousted 或 forced out）。",
-              "exampleEn": "The founding partner stepped down from the board last quarter to focus on building a new climate-tech venture fund.",
-              "exampleCn": "这位创始合伙人上季度从董事会卸任，专注于筹建一只新的气候科技创投基金。"
-            },
-            {
-              "word": "drug discovery",
-              "pos": "n.",
-              "meaning": "药物发现，指从海量化合物中筛选、验证潜在候选药物分子的早期研发阶段。是制药行业最耗时、耗资的环节（传统上需10至15年），AI 正在大幅提速这一过程，是当前最热的AI应用场景之一。值得学是因为 discovery 在此语境下并非「意外发现」，而是系统性的「主动筛选」，语义与日常用法有微妙差别。",
-              "etymology": "短语/复合词，无独立词源。drug 源于中古荷兰语 droge（干货、草药）；discovery 源于拉丁语 discooperire，由 dis-（去除）+ cooperire（覆盖）构成，原义为「揭开盖子、揭露」，后演变为「发现」。",
-              "morphology": "构词：drug（药物）+ discovery（发现过程）。相关词：drug development（药物开发，比 discovery 更后期的阶段）、drug delivery（药物递送）。discover 构词：dis-（去除）+ cover，同前缀词：disclose（披露）、disconnect（断开）、disrupt（颠覆）。",
-              "mnemonic": "想象科学家用一个超级AI筛子在分子的海洋里「捞」那根救命稻草——这就是 drug discovery。不是「发明」药，而是在已存在的化合物世界里「发现」潜在的药。捞到候选分子，才进入 drug development（开发）阶段。",
-              "exampleEn": "The biotech firm raised $200 million to apply large language models to drug discovery, aiming to cut development timelines by half.",
-              "exampleCn": "这家生物科技公司筹资2亿美元，将大语言模型应用于药物发现，目标是将研发周期缩短一半。"
-            },
-            {
-              "word": "directorship",
-              "pos": "n.",
-              "meaning": "董事职位、担任董事的资格或任期。区别于 CEO 等执行职位，directorship 特指非执行监督角色。财经英语中常见搭配：hold a directorship at...（在……担任董事）、resign from a directorship（辞去董事职位）。比口语化的 board seat 更书面正式，是阅读公司治理报道的必备词。",
-              "etymology": "源于拉丁语 dirigere（引导、指挥），由 di-（分开）+ regere（统治、引导）构成，原义为「把各方力量导向同一方向」；director 是其施动者名词，-ship 后缀（源于古英语 -scipe）表示「职位、状态、任期」。",
-              "morphology": "构词：direct（v. 指导）→ director（n. 董事、导演）→ directorship（n. 董事职位）。-ship 后缀同类词：membership（会员资格）、partnership（合伙关系）、chairmanship（主席职位）、ownership（所有权）。同词根词：direction、directive、directory。",
-              "mnemonic": "-ship 字面是「船」，但作为后缀代表「掌舵的资格证书」。director + ship = 有资格在董事会这艘大船上掌舵的「通行证」。拿到这张证书，才算真正坐进了权力的舵轮旁。",
-              "exampleEn": "Holding simultaneous directorships at three rival firms raises serious conflict-of-interest concerns among institutional investors.",
-              "exampleCn": "同时担任三家竞争公司的董事职位，在机构投资者中引发了严重的利益冲突担忧。"
-            },
-            {
-              "word": "entrepreneurial",
-              "pos": "adj.",
-              "meaning": "创业精神的、具有企业家气质的。形容一个人或文化具有主动开拓、敢于冒险、自主创新的特质。在商业语境中常用于赞扬那种不安于现状、主动寻找机会的思维方式，与 corporate（公司官僚化的）形成鲜明对比。比 creative 或 innovative 更精准，是描述创业生态系统人物特质的核心形容词。",
-              "etymology": "源于法语 entreprendre（承担、着手做），由 entre-（之间）+ prendre（拿取）构成，原义为「夹在风险与回报之间去拿东西的人」；英语借入 entrepreneur 后，衍生出形容词后缀 -ial，构成 entrepreneurial。",
-              "morphology": "构词：entre-（between）+ preneur（从事者，来自 prendre）+ -ial（形容词后缀）。词族：entrepreneur（n.）→ entrepreneurial（adj.）→ entrepreneurship（n.）。衍生混成词：intrapreneur（公司内部创业者），将 intra-（内部）嫁接到 entrepreneur 之上。",
-              "mnemonic": "entrepreneur 的法语原义是「夹在中间拿东西的人」——左手是风险，右手是回报，敢在两者之间伸手去拿的才是 entrepreneur。有这种精神特质的就是 entrepreneurial。想象一个人站在两块悬崖之间，腾空跃起去抓那只稍纵即逝的机会。",
-              "exampleEn": "Her entrepreneurial instinct led her to leave a senior role at a hedge fund and launch an AI-powered compliance startup.",
-              "exampleCn": "她的创业本能促使她辞去对冲基金的高级职位，创办了一家AI驱动的合规初创公司。"
-            }
-          ]
-        },
-        {
-          "id": "20260607-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/05/apple-wwdc-tim-cook-ai-siri-ternus.html",
-          "headlineEn": "Apple's WWDC: Tim Cook's AI Legacy on the Line at His Final Developer Conference",
-          "headlineCn": "苹果WWDC：库克AI遗产悬于最后一届开发者大会",
-          "summaryEn": "Apple heads into WWDC 2026 under mounting pressure as CEO Tim Cook faces a pivotal moment: transforming Siri into a competitive AI platform before he steps down. With rivals like OpenAI and Google rolling out increasingly capable models, Apple must demonstrate a credible AI roadmap that justifies its premium stock valuation. The conference is widely seen as a capstone event for Cook's tenure, where success could define his standing as the CEO who steered Apple into the AI era.",
-          "summaryCn": "苹果2026年全球开发者大会在巨大压力下拉开帷幕。CEO蒂姆·库克面临关键时刻：在卸任前将Siri打造成具有竞争力的AI平台。随着OpenAI和谷歌相继推出更强大的模型，苹果必须展示令人信服的AI路线图，以支撑当前偏高的股票估值。此次大会被广泛视为库克任期的「顶峰时刻」，能否成功将决定他作为引领苹果迈入AI时代CEO的历史地位。",
-          "excerpt": "Apple enters WWDC with Tim Cook's AI credentials, Siri's evolution as an intelligent platform, and a rich stock valuation all riding on a single week of announcements that could define the company's next decade.",
-          "vocab": [
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；市场对公司或资产价值的定价判断，尤指股价相对于盈利、营收等基本面的溢价程度。「rich valuation」意为「高估值」，暗示股价已超前反映预期增长、上行空间有限。区别于 price（价格）——valuation 是对「值不值这个价」的综合判断，是金融分析报告中最核心的词汇之一。",
-              "etymology": "源自拉丁语 valere（有价值、有力量），经由古法语 valuer 演变为英语 value，加名词后缀 -ation 构成 valuation。原义为「确定价值的行为」，后延伸至股票、资产、公司的市场估算。",
-              "morphology": "val-（价值，来自拉丁语 valere）+ -ation（名词后缀）。同族词：value（价值）、validate（验证）、valid（有效的）、devalue（贬值）、overvalued（被高估的）。核心词根 val- 贯穿大量财经词汇，横向扩展极强。",
-              "mnemonic": "把 valuation 拆成 val（value 缩写）+ ation。想象分析师拿着计算器，把公司每块资产都 value 一遍，最终产出一份大写的 VALUATION 报告。「估值太高」= rich valuation，就像咖啡标价太贵——值不值这个价，得认真 val 一下。",
-              "exampleEn": "Analysts warned that the chipmaker's rich valuation leaves little room for error if quarterly earnings disappoint.",
-              "exampleCn": "分析师警告称，该芯片制造商的高估值意味着一旦季度盈利令人失望，几乎没有回旋余地。"
-            },
-            {
-              "word": "keynote",
-              "pos": "n.",
-              "meaning": "主题演讲；会议或活动的开场核心演讲，由最高层主讲，为整场活动定调。在科技行业，keynote 几乎成为苹果、谷歌等公司发布会主演讲的代名词，阅读科技商业报道必须掌握。区别于 speech（泛指演讲）——keynote 特指「定调性」的开场演讲，地位与分量完全不同。",
-              "etymology": "由 key（关键）+ note（音符）合成。原为音乐术语，指乐曲的定调音（主音），19世纪引申为「演讲中奠定基调的核心主题」，后进一步演变为开场主旨演讲本身。",
-              "morphology": "key（关键）+ note（音符/笔记）。合成词，无独立词缀。相关词组：keynote speaker（主旨演讲者）、keynote address（主旨演讲）。苹果演示软件 Keynote 即由此命名，寓意「为整场演示定调」。",
-              "mnemonic": "keynote = key（钥匙）+ note（音符）。想象一把钥匙插进音乐盒，播放出整场音乐会的定调音——这就是 keynote，定下一切基调的那个开场。苹果每次发布会的第一个演讲，就是插入那把「钥匙」。",
-              "exampleEn": "The CEO's keynote at the developer conference drew millions of live viewers eager to learn about the company's new AI roadmap.",
-              "exampleCn": "首席执行官在开发者大会上的主题演讲吸引了数百万名在线观众，他们急切地想了解公司新的AI路线图。"
-            },
-            {
-              "word": "stewardship",
-              "pos": "n.",
-              "meaning": "管理职责；托管；指负责任地管理他人委托之物（如公司、资产、资源），强调「受托人」身份与道德义务。商业报道中常用于评价CEO或董事会的管理质量，如「under his stewardship」（在他的领导下）。区别于 management（偏操作层面）——stewardship 更强调对股东、员工乃至社会的长远责任感，语域更正式、更有分量。",
-              "etymology": "来自古英语 stīweard，由 stī（house，家宅）+ weard（guardian，守护者）构成，原义为「管家；庄园总管」。中世纪演变为负责管理贵族财产的官职，现代引申为任何形式的负责任托管。",
-              "morphology": "steward（管家；受托管理人）+ -ship（名词后缀，表示状态/职位/技能）。同类后缀词：leadership（领导力）、ownership（所有权）、partnership（合伙关系）。steward 本身可作动词，意为「管理、照料」。",
-              "mnemonic": "stewardship = steward（飞机乘务员，英文原意是「管家」）+ ship（船）。想象一位管家站在船头，尽职尽责地「托管」整艘船的航行——这就是 stewardship：对委托之物的负责任守护。",
-              "exampleEn": "Shareholders praised the board's stewardship of the company through a period of economic uncertainty and rapid AI disruption.",
-              "exampleCn": "股东们对董事会在经济不确定性与AI快速颠覆时期对公司的尽职管理给予了高度赞扬。"
-            },
-            {
-              "word": "capstone",
-              "pos": "n.",
-              "meaning": "压顶石；顶峰之作；原指拱门或石墙顶端的封顶石，引申为一系列努力的「最终成就」或「巅峰时刻」。商业与教育语境中常见，如「capstone project」（毕业综合项目）、「capstone achievement」（职业生涯顶峰成就）。描述 Cook 的 WWDC 时，此词暗示这可能是他作为CEO职业生涯的「封顶之石」，语感比 peak 或 highlight 更具历史感与终结性。",
-              "etymology": "由 cap（顶部；来自拉丁语 caput，头）+ stone（石头）构成。建筑术语，指砌石建筑最顶端的压顶石，起锁定整体结构的作用。19世纪引申为「成就的顶峰」，延续建筑学的「完成/封顶」隐喻。",
-              "morphology": "cap-（来自拉丁语 caput，头部/顶端）+ stone（石头）。同词根词：capital（首都；资本）、captain（船长）、decapitate（斩首）。建筑类兄弟词：cornerstone（奠基石）、keystone（拱顶石），三者分别对应「开始」「关键」「终结」，一套完整的建筑隐喻。",
-              "mnemonic": "capstone = cap（帽子）+ stone（石头）。想象给一堵砖墙「戴上石头帽子」——那顶帽子压住整面墙、完成整个结构，就是 capstone。引申到职业生涯：最后那件大事，就是给自己多年努力「戴上帽子」、画上句号。",
-              "exampleEn": "The successful IPO was seen as the capstone of the founder's decade-long effort to build a global fintech empire.",
-              "exampleCn": "这次成功的IPO被视为创始人十年来打造全球金融科技帝国努力的巅峰之作。"
-            },
-            {
-              "word": "differentiate",
-              "pos": "v.",
-              "meaning": "差异化；区分；在商业策略语境中，指通过独特的产品特性、服务或定位，使自己与竞争对手形成可感知的区别。「differentiate oneself」是战略分析的核心表达，比 distinguish（区分）更具商业战略色彩，常出现于竞争分析、品牌定位和投资报告中，是路演与咨询报告的高频词，值得精准掌握。",
-              "etymology": "来自中世纪拉丁语 differentiare，由 differentia（差异）+ -ate（动词后缀）构成。differentia 源自 differre：dis-（分开）+ ferre（携带），原义为「分开携带」，引申为「产生差异」。科学语境指细胞分化，商业语境演变为「形成竞争差异化」。",
-              "morphology": "differ-（不同，来自拉丁语 differre）+ -ent-（形容词词缀）+ -iate（动词后缀）。完整词族：different（不同的）→ difference（差异）→ differentiate（区分）→ differentiation（差异化）→ differentiated（有差异的）。商业报告中名词形式 differentiation 最为常见。",
-              "mnemonic": "differentiate 里藏着 differ（不同）。商业竞争的核心问题就是：我们跟对手哪里 differ？找到那个不同点，就是 differentiate。苹果总强调「隐私保护让我们与众不同」——这就是它的 differentiation strategy（差异化战略）。",
-              "exampleEn": "To differentiate itself in a crowded AI market, the startup focused on building models optimized for enterprise compliance and data privacy.",
-              "exampleCn": "为了在竞争激烈的AI市场中实现差异化，这家初创公司专注于构建针对企业合规与数据隐私需求优化的模型。"
-            }
-          ]
-        },
-        {
-          "id": "20260607-4",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/06/abel-goes-his-own-way-with-new-berkshire-investments-including-billions-for-ai.html",
-          "headlineEn": "Greg Abel Diverges from Buffett, Commits Billions to AI as New Berkshire CEO",
-          "headlineCn": "阿贝尔掌舵伯克希尔另辟蹊径，豪掷数十亿押注人工智能",
-          "summaryEn": "Greg Abel, the newly appointed CEO of Berkshire Hathaway, is making bold investment moves that diverge from his predecessor Warren Buffett's traditionally cautious, tech-averse approach. Since assuming the top role, Abel has committed billions of dollars to artificial intelligence ventures, signaling a significant strategic shift for the conglomerate. Buffett, speaking to CNBC's Becky Quick, praised Abel's initiative, saying he has \"launched\" — effectively endorsing his successor's willingness to wager on emerging technologies that Buffett himself long avoided.",
-          "summaryCn": "伯克希尔·哈撒韦新任首席执行官格雷格·阿贝尔甫一上任便展现出独立的投资风格，其首笔重大交易是向人工智能领域投入数十亿美元——这与前任沃伦·巴菲特长期回避科技股的保守策略大相径庭。巴菲特在接受CNBC采访时对阿贝尔的表现给予高度肯定，称其已经「起跑」。此举标志着这家投资巨头正在开启新篇章，伯克希尔的资本配置策略或将迎来深远转变。",
-          "excerpt": "Warren Buffett told CNBC's Becky Quick that new Berkshire Hathaway CEO Greg Abel has \"launched\" with his first major deal — a multi-billion-dollar commitment to artificial intelligence. The move marks a clear departure from Buffett's own decades-long wariness toward tech investments, signaling that Abel intends to lead the conglomerate on a distinctly different path.",
-          "vocab": [
-            {
-              "word": "mantle",
-              "pos": "n.",
-              "meaning": "（领导）职责与权杖；指被继承或主动承担的重要职位与使命。商业写作中常见 assume/take on the mantle of leadership，比 role 更有仪式感与传承意味，暗含「前人将重担亲手交付」的隐喻，值得学因为它同时承载权力与责任两层含义",
-              "etymology": "来自古法语 mantel，源自拉丁语 mantellum（斗篷）；本义指覆盖身体的宽大外衣，中世纪演变为王权仪式中亲手披于继承人肩上的象征物，后引申为「所继承的地位与责任」",
-              "morphology": "单音节词，无独立前后缀；同族词：manteau（外衣，法语借词）、mantilla（西班牙蕾丝头巾）、mantelpiece（壁炉架，因形似宽大斗篷而得名）；mantle 作动词意为「覆盖、遮蔽」，较少见",
-              "mnemonic": "想象老国王临终时将厚重的「大披风（mantle）」亲手搭在继承人肩上——这个庄严的加冕画面正是「传承领导权杖」的来源。阿贝尔从巴菲特手中接过伯克希尔的 mantle，披风的重量就是整个公司",
-              "exampleEn": "After the founder's retirement, the incoming CEO quickly proved herself worthy of the mantle of leadership at the tech giant.",
-              "exampleCn": "创始人退休后，新任首席执行官迅速证明了自己足以承担这家科技巨头的领导重任。"
-            },
-            {
-              "word": "diverge (from)",
-              "pos": "v.",
-              "meaning": "（与……）分道扬镳、产生分歧；强调从共同起点向不同方向延伸的动态过程，比 differ 更突出「路径分叉」的意象，商业中常用于描述策略、预测或风格上的背离，是财经报道高频词",
-              "etymology": "来自现代拉丁语 divergere，由 di-（分开）+ vergere（倾斜、转向）构成，最初为数学与光学术语，描述射线或光束向外扩散；17世纪进入英语普通用法",
-              "morphology": "di-（分离）+ -verge-（倾向、转向）+ -e；同词根词：converge（汇聚，反义词）、verge（边缘，接近于……）、divergent（adj. 分歧的）、divergence（n. 分歧量）",
-              "mnemonic": "di- 代表「两条路」，-verge 代表「倾向某方向」。想象高速公路突然分叉成两条岔路——阿贝尔的投资策略在这里与巴菲特的传统路径正式 diverge（分叉），各走各的方向",
-              "exampleEn": "The two fund managers' strategies began to diverge sharply when one pivoted to AI infrastructure while the other stayed in value stocks.",
-              "exampleCn": "当一位基金经理转向人工智能基础设施，另一位坚守价值股时，两人的策略开始出现明显分歧。"
-            },
-            {
-              "word": "endorse",
-              "pos": "v.",
-              "meaning": "公开背书、认可；商业语境中指权威人士对决策、产品或继任者的公开支持，比 approve 更正式，带有「将个人信誉押注于此」的意涵——一旦背书便难以撤回，因此比 support 分量重得多",
-              "etymology": "来自中古法语 endosser，由 en-（在……上）+ dos（背部，源自拉丁语 dorsum）构成；本义「在背面签名」——即在票据或支票背面写下姓名以保证兑付，后引申为一般意义上的公开支持",
-              "morphology": "en-（使……）+ dors-（背部）+ -e；同词根：dorsal（背部的，生物学术语）、endorsement（n. 背书、认可）、endorser（n. 背书人）；反向操作：withdraw an endorsement（撤回背书）",
-              "mnemonic": "古代商人在合同「背面（en-dors）」签名盖章，意思是「我用背脊担保」——这个「在背后撑腰」的动作，就是今天 endorse（背书、公开支持）的来源。巴菲特 endorsed 阿贝尔，等于在他背后签了名",
-              "exampleEn": "The former chairman publicly endorsed his successor's aggressive expansion into cloud computing, calming investor concerns.",
-              "exampleCn": "前任董事长公开为继任者大举进军云计算的策略背书，平息了投资者的顾虑。"
-            },
-            {
-              "word": "wager",
-              "pos": "v. / n.",
-              "meaning": "押注、下注（于某不确定结果）；比 bet 更正式，商业写作中常隐喻「将大量资本或声誉押注于高风险机会」，带有「知情冒险」而非盲目赌博的意味，常搭配 wager billions on sth，语气比 invest 更强调赌注性质",
-              "etymology": "来自古北法语 wagier（抵押、担保），与 wage（工资）同源，均来自日耳曼语根 *wadja-（抵押物）；12世纪进入英语，最初指法律意义上的赌约或保证金，后泛化为「赌注」",
-              "morphology": "简单词根，无明显前后缀；同族词：wage（n./v. 工资；发动〔战争〕）、engage（en- + gage 同源变体：抵押→承诺→交战）；派生形式：wager → wagered → wagering → wagerer",
-              "mnemonic": "wager 和 wage（工资）是同一个老祖宗——想象把整月工资押在牌桌上，就是 wager（豪赌）。阿贝尔把伯克希尔数十亿美元押在 AI 上，这正是一场关乎公司未来的 wager",
-              "exampleEn": "The biotech firm wagered its entire cash reserve on a single Phase III trial, betting the molecule would win FDA approval.",
-              "exampleCn": "这家生物科技公司将全部现金储备押注于单一的三期临床试验，赌的是该分子能获得FDA批准。"
-            },
-            {
-              "word": "capital allocation",
-              "pos": "phrase (n.)",
-              "meaning": "资本配置；指企业决定将资金投向何处（并购、研发、回购、分红等）的核心战略决策。巴菲特被誉为「史上最优秀的资本配置者」，理解这个词是读懂伯克希尔与价值投资逻辑的起点，也是分析任何 CEO 能力的核心维度",
-              "etymology": "capital 源自拉丁语 capitalis（首要的），来自 caput（头），引申为「最重要的资产」；allocation 来自中世纪拉丁语 allocare（分配位置），由 ad-（朝向）+ locare（放置）构成",
-              "morphology": "capital（首要资产）+ allocation（分配）；相关词：allocate（v. 分配）、reallocate（重新配置，re- 前缀）、misallocate（错误配置，mis- 前缀）、capital allocator（资本配置负责人，专指做此决策的掌舵者）",
-              "mnemonic": "想象 CEO 手持一个巨大水龙头（capital），面对一排桶（各业务线），决定往哪个桶注水、注多少——这个「决定钱往哪里流」的决策过程，就是 capital allocation（资本配置）。阿贝尔把水龙头对准了 AI",
-              "exampleEn": "Analysts praised Abel's disciplined capital allocation, prioritizing AI infrastructure over costly share buybacks in his first quarter as CEO.",
-              "exampleCn": "分析师赞扬阿贝尔严谨的资本配置决策，他在出任CEO的第一个季度便将人工智能基础设施置于高成本股票回购之上。"
-            }
-          ]
-        },
-        {
-          "id": "20260607-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/05/hot-jobs-report-puts-fed-cuts-further-out-of-reach-as-chair-warsh-faces-policy-tests.html",
-          "headlineEn": "Strong May Jobs Report Delays Fed Rate Cuts Further",
-          "headlineCn": "五月就业强劲，美联储降息愈发遥遥无期",
-          "summaryEn": "The US economy added far more jobs than expected in May, signaling continued labor market resilience that effectively rules out near-term interest rate cuts by the Federal Reserve. The strong report places fresh pressure on incoming Fed Chair Kevin Warsh, who must navigate a delicate balance between controlling inflation and supporting growth. Markets have pushed back their rate-cut expectations significantly, as policymakers face mounting evidence that the economy remains too robust for any easing to begin soon.",
-          "summaryCn": "美国五月就业报告大幅超出市场预期，显示劳动力市场持续强劲，令美联储在近期内降息的可能性几近消散。这份亮眼数据给新任美联储主席沃什带来新的政策压力——他需要在控制通胀与呵护增长之间谨慎拿捏。市场已大幅推后对降息时机的预期，因强劲的经济数据表明当前经济仍不具备放松货币政策的条件。",
-          "excerpt": "Another strong jobs report in May has effectively swept aside any remaining hope of near-term interest rate cuts. The unexpectedly robust labor market data leaves the Federal Reserve little room to maneuver, placing fresh pressure on Chair Warsh as he faces his first major policy tests.",
-          "vocab": [
-            {
-              "word": "sweep aside",
-              "pos": "phrasal v.",
-              "meaning": "彻底扫除、一举驱散某种可能性或阻碍。常见于正式新闻写作，表示某一强大力量将某种预期或障碍「完全排除」，语气比 eliminate 更具动态感和戏剧性，暗含「势不可挡」的意味，是财经报道中描述数据颠覆预期的惯用表达",
-              "etymology": "sweep 来自古英语 swāpan（扫），aside 为副词；短语组合原指「将物体扫到一旁」，比喻性地延伸为「彻底消除障碍或可能性」，语义从物理层面的清扫演变至抽象层面的排除",
-              "morphology": "sweep（扫）+ aside（旁边），动词+副词型短语动词，无独立词源；同族短语：sweep away（冲走／彻底消除）、sweep through（横扫）、sweep up（收拾清理）",
-              "mnemonic": "想象一只大手将棋盘上的棋子「啪」地一扫而空——sweep aside 就是这种「不留余地的清除」。下次看到就业数据「swept aside rate-cut hopes」，脑中浮现那只大手即可",
-              "exampleEn": "The surprise earnings beat swept aside concerns about the company's mounting debt load.",
-              "exampleCn": "出人意料的超预期业绩一扫外界对该公司债务持续攀升的担忧。"
-            },
-            {
-              "word": "resilient",
-              "pos": "adj.",
-              "meaning": "有韧性的、具复原力的。财经报道中描述经济或劳动力市场「受冲击后迅速复原」的核心词汇。与 strong 的关键区别：strong 侧重当下强度，resilient 侧重「经历压力后依然站稳」，传递的是动态抗压能力而非静态力量",
-              "etymology": "来自拉丁语 resilire（弹回），由 re-（回）+ salire（跳）构成；17世纪经法语进入英语，原指物理材料的弹性，后引申为经济与心理层面的「抗压复原力」",
-              "morphology": "re-（再／回）+ sili（词根 salire，跳）+ -ent（形容词后缀）；名词：resilience；副词：resiliently；同词根词：result（re+sult，跳回→结果）、insult（in+sult，跳向→侮辱）",
-              "mnemonic": "橡皮泥被压扁后弹回原形——resilient 就是「压不垮的回弹力」。记住 re-（再次）弹回来：经济 resilient = 被打压后「再次跳回来」，而不是一蹶不振",
-              "exampleEn": "The labor market proved resilient despite aggressive rate hikes, adding jobs for the fifteenth consecutive month.",
-              "exampleCn": "尽管经历激进加息，劳动力市场依然展现出强大韧性，连续第十五个月实现就业增长。"
-            },
-            {
-              "word": "defy",
-              "pos": "v.",
-              "meaning": "违背、抗拒（预期、规律或引力）。财经语境中常用「defy expectations」「defy gravity」，比 resist 更强调「出乎意料地抗住了」的结果感，带有数据「打脸预测」的戏剧色彩，是经济报道中描述超预期现象的高频词",
-              "etymology": "来自古法语 desfier，追溯至拉丁语 diffidare（不信任），由 dis-（否定）+ fidare（信任，源自 fides 信念）构成；原义为「拒绝效忠」，演变为「拒绝服从规则或预期」",
-              "morphology": "de-（否定前缀）+ fy（来自 fidare，信任）；同词根：confidence（信任）、fidelity（忠诚）、infidel（不信者）；派生词：defiant（adj. 挑衅的）、defiance（n. 蔑视、对抗）",
-              "mnemonic": "de- 是「否定」，fy 联想 faith（信仰）——defy 就是「我不信规则能约束我」。经济数据 defy expectations = 「不信邪地打脸了所有预测」，画面鲜明",
-              "exampleEn": "Consumer spending defied analyst forecasts, growing 3.2% despite persistent inflation and elevated borrowing costs.",
-              "exampleCn": "消费支出打脸分析师预测，在持续通胀与高借贷成本双重压力下仍录得3.2%的增长。"
-            },
-            {
-              "word": "taper",
-              "pos": "v. / n.",
-              "meaning": "逐步缩减，尤指央行缩减购债规模或宽松力度。货币政策报道的核心词汇，比 reduce 更专业，暗含「渐进可控」而非骤然停止；2013年「缩减恐慌（taper tantrum）」令此词成为全球金融媒体固定用语，不掌握则读不懂美联储报道",
-              "etymology": "来自古英语 tapur（蜡烛／锥形），原指蜡烛越烧越细；引申为「逐渐变细减少」；金融含义兴起于2013年伯南克暗示削减量化宽松后，「taper tantrum」（缩减恐慌）令此词广为人知",
-              "morphology": "单一词根，无明显前后缀；派生词：tapering（n.／adj. 缩减中的）、tapered（adj. 逐渐收细的）；固定搭配：taper off（逐步减少）、taper tantrum（缩减恐慌，指市场因预期缩减而剧烈震荡）",
-              "mnemonic": "想象一根蜡烛从粗到细慢慢燃尽——taper 就是「像烛焰一样渐渐收细」。Fed taper = 美联储慢慢「收水」，不是一刀切断，而是细细地、细细地减少购债",
-              "exampleEn": "Investors braced for volatility as the central bank signaled it would begin to taper its bond purchases next quarter.",
-              "exampleCn": "随着央行释放将于下季度开始缩减购债规模的信号，投资者纷纷为市场波动做好准备。"
-            },
-            {
-              "word": "brace for",
-              "pos": "phrase",
-              "meaning": "绷紧准备、提前做好应对（即将到来冲击或困境）的心理和物质准备。金融新闻中极为常见（brace for volatility／brace for a downturn），比 prepare for 更传递「冲击迫在眉睫」的紧迫感，带有「崩紧神经蓄势以待」的张力",
-              "etymology": "brace 来自古法语 bracier（用手臂抱紧），源自拉丁语 brachium（手臂），原义为「撑开双臂支撑」；演变为「做好准备承受冲击」；for 引出即将面对的威胁对象",
-              "morphology": "brace（支撑／手臂）+ for（介词）；同词根：embrace（em+brace，拥抱）、bracelet（手镯，戴在手臂上）；brace 名词义：支架、大括号 {}；固定搭配：brace oneself for、brace for impact",
-              "mnemonic": "想象飞机剧烈颠簸时空姐大喊「Brace! Brace!」——乘客双手撑住扶手、身体绷紧准备硬扛冲击。brace for = 「崩紧肌肉准备挨撞」，财经语境即「绷紧神经准备承受市场冲击」",
-              "exampleEn": "Retailers are bracing for weaker holiday demand as consumer confidence drops to a two-year low.",
-              "exampleCn": "随着消费者信心跌至两年低点，零售商正为节日季需求走弱做好准备。"
             }
           ]
         }
