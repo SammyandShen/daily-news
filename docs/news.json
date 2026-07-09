@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-09T03:27:45.364468+00:00",
+  "lastUpdated": "2026-07-09T23:09:17.153308+00:00",
   "level": "B2",
   "days": {
+    "2026-07-10": {
+      "label": "7月10日 (周五)",
+      "stories": [
+        {
+          "id": "20260710-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html",
+          "headlineEn": "Meta Enters AI Coding Race to Challenge Anthropic and OpenAI",
+          "headlineCn": "Meta强势入局AI编程市场，追赶Anthropic与OpenAI",
+          "summaryEn": "Meta is making a significant push into the AI coding assistant market, long dominated by Anthropic and OpenAI. Under the leadership of AI chief Alexandr Wang, the company is upgrading its Muse Spark model to better compete in this rapidly growing space. The move signals Meta's ambition to close the gap with its rivals and capture a share of the lucrative enterprise software development market, where AI-assisted coding tools are seeing explosive demand.",
+          "summaryCn": "Meta正大力进军AI编程助手市场，将矛头直指Anthropic与OpenAI。在AI负责人王仲磊（Alexandr Wang）的主导下，公司正对Muse Spark模型进行升级迭代。此举表明Meta有意在高速成长的AI辅助编程赛道上缩小与竞争对手的差距，争夺利润丰厚的企业级软件开发市场份额，预计将进一步加剧AI编程工具领域的竞争格局。",
+          "excerpt": "Meta is upgrading its Muse Spark AI model in a bid to break into the competitive AI coding assistant market, where Anthropic and OpenAI currently lead. The effort, spearheaded by Meta's AI chief Alexandr Wang, reflects the company's determination to vie for a meaningful share of this fast-growing sector.",
+          "vocab": [
+            {
+              "word": "vie",
+              "pos": "v.",
+              "meaning": "竞争，争夺（市场份额或地位）。比「compete」更正式、更书面，多见于财经报道头条，常见搭配「vie for market share / vie for dominance」，语气带有积极争抢、势均力敌的意味。值得学：它是新闻写作中替换 compete 的首选高频词。",
+              "etymology": "源自中古英语「vien」，借自古法语「envier」（挑战、押注），最终可追溯至拉丁语「invitare」（邀请、挑战）。16世纪起进入英语，语义从「发出挑战」逐渐演变为「积极争夺」，书面色彩浓厚。",
+              "morphology": "单音节动词，无可拆解前后缀。变形：vie → vying（现在分词）→ vied（过去式）。同义词梯度：vie（书面正式，争夺感强）vs. compete（中性通用）vs. rival（强调对立关系）。记住 vying 的拼写：vie 变 vy 再加 ing。",
+              "mnemonic": "把「vie」想成「V」字形叉路口——两条路各自争着通向同一个终点，就像两个竞争者争夺同一市场。发音与「why」相近，可联想：Why are they fighting? Because they're vying! 短促有力，发音好记。",
+              "exampleEn": "Several tech giants are vying for dominance in the AI coding assistant space.",
+              "exampleCn": "多家科技巨头正在争夺AI编程助手领域的主导地位。"
+            },
+            {
+              "word": "leapfrog",
+              "pos": "v.",
+              "meaning": "跨越式超越（竞争对手）。源于儿童游戏「跳背」，商业语境中指无需逐步追赶、直接一跃领先，带有「弯道超车」含义。常见搭配「leapfrog the competition / leapfrog rivals」，是科技和战略报道的高频隐喻词，远比「overtake」生动。",
+              "etymology": "由「leap（跳跃）+ frog（青蛙）」组合而成，原指儿童游戏中玩家跨越伏地同伴向前推进的动作。20世纪中期引入商业与军事语境，比喻跨越式发展——不走同一赛道，而是直接越过对手落在前方。",
+              "morphology": "复合词：leap（古英语 hlēapan，跳跃）+ frog（古英语 frogga，青蛙）。leapfrog 既可作动词（to leapfrog rivals）也可作名词（a leapfrog strategy）。同族词：leap → leapt / leaping。类似结构复合词：piggyback（搭便车），同样源自儿童游戏意象。",
+              "mnemonic": "想象一只青蛙在田埂上猛地一跳，直接越过前面所有青蛙落在最前方——这就是「leapfrog the competition」：不是一步步追赶，而是一跃超越。记忆公式：青蛙跳 → 跨越 → 超前，三个画面绑定这个词。",
+              "exampleEn": "By investing heavily in AI infrastructure, the startup managed to leapfrog established rivals.",
+              "exampleCn": "通过大力投资AI基础设施，这家初创公司成功实现了对老牌竞争对手的跨越式超越。"
+            },
+            {
+              "word": "at the helm",
+              "pos": "phrase",
+              "meaning": "掌舵，主导（某组织或项目）。「helm」本义为船舵，引申为最高领导职位。商业报道中常见「at the helm of / with X at the helm」，比「in charge」更具权威感和画面感，多用于描述CEO或核心高管角色，是财经写作的地道表达。",
+              "etymology": "「helm」来自古英语「helma」（船舵），源自原始日耳曼语，与德语「Helm」（舵）、荷兰语「helm」同源。比喻领导地位的用法自16世纪起在英语中固定下来，核心语义是「掌控方向、引领前进」。",
+              "morphology": "介词短语，核心词「helm」为名词。注意「helm」还有「头盔」的义项（源自另一日耳曼词根 *helmaz），两者拼写相同但语义分离。派生词：helmsman（舵手，引申为领导者）。常见句式：「with X at the helm」或「under X's helm」。",
+              "mnemonic": "想象一艘巨轮的船长站在驾驶台上，双手紧握大圆舵盘（helm）——「at the helm」就是「站在那个掌舵位置上」。每次见到这个词就浮现大船和舵盘的画面，就知道在说「谁在主导、谁在掌舵」。",
+              "exampleEn": "With a seasoned executive at the helm, the company successfully navigated the market downturn.",
+              "exampleCn": "在一位经验丰富的高管掌舵下，公司成功度过了市场下行期。"
+            },
+            {
+              "word": "latecomer",
+              "pos": "n.",
+              "meaning": "后来者，后入局者。指进入某一市场或领域较晚的公司或参与者，常含「需要追赶先发者」的语义，但也可中性使用于讨论「后发优势（late-mover advantage）」。值得学：分析竞争格局和市场进入时机时的高频词，教科书几乎不教。",
+              "etymology": "复合词，late（迟，古英语 lǣt，「迟缓的、延迟的」）+ comer（来者，由动词 come 派生的名词）。字面意思「迟到的人」，商业英语中直接引申为「晚进入市场的参与者」，语义透明，无复杂演变路径。",
+              "morphology": "late（形容词/副词）+ comer（名词后缀，来自动词 come）。同类复合词：newcomer（新来者）、first-comer（先来者）、early adopter（早期采用者，意思相对）。注意 latecomer 通常不加连字符，是标准写法。",
+              "mnemonic": "「late（迟）+ comer（来的人）」直接相加 = 迟到的入场者。想象一场重要会议，所有人已就座热烈讨论，Meta 这时才推门走进来——尴尬又落后，这就是「latecomer」。联想自己上课迟到时的感觉，记忆更深刻。",
+              "exampleEn": "As a latecomer to the AI coding market, Meta faces the challenge of winning over developers already loyal to rival tools.",
+              "exampleCn": "作为AI编程市场的后来者，Meta面临着争取已对竞品建立忠诚度的开发者这一挑战。"
+            },
+            {
+              "word": "jockey for position",
+              "pos": "phrase",
+              "meaning": "争相抢占有利地位（市场位置、谈判筹码等）。源自赛马骑师争抢最优跑道位置的画面，商业报道中描述公司在竞争中的策略性布局，语气生动且带有紧迫感，比「compete for market share」更强调过程中的策略博弈，是地道的商业英语隐喻。",
+              "etymology": "「jockey」原指职业赛马骑师，源自苏格兰语 Jockey（即 John 的民间昵称，因骑手多为平民故得名）。动词用法「jockey」意为「耍手段、策略性争夺」，与「for position」结合后成为固定搭配，专指竞争中抢占有利位置的行为。",
+              "morphology": "jockey（动词，由名词「骑师」语义扩展而来）+ for（介词）+ position（名词，源自拉丁语 positio，「放置、位置」）。常见于进行时「jockeying for position」，强调正在进行的争夺动作。相关词：jockey（n. 骑师；v. 耍手段操控）。",
+              "mnemonic": "想象赛马场弯道处——多名骑手（jockeys）相互争挤，抢占内圈最快路线，谁先卡好位谁就占优势。「jockey for position」就是这个画面：在拥挤的竞争赛道上策略性地抢最有利的位置。Meta 就是那个正在挤弯道的新骑手。",
+              "exampleEn": "Tech giants are jockeying for position in the AI coding market before major enterprise contracts are locked in.",
+              "exampleCn": "在大型企业合同签订之前，科技巨头们正争相抢占AI编程市场的有利地位。"
+            }
+          ]
+        },
+        {
+          "id": "20260710-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/09/anduril-ceo-ipo-defense.html",
+          "headlineEn": "Anduril CEO Warns Against Going Public During Market Hype Cycle",
+          "headlineCn": "安杜里尔CEO：在市场炒作高峰期上市是错误决策",
+          "summaryEn": "Anduril, the defense technology startup co-founded by Palmer Luckey, recently reached a $61 billion valuation, ranking among the most valuable private companies in the US. Despite this milestone, CEO Brian Schimpf cautioned against rushing to IPO during a market hype cycle, arguing that going public at peak enthusiasm saddles companies with unrealistic investor expectations. When sentiment eventually cools, those firms face brutal valuation corrections that damage long-term credibility and strategic focus.",
+          "summaryCn": "国防科技创业公司安杜里尔近期估值达到610亿美元，跻身美国最具价值的私人科技企业之列。尽管估值亮眼，CEO布莱恩·希姆普夫却警告说，在市场炒作周期的高峰期贸然上市是一个错误。他认为，当投资者情绪过热时选择IPO，往往会给公司套上脱离实际的高期望枷锁；一旦市场情绪降温，公司将遭遇估值大幅修正，长期公信力和战略执行力也会随之受损。保持私有化状态让安杜里尔得以专注于长期国防合同，而非迎合短期市场压力。",
+          "excerpt": "Anduril recently hit a $61 billion valuation, making it one of the most valuable private tech companies in the US. Its CEO argues that IPO-ing in the middle of a hype cycle is a mistake — peak-enthusiasm listings saddle firms with unsustainable expectations and expose them to brutal corrections when sentiment inevitably cools.",
+          "vocab": [
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司或资产价值的综合评估结果。与「价格」不同，valuation 是基于收入、增长潜力、市场份额等多维因素推算出的「认定价值」，是融资谈判和IPO定价的核心锚点。掌握它能读懂几乎所有科技公司融资新闻，区分「高估值」与「高股价」也靠这个词。",
+              "etymology": "源自拉丁语 valere（「有力量、有价值」），经由中古法语 valuation 进入英语，16世纪起用于财产与商业评估语境，后演变为现代金融核心术语。",
+              "morphology": "val-（词根，价值/力量）+ -ation（名词后缀，表示过程或结果）。同族词：value（价值）、evaluate（评估，e-+val-+uate）、valid（有效的）、prevalent（普遍的，pre-+val-+ent）。",
+              "mnemonic": "把 valuation 拆成「value + ation」——想象一位分析师拿着计算器，把公司从头到脚「量」了一遍（value 量出来），最后打印出一张写着 $61B 的报告。估值 = 被「量」出来的价值。",
+              "exampleEn": "The startup's latest valuation of $10 billion surprised analysts who had expected a more modest figure given its thin profit margins.",
+              "exampleCn": "这家初创公司最新的100亿美元估值令分析师们感到意外，因为他们此前预期，鉴于其微薄利润率，估值会更为保守。"
+            },
+            {
+              "word": "exit",
+              "pos": "n. / v.",
+              "meaning": "（投资）退出；VC/PE语境中特指通过IPO、并购或二级市场出售股份来变现投资回报的行为。区别于字面「出口」，这里强调「兑现收益、离场」。「exit strategy」（退出策略）是风险投资最核心的终局设计，不懂这个词就读不懂创投逻辑。",
+              "etymology": "源自拉丁语 exitus（「出去」），由 ex-（出）+ ire（走）构成；16世纪进入英语，最初指舞台上演员的退场，20世纪后半叶被风险投资界借用为「退出投资」的专业术语。",
+              "morphology": "ex-（前缀，「出/向外」）+ -it（拉丁语词根 ire 的变形，「走」）。同族词：exhibit（展示，ex+hibit）、export（出口，ex+port）；与 entry（进入）构成反义对。",
+              "mnemonic": "想象VC投资人在机场看到绿色「EXIT」指示牌，手里握着一张大支票——他们等了五年，终于找到了「出口」把钱套现离场。IPO就是最典型的 exit。",
+              "exampleEn": "The venture capital firm secured a profitable exit when the portfolio company went public at a valuation three times higher than their initial investment.",
+              "exampleCn": "当这家被投公司以高出初始投资三倍的估值成功上市时，该风险投资公司获得了一次丰厚的退出回报。"
+            },
+            {
+              "word": "roadshow",
+              "pos": "n.",
+              "meaning": "（IPO前的）路演；公司高管在正式上市前巡回向机构投资者进行推介展示的活动。掌握这个词能读懂所有IPO流程报道。它也暗含一层讽刺意味：高管们像「演员」一样四处「表演」以说服投资者认购——这正是为什么有CEO批评IPO时机问题。",
+              "etymology": "复合词，road（道路）+ show（表演/展示）；源自20世纪初美国巡回马戏团与剧院的「roadshow」（巡演），后被金融行业借用指上市前巡回投资者推介，1990年代随互联网IPO浪潮广泛流行于商业英语。",
+              "morphology": "短语/复合词，无独立词源可拆解；相关表达：dog and pony show（花里胡哨的展示，roadshow的俗称）、book building（配股建账，路演的后续环节）、investor presentation（正式说法）。",
+              "mnemonic": "想象CEO穿着西装登上豪华大巴（road），在纽约、波士顿、伦敦各大基金公司门口一一「演出」（show），PPT放完收订单。路演 = 上市前的巡回「秀」。",
+              "exampleEn": "During the two-week roadshow, the company's executives met with over 200 institutional investors across New York, London, and Hong Kong to build appetite for the offering.",
+              "exampleCn": "在为期两周的路演中，公司高管在纽约、伦敦和香港会见了逾200家机构投资者，为此次股票发行积累认购需求。"
+            },
+            {
+              "word": "lock-up",
+              "pos": "n. / adj.",
+              "meaning": "（IPO后的）锁定期；上市后规定创始人、早期投资者等内部人士在一定期限内（通常90至180天）不得出售所持股份的限制安排。理解这个词能解释为何IPO后股价常在锁定期到期前后剧烈波动——内部人集中套现会压低股价，是读懂IPO后市场行为的关键词。",
+              "etymology": "复合词，lock（锁定）+ up（完全封闭）；lock 源自古英语 loc（「门闩/封闭物」），up 作副词强调「完全锁住」状态。金融语境中，lock-up 的「锁」意象极为直观：内部人的股票被「锁」在保险箱里，无法流通。",
+              "morphology": "lock（古英语 loc，锁）+ up（副词，强调完成封闭态）；相关词：lockdown（封锁）、deadlock（僵局，dead+lock）、lock-up period（锁定期，正式表达）、unlock（解锁，反义前缀 un-）。",
+              "mnemonic": "想象创始人的股票证书被装进上了锁的保险箱（lock + up），钥匙由投行保管180天。解禁那天保险箱打开，市场上突然涌现大批卖单——这就是为什么「解禁」常引发股价下跌。",
+              "exampleEn": "When the 180-day lock-up period expired, insiders sold millions of shares, pushing the company's stock price down nearly 15 percent in a single session.",
+              "exampleCn": "当180天锁定期届满，内部人士抛售了数百万股，导致公司股价在单个交易日内下跌近15%。"
+            },
+            {
+              "word": "underwriter",
+              "pos": "n.",
+              "meaning": "（IPO）承销商；负责帮助公司定价、向机构投资者销售股票并在必要时承接剩余股票风险的投行机构。理解这个词能看懂「高盛担任首席承销商」类表述，也能理解为何IPO定价往往偏低——承销商倾向于留出「上涨空间」以确保销售成功、降低自身风险。",
+              "etymology": "源自17世纪英国保险业：under-（「在…之下」）+ write（「书写」）+ -er（执行者后缀）；原指在劳合社（Lloyd's of London）保单下方签名承担风险的人，后延伸至金融承销领域，语义从「保险」迁移至「股票发行担保」。",
+              "morphology": "under-（前缀，「在…之下」）+ write（书写，古英语 writan）+ -er（名词后缀，表示执行者）；同族词：underwrite（承销/承保，动词）、underwriting（承销业务，动名词）、underwritten（已承销的，过去分词）。",
+              "mnemonic": "想象劳合社的商人们围坐在一张大桌旁，在保险合同「下方」（under）依次签名（write）——谁签名谁承担风险。现代承销商就是在IPO文件下签名、保证「卖不完我来兜底」的那家投行。",
+              "exampleEn": "Goldman Sachs and Morgan Stanley served as co-underwriters for the tech giant's $5 billion IPO, helping price the shares and distribute them to institutional buyers.",
+              "exampleCn": "高盛和摩根士丹利作为联席承销商，协助这家科技巨头完成了50亿美元的IPO，负责股票定价并向机构买家分销股份。"
+            }
+          ]
+        },
+        {
+          "id": "20260710-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/09/kalshi-traders-see-roughly-50percent-odds-of-a-rate-hike-in-2026-as-fed-is-split-on-policy.html",
+          "headlineEn": "Kalshi Traders Put 54% Odds on a Fed Rate Hike Before 2027",
+          "headlineCn": "预测市场押注美联储2027年前加息概率达54%",
+          "summaryEn": "The Federal Reserve released its meeting minutes on Wednesday, revealing a deeply divided committee over the future direction of interest rates. Some officials fear persistent inflation may force a rate increase, while others remain wary of overtightening. On prediction market platform Kalshi, traders now assign a 54% likelihood that the Fed will raise rates at least once before 2027. The split outlook reflects genuine uncertainty about whether the central bank will shift toward tightening or hold its current stance.",
+          "summaryCn": "美联储于周三发布会议纪要，显示联邦公开市场委员会在利率走向问题上存在严重分歧。部分官员担忧通胀顽固，认为可能被迫重启加息；另一部分则对过度紧缩心存顾虑。预测市场平台Kalshi的交易者目前认为，美联储在2027年前至少加息一次的概率为54%，折射出市场对央行政策转向的高度不确定性。",
+          "excerpt": "Wednesday's Fed minutes revealed a deeply split committee on the direction of interest rates. On prediction market platform Kalshi, traders currently price in a 54% likelihood of a rate hike before 2027, underscoring real uncertainty about whether the Fed will tighten further.",
+          "vocab": [
+            {
+              "word": "odds",
+              "pos": "n.",
+              "meaning": "「赔率；概率」——在金融和预测市场语境中专指「以比值表示的可能性」，比 probability 更口语化，在英美财经媒体报道预测市场时几乎是标配词汇。值得学的原因：它兼具「概率」和「胜算」双重含义，搭配灵活，如 the odds of a hike、at 2-to-1 odds、beat the odds",
+              "etymology": "源自古英语 odd（奇数/多余部分），中古英语演变为表示「差距/优势」，17世纪起在赌博语境中固定为「赔率」含义，后延伸至统计概率领域",
+              "morphology": "简单词，无可拆解词根。常见派生及固定搭配：odd（adj. 奇数的/奇怪的）→ odds（n. 赔率）→ at odds with（与……相左）、odds-on（最有可能的）、long odds（低概率）、by all odds（无疑地）",
+              "mnemonic": "想象掷骰子——奇数点（odd number）出现与偶数点出现的「数量差」就是 odds。记住「奇」→「odds」：赢的次数和输的次数之比，就是赔率。奇数 odd → 差距 odds，一脉相承",
+              "exampleEn": "Analysts put the odds of a soft landing at roughly 40% given current inflation data.",
+              "exampleCn": "考虑到当前通胀数据，分析师认为经济软着陆的概率约为40%。"
+            },
+            {
+              "word": "split",
+              "pos": "adj. / v.",
+              "meaning": "「（意见）分裂的；存在分歧」——作为形容词在政策和商业报道中极常见，如 a split vote、a split committee，比 divided 更简洁有力，常用于描述机构内部势均力敌的意见对立。此外在金融中还有「股票分拆」（stock split）含义，一词多义值得掌握",
+              "etymology": "源自中古荷兰语 splitten（劈开木材），最初指物理上将木头劈裂，16世纪进入英语后逐渐引申为意见、票数、股权的分裂",
+              "morphology": "简单动词，无前缀后缀。横向扩展固定搭配：split decision（平分裁决）、stock split（股票分拆）、split personality（双重人格）、banana split（香蕉船）、split the difference（各让一步折中）",
+              "mnemonic": "想象一根原木被斧头正中央劈成两半——意见「split」就是这样对半开，两边旗鼓相当。记住：斧头劈木 = 委员会意见分歧，左一半右一半，谁也说服不了谁",
+              "exampleEn": "The board was split on whether to approve the merger, with six members in favor and five opposed.",
+              "exampleCn": "董事会在是否批准合并一事上存在分歧，六票赞成，五票反对。"
+            },
+            {
+              "word": "minutes",
+              "pos": "n. (plural only)",
+              "meaning": "「会议纪要；会议记录」——在金融语境中特指官方正式会议记录，尤其是「Fed minutes」（美联储会议纪要），是全球金融市场最受关注的政策文件之一。关键用法提示：永远用复数形式，不能说「a minute」来表示会议记录；发布时间通常是会议结束三周后",
+              "etymology": "源自中世纪拉丁语 minuta scriptura（微小的书写），因为历史上书记员用缩写小字速记会议内容，后缩短为 minutes 固定指会议记录",
+              "morphology": "minute（adj. 微小的 / n. 分钟）→ minutes（n. 会议纪要）。注意 minute 的两个读音：/ˈmɪnɪt/（分钟）vs /maɪˈnjuːt/（微小的）。同源词：minutiae（细枝末节，拉丁语复数形式，发音 /mɪˈnjuːʃiː/）",
+              "mnemonic": "历史上书记官用「极小的字」（minute writing）飞速记录会议——所以 minutes 是「微小文字的集合」。联想：会议上「分分钟」记下的东西 = minutes。时间的 minute 和记录的 minutes，都来自「细小」这个根",
+              "exampleEn": "Investors worldwide parse the Fed minutes closely for any hint of a policy shift.",
+              "exampleCn": "全球投资者仔细研读美联储会议纪要，寻找任何政策转向的蛛丝马迹。"
+            },
+            {
+              "word": "outlook",
+              "pos": "n.",
+              "meaning": "「前景；展望；预期立场」——商业经济报道中极高频词，既指对未来的预判（economic outlook），也指某人或机构的政策立场（divided outlook on rates）。比 forecast 更主观，比 view 更正式，是财经写作黄金词汇。常见搭配：revise the outlook、a divided outlook、near-term outlook",
+              "etymology": "源自古英语 ūt（向外）+ lōcian（看），原义为「向外眺望」，后引申为「对未来的展望与预判」",
+              "morphology": "out-（向外）+ look（看）= outlook（展望）。同前缀词：output（产出）、outperform（跑赢）、outreach（拓展覆盖）。注意与 look out（当心！）的区别——语序不同，语义完全相反",
+              "mnemonic": "站在山顶「向外看」（out + look）就能眺望远方的地形——对未来的 outlook 就是站在当下「向前眺望」形势。看出去的景象 = 对未来的预期。记住：眼睛朝外看 = outlook",
+              "exampleEn": "The company revised its revenue outlook downward after weak Q2 sales figures were released.",
+              "exampleCn": "公司在发布疲软的第二季度销售数据后，下调了收入预期。"
+            },
+            {
+              "word": "likelihood",
+              "pos": "n.",
+              "meaning": "「可能性；概率」——正式书面用语，比 chance 更学术，比 probability 更易读，是经济学报告和高质量新闻写作的标准用词。值得学的原因：固定搭配丰富——a 54% likelihood of X、in all likelihood（很可能）、increase the likelihood（提升可能性），在央行政策报道中出现频率极高",
+              "etymology": "源自中古英语 likely（可能的）+ -hood（表示「状态/性质」的名词后缀），字面义「处于可能性的状态」，与 childhood、neighborhood 构词方式完全相同",
+              "morphology": "likely（adj. 可能的）+ -hood（名词后缀）= likelihood。横向扩展：likely → unlikely → likelihood。同后缀词：childhood（童年）、neighborhood（邻里）、falsehood（谎言）、livelihood（生计）",
+              "mnemonic": "记住 child → childhood，同理 likely → likelihood，只是把「孩子」换成「可能」。如果你能造出「可能性」的状态，就是 likelihood。或者联想：「likely 的 hood（罩子）盖住了确定性」= 可能性",
+              "exampleEn": "There is a high likelihood that the central bank will pause its tightening cycle if inflation falls below 3%.",
+              "exampleCn": "如果通胀率降至3%以下，央行很可能暂停收紧周期。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-09": {
       "label": "7月9日 (周四)",
       "stories": [
@@ -8773,326 +8967,6 @@
               "mnemonic": "「a-bate」——想象钓鱼时把鱼饵（bait）收走，鱼的兴奋劲立刻减弱。同理，当「bait」（刺激因素）消失，某种势头也随之 abate（平息）。注意拼写陷阱：是 abate，不是 abait——去掉 bait 里的 i，情绪也随之减弱。",
               "exampleEn": "Supply chain disruptions that had driven input costs sharply higher began to abate as port backlogs cleared in early 2023.",
               "exampleCn": "随着港口积压问题在2023年初逐步疏解，曾大幅推高投入成本的供应链中断开始消退。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-10": {
-      "label": "6月10日 (周三)",
-      "stories": [
-        {
-          "id": "20260610-1",
-          "category": "tech",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/apple/2026/06/apple-says-its-ai-is-still-private-even-when-its-running-on-googles-servers/",
-          "headlineEn": "Apple Claims AI Stays Private Even When Processed on Google's Cloud Servers",
-          "headlineCn": "苹果称即便在谷歌服务器运行，AI 数据仍受隐私保护",
-          "summaryEn": "Apple has revealed that some Apple Intelligence features run on Google's cloud infrastructure, not solely on-device or on Apple's own servers. Apple insists its privacy architecture — built on hardware attestation and encrypted enclaves — prevents Google from accessing any user data. The arrangement highlights a core tension in AI development: the need for powerful cloud compute versus user privacy expectations, and raises questions about how independently users can verify these assurances.",
-          "summaryCn": "苹果公司披露，部分「苹果智能」功能实际运行于谷歌的云端基础设施之上，并非完全在本地设备或苹果自有服务器上处理。对此，苹果坚称其隐私架构——基于硬件认证机制与加密飞地技术——可阻止谷歌接触任何用户数据。这一安排揭示了 AI 开发中的核心矛盾：对强大云计算能力的需求与用户隐私预期之间的张力，同时也引发了外界对于这些声明能否被独立核实的质疑。",
-          "excerpt": "Apple confirmed that certain AI workloads are offloaded to Google's cloud, but says its privacy framework ensures that neither Google nor Apple's own servers can read the data being processed. The company relies on hardware attestation to make this claim verifiable.",
-          "vocab": [
-            {
-              "word": "offload",
-              "pos": "v.",
-              "meaning": "将计算任务或工作负荷转移至其他系统处理。在云计算语境中专指「把本地处理卸交给远端基础设施」，比 transfer 更强调「减负、卸载」的主动意图，是工程师和产品经理的高频词，财经报道中也常见于描述企业外包计算成本。",
-              "etymology": "古英语 of（离开）+ hladan（装载），原指从运输工具上卸下货物。16 世纪多用于物理搬运场景，20 世纪随计算机普及引申为「将任务从主系统转移至辅助系统」，语义从码头搬运迁移至虚拟资源调度。",
-              "morphology": "off-（前缀，表示「离开、脱离」）+ load（词根，装载）。同前缀词：offset（抵消）、offscreen（屏幕外）、off-balance（失衡）。名词形式为 offloading；亦可用作名词 an offload。",
-              "mnemonic": "想象一辆超载的卡车（本地设备）把部分货物「卸下」到路边仓库（云服务器）——设备「松了口气」，这就是 offload 的核心画面。off = 离开，load = 重担，卸下重担即是 offload。",
-              "exampleEn": "To reduce latency on edge devices, the startup offloads heavy inference tasks to its cloud backend.",
-              "exampleCn": "为降低边缘设备的延迟，这家初创公司将繁重的推理任务卸载至云端后台处理。"
-            },
-            {
-              "word": "attestation",
-              "pos": "n.",
-              "meaning": "「认证；可验证证明」，尤指通过密码学手段对某一系统状态或声明进行第三方可核实的证明。在隐私计算领域，remote attestation（远程认证）指让外部方核实某段代码确实在安全环境中运行，远比普通 certificate（证书）更精确，是理解苹果隐私声明的关键词。",
-              "etymology": "来自拉丁语 attestari，由 ad-（朝向）+ testis（证人）构成，原义「在场作证、为……提供证词」。法律文书中指签名见证行为，20 世纪末密码学将其借用为「硬件或软件层面的可验证证明机制」。",
-              "morphology": "attest（v.，证明）+ -ation（名词后缀）。词根 test- 来自拉丁语「证人」，同族词：testify（作证）、testimony（证词）、contest（争辩）、protest（抗议）。掌握 test- = 证人这一词根可解锁大量法律词汇。",
-              "mnemonic": "attest = at（在场）+ test（测试／证人）——「亲眼在场作证」。在密码学里，硬件「当场证明自己是可信的」，就是 attestation。记住「test = 证人」，见到含 test 的词就联想到「有人出来作证」。",
-              "exampleEn": "The chip's hardware attestation mechanism allows auditors to verify that sensitive data is processed only within a secure enclave.",
-              "exampleCn": "该芯片的硬件认证机制让审计方能够核实，敏感数据仅在安全飞地内部被处理。"
-            },
-            {
-              "word": "enclave",
-              "pos": "n.",
-              "meaning": "「飞地；隔离区域」，在计算机安全中特指一块与外部环境完全隔离、即便操作系统也无法访问的受保护内存区域（如 Intel SGX、Apple Secure Enclave）。比 sandbox（沙盒）更强调物理级别的隔离与不可穿透性，是隐私计算和芯片安全报道的核心术语。",
-              "etymology": "源自中世纪法语 enclave，由 en-（在……之内）+ 拉丁语 clavis（钥匙）演化而来，原指「被他国领土完全包围、只有持钥匙者能进入的一块土地」，后引申为任何被周围环境完全包围的隔离空间。",
-              "morphology": "en-（前缀，置于……之中）+ clave（来自 clavis，钥匙）。同词根词：clavicle（锁骨，形似钥匙）、autoclave（高压灭菌锅，自我封闭）、conclave（秘密会议，关起门来的聚会）。词根 clav- = 钥匙／锁，是记忆密码学词汇的好锚点。",
-              "mnemonic": "enclave = en（里面）+ clave（钥匙）——想象一个「里面锁着钥匙的房间」，连房东（操作系统）都进不去，只有房间本身知道密码。这正是安全飞地的本质：自己锁自己，外人休想入内。",
-              "exampleEn": "Apple's Secure Enclave stores cryptographic keys in a hardware-isolated zone that even the main processor cannot access.",
-              "exampleCn": "苹果的「安全飞地」将加密密钥存储在一个连主处理器也无法访问的硬件隔离区域中。"
-            },
-            {
-              "word": "opaque",
-              "pos": "adj.",
-              "meaning": "「不透明的；不可审视的」，在隐私与合规语境中指系统内部运作对外部方不可见、不可审计。与 transparent（透明）直接对立，常用于批评企业「黑箱决策」或描述无法被外界验证的隐私声明。注意：opaque 强调「结构上不让你看到」，而 obscure 偏向「太复杂而看不懂」，两者不可互换。",
-              "etymology": "来自拉丁语 opacus，意为「遮荫的、黑暗的」，15 世纪进入英语，最初指光线无法穿透的物质表面。后隐喻扩展至「思想、系统、流程不透明」，在商业和法律语境中广泛使用。",
-              "morphology": "无可拆分前后缀的拉丁借词。常见派生词：opacity（n.，不透明度）、opaquely（adv.）、opaqueness（n.）。反义词光谱：transparent（完全透明）→ translucent（半透明）→ opaque（完全不透明），掌握这条光谱对商业写作极为实用。",
-              "mnemonic": "opaque 发音近似「哦-PAKE」——想象一堵「不透气的砖墙」，光线完全穿不过去。与 transparent（透明玻璃）形成鲜明视觉对比：一砖一玻，一遮一透。下次看到 opaque 就想起那堵砖墙。",
-              "exampleEn": "Critics argue that the AI model's decision-making process remains opaque, making independent regulatory oversight extremely difficult.",
-              "exampleCn": "批评人士认为，该 AI 模型的决策过程依然不透明，这使得独立监管监督极为困难。"
-            },
-            {
-              "word": "verifiable",
-              "pos": "adj.",
-              "meaning": "「可验证的；可核实的」，指某一声明或系统状态可通过独立手段加以证明，而非仅凭信任。在隐私计算与企业合规领域，verifiable claim（可验证声明）与零知识证明密切相关。比 provable 更强调「第三方可以亲自去查」，是科技行业信任体系讨论的关键词，苹果此次声明的核心争议正在于此。",
-              "etymology": "来自中世纪拉丁语 verificare，由 verus（真实的）+ facere（做、制造）组合而成，原义「使之成真、确认为真」。-able 后缀表示「可以被……的」，整体即「可以被独立确认为真的」。",
-              "morphology": "verify（v.，核实）+ -able（形容词后缀，可……的）。同词根 ver-（真实）词族：verdict（裁决，ver- 真 + dict 说）、veracity（真实性）、verisimilitude（逼真性）。记住 ver- = true 这一拉丁词根可解锁大量法律与学术词汇。",
-              "mnemonic": "verify 可拆成「very + fy（= 彻底做）」——要「非常彻底地核查」才叫 verify；verifiable 就是「可以被非常彻底检查的」。想象审计师举起放大镜说：「这个——可以查！」（verifiable）",
-              "exampleEn": "For the cloud partnership to gain regulatory approval, the company must provide verifiable evidence that user data never leaves the secure processing zone.",
-              "exampleCn": "为使云端合作获得监管批准，该公司必须提供可核实的证据，证明用户数据从未离开安全处理区域。"
-            }
-          ]
-        },
-        {
-          "id": "20260610-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
-          "headlineEn": "Anthropic Releases Claude Fable 5, Its First Public Mythos-Class AI Model",
-          "headlineCn": "Anthropic 发布 Claude Fable 5，首款面向公众的顶级 AI 模型",
-          "summaryEn": "Anthropic has unveiled Claude Fable 5, the first model in its Mythos class to be made available to the public. The release marks a significant step in democratizing access to advanced AI capabilities. However, the model comes with built-in safeguards that constrain its responses in sensitive domains, including cybersecurity and biology. These restrictions reflect growing industry concern about high-risk applications and signal that responsible deployment remains a central challenge even as AI grows more powerful.",
-          "summaryCn": "Anthropic 正式推出 Claude Fable 5，这是其 Mythos 级别中首款向公众开放的大型语言模型。此次发布标志着顶级 AI 能力向普通用户迈出了重要一步。不过，该模型内置了安全限制机制，会在网络安全、生物等高风险领域屏蔽相关回应。这一做法折射出业界对 AI 高风险应用的高度警惕，也表明在模型能力不断跃升的同时，负责任的部署依然是核心挑战。",
-          "excerpt": "Anthropic has released Claude Fable 5, the first Mythos-class model available to the general public. The model includes built-in restrictions that block responses in high-risk areas such as cybersecurity and biology, reflecting the company's commitment to responsible AI deployment.",
-          "vocab": [
-            {
-              "word": "unveil",
-              "pos": "v.",
-              "meaning": "正式发布、揭示（产品或计划）；比 release/announce 更正式，常用于具有仪式感的首次公开场合，隐含「之前刻意保密」的意味，是科技发布会报道中的高频动词，值得与 release、launch 区分记忆",
-              "etymology": "来自古法语前缀 un-（去除）加上 voile（面纱），voile 源自拉丁语 velum（帷幕、帆）；原义为「揭开面纱」，后引申为「向公众首次揭示某事物」",
-              "morphology": "un-（逆转/去除，前缀）+ veil（面纱，名词）→ 动词化；同前缀词：undo、uncover、unlock；veil 同源词：velvet（天鹅绒，同来自拉丁语 velum）",
-              "mnemonic": "想象新品发布仪式上一块厚厚的 veil（面纱）盖住产品，un-（掀开）一拉，聚光灯亮起——这就是 unveil 的场景。记住：重大首发用 unveil，日常更新用 release",
-              "exampleEn": "Apple is expected to unveil its next-generation AR headset at the annual developer conference next month.",
-              "exampleCn": "苹果预计将在下月的年度开发者大会上发布其下一代 AR 头显。"
-            },
-            {
-              "word": "safeguard",
-              "pos": "n. / v.",
-              "meaning": "保护措施（名词）；保护、防止（动词）；比 protection 更具主动性和系统性，强调为防范特定风险而专门设计的机制，在 AI 安全、金融合规和法律领域高频出现，常见搭配：put safeguards in place、safeguard against",
-              "etymology": "来自古法语 sauvegarde；sauve 源自拉丁语 salvus（安全的、完好的）+ garde（守护，源自日耳曼语 wardon）；14 世纪进入英语，最初指护送通行证或保护文件",
-              "morphology": "safe（安全，源自拉丁语 salvus）+ guard（守卫，日耳曼语源）；同根词 salvus 系列：salvation（救赎）、salvage（打捞抢救）；名词派生：safeguarding；近义词辨析：safeguard 强调主动预防机制，protect 更泛指",
-              "mnemonic": "safe（保险箱）+ guard（守卫）= 站在保险箱旁的守卫。记住与 protection 的差异：protection 是「已有的保护」，safeguard 是「专门设计来预防风险的主动机制」，更像出击的盾牌而非被动的护具",
-              "exampleEn": "The new data privacy regulation includes several safeguards to prevent tech companies from misusing personal information.",
-              "exampleCn": "新的数据隐私法规包含多项保护措施，以防科技公司滥用个人信息。"
-            },
-            {
-              "word": "off-limits",
-              "pos": "phrase / adj.",
-              "meaning": "禁止涉及的、不可进入的；在商业和 AI 语境中常用于描述被政策或系统明确限制的内容区域，比 forbidden 更口语化，比 restricted 更强调「界限分明」，常见搭配：declare sth off-limits、be off-limits to sb",
-              "etymology": "源自军事用语；limit 来自拉丁语 limes（边界、防线，尤指罗马帝国边疆防线）；off-limits 原指「禁止士兵进入的区域」，二战期间美军广泛使用，后泛化为任何不可涉足的领域",
-              "morphology": "off（在…之外）+ limit（边界，源自拉丁语 limes）+ -s（复数标记）；同根词：delimiter（分隔符）、unlimited（无限的）、limitation；limes 词根还出现在 sublime（sub-lim-e，超越极限之上）中",
-              "mnemonic": "想象一块红色大牌子上写着「OFF LIMITS」，竖在军事基地铁丝网外。记住这个词的军事起源：战场上的禁区是真的不能越界，后来延伸到任何「碰了会有麻烦」的话题或内容区域",
-              "exampleEn": "Certain high-risk financial derivatives remain off-limits to retail investors under the current regulatory framework.",
-              "exampleCn": "在现行监管框架下，某些高风险金融衍生品对散户投资者仍属禁区。"
-            },
-            {
-              "word": "domain",
-              "pos": "n.",
-              "meaning": "（知识或应用的）领域、专业范围；在 AI 和科技语境中，domain 比 field 或 area 更精准，常见搭配：domain expertise（领域专长）、domain-specific（特定领域的）、high-risk domain（高风险领域），是科技英语写作的核心词",
-              "etymology": "来自古法语 domaine，源自拉丁语 dominium（所有权、统治），词根 dominus 意为「主人、领主」；最初指贵族的领地和庄园，后引申为任何人所「掌控」的知识或活动范围",
-              "morphology": "domin-（统治、主人，源自拉丁语 dominus）+ 法语名词后缀 -ain；同词根：dominate（支配）、dominant（主导的）、dominion（统治权）、predominant（占主导的）",
-              "mnemonic": "domain 和 dominate 是同根兄弟，都含「dominus（主人）」的语义。你所「主宰」的那个领域就是你的 domain。另一个辅助联想：网站域名也叫 domain，因为它是你在互联网上「统治」的地盘",
-              "exampleEn": "The startup has built deep domain expertise in applying machine learning to drug discovery.",
-              "exampleCn": "这家初创公司在将机器学习应用于药物研发方面积累了深厚的领域专长。"
-            },
-            {
-              "word": "constrain",
-              "pos": "v.",
-              "meaning": "约束、限制；与 restrict 相比，constrain 更强调「外力施加的不可抗束缚感」，常用于描述技术架构、政策规定或资源条件对行为的客观限制；在 AI 领域高频出现，如「constrain model outputs」（约束模型输出），名词形式 constraint 在商业写作中更为常见",
-              "etymology": "来自古法语 constraindre，源自拉丁语 constringere（捆绑、束缚）；con-（共同、加强）+ stringere（收紧、捆绑）；同源词 strict（严格的）直接揭示了「收紧」这一核心语义",
-              "morphology": "con-（加强前缀）+ strain（拉紧，源自拉丁语 stringere）；同词根：strict（严格的）、restrict（限制）、constrict（收缩）、string（绳子，语义同源）；名词：constraint；形容词：constrained",
-              "mnemonic": "con-（一起）+ strain（肌肉「拉伤/紧绷」的感觉）→ 多根绳索同时从四面八方收紧 → 被死死束缚住的画面。商务英语超高频搭配：constrained by budget / resources / regulations，务必熟记",
-              "exampleEn": "Growth in the semiconductor sector is constrained by the limited availability of advanced chip manufacturing equipment.",
-              "exampleCn": "半导体行业的增长受到先进芯片制造设备供应不足的制约。"
-            }
-          ]
-        },
-        {
-          "id": "20260610-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/",
-          "headlineEn": "Zepto's IPO Filing Lays Bare Fast Growth, Mounting Losses, and an Unanswered Valuation Question",
-          "headlineCn": "Zepto上市申报揭露高速增长、持续亏损与悬而未决的估值难题",
-          "summaryEn": "Indian quick-commerce startup Zepto has filed for an IPO, revealing striking financial contrasts. Advertising revenue surged 151%, nearly double the company's 104% operating revenue growth — a sign that merchants are willing to pay to reach Zepto's rapidly expanding customer base. Yet the company's losses also widened, raising concerns about its burn rate and long-term sustainability. Investors now face a central question: how should Zepto be valued when top-line growth is impressive but unit economics remain unclear?",
-          "summaryCn": "印度即时电商初创公司Zepto递交了IPO申报材料，披露了令人瞩目的财务数据对比：广告收入激增151%，几乎是公司104%营收增速的两倍，显示商家正在竞相为触达Zepto快速扩张的用户群而付费。然而，公司亏损同步扩大，外界对其资金消耗速度与长期可持续性的担忧也随之升温。在顶线增长亮眼、单位经济模型仍不清晰的情况下，投资者面临的核心挑战，是如何为这家公司合理定价。",
-          "excerpt": "Zepto's IPO filing lays bare a company growing at remarkable speed but burning cash at an alarming pace. Advertising revenue surged 151% — far ahead of the 104% growth in overall operating revenue — suggesting a robust monetization engine. The central question for investors, however, is what the company is actually worth.",
-          "vocab": [
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；对公司或资产市场价值的评估。商业语境中特指IPO或融资时对公司整体价值的定价判断——比 price 或 worth 更抽象、更专业，是市场对未来潜力的综合押注，值得重点掌握。",
-              "etymology": "源自拉丁语 valere（强壮、有价值），经古法语 valuer 演变为英语 value，再加名词后缀 -ation。原义「力量」演变为「值得……的东西」，进而引申为「评估其价值的行为」。",
-              "morphology": "value（n./v.）+ -ation（名词后缀，表动作或结果）。同族词：devaluation（贬值）、overvaluation（高估）、revaluation（重新评估）；value 本身可派生 valuable（adj.）、invaluable（无价的）。",
-              "mnemonic": "想象情人节（Valentine）时绞尽脑汁思考：这份礼物值多少钱？这种「评估价值」的焦虑感就是 valuation。VAL- 的发音与 value 几乎一致，抓住这个词根就抓住了整个家族。",
-              "exampleEn": "Analysts struggled to agree on a fair valuation for the electric vehicle startup, given its rapid growth but persistent losses.",
-              "exampleCn": "分析师们难以就这家电动车初创公司的合理估值达成共识，原因在于它增速惊人却持续亏损。"
-            },
-            {
-              "word": "burn rate",
-              "pos": "phrase",
-              "meaning": "资金消耗速度（通常指每月净现金支出）；初创公司在尚未盈利时每月「烧掉」多少钱。与「亏损额」不同，burn rate 强调现金流动的速度与紧迫性，直接决定公司「还能活多久」（runway），是评估初创公司财务健康度的核心指标。",
-              "etymology": "burn 源自古英语 bærnan（使燃烧），rate 源自拉丁语 rata pars（按比例计算的部分）。两词组合是纯粹的现代商业隐喻：资金像燃料一样「烧」，速度越快，离断粮越近。",
-              "morphology": "burn（v./n.）+ rate（n.）= 复合名词短语，无拉丁或希腊独立词源。相关概念链：burn rate → runway（现金跑道，还剩几个月）→ cash flow（现金流）→ profitability（盈利能力）。",
-              "mnemonic": "想象一摞钞票正在被火烧：burn rate 就是「火势大小」。火越大，钱烧完越快，留给公司转型的时间（runway）越短。每次看到初创公司「bigger losses」，脑子里就点一把火。",
-              "exampleEn": "With a monthly burn rate of $5 million and only $30 million in the bank, the startup had roughly six months to reach profitability or secure new funding.",
-              "exampleCn": "公司每月资金消耗500万美元，账上仅剩3000万美元，这意味着它大约只有六个月时间来实现盈利或完成新一轮融资。"
-            },
-            {
-              "word": "top-line",
-              "pos": "adj.",
-              "meaning": "顶线的；营收层面的（与 bottom-line「净利润层面」相对）。在损益表中，收入（revenue）位于最顶端，因此 top-line growth 特指营收增长，尚未扣除任何成本——是衡量公司增长势头最直接但也最粗放的指标，学会这对概念可读懂绝大多数财报评论。",
-              "etymology": "top 源自古英语 top（最高点），line 源自古英语 līne（线）。该表达源于会计实务：损益表物理上最顶端那行就是 revenue，故得名。纯英语复合词，无拉丁或希腊词源。",
-              "morphology": "top（adj.）+ line（n.）= 复合形容词，连字符连接时作定语修饰名词（top-line growth）。对比组：top-line（营收）↔ bottom-line（净利润）↔ gross margin（毛利率，介于二者之间）。",
-              "mnemonic": "把损益表想象成一张脸：顶线（top-line）是「眉毛」——最显眼最好看，代表营收；底线（bottom-line）是「下巴」——真正承重的地方，代表净利润。眉毛漂亮不代表下巴不突出。",
-              "exampleEn": "The e-commerce platform posted impressive top-line growth of 80%, but investors were more concerned about whether the company could ever turn a profit.",
-              "exampleCn": "这家电商平台公布了亮眼的80%营收增速，但投资者更关心的是公司究竟能否实现盈利。"
-            },
-            {
-              "word": "lay bare",
-              "pos": "phrasal v.",
-              "meaning": "彻底揭露；使隐藏的事实或问题暴露无遗。比 reveal（披露）更强烈，暗含「毫无保留、赤裸裸呈现」之意；比 expose（曝光）更中性，不必然带负面色彩。常见于财务申报、调查报告等正式语境，语气有力，值得替换掉平淡的 show 或 reveal。",
-              "etymology": "lay 源自古英语 lecgan（使躺下、放置），bare 源自古英语 bær（裸露的、无遮盖的）。字面义「使之裸露」引申为「揭示一切真相」，隐喻直观：移走遮盖物，让内部完全可见。",
-              "morphology": "lay（v.）+ bare（adj., 作结果补语）= 动补结构短语。近义辨析：reveal（中性披露）< lay bare（彻底暴露）< expose（带批判色彩的揭露）。bare 本身可派生 barely（副词，勉强地）、bareness（名词）。",
-              "mnemonic": "想象给一辆车「剥皮」——拆掉外壳，让发动机完全裸露在外。IPO 申报材料就是给公司「剥皮」，lay bare 所有财务细节，好坏都无处遁形。bare = 裸，记住「裸」就记住了这个短语。",
-              "exampleEn": "The independent audit laid bare a pattern of inflated sales figures that management had concealed for years.",
-              "exampleCn": "独立审计彻底揭露了管理层多年来隐瞒的销售数据虚报行为。"
-            },
-            {
-              "word": "unit economics",
-              "pos": "phrase",
-              "meaning": "单位经济模型；指每完成一笔交易或服务一个用户的收入与成本关系。评估商业模式可行性的核心指标：即便整体亏损，只要「单笔赚钱」，规模化后理论上可以盈利；反之则「越做越亏」。快消电商、外卖、网约车等高补贴行业的必看指标。",
-              "etymology": "unit 源自拉丁语 unitas（统一、整体），延伸为「最小可计量单位」；economics 源自希腊语 oikonomia（家务管理），演变为「资源分配学」。两词组合为现代商业术语，无复合词源。",
-              "morphology": "unit（n., 作定语）+ economics（n.）= 复合名词短语。相关术语链：unit economics → contribution margin（贡献毛利）→ average order value（客单价）→ customer acquisition cost / CAC（获客成本）→ lifetime value / LTV（客户终身价值）。",
-              "mnemonic": "把它想成「一单的小账本」：每送一份外卖，收了多少、花了多少？如果这「一单」是亏的，送一百万单就亏一百万倍。unit = 一个单位，economics = 算账，「一单算不算得过来」就是 unit economics 的精髓。",
-              "exampleEn": "Before going public, the food delivery company needed to demonstrate that its unit economics had improved — that each order was at least breaking even after delivery costs.",
-              "exampleCn": "在上市前，这家外卖公司需要证明其单位经济模型已有所改善——即每笔订单在扣除配送成本后至少能够收支平衡。"
-            }
-          ]
-        },
-        {
-          "id": "20260610-4",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/09/liv-golf-ceo-pif-funding-cliff.html",
-          "headlineEn": "LIV Golf Faces Saudi Funding Cliff; CEO Urges Trust in PIF's Promise",
-          "headlineCn": "LIV高尔夫面临沙特资金断崖，CEO呼吁相信PIF承诺",
-          "summaryEn": "LIV Golf is approaching a critical financial juncture as its primary backer, Saudi Arabia's Public Investment Fund (PIF), has announced it will cease funding the league after the 2026 season. CEO Scott O'Neil urged stakeholders to trust PIF's commitments, though he was unable to guarantee whether the final four scheduled tournaments would take place. The situation raises serious questions about the long-term viability of the breakaway golf circuit and its ability to attract sponsors without guaranteed institutional backing.",
-          "summaryCn": "LIV高尔夫正面临严峻资金危机。沙特阿拉伯主权财富基金（PIF）宣布将在2026赛季结束后停止资助该联赛，令其前途充满不确定性。面对外界质疑，CEO斯科特·奥尼尔呼吁各方相信PIF的承诺，但他本人也无法保证最后四场赛事能否如期举行。这一局面使这个自立门户的高尔夫联赛的长期生存能力受到严重质疑，能否在没有稳定金主的情况下继续运转，将是其面临的最大考验。",
-          "excerpt": "LIV Golf CEO Scott O'Neil acknowledged that the league's primary backer, Saudi Arabia's Public Investment Fund, is set to stop funding operations after the 2026 season. When pressed on the league's future, O'Neil urged observers to take PIF 'at their word,' though he stopped short of guaranteeing that the final four tournaments would proceed as scheduled.",
-          "vocab": [
-            {
-              "word": "funding cliff",
-              "pos": "n. phrase",
-              "meaning": "资金悬崖，指资金支持骤然中断的临界点。在财经报道中，「cliff」是描述「断崖式下降」的隐喻，比「funding cutoff」更生动，常与「fiscal cliff」（财政悬崖）共用这一框架，是财经媒体的高频隐喻词组。",
-              "etymology": "「funding」来自古诺斯语 fundo，意为「底部/基础」，引申为「提供资金」；「cliff」源自古英语 clif，意为「陡峭的岩壁」。两词组合成短语，形象描绘资金支持如悬崖边缘般骤然消失的状态。",
-              "morphology": "fund（v./n.：提供资金）+ -ing（名词化后缀）→ funding；cliff 为不可拆解的简单名词。相关词：underfunded（资金不足的）、funder（出资方）、fiscal cliff（财政悬崖）、debt cliff（债务悬崖）。",
-              "mnemonic": "想象一个人沿着名叫「funding」的道路前行，突然脚下是悬崖（cliff），资金瞬间断绝、跌入深渊——这就是「funding cliff」。与「fiscal cliff」（财政悬崖）搭配记忆，都用「悬崖」描绘资金骤断的戏剧性画面。",
-              "exampleEn": "The startup is approaching a funding cliff after its lead investor declined to participate in the next round.",
-              "exampleCn": "在主要投资方拒绝参与新一轮融资后，这家初创公司正面临资金断崖。"
-            },
-            {
-              "word": "take (sb) at their word",
-              "pos": "phrase",
-              "meaning": "相信某人说的话，不加质疑地接受其承诺。在商业谈判中，此短语暗含「主动选择信任、不要求书面保证」的语气，比「believe」更正式，常用于外交或商业关系中的微妙表态，学会它能让你的商业英语表达更地道。",
-              "etymology": "「take」源自古英语 tacan（持有、接受）；「word」源自古英语 word，兼有「话语」和「承诺」双重含义——古英语中一个人的「word」就等同于其信誉担保。短语/复合词，无独立词源。",
-              "morphology": "短语/复合词，无独立词源。相关词：keep one's word（说话算数）、go back on one's word（食言）、word of honor（荣誉保证）、wordsmith（遣词高手）。",
-              "mnemonic": "想象你「拿（take）别人的话（word）当真」——直接把对方的话「握在手心」，当作可信赖的承诺，不再追问证据。与「keep one's word（说到做到）」对比记忆：前者是听者选择信任，后者是说者履行承诺，一对动作互相呼应。",
-              "exampleEn": "The board decided to take the CEO at his word when he promised to deliver results within two quarters.",
-              "exampleCn": "当CEO承诺在两个季度内交出成绩时，董事会决定相信他的话。"
-            },
-            {
-              "word": "sovereign wealth fund",
-              "pos": "n. phrase",
-              "meaning": "主权财富基金，指由国家政府拥有并管理的大型投资基金，用于管理国家盈余收入或外汇储备。与普通私募基金不同，它代表「国家战略意志」，投资决策兼具政治与经济双重目的，是理解全球资本流动、读懂沙特/挪威/中国等国家金融动向的核心词汇。",
-              "etymology": "「sovereign」来自古法语 soverain（最高权力者），源自拉丁语 superanus（凌驾一切之上）；「wealth」来自古英语 wela（福祉、繁荣）；「fund」来自拉丁语 fundus（底部/基础），引申为「资金储备」。三词组合描述「由最高权力者掌控的国家财富储备」。",
-              "morphology": "sovereign（adj.：主权的）← 拉丁语 superanus；wealth（n.）= well（好）+ -th（名词化后缀）；fund（n./v.）。相关词：sovereignty（n.：主权）、endowment fund（捐赠基金）、hedge fund（对冲基金）。",
-              "mnemonic": "把「sovereign」和「reign」（统治）放在一起记——共享词根，都指「统治权力」。想象一位国王（sovereign）坐在金库前管理国家资产，那就是 sovereign wealth fund。沙特的 PIF、挪威的 NBIM、新加坡的 GIC 都是著名案例。",
-              "exampleEn": "Norway's sovereign wealth fund, one of the largest in the world, holds stakes in thousands of global companies.",
-              "exampleCn": "挪威的主权财富基金是全球最大的基金之一，持有数千家全球公司的股权。"
-            },
-            {
-              "word": "underwrite",
-              "pos": "v.",
-              "meaning": "为某项目提供财务支持或担保；（金融）承销股票或债券。比「support」或「fund」更专业，暗含「承担风险责任」之意，常出现在保险、IPO承销、体育赛事赞助等语境，是财经英语的核心动词，一词道出「出钱并兜底」的双重含义。",
-              "etymology": "来自古英语 under（在…之下）+ write（书写）。源自中世纪保险业惯例：承保人在保单底部亲笔签名，表示愿意承担该风险。后引申为「提供财务担保」的广泛含义，是少数完整保留字面起源的商业词汇。",
-              "morphology": "under-（前缀：在下方/支撑）+ write（词根：书写，源自古英语 wrītan）→ underwrite。相关词：underwriter（承保人/承销商）、underwriting（n.）、rewrite（重写）、overwrite（覆盖写入）。",
-              "mnemonic": "想象古代保险商在合同「下面（under）」签上自己的名字（write）——签名在下，风险在身。记住：谁在下方署名谁就担保，「在下方写字」= 为此背书兜底。现代 IPO 承销商的英文正是 underwriter，沿用这一意象至今。",
-              "exampleEn": "The bank agreed to underwrite the company's IPO, guaranteeing to purchase any shares that remain unsold.",
-              "exampleCn": "该银行同意承销这家公司的IPO，并保证购买任何未售出的股份。"
-            },
-            {
-              "word": "viability",
-              "pos": "n.",
-              "meaning": "可行性，尤指某事物能够在市场中存活、持续运转的能力。比「feasibility」（技术层面的可行性）更强调「能否在竞争环境中长期生存」，常见搭配：long-term viability（长期存续能力）、commercial viability（商业可行性），是评估企业或项目前景时不可或缺的高频词。",
-              "etymology": "来自法语 viable，源自拉丁语 vita（生命）+ -abilis（有能力的）。原义为「能够存活的」（最初用于描述早产儿能否存活），后引申为商业计划「能否持续运转」的抽象含义，是一个由「生命力」演化出「可持续性」的典型语义扩展案例。",
-              "morphology": "via-（词根：源自拉丁语 vita，生命）+ -able（形容词后缀：能够…的）→ viable；+ -ity（名词化后缀）→ viability。同词根词：vital（生命攸关的）、vitality（活力）、revitalize（重振）。",
-              "mnemonic": "把 viability 拆成「via」+「ability」——「找到一条出路（via）的能力（ability）」，能找到活路就是 viable。再联想「vital sign」（生命体征），共享词根 vita（生命），三者都指向「有没有生命力/活下去的本钱」。",
-              "exampleEn": "Analysts questioned the long-term viability of the business model after its largest client terminated the contract.",
-              "exampleCn": "在最大客户终止合同后，分析师对该商业模式的长期可行性提出了质疑。"
-            }
-          ]
-        },
-        {
-          "id": "20260610-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/09/the-may-inflation-numbers-are-due-out-wednesday-morning-heres-what-to-expect.html",
-          "headlineEn": "May CPI Report Due Wednesday: What Inflation Data Will Reveal",
-          "headlineCn": "五月CPI报告周三出炉：通胀数据将揭示什么",
-          "summaryEn": "The U.S. May consumer price index report is scheduled for release Wednesday morning, with Wall Street economists broadly expecting inflation to have run at a 4.2% annual rate. The data will be closely scrutinized by investors and Federal Reserve officials to gauge whether price pressures are finally easing after an aggressive rate-hiking cycle. A reading that overshoots expectations could revive fears of sticky inflation and pressure the Fed to resume tightening, while an in-line print may support the case for a pause.",
-          "summaryCn": "美国5月消费者价格指数（CPI）报告将于周三上午正式出炉，华尔街经济学家普遍预计通胀年率约为4.2%。这一数据将受到投资者和美联储官员的密切审视，以判断在激进加息周期之后物价压力是否真正开始缓解。若实际数据超出预期，可能重燃市场对「顽固通胀」的担忧，并施压美联储重启紧缩；若数据符合预期，则可能为暂停加息提供支撑。",
-          "excerpt": "The May consumer price index is due out Wednesday morning. If the Wall Street consensus holds, inflation is expected to be running at a 4.2% annual rate — a print that could shape the Federal Reserve's next move and signal whether disinflation is truly taking hold.",
-          "vocab": [
-            {
-              "word": "sticky",
-              "pos": "adj.",
-              "meaning": "（通胀/价格）顽固的、难以下降的。经济报道中「sticky inflation」特指降温缓慢的通胀——比普通的「persistent」更生动，暗含「粘着甩不掉」的比喻，是美联储官员和财经媒体的高频术语，值得重点掌握。",
-              "etymology": "源自古英语 stician（刺入、粘附），词义从物理的「粘」演变为比喻意义的「难以改变」。经济学中约在20世纪80年代普及，用来描述工资或价格调整的僵化性，是凯恩斯主义「工资粘性」理论的核心概念词。",
-              "morphology": "stick（动词：粘、坚持）+ -y（形容词后缀）。同族词：stickiness（n. 黏性/僵性）、stick（v./n.）。财经常见搭配：sticky wages（工资僵性）、sticky prices（价格僵性）、sticky inflation（顽固通胀），三个搭配可一并记忆。",
-              "mnemonic": "想象通胀是一块口香糖粘在鞋底——美联储使劲加息（像反复踩地），但就是甩不掉。画面越恶心越好记：sticky inflation = 鞋底上的口香糖通胀，粘着就是不走。",
-              "exampleEn": "Core services inflation has proven particularly sticky, remaining well above the Fed's 2% target despite months of rate hikes.",
-              "exampleCn": "核心服务业通胀被证明尤为顽固，尽管经历数月加息，依然远高于美联储2%的目标。"
-            },
-            {
-              "word": "year-over-year",
-              "pos": "phrase / adj. / adv.",
-              "meaning": "同比（与上一年同期相比），缩写为YoY。财经报道中不可回避的基准比较方式——务必区分 month-over-month（环比）和 quarter-over-quarter（季度环比），混淆三者会导致误读数据，这是财经阅读的基础功。",
-              "etymology": "复合短语，无独立词源。由 year（年）+ over（跨越）+ year 构成，字面意思是「一年跨过另一年」，即跨年同期对比。短语/复合词，无独立词源。",
-              "morphology": "短语结构：year + over + year，三部分均为基础词。同类构词模式：month-over-month（MoM，月度环比）、quarter-over-quarter（QoQ，季度环比）、week-over-week（WoW，周环比）。掌握「X-over-X」这一模式可举一反三。",
-              "mnemonic": "想象时间轴上，今年的柱状图「跨越」去年同期的柱状图，像运动员跨栏——year over year = 跨栏比较法。每次看到「over」连接两个相同时间词，就是同比！",
-              "exampleEn": "Revenue grew 18% year-over-year in Q1, driven largely by a surge in cloud services subscriptions.",
-              "exampleCn": "受云服务订阅大幅增长推动，第一季度营收同比增长18%。"
-            },
-            {
-              "word": "overshoot",
-              "pos": "v. / n.",
-              "meaning": "超出目标或预期（尤指经济指标越过政策目标）。比「exceed」更专业，隐含「调控失控、射过了靶子」的警示语气——央行谈论通胀「overshoot」意味着情况已脱离掌控，情绪色彩更强，是货币政策讨论中的核心词。",
-              "etymology": "源自古英语 ofsceotan，由 over-（超过）+ shoot（射击）组成，原义为「射过了目标」。引入经济学后，指变量在调整过程中超越均衡点的现象，最著名的是多恩布什（Dornbusch，1976年）的汇率超调模型，是宏观经济学经典术语。",
-              "morphology": "over-（前缀：超过、过度）+ shoot（词根：射击、飞射）。同前缀词：overestimate（高估）、overflow（溢出）、overreact（反应过度）。over- 系列构词极为高频，掌握前缀含义可快速推断大量新词。",
-              "mnemonic": "弓箭手瞄准靶心（比如2%通胀目标），但箭飞过了靶子——overshoot！想象美联储官员盯着靶子，焦虑地说「It overshot again」。射箭超靶 = 数据超调，画面简单直接。",
-              "exampleEn": "Analysts warned that if wage growth continues to overshoot, the Federal Reserve may be forced to raise rates further than markets currently expect.",
-              "exampleCn": "分析师警告，若工资增长持续超出目标，美联储可能被迫将利率加到高于市场当前预期的水平。"
-            },
-            {
-              "word": "disinflation",
-              "pos": "n.",
-              "meaning": "通胀降温（通胀率下降但仍为正值）。极易与 deflation（通缩，物价绝对下跌）混淆，但两者性质截然不同。美联储最希望看到的「软着陆」状态正是 disinflation，因此这是当前财经报道的核心词汇，必须掌握并能精准区分。",
-              "etymology": "由 dis-（拉丁前缀：逆向、去除）+ inflation（通货膨胀）构成。inflation 来自拉丁语 inflare（吹胀），dis- 加入后表示「反向膨胀的过程」，即物价上涨速率的下降——注意是速率降低，而非物价本身下降。",
-              "morphology": "dis-（前缀：逆向/去除）+ inflation（通货膨胀）。对比：deflation = de-（彻底去除）+ flation，指物价绝对下降。三词构成语义光谱：inflation（通胀上升）→ disinflation（通胀降温）→ deflation（通缩下跌），是宏观经济必备词组。",
-              "mnemonic": "把通胀想象成正在充气的气球：disinflation 是松开充气口——气球还在胀，只是胀得慢了；deflation 才是气球开始漏气缩小。dis- = 「放慢充气」，de- = 「开始漏气」，前缀决定命运。",
-              "exampleEn": "The latest CPI data offered fresh evidence of disinflation, with the annual rate ticking down for the third consecutive month.",
-              "exampleCn": "最新CPI数据提供了通胀降温的新证据，年率已连续第三个月小幅回落。"
-            },
-            {
-              "word": "print",
-              "pos": "n.",
-              "meaning": "（金融行话）某项经济数据的实际公布结果，例如「a hot CPI print」指CPI数据出炉后高于预期。这是彭博、CNBC等财经媒体的专业黑话，教科书几乎不教，但买方卖方报告和交易员对话中无处不在，读懂它才能真正读懂英文财经原文。",
-              "etymology": "源自古英语 printen，来自古法语 preindre（压印）。最初指印刷出来的文字，后引申为「已成定局的记录」。金融语境中，「print」比喻数据「印刷出来」即成事实——一旦公布就无法更改，带有「盖章确认」的语感，是典型的行业黑话转正用法。",
-              "morphology": "单一词根，源自 print（印刷）这一基础词。派生词：imprint（烙印）、blueprint（蓝图）、fingerprint（指纹）、misprint（印刷错误）。金融专用名词化：print 作不可数名词，特指数据公布值，是从日常词汇借用到专业语境的典型案例。",
-              "mnemonic": "想象彭博终端上数据出来那一刻，屏幕像打印机「哒哒哒」印出数字——那个瞬间就叫「the print」。「Hot print（烫手数据）」= 打印机纸还烫着，数字已经让市场炸锅了。听到「print」就联想到终端屏幕冒烟。",
-              "exampleEn": "A hot inflation print on Wednesday could prompt traders to price in an additional rate hike before year-end.",
-              "exampleCn": "若周三通胀数据「烫手」，可能促使交易员将年底前再加息一次的预期纳入价格。"
             }
           ]
         }
