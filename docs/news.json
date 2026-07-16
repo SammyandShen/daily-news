@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-15T05:55:23.347742+00:00",
+  "lastUpdated": "2026-07-16T23:09:38.405613+00:00",
   "level": "B2",
   "days": {
+    "2026-07-17": {
+      "label": "7月17日 (周五)",
+      "stories": [
+        {
+          "id": "20260717-1",
+          "category": "tech",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
+          "headlineEn": "Apple Sues OpenAI as Legal and Reputational Troubles Threaten Its Edge Over Anthropic",
+          "headlineCn": "苹果起诉OpenAI，法律与声誉双重危机恐削弱其对抗Anthropic的竞争优势",
+          "summaryEn": "Apple has filed a lawsuit against OpenAI, adding to the company's mounting legal and reputational pressures. OpenAI is already navigating intense scrutiny over its corporate governance and business practices. These challenges come at a critical juncture as OpenAI battles Anthropic for dominance in the AI assistant market. Analysts warn that sustained negative headlines could erode enterprise confidence in OpenAI's products, potentially accelerating customer migration toward rivals. The legal dispute with Apple underscores the increasingly complex web of partnerships and conflicts shaping the AI industry.",
+          "summaryCn": "苹果公司已对OpenAI提起诉讼，进一步加剧了这家AI巨头所面临的法律与声誉双重压力。与此同时，OpenAI在公司治理方面持续承受外界审视。在与Anthropic激烈争夺AI助手市场主导权的关键时刻，接连不断的负面事件引发业界担忧：企业客户信心或因此受损，进而加速流向竞争对手。苹果与OpenAI的法律纠纷，折射出当前AI产业合作与冲突并存的复杂生态。",
+          "excerpt": "OpenAI's troubles are mounting. A fresh lawsuit from Apple adds to the company's growing list of legal and reputational headaches, raising serious questions about whether the AI giant can maintain its edge over rivals like Anthropic—especially as enterprise customers increasingly weigh stability and trustworthiness alongside raw capability.",
+          "vocab": [
+            {
+              "word": "unpack",
+              "pos": "v.",
+              "meaning": "深入剖析；逐层拆解（复杂话题）。在播客和新闻评论中，「unpack」不是字面意思的「打开包裹」，而是指对复杂议题条分缕析，比「analyze」更生动形象，常见搭配：「unpack the implications（剖析深层含义）」「let's unpack this story（我们来逐一解读这条新闻）」",
+              "etymology": "来自古英语前缀 un-（表反向、取消）+ pack（包裹，来自中古荷兰语 pak）。字面义为「打开包裹」，20世纪后语义引申为「剖析复杂概念」，将抽象思想比作待拆解的行李箱",
+              "morphology": "un-（反向/取消前缀）+ pack（动词「打包」）。同前缀词：undo（撤销）、unwrap（拆开）、unlock（解锁）。常见衍生短语：unpack the data（解读数据）、unpack the implications（剖析含义）",
+              "mnemonic": "想象你收到一个装满「复杂信息」的行李箱，unpack 就是把每件物品（每个论点）一一取出摆在桌上检视。每次听到媒体说「let's unpack this」，脑中浮现打开手提箱、逐件取出的画面",
+              "exampleEn": "During the earnings call, the CFO took fifteen minutes to unpack the factors driving the unexpected revenue shortfall.",
+              "exampleCn": "在业绩说明会上，首席财务官花了十五分钟逐一剖析导致营收意外下滑的各项因素。"
+            },
+            {
+              "word": "reputational",
+              "pos": "adj.",
+              "meaning": "与声誉相关的。商业语境中「reputational risk（声誉风险）」「reputational damage（声誉损害）」是固定搭配，频繁出现于企业年报风险提示章节，比「image」更正式，是企业风险管理的核心词汇，读懂英文财经新闻必备",
+              "etymology": "来自拉丁语 reputatio（考量），由 re-（再次）+ putare（计算、思考）构成，后经古法语 réputation 进入英语。原义为「他人反复思量后对某人的评价」，现代商业中专指企业或个人形象资产",
+              "morphology": "repute（声誉，来自拉丁 reputare）+ -ation（名词后缀，表过程/状态）+ -al（形容词后缀）。同词根词：reputation（名誉）、reputable（有声望的）、disrepute（声名狼藉）",
+              "mnemonic": "re-（反复）+ put（放置）：别人一次次把评价「放置」在你身上，积累成你的 reputation（声誉）。-al 后缀让它变成形容词，「reputational crisis」就是声誉大厦出现裂缝",
+              "exampleEn": "The data breach caused significant reputational damage to the fintech firm, driving away several institutional clients.",
+              "exampleCn": "此次数据泄露事件给这家金融科技公司造成了严重的声誉损害，导致多家机构客户相继离去。"
+            },
+            {
+              "word": "embroiled",
+              "pos": "adj. / v.",
+              "meaning": "深陷（纷争、丑闻、诉讼）之中。比「involved」更强调被动卷入且难以脱身的困境感，语气更重，常见搭配：embroiled in controversy（深陷争议）、embroiled in litigation（身陷诉讼），是财经新闻报道法律纠纷时的高频词",
+              "etymology": "来自法语 embrouiller（使混乱），由 em-（进入某状态）+ brouiller（混淆、搅乱）构成。16世纪进入英语，原指「使局势陷入混乱」，后专指「将某人牵扯进无法脱身的纷争」",
+              "morphology": "em-（使进入某状态，源自拉丁 in-）+ broil（纷争、激烈争吵，源自古法语 brouiller）+ -ed（过去分词）。同前缀词：empower（赋权）、embrace（拥抱）、embed（嵌入）",
+              "mnemonic": "「broil」听起来像「boil（沸腾）」——embroiled 就是被「扔进沸腾的争议锅」里，越挣扎陷得越深。OpenAI embroiled in lawsuits = OpenAI在法律纠纷的「沸锅」中无法自拔",
+              "exampleEn": "The startup found itself embroiled in a patent dispute with a tech giant just weeks after its product launch.",
+              "exampleCn": "这家初创公司在产品发布仅数周后，便深陷与一家科技巨头的专利纠纷之中。"
+            },
+            {
+              "word": "litigation",
+              "pos": "n.",
+              "meaning": "诉讼；完整的法律诉讼程序。比「lawsuit」更正式，指整个司法过程而非单一起诉动作，常出现于企业财报风险提示「litigation risk（诉讼风险）」「litigation costs（诉讼费用）」，是读懂英文财报必备词",
+              "etymology": "来自拉丁语 litigatio（争论、诉讼），由 litigare（争讼）构成，源自 lis/litis（诉讼、争端）+ agere（行动、推进）。约16世纪进入英语，专指通过法庭手段解决争端的全过程",
+              "morphology": "litig（诉讼，来自拉丁 lis）+ -ation（过程/状态名词后缀）。同族词：litigate（v. 提起诉讼）、litigant（n. 诉讼当事人）、litigious（adj. 好打官司的）。记住 litigious 有助于反向锁定词义",
+              "mnemonic": "lis（争端）+ agere（行动）= 为争端而采取行动，即诉讼。联想「力提」——打官司要「用力提起」证据和论点去说服法官，整个「提起」过程就是 litigation",
+              "exampleEn": "The company set aside $500 million to cover potential litigation costs stemming from the data breach.",
+              "exampleCn": "该公司拨备5亿美元，以应对数据泄露事件可能引发的潜在诉讼费用。"
+            },
+            {
+              "word": "turmoil",
+              "pos": "n.",
+              "meaning": "动荡；剧烈混乱状态。常用于描述公司、市场或政治局势的动荡，如「market turmoil（市场动荡）」「corporate turmoil（公司内部混乱）」，比「chaos」更中性、更正式，值得与 turbulence（更偏外部冲击）区分记忆，两者均为财经新闻高频词",
+              "etymology": "来源不明确，16世纪英语中出现，可能源自古法语 tromouiller（搅动）或中古英语 turben（扰动）。原指物理上的「翻腾搅动」，后泛指任何领域的剧烈混乱状态",
+              "morphology": "词源不规则，无标准前缀/词根可拆。近义词族：turbulence（湍流→动荡）、tumult（骚乱）、turmoil 三词均含「tu-」音节，均携混乱之意，可作一组记忆。固定搭配：in turmoil（处于动荡中）",
+              "mnemonic": "「tur-」联想 turbine（涡轮）高速旋转，「moil」谐音「磨」——就像被涡轮和磨盘同时搅动，身处其中天旋地转。「corporate turmoil = 公司被各种力量搅得天翻地覆」",
+              "exampleEn": "OpenAI's leadership turmoil last year rattled investors and sparked a wave of talent departures across the company.",
+              "exampleCn": "OpenAI去年的高层动荡令投资者忧虑，并在公司内部引发了一波人才流失潮。"
+            }
+          ]
+        },
+        {
+          "id": "20260717-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+          "headlineEn": "Uber's $14.8B Delivery Hero Acquisition Could Nearly Double Its Global Reach",
+          "headlineCn": "Uber斥资148亿美元收购Delivery Hero，全球版图有望翻倍",
+          "summaryEn": "In a landmark $14.8 billion all-stock deal, Uber has agreed to acquire Delivery Hero, the German food-delivery giant operating in over 70 countries. The transaction would nearly double Uber's global footprint and create one of the world's largest food-delivery platforms outside China. For Uber, which has already exited several international markets, this acquisition signals a bold return to global growth through consolidation rather than organic expansion, potentially reshaping the competitive landscape of on-demand delivery worldwide.",
+          "summaryCn": "据报道，Uber已与德国外卖巨头Delivery Hero就148亿美元的全股票交易达成收购协议。Delivery Hero在全球逾70个国家开展业务，若交易完成，Uber的全球业务版图将近乎翻倍，并打造出中国以外全球最大的外卖平台之一。这一举措标志着Uber从此前退出多个国际市场的策略转向，转而以整合并购的方式重新拥抱全球化扩张，有望深刻重塑全球即时配送行业的竞争格局。",
+          "excerpt": "Uber has agreed to acquire Delivery Hero in a $14.8 billion all-stock deal that would nearly double the company's global reach and create one of the world's largest food-delivery platforms outside China, marking a decisive shift in the ride-hailing giant's international strategy.",
+          "vocab": [
+            {
+              "word": "synergy",
+              "pos": "n.",
+              "meaning": "协同效应；指并购后合并体创造的价值大于各部分单独之和。几乎是所有M&A报道的标配词，投行路演和财报电话会议中极高频，学会它可直接读懂大量商业英语报道。",
+              "etymology": "来自希腊语synergia，由syn-（共同/一起）与ergon（工作）合成，原意「共同协作」，17世纪进入英语，20世纪被商业和管理学领域大量借用，演变为「合力产生超额价值」的并购专用术语。",
+              "morphology": "syn-（共同）+ erg（工作，来自希腊ergon）+ -y（名词后缀）；同词根扩展：energy（en-内在+ergy工作）、ergonomic（人体工程学）、synergize（动词形式，产生协同效应）。",
+              "mnemonic": "把synergy拆成syn（同）+ energy（能量）：两节电池串联后总电压超过单节之和——这就是synergy的核心画面。商业并购里永远绕不开这个词，CEO开发布会必说「we expect significant synergies」。",
+              "exampleEn": "The merger was projected to generate $500 million in annual synergies through shared distribution networks and reduced overhead costs.",
+              "exampleCn": "预计此次并购将通过共享配送网络和削减运营开销，每年产生5亿美元的协同效益。"
+            },
+            {
+              "word": "moat",
+              "pos": "n.",
+              "meaning": "「护城河」，比喻企业难以被竞争者复制的持久竞争优势。由巴菲特系统推广至投资分析领域，比competitive advantage更生动，是阅读英文投研报告和《经济学人》的必备词汇。",
+              "etymology": "来自古法语mote（土丘/堡垒），本指城堡外围的防御性壕沟，用于阻止敌军入侵。比喻义由沃伦·巴菲特在20世纪90年代引入投资语境，此后成为评估企业竞争壁垒的标准术语。",
+              "morphology": "单一词根，无前后缀可拆解；常见搭配：economic moat（经济护城河）、wide/narrow moat（宽/窄护城河）、deepen the moat（加深护城河）；形容词派生：moated（有护城河保护的）。",
+              "mnemonic": "想象迪士尼乐园城堡外的护城河(moat)——你看得见里面，却无法轻易复制一座。亚马逊的Prime会员体系、微信的社交关系链，都是商业世界的moat，让竞争者望河兴叹、无从逾越。",
+              "exampleEn": "Uber's combined user base and driver network form a deep moat that makes it extremely difficult for new entrants to challenge its market position.",
+              "exampleCn": "Uber合并后庞大的用户群和司机网络将构筑一道深厚的护城河，使新进入者极难挑战其市场地位。"
+            },
+            {
+              "word": "logistics",
+              "pos": "n.",
+              "meaning": "物流；对货物从起点到终点的系统性调配与管理。在外卖、电商语境中侧重配送调度网络的运营效率，比supply chain更聚焦执行层面，logistics network和logistics platform是行业高频搭配。",
+              "etymology": "来自法语logistique，词根源于古法语loger（安置/驻扎），最初是军事术语，指战时军需物资的运输与补给管理。19世纪末被商业领域借用，20世纪随电商和全球供应链爆发成为核心商业词汇。",
+              "morphology": "log-（安置，来自法语loger）+ -istic（形容词后缀）转名词，通常不可数；同族派生词：logistic（形容词）、logistical（形容词，侧重实操层面）、logistically（副词，如logistically challenging）。",
+              "mnemonic": "记住拿破仑远征俄国的失败：兵力再强，败于logistics（补给线太长，粮草跟不上）。外卖平台的核心竞争力同理——骑手调度和即时配送效率，就是现代版的战场logistics，决定胜负。",
+              "exampleEn": "Delivery Hero's logistics network across more than 70 countries gives Uber an immediate operational advantage in markets it had previously exited.",
+              "exampleCn": "Delivery Hero在逾70个国家铺设的物流网络，使Uber在其此前退出的市场中即刻获得运营优势。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "估值；对公司或资产市场价值的评估结果及其背后方法论。与price（成交价）不同，valuation强调基于财务模型的理性价值判断，在M&A、融资和IPO报道中无处不在，是读懂财经英语的核心词。",
+              "etymology": "来自拉丁语valere（有价值、有力量），经由中世纪法语valuation进入英语，16世纪起用于土地和财产评估，随现代金融体系的发展在20世纪成为并购与投资分析的标准术语。",
+              "morphology": "valu-（价值，来自拉丁valere）+ -ation（名词化后缀，表示行为或结果）；同族扩展：value（n./v.）、evaluate（评估）、devalue（贬值）、undervalued（被低估的）、overvalued（被高估的）。",
+              "mnemonic": "val = value（价值）+ -ation（名词化）：valuation就是「把价值量化成一个数字」的过程。记住区别：你报价14.8 billion是price，但背后如何算出这个数字的分析过程和结论就叫valuation。",
+              "exampleEn": "At a $14.8 billion valuation, analysts are questioning whether Uber is overpaying for Delivery Hero's international delivery network.",
+              "exampleCn": "以148亿美元的估值来看，分析师质疑Uber为Delivery Hero的国际配送网络所支付的价格是否过高。"
+            },
+            {
+              "word": "on-demand",
+              "pos": "adj.",
+              "meaning": "按需的；描述用户随时发起请求、平台即时响应的商业模式，与subscription（订阅制）形成对照。外卖、打车、流媒体均属于on-demand经济，是平台经济报道中绕不开的核心定语，作定语时须加连字符。",
+              "etymology": "由on（运行/激活状态）与demand（需求，来自拉丁demandare「委托/要求」）复合而成，无独立词源。20世纪末随互联网平台经济兴起成为高频商业术语，Uber、Airbnb等公司的崛起使其在全球广泛传播。",
+              "morphology": "复合形容词，on（副词/介词）+ demand（名词）；demand来自de-（完全）+ mandare（命令/委托），同族词：mandate（授权/强制要求）、mandatory（强制性的）、command（命令）；作定语须加连字符，作表语则不加。",
+              "mnemonic": "on-demand = 「需求(demand)一到就立刻on（启动）」。想象你饿了打开外卖App，系统瞬间「开机」响应你的需求——按需即时，无需等待，这就是on-demand经济与传统零售最根本的区别所在。",
+              "exampleEn": "The merger would create one of the largest on-demand delivery ecosystems in the world, serving hundreds of millions of consumers across six continents.",
+              "exampleCn": "此次并购将打造全球最大的按需配送生态系统之一，为遍布六大洲的数亿消费者提供服务。"
+            }
+          ]
+        },
+        {
+          "id": "20260717-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
+          "headlineEn": "Dallas Fed's Logan Calls for Modestly Higher Interest Rates",
+          "headlineCn": "达拉斯联储主席罗根呼吁适度上调利率",
+          "summaryEn": "Dallas Federal Reserve President Lorie Logan stated that while this week's inflation data showed improvement, it was not sufficient to justify pausing rate increases. Logan advocated for 'modestly' higher interest rates, signaling a cautious yet continued tightening stance. Her comments reflect ongoing concern within the Fed about whether inflation is easing fast enough toward the 2% target, underscoring the challenge of calibrating policy when economic signals remain mixed.",
+          "summaryCn": "达拉斯联储主席洛里·罗根表示，尽管本周公布的通胀数据有所好转，但仍不足以停止加息步伐。她主张「适度」上调利率，表明联储内部对于通胀能否足够快速地回落至2%目标仍存疑虑。这一立场反映出政策制定者在解读喜忧参半的经济数据时所面临的困境，也凸显了在信号复杂时校准政策节奏的难度。",
+          "excerpt": "Dallas Fed President Lorie Logan said this week's favorable inflation reading was 'not good enough' to justify a pause in rate hikes. She called for modestly higher borrowing costs, reflecting a cautious but still-firm posture as the central bank works to bring inflation fully back under control.",
+          "vocab": [
+            {
+              "word": "calibrate",
+              "pos": "v.",
+              "meaning": "校准；精确调整（政策力度或策略）。在经济语境中指根据数据精确拿捏政策松紧，比 adjust 更强调专业性与精确度，是央行官员发言的高频词，常见搭配：calibrate the response / calibrate policy",
+              "etymology": "源自阿拉伯语 qālib（模具/铸模），经中世纪拉丁语 calibrare 进入英语，原义指测量枪管口径（caliber），后引申为「精确测量、精准调整」",
+              "morphology": "calib(r)-（口径/量规）+ -ate（使动词后缀）。同族词：caliber/calibre（口径；能力水准），recalibrate（重新校准），calibration（校准过程）",
+              "mnemonic": "想象枪匠用精密仪器量枪管口径（caliber），字根相同。联储「calibrate」政策就像枪匠精确调校每一毫米——差之毫厘，谬以千里",
+              "exampleEn": "The central bank must carefully calibrate its rate decisions to avoid triggering a recession while controlling inflation.",
+              "exampleCn": "央行必须审慎校准其利率决策，以在控制通胀的同时避免引发经济衰退。"
+            },
+            {
+              "word": "policymaker",
+              "pos": "n.",
+              "meaning": "政策制定者；决策层官员。在财经新闻中专指有权制定公共政策的官员（如央行委员、政府部长），是 official 的更精准替代词，出现即意味着「重要决策人物发言」",
+              "etymology": "复合词：policy（政策，来自希腊语 polis 城邦，经古法语 policie 进入英语）+ maker（制造者）。policy 的词根 polis 也是 politics、polite 的来源",
+              "morphology": "policy + -maker（施动名词后缀）。类比词：decision-maker（决策者），lawmaker（立法者），market-maker（做市商），kingmaker（幕后操盘手）",
+              "mnemonic": "policy = 政策，maker = 制造者，直接拼合。记住：做市场的叫 market-maker，定政策的叫 policymaker——凡在新闻中看到此词，必是重量级官员开口",
+              "exampleEn": "Several Fed policymakers have signaled they are open to one more rate hike before year-end.",
+              "exampleCn": "数位联储政策制定者已暗示，他们对年底前再加息一次持开放态度。"
+            },
+            {
+              "word": "underscore",
+              "pos": "v.",
+              "meaning": "强调；突出（某一论点或事实）。在商业写作和新闻报道中比 emphasize 更书面正式，暗含「以数据或事件为佐证」的语气，常用于分析报告的结论句",
+              "etymology": "under-（在下方）+ score（线/刻痕，来自古诺斯语 skor，原义「刻痕、切口」）。字面义为「在文字下方划线」以标记重点，后引申为「着重强调」",
+              "morphology": "under-（下方）+ score（线）。同前缀词：underline（下划线；强调），underpin（支撑），undercut（削弱）。score 本身还有「得分/乐谱」义，三义共一词",
+              "mnemonic": "给重点单词画下划线（score a line under = underscore）的动作就是字面来源。背单词时用荧光笔划线的那一刻，就是在 underscore 它",
+              "exampleEn": "The earnings miss underscores the growing pressure on tech companies to demonstrate a clear path to profitability.",
+              "exampleCn": "业绩未达预期一事，凸显了科技公司在证明清晰盈利路径方面所承受的日益增大的压力。"
+            },
+            {
+              "word": "trajectory",
+              "pos": "n.",
+              "meaning": "轨迹；走势；发展路径。在金融语境中专指利率、股价、经济指标的变化路径，如 rate trajectory（利率走势）、growth trajectory（增长路径），比 trend 更强调动态的演变过程和可预测性",
+              "etymology": "来自拉丁语 trajectoria，由 trans-（穿越）+ jacere（投掷）构成，原指抛射体的飞行弧线，后引申为任何事物随时间推移的发展路径",
+              "morphology": "tra(ns)-（穿越）+ -ject-（投掷，核心词根）+ -ory（名词后缀）。同词根词：project（投射/项目），inject（注入），eject（弹出），reject（拒绝/驳回）",
+              "mnemonic": "想象一枚火箭划破天空的飞行弧线——那条弧就是 trajectory。联储官员讨论「rate trajectory」，就是在预判利率这枚「火箭」接下来的飞行路线",
+              "exampleEn": "Investors are watching the Fed's rate trajectory closely to determine when to rotate their portfolios from bonds to equities.",
+              "exampleCn": "投资者正密切关注联储的利率走势，以判断何时将投资组合从债券转向股票。"
+            },
+            {
+              "word": "tightening",
+              "pos": "n.",
+              "meaning": "（货币）紧缩；收紧（信贷条件）。在央行语境中专指加息或缩减资产负债表等收紧流动性的操作，是鹰派立场的具体体现。与 easing/loosening（宽松）相对，是理解央行政策方向的核心词对",
+              "etymology": "tight（紧的，来自古英语 þȳht，原义「密实的/强壮的」）+ -en（动词化后缀）+ -ing（动名词后缀）。常见隐喻：tighten the screws（拧紧螺丝，即施压）",
+              "morphology": "tight + -en（动词化）+ -ing。派生词链：tight → tighten → tightening → tightened。对立词链：loose → loosen → loosening，亦可替换为 easing",
+              "mnemonic": "把货币政策想象成一根皮带——联储「tightening」就是在勒紧皮带，让市面上的钱变少、变贵。反之 easing 就是松皮带放水。两词一紧一松，永远成对记",
+              "exampleEn": "The prolonged tightening cycle has significantly raised borrowing costs for both businesses and consumers.",
+              "exampleCn": "持续的货币紧缩周期已大幅推高了企业和消费者的借贷成本。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-15": {
       "label": "7月15日 (周三)",
       "stories": [
@@ -8521,326 +8715,6 @@
               "mnemonic": "对比记忆：denotation 是「de（直指）+ notation」，就是字典里的正式定义；connotation 是「con（随行附带）+ notation」，是伴随正式定义一起携带的「情感行李」。「chairman」随身携带着传统权威感，这就是它的 connotation。",
               "exampleEn": "The word 'disruption' has taken on positive connotations in Silicon Valley, even though it originally implied chaos and instability.",
               "exampleCn": "「颠覆」一词在硅谷已具有正面内涵，尽管它最初暗示的是混乱与不稳定。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-12": {
-      "label": "6月12日 (周五)",
-      "stories": [
-        {
-          "id": "20260612-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/",
-          "headlineEn": "Oracle Warns of Security Flaw Exploited by Hackers to Breach 100+ Companies",
-          "headlineCn": "Oracle 警告安全漏洞遭黑客利用，逾百家企业服务器受波及",
-          "summaryEn": "Oracle has disclosed a critical security vulnerability in its systems that a cybercrime gang claims to have actively exploited in a widespread hacking campaign. Google's security team notified over 100 organizations worldwide that their servers may have been exposed. The incident highlights the growing risk of unpatched enterprise software becoming a vector for mass-scale breaches, and underscores why large vendors must accelerate their patch release cycles.",
-          "summaryCn": "Oracle 披露其系统存在一个严重安全漏洞，一个网络犯罪团伙声称已将其用于大规模黑客攻击行动。谷歌安全团队随后通知全球逾百家机构，其服务器可能已遭波及。此次事件再度揭示企业软件未及时修复漏洞的巨大隐患，也警示大型软件厂商必须加快安全补丁的发布节奏，以防范更大规模的数据泄露事件发生。",
-          "excerpt": "Oracle warned customers of a security flaw that a cybercrime gang claimed it had been exploiting as part of a mass-hacking campaign. Google said it had notified more than 100 organizations whose servers were potentially vulnerable to attack.",
-          "vocab": [
-            {
-              "word": "flaw",
-              "pos": "n.",
-              "meaning": "缺陷、漏洞。安全语境中特指系统或代码的结构性缺陷，比 bug（偶发性错误）更强调设计层面的问题，常见搭配：security flaw、critical flaw、design flaw。值得学：它语义比 bug 更严重，出现在安全公告里往往意味着需要立即修复",
-              "etymology": "来自古北欧语 flaga，原指石板上的裂缝或碎片；进入中古英语后泛指物体表面的瑕疵，最终语义扩展至抽象的「缺陷」",
-              "morphology": "单音节简单词，无前后缀。常见派生词：flawed（有缺陷的，adj.）、flawless（无瑕的，adj.）、flawlessly（副词）。可横向联想辨析：defect 强调功能缺失，bug 偏口语，flaw 偏正式书面",
-              "mnemonic": "flaw 发音像「撇一下」——想象用指甲在玻璃上轻轻划了一道，出现一条裂纹，那条裂纹就是 flaw。代码里的「一道裂纹」就是安全漏洞，看不见但危险",
-              "exampleEn": "Auditors uncovered a critical flaw in the payment system that had allowed fraudulent transactions to bypass verification for months.",
-              "exampleCn": "审计人员在支付系统中发现了一个严重缺陷，导致欺诈性交易数月来绕过了身份验证。"
-            },
-            {
-              "word": "patch",
-              "pos": "n. / v.",
-              "meaning": "（名词）补丁程序；（动词）打补丁修复漏洞。安全领域核心词，patch a vulnerability 是标准表达，比 fix 更正式，强调「针对特定漏洞的专项修复代码」。值得学：不打补丁的系统叫 unpatched，是安全报告的高频词",
-              "etymology": "来自古法语 pieche（布片），原指缝补衣物时覆盖破洞的布块；16世纪进入英语，20世纪随软件业兴起引申为「修复程序漏洞的代码块」，隐喻完全一致",
-              "morphology": "名词动词同形。派生词：patchy（不均匀的）、patchwork（拼凑物）。软件语境固定搭配：zero-day patch（零日补丁）、patch Tuesday（微软每月补丁日）、unpatched system（未修复系统）",
-              "mnemonic": "想象黑客在代码里撕开一个「破洞」，工程师火速拿来一块「布片」（patch）盖上去——和奶奶给裤子打补丁完全同一个动作，只是发生在代码世界里。看到 patch，就想到那块缝补用的布",
-              "exampleEn": "The vendor issued an emergency patch within 48 hours after researchers publicly disclosed the remote-code-execution vulnerability.",
-              "exampleCn": "研究人员公开披露该远程代码执行漏洞后，厂商在48小时内发布了紧急补丁。"
-            },
-            {
-              "word": "threat actor",
-              "pos": "phrase",
-              "meaning": "威胁行为者；安全领域专业术语，泛指实施网络攻击的任何个体或组织（国家、犯罪团伙、黑客组织均可）。比 hacker 更中性、更正式，是政府报告和企业安全文件的首选词，刻意回避了 hacker 的文化色彩，强调「主动发起攻击的一方」",
-              "etymology": "短语/复合词，无独立词源。threat 来自古英语 þreat（压迫、胁迫）；actor 来自拉丁语 actor，意为「行动者、执行者」",
-              "morphology": "threat（威胁）+ actor（行动者）。相关短语族：bad actor（不良行为者）、state actor（国家行为者）、non-state actor（非国家行为者）；threat landscape（威胁格局）、threat intelligence（威胁情报）",
-              "mnemonic": "网络战争是一场「舞台剧」：threat actor 就是这出戏里的「反派演员」——actor 是演员，只不过他在舞台上攻击你的服务器。看到 actor，记住他是主动发起攻击的那一方，而不是受害者",
-              "exampleEn": "The cybersecurity firm attributed the supply-chain attack to a financially motivated threat actor operating out of Eastern Europe.",
-              "exampleCn": "该网络安全公司将这起供应链攻击归咎于一个出于经济动机、活跃于东欧的威胁行为者。"
-            },
-            {
-              "word": "vulnerable",
-              "pos": "adj.",
-              "meaning": "易受攻击的、存在漏洞的。安全语境中专指系统处于未修复状态，容易被攻击者利用。值得学：其名词形式 vulnerability（漏洞）在安全报告和 CVE 数据库中出现频率极高，是整个网络安全行业的核心词汇之一",
-              "etymology": "来自拉丁语 vulnerare（伤害），词根 vulnus 意为「伤口」；原指身体上容易受伤的部位，后语义扩展至任何容易遭受损害的状态",
-              "morphology": "vulner（伤）+ -able（能被……的后缀）= 能被伤害的。派生词：vulnerability（漏洞，n.）、invulnerable（坚不可摧的，adj.）。同族词：wound 来自同一原始印欧语根，均含「破口」的原始意象",
-              "mnemonic": "把 vulner 拆成「沃尔纳」——「沃尔纳身上有道伤（wound）」，加上 -able 就是「容易被伤到的」。记住 vulnerability 是 CVE（通用漏洞披露）数据库的关键词，全球每天新增数百条",
-              "exampleEn": "Organizations still running legacy ERP systems are particularly vulnerable to credential-stuffing attacks targeting default admin accounts.",
-              "exampleCn": "仍在运行老旧ERP系统的企业尤其容易遭受针对默认管理员账户的撞库攻击。"
-            },
-            {
-              "word": "cybercrime",
-              "pos": "n.",
-              "meaning": "网络犯罪；专指利用计算机和互联网实施的犯罪行为。值得学：掌握 cyber- 前缀可快速理解整个词族——cyberattack、cybersecurity、cyber warfare、cyberspace，这一前缀在科技政策、安全报道和投资分析中出现频率极高",
-              "etymology": "cyber- 来自希腊语 kybernetes（舵手、引导者），经由控制论奠基人 Norbert Wiener 的著作《Cybernetics》（1948年）演变而来；crime 来自拉丁语 crimen（指控、罪行）",
-              "morphology": "cyber-（网络/数字空间相关前缀）+ crime（犯罪）。cyber- 前缀家族：cybersecurity（网络安全）、cyberattack（网络攻击）、cyberspace（网络空间）、cyber espionage（网络间谍活动）、cybercrime gang（网络犯罪团伙）",
-              "mnemonic": "cyber 就是「赛博朋克」里的「赛博」——只要看到 cyber- 开头，就知道这件事发生在数字世界里。cybercrime = 赛博世界里的犯罪，像电影里黑客在荧光屏前敲键盘的经典画面",
-              "exampleEn": "Law enforcement agencies across twelve countries coordinated a takedown operation against a cybercrime network responsible for over $200 million in corporate fraud.",
-              "exampleCn": "十二国执法机构联合行动，捣毁了一个涉案金额逾两亿美元企业欺诈案的网络犯罪网络。"
-            }
-          ]
-        },
-        {
-          "id": "20260612-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
-          "headlineEn": "Anthropic Taps TCS to Scale Its Enterprise AI Deployments",
-          "headlineCn": "Anthropic携手TCS推进企业级AI大规模部署",
-          "summaryEn": "Anthropic has entered a strategic partnership with Tata Consultancy Services (TCS), one of the world's largest IT services firms, to expand its enterprise reach. Under the deal, TCS will establish a dedicated business unit to deploy Anthropic's AI models across its global client base. This move signals Anthropic's ambition to move beyond direct sales and leverage established channel partners to accelerate enterprise adoption—a critical step as it competes with OpenAI and Google in the fast-growing enterprise AI market.",
-          "summaryCn": "Anthropic宣布与全球最大IT服务商之一塔塔咨询服务公司（TCS）达成战略合作。根据协议，TCS将专门成立业务部门，负责向其企业客户部署Anthropic旗下的Claude等AI模型。此举标志着Anthropic开始借助成熟渠道合作伙伴拓展企业市场，加速AI产品的商业落地。这一策略有助于Anthropic在与OpenAI、谷歌等巨头的竞争中抢占更广泛的企业客户群。",
-          "excerpt": "Anthropic has tapped Tata Consultancy Services, a global IT services giant, to set up a new business unit focused on deploying Claude AI models to enterprise clients worldwide. The deal marks a key step in Anthropic's push to move beyond direct sales and reach large corporations through established systems integrators.",
-          "vocab": [
-            {
-              "word": "tap",
-              "pos": "v.",
-              "meaning": "选中、指定某人或机构承担特定职责。比 choose 或 select 更具商业新闻语气，暗含「在众多候选中相中并启用」的意味，常见搭配「tap sb to do sth」或「tap sb for a role」，广泛出现于科技/商业报道标题，体现一种战略性的主动挑选姿态。",
-              "etymology": "源自古英语 tæppian（轻触），中古英语引申为「接触并引出某种资源」（如 tap a barrel 开桶取酒、tap a pipeline 接管道），19世纪后进一步引申为「挖掘并启用某人的潜力或能力」。",
-              "morphology": "单音节简单词，无前后缀。常见派生：tapped（被选中）、tapping（物色中）、untapped（尚未开发的）——untapped market 是高频商业搭配，记住 untapped 便可横向扩展整个词族。",
-              "mnemonic": "想象一个水龙头（tap），你「拧开」TCS 这个水龙头，让AI资源流向企业客户——「拧开谁来做事」就是选中并启用谁。下次看到标题里的 tap，就想起那个被「拧开」的合作方。",
-              "exampleEn": "The board tapped an industry veteran to lead the company's AI transformation initiative.",
-              "exampleCn": "董事会选定了一位行业资深人士来主导公司的AI转型计划。"
-            },
-            {
-              "word": "embed",
-              "pos": "v.",
-              "meaning": "将某技术或功能深度整合进系统或流程，使其成为不可分割的一部分。比 integrate 更强调「嵌入内部、与宿主融为一体」的含义，在AI/软件语境中极常见；同时 embedding（向量嵌入）也是当下AI领域的核心技术术语，一词两用，值得重点掌握。",
-              "etymology": "来自古英语 bedd（床/基础），前缀 em- 表示「放入、使进入」，字面义为「安置在基础之中」，引申为「深深嵌入某一结构内部」，13世纪经法语传入英语并固化为现代用法。",
-              "morphology": "em-（进入） + bed（床/基础）。同前缀词：embrace（怀抱进来）、empower（赋权/注入力量）；派生词：embedded（嵌入式的，如 embedded systems）、embedding（向量嵌入，AI专业术语）。",
-              "mnemonic": "em = 进入，bed = 床。把AI「塞进床里」——深深嵌入、不可拔出，就像 embedded journalist（随军记者）紧跟部队、融入其中一样。记住这张「床」的画面，embedding 也就顺带记住了。",
-              "exampleEn": "The startup plans to embed its language model directly into enterprise CRM and ERP platforms.",
-              "exampleCn": "这家初创公司计划将其语言模型直接嵌入企业的CRM和ERP平台中。"
-            },
-            {
-              "word": "marquee",
-              "pos": "adj.",
-              "meaning": "旗舰级的、重量级的（合作伙伴/客户/项目）。源自剧院大型宣传招牌，引申为「足以被放上大招牌展示的」。比 flagship 更口语化，比 high-profile 更具商业媒体色彩，常搭配 marquee client、marquee deal、marquee partnership，是科技/商业报道中描述标志性合作的惯用词。",
-              "etymology": "来自法语 marquise（侯爵夫人/遮篷），用于形容剧院门口展示主演名字的大型华丽遮篷招牌，19世纪末引申为「具有展示价值、足以大肆宣传的」，20世纪初进入商业英语。",
-              "morphology": "法语借词，本身无前后缀可拆解。近义词辨析：flagship（旗舰）更正式、多用于产品线；landmark（里程碑式的）强调历史意义；marquee 侧重「高知名度、值得宣传」，多见于媒体报道和公关语境。",
-              "mnemonic": "想象好莱坞电影院门口的大霓虹招牌（marquee），名字能挂上去的都是大腕——marquee partnership 就是「大招牌级合作」，值得让媒体大书特书。TCS+Anthropic，名字足够大，稳稳挂上去。",
-              "exampleEn": "Landing a marquee client like a Fortune 500 bank validated the startup's enterprise AI strategy.",
-              "exampleCn": "成功签下一家财富500强银行这样的旗舰客户，印证了该初创公司的企业AI战略。"
-            },
-            {
-              "word": "turnkey",
-              "pos": "adj.",
-              "meaning": "交钥匙式的、开箱即用的（解决方案）。指供应商提供完整的端对端方案，客户无需自行搭建，「转一下钥匙」即可投入运营。在企业AI/SaaS销售中极常见，是区别于「定制化」方案的重要商业概念，体现渠道合作伙伴的核心价值所在。",
-              "etymology": "字面义「转一下钥匙」，源自建筑/工程行业——承包商将新建房屋的钥匙交给客户时，一切设施已就绪，客户转动钥匙即可入住；1950年代引申为「完整交付、即插即用型」解决方案，后广泛用于IT和企业服务领域。",
-              "morphology": "turn（转动） + key（钥匙），合成形容词。近义词比较：plug-and-play（即插即用）更强调硬件接口层面；out-of-the-box（开箱即用）更口语化；turnkey 更多用于大型企业部署和工程承包场景，语气更正式。",
-              "mnemonic": "开发商把房子造好，把钥匙一交（turn the key）——你来转动钥匙就能住，无需操心水电装修。TCS帮企业把AI「装修好」，客户「转钥匙」直接用，这就是 turnkey AI deployment 的精髓。",
-              "exampleEn": "TCS will offer turnkey AI deployment packages, handling everything from model fine-tuning to staff training.",
-              "exampleCn": "TCS将提供交钥匙式AI部署套餐，涵盖从模型微调到员工培训的全部环节。"
-            },
-            {
-              "word": "go-to-market",
-              "pos": "phrase / adj.",
-              "meaning": "市场进入策略的，指产品或服务如何触达目标客户的整体商业方案，涵盖定价、渠道、销售模式等多维度，缩写GTM。是商业策划和融资路演的核心术语，比 sales strategy 更宏观，理解科技公司商业逻辑的必备词汇——Anthropic此次选择「渠道型GTM」正是其商业化转型的关键信号。",
-              "etymology": "复合短语，go（进入） + to（到达） + market（市场），直译「进入市场的（策略）」，1990年代随SaaS商业模式崛起而成为标准商业术语，普及于硅谷创业和投资语境，现已是全球商业英语通用词汇。",
-              "morphology": "短语/复合词，无独立词源可拆解。核心延伸搭配：go-to-market strategy（GTM战略）、GTM motion（打法/动作）、direct GTM（直销模式）vs. channel GTM（渠道销售模式）——Anthropic此次选择的即为典型 channel GTM。",
-              "mnemonic": "把GTM想成一张「作战路线图」——产品怎么「走」进市场（go to market），是走直路（直销）还是绕道（渠道合作）？Anthropic这次选TCS就是选了一条「渠道大道」，把路铺到了TCS的全球客户门口。",
-              "exampleEn": "Partnering with a global systems integrator is a classic channel-led go-to-market strategy for enterprise AI vendors.",
-              "exampleCn": "与全球系统集成商合作，是企业AI厂商采用的经典渠道主导型市场进入策略。"
-            }
-          ]
-        },
-        {
-          "id": "20260612-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/11/iran-strait-hormuz-oil-tanker-traffic-frontline.html",
-          "headlineEn": "Tanker CEO: Hormuz Traffic Will Surge Quickly If U.S.-Iran Deal Is Reached",
-          "headlineCn": "油轮CEO：若美伊达成协议，霍尔木兹通行量将迅速激增",
-          "summaryEn": "The CEO of Frontline, one of the world's largest tanker companies, says ship traffic through the Strait of Hormuz could rebound rapidly if the United States and Iran reach a diplomatic deal. Lars Barstad noted that many shipowners are currently holding back, waiting for the threat level to be formally downgraded before resuming normal routes. The strait handles roughly 20% of global oil flows, making every diplomatic signal a potential market-moving event for freight rates and energy prices worldwide.",
-          "summaryCn": "全球最大油轮公司之一Frontline的CEO拉斯·巴斯塔德表示，若美伊两国达成外交协议，霍尔木兹海峡的船舶通行量有望迅速回升。他指出，目前许多船东正在观望，等待威胁评估等级正式下调后再恢复正常航线。霍尔木兹海峡约占全球石油流量的20%，每一个外交信号都可能牵动运费率与能源价格，使其成为全球能源市场最敏感的地缘政治变量之一。",
-          "excerpt": "Many shipowners are just waiting for the threat assessment to be downgraded before crossing Hormuz, Frontline CEO Lars Barstad said. A diplomatic deal between Washington and Tehran could quickly unlock a surge in tanker traffic through the strategic strait.",
-          "vocab": [
-            {
-              "word": "throughput",
-              "pos": "n.",
-              "meaning": "（某系统、通道或设施的）吞吐量、通过量。与output不同，throughput强调流量与处理速度，常用于港口、物流、网络等场景，是供应链和基础设施分析的核心词汇，学会它能读懂航运和产能报告。",
-              "etymology": "由古英语 through（穿过）与 put（处置）复合而成，16世纪起用于描述生产加工过程，20世纪引申至工业产能与数据传输领域，现广泛用于物流、芯片制造和港口统计报告。",
-              "morphology": "through-（穿过）+ put（处置）。同类复合词：input（输入量）、output（产出量）。工业与IT领域均高频，三词合看可快速掌握「进-处理-出」的量化分析框架。",
-              "mnemonic": "想象货物『through』（穿过）一根管道再『put out』（放出来），throughput就是这根管道每小时能『放出来』多少。像量水管流速一样量吞吐量，画面感极强，一想到管道就记住了。",
-              "exampleEn": "The port authority reported a 30% increase in oil throughput after sanctions were lifted.",
-              "exampleCn": "制裁解除后，港务局报告石油吞吐量增加了30%。"
-            },
-            {
-              "word": "war risk premium",
-              "pos": "phrase",
-              "meaning": "战争风险溢价，指保险公司对途经战争或冲突高风险区域的船舶额外收取的保险附加费。是衡量航运市场地缘政治风险的关键指标，战事升级时急剧攀升，是读懂航运股与能源成本的必备词汇。",
-              "etymology": "三词复合短语，无独立词源。war源自古英语werre；risk源自意大利语risco（原指航海中的礁石险情）；premium源自拉丁语praemium（奖励/报酬），后演变为「额外支付」之义。",
-              "morphology": "war（基础词）+ risk（基础词）+ premium（prae-前方 + emere-取得）。相关词族：insurance premium（保险费）、risk premium（风险溢价）、sovereign risk premium（主权风险溢价），同框架词可横向迁移记忆。",
-              "mnemonic": "想象一艘船穿越战区，船东必须额外「付出代价」才能获得保障——这个额外代价就是war risk premium，是对「冒险穿越战区」的定价。战区越热，这笔费越贵，与新闻直接挂钩。",
-              "exampleEn": "War risk premiums on vessels transiting the Red Sea jumped tenfold after attacks on commercial ships intensified.",
-              "exampleCn": "商船袭击事件加剧后，途经红海船只的战争风险溢价跳涨了十倍。"
-            },
-            {
-              "word": "standoff",
-              "pos": "n.",
-              "meaning": "对峙、僵局，指双方互不退让的紧张僵持状态。比deadlock更强调军事或地缘政治的剑拔弩张，比stalemate更口语化，常见于外交谈判与军事冲突报道，是地缘政治新闻的高频核心词。",
-              "etymology": "19世纪英语，stand（站立）+ off（保持距离）组合而成，最初指双方保持警戒距离的对峙状态，后引申为政治、军事、商业领域的「僵局」，20世纪进入新闻语言主流用法。",
-              "morphology": "stand（基础动词）+ off（副词/介词）。同类短语：stand down（撤退/降级）、standstill（完全停滞）、stand-alone（独立运行）。off系列搭配极丰富，值得系统学习扩展。",
-              "mnemonic": "西部片经典场景：两个牛仔面对面站着（stand），谁都不肯先走开（off）——这就是standoff。剑拔弩张却僵持不动，画面感极强，想到西部对决就再也忘不了这个词。",
-              "exampleEn": "The months-long nuclear standoff between Washington and Tehran kept oil markets on edge.",
-              "exampleCn": "华盛顿与德黑兰之间长达数月的核问题对峙令石油市场持续处于紧张状态。"
-            },
-            {
-              "word": "strait",
-              "pos": "n.",
-              "meaning": "海峡，连接两片水域的狭窄水道。在地缘政治与能源经济中，strait常与strategic搭配，指控制全球贸易命脉的关键水道，比channel更正式专业，出现在能源报告和地缘分析中几乎必读此词。",
-              "etymology": "源自拉丁语 strictus（收紧的），经古法语 estroit 演变而来，原义为「狭窄的通道」，16世纪确立地理含义沿用至今。与 strict（严格）、restrict（限制）、constrict（收紧）同属一个词根家族。",
-              "morphology": "词根 strict-（收紧），派生词：strict（严格的）、constrict（收紧）、restrict（限制）、district（划定区域）。注意与straight（直线，完全不同词源）的拼写区别，是考试和阅读中最常见的混淆对之一。",
-              "mnemonic": "strait和strict同词根，都有「收紧变窄」之意——海峡就是被「严格」收窄的水道。易混词对比：straight（直的，含gh）vs strait（海峡，无gh）。记住「海峡比直线少了gh」就不会再拼错。",
-              "exampleEn": "Nearly 20 percent of the world's oil supply passes through the Strait of Hormuz each day.",
-              "exampleCn": "全球约20%的石油供应每天都要途经霍尔木兹海峡。"
-            },
-            {
-              "word": "freight rate",
-              "pos": "phrase",
-              "meaning": "运费率、货运费率，指运输单位货物所收取的费用，是航运市场景气度的核心指标。比shipping cost更专业、更市场化，常见于航运公司财报和大宗商品分析报告，是理解能源与航运板块必备的术语。",
-              "etymology": "复合短语，无独立词源。freight源自中古荷兰语 vracht（货物运输费），14世纪进入英语；rate源自拉丁语 rata（按比例计算的），两词合用专指「货运收费标准」，是航运业最核心的定价术语。",
-              "morphology": "freight（货运，基础词）+ rate（比率/费率）。相关词：air freight（空运）、freight forwarder（货运代理）、freight index（运费指数，如波罗的海干散货指数BDI）。三词连学，一次打通航运词汇体系。",
-              "mnemonic": "freight谐音「free-t」，但它恰恰不free——运货要收费！freight rate就是「货运收费标准」。记住BDI（波罗的海指数）就是最著名的全球freight rate晴雨表——一个指数记住一个核心词。",
-              "exampleEn": "Tanker freight rates surged as shipowners rerouted vessels away from the Strait of Hormuz.",
-              "exampleCn": "由于船东将船只改道绕开霍尔木兹海峡，油轮运费率急剧攀升。"
-            }
-          ]
-        },
-        {
-          "id": "20260612-4",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-11percent-on-increased-capital-raise-cash-concerns.html",
-          "headlineEn": "Oracle Shares Tumble 11% on Capital Raise and Free Cash Flow Concerns",
-          "headlineCn": "甲骨文股价因增资计划与现金流隐忧重挫11%",
-          "summaryEn": "Oracle reported quarterly earnings and revenue that surpassed analyst expectations, yet its stock fell sharply by around 11%. The selloff was driven by two concerns: Oracle's announcement of plans to raise additional capital — which typically dilutes existing shareholders — and its negative free cash flow. Investors worry that despite strong top-line growth, the company is spending far more than it generates, raising questions about financial sustainability as it aggressively expands its cloud infrastructure.",
-          "summaryCn": "甲骨文本季度盈利及营收均超出市场预期，但公司股价却大跌约11%。拖累股价的主要有两大因素：一是甲骨文宣布计划进一步增资，此举通常会稀释现有股东权益；二是公司出现负自由现金流，意味着其支出远超经营所得。尽管营收增长强劲，投资者仍担忧甲骨文在大力扩张云基础设施的过程中财务可持续性存在隐患，市场对利好业绩的反应因此偏负面。",
-          "excerpt": "Oracle shares fell roughly 11% after the company announced plans to raise additional capital and reported negative free cash flow, despite posting better-than-expected earnings and revenue. Investors are concerned that the company's aggressive cloud expansion is stretching its finances.",
-          "vocab": [
-            {
-              "word": "tumble",
-              "pos": "v. / n.",
-              "meaning": "（股价）暴跌、骤跌。比 fall 或 drop 语感更剧烈，带有突发性与失控感，常用于描述股价在短期内急剧下挫。财经新闻标题中极其常见，是读懂市场报道的必备词汇",
-              "etymology": "来自古英语 tumbian，意为「翻转、跌倒」，可追溯至古日耳曼语，原指杂技演员翻筋斗；后语义扩展为「失控地向下滚落」，引申至金融语境则指价格骤然下跌",
-              "morphology": "简单动词，无明显前缀或后缀。常见派生形式：tumble (v./n.) → tumbling (adj./gerund) → tumbler (n. 翻转者/平底杯)。近义辨析：plunge 侧重深度，nosedive 侧重角度，tumble 侧重无序突发性",
-              "mnemonic": "想象一个杂技演员（tumbler）在舞台上翻跟头失控，连滚带爬掉下舞台——Oracle 的股价就是那个失控演员，一路翻滚停不下来。记住：tumble = 翻 + 滚 + 失控",
-              "exampleEn": "Tech stocks tumbled across the board after the Federal Reserve signaled it would keep interest rates elevated longer than expected.",
-              "exampleCn": "美联储暗示将在更长时间内维持高利率后，科技股全线暴跌。"
-            },
-            {
-              "word": "free cash flow",
-              "pos": "n. (financial term)",
-              "meaning": "自由现金流，即经营现金流减去资本支出后的余额。衡量企业「真实造血能力」最重要的财务指标之一，比净利润更难造假，是机构投资者估值的核心依据。负自由现金流意味着企业花钱速度超过赚钱速度，是重要的风险警报信号",
-              "etymology": "短语/复合词，无独立词源。free 在此指「扣除必要资本支出后可自由支配的」；cash flow 指资金净流量；整体概念形成于20世纪80年代价值投资体系，由巴菲特等人推广至主流财务分析",
-              "morphology": "复合名词短语。cash 来自法语 caisse（钱箱），flow 来自古英语 flowan（流淌）。相关词族：operating cash flow（经营现金流）、cash burn（现金消耗速度）、capex（资本支出），合称企业财务分析三角",
-              "mnemonic": "把公司比作一棵果树：营收是结的果子，成本是浇水施肥的钱，net income 是纸面收成，而 free cash flow 才是真正能摘下来放进口袋的果子。负自由现金流等于果子没熟钱就花光了",
-              "exampleEn": "Despite reporting strong net income, the company's negative free cash flow raised alarm bells among institutional investors scrutinizing its balance sheet.",
-              "exampleCn": "尽管净利润表现亮眼，该公司的负自由现金流还是令审查其资产负债表的机构投资者大为警觉。"
-            },
-            {
-              "word": "weigh on",
-              "pos": "phrasal v.",
-              "meaning": "对（股价、市场情绪、决策等）形成持续压力、拖累。财经报道中极高频，表达某负面因素持续压制某事物；比 suppress 或 pressure 更口语化，比 affect 更精准地传达「负面拖累」含义，是读懂市场分析文章的必备短语",
-              "etymology": "短语/复合词，无独立词源。weigh 来自古英语 wegan（称重、承载），on 表方向；整体构成「把重量压在……上」的空间隐喻，引申为「给……造成持续性负担或压力」",
-              "morphology": "weigh 的词族：weigh (v.) → weight (n./v.) → weighty (adj.) → outweigh (v. 超过、压倒)。注意区分：weigh on（拖累某事物）vs. weigh in on（就某议题发表意见）——两个短语意思截然不同，切勿混淆",
-              "mnemonic": "想象一块巨石（增资计划加上负现金流）压在 Oracle 股价这只气球上。业绩好让气球想飞，但巨石太重，气球还是被压下去了。巨石压气球 = weigh on，画面感极强",
-              "exampleEn": "Rising input costs and supply chain disruptions continued to weigh on the profit margins of consumer electronics manufacturers throughout the quarter.",
-              "exampleCn": "整个季度内，原材料成本上涨和供应链中断持续拖累消费电子制造商的利润率。"
-            },
-            {
-              "word": "capital raise",
-              "pos": "n. (phrase)",
-              "meaning": "增资、融资行动，指企业通过发行新股或债券向市场筹集资金。与泛指的 fundraising 不同，capital raise 特指上市公司面向资本市场的正式融资，往往暗示对现有股东的摊薄风险，是触发股价下跌的常见催化剂",
-              "etymology": "短语/复合词，无独立词源。capital 来自拉丁语 caput（头部、主体），引申为「本金、资本」；raise 来自古诺尔斯语 reisa（抬起），在金融语境中指「抬高或筹集」资金规模",
-              "morphology": "capital 词族：capital (n./adj.) → capitalize (v.) → capitalization (n.) → recapitalize (v. 重新注资)。raise 作金融动词时的常见搭配：raise debt（举债）、raise equity（融股权）、raise a round（完成一轮融资）",
-              "mnemonic": "「Capital raise = 公司向市场伸手要钱」。想象 Oracle CEO 站在华尔街举牌：We need more capital！每次他这么做，现有股东手里的股票价值就会被稀释一点，所以股价往往应声下跌",
-              "exampleEn": "The biotech firm announced a $500 million capital raise through a public share offering, sending its stock down 8% on dilution fears.",
-              "exampleCn": "这家生物科技公司宣布通过公开发行股票筹资5亿美元，受稀释担忧影响，其股价随即下跌8%。"
-            },
-            {
-              "word": "secondary offering",
-              "pos": "n.",
-              "meaning": "增发（二次公开发行），上市公司在IPO之后再次向市场发行新股以筹集资金。市场通常视其为负面信号，因会稀释现有股东权益；是理解 Oracle 此次增资计划引发股价下跌的关键概念，也是财经英语中必须掌握的高频术语",
-              "etymology": "secondary 来自拉丁语 secundarius（居第二位的），源自 secundus（第二、追随的）；offering 来自古英语 offrian（奉献、提供），原指宗教献祭，后引申为「向市场出售证券」，语义从神圣奉献演变为商业出售",
-              "morphology": "secondary 词族：second (adj.) → secondary (adj.) → secondarily (adv.)。offering 词族：offer (v.) → offering (n.) → offeror (n.)。相关术语：follow-on offering（跟进发行）、shelf offering（搁置发行）、at-the-market offering（随价增发）",
-              "mnemonic": "把 IPO 比作婚礼（公司第一次向公众亮相），secondary offering 就是「婚后又办了一次酒席」——老朋友（现有股东）得再掏钱，或被新宾客（新股东）稀释了席位。市场通常不欢迎这张「二次请帖」",
-              "exampleEn": "The cloud software company priced its secondary offering at a 5% discount to the market, raising $2 billion but disappointing shareholders who saw their stakes diluted.",
-              "exampleCn": "这家云软件公司以较市场价折价5%完成增发，筹资20亿美元，但令持股被稀释的股东深感失望。"
-            }
-          ]
-        },
-        {
-          "id": "20260612-5",
-          "category": "econ",
-          "sourceName": "BBC Business",
-          "sourceUrl": "https://www.bbc.com/news/articles/c0myzxjkw99o?at_medium=RSS&at_campaign=rss",
-          "headlineEn": "Trump Claims He Loves Inflation as US Prices Hit Three-Year High",
-          "headlineCn": "特朗普称「热爱通胀」，美国物价三年来涨速最快",
-          "summaryEn": "US President Donald Trump sparked controversy by declaring 'I love the inflation' as consumer prices rose at their fastest pace in three years. The remark was widely interpreted as an endorsement of rising costs, prompting swift pushback. Trump quickly walked it back, insisting he meant he was glad inflation had not climbed even higher. The episode highlights growing public anxiety over persistent price pressures, which analysts partly link to tariff-driven cost increases across the supply chain.",
-          "summaryCn": "美国总统特朗普在消费者物价以三年来最快速度上涨之际，发表了「我热爱通胀」的惊人言论，立即引发广泛争议。这一表态被外界普遍解读为他对通货膨胀的背书，引发舆论强烈反弹。对此，特朗普随后出面澄清，称自己的本意是庆幸通胀没有升得更高。此次风波折射出公众对持续高企的物价水平的深切忧虑，分析人士认为这与关税政策推高供应链成本不无关系。",
-          "excerpt": "US consumer prices rose at their fastest pace in three years, prompting President Trump to declare 'I love the inflation' — a gaffe he quickly walked back, insisting he merely meant he was relieved inflation had not risen even higher. The episode reignited debate over the cost-of-living squeeze facing American households.",
-          "vocab": [
-            {
-              "word": "gaffe",
-              "pos": "n.",
-              "meaning": "失言；（公众人物的）口误或不当言论。比 mistake 更专业，专指在公开场合造成外交或政治损失的言语失误。商业新闻中常用于描述CEO或政客的不当发言，语域正式，且带有「造成负面后果」的隐含义，是财经政治报道的高频词。",
-              "etymology": "源自法语 gaffe，原指水手用的「撑杆/船钩」，水手用钩子捅到不该碰的东西，由此引申为「捅了篓子」；19世纪进入英语，语义固化为「社交或言语失误」，保留了「莽撞捅破某物」的隐喻张力。",
-              "morphology": "简单词，无可拆分词根，复数形式 gaffes。近义词对比：blunder（更强调行动失误，不限于言语）、slip of the tongue（专指无意口误，中性）、faux pas（法语借词，偏社交礼仪失误）。固定搭配：commit/make a gaffe。",
-              "mnemonic": "想象一位大人物在镜头前突然「咖」地一声笑出来，结果说出极不得体的话——「咖」+「发」谐音 gaffe，「咖位」大跌地「发」了条雷语。或联想「gag」（笑话）——一个不该说的「笑话」就是 gaffe。",
-              "exampleEn": "The CFO's offhand remark about rivals was widely seen as a costly gaffe that knocked ten percent off the company's share price overnight.",
-              "exampleCn": "这位首席财务官对竞争对手随口一说的评论被普遍视为一次代价高昂的失言，一夜之间令公司股价下跌了10%。"
-            },
-            {
-              "word": "walk back",
-              "pos": "phrasal v.",
-              "meaning": "撤回或淡化此前的声明、立场。比 retract（正式撤回）更口语化，常见于政治和商业新闻，暗示说话者因舆论压力「往回走」，但不一定完全承认错误，往往是重新诠释而非直接道歉——这一细微差别在阅读政策新闻时至关重要。",
-              "etymology": "字面义「往回走」，20世纪后期在美国政治新闻报道中逐渐发展出「收回言论/立场」的引申义，近年扩展至商业语境，是典型的美式新闻英语惯用语，英式近义表达为 row back。",
-              "morphology": "walk（古英语 wealcan，移动）+ back（表方向）。同族搭配：walk away from（放弃）、walk out（罢工/退场）、walk into（撞上麻烦）；其他近义：backpedal（蹬车倒退，暗示完全逆转）、dial back（调低，幅度比 walk back 更小）、row back（英式用法）。",
-              "mnemonic": "画面：一位发言人刚走到麦克风前说完一句话，立刻转身「往回走」——walk back。walk 是动作，back 是方向，合起来就是「说完话再走回去把话收回来」，动作画面一形成就再难忘记。",
-              "exampleEn": "After markets plunged, the finance minister was forced to walk back her earlier comments about an imminent corporate tax increase.",
-              "exampleCn": "市场暴跌之后，财政部长被迫撤回了此前关于即将上调企业税的言论。"
-            },
-            {
-              "word": "rhetoric",
-              "pos": "n.",
-              "meaning": "修辞；言辞（常带贬义，暗指「说得好听但缺乏实质」的表态）。商业新闻中 rhetoric 往往与 action 或 substance 相对，用来暗示政客或企业发表了「华丽但空洞」的声明。掌握这一语用色彩，有助于准确判断文章的立场与语气。",
-              "etymology": "源自希腊语 rhētorikē（演讲的艺术），经拉丁语 rhetorica 进入英语。古希腊是演讲术的黄金时代，亚里士多德专门著有《修辞学》。现代英语中既可中性指「修辞技巧」，也可负面指「空洞说辞」，语境决定褒贬。",
-              "morphology": "rhetor-（希腊语，演说者）+ -ic（形容词后缀）。同族词：rhetorical（修辞的，如 rhetorical question 反问句）、rhetorician（修辞学家）。常见搭配：political rhetoric（政治言辞）、empty rhetoric（空洞说辞）、rhetoric vs reality（言辞与现实之差）。",
-              "mnemonic": "拆开看：rhet 联想「讲」（与 read 同源感），-oric 联想「演讲风格」。整体：一个 rich（富有）的演说者发表 rhetoric——讲得富丽堂皇，言之无物。记住「rich + toric = 华丽辞藻」。",
-              "exampleEn": "Despite the tough rhetoric on trade, the administration quietly exempted dozens of goods from its latest tariff package.",
-              "exampleCn": "尽管贸易立场措辞强硬，当局却悄悄将数十种商品从最新关税清单中豁免。"
-            },
-            {
-              "word": "year-over-year",
-              "pos": "adj. / adv.",
-              "meaning": "同比；与上一年同期相比（缩写 YoY）。财经报道核心术语，区别于 month-over-month（环比，MoM）和 quarter-over-quarter（季比，QoQ）。读财报、看经济数据必须掌握这三组对比维度，否则容易混淆增长质量，是财经英语阅读的基础骨架词汇。",
-              "etymology": "美式英语，20世纪金融与统计报道中形成的复合修饰语，直译「年复一年地对比」，无古典拉丁或希腊词源。英式英语有时写作 year on year（不加连字符），两者意思相同。",
-              "morphology": "year + over（跨越/相对于）+ year，三词加连字符合成复合修饰语。类比构造：month-over-month、quarter-over-quarter、week-over-week。近义表达：on an annual basis、compared with the same period last year、annually。",
-              "mnemonic": "想象两根并排的柱状图，一根代表去年，一根代表今年，中间用一座桥（over）连接——year OVER year，就是把两年的数据「架桥对比」。缩写 YoY 发音像「why oh why」——为什么又涨了！",
-              "exampleEn": "The company reported a 22% year-over-year increase in cloud revenue, though sequential growth slowed considerably in the final quarter.",
-              "exampleCn": "该公司报告云业务收入同比增长22%，但最后一个季度的环比增速明显放缓。"
-            },
-            {
-              "word": "tick up",
-              "pos": "phrasal v.",
-              "meaning": "（价格、利率、数据）小幅上涨；微升。比 rise 或 increase 更精准——暗示涨幅小但方向明确，如时钟滴答走动。财经报道极高频，常与 inflation、yields、rates 搭配。反义词 tick down/tick lower。掌握这一组短语，能让你的财经阅读立刻更地道。",
-              "etymology": "tick 来自中古英语，模拟钟表「滴答」声（拟声词）。钟表每走一格就「tick」一下；金融领域将价格的最小变动单位也叫 tick，「tick up」即数据向上走了一个最小单位，强调「微小但真实的变动」。",
-              "morphology": "tick（拟声词→最小计量单位）+ up（方向）。同族搭配：tick down（小幅下降）、tick higher/lower（同义变体）。金融专用名词：uptick（小幅上涨，名词）、downtick（小幅下跌）、uptick rule（美国证券法规，限制卖空操作）。",
-              "mnemonic": "想象股票行情屏幕上的数字，像钟表一样「tick…tick…」地往上跳——每一声滴答就是价格 tick up 一格。「滴答上升」= tick up，听到声音就能形成画面，和 uptick（名词形式）一起记，一劳永逸。",
-              "exampleEn": "Core inflation ticked up 0.3% in May, reinforcing expectations that the central bank will delay rate cuts well into next year.",
-              "exampleCn": "5月核心通胀小幅上涨0.3%，进一步强化了市场对央行将把降息推迟到明年相当长时间之后的预期。"
             }
           ]
         }
