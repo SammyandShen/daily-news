@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-07-16T23:09:38.405613+00:00",
+  "lastUpdated": "2026-07-19T02:23:12.480092+00:00",
   "level": "B2",
   "days": {
+    "2026-07-18": {
+      "label": "7月18日 (周六)",
+      "stories": [
+        {
+          "id": "20260718-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+          "headlineEn": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260718-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
+          "headlineEn": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260718-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
+          "headlineEn": "Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-17": {
       "label": "7月17日 (周五)",
       "stories": [
@@ -8395,326 +8469,6 @@
               "mnemonic": "想象用锤子砸断一根锁链——break with 就是那一锤，把你和「过去惯例/某人」彻底砸断。在新闻里看到 break with tradition / break with convention / break with the past，脑中就浮现新领导人高举锤子、把旧规矩砸得粉碎的画面。",
               "exampleEn": "The incoming board chair announced plans to break with the company's conservative dividend policy and redirect profits toward aggressive overseas expansion.",
               "exampleCn": "新任董事会主席宣布计划打破公司保守的股息政策，将利润重新导向激进的海外扩张战略。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-13": {
-      "label": "6月13日 (周六)",
-      "stories": [
-        {
-          "id": "20260613-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-          "headlineEn": "SpaceX, Anthropic, and OpenAI Are Heading for a Hot IPO Summer",
-          "headlineCn": "IPO市场强势回归，MANGOS一代扎堆上市",
-          "summaryEn": "The IPO market is roaring back, but the companies leading the way have changed dramatically. The old FAANG era is giving way to a new group dubbed MANGOS — Meta or Microsoft, Anthropic, Nvidia, Google, OpenAI, and SpaceX. With multiple members planning simultaneous public listings, markets face an intense stress test. Investors must absorb a flood of high-profile offerings while reassessing sky-high valuations, making this one of the most consequential IPO seasons in recent tech history.",
-          "summaryCn": "IPO市场正在强势复苏，但这一轮的主角已非昔日的FAANG巨头。一个新缩略词「MANGOS」——涵盖Meta（或微软）、Anthropic、英伟达、谷歌、OpenAI与SpaceX——正在接管市场话语权。其中多家公司计划在同一时间窗口集中上市，给投资者信心与估值体系带来严峻压力测试。这场扎堆IPO浪潮将考验市场的承接能力，也将迫使各方重新审视当前高企的科技公司估值。",
-          "excerpt": "The IPO market is back, and it's not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta, Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same window, and it's a stress test for investors and valuations alike.",
-          "vocab": [
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "对公司或资产进行的货币价值评估；在IPO或融资场景中尤为关键，指投资者认定的公司「身价」。与 price 不同，valuation 强调评估过程与依据，而非简单市场价格，是科技投资报道中出现频率极高的核心词汇，不懂它就读不懂财经媒体。",
-              "etymology": "源自拉丁语 valere（意为「有价值、有效力」），经由中世纪法语 valuer 演变而来。词根 val- 贯穿 value、valid、valor 等词，均含「力量与价值」之义，是一个高度能产的拉丁词根，覆盖商业、哲学、军事多个领域。",
-              "morphology": "val-（词根，价值）+ -u- + -ation（名词后缀，表示行为或结果）。同族词：value（价值）、evaluate（评估）、devalue（贬值）、overvalued（估值过高）、invaluable（无价的）。",
-              "mnemonic": "想象一位分析师拿着计算器，对着一家公司说「Val，你到底值多少？」——Valuation 就是给公司打分定价的过程。记住：val = value 的词根，-ation 是名词后缀，合起来就是「对价值进行量化的行为」。",
-              "exampleEn": "Investors are questioning whether the company's valuation of $200 billion can be justified by its actual revenue.",
-              "exampleCn": "投资者正在质疑该公司2000亿美元的估值是否能够被其实际营收所支撑。"
-            },
-            {
-              "word": "stress test",
-              "pos": "phrase",
-              "meaning": "压力测试；原为银行业术语，指模拟极端经济条件以检验机构抗风险能力，现广泛用于市场和商业分析，意指「在压力下的极限检验」。比 challenge 更具技术性和金融色彩，使用时暗示情况严峻且结果存疑，是财经报道的高频隐喻。",
-              "etymology": "stress 源自古法语 estrecier（收紧、施压），拉丁语根为 strictus（紧绷的）；test 源自拉丁语 testum（陶罐），古代冶炼师用陶罐测试金属纯度，引申为「检验」。两词组合形成复合短语，无独立词源。",
-              "morphology": "短语/复合词，无独立词源。stress（压力）+ test（测试）。相关词：stressor（压力源）、stress-tested（经过压力测试的）、benchmark test（基准测试）、field test（实地测试）、battle-tested（经过实战检验的）。",
-              "mnemonic": "想象银行家把一座楼的模型放在压力机下慢慢加压——能撑住就算通过「压力测试」。多家科技独角兽同时上市，就是对市场施加这样的重压：能不能撑住，上市之后见分晓。",
-              "exampleEn": "The simultaneous listing of five major tech firms is a real stress test for the market's capacity to absorb new equity supply.",
-              "exampleCn": "五家大型科技公司同时上市，对市场消化新股供应的能力是一场真正的压力测试。"
-            },
-            {
-              "word": "acronym",
-              "pos": "n.",
-              "meaning": "首字母缩略词；由多个单词首字母组成、可作为一个词朗读的缩写（如FAANG、MANGOS）。注意区别于 abbreviation（泛指缩写，不一定能读成词）。在科技和金融报道中，acronym 往往承载整套市场叙事与投资主题，能读懂这些缩略词才算真正入门商业英语。",
-              "etymology": "源自希腊语 akron（顶端、最高处）与 onoma/onyma（名字）的组合。akro- 也出现在 acrobat（顶端翻转者→杂技演员）中，均含「顶部」之义；-onym 家族还有 synonym（同义词）、pseudonym（笔名）等，是希腊语中极为能产的词根。",
-              "morphology": "acro-（前缀，顶端）+ -nym（词根，名字）。同前缀词：acrobat（杂技演员）、acrophobia（恐高症）；同词根词：synonym（同义词）、antonym（反义词）、homonym（同音词）、pseudonym（笔名）。",
-              "mnemonic": "acro = 顶部（像杂技演员站在最高处），nym = 名字——acronym 就是「取每个词顶部那个字母拼成的名字」。想象每个单词都站成一排只露出头顶，把那些字母拼起来就得到 FAANG 或 MANGOS。",
-              "exampleEn": "FAANG became such a powerful market acronym that fund managers began treating it as a single investable theme.",
-              "exampleCn": "FAANG 成为如此强大的市场缩略词，以至于基金经理们开始将其视为单一的可投资主题。"
-            },
-            {
-              "word": "take over",
-              "pos": "phrasal v.",
-              "meaning": "接管、取代、占据主导；在商业语境中可指公司收购（名词形式为 takeover），也可如本文，指某事物逐渐替代另一事物的主导地位。与 replace 相比，take over 更强调权力与影响力的主动转移过程，带有一定戏剧性，是商业报道的常用动词短语。",
-              "etymology": "take 源自古诺尔斯语 taka（抓取），over 源自古英语 ofer（在……之上）。两个日耳曼语词根合成，字面义为「从上方抓住并控制」，引申为「全面接管」，在英语中使用历史悠久且语义稳定。",
-              "morphology": "短语/复合词，无独立词源。take（动词）+ over（介词/副词）。名词形式：takeover（收购、接管）；常见搭配：hostile takeover（恶意收购）、corporate takeover（企业并购）、take over the lead（夺得领先地位）、government takeover（政府接管）。",
-              "mnemonic": "想象一个新王走进宫殿，把旧王的王冠从头顶「拿走」（take over）——权力交接就此完成。MANGOS 正在对 FAANG 做同样的事：走进科技王宫，接过市场叙事的王冠。",
-              "exampleEn": "Electric vehicle startups are poised to take over the market share that legacy automakers have dominated for decades.",
-              "exampleCn": "电动汽车初创公司已准备好接管传统汽车制造商主导数十年的市场份额。"
-            },
-            {
-              "word": "a good run",
-              "pos": "phrase",
-              "meaning": "一段成功的时期；指某人、公司或趋势在较长时间内保持良好表现后走向终结。语气中性甚至带有一丝敬意，不同于 failure，暗示成功是真实的，只是时代已过。常见于商业报道对老牌巨头的评述，是一个成熟的惯用表达，比 a long period of success 更地道简洁。",
-              "etymology": "run 源自古英语 rinnan（流动、奔跑），引申为「一段连续的过程或时期」。「a good run」最早用于赌博和赛马语境（一段连续的好运势），后泛化为「一段顺利成功的时期」，进入商业英语后沿用至今。",
-              "morphology": "短语/复合词，无独立词源。good（形容词）+ run（名词，指连续过程）。相关表达：in the long run（长期来看）、a dry run（试运行/演习）、run its course（走完历程）、on a winning run（连续获胜中）、a bull run（牛市行情）。",
-              "mnemonic": "想象一匹赛马在赛道上领跑多圈，最终被新马超越——解说员感叹「It had a good run.」翻译就是「它曾辉煌一时」。FAANG 就是那匹老马，如今轮到 MANGOS 上场了。",
-              "exampleEn": "The traditional retail sector had a good run before e-commerce fundamentally changed how consumers shop.",
-              "exampleCn": "传统零售业曾有过一段辉煌时期，然后电商从根本上改变了消费者的购物方式。"
-            }
-          ]
-        },
-        {
-          "id": "20260613-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/11/oracle-warns-of-security-bug-that-hackers-abused-to-breach-100-companies/",
-          "headlineEn": "Oracle Warns of Security Bug Exploited in Mass-Hacking Campaign Hitting 100+ Firms",
-          "headlineCn": "甲骨文警告安全漏洞遭黑客滥用，逾百家企业受害",
-          "summaryEn": "Oracle has issued a security warning about a critical vulnerability in its systems that a cybercrime gang claimed to have exploited in a coordinated mass-hacking campaign. Google's Threat Intelligence team independently confirmed the severity of the issue, notifying over 100 organizations worldwide that their servers may have been at risk. The incident highlights the growing danger posed by organized cybercrime groups and underscores the need for enterprises to apply security updates promptly and maintain robust vulnerability management practices.",
-          "summaryCn": "甲骨文公司就旗下系统中的一个严重安全漏洞发出警告，一个网络犯罪团伙声称正将其用于大规模协同黑客攻击活动。谷歌威胁情报团队独立核实了该漏洞的严重性，并通知了全球逾100个服务器可能存在风险的组织。此次事件再次凸显有组织网络犯罪威胁日益严峻，企业必须及时修补漏洞、健全整体网络安全防护体系。",
-          "excerpt": "Oracle warned customers of a security bug that a cybercrime gang claimed it had been actively abusing as part of a mass-hacking campaign. Google's Threat Intelligence team said it notified more than 100 organizations with potentially vulnerable servers.",
-          "vocab": [
-            {
-              "word": "vulnerability",
-              "pos": "n.",
-              "meaning": "安全漏洞；系统弱点。特指软件或系统中可被攻击者利用的缺陷，是网络安全行业标准术语，比口语化的「bug」或「flaw」更正式专业，常见搭配：critical vulnerability（严重漏洞）、patch a vulnerability（修补漏洞）、zero-day vulnerability（零日漏洞）",
-              "etymology": "来自拉丁语 vulnerabilis，词根 vulnus 意为「伤口」，加后缀 -abilis 表示「能被…的」，原义「能被伤害的」，后引申为防御或系统上可被攻击利用的弱点",
-              "morphology": "vulner-（伤口，拉丁 vulnus）+ -able（能被…的）+ -ity（名词后缀）；同词根派生：vulnerable（易受攻击的）、invulnerable（无懈可击的）、vulnerably（adv.）",
-              "mnemonic": "把 vulnerability 想象成战士身上的「伤口」（vulnus）——系统的漏洞就是黑客的入口，伤口越深越危险。记住词根 vulner-，凡是看到它开头的词都与「受伤、脆弱」有关",
-              "exampleEn": "The security team discovered a critical vulnerability in the payment gateway that could allow unauthorized access to customer financial data.",
-              "exampleCn": "安全团队在支付网关中发现了一个严重漏洞，可能导致客户金融数据遭到未经授权的访问。"
-            },
-            {
-              "word": "abuse",
-              "pos": "v.",
-              "meaning": "滥用；恶意利用。比 misuse 多一层主动恶意的含义，在网络安全语境中特指攻击者将合法功能或漏洞用于非预期的攻击目的，强调「违背本来用途」的性质，读新闻稿和安全报告时高频出现",
-              "etymology": "来自拉丁语 abusus，由 ab-（偏离、远离）+ usus（使用，来自动词 uti）构成，原义「过度或错误使用」，经中古法语 abuser 传入英语后演变为「滥用」",
-              "morphology": "ab-（偏离正轨）+ use（使用）；派生词：abuse（n. 滥用/虐待）、abusive（adj. 辱骂的/滥用的）、abuser（n. 滥用者）；同前缀词：abnormal（反常的）、abstract（抽象的）",
-              "mnemonic": "「ab-」表示「偏离」——abuse 就是把 use（使用）带偏了方向。想象一把普通钥匙被「偏用」来撬锁：攻击者把合法工具带偏去做坏事，就是 abuse",
-              "exampleEn": "Hackers abused a legitimate remote desktop protocol to maintain persistent control over compromised corporate networks for months.",
-              "exampleCn": "黑客滥用一种合法的远程桌面协议，在受感染的企业网络中持续保持控制权达数月之久。"
-            },
-            {
-              "word": "campaign",
-              "pos": "n.",
-              "meaning": "（有组织的）攻击活动；行动。在网络安全语境中指一系列有计划、有目标的持续性攻击，比单次 attack 更强调规模与组织性，常见搭配：mass-hacking campaign（大规模黑客攻击）、phishing campaign（网络钓鱼行动）、disinformation campaign（虚假信息行动）",
-              "etymology": "来自法语 campagne，源自意大利语 campagna（开阔的田野），再溯至拉丁语 campus（田野），原指军队在野外的持续作战行动，后引申为任何有组织、持续推进的系列行动",
-              "morphology": "来自拉丁 campus（田野、场地）；同词根词：camp（营地）、campus（校园）；派生词：campaigner（n. 活动参与者）、campaign（v. 开展运动）",
-              "mnemonic": "古代军队在「田野」（campus）上打仗就叫一场 campaign——黑客的网络攻击就像数字战场上的「野战」：有明确阵地（目标企业），有战术（漏洞利用），持续推进而非一击即退",
-              "exampleEn": "The cybersecurity firm attributed the coordinated phishing campaign to a state-sponsored group targeting financial institutions across Southeast Asia.",
-              "exampleCn": "该网络安全公司将这场协同网络钓鱼攻击归因于一个针对东南亚金融机构的国家支持的黑客组织。"
-            },
-            {
-              "word": "notify",
-              "pos": "v.",
-              "meaning": "正式通知；告知。比 tell 或 inform 更正式，强调履行官方责任或法律义务的通知行为，常用于企业、政府机构向相关方发出安全警告的场景；名词形式 notification 在科技产品中也是高频词",
-              "etymology": "来自中世纪法语 notifier，源自拉丁语 notificare，由 notus（已知的，来自 noscere 知道）+ facere（使、做）构成，原义「使某事为人所知」",
-              "morphology": "not-（已知，拉丁 noscere）+ -ify（使…化，动词后缀）；同词根词：notable（值得注意的）、notorious（臭名昭著的）、notice（通知/注意）；派生词：notification（n.）、notifiable（adj. 须上报的）",
-              "mnemonic": "notify 可拆为 note（注意）+ -ify（使…）= 「使对方注意到某事」。谷歌就像一位官方警报员，给100多家公司贴上「危险通知」标签——这种正式告知就是 notify，不是随口说的 tell",
-              "exampleEn": "Under current data protection regulations, companies must notify affected users within 72 hours of confirming a security incident.",
-              "exampleCn": "根据现行数据保护法规，企业须在确认安全事件后72小时内正式通知受影响的用户。"
-            },
-            {
-              "word": "threat actor",
-              "pos": "phrase",
-              "meaning": "威胁行为者；攻击者。网络安全行业标准术语，指实施网络攻击的个人或组织，比 hacker 更中性专业，涵盖国家支持的黑客组织、犯罪团伙、黑客活动分子等多种类别，阅读安全报告和科技新闻的必备词汇",
-              "etymology": "短语/复合词，无独立词源。threat 来自古英语 þreat（压迫、恐吓）；actor 来自拉丁语 actor（行动者），源自 agere（行动、驱动）",
-              "morphology": "threat（威胁）+ actor（行为者，拉丁 agere 行动）；actor 同词根词：act、action、react、proactive、enact；threat 派生词：threaten（v. 威胁）、threatening（adj. 威胁性的）",
-              "mnemonic": "把「威胁」（threat）和「演员」（actor）合在一起——威胁行为者就像在黑暗舞台上登场的「恶意演员」，每个 threat actor 都有自己的「角色定位」：国家队黑客、犯罪团伙或黑客活动分子，动机各异",
-              "exampleEn": "Security analysts identified the threat actor as a financially motivated cybercrime group with suspected links to organized criminal networks in Eastern Europe.",
-              "exampleCn": "安全分析师确认该威胁行为者是一个以经济利益为主要动机、疑与东欧有组织犯罪网络存在关联的网络犯罪团伙。"
-            }
-          ]
-        },
-        {
-          "id": "20260613-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
-          "headlineEn": "SpaceX IPO: Winners, Pre-IPO Deals, and What the S-1 Reveals",
-          "headlineCn": "SpaceX IPO全解析：谁将获益、预上市交易与招股书看点",
-          "summaryEn": "SpaceX, the rocket company founded by Elon Musk, is advancing toward its long-anticipated initial public offering. TechCrunch's comprehensive coverage tracks who stands to gain most from the listing — early investors, employees, and strategic partners — alongside details of pre-IPO share deals that have given select buyers early access. The S-1 registration document filed with the SEC lays out the company's financials, risk factors, and governance structure, offering the clearest public view of SpaceX's books to date.",
-          "summaryCn": "埃隆·马斯克创立的火箭公司SpaceX正迈向备受期待的首次公开募股（IPO）。科技媒体TechCrunch推出系列深度报道，追踪此次上市的潜在赢家——包括早期投资者、员工及战略伙伴——并披露了部分投资者通过预上市交易提前入场的细节。SpaceX向美国证监会（SEC）提交的S-1注册文件揭示了公司财务状况、风险因素与治理架构，是迄今最完整的公开财务披露。",
-          "excerpt": "TechCrunch has followed SpaceX from its earliest days through struggles and breakthroughs. As the company prepares for its IPO, our coverage spans who stands to win big, the mechanics of pre-IPO deals, and the key disclosures tucked inside SpaceX's S-1 registration document.",
-          "vocab": [
-            {
-              "word": "stand to",
-              "pos": "phrase",
-              "meaning": "有望（获益或遭受损失），处于可能……的客观位置。比「likely to」更强调「因现有条件而天然占据有利或不利地位」，常与 win、gain、lose、benefit 搭配，财经报道中极为常见，如「early investors stand to gain billions」",
-              "etymology": "源自古英语「standan」（站立），核心义为「保持某种姿势或位置」。「stand to do sth」逐渐演变为「处于做某事的客观条件或立场」，强调外部结构赋予的位置优势，而非主观意愿",
-              "morphology": "stand（站立、处于某位置）+ to（不定式，引导后续结果）。同词根扩展：standpoint（立场）、outstanding（突出的，原义「站在外面、超越群体」）、withstand（经受住，with- 表对抗）",
-              "mnemonic": "想象一名运动员「站在」奖台边缘——「stand to win」就是「站在赢的位置上」。赢不是因为努力，而是因为位置天然有利。记住：stand 决定你在哪儿，to 决定你能到哪儿",
-              "exampleEn": "Early investors in the startup stand to make hundreds of millions if the IPO values the company above ten billion dollars.",
-              "exampleCn": "如果此次IPO将该初创公司估值定在100亿美元以上，早期投资者有望获得数亿美元的回报。"
-            },
-            {
-              "word": "tuck",
-              "pos": "v.",
-              "meaning": "（将信息、条款）悄悄塞入、隐藏于文件深处。比「hide」更具隐蔽感，暗含刻意低调处理的意味；财经语境中常指将不利条款或重要披露「藏」进冗长招股文件，带有一定负面含义，是阅读法律文件时的高频警觉词",
-              "etymology": "源自中古英语「tuken」，可能借自低地德语「tucken」（拉、塞），原义「将布料折叠后塞入」，如「tuck in a shirt」（把衬衫掖进裤腰）。由具体的物理折叠动作引申为抽象的「隐藏嵌入」",
-              "morphology": "简单动词，无复杂词缀。常见搭配：tuck away（藏好）、tuck in（掖好／大吃特吃）、tuck into（大快朵颐）。近义辨析：hide（藏，中性）、bury（埋，强调深度）、embed（嵌入，更技术性）",
-              "mnemonic": "想象把一张小纸条「塞进」厚厚合同的夹缝里——律师把免责条款 tuck 进第89页，普通人绝对找不到。记住那个「往缝隙里塞」的手部动作，就记住了 tuck",
-              "exampleEn": "Analysts warned that a significant debt covenant was tucked inside page 89 of the prospectus, easy to overlook.",
-              "exampleCn": "分析师警告称，一项重要的债务契约被悄悄塞在招股说明书第89页，极易被忽视。"
-            },
-            {
-              "word": "underwriter",
-              "pos": "n.",
-              "meaning": "承销商，通常指为IPO定价、包销股份并承担未售出风险的投资银行。是IPO流程的核心中间人，与「bookrunner」（账簿管理人）略有区分——underwriter 更强调「承担未售出股票的财务风险」这一职能，理解此词可打通整个IPO词汇体系",
-              "etymology": "诞生于17世纪伦敦劳合社（Lloyd's）保险市场：承保人在保单最底部「write under」（在下方署名）以示愿意承担风险。19世纪该词延伸至证券市场，指愿意承担股票销售风险的金融机构",
-              "morphology": "under-（在……之下）+ write（书写）+ -er（行为执行者后缀）。under- 同前缀词：underpin（支撑基础）、underperform（表现不佳）、undervalue（低估）、underprice（定价偏低，IPO专业术语）",
-              "mnemonic": "回到劳合社咖啡馆：经纪人把保单推过来，有钱的商人在底部「write under」（签名），意思是「我来扛这个风险」。这一签名定义了 underwriter 的本质：在下面签字、承担责任的人",
-              "exampleEn": "Goldman Sachs and Morgan Stanley are expected to serve as lead underwriters for the highly anticipated technology IPO.",
-              "exampleCn": "高盛和摩根士丹利预计将担任此次备受期待的科技公司IPO的主承销商。"
-            },
-            {
-              "word": "coverage",
-              "pos": "n.",
-              "meaning": "财经与媒体双重含义：①新闻报道（media coverage，指媒体对某事件的追踪报道范围）；②分析师覆盖（analyst coverage，指机构研究员将某只股票纳入跟踪研究范围）。两义均高频，混淆会导致理解偏差，尤其在IPO情境下两义可同时出现",
-              "etymology": "源自动词「cover」，来自拉丁语「cooperire」（co- 一起 + operire 盖住），原义「完全覆盖」。名词后缀「-age」表示行为的范围或结果（如 storage 存储量、shortage 短缺量），故 coverage 意为「覆盖的范围」",
-              "morphology": "cover（覆盖、报道）+ -age（名词后缀，表范围或结果，如 mileage、voltage）。派生词族：cover story（封面故事）、covered bond（有担保债券）、uncover（揭露）、discover（发现，di- 加强语气）",
-              "mnemonic": "记住两个画面：①记者「盖住」一个故事（新闻报道）；②分析师「罩住」一只股票（分析师跟踪）。核心是「cover」——凡是被「盖到」的，就在 coverage 范围内",
-              "exampleEn": "After the company's IPO, it quickly gained analyst coverage from twelve major investment banks within the first week.",
-              "exampleCn": "公司上市后，第一周内便迅速获得十二家主要投资银行的分析师跟踪报道。"
-            },
-            {
-              "word": "registration document",
-              "pos": "n.",
-              "meaning": "注册文件，即向证券监管机构（美国为SEC）提交的正式上市申报文件，美国称「S-1」，欧洲称「prospectus」。与日常「登记注册」用法不同，此处专指包含公司财务数据、风险因素、股权结构等完整披露信息的法律文件，是IPO信息透明度的核心载体",
-              "etymology": "registration 来自拉丁语「registrum」（记录、官方名册），由「regere」（统治、规范）衍生，加名词后缀「-ation」。document 来自拉丁语「documentum」（证明、教导），由「docere」（教导）衍生",
-              "morphology": "registration：re-（反复、正式化）+ -gist-（词根，承载记录）+ -ation（名词后缀）。同族词：register（登记册）、registrar（注册主任）、deregister（注销）。document 同词根：doctrine（教义）、documentary（纪录片）",
-              "mnemonic": "把「registration document」想象成一本厚厚的「官方身份证明册」——公司第一次向全世界「正式登记」自己的财务底细。SEC要求你把公司的一切都「登记在案」，这本册子就是 registration document",
-              "exampleEn": "The company submitted its S-1 registration document to the SEC three months before the planned IPO date.",
-              "exampleCn": "该公司在计划上市日期前三个月向美国证监会提交了S-1注册文件。"
-            }
-          ]
-        },
-        {
-          "id": "20260613-4",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-          "headlineEn": "Mistral Rumored to Be Raising €3B at a €20B Valuation",
-          "headlineCn": "Mistral传闻筹资30亿欧元，估值或达200亿欧元",
-          "summaryEn": "French AI startup Mistral is reportedly seeking to raise €3 billion in a new funding round that would push its valuation to approximately €20 billion — nearly double the €11.7 billion it commanded during its Series C. If confirmed, the deal would rank among Europe's largest private AI fundraises, reinforcing Mistral's standing as a leading open-weight model developer competing directly with U.S. AI labs. The round also reflects sustained investor appetite for frontier AI companies outside Silicon Valley.",
-          "summaryCn": "据报道，法国AI初创公司Mistral正寻求新一轮融资，拟筹集30亿欧元，对应估值约200亿欧元，接近其C轮估值（117亿欧元）的两倍。若交易落地，将跻身欧洲规模最大的私募AI融资之列，进一步巩固Mistral在开源大模型领域的领军地位，与美国各大AI实验室正面竞争。此轮融资同样印证了全球投资者对硅谷以外前沿AI公司持续高涨的热情。",
-          "excerpt": "Mistral is rumored to be raising €3 billion in a new funding round that would value the Paris-based AI company at around €20 billion — nearly double the €11.7 billion valuation it secured during its Series C. No official confirmation has been issued by either the company or its investors.",
-          "vocab": [
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；对一家（通常是未上市）公司整体价值的评估结果。区别于「股价」（stock price），valuation 是整体定价逻辑，融资新闻中必见词，直接决定创始人和投资人各自的稀释比例",
-              "etymology": "源自拉丁语 valere（有价值、强健），经法语 valeur → value 演变，加名词后缀 -ation，约14世纪进入英语，原指「评估某物价值的行为或结果」，后扩展至公司估值语境",
-              "morphology": "value（词根：价值）+ -ation（动作/结果名词后缀）。同族词：evaluate（评估）、devalue（贬值）、overvalued（高估的）——均共享 val- 这一「价值」词根",
-              "mnemonic": "val = value（价值）+ ation → 「给公司贴价值标签的行为」。想象风投拿着标价枪对准 Mistral 打出「€20B」的标签，这个定价动作就是 valuation",
-              "exampleEn": "The startup's valuation jumped from $2 billion to $8 billion after it closed a landmark deal with three major cloud providers.",
-              "exampleCn": "在与三家主要云服务商达成里程碑式协议后，该初创公司的估值从20亿美元跃升至80亿美元。"
-            },
-            {
-              "word": "rumored",
-              "pos": "adj.",
-              "meaning": "据传的、传闻中的；用于描述尚未经当事方官方确认的消息。财经新闻中常见，语气比 alleged（多用于负面或法律语境）更中性，是媒体规避法律责任、同时传递市场信号的标准用法",
-              "etymology": "源自拉丁语 rumor（喧嚣、传言），直接进入中古英语，始终保持「未经证实的说法」之义；-ed 为形容词化后缀，使动词转为修饰语",
-              "morphology": "rumor（n./v.，传言/传说）+ -ed（形容词后缀）。派生链：rumor → rumored → unconfirmed（近义反向）。注意英式拼写为 rumoured（含 u）",
-              "mnemonic": "rumor 发音近似「撸毛」——撸毛信息永远是未经证实的小道消息。想象币圈群里疯传「Mistral 要融资了！」却没有官方来源，这种状态就是 rumored",
-              "exampleEn": "The company is rumored to be acquiring a rival fintech firm in a deal that could reshape the digital payments landscape.",
-              "exampleCn": "据传该公司正洽谈收购一家竞争对手金融科技公司，此举可能重塑数字支付格局。"
-            },
-            {
-              "word": "Series C",
-              "pos": "n. (phrase)",
-              "meaning": "C轮融资；风险投资体系中第三个正式融资轮次（A轮→B轮→C轮→D轮……），通常发生在公司已验证商业模式、进入快速扩张阶段。掌握这一系列术语是读懂科技融资新闻的基础",
-              "etymology": "短语/复合词，无独立词源。Series 源自拉丁语 series（序列、链条），字母 A/B/C/D 是风险投资行业约定俗成的轮次代号，20世纪中期随美国VC行业规范化而固定下来",
-              "morphology": "Series（序列）+ C（第三轮字母代号）。横向扩展：Seed round（种子轮）→ Series A → Series B → Series C → Series D → Pre-IPO round（上市前轮次），字母越靠后代表公司越成熟",
-              "mnemonic": "把融资轮次想成学生考级：Seed 是幼儿园，A轮是小学，B轮是初中，C轮是高中——Mistral 已是「高中生」，正在冲刺上市前的最后轮次",
-              "exampleEn": "Having completed its Series C at a $5 billion valuation, the biotech firm is now preparing for a potential IPO within the next 18 months.",
-              "exampleCn": "在以50亿美元估值完成C轮融资后，这家生物科技公司正准备在未来18个月内启动潜在的IPO。"
-            },
-            {
-              "word": "decacorn",
-              "pos": "n.",
-              "meaning": "百亿独角兽；估值超过100亿美元的私有科技公司。独角兽（unicorn，10亿美元以上）→ 百亿角兽（decacorn）→ 超级独角兽（hectocorn，1000亿美元以上）。Mistral 以约230亿美元估值已是标准 decacorn",
-              "etymology": "deca-（希腊语前缀，十）+ unicorn（独角兽，来自拉丁语 unicornis：uni- 单一 + cornu 角）。由硅谷风投圈在2010年代创造，借「独角兽」稀有动物隐喻，叠加数量前缀表示更高量级",
-              "morphology": "deca-（十，来自希腊语 deka）+ corn（来自 unicorn 的简缩）。同前缀词：decade（十年）、decathlon（十项全能）、decimal（十进制）",
-              "mnemonic": "deca = 10，unicorn = 独角兽 → decacorn = 价值是独角兽10倍的神兽。想象独角兽背上长了10只角，凶猛十倍——这就是 decacorn",
-              "exampleEn": "With its latest funding round, the AI infrastructure company crossed the $10 billion threshold, officially joining the elite club of decacorns.",
-              "exampleCn": "凭借最新一轮融资，这家AI基础设施公司越过100亿美元大关，正式跻身精英「百亿独角兽」行列。"
-            },
-            {
-              "word": "up round",
-              "pos": "n. (phrase)",
-              "meaning": "上行轮；新一轮融资估值高于上一轮的融资。与之相对的是 down round（下行轮，估值缩水，对创始人和早期投资者具有稀释与信心双重打击）。Mistral 此次融资是典型的 up round，估值接近翻倍",
-              "etymology": "短语/复合词，无独立词源。up（向上）+ round（轮次，源自古法语 ronde，圆形/循环）。风投行业术语，反映公司在两轮融资之间价值的涨跌方向",
-              "morphology": "up（方向副词/形容词）+ round（融资轮次名词）。对应词组：down round（下行轮）、flat round（平行轮，估值不变）。三者构成融资估值变化的完整描述体系",
-              "mnemonic": "up round = 估值向上走的轮次，想象电梯向上——创业公司每融一轮都希望坐上行电梯；若坐了下行电梯就叫 down round，是创始人的噩梦",
-              "exampleEn": "The startup closed an up round at $4 billion despite a broader market downturn, signaling strong investor confidence in its business model.",
-              "exampleCn": "尽管整体市场下行，该初创公司仍以40亿美元完成了一轮上行融资，彰显了投资者对其商业模式的强烈信心。"
-            }
-          ]
-        },
-        {
-          "id": "20260613-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/12/fed-kevin-warsh-chairman-title.html",
-          "headlineEn": "Kevin Warsh Reclaims 'Chairman' Title at the Federal Reserve",
-          "headlineCn": "沃什坚持使用「主席」传统称谓，与前任明显区分",
-          "summaryEn": "Kevin Warsh, set to lead the Federal Reserve, has chosen to be called 'chairman' rather than 'chair' — a pointed break from his two immediate predecessors, Janet Yellen and Jerome Powell, who both preferred the gender-neutral term. The choice is more than stylistic: in Washington, nomenclature signals institutional values. Warsh's preference hints at a broader conservative shift in how the Fed may present itself under his leadership.",
-          "summaryCn": "即将执掌美联储的凯文·沃什（Kevin Warsh）选择使用传统称谓「chairman」，而非其前两任珍妮特·耶伦和杰罗姆·鲍威尔所偏好的性别中立词「chair」。这一称谓上的细微差异绝非偶然——在华盛顿，措辞往往承载着机构价值观的信号。沃什的选择被外界解读为一个暗示：在其领导下，美联储在形象塑造上可能将出现更为保守的转向。",
-          "excerpt": "Kevin Warsh's two immediate predecessors preferred to be called the Fed 'chair.' For Warsh, it's 'chairman' of the Federal Reserve — a small but loaded word choice that signals a pointed departure from the conventions set by Yellen and Powell.",
-          "vocab": [
-            {
-              "word": "predecessor",
-              "pos": "n.",
-              "meaning": "前任；前任者。特指在同一职位上比当前任职者更早担任该职务的人，常与 successor（继任者）相对使用。财经新闻中极高频，如「his predecessor at the helm」（其前任掌舵时）。语域正式，适用于商业、政治、学术场合。",
-              "etymology": "来自拉丁语 praedecessor，由 prae-（之前）与 decessor（离职者，源自 decedere 意为「离开、退出」）组成，原义为「比他人更早离去者」，后演变为「前任」。",
-              "morphology": "pre-（之前）+ de-（离开）+ cessor（行走/离开，词根 cedere）。同族词：succeed（继任）、succession（继承）、concede（让步）、recede（后退）——皆含「移动/移交」核心义。",
-              "mnemonic": "拆成「pre（提前）+ de（离开）+ cessor（走人）」——提前走人的那个人就是你的 predecessor。想象前任 CEO 提前打包行李，给你让出位置。",
-              "exampleEn": "The incoming Fed chair is expected to review the policy framework established by her predecessor before making any major changes.",
-              "exampleCn": "新任美联储主席预计将在做出重大调整之前，先审视其前任所建立的政策框架。"
-            },
-            {
-              "word": "nomenclature",
-              "pos": "n.",
-              "meaning": "命名法；术语体系。指某一领域或机构所采用的命名规范与术语系统。比 terminology（术语）更强调系统性，常用于讨论某个行业「如何定义和称呼事物」。财经英语中出现于监管、会计准则、产品命名等语境。",
-              "etymology": "来自拉丁语 nomenclatura，由 nomen（名字）与 calare（召唤、宣告）构成。原指古罗马选举时专门为候选人高声报名的奴隶（nomenclator），后引申为「系统性的命名方式」。",
-              "morphology": "nomen-（名字，同 nominal、nominate）+ -clature（来自 calare，召唤）。同族词：nominate（提名）、nominal（名义上的）、denomination（面额/教派，意为「以名称划分」）。",
-              "mnemonic": "把「nomen（名字）」想成 name，nomenclature 就是「给名字搭建一套文化体系」。记住：给事物系统地起名字这门学问，就叫 nomenclature。",
-              "exampleEn": "Regulatory agencies are updating their nomenclature to align with international accounting standards on digital assets.",
-              "exampleCn": "监管机构正在更新其命名体系，以使数字资产领域的术语与国际会计准则保持一致。"
-            },
-            {
-              "word": "deference",
-              "pos": "n.",
-              "meaning": "顺从；尊重（他人意见或惯例）。强调出于礼节或敬意而主动服从他人判断，并非被迫。常用搭配：in deference to（出于对……的尊重）、show deference to（向……表示顺从）。沃什刻意不沿用前任称谓，恰恰是拒绝 deference 的表现。",
-              "etymology": "来自法语 déférence，源于拉丁语 deferre（传递、提交），由 de-（向下、移交）与 ferre（携带）构成，原义为「将决定权向下交给他人」，后演变为「表示尊重的顺从」。",
-              "morphology": "de-（向下/移交）+ fer-（携带，词根 ferre）+ -ence（名词后缀）。同族词：defer（推迟；顺从）→ deferential（恭顺的）；以及 reference（参考，re+ferre）、infer（推断，in+ferre）、transfer（转移，trans+ferre）。",
-              "mnemonic": "「defer（推迟）」的名词形式。想象在会议上你把发言权「递交（ferre）下去（de）」给资深同事——这种谦让姿态就是 deference。与 difference（差异）拼写相近，但含义截然不同。",
-              "exampleEn": "In deference to the outgoing board chair's legacy, the company kept the original brand name for another fiscal year.",
-              "exampleCn": "出于对离任董事会主席遗产的尊重，公司又保留了原品牌名称一个财年。"
-            },
-            {
-              "word": "semantics",
-              "pos": "n.",
-              "meaning": "语义；措辞的含义差异。语言学术语，指词语意义的研究。但在商业英语中最常以「it's not just semantics」出现，意为「这不只是措辞问题，而是实质性差异」。掌握此词有助于在谈判或声明分析中精准指出「文字游戏」与「真实差异」之别。",
-              "etymology": "来自希腊语 sēmantikos（有意义的），词根 sēma 意为「符号、标志」。19世纪由语言学引入英语，原为学术术语，后广泛渗透到商业与政治表达中。",
-              "morphology": "sēma-（符号/意义）+ -tics（学科/系统后缀）。同族词：semaphore（旗语，sema+phore「携带信号」）、semiotic（符号学的）、seminal（开创性的，原义「播种意义的种子」）。",
-              "mnemonic": "想象一场谈判中双方争「chairman 还是 chair」——对方说「这只是 semantics（文字游戏）」，但你知道背后大有玄机。记住：商业场合说「it's not just semantics」，意思是「别以为换个词就没区别」。",
-              "exampleEn": "Calling it a 'strategic realignment' rather than a 'restructuring' may seem like semantics, but it significantly shapes investor perception.",
-              "exampleCn": "把此举称为「战略重组」而非「架构调整」，看似只是措辞差异，实则对投资者的认知产生了显著影响。"
-            },
-            {
-              "word": "connotation",
-              "pos": "n.",
-              "meaning": "内涵；言外之意；隐含意义。指词语在字典释义（denotation，字面义）之外所携带的联想色彩或情感倾向。「chairman」与「chair」字面指同一职位，但各自的 connotation 截然不同。在品牌传播、危机公关、政策表态中，理解词语的 connotation 是专业人士的必备素养。",
-              "etymology": "来自中世纪拉丁语 connotare，由 con-（共同、附加）与 notare（标记，来自 nota 意为「记号」）构成，原义为「在主要含义旁附加标记」，即在字面义之外赋予额外含义。",
-              "morphology": "con-（共同/附加）+ not-（标记，词根 nota）+ -ation（名词后缀）。同族词：denote（表示字面义，de+note）→ denotation（字面义）；annotate（注释，an+note）；notable（值得注意的）；notation（符号记法）。",
-              "mnemonic": "对比记忆：denotation 是「de（直指）+ notation」，就是字典里的正式定义；connotation 是「con（随行附带）+ notation」，是伴随正式定义一起携带的「情感行李」。「chairman」随身携带着传统权威感，这就是它的 connotation。",
-              "exampleEn": "The word 'disruption' has taken on positive connotations in Silicon Valley, even though it originally implied chaos and instability.",
-              "exampleCn": "「颠覆」一词在硅谷已具有正面内涵，尽管它最初暗示的是混乱与不稳定。"
             }
           ]
         }
