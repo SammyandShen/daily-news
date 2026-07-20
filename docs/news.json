@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-20T02:46:11.538844+00:00",
+  "lastUpdated": "2026-07-20T23:06:32.160050+00:00",
   "level": "B2",
   "days": {
+    "2026-07-21": {
+      "label": "7月21日 (周二)",
+      "stories": [
+        {
+          "id": "20260721-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+          "headlineEn": "AMD Unveils Helios AI Rack System, Wins Microsoft as Newest Customer",
+          "headlineCn": "AMD发布Helios AI机架系统，微软成为最新买家",
+          "summaryEn": "AMD has unveiled Helios, its first rack-scale AI system, taking direct aim at Nvidia's grip on AI infrastructure. Microsoft has come on board as the latest customer, joining Meta, OpenAI, and Oracle. Helios marks AMD's most ambitious push yet to offer enterprises a complete, integrated AI hardware alternative. The backing of major cloud providers validates AMD's strategy and puts significant pressure on Nvidia to defend its commanding position in the AI chip market.",
+          "summaryCn": "AMD正式发布了首款机架级AI系统Helios，直接向英伟达在AI基础设施市场的主导地位发起挑战。微软成为最新买家，加入了Meta、OpenAI和甲骨文的行列。Helios是AMD迄今最具野心的战略举措，旨在为企业客户提供一套完整的集成化AI硬件替代方案。主要云计算巨头的加入为AMD的战略提供了有力背书，也迫使英伟达竭力捍卫其在AI芯片市场的领先地位。",
+          "excerpt": "AMD's Helios is the company's first rack-scale AI system, designed to compete head-to-head with Nvidia. Microsoft has signed on as the latest buyer, joining Meta, OpenAI, and Oracle — a lineup that signals growing willingness among cloud giants to adopt competing AI hardware platforms.",
+          "vocab": [
+            {
+              "word": "take aim at",
+              "pos": "phrase",
+              "meaning": "将矛头指向；刻意挑战某对手。商业报道中比 challenge 更有「蓄谋已久、精准出击」的进攻意味，常搭配竞争对手或市场地位使用，语气主动且带有战略意图",
+              "etymology": "复合短语，无独立词源。take 源自古英语 tacan（抓取），aim 源自古法语 aesmer（估算、瞄准），原指射击前把武器对准目标，后引申为「将策略或攻势锁定在某对手身上」",
+              "morphology": "短语动词，无可拆分词素。相关表达：set one's sights on（瞄准，更书面），take a shot at（尝试挑战，更口语），aim for（以……为目标，中性）——三者语气由强到弱",
+              "mnemonic": "想象弓箭手拉弓瞄准靶心的画面：take aim at就是「举弓、瞄准、锁定那个靶」。AMD举起弓，靶心上写着「Nvidia」——这就是新闻标题的核心动作，画面一出绝不忘词",
+              "exampleEn": "The startup is taking aim at Google's dominance in cloud search by offering a faster, cheaper alternative.",
+              "exampleCn": "这家初创公司通过提供更快、更便宜的替代方案，将矛头直指谷歌在云端搜索领域的主导地位。"
+            },
+            {
+              "word": "unveil",
+              "pos": "v.",
+              "meaning": "正式发布；揭幕。科技和商业报道的高频词，比 launch 更强调「揭开神秘面纱」的仪式感，多用于产品发布会或重大战略公开场景，隐含「之前对外保密」的意味",
+              "etymology": "由 un-（否定前缀）和 veil（面纱）构成；veil 源自拉丁语 velum（布、帆、遮蔽物）。原义是「去除遮盖物使其可见」，16世纪进入英语，后引申为正式向公众公开某项事物",
+              "morphology": "un-（否定/逆转前缀）+ veil（面纱，n. 转 v.）。同前缀衍生词：uncover（揭露），unravel（解开），unwrap（拆开）。名词形式：unveiling（揭幕仪式）",
+              "mnemonic": "veil是婚礼面纱——新娘掀开面纱的瞬间就是 unveil。每次苹果、AMD举办发布会，都是为自家新品「掀开面纱」。记住这个新娘形象，launch 和 unveil 的区别也就清楚了：前者强调上市，后者强调揭秘",
+              "exampleEn": "Tesla unveiled its next-generation semi-truck at a packed event in Nevada, sending its stock up 8% overnight.",
+              "exampleCn": "特斯拉在内华达州的一场盛大发布会上揭幕了下一代半挂卡车，其股价隔夜随即上涨了8%。"
+            },
+            {
+              "word": "rack",
+              "pos": "n.",
+              "meaning": "机架（服务器机架）。数据中心核心术语，指用于安装服务器、交换机等设备的标准化金属框架。「rack-scale system」指把芯片、网络、散热集成在单一机柜内的整体解决方案，是读懂AI基础设施报道的必备词汇",
+              "etymology": "源自中古荷兰语 rec 或古北欧语 rekkr，原义为「用于挂放或固定物品的支架、框架」；16世纪进入英语，最初指放酒桶或干草的架子，19世纪后随工业化扩展至电信与计算机设备领域",
+              "morphology": "单纯词根，无前后缀。常见复合词：rack unit（机架单元，高度单位，缩写「U」），rack-mounted（adj.，机架式安装的），off-the-rack（成衣，「从货架取下的」，同一词根的商业延伸义）",
+              "mnemonic": "超市里一排排整齐的货架（rack）= 数据中心里一排排黑色金属机架，里面插满发光的服务器卡。形状完全一样，只是货物从商品换成了芯片——画面对齐，词义自然记住",
+              "exampleEn": "The new AI cluster fills an entire rack with eight GPUs, 400G networking switches, and liquid cooling in a single integrated unit.",
+              "exampleCn": "这套新型AI集群将八块GPU、400G网络交换机与液冷系统整合进单一机架，形成一体化解决方案。"
+            },
+            {
+              "word": "woo",
+              "pos": "v.",
+              "meaning": "争取；拉拢（客户/合作伙伴）。商业语境中指「主动、积极地吸引目标客户」，带有软性公关与价值展示的含义，比 attract 更生动，比 court 更口语化，是科技竞争与市场拓展报道的高频词",
+              "etymology": "源自古英语 wōgian（求爱、追求），原专指向女性求婚的行为；中世纪后词义扩展，泛指「积极争取任何对象的好感、支持或合作」，完成从情感领域向商业领域的完整迁移",
+              "morphology": "简单词根，无可拆分词素。派生词：wooer（n.，追求者/拉拢者），wooing（n./adj.，追求行为）。近义词对比：woo（主动热情），court（更正式），lure（含诱导意味，语气偏负面）",
+              "mnemonic": "woo 的发音像中文「喔～」——想象一位销售员对大客户连连点头、满脸笑容地说「喔，您真是我们最理想的合作伙伴！」这种积极讨好的姿态就是 wooing。音义合一，一记即牢",
+              "exampleEn": "AMD is wooing hyperscalers with competitive pricing and an open software ecosystem to challenge Nvidia's grip on AI computing.",
+              "exampleCn": "AMD正以极具竞争力的定价和开放软件生态积极拉拢各大超大规模云厂商，以挑战英伟达对AI计算市场的掌控。"
+            },
+            {
+              "word": "validate",
+              "pos": "v.",
+              "meaning": "验证；为……背书。商业/科技语境中特指「权威的外部力量（大客户、市场数据）证实某产品或战略具有真实价值」，比 confirm 更强调外部认可对市场信心的提振作用，是融资路演和产品发布报道中的高频词",
+              "etymology": "源自中世纪拉丁语 validare（使有效、使合法），词根 validus（强健的、有力的）来自拉丁语 valere（有价值、有力量）——与 value（价值）、valor（英勇）、equivalent（等值的）同源",
+              "morphology": "valid（adj.，有效的）+ -ate（动词化后缀）。家族词链：valere（拉丁）→ valid → validate（v.）→ validation（n.）→ invalidate（v.，使无效）→ equivalent（同根，等值的）",
+              "mnemonic": "valid = 「有效的、被认可的」，-ate = 「使……」→ validate = 「使它获得认可」。微软买了AMD的芯片，就等于对全市场宣告：「这东西有效，我们认可！」——这就是最有力的 validation，比任何广告都管用",
+              "exampleEn": "Landing Microsoft as a customer validates AMD's claim that Helios can compete with Nvidia's AI infrastructure at scale.",
+              "exampleCn": "赢得微软作为客户，印证了AMD关于Helios能够在规模化AI基础设施领域与英伟达一较高下的主张。"
+            }
+          ]
+        },
+        {
+          "id": "20260721-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/20/judge-pauses-110b-paramount-warner-bros-merger/",
+          "headlineEn": "Judge Pauses $110B Paramount-Warner Bros. Merger Over Harm Concerns",
+          "headlineCn": "法官叫停1100亿美元派拉蒙与华纳兄弟合并案",
+          "summaryEn": "A federal judge has issued a temporary injunction halting the proposed $110 billion merger between Paramount and Warner Bros. Discovery. The legal challenge, brought by a coalition of U.S. states, alleges the deal would harm movie theaters, basic cable distributors, and audiences by concentrating too much market power in a single entity. The case adds fresh regulatory scrutiny to an already turbulent media consolidation wave and raises questions about how courts balance corporate growth against consumer protection.",
+          "summaryCn": "一名联邦法官发出临时禁令，暂停派拉蒙与华纳兄弟探索公司价值1100亿美元的合并计划。此次法律挑战由多个美国州联合提起，原告指控该交易将损害电影院、基本有线电视分销商及普通观众的利益，因为合并后将形成过度集中的市场支配力。这一案件为本已动荡的媒体整合浪潮增添了新的监管审查压力，也引发了外界对法院如何平衡企业扩张与消费者保护的广泛质疑。",
+          "excerpt": "A coalition of state attorneys general filed suit alleging the $110 billion merger would harm movie theaters, cable distributors, and ordinary audiences. The judge sided with the plaintiffs, issuing a temporary pause while the court weighs the case — a significant setback for two of Hollywood's most storied studios.",
+          "vocab": [
+            {
+              "word": "injunction",
+              "pos": "n.",
+              "meaning": "（法院发出的）禁令、强制令。在并购报道中极为高频，专指法院命令当事方停止某一行为，比 「ban」或 「order」更具法律效力。常见搭配：issue / grant / lift an injunction（发出／批准／解除禁令）。值得学是因为它精准区分了「行政命令」与「司法命令」这一英文中的重要细分。",
+              "etymology": "源自拉丁语 injungere（in-「施加于」+ jungere「连接、约束」），原义为「强加约束于某人」。中世纪法律拉丁语中演变专指「法院的强制命令」，14世纪经由法语进入英语法律词汇。",
+              "morphology": "in-（施加、使进入）+ junct（词根 jungere，连接）+ -ion（名词后缀）。同词根词：junction（交叉路口）、conjunction（连词）、adjunct（附属物）——都含「连接」核心义，injunction 是「把约束连接到当事人身上」。",
+              "mnemonic": "把 injunction 拆成「in + junction（路口）」——法院在并购交易的「十字路口」插了一块「禁止通行」的大牌子，整条路被堵死。画面感极强，每次看到 junction 就能想到这块牌子。",
+              "exampleEn": "The startup sought a court injunction to prevent its rival from using the patented algorithm before the trial concluded.",
+              "exampleCn": "这家初创公司在庭审结束前申请法院禁令，阻止竞争对手使用其专利算法。"
+            },
+            {
+              "word": "allege",
+              "pos": "v.",
+              "meaning": "（在未经证实前）声称、指控。法律新闻必备词，专用于「尚待法庭裁定的指控」，语气中立且保留法律保护空间。区别于 claim（更口语、日常）和 assert（强调说话人的自信），allege 明确信号：这是一方之词，真伪未定。新闻报道中出现频率极高，名词形式 allegation 同样常见。",
+              "etymology": "源自拉丁语 allegare（al- 即 ad-「向」+ legare「派遣、引用」），原义为「向法庭引用证据支持某观点」。进入古法语后词义收窄，至英语中专指「提出尚未证实的指控」，约14世纪固定用法。",
+              "morphology": "al-（= ad-，趋向）+ lege（词根 legare，引用／委派）。核心派生词：allegation（n. 指控）、allegedly（adv. 据称）、unsubstantiated allegation（未经证实的指控）。注意勿混淆 allege 与 allegiance（忠诚，来自不同词根 liege）。",
+              "mnemonic": "联想「all + ledge（台阶/壁架）」——律师把所有「证据」一件件摆上证台的「台阶」，但法官还没敲锤确认，所以只是「声称」。台阶是过渡，真相悬而未定。",
+              "exampleEn": "The regulators allege that the tech giant engaged in anticompetitive practices to squeeze smaller rivals out of the market.",
+              "exampleCn": "监管机构指控这家科技巨头实施反竞争行为，将规模较小的竞争对手排挤出市场。"
+            },
+            {
+              "word": "plaintiff",
+              "pos": "n.",
+              "meaning": "（民事诉讼中的）原告，即主动提起诉讼的一方。与 defendant（被告）相对，是阅读财经法律新闻时绕不开的基础术语。本文中「the states」即扮演 plaintiff 角色。区别于刑事案件中的 prosecutor（检察官），plaintiff 专用于民事场景，值得学是因为媒体并购诉讼几乎都是民事案件。",
+              "etymology": "来自古法语 plaintif（「发出投诉之人」），源于拉丁语 plangere（悲叹、击胸表达痛苦），与英语 complaint 同族。原义指「在法庭上哭诉受害经历的人」，后词义中性化为「提起诉讼的一方」。",
+              "morphology": "plain-（源自 plaint，诉状、投诉）+ -iff（古法语名词后缀，表行为主体，如 bailiff 法警）。对立词记忆：plaintiff（原告，主动诉）vs defendant（被告，de-「离开」+ fend「抵御」，被动防守）。联想：complaint → complain → plaintiff，投诉链条一脉相承。",
+              "mnemonic": "plaintiff 里有 「plain」（平原）——想象原告孤身站在法庭中央空旷的「平原」上，举手申诉，而被告躲在角落全力防守。原告在明处，被告在暗处，一目了然。",
+              "exampleEn": "The plaintiffs, a group of independent cinema operators, argued that the merger would eliminate competition and drive up ticket prices.",
+              "exampleCn": "原告方——一群独立影院运营商——主张此次合并将消除竞争并推高票价。"
+            },
+            {
+              "word": "at stake",
+              "pos": "phrase",
+              "meaning": "处于危险中、岌岌可危；（某重要利益）悬而未决。在财经新闻中 stake 特指「已押上的赌注／风险敞口」，at stake 强调「一旦输掉便彻底失去」的紧迫感，比 at risk 语气更重、更具戏剧性。常与 billions、jobs、credibility 等重量级词搭配，是财经写作中营造紧张感的标配短语。",
+              "etymology": "stake 源自古英语 staca（木桩），源于古日耳曼语。赌博习俗中，赌注以实物插在桩子上，赢者拔桩取财。「at stake」即「赌注已钉在桩上」——胜负未分，生死系于一线。约17世纪起固定为惯用语。",
+              "morphology": "短语／复合词，无独立词源。stake 核心衍生短语：stakeholder（利益相关方，持有「桩上赌注」的人）、high-stakes（高风险的）、raise the stakes（加大赌注／升级风险）、sweepstakes（抽彩赌博，由此引申为大奖赛）。",
+              "mnemonic": "想象牛仔把所有财产装进袋子，绑在一根木桩（stake）上，然后走进赌场。此刻一切都「at stake」——系在那根桩上，赢则得，输则空。画面感极强，下次遇到绝对忘不了。",
+              "exampleEn": "With billions of dollars and thousands of jobs at stake, both companies are racing to persuade regulators that the deal serves the public interest.",
+              "exampleCn": "数十亿美元的利益和数千个就业岗位悬而未决，两家公司都在争分夺秒地说服监管机构，这笔交易符合公共利益。"
+            },
+            {
+              "word": "scrutiny",
+              "pos": "n.",
+              "meaning": "严密审查、细致审视。监管与并购报道中极为高频，常见搭配：come under scrutiny（受到审查）、face regulatory scrutiny（面临监管审查）、withstand scrutiny（经得起审视）。语气比 examination 更强，暗含「带有怀疑目的、寻找问题漏洞」的色彩。值得学是因为它精准捕捉了监管环境中「不信任前提下的主动审查」这一独特语境。",
+              "etymology": "源自拉丁语 scrutinium（彻底搜查），词根 scrutari 意为「翻拣垃圾堆寻找有价值之物」，scruta 指「破烂杂物堆」。原义是「在废品中翻找」，引申为「仔细检查以寻找隐藏问题」，精准传达了审查的「挑剔性」与「彻底性」。",
+              "morphology": "scrutin-（词根，细查翻找）+ -y（名词后缀）。派生词：scrutinize（v. 仔细检查，动词形式）、scrutineer（n. 选举监票员）。近义词辨析：inspection（例行、制度性检查）vs scrutiny（带质疑动机的严密审视）vs audit（财务审计，有既定流程）。",
+              "mnemonic": "scrutiny 里藏着 「scru」——想象侦探戴着单片放大镜（scrut-），蹲在「垃圾堆」里逐件翻检，不放过任何蛛丝马迹。这种「宁可翻遍废品堆也要找出破绽」的执念，就是 scrutiny 的灵魂。",
+              "exampleEn": "The proposed acquisition came under intense regulatory scrutiny after consumer groups raised concerns about market dominance.",
+              "exampleCn": "在消费者团体对市场支配地位表达担忧后，这项拟议收购受到了监管机构的严密审查。"
+            }
+          ]
+        },
+        {
+          "id": "20260721-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
+          "headlineEn": "Trump Imposes 50% Tariffs on Canadian Goods Over Trade Discrimination Claims",
+          "headlineCn": "特朗普以贸易歧视为由对加拿大商品征收50%关税",
+          "summaryEn": "President Trump has announced 50% tariffs on select Canadian goods, citing alleged trade discrimination against American businesses. The move marks a further escalation as U.S.-Canada relations have steadily deteriorated under Trump's aggressive tariff agenda. It also casts fresh doubt on the durability of the trilateral trade pact shared by the U.S., Canada, and Mexico — a deal Trump has repeatedly criticized as unfair to American workers and industries.",
+          "summaryCn": "特朗普总统宣布对部分加拿大商品征收50%关税，理由是加拿大存在针对美国企业的贸易歧视行为。此举标志着两国关系的进一步恶化——在特朗普强硬关税政策的推动下，美加关系已持续走低。与此同时，美国、加拿大与墨西哥三国共同签订的贸易协定（即《美墨加协定》）的前景也因此蒙上阴影，特朗普此前曾多次批评该协定对美国工人和产业不公平。",
+          "excerpt": "Canada's relationship with the U.S. has frayed considerably under Trump's tariff-heavy agenda. Washington cited alleged trade discrimination as justification for the sweeping 50% levy, raising fresh doubts about the durability of the nations' trilateral trade pact with Mexico.",
+          "vocab": [
+            {
+              "word": "fray",
+              "pos": "v. / n.",
+              "meaning": "（关系或神经）磨损、破裂。在「Canada's relationship has frayed」中用作比喻动词，比「deteriorate」更生动地传达出边缘被反复摩擦撕裂的质感，常见于正式新闻写作中描述外交或商业关系的恶化",
+              "etymology": "来自中古法语 frayer，源自拉丁语 fricare（摩擦）。原义指布料边缘因反复摩擦而散开脱线，后引申为「关系或情绪因长期压力而逐渐破损」",
+              "morphology": "不可再拆分的简单词根。派生词：frayed（adj. 磨损的、紧张的）、fraying（n. 磨损过程）。与同拉丁词根 fricare 相关的词：friction（摩擦）、friable（易碎的）",
+              "mnemonic": "想象一根绳子在石头上来回摩擦，末端纤维一根根散开脱落——这就是 fray 的画面。外交关系「has frayed」，就像那根快要断掉的绳子，随时可能彻底崩断",
+              "exampleEn": "Years of failed negotiations have frayed the trade relationship between the two economies.",
+              "exampleCn": "多年谈判破裂使两国经济关系逐渐走向瓦解。"
+            },
+            {
+              "word": "trilateral",
+              "pos": "adj.",
+              "meaning": "三边的、三方的。专指涉及三个国家或主体的协议或谈判。相较于 multilateral（多边的），trilateral 精确指定三方，在贸易协定报道中高频出现，是财经新闻的核心词汇之一",
+              "etymology": "来自拉丁语 tri-（三）与 lateralis（侧面的，源自 latus「边」），字面义为「三个边的」，16世纪起用于描述三方几何关系，后延伸至外交与贸易领域",
+              "morphology": "tri-（三）+ lateral（侧边）+ -al（形容词后缀）。同前缀扩展：triangle（三角形）、trilogy（三部曲）、tripartite（三方的）；同词根扩展：bilateral（双边的）、unilateral（单边的）、multilateral（多边的）",
+              "mnemonic": "tri = 3，想到 tricycle（三轮车）；lateral = 边，想到足球里的 lateral pass（横传）。三边协定就是三国站成三角形各守一边，美墨加协定（USMCA）就是最典型的 trilateral pact",
+              "exampleEn": "The trilateral summit brought together leaders from all three nations to renegotiate key trade provisions.",
+              "exampleCn": "三边峰会汇聚三国领导人，就关键贸易条款重新展开谈判。"
+            },
+            {
+              "word": "discrimination",
+              "pos": "n.",
+              "meaning": "歧视；在贸易语境中特指「差别对待」——对某国商品或企业设置不对等壁垒。「trade discrimination」是WTO规则中的核心概念（违反最惠国待遇原则），比「unfair treatment」更具法律效力，常出现在正式指控和贸易争端文件中",
+              "etymology": "来自拉丁语 discriminare（区分、分开），词根 discrimen 意为「区分的标准或界线」，原义为「做出区别判断」，后逐渐演变为负面义「不公正地区别对待某一群体」",
+              "morphology": "dis-（分开）+ crimin-（区分、判断）+ -ation（名词后缀）。同族词：discriminate（v. 歧视/辨别）、discriminatory（adj. 歧视性的）、indiscriminate（adj. 不加区分的）",
+              "mnemonic": "discrimin- 让人联想到 criminal（罪犯）——把某个群体当罪犯一样区别对待，就是 discrimination。贸易歧视就是把某国货物当「经济罪犯」来区别处理",
+              "exampleEn": "The WTO ruling found that the import quotas amounted to trade discrimination against developing nations.",
+              "exampleCn": "世贸组织裁定，这些进口配额构成对发展中国家的贸易歧视。"
+            },
+            {
+              "word": "pact",
+              "pos": "n.",
+              "meaning": "条约、协定。比 agreement 正式、比 treaty 简短，常用于描述政治性或贸易性协议。在新闻标题和正文中高频出现，语感紧凑有力，是财经和外交报道的标配词汇",
+              "etymology": "来自拉丁语 pactum（协议），源自 pacisci（约定、讲和），与 peace（和平）、pacify（安抚）同属词根 pac——和平往往通过达成协定来实现",
+              "morphology": "不可拆解的简单词。近义派生词：compact（n. 契约；adj. 紧凑的）。注意 peace、pacify、appease 均来自同一拉丁词根 pac-（和平/平息），构成一个词族",
+              "mnemonic": "pact 和 peace 长相相似、词根相同——签了 pact（协定）才有 peace（和平）。想象两国领导人握手签字的场景，那张文件就是 pact",
+              "exampleEn": "The two tech giants announced a cross-licensing pact to settle their long-running patent dispute.",
+              "exampleCn": "两家科技巨头宣布达成交叉授权协议，以解决旷日持久的专利纠纷。"
+            },
+            {
+              "word": "vocal",
+              "pos": "adj.",
+              "meaning": "直言不讳的、公开表态的。「vocal displeasure」比「public dissatisfaction」语气更强，暗示主动、响亮地发声表达不满。新闻中常用「vocal critic」「vocal opponent」描述立场鲜明、积极发声的人或机构，是政经报道高频修饰语",
+              "etymology": "来自拉丁语 vocalis（有声音的），词根 vox/vocis 意为「声音」，原义为「用声音表达的」，后引申为「积极发声、公开表态」而非沉默隐忍",
+              "morphology": "词根 voc-（声音）+ -al（形容词后缀）。同族词：vocation（职业，「被召唤」的工作）、advocate（倡导者，ad- + voc-「为某事发声」）、provoke（激怒，「引发叫声」）、evoke（唤起）",
+              "mnemonic": "vocal 里藏着 voice（声音）的影子——voc = voice。一个 vocal 的批评者就是「声音很大的」批评者。脑补一个拿着大喇叭高声呐喊的人，那就是 vocal",
+              "exampleEn": "The CEO has been vocal about her opposition to the proposed merger, issuing multiple public statements.",
+              "exampleCn": "这位首席执行官对拟议中的并购案公开表示反对，多次发表公开声明。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-20": {
       "label": "7月20日 (周一)",
       "stories": [
@@ -8023,326 +8217,6 @@
               "mnemonic": "想象司机（driver）踩油门——是他在「drive」汽车前进。在财经新闻里，当某事件是「driver」，就是这个消息在「踩油门」推动市场变化。看到「X drives Y」就画一个方向盘：X是司机，Y是被推着跑的车。",
               "exampleEn": "Strong consumer spending drove a rebound in retail stocks, even as broader market sentiment remained cautious.",
               "exampleCn": "强劲的消费者支出推动零售股反弹，尽管整体市场情绪依然审慎。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-15": {
-      "label": "6月15日 (周一)",
-      "stories": [
-        {
-          "id": "20260615-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-          "headlineEn": "Anthropic Model Suspension Sparks Debate Over India's AI Future",
-          "headlineCn": "Anthropic暂停模型访问，印度重审AI自主发展战略",
-          "summaryEn": "When Anthropic temporarily suspended access to its latest AI models for users outside certain markets, India's tech community took notice. The episode reignited debate about India's growing dependence on foreign AI platforms and whether the country can develop sovereign AI capabilities. Tech leaders are now questioning whether India needs to prioritize homegrown models and contingency strategies to protect its long-term AI ambitions.",
-          "summaryCn": "当Anthropic临时暂停向部分市场外用户开放其最新AI模型访问权限时，印度科技圈为之震动。这一事件再度引发业界深层讨论：印度对境外AI平台的依赖程度是否过高？本国是否具备发展自主AI能力的条件？科技领袖们开始呼吁，印度需将研发本土模型、制定应急预案列为战略优先事项，以保障其长远的AI发展愿景。",
-          "excerpt": "India's tech leaders are asking hard questions after Anthropic suspended access to its latest models, raising concerns about foreign dependency. For a country with bold AI ambitions, the episode serves as a stark reminder that building on rented infrastructure carries real strategic risk.",
-          "vocab": [
-            {
-              "word": "suspend",
-              "pos": "v.",
-              "meaning": "暂停、中止（某项服务或权限）。与cancel（永久取消）不同，suspend强调「暂时性」，常用于技术产品、账户权限或合约中止场景。科技公司官方文件中极常见，语气比stop更正式，比terminate更温和，值得作为精准替换词掌握。",
-              "etymology": "来自拉丁语suspendere，由sub-（在下方）+ pendere（悬挂）构成，原义为「悬挂于空中」，隐喻「悬而未决、暂不执行」，中世纪拉丁语引申为「暂时停止某项行为或权利」。",
-              "morphology": "sus-（sub-变体，下方）+ pend（悬挂，词根pendere）+ -end（动词后缀）。同词根词：pendant（吊坠）、pendulum（钟摆）、depend（依赖，字面义「悬在……之下」）。派生词：suspension（n.）、suspended（adj.）。",
-              "mnemonic": "想象服务账户被「挂在空中」——既没有继续运行，也没有彻底关闭，就像钟摆被手指捏住暂停摆动。suspend = 把事情「悬」在那里，随时可以放开继续，这个画面能瞬间区分它与cancel的差异。",
-              "exampleEn": "The cloud provider suspended API access for all free-tier accounts following a security breach.",
-              "exampleCn": "安全漏洞事件发生后，该云服务商暂停了所有免费账户的API访问权限。"
-            },
-            {
-              "word": "sovereignty",
-              "pos": "n.",
-              "meaning": "主权、自主权。在AI语境下常以「AI sovereignty」（AI自主权）或「digital sovereignty」（数字主权）形式出现，指一个国家对本国数据、算法和AI基础设施拥有独立控制权。这是科技地缘政治报道中的核心高频词，掌握它才能读懂当今全球AI政策辩论。",
-              "etymology": "来自古法语souveraineté，源于拉丁语superanus（最高的），由super（在上方）演变而来。中世纪进入英语，最初专指君主对领土的统治权，现代延伸至数字与技术领域，形成「数字主权」等新概念。",
-              "morphology": "sovereign（adj./n.，最高统治者）+ -ty（抽象名词后缀）。类比构词：independent → independence；prominent → prominence；sovereign → sovereignty。相关词：sovereign（adj.独立自主的）、sovereignly（adv.）。",
-              "mnemonic": "sover- 联想「super」（超级、最高），-ty是名词后缀。主权就是「超级最高的权力」。AI sovereignty = 对人工智能拥有「无人能凌驾其上的最终控制权」，印度正在为此奋斗。",
-              "exampleEn": "European regulators are pushing for greater data sovereignty to reduce dependence on US cloud giants.",
-              "exampleCn": "欧洲监管机构正积极推动提升数据主权，以降低对美国云计算巨头的依赖。"
-            },
-            {
-              "word": "contingency",
-              "pos": "n.",
-              "meaning": "应急预案；意外情况。常以contingency plan（应急计划）形式出现，指针对不可预见事件预先制定的备用方案。比backup plan更正式、更具战略含义，是董事会报告、风险管理文件中的标准用词，体现专业商务素养。",
-              "etymology": "来自拉丁语contingentia，由contingere（接触、偶然发生）构成，原义为「偶然发生之事」。中世纪哲学用于讨论「偶然性」vs「必然性」，后在商业与军事规划中演变为「需提前应对的或然情境」。",
-              "morphology": "con-（共同）+ ting（触碰，来自tangere）+ -ency（名词后缀）。同词根词：tangible（可触知的）、tangent（切线，字面「触碰」）、contact（接触）。派生词：contingent（adj.依情况而定的；n.代表团）。",
-              "mnemonic": "contin- 听起来像「continue（继续）」——应急预案就是确保在意外情况下业务能「继续」运转的那套方案。contingency = 让事情无论如何都能继续的「保险绳」，记住这个画面就不会忘。",
-              "exampleEn": "After the supply chain disruption, the board demanded a detailed contingency plan for future chip shortages.",
-              "exampleCn": "供应链中断事件发生后，董事会要求制定一份应对未来芯片短缺的详细应急预案。"
-            },
-            {
-              "word": "homegrown",
-              "pos": "adj.",
-              "meaning": "本土研发的、自主培育的。原指「自家种植的」农产品，在科技与政策语境中比喻「由本国自主开发、不依赖外国技术」的产品或能力。比domestic更口语化有力，带有「从无到有、自力更生」的强调色彩，是AI独立叙事中的标志性词汇。",
-              "etymology": "由home（家、本地）+ grown（生长，grow的过去分词）构成。16世纪英语中字面指「在自家花园种植的」，20世纪后引申为商业与政策语境中「本地孵化的」技术、企业或人才。",
-              "morphology": "home（家）+ grow（生长）+ -n（过去分词后缀），复合形容词。类似构词：home-brewed（自酿的）、home-built（自建的）、locally-developed（本地开发的，同义但更正式）。",
-              "mnemonic": "画面：一株AI芯片长在印度某个农民家的院子里。homegrown AI = 「自家地里长出来的人工智能」，没有进口，纯本土培育，带着泥土气息的技术自主——这个画面把「本土」和「从零生长」两层意思都装进去了。",
-              "exampleEn": "South Korea's tech ministry pledged $2 billion to develop a homegrown large language model to rival GPT-4.",
-              "exampleCn": "韩国科技部承诺投入20亿美元，开发一款可与GPT-4抗衡的本土大语言模型。"
-            },
-            {
-              "word": "wake-up call",
-              "pos": "phrase",
-              "meaning": "警醒事件、当头棒喝。原指酒店叫醒服务，引申为「令人猛然警觉、迫使重新审视现状的事件」。在商业与政策报道中极常见，暗含「此前一直未引起足够重视」的批评意味，语气比warning更生动有力，是新闻标题和评论文章的高频表达。",
-              "etymology": "字面义来自酒店行业：wake（唤醒）+ up + call（电话）= 前台打电话叫醒客人。20世纪后期进入比喻用法，指任何令人「从沉睡或自满中惊醒」的警示性事件。短语/复合词，无独立词源。",
-              "morphology": "短语/复合词，无独立词源。wake来自古英语wacan（苏醒）；call来自古挪威语kalla（呼喊）。近义表达：eye-opener（令人大开眼界之事）、red flag（警示信号）、alarm bell（警报，更强调危险感）——三者语气依次递增。",
-              "mnemonic": "想象自己在酒店睡过头，被前台电话叫醒——那种「完了！得赶快行动」的惊慌感，就是wake-up call的精髓。印度被Anthropic「打了个叫醒电话」：别再沉睡了，AI自主权刻不容缓。",
-              "exampleEn": "The sudden outage of a key cloud service was a wake-up call for companies that had no disaster recovery plan in place.",
-              "exampleCn": "一次关键云服务的突然宕机，成为那些尚未建立灾备方案的企业的当头棒喝。"
-            }
-          ]
-        },
-        {
-          "id": "20260615-2",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-          "headlineEn": "Amazon Security Research Triggered White House Ban on Anthropic AI Models",
-          "headlineCn": "亚马逊安全研究引发白宫下令封禁 Anthropic AI 模型访问权限",
-          "summaryEn": "Amazon's cybersecurity research played a key role in triggering a U.S. government export control directive that forced Anthropic to cut off access to its Fable 5 and Mythos 5 AI models. According to the Wall Street Journal, Amazon submitted a paper claiming these models posed security risks, which led CEO Andy Jassy to raise concerns with the White House. The case illustrates how private-sector security findings can directly shape federal AI policy.",
-          "summaryCn": "据《华尔街日报》报道，亚马逊的网络安全研究是促使美国政府发布出口管制令的关键因素之一。该指令导致 Anthropic 被迫切断 Fable 5 和 Mythos 5 两款 AI 模型的访问权限。据悉，亚马逊提交的研究论文声称，通过一系列操作可以利用上述模型存在的安全漏洞，这促使亚马逊 CEO 安迪·贾西直接与白宫展开沟通。此事件揭示了企业安全研究如何直接左右联邦 AI 监管政策，也引发外界对科技巨头竞争关系与国家安全边界的广泛关注。",
-          "excerpt": "Amazon submitted a research paper claiming that Anthropic's Fable 5 and Mythos 5 AI models could be exploited through a series of steps. Combined with conversations between CEO Andy Jassy and the White House, this finding contributed to the export control directive that forced Anthropic to cut off access to both models.",
-          "vocab": [
-            {
-              "word": "directive",
-              "pos": "n.",
-              "meaning": "（官方）指令、命令。比 order 更正式，常见于政府、军队或企业高层语境，隐含「从权威机构向下传达的约束性指示」。学习此词可帮助读懂政策文件与科技监管新闻中的高频表达，如「issue a directive」「comply with a directive」「policy directive」。",
-              "etymology": "来自拉丁语 dirigere（引导、指挥），由 di-（分散）+ regere（统治、引导）构成，经法语 directif 进入英语，原为形容词「指导性的」，后名词化演变为「指令」，逐渐专指来自权威机构的正式命令。",
-              "morphology": "direct（v./adj. 指引；直接的）+ -ive（名词/形容词后缀）。同词根词：direction（n. 方向）、director（n. 主管）、directory（n. 目录）。这组词都围绕「指向、引导」这一核心语义展开，掌握词根即可贯通全族。",
-              "mnemonic": "记住 director（导演）手持 directive（导演令），告诉所有人朝哪个 direction（方向）走——三个词共享同一个「指向」画面，一次记住三个，互相印证，永不混淆。",
-              "exampleEn": "The board issued a directive requiring all departments to reduce cloud spending by 20% before the end of the quarter.",
-              "exampleCn": "董事会发布了一项指令，要求所有部门在季度结束前将云计算支出削减 20%。"
-            },
-            {
-              "word": "trigger",
-              "pos": "v.",
-              "meaning": "触发、引发（某事件或连锁反应）。科技和商业英语中极为高频，常与 investigation、alarm、response、policy 等词搭配。比 cause 更强调「某一关键节点启动了后续一系列不可逆反应」，带有扳机被扣下的即时感与机械感。",
-              "etymology": "源自荷兰语 trekker（扳机），由 trekken（拉）派生，17 世纪作为枪械术语进入英语，原义为「扳机」，后经隐喻泛化为「触发任何事件的起点」，现已广泛用于科技、医学、金融等领域。",
-              "morphology": "不可拆解的简单借词，但有完整派生体系：trigger（n. 扳机/触发器）、triggered（adj. 被触发的）、triggering（n./adj. 触发中的）。科技语境常见复合词：event trigger（事件触发器）、trigger condition（触发条件）、trigger point（触发点）。",
-              "mnemonic": "扣下枪的 trigger（扳机）——一个小动作，引发一连串不可逆反应。商业里说「这份报告 triggered 监管调查」，脑海中浮现扳机被扣下的画面：一扣，子弹出膛，无法收回。",
-              "exampleEn": "The whistleblower's report triggered a full-scale regulatory investigation into the company's data practices.",
-              "exampleCn": "举报人的报告引发了监管机构对该公司数据处理方式的全面调查。"
-            },
-            {
-              "word": "export control",
-              "pos": "phrase",
-              "meaning": "出口管制（国家对特定技术、商品或软件出口实施的法律限制）。AI 时代读懂中美科技博弈的核心词汇，常见搭配：export control regime（出口管制体制）、export control directive（出口管制令）、subject to export controls（受出口管制约束）。此词背后是国家安全与商业利益的直接角力场。",
-              "etymology": "export 来自拉丁语 exportare（ex- 向外 + portare 携带），意为「向外运输」；control 来自中世纪法语 contrerolle（contre- 对照 + rolle 账册），意为「对账册进行复核」。两词结合为「对出境商品实施核查管控」。",
-              "morphology": "export（ex- 向外 + port 港口/运输）+ control（contre- 对照 + roll 账册）。相关词组：export license（出口许可证）、import control（进口管制）、technology transfer（技术转让）、controlled technology（受管制技术）。",
-              "mnemonic": "把出口管制想象成海关的「大门 + 锁」：export（东西要出门）+ control（门上的锁）。某些 AI 模型就像受管制的武器，没有白宫许可就上锁，谁都带不出国境。",
-              "exampleEn": "The chipmaker faces strict export controls that prevent it from selling advanced semiconductors to certain foreign customers.",
-              "exampleCn": "该芯片制造商面临严格的出口管制，禁止其向特定境外客户出售先进半导体。"
-            },
-            {
-              "word": "cut off",
-              "pos": "phrasal v.",
-              "meaning": "切断、中止（访问权限、服务或联系）。科技语境中常指「强制终止某一方对产品或服务的使用权」，比 terminate 更口语，比 disconnect 更强调主动且突然的中断。常见搭配：cut off access（切断访问）、cut off funding（切断资金）、cut off communication（切断通信）。",
-              "etymology": "cut 来自古诺尔斯语 kuta（切割），off 来自古英语 of（离开、分离）。两词组合后从字面义「切断绳索或连接」隐喻延伸为「中断关系、服务或资源的供给」，是英语中最自然的中断表达之一，历史逾千年。",
-              "morphology": "短语/复合词，无独立词源可拆。名词形式 cutoff 意为「截止点、断点」（如 cutoff date 截止日期）。近义短语对比：cut ties（切断关系，侧重人际）、shut down（关闭，侧重系统）、revoke access（撤销访问权，更正式书面）。",
-              "mnemonic": "想象用剪刀「cut」然后「off」——咔嚓一声，电话线被剪断，对方的服务立刻消失。Anthropic 的 Fable 5 就是被这把剪刀一刀剪掉了访问权限：干净、利落、无法恢复。",
-              "exampleEn": "The cloud provider warned that it would cut off access to its services if the client continued to violate usage policies.",
-              "exampleCn": "该云服务提供商警告称，如果客户继续违反使用政策，将切断其服务访问权限。"
-            },
-            {
-              "word": "cybersecurity",
-              "pos": "n.",
-              "meaning": "网络安全（保护计算机系统、网络和数据免受攻击或未授权访问的技术领域）。此语境中「cybersecurity research」特指主动探测系统漏洞的研究行为，是推动 AI 监管的关键证据类型。与 information security 相比，cybersecurity 更聚焦于数字网络中的攻防对抗，语域更偏技术与政策。",
-              "etymology": "cyber- 来自希腊语 kybernetes（舵手、控制者），经 Norbert Wiener 的控制论（cybernetics，1948 年）传播，1990 年代数字革命中被广泛用作「网络/数字空间」前缀；security 来自拉丁语 securitas（se- 无 + cura 忧虑），原义为「无忧之状」。",
-              "morphology": "cyber-（前缀：数字/网络空间）+ security（安全）。同前缀词族：cyberattack（网络攻击）、cyberspace（网络空间）、cyber warfare（网络战）、cyber threat（网络威胁）。掌握 cyber- 前缀可快速理解整个网络安全词族，触类旁通。",
-              "mnemonic": "cyber- 就是「赛博朋克」里的「赛博」，代表数字世界。cyber + security = 赛博世界的安全卫士。想象一个穿着霓虹发光盔甲的战士守护着服务器机房——那就是 cybersecurity 的画面感。",
-              "exampleEn": "The startup raised $50 million to expand its cybersecurity platform, which uses AI to detect network intrusions in real time.",
-              "exampleCn": "该初创公司融资 5000 万美元，用于扩展其网络安全平台——该平台利用 AI 实时检测网络入侵行为。"
-            }
-          ]
-        },
-        {
-          "id": "20260615-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
-          "headlineEn": "Meta Moves to Unwind $2B Manus Deal After Beijing's Order",
-          "headlineCn": "北京施压后，Meta着手拆解20亿美元Manus收购案",
-          "summaryEn": "Meta is reportedly dismantling its $2 billion acquisition of Manus, an AI startup, after the Chinese government demanded the deal be reversed. The move marks a rare instance of Beijing directly compelling a major American tech company to unwind a completed acquisition. The episode underscores the growing complexity of cross-border tech deals involving Chinese-founded companies, and raises questions about the long-term viability of such transactions amid escalating geopolitical tensions between the US and China.",
-          "summaryCn": "据报道，Meta正着手拆解其对AI初创公司Manus价值20亿美元的收购交易，起因是中国政府要求撤销该协议。这是北京罕见地直接介入、迫使一家主要美国科技公司逆转已完成收购的案例。此事件凸显了跨境科技并购——尤其是涉及中国背景公司——日益复杂的局面，并引发外界对在中美地缘政治紧张态势持续升级背景下此类交易长期可行性的广泛质疑。",
-          "excerpt": "Meta is moving to dismantle its $2 billion acquisition of Manus after Beijing demanded the deal be reversed. The directive from Chinese authorities compels Meta to unwind the transaction — a rare case of a foreign government intervening to override a completed cross-border tech deal.",
-          "vocab": [
-            {
-              "word": "unwind",
-              "pos": "v.",
-              "meaning": "逆转、解除（交易或金融头寸）。在商业语境中特指撤销已完成的并购或投资，比 reverse 更具金融专业色彩，暗示「慢慢松开」而非「骤然打断」，常见于 M&A 报道和对冲基金语境，是财经新闻的核心搭配之一。",
-              "etymology": "古英语 unwindan，由 un-（逆向、反）加 windan（缠绕、旋转）构成。原义为「解开缠绕之物」，后延伸至商业和金融领域，表示「解除头寸或协议」，语义路径：解开绳子→解除合同。",
-              "morphology": "un-（反向前缀）加 wind（缠绕）。同类 un- 前缀词：undo（撤销）、unravel（解开）、unwrap（拆包）；wind 的派生词：rewind（倒带）、winding（蜿蜒的）、windfall（意外之财）。",
-              "mnemonic": "想象一份收购合同被卷成一卷绑着绳子，unwind 就是把它一圈圈解开——交易就这样被「松开」了。与 wind up a deal（完成交易）形成完美反义对，记住一个等于记住两个。",
-              "exampleEn": "The hedge fund was forced to unwind its leveraged positions after regulators flagged potential market manipulation.",
-              "exampleCn": "在监管机构标记出潜在市场操纵行为后，该对冲基金被迫平仓其杠杆头寸。"
-            },
-            {
-              "word": "dismantle",
-              "pos": "v.",
-              "meaning": "系统性地拆解、瓦解（组织、协议或设施）。比 destroy 温和，强调有序逐步分解，常用于描述拆分企业结构、撤销政策或基础设施，新闻中出现频率极高且语气严肃正式。",
-              "etymology": "来自法语 démanteler，由 dé-（去除）加 mantel（护墙、斗篷）构成。原义为「揭去要塞护墙」，即拆除城堡防御工事，后泛指「系统性拆解任何结构」，语义从军事延伸到商业。",
-              "morphology": "dis-（分离、去除前缀）加 mantle（外套、护层）。同类 dis- 词：disassemble（拆卸）、dissolve（解散）、disintegrate（瓦解）；mantle 的关联词：mantle（地幔、斗篷）、mantelpiece（壁炉台）。",
-              "mnemonic": "dis（分开）加 mantle（斗篷）= 把斗篷一块块剥掉。想象一件由收购协议做成的华丽盔甲，被北京的命令一片片卸下——这就是 dismantle 的画面感。",
-              "exampleEn": "The new CEO announced plans to dismantle the conglomerate's non-core divisions to refocus resources on its software business.",
-              "exampleCn": "新任CEO宣布计划拆解该集团的非核心部门，以将资源重新聚焦于核心软件业务。"
-            },
-            {
-              "word": "divestiture",
-              "pos": "n.",
-              "meaning": "资产剥离；企业出售或放弃子公司、部门或投资的正式行为。在并购和反垄断语境中极为高频，是监管机构要求企业「瘦身」时最常用术语，比 sell-off 更正式，比 disposal 更专业，读财经新闻必懂。",
-              "etymology": "来自拉丁语 divestire，由 di-/dis-（去除）加 vestire（穿衣、包裹）构成。原义为「脱去外衣」，法律和财务上引申为「剥离资产所有权」，语义路径：脱衣→脱离所有权关系。",
-              "morphology": "di-（去除）加 vest（赋予所有权，源自拉丁 vestire）加 -iture（名词后缀）。相关词族：divest（动词形式）、investiture（权力授予仪式）、invest（投资，原义「为其穿上权力之衣」）、divestment（较口语化的同义词）。",
-              "mnemonic": "di-（去）加 vest（背心/所有权）= 把资产的「背心」脱掉。想象反垄断机构强制让企业把子公司的「衣服」一件件脱下来交还——这就是 divestiture。",
-              "exampleEn": "Regulators approved the merger only on the condition that the company complete a divestiture of its cloud storage division within eighteen months.",
-              "exampleCn": "监管机构批准了该并购，但条件是公司须在十八个月内完成对其云存储部门的资产剥离。"
-            },
-            {
-              "word": "intervene",
-              "pos": "v.",
-              "meaning": "介入、干预（尤指政府或权威机构插手改变事态走向）。比 interfere 更中性甚至带有正当性色彩，在财经新闻中常用于描述政府对市场、并购或外交事务的干预，是描述「有权威方主动出手」的标准用词。",
-              "etymology": "来自拉丁语 intervenire，由 inter-（在……之间）加 venire（来）构成。原义为「走到中间来」，引申为「插手、介入、调停」，语义直观且历史悠久。",
-              "morphology": "inter-（之间）加 vene/vent（来，源自 venire）。同 inter- 前缀词：intercept（拦截）、interrupt（打断）、intermediate（中间的）；vene/vent 词根词：convention（惯例）、invention（发明）、prevent（预防，即「提前来到」阻止事件发生）。",
-              "mnemonic": "inter-（中间）加 vene（来）= 「走进中间来」。想象北京官员推开谈判桌，大步走到 Meta 和 Manus 之间喊「停」——这个动作就是 intervene。",
-              "exampleEn": "The central bank was prepared to intervene in currency markets to prevent further depreciation of the yuan.",
-              "exampleCn": "央行准备好干预外汇市场，以防止人民币进一步贬值。"
-            },
-            {
-              "word": "compel",
-              "pos": "v.",
-              "meaning": "强迫、迫使（某人做某事）。比 force 更正式，常出现在法律、监管或政治施压语境中，暗示存在权威关系和不可抗拒的外部压力；compelled to 是新闻写作中表达「被迫」的标准搭配，务必与 compelling（引人注目的）区分。",
-              "etymology": "来自拉丁语 compellere，由 com-（共同、加强语气）加 pellere（推、驱动）构成。原义为「强力驱赶」，法律英语中引申为「依权威强制要求」，语义路径：推动→强迫服从。",
-              "morphology": "com-（加强）加 pel（推动，源自 pellere）。同词根词：expel（驱逐）、repel（击退）、propel（推进）、impel（驱使）；派生词：compulsion（强迫，名词）、compulsory（强制性的，形容词）、compelling（引人注目的，形容词——注意语义已完全不同）。",
-              "mnemonic": "com-（强力）加 pel（推）= 「用力猛推」。想象北京用一只大手猛推 Meta，把它从 Manus 的办公室里推出去——这就是 compel。别忘了它的形容词 compelling 意思截然不同，是「令人信服的、引人注目的」。",
-              "exampleEn": "Antitrust authorities compelled the tech giant to share its proprietary data with smaller competitors as a condition of regulatory approval.",
-              "exampleCn": "作为监管批准的条件，反垄断当局强制要求这家科技巨头与规模较小的竞争对手共享其专有数据。"
-            }
-          ]
-        },
-        {
-          "id": "20260615-4",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/trump-says-u-s-had-reached-peace-deal-with-iran-57a93e56?mod=mw_rss_topstories",
-          "headlineEn": "U.S. and Iran Reach Peace Deal; Oil Prices Drop, Stock Futures Surge",
-          "headlineCn": "美伊达成和平协议，国际油价下跌、美股期货飙升",
-          "summaryEn": "President Trump announced Sunday that the U.S. and Iran have agreed to a peace deal, apparently ending months of conflict that had blocked the Strait of Hormuz — a critical shipping chokepoint — and triggered a severe global oil shock. Markets reacted swiftly: U.S. stock-index futures surged while crude oil prices fell sharply. The deal, if it holds, could ease supply chain pressures and reduce inflation risk tied to energy costs, marking a significant potential turning point for the global economy.",
-          "summaryCn": "美国总统特朗普周日宣布，美国与伊朗已就和平协议达成一致，这场持续数月、导致霍尔木兹海峡封锁并引发全球石油危机的冲突似乎即将落幕。市场迅速作出反应：美国股指期货大幅上涨，国际油价则显著下跌。若协议得以维持，有望缓解供应链压力，并降低与能源成本相关的通胀风险，或将成为全球经济的重要转折点。",
-          "excerpt": "Oil prices fell and U.S. stock-index futures jumped Sunday after President Trump said the U.S. has agreed to a peace deal with Iran, apparently ending months of hostilities that shut the Strait of Hormuz and sent the global economy into an oil shock.",
-          "vocab": [
-            {
-              "word": "broker",
-              "pos": "v.",
-              "meaning": "斡旋；促成（协议）。比 negotiate 更强调「第三方居中撮合」的角色，常见搭配：broker a deal / agreement / truce。在商业和外交语境中极为高频，暗示说话人作为中间人发挥了关键作用，语域偏正式。",
-              "etymology": "源自古法语 brocour（中间商、葡萄酒零售商），经中古英语演变而来。原指二手买卖的掮客，后扩展至任何「居中促成交易或协议」的行为，进入现代英语后动词用法在外交报道中尤为常见。",
-              "morphology": "单纯词根，派生词丰富：broker（n. 经纪人）→ brokerage（n. 经纪业务）→ stockbroker（n. 股票经纪人）→ power broker（n. 幕后掌权者）。-age 后缀表「行为或场所」，同类：storage、coverage。",
-              "mnemonic": "想象一个掮客（broker）手持两份合同，站在买卖双方之间大喊「I broke the deadlock!」——他「打破僵局」促成了交易。broke（打破）→ broker，音形相近，一个破僵局的人就是 broker。",
-              "exampleEn": "After weeks of talks, the investment bank brokered a merger agreement between the two rival streaming platforms.",
-              "exampleCn": "经过数周谈判，这家投资银行斡旋促成了两家竞争流媒体平台之间的并购协议。"
-            },
-            {
-              "word": "oil shock",
-              "pos": "n.",
-              "meaning": "石油冲击；石油危机。经济学专业术语，特指因石油供应骤降或价格剧烈波动对经济造成的系统性冲击。比 oil crisis 更强调「突发性」和「传导效应」，常见于宏观经济分析报告，是财经阅读必备词组。",
-              "etymology": "短语/复合词，无独立词源。shock 来自中古法语 choquer（碰撞），17世纪进入英语，后引申为「对经济或社会的猛烈冲击」。1973年阿以战争引发能源危机后，oil shock 成为固定经济学术语并沿用至今。",
-              "morphology": "短语/复合词，无独立词源。shock 同族词：aftershock（余震）、shockwave（冲击波）、culture shock（文化冲击）。oil 相关复合词：oilfield（油田）、oil rig（钻油台）、oil glut（供油过剩）。",
-              "mnemonic": "把 oil shock 想象成一桶石油突然砸向经济体——「砰」一声，所有价格链条同时震动。回忆1973年历史照片：加油站门口排起数公里长龙，那就是最著名的 oil shock 现场。",
-              "exampleEn": "The prolonged blockade of key shipping routes triggered an oil shock that pushed energy costs to decade-high levels across Asia.",
-              "exampleCn": "对关键航运线路的长期封锁引发了石油冲击，推动整个亚洲地区的能源成本攀升至十年高位。"
-            },
-            {
-              "word": "soar",
-              "pos": "v.",
-              "meaning": "急剧上涨；飙升。比 rise 和 increase 语气强烈得多，暗含「快速且幅度大」的意味，常用于股价、利润、需求等数据的大幅拉升。财经新闻标题的高频动词，掌握它能让写作更生动有力。程度梯度：rise < climb < surge < soar。",
-              "etymology": "源自古法语 essorer（展翅高飞），拉丁语 ex-（向外）+ aura（空气/微风）。原义为鸟类展翅乘气流上升，13世纪进入英语，后隐喻价格、情绪、信心等的急速攀升，至今兼具字面和比喻两种用法。",
-              "morphology": "单纯词根，派生词有限：soar（v./n.）→ soaring（adj. 飙升的；高空翱翔的）→ soaringly（adv. 极高地）。注意与 sore（疼痛）同音，是常见易混词，须靠语境区分。",
-              "mnemonic": "soar 和 eagle（鹰）是最佳搭档——老鹰展翅「嗖」一声冲上蓝天，和中文「嗖」谐音。股价图上一条垂直上升的线，就是 soar 的样子。记住：鹰飞多高，股价涨多猛。",
-              "exampleEn": "Shares of the chipmaker soared 18% in after-hours trading after it reported quarterly revenue that far exceeded analyst expectations.",
-              "exampleCn": "这家芯片制造商的股价在盘后交易中飙升18%，此前公司公布的季度营收远超分析师预期。"
-            },
-            {
-              "word": "blockade",
-              "pos": "n. / v.",
-              "meaning": "封锁（海峡、港口或边境）。军事和经济术语，指通过武力或政治手段系统性阻止物资或人员通行。比 block 更正式，带有「有组织、持续性地切断」的含义，常见于能源、航运和贸易报道。",
-              "etymology": "源自法语 blocus（封锁），借自荷兰语 blokkade，词根 block（阻塞）来自日耳曼语系。17世纪海战时代进入英语，最初专指「以舰队封锁港口」，后泛化为任何形式的系统性封锁行动。",
-              "morphology": "block（词根：阻塞）+ -ade（法语后缀，表动作或状态）。同后缀词：barricade（路障）、cascade（瀑布）。同词根词：blockage（n. 堵塞）、roadblock（n. 路障）、writer's block（写作瓶颈）。",
-              "mnemonic": "blockade = block（积木墙）+ -ade（柠檬水 lemonade 的后缀）。想象用一堆积木堆成的「block墙」横跨整条海峡，连柠檬水（lemonade）都运不过去——这就是 blockade 的窒息感。",
-              "exampleEn": "The naval blockade of the strait halted more than 20% of the world's oil shipments, sending energy prices to record highs within days.",
-              "exampleCn": "对该海峡实施的海上封锁使全球逾20%的石油运输中断，数日内便将能源价格推至历史高位。"
-            },
-            {
-              "word": "alleviate",
-              "pos": "v.",
-              "meaning": "缓解；减轻（压力、问题）。比 reduce 更书面正式，常见于经济报告和政策文件，典型搭配：alleviate pressure / tension / inflation / supply constraints。暗示「部分缓解而非彻底解决」，语气比 eliminate 温和，是财经写作的高级替换词。",
-              "etymology": "源自拉丁语 alleviare，由 ad-（向）+ levis（轻的）构成，原义「使变轻」。中世纪医学用语中指减轻病人痛苦，后逐渐扩展至减轻任何经济、社会或心理层面的负担或压力。",
-              "morphology": "al-（= ad-，向）+ levi-（词根：轻）+ -ate（动词后缀）。同词根词：levity（n. 轻浮）、elevate（v. 提升，e- 向外 + levare 举起）、lever（n. 杠杆）、relief（n. 缓解，re + lief 源自 levis）。",
-              "mnemonic": "alleviate 藏着 levi（轻）——想象 Levi 牛仔裤的标志：一匹马拉着两条裤腿，试图把它扯断，结果裤子太轻（levi）扛住了。负担减轻了，这就是 alleviate。或者记：elevate（向上提升）和 alleviate（减轻负担）都含 lev，都在让东西「变轻」。",
-              "exampleEn": "The central bank's rate cut is expected to alleviate borrowing pressure on small businesses hit hard by the recent economic slowdown.",
-              "exampleCn": "央行降息预计将缓解受近期经济放缓重创的小企业的借贷压力。"
-            }
-          ]
-        },
-        {
-          "id": "20260615-5",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/will-the-real-kevin-warsh-please-stand-up-ahead-of-his-first-fed-meeting-economists-honestly-dont-know-what-to-expect-6fa95c8c?mod=mw_rss_topstories",
-          "headlineEn": "Who Is Kevin Warsh? Economists Uncertain Ahead of His First Fed Meeting",
-          "headlineCn": "沃什首次主持美联储会议，经济学家莫衷一是",
-          "summaryEn": "Kevin Warsh chairs his first Federal Reserve meeting this week, but economists openly admit they have little idea what to expect. The new Fed chair, who served on the Fed Board in the 2000s, has expressed views across the monetary spectrum in recent years, leaving analysts guessing on his rate stance and communication style. His post-meeting press conference will command a captive audience of global investors eager for any clue on the path of U.S. monetary policy.",
-          "summaryCn": "凯文·沃什本周首次以美联储主席身份主持议息会议，但经济学家坦言对其政策立场难以判断。这位曾于2000年代担任美联储委员的新任主席，近年来公开发表的观点左右摇摆，令分析师无从推断其利率取向与沟通风格。会后新闻发布会将成为全球投资者的焦点，任何措辞都可能成为解读美国货币政策走向的关键信号。",
-          "excerpt": "Perhaps the only thing that can be said with certainty about Kevin Warsh's press conference following his first Federal Reserve meeting is that he will have a captive audience — markets worldwide are hanging on his every word, hoping for clarity on the future path of U.S. interest rates.",
-          "vocab": [
-            {
-              "word": "captive audience",
-              "pos": "phrase",
-              "meaning": "「被迫」在场聆听的受众；比喻无法离开、必须关注某场演讲或发布的人群。在商业语境中常描述投资者、记者等高度关注某场发布会的群体，比 interested audience 更强调「没得选」的被动性，语气略带幽默。值得学：这个短语将「被俘」的军事隐喻移植到传播语境，极为生动。",
-              "etymology": "captive 源自拉丁语 captivus（被俘的），词根 capere 意为「抓取、俘获」，与 capture 同源。audience 源自拉丁语 audientia（聆听），词根 audire 意为「听」。两词组合，字面义为「被俘的听众」，16世纪后引申为无法脱身只能听讲的受众。",
-              "morphology": "captive = cap-（抓取）+ -tive（形容词后缀）；同根词有 capture（捕获）、capacity（容量，原义「能抓住多少」）、caption（标题）。audience = audi-（听）+ -ence（名词后缀）；同根词有 audible（可听见的）、auditorium（礼堂）。",
-              "mnemonic": "想象 Fed 主席新闻发布会现场：记者们早早就座，门被锁上，没人能提前离开——他们就是「captives」（被俘者）。每次看到 captive audience，想到这扇锁上的门，就记住了「被迫在场的听众」。",
-              "exampleEn": "With the CEO's keynote set to address the product delays, analysts knew they would have a captive audience of frustrated shareholders.",
-              "exampleCn": "由于首席执行官的主题演讲将正面回应产品延期问题，分析师们清楚地知道，现场将坐满无处可逃的失望股东。"
-            },
-            {
-              "word": "tenure",
-              "pos": "n.",
-              "meaning": "任期；在职期间。特指某人担任某一职位的整段时间。与 term 的区别在于：term 强调合同规定的任期长度，tenure 更强调实际在职的经历与历史记录，带有评价色彩。在财经报道中极为常见，如「during her tenure as CFO」，值得熟记。",
-              "etymology": "源自拉丁语 tenura，由动词 tenere（持有、保持）演变而来，经由古法语 tenure 进入英语，原义为「持有土地或职位的权利」，后泛化为「担任某职位的期间」。",
-              "morphology": "词根 ten-（持有）+ 后缀 -ure（状态、结果）；同根词有 tenant（租户，持有房屋者）、tenacious（坚韧的，持续抓住不放）、retain（保留，re- + tain，再次持有）。",
-              "mnemonic": "TEN-ure：想象你在某个职位上「拿了十年（TEN years）」，这段时间就是你的 tenure（任期）。沃什的 tenure 作为 Fed 主席刚刚开始，只有第一次会议。",
-              "exampleEn": "During her tenure as CFO, the company's revenue grew from $2 billion to over $8 billion.",
-              "exampleCn": "在她担任首席财务官期间，公司营收从20亿美元增长至逾80亿美元。"
-            },
-            {
-              "word": "posture",
-              "pos": "n.",
-              "meaning": "（政策）立场；态度取向。财经语境中常见搭配为 monetary posture（货币政策立场）、accommodative posture（宽松立场）。比 stance 更生动，借用了「身体姿态」的隐喻，暗示一种对外展示的信号姿态，而非纯粹的内部决策，值得在描述央行或企业策略时优先使用。",
-              "etymology": "源自拉丁语 positura（位置、姿势），由 ponere（放置）的过去分词 positus 派生而来，经由意大利语 postura 进入英语，原义为身体姿势，后引申为对外展示的态度或立场。",
-              "morphology": "posit-（放置）+ -ure（名词后缀）；同根词有 position（位置、立场）、deposit（存款，de- + posit，向下放置）、impose（施加，im- + pose，向内放置）。",
-              "mnemonic": "想象央行主席站在台上的「姿势」——是挺胸收腹的强硬姿态（hawkish posture），还是弯腰放松的宽松姿态（dovish posture）？身体姿势就是政策立场，两个含义一个词，一张图全记住。",
-              "exampleEn": "The central bank shifted to a more accommodative posture after inflation fell below its 2% target for three consecutive months.",
-              "exampleCn": "在通胀连续三个月低于2%目标后，该央行将政策立场转向更为宽松的方向。"
-            },
-            {
-              "word": "dissent",
-              "pos": "v. / n.",
-              "meaning": "（正式场合的）异议、反对票；尤指委员会投票中的少数派意见。美联储 FOMC 会议中，委员可对决议投出反对票并记录在案，即为 dissent。它比 disagree 正式，带有「公开、有记录的反对」的含义，是阅读 Fed 纪要和政策分析文章的必备词汇。",
-              "etymology": "源自拉丁语 dissentire，由 dis-（分开、相反）+ sentire（感觉、思考）构成，原义为「感觉与众不同」，即「意见相左」。16世纪起广泛用于英语法律和政治语境。",
-              "morphology": "dis-（相反）+ sent-（感觉、思考）+ -ent（名词/动词后缀）；同根词有 consent（同意，con- + sent，一起感觉相同）、assent（赞同，as- + sent，朝向同一感觉）、sentiment（情感，感觉的结果）。",
-              "mnemonic": "dis- 表示「反对」，sent 联想「发送」——你把反对的信号「发送」出去，就是 dissent。想象 Fed 会议上一位委员孤独地举手投反对票，那张票就是他的 dissent，永远载入史册。",
-              "exampleEn": "Two Fed governors filed a dissent against the rate cut, arguing that inflation had not yet been sufficiently contained.",
-              "exampleCn": "两位美联储理事对降息决议投出异议票，认为通胀尚未得到充分控制。"
-            },
-            {
-              "word": "candor",
-              "pos": "n.",
-              "meaning": "坦率；直言不讳。在商业和政策沟通语境中，指公开、真实地表达立场，而非说模棱两可的官话。央行主席的 candor 程度直接影响市场对前瞻指引的解读。比 frankness 更正式，带有「经过深思后主动选择透明」的意味，常出现在对 CEO 或官员沟通风格的评价中。",
-              "etymology": "源自拉丁语 candor（白色、光亮、纯洁），由 candere（发光、发亮）派生，原义为「纯白无瑕」，后引申为「心灵纯洁→坦白诚实」。与 candle（蜡烛，发光之物）同词根。",
-              "morphology": "cand-（发光、纯白）+ -or（名词后缀，表状态）；同根词有 candle（蜡烛）、incandescent（白炽的，in- + cand- + -escent）、candid（坦诚的，同一词根的形容词形式）。",
-              "mnemonic": "Candle（蜡烛）的光是透明的、无处遮掩的——candor 就是「像蜡烛一样透明」的坦率。Fed 主席若有 candor，就像点亮蜡烛，让市场看清前进方向，没有阴影。Candle → candor，一字之差，光明磊落。",
-              "exampleEn": "Investors welcomed the new CEO's candor about the company's cash flow challenges, calling it a refreshing change from her predecessor's evasive statements.",
-              "exampleCn": "投资者对新任首席执行官坦率承认公司现金流困难的做法表示欢迎，称其相较于前任的回避措辞是令人耳目一新的转变。"
             }
           ]
         }
