@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-26T23:07:08.362379+00:00",
+  "lastUpdated": "2026-07-28T00:03:35.385472+00:00",
   "level": "B2",
   "days": {
+    "2026-07-28": {
+      "label": "7月28日 (周二)",
+      "stories": [
+        {
+          "id": "20260728-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+          "headlineEn": "Microsoft launches its first AI security model and a new agentic cybersecurity platform",
+          "headlineCn": "微软推出首款AI安全模型及智能体安全新系统",
+          "summaryEn": "Microsoft this week unveiled its first proprietary AI model built specifically for cybersecurity, alongside a new agentic security platform designed to detect and respond to threats with less human intervention. The model aims to analyze attack patterns and flag anomalies faster than existing tools, while the platform lets autonomous AI agents investigate incidents, triage alerts, and recommend fixes across a company's network. The launch signals Microsoft's push to embed AI deeper into enterprise security products, as cyberattacks grow more sophisticated and security teams struggle to keep pace with alert volumes.",
+          "summaryCn": "本周微软发布首款网络安全AI模型，并推出新的智能体安全平台。该模型分析攻击模式、快速识别异常；平台让AI智能体自主调查安全事件、分级警报并提出修复建议。此举显示微软正加速将AI嵌入企业安全产品，以应对日趋复杂的攻击和团队难以消化的海量警报。",
+          "excerpt": "Microsoft strengthened its AI-driven cybersecurity lineup this week, rolling out its first purpose-built security model alongside a new agentic platform. The system lets AI agents investigate alerts and respond to threats with minimal human oversight, as the company races to keep pace with increasingly sophisticated cyberattacks.",
+          "vocab": [
+            {
+              "word": "harden",
+              "pos": "v.",
+              "meaning": "加固，使更难被攻破；网络安全语境常用《harden a system/network》表示系统加固，比\"strengthen\"更专业、更具技术语域感。",
+              "etymology": "源自古英语 heard（坚硬的）+ 动词后缀 -en，本义\"使变硬\"，中世纪后引申出\"使更能抵抗攻击/侵蚀\"的比喻义，19世纪起广泛用于军事和工业语境。",
+              "morphology": "hard（坚硬，形容词）+ -en（动词后缀，表示\"使成为\"）；同类构词：strengthen, weaken, tighten。",
+              "mnemonic": "想象把一块软泥放进窑里烧硬——系统加固（harden）就是把松软的防御烧成坚硬的外壳，黑客的手指戳不进去。",
+              "exampleEn": "The IT team spent the weekend hardening its servers after the ransomware warning.",
+              "exampleCn": "收到勒索软件预警后，IT团队周末一直在加固服务器安全。"
+            },
+            {
+              "word": "foothold",
+              "pos": "n.",
+              "meaning": "立足点，引申为攻击者在系统中获得的初始入侵点；比\"access\"更形象，强调站稳脚跟、进一步扩张的动态过程。",
+              "etymology": "复合词，foot（脚）+ hold（抓握），源自古英语 fōt 和 haldan，字面指攀爬时脚能稳定站立之处，19世纪起衍生出军事、商业上《立足点、据点》的比喻义。",
+              "morphology": "foot（脚）+ hold（持有，抓牢）；同类比喻词：toehold（脚趾立足点），stronghold（据点）。",
+              "mnemonic": "想象攻击者像登山者一样，先找一个石缝（foothold）踩稳，然后才能一步步往上爬进入整个系统。",
+              "exampleEn": "Once hackers gain a foothold in the network, they often move laterally to reach sensitive data.",
+              "exampleCn": "黑客一旦在网络中获得立足点，往往会横向移动以接触敏感数据。"
+            },
+            {
+              "word": "safeguard",
+              "pos": "v./n.",
+              "meaning": "保护措施；作动词表示采取预防性手段防止损害，比\"protect\"更强调预先设置的防护机制，常见于合规与安全语境。",
+              "etymology": "源自古法语 sauvegarde，由 sauf（安全的，源自拉丁语 salvus）+ garde（守卫，源自法兰克语 wardōn）组成，14世纪进入英语，原指皇室颁发的保护令。",
+              "morphology": "safe（安全的）+ guard（守卫）；同源词：guardian, vanguard, rearguard。",
+              "mnemonic": "把safe（保险箱）和guard（保安）连在一起想象——safeguard就是给保险箱配一个保安，双重防护。",
+              "exampleEn": "The new platform includes automated safeguards that block suspicious login attempts in real time.",
+              "exampleCn": "这一新平台包含自动化防护措施，可实时拦截可疑的登录尝试。"
+            },
+            {
+              "word": "sandbox",
+              "pos": "n./v.",
+              "meaning": "沙盒，隔离测试环境；网络安全中指将可疑程序放入隔离空间运行观察，不影响真实系统，是《隔离试运行》概念在科技语境下的核心术语。",
+              "etymology": "字面指儿童玩耍用的沙坑（sand + box），20世纪计算机领域借用这一意象，指代可自由试验、出错也不会波及外部的隔离环境，1990年代起成为安全领域标准术语。",
+              "morphology": "sand（沙）+ box（盒子）；类似比喻构词：playground（游乐场，喻指自由试验空间）。",
+              "mnemonic": "想象小孩在沙盒里堆城堡、挖洞，就算弄乱了也不会影响客厅——可疑程序在sandbox里捣乱，也不会波及真实系统。",
+              "exampleEn": "The security model runs unfamiliar files in a sandbox before allowing them onto the main network.",
+              "exampleCn": "该安全模型会先在沙盒环境中运行不熟悉的文件，然后才允许其进入主网络。"
+            },
+            {
+              "word": "spearhead",
+              "pos": "v.",
+              "meaning": "率先推动，领头发起；比\"lead\"更具画面感和攻击性隐喻，常用于描述公司或团队在某项技术、行动中打头阵。",
+              "etymology": "复合词，spear（矛，源自古英语 spere）+ head（矛头），字面指长矛最前端的尖锐部分，17世纪起引申为率先突破、打头阵的军事比喻，20世纪广泛用于商业与政治语境。",
+              "morphology": "spear（矛）+ head（头部/前端）；类似构词：arrowhead（箭头），forefront（最前沿）。",
+              "mnemonic": "想象一支长矛（spear）冲锋时，矛头（head）永远最先刺入敌阵——spearhead就是打头阵、领头冲锋的那个人或项目。",
+              "exampleEn": "Microsoft is spearheading efforts to bring autonomous AI agents into enterprise cybersecurity.",
+              "exampleCn": "微软正率先推动将自主AI智能体引入企业网络安全领域。"
+            }
+          ]
+        },
+        {
+          "id": "20260728-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/",
+          "headlineEn": "As Rivals Chase Acquisitions, Peacock Bets on Bundles Through New YouTube Deal",
+          "headlineCn": "对手忙并购，孔雀台押注捆绑策略，与YouTube达成新协议",
+          "summaryEn": "While competitors like Warner Bros. Discovery and Paramount pursue costly acquisitions to strengthen their streaming portfolios, NBCUniversal is taking a different tack. Peacock has struck a distribution deal with YouTube that lets subscribers watch its shows and movies directly inside the YouTube app, without switching platforms. The partnership reflects a broader industry shift: rather than buying rivals outright, media companies are increasingly bundling content and distribution to reach viewers wherever they already spend their time, cutting costs while expanding audience reach.",
+          "summaryCn": "华纳探索、派拉蒙等对手忙于砸钱并购、扩充流媒体版图之际，NBC环球旗下Peacock却另辟蹊径：与YouTube达成协议，让用户无需切换平台即可在YouTube内观看其剧集和电影。这折射出行业新趋势——与其收购对手，媒体公司更愿捆绑内容与渠道，在用户已聚集之处触达观众，既省钱又能扩大覆盖面。",
+          "excerpt": "The deal integrates Peacock's content directly into the YouTube experience, letting viewers discover and watch NBCUniversal's shows and movies without ever leaving the platform. It's a distribution play that sidesteps the acquisition arms race gripping much of the streaming industry this year.",
+          "vocab": [
+            {
+              "word": "bundle",
+              "pos": "v./n.",
+              "meaning": "捆绑（销售/整合）；n.捆绑套餐。商业语境中常指把多个产品或服务打包销售、整合渠道，比同义词combine更贴近电信、媒体行业的定价与分销策略术语。",
+              "etymology": "源自中古英语bundel，意为一捆、一束（如柴捆），14世纪起使用，19世纪后期扩展出商业上捆绑销售的引申义。",
+              "morphology": "词根bund-（捆扎之意，与bind同源）+名词后缀-le，指小捆之物；由名词转化为动词表示捆绑。同源词：bind, bond, bundle up。",
+              "mnemonic": "想象一捆报纸(bundle of newspapers)被绳子扎在一起——商业上的bundle就是把内容、服务像报纸一样捆在一起卖给你。",
+              "exampleEn": "Telecom operators often bundle streaming subscriptions with mobile plans to boost customer retention.",
+              "exampleCn": "电信运营商常常把流媒体订阅与手机套餐捆绑销售，以提高客户留存率。"
+            },
+            {
+              "word": "friction",
+              "pos": "n.",
+              "meaning": "（交易或使用中的）阻力、摩擦成本；商业语境常用来形容用户完成某个动作（购买、切换、观看）时遇到的不便，比difficulty更精准地暗示本可避免的小阻碍。",
+              "etymology": "源自拉丁语fricare（摩擦）的过去分词frictus，16世纪进入英语表示物理摩擦，20世纪后广泛引申为经济、用户体验中的阻力。",
+              "morphology": "词根fric-（摩擦）+名词后缀-tion。同根词：friction, frictionless, fricative（语音学摩擦音）。",
+              "mnemonic": "联想两块砂纸互相摩擦(friction)发热——用户体验里的friction就是那种让人不舒服、想放弃的阻力感。",
+              "exampleEn": "By embedding its shows in YouTube, Peacock hopes to remove the friction of switching apps.",
+              "exampleCn": "通过把节目嵌入YouTube，Peacock希望消除用户切换应用的阻力。"
+            },
+            {
+              "word": "gatekeeper",
+              "pos": "n.",
+              "meaning": "把关者、渠道守门人；指掌握流量入口、决定内容能否触达用户的平台或中间方，商业媒体语境中常用来描述YouTube、应用商店这类掌握分发权的巨头。",
+              "etymology": "复合词，字面意为看守大门的人，最早指看守城门或庄园门的守卫，20世纪中期起被新闻学和传播学借用，泛指信息流通的把关角色。",
+              "morphology": "gate（门）+keeper（看守者，来自动词keep）。同类复合词：housekeeper, timekeeper, bookkeeper。",
+              "mnemonic": "想象YouTube像一座城堡的守门人(gatekeeper)，决定哪些内容能顺利进城、被观众看到。",
+              "exampleEn": "Streaming platforms increasingly rely on tech gatekeepers like YouTube to reach new audiences.",
+              "exampleCn": "流媒体平台越来越依赖YouTube这类科技把关者来触达新观众。"
+            },
+            {
+              "word": "cannibalize",
+              "pos": "v.",
+              "meaning": "（新业务或产品）蚕食自家原有业务；商业语境特指公司推出新渠道或产品时反而抢走自己原有产品的用户或收入，比compete with更强调自己人打自己人的负面含义。",
+              "etymology": "源自cannibal（食人者，16世纪西班牙语经由加勒比原住民语言进入英语），20世纪初商业英语借用其自我吞噬的意象，形容企业内部业务互相侵蚀。",
+              "morphology": "cannibal（食人者）+动词化后缀-ize。同源词：cannibal, cannibalism, cannibalistic。",
+              "mnemonic": "想象一家公司的新产品像同类相食(cannibalize)一样，反过来吃掉了自己老产品的用户。",
+              "exampleEn": "Executives worried the YouTube deal might cannibalize traffic to Peacock's own app.",
+              "exampleCn": "高管们担心这项YouTube协议可能会蚕食Peacock自家应用的流量。"
+            },
+            {
+              "word": "monetize",
+              "pos": "v.",
+              "meaning": "将流量、内容或用户变现；商业与科技语境高频词，强调把非直接收入的资源（如浏览量、用户注意力）转化为实际收益，比笼统的earn money更专业、更贴合互联网行业表达。",
+              "etymology": "源自拉丁语moneta（货币，源自女神Juno Moneta的神庙，古罗马铸币厂所在地），19世纪本指使某物成为法定货币，20世纪末互联网时代衍生出将资源转化为收入的新义。",
+              "morphology": "money（钱）+动词后缀-ize（使…化）。同源词：money, monetary, monetization, demonetize。",
+              "mnemonic": "把monetize拆成money+ize——就是把它变成钱，无论是内容、流量还是用户数据。",
+              "exampleEn": "Media companies are experimenting with new ways to monetize content across third-party platforms.",
+              "exampleCn": "媒体公司正在尝试通过第三方平台探索内容变现的新方式。"
+            }
+          ]
+        },
+        {
+          "id": "20260728-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
+          "headlineEn": "Kalshi Traders Bet on Which Words Fed Chair Warsh Will Utter This Week",
+          "headlineCn": "卡尔希交易员押注沃什本周记者会将说出的关键词",
+          "summaryEn": "Traders on the prediction market Kalshi are wagering on which specific words new Fed Chairman Kevin Warsh will use at this week's press conference, ranging from 'oil' to 'shock.' Many bettors expect him to reference last week's oil-related supply shock. This unusual betting activity shows how closely investors now scrutinize every phrase from Fed officials, turning individual words into tradable signals about the central bank's next move on interest rates.",
+          "summaryCn": "预测市场卡尔希的交易者正押注美联储新任主席沃什本周记者会上会说出哪些具体词汇，从《石油》到《冲击》不等，许多人预计他会提到上周的石油供给冲击。这场不寻常的押注反映出投资者如今对美联储官员的每一句措辞都高度敏感，甚至把单个词汇变成了可交易的政策信号。",
+          "excerpt": "Kalshi traders are betting on which words Federal Reserve Chairman Kevin Warsh will use during this week's press conference, with wagers ranging from 'oil' to 'shock.' Most expect him to acknowledge last week's supply shock in oil markets, treating his exact phrasing as a signal for future monetary policy.",
+          "vocab": [
+            {
+              "word": "wager",
+              "pos": "v./n.",
+              "meaning": "押注、打赌；比bet更书面、专业，常用于金融预测市场和正式语境中描述下注某个结果的行为，比日常口语的bet更适合财经报道语域。",
+              "etymology": "源自古法语wagier，意为承诺、抵押，与wage同根，原指以物担保履行承诺，14世纪进入英语后逐渐专指下注、打赌。",
+              "morphology": "wage(承诺/抵押)+ -r 名词化；同源词有wage(工资，原指承诺支付)、engage(卷入承诺)、mortgage(抵押，mort+gage)。",
+              "mnemonic": "想象wage(工资)被你拿去wager(打赌)——工资和赌注同根，都关乎承诺兑现，把钱押上去博一个结果。",
+              "exampleEn": "Traders on Kalshi are wagering real money on which buzzwords the Fed chair will use.",
+              "exampleCn": "卡尔希平台上的交易者正用真金白银押注美联储主席会用到哪些关键词。"
+            },
+            {
+              "word": "hawkish",
+              "pos": "adj.",
+              "meaning": "(货币政策)鹰派的，倾向收紧、强调抗通胀；与dovish(鸽派)相对，是解读美联储表态时最核心的一对反义词，必须成对掌握。",
+              "etymology": "源自古英语hafoc(鹰)，鹰是猛禽、主动出击的捕食者，19世纪美国政治语境中借用鹰象征强硬、主动的立场，20世纪后期扩展到货币政策语境。",
+              "morphology": "hawk(鹰)+ -ish(形容词后缀，表具有…特征的)；同类构词如boyish、childish、bookish，均表带有该名词特质。",
+              "mnemonic": "鹰(hawk)俯冲捕猎、动作凌厉——鹰派官员讲话强硬、主动加息出击，就像鹰扑向猎物一样果断。",
+              "exampleEn": "Investors read his hawkish remarks as a signal that rate cuts are off the table.",
+              "exampleCn": "投资者将他的鹰派言论解读为降息已被排除在外的信号。"
+            },
+            {
+              "word": "handicap",
+              "pos": "v.",
+              "meaning": "预估、评估(某事的胜算/难度)；源自赛马术语，金融媒体常用来形容分析师给...打分排队、预测胜出概率，比predict更带专业赌盘色彩。",
+              "etymology": "源自17世纪英国赌博游戏hand in cap(把手放进帽子里抽签定输赢)，后专指赛马中为拉平胜率而加重较强马匹负重，19世纪引申为泛指评估相对胜算。",
+              "morphology": "hand(手)+ in + cap(帽子)三词缩合成一词；引申义中常见搭配handicapper(赛马预测师)、handicapping(评估胜率)。",
+              "mnemonic": "想象赛马前，人们把纸条塞进帽子(hand in cap)抽签定负重——后来handicap就变成给各方胜算打分的动作。",
+              "exampleEn": "Analysts are handicapping the odds that the Fed will pause hikes through year-end.",
+              "exampleCn": "分析师们正在评估美联储今年剩余时间暂停加息的可能性。"
+            },
+            {
+              "word": "hedge",
+              "pos": "v./n.",
+              "meaning": "对冲、留后路；金融语境下指同时押注相反方向以降低风险，日常语境也可指说话留有余地(hedge one's words)，一词兼具交易与修辞双重用法。",
+              "etymology": "源自古英语hecg(树篱)，树篱是田地边界，引申为设置边界、留出保护空间，17世纪起进入金融领域表示用反向操作设边界防风险。",
+              "morphology": "单音节词根，无前后缀；常见派生hedger(对冲者)、hedge fund(对冲基金)、unhedged(未对冲的)。",
+              "mnemonic": "把hedge想象成花园里的树篱(hedge)——既是边界也是屏障，金融对冲就是给风险筑一道篱笆挡住损失。",
+              "exampleEn": "Some traders hedged their word bets by wagering on multiple likely phrases.",
+              "exampleCn": "一些交易者通过同时押注多个可能出现的短语来对冲自己的赌注。"
+            },
+            {
+              "word": "utterance",
+              "pos": "n.",
+              "meaning": "(正式场合的)言辞、发言；比words或remarks更强调说出口的具体话语这一行为本身，常用于分析官员措辞的语言学/媒体报道语境。",
+              "etymology": "源自中古英语utteren(说出、表达)，该词又源自古英语ut-(向外的，与out同源)，本义是把内心想法向外发出。",
+              "morphology": "utter(说出/向外的)+ -ance(名词后缀，表行为或结果)；同根词utter(v.发出声音)、outer(向外的，同源于ut-)。",
+              "mnemonic": "utter和outer同源——想象把话从嘴里往外(outer)吐出来，就是utter(说出)，而这个动作的结果就叫utterance。",
+              "exampleEn": "Traders scrutinized every utterance from the Fed chair for hints about future policy.",
+              "exampleCn": "交易者仔细审视美联储主席的每一句发言，寻找未来政策的蛛丝马迹。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-27": {
       "label": "7月27日 (周一)",
       "stories": [
@@ -7021,326 +7215,6 @@
               "mnemonic": "co-NUN-drum → 想象一群「修女（nun）」坐在「鼓（drum）」上集体开会，讨论一道谁也解不开的谜题——conundrum 就是那种「连修女开会也解不了」的终极难题，够难了吧？",
               "exampleEn": "The central bank faces a conundrum: raising rates to curb inflation risks tipping the economy into recession.",
               "exampleCn": "央行面临两难困境：加息以遏制通胀，有可能将经济推入衰退。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-22": {
-      "label": "6月22日 (周一)",
-      "stories": [
-        {
-          "id": "20260622-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-          "headlineEn": "When the Trump administration cracks down on Anthropic, who benefits?",
-          "headlineCn": "特朗普政府打压Anthropic，谁将从中获益？",
-          "summaryEn": "The Trump administration's recent regulatory moves against Anthropic, the AI safety company backed by Amazon and Google, have raised urgent questions about both motive and consequence. While the precise trigger remains unclear, analysts suggest competitors could gain market ground if Anthropic faces operational constraints. The episode underscores a broader tension: government intervention intended to rein in one player often reshapes the entire competitive landscape in ways that are unpredictable and far-reaching.",
-          "summaryCn": "特朗普政府近期对AI安全公司Anthropic发起监管行动，引发外界对其动机及潜在影响的广泛讨论。究竟是什么触发了这次打压？哪些竞争对手可能从中获益？科技媒体TechCrunch的播客节目「Equity」对此展开深度分析，指出政府对单一企业的干预，往往会以出人意料的方式重塑整个行业的竞争格局，其连锁效应值得AI生态系统中的各方密切关注。",
-          "excerpt": "On the latest episode of Equity, analysts examined what actually prompted the Trump administration's moves against Anthropic — and asked which AI players stand to benefit when a key rival suddenly faces government pressure and potential operational constraints.",
-          "vocab": [
-            {
-              "word": "beneficiary",
-              "pos": "n.",
-              "meaning": "受益人、受益方。比「winner」更正式，常用于法律、金融和政策分析，暗含「因外部环境变化而获益，而非主动争取」的语义色彩。财经报道中描述竞争格局变化时的高频词，值得重点掌握。",
-              "etymology": "源自拉丁语 beneficium（恩惠），由 bene（好）+ facere（做）构成，原义为「获得恩惠之人」。16世纪进入英语，最初指遗嘱受益人，后扩展为泛指所有「因外部事件而获益的一方」。",
-              "morphology": "bene-（好、有益）+ fic-（做，来自 facere）+ -ary（……的人）。同词根词：benefactor（恩人）、beneficial（有益的）、benefit（利益）。前缀 bene- 同族词：benevolent（仁慈的）、benign（良性的）。",
-              "mnemonic": "把 beneficiary 拆成「benefit（好处）+ -ary（人）」，就是「得到好处的那个人」。想象遗嘱宣读现场，律师宣布「您是受益人」，那人立刻露出笑容——画面自带情绪，难以忘怀！",
-              "exampleEn": "The smaller AI startups were the unexpected beneficiaries of the regulatory probe into their larger rival.",
-              "exampleCn": "在对大型竞争对手展开监管调查之后，规模较小的AI创业公司意外成为了受益方。"
-            },
-            {
-              "word": "antitrust",
-              "pos": "adj. / n.",
-              "meaning": "反垄断（的）；指旨在防止企业垄断市场、保护竞争秩序的法律体系或政府行动。美国法律语境中几乎只用 antitrust，而非 anti-monopoly，是读懂科技监管报道的核心词汇，务必掌握。",
-              "etymology": "anti-（反对）+ trust（托拉斯）。「trust」在19世纪末美国专指石油、铁路等大型垄断企业联合体（如洛克菲勒的 Standard Oil Trust），1890年《谢尔曼反垄断法》（Sherman Antitrust Act）专门针对这类「trust」而立，词义由此固定。",
-              "morphology": "anti-（反、对抗）+ trust（托拉斯/信托）。前缀 anti- 同族词：antibody（抗体）、antidote（解毒剂）、antipathy（反感）。注意此处 trust 是历史特定含义，与日常「信任」义截然不同。",
-              "mnemonic": "anti = 反对，trust = 托拉斯（垄断巨头）。想象19世纪洛克菲勒的石油帝国像章鱼一样伸出触角垄断一切，「antitrust law」就是来剪掉那些触角的法律剪刀——画面感极强！",
-              "exampleEn": "The Justice Department launched an antitrust investigation into whether the company's exclusive data agreements stifled competition.",
-              "exampleCn": "司法部启动了一项反垄断调查，以确认该公司的独家数据协议是否阻碍了市场竞争。"
-            },
-            {
-              "word": "windfall",
-              "pos": "n.",
-              "meaning": "意外横财、意外收益。原指被风吹落的果实（不劳而获），引申为「因外部事件带来的非预期巨额收益」。比「unexpected gain」生动，财经报道中常用于描述监管打压、竞争对手受挫后的连锁获益者，语感鲜活。",
-              "etymology": "源自中世纪英语，字面义为「风吹落之物」（wind + fall），最初指被风吹倒的树或吹落的果实，农民可免费捡拾。15世纪起引申为「意外之财」，现多用于形容政策或市场事件带来的非预期收益，衍生出 windfall tax（暴利税）等常见搭配。",
-              "morphology": "wind（风）+ fall（落下）。简单复合名词，无独立词缀。常见搭配：windfall tax（暴利税）、windfall profit（意外利润）。类比同构词：rainfall（降雨量）、downfall（垮台）、shortfall（缺口）——fall 系列复合词规律强。",
-              "mnemonic": "想象一棵苹果树，一阵大风吹来，苹果哗哗落了一地，你啥都没干就捡了满筐——这就是 windfall（风落果）。对应竞争语境：Anthropic被打压，竞争对手「捡」到了意外的市场份额！",
-              "exampleEn": "The antitrust investigation into the market leader proved to be a windfall for smaller competitors, who quickly gained market share.",
-              "exampleCn": "针对市场领导者的反垄断调查意外成为了小型竞争对手的横财，它们迅速瓜分了大量市场份额。"
-            },
-            {
-              "word": "probe",
-              "pos": "v. / n.",
-              "meaning": "（正式）调查、审查；作名词指「调查行动」。是英美新闻标题的超高频词（字短、有力），比「investigate」更简洁，常见搭配：「launch a probe」「congressional probe」「probe into」。暗含「深入探查、寻找证据」的语义，务必与 investigate 一起掌握。",
-              "etymology": "源自拉丁语 proba（检验、测试），与 probare（检验、证明）同源。14世纪进入英语，最初是医学术语指「探针」（插入伤口检查深度的器具），后引申为「深入调查」。如今 probe 既指具体探针（太空探测器），也指抽象的正式调查行动。",
-              "morphology": "来自拉丁词根 prob-（检验、验证）。同词根词：prove（证明）、approve（批准）、probable（可能的）、probation（试用期/缓刑），均含「检验/验证」之义。probe 本身即为词根直接形态，无前后缀。",
-              "mnemonic": "probe = 探针。想象医生用细长探针插入伤口，仔细检查每个角落——这个「深入、仔细探查」的动作感，正好对应调查时「刨根问底」的含义。记住「probe = 探针式深挖」！",
-              "exampleEn": "Regulators announced they would probe the merger to determine whether it would reduce competition in the cloud computing market.",
-              "exampleCn": "监管机构宣布将对此次并购展开调查，以确认其是否会削弱云计算市场的竞争格局。"
-            },
-            {
-              "word": "zero-sum",
-              "pos": "adj.",
-              "meaning": "零和（的）；来自博弈论，指一方所得必然等于另一方所失、总收益为零的竞争态势。固定搭配「zero-sum game」（零和博弈）极为常见。与之对立的是「positive-sum」（正和，各方均可获益）。掌握此词能大幅提升读懂竞争分析文章的能力。",
-              "etymology": "来自博弈论（game theory）术语，由数学家约翰·冯·诺依曼于20世纪中叶系统化。zero（零）+ sum（总和，来自拉丁语 summa，意为「最高点/总量」），即所有参与者收益之和恒为零。1960年代后广泛进入政策和商业语言，成为描述竞争格局的核心词汇。",
-              "morphology": "zero（零）+ sum（总和，来自拉丁语 summa）。复合形容词，通常带连字符。sum 的同源词：summary（摘要）、summit（峰会，最高点）、consummate（完美的）。对比词族：positive-sum（正和）、non-zero-sum（非零和）——掌握这组对比词可举一反三。",
-              "mnemonic": "想象两个人分一块蛋糕——你多得一块，我就少一块，总量不变，这就是 zero-sum（零和）。若两人合作把蛋糕做大，双赢就是 positive-sum（正和）。AI竞争中，打压一家未必等于对手净赚，因为整个蛋糕可能同时缩小！",
-              "exampleEn": "Not all competition in the AI sector is zero-sum; a rising tide of adoption can lift revenues for multiple players simultaneously.",
-              "exampleCn": "AI领域的竞争并非全是零和博弈，用户使用量的整体提升可以同时推动多家公司的营收增长。"
-            }
-          ]
-        },
-        {
-          "id": "20260622-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-          "headlineEn": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-          "headlineCn": "iOS 27最实用的AI功能，藏在Siri之外",
-          "summaryEn": "Apple's WWDC showcase put Siri's AI overhaul front and center, but iOS 27's most impactful intelligence upgrades are quietly embedded in everyday apps—Photos, Mail, Notes, and the keyboard. These on-device features handle summarization, transcription, and contextual suggestions without sending data to the cloud, making them faster and more privacy-friendly. For most users, these under-the-radar additions may prove more transformative than the headline-grabbing Siri redesign Apple spent hours demoing on stage.",
-          "summaryCn": "苹果在WWDC发布会上将Siri的AI升级推到了聚光灯下，但iOS 27中最具实际价值的智能功能，其实悄悄分布在相册、邮件、备忘录和系统键盘等日常应用之中。这些「设备端」功能无需将数据上传至云端，便可完成内容摘要、语音转写和上下文建议，不仅响应速度更快，也更有利于保护用户隐私。对大多数普通用户而言，这些低调的新功能或许比苹果在台上花大篇幅演示的Siri改版，更能切实改变日常使用体验。",
-          "excerpt": "Siri's AI overhaul may have grabbed the headlines at WWDC, but some of Apple's most useful AI features are quietly arriving in Photos, Mail, and Notes—on-device tools that handle transcription, summarization, and contextual suggestions without a cloud round-trip.",
-          "vocab": [
-            {
-              "word": "grab the headlines",
-              "pos": "phrase",
-              "meaning": "占据头条、引发广泛关注。比「attract attention」更生动，隐含「抢走聚光灯」的竞争感，媒体和商业报道中极常见，尤其用于对比「哗众取宠的事物」与「低调但重要的事物」，是科技发布会报道的高频套语",
-              "etymology": "短语/复合词，无独立词源。「grab」源自中古英语 grabben，意为「抓取」；「headline」17世纪指印刷品顶部的大标题，后引申为新闻焦点。两词合用约在19世纪末新闻业兴起时形成固定搭配",
-              "morphology": "短语由动词 grab + 定冠词 the + 名词 headline 构成。headline 可拆解为 head（首位）+ line（行）。同类搭配扩展：make the headlines（登上头条）、dominate the headlines（主导新闻周期）、steal the spotlight（抢走聚光灯）",
-              "mnemonic": "想象一个人双手「抓住」（grab）报纸的巨型「标题」（headline）不松手——Siri 在发布会上就是这样把所有目光「强行抢走」的。记住：grab 动作越猛，说明新闻越轰动",
-              "exampleEn": "The electric vehicle startup grabbed the headlines with a record-breaking IPO, overshadowing its quieter but far more profitable battery division.",
-              "exampleCn": "这家电动汽车初创公司以创纪录的IPO占据头条，反而让其更为盈利的电池业务黯然失色。"
-            },
-            {
-              "word": "on-device",
-              "pos": "adj.",
-              "meaning": "在设备本地运行的（而非依赖云端服务器）。AI与隐私语境中的核心术语，与 cloud-based 直接对立，暗含「数据不离开手机」的隐私保障承诺，是理解苹果、谷歌AI战略差异的必备词",
-              "etymology": "复合形容词，无独立词源。由介词短语 on device 加连字符构成，约2010年代随移动端AI兴起而普及。device 源自古法语 devis，意为「计划、设计」，后演变为「装置、设备」",
-              "morphology": "on-（介词前缀，表示「在……之上/之内」）+ device（装置）。同类构词模式：on-premise（本地部署）、on-chip（芯片内置）、on-board（板载）。反义词组：cloud-based、server-side、off-device",
-              "mnemonic": "「on」= 在上面，「device」= 设备——数据就待在设备「上面」，不飞去云端。类比：on-campus（在校内）vs off-campus（在校外），on-device 就是「数据不出门」，隐私留家里",
-              "exampleEn": "Apple's on-device processing ensures that health metrics analyzed by the iPhone remain private, with no information transmitted to external servers.",
-              "exampleCn": "苹果的设备端处理确保iPhone分析的健康数据保持私密，不会传输至任何外部服务器。"
-            },
-            {
-              "word": "roll out",
-              "pos": "phrasal v.",
-              "meaning": "逐步推出、分阶段部署（产品、功能或政策）。比「launch」更强调「循序渐进」的过程，科技与商业报道中极高频，常搭配 gradually、in phases、to all users 等修饰语；名词形式 rollout 同样常见",
-              "etymology": "短语动词，无独立词源。roll 源自古法语 roler，原指「滚动」，引申为「展开地图或画卷」，再演变为商业语境中「逐步铺开某事物」。20世纪中期起在军事物资调配和商业发布中固定使用",
-              "morphology": "roll（滚动/展开）+ out（向外延伸）。同类短语：roll back（回滚/撤销）、roll up（汇总归并）、phase in（逐步引入）、push out（强制推送）。名词形式：rollout（无空格，指一次发布行动）",
-              "mnemonic": "想象把一张大地毯「向外缓缓滚动展开」——新功能就像地毯，从边缘慢慢铺向全体用户。特别注意：rollout（名词，一次性发布）与 roll out（动词短语）拼写不同，别混淆",
-              "exampleEn": "The software company plans to roll out the AI writing assistant to enterprise clients first before expanding access to individual subscribers.",
-              "exampleCn": "该软件公司计划先向企业客户推出AI写作助手，再逐步开放给个人订阅用户。"
-            },
-            {
-              "word": "ambient",
-              "pos": "adj.",
-              "meaning": "环境的、周围的；在科技语境中特指「隐于后台、无需主动触发、无感知地运行」的计算或智能。「ambient intelligence / ambient computing」是AI领域重要概念，描述技术融入日常环境而非需要显式指令的状态",
-              "etymology": "源自拉丁语 ambiens（现在分词形式），意为「围绕四周的」，来自 amb-（四周）+ ire（行走），字面义为「在周围行走的」。17世纪进入英语，最初描述「环境光线或温度」，21世纪延伸至「环境计算」领域",
-              "morphology": "ambi-（前缀，意为「两侧/周围」，源自拉丁语）+ -ent（形容词后缀）。同前缀词横向扩展：ambiguous（模棱两可）、ambidextrous（双手灵巧）、ambiance / ambience（氛围、环境感）",
-              "mnemonic": "ambi = 「两侧都有/四周包围」，就像空气「环绕」你——ambient 智能就像空气，你感觉不到它存在，但它无处不在地为你服务。记住口诀：ambi = around（环绕四周）",
-              "exampleEn": "Tech giants are racing to build ambient AI that anticipates user needs throughout the day without requiring explicit voice commands or screen taps.",
-              "exampleCn": "科技巨头们正争相打造「环境AI」，使其能全天候预判用户需求，无需明确的语音指令或屏幕操作触发。"
-            },
-            {
-              "word": "upstage",
-              "pos": "v.",
-              "meaning": "使……相形见绌、抢走……的风头。源自剧院专业术语，现广泛用于科技和商业报道，描述某产品、功能或事件压过另一个。比 overshadow 更含「主动争抢」的竞争意味，科技发布会报道中尤为常见",
-              "etymology": "源自剧院术语。舞台分「前台」（downstage，靠近观众）与「后台」（upstage，远离观众）。站在 upstage 区域的演员会迫使其他演员背对观众。19世纪末引申为「夺走他人风头」，后进入商业和媒体语境",
-              "morphology": "up-（方向前缀，表示向后/向上）+ stage（舞台）。同类舞台词汇：backstage（幕后）、downstage（前台区）、center stage（舞台中央，引申为「焦点位置」）。常见搭配：upstage a rival、be upstaged by something",
-              "mnemonic": "想象舞台上一个演员「强行走到高处后台」（upstage），逼得前台演员不得不转身背对观众——于是前者「失去所有目光」。Siri 就是那个强势占据高台的演员，让其他iOS功能全成了配角",
-              "exampleEn": "Samsung's foldable phone launch was completely upstaged by Apple's surprise announcement of a thinner, lighter model released the very same week.",
-              "exampleCn": "三星可折叠手机的发布会被苹果同周突然宣布的更薄更轻新机型彻底抢走了风头。"
-            }
-          ]
-        },
-        {
-          "id": "20260622-3",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/microns-earnings-are-a-must-watch-market-event-with-profit-growth-approaching-1-000-78ec4549?mod=mw_rss_topstories",
-          "headlineEn": "Micron’s earnings are a must-watch market event — with profit growth approaching 1,000%",
-          "headlineCn": "美光财报成市场焦点：利润增速接近1000%，对标普500影响深远",
-          "summaryEn": "Micron Technology's upcoming earnings report is shaping up to be a landmark market event, with analysts forecasting nearly 1,000% year-over-year profit growth. Fueled by AI-driven demand for memory chips, the company's revenue surge is converting to profit at an exceptionally high rate — a sign of powerful operating leverage. The scale of this earnings growth is now beginning to affect Micron's weighting in the S&P 500, with real implications for the broader index's performance.",
-          "summaryCn": "美光科技即将发布的季度财报正受到市场广泛关注。分析师预计，受人工智能对内存芯片需求的强劲推动，美光净利润同比增速可能接近1000%。更引人注目的是，其营收增长几乎全部转化为利润，体现出极强的经营杠杆效应。如此规模的盈利爆发，已开始对标普500指数中美光的成分权重产生实质影响，并向更广泛的指数表现传导。",
-          "excerpt": "Micron's massive growth is coming at nearly pure profit — meaning almost every incremental dollar of revenue is falling directly to the bottom line. That kind of operating leverage, with profit growth approaching 1,000%, is starting to have real implications for the S&P 500.",
-          "vocab": [
-            {
-              "word": "operating leverage",
-              "pos": "phrase",
-              "meaning": "经营杠杆。指固定成本相对稳定时，营收增长带来利润的放大效应。财报分析中的高频词，比「盈利能力」更精准地描述成本结构与利润弹性的关系，是理解「近乎纯利润增长」的核心概念",
-              "etymology": "leverage 源自古法语 levier（撬杆），再溯至拉丁语 levare（举起）。17世纪引入英语后先指物理杠杆，19世纪延伸为金融隐喻：用小力量撬动大成果。operating 源自拉丁语 operari（工作、运作）",
-              "morphology": "operat(e) 词根「运作」+ -ing 现在分词形式；lever 词根「杠杆」+ -age 名词后缀表「行为/状态」。同族词：financial leverage（财务杠杆）、leverage ratio（杠杆比率）、deleverage（去杠杆）",
-              "mnemonic": "想象一根撬杠：轻轻一压（营收微涨），另一端高高翘起（利润飞涨）。美光的案例就是教科书级别的撬杠效应——固定成本不动，利润就被放大了近10倍。记住：lever 就是撬杠，leverage 就是撬杠的力量",
-              "exampleEn": "The software company demonstrated strong operating leverage, with revenue rising 20% while operating profit jumped 60%.",
-              "exampleCn": "这家软件公司展现出强劲的经营杠杆效应：营收增长20%，但营业利润却跃升了60%。"
-            },
-            {
-              "word": "earnings",
-              "pos": "n. (pl.)",
-              "meaning": "（公司季度/年度）财报业绩，特指盈利数据及其发布事件。注意：日常英语中 earnings 可指个人薪资，但在财经语境中几乎专指「季报发布」这一市场事件，是华尔街最高频词之一，务必区分两种用法",
-              "etymology": "源自古英语 earnian（通过劳动获得、赚取），与德语 ernten（收获庄稼）同源。词义从「劳动所得」延伸至「企业经营所得」，进而演变为金融报告语境中的专业事件术语",
-              "morphology": "earn（赚取）+ -ings 名词化后缀，常用于表示「结果/产物」的词，如 savings（存款）、winnings（奖金）、proceedings（会议记录）。派生词：earner（赚钱者）、pre-earnings（财报前期）",
-              "mnemonic": "记住四个黄金搭配：earnings season（财报季）、earnings beat（超预期）、earnings call（财报电话会）、earnings per share（每股收益）。四个搭配一并记，读财经新闻再也不陌生",
-              "exampleEn": "Investors are bracing for Nvidia's earnings next week, with the consensus estimate pointing to a 120% surge in net income.",
-              "exampleCn": "投资者正为下周英伟达财报做好准备，市场一致预期净利润将大幅增长120%。"
-            },
-            {
-              "word": "index weighting",
-              "pos": "phrase",
-              "meaning": "指数权重，即某只股票在指数（如标普500）中所占的比例。权重越大，该股票的涨跌对指数影响越显著。理解这个词能帮你读懂「美光盈利爆发为何会牵动整个标普500」",
-              "etymology": "index 源自拉丁语 index（指示者、食指），由 indicare（指出）派生，17世纪引入英语；weight 源自古英语 wiht/gewiht（重量）。两词结合描述「在指数构成中所占的分量」",
-              "morphology": "index（拉丁词根 indic- 指向）+ weight（古英语词根）+ -ing 名词化。相关词：market-cap weighting（市值加权）、equal weighting（等权重）、rebalancing（指数再平衡）、constituent（成分股）",
-              "mnemonic": "把标普500想象成一锅汤，每只成分股是一种食材。美光利润暴涨→市值暴涨→这种食材分量变重了→整锅汤的味道都变了。这就是 index weighting 的影响力，权重越大，「调味」能力越强",
-              "exampleEn": "Apple's index weighting in the S&P 500 has grown so large that a single bad earnings day can drag the entire index lower.",
-              "exampleCn": "苹果在标普500中的指数权重已大到这种程度：哪怕只是一天的财报表现不佳，就能拖累整个指数下跌。"
-            },
-            {
-              "word": "must-watch",
-              "pos": "adj.",
-              "meaning": "不可错过的、必须密切关注的（复合形容词）。在金融媒体中形容某个财报或市场事件重要到足以主导市场走向，比 important 更有画面感和紧迫感。掌握「must + 动词」这类复合形容词能大幅提升标题阅读能力",
-              "etymology": "must 源自古英语 moste（情态动词 motan 的过去式，意为「被允许或必须」），属于情态动词中最古老的词形之一；watch 源自古英语 wæccan（保持清醒、守夜）。合用强调「义务性关注」",
-              "morphology": "must（情态助动词）+ watch（动词）= must-watch（复合形容词，用连字符连接）。同类构词：must-read（必读）、must-have（必备）、must-own（必持）——这是财经与科技媒体标题的典型句式",
-              "mnemonic": "把 must-watch 想象成「红色预警」级别：不是 should-watch（建议看），不是 could-watch（可以看），是 MUST-watch（必须看）。用在财报身上，意味着「这份数字会让整个市场动起来，你不看就会错过行情」",
-              "exampleEn": "Tesla's quarterly delivery report has become a must-watch event for both equity traders and macro analysts worldwide.",
-              "exampleCn": "特斯拉的季度交付报告已成为全球股票交易员和宏观分析师都不可错过的必看事件。"
-            },
-            {
-              "word": "consensus estimate",
-              "pos": "phrase",
-              "meaning": "（华尔街）一致预期，即多家机构分析师预测数据的平均值或中位数。财报季最核心的参照系——实际业绩「超预期」还是「不及预期」，都是相对于 consensus estimate 而言，而非绝对数字的好坏",
-              "etymology": "consensus 源自拉丁语 consentire（共同感受、达成一致），由 con-（共同）+ sentire（感受）构成，17世纪进入英语；estimate 源自拉丁语 aestimare（估价、评估），与 esteem（尊重）同根同源",
-              "morphology": "con-（前缀，共同）+ sens-（词根，感受，来自 sentire）+ -us 拉丁名词结尾；estim-（词根，估值）+ -ate 动词/名词后缀。同族词：consent（同意）、dissent（异议）、estimation（评估）、overestimate（高估）",
-              "mnemonic": "想象华尔街100位分析师各自预测美光的利润，然后取平均值——这个平均值就是 consensus estimate（众人共识）。若实际利润超过这个平均，就叫「beat the consensus」，股价通常立刻飞涨",
-              "exampleEn": "Micron's actual earnings per share came in 15% above the consensus estimate, triggering a sharp rally in after-hours trading.",
-              "exampleCn": "美光实际每股收益比市场一致预期高出15%，引发盘后交易价格急剧上涨。"
-            }
-          ]
-        },
-        {
-          "id": "20260622-4",
-          "category": "biz",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/cb535f43-d2b7-4d14-82fe-abdd14765dfe",
-          "headlineEn": "Wars trigger $12bn venture capital rush into defence tech",
-          "headlineCn": "战争引发120亿美元风投热潮涌入国防科技",
-          "summaryEn": "A surge in global conflicts has triggered a $12 billion rush of venture capital into defence technology in 2026, already surpassing the entire 2025 funding total. Rapidly rising valuations are attracting investors but fuelling fears that the sector may be entering a hype cycle — where irrational enthusiasm inflates prices beyond what fundamentals can justify. While demand for defence tech is real and urgent, the speed of capital inflows risks creating a speculative bubble.",
-          "summaryCn": "全球冲突持续升级，推动风险投资大规模涌入国防科技领域。2026年的融资额已超越2025年全年总量，累计达120亿美元。然而，估值的快速攀升引发市场担忧：该行业是否正在步入「炒作周期」——即非理性热情推高价格，远超基本面所能支撑的水平。分析师警告，尽管国防科技的需求真实且迫切，资本快速涌入仍有催生投机性泡沫的风险。",
-          "excerpt": "Global conflicts have ignited a $12bn venture capital rush into defence technology in 2026, with funding already surpassing last year's full total. But rapidly rising valuations are fuelling fears that the sector is entering a hype cycle — where enthusiasm outpaces reality and prices lose touch with fundamentals.",
-          "vocab": [
-            {
-              "word": "hype cycle",
-              "pos": "phrase",
-              "meaning": "炒作周期；指某项技术或行业经历「过度期望峰值→幻灭低谷→稳步复苏→成熟落地」的典型发展曲线。由咨询公司 Gartner 提出，是科技投资分析的核心概念，帮助投资者区分「真实价值」与「市场噪音」，在 VC 报道和科技媒体中高频出现。",
-              "etymology": "hype 源自20世纪美国俚语，由 hyper（过度）演变而来，意为夸大宣传；cycle 来自希腊语 kyklos（圆圈、循环）。两词结合描述技术发展中周期性过度炒作的普遍现象。",
-              "morphology": "hype（过度宣传）+ cycle（周期）。相关词：overhyped（adj. 被过度炒作的）、life cycle（生命周期）、business cycle（商业周期）、hype man（造势者）。",
-              "mnemonic": "想象一个过山车：先高喊「hype！hype！」冲上顶点，然后急坠谷底，再缓缓爬升至平稳——这就是 hype cycle 的完整形状。Gartner 每年发布的那张「S形曲线图」是最好的记忆锚点。",
-              "exampleEn": "Many analysts believe generative AI is currently at the peak of the hype cycle, with valuations likely to correct before real enterprise adoption matures.",
-              "exampleCn": "许多分析师认为，生成式人工智能目前正处于炒作周期的顶峰，估值在真正的企业级应用成熟之前可能会出现回调。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；对公司或资产市场价值的评估结果。在风投语境中，pre-money valuation（融资前估值）和 post-money valuation（融资后估值）是判断融资条款的核心指标，远比「价格」更专业。掌握这个词是读懂 VC 报道的必备基础。",
-              "etymology": "来自拉丁语 valere（有价值、有力量），经由古法语 valeur 演变为英语 value，再加名词后缀 -ation（表行为或结果）构成。字面义：「评估价值的过程与结果」。",
-              "morphology": "value（价值）+ -ation（名词后缀）。相关词：overvalued（adj. 高估的）、undervalued（adj. 低估的）、devaluation（贬值）、revaluation（重新估值）。",
-              "mnemonic": "val- 联想「value 价值」，-ation 就是「行动结果」——估值就是「给公司价值打分」的那张成绩单。关键区别：valuation 是专业评估出的「理论价值」，price 是实际成交价，两者常有差距。",
-              "exampleEn": "The defence-tech startup closed its Series B at a $2 billion valuation, a tenfold increase from its seed round just three years ago.",
-              "exampleCn": "这家国防科技初创公司以20亿美元估值完成B轮融资，是三年前种子轮的十倍。"
-            },
-            {
-              "word": "venture capital",
-              "pos": "phrase",
-              "meaning": "风险投资；专指投资于早期、高增长潜力但风险极高的初创企业的私募资金。区别于 private equity（私募股权，主投成熟企业）和 angel investment（天使投资，更早期、金额更小）。掌握三者差异是读懂金融英语的基础入门。",
-              "etymology": "venture 源自拉丁语 adventura（冒险之事），capital 来自拉丁语 caput（头、本金）。合起来字面义是「冒险的本金」，精准描述了这类高风险投资押注未来的本质。",
-              "morphology": "venture（v./n. 冒险）+ capital（n. 资本）。相关词：venture capitalist / VC（风险投资人）、venture-backed（获风投支持的）、joint venture（合资企业）、human capital（人力资本）。",
-              "mnemonic": "venture = ad-venture（冒险）去掉前缀 ad-，剩下「冒险」；capital 是钱。风险投资 = 拿钱去冒险。缩写 VC 在科技圈几乎人人皆知，从熟悉的缩写反推全称是强化记忆的好方法。",
-              "exampleEn": "Venture capital flowing into climate technology has more than doubled over three years, reflecting both investor appetite and strong policy-driven demand.",
-              "exampleCn": "流入气候科技领域的风险投资在三年内翻了一番以上，反映出投资者的热情和政策驱动的强劲需求。"
-            },
-            {
-              "word": "surpass",
-              "pos": "v.",
-              "meaning": "超过、超越；财经报道高频动词，常用于数据对比场景（surpass expectations / records / targets）。比 exceed 更强调「明显突破」，比 outpace 更静态（outpace 侧重速度差距持续拉大），精准掌握三者差异能让表达更专业。",
-              "etymology": "源自法语 surpasser，由 sur-（超过，来自拉丁语 super）+ passer（通过，来自拉丁语 passus，步伐）构成。字面义：「迈步走过并超越」，动态感强烈。",
-              "morphology": "sur-（超过）+ pass（通过）。相关词：surpassing（adj. 卓越的）、unsurpassed（adj. 无与伦比的）、bypass（绕过）、overpass（高架桥）、trespass（擅自进入）。",
-              "mnemonic": "sur- = super（超级）+ pass（通过）——「超级通过」就是超越。想象赛跑中一名选手用「超级步伐」从对手身边飞奔而过，那一刻就是 surpass。这个动词通常搭配积极或中性的超越，语气干净利落。",
-              "exampleEn": "Revenue from cloud services surpassed hardware sales for the first time in the company's history, marking a clear strategic turning point.",
-              "exampleCn": "公司历史上首次出现云服务收入超过硬件销售额的情况，标志着一个清晰的战略转折点。"
-            },
-            {
-              "word": "fuel",
-              "pos": "v.",
-              "meaning": "助燃、加剧、推波助澜；作动词时描述某因素持续推动另一事物发展。财经报道极为常见（fuel inflation / fears / growth / speculation）。比 drive 更强调「持续供给能量」的隐喻，比 cause 更生动，是地道商业英语写作的标配动词，值得与 drive / spark / trigger 一起对比记忆。",
-              "etymology": "源自古法语 fouaille，来自拉丁语 focus（炉灶、火）。原义是「供炉火燃烧的柴料」，中世纪后扩展为比喻义：推动某事持续发展的动力来源。",
-              "morphology": "单一词根，无复杂前后缀。相关词：fuel（n. 燃料）、refuel（v. 重新加油/补充动力）、fuel-efficient（adj. 燃油经济的）、fossil fuel（化石燃料）。",
-              "mnemonic": "汽车加油叫 refuel（加油）——加了油才能跑得快。新闻里说某事 fuel 某种趋势，就是「往趋势的火堆里不断加油」，让它烧得更旺。恐慌是火，坏消息是燃料：bad news fuels fear，画面感强，一学即会。",
-              "exampleEn": "Rising interest rates fuelled fears of a recession, prompting investors to rotate out of growth stocks and into defensive assets.",
-              "exampleCn": "利率上升加剧了市场对经济衰退的担忧，促使投资者将资金从成长股转向防御性资产。"
-            }
-          ]
-        },
-        {
-          "id": "20260622-5",
-          "category": "econ",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/6a9330ad-a2db-494b-bf61-7dd417ab9c9a",
-          "headlineEn": "Warsh’s push to axe Fed guidance may lift US borrowing costs, investors warn",
-          "headlineCn": "沃什拟废除美联储利率点阵图，投资者警告借贷成本将攀升",
-          "summaryEn": "Kevin Warsh, widely expected to become the next Federal Reserve chair, is pushing to eliminate the central bank's dot plot — its quarterly chart showing policymakers' interest rate projections. Investors warn the move could trigger greater market volatility and lift US borrowing costs. Without this forward-signalling tool, bond markets may demand higher yields to compensate for increased uncertainty over the Fed's future rate path, effectively raising the price of debt across the economy.",
-          "summaryCn": "据报道，有望出任下届美联储主席的凯文·沃什正积极推动废除「点阵图」——这一每季度发布、显示政策制定者利率预期的核心图表。投资者警告，此举可能引发市场更剧烈的波动，并推高美国整体借贷成本。失去这一前瞻性工具后，债券市场或将要求更高的收益率以弥补政策不确定性，进而导致全经济体的融资成本实质性上升。",
-          "excerpt": "Traders are bracing for more volatility as Kevin Warsh, widely seen as the frontrunner to lead the Federal Reserve, signals his intention to scrap the central bank's dot plot — a quarterly projection chart that markets rely on to gauge the future path of interest rates.",
-          "vocab": [
-            {
-              "word": "axe",
-              "pos": "v.",
-              "meaning": "（英式英语）砍掉、废除；对某项目、职位或政策进行果断削减。比 eliminate 更生动有力，常见于财经新闻标题，带有突然性与决绝感。值得学习是因为它在商业头条中出现频率极高，却在教科书中鲜少收录",
-              "etymology": "古英语 æx，源自原始日耳曼语 *akwjō，再追溯至印欧语根 *agʷesi-（斧头）。原义指砍伐工具，后引申为「用斧头般的力道削减」，20世纪起大量进入商业语境，表示大刀阔斧的裁减行动",
-              "morphology": "单一词根词，无前后缀。常见搭配：axe jobs（裁员）、axe a programme（砍掉项目）、get the axe（被解雇）。近义辨析：cut 更温和渐进，axe 强调突然且不可逆，scrap 则侧重「彻底废弃、不再使用」",
-              "mnemonic": "想象一把闪亮的斧头「哐」地砍向会议桌上的政策文件——那就是 axe a policy。斧头（axe）= 砍掉（axe），形义完全合一，一刀两断。记住这个画面，财经标题里再见到它就秒懂",
-              "exampleEn": "The board voted to axe the entire product line after three consecutive quarters of declining sales.",
-              "exampleCn": "在连续三个季度销售下滑后，董事会投票决定砍掉整条产品线。"
-            },
-            {
-              "word": "dot plot",
-              "pos": "n. (phrase)",
-              "meaning": "「点阵图」，美联储每季度发布的利率预测图，每个「点」代表一位政策委员对未来利率水平的预测中值。是解读美联储政策立场最权威的工具，几乎是央行前瞻指引的代名词，属于财经英语必掌握的核心术语",
-              "etymology": "短语/复合词，无独立词源。dot（点）来自古英语 dott（顶点），plot（图表）来自中古英语/古法语，原义为「地块、地图」，后延伸为「图表、坐标图」，两词合并成为美联储政策沟通的专有名词",
-              "morphology": "dot（点）+ plot（图）构成复合名词。相关词族：scatter plot（散点图）、box plot（箱线图）、candlestick plot（K线图）。掌握「plot = 图表」可横向扩展大量数据可视化词汇，在金融与科技报道中均适用",
-              "mnemonic": "想象美联储18位委员各自在未来利率的位置上「戳了一个点」——18人18个点，散布在坐标图上，就是 dot plot。每次季度发布，全球市场屏息等待这些点落在哪一行，点往上移就意味着加息预期升温",
-              "exampleEn": "When the Fed released its dot plot last week, markets interpreted the upward shift in projections as a signal that rates would stay higher for longer.",
-              "exampleCn": "美联储上周发布点阵图后，市场将预测值上移解读为利率将长期维持高位的信号。"
-            },
-            {
-              "word": "volatility",
-              "pos": "n.",
-              "meaning": "波动性、不稳定性；金融语境中特指资产价格短期内剧烈起伏的程度，可量化为统计标准差（VIX 恐慌指数衡量的正是股市 volatility）。与 fluctuation 相比，volatility 更具统计精度，是风险管理的核心词汇，值得精准区分",
-              "etymology": "拉丁语 volatilis（能飞的），源自 volare（飞翔），原义指「飞翔的、易逝的」，引申为「容易变化的」。17世纪进入英语，20世纪在金融领域固化为「价格波动率」的专业术语，并催生了 VIX 等衍生概念",
-              "morphology": "词根 vol-（飞）+ -atil-（形容词化）+ -ity（名词后缀）。同词根词：volatile（adj. 易挥发的/情绪不稳定的）、volant（飞翔的，纹章学）。记住 vol = 飞，飞来飞去的价格就是 volatility",
-              "mnemonic": "VOLatility 和 VOLcano（火山）共享词头 VOL——火山喷发时岩浆四处飞溅，市场 volatility 时价格同样失控乱飞。两者都让人措手不及，都很难预测何时爆发",
-              "exampleEn": "Options traders are pricing in higher volatility following the unexpected policy announcement from the central bank.",
-              "exampleCn": "在央行发布出人意料的政策声明后，期权交易员正在为更高的波动率定价。"
-            },
-            {
-              "word": "lift",
-              "pos": "v.",
-              "meaning": "（金融语境）推高、抬升价格、利率或成本。与 raise 或 push up 相比，lift 带有「外力轻柔但确实地向上托起」的隐喻，常描述市场力量或政策对某指标形成上行压力，语气更书面精准，是财经报道中的高频动词",
-              "etymology": "古诺尔斯语 lypta（举起），源自原始日耳曼语 *luftijanan，与德语「空气」（Luft）同根，原义为「举向空中」。13世纪进入英语，在商业语境中自然引申为「使某数值或指标上升」",
-              "morphology": "单音节词根词，无前后缀。常见搭配：lift rates（推高利率）、lift borrowing costs（抬升借贷成本）、lift a ban（解除禁令）。反义搭配：depress（压低）、weigh on（压制）、drag down（拖低）——四个方向各有专属动词",
-              "mnemonic": "把 lift（电梯/举起）和价格联想在一起：当政策像电梯一样把借贷成本「往上托」，就用 lift。利率坐上了电梯——「叮」——借贷成本上了一层楼，楼里的租客就是普通贷款人",
-              "exampleEn": "Strong consumer demand data lifted Treasury yields to a three-month high, pushing mortgage rates higher alongside.",
-              "exampleCn": "强劲的消费需求数据将国债收益率推至三个月高位，同时带动抵押贷款利率走高。"
-            },
-            {
-              "word": "yield",
-              "pos": "n.",
-              "meaning": "（债券/投资）收益率；债券的实际年化回报率，是衡量借贷成本最直接的市场指标。与 return 不同，yield 专指固定收益产品的回报，且与债券价格呈反向关系（价格跌则收益率涨）。读懂债市新闻必须掌握的基础词",
-              "etymology": "古英语 gieldan（支付、偿还），源自原始日耳曼语 *geldan（付款），原义为「给予、支付」，引申为「产出、收益」。在金融语境中固化为「收益率」，并衍生出 yield to maturity（到期收益率）等核心术语",
-              "morphology": "单一词根，兼作名词与动词。核心搭配：high-yield bonds（高收益债券）、yield curve（收益率曲线）、yield spread（收益率利差）。掌握 yield curve 可进一步理解「曲线倒挂」（inverted yield curve）这一经典衰退预警信号",
-              "mnemonic": "Yield 谐音「你欠的」——债券的 yield 就是借款人「欠」你的回报率，风险越高，欠得越多，yield 越高。yield curve 就是一张「不同期限分别欠你多少」的全景总账单",
-              "exampleEn": "As uncertainty over the Fed's policy path grew, investors demanded higher yields on long-dated Treasuries, pushing borrowing costs across the economy higher.",
-              "exampleCn": "随着市场对美联储政策路径的不确定性加剧，投资者要求长期国债提供更高收益率，推动全经济体借贷成本上升。"
             }
           ]
         }
