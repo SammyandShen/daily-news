@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-28T00:03:35.385472+00:00",
+  "lastUpdated": "2026-07-29T02:34:23.934180+00:00",
   "level": "B2",
   "days": {
+    "2026-07-29": {
+      "label": "7月29日 (周三)",
+      "stories": [
+        {
+          "id": "20260729-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+          "headlineEn": "AI Leaders Urge Governments to Rein In Runaway AI Development",
+          "headlineCn": "AI巨头联名致信政府 呼吁监管失控的人工智能发展",
+          "summaryEn": "Employees from OpenAI, Anthropic, Google, Meta, Microsoft, Mistral, and other leading AI labs have signed a joint statement urging the US government to curb the risks of increasingly autonomous, self-improving AI systems. The signatories are not necessarily calling for a halt to research, but for faster, coordinated global governance so that safety keeps pace with capability. The letter argues that while AI could bring major benefits, unchecked automation of AI development itself could outrun human oversight, raising the stakes for policymakers worldwide.",
+          "summaryCn": "来自OpenAI、Anthropic、谷歌、Meta、微软、Mistral等顶尖AI实验室的员工联合签署声明，呼吁美国政府正视前沿AI失控发展的风险。联署者并非要求叫停研究，而是希望加快全球协调监管的步伐，让安全机制的推进速度赶上AI能力的提升。声明指出，AI虽能带来巨大益处，但如果AI自我改进的自动化进程不受约束，人类监督可能被远远甩在后面，这让各国决策者面临前所未有的压力。",
+          "excerpt": "AI could help create a dramatically better world. Employees across OpenAI, Anthropic, Google, Meta, and other frontier labs have jointly urged Washington to accelerate coordinated oversight of AI development, warning that automated, self-improving systems could soon move faster than governments' ability to track or rein them in.",
+          "vocab": [
+            {
+              "word": "rein in",
+              "pos": "phrasal v.",
+              "meaning": "收紧缰绳、加以约束/控制，尤指对失控或过快发展的事物加以限制；比control更形象，隐含《原本奔跑失控，现在拉住缰绳》的画面，商业/科技语境常用来说监管机构对新兴产业的管控。",
+              "etymology": "源自古法语rêne（缰绳），最终可追溯至拉丁语retinere（意为拉住、保留）。原指骑手拉紧马缰绳以控制马匹速度和方向，17世纪起引申为对抽象事物的约束。",
+              "morphology": "rein（缰绳，名词）+ in（介词，表示收拢的方向）构成短语动词；同源词包括retain（保留）、retinue（随从），均含拉住/保持的核心义。",
+              "mnemonic": "想象一匹狂奔的马（比喻迅猛发展的AI），骑手用力拉紧缰绳（rein in）让它慢下来——AI监管就是给狂奔的技术《勒住缰绳》。",
+              "exampleEn": "Regulators are racing to rein in frontier AI systems before their capabilities outpace human oversight.",
+              "exampleCn": "监管机构正争分夺秒，力图在前沿AI能力超出人类监督之前将其约束住。"
+            },
+            {
+              "word": "curb",
+              "pos": "v./n.",
+              "meaning": "抑制、遏制（某种趋势或行为），也可作名词《路缘石》；作动词时比stop更温和，强调部分限制而非彻底禁止，常用于政策类新闻描述对某种发展势头的抑制。",
+              "etymology": "源自古法语courbe（弯曲的），可追溯至拉丁语curvus（弯曲）。最初指套在马嘴上使其低头、弯曲脖颈的马勒链条，用以控制马匹，17世纪引申为抑制、克制。",
+              "morphology": "词根curv-（弯曲）演变为curb；同源词包括curve（曲线）、curvature（曲率）；作名词时的《路缘》义与动词义分开发展但拼写相同。",
+              "mnemonic": "联想curb和curve长得像——马勒链条弯曲套住马嘴，就像政策《弯下腰》去压制某种失控的势头。",
+              "exampleEn": "The joint letter calls on lawmakers to curb the unchecked pace of AI self-improvement.",
+              "exampleCn": "这封联署信呼吁立法者遏制AI自我改进不受约束的发展速度。"
+            },
+            {
+              "word": "urge",
+              "pos": "v.",
+              "meaning": "敦促、力劝，语气比ask更强烈、更迫切，常用于新闻报道中转述呼吁性内容，隐含说话者认为事态紧急、不容拖延。",
+              "etymology": "源自拉丁语urgere（意为驱使、逼迫、施压），经古法语urger进入英语，14世纪起用于表示强烈催促。",
+              "morphology": "动词urge可派生出名词urgency（紧迫性）、形容词urgent（紧急的）；同根词还有exigent（紧急的，源自同一拉丁词根ex-urgere）。",
+              "mnemonic": "urge和urgent同根——想象一件事urge你去做，就像它自带《urgent紧急》标签，逼着你立刻行动。",
+              "exampleEn": "Employees at major AI labs are urging Washington to speed up coordinated governance of frontier models.",
+              "exampleCn": "各大AI实验室的员工正敦促华盛顿方面加快对前沿模型的协同治理。"
+            },
+            {
+              "word": "consensus",
+              "pos": "n.",
+              "meaning": "共识，指多方经过讨论后达成的一致意见；在国际治理或行业协调语境中，比agreement更强调经过充分讨论、代表广泛意见的过程，隐含耗时与来之不易。",
+              "etymology": "源自拉丁语consensus，由con-（共同）+ sentire（感觉、认为）构成，字面意为共同的感觉/看法，19世纪起在英语中固定为普遍一致意见之义。",
+              "morphology": "con-（共同）+ sens（感觉，词根同sense、sentiment）+ -us（名词后缀）；同根词包括sentiment（情感）、consent（同意）、dissent（异议）。",
+              "mnemonic": "拆成con-（一起）+ sense（感觉）——大家《一起产生同样的感觉》，就是consensus（共识）。",
+              "exampleEn": "Building global consensus on AI governance is proving harder than developing the technology itself.",
+              "exampleCn": "在AI治理问题上凝聚全球共识，被证明比开发这项技术本身更加困难。"
+            },
+            {
+              "word": "unchecked",
+              "pos": "adj.",
+              "meaning": "不受约束的、未经核查的，强调某事物在缺乏监督或制衡机制下自由发展，常用来形容风险、权力或增长失去控制。",
+              "etymology": "check源自古法语eschec（意为将军，源自波斯语shah，国际象棋术语），16世纪引申出阻止、核查之义；加否定前缀un-构成未被阻止/核查。",
+              "morphology": "un-（否定前缀）+ check（核查、阻止）+ -ed（形容词后缀，表被动完成状态）；同源词有checkpoint（检查站）、checkmate（将死）。",
+              "mnemonic": "国际象棋中check（将军）意味着对方受到牵制；unchecked就是没人《将军》你，可以横冲直撞——正如不受监管的AI发展。",
+              "exampleEn": "Left unchecked, automated AI research could accelerate capability gains beyond what current safety tools can handle.",
+              "exampleCn": "如果任其不受约束地发展，AI自动化研究的能力提升速度可能会超出现有安全工具的应对能力。"
+            }
+          ]
+        },
+        {
+          "id": "20260729-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/28/paypal-leaves-the-door-open-to-a-higher-takeover-offer-following-earnings-beat/",
+          "headlineEn": "PayPal Signals Openness to a Sweetened Takeover Bid After Strong Earnings",
+          "headlineCn": "财报超预期后，PayPal不排除接受更高收购报价",
+          "summaryEn": "PayPal posted stronger-than-expected second-quarter results, easing investor concerns about its slow AI-driven turnaround. Executives said the company remains committed to its current strategy but would entertain a sweetened takeover bid if it clearly created more value for shareholders than staying independent. The comments come amid persistent speculation that PayPal, once a fintech darling, could become an acquisition target as its stock has lagged rivals. The earnings beat gives management stronger footing to negotiate from, rather than being forced into a deal out of weakness.",
+          "summaryCn": "PayPal公布好于预期的第二季度业绩，缓解了市场对其AI驱动转型进展缓慢的担忧。管理层表示会坚持现有战略，但若报价能为股东创造更高价值，也愿意考虑更高的收购报价。此前市场猜测这家昔日金融科技明星可能成为并购目标，如今业绩改善让管理层谈判时更有底气。",
+          "excerpt": "After reporting better-than-expected second-quarter results, PayPal said it remains focused on its AI-driven turnaround strategy, but signaled it would entertain a takeover offer if such a deal created more value for shareholders than the company could generate on its own over time.",
+          "vocab": [
+            {
+              "word": "entertain",
+              "pos": "v.",
+              "meaning": "认真考虑（一项提议、报价等），并非「娱乐」之意；商业谈判中常用来表示愿意把提议纳入考虑范围，比consider更强调对提议本身持开放、审慎的态度。",
+              "etymology": "源自古法语entretenir，由拉丁语inter-（在...之间）+tenere（持有、保持）构成，原义为维系、招待，后引申出心中容纳某种想法的含义。",
+              "morphology": "enter-（间，来自inter-）+tain（held，来自tenere持有）。同词根词：contain（包含）、maintain（维持）、retain（保留）。",
+              "mnemonic": "想象把一个提议请进屋里坐下、好好招待——entertain an offer就是把这个报价当客人一样认真接待，而不是直接关门拒绝。",
+              "exampleEn": "The board agreed to entertain a higher bid only if it came with firm financing.",
+              "exampleCn": "董事会同意，只有在有确凿融资保障的情况下才会考虑接受更高的报价。"
+            },
+            {
+              "word": "sweeten",
+              "pos": "v.",
+              "meaning": "为使提议更有吸引力而加码、提高条件，字面是加糖变甜，商业语境中专指改善收购、合同等报价的条款，比单纯increase更形象地传达讨好对方的意味。",
+              "etymology": "源自古英语swēte（甜的），加动词后缀-en构成使动动词，字面使...变甜，14世纪起逐渐产生使交易更有利的比喻用法。",
+              "morphology": "sweet（甜）+-en（使动后缀，使...化）。同构词：deepen（加深）、strengthen（加强）、widen（拓宽）。",
+              "mnemonic": "谈判桌上诚意不够，就像咖啡不够甜——sweeten the deal就是往报价里多加几勺糖（现金或股票），让对方更愿意点头。",
+              "exampleEn": "The acquirer sweetened its offer by adding a cash bonus for early shareholder approval.",
+              "exampleCn": "收购方通过为提前批准的股东追加现金奖励，提高了报价的吸引力。"
+            },
+            {
+              "word": "suitor",
+              "pos": "n.",
+              "meaning": "并购语境中指潜在收购方，字面原指求婚者/追求者，商业新闻常借此比喻收购意向方对目标公司的追求，比acquirer多一层主动示好、竞相争取的意味。",
+              "etymology": "源自古法语suitour，来自suite（跟随、随从），最终追溯到拉丁语sequi（跟随）。原指诉讼中的原告或求婚追求者，20世纪起被商业媒体借用于并购语境。",
+              "morphology": "su(it)（跟随，源自sequi）+-or（表人后缀）。同源词：pursue（追求）、sequence（顺序）、ensue（随后发生）。",
+              "mnemonic": "把收购方想象成向心仪对象求婚的人——a potential suitor就是那个捧着报价单、想娶下目标公司的追求者，报价越高诚意越足。",
+              "exampleEn": "Analysts speculated that a rival payments company could emerge as a suitor for PayPal.",
+              "exampleCn": "分析师猜测，一家竞争对手支付公司可能会成为PayPal的潜在收购方。"
+            },
+            {
+              "word": "float",
+              "pos": "v.",
+              "meaning": "非正式地提出、抛出某个想法或方案以试探反应，常用于float an idea/proposal，比propose更随意、更强调先探探风声、不做正式承诺。",
+              "etymology": "源自古英语flotian（漂浮），与古诺斯语flota（船）同源，本义是物体在水面漂浮，19世纪引申出让想法悬浮在空中供人评估的比喻用法。",
+              "morphology": "float为不可再拆分的基础词。派生词：floating（形容词，浮动的，如floating rate浮动利率）、afloat（形容词，未沉没的，财务上引申为未破产的）。",
+              "mnemonic": "把一个想法像纸船一样轻轻放到水面上，看它是沉是浮——float a proposal就是先试探性地把方案放出去，看市场反应再决定要不要正式推进。",
+              "exampleEn": "Executives floated the idea of a strategic partnership before any formal talks began.",
+              "exampleCn": "在正式谈判开始前，管理层先试探性地提出了战略合作的想法。"
+            },
+            {
+              "word": "rebuff",
+              "pos": "v./n.",
+              "meaning": "断然拒绝（提议、示好），语气比reject更强调冷淡、不留情面地打回去，常用于描述公司对收购要约或合作提议的强硬回绝。",
+              "etymology": "源自意大利语ribuffo（斥责、抵挡），由ri-（重复/回）+buffo（吹气、冲击）构成，16世纪经法语rebuffer传入英语，原带有猛烈回击的意味。",
+              "morphology": "re-（回、反）+buff（冲击，源自古法语buffe，一击）。同源可联想buffet（撞击，如be buffeted by逆风冲击）。",
+              "mnemonic": "想象伸手求合作却被人啪地一下打回来——rebuff带有那种被冷脸拒绝、碰了一鼻子灰的画面感，比礼貌的reject更刺痛。",
+              "exampleEn": "The startup rebuffed an early buyout offer, betting it could raise its valuation independently.",
+              "exampleCn": "这家初创公司回绝了早期的收购报价，赌自己能够独立提升估值。"
+            }
+          ]
+        },
+        {
+          "id": "20260729-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html",
+          "headlineEn": "Shein Discloses FTC Investigation Ahead of Hong Kong IPO Plans",
+          "headlineCn": "希音承认遭美国FTC调查，正筹备香港上市",
+          "summaryEn": "Fast-fashion giant Shein has disclosed that the U.S. Federal Trade Commission is investigating its American business, though the company has not specified what the probe concerns. The disclosure comes as Shein pushes ahead with plans for a Hong Kong stock listing, after earlier IPO attempts in London and New York stalled amid political and regulatory pushback. An active federal inquiry could complicate investor confidence and add fresh uncertainty to the listing timeline, since exchanges typically weigh pending legal matters before approving a company to sell shares publicly.",
+          "summaryCn": "快时尚巨头希音（Shein）披露，美国联邦贸易委员会（FTC）正在对其美国业务展开调查，但具体调查内容尚未公开。此次披露正值希音积极推进香港上市计划——此前该公司在伦敦和纽约的上市尝试均因政治与监管阻力而搁浅。分析人士认为，一项仍在进行中的联邦调查可能影响投资者信心，为其上市时间表增添新的不确定性，因为交易所通常会在企业公开发行股票前权衡其未决法律事务。",
+          "excerpt": "Shein has confirmed that the U.S. Federal Trade Commission is investigating its American operations, though the fast-fashion giant says the exact focus of the probe remains unclear. The disclosure arrives just as the company prepares to move forward with a long-anticipated stock listing in Hong Kong.",
+          "vocab": [
+            {
+              "word": "probe",
+              "pos": "n. / v.",
+              "meaning": "「调查」的新闻体简称，比investigation更简短有力，常见于新闻标题（headlinese），尤指官方对企业或个人展开的正式核查行动。",
+              "etymology": "源自拉丁语probare（测试、证明），16世纪进入英语最初指用探针检查伤口，17世纪后引申为深入调查、探究真相。",
+              "morphology": "不可拆分的简单词；名词/动词同形。常见搭配：probe into sth（对……展开调查）、a criminal probe（刑事调查）、probe question（探究性问题）。",
+              "mnemonic": "想象医生用一根细长的「探针」（probe）伸进伤口探查——新闻里的「probe」就是监管机构伸进公司账本里探查真相的动作，简短、直接、带侵入感。",
+              "exampleEn": "Regulators launched a probe into the company's overseas payment practices after whistleblower complaints surfaced.",
+              "exampleCn": "在举报人投诉浮出水面后，监管机构对该公司的海外支付行为展开了调查。"
+            },
+            {
+              "word": "run afoul of",
+              "pos": "phrase",
+              "meaning": "触犯、违反（法律、规定），常用于描述企业行为不慎导致与监管机构产生冲突，语气比violate更生动、带航海隐喻色彩。",
+              "etymology": "源自航海用语afoul，指船只缆绳缠绕或船只相撞（16-17世纪水手用语），19世纪起引申为陷入纠纷或触犯规则。",
+              "morphology": "短语动词，由run + a-（古英语前缀，表示处于……状态）+ foul（肮脏、纠缠）构成；同源词有foul play（犯规）、entangle。",
+              "mnemonic": "想象两艘船在海上缆绳缠成一团（afoul），动弹不得——企业「run afoul of the law」就像自己的船跟法律的船缆绳缠在了一起，进退两难。",
+              "exampleEn": "The startup ran afoul of data-privacy rules soon after expanding into the European market.",
+              "exampleCn": "这家初创公司在拓展欧洲市场后不久就触犯了数据隐私法规。"
+            },
+            {
+              "word": "murky",
+              "pos": "adj.",
+              "meaning": "（情况、动机等）含糊不清、难以看透，常用来形容调查细节、公司账目或政治意图的不透明状态，比unclear更带有浑浊、见不得光的画面感。",
+              "etymology": "源自古英语mirce（黑暗的），与古诺斯语同源，本义指光线昏暗、水质浑浊，14世纪后引申出比喻义含糊、可疑。",
+              "morphology": "murk（名词，昏暗/浑浊）+ -y（形容词后缀，表示具有……性质）；同类构词如murky waters（浑水，常喻指复杂难辨的局面）。",
+              "mnemonic": "联想「murky water」——一潭浑浊看不到底的水，你不知道里面藏着什么。当新闻说调查细节「murky」，就是说这潭水浑得让人看不清真相。",
+              "exampleEn": "The exact scope of the antitrust probe remains murky, leaving investors guessing about the potential penalties.",
+              "exampleCn": "反垄断调查的具体范围仍然含糊不清，投资者只能猜测可能面临的处罚。"
+            },
+            {
+              "word": "list",
+              "pos": "v.",
+              "meaning": "（公司）挂牌上市，使股票在证券交易所公开交易，是IPO语境下常与go public互换但更正式的动词，常见搭配「list on the Hong Kong Stock Exchange」。",
+              "etymology": "源自古法语liste（名单、条纹），最初指登记名单；19世纪金融语境中引申为将证券正式登记于交易所名录，即上市。",
+              "morphology": "简单词，可作名词（名单）与动词（列出/上市）；派生词包括listing（上市，名词）、listed company（上市公司）、dual-listed（双重上市）。",
+              "mnemonic": "把公司想象成要被写进交易所的「名单」（list）才能被投资者买卖——「list on an exchange」就是把公司名字正式加入那份挂牌名单。",
+              "exampleEn": "After stalled attempts elsewhere, the retailer is now aiming to list on the Hong Kong Stock Exchange by year-end.",
+              "exampleCn": "在其他地方的尝试搁浅后，这家零售商目前计划年底前在香港交易所挂牌上市。"
+            },
+            {
+              "word": "under the microscope",
+              "pos": "phrase",
+              "meaning": "处于被密切审视、严格检查的状态，常用于描述企业或个人因调查、丑闻而受到媒体或监管机构的高度关注，比「scrutinized」更形象、更口语化。",
+              "etymology": "短语/复合词，无独立词源；microscope源自希腊语mikros（微小）+ skopein（观察），17世纪发明显微镜后进入英语，20世纪起比喻义被极细致地审视广泛流行。",
+              "morphology": "micro-（希腊前缀，微小）+ scope（希腊词根，观察、瞄准）；同根词有telescope（望远镜）、periscope（潜望镜）、scope（范围/审视）。",
+              "mnemonic": "想象一家公司被放到显微镜（microscope）下，每一个细微的账目瑕疵都被放大千倍——「under the microscope」就是这种被无限放大检视的感觉。",
+              "exampleEn": "With the FTC probe now public, Shein's U.S. business practices will be under the microscope for months to come.",
+              "exampleCn": "随着FTC调查曝光，希音的美国业务运作方式在未来数月都将受到严密审视。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-28": {
       "label": "7月28日 (周二)",
       "stories": [
@@ -6895,326 +7089,6 @@
               "mnemonic": "clout 谐音「靠拢」——有 clout 的人，大家都向他靠拢。或者联想「一记重拳（clout）」：有 clout 的人发话，就像打出一拳，别人不得不让步。",
               "exampleEn": "As a former Fed governor, Warsh carries enough clout to steer the committee's approach to rate decisions.",
               "exampleCn": "作为前美联储理事，沃什拥有足够的影响力，能够引导委员会在利率决策上的整体方向。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-23": {
-      "label": "6月23日 (周二)",
-      "stories": [
-        {
-          "id": "20260623-1",
-          "category": "tech",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-          "headlineEn": "OpenAI Launches Full-Scale Effort to Fix Open-Source Bugs, Challenging Anthropic's Mythos",
-          "headlineCn": "OpenAI发起「修复地球」计划，全面布局开源安全以挑战Anthropic",
-          "summaryEn": "OpenAI has unveiled GPT-5.5-Cyber, an upgraded AI model designed to identify and fix vulnerabilities in open-source software, alongside its 'Patch the Planet' initiative. The move signals OpenAI's ambition to dominate the AI cybersecurity space, directly challenging Anthropic's reputation for safety-focused AI. By leveraging AI to automate bug detection across widely used open-source codebases, OpenAI aims to close a critical gap in global software security infrastructure and reshape competitive dynamics in the AI industry.",
-          "summaryCn": "OpenAI发布了升级版GPT-5.5-Cyber模型，并同步推出「修复地球」（Patch the Planet）计划，旨在利用人工智能自动发现并修复开源软件中的安全漏洞。此举被视为OpenAI在网络安全领域的全面战略布局，也是对Anthropic在AI安全领域品牌声誉的直接挑战。通过将AI能力应用于开源代码库的漏洞检测，OpenAI试图填补全球软件安全基础设施的重大缺口，进一步巩固其在前沿AI应用领域的市场地位。",
-          "excerpt": "OpenAI revealed an upgraded GPT-5.5-Cyber model and launched its 'Patch the Planet' initiative, aiming to use AI to automatically detect and fix vulnerabilities in widely used open-source software — a direct challenge to Anthropic's mythos as the safety-first AI lab.",
-          "vocab": [
-            {
-              "word": "mythos",
-              "pos": "n.",
-              "meaning": "围绕某人或某机构建立的系统性叙事体系、品牌神话或信仰框架。比「reputation（声誉）」或「narrative（叙事）」更强调近乎神话化的、整体性的形象建构，常用于讨论科技公司品牌定位和文化影响力，例如Anthropic「安全优先」的AI形象就是其精心构建的mythos。掌握此词可精准描述公司品牌叙事的深层结构。",
-              "etymology": "来自希腊语 mythos，原义为「故事、叙事、神话」。经拉丁语进入英语后最初专指神话故事，后语义扩展，指围绕某人、某组织或某观念形成的系统性信念与形象体系，带有一种被集体认同、难以撼动的权威感。",
-              "morphology": "不可拆解的古希腊借用词，无前缀或后缀结构。同词根词族：myth（神话）、mythic（神话般的）、mythology（神话学）、mythologize（将……神话化）、demythologize（去神话化）。记住 myth- 词根意为「故事/叙事」即可串联整个家族。",
-              "mnemonic": "把 mythos 想象成一座公司用「故事砖块」堆砌的神庙——Anthropic 的「安全AI」形象就是它精心建造的 mythos。每次看到这个词，脑补一座刻着公司 logo 的希腊神殿，庄严而不可撼动。OpenAI 此举，正是要拆这座庙。",
-              "exampleEn": "Apple's mythos as the champion of creativity and design continues to attract premium customers even when competitors offer comparable specifications.",
-              "exampleCn": "苹果作为创意与设计捍卫者的品牌神话，即便竞争对手提供相当的硬件规格，依然能吸引愿意付溢价的消费者。"
-            },
-            {
-              "word": "full-scale",
-              "pos": "adj.",
-              "meaning": "全面的、动用全部资源的、不受任何限制的。区别于 large-scale（规模大）或 comprehensive（覆盖广），full-scale 强调已达到「最大强度或完整状态」，常暗含从试点升级到全力投入的转折意味，商业报道中用来描述战略级升级时极为传神，是区分「在试探」和「真的动手了」的关键词。",
-              "etymology": "由 full（完整的，源自古英语 full）与 scale（规模/刻度，源自古法语 escale，意为「梯级」）复合而成。最初为工程术语，指与实物1:1比例的「足尺」模型，后泛化为「全力投入、不缩水、不打折」的比喻义。",
-              "morphology": "复合形容词 full + scale，修饰名词时加连字符。full 的派生词：fully（adv.）、fullness（n.）；scale 的派生词：scalable（可扩展的）、upscale（高端的）、downscale（缩减规模）、rescale（重新调整规模）。",
-              "mnemonic": "想象一张地图：small-scale 地图显示整个国家，full-scale 地图则是「1米对1米」的超级地图，覆盖所有细节、不压缩任何东西。OpenAI「足尺」出击，不留任何保留。",
-              "exampleEn": "After a successful pilot in three cities, the startup launched a full-scale rollout of its autonomous delivery network across the country.",
-              "exampleCn": "在三个城市试点成功后，这家初创公司在全国范围内全面推广其自动配送网络。"
-            },
-            {
-              "word": "vulnerability",
-              "pos": "n.",
-              "meaning": "软件或系统中可被攻击者利用的安全弱点（网络安全核心术语）；亦广泛用于商业语境，指企业在竞争中的薄弱环节。比 weakness（弱点）更专业、更正式，且自带「可被外力利用」的隐含意义，是科技和安全报道的高频必备词，读懂这个词才能读懂大多数网络安全新闻。",
-              "etymology": "来自拉丁语 vulnerabilis，由 vulnus（伤口）与后缀 -abilis（能够……的）构成，原义「能被伤害的」。通过古法语进入英语，最初指身体易受伤害，后延伸至心理、制度和技术系统层面的「可被攻击性」，语义路径清晰而连贯。",
-              "morphology": "vulner-（伤口，拉丁词根）+ -able（能……的后缀）+ -ity（名词化后缀）。同词根词：vulnerable（易受攻击的）、invulnerable（无法攻击的）；类似构词模式：durability、capability、reliability，掌握 -ability 结构可批量记忆。",
-              "mnemonic": "vulner- 是「wound（伤口）」的拉丁版。想象软件代码里有一个「开放性伤口」——黑客正是从这个 vulnerability 钻进去的。有了「代码伤口」这个画面，vulnerable 和 vulnerability 永远不会忘。",
-              "exampleEn": "The security team ran automated scans to detect vulnerabilities in the company's cloud infrastructure before the product launch.",
-              "exampleCn": "安全团队在产品发布前对公司云基础设施进行了自动扫描，以检测安全漏洞。"
-            },
-            {
-              "word": "open-source",
-              "pos": "adj. / n.",
-              "meaning": "指源代码完全公开、任何人均可查看、使用、修改和分发的软件。与 proprietary（专有的/私有的）相对，open-source 既是技术属性，也是一种开发哲学和协作模式，在科技报道中频繁出现，是理解现代软件生态、AI基础设施讨论不可绕开的核心词汇。",
-              "etymology": "复合词，由 open（开放，源自古英语 open）和 source（源头，源自拉丁语 surgere，意为「上升/涌现」，后衍生出「source code 源代码」之义）构成。1998年由 Christine Peterson 在一次会议上正式提出，标志着自由软件运动向更商业友好的方向转型。",
-              "morphology": "open（形容词）+ source（名词）构成复合修饰语，修饰名词时通常加连字符。相关词：open-sourced（动词过去式，使……开源）、OSS（open-source software 缩写）；反义词组：closed-source 或 proprietary software（专有软件）。",
-              "mnemonic": "把 source 想成厨师的「秘方」——open-source 就是把秘方完全公开贴在门口，让所有人都能查看、改良、复制。对比一家死守秘方的餐厅（proprietary），开源餐厅说：「食谱免费，欢迎所有人改进。」",
-              "exampleEn": "Many enterprise companies now build their AI pipelines on open-source frameworks like PyTorch, then sell proprietary fine-tuned models on top.",
-              "exampleCn": "许多企业级公司如今在PyTorch等开源框架上构建AI流水线，再在此基础上销售专有的微调模型。"
-            },
-            {
-              "word": "take on",
-              "pos": "phrasal v.",
-              "meaning": "①向……发起挑战、与……正面竞争（本文用法）；②承担（任务/责任）；③雇用（人员）。三义并存极易混淆，但商业报道中最常见的是「挑战强敌」这一义。比 challenge 更口语、更有对抗感，比 compete with 更强调主动出击的姿态，是描述商业竞争关系时最具冲击力的动词短语之一。",
-              "etymology": "古英语短语，take 源自古诺斯语 taka（抓取/握住），on 为介词。短语动词「take on」通过介词叠加实现语义扩张，是英语日耳曼语系短语动词的典型构词逻辑——简单词根 + 介词 = 丰富多义的新义项。",
-              "morphology": "短语/复合词，无独立词源。同族短语：take off（起飞/脱下/大获成功）、take over（接管）、take up（开始从事/占用空间）、take in（理解/欺骗/容纳）。英语中「take + 介词」构成的多义家族极大，横向对比记忆效果最佳。",
-              "mnemonic": "想象一个拳击手走进擂台，双手「抓住」（take）对手「身上」（on）——这就是 take on「挑战」的动作画面。同一个选手同时接了三场比赛，也是 take on three fights，从「抓上身」到「承担」，逻辑一脉相承。",
-              "exampleEn": "The Chinese EV maker has aggressively expanded into Europe, openly taking on Tesla and Volkswagen in their home markets.",
-              "exampleCn": "这家中国电动车厂商积极扩张欧洲市场，公开向特斯拉和大众在其本土市场发起挑战。"
-            }
-          ]
-        },
-        {
-          "id": "20260623-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
-          "headlineEn": "Groq Confirms $650M Raise and Rebuilds Team After Nvidia's $20B Talent Deal",
-          "headlineCn": "Groq完成6.5亿美元融资，英伟达巨额「挖角」后重整旗鼓",
-          "summaryEn": "AI chip company Groq has officially confirmed a $650 million funding round following Nvidia's controversial $20 billion not-acqui-hire arrangement, in which Nvidia recruited Groq's key talent without a formal acquisition. Rather than retreating, Groq is doubling down on its neocloud business — providing AI inference infrastructure to enterprise customers — and is bringing in new senior executives to lead its next growth phase. The move signals Groq's intention to compete independently in the fast-consolidating AI infrastructure market.",
-          "summaryCn": "AI芯片公司Groq正式宣布完成6.5亿美元新一轮融资。此前，英伟达以约200亿美元的「不收购式挖角」交易招募了Groq的核心人才，使其元气大伤。面对这一局面，Groq选择迎难而上，加倍押注其「新云」业务——为企业客户提供AI推理基础设施服务，同时引进新任高管以带领公司进入下一增长阶段。此举表明Groq有意在快速整合的AI基础设施市场中独立竞争。",
-          "excerpt": "Following Nvidia's $20 billion deal that recruited away its core talent, AI chipmaker Groq confirmed a $650 million raise and is leaning into its neocloud strategy — offering AI inference infrastructure to businesses — while actively hiring new senior execs to rebuild its leadership bench.",
-          "vocab": [
-            {
-              "word": "lean into",
-              "pos": "phrasal v.",
-              "meaning": "全力投入、深度押注某一方向。与「focus on」不同，lean into 隐含「在压力或挑战下主动选择强化某一优势」的语气，多用于商业战略语境，表示不回避而是迎难而上。这是当代商业英语描述「战略专注」最地道的说法，财经媒体和CEO访谈中极为常见。",
-              "etymology": "lean 源自古英语 hleonian，原意为「靠着某物倾斜、依靠」；into 为方向介词。两词合用形成「向某方向倾倒全力」的身体隐喻，20世纪末开始广泛进入管理和战略语境，在科技创业圈尤其盛行，用来描述在逆境中主动加码的战略姿态。",
-              "morphology": "lean（基本词，无前后缀）+ into（方向介词）。派生词与横向扩展：lean（adj. 精简的，如lean startup 精益创业）、leaning（n. 倾向）、lean-in（名词短语，来自Sheryl Sandberg同名职场理念书）、lean on（依靠某人）、lean toward（倾向于）。",
-              "mnemonic": "想象你站在强风中，身体向前「lean（倾斜）into（迎向）」风——不是转身逃跑，而是主动压上去对抗。Groq在英伟达挖走人才后没有倒下，反而猛地lean into neocloud业务，迎风而上。记住这个画面：压上去，而不是退开。",
-              "exampleEn": "Facing stiff competition from legacy cloud providers, the startup decided to lean into its AI-native architecture as its core differentiator.",
-              "exampleCn": "面对传统云厂商的激烈竞争，这家初创公司决定全力押注其原生AI架构作为核心差异化优势。"
-            },
-            {
-              "word": "neocloud",
-              "pos": "n.",
-              "meaning": "「新云」，特指专为AI推理和训练优化的新一代云基础设施提供商，区别于AWS、Azure等通用型传统云厂商。在AI基础设施投资分析中是核心词汇，理解它才能区分「GPU算力租赁新物种」与「老牌公有云」的商业模式差异，是读AI产业报告的必备词。",
-              "etymology": "neo- 源自希腊语 neos，意为「新的、年轻的、现代的」；cloud 指云计算基础设施。合成词约在2022年后随AI算力需求爆发而出现，专指CoreWeave、Lambda Labs、Groq等专注GPU算力出租的新兴云服务商，与传统超大规模云（hyperscaler）相区分。",
-              "morphology": "neo-（前缀：新的）+ cloud（词根：云计算）。neo- 同前缀家族：neobank（新型数字银行）、neoclassical（新古典主义）、neoliberal（新自由主义）、neo-noir（新黑色电影）。掌握neo-前缀可快速理解大量新造词，几乎都含「对旧事物的现代化颠覆」之意。",
-              "mnemonic": "Neo 是《黑客帝国》里突破旧世界的救世主——neocloud 就是云计算里的「救世主」，专门为AI时代重新设计算力基础设施。不是老牌AWS那种「旧系统」，而是打破旧秩序的新物种。记住：neo = 颠覆者、新物种。",
-              "exampleEn": "Investors are pouring capital into neocloud providers, betting that AI inference demand will outpace what traditional hyperscalers can efficiently serve.",
-              "exampleCn": "投资者正大举押注新云服务商，押注AI推理需求将超出传统超大规模云厂商的高效服务能力。"
-            },
-            {
-              "word": "raise",
-              "pos": "n.",
-              "meaning": "融资轮次或融资金额的口语化说法，如「a $650M raise」。这是科技媒体和风投圈极高频的名词用法，比「funding round」更简洁，但教科书几乎不教。读TechCrunch、Bloomberg等媒体必须认识，否则容易把融资新闻误读成「涨薪」新闻——因为raise也有加薪的意思。",
-              "etymology": "源自古英语 rǣran，意为「使升起、举起某物」；中古英语演变为 raise。用作名词表示「融资」是20世纪末美国风投文化的产物，隐喻「抬高资本水位」——融资就是把钱「举起来」注入公司，使其资本底盘升高。",
-              "morphology": "基本词，无前后缀。相关派生词：raise（v. 筹集/抬高）、raiser（n. 筹资者）、fundraiser（n. 募资人或募资活动）。关键区分：raise 作名词在财经语境指融资（a $100M raise），在职场语境指加薪（ask for a raise）。遇到「数字 + raise」组合，几乎100%是融资。",
-              "mnemonic": "raise = 举起。融资就是把公司的「钱桶」举高——$650M raise 就是把钱桶举了6.5亿美元那么高。和中文「轮」的概念不同，英文用「举起」这个动作来隐喻注资。公式记忆：$XM raise = X美元融资，永不混淆。",
-              "exampleEn": "The biotech startup announced a $300 million raise that will fund three pivotal clinical trials over the next two years.",
-              "exampleCn": "这家生物科技初创公司宣布完成3亿美元融资，将用于未来两年内三项关键临床试验的开展。"
-            },
-            {
-              "word": "re-staff",
-              "pos": "v.",
-              "meaning": "重新招募人员，尤指在团队大规模流失或重组之后补充人手。比「hire」更强调「恢复性填补」的含义，常见于公司遭遇并购挖角、高管集体离职或裁员后的重建语境。精准描述一类特殊的「被动招聘」情形，中文对应「重整人马」或「补充兵力」。",
-              "etymology": "re- 源自拉丁语前缀 re-，意为「再、重新、恢复」；staff 源自古英语 stæf（棍杖/支撑物），中世纪演变为「支撑组织运转的人员」即员工团队。re-staff 合成词强调「恢复支撑结构」的过程，而非日常招聘，带有「修复」的紧迫感。",
-              "morphology": "re-（前缀：再次/重新）+ staff（词根：员工/人员配置）。re- 同前缀家族：relaunch（重新上线）、reorganize（重组）、restructure（重构）、reinvent（重新发明）。staff 的派生词：staffing（n. 人员配置）、understaffed（adj. 人手不足）、overstaffed（adj. 人员过剩）。",
-              "mnemonic": "想象一根被虫子蛀空的木头（staff = 支撑柱）——英伟达把Groq的核心团队「挖空」了，就像蛀空的木头。re-staff 就是「重新填实」这根空心木头，让它再次能撑起重量。画面：空心木 → 重新填满 → re-staff，修复支撑结构。",
-              "exampleEn": "After losing its entire data science team to a competitor, the firm had to aggressively re-staff before the product launch deadline.",
-              "exampleCn": "在整个数据科学团队被竞争对手挖走后，该公司不得不在产品发布截止日前大力重建团队。"
-            },
-            {
-              "word": "exec",
-              "pos": "n. (informal)",
-              "meaning": "executive（高管）的口语缩写，在科技媒体、商业新闻和内部沟通中极为普遍。这是读懂英文科技报道的基础词——正式文件里叫executive，新闻标题和口语里叫exec。值得专门学，因为中国学习者容易在文中看到exec时短暂卡顿，或将其与编程的execute混淆。",
-              "etymology": "executive 源自拉丁语 exsequi（执行、实施），由 ex-（向外）+ sequi（跟随/执行）构成，原义「将命令执行到底的人」。缩写为 exec 是20世纪中期美国商业文化口语化的产物，体现英语在非正式语境下高度省略的习惯，尤其在硅谷创业圈盛行。",
-              "morphology": "executive 的截断缩写词（取前四字母 e-x-e-c）。完整形式：executive（n. 高管 / adj. 执行级别的）。常见搭配：C-suite exec（C级高管）、tech exec（科技行业高管）、senior exec（高级主管）。重要区分：exec 在编程语境里是「execute（执行命令）」的缩写，含义完全不同，须按场景判断。",
-              "mnemonic": "exec = executive 的「懒人版」。硅谷人连说话都要优化效率，executive 四个音节太长，砍成 exec 两个音节。记忆捷径：executive 的前四个字母 e-x-e-c 就是 exec。看到科技新闻里的exec，脑中直接补全为「某位高管」，绝不卡顿。",
-              "exampleEn": "The board recruited several seasoned execs from the semiconductor industry to lead the company through its next growth phase.",
-              "exampleCn": "董事会从半导体行业招募了数位资深高管，带领公司进入下一阶段增长。"
-            }
-          ]
-        },
-        {
-          "id": "20260623-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html",
-          "headlineEn": "SpaceX Stock Tanks 16%, Erasing Post-IPO Gains as Momentum Fades",
-          "headlineCn": "SpaceX上市后涨势退潮，股价三连跌累计下挫16%",
-          "summaryEn": "SpaceX's stock has fallen 16% over three consecutive trading sessions, wiping out much of the initial enthusiasm that followed its record-setting IPO on June 12. The drop signals that early buyers are locking in profits after a strong post-listing surge, while new investors remain cautious about the company's lofty valuation. The correction highlights a familiar pattern in high-profile IPOs: an initial euphoria-driven rally followed by a sharp pullback as market sentiment normalizes.",
-          "summaryCn": "SpaceX在6月12日创纪录IPO上市后，股价连续三个交易日下跌，累计跌幅达16%，几乎抹平了上市初期的涨势。此轮回调表明，早期买入者正在高位获利了结，而新投资者对公司高企的估值仍持谨慎态度。这一走势印证了高关注度IPO股票的典型规律：上市初期受情绪驱动快速上涨，随后随着市场情绪趋于理性而出现明显回调。",
-          "excerpt": "SpaceX shares shed another 5% Tuesday, bringing the three-day decline to 16% as post-IPO euphoria gives way to profit-taking. The stock had surged more than 30% in the first week after the company's record-breaking debut on June 12 before sellers stepped in.",
-          "vocab": [
-            {
-              "word": "tank",
-              "pos": "v.",
-              "meaning": "（股价、业绩）暴跌、骤降。比 fall 或 drop 语气更强烈，带有「急促且出乎意料」的情绪色彩，常见于财经新闻标题。值得学：它是口语化但极具冲击力的财经动词，native speaker 写标题时首选。",
-              "etymology": "源自古挪威语 tankr（容器），后指「大型储水罐（tank）」。20世纪美式俚语借「坦克被击中后沉没」或「储水罐漏空骤降」的意象，引申为「彻底失败、急剧崩跌」，逐渐进入主流金融语言。",
-              "morphology": "单一词根，无前后缀。常见形式：tanked（过去式，已暴跌）、tanking（进行时，正在崩跌）。复合词：tank job（刻意做差的失败表现）。近义词梯度：dip（小跌）→ drop（跌）→ plunge（大跌）→ tank（暴跌，最口语）。",
-              "mnemonic": "想象一辆「tank（坦克）」被炮弹击中，「咣」一声垂直沉入地面——股价 tank 就是这种感觉：不是慢慢滑落，而是直接「砸」下去。坦克→下沉→暴跌，画面感极强，一旦脑补就忘不掉。",
-              "exampleEn": "Shares of the electric vehicle startup tanked 22% after the CEO abruptly resigned, erasing billions in market cap within hours.",
-              "exampleCn": "这家电动车初创公司CEO突然辞职后，股价暴跌22%，市值在数小时内蒸发数十亿美元。"
-            },
-            {
-              "word": "IPO",
-              "pos": "n.",
-              "meaning": "首次公开募股（Initial Public Offering），即公司首次向公众出售股票、正式登陆证券交易所的全过程。财经英语核心缩写，须区分首次上市（IPO）与上市后增发（secondary offering），混淆会闹笑话。",
-              "etymology": "首字母缩写词。Initial 源自拉丁语 initium（开始）；Public 源自拉丁语 publicus（属于人民的）；Offering 源自古英语 offrian（奉献、提供）。三词合并成现代金融术语，1970年代随美国资本市场扩张而全球普及。",
-              "morphology": "由三个词首字母构成：I-nitial / P-ublic / O-ffering。高频派生搭配：IPO lockup（上市锁定期）、IPO pop（上市首日涨幅）、IPO window（适合上市的市场窗口）、pre-IPO（上市前阶段）、post-IPO（上市后阶段）。",
-              "mnemonic": "记成「I Put Out（我放出去了）」——公司把股票「放出去」给公众买，就是IPO。或拆开记三个动作：I = 第一次（Initial），P = 对公众（Public），O = 卖出（Offering）。三步走，清晰无误。",
-              "exampleEn": "The chipmaker's IPO raised $4 billion on its first day of trading, making it the largest tech listing of the year.",
-              "exampleCn": "这家芯片制造商上市首日筹资40亿美元，成为当年规模最大的科技股IPO。"
-            },
-            {
-              "word": "cool",
-              "pos": "v.",
-              "meaning": "（热情、势头、价格）降温、减退。在财经语境中为隐喻用法，指市场情绪或涨势从过热状态回归平稳。比 slow down 更有画面感，且暗含「曾经很热、现在退烧」的对比，是描述市场周期转折的精妙用词。",
-              "etymology": "源自古英语 colian（变冷），与日耳曼语系同源（德语 kühlen、荷兰语 koelen）。温度隐喻被广泛借用于情绪和经济活动的强度描述，「cool」由物理降温演变为「热度消退」的金融比喻，自然直觉、跨语言共通。",
-              "morphology": "基础词根 cool，派生形式：cooling（形容词/名词，如 cooling-off period 禁售冷静期）、cooldown（冷却阶段）。常见短语：cool off（退烧）、cool down（降温）。反义对比词：overheat（过热）、heat up（升温）。",
-              "mnemonic": "IPO上市时热度像刚出炉的面包——烫手！三天后涨势 cooled = 面包慢慢「凉」了。想象市场温度计从高烧（boiling rally）到退烧（cooled），「凉了」就是记忆锚点，一秒联想到 cool。",
-              "exampleEn": "Investor enthusiasm for AI hardware stocks has cooled considerably after valuations climbed to levels not seen since the dot-com bubble.",
-              "exampleCn": "在估值攀升至互联网泡沫时期以来罕见高位后，投资者对AI硬件股票的热情已大幅降温。"
-            },
-            {
-              "word": "pare",
-              "pos": "v.",
-              "meaning": "削减、逐步缩减（规模、成本、持仓、亏损等）。比 cut 更精准，暗含「小心、渐进地修剪」的语感。高频搭配：pare back（大幅削减投入）、pare losses（收窄亏损）。值得学：cut 显粗暴，pare 显专业，彰显财经写作素养。",
-              "etymology": "源自拉丁语 parare（准备、整理），经古法语 parer（修整、削皮）进入英语。原义为「削去果皮、修整边缘」，后引申为「去除多余使其精简」。与 prepare（预备）、repair（修复）共享拉丁词根 par-（整治/准备）。",
-              "morphology": "词根 par-（整治/准备）：prepare（预备）、repair（修理）、apparatus（装置，字面义为「准备好的东西」）。常以短语出现：pare back（大幅削减）、pare down（逐步精简）、paring（名词，削减量/果皮）。",
-              "mnemonic": "想象用水果刀削苹果皮（pare an apple）——一点一点地削，不是一刀切断整个苹果。股价「pare losses」= 亏损像苹果皮一样被慢慢削薄、逐渐收窄。记住：pare = 削皮刀式的减法，精细而渐进。",
-              "exampleEn": "The hedge fund moved to pare its position in the tech giant after the stock's three-day losing streak raised concerns about near-term momentum.",
-              "exampleCn": "在这家科技巨头股价连跌三日、引发对短期走势担忧之后，该对冲基金开始逐步削减持仓。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值，即市场或投资者对一家公司价值的评估结果，通常以市值或倍数（市盈率P/E、市销率P/S）衡量。「lofty valuation（高估值）」暗含泡沫风险警示语气。是IPO和科技股讨论中出现频率最高的核心词之一。",
-              "etymology": "源自拉丁语 valere（值、有价值、有力量），val- 词根贯穿大量英语词汇：value（价值）、valid（有效的）、prevail（占上风）、equivalent（等价的）、valor（勇气）。「有价值」是这个词根家族的共同核心。",
-              "morphology": "val-（价值）+ -u- + -ation（名词后缀，表过程或结果）。同族词链：value（n./v.）→ evaluate（评估）→ valuation（估值结果）。高频派生：devalue（贬值）、overvalue（高估）、undervalue（低估）——三个词在投资分析报告中随处可见。",
-              "mnemonic": "val = value（价值），-ation = 「做这件事的结果」后缀。valuation = 「给价值打分这件事的结果」。口诀：high valuation = 股票贵，low valuation = 股票便宜。val 家族全员都在问同一个问题：「这值多少钱？」",
-              "exampleEn": "Analysts warned that SpaceX's post-IPO valuation implied a growth trajectory that would be difficult to justify given the competitive landscape in commercial space.",
-              "exampleCn": "分析师警告称，SpaceX上市后的估值所隐含的增长轨迹，在商业航天领域当前的竞争格局下难以得到充分支撑。"
-            }
-          ]
-        },
-        {
-          "id": "20260623-4",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/microns-stock-momentum-builds-as-the-company-inks-a-new-anthropic-partnership-484e3845?mod=mw_rss_topstories",
-          "headlineEn": "Micron Cements Anthropic Partnership with Memory and Storage Supply Deal",
-          "headlineCn": "美光与Anthropic签署存储供货协议，股价动能持续走强",
-          "summaryEn": "Micron Technology has secured a supply agreement with Anthropic, the AI company behind Claude, to provide memory and storage components for AI infrastructure. The deal represents a significant commercial milestone for Micron, whose high-bandwidth memory chips are essential building blocks for AI data centers. The partnership underscores growing demand for specialized memory as AI model training and inference workloads accelerate. Investors responded positively, with Micron's stock continuing its upward momentum as the company cements its position as a cornerstone supplier in the AI value chain.",
-          "summaryCn": "美光科技与AI公司Anthropic达成供货协议，将为其提供存储器和存储设备，用于支撑AI基础设施建设。此次合作对美光而言意义重大——其高带宽存储芯片（HBM）是AI数据中心的核心组件。随着AI模型训练与推理工作负载持续增长，对专用存储器的需求也在加速上升。市场对此反应积极，美光股价延续强劲涨势，进一步巩固其在AI供应链中核心供应商的地位。",
-          "excerpt": "Micron Technology has announced a supply agreement with Anthropic covering memory and storage solutions, marking a pivotal partnership in the AI infrastructure space. The deal adds to Micron's growing roster of AI-related customers and signals continued strong demand for high-bandwidth memory chips as the artificial intelligence buildout accelerates.",
-          "vocab": [
-            {
-              "word": "momentum",
-              "pos": "n.",
-              "meaning": "势头；动能。金融报道中特指股价或业绩持续朝某方向运动的趋势，比 trend 更强调「已积累的惯性」——一旦建立便难以轻易逆转。常见搭配：build / gain / lose momentum",
-              "etymology": "来自拉丁语 momentum（动力、重量），源于 movere（移动）。原为物理学术语，指物体运动的推动力；17世纪引入科学语境，后扩展至商业，形容「已积累、不易停止的势头」",
-              "morphology": "moment（瞬间/力矩）+ -um（拉丁名词后缀）。同词根词：movement（运动）、motor（发动机）、promote（推动前进）、remove（移走）。派生词：momentous（重大的）",
-              "mnemonic": "想象一列满载货物的火车越跑越快——mo 联想 motion（运动），火车跑起来就很难刹车。股价动能正是这样：一旦积累，自我强化，很难踩住",
-              "exampleEn": "The semiconductor sector has regained momentum as AI chip demand continues to outpace supply.",
-              "exampleCn": "随着AI芯片需求持续超过供应，半导体行业重新获得了增长势头。"
-            },
-            {
-              "word": "cement",
-              "pos": "v.",
-              "meaning": "巩固、确立（关系或地位）。商业语境常用于 cement a deal / relationship / position，比 strengthen 更强调「使某事变得不可动摇、如水泥凝固般牢固」，带有「终局性」的隐喻",
-              "etymology": "来自拉丁语 caementum（碎石、砂浆），原指建筑黏合材料。经古法语 ciment 进入英语，16世纪出现动词用法，隐喻「将两者永久黏合在一起」",
-              "morphology": "简单借用词，无前后缀可拆解。派生词：cementation（固化过程）、cemented（已巩固的）。注意词形相同的名词 cement（水泥）与动词 cement（巩固）需靠语境区分",
-              "mnemonic": "水泥（cement）一旦浇筑凝固，想撬开非常困难。cement a partnership 就是说：这份合作已经「浇筑定型」，不是随便能拆的那种。混凝土→凝固→巩固，画面直接",
-              "exampleEn": "The multi-year supply contract with a leading cloud provider helped cement Micron's role as a top AI memory supplier.",
-              "exampleCn": "与某领先云服务商签订的多年供货合同，帮助美光巩固了其作为顶级AI存储供应商的地位。"
-            },
-            {
-              "word": "cornerstone",
-              "pos": "n.",
-              "meaning": "基石（比喻）。商业语境中指某战略、合作或产品组合中最核心、不可或缺的部分，比 key element 更具画面感和分量感，常搭配 of 出现：cornerstone of a strategy / deal",
-              "etymology": "来自古英语 corner（角）+ stone（石头）。建筑上指建筑物转角处奠定整栋楼基础的第一块石头，古代有隆重的奠基仪式。后引申为「任何事物最根本的支柱」",
-              "morphology": "corner（角落）+ stone（石头），复合名词。同类商业隐喻词：milestone（里程碑）、keystone（拱顶石/关键要素）、touchstone（试金石/评判标准）——三者均以「石」为根，各有侧重",
-              "mnemonic": "想象古希腊神庙转角处那块特别大的石头，整栋庙就靠它撑着——少了它整座建筑就垮了。corner（角落）+ stone（石头）= 角落那块最重要的石头，缺一不可",
-              "exampleEn": "Access to high-bandwidth memory has become a cornerstone of competitive AI model deployment for leading technology firms.",
-              "exampleCn": "对于领先科技公司而言，获取高带宽存储器已成为具竞争力的AI模型部署的核心基石。"
-            },
-            {
-              "word": "validate",
-              "pos": "v.",
-              "meaning": "验证、证实。商业语境中常指「经由市场或客户检验，证明某策略/方向是正确的」，比 confirm 更强调「外部力量给予认可」，常见搭配：validate a strategy / thesis / approach",
-              "etymology": "来自拉丁语 validus（强壮的），源于 valere（有价值、有力量）。中世纪拉丁语衍生出 validare（使有效、赋予法律效力），现代商业英语扩展为「经检验证明某事成立或正确」",
-              "morphology": "val-（词根，来自 valere，价值/力量）+ -id（形容词词根）+ -ate（动词后缀）。同词根词：valid（有效的）、value（价值）、evaluate（评估）、equivalent（等价的）",
-              "mnemonic": "val = value（价值），validate 就是「赋予价值、证明有价值」。拿到大客户订单就是在 validate 你的商业模式——市场用真金白银说：你的判断是对的",
-              "exampleEn": "The Anthropic supply deal validates Micron's thesis that AI workloads will drive sustained demand for advanced memory solutions.",
-              "exampleCn": "与Anthropic的供货协议证实了美光的判断：AI工作负载将持续推动对先进存储解决方案的需求。"
-            },
-            {
-              "word": "anchor customer",
-              "pos": "phrase",
-              "meaning": "锚定客户；核心客户。指体量大、声誉高、能为供应商带来稳定收入并增强市场信誉的重要客户，比 key customer 更强调「像锚一样稳定供应商地位」的战略意义，是供应链和投融资报道中的高频术语",
-              "etymology": "anchor 来自希腊语 ankura（锚），经拉丁语 ancora 进入英语，引申为「使某物稳定的力量」；customer 来自拉丁语 consuetudo（习惯），原意「惯常交易的人」。anchor customer 为现代商业英语复合短语，无独立词源",
-              "morphology": "anchor（锚/固定作用）+ customer（客户）。同族短语：anchor tenant（商场主力租户）、anchor investor（IPO基石投资者）、anchor brand（引流品牌）——均以「锚」喻「稳定核心」，场景不同，逻辑相通",
-              "mnemonic": "想象一艘小船（供应商）在风浪中随波漂泊，突然抛下一只大锚（大客户合同）——船立刻稳了。记住这个画面，顺带记下同族词：anchor investor（基石投资者）、anchor tenant（主力租户），一个逻辑，三种场景",
-              "exampleEn": "Securing Anthropic as an anchor customer significantly reduces uncertainty in Micron's long-term revenue outlook for the AI memory segment.",
-              "exampleCn": "将Anthropic纳为锚定客户，大幅降低了美光在AI存储领域长期营收预期的不确定性。"
-            }
-          ]
-        },
-        {
-          "id": "20260623-5",
-          "category": "econ",
-          "sourceName": "BBC Business",
-          "sourceUrl": "https://www.bbc.com/news/articles/cjer7x7yl12o?at_medium=RSS&at_campaign=rss",
-          "headlineEn": "Alan Greenspan, Architect of the Modern American Economy, Dies at 100",
-          "headlineCn": "美联储前主席格林斯潘逝世，享年100岁",
-          "summaryEn": "Alan Greenspan, who served as chairman of the Federal Reserve from 1987 to 2006, died at the age of 100. During his nearly two-decade tenure, he steered the US economy through major crises, including the 1987 stock market crash and the dot-com bubble. Known for his cryptic language and laissez-faire philosophy, Greenspan was once celebrated as the world's most influential central banker. His legacy, however, was later clouded by the 2008 financial crisis, which exposed flaws in his belief in market self-regulation.",
-          "summaryCn": "艾伦·格林斯潘，曾任美联储主席近二十年（1987—2006），于近日逝世，享年100岁。他在任期间引导美国经济度过1987年股市崩盘、互联网泡沫破裂等多次危机，以晦涩的「联储用语」和自由放任哲学著称，一度被誉为全球最具影响力的央行行长。然而，2008年金融危机暴露了其市场自我调节信仰的缺陷，令这位「大师」的历史评价蒙上了阴影。",
-          "excerpt": "As chairman of the Federal Reserve for nearly two decades, Alan Greenspan became the world's most high-profile central banker. His cryptic statements moved markets, his interest rate decisions shaped the global economy, and his belief in financial deregulation defined an era — until the 2008 crisis forced him to reckon with its limits.",
-          "vocab": [
-            {
-              "word": "architect",
-              "pos": "n.",
-              "meaning": "（比喻义）某一体系、政策或局势的「设计者」「缔造者」。与 creator/founder 相比，architect 暗含「有意为之的系统性设计」，多用于政治、经济、外交等严肃语域，语气更正式，更具智识分量，值得学习这一隐喻用法。",
-              "etymology": "来自希腊语 arkhitekton，由 arkhi-（首席、领导）与 tekton（建造者、工匠）构成，原指「首席建筑师」。16世纪进入英语后逐渐发展出比喻义，指「构建某一复杂体系的人」。",
-              "morphology": "archi-（首席）+ -tect-（建造，来自词根 tect-）+ -ure → architecture。同词根词：tectonic（构造的）、technology（源自希腊语 tekhnē，工艺）。派生词：architectural（adj.）、architecturally（adv.）。",
-              "mnemonic": "想象一位「Arch（拱门）」大师精心「拼接（-itect）」复杂体系——凡是把制度或战略「从零搭建起来」的人，都叫 architect。建筑师设计楼，政策架构师设计制度，核心都是「有意图地构建」。",
-              "exampleEn": "As the chief architect of the company's cloud migration strategy, the CTO spent two years redesigning its entire technology stack.",
-              "exampleCn": "作为公司云迁移战略的首席设计者，这位首席技术官花了两年时间重构整个技术架构。"
-            },
-            {
-              "word": "tenure",
-              "pos": "n.",
-              "meaning": "在某一职位或机构的任职期间。与 term（强调有明确期限的任期）不同，tenure 侧重「占据职位的整段时间」，且在学术语境中特指「终身教职」。财经新闻极高频搭配：during his/her tenure（在其任职期间），值得熟练掌握。",
-              "etymology": "来自拉丁语 tenura，由 tenere（持有、保有）派生，字面意为「持有职位的状态」。14世纪通过古法语进入英语，最初指土地持有权，后扩展为对职位的持有。",
-              "morphology": "ten-（持有，来自拉丁词根 tenere）+ -ure（名词后缀）。同词根词：tenant（租户）、tenacious（坚韧的，紧抓不放）、retain（保留）、detain（拘留）、sustain（维持）。",
-              "mnemonic": "ten（十）+ ure → 想象一位教授坚持了「十年」才拿到 tenure（终身教职）——只有「紧握（ten = hold）」职位不放的人，才能谈 tenure。核心画面：死死抓住不松手。",
-              "exampleEn": "During her tenure as CFO, the company's operating margin improved by eight percentage points.",
-              "exampleCn": "在她担任首席财务官期间，公司的营业利润率提升了八个百分点。"
-            },
-            {
-              "word": "laissez-faire",
-              "pos": "adj. / n.",
-              "meaning": "「自由放任」（经济/管理哲学），主张政府或管理层对市场与个人尽量少干预。格林斯潘是该理念的坚定信奉者。此词在经济新闻极高频，但学习者常不会拼写或不知发音（lɛseɪ ˈfɛː），且保留法语连字符，掌握后立显专业。",
-              "etymology": "直接借自法语，字面意为「让（人们）去做」——laissez 是 laisser（让、允许）的命令形，faire 意为「做」。18世纪法国重农学派经济学家首先用它描述自由贸易哲学，后被英语经济学界广泛采用。",
-              "morphology": "短语/复合词，无独立词源拆解。laissez 来自拉丁语 laxare（松开），faire 来自拉丁语 facere（做）。facere 同词根英语词：manufacture（制造）、factor（因素）、fact（事实）、facilitate（促进）。",
-              "mnemonic": "发音像「莱塞·费尔」——想象一位「懒（laissez ≈ lazy）」裁判，「费（faire）」事也懒得管，完全放任场上选手自由发挥。这就是自由放任：政府退后一步，市场自己跑。",
-              "exampleEn": "The startup's laissez-faire culture gave engineers complete freedom to ship features without going through approval chains.",
-              "exampleCn": "这家初创公司的自由放任文化让工程师无需层层审批，可以自主发布功能。"
-            },
-            {
-              "word": "hubris",
-              "pos": "n.",
-              "meaning": "过度的自信或傲慢，尤指因骄傲而忽视风险、最终酿成失败的心理状态。与 arrogance（一般性傲慢）相比，hubris 带有古希腊悲剧色彩，强调「越界挑战极限」导致的命运性崩塌，常用于分析高管决策失误或政策过度自信的悲剧后果。",
-              "etymology": "直接来自希腊语 hybris，原指「对神灵的冒犯/傲慢」——古希腊悲剧中，凡人因过度骄傲挑战神明而遭惩罚。英语商业与政治评论借用此词，描述领导者因极度自信而忽略风险的心态。",
-              "morphology": "不可拆解的借词，无前后缀结构。派生词：hubristic（adj. 傲慢自大的）、hubristically（adv.）。近义词梯度：confidence → overconfidence → arrogance → hubris（最强，带悲剧宿命感，常暗示将有惩罚降临）。",
-              "mnemonic": "hu-BRIS → 想象一位 CEO 对着「湖（hu）」里的倒影自恋，然后「brisk（迅速）」地跌入水中——hubris 就是那种「盯着自己倒影太久而忘记危险」的致命傲慢，结局必然是坠落。",
-              "exampleEn": "The bank's collapse was widely attributed to the hubris of its leadership, who believed they had engineered a risk-free balance sheet.",
-              "exampleCn": "该银行的倒闭被普遍归因于其领导层的过度自大，他们坚信自己打造出了一张零风险的资产负债表。"
-            },
-            {
-              "word": "conundrum",
-              "pos": "n.",
-              "meaning": "令人困惑的难题或矛盾困境，尤指没有简单答案的复杂问题。格林斯潘2005年将长期利率在短期利率上升时反而下行的异常现象称为「conundrum」，此后该词在金融分析中广泛流传。与 problem/dilemma 相比，conundrum 更书面，更强调逻辑上的矛盾性与难解性。",
-              "etymology": "词源不确定，可能源自16世纪英国大学生杜撰的拟拉丁语俚语词。最初指文字谜语（riddle），后泛化为「令人费解的难题」。讽刺的是，这个词的词源本身也是个谜——名副其实。",
-              "morphology": "不可拆解（来源不明），无前后缀结构。复数：conundra（正式）或 conundrums（常用）。近义词梯度：problem（普通问题）→ dilemma（两难）→ puzzle（谜题）→ conundrum（逻辑矛盾的难题）→ paradox（自相矛盾命题）。",
-              "mnemonic": "co-NUN-drum → 想象一群「修女（nun）」坐在「鼓（drum）」上集体开会，讨论一道谁也解不开的谜题——conundrum 就是那种「连修女开会也解不了」的终极难题，够难了吧？",
-              "exampleEn": "The central bank faces a conundrum: raising rates to curb inflation risks tipping the economy into recession.",
-              "exampleCn": "央行面临两难困境：加息以遏制通胀，有可能将经济推入衰退。"
             }
           ]
         }
