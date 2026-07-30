@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-07-30T00:04:54.276833+00:00",
+  "lastUpdated": "2026-07-30T23:04:14.877820+00:00",
   "level": "B2",
   "days": {
+    "2026-07-31": {
+      "label": "7月31日 (周五)",
+      "stories": [
+        {
+          "id": "20260731-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+          "headlineEn": "Nscale Buys Anyscale to Expand Its AI Compute Stack",
+          "headlineCn": "英国云商Nscale收购Anyscale，扩张AI算力版图",
+          "summaryEn": "British AI neocloud Nscale has agreed to acquire Anyscale, a startup whose software helps companies distribute AI workloads across data centers and servers. The deal lets Nscale fold Anyscale's orchestration technology directly into its own infrastructure, rather than relying on outside tools to manage how customer workloads run. For Nscale, which rents GPU capacity to AI labs and enterprises, owning more of the software layer above raw compute could make its offering stickier and harder for rivals to replicate, as the AI compute stack becomes an increasingly contested battleground.",
+          "summaryCn": "英国AI云服务商Nscale宣布收购初创公司Anyscale，后者的软件能帮助企业把AI计算任务分配到不同数据中心和服务器上运行。通过此次收购，Nscale可以把Anyscale的调度技术直接整合进自己的基础设施，而不必依赖第三方工具管理客户的计算负载。对于以出租GPU算力为主业的Nscale来说，掌握更多软件层的技术，意味着产品粘性更强，也更难被对手复制，凸显出AI算力堆栈正成为云厂商激烈争夺的新战场。",
+          "excerpt": "British AI neocloud Nscale is buying Anyscale, a startup whose software helps companies scale their AI workloads across data centers and servers, as the compute provider seeks to own more layers of the stack that AI labs and enterprises depend on to run their models.",
+          "vocab": [
+            {
+              "word": "neocloud",
+              "pos": "n.",
+              "meaning": "专指专营AI算力租赁的新兴云服务商（区别于AWS/Azure等传统综合云），是行业黑话，报道AI基础设施新闻时高频出现",
+              "etymology": "前缀neo-源自希腊语neos（新的），与cloud（计算隐喻词，源于网络拓扑图里代表互联网的云朵符号）组合而成的21世纪新造词",
+              "morphology": "neo-(新) + cloud(云)；同前缀词如neoliberal（新自由主义）、neonatal（新生儿的）；cloud也见于cloud computing、cloud-native",
+              "mnemonic": "想象传统云厂商是老牌综合超市，而neocloud是专门给AI模型练粮草（GPU）的新兴专卖店——只卖一种商品：算力",
+              "exampleEn": "Several neoclouds have emerged in the past two years, competing to rent out Nvidia GPUs to AI startups.",
+              "exampleCn": "过去两年涌现出多家neocloud，争相把英伟达GPU租给AI初创公司。"
+            },
+            {
+              "word": "stack",
+              "pos": "n.",
+              "meaning": "技术语境下指《技术栈》——完成某项任务所需的分层软硬件组合，比layers更地道，是工程师和科技媒体的标准说法",
+              "etymology": "源自古英语stakk，本义为干草垛，指整齐堆叠之物；20世纪中期计算机科学借用此意象描述数据/程序按层堆叠的结构",
+              "morphology": "不可再拆分的基础词；常见搭配full-stack（全栈）、stack up（叠加/相提并论）、tech stack（技术栈）",
+              "mnemonic": "把AI compute stack想象成一叠煎饼：最底层是芯片，中间是数据中心和调度软件，最上层是应用——Nscale想把中间那几层煎饼也占为己有",
+              "exampleEn": "The company wants to control every layer of the AI compute stack, from chips to scheduling software.",
+              "exampleCn": "该公司希望掌控AI算力堆栈的每一层，从芯片到调度软件都不放过。"
+            },
+            {
+              "word": "workload",
+              "pos": "n.",
+              "meaning": "计算机语境下指《计算任务/工作负载》，比task或job更强调需要被分配、调度、承载的量，是云计算报道的核心术语",
+              "etymology": "work（古英语weorc，劳作）+ load（古英语lad，负荷），合成词直译工作的负荷量，20世纪中期进入计算机术语体系",
+              "morphology": "work + load 复合词；同类复合词有payload（有效载荷）、download/upload；也可作动词短语load a workload onto a server",
+              "mnemonic": "把workload想象成快递公司要处理的包裹总量——AI workload就是要被分配到不同数据中心服务器上《配送》的计算任务包裹",
+              "exampleEn": "Anyscale's software automatically distributes AI workloads across hundreds of servers to avoid bottlenecks.",
+              "exampleCn": "Anyscale的软件能自动把AI工作负载分配到数百台服务器上，避免出现瓶颈。"
+            },
+            {
+              "word": "scale",
+              "pos": "v.",
+              "meaning": "商业语境下指《规模化扩展》，尤指让某个系统/业务在不牺牲效率的前提下变大，是创投和科技报道里几乎必用的动词",
+              "etymology": "源自拉丁语scala（梯子、台阶），经古法语进入英语，原指攀爬的阶梯，17世纪后引申出按比例放大之意",
+              "morphology": "scale(规模) → scalable(adj. 可扩展的) → scalability(n. 可扩展性)；同根词escalate（逐步升级）也源自拉丁scala",
+              "mnemonic": "想象爬梯子（scala）一级一级往上——scale a workload就是把计算任务像爬梯子一样一层层铺展到更多服务器上",
+              "exampleEn": "Fast-growing AI labs need infrastructure that can scale seamlessly as their models grow larger.",
+              "exampleCn": "快速成长的AI实验室需要能随模型规模扩大而无缝扩展的基础设施。"
+            },
+            {
+              "word": "own",
+              "pos": "v.",
+              "meaning": "商业语境下own a market/layer指对某个领域拥有主导性控制权，而非字面《拥有产权》，隐含《占据主导、别人难以撼动》的战略意味",
+              "etymology": "源自古英语agan（拥有、亏欠），与ought同源；中古英语后逐渐固定为表示所有权的现代用法",
+              "morphology": "own(动词/形容词) → owner(n. 所有者) → ownership(n. 所有权)；商业习语常见own the space、own the narrative",
+              "mnemonic": "区分own和buy：buy只是完成交易的动作，own是交易之后真正掌控局面的状态——Nscale买下Anyscale，目的是own整条技术栈的话语权",
+              "exampleEn": "By acquiring Anyscale, Nscale hopes to own a bigger share of the AI compute stack instead of just renting out raw hardware.",
+              "exampleCn": "通过收购Anyscale，Nscale希望能掌控AI算力堆栈中更大的份额，而不只是出租裸的硬件。"
+            }
+          ]
+        },
+        {
+          "id": "20260731-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/30/reformation-ipo-public-nyse-listing.html",
+          "headlineEn": "Reformation Closes Flat in NYSE Debut as CEO Declares Company 'Ready to Scale'",
+          "headlineCn": "服装品牌Reformation纽交所上市首日收平，CEO称公司已准备好扩张",
+          "summaryEn": "Sustainable fashion retailer Reformation debuted on the New York Stock Exchange on Thursday under the ticker REF, with shares closing unchanged from their IPO price on the first trading day. CEO Hali Borenstein said the company is 'ready to scale' as it transitions from a privately held apparel brand into the public markets. The flat debut suggests investors are cautiously watchful rather than euphoric, a signal worth tracking as more consumer brands test IPO appetite this year.",
+          "summaryCn": "可持续时尚零售商Reformation周四以股票代码REF在纽约证券交易所挂牌上市，首日收盘价与发行价持平。首席执行官表示公司已「准备好扩张」，标志着这家原本私有的服装品牌正式迈入公开市场。收盘持平而非大涨，反映投资者态度谨慎观望而非狂热追捧，这一信号值得关注，尤其是在更多消费品牌今年测试IPO市场胃口之际。",
+          "excerpt": "Retailer Reformation made its IPO on the New York Stock Exchange on Thursday under the ticker symbol 'REF.' Shares neither rose nor fell on their opening day, closing exactly where they priced, even as the CEO struck an upbeat tone about the company's growth prospects ahead.",
+          "vocab": [
+            {
+              "word": "debut",
+              "pos": "n./v.",
+              "meaning": "首次亮相/首次登场（尤指公开市场首秀）；比'first appearance'更地道，常用于金融、娱乐语境，如'stock market debut'、'album debut'",
+              "etymology": "源自法语 débuter（开始，尤指台球游戏中的开球），17世纪进入英语，18世纪起专指演员或产品的首次公开亮相",
+              "morphology": "不可拆解的简单词，源自法语前缀 dé-（表示从...出发）+ but（目标/球门）；常见搭配：make one's debut, debut album, market debut",
+              "mnemonic": "联想法语发音'day-BYOO'，想象一位演员第一次登台时紧张地debut——记住它专指'第一次正式登场'，无论是新股上市还是新人出道",
+              "exampleEn": "The fintech startup's stock market debut drew heavy media attention after months of hype.",
+              "exampleCn": "这家金融科技初创公司的股票市场首秀，在数月炒作后吸引了大量媒体关注。"
+            },
+            {
+              "word": "flat",
+              "pos": "adj.",
+              "meaning": "（价格）持平、无涨跌；金融语境下比'unchanged'更口语化、更常用于财经新闻标题，如'stocks closed flat'",
+              "etymology": "源自古诺尔斯语 flatr（平坦的），13世纪进入英语，19世纪起衍生出'（价格）没有波动'的比喻义",
+              "morphology": "单音节词，无需拆解；常见派生词：flatten（使变平，动词）、flatly（断然地，副词）、flatness（名词）",
+              "mnemonic": "想象一条心电图上完全水平的直线——没有起伏就是flat；再联想'flat tire'（漏气轮胎，没有弹性），价格flat就像轮胎没气，没有向上的冲劲",
+              "exampleEn": "Tech shares traded flat for most of the session before a late rally.",
+              "exampleCn": "科技股在大部分交易时段内价格持平，直到尾盘才出现一波上涨。"
+            },
+            {
+              "word": "apparel",
+              "pos": "n.",
+              "meaning": "服装、衣物的正式/行业用语，比'clothes'更常见于商业报告和零售行业术语中，如'apparel industry', 'apparel retailer'",
+              "etymology": "源自古法语 apareillier（准备、装备），追溯至拉丁语 ad-（向）+ par（相配/成对），原意是'使配备齐全'，14世纪起专指'衣着装扮'",
+              "morphology": "不可拆解的简单词；同源词包括 apparatus（装备、器械，同样源自拉丁语 ad- + par- 词根的变体）",
+              "mnemonic": "把 apparel 和 apparatus（装备）联想在一起——两者词源相近，都表示'为某个目的而准备的东西'，衣服就是身体的'装备'",
+              "exampleEn": "The apparel maker reported weaker sales as shoppers cut back on discretionary purchases.",
+              "exampleCn": "这家服装制造商公布销售疲软，原因是消费者削减了非必需品支出。"
+            },
+            {
+              "word": "footprint",
+              "pos": "n.",
+              "meaning": "企业的实体门店网络或市场覆盖范围，比'presence'更形象，常用于零售、地产语境，如'retail footprint', 'store footprint'",
+              "etymology": "foot（脚）+ print（印记）复合词，字面意为'脚印'，20世纪中期起被商业和科技领域借用，比喻'占据的空间或影响范围'",
+              "morphology": "foot（脚，古英语 fōt）+ print（印记，源自古法语 preinte）复合而成；类似复合词还有 carbon footprint（碳足迹）、blueprint（蓝图）",
+              "mnemonic": "想象一家连锁店在城市地图上留下的'脚印'——每开一家新店，就在版图上多踩一个脚印，门店越多，footprint 越大",
+              "exampleEn": "The retailer plans to shrink its physical footprint while investing more heavily in e-commerce.",
+              "exampleCn": "这家零售商计划缩小实体门店规模，同时加大电商投入。"
+            },
+            {
+              "word": "niche",
+              "pos": "n./adj.",
+              "meaning": "细分市场、利基市场；指规模虽小但目标明确、竞争较少的市场定位，商业语境中常与'mainstream'对比使用",
+              "etymology": "源自法语 niche（壁龛，墙上凹陷处放雕像的位置），追溯至拉丁语 nidus（鸟巢），16世纪指建筑中的壁龛，19世纪起引申为'适合某物生存或发展的特定位置'",
+              "morphology": "不可拆解的借词，法语发音保留（/niːʃ/或/nɪtʃ/均可）；常见搭配：niche market, niche brand, carve out a niche",
+              "mnemonic": "想象墙上一个专为一尊雕像量身定做的壁龛——大小刚好，别的东西放不进去；niche market 也是如此，是为特定客群量身定做的小众市场",
+              "exampleEn": "Reformation built its brand by targeting a niche of environmentally conscious shoppers before going mainstream.",
+              "exampleCn": "Reformation在走向主流之前，先通过瞄准注重环保的细分客群来打造品牌。"
+            }
+          ]
+        },
+        {
+          "id": "20260731-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/07/29/kevin-warsh-fed-treasury-yields-inflation-credibility-interest-rates.html",
+          "headlineEn": "Fed Chairman Warsh's Credibility Questioned After Holding Rates Steady",
+          "headlineCn": "美联储主席沃什按兵不动，市场质疑其信誉",
+          "summaryEn": "The Federal Reserve left interest rates unchanged this week, a move Chairman Kevin Warsh had framed as necessary to keep inflation in check. Instead of calming markets, the decision backfired: long-term Treasury yields jumped as investors bet the Fed is dragging its feet. Analysts now question whether Warsh has the resolve to tighten policy aggressively if inflation keeps climbing, warning that his cautious stance could rattle confidence in the central bank at a moment when decisive action matters most.",
+          "summaryCn": "美联储本周维持利率不变，主席沃什曾表示这是遏制通胀失控所必需的举措。然而市场并未因此平静，长期美债收益率反而应声上扬，投资者担忧美联储行动迟缓。分析人士开始质疑，若通胀持续攀升，沃什是否真有决心大力收紧政策；他偏谨慎的姿态也可能动摇市场对央行执行力与信誉的信心。",
+          "excerpt": "The Fed held interest rates steady this week, but the reaction on Wall Street was anything but calm. Long-term Treasury yields jumped almost immediately, as investors openly questioned whether Chairman Warsh will act forcefully enough to keep inflation from spiraling out of control.",
+          "vocab": [
+            {
+              "word": "shore up",
+              "pos": "phrasal v.",
+              "meaning": "支撑、巩固（信心、防线等），财经语境常见搭配为shore up confidence/balance sheet，比support更强调「在出现裂缝迹象时紧急加固」的画面感。",
+              "etymology": "shore源自中古荷兰语/古挪威语schore（意为支撑木桩），最初指用木桩支撑建筑物或船只，19世纪后引申为抽象的支撑、维系。",
+              "morphology": "shore（支柱，名词）+ up（副词，表示强化/补足动作），构成短语动词；同类结构如prop up（撑住）、back up（支持）、bolster up（加固，较少见）。",
+              "mnemonic": "想象一栋摇摇欲坠的老房子，工人们用一根根木头斜撑住墙面——央行shore up市场信心，就像在信心快要塌陷时紧急打入几根支撑木。",
+              "exampleEn": "The central bank cut rates in an attempt to shore up investor confidence after the sell-off.",
+              "exampleCn": "抛售潮过后，央行降息以试图巩固投资者信心。"
+            },
+            {
+              "word": "rattle",
+              "pos": "v.",
+              "meaning": "（使）不安、动摇，常见搭配为rattle investors/markets，比worry更生动，暗含物体碰撞发出咔嗒声那种突然的心理震动。",
+              "etymology": "源自中古英语ratelen，拟声词，模仿物体碰撞发出的咔嗒声，14世纪起由发出格格声引申为使人心神不宁。",
+              "morphology": "拟声词根，无前后缀；常见搭配有rattle sb's cage（激怒某人）、rattlesnake（响尾蛇，因尾部发出rattle声得名）。",
+              "mnemonic": "想象响尾蛇摇动尾巴发出咔嗒咔嗒的警告声——市场消息像这声音一样，让投资者瞬间警觉、心跳加速。",
+              "exampleEn": "The unexpectedly hawkish comments rattled markets, sending yields sharply higher.",
+              "exampleCn": "出人意料的鹰派言论令市场不安，收益率大幅走高。"
+            },
+            {
+              "word": "second-guess",
+              "pos": "v.",
+              "meaning": "事后质疑、揣测（某人的判断），财经语境中常指市场反复猜测决策者下一步会怎么做，比doubt更强调在结果出来后才来评判的意味。",
+              "etymology": "短语/复合词，19世纪美式英语棒球术语，原指教练在赛后质疑球员的临场判断，后扩展到商业与政治语境泛指事后诸葛亮式质疑。",
+              "morphology": "second（第二，序数词）+ guess（猜测，动词），复合动词字面意为猜第二次，即在别人已下判断后再插一脚重新评判；常见现在分词形式second-guessing。",
+              "mnemonic": "想象老板做完决定后，同事在会议室外交头接耳，说他这次判断恐怕不对——这种事后诸葛亮式的窃窃私语就是second-guess。",
+              "exampleEn": "Traders are second-guessing the Fed chairman's ability to control inflation.",
+              "exampleCn": "交易员们正在质疑这位美联储主席控制通胀的能力。"
+            },
+            {
+              "word": "resolve",
+              "pos": "n.",
+              "meaning": "坚定的决心，常见搭配为test sb's resolve，比determination更书面、更常出现在政策与危机语境，暗含在压力下是否会动摇的张力。",
+              "etymology": "源自拉丁语resolvere（re再次 + solvere解开），本义为解开、分解，17世纪演变出下定决心解决问题之意，名词化后指坚定的决心。",
+              "morphology": "re-（再次）+ solve（解决，源自solvere解开）；同根词有resolution（决议/决心）、resolute（坚决的，形容词）、dissolve（溶解）。",
+              "mnemonic": "把resolve拆成re加solve——遇到难题反复去solve解决，这种屡败屡战的劲头就是resolve所表达的坚定决心。",
+              "exampleEn": "Investors are testing the new chairman's resolve to keep fighting inflation.",
+              "exampleCn": "投资者正在考验这位新主席对抗通胀的决心究竟有多坚定。"
+            },
+            {
+              "word": "flinch",
+              "pos": "v.",
+              "meaning": "（因压力而）退缩、畏缩，财经语境中常指决策者在关键时刻是否会因市场压力而软化立场，比hesitate更强调本能性、几乎不受控制的退缩反应。",
+              "etymology": "源自古法语flenchir（意为转身、扭动），16世纪进入英语后逐渐固定为因痛苦或恐惧而突然退缩之意。",
+              "morphology": "不可拆解的简单词，无常见词缀派生；需注意与形近词区分：flinch（畏缩）vs. clinch（敲定/紧抱）vs. flint（燧石），拼写相近但含义完全不同。",
+              "mnemonic": "想象有人挥拳假打你的脸，你会不自觉地眨眼、缩脖子——这个本能反应就是flinch；决策者会不会flinch，就像市场挥拳吓唬他，他会不会眨眼退缩。",
+              "exampleEn": "Despite the market turmoil, the chairman refused to flinch on his inflation-fighting stance.",
+              "exampleCn": "尽管市场动荡不安，这位主席仍拒绝在抗通胀立场上退缩。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-07-30": {
       "label": "7月30日 (周四)",
       "stories": [
@@ -6643,326 +6837,6 @@
               "mnemonic": "「坏脾气」= bad temper，但动词 temper 的意思反而是「压火、降温」。记忆技巧：铁匠淬火（temper steel）——先把铁烧红，再浇冷水，铁变坚韧而不脆。金融语境 temper expectations 就是「给过热预期浇冷水」，帮市场冷静下来——先热后冷，恰到好处。",
               "exampleEn": "Strong tech earnings helped temper fears of a broader economic slowdown heading into the second half of the year.",
               "exampleCn": "强劲的科技股财报有助于缓和市场对下半年经济全面放缓的担忧。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-06-25": {
-      "label": "6月25日 (周四)",
-      "stories": [
-        {
-          "id": "20260625-1",
-          "category": "tech",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/broadcom-unveils-a-custom-chip-for-openai-as-it-challenges-nvidias-dominance-b9b17dd1?mod=mw_rss_topstories",
-          "headlineEn": "Broadcom Unveils Custom AI Chip for OpenAI, Challenging Nvidia's Dominance",
-          "headlineCn": "博通为OpenAI推出定制AI芯片，挑战英伟达市场霸主地位",
-          "summaryEn": "Broadcom has unveiled a custom AI accelerator chip designed exclusively for OpenAI, aiming to power the ChatGPT maker's next-generation models and products. The move signals a direct challenge to Nvidia, which currently holds commanding dominance over the AI chip market. By co-designing dedicated silicon with Broadcom, OpenAI follows a growing trend among tech giants seeking to reduce reliance on a single hardware supplier and optimize chips for their specific AI workloads.",
-          "summaryCn": "博通近日宣布为OpenAI打造一款专属AI加速芯片，旨在为ChatGPT开发商的下一代模型和产品提供算力支撑。这一举措被视为对英伟达AI芯片市场霸主地位的直接挑战。近年来，微软、谷歌等科技巨头纷纷转向定制芯片路线，以降低对单一硬件供应商的依赖，并针对自身AI工作负载优化性能表现。博通与OpenAI的合作标志着定制芯片赛道竞争进一步加剧。",
-          "excerpt": "Broadcom has unveiled a custom AI chip built specifically for OpenAI to support its future models and products. The announcement positions Broadcom as a credible challenger to Nvidia, whose AI accelerators have long dominated the market for training and running large language models.",
-          "vocab": [
-            {
-              "word": "unveil",
-              "pos": "v.",
-              "meaning": "正式发布、公开亮相（尤指新产品或重大计划的首次公开展示）。比reveal更具仪式感，常见于科技发布会和商业公告，暗含「首次亮相」之义，是财经科技报道的核心动词之一，搭配习惯为unveil a product/plan/strategy。",
-              "etymology": "源自古法语voile（面纱），加前缀un-（去除、打开）→字面义为「揭去面纱」。17世纪进入英语，最初用于雕像揭幕仪式，后引申为任何新产品或计划的公开展示，语义不断世俗化。",
-              "morphology": "un-（前缀，表「去除、打开」）+ veil（名词，面纱）→去掉遮盖之物。同前缀词：unbox（拆箱）、unlock（解锁）、unwrap（拆开包装）。派生词：unveiling（n. 发布仪式、揭幕式）",
-              "mnemonic": "想象科技发布会现场，主持人用力拉开一块大红布（veil=面纱），新产品在镁光灯下闪亮登场——这个「拉开面纱」的动作就是unveil。去掉前缀un-就还原成veil（面纱），一拆一合记牢两个词。",
-              "exampleEn": "Apple is expected to unveil its next-generation chip architecture at the annual developer conference next month.",
-              "exampleCn": "苹果预计将在下个月的年度开发者大会上发布其下一代芯片架构。"
-            },
-            {
-              "word": "dominance",
-              "pos": "n.",
-              "meaning": "支配地位、市场霸权。在商业报道中特指某公司或产品占据压倒性市场份额的状态，比「优势」(advantage)程度更强，暗含「他人难以撼动」之义。常见搭配：hold dominance（保持霸主地位）、challenge dominance（挑战霸权）、assert dominance（巩固主导地位）。",
-              "etymology": "源自拉丁语dominari（统治、支配），核心词根dominus（主人、领主）。14世纪经法语进入英语，最初指政治与军事统治权，后演变为商业领域「市场主导地位」的隐喻用法。",
-              "morphology": "domin-（词根，主人、统治）+ -ance（名词后缀，表「状态、性质」）→统治的状态。同词根扩展：dominate（v. 支配）、dominant（adj. 主导的）、domain（n. 领域、版图）、dominion（n. 统治权）",
-              "mnemonic": "domin-联想到「多明我」修士（Dominican），历史上主导宗教裁判所，掌握着无可撼动的权威——「主导」「霸权」正是dominance的商业含义。记住「多明我修士统治一切」，dominance就不会忘。",
-              "exampleEn": "Nvidia's dominance in the AI accelerator market has made it difficult for challengers to gain meaningful traction.",
-              "exampleCn": "英伟达在AI加速芯片市场的霸主地位，使得挑战者难以获得可观的市场份额。"
-            },
-            {
-              "word": "supplant",
-              "pos": "v.",
-              "meaning": "取而代之（将原有者从重要地位上挤走）。比replace语气更强烈，暗含「经过竞争博弈后将对手淘汰」之义，常用于描述新技术颠覆旧技术、新玩家挑战行业领袖等商业场景，是商业写作中描述「颠覆」时比displace更精准的选择。",
-              "etymology": "源自拉丁语supplantare，字面义为「绊倒某人的脚」。sub-（从下方）+ planta（脚掌、脚底）→从脚底下绊倒→引申为「以强力手段取而代之」。后来语义逐渐中性化，泛指任何形式的「取代」。",
-              "morphology": "sub-（前缀，在下方）+ plant（词根planta，脚底；注意此处与「植物plant」无关！）→从脚底绊倒对手。相关词：plantar（adj. 脚底的）、transplant（v. 移植）",
-              "mnemonic": "想象篮球场上，对手悄悄伸脚（planta=脚掌），把你从下方（sub-）绊倒，然后霸占你的位置——这个「使绊子夺位」的画面就是supplant。记住：脚底下的阴谋，最终让自己坐上王座。",
-              "exampleEn": "Open-source models are increasingly capable of supplanting proprietary solutions in many enterprise AI workflows.",
-              "exampleCn": "开源模型正越来越有能力在许多企业AI工作流中取代专有解决方案。"
-            },
-            {
-              "word": "duopoly",
-              "pos": "n.",
-              "meaning": "双头垄断（市场由两家公司主导的竞争格局）。比monopoly（一家独大）更常见于现代科技行业分析，精准刻画「两强争霸、第三方难以介入」的市场结构。掌握此词可准确描述AI芯片、云计算、操作系统等领域普遍存在的双强格局。",
-              "etymology": "源自希腊语duo（二）+ polein（出售、控制）。仿照monopoly（mono-=单一，一家垄断）的构词模式创造，20世纪初作为经济学术语兴起，后广泛用于商业分析报道。",
-              "morphology": "duo-（前缀，二、双，来自希腊语）+ -poly（来自希腊语polein，出售、控制）→两家控制市场。同结构词族：monopoly（mono-=单一，一家垄断）、oligopoly（oligo-=少数，寡头垄断）、monopsony（mono-+opsonia，买方垄断）",
-              "mnemonic": "duo就是「二人搭档/duo组合」，-poly联想到Monopoly（大富翁桌游）——「两个人玩大富翁，轮流坐庄」= duopoly，两强轮番主导市场，第三家根本插不进去。poly系列三兄弟：mono-（1）、duo-（2）、oligo-（少数）。",
-              "exampleEn": "The AI chip duopoly has left cloud providers with little bargaining power when negotiating GPU supply contracts.",
-              "exampleCn": "AI芯片市场的双头垄断格局，使云服务商在谈判GPU供应合同时几乎没有讨价还价的余地。"
-            },
-            {
-              "word": "co-design",
-              "pos": "v. / n.",
-              "meaning": "协同设计、联合研发（尤指芯片厂商与终端客户共同定制硬件）。半导体和AI行业高频术语，体现「需求方深度参与研发过程」的新型合作模式。与「外包定制」不同，co-design强调双方均投入核心技术资源、互相依赖、共担风险，是理解科技巨头自研芯片趋势的关键词。",
-              "etymology": "复合词，无独立词源。co-（前缀，来自拉丁语com-/con-，意为「共同、一起」，辅音同化简化为co-）+ design（源自拉丁语designare，「标记、规划」）→共同规划设计。",
-              "morphology": "co-（前缀，共同、联合）+ design（设计）→联合设计。co-前缀家族：co-founder（联合创始人）、co-pilot（副驾驶；也指AI编程助手模式）、co-develop（联合研发）、cooperate（合作）、co-invest（联合投资）",
-              "mnemonic": "co-就是「搭档」的意思——想象芯片工程师和AI研究员像电影「联合主演」（co-star）一样并排坐在白板前共同画电路图，这就是co-design：没有谁是纯粹的甲方或乙方，两边都是主角。",
-              "exampleEn": "Amazon and its silicon team co-designed the Trainium chip series specifically for large-scale machine learning training workloads.",
-              "exampleCn": "亚马逊与其芯片团队联合设计了Trainium芯片系列，专为大规模机器学习训练工作负载量身打造。"
-            }
-          ]
-        },
-        {
-          "id": "20260625-2",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/tech/956450/nature-microsoft-quantum-computing-majorana-1-claims",
-          "headlineEn": "Nature Paper Challenges Microsoft's Quantum Computing Breakthrough Claims",
-          "headlineCn": "《自然》杂志论文质疑微软量子计算突破声索的真实性",
-          "summaryEn": "A critique published in Nature challenges the core technology behind Microsoft's Majorana 1 chip, unveiled in February 2025. Microsoft claimed the chip's topological qubits would serve as building blocks for future quantum computers. Researchers argue that Microsoft exaggerated its findings, calling the company's key assertions into question. The backlash highlights growing pressure on tech giants to substantiate bold claims in the competitive quantum computing race.",
-          "summaryCn": "一篇发表于《自然》杂志的评论性论文对微软量子芯片 Majorana 1 的核心技术提出质疑。微软于 2025 年 2 月发布该芯片，宣称其拓扑量子比特将成为未来量子计算机的「基石」。论文作者认为，微软夸大了研究成果的意义，对其核心断言提出了严重质疑。这一风波凸显出，在竞争激烈的量子计算赛道上，科技巨头正面临越来越大的压力，需要为其高调声索提供实质支撑。",
-          "excerpt": "A paper published in Nature on Wednesday calls the foundational technology behind Microsoft's Majorana 1 quantum chip into question. Microsoft unveiled the chip in February 2025, claiming its topological qubits would serve as building blocks for next-generation quantum computers — assertions the new critique directly challenges.",
-          "vocab": [
-            {
-              "word": "call into question",
-              "pos": "phrase",
-              "meaning": "对……提出质疑；表示怀疑。比 doubt 更正式，常用于学术或商业书面语，暗示质疑有一定依据和分量，而非随意怀疑，是新闻报道批评声索时的高频搭配，值得熟练掌握。",
-              "etymology": "短语复合词，无独立词源。call 源自古北欧语 kalla（呼喊），question 源自拉丁语 quaestio（询问、调查），由 quaerere（寻求）派生，整体原义为「将某事传唤至质疑的审判台」。",
-              "morphology": "结构：call（动词，发起动作）+ into（介词，引入状态）+ question（名词，疑问状态）。同族扩展：questionable（adj. 可疑的）、unquestionable（adj. 无可置疑的）、questionnaire（n. 调查问卷）。",
-              "mnemonic": "想象法庭场景：律师大声「call」某证据「into the question zone」被质疑席——把某事拉进质疑的聚光灯下。call into question = 把某事「传唤」到怀疑法庭上受审，画面感极强。",
-              "exampleEn": "The auditor's report called the company's revenue recognition practices into question, triggering a formal regulatory investigation.",
-              "exampleCn": "审计报告对该公司的营收确认做法提出质疑，触发了监管机构的正式调查。"
-            },
-            {
-              "word": "exaggerate",
-              "pos": "v.",
-              "meaning": "夸大；过分渲染。在科技商业新闻中常用于指控企业夸大产品性能或研究成果，比 overstate 更口语化且情感色彩更强，隐含批评意味，出现时往往预示着公关危机或法律风险。",
-              "etymology": "源自拉丁语 exaggerare，由 ex-（超出、向外）+ aggerare（堆积，来自 agger 堆）构成，原义为「堆得过高」，后演变为「言过其实」，语义从物理堆积扩展至言语修辞层面。",
-              "morphology": "ex-（超出）+ agger（堆）+ -ate（动词后缀）。派生词：exaggeration（n. 夸张）、exaggerated（adj. 夸张的）、exaggeratedly（adv. 夸张地）。同前缀词：exceed（超过）、exhaust（耗尽）、expel（驱逐）。",
-              "mnemonic": "ex-（超出）+ agger 谐音「aggro（激进）」——超出正常限度地激进吹捧就是夸大。想象推销员把一块小石头堆成「山」来抬价，这就是 exaggerate 最生动的画面。",
-              "exampleEn": "Critics accused the startup of exaggerating its AI model's accuracy in investor presentations, potentially misleading the market.",
-              "exampleCn": "批评人士指控该初创公司在投资者演示中夸大了 AI 模型的准确率，可能对市场造成误导。"
-            },
-            {
-              "word": "critique",
-              "pos": "n.",
-              "meaning": "批评性分析；评论文章。与 criticism（泛指批评，常含负面情绪）不同，critique 更强调有依据、有条理的专业或学术评析，语气中立，是学术期刊和产品评测中的标准用词，也可用作动词。",
-              "etymology": "源自法语 critique，进一步来自希腊语 kritikē（判断的艺术），由动词 krinein（区分、判断）派生。与 crisis（危机，即必须作出判断的关键时刻）和 criterion（标准）同出一源。",
-              "morphology": "希腊词根 krit-（判断）+ -ique（法语名词后缀）。同族词：critic（n. 评论家）、critical（adj. 批判性的）、criteria（n. 评判标准）、hypocrite（n. 伪君子，字面义「在台下判断的人」）。",
-              "mnemonic": "Critique 里藏着「crit」——想象游戏里的「暴击（critical hit）」，critique 就是用理性和论据对某观点发动「暴击」。与 criticism 区分：critique 是带弹药的专业炮击，criticism 是随口吐槽。",
-              "exampleEn": "The independent critique of the firm's financial model revealed several assumptions that could not withstand closer examination.",
-              "exampleCn": "对该公司财务模型的独立评析揭示出若干经不起深入检验的假设前提。"
-            },
-            {
-              "word": "unveil",
-              "pos": "v.",
-              "meaning": "正式揭幕；首次公开发布（产品、计划等）。比 announce（宣布）更有仪式感，隐含「从遮盖物下显现」的意象，是科技商业新闻中描述新品发布的最高频动词之一，情感色彩积极，自带期待感。",
-              "etymology": "由 un-（去除、反转）+ veil（面纱，源自拉丁语 velum，意为遮盖物）构成，字面义为「揭开面纱」，后引申为公开展示原本隐藏的事物，兼具字面和隐喻双重含义。",
-              "morphology": "un-（反转前缀）+ veil（n. 面纱）→ unveil（v. 揭幕）。同前缀词：unlock（解锁）、undo（撤销）、unravel（揭开真相）。veil 相关词：veiled（adj. 隐晦的）、reveal（v. 揭露，re- + veil 同源变体）。",
-              "mnemonic": "想象苹果发布会上，一块黑布被缓缓拉开，新产品在聚光灯下显现——un「去除」+ veil「面纱」= 揭开面纱。每次 Apple Event 库克都在 unveil，这就是最强的记忆锚点。",
-              "exampleEn": "The chipmaker is expected to unveil its next-generation AI accelerator at the annual developer conference next month.",
-              "exampleCn": "这家芯片制造商预计将于下个月的年度开发者大会上发布其下一代 AI 加速器。"
-            },
-            {
-              "word": "building block",
-              "pos": "n.",
-              "meaning": "基础构建单元；核心要素。原义为儿童积木，在科技和商业语境中比喻「基础组件」，强调某元素是构建更大系统不可或缺的最小单位，比 foundation（基础）更强调模块化与可组合性，是技术路线图叙事中的惯用表达。",
-              "etymology": "复合词，由 build（建造，源自古英语 byldan）的动名词 building + block（块，源自中古荷兰语 bloc，意为木块）组成，原指儿童堆叠玩具，后引申为任何系统的基础功能单元。",
-              "morphology": "building（动名词，构建行为）+ block（名词，块状物）。同族词：build-up（n. 积累）、rebuild（v. 重建）；block 派生：blockchain（区块链）、block diagram（框图）、stumbling block（绊脚石）。",
-              "mnemonic": "想象乐高积木——每一块小砖都是 building block。量子计算里，qubit 是量子计算机的「乐高砖块」，没有它搭不起整栋量子大厦。积木 = building block = 最小功能单元，画面牢固。",
-              "exampleEn": "The company describes its new modular API as a building block for enterprise developers to construct customized AI workflows.",
-              "exampleCn": "该公司将其新模块化 API 定位为企业开发者构建定制化 AI 工作流的基础构建单元。"
-            }
-          ]
-        },
-        {
-          "id": "20260625-3",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
-          "headlineEn": "Cerebras Stock Craters After First Earnings on Narrowing Margin Outlook",
-          "headlineCn": "Cerebras 上市首份财报引发股价重挫，CEO 称投资者误读利润率前景",
-          "summaryEn": "Cerebras, the AI chip startup that recently went public, saw its stock crater sharply after releasing its first quarterly earnings report. The company forecast a narrower gross margin in its core chip business, alarming investors and triggering a sell-off. CEO Andrew Feldman attempted to walk back the panic, insisting the market had misread the margin outlook. However, the reassurance failed to steady the stock, highlighting how newly listed tech companies remain vulnerable to misinterpretation in their early public trading days.",
-          "summaryCn": "AI 芯片初创公司 Cerebras 上市后发布首份季度财报，股价随即大幅下挫。公司预测核心芯片业务的毛利率将有所收窄，令投资者感到不安，引发抛售潮。首席执行官安德鲁·费尔德曼随后试图安抚市场，强调投资者误读了利润率前景，但这一解释未能有效稳住股价。此次事件表明，新上市科技公司在早期公开交易阶段极易因信息解读偏差而遭受重创，市场对前景指引的敏感程度远超管理层预期。",
-          "excerpt": "Cerebras posted its first earnings as a public company, forecasting a narrower gross margin in its core AI chip business. Shares cratered as investors reacted to the guidance. CEO Andrew Feldman later insisted the margin outlook had been widely misread by the market, but the clarification failed to halt the sell-off.",
-          "vocab": [
-            {
-              "word": "spook",
-              "pos": "v.",
-              "meaning": "（使）惊慌；财经报道中特指某一消息令投资者突然感到恐慌、引发抛售。比 scare 更口语化，带有突发性与非理性的含义，是彭博、路透等财经媒体的高频动词，值得学因为它精准捕捉了市场情绪的瞬间崩塌感。",
-              "etymology": "来自荷兰语 spook（幽灵、鬼魂），17世纪进入英语，原义指鬼怪，后引申为「像幽灵一样突然出现并使人惊恐」，现代商业语境中比喻消息突袭市场、令投资者惊慌出逃。",
-              "morphology": "单一词根，无前缀后缀。名词形式 spook（幽灵；间谍），形容词 spooky（令人不安的），副词 spookily。近义词群：rattle、unsettle、shake——三者均比 spook 正式，少了突发惊吓的张力。",
-              "mnemonic": "想象一个「幽灵（spook）」突然蹦出来，投资者吓得把手中股票全部抛出——股价当场暴跌。记忆公式：spook = 幽灵突袭 → 市场惊魂 → 股价崩盘。",
-              "exampleEn": "A surprise rate hike by the Fed spooked equity markets, sending the S&P 500 down nearly 2% in a single session.",
-              "exampleCn": "美联储意外加息令股市大受惊吓，标普500指数单日下跌近2%。"
-            },
-            {
-              "word": "walk back",
-              "pos": "phrasal v.",
-              "meaning": "撤回、软化或重新解释此前的声明；常见于政界或商界领袖在言论引发争议后「收回」原话。语气比 retract（完全撤回）更温和，暗示并非全盘否认，而是调整措辞或重新框架，是财经政治报道必备短语。",
-              "etymology": "字面义「往回走」，20世纪美式英语中发展出「退回到之前立场」的比喻义，形象类似中文「打退堂鼓」。最初多见于政治报道，后渗透财经语境，尤其常见于 earnings call 之后的 CEO 表态。",
-              "morphology": "短语/复合词，无独立词源。walk（古英语 wealcan，滚动、行走）+ back（古英语 bæc，背部、向后）。相关短语：walk out（罢工/离开）、walk away（脱身）、walk through（逐步说明）——方向词决定含义。",
-              "mnemonic": "想象 CEO 刚说了一句让股市崩盘的话，然后像在倒带一样「走回去（walk back）」——双脚倒着走，嘴里也在收回刚才的话。走的方向是反的，意思也是反的。",
-              "exampleEn": "After his comments sent the stock tumbling, the CFO quickly walked back his remarks about potential layoffs, calling them 「taken out of context」.",
-              "exampleCn": "在他的言论导致股价暴跌后，首席财务官迅速撤回了关于潜在裁员的表态，称其「被断章取义」。"
-            },
-            {
-              "word": "underwhelm",
-              "pos": "v.",
-              "meaning": "令人失望，未能达到预期；是 overwhelm（压倒性地令人印象深刻）的反义词，财经语境中专指业绩或声明低于市场预期。带有轻讽意味，比 disappoint 更生动，常见于分析师点评，值得学因为它一词道尽市场期望落空的讽刺感。",
-              "etymology": "由 overwhelm（古英语 oferwhelman，淹没、压倒）反向构词，20世纪60年代出现，属幽默性逆构词（back-formation）。原本 whelm 在现代英语中已几乎不单独使用，underwhelm 是靠对称逻辑「造」出来的词，本身就带反讽色彩。",
-              "morphology": "under-（前缀，不足、低于）+ whelm（词根，原义淹没）。同前缀词：underperform（表现不佳）、undercut（低价竞争）、understate（轻描淡写）、underprice（定价偏低）——under- 在商业英语中极为能产。",
-              "mnemonic": "overwhelm = 超出预期、浪头盖顶淹没你；underwhelm = 低于水线，连个浪花都没溅起来。想象期待已久的大鱼跃出水面，结果只是只小虾米——这就是 underwhelm 的感觉。",
-              "exampleEn": "The company's quarterly revenue growth of 3% underwhelmed analysts who had expected double-digit gains.",
-              "exampleCn": "公司季度营收3%的增速令分析师大失所望，此前市场预期为两位数增长。"
-            },
-            {
-              "word": "crater",
-              "pos": "v.",
-              "meaning": "（股价、市值等）骤然崩塌；比 fall 或 drop 更形象，暗示跌幅剧烈如陨石撞击后留下「弹坑」，常见于科技股或加密货币报道，带有不可逆、令人震惊的情绪色彩，是财经媒体描述暴跌的首选强动词。",
-              "etymology": "来自希腊语 krater（混酒碗、大型容器），后指火山口或陨石坑。20世纪财经俚语借用此意，描述价格「如同陨石撞击后留下深坑」般的暴跌，名词直接动词化，是活跃的语义扩展案例。",
-              "morphology": "单一词根。名词 crater（火山口/弹坑）直接动词化。形容词形式 cratered（已崩溃的）。近义词群：nosedive、tank、collapse——均描述急速下跌，但 crater 最强调「撞击感」与「深度」，画面最鲜烈。",
-              "mnemonic": "陨石撞地球留下一个巨大弹坑（crater）——K线图上股价「撞」了一下，图形上真的出现了一个深不见底的「坑」。记住：crater 的坑，比普通 drop 的坑深十倍，视觉冲击力也强十倍。",
-              "exampleEn": "Shares of the startup cratered 35% in after-hours trading after it disclosed a widening net loss and weak earnings guidance.",
-              "exampleCn": "该初创公司盘后股价暴跌35%，此前其披露了持续扩大的净亏损和疲软的盈利指引。"
-            },
-            {
-              "word": "misread",
-              "pos": "v.",
-              "meaning": "误读、误判；在商业语境中指对数据、信号或声明做出错误解读。比 misunderstand 更强调「主动解读时出现偏差」的过程，常用于 CEO 或管理层指责市场反应过度或解读方向错误，是财报季高频词。",
-              "etymology": "前缀 mis-（古英语/古法语，错误地）+ read（古英语 rǣdan，猜测、解读、建议）。古英语 rǣdan 原义比现代 read 更宽泛，含「解读征兆」之意，与财经「解读信号」的用法一脉相承。",
-              "morphology": "mis-（前缀，错误地）+ read（词根）。mis- 极为能产：miscommunicate（沟通失误）、misalign（错位）、misattribute（错误归因）、misjudge（误判）、misprice（错误定价）——掌握 mis- 可批量扩展商业词汇。",
-              "mnemonic": "mis = miss（偏离）+ read（读）——「读」偏了，就像导航读错地图走错方向。CEO 说「你们 misread 了！」投资者说「没有！」——双方都觉得对方在 misread。记住：mis- 开头的词，十有八九是「把某件事做错了」。",
-              "exampleEn": "The CEO argued that investors had misread the earnings guidance, confusing one-time costs with structural margin compression.",
-              "exampleCn": "CEO 辩称投资者误读了盈利指引，将一次性成本与结构性利润率压缩混为一谈。"
-            }
-          ]
-        },
-        {
-          "id": "20260625-4",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/24/micron-mu-earnings-report-q3-2026.html",
-          "headlineEn": "Micron Stock Surges 15% as Memory Crunch Quadruples Revenue",
-          "headlineCn": "内存短缺推动营收翻四倍，美光股价单日劲涨15%",
-          "summaryEn": "Micron Technology posted blockbuster quarterly earnings, with revenue quadrupling year-over-year as a severe global memory chip crunch drove prices to multi-year highs. Shares jumped 15% on the news, extending an extraordinary 700% rally over the past twelve months. Analysts attribute the turnaround to AI-driven demand for high-bandwidth memory, which has tightened supply and handed chipmakers rare pricing power. The results signal that the memory industry's upcycle is firmly under way, with little sign of pricing pressure easing in the near term.",
-          "summaryCn": "美光科技公布强劲季度财报，受全球内存芯片供应紧张推动价格大幅攀升，公司营收同比增长近四倍。财报发布后，美光股价单日涨幅达15%，将过去一年累计涨幅推至约700%。分析人士将此次业绩逆转归因于人工智能数据中心对高带宽内存的旺盛需求，该需求持续收紧供应，并赋予芯片制造商罕见的定价权。市场普遍认为，内存行业上行周期已进入纵深阶段，短期内价格压力难以逆转。",
-          "excerpt": "Micron Technology delivered a blowout quarter, with revenue quadrupling as a global memory chip crunch pushed prices to multi-year highs. The company's stock leaped 15% on the results, capping a stunning 700% rally over the past twelve months as AI-driven demand keeps memory supplies persistently tight.",
-          "vocab": [
-            {
-              "word": "crunch",
-              "pos": "n.",
-              "meaning": "（资源）严重短缺、紧缩。比 shortage 更生动，暗含「被挤压到临界点」的张力感。高频搭配：credit crunch（信贷紧缩）、supply crunch（供应短缺）、talent crunch（人才短缺）。学这一个词能覆盖财经头条里大量「某领域告急」的表达。",
-              "etymology": "源自17世纪英语拟声词，模仿牙齿咀嚼或硬物碾碎时的「咔嚓」声；20世纪起被经济领域借用，形容资源被「挤压至极限」的临界状态，信贷危机时期因 credit crunch 一词广为人知，此后泛化为各类资源短缺的通用表达。",
-              "morphology": "单一词根，无前后缀可拆解。常见派生及固定搭配：crunch time（决战时刻）、number-crunching（大量数据运算）、crunchy（adj. 松脆的）。注意 crunch 既可作名词也可作动词，to crunch numbers 意为「处理大量数字」，是商业英语常用表达。",
-              "mnemonic": "想象一只手「咔嚓」捏碎一枚内存条——资源被彻底挤压殆尽，supply crunch 就是供应被「捏碎」的感觉。每次在头条见到 XX crunch，脑补那声碎裂声，含义立刻浮现。",
-              "exampleEn": "The global talent crunch in AI engineering has pushed six-figure signing bonuses to new records.",
-              "exampleCn": "全球人工智能工程人才严重短缺，导致六位数签约奖金屡创新高。"
-            },
-            {
-              "word": "quadruple",
-              "pos": "v. / adj.",
-              "meaning": "（使）变为四倍；作形容词时意为「四倍的」。财报语境中用于精确描述增长幅度，比「大幅增长」更严谨，比「翻番」更具体。掌握 double → triple → quadruple 这一系列，能准确表达任何倍数增长，避免用模糊词搪塞数字。",
-              "etymology": "源自拉丁语 quadruplus，由 quadru-（四）与 -plus（折叠/倍，同源于古英语 ply = 层）合成；经由中世纪法语 quadruple 进入英语，14世纪起见于文献，数学与商业语境沿用至今，语义从未偏移。",
-              "morphology": "前缀 quadr(u)- 表「四」，同族词：quadrant（四象限）、quadrilateral（四边形）、quadruplet（四胞胎）；后缀 -uple 表倍数，同系列：double（×2）、triple（×3）、quintuple（×5）、sextuple（×6）。掌握前缀即可横向扩展所有倍数词。",
-              "mnemonic": "quad = 四，就像「四驱越野车（quad bike）」有四个轮子同时驱动。quadruple 就是「四驱版增长」——踩一脚油门直接×4。记住 quad 系列，所有倍数词全部到手。",
-              "exampleEn": "After securing a landmark AI cloud contract, the startup's annual recurring revenue quadrupled within two quarters.",
-              "exampleCn": "签下一份里程碑式的人工智能云计算合同后，该初创公司的年度经常性收入在两个季度内翻了四倍。"
-            },
-            {
-              "word": "blowout",
-              "pos": "n. / adj.",
-              "meaning": "远超市场预期的亮眼业绩；「爆款式胜出」。常见搭配：blowout quarter（超预期季度）、blowout earnings（亮眼财报）。比 beat 更口语化且情绪更饱满，暗示结果「把预期炸穿了」，是美股财报季评论中的高频词，分析师播客和财经媒体随处可见。",
-              "etymology": "动词短语 blow out 本义为「吹爆、吹灭」（如轮胎爆胎 tire blowout）；20世纪体育报道率先借用，描述一方以悬殊比分碾压对手；华尔街随后引入，用于形容财报「把分析师预期吹飞」的场景，语义由物理到竞技再到商业，层层隐喻迁移。",
-              "morphology": "由动词短语 blow out 词缀化合并为名词或形容词 blowout。同根词组：blow away（彻底折服）、blow up（爆炸/放大）、blowback（反噬）。「blow」系列短语在英语中极为高产，固定搭配各有含义，值得系统学习。",
-              "mnemonic": "想象一个充得过满的气球「砰」地炸开——blowout 就是业绩把分析师的预期「炸穿」了。每当财报季听到「It was a total blowout!」，脑中那声爆炸就帮你锁定语义，永不混淆。",
-              "exampleEn": "Nvidia posted a blowout quarter driven by record data-center orders, sending its stock up 10% in after-hours trading.",
-              "exampleCn": "英伟达凭借创纪录的数据中心订单交出一份超预期季报，盘后股价随即上涨10%。"
-            },
-            {
-              "word": "pricing power",
-              "pos": "phrase (n.)",
-              "meaning": "定价权；企业在不明显流失客户的前提下主动提高售价的能力。衡量公司护城河与竞争壁垒的核心指标，巴菲特选股时最看重的特质之一。与「商品化（commoditization）」形成对立：产品越同质化，定价权越弱；供应越稀缺，定价权越强。",
-              "etymology": "短语/复合词，无独立词源。pricing 来自 price（价格），源自拉丁语 pretium（价值、报酬）；power 来自古法语 pouvoir（能力），源自拉丁语 potere（能够）。两词合体专指「左右价格走势的市场能力」，20世纪随现代企业战略理论普及而固定为术语。",
-              "morphology": "短语/复合词，无独立词源。延伸词组：bargaining power（议价权）、market power（市场支配力）、purchasing power（购买力）。「XX power」句式在商业英语中构词能力极强，举一反三可快速理解同类术语。",
-              "mnemonic": "想象全城唯一一家加油站的老板——他想涨价就涨，没人敢走，这就是 pricing power。芯片短缺期间，美光就成了那家加油站，买家只能接受涨价，别无选择。",
-              "exampleEn": "With AI chip demand far outstripping supply, memory manufacturers have regained significant pricing power for the first time in three years.",
-              "exampleCn": "随着人工智能芯片需求远超供给，内存制造商三年来首次重新获得了显著的定价权。"
-            },
-            {
-              "word": "secular",
-              "pos": "adj.",
-              "meaning": "（投资/经济语境）长期结构性的、非周期性的；描述跨越多个经济周期、由深层结构因素驱动的持续趋势。例如 secular growth（长期增长）、secular tailwind（长期顺风）。核心对比：cyclical（随宏观经济起伏的短期波动）vs. secular（不随周期消退的结构性力量），这一对比是投资研究必备框架。",
-              "etymology": "源自拉丁语 saecularis（属于一个时代/世纪的），由 saeculum（时代、世代，约100年）派生，原义指「跨越人的一生乃至更长时间」；中世纪英语中多与宗教相对（世俗的），进入现代金融语境后专指「持续数十年的长期结构性趋势」，语义从时间跨度延伸为「不可逆的深层变迁」。",
-              "morphology": "词根 saecul-（时代、世纪）；后缀 -ar（adj. 形容词后缀，表「属于……的」）。同义近义词对：secular（结构性）vs. cyclical（周期性）vs. transient（短暂性）。派生词：secularism（世俗主义）、secularize（使世俗化）——注意金融语境与宗教语境的语义分叉。",
-              "mnemonic": "secular = 「世纪级别」的趋势——不是下一个季度会消退的周期波动，而是像「一个世代」一样绵延的结构性力量。AI对内存的需求就是 secular demand，不会因一个经济周期结束而消失，记住「世纪」就记住了这个词。",
-              "exampleEn": "Analysts argue that demand for high-bandwidth memory is secular rather than cyclical, driven by the structural shift toward AI workloads.",
-              "exampleCn": "分析人士认为，对高带宽内存的需求是长期结构性的而非周期性的，背后是向人工智能工作负载转型这一深层趋势的驱动。"
-            }
-          ]
-        },
-        {
-          "id": "20260625-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/06/24/treasury-secretary-bessent-says-us-gdp-growth-can-return-to-3percent-before-end-of-the-year.html",
-          "headlineEn": "Bessent Says 3% GDP Growth Is Within Reach by Year-End",
-          "headlineCn": "贝森特：美国GDP增速有望在年底前回升至3%",
-          "summaryEn": "U.S. Treasury Secretary Scott Bessent expressed confidence that American GDP growth can recover to 3% before year-end, anchoring his broader \"3-3-3\" economic framework. The plan targets three simultaneous goals: 3% annual GDP growth, reducing the federal deficit to 3% of GDP, and boosting domestic oil output by 3 million barrels per day. Bessent argues that lower energy costs and fiscal discipline will reinforce each other, creating conditions for a sustained economic rebound. Markets are watching closely as the administration seeks to maintain investor confidence.",
-          "summaryCn": "美国财政部长贝森特表示，他对美国GDP增速在年底前恢复至3%充满信心。他提出的「3-3-3」经济计划包含三大目标：实现3%的年度GDP增长、将联邦财政赤字压缩至GDP的3%、以及每日增加300万桶石油产量。贝森特认为，能源成本下降与财政纪律相互强化，将为持续的经济复苏创造有利条件。市场正密切关注政府能否兑现这一雄心勃勃的政策承诺。",
-          "excerpt": "Treasury Secretary Bessent stated that his \"3-3-3\" plan remains achievable: 3% GDP growth, a federal deficit at 3% of GDP, and a 3-million-barrel-per-day increase in domestic oil production — all before the close of the year.",
-          "vocab": [
-            {
-              "word": "deficit",
-              "pos": "n.",
-              "meaning": "赤字；财政赤字——务必区别于「debt（累积债务）」：deficit 指单一时期内支出超出收入的差额，是衡量财政健康的核心指标，「deficit-to-GDP ratio」是国际通用的财政纪律标准",
-              "etymology": "来自拉丁语 deficit，源自动词 deficere（de-「离开、反向」+ facere「做」），原义「做得不够、出现短缺」，进入英语后逐渐专指「收支缺口」",
-              "morphology": "de-（不足/反向）+ -fic-（做，来自 facere）+ -it（拉丁第三人称单数词尾）；同族词：deficient（不足的）、deficiency（缺乏症）、defector（叛逃者）",
-              "mnemonic": "想象银行账户「de（减少）」了很多钱，「ficere（做事）」时囊中羞涩——赤字就是「做不够」的状态，钱包空了还要继续花",
-              "exampleEn": "The government announced measures to bring its budget deficit below 3% of GDP within two fiscal years.",
-              "exampleCn": "政府宣布将在两个财年内把财政赤字压降至GDP的3%以下。"
-            },
-            {
-              "word": "trifecta",
-              "pos": "n.",
-              "meaning": "三连胜；三重目标——原为赛马术语，商业报道中常用来形容「三个目标同时达成」，语气比「three goals」更生动有力，隐含「难度不小但全部拿下」的自信",
-              "etymology": "源自拉丁语 tri-（三）与 perfecta（完成的）的组合，19世纪末美国赛马界创造，原指「猜中前三名出场顺序」的高难度押注，后引申为「三重成就」",
-              "morphology": "tri-（三）+ -fecta（源于 perfecta，完成）；同族词：trio（三重奏）、triangle（三角形）、trilogy（三部曲）、triathlon（铁人三项）",
-              "mnemonic": "tri = 3，fecta ≈ perfect，三件事全部做到「完美」——像赛马押中前三名顺序一样难得，全中才算赢",
-              "exampleEn": "The startup achieved a trifecta of milestones: product launch, Series A funding, and a major enterprise contract in the same quarter.",
-              "exampleCn": "这家初创公司在同一季度实现了三重里程碑：产品发布、A轮融资和大型企业合同。"
-            },
-            {
-              "word": "within reach",
-              "pos": "phrase",
-              "meaning": "触手可及；可实现的——比 achievable 更具画面感，暗示「目标近在眼前，只差临门一脚」，常用于政策目标或商业计划的乐观表述，隐含「不是轻而易举，但努努力就够到」的微妙语气",
-              "etymology": "短语/复合词，无独立词源。reach 源自古英语 rǣcan（「伸手够到」），与德语 reichen 同源，核心意象是「手臂延伸的距离」",
-              "morphology": "within（在……范围内）+ reach（伸手所及的距离）；reach 常见派生：outreach（外展服务）、overreach（过度伸张）、reach out（主动联系）",
-              "mnemonic": "想象踮起脚尖伸手（reach）就能抓到目标——既不是唾手可得，也不是遥不可及，就差那么一点点高度",
-              "exampleEn": "With inflation cooling faster than expected, the Fed's 2% target is now within reach by the third quarter.",
-              "exampleCn": "随着通胀降温速度超出预期，美联储2%的目标有望在第三季度实现。"
-            },
-            {
-              "word": "ramp up",
-              "pos": "phrasal v.",
-              "meaning": "快速扩大；提速增产——特指在短时间内大幅提升产量、规模或速度，比 increase 更强调「斜坡式加速」的动态过程，是能源、科技和制造业报道中的超高频词",
-              "etymology": "短语/复合词，无独立词源。ramp 来自古法语 rampe（「斜坡」），ramp up 以「爬坡」比喻「逐步加速提量」，反向则为 ramp down",
-              "morphology": "ramp（斜坡）+ up（向上）；常见搭配：ramp up production / hiring / spending；反义搭配：ramp down（逐步缩减规模）",
-              "mnemonic": "想象工厂传送带斜坡（ramp）向上倾斜加速——ramp up = 给油门、踩坡道，产量像爬坡一样快速攀升",
-              "exampleEn": "The chip manufacturer plans to ramp up production capacity by 40% over the next 18 months to meet surging AI demand.",
-              "exampleCn": "这家芯片制造商计划在未来18个月内将产能提升40%，以满足人工智能的旺盛需求。"
-            },
-            {
-              "word": "blueprint",
-              "pos": "n.",
-              "meaning": "蓝图；详细行动方案——源自建筑制图，在政策和商业语境中指「经过深思熟虑的具体执行方案」，比 plan 更强调「有技术细节支撑、可逐步落地」，带有专业权威感",
-              "etymology": "源于19世纪氰版摄影制图工艺（cyanotype）：感光纸曝光后呈现蓝色背景白色线条，工程师借此批量复制建筑图纸，因此得名 blueprint",
-              "morphology": "blue（蓝色）+ print（印刷/印记）；同族词：footprint（足迹/碳足迹）、fingerprint（指纹）、imprint（印记/出版商标识）",
-              "mnemonic": "想象一张铺在设计桌上的蓝色建筑图纸——任何宏大计划的「蓝图」都像建筑师的设计图，细节明确、按图施工",
-              "exampleEn": "The finance minister unveiled a fiscal blueprint aimed at cutting the national debt ratio by 15 percentage points over the next decade.",
-              "exampleCn": "财政部长公布了一份财政蓝图，旨在未来十年内将国债比率削减15个百分点。"
             }
           ]
         }
