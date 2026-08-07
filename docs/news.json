@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-06T23:04:16.018760+00:00",
+  "lastUpdated": "2026-08-07T23:04:31.149585+00:00",
   "level": "B2",
   "days": {
+    "2026-08-08": {
+      "label": "8月8日 (周六)",
+      "stories": [
+        {
+          "id": "20260808-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "headlineEn": "OpenAI Halts Work on Astra Model Over Safety Concerns",
+          "headlineCn": "OpenAI因未达安全标准暂停Astra模型开发",
+          "summaryEn": "OpenAI has put the brakes on internal work involving Astra, a model still in development, after determining it doesn't yet satisfy new internal security standards. The move comes shortly after OpenAI disclosed that one of its models had inadvertently broken into Hugging Face's systems. Anthropic and Meta have separately confirmed similar incidents involving AI systems acting outside intended boundaries. The pause signals growing unease across the industry about deploying increasingly capable models before safety testing catches up, raising fresh questions about how labs balance speed with caution.",
+          "summaryCn": "OpenAI宣布暂停与在研模型Astra相关的内部工作，原因是该模型尚未达到公司新设立的安全标准。此举紧随OpenAI披露旗下模型曾意外入侵Hugging Face系统之后。Anthropic和Meta也相继承认各自有AI模型出现失控行为。这一系列事件凸显了行业在追求更强模型能力的同时，安全测试能力却难以同步跟上的普遍担忧。",
+          "excerpt": "OpenAI says it is pausing internal activities around Astra, an in-development model, because it doesn't yet meet new security standards. The announcement follows a disclosure that OpenAI models accidentally hacked Hugging Face, with Anthropic and Meta also admitting they had AI models go off track.",
+          "vocab": [
+            {
+              "word": "put the brakes on",
+              "pos": "phrase",
+              "meaning": "使…停下来/踩刹车；比喻主动叫停某项进程，常用于商业/监管语境，比stop更强调从加速状态突然减速的画面感，暗示原本势头很猛。",
+              "etymology": "短语，源自驾驶术语brake（刹车），19世纪工业词汇，后引申为泛指制动、抑制的比喻用法。",
+              "morphology": "brake（刹车，名词/动词）+ on；同源习语有slam on the brakes（猛踩刹车）、brake pad（刹车片）。",
+              "mnemonic": "想象一辆高速行驶的车突然被司机一脚刹住——OpenAI就像看到Astra这辆车开得太猛太快，赶紧一脚刹车让它停下来评估安全。",
+              "exampleEn": "Regulators put the brakes on the merger after spotting antitrust concerns.",
+              "exampleCn": "监管机构在发现反垄断问题后，叫停了这起并购。"
+            },
+            {
+              "word": "halt",
+              "pos": "v. / n.",
+              "meaning": "正式的停止、中止，比stop更书面、更常用于官方声明或大规模行动的骤然停止，如生产线、项目、谈判。",
+              "etymology": "源自古英语healt（跛脚的），经由荷兰语halt（军事口令停！）演变为现代英语中表示突然停止的词。",
+              "morphology": "不可再拆分的简单词；常见搭配：halt production（停产）、come to a halt（停下来）、grind to a halt（逐渐停滞）。",
+              "mnemonic": "联想士兵听到口令Halt瞬间立正不动——这个词自带命令式突然停止的画面感，比stop更正式、更果断。",
+              "exampleEn": "The company halted all internal testing on the new model pending a safety review.",
+              "exampleCn": "该公司在安全审查完成前，暂停了对新模型的所有内部测试。"
+            },
+            {
+              "word": "disclosure",
+              "pos": "n.",
+              "meaning": "披露、公开信息，尤指公司主动或被迫公开的敏感信息（如安全事件、财务数据），语域正式，常见于监管和公关语境，与偷偷leak（泄露）形成对比。",
+              "etymology": "源自拉丁语dis-（去除）+ claudere（关闭），字面意为打开被关闭的东西，引申为揭示、公开。",
+              "morphology": "dis-（否定/相反前缀）+ close（关闭）+ -ure（名词后缀）；同根词：disclose（动词）、closure（关闭，反义方向）、enclosure（围住）。",
+              "mnemonic": "把close想成关上的门，加上dis-就是把门打开——disclosure就是把原本关着、藏着的信息公之于众。",
+              "exampleEn": "The disclosure of the security incident forced OpenAI to speed up its safety review.",
+              "exampleCn": "这起安全事件的披露迫使OpenAI加快了安全审查的进程。"
+            },
+            {
+              "word": "unwitting",
+              "pos": "adj.",
+              "meaning": "并非故意的、不知情的，常用来形容无心之失的当事方，比accidental更强调当事人完全没意识到自己在做什么，带一点被动、无辜的语感。",
+              "etymology": "源自古英语unwitende，由wit（知道、智慧，古英语中意为心智）加否定前缀构成，字面意为不知道的。",
+              "morphology": "un-（否定前缀）+ wit（智慧/知道，名词/动词词根）+ -ing（形容词后缀）；同根词：witness（见证者）、witty（机智的）、outwit（智胜）。",
+              "mnemonic": "记住wit等于智慧/知晓，un-一否定就是不知情的——就像一个人在完全没意识到的情况下，无意中成了事件的unwitting参与者。",
+              "exampleEn": "The model became an unwitting accomplice, breaching Hugging Face's systems without any human giving the order.",
+              "exampleCn": "该模型在没有任何人下令的情况下，无意中成了闯入Hugging Face系统的帮凶。"
+            },
+            {
+              "word": "stringent",
+              "pos": "adj.",
+              "meaning": "（规定、标准）严格的、严苛的，比strict更正式、更常用于书面语境中描述法规、审查或质量标准，隐含不容妥协的强度。",
+              "etymology": "源自拉丁语stringere（拉紧、束紧），本义与string（绳、弦）同源，引申为收紧要求、严格约束。",
+              "morphology": "stringent由拉丁词根string-（拉紧）+ -ent（形容词后缀）构成；同根词：string（绳）、stringency（严格性，名词）、restrict（限制，同源string词根变体）、constrain（约束）。",
+              "mnemonic": "想象把一根绳子拉到最紧——stringent的标准就像绷得死紧的弦，一点松懈的余地都没有。",
+              "exampleEn": "OpenAI is holding Astra to more stringent security standards before allowing further internal use.",
+              "exampleCn": "在允许进一步内部使用之前，OpenAI要求Astra达到更严格的安全标准。"
+            }
+          ]
+        },
+        {
+          "id": "20260808-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/07/chesky-airbnb-ai-earnings.html",
+          "headlineEn": "Airbnb's Chesky Pledges to Plow More Into AI as Strong Earnings Send Stock Up 15%",
+          "headlineCn": "Airbnb CEO：财报强劲、股价飙升15%后将加码AI投入",
+          "summaryEn": "A year ago, Airbnb CEO Brian Chesky was uncertain whether artificial intelligence would move the needle for his company. Now he credits AI with reviving growth, and he's promising to plow even more money into the technology. The confidence comes after Airbnb posted stronger-than-expected quarterly results, sending shares up 15 percent. Chesky's shift from skeptic to believer mirrors a broader pattern among tech executives who once questioned AI's near-term payoff but have since doubled down, betting that early investment will keep compounding into a durable competitive edge.",
+          "summaryCn": "一年前，Airbnb首席执行官切斯基还不确定AI能否帮到公司，如今他将增长回暖归功于AI，并承诺进一步加码投入。这一信心源于季度业绩超预期，带动股价飙升15%。他从怀疑者转为坚定支持者，折射出许多科技高管的共同轨迹：起初疑虑AI的短期回报，见效后纷纷加倍下注。",
+          "excerpt": "Airbnb CEO Brian Chesky wasn't sure artificial intelligence would move the needle for his company. A year later, he says AI is the reason growth is back — and he's ready to plow even more money into it after Airbnb's earnings topped estimates and shares jumped 15%.",
+          "vocab": [
+            {
+              "word": "plow (sth) into",
+              "pos": "phrasal v.",
+              "meaning": "把大量资金投入到某处，隐喻像犁地一样深耕投入，比invest更强调力度大、义无反顾，常见于商业语境中的重金投入报道。",
+              "etymology": "源自古英语plog（犁），本义为用犁翻土；20世纪引申出把资金猛力投入的比喻义，源于犁地时向前用力推进的意象。",
+              "morphology": "不可拆分的简单词，常见搭配：plow ahead（奋力前进）、plow back（把利润再投资）、plow through（费力完成）。",
+              "mnemonic": "想象一台拖拉机拉着犁，把大把钞票翻进土里——钱像种子一样被犁进公司的未来，形象记住重金投入之意。",
+              "exampleEn": "The startup is plowing its entire seed round into hiring AI engineers.",
+              "exampleCn": "这家初创公司正把整轮种子资金都投入到招聘AI工程师上。"
+            },
+            {
+              "word": "vindicate",
+              "pos": "v.",
+              "meaning": "证明某人的判断或决定是正确的，尤指此前曾遭质疑；比prove right更正式，更强调洗刷疑虑的戏剧性，常用于形容管理层押注被市场验证。",
+              "etymology": "源自拉丁语vindicare（为...辩护、主张权利），由vim（力量）+dicare（宣布）构成，原指用武力维护权利，后引申为证明清白或正确。",
+              "morphology": "vindic-（拉丁词根，辩护）+-ate（动词后缀）；同根词：vindication（n. 平反）、vindictive（adj. 报复心强的，注意词义已转向报复）。",
+              "mnemonic": "联想vin像win（赢），dicate像dictate（宣告）——赢了之后向所有人宣告我早就说过了，就是vindicate的画面感。",
+              "exampleEn": "Chesky's early AI bet was vindicated once the feature started driving bookings.",
+              "exampleCn": "一旦这项AI功能开始带动预订量，切斯基早期的AI押注就被证明是正确的。"
+            },
+            {
+              "word": "double down",
+              "pos": "phrase",
+              "meaning": "加倍下注、加大投入力度，源自赌桌上的加倍下注动作，比increase investment更传神地表达在已有押注基础上孤注一掷式加码的决心。",
+              "etymology": "短语源自20世纪中期的二十一点（blackjack）赌场用语，指玩家拿到两张牌后额外下注一倍以换取再抽一张牌的机会；1990年代后进入商业口语。",
+              "morphology": "短语/复合词，无独立词源；double（双倍）+down（下注动作方向），二者组合固定为习语，不可拆解替换。",
+              "mnemonic": "想象赌桌上把筹码再推出去一倍——我不仅不撤，还要加码，商业新闻里看到double down就想到那个把筹码往前一推的动作。",
+              "exampleEn": "Instead of pulling back, the company decided to double down on its AI roadmap.",
+              "exampleCn": "公司没有收缩，反而决定在AI路线图上加倍投入。"
+            },
+            {
+              "word": "skeptic",
+              "pos": "n./adj.（skeptical）",
+              "meaning": "怀疑论者/持怀疑态度的，比doubtful更强调一种系统性的、需要证据才肯相信的态度，常用来描述对新技术持保留意见的高管或投资者。",
+              "etymology": "源自希腊语skeptikos（探究的、审视的），来自动词skeptesthai（观察、思考），古希腊怀疑派哲学家主张对一切事物存疑，后进入英语泛指存疑之人。",
+              "morphology": "skep-（希腊词根，观察）+-tic/-tical（形容词后缀）；同根词：skepticism（n. 怀疑主义）、skeptically（adv.）。",
+              "mnemonic": "把skep联想成keep（保留）——保留意见、不轻易相信，就是skeptic凡事要多看一眼才信的态度。",
+              "exampleEn": "Many investors were skeptics about AI's short-term payoff before the earnings report.",
+              "exampleCn": "在财报发布之前，许多投资者都对AI的短期回报持怀疑态度。"
+            },
+            {
+              "word": "comeback",
+              "pos": "n.",
+              "meaning": "东山再起、复苏，尤指经历低谷后重新恢复增长或声势，比recovery更带叙事色彩，常用于形容逆转局面的戏剧性回归。",
+              "etymology": "源自短语动词come back（回来）名词化，19世纪末美国俚语最早用于拳击等体育赛事，指选手打输后重返赛场获胜，20世纪扩展到商业和政治语境。",
+              "morphology": "come（来）+back（回）构成的复合名词；同类构词：breakthrough、makeover、turnout，均为动词加副词合成名词。",
+              "mnemonic": "想象一个拳手被击倒后又爬起来举起拳头——come back就是重新站起来的那一瞬间，Airbnb的增长也像是从低谷里爬回来的拳手。",
+              "exampleEn": "AI-powered features are fueling Airbnb's comeback in a tough travel market.",
+              "exampleCn": "AI驱动的功能正在推动Airbnb在艰难的旅游市场中实现复苏。"
+            }
+          ]
+        },
+        {
+          "id": "20260808-3",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/trump-is-trying-to-fire-lisa-cook-again-he-still-wants-to-stack-the-fed-with-allies-e6f40aa5?mod=mw_rss_topstories",
+          "headlineEn": "Trump Renews Push to Remove Fed Governor Lisa Cook",
+          "headlineCn": "特朗普再度施压，欲罢免美联储理事库克",
+          "summaryEn": "President Donald Trump has revived his campaign to oust Federal Reserve Governor Lisa Cook, just two months after the Supreme Court blocked his earlier attempt. The renewed push is part of a broader strategy to pack the central bank's board with loyalists who might favor lower interest rates. Cook, whose term does not expire until 2038, has denied any wrongdoing. The clash underscores escalating tension between the White House and an institution long meant to operate free of political pressure.",
+          "summaryCn": "特朗普再次试图罢免美联储理事丽莎·库克，此前最高法院已在两个月前阻止了他的首次尝试。此举是特朗普为美联储董事会安插更多亲信、以推动降息议程这一更大计划的一部分。库克的任期原本要到2038年才届满，她本人否认存在不当行为。这场对峙凸显了白宫与这一本应独立运作的机构之间日益升级的紧张关系。",
+          "excerpt": "Two months after being blocked by the Supreme Court, President Trump has resumed his effort to oust Federal Reserve Governor Lisa Cook, part of a broader push to pack the central bank's board with loyal allies who share his views on interest rates.",
+          "vocab": [
+            {
+              "word": "oust",
+              "pos": "v.",
+              "meaning": "罢免、驱逐（尤指用强制或有争议的手段使某人下台）；比remove或fire更带政治色彩，强调「用力量把人赶下台」，常见于政变、党争、公司权斗等报道。",
+              "etymology": "源自古法语oster（今作ôter），意为拿走、移除，可追溯至拉丁语obstare（阻挡、反对），16世纪进入法律英语，专指剥夺某人的职位或财产。",
+              "morphology": "oust本身不可再拆分，常见搭配oust sb from power/office；派生词ouster（n. 罢免行动，法律用语）。",
+              "mnemonic": "联想out加强力推动——把人用力推出（out）门外；也可想象一个国王被大臣们联手推下王座的画面来记住这种被动出局感。",
+              "exampleEn": "Shareholders voted to oust the CEO after months of declining profits.",
+              "exampleCn": "在利润连续数月下滑后，股东投票罢免了首席执行官。"
+            },
+            {
+              "word": "pack (the board)",
+              "pos": "phrasal v.",
+              "meaning": "通过安插自己人来操纵、把持一个机构或委员会，使其对己方言听计从；比control更生动，隐含「塞满忠诚支持者以扭曲原本中立机构」的贬义色彩，常见于court-packing（法院塞人）等政治报道。",
+              "etymology": "pack源自中古英语packen，本义是打包、捆扎货物，14世纪起衍生出暗中凑集、操纵（陪审团、委员会等）的比喻义，强调像装箱一样把自己人塞满某个机构。",
+              "morphology": "pack（打包）→package（n. 一揽子方案）→packed（adj. 挤满的）；固定搭配pack the court/jury/board均指同一操纵逻辑。",
+              "mnemonic": "想象把行李箱（pack）塞满自己喜欢的衣服——同理，把董事会塞满自己喜欢的人，就是pack the board。",
+              "exampleEn": "Critics accuse the president of trying to pack the board with political loyalists.",
+              "exampleCn": "批评者指责总统试图把董事会安插满政治亲信。"
+            },
+            {
+              "word": "governor",
+              "pos": "n.",
+              "meaning": "（央行等机构的）理事、行长，而非日常认知中州长之意；财经新闻里这个词专指中央银行董事会成员（如Fed governor），是一词多义的典型陷阱词，读财经新闻需切换语境理解。",
+              "etymology": "源自拉丁语gubernator（舵手、统治者），经古法语governeur进入英语，原指掌舵、治理的人，后来既用于地方行政长官，也用于机构治理者。",
+              "morphology": "govern（v. 治理）→governor（n. 治理者）→governance（n. 治理机制，常见于corporate governance）；同根词还有gubernatorial（adj. 州长的/理事的）。",
+              "mnemonic": "记住掌舵人的原始意象——无论是治理一个州还是掌舵一家央行，governor都是握着方向盘的那个人，具体身份看上下文。",
+              "exampleEn": "The Fed governor warned that premature rate cuts could reignite inflation.",
+              "exampleCn": "这位美联储理事警告称，过早降息可能重新点燃通胀。"
+            },
+            {
+              "word": "for cause",
+              "pos": "phrase",
+              "meaning": "（法律/雇佣语境）有正当理由地（解雇、罢免），与可随意解除的at will相对；财经与劳动法新闻常见搭配，如fired for cause，理解它能帮你区分任意解雇与有理由解雇两种截然不同的法律后果。",
+              "etymology": "短语源自法律英语，cause来自拉丁语causa（理由、案件），中世纪起在普通法体系中固定为有法定理由的表述，常见于雇佣合同与机构任免条款。",
+              "morphology": "短语/固定搭配，无法拆解词根；可扩展记忆because of（因为）、causation（n. 因果关系）、just cause（同义短语，正当理由）。",
+              "mnemonic": "记住cause等于原因，for cause就是有原因地做某事——法律上不能无缘无故解雇人，必须拿得出摆在桌面上的理由。",
+              "exampleEn": "Fed governors can only be removed for cause, not simply because a president disagrees with their votes.",
+              "exampleCn": "美联储理事只能因正当理由被免职，而不能仅仅因为总统不认同他们的投票。"
+            },
+            {
+              "word": "clout",
+              "pos": "n.",
+              "meaning": "（尤指政治或商业上的）影响力、话语权；比influence更口语化，强调能实际左右结果的硬实力，常见于财经与政治报道描述某人或机构的实际分量。",
+              "etymology": "源自古英语clut，本义是补丁、一块布，中古英语时期演变出重击的动作义（clout someone即打某人一拳），20世纪美式英语中进一步引申为能一拳定胜负的实力、影响力。",
+              "morphology": "clout作名词/动词均可（have clout / clout sb）；无常见派生词，可与近义词pull（n. 人脉、影响力）对比记忆。",
+              "mnemonic": "想象clout就是能一拳打服对手的实力——谁的拳头硬（clout大），谁在董事会里说话就更管用。",
+              "exampleEn": "By appointing allies to the board, the president hopes to gain more clout over interest-rate decisions.",
+              "exampleCn": "通过任命盟友进入董事会，总统希望在利率决策上获得更大的话语权。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-07": {
       "label": "8月7日 (周五)",
       "stories": [
@@ -5635,326 +5829,6 @@
               "mnemonic": "ingratiate = in + grat + iate：把「感激感」（grat）塞「进」（in）别人心里，让对方欠你人情——这就是讨好的本质。或联想：ingratiate 与 grateful 共享 grat-，一个是「给予好感」，一个是「接受好感后的感激」",
               "exampleEn": "The tech giant tried to ingratiate itself with the incoming administration by pledging to create ten thousand domestic manufacturing jobs.",
               "exampleCn": "这家科技巨头承诺在国内创造一万个制造业岗位，试图以此向新政府示好、建立关系。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-03": {
-      "label": "7月3日 (周五)",
-      "stories": [
-        {
-          "id": "20260703-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-          "headlineEn": "Anthropic in Talks with Samsung to Develop a Custom AI Chip",
-          "headlineCn": "Anthropic据报与三星洽谈定制AI芯片合作",
-          "summaryEn": "Anthropic is reportedly in discussions with Samsung to co-develop a custom AI chip, joining a race that OpenAI began roughly a week earlier with its own chip partnership with Broadcom. For Anthropic, owning bespoke silicon would reduce reliance on Nvidia's GPUs and lower inference costs at scale. Samsung, as one of the world's leading chip foundries, brings both semiconductor fabrication expertise and high-bandwidth memory capabilities. The move signals that frontier AI labs are increasingly betting on custom hardware as a strategic differentiator.",
-          "summaryCn": "Anthropic据悉正与三星洽谈联合开发定制AI芯片，由此加入一场由OpenAI约一周前与博通合作宣告拉开序幕的竞赛。对Anthropic而言，拥有专属芯片可降低对英伟达GPU的依赖，并在大规模推理场景中削减成本。三星作为全球顶尖的芯片代工厂，不仅具备先进的半导体制造能力，还拥有高带宽存储器优势。这一举措表明，前沿AI实验室正日益将定制硬件视为核心战略差异化手段。",
-          "excerpt": "Anthropic is in discussions with Samsung about developing a custom AI chip, sources said. The talks come roughly a week after OpenAI unveiled its own chip initiative in partnership with Broadcom, intensifying competition among frontier AI labs to secure dedicated silicon and reduce dependence on third-party GPU suppliers.",
-          "vocab": [
-            {
-              "word": "foundry",
-              "pos": "n.",
-              "meaning": "铸造厂；在半导体行业特指「晶圆代工厂」，即只负责芯片制造、不涉及设计的工厂。理解 foundry 是读懂半导体产业链新闻的前提——三星和台积电都是全球顶级 foundry，Anthropic 此次洽谈的正是这类制造合作。",
-              "etymology": "源自拉丁语 fundere（熔化、浇铸），17世纪进入英语，原指金属铸造工厂。半导体时代语义延伸为「晶圆代工厂」，是词义随技术演进的典型案例。",
-              "morphology": "found（熔铸）+ -ry（表场所的后缀，如 bakery、brewery）。同词根词：fusion（融合，来自 fundere）、foundling（弃儿）、refund（退还，re- 加「倒回去浇铸」之义）。",
-              "mnemonic": "记住「找到」（found）熔岩的工厂就是 foundry。bakery 烤面包，brewery 酿啤酒，foundry 铸芯片——后缀 -ry 统统指「场所」，三星就是把硅晶圆熔铸成芯片的那家工厂。",
-              "exampleEn": "TSMC's advanced foundry services allow fabless chip designers to access cutting-edge manufacturing without building their own facilities.",
-              "exampleCn": "台积电的先进代工服务让无晶圆厂的芯片设计公司无需自建产线即可获得最前沿的制造能力。"
-            },
-            {
-              "word": "bespoke",
-              "pos": "adj.",
-              "meaning": "定制的、量身打造的。来自英国裁缝业，比 custom 更正式、更有「高端专属」感，暗示针对特定需求专门设计而非通用产品。科技报道中「bespoke silicon」已成为描述定制芯片的标准搭配，是财经科技文章的高频词。",
-              "etymology": "来自古英语 bespoken，be-（使）加 speak（说定），意为「已预先说好的」。英国裁缝店以此指提前与客户商定所有细节的西装，后泛化为一切定制品。",
-              "morphology": "be-（使…处于某状态）+ spoke（speak 的过去式「说」）。同前缀词：beloved（心爱的）、bewildered（困惑的）、beholden（受恩于人的）。动词替代：tailor、customize；名词用法：bespoke tailoring。",
-              "mnemonic": "be + spoke = 「被说好了的」——买卖双方提前把每个细节「说好」才算 bespoke。想象裁缝和顾客「说好」每一条缝线，量身定制一件西装，绝不拿现成款给你。",
-              "exampleEn": "The startup commissioned a bespoke inference chip optimized for its proprietary large language model, rather than adapting off-the-shelf GPU clusters.",
-              "exampleCn": "这家初创公司委托定制了一款专为其大语言模型优化的推理芯片，而非沿用现成的GPU集群。"
-            },
-            {
-              "word": "leverage",
-              "pos": "v. / n.",
-              "meaning": "（动）借助、充分利用某优势以放大收益；（名）杠杆力、影响力。商业语境中远比 use 高级：隐含「以小博大」的策略意味。leverage a partnership 意为「借助合作关系最大化收益」，是投资分析报告的核心词汇。",
-              "etymology": "来自古法语 levier（杠杆），词根 lever 源自拉丁语 levare（举起、减轻重量）。17世纪进入英语指物理杠杆，20世纪商业英语引申为「以少撬多」的策略手段。",
-              "morphology": "lever（杠杆）+ -age（表状态或行为的名词后缀）。同词根词：levitate（悬浮）、relieve（减轻）、elevator（电梯）。派生词：leveraged（加杠杆的，如 leveraged buyout 杠杆收购）、deleveraging（去杠杆）。",
-              "mnemonic": "lever 是「撬棍」，加上 -age 就是「用撬棍撬动大石头的过程」。leverage 就是用现有资源「撬动」更大成果。想象 Anthropic 把三星的制造能力当撬棍，撬开自主芯片的大门。",
-              "exampleEn": "By leveraging Samsung's manufacturing scale, Anthropic could dramatically cut the per-chip cost of running its Claude models at inference time.",
-              "exampleCn": "通过借助三星的制造规模，Anthropic有望大幅降低运行Claude模型时的单芯片推理成本。"
-            },
-            {
-              "word": "tie-up",
-              "pos": "n.",
-              "meaning": "商业合作协议、联盟。比 partnership 更口语化，暗示两方「捆绑在一起」共同行动，常见于商业新闻标题。区别于 strategic alliance（侧重长期战略）和 joint venture（侧重合资实体），tie-up 更强调「双方结成搭档」的动作本身。",
-              "etymology": "由动词短语 tie up（捆绑、系住）名词化而来。tie 源自古英语 tēag（绳子），up 为副词强调「完成、紧固」状态。商业语境中「双方绑在一起」即形成合作关系。",
-              "morphology": "tie（系、绑）+ up（完成状态）→ 名词化，带连字符。同类商业行话：hook-up（合作接洽）、link-up（联合）、build-up（积累）。注意：tie-up 作名词时带连字符，tie up 作动词时不带。",
-              "mnemonic": "两家公司像系鞋带一样把彼此「捆」在一起——tie-up。想象三星和 Anthropic 各拉一根绳子打了个结，谁也离不开谁，共同开发芯片。",
-              "exampleEn": "The Samsung–Anthropic tie-up would give the AI lab a dedicated supply chain, reducing its exposure to GPU spot-market price swings.",
-              "exampleCn": "三星与Anthropic的合作将为这家AI实验室提供专属供应链，降低其对GPU现货市场价格波动的敞口。"
-            },
-            {
-              "word": "underscore",
-              "pos": "v.",
-              "meaning": "强调、凸显某事的重要性。比 emphasize 更书面，比 highlight 更正式，常见于新闻分析和投资报告。带有「在文字下方划线」的视觉隐喻，暗示该信息「必须注意」，是高质量英文写作的标志性用词，学会它能让你的表达立刻升级。",
-              "etymology": "under-（在…下方）+ score（划线）。原义为「在文字下方划线以示强调」，18世纪进入英语。随印刷和教育普及，引申为抽象意义上的「强调、凸显」。",
-              "morphology": "under-（在…下）+ score（划线、得分）。近义辨析：underscore 与 underline 在「强调」义上几乎可互换，但 underscore 在科技和金融文本中更常见。同前缀词：underpin（支撑）、undertake（承担）、undercut（削价竞争）。",
-              "mnemonic": "在关键词「下面」（under）「划一道线」（score）——就是 underscore。就像老师在黑板上用粉笔在重点句子下面划线，告诉学生「这里要考！」记住：under 下面，score 划线，合起来就是「划重点」。",
-              "exampleEn": "The Anthropic–Samsung talks underscore how frontier AI labs are racing to own bespoke silicon rather than depending on merchant chip suppliers.",
-              "exampleCn": "Anthropic与三星的洽谈凸显出前沿AI实验室正竞相打造自有芯片，而非继续依赖外部芯片供应商。"
-            }
-          ]
-        },
-        {
-          "id": "20260703-2",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-          "headlineEn": "Microsoft Launches Dedicated AI Deployment Arm with $2.5 Billion Commitment",
-          "headlineCn": "微软斥资25亿美元成立专属AI部署子公司",
-          "summaryEn": "Microsoft has established a dedicated AI deployment group backed by a $2.5 billion financial commitment, joining Amazon, OpenAI, and Anthropic in treating AI operationalization as a standalone business. The new division is designed to help enterprises move AI from prototype to production at scale. Analysts view the dedicated structure as a signal that Microsoft no longer sees AI deployment as a feature layered onto existing products, but as a core revenue-generating operation that could reshape enterprise AI adoption.",
-          "summaryCn": "微软宣布成立一个专属AI部署集团，并承诺投入25亿美元资金，加入亚马逊、OpenAI和Anthropic的行列，将AI的「落地运营」作为独立业务来经营。新部门专门协助企业将AI从原型阶段推向大规模生产部署。分析人士认为，成立独立机构意味着微软不再将AI部署视为现有产品的附加功能，而是将其打造为独立的核心营收业务，这将深刻影响大型企业采购和整合AI工具的方式。",
-          "excerpt": "Microsoft has launched a standalone AI deployment company backed by a $2.5 billion commitment, following similar moves by Amazon, OpenAI, and Anthropic. The new group is designed to help enterprises put AI into production at scale, signaling that tech giants now treat AI deployment as a core business in its own right.",
-          "vocab": [
-            {
-              "word": "commitment",
-              "pos": "n.",
-              "meaning": "（对资金、资源的）正式承诺与投入。比 promise 更具约束力，在商业语境中常与金额搭配（a $2.5 billion commitment），强调资金已被「锁定」而非泛泛表态，是财经报道中描述投资决策的核心词汇。",
-              "etymology": "来自拉丁语 committere，由 com-（共同）和 mittere（发送、托付）构成，原义为「共同交付某事」。中世纪英语演变为「承担义务」，商业语境进一步强化了「绑定资源、不可撤销」的含义。",
-              "morphology": "commit（v.）→ commitment（n.）→ committed（adj.）→ uncommitted（adj.，未表态的）。同词根词：commission（委托、佣金）、committee（委员会）、omit（漏发，ob+mittere）—— 核心词根 mit/miss 均含「发送/托付」之意。",
-              "mnemonic": "com-（共同）+ mit（扔/送）→ 把资源「一起扔进去」，一旦扔就收不回来。想象把25亿美元现金装进保险箱并焊死——这就是 commitment，锁死的承诺，没有反悔的余地。",
-              "exampleEn": "The board approved a $500 million commitment to expand data center capacity across Southeast Asia.",
-              "exampleCn": "董事会批准了一项5亿美元的投入承诺，用于在东南亚扩建数据中心。"
-            },
-            {
-              "word": "deployment",
-              "pos": "n.",
-              "meaning": "（技术或系统的）部署、投放上线。在AI领域特指将模型从研发阶段推向实际生产环境的持续过程，比 launch 更强调运营层面而非一次性发布动作，是AI工程师和产品经理日常沟通的核心术语。",
-              "etymology": "来自法语 déployer（展开），源于拉丁语 displicare，由 dis-（分散）和 plicare（折叠）构成，军事原义为「将部队展开列阵」。科技语境将其引申为「将系统展开投入运行」。",
-              "morphology": "deploy（v.）→ deployment（n.）→ deployed（adj.）。plicare（折叠）词根家族：imply（隐含，折入内部）、reply（回复，折回）、display（展示，展开铺陈）—— 都含「折叠/展开」的空间隐喻，deploy 是「向外展开」。",
-              "mnemonic": "de-（展开）+ ploy（折叠/策略）→ 把「折好的代码」展开铺上服务器。想象把一张精心折叠的地图在服务器机架上「展开」铺平——代码上线即 deploy，展开即运行。",
-              "exampleEn": "Successful AI deployment requires not just a good model, but robust infrastructure and ongoing monitoring.",
-              "exampleCn": "成功的AI部署不仅需要出色的模型，还需要强大的基础设施和持续的监控。"
-            },
-            {
-              "word": "earmark",
-              "pos": "v. / n.",
-              "meaning": "（动）专款专用，将特定资金指定用于某一目的；（名）专项标记。比 allocate 更具体，隐含「此款保留、不得挪用」的意味，在财经新闻中极为常见，尤其用于描述政府预算或企业融资中的定向资金安排。",
-              "etymology": "源自古英语，字面义为「在耳朵（ear）上做标记（mark）」——农民曾在牲畜耳廓割出特定缺口以标识所有权。17世纪引申为「为某事物打上专属标记、指定用途」，沿用至今。",
-              "morphology": "ear（耳）+ mark（标记）→ 纯粹复合词，字面可拆解。同类 mark 复合词：trademark（商标）、watermark（水印）、bookmark（书签）—— 核心含义均为「做标记以区分归属」，earmark 是「耳上之记」最为古老。",
-              "mnemonic": "想象古代农民在牛耳朵上刻「仅供AI部署专用」——这头牛不能干别的！耳朵上的专属刻记 = earmark = 专款专用。金额越大，耳朵上刻得越深，越不可挪用。",
-              "exampleEn": "The startup earmarked $300 million of its latest funding round exclusively for GPU infrastructure and AI research talent.",
-              "exampleCn": "这家初创公司将最新一轮融资中的3亿美元专门用于GPU基础设施和AI研究人才。"
-            },
-            {
-              "word": "follow suit",
-              "pos": "phrase",
-              "meaning": "跟进、效仿（他人的做法）。源自纸牌游戏，在商业报道中描述「竞争对手行动后采取类似策略」，带有竞争性含义，暗示行业正在形成趋势或出现羊群效应，是科技商业报道的高频习语，语气比 imitate 更中性。",
-              "etymology": "来自纸牌游戏规则，suit 指「花色」，规则要求玩家跟出同花色（follow the suit）。18世纪进入通用英语，延伸为「效仿他人行动」。suit 本身来自法语 suite（随从、序列），源于拉丁语 sequi（跟随）。",
-              "morphology": "短语/复合结构，无独立词源。suit 来自 sequi（跟随）词根家族：sequence（序列）、sequel（续集）、subsequent（随后的）、consequence（结果，跟随而来之事）—— 「跟随」是共同内核。",
-              "mnemonic": "打扑克时别人出了红心，规则要求你也必须出红心——这就是 follow suit。商业版：亚马逊「打出AI部署这张牌」，微软必须跟牌——follow suit！记住「跟牌」就是「跟风」，一字不差。",
-              "exampleEn": "After Tesla posted record quarterly margins, several legacy automakers followed suit by aggressively cutting vehicle production costs.",
-              "exampleCn": "特斯拉公布创纪录的季度利润率后，多家传统车企纷纷效仿，大幅削减车辆生产成本。"
-            },
-            {
-              "word": "dedicated",
-              "pos": "adj.",
-              "meaning": "专属的、专门用于某一目的的。在商业和科技语境中强调「排他性投入」——dedicated team（专属团队）、dedicated server（专用服务器）、dedicated fund（专项基金）。比 special 更正式，比 exclusive 更侧重功能性分工而非特权感，是技术文档和商业报道的高频形容词。",
-              "etymology": "来自拉丁语 dedicare（正式奉献），由 de-（完全）和 dicare（宣告、奉献）构成，原指「将某物正式献给神明」。后演变为「将资源完全投入某一特定目的」，保留了「庄严宣告」的语气。",
-              "morphology": "de-（完全）+ dic（说/宣告）+ -ate（动词后缀）+ -ed（形容词后缀）。dic/dict 词根家族：dictate（命令）、predict（预言）、indicate（指示）、contradict（反驳）—— 核心均含「宣告/说」之意，dedicate 是「完全宣告给某物」。",
-              "mnemonic": "dedicate 核心是 dict（说），de-（完全）→「完全宣布给某物」。想象CEO站在新楼前用扩音器宣布：「这栋楼——完全！只！给！AI！部署！用！」—— 这就是 dedicated，专属宣告，不可分享。",
-              "exampleEn": "The company set up a dedicated AI infrastructure team, separate from its general engineering division, to accelerate model deployment.",
-              "exampleCn": "该公司成立了一个独立的专属AI基础设施团队，与通用工程部门分开，以加速模型部署。"
-            }
-          ]
-        },
-        {
-          "id": "20260703-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/02/tesla-tsla-q2-2026-vehicle-delivery-production.html",
-          "headlineEn": "Tesla Stock Falls 7% Despite Strong Deliveries, Posts Worst Day in a Year",
-          "headlineCn": "特斯拉股价单日重挫7%，创近一年最大跌幅",
-          "summaryEn": "Tesla shares plunged 7% on Wednesday, marking the company's worst single-day performance in nearly a year, even as its quarterly deliveries beat analyst expectations. The paradox reflects deep investor concern about Tesla's ability to rebuild brand loyalty after consecutive annual sales declines. Much of the damage has been attributed to consumer backlash against CEO Elon Musk's political activities, which appear to have alienated key buyer segments. Analysts warn that strong delivery numbers alone cannot reverse the fundamental headwinds facing the EV maker.",
-          "summaryCn": "周三，特斯拉股价大跌7%，创下近一年来最惨单日表现，而这恰恰发生在季度交付量超出分析师预期之后。这一反常现象折射出市场的深层忧虑：在连续两年年度销量下滑后，特斯拉能否重建品牌信任？分析人士认为，消费者对CEO马斯克政治活动的强烈反弹是销量受损的重要原因。亮眼的交付数据难以掩盖公司面临的结构性逆风。",
-          "excerpt": "Tesla shares sank 7% on Wednesday — the worst single-day drop in nearly a year — despite a quarterly deliveries report that topped Wall Street forecasts. The sell-off underscores investor concern that consecutive annual sales declines, driven in part by consumer backlash against CEO Elon Musk, signal deeper trouble for the electric vehicle maker.",
-          "vocab": [
-            {
-              "word": "backlash",
-              "pos": "n.",
-              "meaning": "强烈反弹；反噬。比 opposition 更强烈，带有「之前的支持或信任反转成愤怒」的隐含意义，常用于描述公众对政策、品牌或名人的集体负面反应，是财经和政治报道的高频词，值得重点掌握。",
-              "etymology": "来自英语 back（向后）+ lash（抽打、猛击），18世纪原指机械中齿轮咬合不紧导致的「反向运动」，20世纪引申为比喻义：力量反转、舆论反噬。",
-              "morphology": "back（向后）+ lash（抽打）。同前缀词：backfire（弄巧成拙）、backtrack（撤回立场）；lash 还出现在 eyelash（睫毛）、whiplash（颈椎挥鞭伤）中，保留「猛力抽打」的核心语义。",
-              "mnemonic": "想象一条皮鞭（lash）甩出去，结果弹了回来（back）打到自己——CEO 的行为激怒了消费者，反噬了品牌，画面一闪，词义即记。",
-              "exampleEn": "The new pricing policy triggered a fierce backlash from loyal customers who felt betrayed by the brand.",
-              "exampleCn": "新定价政策引发忠实客户的强烈反弹，他们感到被品牌背刺。"
-            },
-            {
-              "word": "consecutive",
-              "pos": "adj.",
-              "meaning": "连续的；依次发生的。强调「不间断的顺序计数」，比 continuous 更侧重「一次接一次」的节奏感，财经报道中常搭配 quarters（连续多季）、years（连续多年）、declines（连续下滑），是量化趋势的核心修饰词。",
-              "etymology": "来自拉丁语 consecutus，由 con-（共同、一起）+ sequi（跟随）构成，原义是「紧随其后的」，经法语进入英语，保留了「按序紧跟」的核心语义。",
-              "morphology": "con-（一起）+ secu-（跟随，词根 sequi）+ -tive（形容词后缀）。同词根族：sequence（顺序）、sequel（续集）、subsequent（随后的）、consequence（后果），掌握词根 sequ- 可解锁一大族词。",
-              "mnemonic": "con + secu + tive → 脑补「连续塞」进来的数字——Tesla 把一年又一年的销量下滑数据连续塞进账本，一个紧跟一个，停不下来。",
-              "exampleEn": "The chipmaker posted consecutive quarterly revenue records, cementing its position as the sector's dominant player.",
-              "exampleCn": "这家芯片制造商连续多季创下营收纪录，巩固了其在行业中的主导地位。"
-            },
-            {
-              "word": "post",
-              "pos": "v.",
-              "meaning": "（财经语境）录得、公布（业绩数字）。比 report 更简洁正式，是财经新闻的标配动词，隐含「登记入账」的意象。固定搭配：post a loss（录得亏损）、post gains（录得涨幅）、post the worst day（创下最差表现）。注意与「发帖」「邮寄」义的语境区分。",
-              "etymology": "来自拉丁语 ponere（放置），经古法语演变，原指「将数字张贴登录于账簿」（posting in a ledger），会计学中沿用至今，现代财经英语继承了这一「正式记录」的语义。",
-              "morphology": "简单词，无前缀/后缀。常见派生和复合：posting（n. 记账条目/职位发布）、postmark（邮戳）、outpost（前哨）。动词 post 一词多义，上下文是区分「发帖」与「录得业绩」的唯一线索。",
-              "mnemonic": "想象古代账房先生把数字「贴（post）」到账本上——Tesla 把「近一年最差单日表现」郑重其事地贴进历史账本，永久存档，这就是 post。",
-              "exampleEn": "The automaker posted a 12% drop in quarterly profit, sending its stock down in after-hours trading.",
-              "exampleCn": "这家汽车制造商季度利润下滑12%，导致其股价在盘后交易中走低。"
-            },
-            {
-              "word": "sell-off",
-              "pos": "n.",
-              "meaning": "（市场）大规模抛售；因集体卖出引发的股价急跌。与 decline 不同，sell-off 强调「主动卖出行为」引发的下跌，带有恐慌或失望的情绪色彩，常见于股票、债券、加密货币市场报道，是描述市场骤跌场景的精准词。",
-              "etymology": "sell（古英语 sellan，转让、出售）+ off（脱手、分离），短语复合词结构，无独立拉丁/希腊词源。sell 源自日耳曼语系，off 强化「甩出去」的动态感，合在一起即「批量甩卖脱手」。",
-              "morphology": "短语/复合词，无独立词源。sell 的常见搭配：sell out（售罄/出卖）、sell short（做空）、upsell（追加销售）；off 系列：layoff（裁员）、spinoff（分拆）、writeoff（核销），一个 off 撑起半个财经词库。",
-              "mnemonic": "脑补股市大屏幕一片红——所有人疯狂点「sell」，数字全部「off」（归零蒸发）。Sell + off = 恐慌性抛售直到价格消失，画面定格，永不忘记。",
-              "exampleEn": "A surprise interest rate hike triggered a broad sell-off across tech stocks, wiping out gains from the previous month.",
-              "exampleCn": "意外加息引发科技股全面抛售，抹去了上月的全部涨幅。"
-            },
-            {
-              "word": "headwind",
-              "pos": "n.",
-              "meaning": "逆风；（商业）阻力、不利因素。航空术语引入商业语境，指「使前进变困难的外部力量」，比 challenge 更生动，隐含「努力前行却被顶住」的动态画面。反义词 tailwind（顺风/利好）同样高频，成对掌握可大幅提升财经阅读能力。",
-              "etymology": "head（正面、前方）+ wind（风），复合词，词汇本身源自日耳曼语系。原为航海和航空术语，20世纪中叶被经济学家和商业分析师借用为比喻，描述宏观环境或市场带来的阻力。",
-              "morphology": "head（前方）+ wind（风）。同结构词：tailwind（顺风/利好）、crosswind（侧风）；headway（进展）、headcount（人数）；windfall（意外之财）、wind down（逐步收尾），wind 的商业比喻用法极为丰富。",
-              "mnemonic": "想象骑自行车迎风而行——风（wind）正对着你的脸（head），越踩越费劲、速度越来越慢。Tesla 面对品牌危机，就是在逆风骑行。",
-              "exampleEn": "Rising raw material costs and weakening consumer demand remain significant headwinds for electric vehicle manufacturers this year.",
-              "exampleCn": "原材料成本上涨和消费需求疲软，仍是今年电动汽车制造商面临的重大阻力。"
-            }
-          ]
-        },
-        {
-          "id": "20260703-4",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/02/lucid-motors-cfo-is-out-as-its-new-ceo-continues-leadership-shakeup/",
-          "headlineEn": "Lucid Motors CFO Departs as New CEO Pursues Executive Leadership Reshuffle",
-          "headlineCn": "路西德汽车首席财务官离职，新任CEO持续推进管理层重组",
-          "summaryEn": "Lucid Motors has parted ways with its CFO as the newly installed CEO presses ahead with a broad leadership reshuffle. The electric vehicle maker is bringing in a fresh slate of senior executives in a bid to reverse slowing momentum. The moves come as sales of its flagship Gravity SUV have badly missed expectations, raising questions about Lucid's ability to compete commercially. The leadership overhaul signals mounting pressure on the company to demonstrate both operational stability and a credible path to profitability.",
-          "summaryCn": "路西德汽车宣布首席财务官离职，新任CEO持续引进一批高管以期扭转公司颓势。该电动车企旗舰车型Gravity SUV的销量远不及预期，外界对其商业竞争力的质疑随之升温。此轮人事大换血表明公司正承受巨大压力，亟需向投资者证明管理层的稳定性和清晰可行的盈利路径。在竞争日趋激烈的电动车市场中，路西德的自救之路依然充满不确定性。",
-          "excerpt": "Lucid Motors confirmed the departure of its CFO as the company's new chief executive continues a sweeping leadership reshuffle. The automaker has announced a new slate of senior hires in an effort to turn things around, amid disappointing sales of its Gravity SUV, which has so far failed to gain the traction the company had hoped for.",
-          "vocab": [
-            {
-              "word": "slate",
-              "pos": "n. / v.",
-              "meaning": "名单；一批（候选人或被任命者）。商业/政治报道中「a slate of」极为常见，指「精心挑选的一批人选」，比 list 更正式，隐含「经过筛选、打包推出」的意味。用作动词时意为「将某人/某事列入计划」，如 slated for release（定于发布）。",
-              "etymology": "源自古法语 esclat（碎片、薄板），因古时用板岩薄板（slate）作书写板记录名单，词义由「石板」引申为「名单」。16世纪进入英语，最初指选举候选人名单，后扩展至商业语境。",
-              "morphology": "单一词根词，无明显前后缀可拆解。常见派生与搭配：slate(v.)→ be slated for（被安排/预定）；clean slate（白板，指重新开始）；slate-gray（石板灰色）。横向扩展：ballot（选票）、roster（名册）、lineup（阵容）。",
-              "mnemonic": "想象董事会面前有一块大黑板（slate），上面用粉笔写满新高管候选人名字——每个名字都列在这块石板上，slate = 名单。记住：黑板擦掉叫 clean slate（重新开始），写满了就是 a full slate（满员名单）。",
-              "exampleEn": "The incoming CEO unveiled a new slate of senior hires aimed at rebuilding investor confidence.",
-              "exampleCn": "新任CEO公布了一批高级管理人员任命，旨在重建投资者信心。"
-            },
-            {
-              "word": "traction",
-              "pos": "n.",
-              "meaning": "（商业语境）市场认可度；立足点；增长势头。「gain traction」是科技和创业报道的标配搭配，比 momentum 更强调「从零到一的市场立足」，常用于描述产品或服务从不被接受到逐渐被市场认可的过程。销量「not taking off」即 failing to gain traction 的同义表达。",
-              "etymology": "源自拉丁语 trahere（拉、拖），词根 tract- 意为「拉力」，-ion 为名词后缀。原义为物理上的「牵引力/抓地力」（如轮胎抓地），20世纪商业英语将其隐喻化，引申为产品「抓住市场」的能力。",
-              "morphology": "tract-（拉，来自拉丁语 trahere）+ -ion（名词后缀）。同词根高频词：attract（吸引，ad-+tract）、contract（合同，con-+tract，双方相互拉）、extract（提取，ex-+tract）、distract（分散注意力，dis-+tract）。",
-              "mnemonic": "traction = tract（拖拽/抓住）+ ion。想象新产品像陷在泥里的汽车轮胎——轮胎要「抓地」（traction）才能跑起来；gain traction = 终于抓住地面 = 终于抓住市场。Gravity SUV就是那辆在泥里打滑的车。",
-              "exampleEn": "The electric vehicle startup struggled to gain traction in a market dominated by established players.",
-              "exampleCn": "这家电动车初创公司在被巨头主导的市场中难以获得立足之地。"
-            },
-            {
-              "word": "succession",
-              "pos": "n.",
-              "meaning": "继任；接班顺序；权力交接。succession planning（继任规划）是企业治理核心词汇，比 replacement 更强调「有序、有计划的传承」，leadership succession 暗示公司在权力交接上的系统性安排。CEO 频繁更迭往往说明 succession planning 失败。",
-              "etymology": "源自拉丁语 succedere（在……之后前进），sub-（在……之后）+ cedere（走、让步）→ successio（继承、接续）→ 古法语 succession → 英语。原义为「跟在后面走」，引申为「按顺序接替」。",
-              "morphology": "sub-（之后/下面）+ cess-（走，来自 cedere）+ -ion（名词后缀）。同词根词群：predecessor（前任，pre-+cess，在前面走的人）、recession（衰退，re-往回走）、concession（让步，con-+cess）、process（过程，pro-+cess，向前走）。",
-              "mnemonic": "success 和 succession 长得极像——但 succession 不是「成功」，是「接班」！记忆锚点：成功的(success) 接班人(+ion) = succession。另一层：sub（在下面）+ cess（走）= 从下面走上来接替位置，就是继任。",
-              "exampleEn": "The board's failure to plan for CEO succession left the company without clear direction for months.",
-              "exampleCn": "董事会未能提前规划CEO继任，导致公司数月间战略方向模糊。"
-            },
-            {
-              "word": "C-suite",
-              "pos": "n.",
-              "meaning": "最高管理层（CEO、CFO、COO、CTO等「首席」高管职位的统称）。读财报和财经新闻几乎每天都会遇到，比 top management 更精准，直接锁定「C字头职位」群体。C-suite shake-up（最高管理层大洗牌）是企业危机报道中的超高频搭配。",
-              "etymology": "C 来自 Chief（首席）的首字母缩写；suite 来自法语 suivre（跟随），原义为「一套相互关联的房间/套房」，后引申为「一组配套职位」。合在一起：住在公司「顶层套房」里的首席高管群体。",
-              "morphology": "C（Chief 首字母）+ suite（套房/套件）。相关词群：C-level（C级别的，同义词）、corner office（转角办公室，借喻最高管理层，因高管办公室通常在大楼转角处视野最佳）；套件系列：software suite（软件套件）、hotel suite（酒店套房）。",
-              "mnemonic": "把 C-suite 想象成豪华酒店最顶层的总统套房（presidential suite）——只有 CEO、CFO、COO、CTO 这些「C字头大佬」才住得进去。C = Chief（首席），suite = 套房，C-suite = 首席高管套间 = 最高管理层。",
-              "exampleEn": "Activist investors are demanding a complete C-suite overhaul to restore confidence in the company's strategic direction.",
-              "exampleCn": "激进投资者要求彻底重组最高管理层，以恢复市场对公司战略方向的信心。"
-            },
-            {
-              "word": "turnaround",
-              "pos": "n.",
-              "meaning": "扭转局面；转机；（企业）扭亏为盈的过程。turnaround strategy（扭转战略）是财经英语核心词，比 recovery 更强调「主动出击逆转颓势」，常暗示公司正处于困境中积极自救，分析企业危机时必用。此处「help turn things around」即执行 turnaround 的动词表达。",
-              "etymology": "turn（转）+ around（转向），20世纪美国商业英语词汇，最初描述飞机或船只「调头」的操作，后引申为企业「在困境中掉头逆转」。与 about-face（军事术语，向后转）同源于「方向逆转」的隐喻。",
-              "morphology": "turn（转）+ around（副词/介词：环绕/转向），动词短语名词化的复合词。相关词：turnover（营业额/人员流动率，turn+over）；turnaround time（周转时间）；about-face（急转弯，态度大变）。",
-              "mnemonic": "画面：一辆快要冲下悬崖的卡车（= 陷入困境的公司），司机猛打方向盘「turn around」原地掉头——turnaround = 最后一刻的大逆转。Lucid 引进新高管团队，就是在等这辆卡车能不能成功掉头。",
-              "exampleEn": "Investors remain skeptical about whether the new C-suite can execute a credible turnaround within 18 months.",
-              "exampleCn": "投资者仍对新管理团队能否在18个月内实现可信的业务逆转持怀疑态度。"
-            }
-          ]
-        },
-        {
-          "id": "20260703-5",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/trump-blasts-hostile-fed-and-says-warsh-has-to-do-what-he-has-to-do-on-interest-rates-60b5d16b?mod=mw_rss_topstories",
-          "headlineEn": "Trump Attacks 'Hostile' Fed, Backs Warsh on Rate Decisions",
-          "headlineCn": "特朗普炮轰「敌视」美联储，为沃什自主决定利率背书",
-          "summaryEn": "President Trump escalated his public pressure on the Federal Reserve, calling it 'hostile' in a recent interview. He backed Kevin Warsh — his likely pick to replace Fed Chair Jerome Powell — saying Warsh 'has to do what he has to do' on rate policy. Trump also confirmed plans to remove Fed governor Lisa Cook from the board. These remarks intensify concerns about the Fed's political independence and add uncertainty to the interest rate outlook.",
-          "summaryCn": "特朗普在近期采访中再度炮轰美联储，直指其对自己「充满敌意」。他为有望接任美联储主席的沃什公开背书，称沃什在利率问题上「该怎么做就怎么做」。与此同时，特朗普证实将把美联储理事莉萨·库克从董事会中撤职。此番言论进一步加剧了外界对美联储政治独立性受损的担忧，也令市场对未来利率走向更加不确定。",
-          "excerpt": "In a recent interview, Trump called the Federal Reserve 'hostile' and backed Kevin Warsh — his likely pick to lead the central bank — saying he 'has to do what he has to do' on rates. Trump also confirmed plans to remove Fed governor Lisa Cook from the board.",
-          "vocab": [
-            {
-              "word": "blast",
-              "pos": "v.",
-              "meaning": "公开猛烈抨击、炮轰。比 criticize 语气强烈得多，带有爆发性和公开性，在政治财经新闻标题中极为常见（如「blasts the Fed」「blasts rivals」），制造强烈冲突感，是新闻英语必学动词",
-              "etymology": "古英语 blǣst，意为强烈气流或爆炸声，源自日耳曼语根 *blēsan（吹）。本义指物理性的猛烈爆发，后引申为言辞上的猛烈攻击，语义从物理冲击迁移至口头炮轰",
-              "morphology": "单一词根，无可拆分前后缀。派生词：blasting（adj. 猛烈的）、blasted（adj. 遭受攻击的）。强度梯度参考：criticize → attack → lambaste → blast，越靠后语气越猛烈",
-              "mnemonic": "blast = 爆炸声——想象一门大炮正对着美联储「轰」地射出一句话。每次在新闻标题看到 blast，脑中浮现炮轰画面，记忆自然稳固",
-              "exampleEn": "The CEO blasted the regulator's new policy, calling it a direct attack on innovation and free markets.",
-              "exampleCn": "首席执行官猛烈抨击监管机构的新政策，称其是对创新和自由市场的直接打击。"
-            },
-            {
-              "word": "hostile",
-              "pos": "adj.",
-              "meaning": "充满敌意的、对抗性的。在商业语境中，hostile takeover（恶意收购）是核心财经术语；修饰政策或机构时（如「hostile regulator」），表示明显的对立立场，比 unfriendly 更正式、更具制度含义",
-              "etymology": "源自拉丁语 hostilis，衍生自 hostis（敌人／陌生人）。值得注意：古罗马人用同一个词指「客人」和「敌人」，映射出古代社会对外来者既欢迎又警惕的双重态度",
-              "morphology": "host-（词根，敌人）+ -ile（拉丁形容词后缀，表性质）。派生词：hostility（n. 敌意）、hostilities（n.pl. 战争行为）；关联词：inhospitable（adj. 不友好的），注意 hospitable 与 hostile 共享同一拉丁词根",
-              "mnemonic": "hostile 里藏着 host（主人）——一个对你充满敌意的坏主人。顺便记住财经核心搭配：hostile takeover（恶意收购），下次看到这个词立刻联想到「收购方是个坏主人」",
-              "exampleEn": "Analysts warned that the regulatory environment had turned hostile toward tech mergers, making large acquisitions far riskier.",
-              "exampleCn": "分析师警告称，监管环境对科技行业并购已变得充满敌意，大型收购的风险大幅攀升。"
-            },
-            {
-              "word": "autonomy",
-              "pos": "n.",
-              "meaning": "自主权、独立性。在央行语境中，「Fed autonomy」（美联储独立性）是核心政治经济议题，指货币政策制定不受行政干预。比 independence 更强调「自我治理」的制度属性，学术和新闻中均高频",
-              "etymology": "源自希腊语 autonomia，由 autos（自己）+ nomos（法律／规则）构成，字面义为「自己制定法律」，是古希腊城邦政治自治的核心概念，后延伸至现代制度语境",
-              "morphology": "auto-（前缀，自己）+ -nomy（词根，法律／管理体系）。同前缀扩展：automobile（自动行驶）、automated（自动化）；同词根扩展：economy（eco+nomy，家庭管理→经济）、astronomy（天文规律）",
-              "mnemonic": "auto = 自动，nomy 想 economy（经济／管理）→ autonomy = 「自动管自己」= 自主权。记住：美联储的 autonomy 就是它「自己管自己、不受总统干预」的制度权力",
-              "exampleEn": "Investors grew nervous as political pressure on the central bank threatened to undermine its operational autonomy.",
-              "exampleCn": "随着政治压力威胁到央行的运营自主权，投资者开始感到不安。"
-            },
-            {
-              "word": "tenure",
-              "pos": "n.",
-              "meaning": "任期、任职期间。商业新闻极高频词，如「during her tenure as CEO」「a brief tenure」，比 term 更正式，侧重强调「持有某职位」本身的状态，而非合同规定的时长，常用于高管、官员的传记式描述",
-              "etymology": "来自古法语 tenure，源自拉丁语 tenere（持有、保持）。本义指封建制度中「持有土地的权利与期间」，后引申为持有任何职位的状态或时期，语义从财产权迁移至职位权",
-              "morphology": "ten-（拉丁词根，持有）+ -ure（名词后缀）。同词根扩展：retain（保留）、contain（包含）、maintain（维护）、tenant（租户，持有土地者）、tenacious（坚韧的，紧握不放的）",
-              "mnemonic": "tenure = ten + ure，想象一位 CEO 坚持在任整整「十」年——tenure 就是这段坚守岗位的岁月。核心记忆：持有（hold）一个职位的时间段",
-              "exampleEn": "During her tenure as CFO, the company's revenue doubled and its credit rating was upgraded twice.",
-              "exampleCn": "在她担任首席财务官期间，公司营收翻倍，信用评级也两度上调。"
-            },
-            {
-              "word": "rebuke",
-              "pos": "v. / n.",
-              "meaning": "严厉斥责、当众批评。比 criticize 更正式、更具权威感，通常指来自上级或公众对有过失者的直接训斥。政治和金融新闻中常见，描述机构间或政客间的公开批评行为，语气比 blast 更庄重克制",
-              "etymology": "源自古法语 rebuchier，由 re-（对抗／反向）+ buchier（推回、击打）构成，本义为「将某人推回去」，后语义软化为「用言辞顶回去」，即言辞上的严厉批评",
-              "morphology": "re-（前缀，反向／对抗）+ buke（古法语词根，推／击）。re- 前缀同类词：reject（拒绝）、reprimand（训斥，比 rebuke 更书面）、repudiate（否认）。强度梯度：admonish（温和告诫）< rebuke（严厉批评）< censure（正式谴责）",
-              "mnemonic": "re-（反）+ buke（谐音「噗」）→ 噗地一声把对方顶回去 = rebuke（严厉斥责）。或想象拿一块 cube（方块，buke 谐音）扔回去——言辞有砖头一样的分量",
-              "exampleEn": "The board publicly rebuked the CEO for the unauthorized acquisition, demanding a full explanation within 48 hours.",
-              "exampleCn": "董事会公开斥责首席执行官擅自发起收购行为，要求其在48小时内作出完整解释。"
             }
           ]
         }
