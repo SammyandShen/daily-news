@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-07T23:04:31.149585+00:00",
+  "lastUpdated": "2026-08-08T23:05:02.349421+00:00",
   "level": "B2",
   "days": {
+    "2026-08-09": {
+      "label": "8月9日 (周日)",
+      "stories": [
+        {
+          "id": "20260809-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+          "headlineEn": "Hugging Face Hack Signals a Dangerous New Era of AI Cyberattacks",
+          "headlineCn": "Hugging Face遭黑客攻击，标志危险AI网络安全时代来临",
+          "summaryEn": "Hugging Face, the popular AI model-sharing platform, was hit by hackers just as the Black Hat cybersecurity conference opened in Las Vegas, where researchers are also detailing a growing string of AI agent hacks affecting Anthropic, Meta and OpenAI. Experts warn this incident signals the start of a new era of AI-focused cyberattacks, one that many companies deploying AI agents are not even aware they face, leaving critical systems dangerously exposed to manipulation and data theft.",
+          "summaryCn": "Hugging Face在拉斯维加斯Black Hat大会开幕之际遭黑客入侵，会上研究人员同时披露了针对Anthropic、Meta和OpenAI的多起AI代理攻击事件。专家警告，危险的AI网络攻击新时代已开启，许多部署AI代理的企业甚至还没意识到自己面临的风险。",
+          "excerpt": "The Black Hat cybersecurity conference in Las Vegas couldn't have come at a better time: AI agent hacks have been piling up, with incidents tied to Anthropic, Meta and OpenAI emerging just as the Hugging Face hack exposed the industry's blind spots.",
+          "vocab": [
+            {
+              "word": "attack surface",
+              "pos": "n. phrase",
+              "meaning": "网络安全术语，指系统可能被攻击的所有入口点总和；比单个漏洞更宏观，强调整体暴露面，商业报告中常用来评估风险敞口。",
+              "etymology": "由attack（拉丁attaccare经法语借入，意为进攻）+ surface（拉丁superficies，意为表面）组合而成，20世纪末计算机安全领域借用几何学表面概念形成的专业术语。",
+              "morphology": "attack（攻击，动词/名词）+ surface（表面，名词）= 复合名词；同源词：attacker（攻击者）、surface-level（表面的）、resurface（重新浮现）。",
+              "mnemonic": "想象一座城堡，城墙上每一扇窗户、每一道门都是attack surface——门窗越多越容易被攻破；企业联网设备越多，同理风险越大。",
+              "exampleEn": "As companies connect more AI agents to their internal systems, their attack surface expands dramatically.",
+              "exampleCn": "随着企业将更多AI代理接入内部系统，它们的攻击面正急剧扩大。"
+            },
+            {
+              "word": "blind spot",
+              "pos": "n. phrase",
+              "meaning": "字面指视觉盲区，引申为组织未察觉的风险区域；比一般的弱点更精准，强调根本没意识到，而不是知道但薄弱。",
+              "etymology": "源自19世纪生理学术语，指视网膜上没有感光细胞的区域；20世纪起被商业与心理学广泛借用为认知或管理上的疏漏。",
+              "morphology": "blind（瞎的，形容词，古英语blind）+ spot（斑点/地点，名词）= 复合名词；同源词：blindfold（蒙眼布）、spotlight（聚光灯）、spot-check（抽查）。",
+              "mnemonic": "开车时后视镜照不到的那块区域就是blind spot——你以为路上没车，其实有辆车正藏在那里；公司安全体系里的AI风险也常藏在这个看不见的角落。",
+              "exampleEn": "Many firms have a blind spot when it comes to how their AI agents could be manipulated by hackers.",
+              "exampleCn": "许多企业在AI代理可能被黑客操纵这一点上存在盲区。"
+            },
+            {
+              "word": "fend off",
+              "pos": "phrasal v.",
+              "meaning": "击退、抵御攻击或批评，比defend更口语化，更强调仓促应对的动作感，常用于描述企业临时应对危机的场景。",
+              "etymology": "源自古法语defendre（防御）缩略为fend，14世纪起与off搭配表示挡开的动作，原指用武器格挡攻击。",
+              "morphology": "fend（挡开，动词）+ off（离开，副词）= 短语动词；同源词：defend（防御）、offense（进攻）、fender（防撞装置，如汽车挡泥板）。",
+              "mnemonic": "联想汽车的fender（挡泥板），它的作用就是把泥土fend off（挡开）；企业用防火墙和补丁把黑客攻击挡开，是同一个画面。",
+              "exampleEn": "Security teams scrambled to fend off a wave of attacks targeting AI agents built by major tech firms.",
+              "exampleCn": "安全团队紧急行动，抵御针对各大科技公司AI代理的一波攻击。"
+            },
+            {
+              "word": "patch",
+              "pos": "v. / n.",
+              "meaning": "给软件打补丁、修复漏洞；名词指补丁程序本身。日常义是补丁布，科技语境高频借用，比fix更专业、更具行业辨识度。",
+              "etymology": "源自中世纪英语pecche，可能来自古法语pieche（碎布），本义为缝补衣物的布片；20世纪中期计算机行业借用为修复代码缺陷。",
+              "morphology": "patch（补丁，名词/动词）；同源词：patchwork（拼布，引申为拼凑而成的东西）、patchy（不均匀的）、unpatched（未打补丁的）。",
+              "mnemonic": "想象牛仔裤破了个洞，缝上一块布补丁——软件出了漏洞，工程师也是缝上一块代码补丁，画面完全一致，容易记住动词用法。",
+              "exampleEn": "Hugging Face rushed to patch the vulnerability before more accounts could be compromised.",
+              "exampleCn": "Hugging Face紧急修补了这一漏洞，以防更多账户被攻陷。"
+            },
+            {
+              "word": "proof of concept",
+              "pos": "n. phrase",
+              "meaning": "概念验证，指用最小化演示证明某种攻击或技术在理论上可行；安全研究语境中常指黑客证明漏洞确实可被利用的示范性攻击，比单纯说demo更严谨、更具技术含量。",
+              "etymology": "短语由proof（证明，源自拉丁probare）+ of + concept（概念，源自拉丁conceptus，意为构想）组成，20世纪工程与科研领域形成的固定搭配。",
+              "morphology": "proof（证明，名词，动词prove）+ concept（概念，名词，形容词conceptual）= 名词短语；同源词：provable（可证明的）、conceptualize（使概念化）。",
+              "mnemonic": "科学家先在白板上画个草图模型证明点子行得通，再去造真产品；黑客展示的proof of concept也是同理——先证明能攻破，还没大规模作恶。",
+              "exampleEn": "Researchers at Black Hat presented a proof of concept showing how an AI agent could be tricked into leaking data.",
+              "exampleCn": "Black Hat大会上，研究人员展示了一个概念验证，演示了AI代理如何被诱骗泄露数据。"
+            }
+          ]
+        },
+        {
+          "id": "20260809-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
+          "headlineEn": "Berkshire Profits Climb as Abel Starts Deploying Buffett's Cash Pile",
+          "headlineCn": "伯克希尔利润增长，阿贝尔开始动用巴菲特巨额现金",
+          "summaryEn": "Berkshire Hathaway reported higher quarterly earnings, as gains in its energy, railroad and manufacturing units more than offset a weaker showing from its insurance business, where underwriting profit fell. The results offer an early test for Greg Abel, who succeeded Warren Buffett as CEO and is now beginning to deploy the conglomerate's roughly $340 billion cash pile. Investors have wondered whether Abel would pursue acquisitions more boldly than his predecessor, and this quarter gave the first hints of how he intends to put that idle capital to work.",
+          "summaryCn": "伯克希尔上季度利润增长，能源、铁路和制造业务的强劲表现抵消了保险承保利润下滑。新任CEO格雷格·阿贝尔已开始动用公司约3400亿美元的现金储备，市场正关注他能否比前任更积极地展开并购。",
+          "excerpt": "Berkshire Hathaway's energy, railroad and manufacturing businesses turned in a strong quarter, more than offsetting weaker results from its insurance division. The performance gave investors an early look at how incoming CEO Greg Abel is managing the sprawling conglomerate, even as questions remain about how aggressively he'll deploy Buffett's cash reserves.",
+          "vocab": [
+            {
+              "word": "deploy",
+              "pos": "v.",
+              "meaning": "动用、部署（资金/资源）。比 use 更正式，带有战略调配的意味，常搭配 capital/resources，财经报道中常用来描述企业有计划地投入现金储备。",
+              "etymology": "源自古法语 desployer，由拉丁语 dis-（分开）+ plicare（折叠）构成，本义为《展开军队/旗帜》，后引申为有计划地调配资源。",
+              "morphology": "de-（分开/相反前缀）+ ploy（源自 plicare 折叠），同根词有 employ（雇用）、exploit（利用）、imply（暗含）。",
+              "mnemonic": "想象军队《展开阵型》的画面——把卷起的队形打开、派往战场；企业把现金像军队一样《派遣》到并购和投资中。",
+              "exampleEn": "Berkshire's new CEO is expected to deploy the firm's cash reserves more actively than his predecessor did.",
+              "exampleCn": "伯克希尔的新任CEO预计会比前任更积极地动用公司的现金储备。"
+            },
+            {
+              "word": "anoint",
+              "pos": "v.",
+              "meaning": "（正式地）指定、钦点继任者。字面义是《涂油封圣》，用在商业语境里比 appoint 更强调仪式感和权威赋予，暗示接班经过郑重认定。",
+              "etymology": "源自古法语 enoint，来自拉丁语 inunguere（in-《在……上》+ unguere《涂油》），最初指宗教仪式中涂油以示神圣任命国王或祭司。",
+              "morphology": "an-（源自 in- 的音变）+ oint（源自 unguere 涂抹），同源词有 ointment（药膏）、unguent（软膏）、inunction（涂油法）。",
+              "mnemonic": "联想中世纪加冕仪式，主教用圣油为新王《anoint》额头——巴菲特把重任像涂油封圣一样《钦点》给阿贝尔。",
+              "exampleEn": "Buffett formally anointed Greg Abel as his successor years before stepping back from day-to-day management.",
+              "exampleCn": "巴菲特在正式退出日常管理数年前，就已钦点格雷格·阿贝尔为接班人。"
+            },
+            {
+              "word": "premium",
+              "pos": "n.",
+              "meaning": "保险费；引申为《溢价》。在保险语境指投保人定期缴纳的费用，是保险公司收入核心；广义上也指高于正常水平的额外费用或估值，是财经英语一词两用的高频词。",
+              "etymology": "源自拉丁语 praemium（prae-《预先》+ emere《购买/获取》），本义是《预先获得的奖赏》，17世纪进入保险业指《预付的保费》。",
+              "morphology": "pre-（之前）+ mium（源自 emere 取得），同根词有 exempt（免除）、redeem（赎回）、example（样本，取自《取出示范》）。",
+              "mnemonic": "记住 pre-（提前）加想象你提前付一笔钱买安心——这笔《提前付的钱》就是 premium；股票《溢价》也是提前多付的那部分。",
+              "exampleEn": "Berkshire's insurance arm collected fewer premiums than expected, dragging down its underwriting results.",
+              "exampleCn": "伯克希尔的保险部门收取的保费低于预期，拖累了其承保业绩。"
+            },
+            {
+              "word": "conglomerate",
+              "pos": "n.",
+              "meaning": "企业集团，尤指跨多个不相关行业经营的大型多元化公司。区别于普通 company，强调业务版图横跨能源、铁路、保险等毫不相关的领域，是描述伯克希尔这类《控股帝国》的标准词。",
+              "etymology": "源自拉丁语 conglomerare（con-《共同》+ glomerare《卷成一团》，来自 glomus《线球》），本义是《聚合成团》，20世纪中期开始用于形容多元化企业。",
+              "morphology": "con-（一起）+ glomer（源自 glomus 球状物）+ -ate（名词/动词后缀），同根词有 agglomerate（聚集物）、glomerulus（肾小球，同样取球状聚合之意）。",
+              "mnemonic": "想象把不同颜色的毛线（能源、铁路、保险……）胡乱缠成一个大线球（glomus）——这就是 conglomerate，看似杂乱却被一根线（控股公司）串在一起。",
+              "exampleEn": "As a sprawling conglomerate, Berkshire's fortunes depend on dozens of businesses that have little in common.",
+              "exampleCn": "作为一家业务庞杂的企业集团，伯克希尔的业绩取决于几十项几乎毫无关联的业务。"
+            },
+            {
+              "word": "offset",
+              "pos": "v.",
+              "meaning": "抵消、抵消掉（不利因素）。财报英语中描述《一方面的强劲弥补另一方面的疲软》的标准搭配，常见 more than offset（不仅抵消还有盈余）固定用法，比 cancel out 更书面、更专业。",
+              "etymology": "源自古英语 offsettan（off-《离开》+ settan《放置》），最初是《抵消印刷版偏移》的印刷术语（offset printing），17世纪起引申为财务上的相互抵消。",
+              "morphology": "off-（离开/相对）+ set（放置），同根词有 upset（打翻/使不安）、outset（开端）、onset（发作/开始），都以 set 为核心表达《放置某种状态》。",
+              "mnemonic": "想象天平两端，一边放能源、铁路的盈利，一边放保险的亏损——off（偏离中心）加 set（放置），两边互相《抵消》让天平重新持平。",
+              "exampleEn": "Strong railroad earnings more than offset a decline in insurance underwriting profit this quarter.",
+              "exampleCn": "本季度铁路业务的强劲盈利不仅抵消了保险承保利润的下滑，还实现了净增长。"
+            }
+          ]
+        },
+        {
+          "id": "20260809-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
+          "headlineEn": "Collateralized Loan Obligations Could Be ETF Industry's Next Growth Engine",
+          "headlineCn": "银行贷款抵押债券或成ETF行业下一个增长引擎",
+          "summaryEn": "As uncertainty over the path of interest rates continues to unsettle bond markets, collateralized loan obligations (CLOs) are drawing fresh interest from ETF issuers looking to expand beyond traditional fixed-income products. These structured securities, built from pools of leveraged corporate loans, offer floating-rate yields that adjust as rates move, making them attractive when the Federal Reserve's next step is hard to predict. Asset managers report growing investor appetite for such instruments, and several new CLO-focused ETFs have already launched, suggesting the category could become a major growth area for the industry.",
+          "summaryCn": "随着市场对利率走向的不确定性持续存在，银行贷款抵押债券（CLO）正吸引ETF发行商的关注，试图突破传统固定收益产品的局限。这类结构化证券由杠杆企业贷款组成，票息随利率浮动，在美联储下一步动向难以预测时格外具有吸引力。资产管理公司观察到投资者对此类工具的需求正在上升，多只聚焦CLO的新ETF已经推出，显示这一品类有望成为行业下一个重要增长点。",
+          "excerpt": "Collateralized loan obligations may become the next big push in the exchange-traded fund industry, as issuers race to package these floating-rate, leveraged-loan-backed securities into new funds that promise resilience when interest rate expectations keep shifting.",
+          "vocab": [
+            {
+              "word": "tranche",
+              "pos": "n.",
+              "meaning": "分层证券中的一层/份额；金融术语，源自法语「切片」，CLO等结构化产品按风险高低切分成不同tranche卖给不同风险偏好的投资者，比portion更精确专业",
+              "etymology": "源自法语 trancher（切割），可追溯到拉丁语 truncare（截断）；19世纪末进入英语金融语境，指债券发行中按风险/优先级划分的一部分",
+              "morphology": "不可再拆分的外来借词；相关词根衍生词：truncate（截断）、retrench（削减）、trench（壕沟，同源于「切割」意象）",
+              "mnemonic": "想象一块蛋糕（loan pool）被「切」（trancher）成几层，最上层最先吃到还款（优先级最高、风险最低），最底层风险最高但收益也最高——这就是tranche的分层逻辑",
+              "exampleEn": "The senior tranche of the CLO offers lower yields but is the first to be repaid if borrowers default.",
+              "exampleCn": "该CLO的优先层收益较低，但一旦借款人违约，会最先获得偿付。"
+            },
+            {
+              "word": "floating-rate",
+              "pos": "adj.",
+              "meaning": "浮动利率的，指利率随基准利率变动而调整；在利率不确定的环境下，浮动利率产品比固定利率更受青睐，因为能自动跟随加息或降息调整",
+              "etymology": "float 源自古英语 flotian（漂浮），13世纪起引申出「不固定、随波动」之意；rate 源自拉丁语 rata（计算出的比例）",
+              "morphology": "float（漂浮）+ -ing（进行）+ rate（比率）；同族词：floatation/flotation（浮动、上市）、afloat（漂浮着的）、fixed-rate（固定利率，反义搭配）",
+              "mnemonic": "想象利率像一艘小船「漂浮」在水面上，随海浪（市场利率）起伏——这正是floating-rate的画面感，与死死钉住海底的fixed-rate锚形成对比",
+              "exampleEn": "Investors favored floating-rate loans because their payouts rise automatically when the central bank hikes rates.",
+              "exampleCn": "投资者青睐浮动利率贷款，因为央行加息时其收益会自动上升。"
+            },
+            {
+              "word": "leveraged loan",
+              "pos": "n. phrase",
+              "meaning": "杠杆贷款，指发放给已背负较高债务或信用评级较低企业的贷款，通常用于并购或再融资；是CLO的底层资产，理解它是理解CLO风险来源的关键",
+              "etymology": "leverage 源自法语 levier（杠杆、撬棍），源自拉丁语 levare（举起）；19世纪末金融界借用物理学中「用小力撬动大物」的意象，指用借债放大资本回报",
+              "morphology": "lever（杠杆）+ -age（名词后缀，表示动作/结果）；同族词：leverage（杠杆作用）、lever（撬动）、alleviate（同源自levare，减轻）",
+              "mnemonic": "想象用一根撬棍（lever）撬动一块大石头——企业借很少的自有资金（小力），靠借款（撬棍）撬动一笔大收购（大石头），这就是leveraged loan的杠杆逻辑",
+              "exampleEn": "The private equity firm relied on a leveraged loan to fund most of the acquisition price.",
+              "exampleCn": "这家私募股权公司主要依靠一笔杠杆贷款来筹措大部分收购款。"
+            },
+            {
+              "word": "appetite",
+              "pos": "n.",
+              "meaning": "（投资者对某类资产的）需求意愿、胃口；常搭配investor appetite，比demand更强调主动、渴望的心理状态，隐喻投资者像饥饿的人一样想吃某种资产",
+              "etymology": "源自古法语 apetit，可追溯到拉丁语 appetitus（渴望、追求），由 ad-（朝向）+ petere（寻求、追逐）构成",
+              "morphology": "ap-（ad-的变体，朝向）+ pet（词根，寻求）+ -ite（名词后缀）；同根词：petition（请愿，同样含「寻求」之意）、compete（competere，共同追逐）",
+              "mnemonic": "把appetite想象成「吃饭的胃口」直接搬进金融世界——投资者对CLO的胃口越大，说明他们越愿意买入，就像饿了就想吃东西一样直观",
+              "exampleEn": "Investor appetite for floating-rate products grew as the outlook on interest rates became harder to read.",
+              "exampleCn": "随着利率前景愈发难以判断，投资者对浮动利率产品的需求意愿不断增强。"
+            },
+            {
+              "word": "package",
+              "pos": "v.",
+              "meaning": "把（多笔贷款等资产）打包组合成可交易的证券；描述从零散贷款到CLO成品的转化过程，比combine更强调「包装成商品出售」的意味",
+              "etymology": "源自中古荷兰语/低地德语 pak（包裹），15-16世纪进入英语，17世纪衍生出动词用法；金融界20世纪借用「打包」意象描述证券化过程",
+              "morphology": "pack（打包，词根）+ -age（名词后缀）→ package（名词），再转为动词；同族词：packaging（包装）、unpack（拆包）、repackage（重新打包，常见于金融重组）",
+              "mnemonic": "想象银行把成百上千笔零散的企业贷款像快递员打包快递一样，捆扎成一个个包裹（tranche），贴上标签卖给不同投资者——这就是package在CLO中的画面",
+              "exampleEn": "Banks package hundreds of leveraged loans into a single CLO before selling slices to different investors.",
+              "exampleCn": "银行把数百笔杠杆贷款打包成一只CLO，再将不同份额出售给各类投资者。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-08": {
       "label": "8月8日 (周六)",
       "stories": [
@@ -5509,326 +5703,6 @@
               "mnemonic": "spec 联想 spectacle（眼镜/奇观），你透过望远镜眺望遥远的未来——那些「看到的东西」都是模糊不确定的猜测，就是 speculative。投资里「speculative stock」就是那些只能靠望远镜猜涨跌的股票",
               "exampleEn": "While the roadmap remains speculative, analysts believe the company is on track to launch its autonomous vehicle platform within five years.",
               "exampleCn": "尽管路线图仍具推测性，分析师认为该公司有望在五年内推出自动驾驶汽车平台。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-04": {
-      "label": "7月4日 (周六)",
-      "stories": [
-        {
-          "id": "20260704-1",
-          "category": "tech",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-          "headlineEn": "Can Cursor Keep Offering OpenAI and Anthropic Models After SpaceX Acquisition?",
-          "headlineCn": "SpaceX收购Cursor后，第三方AI模型还能继续留存吗？",
-          "summaryEn": "Cursor, the widely used AI coding assistant, faces a pivotal test following reports of its acquisition by SpaceX. The central question: will Cursor remain model-agnostic, continuing to offer third-party models from OpenAI and Anthropic, or will SpaceX's ownership create friction with competing AI labs? The deal highlights a deepening tension in the AI industry—as platforms consolidate under tech giants, maintaining open access to rival AI providers grows increasingly complex and politically sensitive.",
-          "summaryCn": "AI编程助手Cursor面临被SpaceX收购的重大考验：收购完成后，它能否继续向用户提供OpenAI和Anthropic等第三方模型？这一交易深刻揭示了AI行业的结构性矛盾——随着平台加速并入科技巨头版图，保持对竞争性AI供应商的开放访问变得愈发复杂，甚至充满政治敏感性。此案例将成为检验各大前沿AI实验室之间商业关系与信任边界的一次重要试验。",
-          "excerpt": "Cursor hopes to continue offering third-party AI models from OpenAI and Anthropic even after its acquisition by SpaceX—a deal that puts the relationships between frontier AI labs to a defining test.",
-          "vocab": [
-            {
-              "word": "frontier",
-              "pos": "adj. / n.",
-              "meaning": "前沿的；尖端的。在AI语境中特指「最先进、处于技术边界」的模型或研究机构，如「frontier AI labs（前沿AI实验室）」。比「advanced」更具行业专属感，已成业内通行说法，值得重点掌握",
-              "etymology": "来自古法语 frontiere（边界、边疆），源于拉丁语 frons（额头、正面），原指与敌国接壤的边境地带；后引申为「知识或技术的最前沿」，比喻人类已知与未知的交界处",
-              "morphology": "front（正面）+ -ier（古法语名词后缀，表示「与……相关的地方」）；同词根词：confront（正面对抗）、affront（冒犯）、frontline（前线）；派生词：frontiersman（边疆开拓者）",
-              "mnemonic": "想象探险家站在「前额」（front）位置凝视未知领域的边界——frontier就是那条「最前线」。AI frontier = 人类AI能力的知识边界，记住「front」就记住了核心含义",
-              "exampleEn": "Only a handful of companies are considered frontier AI labs capable of training models at the cutting edge of capability.",
-              "exampleCn": "只有少数几家公司被视为能在能力前沿训练模型的顶级AI实验室。"
-            },
-            {
-              "word": "model-agnostic",
-              "pos": "adj.",
-              "meaning": "不依赖特定模型的；「平台中立」在AI行业的核心用语。agnostic原指「不可知论者」，此处隐喻「不向任何特定模型表忠心」，是理解AI产品开放策略与生态竞争的关键词",
-              "etymology": "agnostic源自希腊语 a-（否定前缀）+ gnosis（知识、认知）；原为19世纪神学术语「不可知论的」，指对神的存在既不肯定也不否定；科技语境中引申为「不绑定、不偏向某一特定技术或厂商」",
-              "morphology": "a-（否定）+ gnos-（知晓，来自希腊语 gignosko）+ -tic（形容词后缀）；同词根词：diagnose（诊断 = 彻底知晓病因）、prognosis（预后）、cognitive（认知的）；类比结构：platform-agnostic、vendor-agnostic",
-              "mnemonic": "「a-」是「不」，「gnostic」是「认识/偏向」——model-agnostic就是「不认识（不偏爱）任何模型」。想象法官蒙着眼睛不管哪家AI上台都一视同仁——这就是agnostic",
-              "exampleEn": "The startup positioned itself as model-agnostic, allowing enterprise clients to switch between GPT-4 and Claude depending on the task at hand.",
-              "exampleCn": "这家初创公司将自己定位为不依赖特定模型，允许企业客户根据任务需求在GPT-4和Claude之间自由切换。"
-            },
-            {
-              "word": "interoperability",
-              "pos": "n.",
-              "meaning": "互操作性；指不同系统、平台或模型之间能够无缝协作的能力。在AI和企业软件讨论中极高频，尤其谈论「生态开放vs封闭」时必用，是理解平台竞争策略的核心术语",
-              "etymology": "来自拉丁语 inter-（在……之间）+ operari（工作、运作，来自 opus 作品/工作）；字面义「在不同系统之间相互运作的能力」；-ability 是典型的可行性名词后缀",
-              "morphology": "inter-（相互）+ oper-（运作）+ -abil-（可……的）+ -ity（名词后缀）；同族词：operate（运作）、cooperative（合作的）、operand（操作数）；近义复合结构：cross-platform compatibility",
-              "mnemonic": "「inter」=「之间」，「oper」=「操作」——interoperability就是「在不同系统之间相互操作的能力」。想象两个不同品牌机器人握手合作：那个握手动作就是interoperability",
-              "exampleEn": "Regulators are pushing for greater interoperability between cloud platforms so businesses can migrate data freely without being locked into a single vendor.",
-              "exampleCn": "监管机构正推动云平台之间实现更强的互操作性，使企业能自由迁移数据，而不必被绑定于单一供应商。"
-            },
-            {
-              "word": "acquisition",
-              "pos": "n.",
-              "meaning": "收购；公司并购中的核心词汇，特指一家公司买下另一家公司的控制权。与merger（合并）区别在于：merger侧重双方平等合并，acquisition通常指一方主导「吃下」另一方，权力不对等，值得牢记",
-              "etymology": "来自拉丁语 acquirere（获得），由 ad-（向）+ quaerere（寻求、获取）构成；quaerere也是「query（查询）」和「quest（探索）」的词根；原义是「主动去寻得某物」，强调主动获取行为",
-              "morphology": "ac-（ad-的同化变体，朝向）+ quir-（寻求）+ -ition（名词后缀，表示行为/过程）；同词根词：acquire（获得）、inquisition（审问）、query（查询）、quest（探索）、require（需要）",
-              "mnemonic": "「quir」联想「寻求（quest）」，acquisition就是「主动寻求并拿下一家公司」的动作。想象猎人举着钱袋追着猎物——这就是收购。与merger对比：猎人吃掉猎物，而非两只动物合并成一体",
-              "exampleEn": "The $2.7 billion acquisition of the AI startup gave the tech giant immediate access to a world-class research team and a proprietary dataset.",
-              "exampleCn": "以27亿美元收购这家AI初创公司，让这家科技巨头立即获得了一支世界顶级研究团队和专有数据集。"
-            },
-            {
-              "word": "third-party",
-              "pos": "adj. / n.",
-              "meaning": "第三方（的）；商业和法律语境的核心词。指主要协议双方之外的独立外部供应商或机构。「third-party models」意味着平台引入外部AI而非自研，直接涉及供应链依赖、竞争关系与商业利益博弈",
-              "etymology": "来自法律英语，party指「当事方」（源于拉丁语 pars，部分/一方），third-party字面指「第三个当事方」，即合同或交易中的外部独立参与者；在科技语境中泛指外部独立供应商",
-              "morphology": "third（第三）+ party（当事方）；复合形容词/名词；对应体系：first-party（自家产品）、second-party（直接合作伙伴）、third-party（独立外部供应商）；party同源词：bipartisan（两党的）、partisan（党徒）",
-              "mnemonic": "想象一场婚礼：新郎是first party，新娘是second party，而婚庆公司就是「third party」——局外的独立服务商。OpenAI和Anthropic对Cursor来说，正是扮演这个角色",
-              "exampleEn": "Many enterprises rely on third-party security vendors to audit their cloud infrastructure rather than depending solely on the cloud provider's native tools.",
-              "exampleCn": "许多企业依赖第三方安全供应商审计其云基础设施，而非单纯仰赖云服务商的内置工具。"
-            }
-          ]
-        },
-        {
-          "id": "20260704-2",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-          "headlineEn": "Anthropic Launches Claude Science AI Workbench to Push into Drug Development",
-          "headlineCn": "Anthropic推出Claude Science工作台，剑指科研与药物研发",
-          "summaryEn": "Anthropic has unveiled Claude Science, an integrated AI workbench designed for scientific researchers. The platform consolidates fragmented tools, datasets, and workflows into a single environment and auto-generates figures and visuals. Announced at 'The Briefing: AI for Science,' the launch signals Anthropic's ambition to extend beyond its dominant position in coding assistance into scientific research—including, potentially, the development of its own pharmaceutical drugs.",
-          "summaryCn": "Anthropic在「AI科学简报」活动上正式推出Claude Science，定位为专为科研人员设计的AI工作台。该平台可将此前分散割裂的工具、数据集和研究流程整合至统一环境，并自动生成图表与可视化内容。凭借在编程辅助领域的领先地位，Anthropic将此次发布定位为向科学研究领域的重大扩张，终极目标包括借助AI加速药物研发，乃至推出自家研发的新药。",
-          "excerpt": "Anthropic announced Claude Science, a new AI workbench for scientists that pulls fragmented tools and datasets into one environment and generates figures automatically. Already dominating the industry with its coding tools and AI models, Anthropic is now framing its ambitions around scientific research—including the potential development of its own drugs.",
-          "vocab": [
-            {
-              "word": "workbench",
-              "pos": "n.",
-              "meaning": "工作台；原指木匠或机械师操作的坚固台面，在科技语境中特指集成多种工具与功能的软件平台或研究环境。值得学是因为这是一个典型的「实体隐喻」——把物理操作空间的概念迁移到数字产品，在产品命名和技术文档中极为普遍（如IBM Workbench、VS Code workbench），体现了英语科技写作惯用具象化类比的风格。",
-              "etymology": "来自古英语「weorc」（工作）与「benc」（长凳）的复合词，16世纪已有记录，原义指木匠进行手工操作的坚固台面；20世纪随计算机科学兴起被引申为软件集成开发环境或工具套件的统称，完成了从实体到数字的语义跨越。",
-              "morphology": "work（工作）+ bench（长凳/台面）直接复合。同类复合词：workshop（工坊/研讨会）、workstation（工作站）、benchmark（基准/标杆，原指测量员在台面上的刻记）——三词均以work为核心，指向「围绕工作建构的空间或标准」，横向扩展记忆效果极佳。",
-              "mnemonic": "想象一位科学家凌乱的实体台面：左边显微镜、右边试管架、中间笔记本——Claude Science就是把这张「工作台」搬进电脑屏幕，所有工具聚于一处。bench是长凳，work是工作，合体就是「工作的长凳」，画面感十足。",
-              "exampleEn": "The new data science workbench lets analysts query, visualize, and share findings without switching between five different applications.",
-              "exampleCn": "这款新的数据科学工作台让分析师无需在五个不同应用间切换，即可完成查询、可视化和成果分享。"
-            },
-            {
-              "word": "fragmented",
-              "pos": "adj.",
-              "meaning": "碎片化的、分散的、缺乏整合的。在商业与科技语境中常描述行业生态、数据或工具处于「各自为政、割裂不通」的状态，是分析报告和产品发布材料中的高频词。与scattered（散乱的）相比，fragmented更强调「本应是完整整体却被打碎」的含义，带有批判意味，并隐含存在整合商机的判断，是读懂行业痛点叙事的关键词。",
-              "etymology": "源自拉丁语「fragmentum」（碎片），由动词「frangere」（打碎、折断）派生而来；与英语fracture（骨折）、fraction（分数/小部分）、fragile（易碎的）同属同一词根家族，核心语义始终围绕「折断」展开。",
-              "morphology": "fragment（碎片，n./v.）加形容词后缀-ed构成。同词根扩展：fracture（断裂）、fraction（分数，字面义「被折断的一部分」）、fragile（易碎）、infraction（违规，字面义「折断规则」）——记住词根frag-/frac-皆表「打碎」，触类旁通。",
-              "mnemonic": "「frag」联想军事俚语「frag grenade」（破片手榴弹）——手榴弹炸开，铁片四散飞溅，数据和工具也随之支离破碎。fragmented = 被炸碎的状态：整体炸成了无数孤立碎片，需要有人来重新整合。",
-              "exampleEn": "The healthcare data landscape remains highly fragmented, with patient records spread across dozens of incompatible systems.",
-              "exampleCn": "医疗数据领域依然高度碎片化，患者记录分散在数十个互不兼容的系统之中。"
-            },
-            {
-              "word": "frame",
-              "pos": "v.",
-              "meaning": "将……定位为、以……视角呈现或包装。在公关、传播和商业语境中，「frame X around Y」指刻意选择某个叙事角度来呈现事件或产品，是媒体策略与品牌传播的核心动词。与describe（描述）相比，frame暗含「有意为之的战略性选择」，凸显说话者的主动性与目的性，是识别企业公关意图的关键词。",
-              "etymology": "来自古英语「framian」（使有益、促成），中古英语演变为「建造框架」之义；14世纪进入英语后原指建造房屋的木架结构，17世纪引申为「以特定方式构建语言或叙事」，19-20世纪新闻学和认知语言学将framing发展为专业术语「框架效应」。",
-              "morphology": "frame（框架，n.）直接转用为动词，属零派生（zero derivation）。相关词族：framework（框架体系）、framing（框架效应，传播学术语）、reframe（重新定位/换视角）、timeframe（时间框架）——均以frame为核，强调「界定边界或视角」。",
-              "mnemonic": "同一张照片，用金色豪华相框裱起来显得高端，用黑色细框显得极简——frame就是「选择镜框」的动作。Anthropic「framed the launch around science」= 给这次发布选了「科学革命」的镜框，而非「又一款AI产品」的镜框，两字之差，叙事天壤之别。",
-              "exampleEn": "The CEO framed the layoffs around long-term sustainability, emphasizing that the cuts would position the company for growth in 2027.",
-              "exampleCn": "CEO将此次裁员定位为着眼长远可持续性的举措，强调这些削减将使公司在2027年做好增长准备。"
-            },
-            {
-              "word": "dataset",
-              "pos": "n.",
-              "meaning": "数据集，指经过整理、可供分析或用于训练机器学习模型的结构化数据集合。在AI、数据科学和科研报道中是绝对高频词。与泛指的「data」相比，dataset暗含「有组织、有标注、针对特定任务打包」的含义，理解这一区别对于读懂AI行业新闻和研究论文至关重要。",
-              "etymology": "「data」来自拉丁语「datum」（给定之物，dare=给予）的复数形式，17世纪进入科学语境；「set」来自古英语「settan」（放置/集合）。两词在1960年代计算机科学兴起后合并为复合名词，最早见于IBM技术文档，随AI浪潮成为全球通用技术词汇。",
-              "morphology": "data（数据）+ set（集合）直接复合。同构复合词：toolset（工具集）、skillset（技能组合）、mindset（心态/思维定势）、ruleset（规则集）——set作为后缀均表示「同类事物的有组织集合体」，掌握这一构词逻辑可举一反三。",
-              "mnemonic": "「set」在数学里就是大括号{}围起来的集合——把成千上万个数据点装进大括号，打包整理好，就是一个「dataset」。记住：杂乱无章的原始信息叫data，经过整理打包成有组织的集合才叫dataset，两者不可混用。",
-              "exampleEn": "Training a reliable medical AI requires access to diverse, high-quality datasets that cover different demographics and disease profiles.",
-              "exampleCn": "训练可靠的医疗AI需要获取多样且高质量的数据集，涵盖不同人口特征和疾病类型。"
-            },
-            {
-              "word": "consolidate",
-              "pos": "v.",
-              "meaning": "整合、合并、巩固。在商业语境中有两层核心含义：其一是将分散的资源、工具或部门合并为统一整体（如consolidate tools into one platform）；其二是巩固已有优势地位（如consolidate market leadership）。与merge（合并）相比，consolidate更强调「化零为整后变得更强大稳固」的结果状态，常见于企业战略报告和行业分析。",
-              "etymology": "来自拉丁语「consolidare」，由前缀「con-」（共同、一起）与形容词「solidus」（坚实的）构成，字面义「使之共同坚固」；14世纪进入英语，引申为将分散事物合并成牢固整体；17世纪后在商业和军事语境中广泛普及。",
-              "morphology": "con-（共同）+ solid（固体/坚实）+ -ate（动词后缀）。同词根家族：solid（固体/坚实的）、solidify（固化）、solidarity（团结，字面义「共同坚实」）、consolidation（整合，名词形式）——核心词根solid始终指向「坚固」这一语义。",
-              "mnemonic": "con（一起）+ solid（固体）——把一堆散沙倒进模具加压，变成一块坚硬砖头，这就是consolidate：分散→合并→固化成坚固整体。Anthropic正在把科学家桌上的散沙工具，压制成一块名叫「Claude Science」的坚固砖块。",
-              "exampleEn": "The startup consolidated its three separate analytics dashboards into a single platform, cutting tool subscription costs by 40 percent.",
-              "exampleCn": "这家初创公司将三个独立的分析仪表盘整合为单一平台，工具订阅成本降低了40%。"
-            }
-          ]
-        },
-        {
-          "id": "20260704-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/03/spacex-stock-congress-meuser-cisneros-ipo-disclosure.html",
-          "headlineEn": "Congressional SpaceX Stock Purchases Surface After Record IPO",
-          "headlineCn": "国会议员买入SpaceX股票曝光，马斯克公司IPO创历史纪录",
-          "summaryEn": "Congressional stock trades in SpaceX have come to light following the company's record-breaking initial public offering. Lawmakers' investment activity has drawn scrutiny amid growing concerns about conflicts of interest, as SpaceX has significantly deepened its role in federal contracting — particularly in defense and space programs. The company's close relationship with President Trump's administration further raises questions about whether elected officials should hold stock in firms heavily dependent on government contracts.",
-          "summaryCn": "国会议员持有SpaceX股票的交易记录近日曝光，此时恰逢马斯克旗下公司完成历史性IPO。随着SpaceX在联邦政府承包领域的角色持续深化——尤其是在国防与太空项目方面——议员们的投资行为引发外界对利益冲突的广泛关注。公司与特朗普政府之间的密切关系，进一步让公众质疑：身为民选官员，是否应当持有高度依赖政府合同的企业股票？",
-          "excerpt": "The first known congressional purchases of SpaceX stock have surfaced following the company's record initial public offering. The transactions draw fresh scrutiny as SpaceX increasingly deepens its role in federal contracting while remaining closely entangled with President Trump's Washington.",
-          "vocab": [
-            {
-              "word": "surface",
-              "pos": "v.",
-              "meaning": "（隐藏信息、丑闻等）浮出水面、曝光；新闻语境高频动词，比「emerge」或「come to light」更生动，带有「从水底涌出」的视觉感，书面与口语均适用，值得优先掌握",
-              "etymology": "来自古法语「superficie」，源于拉丁语「superficies」（表面），super-（上方）+ facies（面）；本义指物体的外层面，作为动词「浮现、出现」的引申义形成于17世纪，后延伸至「信息或问题公开曝光」",
-              "morphology": "super-（上方）+ facies（面）→ surface；同前缀词：supervise（监督）、superman（超人）、superimpose（叠加）；派生词：resurfaced（重新浮现）、surfacing（浮出过程）",
-              "mnemonic": "想象一头鲸鱼从深海冲向水面——那个动作就是「surface」。新闻里的内幕消息、丑闻、数据就像那头鲸鱼，藏在水下多时，某天突然冲出水面。surface = 突破水面那一刻，无法再隐藏",
-              "exampleEn": "Internal audit documents have surfaced, revealing that the startup misreported its quarterly revenue for two consecutive years.",
-              "exampleCn": "内部审计文件已经曝光，揭示该初创公司连续两年虚报季度营收。"
-            },
-            {
-              "word": "congressional",
-              "pos": "adj.",
-              "meaning": "国会的，与美国国会（参众两院）相关的；区别于英国议会用语「parliamentary」，「congressional」专指美国立法体系，是政经报道的核心词汇，精确掌握可避免混用",
-              "etymology": "来自拉丁语「congressus」（相遇、集会），con-（共同）+ gradi（行走）；原义为「走到一起的人们的聚集」，美国以「Congress」命名立法机构，「congressional」作为形容词形式出现于18世纪",
-              "morphology": "con-（共同）+ gress（走）+ -ion（名词化）+ -al（形容词化）；同词根词：progress（前进）、transgress（违规越界）、digress（跑题）、regress（退步）——掌握gress词根可批量理解",
-              "mnemonic": "con-（一起）+ gress（walk，走）——大家一起走进同一栋楼开会，那栋楼就是国会山。congressional = 「那栋穹顶建筑相关的一切」。脑海中锁定华盛顿国会山的白色圆顶，就能记住这个词",
-              "exampleEn": "The tech CEO faced tough questions during the congressional hearing about the platform's data privacy practices.",
-              "exampleCn": "这位科技公司CEO在国会听证会上就该平台的数据隐私做法接受了严格质询。"
-            },
-            {
-              "word": "deepen",
-              "pos": "v.",
-              "meaning": "深化、加深（关系、参与度、影响力等）；商业语境中常搭配ties、role、partnership，比「strengthen」更强调维度的纵向延伸而非单纯加强，在分析公司战略时尤为精准",
-              "etymology": "源自古英语「deop」（深），与德语「tief」、荷兰语「diep」同源；-en后缀表示「使……化」；动词形式「deepen」出现于16世纪，现广泛用于描述抽象关系或态势的加深",
-              "morphology": "deep（形容词）+ -en（动词化后缀）；同结构词：widen（加宽）、lengthen（延长）、strengthen（加强）、broaden（拓宽）、harden（硬化）——掌握「形容词 + en」这一构词规律可批量学习",
-              "mnemonic": "deep + en = 「把深井再往下挖几米」。deepen a relationship = 把关系这口井越挖越深。在商业新闻里看到「deepens its role in...」，就想象那口井越来越深，合作双方越来越难以分开",
-              "exampleEn": "The two firms are deepening their partnership by jointly developing AI tools for the logistics industry.",
-              "exampleCn": "两家公司正在通过联合开发物流行业人工智能工具来深化彼此的合作关系。"
-            },
-            {
-              "word": "insider",
-              "pos": "n. / adj.",
-              "meaning": "内部人士；持有公司非公开信息的人；在证券监管语境中特指可能触发「内幕交易」规定的相关方。此词在新闻中隐含法律风险信号，出现时往往意味着监管调查，值得高度警觉",
-              "etymology": "in（里面）+ side（边）+ -er（人），字面义为「站在里面那一侧的人」；19世纪开始引申为「机构内部知情者」，金融语境中「insider trading」（内幕交易）逐渐成为正式监管术语",
-              "morphology": "in-（里）+ side（边）+ -er（人）→ insider；对立词：outsider（局外人）；常见复合用法：insider knowledge（内部消息）、insider threat（内部威胁）、insider dealing（英式英语的内幕交易）",
-              "mnemonic": "in-SIDE-r——想象华盛顿政商圈的「旋转门」（revolving door）：insider站在里面，outsider站在外面。能进那扇旋转门的人掌握着价值连城的消息，但稍有不慎就触犯证券法。旋转门 = insider的象征",
-              "exampleEn": "Regulators are investigating whether congressional insiders traded SpaceX shares using non-public information about upcoming government contracts.",
-              "exampleCn": "监管机构正在调查是否有国会内部人士利用未公开的政府合同信息买卖SpaceX股票。"
-            },
-            {
-              "word": "entangle",
-              "pos": "v.",
-              "meaning": "使卷入（复杂局面），使纠缠其中；商业与政治语境中常见「entangled in controversy / litigation / politics」，强调难以脱身的困境，语气比「involve」强烈得多，且带明显负面色彩，是精确描述复杂处境的利器",
-              "etymology": "en-（使进入某状态）+ tangle（缠绕）；「tangle」来自中古英语「tanglen」，可能源自斯堪的纳维亚语，原指线团般的物理缠绕；「entangle」17世纪出现，现多用于描述抽象处境的牵连",
-              "morphology": "en-（使……化）+ tangle（缠绕）→ entangle；同前缀词：enrich（丰富）、engage（参与）、entrust（委托）、enlighten（启迪）；派生词：entanglement（纠缠局面）、disentangle（解开、脱身）",
-              "mnemonic": "en + tangle = 「被一团乱线缠住了」。想象一个政客试图disentangle（解开自己），却越挣越紧——他已经entangled in politics and business。记住这对反义词：entangle（缠进去）↔ disentangle（挣脱出来）",
-              "exampleEn": "The startup became deeply entangled in a regulatory dispute after its data-sharing practices were flagged by European authorities.",
-              "exampleCn": "这家初创公司在其数据共享做法被欧洲监管机构标记后，深陷监管纠纷之中。"
-            }
-          ]
-        },
-        {
-          "id": "20260704-4",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/03/ford-achieves-quality-milestone-targets-flawless-new-vehicle-launches.html",
-          "headlineEn": "Ford CEO Targets Flawless Vehicle Launches After Learning from Quality and Recall Issues",
-          "headlineCn": "福特CEO称已汲取质量与召回教训，剑指零缺陷新车发布",
-          "summaryEn": "Ford CEO Jim Farley told CNBC the company has made significant progress tackling quality and recall problems that weighed on earnings and damaged the brand. Farley said Ford has learned critical lessons from these setbacks and is now targeting defect-free vehicle launches. The announcement marks a potential turning point for the automaker, which has suffered costly warranty claims and production quality failures in recent years, eroding investor confidence.",
-          "summaryCn": "福特首席执行官吉姆·法利接受CNBC采访时表示，公司已在解决长期困扰财务表现与品牌形象的质量及召回问题上取得重大进展。法利称，福特已从这些挫折中汲取关键教训，并将「零缺陷新车发布」列为核心目标。此番表态或标志着这家汽车制造商的重要转折点——近年来高额保修索赔与生产质量缺陷持续拖累其业绩，动摇了投资者信心。",
-          "excerpt": "Ford CEO Jim Farley told CNBC that the automaker has learned from its costly quality and recall missteps, which have hurt earnings and stained its reputation. Farley is now targeting flawless new vehicle launches — a signal that the company may be ready to turn the page.",
-          "vocab": [
-            {
-              "word": "recall",
-              "pos": "n. / v.",
-              "meaning": "召回（因缺陷召回产品）；与日常英语「回忆」同形但商业语境完全不同，汽车与消费品行业核心术语，精准掌握可避免语义混淆，常见搭配：issue a recall、safety recall、voluntary recall",
-              "etymology": "来自拉丁语 re-（再次）与 calare（呼唤），原义「再次召唤」，中古英语经古法语传入，演变为「召回有缺陷产品」的工业专业义，20世纪汽车工业兴起后高度普及",
-              "morphology": "re-（回）+ call（呼唤）= recall；同前缀词：reclaim（索回）、recoup（弥补损失）、reinstate（恢复原职）；派生形式：recalled (adj.)、recallable (adj.)、recall notice（召回通知）",
-              "mnemonic": "想象工厂老板对着一批有缺陷的汽车大喊「Come back!」——re（回来）+ call（喊）= 召回。收到 recall 通知时，你不是在「回忆」汽车，而是要把它「喊回去」修，画面感极强",
-              "exampleEn": "The automaker issued a recall for over 500,000 vehicles after discovering a brake defect that posed a serious safety risk.",
-              "exampleCn": "这家汽车制造商在发现可能危及安全的制动缺陷后，对逾50万辆汽车发出召回令。"
-            },
-            {
-              "word": "stain",
-              "pos": "v. / n.",
-              "meaning": "玷污、损害（名誉）；原义是「染色/留下污迹」，修饰 reputation、image 等抽象名词时是商业写作高频隐喻，比 damage 更生动形象，暗含「留下难以清除的永久痕迹」这一层意思",
-              "etymology": "来自古法语 desteindre（褪色、染污），后缩略为 stain，原义指染料或污迹，16世纪起引申为「损害名誉」进入书面语，是具象词汇抽象化的典型案例",
-              "morphology": "单一词根，无前后缀；常见派生词：stained (adj.)、stainless（不锈的，如 stainless steel 不锈钢）、unstained (adj.)；近义隐喻词对比：tarnish（金属失去光泽→声誉受损）、blemish（小瑕疵）、taint（污染/败坏）",
-              "mnemonic": "想象白衬衫上的咖啡渍——一旦「stain」到名声，就像衣物上的污点，很难彻底清除。Stainless steel（不锈钢）正是「不会被 stain 的钢」，反向记忆极好用，两个场景互相激活",
-              "exampleEn": "The data breach stained the company's reputation for privacy protection, causing a sharp drop in user trust.",
-              "exampleCn": "这次数据泄露事件玷污了该公司在隐私保护方面的声誉，导致用户信任度急剧下滑。"
-            },
-            {
-              "word": "track record",
-              "pos": "phrase (n.)",
-              "meaning": "过往业绩、历史表现记录；商业写作极高频短语，专指「可查证的历史绩效」，比 history 或 experience 更强调客观可量化，常见于投资评估、高管招聘和企业审查语境",
-              "etymology": "源自田径竞技「track」（跑道）上的成绩记录，20世纪中期从体育隐喻演变为通用商业语境，指任何领域的历史表现，是运动词汇系统性渗入金融英语的典型案例",
-              "morphology": "track（跑道/追踪）+ record（记录）；复合名词，短语/复合词，无独立词源；相关词组扩展：on track（进展顺利）、off track（偏离目标）、track performance（追踪绩效）、proven track record（经证实的业绩）",
-              "mnemonic": "想象裁判手持记录本站在跑道旁，把运动员每场成绩逐一写下——这就是他的 track record。CEO 面试必问：What is your track record? 脑中浮现跑道与记录本，立刻激活记忆",
-              "exampleEn": "Investors are cautious about backing the startup, given that its founders have a mixed track record in previous ventures.",
-              "exampleCn": "鉴于其创始人在此前项目中业绩参差不齐，投资者对入股这家初创公司持谨慎态度。"
-            },
-            {
-              "word": "defect",
-              "pos": "n. / v.",
-              "meaning": "（n.）缺陷、瑕疵，制造业与质量管理核心词汇，比 problem 更专业正式，常见搭配：zero-defect（零缺陷）、defect rate（缺陷率）、manufacturing defect；注意动词义「叛逃」与名词义截然不同，需分场景区分",
-              "etymology": "来自拉丁语 defectus，de-（离开/否定）+ facere（做），原义「做得不完整、做歪了」，后演变为「缺陷」；动词义「叛逃」保留了「背离/离开」的原始含义，两义均从同一词根分叉",
-              "morphology": "de-（否定/离开）+ fect（做，来自 facere）；同词根词族：effect（效果）、affect（影响）、perfect（完美）、infect（感染）；派生词：defective (adj. 有缺陷的)、defection (n. 叛逃)、defector (n. 叛逃者)",
-              "mnemonic": "de-（away，偏离）+ fect（做）= 「做偏了」→ 缺陷。与 perfect 对比记忆最有效：per-（完全）+ fect（做）= 完全做好；de-（偏离）+ fect（做）= 做出缺陷。一正一反，永不混淆",
-              "exampleEn": "The chipmaker traced a production defect to a single miscalibrated machine on the assembly line, affecting three million units.",
-              "exampleCn": "这家芯片制造商将生产缺陷追溯至装配线上一台校准失误的机器，共波及300万片芯片。"
-            },
-            {
-              "word": "automaker",
-              "pos": "n.",
-              "meaning": "汽车制造商；行业通用简称，新闻报道中比 automobile manufacturer 更精炼，掌握「行业名词 + maker」的构词模式后可举一反三，快速读懂 chipmaker、drugmaker、dealmaker 等一批财经高频词",
-              "etymology": "auto- 来自希腊语 autos（自身），automobile 原义「自己移动的车辆」，20世纪初缩略为 auto 后与 maker（制造者）组合，随底特律汽车工业崛起而普及为标准新闻用词",
-              "morphology": "auto-（自/汽车）+ maker（make + -er，行为者后缀）；同模式词族：chipmaker（芯片制造商）、drugmaker（制药公司）、policymaker（政策制定者）、dealmaker（谈判高手）、peacemaker（调解人）、kingmaker（造王者）",
-              "mnemonic": "auto（汽车）+ maker（制造者）= 汽车制造商，透明复合词无需死记。扩展口诀：财经新闻里凡见「___maker」均为「___制造商或制定者」。见一识十，chipmaker、policymaker 全部收入囊中",
-              "exampleEn": "The South Korean automaker announced plans to invest $10 billion in U.S. electric vehicle production over the next five years.",
-              "exampleCn": "这家韩国汽车制造商宣布计划在未来五年内向美国电动汽车生产投资100亿美元。"
-            }
-          ]
-        },
-        {
-          "id": "20260704-5",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/03/trump-freedom-250-america250-corporate-sponsors-access.html",
-          "headlineEn": "Trump's Freedom 250 Draws Corporate Sponsors with Federal Business Ties",
-          "headlineCn": "特朗普「自由250」庆典吸引与政府有商业往来的企业巨头赞助",
-          "summaryEn": "Major U.S. defense and tech companies — including Boeing, Lockheed Martin, and Oracle — are sponsoring President Trump's Freedom 250 celebration marking America's 250th birthday. Critics note that all these firms have significant pending business before the current administration, raising questions about whether the sponsorships represent political patronage designed to curry favor with federal decision-makers who control billions in government contracts.",
-          "summaryCn": "波音、洛克希德·马丁及甲骨文等美国国防与科技巨头纷纷赞助特朗普主导的「自由250」庆典，以庆祝美国建国250周年。批评人士指出，上述企业均与现任政府存在重大商业往来——掌管数千亿美元联邦合同的政府官员对这些公司影响深远。此番慷慨赞助究竟是爱国热情，还是刻意讨好权贵以求商业庇护，引发外界广泛质疑。",
-          "excerpt": "Companies with significant federal contracts — including Boeing, Lockheed Martin, and Oracle — are backing Trump's Freedom 250 celebration. The event has raised questions about whether corporate sponsors are seeking to curry favor with an administration that holds sway over billions in government contracts.",
-          "vocab": [
-            {
-              "word": "curry favor",
-              "pos": "phrase",
-              "meaning": "刻意讨好有权势者以谋取利益；商业语境中常指企业通过赞助、捐赠等方式博取政府官员好感，语气带明显贬义，比 flatter（奉承）更强调功利性的战略布局",
-              "etymology": "14世纪英语，源自古法语 estriller favel（梳理黄马）；favel 是中世纪寓言中一匹象征奸诈的黄马，「梳理黄马」引申为「阿谀奉承」；现代 curry（梳刷）与烹饪咖喱毫无关联，属同形异义",
-              "morphology": "curry（梳刷）+ favor（好感）；curry 此处为动词「梳刷」，派生词有 currycomb（马梳）；favor 派生词：favorable（有利的）、favoritism（偏袒）、disfavor（失宠）——三词共同构成「好感」语义族",
-              "mnemonic": "想象一匹叫 Favel 的奸诈黄马，周围的人拼命给它梳毛献殷勤——这就是 curry favor。记住：这里的 curry 不是咖喱，而是「梳刷」，整个短语有极强的画面感",
-              "exampleEn": "The defense contractor donated generously to the senator's re-election campaign, widely seen as an attempt to curry favor ahead of the upcoming procurement review.",
-              "exampleCn": "该国防承包商向参议员的连任竞选慷慨捐款，外界普遍认为此举意在政府采购审查到来前刻意示好。"
-            },
-            {
-              "word": "quid pro quo",
-              "pos": "phrase",
-              "meaning": "「以物换物」的利益交换；比 deal 或 exchange 更具政治与法律敏感色彩，常暗示不透明或存在利益输送的双边安排，是商业新闻报道腐败与游说议题时的高频词",
-              "etymology": "拉丁语，字面义为「某物换某物」（quid = what/something，pro = for，quo = which）；16世纪进入英语，最初为医学术语（以一种药替代另一种药），后扩展至政治、法律及商业语境",
-              "morphology": "quid（某物）+ pro（为了）+ quo（某物）；三词均为纯拉丁语，无直接英语派生，但 pro 常见于构词：proactive（积极主动）、pro-rata（按比例）；quo 见于 status quo（现状）",
-              "mnemonic": "「Quid」在英国俚语中指「英镑」——想象两人各递出一英镑互换，这就是 quid pro quo。或记：Q·P·Q 三字母 = 钱·换·钱，对应三个拉丁词，简洁好记",
-              "exampleEn": "Regulators are investigating whether the merger approval was part of a quid pro quo involving campaign contributions to key officials.",
-              "exampleCn": "监管机构正在调查，该并购案的批准是否涉及向关键官员提供竞选献金的利益交换。"
-            },
-            {
-              "word": "draw",
-              "pos": "v.",
-              "meaning": "吸引（某类人群或资源涌入）；在商业新闻标题中比 attract 更简练有力，常暗示某政策、事件或平台对特定群体产生磁力般的吸引，固定搭配包括 draw investors、draw criticism、draw attention",
-              "etymology": "古英语 dragan（拖拉、牵引），源自原始日耳曼语 *dragan；最初指物理拖拽，后语义扩展为「吸引注意力或人群涌入」；与 drag 同源，共享「拉力」核心意象",
-              "morphology": "单一词根 draw，无前缀后缀；派生搭配极丰富：drawback（缺点）、drawdown（提款/缩减）、draw on（利用）、draw up（起草文件）、draw fire（招致批评）——同一词根覆盖多个商业场景",
-              "mnemonic": "想象一块强力磁铁在空中「拖拽」铁屑——draw 的核心意象就是「有引力地拉拢」。新闻标题口诀：draw = 吸引，比 attract 短一半、劲儿更足",
-              "exampleEn": "The startup's landmark partnership with a Big Four firm drew a flood of institutional inquiries within hours of the announcement.",
-              "exampleCn": "这家初创公司与四大会计事务所之一达成里程碑式合作，消息公布后数小时内便吸引了大量机构方的问询。"
-            },
-            {
-              "word": "vested interest",
-              "pos": "phrase",
-              "meaning": "既得利益；指某人或机构在某一结果上有直接经济或政治利益，立场因此难以客观中立；比 conflict of interest（利益冲突）更强调「已投入资源、有切身利害关系」这一事实状态",
-              "etymology": "vested 来自拉丁语 vestire（穿戴）；法律术语中 vested rights 指「已确立的、不可撤销的权利」，如同衣物穿在身上无法取下；interest 来自拉丁语 interesse（置身其中，有份额）",
-              "morphology": "vest（穿/赋予）+ -ed（已完成态）+ interest（利益）；vest 派生词：divest（剥离资产）、divestiture（资产剥离）、investment（投资，字面为「穿入」资金）；interest 派生词：disinterested（无私的）、interested party（利益相关方）",
-              "mnemonic": "vest = 背心，穿在身上脱不下来 → vested = 已确立的；vested interest = 利益已「穿」在身上甩不掉的那种——形象地解释了为何这些公司必须维护政府关系",
-              "exampleEn": "All three board members have a vested interest in the acquisition outcome, as they hold significant equity stakes in the target company.",
-              "exampleCn": "三位董事会成员在此次收购结果上均有既得利益，因为他们持有目标公司的大量股权。"
-            },
-            {
-              "word": "ingratiate",
-              "pos": "v.",
-              "meaning": "刻意讨好、使自己受欢迎（通常带贬义）；商业语境中指企业或个人通过迎合、赞助等手段建立与权贵的关系；比 please 更正式，且明确暗含功利动机，常见搭配为 ingratiate oneself with sb.",
-              "etymology": "17世纪，来自拉丁语 in-（进入）+ gratia（好感、恩典）；gratia 同样是 grace（优雅/恩典）、gratitude（感激）、gratuitous（无偿的）的共同词根，语义族围绕「好感与恩惠」展开",
-              "morphology": "in-（进入）+ grat-（好感）+ -iate（使动词后缀）；同词根词：grateful（感激的）、gratify（使满足）、congratulate（祝贺，字面为「共同进入好感状态」）——掌握 grat- 词根可解锁一族词汇",
-              "mnemonic": "ingratiate = in + grat + iate：把「感激感」（grat）塞「进」（in）别人心里，让对方欠你人情——这就是讨好的本质。或联想：ingratiate 与 grateful 共享 grat-，一个是「给予好感」，一个是「接受好感后的感激」",
-              "exampleEn": "The tech giant tried to ingratiate itself with the incoming administration by pledging to create ten thousand domestic manufacturing jobs.",
-              "exampleCn": "这家科技巨头承诺在国内创造一万个制造业岗位，试图以此向新政府示好、建立关系。"
             }
           ]
         }
