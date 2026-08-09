@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-08T23:05:02.349421+00:00",
+  "lastUpdated": "2026-08-09T23:05:14.517547+00:00",
   "level": "B2",
   "days": {
+    "2026-08-10": {
+      "label": "8月10日 (周一)",
+      "stories": [
+        {
+          "id": "20260810-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+          "headlineEn": "Small Israeli Startup Linked to AI Hacking Incidents at OpenAI, Anthropic, Meta",
+          "headlineCn": "以色列初创公司牵出OpenAI、Anthropic、Meta黑客事件",
+          "summaryEn": "A little-known Israeli startup called Irregular has emerged as a common thread linking a string of AI-related hacking incidents at OpenAI, Anthropic and Meta. The company, which specializes in stress-testing AI models for security flaws before they launch, was reportedly involved behind the scenes in flagging or investigating these episodes. The revelation shows how a handful of small, specialized security firms now quietly shape trust and safety decisions across the world's biggest AI labs, raising fresh questions about oversight in an industry racing to ship increasingly powerful systems.",
+          "summaryCn": "一家鲜为人知的以色列初创公司Irregular，被曝是OpenAI、Anthropic和Meta近期一系列AI黑客事件背后的共同线索。这家公司专注于在AI模型上线前对其进行安全测试，据称在幕后参与了相关事件的排查与上报工作。此事揭示了少数专业安全公司如何在幕后悄然影响各大AI实验室的信任与安全决策，也引发了业界对AI快速迭代过程中监管是否到位的新一轮担忧。",
+          "excerpt": "When security researchers dug into a series of unusual AI-related hacking episodes at OpenAI, Anthropic and Meta, they kept hitting the same name: Irregular, a little-known Israeli startup that quietly tests AI models for security flaws before they reach the public.",
+          "vocab": [
+            {
+              "word": "shadowy",
+              "pos": "adj.",
+              "meaning": "神秘的、隐蔽的，常用来形容不透明、行踪难辨的组织或人物；比secretive更具画面感和文学色彩，常见于新闻报道中描述幕后势力。",
+              "etymology": "源自古英语sceadu（影子），14世纪起衍生出比喻义『模糊不清、难以捉摸』，19世纪后常用于描述神秘组织或人物。",
+              "morphology": "shadow（名词，影子）+ -y（形容词后缀，表示具有某种性质）。同类构词：cloudy（多云的）、murky（昏暗的）、foggy（多雾的）。",
+              "mnemonic": "想象一个人站在阴影（shadow）里，你看不清他的脸——这就是shadowy的画面：模糊、隐蔽、说不清底细。",
+              "exampleEn": "Little is known about the shadowy startup that quietly audits AI models for the industry's biggest labs.",
+              "exampleCn": "关于这家悄悄为业内顶尖实验室审计AI模型的神秘初创公司，外界知之甚少。"
+            },
+            {
+              "word": "trace back to",
+              "pos": "phrasal v.",
+              "meaning": "追溯到、查明源头；比attribute to更强调侦查、逐步倒推的过程，常用于事故调查、资金流向或技术漏洞的溯源报道。",
+              "etymology": "trace源自古法语tracier（画线、追踪路径），back为古英语方位副词；组合短语16世纪后逐渐固定为『追溯根源』之意。",
+              "morphology": "动词短语，由trace（追踪）+ back（向后）+ to（介词，指向目标）组成。同源词：retrace（重新追溯）、traceable（可追溯的）、tracer（示踪剂）。",
+              "mnemonic": "想象侦探沿着脚印（trace）一路往回走（back），最终走到（to）案发起点——trace back to就是这种倒推溯源的动作。",
+              "exampleEn": "Investigators traced the security incident back to a single misconfigured API key.",
+              "exampleCn": "调查人员将这起安全事件追溯到一个配置错误的API密钥。"
+            },
+            {
+              "word": "red-team",
+              "pos": "v.",
+              "meaning": "（对系统、模型）进行模拟攻击式安全测试，即组建『红队』扮演攻击者寻找漏洞；在AI安全语境中已从军事术语演变为高频动词，比笼统的test更精准传达对抗性测试的含义。",
+              "etymology": "源自冷战时期美军演习术语，red team代表假想敌，后被网络安全行业借用，21世纪后AI行业也沿用这一说法并动词化。",
+              "morphology": "red（颜色，象征敌方）+ team（队伍），名词转动词用法（to red-team something）。相关表达：red-teamer（红队测试员）、red-teaming exercise（红队演练）。",
+              "mnemonic": "想象公司内部养了一支红军，专门扮演黑客攻打自家系统，抢在真正的坏人之前找到破绽——这就是red-team的核心画面。",
+              "exampleEn": "Before releasing a new model, the lab hires outside experts to red-team it for potential misuse.",
+              "exampleCn": "在发布新模型前，该实验室会聘请外部专家对其进行红队测试，排查潜在的滥用风险。"
+            },
+            {
+              "word": "smoking gun",
+              "pos": "phrase",
+              "meaning": "确凿的证据、铁证，尤指能直接证明某人有罪或某事件起因的关键线索；比proof或evidence更生动，带有当场抓获的画面感，常见于调查性报道。",
+              "etymology": "源自19世纪侦探小说场景——凶案现场发现枪口还冒烟的手枪，直接指向凶手，水门事件报道后在新闻界广泛流行为『决定性证据』的惯用语。",
+              "morphology": "短语/复合词，无独立词源；由smoking（冒烟的，现在分词作形容词）+ gun（枪）构成，不可拆解为独立词根。",
+              "mnemonic": "想象案发现场一把枪口还在冒烟——不用多问，凶手就是拿枪的人。smoking gun就是这种一眼定案的铁证。",
+              "exampleEn": "Researchers were still looking for the smoking gun that would confirm exactly how the hackers had gotten in.",
+              "exampleCn": "研究人员仍在寻找能确切证实黑客究竟如何入侵的铁证。"
+            },
+            {
+              "word": "outfit",
+              "pos": "n.",
+              "meaning": "（非正式）公司、机构、团队；比company或firm更口语化、略带随意的语气，常用于财经/科技报道形容规模不大或身份不明的公司，隐含『这帮人』的意味。",
+              "etymology": "源自古英语ut（出）+ fitten（装备），16世纪原指『整套装备、装束』，19世纪美国俚语中引申为『一群共事的人、一家机构』。",
+              "morphology": "out（向外）+ fit（合适、装配）构成复合词；本义『配备齐全的一套东西』，引申为『班底、团队』。相关表达：a small outfit（小公司）、a rival outfit（竞争对手机构）。",
+              "mnemonic": "想象给一支探险队配齐装备（outfit）出发——后来这个词就用来指代那整支装备齐全的队伍，也就是一家公司或团队。",
+              "exampleEn": "Few people outside the security world had heard of the tiny outfit before its name surfaced in the investigation.",
+              "exampleCn": "在这次调查曝光之前，安全圈之外几乎没人听说过这家小公司。"
+            }
+          ]
+        },
+        {
+          "id": "20260810-2",
+          "category": "biz",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/297a8bf7-ce8b-44fe-bc51-3e2ec2e47699?syn-25a6b1a6=1",
+          "headlineEn": "European Stocks Draw Investors Back as Earnings Growth Outshines Iran War Worries",
+          "headlineCn": "强劲财报驱散伊朗战云，投资者重返欧股",
+          "summaryEn": "European equities are pulling in fresh capital as corporate results outshine expectations. Companies in the Stoxx Europe 600 are on track to post a 22% jump in second-quarter profits, according to analysts, a striking turn from earlier worries that the Iran-Israel conflict would stall growth. The earnings strength is persuading fund managers who had retreated to safer assets in June to shift back into European shares, a sign that solid corporate fundamentals can outweigh geopolitical anxiety, at least for now, in shaping where money flows this reporting season.",
+          "summaryCn": "欧洲股市资金回流，企业财报表现亮眼。Stoxx欧洲600指数成分公司二季度利润预计增长22%，扭转此前因伊以冲突产生的悲观情绪。强劲财报说服此前避险离场的基金经理重新增持欧股，显示稳健的企业基本面眼下足以压过地缘政治焦虑。",
+          "excerpt": "Companies in the Stoxx Europe 600 are on track to deliver a 22% increase in profits in the second quarter, according to analysts' estimates, as European equities draw back investors who had pulled money out during the height of the Iran-Israel conflict earlier this summer.",
+          "vocab": [
+            {
+              "word": "headwind",
+              "pos": "n.",
+              "meaning": "逆风，比喻阻碍增长或进展的不利因素（常用于财报/宏观语境，与tailwind顺风相对，比obstacle更形象、更常见于财经报道）",
+              "etymology": "复合词，来自古英语héafod（头/前方）+ wind（风），本义指迎面吹来的风，19世纪起用于航空，20世纪后期被商业媒体借用为比喻义",
+              "morphology": "head（头/前方）+ wind（风）；同类合成词：tailwind（顺风）、crosswind（侧风）、windfall（意外之财）",
+              "mnemonic": "想象飞机顶着风前进、速度被拖慢的画面——公司业绩就像飞机，遇到headwind就飞不快，遇到高利率、强美元这类逆风时利润增长会被拖累",
+              "exampleEn": "Rising energy costs remain a major headwind for European manufacturers this quarter.",
+              "exampleCn": "不断上涨的能源成本仍是本季度欧洲制造企业面临的一大逆风。"
+            },
+            {
+              "word": "capitulate",
+              "pos": "v.",
+              "meaning": "（投资者/市场）屈服、投降式抛售，名词形式capitulation是财经常见词（恐慌性抛售/投降式下跌），比give up更书面、更强调长期抵抗后的彻底放弃",
+              "etymology": "源自拉丁语capitulare（按条款签订协议），来自caput（头/首要条款），中世纪指军队按条件投降，17世纪引申为泛指屈服",
+              "morphology": "capit-（头，词根同capital、captain）+ -ulate（动词后缀）；同根词：capital（资本，字面头等重要的）、decapitate（斩首）",
+              "mnemonic": "联想capital（资本）——当投资者对抗市场太久、最终资本投降，把手里的股票割肉卖出，就是capitulate；军队举白旗投降的画面能帮你记住这种彻底放弃抵抗的意味",
+              "exampleEn": "Many bearish investors finally capitulated and bought back into European stocks as results kept topping forecasts.",
+              "exampleCn": "随着业绩持续超出预期，许多看空的投资者最终投降，重新买入欧洲股票。"
+            },
+            {
+              "word": "recoup",
+              "pos": "v.",
+              "meaning": "挽回、弥补（亏损/成本），常搭配recoup losses/costs/investment，语域比get back更正式，隐含通过后续努力补回之前损失的意味",
+              "etymology": "源自法语recouper（重新裁剪/扣减），由re-（重新）+ couper（切）构成，16-17世纪进入英语法律用语指从债务中扣除相抵，后引申为补回损失",
+              "morphology": "re-（再次）+ coup（法语切/打击，与英语coup政变同源）+ -er动词化；相关词：recuperate（恢复）、coupon（优惠券，原指可裁剪下的票据）",
+              "mnemonic": "把recoup拆成re + coup（政变/一击）——想象投资者遭受重创后卷土重来，再打一次胜仗把损失的钱赢回来，就是recoup losses",
+              "exampleEn": "The airline expects to recoup its pandemic-era losses within the next two profitable quarters.",
+              "exampleCn": "这家航空公司预计将在接下来两个盈利季度内弥补其疫情期间的亏损。"
+            },
+            {
+              "word": "in the black",
+              "pos": "phrase",
+              "meaning": "盈利、账面为正（与in the red亏损相对），源自会计传统用黑色墨水记录盈余，比直接说profitable更地道、更常见于财经口语和报道标题",
+              "etymology": "短语源自会计传统——19世纪起簿记员习惯用黑色墨水记录盈利数字、红色墨水记录亏损数字，短语由此固定下来",
+              "morphology": "短语/固定搭配，无法拆解词根；对比记忆：in the red（亏损）/ in the black（盈利）/ break even（收支平衡）",
+              "mnemonic": "想象一本旧式账本——盈利的数字用黑笔写，亏损的数字用红笔写，翻开账本一看颜色就知道公司赚没赚钱，in the black就是账本一片黑，代表在赚钱",
+              "exampleEn": "After three quarters of losses, the startup finally moved back into the black this spring.",
+              "exampleCn": "在连续三个季度亏损后，这家初创公司今年春天终于恢复盈利。"
+            },
+            {
+              "word": "buoy",
+              "pos": "v.",
+              "meaning": "支撑、提振（信心/价格/情绪），字面指使漂浮，比boost多一层托举、防止下沉的画面感，财经报道常用来描述好消息拉抬市场情绪",
+              "etymology": "源自古荷兰语/中古法语boie，本义指系泊用的浮标，16世纪进入英语，17世纪后引申出使振作、提振的比喻义",
+              "morphology": "原为名词浮标，转化为动词使漂浮/提振；相关派生：buoyant（adj. 轻快的/景气的）、buoyancy（n. 浮力/景气）",
+              "mnemonic": "想象海面上的浮标buoy永远不会沉底——当动词用就是像浮标一样把某样东西托住不让它下沉，好财报就像给股价绑上了浮标，把投资者情绪buoy up",
+              "exampleEn": "Strong quarterly profits buoyed investor confidence across European markets this week.",
+              "exampleCn": "强劲的季度利润在本周提振了整个欧洲市场的投资者信心。"
+            }
+          ]
+        },
+        {
+          "id": "20260810-3",
+          "category": "econ",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/",
+          "headlineEn": "New 'Adversarial' Pattern Can Hide People From Surveillance Cameras",
+          "headlineCn": "研究员设计对抗图案，可让人躲避监控摄像头识别",
+          "summaryEn": "A security researcher has developed an algorithm that generates computer-crafted patterns capable of camouflaging people, faces, and vehicles from AI-powered surveillance cameras. Printed onto clothing or vinyl wraps, the adversarial pattern exploits weaknesses in object-detection models, causing the software to fail to recognize a person or car even when it is clearly visible to the human eye. The work highlights a growing tension between computer-vision surveillance and privacy-focused countermeasures, raising fresh questions about how easily current detection algorithms can be fooled in the real world.",
+          "summaryCn": "一位安全研究员开发出一种算法，可生成印在衣物或车身上的特殊图案，让人、面孔和车辆躲过AI监控摄像头的识别。这种「对抗图案」利用了目标检测模型的漏洞，即使肉眼清晰可见，软件也可能识别失败，凸显了监控技术与隐私保护之间日益加剧的博弈。",
+          "excerpt": "A security researcher has designed an algorithm that produces computer-generated patterns able to camouflage people, faces, and vehicles, defeating detection by AI-powered surveillance cameras. Printed onto clothing or vehicle wraps, the pattern exploits weaknesses in object-recognition models, potentially offering a low-cost way to dodge automated tracking in public spaces.",
+          "vocab": [
+            {
+              "word": "adversarial",
+              "pos": "adj.",
+              "meaning": "对抗性的、对立的。在机器学习语境中特指刻意设计用来欺骗算法的（如adversarial attack、adversarial example），比笼统的hostile更精准地指向系统性、有策略的对抗而非情绪化敌意，因此在科技与商业文献中出现频率极高。",
+              "etymology": "源自拉丁语adversus（面对、相反，ad-朝向+vertere转），经古法语adversaire进入英语，14世纪起指对手，20世纪后期扩展到博弈论与AI领域，表示刻意制造对抗条件。",
+              "morphology": "ad-（朝向）+ vers（转，来自vertere）+ -ial（形容词后缀）。同根词：adverse（不利的）、controversy（争论，contra+vertere）、reverse（逆转）、convert（转变）。",
+              "mnemonic": "想象两个人面对面（ad-向）互相转身（vers-转）对抗——AI研究员和算法互相较劲，一方设计图案骗过系统，一方拼命想识别，双方像拔河一样对着干。",
+              "exampleEn": "The startup trained its fraud-detection model against thousands of adversarial examples to make it harder to fool.",
+              "exampleCn": "这家初创公司用数千个对抗样本训练其反欺诈模型，以增加被欺骗的难度。"
+            },
+            {
+              "word": "camouflage",
+              "pos": "v./n.",
+              "meaning": "伪装、掩饰。本义指军事伪装，现广泛用于商业语境，表示掩盖真实意图或数据（如公司用财务操作camouflage亏损），比hide更强调用外在伪装物主动混淆视觉或算法识别，画面感更强。",
+              "etymology": "源自法语军事俚语camoufler（19世纪末，意为掩饰、伪装，可能源自意大利方言camuffare乔装打扮），一战期间被英语借入，专指军队用图案伪装装备。",
+              "morphology": "不可拆解的外来简单词，常见派生形式：camouflaged（已伪装的）、camouflaging（正在伪装）。可横向联想同为法语借词的sabotage、espionage。",
+              "mnemonic": "记住迷彩服camouflage jacket——把这个词直接映射到军队迷彩图案，再联想新闻里的对抗图案，就是给人和车穿上数字时代的迷彩服，专门骗过摄像头的眼睛。",
+              "exampleEn": "Some retailers camouflage declining store traffic by emphasizing online sales growth in their earnings calls.",
+              "exampleCn": "一些零售商在财报电话会议中强调线上销售增长，以此掩盖实体店客流下滑的事实。"
+            },
+            {
+              "word": "circumvent",
+              "pos": "v.",
+              "meaning": "绕过、规避（规则、限制或系统）。在监管和技术语境中比avoid更强调通过巧妙手段绕开障碍，常见于讨论企业规避监管、黑客绕过安全系统等场景，带有一丝钻空子的意味。",
+              "etymology": "源自拉丁语circumvenire（circum-围绕+venire来、走），字面意为绕着走到某物周围，16世纪进入英语后引申为用计谋绕过或智取。",
+              "morphology": "circum-（周围，同见于circumference周长、circumstance环境）+ vent（来，同根词venue场地、convene召集、prevent阻止）。",
+              "mnemonic": "circum（环绕）+ vent（来）——想象一个人绕着障碍物走一圈过来，就像图案设计者不硬闯监控系统，而是绕道而行，找到系统死角悄悄通过。",
+              "exampleEn": "Regulators worry the new algorithm could let bad actors circumvent facial-recognition checks at airports.",
+              "exampleCn": "监管机构担心这种新算法可能让不法分子绕过机场的人脸识别检查。"
+            },
+            {
+              "word": "spoof",
+              "pos": "v./n.",
+              "meaning": "伪造、欺骗（尤指让系统或设备误判）。在网络安全语境中是高频词（如IP spoofing、GPS spoofing），比fake更专指用假信号或假数据愚弄机器或系统，是理解安全新闻的必备词。",
+              "etymology": "该词源于19世纪末英国喜剧演员Arthur Roberts发明的一种恶作剧游戏Spoof，20世纪初引申为戏弄、恶搞，二战后被计算机安全领域借用，专指伪造信号欺骗系统。",
+              "morphology": "单音节简单词，不可再拆分。常见派生词：spoofing（动名词，指伪造攻击本身，如email spoofing）、spoofer（伪造者或伪造设备）。",
+              "mnemonic": "发音短促像poof——想象骗子对着摄像头poof一下变魔术，摄像头瞬间失明认错人，这种拟声般的发音正好配上瞬间蒙骗系统的画面。",
+              "exampleEn": "Hackers used a spoofed signal to trick the drone's navigation system into flying off course.",
+              "exampleCn": "黑客用伪造信号欺骗了无人机的导航系统，使其偏离航线。"
+            },
+            {
+              "word": "decoy",
+              "pos": "n./v.",
+              "meaning": "诱饵、伪装物，用来转移注意力或欺骗侦测系统。商业上常指诱饵定价（decoy pricing）等营销策略，安全领域则指诱骗攻击者或探测器的假目标，比distraction更强调刻意设置、专为诱骗而存在。",
+              "etymology": "可能源自荷兰语de kooi（意为the cage/trap，捕鸟笼），17世纪随荷兰猎鸟技术传入英语，原指诱捕野鸭的假鸭子，后引申为一切诱骗手段。",
+              "morphology": "不可拆解的复合借词（de+kooi融合而成），常见搭配：decoy duck（诱饵鸭）、decoy pricing（诱饵定价）、act as a decoy（充当诱饵）。",
+              "mnemonic": "想象猎人在湖面放一只假鸭子引真鸭子上钩——新闻里的对抗图案某种程度上就像给摄像头看的假鸭子，专门把AI的注意力引向错误判断。",
+              "exampleEn": "The company launched a cheaper decoy subscription tier just to make its premium plan look like better value.",
+              "exampleCn": "该公司推出了一个更便宜的「诱饵」订阅档位，只是为了让高级套餐显得更划算。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-09": {
       "label": "8月9日 (周日)",
       "stories": [
@@ -5383,326 +5577,6 @@
               "mnemonic": "mod- = modus（尺度）。「modestly raise」就是「按刻度来、不超出刻度地」提升——想象在一把刻度尺上只轻轻推了一格，not too much, not too little。背住 mod- 词根，同时搞定 moderate、modify 一整族词。",
               "exampleEn": "Revenue grew modestly in the latest quarter, falling short of analyst expectations amid a cautious consumer environment.",
               "exampleCn": "在消费者谨慎消费的环境下，公司最新季度营收温和增长，未能达到分析师预期。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-05": {
-      "label": "7月5日 (周日)",
-      "stories": [
-        {
-          "id": "20260705-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-          "headlineEn": "Mistral AI: The Open-Source Challenger Aiming to Democratize Frontier AI",
-          "headlineCn": "Mistral AI：力争让前沿 AI 人人可用的开源挑战者",
-          "summaryEn": "Founded in 2023, Mistral AI has rapidly emerged as Europe's most prominent competitor to OpenAI, offering both open-source and proprietary large language models. The French startup has secured substantial venture funding, driven by the ambitious mission to democratize frontier artificial intelligence. By releasing publicly available models, Mistral disrupts the closed, subscription-based dominance of incumbents, providing developers and enterprises with flexible, cost-effective alternatives while intensifying global debate around AI accessibility and governance.",
-          "summaryCn": "Mistral AI 于 2023 年在法国成立，迅速成长为欧洲最具代表性的 OpenAI 竞争者。该公司同时提供开源与专有大型语言模型，已获得大量风险投资支持。其核心使命是「让人人都能使用前沿 AI」，通过发布可公开获取的模型，直接挑战现有巨头的闭源订阅制主导地位，为开发者和企业提供更灵活、更经济的替代选择，同时在全球范围内引发了关于 AI 可及性与治理的广泛讨论。",
-          "excerpt": "Mistral AI, a French startup founded in 2023, has raised significant funding and released a growing suite of open-source models — all in pursuit of its stated ambition to put frontier AI in the hands of everyone, positioning itself as a credible alternative to OpenAI.",
-          "vocab": [
-            {
-              "word": "democratize",
-              "pos": "v.",
-              "meaning": "使（技术、知识或资源）普及化，让原本只有少数人能获取的东西向大众开放。在科技语境中尤指打破大公司垄断、让普通开发者或小企业也能使用昂贵能力。比 popularize 更强调「权力下放」的政治隐喻，语气更具使命感，是科技公司愿景陈述中的高频词。",
-              "etymology": "源自希腊语 demos（人民）与 kratos（权力、统治），原义为「将权力交还人民」。18 世纪经法语 démocratiser 进入英语，最初专指政治领域的民主化进程，20 世纪后语义扩展至技术、教育、金融等领域。",
-              "morphology": "demo-（人民）+ -crat-（统治/权力）+ -ize（动词后缀，使…化）。同词根衍生词：democracy（民主制度）、democrat（民主主义者）、demographic（人口统计的）。-ize 后缀还见于 digitize、monetize、customize，规律性强，易于举一反三。",
-              "mnemonic": "想象一场「demo 演示」现场，台下坐满了普通老百姓——demo 本义就是「人民」。原本只有精英企业才能用的 AI 工具，现在免费展示给所有人——这就是 democratize 的核心画面：权力从少数人手中流向大众。",
-              "exampleEn": "Cloud computing has helped democratize access to enterprise-grade software, enabling small startups to compete with large corporations on equal footing.",
-              "exampleCn": "云计算帮助普及了企业级软件的使用权，使小型初创公司得以在平等基础上与大型企业竞争。"
-            },
-            {
-              "word": "traction",
-              "pos": "n.",
-              "meaning": "（产品、公司或想法的）市场认可度与增长动力，通常指用户增长、营收上升或合作落地等可量化的早期成果。创投和商业媒体中极高频词，比 growth 更强调「从零到一」的突破感——有 traction 意味着市场已经开始「咬住」这个产品。常见搭配：gain traction、get traction、lose traction。",
-              "etymology": "源自拉丁语 trahere（拉、拖拽），原义指物理上的牵引力，如车轮与路面之间的摩擦抓地力。19 世纪工业革命后广泛用于机械工程，20 世纪末商业写作借用这一力学比喻，形容产品在市场上「站稳脚跟、获得推进力」的状态。",
-              "morphology": "tract-（拉、拖）+ -ion（名词后缀）。同词根词：extract（提取，ex-向外拉）、attract（吸引，ad-向内拉）、contract（合同，con-拉紧双方）、distract（分心，dis-把注意力拉开）。掌握 tract 这个词根，可解锁大量常用词。",
-              "mnemonic": "想象一辆车在结冰的坡道上打滑——轮子在转，却没有 traction（抓地力），车纹丝不动。初创公司「没有 traction」是完全相同的道理：产品在运转，但市场没有「咬住」它。有了 traction，就像轮子真正抓住地面，开始加速冲坡。",
-              "exampleEn": "The AI startup gained traction rapidly after its coding assistant attracted over a million developers within the first month of launch.",
-              "exampleCn": "这家 AI 初创公司的编程助手在上线首月便吸引了逾百万开发者，迅速获得了市场认可。"
-            },
-            {
-              "word": "war chest",
-              "pos": "phrase",
-              "meaning": "（公司或组织为应对竞争、扩张或危机而积累的）充裕资金储备。原为军事术语，商业中借用来形容企业为「打仗」储备的「弹药」（资金）。语气比 capital reserve 更生动、更具对抗意味，暗示资金是为了打败竞争对手而准备的。常见搭配：build a war chest、tap its war chest、a well-stocked war chest。",
-              "etymology": "字面义为「战争用的箱子」，源于 17—18 世纪欧洲军队随军携带的木箱，内装军饷与军备采购经费。随着时代演变，先被政治领域借用（指竞选经费），后扩展至商业语境，形容企业为竞争而备妥的资金池。",
-              "morphology": "war（战争，源自古英语 werre，可能来自古法语）+ chest（箱子，源自古英语 cest，再溯至拉丁语 cista）。复合名词，无独立词缀可拆解。近义复合词对比：slush fund（秘密/非正式小金库）、capital reserve（资本储备，正式财务术语）、piggy bank（个人小额储蓄，规模小得多）。",
-              "mnemonic": "脑中画一个装满金币的木箱，箱盖上烙着「WAR CHEST」，旁边站着持枪的守卫。Mistral AI 完成大额融资，就是在填满这只箱子，随时准备和 OpenAI 打一场硬仗。资金 = 弹药，这个军事比喻非常直观。",
-              "exampleEn": "After closing its latest funding round, the startup had built a sizeable war chest to accelerate model development and expand into enterprise markets.",
-              "exampleCn": "完成最新一轮融资后，这家初创公司积累了充裕的资金储备，以加速模型研发并向企业市场扩张。"
-            },
-            {
-              "word": "upstart",
-              "pos": "n.",
-              "meaning": "突然崛起的新晋公司或个人，含有「挑战既有权威」的意味。在科技媒体中常用来形容快速成长、威胁行业巨头的新兴企业。比 startup 多一层「异军突起、令人刮目相看」的语感，有时略带贬义（暗示对方自不量力），但在商业报道中多为中性甚至正面，强调其搅局姿态值得关注。",
-              "etymology": "源自 16 世纪英语，由 up（向上）与 start（突然跳起）合成，原义指「一夜之间蹦出来的人」，带有强烈贬义（暴发户、不知天高地厚者）。随着创业文化兴起，20—21 世纪逐渐中性化，多用于形容「快速崛起的新兴竞争者」。",
-              "morphology": "up-（向上，表方向或状态提升，见于 upswing 上扬、upturn 好转、upend 颠覆）+ start（跳起，动词词根用作名词）。与 start-up（初创公司）同源，但语序相反、语气更强——upstart 强调「猛地蹦出来」的突然性，start-up 中性描述成立阶段。",
-              "mnemonic": "想象一个人从椅子上猛地「跳起来」（start up），冲上台挑战在场所有人——这就是 upstart 的画面：突然冒出、快速上位的搅局者。Mistral 就是 AI 界的 upstart：2023 年才诞生，已经让 OpenAI 感受到压力。",
-              "exampleEn": "The Chinese upstart BYD has overtaken legacy automakers in electric vehicle sales, reshaping the global automotive landscape in just a few years.",
-              "exampleCn": "中国新晋车企比亚迪在电动车销量上超越了传统汽车巨头，仅用数年便重塑了全球汽车格局。"
-            },
-            {
-              "word": "disruptive",
-              "pos": "adj.",
-              "meaning": "颠覆性的，能从根本上改变行业规则的。源自克里斯坦森「颠覆性创新」理论，在科技媒体中几乎是标配词汇。关键区别：它不只是「有破坏性」，而特指「以更低成本或更简单方式攻占低端市场，最终取代主流产品」的策略，与 innovative（创新的）有本质区别——innovation 可以在原有框架内改进，disruptive 则是打碎旧框架。",
-              "etymology": "源自拉丁语 disrumpere（打碎、打断），由 dis-（分开、相反）与 rumpere（打破）构成，原义指物理上的断裂或中断。19 世纪扩展为「扰乱秩序」，1990 年代经哈佛商学院教授克莱顿·克里斯坦森的著作《创新者的窘境》，disruptive 获得了现代商业的精确含义。",
-              "morphology": "dis-（分开、相反）+ rupt-（打破）+ -ive（形容词后缀，表「具有…性质」）。rupt 词根高度多产：rupture（破裂）、corrupt（腐化，彻底打破道德）、interrupt（打断，中途插入打破）、erupt（爆发，向外冲破）。掌握 rupt 可解锁一组动感十足的词汇。",
-              "mnemonic": "dis（打散）+ rupt（破）+ -ive = 不断打破现有格局的。记忆钩：想象一个爆破工人（rupt = rupture，炸裂）不停炸掉旧建筑——他就是 disruptive 的化身。Mistral 用开源模型「炸掉」了 AI 领域的收费高墙，典型的 disruptive 打法。",
-              "exampleEn": "Open-source AI models are proving disruptive to incumbents that rely on proprietary, subscription-based access, forcing them to rethink their pricing strategies.",
-              "exampleCn": "开源 AI 模型正在颠覆那些依赖专有订阅制模式的现有玩家，迫使它们重新审视自身的定价策略。"
-            }
-          ]
-        },
-        {
-          "id": "20260705-2",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/04/macron-modi-ai-infrastructure-tech-ceos.html",
-          "headlineEn": "From Macron to Modi: Governments Roll Out the Red Carpet for AI Giants",
-          "headlineCn": "从马克龙到莫迪：各国政府争相为AI巨头铺设红毯",
-          "summaryEn": "France and India are among a growing number of governments actively courting major AI companies, offering incentives to secure data center construction and cloud infrastructure investment. President Macron and Prime Minister Modi have personally engaged with Silicon Valley executives, signaling that AI infrastructure has become a top priority in national economic strategy. The competition underscores how countries view AI investment not just as a tech opportunity, but as a geopolitical asset.",
-          "summaryCn": "法国和印度等越来越多的国家政府正积极向人工智能巨头抛出橄榄枝，以优厚条件争取数据中心建设和云基础设施投资。法国总统马克龙和印度总理莫迪亲自与硅谷高管接触，表明AI基础设施已成为各国经济战略的重中之重。这场竞争折射出各国将AI投资视为地缘政治筹码的深层逻辑，而非单纯的技术机遇。",
-          "excerpt": "From Macron to Modi, heads of state are personally courting the CEOs of AI giants, offering tax breaks, fast-tracked permits, and bilateral agreements to attract data center and cloud infrastructure investment to their shores.",
-          "vocab": [
-            {
-              "word": "woo",
-              "pos": "v.",
-              "meaning": "努力争取（某人的）支持、业务或好感。商业报道中常用于描述政府或企业主动拉拢客户、投资者或合作伙伴，比 attract 更有「主动示好、用力追求」的色彩，是财经新闻的高频词",
-              "etymology": "古英语 wōgian，意为「求爱、求婚」，最初专指主动向他人示爱的行为。中世纪后语义扩展，泛指一切「主动争取对方好感」的场景，商业语境中延伸为政府或企业主动拉拢的行为",
-              "morphology": "单音节简单词，无前缀后缀可拆。派生词：wooer（n. 追求者）、wooing（n./adj. 追求行为）。近义词对比：woo 强调持续努力与主动姿态，attract 偏被动，court 更正式且含礼遇意味",
-              "mnemonic": "联想「woo」的发音像温柔的哄声——想象一位国家领导人对着科技CEO发出「woo~」的示好声，用尽浑身解数争取对方。发音短促有力，正如商业拉拢行动那样直接而急迫",
-              "exampleEn": "The government launched an aggressive campaign to woo semiconductor manufacturers with tax incentives and subsidized land.",
-              "exampleCn": "政府发起大规模行动，以税收优惠和补贴土地积极拉拢半导体制造商。"
-            },
-            {
-              "word": "overture",
-              "pos": "n.",
-              "meaning": "（谈判或合作的）试探性接触、开场提议。在商业和外交语境中特指「主动发出的第一步信号」，暗示关系尚未建立、己方正在试探。比 proposal 更含蓄，比 offer 更初步，是高端商务英语的常见词",
-              "etymology": "来自法语 ouverture，意为「开启、开放」，源自拉丁语 apertura（开口处）。音乐中指交响乐的「序曲」，外交和商业语境中引申为「开场白、试探性接触」，均保留「开端」的核心含义",
-              "morphology": "词根 aper-（开放，同源 aperture 光圈）+ -ture（名词后缀，表动作结果）。同族词：aperture（光圈、孔径）、overt（公开的）、covert（隐秘的，对比记忆）",
-              "mnemonic": "overture = 交响乐的「序曲」。谈判之前，双方像听序曲一样各自试探。政府向AI巨头发出 overture，就像在正式演出前先奏一段轻柔序曲，试探对方是否愿意入场",
-              "exampleEn": "The startup received overtures from three major cloud providers interested in acquiring its proprietary AI training platform.",
-              "exampleCn": "这家初创公司收到三家大型云服务商的接触意向，它们均对收购其专有AI训练平台感兴趣。"
-            },
-            {
-              "word": "vie (for)",
-              "pos": "phrasal v.",
-              "meaning": "激烈竞争（某物）。常见于描述国家、企业之间争夺投资、市场份额或人才。比 compete 更强调「势均力敌的你争我夺」，带有焦灼感，是经济报道中描述竞争态势的精准用词",
-              "etymology": "来自中世纪英语 vien，源自古法语 envier（挑战、下注），最终追溯至拉丁语 invitare（邀请、挑战）。原义为赌博中「叫牌挑战」，后演变为一般意义上的激烈竞争",
-              "morphology": "单音节词，无明显词缀。最常见形式为现在分词 vying（如 countries vying for AI investment）。与 rival、contend、compete 构成近义词族：vie 最强调「紧张角力、不相上下」",
-              "mnemonic": "vie 读音像「伐」——多国争夺AI投资，就像伐木工人争着抢同一棵大树。或者记：字母 V 像两个人背靠背向两方向奔跑，正是「你争我夺」的画面",
-              "exampleEn": "Dozens of cities are vying for the tech company's new headquarters, offering billions in tax relief packages.",
-              "exampleCn": "数十座城市正竞相争夺该科技公司新总部的落地资格，纷纷提出数十亿美元的税收减免方案。"
-            },
-            {
-              "word": "lure",
-              "pos": "v. / n.",
-              "meaning": "（以利益或诱惑）吸引、诱使。商业报道中常指政府或企业用优惠条件吸引投资、人才或企业入驻。比 attract 多了「主动设饵」的策略意味，暗含对方原本未必会来，是分析政府招商引资政策的常见词",
-              "etymology": "来自古法语 loirre，意为「猎鹰诱饵」——训鹰时用来召回猎鹰的道具。中世纪欧洲猎鹰术的专业词汇，后泛化为「以诱惑吸引」，保留了「用饵钓鱼、诱鸟归巢」的隐喻",
-              "morphology": "无明显词缀，简单动词。派生词：allure（n. 魅力；v. 诱惑，al- 加强前缀 + lure）、alluring（adj. 极具吸引力的）。近义对比：lure 含策略性诱导，attract 偏中性，entice 强调情感诱惑",
-              "mnemonic": "lure = 钓鱼用的「路亚」假饵（英文 lure 本就是此义）。想象各国政府像钓鱼一样，把税收优惠和土地资源做成「路亚假饵」甩出去，等待AI公司这条大鱼上钩",
-              "exampleEn": "Several Southeast Asian nations have offered generous tax holidays to lure semiconductor fabs away from more expensive manufacturing hubs.",
-              "exampleCn": "东南亚数国纷纷提供丰厚免税期，以吸引半导体工厂从成本更高的制造中心迁来落户。"
-            },
-            {
-              "word": "statecraft",
-              "pos": "n.",
-              "meaning": "治国之道、经营国家事务的艺术与技巧。在科技外交兴起的当下，常见于讨论政府如何将AI政策、数据主权和技术联盟转化为地缘政治优势。比 governance 更强调「战略层面的运作智慧」，是高端政经报道的必备词",
-              "etymology": "由 state（国家）+ craft（技艺、手艺）复合而成。craft 源自古英语 cræft，意为「力量、技能」，与德语 Kraft（力量）同源。statecraft 字面义为「管理国家的技艺」，16世纪开始使用",
-              "morphology": "state（国家）+ craft（技艺）复合名词。craft 作为后缀，均表示「某领域的技艺或制品」：woodcraft（林野技艺）、witchcraft（巫术）、aircraft（飞行器）、stagecraft（舞台艺术）",
-              "mnemonic": "state + craft = 「国家」+「手艺」。把治国想象成一种精密手艺，就像木匠的 woodcraft。马克龙接待科技CEO，就是在展示他的 statecraft——把AI投资谈判变成外交筹码的高超艺术",
-              "exampleEn": "Securing AI infrastructure deals with American tech giants has become a key element of modern statecraft for countries seeking economic relevance.",
-              "exampleCn": "与美国科技巨头达成AI基础设施协议，已成为寻求经济影响力的国家现代治国之道的核心要素。"
-            }
-          ]
-        },
-        {
-          "id": "20260705-3",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/03/new-jersey-deli-stockfraud-sentence-patten.html",
-          "headlineEn": "Feds Seek Reduced Sentence for $100M Deli Fraudster, but Key Reasons Remain Sealed",
-          "headlineCn": "联邦检方为新泽西熟食店股骗案被告申请轻判，关键理由遭封存",
-          "summaryEn": "James Patten faces sentencing as the third defendant in a stock fraud scheme tied to Hometown International — a New Jersey company whose sole asset was one deli, yet briefly reached a market capitalization exceeding $100 million. Federal prosecutors are seeking a below-guidelines prison term, though key portions of their reasoning remain sealed from public view. The case illustrates how obscure, thinly traded companies can be exploited as vehicles for pump-and-dump fraud targeting retail investors.",
-          "summaryCn": "詹姆斯·帕顿是新泽西州「Hometown International」股票欺诈案中第三名待判被告，该公司名下仅有一家熟食小店，市值却一度虚高至逾1亿美元。联邦检察官已申请判处低于量刑准则的刑期，但部分理由已被法院封存、不对外公开，原因疑与被告配合调查有关。此案揭示了不法分子如何利用冷门小市值公司作为工具，操纵股价坑害散户投资者。",
-          "excerpt": "James Patten is the third person set to be sentenced in the stock fraud scheme tied to Hometown International, a company that owned just one deli in New Jersey yet somehow commanded a valuation topping $100 million. Prosecutors are requesting a sentence below federal guidelines, though their full reasoning remains partly sealed from public view.",
-          "vocab": [
-            {
-              "word": "fraudster",
-              "pos": "n.",
-              "meaning": "欺诈者、骗子。比 fraud（欺诈行为本身）更具体地指「实施欺诈的人」，语域偏新闻口语化，尤其常见于英美商业报道和法庭新闻。语气比 swindler 更现代，比 con man 更正式，是财经记者描述金融罪犯的高频词",
-              "etymology": "源自古法语 fraude，再溯至拉丁语 fraus（欺骗、伤害）；后缀 -ster 来自古英语 -estre，表「从事某类行为的人」，原多用于女性职业称谓（如 webster 织布工），后泛化为行为者标签",
-              "morphology": "fraud（欺诈）+ -ster（行为者后缀）→ fraudster。同后缀词：gangster（黑帮分子）、prankster（恶作剧者）、trickster（骗子）；同词根派生词：fraudulent（adj. 欺骗性的）、defraud（v. 骗取财物）",
-              "mnemonic": "把 fraud 想成「弗劳德」这个人名，他是职业骗子，名片上印着「-ster」职称——fraudster。类比 gangster（黑帮老大），两个词结构一模一样；脑海中浮现一个穿西装的骗子站在法庭上，胸口别着写有 -ster 的胸牌",
-              "exampleEn": "The SEC charged the fraudster with artificially inflating the company's stock price through fabricated press releases.",
-              "exampleCn": "美国证券交易委员会指控该欺诈者通过捏造新闻稿人为拉高公司股价。"
-            },
-            {
-              "word": "scheme",
-              "pos": "n. / v.",
-              "meaning": "（名词）阴谋、骗局，尤指系统性的非法计划；（动词）密谋。金融语境中常见组合：Ponzi scheme（庞氏骗局）、stock fraud scheme（股票欺诈骗局）。注意：英式英语中 scheme 也可中性指「方案」，但美式商业新闻中几乎总带负面色彩，是财经法律报道的必备词",
-              "etymology": "源自拉丁语 schema，再溯至希腊语 skhēma（形状、外形、方式），原义为「图表、计划」，属中性词；进入英语后，尤其在美式英语中逐渐发展出「密谋、阴谋」的负面色彩",
-              "morphology": "单一词根，源自希腊语 skhēma，无前缀/后缀结构。派生词：schematic（adj. 图解的）、schemer（n. 阴谋者）；近义词辨析：scheme（系统性骗局）vs scam（小骗局）vs racket（有组织的非法勾当，规模更大）",
-              "mnemonic": "scheme 发音像「斯基姆」，联想「撇脂」(skim)——骗子系统地把投资者的钱像奶油一样撇走，这就是 scheme 的本质。记住最著名的骗局：Ponzi scheme（庞氏骗局），只要想到庞氏骗局，就锁定了 scheme",
-              "exampleEn": "The CEO was convicted of running a scheme to defraud investors by falsifying the company's quarterly revenue figures.",
-              "exampleCn": "该首席执行官因通过伪造季度营收数据欺骗投资者的骗局而被定罪。"
-            },
-            {
-              "word": "leniency",
-              "pos": "n.",
-              "meaning": "宽大处理、从轻量刑。法律语境中专指对被告比通常标准更宽松的处置；常见搭配：seek leniency（寻求从宽）、grant leniency（给予宽大处理）、leniency program（宽大处理计划，常见于反垄断案，举报者可获豁免）。在企业合规、反垄断和刑事司法报道中极为常见，值得重点掌握",
-              "etymology": "源自拉丁语 lenis（温和的、柔和的），加抽象名词后缀 -ency。拉丁语 lenis 还衍生出 lenient（adj. 宽大的）和 relent（v. 软化、放宽），后者加前缀 re- 表「再次变柔和」",
-              "morphology": "lenient（adj. 宽大的）→ leniency（n.），变化规则：去 -t 加 -cy。同构型变化：efficient→efficiency，fluent→fluency；同根词：relent（v. 心软）、relentless（adj. 无情的，即「绝不放松」）",
-              "mnemonic": "leniency 拆成「leni + ency」：leni 读音近似「怜悯」（连你），-ency 是名词后缀。法官「怜悯」地对被告从轻发落，就是 leniency。对比记忆：relentless（无情的）= re + lent + less，「不再心软」= 无情，正好反义",
-              "exampleEn": "The whistleblower's full cooperation with federal investigators earned significant leniency in the final sentencing recommendation.",
-              "exampleCn": "该举报人与联邦调查人员的全力配合，为其在最终量刑建议中赢得了相当程度的从宽处理。"
-            },
-            {
-              "word": "sealed",
-              "pos": "adj.",
-              "meaning": "（法庭文件、法院记录）被封存的、不对公众公开的。法律语境中，sealed 特指经法院命令禁止公开的文件，如 sealed indictment（密封起诉书）、sealed settlement（保密和解协议）。理解这个词是读懂美国司法和商业新闻的关键，重大案件中此词频繁出现，与「透明」形成对立",
-              "etymology": "源自古法语 seel（印章），再溯至拉丁语 sigillum（小印章），是 signum（标志、符号）的指小词。古代用蜡封印封住文件表示官方认证或机密性质，现代引申为「封存、保密」",
-              "morphology": "seal（v. 封印 / n. 印章；也指海豹）+ -ed（形容词后缀）→ sealed。派生词：unseal（v. 解封）、sealing（n. 封存行为）；注意 seal 作为名词的双重含义：「印章」（法律义）与「海豹」（动物义），是同形异义词",
-              "mnemonic": "想象古代国王用火漆（seal）封住绝密文件——蜡封之后任何人不得拆开，就是 sealed。联想：海豹（seal）嘴巴永远紧闭，守口如瓶——sealed documents 就像海豹一样「嘴封得严严的」，不透露半个字",
-              "exampleEn": "The acquisition agreement was sealed by mutual consent, keeping the final purchase price confidential for two years.",
-              "exampleCn": "此次收购协议经双方同意封存，最终收购价格在两年内保持保密。"
-            },
-            {
-              "word": "redacted",
-              "pos": "adj. / v. (past participle)",
-              "meaning": "（文件中敏感信息）被删除的、被涂黑的。特指在公开文件中将敏感内容遮蔽或删去，留下空白块或黑色涂抹。与 censored（审查，多指政治压制）不同，redacted 更多指出于隐私、安全或法律原因的技术性删除，是商业、法律和政府报道中的高频词，值得与 sealed 一起配套记忆",
-              "etymology": "源自拉丁语 redigere（整理、归纳、汇编），过去分词 redactus；由 re-（回、重新）+ agere（做、驱动）构成，原义是「将材料重新整理成文」即编辑，现代英语中专指「从文件中删除或遮蔽敏感信息」",
-              "morphology": "re-（重新）+ -dact-（源自拉丁语 agere 变体，「做、处理」）+ -ed（过去分词）→ redacted。相关词：redact（v.）、redaction（n. 删节版本、编辑稿）；editor 与 redactor 同源于拉丁语根 agere",
-              "mnemonic": "redacted 的经典形象就是 FBI 解密文件里大片「████████」黑色方块。记忆法：re（重新）+ dact（联想「打字」dactylo）+ ed = 文件被「重新打」过，把秘密部分用黑块替换。见到黑色涂块，就想到 redacted",
-              "exampleEn": "The internal audit report released to shareholders had several critical financial disclosures redacted on legal advice.",
-              "exampleCn": "应律师建议，向股东公开的内部审计报告中多项关键财务披露内容已被删除涂黑。"
-            }
-          ]
-        },
-        {
-          "id": "20260705-4",
-          "category": "econ",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
-          "headlineEn": "Hip-Hop Producer Erick the Architect Misses BlackBerry's Tactile Keyboard",
-          "headlineCn": "说唱制作人 Erick the Architect 怀念 BlackBerry 实体键盘",
-          "summaryEn": "Erick the Architect, founding member and lead producer of hip-hop group Flatbush Zombies, has publicly expressed his nostalgia for the BlackBerry physical keyboard. Having toured globally and collaborated with artists from Joey Bada$$ to James Blake, Erick credits the tactile feedback of BlackBerry's hardware keyboard for enhancing his creative workflow. As touchscreen devices dominate today's market, his sentiment resonates with a generation of professionals who prized the ergonomic precision of physical keys — reigniting debate around productivity and device design.",
-          "summaryCn": "说唱团体 Flatbush Zombies 的创始成员及主要制作人 Erick the Architect 近日公开表达了对 BlackBerry 实体键盘的深切怀念。他曾与 Joey Bada$$、RZA、James Blake 等跨界艺人合作，足迹遍布全球各大音乐节及知名脱口秀舞台。Erick 认为，BlackBerry 键盘的触感反馈极大提升了他的创作效率。随着触屏设备主导消费市场，他的感慨引发众多专业人士共鸣，也再度点燃了关于实体键盘与触屏设备在人机工程学和生产力方面孰优孰劣的讨论。",
-          "excerpt": "Erick the Architect — founding member and lead producer of Flatbush Zombies — has gone on record about his deep fondness for the BlackBerry keyboard. Despite a career spanning global tours and cross-genre collaborations, he still misses the tactile precision of physical keys that no smartphone touchscreen has quite managed to replicate.",
-          "vocab": [
-            {
-              "word": "tactile",
-              "pos": "adj.",
-              "meaning": "触觉的，与触感相关的。在科技语境中常指「可感知的物理反馈」，如键盘的按压感。与 haptic（触觉振动反馈）相比，tactile 更强调自然的手指触摸体验而非人工模拟，是产品设计和用户体验评测的高频词，值得掌握。",
-              "etymology": "来自拉丁语 tactilis（可触摸的），源于动词 tangere（触摸）。17世纪进入英语，最初用于哲学和感官描述，后扩展至科技与产品设计领域。与 contact（接触）、tangible（有形的）同源。",
-              "morphology": "词根 tact-（触摸）+ 后缀 -ile（可……的）。同词根词：contact（接触）、tangible（可感知的）、intact（完整无缺的）、intangible（无形的）。掌握词根 tact- 可串联一族「触摸」相关词。",
-              "mnemonic": "联想「tact（机智、得体）」——机智的人懂得「触摸」对方情绪，两词共享「碰触」核心。或想象用指尖按下 BlackBerry 键盘时那种「咔哒」实感——那就是 tactile feedback（触觉反馈）。",
-              "exampleEn": "The new laptop's tactile keyboard received high praise from professional writers who spend hours typing every day.",
-              "exampleCn": "这款笔记本电脑的触感键盘受到了每天长时间打字的专业写作者的高度评价。"
-            },
-            {
-              "word": "nostalgia",
-              "pos": "n.",
-              "meaning": "对过去的深切怀念。在商业语境中常见于「nostalgia marketing（怀旧营销）」，品牌借助消费者的情感记忆推广复古产品或拉动复购。比「fondness（喜爱）」情感浓度更高，带有「回不去」的惆怅色彩，是营销心理学的关键词。",
-              "etymology": "来自希腊语 nostos（返乡）+ algos（痛苦）。17世纪由瑞士医生首次用于描述士兵思乡之苦的「医学症状」，后语义扩展为对任何过去事物的情感眷恋。",
-              "morphology": "nostos（回家）+ -algia（痛苦/疾病后缀）。同后缀词：neuralgia（神经痛）、nostalgia → nostalgic（adj.）→ nostalgically（adv.），派生形式规律整齐。",
-              "mnemonic": "nos-（回家）+ talgia（痛）= 「回不了家的痛」。记住它本来是医学病名，情绪浓度远比「怀念」更深。想象老兵望着旧照片，胸口隐隐作痛——那就是 nostalgia 的本义。",
-              "exampleEn": "Tech brands are banking on nostalgia to sell retro-styled gadgets to millennials who grew up with early smartphones.",
-              "exampleCn": "科技品牌正押注怀旧情绪，向伴随早期智能手机成长的千禧一代销售复古风格的电子产品。"
-            },
-            {
-              "word": "aficionado",
-              "pos": "n.",
-              "meaning": "某领域的狂热爱好者、行家。比 fan 更正式、更有品位感，常用于媒体和商业报道描述对某类产品（如机械键盘、胶片相机）有深度偏好的核心用户群体。这类用户口碑传播力强，是品牌「种子用户」策略的目标群体，值得学习。",
-              "etymology": "来自西班牙语 aficionado（热衷者），源于 afición（热情），动词 aficionar 意为「使迷上」。最初用于描述斗牛迷，后经英语借用，泛指各领域发烧友。",
-              "morphology": "西班牙语直接借词，无英语形态拆解。英语近义词梯度：fan（粉丝，最口语）→ enthusiast（热情者）→ aficionado（行家级爱好者）→ connoisseur（鉴赏家，更强调专业判断力）。",
-              "mnemonic": "西班牙斗牛场上那些激动鼓掌、眼睛放光的观众——那股痴迷劲儿就是 aficionado。发音近似「啊-fick-yo-nah-do」，想象一个发烧友看到爱物时忍不住惊叫「啊！」的画面。",
-              "exampleEn": "BlackBerry aficionados still gather in online forums to discuss the superior typing experience of physical keyboards.",
-              "exampleCn": "BlackBerry 发烧友至今仍聚集在网络论坛上，探讨实体键盘卓越的打字体验。"
-            },
-            {
-              "word": "ergonomic",
-              "pos": "adj.",
-              "meaning": "符合人体工程学的，为减少疲劳和提高效率而专门设计的。在消费电子、办公设备和硬件评测中极为常见，比 comfortable（舒适的）更专业，隐含「经过科学验证」的意思，是产品说明书和科技媒体的必备词汇。",
-              "etymology": "来自希腊语 ergon（工作）+ nomos（规律/法则）。20世纪中期由人因工程学（human factors engineering）领域引入，最初用于工业设计，后广泛应用于电子产品与家具设计。",
-              "morphology": "ergon（工作）+ nom-（规律）+ -ic（形容词后缀）。同词根词：energy（能量，同源于 ergon）、ergonomics（人机工程学，名词）；同后缀：economic（经济的）、astronomical（天文的）。",
-              "mnemonic": "ergo-（工作）+ nomic（规律）= 「让工作符合规律」。记忆口诀：ergonomic 是「身体的经济学」——用最少的力气干最多的活。和 economic 长相相似，一个管钱的效率，一个管身体的效率。",
-              "exampleEn": "The startup designed an ergonomic keyboard that reduces wrist strain for software engineers who type for eight hours a day.",
-              "exampleCn": "这家初创公司设计了一款符合人体工程学的键盘，可减轻每天打字八小时的软件工程师的手腕疲劳。"
-            },
-            {
-              "word": "workflow",
-              "pos": "n.",
-              "meaning": "工作流程，完成某项任务的一系列步骤或过程。在 SaaS、创意工作和项目管理中极为常见，比 process（流程）更强调步骤间的连贯性与自动化潜力。「disrupt one's workflow（打乱工作流程）」是科技报道中的高频搭配，值得整体记忆。",
-              "etymology": "英语复合词，work（工作）+ flow（流动）。20世纪随工业管理学兴起而广泛使用，后在软件工程和创意产业中成为核心术语。flow 本义指液体流动，引申为「顺畅推进」的状态。",
-              "morphology": "work + flow 直接复合构成。相关词：workflow automation（工作流自动化）、workflow management（工作流管理）。近义词梯度：routine（例行程序，偏个人）→ process（流程，偏正式）→ workflow（含自动化潜力）→ pipeline（管道，偏数据/软件开发）。",
-              "mnemonic": "联想「go with the flow（顺势而为）」——workflow 就是让工作「跟着流动」的设计。想象一条流水线，每道工序顺畅衔接，一气呵成，那就是 workflow 顺畅；卡在某个环节，就是 workflow disrupted（流程中断）。",
-              "exampleEn": "Switching from a physical keyboard to a touchscreen disrupted the journalist's workflow and slowed her article output by 30%.",
-              "exampleCn": "从实体键盘换成触屏后，这位记者的工作流程被打乱，文章产出速度下降了30%。"
-            }
-          ]
-        },
-        {
-          "id": "20260705-5",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-          "headlineEn": "Google Ad Imagines Founding Fathers Drafting Declaration of Independence with AI",
-          "headlineCn": "谷歌广告设想：如果开国元勋用AI起草《独立宣言》",
-          "summaryEn": "To mark the 250th anniversary of the Declaration of Independence, Google released a commercial envisioning America's Founding Fathers using Google Workspace to draft the historic document. The ad blends patriotic nostalgia with AI-assisted productivity, positioning Google's suite as a catalyst for transformative ideas. It sparks debate about AI's role in human creativity and illustrates how tech companies are weaving artificial intelligence into cultural milestones to deepen brand relevance.",
-          "summaryCn": "在《独立宣言》签署250周年之际，谷歌推出一支创意广告，设想美国开国元勋们借助Google Workspace起草这份历史性文件。广告将爱国情怀与AI辅助写作相融合，引发公众对人工智能在人类创作中角色的广泛讨论。这也展现出科技公司如何将AI嵌入重大文化节点，以强化品牌共鸣、扩大市场影响力。",
-          "excerpt": "Two hundred and fifty years after America's Founding Fathers signed the Declaration of Independence, Google's new commercial poses a bold question: what if Thomas Jefferson had Google Workspace at his fingertips? The ad reimagines a landmark moment in history through the lens of AI-assisted collaboration.",
-          "vocab": [
-            {
-              "word": "envision",
-              "pos": "v.",
-              "meaning": "想象、展望（尤指对积极未来的主动构想）。比 imagine 更正式，常见于商业计划、产品发布和战略演讲，强调「把未来画面主动装进脑海」的意志感，是科技公司CEO演讲中的超高频词，值得优先掌握",
-              "etymology": "来自法语 en-（使进入某状态）加 vision（视觉），词根源自拉丁语 visio（看见）。字面义为「使某事进入视野」，16世纪起进入英语，最初用于宗教「异象」语境，后演变为世俗的「构想未来」",
-              "morphology": "en-（使成为）+ vision（看见）。同前缀词：enable, enrich, encompass；同词根词：visible, visual, supervise, provision。掌握词根 vis-/vid- 可串联一族「视觉系」词汇",
-              "mnemonic": "把 en-vision 理解为「把画面装进你的眼球」——想象 Steve Jobs 站在台上，眼前投影出未来世界，那种「我看见了未来」的气势就是 envision。听到 CEO 演讲开口就用这个词，画面感极强",
-              "exampleEn": "The startup's pitch deck opened with a bold statement: 'We envision a world where every small business has access to enterprise-grade AI tools.'",
-              "exampleCn": "这家初创公司的路演幻灯片以一句大胆宣言开场：「我们展望一个每家小企业都能使用企业级AI工具的世界。」"
-            },
-            {
-              "word": "counterfactual",
-              "pos": "adj. / n.",
-              "meaning": "反事实的；「如果历史不同会怎样」的假设性情景。AI研究中指「反事实推理」（counterfactual reasoning），投资复盘中指「假设另一种策略会怎样」。比 hypothetical 更精确，专指与已知事实相反的假设，是分析类英文写作的利器",
-              "etymology": "counter-（反对）来自拉丁语 contra；factual 源自拉丁语 factum（已做之事，即 fact 的词根）。合义「与事实相对的」，20世纪中期由哲学家和逻辑学家引入英语，后被AI与机器学习领域大量采用",
-              "morphology": "counter-（反）+ fact（事实）+ -ual（形容词后缀）。同前缀词：counterpart, counterintuitive, countermeasure；同词根词：artifact, manufacture, factor。理解词根 fact- 可连接一族「做/事实」相关词",
-              "mnemonic": "counter 有「柜台」也有「反击」之意，factual 是「事实性的」。想象你站在「事实柜台」的对面说：「不对，如果当初那样做，结果应该是……」——这就是 counterfactual 分析，AI论文里的常客",
-              "exampleEn": "The research team ran a counterfactual analysis to estimate how much revenue the company would have lost had it not adopted cloud infrastructure in 2020.",
-              "exampleCn": "研究团队进行了反事实分析，以估算该公司若未在2020年采用云基础设施将损失多少收入。"
-            },
-            {
-              "word": "evoke",
-              "pos": "v.",
-              "meaning": "唤起、引发（情感、记忆或联想）。品牌营销、产品设计和广告文案中的核心词，比 trigger（触发）更具温度，强调情感共鸣而非单纯刺激。掌握此词可大幅提升品牌和设计类英文写作的质感，与 provoke、invoke 是易混三兄弟",
-              "etymology": "来自拉丁语 evocare：e-（向外）加 vocare（呼唤）。原义是「呼唤神灵显现」，为古罗马宗教仪式用词。约17世纪进入英语，演变为「唤起记忆或情感」的世俗含义",
-              "morphology": "e-（向外）+ voc（声音/呼唤）词根。同词根词：vocal, vocation, advocate, provoke, invoke。三词区分：provoke 偏「激怒」，invoke 偏「正式调用」，evoke 偏「情感唤起」，语域各有侧重",
-              "mnemonic": "evoke = e（出来）+ voke（voice 声音的变体）——用广告词、旋律、画面把深藏心底的情感「叫出来」。品牌设计师最爱说「This design evokes trust and warmth」，记住这个场景就记住这个词",
-              "exampleEn": "Apple's product launches are carefully choreographed to evoke a sense of wonder and aspiration in the audience.",
-              "exampleCn": "苹果的产品发布会经过精心编排，旨在唤起观众内心的惊奇感与对美好生活的向往。"
-            },
-            {
-              "word": "commemorate",
-              "pos": "v.",
-              "meaning": "纪念、庆祝（某一重要历史事件或人物）。企业常用于周年营销活动（如「to commemorate our 10th anniversary」）。比 celebrate 更庄重，带有向过去致敬的仪式感，常出现于新闻稿、品牌声明和官方公告",
-              "etymology": "来自拉丁语 commemorare：com-（共同、加强语气）加 memorare（记住），词根 memor 表示「记忆」，与 memory、memorial 同源。原为宗教仪式中「共同铭记」之义，后泛化为一般性纪念",
-              "morphology": "com-（共同）+ memor（记忆）+ -ate（动词后缀）。同词根词：memory, memorial, memorize, memorable；同前缀词：community, combine, commerce。掌握词根 memor- 可串联所有「记忆」类词汇",
-              "mnemonic": "com（一起）加 memory（记忆）等于「大家一起记住某件事」。想象公司全员手捧蛋糕，背景展示创始人照片，commemorate 公司创立十周年——这个画面就是这个词的完美注脚",
-              "exampleEn": "The tech giant launched a limited-edition product line to commemorate the 30th anniversary of its founding, generating significant media coverage.",
-              "exampleCn": "这家科技巨头推出了限量版产品线以纪念创立30周年，引发了大量媒体报道。"
-            },
-            {
-              "word": "speculative",
-              "pos": "adj.",
-              "meaning": "推测性的；基于假设而非已知事实的。在科技/金融中有两大用法：①「speculative investment」指高风险投机性投资；②「speculative scenario」指推测性情景分析。同一个词在不同语境意思差异显著，务必结合上下文判断，避免误读",
-              "etymology": "来自拉丁语 speculari（瞭望、侦察），词根 specul- 与 spectare（看）同源，原义为「从高处观察地形」。中世纪哲学引申为「理论性推思」，17世纪进入英语后同时发展出「猜测」和「投机」双义",
-              "morphology": "speculat（推测）+ -ive（形容词后缀）。同词根词：speculate, speculation, spectacle, inspect, prospect, perspective。金融高频搭配：speculative bubble（投机泡沫）、speculative grade（投机级债券）",
-              "mnemonic": "spec 联想 spectacle（眼镜/奇观），你透过望远镜眺望遥远的未来——那些「看到的东西」都是模糊不确定的猜测，就是 speculative。投资里「speculative stock」就是那些只能靠望远镜猜涨跌的股票",
-              "exampleEn": "While the roadmap remains speculative, analysts believe the company is on track to launch its autonomous vehicle platform within five years.",
-              "exampleCn": "尽管路线图仍具推测性，分析师认为该公司有望在五年内推出自动驾驶汽车平台。"
             }
           ]
         }
