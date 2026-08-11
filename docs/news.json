@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-09T23:05:14.517547+00:00",
+  "lastUpdated": "2026-08-11T02:08:33.964558+00:00",
   "level": "B2",
   "days": {
+    "2026-08-11": {
+      "label": "8月11日 (周二)",
+      "stories": [
+        {
+          "id": "20260811-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+          "headlineEn": "Meta to Open-Source Its Most Powerful AI Model, Taking a Swipe at OpenAI and Anthropic",
+          "headlineCn": "Meta开源最强AI模型 剑指OpenAI、Anthropic",
+          "summaryEn": "Meta unveiled its Muse Glimmer AI model and confirmed plans to release the weights for Muse Spark 1.2, a move that lets developers download and modify the system rather than access it only through an API. The decision, driven by Mark Zuckerberg's push for U.S. dominance in open AI development, positions Meta against competitors OpenAI and Anthropic, which keep their flagship models proprietary. Open-sourcing could accelerate global uptake of Meta's technology and pressure peers to reconsider their closed strategies, reshaping how the AI industry balances openness with commercial advantage.",
+          "summaryCn": "Meta发布Muse Glimmer模型，并确认将开放Muse Spark 1.2的权重，允许开发者下载修改系统，而非仅通过API调用。此举源于扎克伯格力推美国主导开放AI，使Meta与坚持闭源专有策略的OpenAI、Anthropic形成对比，或将加速其技术全球普及，促使同行重新审视封闭策略。",
+          "excerpt": "Meta unveiled Muse Glimmer and confirmed it will release the weights behind Muse Spark 1.2, letting developers freely download and modify the model. Mark Zuckerberg framed the move as part of a broader push for U.S. leadership in open AI, directly challenging OpenAI and Anthropic's closed approach.",
+          "vocab": [
+            {
+              "word": "take a swipe at",
+              "pos": "phrase",
+              "meaning": "「趁机批评/含蓄攻击」——不点名却意图明显的批评，常见于新闻标题描述企业或政客间的隐性交锋，比criticize更带一点挑衅和随意的语气。",
+              "etymology": "短语，源自拳击/棒球中swipe（挥击、扫打）的动作，19世纪起口语化为猛地一击，20世纪转喻为言语攻击。",
+              "morphology": "swipe本身为拟态词，模仿挥臂声；常见搭配take a swipe at、swipe left/right（划走）、swipe card（刷卡），词形不易再拆分。",
+              "mnemonic": "想象有人擦肩而过时随手挥了一下（swipe），不是正面交手，只是顺带甩出一击——这正是take a swipe at的语感：捎带着讽刺一下。",
+              "exampleEn": "The CEO took a swipe at rival startups during the earnings call, calling their pricing unsustainable.",
+              "exampleCn": "这位CEO在财报电话会议上顺带讽刺了竞争对手的初创公司，称其定价方式不可持续。"
+            },
+            {
+              "word": "flagship",
+              "pos": "n./adj.",
+              "meaning": "「旗舰产品/拿手项目」——一家公司最重要、最具代表性的产品或业务，隐喻自海军旗舰，比main product更强调地位和象征意义。",
+              "etymology": "源自航海用语，flag（旗帜）+ship（船），指舰队司令官所在、悬挂指挥旗的主力战舰，17世纪英语军事用语。",
+              "morphology": "flag（旗）+ ship（船）复合词；同类比喻构词如flagship store（旗舰店）、flagship model（旗舰机型）。",
+              "mnemonic": "想象一支船队里插着最大旗帜、走在最前面的那艘船——公司的flagship产品就是那艘领航旗舰，最显眼、最能代表实力。",
+              "exampleEn": "Muse Spark is now Meta's flagship AI model, competing directly with the industry's top closed systems.",
+              "exampleCn": "Muse Spark如今是Meta的旗舰AI模型，直接与行业顶尖的闭源系统竞争。"
+            },
+            {
+              "word": "proprietary",
+              "pos": "adj.",
+              "meaning": "「专有的、私有产权的」——技术或产品归某公司独家所有、不公开细节，常与open-source相对，比private更强调法律产权和商业垄断意味。",
+              "etymology": "源自拉丁语proprietarius（所有者的），源自proprius（自己的、专属的），16世纪进入英语指法律上的所有权。",
+              "morphology": "propri-（自己的）+ -etary（形容词后缀）；同源词有property（财产）、appropriate（挪用）、proprietor（业主）。",
+              "mnemonic": "记住proprietor是店主，proprietary就是像店主一样把技术锁在自己店里——不对外公开，只有主人能用。",
+              "exampleEn": "Unlike Meta's open models, OpenAI's flagship system remains proprietary and accessible only via API.",
+              "exampleCn": "与Meta的开放模型不同，OpenAI的旗舰系统仍属专有技术，只能通过API访问。"
+            },
+            {
+              "word": "weights",
+              "pos": "n.",
+              "meaning": "（机器学习语境）「模型权重」——神经网络训练后得到的数值参数，是模型真正的核心，公开weights意味着任何人都能下载并直接运行、微调模型，而不仅是调用接口。",
+              "etymology": "日常词weight（重量）源自古英语wiht，本义重量、分量；20世纪后期被机器学习借用，指神经元连接的数值强度。",
+              "morphology": "weigh（称重，动词）+ -t（名词化）；派生词包括weighted（加权的）、outweigh（超过）、counterweight（配重）。",
+              "mnemonic": "把神经网络想象成一台天平，每个连接上都挂着不同砝码（weight）决定信号强弱——发布weights就是把这些砝码的数值全部公开。",
+              "exampleEn": "Releasing the model's weights lets researchers fine-tune it locally instead of relying on a paid API.",
+              "exampleCn": "公开模型权重让研究者可以在本地对其进行微调，而不必依赖付费API。"
+            },
+            {
+              "word": "trail",
+              "pos": "v.",
+              "meaning": "「落后于、被甩在后面」——在竞赛、排名或技术进展中处于劣势，比lose更强调持续追赶中的差距，常用于描述公司间的技术或市场份额比较。",
+              "etymology": "源自古法语trailler（拖拽、拖曳），13世纪进入英语，本义拖在后面，后引申为比赛或竞争中落后。",
+              "morphology": "trail作动词/名词同形；派生词有trailer（拖车/预告片）、trailing（拖尾的，如trailing edge尾部效应）。",
+              "mnemonic": "想象登山队伍里走在最后、拖着脚步的人（trail本义是拖曳）——在AI竞赛里，暂时trail的公司就是还在后面追赶的选手。",
+              "exampleEn": "Despite its recent launch, Meta still trails OpenAI in enterprise adoption of large language models.",
+              "exampleCn": "尽管近期发布了新模型，Meta在大语言模型的企业端普及上仍落后于OpenAI。"
+            }
+          ]
+        },
+        {
+          "id": "20260811-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
+          "headlineEn": "SpaceX Stock Rallies Past $135 IPO Price for First Time in Weeks",
+          "headlineCn": "SpaceX股价反弹，收盘价数周来首次突破135美元发行价",
+          "summaryEn": "SpaceX shares closed above their $135 IPO price this week, the first time they have done so in several weeks. The rally came after the company reported second-quarter revenue that exceeded analyst expectations, easing concerns that had weighed on the stock. Because SpaceX shares trade on private markets rather than a public exchange, moves like this offer one of the few real-time signals of how investors are pricing the company's growth, from Starlink subscriptions to Falcon and Starship launch schedules. Reclaiming the IPO level suggests renewed confidence after weeks of softer sentiment.",
+          "summaryCn": "SpaceX股价本周收盘价重新站上135美元的发行价，这是数周以来的首次。此前公司公布的第二季度营收超出分析师预期，缓解了此前笼罩股价的担忧情绪。由于SpaceX股票在私募市场而非公开交易所流通，这类价格波动是投资者如何为公司增长定价的少数实时信号之一，涵盖星链订阅业务到猎鹰与星舰发射计划。重新夺回发行价水平，意味着在数周情绪偏弱之后，市场信心有所回升。",
+          "excerpt": "SpaceX reported stronger-than-expected revenue in its second-quarter earnings last week, and the momentum has carried into the stock market: shares have now closed above the company's $135 IPO price for the first time in weeks, a sign that investor sentiment is turning more positive.",
+          "vocab": [
+            {
+              "word": "reclaim",
+              "pos": "v.",
+              "meaning": "夺回、重新取得（原本拥有但一度失去的东西）；金融语境常用于股价重新站上某个关键点位，比regain更强调「从被拿走的状态中要回来」的主动感和一点点胜利感。",
+              "etymology": "来自古法语reclamer，进一步溯源到拉丁语re-（再次）+clamare（呼喊、宣称）。原义是再次呼喊主张所有权，后引申为要回、收复。",
+              "morphology": "re-（重新）+ claim（拉丁clamare宣称）。同根词：claim（主张、索赔）、exclaim（惊呼，ex-向外+claim）、proclaim（宣布，pro-向前+claim）、disclaim（否认，dis-否定+claim）。",
+              "mnemonic": "想象股价像一块被别人抢走的领土，公司股价reclaim这个IPO价位，就像举着旗子喊「这块地是我的」把它夺回来——claim本身就带呼喊主张的画面感。",
+              "exampleEn": "After a rocky quarter, the company reclaimed its pre-IPO valuation once revenue growth resumed.",
+              "exampleCn": "在经历了动荡的一个季度后，随着营收增长恢复，公司重新夺回了IPO前的估值水平。"
+            },
+            {
+              "word": "rally",
+              "pos": "n./v.",
+              "meaning": "（股价、市场的）快速上涨、反攻；比rise或increase更带集体动能和士气回升的画面，常用来形容一波持续多日的上涨行情。",
+              "etymology": "源自法语rallier，由re-（重新）+allier（拉丁alligare，绑在一起）构成，原指军队重新集结，17世纪后引申到金融市场表示价格重新聚拢上涨。",
+              "morphology": "词根与ally（盟友）、alliance（联盟）同源，都来自alligare（系在一起）。记住rally和ally是表亲：一个是集结军队，一个是结盟伙伴。",
+              "mnemonic": "把rally想象成溃散的士兵听到号角后重新集结、士气大振地反攻——股价下跌后突然被集结号叫醒，一路向上冲锋。",
+              "exampleEn": "Tech stocks staged a broad rally after the Fed hinted at slower rate hikes.",
+              "exampleCn": "在美联储暗示放缓加息后，科技股掀起了一波全面上涨行情。"
+            },
+            {
+              "word": "notch",
+              "pos": "v.",
+              "meaning": "（非正式地）取得、录得某个成绩或纪录，常用于财经新闻描述公司拿下某个数字或里程碑，比achieve更口语化、更有刻下一道记号的具体感。",
+              "etymology": "名词notch源自中古英语，可能与古法语oche（刻痕）相关；本义是刻在木头上的凹槽，用来记数或计分，19世纪后动词化，引申为记录下一次成绩。",
+              "morphology": "notch本身是简单词，不可再拆分。常见搭配：notch a win（赢一场）、notch a record（创纪录）、notch up（记上一笔）。",
+              "mnemonic": "想象古代猎人在木棍上刻一道痕notch来记录猎物数量——公司每notch一次营收纪录，就像在成绩单上多刻一道痕迹。",
+              "exampleEn": "The company notched its strongest quarterly revenue since going public.",
+              "exampleCn": "该公司录得了自上市以来最强劲的季度营收。"
+            },
+            {
+              "word": "print",
+              "pos": "v.",
+              "meaning": "交易黑话，指价格、数据被记录打印出来，即某个价格实际成交或某项数据正式公布；比report更贴近交易员口语，暗示这是市场上实打实出现的数字。",
+              "etymology": "源自古法语preinte，拉丁语premere（按压）。原义是按压留下印记，印刷术兴起后指印刷，20世纪金融交易中引申为价格被记录在行情纸带上。",
+              "morphology": "与press同源（premere压），比较impress（印象，im-向内+press）、express（表达，ex-向外+press）、compress（压缩，com-一起+press）。",
+              "mnemonic": "想象老式股票行情机吐出纸带，每一笔成交价都啪地打印在纸上——这就是print，价格一旦成交就像被机器盖了章、留下了实实在在的印记。",
+              "exampleEn": "Shares printed a new 52-week high before paring some of the gains.",
+              "exampleCn": "股价一度创下52周新高，随后回吐了部分涨幅。"
+            },
+            {
+              "word": "close",
+              "pos": "v.",
+              "meaning": "特指股票在某个交易日收盘于某价位，和日常关门的意思完全不同；财经报道几乎离不开这个词，但很多学习者只学过关闭这一层，忽略了它作为交易日定格价格的专业用法。",
+              "etymology": "源自拉丁语claudere（关闭、封住），经古法语clos进入英语。金融语境的收盘义是引申用法：一天的交易像被关上，定格在最后一个成交价。",
+              "morphology": "与closure（结束）、enclose（围住，en-进入+close）、disclose（披露，dis-打开+close，字面反着关即揭开）同根。记住disclose字面矛盾感：把关闭反过来就是揭露。",
+              "mnemonic": "把交易日想象成一扇门，收盘价就是这扇门关上前最后定格的那个瞬间的价格——门咔哒一关close，当天的价格就再也不变了。",
+              "exampleEn": "The stock closed at $138, its highest finish in over a month.",
+              "exampleCn": "该股收盘价为138美元，创下一个多月来的最高收盘水平。"
+            }
+          ]
+        },
+        {
+          "id": "20260811-3",
+          "category": "econ",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/10/archer-buys-former-rival-wisk-aero/",
+          "headlineEn": "Archer Aviation Buys Former Rival Wisk Aero, Ending Years-Long IP Feud",
+          "headlineCn": "Archer收购昔日对手Wisk Aero，了结商业机密纠纷",
+          "summaryEn": "Archer Aviation has agreed to acquire Wisk Aero, the Boeing-backed eVTOL air-taxi maker that once accused Archer of trade secret theft in a bitter 2021 lawsuit. The two settled that dispute out of court, and now Wisk will be folded into Archer's operations rather than compete against it. The deal marks a striking reversal for two firms that were once locked in litigation, and signals consolidation in the young, capital-intensive electric air-taxi industry as fewer players race toward certification.",
+          "summaryCn": "Archer Aviation宣布收购Wisk Aero——这家由波音支持的电动垂直起降（eVTOL）空中出租车公司，曾在2021年指控Archer窃取商业机密并对簿公堂。如今双方庭外和解，Wisk将被并入Archer，而不再是竞争对手。这笔交易标志着两家昔日诉讼对手关系的戏剧性反转，也反映出这个仍处早期、资金密集的电动空中出租车行业正在走向整合，竞争者数量进一步收窄。",
+          "excerpt": "The two companies were once embroiled in a bitter trade secret theft lawsuit that dragged on for years. Now, in a striking turnaround, Wisk Aero is being absorbed into Archer, its former courtroom rival, as the electric air-taxi industry consolidates around fewer, better-funded players.",
+          "vocab": [
+            {
+              "word": "absorb",
+              "pos": "v.",
+              "meaning": "收购后将其纳入公司体系，比merge更强调「被并吞、失去独立性」的语感，商业新闻里常用于弱势一方被大公司吞并的场景。",
+              "etymology": "源自拉丁语absorbere，ab-（远离）+ sorbere（吸、啜饮），本义为「吸干、吸尽」，16世纪起引申出「吸收、并入」之意，18世纪进入商业语境表示公司被并购。",
+              "morphology": "ab-（表分离/彻底）+ sorb（吸收词根，来自sorbere）；同根词：absorption(n. 吸收/合并)、absorbent(adj. 吸水的)、sorbet(源自同一拉丁词根，本义啜饮的饮品)。",
+              "mnemonic": "想象一块海绵把一滴水完全吸进去，水滴的形态从此消失——公司被absorb后就像那滴水，独立品牌不复存在，只剩下被吸收的痕迹。",
+              "exampleEn": "Once the acquisition closes, the startup's engineering team will be absorbed into the parent company's autonomy division.",
+              "exampleCn": "收购完成后，这家初创公司的工程团队将被并入母公司的自动驾驶部门。"
+            },
+            {
+              "word": "bury the hatchet",
+              "pos": "phrase",
+              "meaning": "化干戈为玉帛、和解，源自北美原住民的和平仪式，商业新闻里常用来形容曾打官司的对手最终握手言和，比「resolve a dispute」更生动、更强调过去积怨已深。",
+              "etymology": "源自17世纪北美原住民（尤其是易洛魁联盟）的和平仪式——交战双方达成停战协议后会把战斧埋入地下，象征战争结束；该短语被英语殖民者借用后逐渐比喻化解私人恩怨。",
+              "morphology": "短语/复合词，无独立词源；由动词bury（埋葬）+ 名词hatchet（小斧）构成，字面「埋葬斧头」。",
+              "mnemonic": "脑补两个曾互相起诉的CEO，当众把一把斧头埋进土里，握手言和——画面感强，一看到「hatchet」就联想到埋掉的恩怨。",
+              "exampleEn": "After three years of litigation, the two founders finally buried the hatchet and agreed to a joint venture.",
+              "exampleCn": "经过三年的诉讼后，两位创始人终于握手言和，同意成立合资公司。"
+            },
+            {
+              "word": "poach",
+              "pos": "v.",
+              "meaning": "挖角、盗猎，商业语境里指从竞争对手那里挖走员工、技术或客户，带有偷偷摸摸、不太光彩的语感，比「hire away」更传神。",
+              "etymology": "源自古法语pocher，本义「戳、刺入口袋」，16世纪英语中演变为「非法捕猎他人领地上的猎物」，19世纪末引申到商业领域表示挖走对手的人才或资源。",
+              "morphology": "不可拆解的简单词；常见派生：poacher(n. 盗猎者/挖角者)、poaching(n./v-ing 挖角行为)。",
+              "mnemonic": "想象一个猎人偷偷溜进邻居的猎场抓走猎物——公司挖角对手员工就像「poaching」别人地盘上的人才，理直气壮不起来。",
+              "exampleEn": "The lawsuit alleged that engineers had poached proprietary flight-control algorithms before jumping to the rival startup.",
+              "exampleCn": "诉讼指控这些工程师在跳槽到竞争对手初创公司之前，窃取了专有的飞控算法。"
+            },
+            {
+              "word": "fold into",
+              "pos": "phrasal v.",
+              "meaning": "并入、纳入某个更大的组织或体系，语气比「merge with」更柔和、更强调被动融入，常用于描述小公司或部门被整合进大公司架构。",
+              "etymology": "短语/复合词，无独立词源；由fold（源自古英语faldan，折叠）+ into组合而成，字面「折叠进入」，20世纪起在商业英语中比喻整合进另一实体。",
+              "morphology": "fold(基础动词，折叠) + into(介词，表方向)；相关表达：fold up(倒闭/收摊)、unfold(展开，反义方向的比喻用法)。",
+              "mnemonic": "想象把一张纸对折后塞进一个大文件夹里——「fold into」就是这种被塞进去、成为其中一部分的动作感。",
+              "exampleEn": "Wisk's autonomous-flight team will be folded into Archer's engineering organization over the next few months.",
+              "exampleCn": "未来几个月，Wisk的自动飞行团队将被并入Archer的工程组织。"
+            },
+            {
+              "word": "settle",
+              "pos": "v.",
+              "meaning": "（庭外）和解、了结纠纷，特指诉讼双方达成协议结束官司，区别于「resolve」（泛指解决问题）——settle特指法律或商业纠纷的正式了结，常搭配a lawsuit/a dispute/a claim。",
+              "etymology": "源自古英语setlan，意为「使坐下、安顿」，与seat同源；16世纪引申出「使稳定、了结账目或争端」之意，19世纪固定为法律术语「庭外和解」。",
+              "morphology": "不可拆解的基础词；常见派生：settlement(n. 和解协议/定居点)、settler(n. 定居者)、unsettled(adj. 未解决的/动荡的)。",
+              "mnemonic": "联想「settle down」（安定下来）——两家公司打官司就像坐立不安，一旦settle，双方就像终于坐定，纷争尘埃落定。",
+              "exampleEn": "The two companies settled their trade-secret dispute as part of the acquisition agreement.",
+              "exampleCn": "作为收购协议的一部分，两家公司了结了商业机密纠纷。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-10": {
       "label": "8月10日 (周一)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "mnemonic": "古代用烙铁在皮肤上烙下「stigma」（烙印），永久洗不掉——现代引申为社会给某类事物贴的「永久负面标签」。智能眼镜的 stigma：「你戴着它，周围人都觉得你在偷拍」，这个印象比技术本身更难消除。",
               "exampleEn": "Fintech lenders are working to remove the stigma around buy-now-pay-later products by rebranding them as budgeting tools rather than debt instruments.",
               "exampleCn": "金融科技贷款机构正努力消除「先买后付」产品的污名，将其重新定位为预算管理工具而非债务工具。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-06": {
-      "label": "7月6日 (周一)",
-      "stories": [
-        {
-          "id": "20260706-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
-          "headlineEn": "AI Frenzy Drives Nearly 90 New Unicorn Startups in 2026",
-          "headlineCn": "AI投资热潮催生近90家独角兽企业",
-          "summaryEn": "The global startup ecosystem is experiencing a remarkable surge, with nearly 90 companies achieving unicorn status — a valuation of $1 billion or more — in the first half of 2026. Artificial intelligence has been the primary catalyst, igniting an investor frenzy that has accelerated funding rounds and driven valuations to record highs. This rapid pace of unicorn creation reflects both the transformative potential investors see in AI and the intensity of competition for stakes in promising early-stage companies.",
-          "summaryCn": "2026年上半年，全球初创企业生态系统迎来强劲增长，已有近90家企业跻身独角兽行列（估值逾10亿美元）。人工智能成为主要推手，点燃了投资者热情，加速了融资轮次，将估值推向历史新高。独角兽诞生速度的加快，折射出投资者对AI变革潜力的高度认可，以及各方对早期优质资产的激烈争夺。",
-          "excerpt": "With artificial intelligence igniting an investor frenzy unlike anything seen in recent years, the startup world is producing new unicorns at a breathtaking pace. Nearly 90 companies have crossed the billion-dollar valuation threshold in 2026 alone, signaling that AI-driven optimism continues to reshape venture capital priorities worldwide.",
-          "vocab": [
-            {
-              "word": "frenzy",
-              "pos": "n.",
-              "meaning": "狂热，疯狂状态。商业语境中常搭配 investor frenzy（投资狂热）或 buying frenzy（抢购热潮），比 enthusiasm 更强调情绪化和非理性的集体行为，隐含泡沫风险，是形容市场过热的高频新闻词。",
-              "etymology": "来自希腊语 phrenitis（脑炎、精神错乱），经中世纪拉丁语 phrenesia 和古法语 frenesie 演变而来，原指由疾病引发的神志混乱，后语义拓展至任何强烈的情绪失控状态。",
-              "morphology": "词根源自希腊语 phren（心智、横膈膜），古希腊人认为心智藏于横膈膜；同根词有 frantic（狂乱的）、phrenology（颅相学）；派生词 frenzied（adj. 疯狂的），frenzied buying 是财经报道的标配搭配。",
-              "mnemonic": "frenzy 的「fr-」与 frantic（狂乱）共享开头——两个词都描述失控状态，记住一个等于记住两个。想象华尔街交易所里投资者疯狂敲键盘的画面，那种集体失控就是 frenzy。",
-              "exampleEn": "The launch of the new AI chip triggered a buying frenzy among institutional investors, pushing the stock up 40% in a single session.",
-              "exampleCn": "新款AI芯片的发布在机构投资者中引发了一阵抢购狂热，使股价在单日内飙升40%。"
-            },
-            {
-              "word": "ignite",
-              "pos": "v.",
-              "meaning": "点燃，引发（激烈反应）。在商业报道中常描述某事件如何「点燃」市场热情或争议，比 trigger 更有「星星之火」的意象，暗含被点燃的事物随后会迅速蔓延；常见搭配：ignite enthusiasm / ignite a debate / ignite growth。",
-              "etymology": "来自拉丁语 ignire（使燃烧），源自 ignis（火）。ignis 是印欧语系词根 *egnis 的后代，在梵语中对应 agni（火神阿耆尼），体现了印欧语系对「火」这一概念共同的古老词源。",
-              "morphology": "词根 ign-（火）；同根词有 igneous（火成岩的）、ignition（点火装置）；派生形式：ignition（n.）、ignitable（adj.）；与火相关的商业比喻还有 spark、kindle、fuel，这四个词构成一组从弱到强的强度梯队。",
-              "mnemonic": "ignite → ignition（点火装置）：钥匙插入车门旋转，发动机点火，这个动作就是 ignition，往前一步就是 ignite。AI点燃（ignite）了投资者热情，就像钥匙点燃了引擎。",
-              "exampleEn": "The CEO's announcement at CES ignited enthusiasm across the semiconductor sector, sparking a wave of analyst upgrades.",
-              "exampleCn": "首席执行官在CES上的发言点燃了半导体行业的热情，引发了一波分析师上调评级的浪潮。"
-            },
-            {
-              "word": "unicorn",
-              "pos": "n.",
-              "meaning": "独角兽企业（估值超过10亿美元的未上市创业公司）。创投领域核心术语，由VC Aileen Lee于2013年首创；理解其比喻根源——独角兽象征极度稀有——有助于体会这个词从「奇迹」变为「常态」的语义漂移，读懂科技财经报道的必备词。",
-              "etymology": "来自拉丁语 unicornis（独角兽），由 uni-（一）+ cornu（角）合成，对应希腊语 monokerōs。作为商业术语由风险投资人 Aileen Lee 在2013年首创，当时全球此类公司仅39家，堪称「神话般稀有」。",
-              "morphology": "uni-（一，如 uniform 统一、universe 宇宙、unique 独一无二）+ corn/cornu-（角，如 cornucopia 丰收角）；已衍生出估值梯队专属词族：unicorn（10亿+）→ decacorn（100亿+）→ hectocorn（1000亿+），构成创投英语独特的量级词系。",
-              "mnemonic": "uni（唯一）+ corn（角）= 独一无二的独角兽。想象它额头上戴着写有「$1B」的招牌角——只有估值超过10亿美元才能「长出」这根角。独角兽越来越多，但这个词的神话色彩提醒你它曾多么罕见。",
-              "exampleEn": "The fintech startup became Southeast Asia's latest unicorn after closing a $200 million Series D round that valued the company at $1.5 billion.",
-              "exampleCn": "这家金融科技初创公司完成2亿美元D轮融资，估值达到15亿美元，成为东南亚最新的独角兽企业。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值（对公司或资产价值的评估结果）。在创投语境中，valuation 通常指融资轮中投资人认可的公司价值，与实际盈利能力可能严重脱节；比 value 多了「被专业评估、被市场定价」的过程感，是融资文件和财经报道的高频核心词。",
-              "etymology": "来自中世纪拉丁语 valuationem，源自 valere（有价值、有力量），与 valid（有效的）、valor（勇气/价值）同源。词根 val- 在拉丁语中兼有「健康、强壮、有价值」三重含义，体现了「力量即价值」的古罗马观念。",
-              "morphology": "value（v./n.）+ -ation（名词后缀，表行为/过程/结果）；同族词链：value → valuable → valuation → overvaluation / undervaluation；常见复合搭配：pre-money valuation（融资前估值）、post-money valuation（融资后估值）、stretch valuation（拉伸估值）。",
-              "mnemonic": "valuation = value + action——对价值执行一个「动作（action）」，就是给它「定价」。想象一位估值师拿着放大镜检查公司，然后贴上价格标签，这个打标签的动作就是 valuation。",
-              "exampleEn": "The startup's valuation doubled to $4 billion after it demonstrated 300% year-on-year revenue growth at its latest funding round.",
-              "exampleCn": "这家初创公司在最新一轮融资中展示了300%的同比营收增长，估值随之翻番至40亿美元。"
-            },
-            {
-              "word": "threshold",
-              "pos": "n.",
-              "meaning": "门槛，临界值。在商业和金融语境中常描述触发某一状态的关键数值（如10亿美元的独角兽门槛），比 limit 或 bar 更强调「跨越前后截然不同」的质变感；常见搭配：cross/reach/hit a threshold、profitability threshold（盈亏临界点）。",
-              "etymology": "来自古英语 therscold/therscwald（门槛），可能与 thresh（打谷，用脚踩踏）和 wald（木材）相关，最初指字面上踏入房间时踩到的那块木头，后语义引申为任何「进入新状态」的临界点。",
-              "morphology": "古英语复合词，难以用前缀/后缀系统拆解；常见搭配族群：pain threshold（痛觉阈值）、tax threshold（纳税起征点）、profitability threshold（盈亏平衡点）、threshold effect（临界效应）；形容词用法 threshold-level 也常见于政策文件。",
-              "mnemonic": "想象农夫踏过（thresh=踩踏）门槛走入谷仓——跨过去才能「保住（hold）」粮食。商业语境中，跨过10亿美元的「门槛」，你就从普通创业公司变成了独角兽，是真正的「质变时刻」。",
-              "exampleEn": "Once a startup crosses the $1 billion valuation threshold, it enters a different tier of investor scrutiny and regulatory attention.",
-              "exampleCn": "一旦初创公司跨越10亿美元估值门槛，就会进入一个受到投资者和监管机构更严格审视的全新层级。"
-            }
-          ]
-        },
-        {
-          "id": "20260706-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/05/analysts-prefer-these-dividend-stocks-for-boosting-portfolio-returns.html",
-          "headlineEn": "Wall Street Analysts Reveal Top Dividend Stock Picks for Portfolio Returns",
-          "headlineCn": "华尔街分析师精选：这些高股息股有望提升投资组合回报",
-          "summaryEn": "Top Wall Street analysts have named their preferred dividend-paying stocks as income investing regains traction in 2026. With thousands of candidates available, selecting the right names requires rigorous screening for yield sustainability, earnings coverage, and long-term growth potential. Analysts at major research firms focus on companies with robust free cash flow and a consistent track record of dividend growth, aiming to help investors generate steady income while limiting downside risk in volatile markets.",
-          "summaryCn": "随着收益型投资重新受到市场青睐，华尔街顶级分析师公布了他们最看好的高股息股票名单。面对数千只派息股票，挑选合适标的需从股息可持续性、盈利覆盖率及长期增长潜力等维度进行严格筛选。各大研究机构分析师重点关注现金流稳健、股息记录良好的公司，旨在帮助投资者在震荡市场中获取稳定收益、控制下行风险。",
-          "excerpt": "With thousands of dividend-paying companies to choose from, identifying the right stocks demands more than chasing the highest yields. Top analysts screen for sustainable payout ratios, strong earnings coverage, and consistent dividend growth histories — making expert curation more valuable than ever for income-focused investors.",
-          "vocab": [
-            {
-              "word": "conviction",
-              "pos": "n.",
-              "meaning": "坚定信念；投资领域特指分析师对某只股票的强烈看好程度。与普通的 belief 不同，conviction 暗含专业判断和承担风险的意愿，常见搭配为「high-conviction pick」或「high-conviction trade」，出现在券商报告里往往意味着分析师愿意押上声誉背书",
-              "etymology": "来自拉丁语 convincere（彻底证明），由 con-（完全）和 vincere（征服、战胜）构成，原义「彻底战胜反对意见」，中世纪英语引申为「使人信服的定论」，进而演变为「坚定信念」",
-              "morphology": "con-（完全）+ vict（词根，征服）+ -ion（名词后缀）。同词根扩展：convince（说服）、victory（胜利）、convict（v. 定罪；n. 囚犯），帮助记住 vict- 的「战胜」核心义",
-              "mnemonic": "con（完全）+ vict（联想 victory 胜利）—— conviction 就是「完全赢得了内心那场战斗」。想象分析师在路演上拍桌子：「我对这只股票有十足的 conviction，所有质疑都被我驳倒了！」",
-              "exampleEn": "The analyst reiterated her high-conviction buy rating on the telecom giant after its earnings beat expectations.",
-              "exampleCn": "在电信巨头季报超预期后，该分析师重申了对其的强烈买入评级。"
-            },
-            {
-              "word": "screen",
-              "pos": "v.",
-              "meaning": "筛选、甄别；投资语境中特指根据财务指标或条件过滤股票，比 filter 更专业，常搭配介词 for（screen for dividend stocks），是量化选股流程的核心动词，能体现系统性分析的专业感",
-              "etymology": "来自古法语 escren（防护物、屏障），最初指分离谷物或矿石的「筛网」，17世纪引申为「遮蔽与审查」，20世纪进入金融领域，专指「按标准过滤候选项」",
-              "morphology": "screen 是不可拆解的简单词根。常见派生词：screening（n. 筛选过程）、screener（n. 选股工具）、pre-screen（v. 预筛）；复合词 screen time、silver screen 体现「过滤与展示」双重义",
-              "mnemonic": "想象把一大桶沙子倒进「纱窗（screen）」——只有细沙能穿过网眼。选股就是把几千只股票倒进财务指标的「筛网」，只有通过所有条件的才能留下来",
-              "exampleEn": "Portfolio managers typically screen for dividend stocks with a payout ratio below 60% and consistent earnings growth.",
-              "exampleCn": "基金经理通常会筛选派息率低于60%且盈利持续增长的股息股。"
-            },
-            {
-              "word": "outperform",
-              "pos": "v.",
-              "meaning": "超越（某基准或竞争对手）；在券商研究报告中，Outperform 是正式的股票评级，等同于「建议买入」，通常意味着分析师预期该股在未来12个月跑赢大盘。比日常英语的 do better than 更具权威性和行业背景",
-              "etymology": "由前缀 out-（超过、胜过）和 perform（表现）合成。out- 来自古英语 ūt（向外），表示「在某方面冲出、超越他人」，与「冲出去」的意象相关",
-              "morphology": "out-（超越）+ perform（表现）。同前缀词族：outpace（超速赶超）、outlast（比……持久）、outshine（比……耀眼）、outsell（销量超过）。掌握 out- 前缀即可解锁大量「超越类」商业词汇",
-              "mnemonic": "out = 冲出去；perform = 表现。「冲出去表现」就是跑赢同行。记住券商评级三级梯：Underperform（跑输，卖出信号）→ Neutral（中性持有）→ Outperform（跑赢，买入信号）",
-              "exampleEn": "The dividend fund has consistently outperformed its benchmark index over the past five years, attracting steady inflows.",
-              "exampleCn": "该股息基金在过去五年中持续跑赢基准指数，吸引了稳定的资金流入。"
-            },
-            {
-              "word": "yield",
-              "pos": "n. / v.",
-              "meaning": "（n.）收益率；特指股息或利息收入与资产价格之比，是股息投资的核心指标。需与 return（总回报，含资本利得）区分：yield 只计「定期现金流÷价格」。（v.）产生回报、带来收益。掌握这个词能读懂几乎所有股息类研报",
-              "etymology": "来自古英语 gieldan（支付、回报、给予应得之物），与德语 gelten（有价值）和荷兰语 gelden（有效）同源，原义「给予应得的报酬」，现代英语引申为「产生投资回报」",
-              "morphology": "yield 是古英语词根，无典型前后缀。主要派生和复合形式：yielding（adj. 产生收益的；也有「顺从」义）、high-yield（adj. 高收益的）、yield curve（收益率曲线）",
-              "mnemonic": "yield 谐音「一得」——投资一份，「一得」多少回报。或想象农田收割：农民种下种子，yield（收获）就是土地「给予你的报酬」。股息 yield 就是公司「给你的那份庄稼」",
-              "exampleEn": "A stock's yield can compress sharply if the share price rallies faster than the annual dividend payout grows.",
-              "exampleCn": "如果股价涨幅远超年度股息增幅，该股的股息收益率就会被大幅压缩。"
-            },
-            {
-              "word": "curate",
-              "pos": "v.",
-              "meaning": "精心遴选、策展式筛选；原指博物馆策展人的工作，现广泛用于商业和媒体语境，指从海量选项中凭借专业眼光挑出最优内容或资产。比 select（选择）更强调「品味、专业判断和责任感」，暗示选者为质量背书",
-              "etymology": "来自拉丁语 curare（照料、关注），词根 cura 意为「照管与关心」。curator（策展人）、cure（治疗）、accurate（精确，ac-+cura-=全神贯注于准确）皆同源，共享「专注照管某物」的语义核心",
-              "morphology": "curat-（拉丁词根，照料）+ -e（动词后缀）。同根词族：curator（策展人）、curative（adj. 有疗效的）、accurate（精确的）、procure（采购，pro+cure=提前照管）",
-              "mnemonic": "curate 联想「库管人（curator）」——博物馆管理员戴白手套，对每件展品反复审视才决定上架。分析师推荐股票时就像策展人，不是随便选，而是为每一只「负责任地照管（cure）」",
-              "exampleEn": "The research desk curated a watchlist of twelve dividend stocks with rising payouts and investment-grade balance sheets.",
-              "exampleCn": "研究部门精心筛选出十二只股息持续提升、资产负债表达到投资级的高息股纳入观察名单。"
-            }
-          ]
-        },
-        {
-          "id": "20260706-3",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/opec-raises-output-levels-again-despite-tumbling-crude-prices-534791c8?mod=mw_rss_topstories",
-          "headlineEn": "OPEC+ Raises Output Again Despite Tumbling Crude Prices",
-          "headlineCn": "欧佩克+再度增产，原油价格持续下挫",
-          "summaryEn": "OPEC+ agreed Sunday to modestly increase crude oil production for another month, extending a pattern of incremental output hikes. Yet analysts warn the move is largely symbolic: a durable supply shift depends on whether the U.S.-Iran peace deal sticks and the Strait of Hormuz is fully reopened to tanker traffic. Until those conditions are met, the production boost will do little to alter global oil balances, while placing additional downward pressure on already tumbling prices.",
-          "summaryCn": "欧佩克+于周日再次同意小幅提高原油产量，延续近几个月来的增产势头。然而分析人士警告，此次增产在很大程度上仍属象征性举措——能否真正改变供应格局，取决于美伊和平协议能否持续落地，以及霍尔木兹海峡能否完全向油轮重新开放。在上述条件满足之前，增产对全球石油供需平衡几乎没有实质影响，反而会给已持续下跌的油价带来更大的下行压力。",
-          "excerpt": "Major oil producers agreed Sunday to modestly increase crude production, though the hike is largely symbolic. Any meaningful supply shift hinges on whether the U.S.-Iran peace deal holds and the Strait of Hormuz is fully reopened to tanker traffic.",
-          "vocab": [
-            {
-              "word": "tumbling",
-              "pos": "v. / adj.",
-              "meaning": "（价格）急剧下跌、急速走低。比「falling」更生动，隐含失控、快速且连续的动态感。财经报道中常用于描述股价、油价、汇率骤跌，值得学因为它自带「无序、惯性」的隐喻，一个词就传达出市场恐慌情绪。",
-              "etymology": "源自古英语 tumbian 与中古低地德语 tummelen，原义「翻跟斗、打滚」，描述杂技演员在地上无序滚动的状态，后引申为任何快速无序的下落运动，进入财经语域专指价格急跌。",
-              "morphology": "词根 tumble（动词/名词，翻滚）加现在分词后缀 -ing → tumbling；派生词：tumbler（杂技演员；无柄玻璃杯）、tumbledown（破旧摇摇欲坠的）、tumble-dry（甩干）。简单词根，靠搭配扩展语义。",
-              "mnemonic": "想象杂技演员在舞台上连续翻滚失控——价格「tumbling」就是在K线图上接连翻跟头往下砸，比「falling」多了一种停不下来的惯性感。记住：跟头翻得越多，跌得越惨。",
-              "exampleEn": "Oil futures kept tumbling through the session as traders priced in a possible supply surge from reopened Gulf shipping lanes.",
-              "exampleCn": "由于交易员预期波斯湾航运通道重开后供应激增，油价期货整个交易时段持续急跌。"
-            },
-            {
-              "word": "hike",
-              "pos": "n.",
-              "meaning": "（价格、利率、产量的）上调、提升。是财经语境里极高频的词，远比「increase」口语化且有力度，常见搭配：rate hike（加息）、price hike（涨价）、output hike（增产）。值得学因为它与「cut」构成一对核心对立词，读财经新闻必须掌握。",
-              "etymology": "源自19世纪美国英语方言，可能与 hitch（拉起、挂钩）同源，原义「用力向上拉扯」，后引申为数量或价格层面的强力上拉。同一个词也有「徒步旅行」的含义，两者共享「向上走、费力攀升」的核心语义。",
-              "morphology": "hike 名词/动词同形；派生词：hiker（徒步者；比喻推高价格的人）、hiking（徒步旅行；价格上涨的进行时）。注意「go for a hike」（徒步）和「a rate hike」（加息）是同一个词的两个截然不同义项。",
-              "mnemonic": "把「rate hike」想象成美联储主席拉着利率去爬山——每次加息就是「上山一步」，山越爬越高，借贷成本越来越重。这幅画面能同时锁定徒步和涨价两个含义，一箭双雕。",
-              "exampleEn": "The surprise output hike by OPEC+ caught many energy traders off guard, triggering a sharp sell-off in Brent crude.",
-              "exampleCn": "欧佩克+意外宣布增产，令众多能源交易员措手不及，布伦特原油随即遭到大幅抛售。"
-            },
-            {
-              "word": "symbolic",
-              "pos": "adj.",
-              "meaning": "象征性的、有名无实的。在政治经济报道中，「largely symbolic」是固定搭配，暗示某举措在形式上有动作，但实质影响微乎其微。值得学因为它是理解政策新闻语气的关键词——当记者用它时，往往是在含蓄批评官方行为雷声大雨点小。",
-              "etymology": "源自希腊语 symbolon（标志、信物），由 sym-（共同）+ ballein（投掷）构成，原指古希腊人把一块骨牌折成两半、各执一半作为契约凭证，后泛化为「代表某种意义的符号或标记」。",
-              "morphology": "symbol（名词）→ symbolic（形容词）→ symbolically（副词）→ symbolize（动词）→ symbolism（名词/流派）；词根 -bol- 还出现在 emblem 的近义词族中。记住 sym-（共同）这个前缀，还见于 symphony、symmetry。",
-              "mnemonic": "「largely symbolic」想象一个巨大的橡皮章（symbol）用力盖下去——动作声势浩大，但纸上什么都没印出来。有形式、无实质，这就是「largely symbolic」的精髓。",
-              "exampleEn": "The tech giant's pledge to halve its carbon footprint by 2030 was largely symbolic without a binding roadmap or third-party audits.",
-              "exampleCn": "这家科技巨头承诺2030年前将碳足迹减半，但因缺乏具有约束力的路线图和第三方审计，很大程度上只是象征性表态。"
-            },
-            {
-              "word": "stick",
-              "pos": "v. (idiomatic)",
-              "meaning": "（协议、政策、决定）持续有效、站稳脚跟、不被推翻。「if a deal sticks」意为协议能真正落地并维持。与「hold」近义，但「stick」更强调在外部压力下的韧性与粘合力，常见于谈判结果和政策落地的场景，是财经新闻里不可忽视的动词。",
-              "etymology": "源自古英语 stician，原义「刺入、粘附」，与德语 stechen（刺）和荷兰语 steken 同源，核心语义是「附着不动」，引申为「协议或规则维持在位、不脱落」。",
-              "morphology": "stick（动词/名词）→ sticky（形容词，粘的；比喻棘手的、用户留存率高的）→ stickiness（名词，用户黏性）→ stuck（过去式，陷入僵局）；常见搭配：stick to a plan（坚守计划）、stick with（继续支持）、make it stick（让它真正落实）。",
-              "mnemonic": "谈判双方在协议文件上涂了超强胶水——「the deal sticks」就是胶水粘牢了，谁也撕不开；「the deal fell apart」就是胶水没粘住、合同散了架。用胶水的画面记住「持续有效」的隐喻。",
-              "exampleEn": "The trade truce between the two nations will only matter if it sticks long enough for companies to rebuild their supply chains.",
-              "exampleCn": "两国之间的贸易休战只有在维持足够长时间后，才能真正让企业有机会重建供应链。"
-            },
-            {
-              "word": "modestly",
-              "pos": "adv.",
-              "meaning": "小幅地、适度地、温和地。财经报道中用于量化增减幅度，暗示变化存在但幅度有限，是「slightly」的正式替代词，带有刻意低调的语气。值得学因为它常出现在央行、OPEC等官方机构声明的转述中，读懂它就能判断政策力度是否足够。",
-              "etymology": "源自拉丁语 modestus（适度的、有节制的），词根 modus 意为「尺度、方式、节拍」，与 mode（模式）、moderate（温和）、modify（修改）、modulate（调节）同源，核心含义始终是「在合适的刻度内」。",
-              "morphology": "modus（拉丁词根）→ modest（形容词）→ modestly（副词）→ modesty（名词，谦逊）→ immodest（反义词，过分的）；同族词：moderate、modify、modulate、model——所有这些词都含有「按尺度调整」的意思。",
-              "mnemonic": "mod- = modus（尺度）。「modestly raise」就是「按刻度来、不超出刻度地」提升——想象在一把刻度尺上只轻轻推了一格，not too much, not too little。背住 mod- 词根，同时搞定 moderate、modify 一整族词。",
-              "exampleEn": "Revenue grew modestly in the latest quarter, falling short of analyst expectations amid a cautious consumer environment.",
-              "exampleCn": "在消费者谨慎消费的环境下，公司最新季度营收温和增长，未能达到分析师预期。"
             }
           ]
         }
