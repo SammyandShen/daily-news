@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-11T02:08:33.964558+00:00",
+  "lastUpdated": "2026-08-12T00:20:05.590241+00:00",
   "level": "B2",
   "days": {
+    "2026-08-12": {
+      "label": "8月12日 (周三)",
+      "stories": [
+        {
+          "id": "20260812-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+          "headlineEn": "ChatGPT and Gemini Both Cross 1 Billion Users",
+          "headlineCn": "ChatGPT与Gemini双双突破10亿用户",
+          "summaryEn": "Google's Gemini has reached 1 billion monthly users, CEO Sundar Pichai announced on X, calling it the company's fastest-growing product ever and the 14th Google product to hit that scale. OpenAI's ChatGPT crossed the same threshold around the same time, making this the first case of two rival AI chatbots both claiming billion-user status within weeks of each other. The near-simultaneous milestone shows how fast generative AI has moved from novelty to daily habit, intensifying the rivalry between Google and OpenAI for dominance in consumer AI.",
+          "summaryCn": "谷歌CEO桑达尔·皮查伊在X上宣布，Gemini月活用户已突破10亿，是谷歌历史上增长最快的产品，也是第14款达到这一规模的谷歌产品。几乎同一时期，OpenAI的ChatGPT也跨过10亿用户门槛，这是两款针锋相对的AI聊天机器人首次几乎同时达成这一节点，凸显生成式AI已从新奇事物迅速变为大众日常习惯，谷歌与OpenAI在消费级AI领域的争夺进一步升温。",
+          "excerpt": "For the 14th time, a Google product has hit 1 billion users. CEO Sundar Pichai says a billion people now use Gemini every month, calling it Google's fastest-growing product ever — though Google isn't alone, as OpenAI's ChatGPT has also crossed the same billion-user threshold.",
+          "vocab": [
+            {
+              "word": "eclipse",
+              "pos": "v.",
+              "meaning": "使…相形见绌、盖过风头；比 surpass 更形象化，带有『遮蔽对方光芒』的隐喻，常用于科技/商业竞争报道中描述后来者压过对手声势。",
+              "etymology": "源自希腊语 ekleipsis（消失、缺席），来自 ekleipein（未能出现），由 ek-（出）+ leipein（离开）构成，经拉丁语 eclipsis、古法语 éclipse 进入英语，原指日月食。",
+              "morphology": "现代英语中已不易再拆分；同词根词还有 ellipsis（省略号，字面『省去』）；同前缀 ek-/ex- 词族包括 exit、exodus，可类比记忆『向外离开』的核心意象。",
+              "mnemonic": "想象月亮挡住太阳的日食画面——一家公司的用户数据像月亮一样『遮住』了对手的光芒，风头被完全盖过。",
+              "exampleEn": "Gemini's rapid user growth threatens to eclipse ChatGPT's early lead in the AI chatbot race.",
+              "exampleCn": "Gemini用户数的快速增长可能会盖过ChatGPT在AI聊天机器人赛道上的早期领先优势。"
+            },
+            {
+              "word": "neck and neck",
+              "pos": "phrase",
+              "meaning": "势均力敌、不相上下；源自赛马术语，比『very close』更生动画面感强，财经报道常用它形容两家公司在市场份额或关键指标上难分高下。",
+              "etymology": "短语/复合词，源于19世纪赛马术语，指两匹马冲线时脖子高度齐平、难分先后，后引申为泛指任何势均力敌的竞争。",
+              "morphology": "由 neck（脖子）+ and + neck 重复构成的固定搭配，无法拆解词根；类似的赛马衍生短语还有 in the home stretch（冲刺阶段）。",
+              "mnemonic": "脑补两匹赛马冲过终点线时脖子齐平的画面——裁判都很难判断谁赢，用来形容两家公司数据咬得极紧。",
+              "exampleEn": "With both apps now claiming a billion users, Google and OpenAI are running neck and neck for AI supremacy.",
+              "exampleCn": "随着两款应用都宣称拥有10亿用户，谷歌和OpenAI在AI霸主之争上已是并驾齐驱。"
+            },
+            {
+              "word": "crown",
+              "pos": "v.",
+              "meaning": "正式认定/封为(冠军、赢家)；比『name』或『declare』更具仪式感和权威色彩，商业媒体常用被动式『be crowned』形容某公司或产品被公认为行业第一。",
+              "etymology": "源自拉丁语 corona（花环、王冠），经古法语 corone/coroune 进入英语，原指授予胜利者或君主的实物头饰，后引申为『正式确立为最高地位』。",
+              "morphology": "名词 crown（王冠）转化为动词『加冕』；同词根词有 coronation（加冕典礼）、coronary（冠状的，因血管形似王冠而得名）。",
+              "mnemonic": "想象把一顶国王的王冠戴在Gemini头上——媒体正式『加冕』它为『10亿用户俱乐部』的新成员。",
+              "exampleEn": "Analysts are hesitant to crown either company the outright winner of the AI chatbot war.",
+              "exampleCn": "分析师们仍不愿断言谷歌或OpenAI已经在AI聊天机器人大战中稳坐冠军宝座。"
+            },
+            {
+              "word": "swell",
+              "pos": "v.",
+              "meaning": "(数量、规模)膨胀式增长；比 grow/increase 更强调『从内部鼓胀扩张』的画面感，常用于描述用户数、库存、债务等数字急剧变大。",
+              "etymology": "源自古英语 swellan，日耳曼语族词汇，原指伤口、水面等物理性肿胀膨大，后引申为抽象意义上数量或规模的扩张。",
+              "morphology": "动词 swell → 名词 swelling（肿胀/膨胀）→ 形容词 swollen（肿大的）；口语中 swell 也可作形容词表示『极好』，注意与正式用法区分。",
+              "mnemonic": "想象一个气球被不断吹气、越胀越大——Gemini的用户数就像这个气球一样『鼓胀』着突破了10亿大关。",
+              "exampleEn": "Gemini's user base swelled past a billion just months after its major product overhaul.",
+              "exampleCn": "在完成重大产品改版仅几个月后，Gemini的用户规模就膨胀突破了10亿大关。"
+            },
+            {
+              "word": "coveted",
+              "pos": "adj.",
+              "meaning": "令人垂涎的、梦寐以求的；比『desirable』语气更强烈，暗含『别人也想要但难以获得』的竞争意味，常修饰奖项、头衔、市场地位等。",
+              "etymology": "源自古法语 coveitier，来自拉丁语 cupiditas（渴望、贪欲），与 cupid（丘比特，欲望之神）同源。",
+              "morphology": "动词 covet（觊觎）加 -ed 变为形容词 coveted；同源词还有 cupidity（贪婪）、Cupid（丘比特）。",
+              "mnemonic": "联想丘比特之箭射中人心引发强烈渴望——『10亿用户』这个头衔就是所有AI公司都想被丘比特之箭『射中』般渴求的目标。",
+              "exampleEn": "Hitting a billion monthly users is a coveted milestone that only a handful of tech products have ever reached.",
+              "exampleCn": "月活突破10亿是一个人人梦寐以求的高光节点，历史上只有极少数科技产品达到过这一规模。"
+            }
+          ]
+        },
+        {
+          "id": "20260812-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
+          "headlineEn": "CoreWeave Stock Jumps 14% as Revenue Doubles on AI Infrastructure Boom",
+          "headlineCn": "CoreWeave营收翻倍股价飙涨14%，AI基建需求加速",
+          "summaryEn": "CoreWeave's stock jumped 14% after the company reported that its revenue nearly doubled, driven by relentless demand for AI infrastructure. The cloud-computing provider, which rents out GPU-powered servers to AI labs, is scaling rapidly to keep pace with orders. Yet the growth is not without risk: CoreWeave is sitting on $35 billion in debt taken on to fund data-center buildouts. Investors are weighing whether the company's booming top line can outpace the cost of servicing that debt-fueled expansion, a tension that captures broader questions about the AI infrastructure boom's financial sustainability.",
+          "summaryCn": "CoreWeave股价大涨14%，此前公司公布营收几乎翻倍，AI基础设施需求持续加速。这家专注于出租GPU算力服务器的云计算公司正在快速扩张产能以满足订单需求。但快速增长背后是风险：公司背负着350亿美元债务，用于兴建数据中心。投资者正在权衡：营收增长能否跑赢偿债成本，这也折射出AI基础设施热潮能否持续的更大疑问。",
+          "excerpt": "CoreWeave's revenue is surging as the AI boom continues to fuel demand for GPU-powered cloud infrastructure, sending its stock up 14% in early trading. But the rapid expansion comes at a cost: the company is sitting on $35 billion in debt taken on to finance its data-center buildout.",
+          "vocab": [
+            {
+              "word": "sitting on",
+              "pos": "phrase",
+              "meaning": "「坐拥/背负（某项资产或负债）」，强调该资产或负债处于闲置或未处理状态，财经报道里常用来形容公司持有大量现金、债务或库存但迟迟未采取行动，比have更强调按兵不动的意味。",
+              "etymology": "短语/复合词，无独立词源；由动词sit（古英语sittan，坐）与介词on组合而成，字面意为坐在…上面，引申为持有、占据。",
+              "morphology": "sit（坐，古英语根词）+ on（介词）；同类动介短语搭配如sit on the board（担任董事）、sit on a decision（迟迟不做决定）、sit tight（按兵不动）。",
+              "mnemonic": "想象一个人直接坐在一堆钞票或账单上不肯挪窝——形象地表达持有巨额资产或债务却按兵不动的画面。",
+              "exampleEn": "The startup is sitting on nearly $2 million in unpaid invoices, but its founders refuse to raise financing.",
+              "exampleCn": "这家初创公司背负着近200万美元的未付账单，但创始人拒绝融资。"
+            },
+            {
+              "word": "capital expenditure",
+              "pos": "n. (phrase, capex)",
+              "meaning": "「资本性支出」，指企业用于购置、建设长期资产（如厂房、设备、数据中心）的支出，区别于日常运营开支；财经报道中常简称capex，是衡量企业扩张力度的关键指标。",
+              "etymology": "源自拉丁语capitalis（头等的、主要的，引申为本金）与expendere（花费，ex-向外+pendere称重、支付）；两词在19世纪会计学中组合成固定术语。",
+              "morphology": "capital（资本，来自拉丁caput头）+ expenditure（支出，来自拉丁pendere付款）；同根词：capitalize（资本化）、expend（花费）、expendable（可消耗的）。",
+              "mnemonic": "记成花大钱（capital）买能用很多年的东西——盖楼、买机器都算capex，而买咖啡、发工资不算，帮助区分它和日常开支。",
+              "exampleEn": "Heavy capital expenditure on data centers has pushed several cloud providers deep into debt.",
+              "exampleCn": "在数据中心上的大量资本性支出，已让多家云服务商债台高筑。"
+            },
+            {
+              "word": "debt-fueled",
+              "pos": "adj. (compound)",
+              "meaning": "「靠举债驱动的」，形容增长、扩张或收购由大量借款支撑，而非依靠自有现金流，隐含增长不可持续、风险较高的判断，比funded by debt更带批判色彩。",
+              "etymology": "短语/复合词，无独立词源；由debt（拉丁debitum，欠下的东西）与fuel（古法语fouaille，燃料）的分词形式组合而成，20世纪经济评论中常见搭配。",
+              "morphology": "debt（名词，欠款）+ fuel（动词，加燃料）+ -ed（过去分词后缀，构成形容词）；同类构词：cash-fueled、consumer-fueled、tech-fueled。",
+              "mnemonic": "想象一辆车不是加汽油而是加借条当燃料前进——跑得快但油箱（债务）越来越满，随时可能爆缸，形象记住靠债务驱动的风险感。",
+              "exampleEn": "Analysts warned that the company's debt-fueled acquisition spree could backfire if interest rates stay high.",
+              "exampleCn": "分析师警告称，如果利率持续走高，这家公司靠举债驱动的收购狂潮可能会适得其反。"
+            },
+            {
+              "word": "top line",
+              "pos": "n. (phrase)",
+              "meaning": "「营收（列于财报表格最上方一行）」，与bottom line（净利润，位于表格底部）相对，常用top line growth强调收入增长而不涉及是否盈利，是区分增收与增利的关键术语。",
+              "etymology": "短语/复合词，无独立词源；源自会计损益表的排版习惯——收入总列在最上方一行，利润列在最下方一行，19世纪会计实务中形成的比喻用法。",
+              "morphology": "top（顶部）+ line（一行）；对应词bottom line（底线、净利润）；同类财报术语：top-line growth、top-line miss、top-line guidance。",
+              "mnemonic": "想象一张财报表，最上面第一行写着大大的营收数字，最下面才是利润——记住top line在最上面，只管收入不管利润。",
+              "exampleEn": "CoreWeave's top line nearly doubled, but investors still worry about its mounting debt.",
+              "exampleCn": "CoreWeave的营收几乎翻了一倍，但投资者仍担忧其不断攀升的债务。"
+            },
+            {
+              "word": "outpace",
+              "pos": "v.",
+              "meaning": "「（在速度、增长上）超过、跑赢」，常用于比较两个增长率或速度的赛跑关系，比exceed更强调持续竞速的动态过程，财经报道中常用于营收增速跑赢成本或竞争对手等语境。",
+              "etymology": "由前缀out-（超过，古英语ut）与pace（步伐，源自古法语pas，来自拉丁passus脚步）组合，16世纪进入英语，字面意为走得比…快。",
+              "morphology": "out-（超越类前缀）+ pace（步伐，名词转动词）；同前缀词：outgrow（超越增长）、outperform（表现超越）、outlast（比…更持久）。",
+              "mnemonic": "想象一场赛跑，你的对手叫pace（步伐），你直接out（超出）他——outpace就是把对手的步伐甩在身后，跑赢一切竞速类比喻。",
+              "exampleEn": "The question is whether CoreWeave's revenue growth can outpace the interest payments on its debt.",
+              "exampleCn": "问题在于，CoreWeave的营收增速能否跑赢其债务利息支出。"
+            }
+          ]
+        },
+        {
+          "id": "20260812-3",
+          "category": "econ",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/petlibro-discount-code/",
+          "headlineEn": "Petlibro Cuts Prices by 30% for August Pet Supplies Sale",
+          "headlineCn": "Petlibro八月大促：宠物用品直降30%",
+          "summaryEn": "Petlibro, a maker of smart pet care devices, is running an August 2026 promotion offering 30% off automatic feeders, water fountains, and related accessories for cats and dogs. The discount covers core product lines that help owners automate feeding and hydration schedules, a growing niche as more households treat pet-tech gadgets as everyday essentials rather than luxuries. For consumers, the sale lowers the entry price for smart pet devices; for Petlibro, it is a chance to clear inventory and expand its customer base ahead of the fall shopping season.",
+          "summaryCn": "Petlibro是一家智能宠物用品品牌，2026年8月推出限时促销，旗下自动喂食器、饮水机及配件全线直降30%。此次促销覆盖了帮助宠物主人自动化喂食和饮水的核心产品线，反映出宠物科技产品正从小众奢侈品变为日常刚需的趋势。对消费者而言，折扣降低了入手智能宠物设备的门槛；对Petlibro来说，这是清理库存、在秋季购物季前扩大客户群的机会。",
+          "excerpt": "Petlibro is offering 30% off its lineup of automatic feeders, water fountains, and pet accessories throughout August, giving cat and dog owners an easy way to upgrade daily feeding and hydration routines at a lower price point.",
+          "vocab": [
+            {
+              "word": "markdown",
+              "pos": "n.",
+              "meaning": "零售商对商品永久或阶段性降价，比discount更专业，常见于零售/库存管理语境，指主动降价清库存的商业行为",
+              "etymology": "复合词，mark（标记/定价）+ down（向下），19世纪零售业用语，字面指把标价往下改",
+              "morphology": "mark（词根，标记）+ down（方向副词）构成复合名词；同类构词markup（加价）、write-down（减记）、pay-down（还款）",
+              "mnemonic": "想象店员拿笔把价格标签上的数字划掉往下改，动作本身就是词义：把价格标记往下移",
+              "exampleEn": "Retailers often apply steep markdowns on seasonal inventory once demand cools.",
+              "exampleCn": "零售商在季节性需求降温后，往往会对库存商品大幅降价。"
+            },
+            {
+              "word": "staple",
+              "pos": "n.",
+              "meaning": "生活必需品/常销品，商业中指长期稳定畅销、消费者反复购买的基础品类，比essential更强调稳定复购的商业属性",
+              "etymology": "源自古法语estaple（集市、交易场所），中世纪英语借入后指大宗贸易商品，后引申为基本必需品",
+              "morphology": "不可拆解的简单词；也可作形容词（staple food），常见搭配staple diet, staple goods, mainstay",
+              "mnemonic": "想象订书机上的staple钉子——把生活牢牢钉住、离不开的东西，就是必需品",
+              "exampleEn": "Automatic feeders are becoming a staple in the smart pet-care market.",
+              "exampleCn": "自动喂食器正逐渐成为智能宠物用品市场的常销品类。"
+            },
+            {
+              "word": "clearance",
+              "pos": "n.",
+              "meaning": "清货/清仓促销，指商家为腾出库存空间而进行的集中降价销售，语域偏零售业内部用语，比sale更强调处理存货的目的",
+              "etymology": "源自动词clear（清空，源自古法语clair，明亮/清晰），加名词后缀-ance表示动作或状态，19世纪起用于商业语境指清理库存",
+              "morphology": "clear（词根，清空）+ -ance（名词后缀，表状态/过程）；同后缀词allowance, maintenance, appearance",
+              "mnemonic": "把货架想象成需要清空出来的空间，商家打折就是为了腾地方，这就是clearance",
+              "exampleEn": "The August clearance let Petlibro move older feeder models before launching new ones.",
+              "exampleCn": "八月的清仓促销让Petlibro在推出新品前清掉了旧款喂食器库存。"
+            },
+            {
+              "word": "upsell",
+              "pos": "v.",
+              "meaning": "向上销售/推销升级产品，指在顾客已决定购买时引导其购买更贵或更多配件的策略，比promote更精准地描述利用现有购买意愿追加消费的手法",
+              "etymology": "复合词，20世纪中期美式英语零售业造词，up（向上，古英语up）+ sell（销售，古英语sellan，交付/给予）",
+              "morphology": "up（方向前缀）+ sell（词根，销售）；同构词cross-sell（交叉销售）、oversell（过度承诺）、resell（转售）",
+              "mnemonic": "想象顾客本想只买喂食器，店员再往上推一句要不要配滤芯——把销售额往上推，就是upsell",
+              "exampleEn": "Petlibro's site upsells shoppers from a basic feeder to a Wi-Fi-enabled model during checkout.",
+              "exampleCn": "Petlibro的网站在结账时会向顾客推销从基础款升级到带Wi-Fi功能的喂食器。"
+            },
+            {
+              "word": "loss leader",
+              "pos": "phrase",
+              "meaning": "亏本引流商品，指商家故意以低于成本或极低利润销售的商品来吸引顾客上门并带动其他消费，比discount item更精确地表达以亏损换客流的商业逻辑",
+              "etymology": "短语/复合词，无独立词源；loss（源自古英语los，失去）+ leader（源自古英语lædan，引导），字面意为带来亏损的引导商品，20世纪初美式零售业用语",
+              "morphology": "loss（名词，亏损）+ leader（名词，引导者/主打商品）并列复合；相关词market leader, price leader, category leader",
+              "mnemonic": "想象超市门口摆着超低价的鸡蛋，本身亏钱卖，却像领头羊一样把顾客领进店里买其他东西，这就是loss leader",
+              "exampleEn": "Some analysts suspect the steep feeder discount functions as a loss leader to draw shoppers into Petlibro's accessory ecosystem.",
+              "exampleCn": "有分析师猜测，喂食器的大幅降价其实是一种亏本引流手段，目的是把顾客引入Petlibro的配件生态。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-11": {
       "label": "8月11日 (周二)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "mnemonic": "字形上 em-bar-go，中间藏着个 bar（横杆、障碍）。想象一根横杆横在港口拦住所有船只——这就是 embargo 的本义图像。记忆口诀：「横杆入港拦货忙，embargo 禁运断贸航。」",
               "exampleEn": "The U.S. placed an embargo on arms sales to the country following reports of widespread human rights violations.",
               "exampleCn": "「在大规模侵犯人权的报告曝光后，美国对该国实施了武器销售禁运。」"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-07": {
-      "label": "7月7日 (周二)",
-      "stories": [
-        {
-          "id": "20260707-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
-          "headlineEn": "If you use Google, you’re training its AI. Here’s how to opt out.",
-          "headlineCn": "用谷歌就是在为其AI提供训练数据？教你如何关闭授权",
-          "summaryEn": "Google has quietly updated its privacy settings to allow broader storage of user data — including images, files, and audio and video recordings — for AI model training. This change takes effect by default for users who have not actively opted out, meaning most people are unknowingly contributing to Google's AI development. Privacy advocates warn that the lack of clear, upfront consent mechanisms raises serious questions about user rights and data sovereignty in the generative AI era.",
-          "summaryCn": "谷歌近期悄然修改隐私政策，默认允许收集并存储更多用户数据，包括图片、文件及音视频录像，用于改进旗下AI模型。这一变更对未主动退出的用户自动生效，意味着大多数人在不知情的情况下，正持续为谷歌的AI训练贡献个人数据。隐私倡导者对此提出批评，认为缺乏透明、明确的知情同意机制，引发了关于大模型时代用户数据主权的广泛讨论。",
-          "excerpt": "A recent change to Google's privacy settings now allows the company to store more of your data — including images, files, and audio and video recordings — to improve its AI models. The new policy is enabled by default; users who wish to opt out must manually navigate their account settings to toggle it off.",
-          "vocab": [
-            {
-              "word": "opt out",
-              "pos": "phrasal v.",
-              "meaning": "选择退出（某项默认服务或政策），主动行使「不参与」的权利。区别于「withdraw」（正式撤回），opt out 更强调面对一个默认开启的机制时，用户主动拒绝的动作，常见于隐私设置、数据收集、邮件订阅等场景，语气中性但暗含消费者权利意识。",
-              "etymology": "「opt」来自拉丁语 optare，意为「选择、希望」，约17世纪经法语进入英语。「out」表方向，指「选择离开某个默认状态」。opt out 的反义短语 opt in 同源，二者构成「主动加入 vs 主动退出」的对立框架，在隐私法（如GDPR）中是核心概念。",
-              "morphology": "opt（选择）+ out（方向副词，离开）。同词根词：option（选项）、optional（可选的）、opt in（选择加入）。注意 opt 单独使用时也常见，如「opt for sth」表示「选择某物」。",
-              "mnemonic": "想象你收到一封邮件，默认已勾选「同意接收广告」，你把那个勾「拿出去」（out）——这就是 opt out。与之对比：opt in 是你主动把勾「放进去」。现实中大量科技公司的数据收集都是 opt-out 机制，即默认开启、需自己关闭。",
-              "exampleEn": "Users must navigate three separate settings menus to opt out of Google's AI training data collection.",
-              "exampleCn": "用户必须进入三个不同的设置菜单，才能退出谷歌的AI训练数据收集。"
-            },
-            {
-              "word": "consent",
-              "pos": "n. / v.",
-              "meaning": "知情同意；许可。在隐私法、数据保护（如GDPR）和医疗伦理中是核心法律概念，强调「知情后主动授权」，而非被动接受。与「agree」相比，consent 更正式、更强调明确授权的法律效力，常出现在合同、隐私政策和监管文件中，是科技公司必须面对的合规红线。",
-              "etymology": "来自拉丁语 consentire，由 con-（共同）+ sentire（感受、思考）构成，原义「共同感知、达成一致」。14世纪经古法语 consentir 进入英语，从「心理上达成一致」演变为「正式授权许可」的法律含义。",
-              "morphology": "con-（共同）+ sent（感受，来自拉丁 sentire）+ -ent（名词/形容词后缀）。同词根词：dissent（异议，dis-=分离）、assent（赞同，as-=朝向）、sentiment（情感）、sentient（有感知的）。这一词根家族覆盖了「感知→态度→意愿」的语义链。",
-              "mnemonic": "con = together，sent = feel（感受）。两个人「一起感受并达成一致」才叫 consent。想象医生手术前，必须让病人「感受并认可」（con-sent）手术方案才能动刀——没有 consent 就动刀，在法律上是违规的。",
-              "exampleEn": "The platform's updated terms require explicit user consent before any personal data can be used for AI model training.",
-              "exampleCn": "该平台更新后的条款要求，在将任何个人数据用于AI模型训练之前，必须获得用户的明确同意。"
-            },
-            {
-              "word": "granular",
-              "pos": "adj.",
-              "meaning": "细粒度的、精细化的。在科技和商业语境中指「按细分维度进行的控制或分析」，如「granular controls」（精细化权限设置）、「granular data」（细颗粒度数据）。与「detailed」相比，granular 更强调可操作性和层次分解，是产品经理、数据分析师和隐私工程师的高频行话，值得重点掌握。",
-              "etymology": "来自拉丁语 granulum（小颗粒），是 granum（谷粒、颗粒）的指小词。17世纪进入英语时原指物质层面的细小颗粒结构，20世纪后在科技领域引申为「细粒度的、可精细操控的」，完成了从物理到抽象的语义迁移。",
-              "morphology": "gran（颗粒，来自拉丁 granum）+ -ul-（指小词缀）+ -ar（形容词后缀）。同词根词：grain（谷粒）、granite（花岗岩，因颗粒状纹理得名）、granule（细颗粒）、granularity（细粒度，名词形式，在技术文档中极常见）。",
-              "mnemonic": "想象用显微镜看「grain」（颗粒），颗粒越细小，看到的细节越多——这就是 granular。商业会议上说「we need more granular data」，就是「把数据拆得更细」；说「granular controls」就是「每项权限都能单独调节」，而不是一刀切地开或关。",
-              "exampleEn": "The new privacy dashboard offers granular controls, allowing users to decide exactly which data types Google can use for AI training.",
-              "exampleCn": "新版隐私控制面板提供精细化设置，让用户可以精确决定谷歌能将哪些类型的数据用于AI训练。"
-            },
-            {
-              "word": "default",
-              "pos": "n. / adj. / v.",
-              "meaning": "默认值；默认状态。在技术和法律语境中指「用户未做任何操作时系统自动适用的预设状态」。「by default」是固定搭配，意为「在无其他操作时自然生效」。与「standard」不同，default 暗含「如果你不改变，就会是这样」的被动逻辑，是隐私权讨论中的关键词，也用于金融（违约）和法律（缺席判决）。",
-              "etymology": "来自古法语 defaute（过失、缺失），由 de-（否定/离开）+ faillir（失败，来自拉丁 fallere）构成。最初义为「未能履行义务」（金融违约至今沿用此义），后演变为「未设定时的标准状态」——即「什么都没做」时系统的行为。",
-              "morphology": "de-（否定/离开）+ fault（过失，来自拉丁 fallere 「欺骗、失败」）。同词根词：fault（过错）、fallible（易犯错的）、infallible（无误的）、false（虚假的）、fallacy（谬误）。这一词根揭示了「违约」和「默认」这两个看似无关含义的共同起源：都是「什么都没做」的状态。",
-              "mnemonic": "把 default 拆成「de + fault」：没有过失（de-fault）就是你什么都没做，系统按预设走——这就是默认。金融里「债务违约」也是 default，因为「未能履行」是它最初的含义。两个意思都指向「没有主动动作」，记住这个共同逻辑就全记住了。",
-              "exampleEn": "Google's AI data collection is enabled by default, so users must actively change their settings to opt out.",
-              "exampleCn": "谷歌的AI数据收集功能默认开启，因此用户必须主动修改设置才能退出。"
-            },
-            {
-              "word": "toggle",
-              "pos": "v. / n.",
-              "meaning": "切换（开关状态）；开关按钮。在科技产品设计中极高频，指在两种状态（开/关、启用/禁用）之间来回切换。与「switch」相比，toggle 更强调「拨来拨去」的反复动作，且几乎专指二元切换，是UI/UX设计师和工程师的标准用语，在隐私设置说明中尤为常见。",
-              "etymology": "17世纪起源于航海用语，toggle 原指固定绳索用的横销（一根横穿绳圈的短木棒）——拨入卡住、拨出松开，天然具有二元切换的物理结构。20世纪随计算机普及，这一意象被移植到软件界面，成为「在两种状态间切换的开关」的专用术语。",
-              "morphology": "无明显前缀/后缀拆解，属单一历史词根。常见复合形式：toggle switch（拨动开关）、toggle button（切换按钮）。近义词对比有助于辨析：toggle（在A/B两态间反复切换）vs switch（强调单次动作或更广义的切换）vs flip（强调快速翻转的动作感）。",
-              "mnemonic": "想象老式电灯的「拨动开关」（toggle switch）：向左拨关灯，向右拨开灯，来来回回。在手机隐私设置里看到一个小圆形滑块，「toggle it off」就是把它拨到关的那侧。记住那根在绳圈里进进出出的航海横销，你就永远记住 toggle 的「来回拨动」感了。",
-              "exampleEn": "Users can toggle off the AI personalization feature in their Google account settings under the Data & Privacy tab.",
-              "exampleCn": "用户可以在谷歌账户设置的「数据与隐私」标签页中，将AI个性化功能的开关关闭。"
-            }
-          ]
-        },
-        {
-          "id": "20260707-2",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/if-the-stock-markets-double-bubble-bursts-it-could-usher-in-the-next-crash-de54c1b2?mod=mw_rss_topstories",
-          "headlineEn": "Stock Market's Double Bubble Could Trigger the Next Major Crash",
-          "headlineCn": "股市「双重泡沫」或将引发下一场重大崩盘",
-          "summaryEn": "Stock market analysts are warning that a rare 'double bubble' may be forming — one in which both equity valuations and corporate earnings appear dangerously stretched beyond historical norms. While elevated price-to-earnings multiples alone can signal overheating, the concern deepens when earnings themselves look inflated above their long-run trend. If both revert to historical levels at once, the resulting market correction could be sharp and severe. Investors face a critical question: can earnings growth justify today's valuations, or is a major de-rating ahead?",
-          "summaryCn": "市场分析人士警告，股市正面临罕见的「双重泡沫」困境：股票估值已远超历史常态，与此同时企业盈利增速也明显偏离长期趋势，两大支柱均处于虚高状态。当估值倍数和盈利本身同时过度拉伸时，一旦发生均值回归，市场调整的幅度可能远超普通回调。投资者面临关键拷问：当前盈利增长能否支撑高估值，还是一场深度的重新定价已无可避免？",
-          "excerpt": "Equity valuations remain extreme by historical standards, but a second, subtler risk has emerged: corporate earnings growth itself appears to be running well above its long-term trend. If this gap closes while multiples are also compressing, the market could face a double unwind with few safe harbors.",
-          "vocab": [
-            {
-              "word": "usher in",
-              "pos": "phrasal v.",
-              "meaning": "引领进入、开启（某个新时期或重大变化）。比 bring about 更正式，常用于描述历史性转变，带有「宣告某个新时代到来」的仪式感，多见于财经报道和政治叙事中，强调新旧交替的节点意义。",
-              "etymology": "源自古法语 ussier（门卫），来自拉丁语 ostiarius（守门人，ostium = 门口）。守门人的职责是「引领来宾进入」，逐渐从具体的「带路」引申为抽象的「开启、引入某个新阶段」，语义演变历经约五百年。",
-              "morphology": "usher（n. 领座员、引路人 / v. 引领）+ in（副词，表示进入方向）→ 短语动词。延伸用法：usher out（宣告某事结束）、usher sb. into（引领某人进入某场合）；herald 和 inaugurate 语义接近但更正式书面。",
-              "mnemonic": "想象电影院里的 usher（引座员）拿着手电筒，把你「领进」黑暗大厅——股市双重泡沫破裂，就像那位引座员把整个市场「ushered into」一场崩盘的恐怖片，灯一灭，大幕拉开，无处可逃。",
-              "exampleEn": "The Federal Reserve's pivot to rate cuts is widely expected to usher in a new era of cheap capital and renewed risk appetite across emerging markets.",
-              "exampleCn": "美联储转向降息被普遍认为将开启廉价资本和新兴市场风险偏好回升的新时代。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；对公司、资产或整体市场价值的量化评估，通常通过市盈率（P/E）、市销率（P/S）等指标体现。核心投资词汇，「估值过高/偏低」是买卖方分析的基础语言，直接决定是否值得持仓，不懂此词就无法读懂任何一份机构研报。",
-              "etymology": "源自拉丁语 valere（有价值、健康强壮）→ 法语 valuer（评估价值）→ 英语 value（价值）+ -ation（名词后缀，表示行为或结果）→ 「进行价值评估」这一行为及其产物，16世纪进入英语金融语境。",
-              "morphology": "value（n./v. 价值）+ -ation（名词化后缀）→ valuation。同族词族：valuable（adj. 有价值的）、devalue（v. 贬值）、overvalued（adj. 估值过高）、undervalued（adj. 被低估的）；-ation 同族：formation、regulation、inflation。",
-              "mnemonic": "val- 联想 value（价值），-ation 是「行动结果」。把 valuation 想成分析师开给公司的一张「定价单」：每赚1块钱，市场愿意为你付几倍的钱——这个「几倍」就是 valuation 的核心。泡沫时期，这张单子开得离谱高。",
-              "exampleEn": "Tech sector valuations remain elevated, with many AI-focused firms trading at over 50 times forward earnings despite slowing revenue growth.",
-              "exampleCn": "科技板块估值依然偏高，许多聚焦 AI 的公司尽管营收增速放缓，预期市盈率仍超过50倍。"
-            },
-            {
-              "word": "unwind",
-              "pos": "v.",
-              "meaning": "（仓位/风险）平仓、逆转；金融语境中特指系统性地减少已建立的投资仓位或套利头寸。比 sell 更精准，暗示这是一个有序或被迫的过程。泡沫破裂时「forced unwind」（被迫平仓）常引发连锁踩踏，是理解市场崩盘机制的关键词。",
-              "etymology": "源自古英语 windan（缠绕、旋转，同源德语 winden）→ un-（表反向动作）+ wind（缠绕）→ 字面义「松开缠绕」→ 金融引申为「松开/清除已建立的仓位结构」，如同松开一根被紧绷的弹簧，19世纪末进入金融语境。",
-              "morphology": "un-（反向动作前缀，如 undo、unpack、unravel）+ wind（v. 缠绕）→ unwind。常见金融搭配：unwind a trade（平仓）、unwind a carry trade（结束套息交易）、forced unwind（被迫平仓）、orderly unwind（有序清仓）。",
-              "mnemonic": "想象一个弹簧被慢慢拧紧（投资者不断加仓、风险积累）——泡沫破裂就像弹簧突然「unwind」弹开，被压缩的能量瞬间释放，仓位被迫快速平仓，市场剧烈震荡。弹簧松开 = unwind，画面感极强。",
-              "exampleEn": "Hedge funds began to unwind their leveraged long positions as the central bank signaled earlier-than-expected rate hikes.",
-              "exampleCn": "随着央行发出早于预期加息的信号，对冲基金开始平掉杠杆多头仓位。"
-            },
-            {
-              "word": "multiple",
-              "pos": "n.",
-              "meaning": "（估值）倍数，尤指市盈率（P/E ratio）。「股票以30倍交易」即 trading at a 30x multiple。这是华尔街日常分析语言的核心词，比直接说 P/E ratio 更口语，研报和电话会议中高频出现，掌握此词才能听懂机构投资者的真实对话。",
-              "etymology": "源自拉丁语 multiplex（多重的），由 multi-（多）+ plicare（折叠、层叠）构成 → 引申为「倍数」→ 金融中特化为「股价是盈利的几倍」这一核心估值比率，即用倍数语言表达市盈率，20世纪进入华尔街日常用语。",
-              "morphology": "multi-（多，如 multiply、multilateral、multimedia）+ -ple（折叠/层，如 triple、quadruple、simple = 单层）→ multiple。财经核心搭配：earnings multiple（市盈率倍数）、multiple compression/expansion（估值收缩/扩张）、re-rate to a higher multiple（给予更高估值倍数）。",
-              "mnemonic": "分析师做乘法：盈利（earnings）× 倍数（multiple）= 股价。泡沫时期这个乘数被「乘」得极高；一旦泡沫破裂，multiple 被压缩（compression），即使盈利不变，股价也会大跌——这就是「估值杀」的数学本质，multiple 是那把关键的乘数。",
-              "exampleEn": "Even after the recent pullback, the index still trades at a premium multiple of 22 times forward earnings, well above the historical average of 16 times.",
-              "exampleCn": "即便经历近期回调，该指数的估值倍数仍高达22倍预期市盈率，远高于16倍的历史均值。"
-            },
-            {
-              "word": "de-risk",
-              "pos": "v.",
-              "meaning": "降低风险敞口；指投资者主动调整组合以减少潜在损失，如减持高波动资产、增加现金或债券配置。与 hedge（对冲，用衍生品中和风险）有别：de-risk 是直接减少风险暴露，而非通过工具保护。是机构投资者在不确定时期最常用的操作描述词。",
-              "etymology": "de-（拉丁前缀，表示「去除、减少、逆向」，如 deflate、devalue、decelerate）+ risk（风险，源自意大利语 risco，原意为「礁石/悬崖」，水手用来描述航行险情）→ 现代合成词，直译「去除/减少风险」，20世纪末金融行业造词。",
-              "morphology": "de-（去除/逆向，同族：deleverage 去杠杆、deflate 通缩、detach 分离）+ risk（n./v. 风险）→ de-risk（v.）。同族操作词：deleverage（去杠杆）、de-risk the portfolio（降低组合风险）、de-risking catalyst（触发降险的催化事件）。",
-              "mnemonic": "de- 是「撤退/拆除」信号，就像军队「demining」（扫雷）是清除地雷。de-risk = 从风险中撤退。想象投资者看到双重泡沫警报，开始「de-risk」——把手里的「地雷」（高波动成长股）换成「防弹衣」（国债/现金），提前规避爆炸。",
-              "exampleEn": "Institutional investors began de-risking their portfolios ahead of earnings season, rotating out of high-multiple growth stocks and into defensive sectors.",
-              "exampleCn": "机构投资者在财报季前开始降低组合风险，将资金从高估值成长股轮换至防御性板块。"
-            }
-          ]
-        },
-        {
-          "id": "20260707-3",
-          "category": "econ",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
-          "headlineEn": "Smart Glasses Still Can't Escape the 'Spy' Stigma Hollywood Created",
-          "headlineCn": "智能眼镜难逃好莱坞塑造的「间谍」刻板印象",
-          "summaryEn": "For years, Hollywood has both shaped and distorted public expectations for smart glasses. A tech writer reflects on Netflix's A Man on the Inside, starring Ted Danson, as an unexpected case study in why smart glasses face a deep cultural barrier. The show highlights how society instinctively links wearable cameras with covert surveillance, making mainstream adoption far harder than solving any engineering challenge.",
-          "summaryCn": "长期以来，好莱坞一边塑造了人们对智能眼镜的浪漫想象，一边也埋下了难以消解的「间谍」刻板印象。作者在追完奈飞剧集《内线》后意识到，这部剧无意中揭示了智能眼镜最深层的文化困境——社会本能地将可穿戴摄像设备与秘密监控画上等号。这种认知偏见比任何技术难题都更难克服，直接制约着智能眼镜走向大众市场。",
-          "excerpt": "Hollywood has simultaneously set and ruined our expectations for smart glasses. Netflix's A Man on the Inside may be the first show to illustrate the biggest cultural problem with smart glasses as they exist today — their deep association with covert surveillance.",
-          "vocab": [
-            {
-              "word": "binge-watch",
-              "pos": "phrasal v.",
-              "meaning": "一口气追剧；连续观看多集视频内容。比 watch 更生动，强调「停不下来」的沉浸感，在流媒体时代成为媒体和商业报道中的高频词，直接对应「用户黏性」（user engagement）这一核心商业指标，值得掌握。",
-              "etymology": "源自英语本土词「binge」（19世纪出现，原指暴饮暴食或纵情狂欢，词源可能来自英国方言中浸泡桶底木塞使其膨胀的动作），与「watch」合成为复合动词短语。21世纪流媒体兴起后迅速进入主流商业词汇。",
-              "morphology": "binge（纵情放纵）+ watch（观看）→ 复合动词短语，无独立词源。同类「binge」复合词：binge-eat（暴食）、binge-drink（酗酒）、binge-listen（连续听播客）。名词形式：binge-watching（追剧行为）。",
-              "mnemonic": "想象抱着薯片坐在沙发上，屏幕上一集接一集自动播放根本停不下来——「binge」= 放纵，「watch」= 看，合起来就是「放纵地刷剧」。Netflix专门设计「自动播放下一集」功能，就是为了助长 binge-watching。",
-              "exampleEn": "After binge-watching three seasons of the startup documentary in a weekend, the venture capitalist decided to lead the company's Series B round.",
-              "exampleCn": "在一个周末一口气看完那部初创公司纪录片的三季后，这位风投决定领投该公司的B轮融资。"
-            },
-            {
-              "word": "in a nutshell",
-              "pos": "phrase",
-              "meaning": "简而言之；一言以蔽之。比 in short 更口语化、更生动，常用于演讲、商业简报或采访中快速切入核心，是「电梯演讲」（elevator pitch）的常用起手式。职场英语中出现频率极高，却少见于教科书。",
-              "etymology": "源自古罗马作家普林尼（Pliny）记载的典故：荷马史诗《伊利亚特》全文据说能写在一颗核桃壳上。英语中16世纪出现此短语，意为「压缩进最小的容器」，引申为「极度精炼地表达」，沿用至今。",
-              "morphology": "短语/复合词，无独立词源。nut（坚果）+ shell（外壳）→ nutshell（核桃壳）→ in a nutshell（装进核桃壳 = 极度压缩）。近义辨析：in short（更正式书面）、to put it briefly（更强调主动简化）、bottom line（更聚焦商业结论）。",
-              "mnemonic": "想象把一整份商业计划书「塞进核桃壳」——物理上不可能，但语言上就是 in a nutshell：把复杂信息压缩成一句话。下次在会议上总结要点时，开口说「In a nutshell...」，专业又简洁。",
-              "exampleEn": "In a nutshell, the startup's pitch was simple: cut enterprise cloud costs by 40% without sacrificing performance.",
-              "exampleCn": "简而言之，这家初创公司的演讲主旨很简单：在不牺牲性能的前提下将企业云成本降低40%。"
-            },
-            {
-              "word": "wearable",
-              "pos": "n. / adj.",
-              "meaning": "可穿戴设备（名词）；可穿戴的（形容词）。科技行业核心品类术语，涵盖智能手表、智能眼镜、健康追踪器等。作为名词单独使用是科技商业英语的典型特征（形容词名词化），在硬件投资分析和产品策略报告中极为常见，普通字典收录有限但实际使用频率极高。",
-              "etymology": "源自古英语「werian」（穿着、携带），中古英语演变为「wear」，加拉丁语后缀「-able」（可…的，来自拉丁语 -abilis）构成形容词。21世纪科技产业将其名词化，形成专属产品品类术语并广泛进入投资人用语。",
-              "morphology": "wear（穿戴，古英语词根）+ -able（可…的，拉丁后缀）→ wearable。同后缀词：scalable（可扩展的）、deployable（可部署的）、actionable（可执行的）。派生词族：wear（v.）→ wearable（adj./n.）→ wearer（n. 佩戴者）→ worn（adj. 磨损的）。",
-              "mnemonic": "wear（穿）+ able（能）= 能穿在身上的东西。手机不是 wearable，但把它缩小绑在手腕上就成了 wearable（智能手表）。苹果 wearables 部门覆盖三个感官：耳朵（AirPods）+ 手腕（Apple Watch）+ 眼睛（Vision Pro）。",
-              "exampleEn": "Apple's wearables segment now generates more annual revenue than the entire Mac product line, underscoring the category's strategic importance.",
-              "exampleCn": "苹果可穿戴设备业务线的年收入现已超过整个Mac产品线，凸显了这一品类的战略重要性。"
-            },
-            {
-              "word": "covert",
-              "pos": "adj.",
-              "meaning": "秘密的；隐蔽的。与 overt（公开的）构成核心对立词对，在网络安全、商业竞争情报、科技政策分析中高频出现。比 secret 更书面，更强调「有意策略性掩盖」的含义，是阅读英文安全与地缘政治报道的必备词汇。",
-              "etymology": "源自古法语「covert」（覆盖的、隐藏的），来自拉丁语「cooperire」（co- 完全 + operire 覆盖）。12世纪进入英语，原指「有遮蔽的地方」如树丛，后随军事情报用语扩展，引申为「隐秘行动」，与 overt 构成对立。",
-              "morphology": "co-（完全，强调前缀）+ -vert（来自 operire 覆盖）→ covert（完全被覆盖 = 隐秘）。对立词：overt（公开的）。派生词：covertly（adv.）、covertness（n.）。近义辨析：clandestine（强调非法秘密）、undercover（强调卧底身份）、covert（强调策略性隐蔽，可合法可非法）。",
-              "mnemonic": "covert ≈ covered（被覆盖的）——「covert ops」（秘密行动）就是被「盖」起来不让人看见的行动。智能眼镜的文化困境：人们看到它就联想到 covert surveillance（秘密监控），因为镜片像一面遮住真实意图的帘子。",
-              "exampleEn": "The cybersecurity firm uncovered a covert data-harvesting operation embedded in a widely used enterprise productivity app.",
-              "exampleCn": "该网络安全公司发现了一项隐蔽的数据采集行动，被嵌入在一款被广泛使用的企业生产力应用中。"
-            },
-            {
-              "word": "stigma",
-              "pos": "n.",
-              "meaning": "污名；社会负面标签。指社会对某种事物、行为或群体的标签化歧视，比 prejudice 更强调「被烙印」的社会过程，比 stereotype 更强调「羞耻感」。在科技产品市场推广和品牌管理中，「去污名化」（destigmatize）是产品能否大众化的核心命题，值得专门学习。",
-              "etymology": "源自希腊语「stigma」（烙印、刺痕），指古代在奴隶或罪犯皮肤上烙下的永久标记。拉丁语直接借用，17世纪进入英语，引申为「社会羞耻标记」。神学中「stigmata」指圣痕，保留了希腊语复数形式，可见词义的历史厚度。",
-              "morphology": "来自希腊语动词「stizein」（刺、刺入）。复数形式：stigmata（正式/宗教语境）或 stigmas（日常用法）。派生词：stigmatize（v. 污名化）、stigmatized（adj. 被污名化的）、destigmatize（v. 去污名化，de- 前缀表示「去除」）。同词根远亲：instinct（本能，in- + stinct 刺入内心）。",
-              "mnemonic": "古代用烙铁在皮肤上烙下「stigma」（烙印），永久洗不掉——现代引申为社会给某类事物贴的「永久负面标签」。智能眼镜的 stigma：「你戴着它，周围人都觉得你在偷拍」，这个印象比技术本身更难消除。",
-              "exampleEn": "Fintech lenders are working to remove the stigma around buy-now-pay-later products by rebranding them as budgeting tools rather than debt instruments.",
-              "exampleCn": "金融科技贷款机构正努力消除「先买后付」产品的污名，将其重新定位为预算管理工具而非债务工具。"
             }
           ]
         }
