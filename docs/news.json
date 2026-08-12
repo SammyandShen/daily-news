@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-12T00:20:05.590241+00:00",
+  "lastUpdated": "2026-08-12T23:05:02.424759+00:00",
   "level": "B2",
   "days": {
+    "2026-08-13": {
+      "label": "8月13日 (周四)",
+      "stories": [
+        {
+          "id": "20260813-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
+          "headlineEn": "CoreWeave Pushes Back on a Top Bear Case in the AI Trade",
+          "headlineCn": "CoreWeave反驳AI交易关键看空论据",
+          "summaryEn": "CoreWeave, a cloud provider specializing in AI infrastructure, says it is seeing robust demand for Nvidia chips that are six years old — far outliving the two-to-three-year cycle that skeptics use to argue AI spending is unsustainable. That demand contradicts one of Wall Street's most persistent worries: that hyperscalers' massive capital outlays on GPUs will prove wasteful once newer chips arrive. If older silicon keeps earning revenue, the economics behind trillions in projected AI spending look considerably more durable, reassuring investors in data center stocks.",
+          "summaryCn": "CoreWeave表示，六年前推出的英伟达芯片仍有强劲租用需求，远超看空者所称的两三年折旧周期。这直接反驳了华尔街担忧的超大规模云厂商GPU支出会迅速贬值浪费的说法。若旧芯片仍能持续创收，支撑AI巨额支出的经济逻辑就更站得住脚，也提振了数据中心股信心。",
+          "excerpt": "CoreWeave is seeing strong demand for Nvidia chips that are six years old, a sign the aging GPUs are still generating solid returns for cloud customers. The finding helps justify the enormous capital spending hyperscalers continue pouring into AI data centers and infrastructure.",
+          "vocab": [
+            {
+              "word": "bear case",
+              "pos": "phrase (finance)",
+              "meaning": "看空/看跌的论据体系，即认为某资产会下跌的核心理由组合，与《bull case》（看多论据）相对。财经媒体常用《key bear case》指最有力的看跌论点，学会这个词组能让你更精准地讨论投资研究框架，而不是笼统说《negative opinion》。",
+              "etymology": "源自伦敦证券交易所18世纪俚语，bear（熊）被认为象征卖空者提前卖出尚未拥有的货（如熊皮商人预售未捕获的熊皮），后引申为看跌市场参与者。",
+              "morphology": "bear（熊，名词）+ case（论据/情形）构成复合名词短语；同源搭配还有 bear market（熊市）、bear raid（做空打压）、bearish（看跌的，形容词）。",
+              "mnemonic": "想象一只熊用巨掌把股价《拍》向地面——熊向下压制，牛（bull）用角向上顶，一压一顶正好对应看跌与看多两种市场论调。",
+              "exampleEn": "Analysts say the bear case on cloud stocks rests on the assumption that AI hardware depreciates faster than companies admit.",
+              "exampleCn": "分析师表示，云计算股票的看跌论据建立在AI硬件折旧速度快于企业承认的假设之上。"
+            },
+            {
+              "word": "depreciation",
+              "pos": "n.",
+              "meaning": "（资产的）折旧，指设备、厂房等固定资产随时间和使用而价值递减，是会计和投资分析中评估资本支出效率的核心概念。理解这个词能帮你看懂财报中为何利润和现金流经常不一致。",
+              "etymology": "源自拉丁语 depretiare（de-向下 + pretium 价格），意为《降低价格》，14世纪进入英语，18世纪起在会计学中固定指资产账面价值的系统性减少。",
+              "morphology": "de-（向下/减少）+ preci（拉丁词根，价格，同源词 precious, price, appraise）+ -ation（名词后缀，表过程）；动词形式 depreciate，形容词 depreciable。",
+              "mnemonic": "把 de-preci-ation 拆成《de（减）+ price（价）》，字面就是《价格一直在往下掉》——一台服务器买来越用越不值钱，就是折旧。",
+              "exampleEn": "Investors worry that rapid GPU depreciation could erode the returns on AI data center investments.",
+              "exampleCn": "投资者担心GPU的快速折旧可能会侵蚀AI数据中心投资的回报。"
+            },
+            {
+              "word": "sweat the assets",
+              "pos": "phrase (verb + object)",
+              "meaning": "榨取/最大化利用现有资产的价值，尤指延长设备使用寿命而非急于更新换代，以摊薄成本、提高回报。这是企业运营和私募股权圈的高频行话，比《use fully》更传神，带有《压榨到极致》的画面感。",
+              "etymology": "短语，无独立词源；sweat作动词表《使出汗、榨取劳动》的用法可追溯到工业革命时期对劳工的《血汗工厂》（sweatshop）比喻，19世纪末延伸到对机器/资本的类似压榨式使用。",
+              "morphology": "sweat（使流汗，动词，转喻《榨取》）+ the + assets（资产，来自法语 asetz，源自拉丁 ad satis《足够》）；同族词还有 sweatshop（血汗工厂）、asset-light（轻资产）。",
+              "mnemonic": "想象把一台旧机器逼得《满头大汗》地连轴转，直到榨干它最后一点剩余价值——这就是 sweat the assets 的画面。",
+              "exampleEn": "Instead of buying new servers every two years, some operators prefer to sweat the assets and keep older GPUs running.",
+              "exampleCn": "一些运营商不愿每两年就购买新服务器，而更愿意榨取现有资产的剩余价值，继续使用旧款GPU。"
+            },
+            {
+              "word": "workhorse",
+              "pos": "n.",
+              "meaning": "长期可靠、任劳任怨地承担核心工作的设备或人员，强调《不起眼但撑起大局》。在科技报道里常用来形容那些老旧却依然稳定服役的硬件，比直接说《reliable device》更生动、更带感情色彩。",
+              "etymology": "复合词，字面指农场里拉犁、干重活的马（work + horse），16世纪英语中已用于农业语境，20世纪起比喻意义扩展到设备和任劳任怨的员工。",
+              "morphology": "work（工作，古英语 weorc）+ horse（马，古英语 hors）直接复合；类似构词的还有 racehorse（赛马）、dark horse（黑马，喻爆冷人选）。",
+              "mnemonic": "脑补一匹老马仍在田里日复一日拉犁——不起眼、不炫技，但整个农场离不开它，这正是六岁的英伟达芯片在数据中心里的角色。",
+              "exampleEn": "Six-year-old Nvidia chips have become the workhorse of many AI data centers, still handling heavy workloads reliably.",
+              "exampleCn": "已使用六年的英伟达芯片已成为许多AI数据中心的主力老将，依然可靠地承担着繁重的运算任务。"
+            },
+            {
+              "word": "obsolescence",
+              "pos": "n.",
+              "meaning": "过时、被淘汰的状态，尤指因技术进步而非物理损坏导致的贬值，是科技行业分析产品生命周期时的核心概念。区别于简单的《old》，它强调《被更新一代比下去》的相对性淘汰。",
+              "etymology": "源自拉丁语 obsolescere（ob-朝向 + solescere，从 solere《习以为常》演变而来），原义为《逐渐停止使用》，17世纪进入英语，20世纪工业设计中衍生出《计划性淘汰》（planned obsolescence）一说。",
+              "morphology": "ob-（前缀，表《离去/相反》）+ solesc（词根，习惯/使用）+ -ence（名词后缀）；形容词形式 obsolete，动词 obsolesce，同前缀词还有 obstruct, obscure。",
+              "mnemonic": "记住 obsolete 就像手机厂商年年出新款，把去年的机型《晾在一边没人用》——ob（离开）+ sole（习惯）=渐渐被抛弃、不再是习惯选择。",
+              "exampleEn": "The bear case assumes rapid obsolescence, but CoreWeave's data suggests older chips retain real economic value for years.",
+              "exampleCn": "看跌论据假设芯片会被迅速淘汰，但CoreWeave的数据表明，旧芯片在多年后仍具有真实的经济价值。"
+            }
+          ]
+        },
+        {
+          "id": "20260813-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
+          "headlineEn": "Cerebras Shares Nosedive 14% After Second Post-IPO Earnings Report Despite Raised Guidance",
+          "headlineCn": "Cerebras二季度营收超预期却仍遭股价暴跌14%",
+          "summaryEn": "AI chipmaker Cerebras Systems saw its shares plunge 14% even after posting second-quarter revenue that beat Wall Street estimates and raising its full-year outlook. The steep drop, coming in only the company's second earnings report since its IPO, illustrates how a stock priced for perfection can nosedive on any perceived shortfall — such as slowing order growth or margin pressure — regardless of otherwise solid headline numbers. The reaction highlights lingering investor skittishness toward newly public AI names.",
+          "summaryCn": "人工智能芯片公司Cerebras第二季度营收超预期，并上调全年业绩指引，但股价当天仍暴跌14%。这是该公司上市以来第二份财报，市场反应凸显投资者对新上市AI概念股的估值已透支到近乎苛刻——即便业绩亮眼，只要细节稍有瑕疵，股价仍可能大幅回落。",
+          "excerpt": "Cerebras Systems reported stronger-than-expected second-quarter revenue and raised its full-year guidance, yet investors sent the AI chipmaker's shares down 14% in a swift, knee-jerk sell-off — a reminder that even solid results can disappoint a stock priced for perfection so soon after its IPO.",
+          "vocab": [
+            {
+              "word": "sell-off",
+              "pos": "n.",
+              "meaning": "大规模抛售（尤指价格下跌后引发的连锁性甩卖）；比笼统的decline更精确，强调是投资者集中主动脱手引发的下跌，是财经报道描述暴跌场面的标配词。",
+              "etymology": "复合词，由动词sell（源自古英语sellan，意为给予、交付）与副词小品词off（表示脱离、甩掉）组合而成，19世纪末进入商业英语，用于描述批量脱手库存或证券。",
+              "morphology": "sell（动词，卖）+ off（小品词，表完全脱离）构成复合名词；同类结构还有write-off（注销）、spin-off（分拆）、payoff（回报）。",
+              "mnemonic": "想象交易大厅里所有人同时喊Sell it off！然后疯狂把手里的股票甩出去——sell-off就是这种集体甩卖的画面。",
+              "exampleEn": "The disappointing revenue outlook triggered a broad sell-off across chip stocks.",
+              "exampleCn": "令人失望的营收前景引发了芯片股的大规模抛售。"
+            },
+            {
+              "word": "priced for perfection",
+              "pos": "phrase",
+              "meaning": "股价已把完美业绩提前计入，估值透支到不容有任何瑕疵的地步；比overvalued更形象，精准点出哪怕业绩达标也会因未达到极致预期而下跌的机制。",
+              "etymology": "短语，由price（定价，源自古法语pris，拉丁语pretium表示价值）与perfection（完美，源自拉丁语perfectio，动词perficere意为做到极致）组合而成，20世纪后期成为华尔街常用俚语。",
+              "morphology": "price（动词化，定价）+ for（介词，为了）+ perfection（perfect完美 + -ion名词后缀）；同源词有perfect、perfectionist、imperfection。",
+              "mnemonic": "想象股价标签上写着仅当一切完美才值这个价——业绩只要有一丝瑕疵，价格立刻站不住脚，这就是priced for perfection的画面。",
+              "exampleEn": "After months of hype, the stock was priced for perfection, so even solid results couldn't satisfy investors.",
+              "exampleCn": "经过数月炒作，这只股票的估值已经透支了完美预期，以至于即便业绩稳健也无法让投资者满意。"
+            },
+            {
+              "word": "nosedive",
+              "pos": "n./v.",
+              "meaning": "股价、业绩等急速俯冲式下跌，比drop或fall更强调速度快、角度陡、近乎失控的下坠感，常用于描述单日暴跌。",
+              "etymology": "源自航空术语，指飞机机头朝下俯冲（nose+dive），20世纪初由飞行员用语引申进入财经和日常英语，形容任何急剧下跌。",
+              "morphology": "nose（名词，机头/鼻子）+ dive（动词，俯冲、跳水）；同根词有dive-bomb（俯冲轰炸）、diving board（跳水板）。",
+              "mnemonic": "想象一架飞机突然机头朝下垂直坠落——股价图上那根陡直向下的红线，就像飞机在做nosedive。",
+              "exampleEn": "Shares took a nosedive within minutes of the earnings call, despite the revenue upside.",
+              "exampleCn": "尽管营收超出预期，股价仍在财报电话会议后几分钟内急速俯冲下跌。"
+            },
+            {
+              "word": "frothy",
+              "pos": "adj.",
+              "meaning": "市场、估值泡沫化的、虚高的，字面指像泡沫一样，比overvalued更形象生动，暗示随时可能消泡破裂，常用于描述整体市场情绪过热。",
+              "etymology": "源自古英语froth（泡沫），本义指液体表面的泡沫，19世纪末引申进入金融语境，比喻资产价格中不真实的泡沫部分。",
+              "morphology": "froth（名词，泡沫）+ -y（形容词后缀，表示具有某性质）；同类构词有foamy（多泡沫的）、bubbly（起泡的）。",
+              "mnemonic": "想象一杯卡布奇诺上面厚厚一层奶泡——看着满满一杯，实际大半是空气；frothy市场也是同理，价格里裹着大量空气。",
+              "exampleEn": "Analysts warned that AI valuations had grown frothy after months of relentless rallies.",
+              "exampleCn": "分析师警告称，在连续数月的上涨之后，人工智能相关股票的估值已经变得泡沫化。"
+            },
+            {
+              "word": "knee-jerk",
+              "pos": "adj.",
+              "meaning": "膝跳反射式的、未经思考的本能反应，形容投资者对消息不加分析就立即抛售或买入，比impulsive更具画面感和医学隐喻色彩。",
+              "etymology": "源自医学术语膝跳反射，医生敲击膝盖下方肌腱引发不自主的腿部反应，20世纪中期被引申用于政治和财经语境，形容不经思考的自动反应。",
+              "morphology": "knee（名词，膝盖）+ jerk（名词/动词，猛地一动）；同类隐喻构词有gut reaction（本能反应）、reflex action（反射动作）。",
+              "mnemonic": "想象医生用小锤敲你的膝盖，腿自动弹起——你根本没决定要抬腿；投资者看到坏消息就抛售，也是同样不经大脑的反射动作。",
+              "exampleEn": "The knee-jerk sell-off faded once investors read through the actual numbers behind the headline.",
+              "exampleCn": "一旦投资者读懂了标题背后的真实数据，这种条件反射式的抛售就逐渐消退了。"
+            }
+          ]
+        },
+        {
+          "id": "20260813-3",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/56c300d3-3632-476e-96d6-da84d4558bda?syn-25a6b1a6=1",
+          "headlineEn": "Poorer Americans Struggle to Make Ends Meet, Top Fed Official Warns",
+          "headlineCn": "美联储高层警告：低收入美国人收支难平衡",
+          "summaryEn": "Susan Collins, president of the Federal Reserve Bank of Boston, said lower-income households are increasingly falling behind on bills and cutting discretionary spending as prices stay elevated, even as wealthier Americans keep spending freely. She indicated she would support raising interest rates again in September if inflation does not cool. The remarks highlight a widening K-shaped economy, in which affluent consumers prop up growth while poorer families struggle paycheck-to-paycheck — a divide that complicates the Fed's next policy move.",
+          "summaryCn": "波士顿联储行长苏珊·科林斯表示，物价高企下，低收入家庭正越来越难支付账单、被迫削减非必要开支，而富裕阶层消费几乎未受影响。她表示，若通胀持续高企，将支持九月加息。这番言论凸显美国经济呈「K型」分化：富裕消费者支撑增长，低收入家庭却在收支边缘挣扎。",
+          "excerpt": "Boston Federal Reserve president Susan Collins said she would support raising interest rates again in September if inflation stays elevated, even as she warned that lower-income Americans are increasingly struggling to make ends meet amid persistently high prices and a widening gap in consumer spending.",
+          "vocab": [
+            {
+              "word": "squeeze",
+              "pos": "n./v.",
+              "meaning": "财经语境中指（收入/利润/生活）受挤压、紧缩，比 pressure 更形象，暗示从两侧被夹紧的痛感，常见搭配 cost-of-living squeeze、margin squeeze、credit squeeze。",
+              "etymology": "源自中古英语 queisen，可能受古法语 escoussier（摇晃、挤压）影响，本义指物理挤压动作，16世纪起引申出经济压力义。",
+              "morphology": "单音节词，不可再拆分；常见搭配/派生：squeeze out（挤出、排挤）、squeeze play（棒球术语，喻紧逼战术）、squeezed（形容词，被压榨的）。",
+              "mnemonic": "想象把一个橙子用力挤（squeeze）出汁——低收入家庭的钱包正被物价这样挤干，一点余地都没有。",
+              "exampleEn": "Rising rents and grocery bills have put a painful squeeze on households living paycheck to paycheck.",
+              "exampleCn": "不断上涨的房租和杂货账单让那些收支勉强打平的家庭承受着痛苦的挤压。"
+            },
+            {
+              "word": "arrears",
+              "pos": "n.",
+              "meaning": "拖欠款项、逾期未付的账单，常用于 fall into arrears、in arrears，比 debt 更精确地强调本该已付却未付的时间维度，是财经报道中描述房贷/账单拖欠的标准用词。",
+              "etymology": "源自古法语 arere（在后面），再溯至拉丁语 ad retro（向后）。字面落在后面演变为拖欠、滞纳之意。",
+              "morphology": "常以复数形式固定使用；同源词：rear（后方）、arrearage（拖欠额，较少用）。",
+              "mnemonic": "arrears 谐音像 a-rears——账单像被落在了你身后（rear=后面）追着你跑，你越走越欠得多。",
+              "exampleEn": "More low-income borrowers are falling into arrears on credit-card payments as living costs climb.",
+              "exampleCn": "随着生活成本上升，越来越多低收入借款人的信用卡还款开始拖欠。"
+            },
+            {
+              "word": "paycheck-to-paycheck",
+              "pos": "phrase/adj",
+              "meaning": "月光族式的，形容收入刚好覆盖开支、毫无结余的生存状态，是描述经济脆弱性的标志性口语搭配，比 low-income 更强调现金流紧绷的生活状态。",
+              "etymology": "短语/复合词，无独立词源；由 paycheck（工资支票）重复叠加构成，强调从这张支票撑到下张支票的循环。",
+              "morphology": "paycheck = pay（支付）+ check（支票），复合名词；叠用两次中间加 to 构成形容词短语，可类比 hand-to-mouth（勉强糊口）。",
+              "mnemonic": "想象一个人手里攥着这个月的工资支票（paycheck），刚发下来就要马上花光，等着 to 下一张支票——完全没有缓冲垫。",
+              "exampleEn": "Nearly half of surveyed workers say they are living paycheck to paycheck despite steady employment.",
+              "exampleCn": "近半数受访员工表示，尽管有稳定工作，他们仍过着月光式的生活。"
+            },
+            {
+              "word": "K-shaped",
+              "pos": "adj.",
+              "meaning": "描述经济复苏/走势中富者愈富、穷者愈穷的分叉现象，图形上像字母K，一撇向上一撇向下，是近年财经媒体高频造词，比 uneven recovery 更具画面感和精确度。",
+              "etymology": "现代造词，直接借用字母 K 的视觉形状（两条线一升一降）来比喻经济数据的分化路径，属于形状隐喻词。",
+              "morphology": "K（字母）+ shaped（shape 的过去分词作形容词，呈…形状的），同构词：V-shaped recovery（V型复苏）、U-shaped（U型）、L-shaped（L型衰退）。",
+              "mnemonic": "把字母 K 想象成两条腿——一条腿（富人）往右上方迈开大步，另一条腿（穷人）往右下方越叉越远，这就是K型经济的画面。",
+              "exampleEn": "Economists point to a K-shaped economy in which affluent consumers keep spending while poorer households pull back.",
+              "exampleCn": "经济学家指出这是一种K型经济：富裕消费者持续消费，而低收入家庭却在收缩开支。"
+            },
+            {
+              "word": "discretionary",
+              "pos": "adj.",
+              "meaning": "非必需的、可自由支配的，常见搭配 discretionary spending/income，与必需开支 essential spending 形成对照，是分析消费者行为和零售业绩时的核心词，比 optional 更正式、更常见于财经报告。",
+              "etymology": "源自拉丁语 discretio（辨别、判断），经古法语 discrecion 演变而来，本义凭个人判断决定，17世纪后进入英语法律与财经语境，衍生出可自主决定是否花费之意。",
+              "morphology": "dis-（分开）+ cern（辨别，同 discern）+ -ion/-ary，同根词：discern（辨别）、discretion（判断力）、indiscreet（轻率的）。",
+              "mnemonic": "discretion（判断力）+ -ary，把它想成这笔钱花不花全凭你自己的判断（discretion）——外出吃饭、旅游都是可以自由取舍的 discretionary spending。",
+              "exampleEn": "As inflation bites, many families are cutting discretionary spending on dining out and travel.",
+              "exampleCn": "随着通胀加剧，许多家庭正在削减外出就餐和旅行等非必需开支。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-12": {
       "label": "8月12日 (周三)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "mnemonic": "re = 再次，viv = 生命（想想 vivid 那种扑面而来的画面感），revive = 再次注入生命。急救场景：医护人员对昏迷患者 revive（施救复苏）——财经新闻中同样是「复燃」通胀担忧。词根 viv 记牢，survive、vital、vivid 一网打尽。",
               "exampleEn": "Strong jobs data revived fears that the Fed might raise rates again, sending bond prices lower across the curve.",
               "exampleCn": "强劲的就业数据重燃市场对美联储可能再次加息的担忧，导致各期限债券价格全线下跌。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-08": {
-      "label": "7月8日 (周三)",
-      "stories": [
-        {
-          "id": "20260708-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
-          "headlineEn": "Meta rolls out Muse, a new AI image generator",
-          "headlineCn": "Meta 推出新 AI 图像生成器 Muse",
-          "summaryEn": "Meta has launched Muse, a new AI-powered image generation model designed for a broad range of practical applications. The tool targets advertising campaigns, interior decoration, and creator-driven content, positioning Meta as a serious competitor in the crowded generative AI space. Muse reflects Meta's wider push to integrate AI capabilities across its platforms, including Instagram and Facebook, and could open new revenue streams by helping brands and creators produce visual content faster and at lower cost.",
-          "summaryCn": "Meta 正式推出名为 Muse 的 AI 图像生成模型，覆盖广告投放、室内装饰及创作者内容等多元应用场景。此举标志着 Meta 在生成式 AI 赛道上的重要布局，旨在与 OpenAI、Midjourney 等竞争对手展开正面竞争。Muse 有望深度整合至 Instagram 和 Facebook 等旗下平台，为品牌主和内容创作者提供更高效、低成本的视觉内容生产工具，并进一步拓宽 Meta 的商业化变现路径。",
-          "excerpt": "Meta has introduced Muse, an AI image-generation model with applications spanning advertising, home decoration, and content creation. The launch signals the company's intent to compete directly with established players in the generative AI market while extending AI-powered tools to its massive creator and advertiser ecosystem.",
-          "vocab": [
-            {
-              "word": "generative",
-              "pos": "adj.",
-              "meaning": "生成式的——专指能自主产生新内容（图像、文字、音频等）的 AI 技术。区别于「判别式」AI，这个词已成为 AI 赛道的核心标签，读科技财经新闻必须掌握",
-              "etymology": "来自拉丁语 generare（生育、产生），词根溯至 genus（种类、起源）。17 世纪进入英语，原义为「有繁殖力的」，现代语境演变为「能主动创造新事物的」",
-              "morphology": "generate（动词：产生）+ -ive（形容词后缀）。同族词：generate（产生）、generation（一代 / 生成）、regenerate（再生）——掌握词根 gen- 可横向扩展大量词汇",
-              "mnemonic": "想象一个「基因工程」实验室（gene 与 genera 同源），科学家在里面凭空「生成」全新生命体——generative AI 就是这样「生成」图像的工厂。记住 gen = 生，生就是 generative 的灵魂",
-              "exampleEn": "Generative AI tools are reshaping the advertising industry by enabling brands to produce high-quality visuals in seconds.",
-              "exampleCn": "生成式 AI 工具正在重塑广告行业，让品牌能在数秒内制作出高质量的视觉内容。"
-            },
-            {
-              "word": "versatile",
-              "pos": "adj.",
-              "meaning": "多用途的、用途广泛的——形容工具、人才或技术能适应多种场景。比 flexible 更强调「实际可用的多样性」，常见于产品发布和人才评估场合，是高频商业褒义词",
-              "etymology": "来自拉丁语 versatilis，源于 vertere（旋转、转动）。原义为「能灵活转向的」，引申为「能适应多个方向 / 用途的」，16 世纪进入英语",
-              "morphology": "词根 vers-/vert-（转）+ -atile（形容词后缀，表倾向）。同词根词：reverse（反转）、convert（转换）、divert（转移）——凡见 vers/vert，皆与「旋转 / 转变」有关",
-              "mnemonic": "想象一把瑞士军刀——能旋转出剪刀、锯子、螺丝刀，versatile 就是它的形容词。vers = 转，能转着用才叫 versatile，别和 flexible（弯曲灵活）混淆",
-              "exampleEn": "The new platform is highly versatile, supporting everything from product mockups to social media creatives.",
-              "exampleCn": "这一新平台用途极为广泛，从产品原型图到社交媒体创意内容，样样皆可支持。"
-            },
-            {
-              "word": "tailor",
-              "pos": "v.",
-              "meaning": "量身定制——根据特定需求调整产品、服务或方案。在商业语境中比 customize 更正式，暗含「专业裁量」的含义，常搭配 to 使用（tailor to the needs of...），财经写作高频词",
-              "etymology": "来自古法语 tailleur（裁缝），源于 tailler（裁剪），再溯至拉丁语 taliare（切割）。词义从「裁布缝衣」引申为「为特定对象量身打造任何事物」",
-              "morphology": "无可拆分前后缀，是整体借词。主要派生词：tailored（定制的 / 修身的）、tailor-made（量身打造的）、tailoring（裁剪 / 定制服务）——三个派生词值得一并记忆",
-              "mnemonic": "想象一位老裁缝拿着软尺为顾客量身裁布——动词 tailor 完整保留了「专门为你裁剪」的画面感。商业里用 tailor 就是「为你专门设计」，比 customize 多了一份大师级定制的温度",
-              "exampleEn": "The company plans to tailor its AI recommendations to individual merchants based on their sales history.",
-              "exampleCn": "该公司计划根据商家的销售历史，为其量身定制 AI 推荐方案。"
-            },
-            {
-              "word": "unveil",
-              "pos": "v.",
-              "meaning": "正式揭晓、公开推出——宣布某项新产品、政策或计划的首次公开亮相。比 announce 更有仪式感，暗示此前刻意保密、现在首次公开。科技公司发布会最爱用的动词，读新闻必备",
-              "etymology": "前缀 un-（去除、反向）+ veil（面纱，来自古法语 voile，再溯至拉丁语 velum：覆盖物）。字面义为「揭开面纱」，在西方文化中揭开面纱象征「公之于众」",
-              "morphology": "un-（否定 / 反向前缀，含义为「去除」）+ veil（名词活用为动词：遮盖）。同前缀词：uncover（揭开）、unlock（解锁）、unleash（释放）——un- 系列均暗示「去除障碍、展现真相」",
-              "mnemonic": "想象苹果发布会上 Tim Cook 拉开一块黑色幕布——那个动作就是 unveil。veil = 面纱，un- 掀掉它，产品闪亮登场。每次读到科技发布会新闻，脑海中浮现那块幕布就对了",
-              "exampleEn": "Apple is expected to unveil its next-generation chip at the annual developer conference next month.",
-              "exampleCn": "苹果预计将在下月的年度开发者大会上正式揭晓其下一代芯片。"
-            },
-            {
-              "word": "adoption",
-              "pos": "n.",
-              "meaning": "采用率、普及度——指技术、产品或政策被用户 / 市场接受并实际使用的程度。「adoption rate」是衡量新技术市场成功与否的核心指标，在科技财经报告中极高频，远比「使用率」更专业地道",
-              "etymology": "来自拉丁语 adoptio，源于 adoptare（选择接纳），由 ad-（朝向）+ optare（选择）构成。原义为「收养」（主动选择接纳他人孩子），引申为「主动选择接受某事物」",
-              "morphology": "ad-（朝向，表方向）+ opt（选择，来自拉丁语 optare）+ -ion（名词后缀）。同族词：adopt（采用）、option（选项）、optional（可选的）——opt 词根族群均与「主动选择」相关",
-              "mnemonic": "adopt 原意是「收养」孩子——主动选择把孩子纳入家庭。技术 adoption 同理：公司或用户主动「收养」新技术，把它纳入日常工作流。下次看到 adoption rate，脑海中浮现「认养率」三字就秒懂了",
-              "exampleEn": "Widespread adoption of AI image tools could significantly reduce the cost of producing creative content for small businesses.",
-              "exampleCn": "AI 图像工具的广泛普及，可能大幅降低小型企业制作创意内容的成本。"
-            }
-          ]
-        },
-        {
-          "id": "20260708-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
-          "headlineEn": "Netflix Experiments with Short-Form Video via New Publisher Partnerships",
-          "headlineCn": "Netflix试水短视频内容，与Variety等媒体达成合作协议",
-          "summaryEn": "Netflix is testing the waters with shorter video content by striking deals with major digital publishers, including Rolling Stone and Variety. The streaming giant will host 2- to 20-minute videos on its platform, marking a tentative shift from its long-form content strategy. The move could help Netflix diversify its library, attract new audiences, and generate additional ad revenue as the company expands its ad-supported tier. Industry observers are watching closely to see whether this experiment gains traction with subscribers.",
-          "summaryCn": "Netflix正在试水短视频内容领域，通过与《综艺》（Variety）和《滚石》（Rolling Stone）等数字媒体出版商签署合作协议，计划在平台上推出时长2至20分钟的短视频。这标志着这家流媒体巨头向短格式内容的一次试探性进军，与其长期主打的长剧和电影策略有所不同。分析人士认为，此举或有助于Netflix丰富内容矩阵、吸引新受众，并为其广告支持套餐开辟新的营收来源。",
-          "excerpt": "Netflix is bringing 2- to 20-minute videos to its platform through new partnerships with digital publishers, including Rolling Stone and Variety. The streaming service appears to be experimenting with shorter content formats to diversify beyond its traditional long-form programming and boost engagement on its ad-supported tier.",
-          "vocab": [
-            {
-              "word": "dabble",
-              "pos": "v.",
-              "meaning": "（在某领域）浅尝辄止地尝试；试水。商业语境中比「try」更传神——暗示「小规模实验性涉足、尚未全力投入」，比 experiment 更轻描淡写，常带一丝不确定感，是报道企业新方向时的高频词。值得学：它精准区分了「认真转型」与「顺手试试」的微妙差异。",
-              "etymology": "源自荷兰语或低地德语 dabbelen，原义是「在水中轻拍、溅水」，16世纪进入英语后引申为「轻描淡写地涉猎某事」，保留了「浅尝、不深入」的水面意象。",
-              "morphology": "简单动词，无可拆解前后缀。派生词：dabbler（n. 浅尝者、业余爱好者）、dabbling（adj./n. 浅尝性的）。近义对比：experiment（更正式），tinker（更侧重动手小修改），dip one's toes in（同义口语短语）。",
-              "mnemonic": "想象用手指轻轻 dab（点拍）水面——只碰一下，没有跳进去。Netflix 只是轻拍短视频市场，dabble ≈ dab（轻拍）＋反复动作感。看到公司「dabble in X」就知道：试探性的，没下定决心。",
-              "exampleEn": "The tech giant is dabbling in healthcare AI, but has yet to commit to a full commercial launch.",
-              "exampleCn": "这家科技巨头正在试水医疗人工智能领域，但尚未承诺全面商业化推出。"
-            },
-            {
-              "word": "foray",
-              "pos": "n. / v.",
-              "meaning": "首次涉足某新领域；试探性进军。商业报道极高频词，比「entry into」更简洁有力，自带「实验性、胜负未定」的弦外之音。值得学：它完美表达了「进军但还没站稳」的动态感，常见搭配 make a foray into 和 first foray 必须掌握。",
-              "etymology": "源自古法语 fourrer（掠夺、突袭），原指军事上的快速劫掠行动，14世纪进入英语；现代商业语境引申为「快速试探性进入新市场」，保留了「突然闯入、结果未定」的隐喻。",
-              "morphology": "单一词根，无可拆解前后缀。作动词：to foray into new territory。近义词：venture（更中性，也可指创业公司），incursion（更强调侵入性），excursion（更轻松的外出探索）。",
-              "mnemonic": "想象一支小队 foray（突袭）进入敌方领地——快速、试探性，可能得手也可能撤退。Netflix 的短视频计划正是一次市场突袭，进去探探再说。字形联想：for＋ray，为了（for）找到新出路射出（ray）一束光。",
-              "exampleEn": "The automaker's foray into subscription-based software features generated both excitement and controversy among consumers.",
-              "exampleCn": "这家汽车制造商首次涉足订阅制软件功能领域，在消费者中引发了热情与争议并存的反应。"
-            },
-            {
-              "word": "short-form",
-              "pos": "adj.",
-              "meaning": "短格式的（内容），时长通常在几秒到几分钟之间。媒体和科技行业必备术语，与 long-form（长篇）相对。值得学：理解流媒体、社交平台内容策略的关键词，TikTok 是 short-form 的极致，Netflix 传统上是 long-form 的代名词，本文的新闻价值正在于两者的碰撞。",
-              "etymology": "复合形容词，short（古英语 sceort，短的）＋ form（拉丁语 forma，形式/形状）。为现代媒体行业20世纪末随数字媒体兴起而衍生的行业术语，无独立词源。",
-              "morphology": "short（adj.）＋ form（n.）以连字符构成复合形容词。同类构词：long-form（长格式）、free-form（自由格式）、multi-platform（多平台）。form 词族：format、formation、reform、conform、inform。",
-              "mnemonic": "脑海里出现两个画面对比：左边是 TikTok 的15秒竖屏（short-form），右边是 Netflix 两小时电影（long-form）。Netflix 现在要把左边那个搬到自己平台——这就是本条新闻的核心冲突。",
-              "exampleEn": "Brands are increasingly investing in short-form video ads to capture the attention of mobile-first consumers.",
-              "exampleCn": "品牌正越来越多地投资于短格式视频广告，以吸引以手机为主要设备的消费者。"
-            },
-            {
-              "word": "bolster",
-              "pos": "v.",
-              "meaning": "支撑、强化、提振。商业报道中比 strengthen 或 boost 更书面，常用于「提振收入/信心/增长」等语境，带有「从下方托住防止下滑」的隐喻感。值得学：它暗示「本来有压力，现在有人撑着」，语气比 boost 更稳重，财经媒体高频词。",
-              "etymology": "源自古英语 bolster（长枕、垫枕），原义是「用枕头从下方支撑身体」，后由名词引申为动词，意为「撑住、提振某事物」，隐喻保留了「防止下滑、从下方托起」的画面感。",
-              "morphology": "古英语词根，名词转动词用法。派生词：bolster（n. 长枕/支撑物）。近义对比：boost（更口语、力道更猛，偏正向推动），reinforce（更强调加固结构），shore up（更侧重「防止崩塌」的紧急支撑）。",
-              "mnemonic": "bolster 像一根长枕头（bolster pillow）垫在背后——从下方撑着你，不让你倒下。企业用新合作来 bolster（撑住）营收，就是防止它往下滑。记忆公式：枕头（bolster）＝ 撑住（bolster）。",
-              "exampleEn": "The partnership with streaming platforms is expected to bolster the publisher's digital advertising revenue significantly.",
-              "exampleCn": "与流媒体平台的合作预计将显著提振该出版商的数字广告收入。"
-            },
-            {
-              "word": "syndication",
-              "pos": "n.",
-              "meaning": "（内容）联合发行授权；版权分发。媒体行业核心词，指将内容授权给多个平台或渠道同时使用。值得学：Netflix 与出版商的合作本质上是内容 syndication 的一种变体；理解媒体并购、内容授权新闻不可或缺，比 distribution 更具专业度且含义更精确。",
-              "etymology": "源自法语 syndicat（工会、辛迪加），再溯源至希腊语 syndikos（代理人）＝ syn-（共同）＋ dikos（司法/权利）。原指「联合团体代为处理事务」，后引申为媒体内容「联合授权、批量分发给多家机构」。",
-              "morphology": "syn-（前缀：共同/联合）＋ dic（词根：说/代表/分配）＋ -ation（名词后缀）。同前缀词：synthesis（综合）、synchronize（同步）、synergy（协同效应）。动词：syndicate；形容词：syndicated（如 syndicated column 联合专栏）。",
-              "mnemonic": "syn-（一起）＋ dication（分配出去）＝ 把内容「一起分发出去」给多家平台。想象一个内容工厂，同时给 Netflix、Hulu、Disney＋ 都供货——这就是 syndication。经典例子：报纸专栏「联合发行」给全国数百家报纸同步刊登。",
-              "exampleEn": "The studio secured a lucrative syndication deal that allowed its reality show to stream on five international platforms simultaneously.",
-              "exampleCn": "该制片公司签下了一笔丰厚的内容联播协议，使其真人秀节目得以在全球五个流媒体平台同时播出。"
-            }
-          ]
-        },
-        {
-          "id": "20260708-3",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/oil-prices-rise-as-the-u-s-cancels-irans-license-to-sell-oil-030635fc?mod=mw_rss_topstories",
-          "headlineEn": "Crude Prices Surge After U.S. Strikes Iran and Cancels Iranian Oil License",
-          "headlineCn": "美国对伊朗发动袭击并撤销石油销售许可，油价急涨",
-          "summaryEn": "Oil futures surged Tuesday evening after the U.S. military launched strikes on Iran, sending shock waves through global energy markets. The move came shortly after the Treasury Department revoked a license it had issued on June 21 authorizing the sale of Iranian oil. The combination of tightened supply prospects and heightened geopolitical risk drove crude prices higher. Analysts warn that if the conflict escalates, disruptions to Middle East oil shipments could push prices even further.",
-          "summaryCn": "周二晚间，美国对伊朗发动军事打击，全球能源市场随之震荡，原油期货应声大涨。就在袭击前数小时，美国财政部撤销了6月21日发放的一份许可证——该证此前允许销售伊朗石油。供应收紧预期与地缘政治风险叠加，共同推动油价走高。分析人士警告，若局势进一步升级，中东石油运输受阻的风险将把价格推至更高水平。",
-          "excerpt": "Oil futures climbed sharply late Tuesday after the U.S. Treasury Department canceled a license it had granted on June 21 to allow for the sale of Iranian oil. The price surge came just hours after American forces launched military strikes on Iran, intensifying fears of a broader supply disruption.",
-          "vocab": [
-            {
-              "word": "futures",
-              "pos": "n.",
-              "meaning": "期货合约；金融语境中指「在约定的未来某日以固定价格交割的商品或金融资产合约」。与股票（即时所有权）不同，futures 是对未来价格的约定，常用于原油、农产品等大宗商品，既可对冲风险，也可用于投机。oil futures（原油期货）是财经报道高频搭配，值得熟记。",
-              "etymology": "来自拉丁语 futurus（将要来的），为动词 esse（存在）的将来分词形式。进入英语后先泛指「未来的事物」，19世纪商品交易所兴起后，复数形式 futures 演变为专指「期货合约」的金融术语，已固化为不可数的行业专有名词。",
-              "morphology": "词根 fut- 来自拉丁语 futurus，核心含义为「将来」。相关词：future（未来，形/名）、futurity（将来性，书面语）、futurism（未来主义）。复数 futures 在金融语境中已固化为专业名词，指整类合约而非多个「未来」，不可拆分理解。",
-              "mnemonic": "想象你今天签了一份合同，约定三个月后以今天商定的价格买一桶原油——你买的不是油，而是「未来」(future)。futures 就是「打包好的多份未来约定」。折线图上向右延伸的那段虚线，就是 futures 所在的地方。",
-              "exampleEn": "Traders rushed to buy oil futures after reports of a supply disruption in the Persian Gulf.",
-              "exampleCn": "「有报道称波斯湾供应中断，交易员纷纷买入原油期货。」"
-            },
-            {
-              "word": "revoke",
-              "pos": "v.",
-              "meaning": "正式撤销、废止（许可证、资质、命令等）。比 cancel（取消）更正式，专用于政府或法律语境，强调「主动收回已授予的权力或资格」。常见搭配：revoke a license（吊销执照）、revoke an order（撤销命令）、revoke sanctions（解除制裁）。本文中财政部撤销许可证，用 revoke 最为地道。",
-              "etymology": "来自拉丁语 revocare，由 re-（回）+ vocare（呼唤、召回）构成，原义为「把某人召回来」，引申为「收回已颁布的命令或授权」。16世纪通过法律英语进入日常使用，保留了强烈的「官方正式撤回」含义。",
-              "morphology": "re-（再/回）+ voc-（声音/呼唤，来自拉丁 vocare）+ -e。同词根词：invoke（援引）、evoke（唤起）、provoke（激怒）、vocal（声音的）、advocate（倡导者）。核心词根 voc- 贯穿「声音与话语」概念，记住一个，带动一串。",
-              "mnemonic": "re-（回）+ voke（≈ voice，声音）——把「声音收回去」，就像把你曾大声宣布的授权悄悄撤回。想象政府拿着扩音器宣布一项政策，再拿同一个扩音器说「那个不算了」——这就是 revoke 的动作。",
-              "exampleEn": "The regulator threatened to revoke the bank's operating license if it failed to meet compliance standards.",
-              "exampleCn": "「若该银行未能达到合规标准，监管机构威胁将吊销其经营许可证。」"
-            },
-            {
-              "word": "sanction",
-              "pos": "n. / v.",
-              "meaning": "制裁（n./v.）；亦可表示「批准、认可」（n.）。英语中著名的「自反词」(contronym)，同一个词含「惩罚」和「允许」两层截然相反的含义。财经新闻中几乎专指「国际经济制裁」，如 impose sanctions on Iran（对伊朗实施制裁）。掌握其双重含义可避免阅读条约文本时误解方向。",
-              "etymology": "来自拉丁语 sanctio，源自 sancire（使神圣、正式确立），原指罗马法律中附带惩罚条款的神圣誓言。因「神圣确立」既可授予许可（赐福）也可施加惩处（诅咒），两层含义并存至今，是极罕见的一词两义对立案例。",
-              "morphology": "词根 sanct-（神圣）+ -ion（名词后缀）。同词根词：sanctuary（圣所/避难所）、sanctify（使神圣）、saint（圣人，源自同一拉丁词根 sanctus）。记住 sanct- = 神圣，整个词族迎刃而解。",
-              "mnemonic": "古罗马神庙（sanctuary）的神官（saint）手握双重权力——既能「赐福批准」也能「神罚惩处」，两种权力都叫 sanction。遇到这个词，先看上下文：配合 impose / lift 多指制裁，配合 give / receive 多指批准。",
-              "exampleEn": "The EU imposed fresh sanctions on Russia's energy sector, targeting crude oil exports and shipping services.",
-              "exampleCn": "「欧盟对俄罗斯能源行业实施新制裁，重点针对原油出口和航运服务。」"
-            },
-            {
-              "word": "spike",
-              "pos": "n. / v.",
-              "meaning": "（价格或数据）骤升、急涨；图表上呈现的「尖峰」形态。与 surge（持续攀升）不同，spike 强调「幅度大、时间极短、往往快速回落」，是财经写作描述短期极端波动的首选词。常见搭配：a spike in oil prices（油价骤升）、spike to $90（飙升至90美元）。",
-              "etymology": "来自古诺尔斯语 spīkr（钉子）或中古荷兰语 spijker，原义是「尖锐的钉状物体」，引申为「折线图上突然出现的钉状尖峰」。20世纪进入金融和数据分析语境，成为描述短期剧烈波动的标准术语。",
-              "morphology": "spike 是基础形式，常见派生词：spiky（尖锐的、令人不悦的）、spiked（被掺杂的/刺穿的）。财经固定搭配：a spike in demand（需求骤增）、price spike（价格尖峰）、an unexpected spike（意外飙升）。",
-              "mnemonic": "把价格折线图想象成一块钉板——平静的走势中突然「蹦出一颗钉子」，那就是 spike。钉子又尖又短，价格 spike 也一样：涨得快，往往也跌得快。看到图表上孤立的高点，就想到那颗钉子。",
-              "exampleEn": "A sudden supply disruption caused a spike in natural gas prices that caught many traders off guard.",
-              "exampleCn": "「突如其来的供应中断导致天然气价格骤升，令许多交易员措手不及。」"
-            },
-            {
-              "word": "embargo",
-              "pos": "n. / v.",
-              "meaning": "禁运；政府以政治或经济手段禁止与特定国家进行特定贸易的官方措施，尤指石油、武器等战略物资。比 ban（禁止）更正式，通常带有国际法律约束力。历史上最著名案例是1973年OPEC对美国实施的石油禁运（oil embargo），直接引发第一次石油危机，此词因此与能源政治深度绑定。",
-              "etymology": "来自西班牙语 embargo（扣押、阻拦），源自 embargar（阻止、扣押），由 em-（进入）+ barra（横杆、障碍物）构成。原指用横杆拦截港口船只不让进出，后引申为国家在法律层面「拦截」货物进出口的行为，16世纪通过海洋贸易语境进入英语。",
-              "morphology": "em-（进入）+ bargo（来自西班牙语 barra，横杆）。无直接同词根英语词，但同类贸易限制词可横向对比：blockade（军事封锁）、boycott（民间抵制）、tariff（关税）、quarantine（隔离检疫）。注意 embargo 也可作动词：to embargo a shipment（对一批货物实施禁运）。",
-              "mnemonic": "字形上 em-bar-go，中间藏着个 bar（横杆、障碍）。想象一根横杆横在港口拦住所有船只——这就是 embargo 的本义图像。记忆口诀：「横杆入港拦货忙，embargo 禁运断贸航。」",
-              "exampleEn": "The U.S. placed an embargo on arms sales to the country following reports of widespread human rights violations.",
-              "exampleCn": "「在大规模侵犯人权的报告曝光后，美国对该国实施了武器销售禁运。」"
             }
           ]
         }
