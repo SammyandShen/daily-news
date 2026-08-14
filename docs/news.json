@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-12T23:05:02.424759+00:00",
+  "lastUpdated": "2026-08-14T02:38:51.644461+00:00",
   "level": "B2",
   "days": {
+    "2026-08-14": {
+      "label": "8月14日 (周五)",
+      "stories": [
+        {
+          "id": "20260814-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/13/big-short-investor-steve-eisman-sees-an-achilles-heel-in-the-ai-boom.html",
+          "headlineEn": "Big Short Investor Steve Eisman Flags AI Boom's Two-Company Dependency",
+          "headlineCn": "《大空头》投资人艾斯曼警告：AI热潮命脉系于两家公司",
+          "summaryEn": "Steve Eisman, the investor famed for predicting the 2008 subprime mortgage collapse depicted in The Big Short, says the artificial intelligence boom now rests precariously on just two companies, OpenAI and Anthropic. He argues this narrow concentration creates a systemic vulnerability: if either firm stumbles on funding, technology, or execution, the shockwaves could rattle the broader AI trade, from chipmakers to cloud providers, that has powered much of this year's stock market gains.",
+          "summaryCn": "因预测2008年次贷危机而闻名的投资人艾斯曼（《大空头》原型）警告，AI热潮已过度依赖OpenAI与Anthropic两家公司。他认为一旦其中一家在资金或技术上出问题，冲击将波及芯片、云服务等整条产业链，动摇支撑美股上涨的核心逻辑。",
+          "excerpt": "Steve Eisman is warning that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies, OpenAI and Anthropic — a concentration he sees as a genuine Achilles' heel for markets that have ridden the AI trade to record highs this year.",
+          "vocab": [
+            {
+              "word": "Achilles' heel",
+              "pos": "phrase",
+              "meaning": "致命弱点/软肋；用于形容看似强大的系统或公司唯一的致命破绽，比weakness更有画面感，暗示'整体强大但有一处足以致命'",
+              "etymology": "源自希腊神话：英雄阿喀琉斯全身刀枪不入，唯独脚踵是母亲提他浸入冥河时被手捏住而未浸润的部位，成为其唯一致命弱点。",
+              "morphology": "专有名词短语，无法拆解词根；同类隐喻表达还有chink in the armor（盔甲的裂缝）、fatal flaw（致命缺陷）。",
+              "mnemonic": "想象一个所向无敌的巨人，唯独脚后跟没穿盔甲——把AI热潮想象成这个巨人，OpenAI和Anthropic就是它唯一暴露的脚踵。",
+              "exampleEn": "Analysts say the market's reliance on two AI labs could prove to be its Achilles' heel if either stumbles.",
+              "exampleCn": "分析师认为，市场对两家AI实验室的依赖可能成为其致命弱点，一旦其中一家出问题便会波及全局。"
+            },
+            {
+              "word": "duopoly",
+              "pos": "n.",
+              "meaning": "双寡头垄断，指某个行业被两家公司主导的格局；比monopoly更精确地描述'二人转'式竞争结构，财经报道中常用来形容AI大模型、芯片等赛道",
+              "etymology": "源自希腊语duo（二）+ polein（出售），与monopoly（mono单一+polein出售）同源，19世纪末进入英语经济学术语体系。",
+              "morphology": "du-（二，参见duet二重奏、duplicate复制）+ -opoly（出售/市场，参见monopoly垄断、oligopoly寡头垄断）。",
+              "mnemonic": "记住duo就是'二人组合'（像音乐组合duo），-opoly来自垄断游戏Monopoly——两者拼起来就是'两家公司玩的垄断游戏'。",
+              "exampleEn": "OpenAI and Anthropic now form a de facto duopoly at the frontier of large language model development.",
+              "exampleCn": "OpenAI和Anthropic如今在大语言模型前沿领域形成了事实上的双寡头格局。"
+            },
+            {
+              "word": "linchpin",
+              "pos": "n.",
+              "meaning": "核心支柱/关键纽带，字面指车轮轴上防止车轮脱落的销钉，比core或key更生动，强调'一旦抽走整个系统就会散架'",
+              "etymology": "源自古英语lynis（车轴）+ pin（销钉），指插入车轴末端防止车轮滑脱的金属销，14世纪起用于英语，19世纪衍生出比喻义。",
+              "morphology": "linch（车轴，古词根，现已不单独使用）+ pin（销钉，参见hairpin发夹、pinpoint精确定位）。",
+              "mnemonic": "想象马车轮子上那根不起眼的小销钉——一旦拔掉，整个轮子就会脱落散架，这正是linchpin的画面感。",
+              "exampleEn": "Eisman argues the two firms have become the linchpin of the entire AI investment narrative.",
+              "exampleCn": "艾斯曼认为，这两家公司已成为整个AI投资叙事的核心支柱。"
+            },
+            {
+              "word": "precarious",
+              "pos": "adj.",
+              "meaning": "不稳固的/岌岌可危的，常形容依赖单一因素、随时可能崩塌的处境，比risky更强调'摇摇欲坠、缺乏根基'的即视感",
+              "etymology": "源自拉丁语precarius（靠恳求得来的，取决于他人善意），派生自precari（祈求），17世纪进入英语，后引申为'不稳定的'。",
+              "morphology": "prec-（祈求，参见pray祈祷、deprecate反对/贬低，同源于拉丁语precari）+ -arious（形容词后缀，参见various多样的、gregarious群居的）。",
+              "mnemonic": "联想pray（祈祷）——precarious的处境就像'只能靠祈祷才能维持'的状态，随时可能因一点风吹草动而崩塌。",
+              "exampleEn": "The AI sector's rally looks precarious if it truly depends on just two companies staying on track.",
+              "exampleCn": "如果AI板块的上涨真的只依赖两家公司保持稳健，那这种涨势就显得岌岌可危。"
+            },
+            {
+              "word": "contingent on",
+              "pos": "phrase",
+              "meaning": "取决于/以……为条件，比depend on更正式，常见于财经与法律语境，强调'结果尚未确定，视某个条件是否满足而定'",
+              "etymology": "源自拉丁语contingere（con-共同 + tangere触碰），本义'接触、触及'，引申为'偶然发生的事'，16世纪进入英语后衍生出'取决于'的用法。",
+              "morphology": "con-（共同/一起，参见connect连接、combine结合）+ tingent（源自拉丁tangere触碰，参见tangent切线、tactile触觉的）。",
+              "mnemonic": "记住词根tang/tact＝'触碰'（如tactile触觉），contingent on就是'结果和某个条件紧紧相连'，条件不满足结果就碰不到。",
+              "exampleEn": "The market's continued optimism is largely contingent on OpenAI and Anthropic sustaining investor confidence.",
+              "exampleCn": "市场持续乐观的情绪，很大程度上取决于OpenAI和Anthropic能否维持投资者信心。"
+            }
+          ]
+        },
+        {
+          "id": "20260814-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
+          "headlineEn": "Corporate Profit Margins Hit Record Highs, Fueling the Stock Rally",
+          "headlineCn": "企业利润率创历史新高，推动股市持续上涨",
+          "summaryEn": "New data from FactSet shows that U.S. corporate profit margins have climbed to their highest level on record, and this expansion — not just stronger sales — is driving much of the recent earnings growth. Companies have squeezed more profit out of each dollar of revenue through cost control, pricing power, and efficiency gains. Investors see this margin expansion as a key reason stocks keep climbing, since it suggests firms can grow earnings even if the economy slows and sales growth stays modest.",
+          "summaryCn": "最新FactSet数据显示，美国企业利润率已升至历史最高水平，而这种利润率扩张——而非单纯的销售增长——正是近期盈利增长的主要推动力。企业通过控制成本、提升定价权和提高运营效率，从每一美元营收中榨取出更多利润。投资者将这种利润率的持续扩张视为股市不断上涨的关键原因，因为这意味着即便经济放缓、销售增速温和，企业仍有能力实现盈利增长。",
+          "excerpt": "Recent FactSet data show that the rise in earnings is not coming from sales growth alone. Instead, companies are squeezing more profit out of every dollar of revenue, pushing margins to their highest level on record and giving the stock market fresh fuel to keep rallying.",
+          "vocab": [
+            {
+              "word": "margin expansion",
+              "pos": "phrase",
+              "meaning": "利润率扩张，指企业单位营收带来的利润占比提高。比profit growth更精确，因为它区分了利润增长是来自营收扩大还是效率提升，是财报电话会和分析师报告里的高频术语。",
+              "etymology": "margin源自拉丁语margo（边缘），15世纪进入英语指纸张空白边，19世纪引申为商业中收入与成本之间的余量；expansion源自拉丁语expandere（展开、扩大）。",
+              "morphology": "margin（边缘、余量，无需拆解）+ expansion = ex-（向外）+ pand（展开，同源词：expand, expanse）+ -sion（名词后缀）。",
+              "mnemonic": "想象一张纸的空白边（margin）被逐渐拉宽（expansion）——公司把成本压缩到营收这张纸的边缘之外，留出的空白越来越大，就是利润率扩张。",
+              "exampleEn": "Analysts credited disciplined cost control for the company's margin expansion this quarter.",
+              "exampleCn": "分析师将该公司本季度的利润率扩张归功于严格的成本控制。"
+            },
+            {
+              "word": "streamline",
+              "pos": "v.",
+              "meaning": "精简、使流程更高效，常用于描述企业削减冗余环节以提高利润率，比cut costs更中性、更强调优化而非单纯削减，财经报道中常见于streamline operations这一搭配。",
+              "etymology": "源自19世纪工程学术语streamline（流线型），指物体表面平滑以减少空气或水的阻力，20世纪中期引申为商业管理中减少摩擦、提高效率。",
+              "morphology": "stream（水流）+ line（线条）构成复合词；引申动词义。同类构词：mainstream, pipeline, streamlined（形容词）。",
+              "mnemonic": "想象水流（stream）沿着一条顺滑的线（line）无阻力地流动——企业把繁琐流程流线化，让业务像水流一样顺畅高效地产生利润。",
+              "exampleEn": "The retailer streamlined its supply chain, which helped push profit margins to a record high.",
+              "exampleCn": "这家零售商精简了供应链，这帮助利润率升至历史新高。"
+            },
+            {
+              "word": "bottom line",
+              "pos": "phrase",
+              "meaning": "净利润、最终盈利结果，与top line（营收）相对，因为利润表把净利润列在最后一行而得名。B2学习者常混淆二者，掌握这对术语能精准区分营收增长和利润增长这两个常被新闻混用的概念。",
+              "etymology": "短语源自会计报表的排版惯例：19世纪末企业损益表中，净利润总是印在页面最底部一行，因此得名。",
+              "morphology": "bottom（底部，古英语botm）+ line（行，古法语ligne），复合名词短语。相关搭配：top line, bottom-line growth, bottom-line impact。",
+              "mnemonic": "想象一张损益表，营收在最顶端（top line），层层扣除成本后，剩下的真金白银写在纸的最底部一行（bottom line）——那才是公司真正赚到的钱。",
+              "exampleEn": "Even with flat sales, cost cuts boosted the company's bottom line significantly.",
+              "exampleCn": "尽管销售额持平，成本削减仍大幅提升了该公司的净利润。"
+            },
+            {
+              "word": "outperform",
+              "pos": "v.",
+              "meaning": "表现优于（大盘、同行或预期），是股市报道中评价个股或板块相对表现的核心动词，比笼统的do well更精确地暗示了对比基准的含义，常见于分析师评级outperform rating。",
+              "etymology": "out-（超越，古英语前缀，表方向或程度上超过）+ perform（表演、执行，源自古法语parfournir，意为彻底完成）。",
+              "morphology": "out-（超出）+ perform（表现，词根来自法语parfournir）。同类构词：outpace, outlast, outgrow, underperform（反义）。",
+              "mnemonic": "把out-想象成跑出、超出——outperform就是表现跑出了对手之外，即甩开基准线，领先一步。",
+              "exampleEn": "High-margin tech stocks have outperformed the broader market this earnings season.",
+              "exampleCn": "本财报季，高利润率的科技股表现优于大盘。"
+            },
+            {
+              "word": "belt-tightening",
+              "pos": "n.",
+              "meaning": "勒紧裤腰带、紧缩开支，形象地指企业或政府削减支出以渡过困难或提高效率，比cost cutting更口语化、更带画面感，常用于描述经济下行期企业的应对策略。",
+              "etymology": "短语源自人在饥饿或体重下降时需要把腰带扣紧几个孔的日常经验，20世纪初开始被借用到经济和财政语境中，形容缩减开支。",
+              "morphology": "belt（腰带，古英语belt）+ tighten（收紧，tight + -en动词后缀）+ -ing（名词化）。同类构词：tighten, tightening, loosen（反义）。",
+              "mnemonic": "想象一位CEO像饿肚子的人一样，把公司的腰带一个孔一个孔地勒紧——每省下一分钱开支，利润率的腰围就瘦一分。",
+              "exampleEn": "Years of corporate belt-tightening have helped push profit margins to record levels.",
+              "exampleCn": "多年的企业紧缩开支帮助利润率升至历史高位。"
+            }
+          ]
+        },
+        {
+          "id": "20260814-3",
+          "category": "econ",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
+          "headlineEn": "Trump Administration to Let Private Firms Launch Cyberattacks Abroad",
+          "headlineCn": "特朗普政府拟准许私营企业境外发动网络攻击",
+          "summaryEn": "The Trump administration is preparing a new program that would let private cybersecurity firms carry out offensive cyberattacks against foreign criminal networks, according to a presidential memorandum reported by Bloomberg. These firms would operate under federal government control and oversight, gaining authority to surveil and disrupt hackers and scammers operating from abroad. The move marks a significant shift in U.S. cyber policy, effectively outsourcing offensive operations once reserved for intelligence agencies to private contractors, raising questions about accountability and unintended escalation.",
+          "summaryCn": "特朗普政府拟推出新计划，允许私营网络安全公司在政府监督下，对境外犯罪网络发动进攻性网络攻击，包括监视和打击黑客、诈骗团伙。此举标志美国网络政策重大转变，将原属情报机构的职能外包给私人承包商，引发对问责与监督的担忧。",
+          "excerpt": "The Trump administration is launching a program allowing private firms to conduct cyberattacks against foreign criminals. Operating under federal government control and oversight, these companies would be permitted to surveil and disrupt criminal networks, according to a presidential memorandum published Wednesday and first reported by Bloomberg.",
+          "vocab": [
+            {
+              "word": "hack back",
+              "pos": "phrasal v.",
+              "meaning": "以攻击性网络行动反击黑客，即以黑制黑；在网络安全语境中特指企业或政府主动出击（而非被动防御）回击攻击者，比retaliate更专业、更具行业术语色彩，常用于讨论进攻性网络安全政策的合法性争议。",
+              "etymology": "短语/复合词，无独立词源；hack源自古英语haccian（砍、劈），20世纪中期在计算机语境中衍生出侵入系统之义，hack back是21世纪网络安全领域新造的口语化术语。",
+              "morphology": "hack（动词，侵入/砍）+ back（副词，回击）构成动副结构短语；同类结构如fight back（反击）、strike back（回击）、push back（顶回去）。",
+              "mnemonic": "想象黑客先砸开你家的门（hack），你翻墙冲到他家把门也砸了（back）——以其人之道还治其人之身，一来一回就是hack back。",
+              "exampleEn": "Under the new policy, licensed firms could legally hack back against ransomware gangs operating overseas.",
+              "exampleCn": "根据新政策，获得许可的公司可以合法地对境外的勒索软件团伙实施反制性网络攻击。"
+            },
+            {
+              "word": "outsource",
+              "pos": "v.",
+              "meaning": "把原本由内部（政府/公司）承担的职能外包给外部第三方；在本文中指政府把专属情报机构的进攻性网络行动外包给私营公司，商业语境中常用于讨论成本、责任转移与风险外溢。",
+              "etymology": "20世纪80年代美国商业英语新造词，由out（向外）+ source（来源，源自拉丁语surgere升起、产生）组合而成，最初指企业将生产环节转移到外部供应商。",
+              "morphology": "out-（前缀，向外）+ source（词根，来源）；同族词：source（来源）、resource（资源）、outsourcing（外包，名词形式）、in-house（与之相对，内部完成）。",
+              "mnemonic": "把source（源头）out（推出去）——原本自己做的事，现在把源头推到公司外面找人做，就是outsource。",
+              "exampleEn": "Rather than expand its own cyber division, the agency chose to outsource offensive operations to vetted contractors.",
+              "exampleCn": "该机构没有扩充自身的网络部门，而是选择把进攻性行动外包给经过审核的承包商。"
+            },
+            {
+              "word": "blur the line",
+              "pos": "phrase",
+              "meaning": "使原本清晰的界限变得模糊不清；常用于讨论职责、身份或合法性边界被打破的情形，比confuse更形象，带有模糊地带滋生风险的隐含意味，是政策评论中的高频比喻。",
+              "etymology": "短语/复合词，无独立词源；blur约16世纪起指使模糊、弄脏，line源自拉丁语linea（亚麻线，引申为界限），二者结合成19世纪以后常见的比喻搭配。",
+              "morphology": "blur（动词，使模糊）+ the line（名词短语，界限）；相关搭配：cross the line（越界）、draw the line（划清界限）、a fine line（微妙的界限）。",
+              "mnemonic": "想象一支铅笔画出的国界线（the line）被人用橡皮蹭（blur）得看不清了——公私界限被蹭模糊，就是blur the line。",
+              "exampleEn": "Critics warn that arming private firms with offensive cyber tools could blur the line between state and corporate power.",
+              "exampleCn": "批评者警告，赋予私营企业进攻性网络工具可能会模糊国家权力与企业权力之间的界限。"
+            },
+            {
+              "word": "carve out",
+              "pos": "phrasal v.",
+              "meaning": "从既有规则或体系中开辟出一块特殊的例外空间；商业/法律语境常用于描述争取到特殊许可、豁免或市场份额，比create更强调从限制中硬挤出一块的费力过程。",
+              "etymology": "短语/复合词，无独立词源；字面义为雕刻、剜出（carve源自古英语ceorfan切割），16世纪起就有字面用法，20世纪扩展为法律与商业隐喻。",
+              "morphology": "carve（动词，雕刻/切割）+ out（副词，向外/出来）；同类结构：cut out（剪出）、carve up（瓜分）、carve-out（名词，特批的例外条款）。",
+              "mnemonic": "想象在一整块法律大蛋糕上，用刀（carve）挖出（out）一小块专属特权——政府给私企carve out了一块合法开展网络攻击的空间。",
+              "exampleEn": "The memorandum carves out a legal exception allowing licensed firms to conduct cyber operations abroad.",
+              "exampleCn": "这份备忘录开辟了一项法律例外，允许获得许可的公司在境外开展网络行动。"
+            },
+            {
+              "word": "mercenary",
+              "pos": "n./adj.",
+              "meaning": "雇佣兵；转喻指受雇执行危险或有争议任务的私营行为者，在网络安全报道中常用来形容被政府雇佣、游走于法律边缘的黑客公司，带有一定的负面警惕色彩，比contractor更具历史与道德张力。",
+              "etymology": "源自拉丁语merces（工资、报酬），经古法语mercenaire演变为英语，14世纪起指为钱而非忠诚而战的士兵，现代扩展比喻任何纯粹为利益行事的行为者。",
+              "morphology": "merc（词根，报酬，同源于commerce商业、merchant商人）+ -enary（形容词/名词后缀）；同源词：commerce（商业）、merchandise（商品）；mercenary的名词与形容词同形。",
+              "mnemonic": "记住merc和commerce（商业）同根——雇佣兵（mercenary）打仗不为信仰，只为钱（merce），谁给钱就为谁卖命，如今的网络雇佣军也是同理。",
+              "exampleEn": "Some experts fear the program could give rise to a new class of cyber mercenaries operating with government blessing.",
+              "exampleCn": "一些专家担心，该计划可能会催生一批在政府默许下活动的新型网络雇佣兵。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-13": {
       "label": "8月13日 (周四)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "mnemonic": "记住 child → childhood，同理 likely → likelihood，只是把「孩子」换成「可能」。如果你能造出「可能性」的状态，就是 likelihood。或者联想：「likely 的 hood（罩子）盖住了确定性」= 可能性",
               "exampleEn": "There is a high likelihood that the central bank will pause its tightening cycle if inflation falls below 3%.",
               "exampleCn": "如果通胀率降至3%以下，央行很可能暂停收紧周期。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-09": {
-      "label": "7月9日 (周四)",
-      "stories": [
-        {
-          "id": "20260709-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/08/with-eu-backing-quantumdiamonds-aims-to-speed-up-chip-manufacturing/",
-          "headlineEn": "With EU backing, QuantumDiamonds aims to speed up chip manufacturing",
-          "headlineCn": "欧盟资助德国初创企业QuantumDiamonds，以创新技术加速芯片检测",
-          "summaryEn": "QuantumDiamonds, a German startup, has received support under the European Chips Act — the EU's flagship policy to revive its semiconductor manufacturing base. The company uses a novel diamond-based method to inspect chips during production, detecting defects faster than conventional techniques. As Europe races to reduce dependence on Asian and American chipmakers, state subsidies are helping early-stage companies commercialize cutting-edge inspection technology that could become critical for next-generation chip fabs.",
-          "summaryCn": "德国初创企业QuantumDiamonds获得欧盟《芯片法案》的资助，正在开发一种基于金刚石材料的芯片检测新技术。与传统方法相比，该技术能够更快、更精确地发现芯片制造过程中的缺陷。欧洲正努力摆脱对亚美芯片制造商的依赖，打造自主半导体产能，而政府补贴正帮助此类早期企业将前沿检测技术商业化，为下一代晶圆厂奠定关键基础。",
-          "excerpt": "Like its U.S. counterpart, the European Chips Act aims to foster the semiconductor industry — in part through state subsidies. QuantumDiamonds, a German startup, is among the beneficiaries, applying a novel method to inspect chips with greater speed and precision than conventional tools allow.",
-          "vocab": [
-            {
-              "word": "foster",
-              "pos": "v.",
-              "meaning": "培育、促进（政策语境高频词）——比 support 更书面正式，常见于政府文件与政策声明，强调主动「养育」而非被动支持；固定搭配 foster innovation / foster growth 在科技政策报道中极为常见",
-              "etymology": "古英语 fostrian（哺育、喂养），来自 fōstor（食物、养育），与 food 同源；原义为「喂食养育幼小」，后扩展为「促进、培养」抽象事物，如产业或关系",
-              "morphology": "无前后缀，简单动词形式；派生词：foster parent（养父母）、foster child（养子女）、fostering（n. 培育过程）；近义词组：nurture / cultivate / incubate，各有语域侧重",
-              "mnemonic": "想象一只母熊「foster」她的幼崽——像妈妈喂奶一样，政府 foster 产业也是用资源与保护「养大」某样东西；画面：欧盟 = 熊妈妈，QuantumDiamonds = 嗷嗷待哺的幼崽",
-              "exampleEn": "The government launched a new fund to foster innovation in the clean energy sector.",
-              "exampleCn": "政府启动新基金，以促进清洁能源领域的创新。"
-            },
-            {
-              "word": "subsidy",
-              "pos": "n.",
-              "meaning": "补贴、补助金（政府给予企业或行业的财政支持）——区别于 grant（一次性拨款）和 tax incentive（税收优惠），subsidy 特指持续性的资金补助；经济与政策讨论的核心词，也是贸易摩擦争议的常见焦点",
-              "etymology": "拉丁语 subsidium（储备部队、后援），来自 sub-（在下方）+ sedere（坐）；原指古罗马军队中「坐在后方待命的预备队」，后演变为「援助、后备资金」之义",
-              "morphology": "sub-（下方/辅助）+ sid-（来自 sedere，坐）+ -ium（拉丁名词后缀）；完整派生链：subsidy → subsidize（v.）→ subsidized（adj.）→ subsidization（n.）",
-              "mnemonic": "sub（在下方）+ sid（坐）→ 想象政府「坐在下方托举」企业防止倒下——这就是补贴的本质：从下方撑着你；联想：submarine（潜水艇）也是「在水下」，同一个 sub-",
-              "exampleEn": "Without government subsidies, many renewable energy companies would struggle to compete with fossil fuel producers.",
-              "exampleCn": "如果没有政府补贴，许多可再生能源公司将难以与化石燃料生产商竞争。"
-            },
-            {
-              "word": "counterpart",
-              "pos": "n.",
-              "meaning": "对等方、对应物（指在另一机构、国家或语境中扮演相同角色的实体）——商业与外交文件中极高频，比 equivalent 更强调「角色对应」而非「功能等价」；常用于跨国政策比较，如「中美对等谈判代表」",
-              "etymology": "法语 contrepartie（合同副本），来自 contre-（相对、对应）+ partie（部分）；中世纪合同法术语，指「同一合同的另一份副本」，后引申为「扮演相同角色的另一方」",
-              "morphology": "counter-（对面/对应/反向）+ part（部分、角色）；counter- 同前缀词：counteract（对抗）/ countermeasure（对策）/ counterbalance（制衡）/ counterproductive（适得其反）",
-              "mnemonic": "counter 是「柜台」，part 是「角色」——想象谈判桌两侧各坐一方，隔着柜台（counter）扮演对等角色（part），那个「对面的人」就是你的 counterpart；记住：它不是对手，是镜中的你",
-              "exampleEn": "The Chinese tech giant's revenue now rivals that of its American counterpart in the cloud computing market.",
-              "exampleCn": "这家中国科技巨头的营收现已可与其美国对标企业在云计算市场的表现相媲美。"
-            },
-            {
-              "word": "novel",
-              "pos": "adj.",
-              "meaning": "新颖的、独创性的（尤指方法或技术前所未有）——比 new 正式得多；「novel approach」是科技新闻和专利申请中的固定搭配，暗示该方法具有独创性；在学术论文中出现则几乎是「可申请专利」的信号",
-              "etymology": "拉丁语 novellus（新的、年轻的），来自 novus（新）；经古法语 novel 进入英语；与古英语 new 是同源词，但走了拉丁→法语路径，因而比 new 更书面、更正式",
-              "morphology": "nov-（新）+ -el（拉丁形容词后缀）；同词根：novel（n. 小说，原义「新鲜故事」）/ novice（新手）/ innovation（in+nov+ation，创新）/ renovate（re+nov+ate，翻新）/ nova（新星）",
-              "mnemonic": "nov = new（新），联想 November（11月）——它曾是罗马历的「第九个月」（novem = 9），历法改了但名字留着「新」的痕迹；记住 nov- 词根，所有带它的词都围绕「新」展开",
-              "exampleEn": "The startup's novel approach to battery recycling attracted significant investor interest at the industry summit.",
-              "exampleCn": "这家初创公司在电池回收方面的新颖方法在行业峰会上吸引了大量投资者的关注。"
-            },
-            {
-              "word": "semiconductor",
-              "pos": "n.",
-              "meaning": "半导体（导电性介于导体与绝缘体之间的材料，芯片制造的核心原料）——科技/财经新闻必备词；理解「半导体产业链」（芯片设计→晶圆制造→封测）的基础概念，也是当前地缘政治博弈的核心词汇",
-              "etymology": "拉丁语构词：semi-（一半）+ conductor（导体），conductor 来自 conducere（引导，con- 共同 + ducere 引导）；字面义「半导体」，即导电性居中、可被控制的材料",
-              "morphology": "semi-（一半）+ conduct-（引导/传导，词根 duc-）+ -or（名词后缀，行为者）；semi- 同前缀：semicircle（半圆）/ semifinal（半决赛）；duc- 同词根：conduct / induce / deduce / duct（管道）",
-              "mnemonic": "semi = 半，conductor = 导体（乐团指挥也叫 conductor，因为他「引导」音乐）；半导体就像「兼职指挥」——有时导电有时不导，芯片正是靠这种「时开时关」来计算；想象指挥棒只举起了一半",
-              "exampleEn": "The global semiconductor shortage exposed how deeply the automotive industry depends on a handful of chip suppliers.",
-              "exampleCn": "全球半导体短缺暴露了汽车行业对少数几家芯片供应商的深度依赖。"
-            }
-          ]
-        },
-        {
-          "id": "20260709-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/08/spacex-stock-nasdaq-100-ipo.html",
-          "headlineEn": "SpaceX Stock Slips Below $148 Debut Price After Nasdaq-100 Inclusion",
-          "headlineCn": "SpaceX股价跌破148美元发行价，纳入纳斯达克100后连跌两日",
-          "summaryEn": "SpaceX shares fell below their $148 IPO debut price for two consecutive sessions following the stock's addition to the Nasdaq-100 index. The record-breaking offering raised $85.7 billion in total after underwriters exercised the greenshoe overallotment option, selling additional shares beyond the original allocation. The sell-off reflects a familiar post-inclusion pattern: index funds buy aggressively ahead of the rebalancing date, pushing prices higher, then profit-taking sets in once the buying wave is absorbed.",
-          "summaryCn": "SpaceX股票在纳入纳斯达克100指数后两日内连续下跌，收盘价跌破148美元的发行价。此次IPO创下历史纪录，承销商行使「绿鞋期权」（超额配售权）后，融资总额达857亿美元。此番跌势揭示了一种常见的「指数纳入效应」：被动型基金在成分股调整日前竞相买入推高股价，一旦再平衡完成、买盘消退，获利了结压力便随之而来。",
-          "excerpt": "SpaceX stock closed at $148 on Wednesday, falling below its IPO debut price for the second straight session. The two-day decline followed the company's addition to the Nasdaq-100, which had initially sent shares higher before profit-taking set in. Underwriters' exercise of the greenshoe option brought the total offering size to $85.7 billion — a record for any public market debut.",
-          "vocab": [
-            {
-              "word": "greenshoe option",
-              "pos": "n. (phrase)",
-              "meaning": "超额配售期权；允许承销商在IPO后额外出售股份、必要时回购以稳定股价的机制。金融英语中高频但中文鲜少直译的术语，理解它才能读懂IPO公告里「最终融资规模」为何常大于最初计划数字。",
-              "etymology": "得名于1963年首次使用该机制的 Green Shoe Manufacturing Company（绿鞋制造公司）。正式学名为「overallotment option」，「greenshoe」是业界沿用至今的口语别称，与鞋子本身毫无关联，是一枚企业名偶然留下的语言化石。",
-              "morphology": "复合词，Green（公司专有名）+ shoe（鞋），无法从词素推导含义。此类以人名或公司名命名的金融术语还有：Ponzi scheme（庞氏骗局，来自骗局发明者 Charles Ponzi），Minsky moment（明斯基时刻，来自经济学家 Hyman Minsky），Gibson's paradox（吉布森悖论）。",
-              "mnemonic": "想象一只「绿色的鞋」踩住了股价下跌的刹车踏板——承销商用这个期权在IPO后「踩住」价格防止崩盘。绿鞋 = 稳价工具，颜色鲜明，画面好记。",
-              "exampleEn": "The underwriters exercised the full greenshoe option, adding 15 million shares to the offering and lifting total proceeds by $2.3 billion.",
-              "exampleCn": "承销商行使了全额绿鞋期权，向发行增加了1500万股，使总募资额提升了23亿美元。"
-            },
-            {
-              "word": "underwriter",
-              "pos": "n.",
-              "meaning": "承销商；IPO中负责定价、销售股票并承担包销风险的投资银行。比笼统说「bank」更精准——underwriter强调的是「签字担责、卖不掉自己买单」的义务关系，是读财经新闻必须区分的核心角色词。",
-              "etymology": "源自17世纪英语保险业：承保人在保单最下方（under）签名（write），以示承担风险。后引申至证券发行——投行在招股书下方签字，承诺买入卖不掉的剩余股份，由此获得这一称谓，「签字承担风险的人」是其核心语义。",
-              "morphology": "under-（在……之下，引申为承担义务）+ write（书写/签字）+ -r（施动者后缀）。同词根词：underwrite（v. 承销/承保），underwriting（n. 承销业务），rewrite（重写），overwrite（覆写）。注意 underwrite 的过去式是 underwrote，过去分词是 underwritten。",
-              "mnemonic": "投行老板在合同「下面」（under）「签名」（write）——他一签字就意味着「这些股票卖不掉我来兜底」。under + write = 在合同底部签字承担风险的人，逻辑一目了然，比死记「承销商」有画面感得多。",
-              "exampleEn": "Goldman Sachs and Morgan Stanley served as lead underwriters for the technology firm's $4 billion initial public offering.",
-              "exampleCn": "高盛和摩根士丹利担任该科技公司40亿美元IPO的主承销商。"
-            },
-            {
-              "word": "overallotment",
-              "pos": "n.",
-              "meaning": "超额配售；IPO中承销商在原定发行量基础上额外出售股份（通常为原量的15%）的机制，也是「greenshoe option」的正式技术名称。两个词经常并用，掌握后能精准理解IPO公告里「最终融资数字」是如何被合规「放大」的。",
-              "etymology": "over-（超过）+ allotment（配额）。allotment来自古法语「aloter」（分配），其中「lot」指用于抽签分配的签筹，后引申为按规则分得的份额，与中文「份额」「配给」语义对应，英语中 lottery（彩票）也同源。",
-              "morphology": "over-（超出限度）+ allot（v. 分配，来自 lot）+ -ment（名词后缀，表示行为或结果）。相关词族：allot → allotment → overallotment；同前缀扩展词：oversubscribe（超额认购），overvalue（高估），overestimate（高估），overlap（重叠）。",
-              "mnemonic": "食堂本来给你「一碗饭」（allotment = 标准配额），overallotment就是「多给了半碗」——IPO也一样，原本计划卖X股，overallotment多卖15%。over = 超出，allotment = 配额，两个词意思直接相加，无需死记。",
-              "exampleEn": "Strong investor demand prompted the startup to activate its overallotment option, selling an extra 3 million shares and boosting the deal size by 15 percent.",
-              "exampleCn": "由于投资者需求旺盛，该初创公司启动了超额配售权，额外出售300万股，使交易规模扩大了15%。"
-            },
-            {
-              "word": "index inclusion",
-              "pos": "phrase (n.)",
-              "meaning": "指数纳入；股票被正式加入主要股指（如标普500、纳斯达克100）的事件。掌握这个词组，才能理解为何一只股票会在没有任何业绩消息的情况下突然大涨——被动型基金的强制买入是背后驱动力，而纳入完成后的回落正是本文核心逻辑。",
-              "etymology": "index来自拉丁语「index」（指示者、目录），原指食指（指向某物），后引申为「有序列表」；inclusion来自拉丁语「includere」（包含进去），in-（进入）+ claudere（关闭）= 把某物关进某个封闭集合里。组合义：被收录进某份「指示名单」。",
-              "morphology": "include（v.）→ inclusion（n.，-sion为名词后缀）。反义词：exclusion（排除），exclude（v.）。index的复数：indices（学术/数学语境）或indexes（商业/金融语境）。相关词：inclusive（包容的），exclusive（排他的），conclusive（决定性的，conclude同词根 claudere）。",
-              "mnemonic": "想象一群指数基金经理手持「候选名单」（index），某只股票名字一旦出现在名单上（inclusion），所有基金当天必须同时买入——这就是为什么「被纳入」会引发股价飙升。名单 + 进入 = 价格上涨，逻辑链清晰，画面感强。",
-              "exampleEn": "Shares of the electric vehicle maker surged 18 percent in the week leading up to its S&P 500 index inclusion, as passive funds scrambled to build positions.",
-              "exampleCn": "在被纳入标普500指数的前一周，该电动车制造商股价飙升18%，因为被动型基金争相建仓。"
-            },
-            {
-              "word": "rebalancing",
-              "pos": "n. / v. (gerund)",
-              "meaning": "再平衡；指数提供商定期调整成分股权重、被动基金据此强制买卖股票的过程。SpaceX纳入纳斯达克100后两日即跌破发行价，正是「再平衡完成、被动买盘消退」的教科书案例，理解此词能解释许多看似莫名其妙的市场走势。",
-              "etymology": "re-（再次）+ balance（平衡）+ -ing（动名词后缀）。balance来自拉丁语「bilanx」，bi-（两个）+ lanx（秤盘）= 双盘天平。字面义：让双盘天平再次回到水平状态，引申为「重新调整至目标比例」，兼用于投资组合和宏观经济语境。",
-              "morphology": "re-（再次，如 restructure/refinance/recalibrate）+ balance（v./n.）+ -ing。balance词族：balanced（均衡的），imbalance（失衡），counterbalance（抗衡）。同前缀金融词：refinancing（再融资），restructuring（债务重组），repricing（重新定价），recapitalization（资本重组）。",
-              "mnemonic": "想象一架双盘天平（balance），左边装了太多某只股票变重了，就要往右边加砝码——基金经理每季度做的正是这件事：权重涨过头的减持，跌多了的补仓，让组合「天平」回归目标比例。re + balance = 让天平重新平衡，物理画面直接锁定语义。",
-              "exampleEn": "Quarterly index rebalancing forced passive funds to offload $2 billion worth of semiconductor stocks after the sector's weighting exceeded its target allocation.",
-              "exampleCn": "季度指数再平衡迫使被动型基金抛售了价值20亿美元的半导体股票，因为该板块权重已超出目标配比。"
-            }
-          ]
-        },
-        {
-          "id": "20260709-3",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/traders-havent-been-this-bullish-on-the-dollar-in-a-decade-how-the-buck-can-keep-climbing-2e2bb287?mod=mw_rss_topstories",
-          "headlineEn": "Investors Are Most Bullish on the Dollar in a Decade",
-          "headlineCn": "十年来投资者对美元看涨情绪达到顶峰",
-          "summaryEn": "For the first time in ten years, investor positioning on the U.S. dollar has reached extreme bullish levels, driven by fresh Middle East tensions that pushed oil prices higher on Wednesday. Rising energy costs could reignite inflation, leading traders to bet that the Federal Reserve will maintain tight monetary policy for longer. While such crowded trades often signal near-term vulnerability, the dollar's upward path may persist if geopolitical risks keep commodity markets volatile.",
-          "summaryCn": "美元多头仓位创下十年新高，投资者普遍押注美元持续走强。本周三，中东局势再度紧张推动油价上涨，通胀担忧随之升温，市场预期美联储将在更长时间内维持紧缩货币政策。这种「拥挤交易」往往预示短期回调风险，但只要地缘政治不确定性持续令大宗商品市场承压，美元的升值趋势或将延续。",
-          "excerpt": "Investor positioning on the dollar has hit its most bullish level in a decade. Wednesday's oil-price jump, fueled by renewed Middle East tensions, has revived inflation fears and led traders to expect the Federal Reserve to keep monetary policy tight — giving the buck fresh momentum.",
-          "vocab": [
-            {
-              "word": "bullish",
-              "pos": "adj.",
-              "meaning": "看涨的，对某资产持乐观预期。金融语境中专指预期价格上涨的多头情绪，与 bearish（看跌）相对。不仅限于股市，还可泛指对某行业、某公司前景持乐观态度，是财经英语出现频率极高的核心词。",
-              "etymology": "来自古英语 bula（公牛）。18世纪伦敦证券交易所形成市场隐喻：公牛以角向上顶，象征价格上涨；与熊（bear，爪子向下拍）共同构成市场情绪的两极，语义沿用至今。",
-              "morphology": "bull（公牛/多头）+ -ish（形容词后缀，表示「带有……特征的」）。同族词：bearish（看跌的）、bullishness（n. 多头情绪）、bull market（牛市）、bull run（牛市行情）。",
-              "mnemonic": "公牛（bull）用角朝上顶（↑），bullish = 价格往上冲。想象华尔街那头铜牛雕像，头高高昂起——那就是 bullish 的具象化。对比：熊（bear）爪子朝下拍，bearish = 看跌。一上一下，永远不混。",
-              "exampleEn": "Analysts turned increasingly bullish on semiconductor stocks after the chipmaker reported record quarterly revenue.",
-              "exampleCn": "在该芯片制造商公布创纪录季度营收后，分析师对半导体股票愈发看涨。"
-            },
-            {
-              "word": "crowded trade",
-              "pos": "phrase",
-              "meaning": "「拥挤交易」，指大量投资者同向押注同一资产的市场状态。仓位过度集中意味着一旦情绪逆转，大规模同向平仓将加剧价格波动。这是对冲基金风险管理的核心概念，财经媒体高频出现，普通词典几乎不教。",
-              "etymology": "crowded 来自古英语 crudan（推挤、拥压）；trade 来自中古低地德语 trade（轨迹），后演变为「交易」。两词组合形成描述市场仓位拥挤程度的专业术语，属短语/复合词，无独立词源。",
-              "morphology": "crowd（人群）+ -ed（形容词后缀）= crowded，再与 trade（交易）搭配。相关词：overcrowded（过度拥挤）、crowd out（排挤）、crowded field（竞争激烈的领域）、crowded bet（同义短语）。",
-              "mnemonic": "想象高峰期地铁车厢——人人挤进同一节车厢（同向做多），一旦有人喊「着火了！」，所有人同时冲出（平仓）。这就是 crowded trade 最危险的时刻：越挤越容易踩踏，市场崩跌速度越快。",
-              "exampleEn": "When the crowded trade in tech growth stocks suddenly reversed, hedge funds scrambled to cut their losses simultaneously.",
-              "exampleCn": "当科技成长股的拥挤交易突然逆转时，各对冲基金争相同时止损。"
-            },
-            {
-              "word": "buck",
-              "pos": "n.",
-              "meaning": "美元的俚语，在彭博、路透、MarketWatch 等财经媒体标题中极为常见（如「a stronger buck」「the buck rallied」）。掌握这个词能让你流畅读懂口语化财经标题，是超越教科书的实用标志。",
-              "etymology": "词源有争议，最广泛认可的说法：18世纪北美殖民地时期，雄鹿皮（buckskin）被用作以物易物的货币单位，后来「buck」便成了「1美元」的口语称谓，美国拓荒时代真实存在的货币形式。",
-              "morphology": "简单词，无可拆解的前缀或后缀。常见固定搭配：fast buck（快钱、横财）、make a quick buck（快速捞钱）、big bucks（大钱）、pass the buck（推卸责任，典故源自扑克牌庄家标记物）。",
-              "mnemonic": "雄鹿（buck）→ 鹿皮（buckskin）→ 殖民地货币 → 美元，历史上真实发生过的演变链！另记「pass the buck」（推卸责任）：扑克桌上把鹿骨柄小刀传给下家 = 把责任推走。两个用法一起记，印象深刻。",
-              "exampleEn": "A weaker buck typically boosts earnings for U.S. multinationals that generate most of their revenue abroad.",
-              "exampleCn": "美元走弱通常能提振主要在海外创收的美国跨国公司的利润。"
-            },
-            {
-              "word": "tight",
-              "pos": "adj.",
-              "meaning": "在货币政策语境中，特指「紧缩性的」——高利率、信贷收紧的政策立场，与 loose / easy（宽松）相对。美联储声明和财经报道的核心词，教科书只教字面义「紧」，但在宏观经济语境中其隐喻含义远比字面义更常见。",
-              "etymology": "来自古诺尔斯语（Old Norse）þéttr，原义「致密的、防水的」，后演变为「紧绷、严格限制」。经济学中进一步引申为「信贷/流动性受到约束」的比喻，体现语义从物理空间向金融空间的迁移。",
-              "morphology": "tight（简单形容词，无前后缀）。派生词族：tighten（v. 收紧）、tightening（n. 紧缩，如 monetary tightening）、tightness（n. 紧张度）。反义词族：loose → loosen → loosening，构成货币政策描述的完整对立词对。",
-              "mnemonic": "想象美联储主席把货币水龙头拧紧（tight）——水流（资金）减少，利率上升，信贷收紧。tight policy = 拧紧水龙头。反过来 loose policy = 水龙头大开，钱哗哗流出。记住这个水龙头画面，tight 和 loose 在宏观语境中永远不忘。",
-              "exampleEn": "The central bank signaled it would keep monetary policy tight until inflation durably returned to its 2% target.",
-              "exampleCn": "央行暗示将维持紧缩货币政策，直至通胀持续回落至2%的目标水平。"
-            },
-            {
-              "word": "revive",
-              "pos": "v.",
-              "meaning": "使重新活跃、复燃。在经济/市场语境中常指「重新点燃」某种情绪或担忧（如 revive inflation fears、revive growth concerns），比 rekindle 更常见于正式财经报道。值得掌握其在负面情绪语境中的固定搭配模式。",
-              "etymology": "来自拉丁语 revivere：re-（再次）+ vivere（活着）。vivere 与 vital（生命力的）、vivid（生动的）同源，原义「重新活过来」，后引申为「使……复苏、重燃」，语义由生物领域扩展至情绪与经济领域。",
-              "morphology": "re-（再次，前缀）+ viv（词根：生命，来自拉丁语 vivere）+ -e（动词词尾）。同词根扩展：vivid（生动的）、survive（存活）、vital（至关重要的）、vivacious（活泼的）、revival（n. 复兴）。记住 viv 这一词根可打通整个词族。",
-              "mnemonic": "re = 再次，viv = 生命（想想 vivid 那种扑面而来的画面感），revive = 再次注入生命。急救场景：医护人员对昏迷患者 revive（施救复苏）——财经新闻中同样是「复燃」通胀担忧。词根 viv 记牢，survive、vital、vivid 一网打尽。",
-              "exampleEn": "Strong jobs data revived fears that the Fed might raise rates again, sending bond prices lower across the curve.",
-              "exampleCn": "强劲的就业数据重燃市场对美联储可能再次加息的担忧，导致各期限债券价格全线下跌。"
             }
           ]
         }
