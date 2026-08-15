@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-15T05:13:24.122804+00:00",
+  "lastUpdated": "2026-08-15T23:04:29.271892+00:00",
   "level": "B2",
   "days": {
+    "2026-08-16": {
+      "label": "8月16日 (周日)",
+      "stories": [
+        {
+          "id": "20260816-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+          "headlineEn": "Does Mark Zuckerberg Really Believe AI Should Be For Everyone?",
+          "headlineCn": "扎克伯格真的相信「AI人人可用」吗？",
+          "summaryEn": "Meta this week released Glimmer, an open-weight AI model anyone can download and run on their own hardware, standing in sharp contrast to Muse Spark, the company's more capable model that remains locked behind proprietary APIs. The release coincided with an open letter from Mark Zuckerberg arguing that AI should be for everyone rather than controlled by a handful of labs. Critics question whether the rhetoric matches Meta's actual strategy, since its strongest model stays firmly out of public reach.",
+          "summaryCn": "本周Meta发布了开放权重AI模型Glimmer，任何人都可以下载并在自己的硬件上运行——这与该公司更强大的Muse Spark模型形成鲜明对比，后者仍被锁定在专有API之后，普通用户无法直接使用。这次发布恰逢扎克伯格发表公开信，主张AI应该「人人可用」，而不应被少数几家实验室垄断。然而批评者质疑，这种说辞与Meta实际的商业策略是否吻合——毕竟公司真正领先的模型依旧被牢牢锁在高墙之内。",
+          "excerpt": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company's more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be for everyone.",
+          "vocab": [
+            {
+              "word": "democratize",
+              "pos": "v.",
+              "meaning": "使……大众化/普及化，让原本被少数人垄断的资源变得人人可及；商业科技报道中常用来形容《把稀缺资源开放给大众》这一叙事，比 open up 更正式、更带意识形态色彩。",
+              "etymology": "源自希腊语 demos（人民）+ kratia（统治），本义《人民统治》，19世纪衍生出动词，指把权力或资源从少数人手中释放给大众。",
+              "morphology": "demo-（人民）+ crat（统治者）+ -ize（动词后缀，使……化）；同根词：democracy, democratic, aristocrat, bureaucrat。",
+              "mnemonic": "想象 demo（人民）拿到了钥匙（-ize 表示《使……发生》），把原本锁在保险柜里的东西分发给每个人——这就是 democratize 的画面。",
+              "exampleEn": "Open-weight models are often framed as an attempt to democratize access to cutting-edge AI.",
+              "exampleCn": "开放权重模型常被宣传为试图让尖端AI的获取变得大众化。"
+            },
+            {
+              "word": "walled garden",
+              "pos": "n. phrase",
+              "meaning": "封闭的生态系统，指企业刻意把用户或开发者圈在自己的产品体系内，不让其自由接入外部平台；比 closed platform 更生动、更带批判意味，是科技商业报道形容平台垄断策略的经典隐喻。",
+              "etymology": "短语字面意为《带围墙的花园》，19世纪园艺用语，20世纪末被科技媒体借用来比喻部分公司打造的封闭生态。",
+              "morphology": "wall（墙，名词转形容词性修饰）+ garden（花园）；复合名词短语，无独立词根变化，可类比 gated community（封闭社区）。",
+              "mnemonic": "想象一座美丽花园，四周高墙围住，只有持特定门票的人能进——外面的人只能隔墙张望，这正是 walled garden 描述的封闭生态。",
+              "exampleEn": "Some developers complain that Muse Spark's API-only access keeps it inside a walled garden.",
+              "exampleCn": "一些开发者抱怨Muse Spark仅限API访问的方式，把它圈在了一座封闭的花园里。"
+            },
+            {
+              "word": "lofty",
+              "pos": "adj.",
+              "meaning": "（言辞、目标）高远的、冠冕堂皇的，常带一丝讽刺意味，暗示说得漂亮但未必落地；比 ambitious 更强调《高高在上、脱离实际》的语感，商业报道常用来质疑企业公关辞令。",
+              "etymology": "源自中古英语 loft（阁楼、高处），原指《位置高的》，14世纪起引申出《崇高的、高傲的》抽象含义。",
+              "morphology": "loft（高处，名词）+ -y（形容词后缀）；同源词：aloft（在高处）、loftiness（崇高，名词形式）。",
+              "mnemonic": "把 lofty 和 loft（顶层阁楼）联系起来——站在阁楼往下看，居高临下，说话都带着《高高在上》的调子，这就是 lofty 的感觉。",
+              "exampleEn": "Critics say Zuckerberg's lofty talk of AI for everyone doesn't match Meta's guarded approach to its best models.",
+              "exampleCn": "批评者称，扎克伯格关于「AI人人可用」的高调言辞，与Meta对旗下最强模型的严防死守并不相符。"
+            },
+            {
+              "word": "self-serving",
+              "pos": "adj.",
+              "meaning": "自利的、只顾自身利益的，用来形容表面高尚实则为自己谋利的言论或行为；比简单说 selfish 更书面，适合正式评论语境，常用来拆穿企业公关话术背后的真实动机。",
+              "etymology": "复合词，由 self（自我）+ serving（服务，现在分词）组成，20世纪中期开始在英语中固定为《只为自己谋利》的贬义搭配。",
+              "morphology": "self-（自我，前缀）+ serve（服务，动词）+ -ing（现在分词后缀）；类比词：self-interested, self-promoting, self-righteous。",
+              "mnemonic": "想象一个人在自助餐厅（self-serve）只往自己盘子里堆菜，完全不管别人——self-serving 说的就是这种《只为自己盛饭》的利己心态。",
+              "exampleEn": "Some analysts view Zuckerberg's open-AI rhetoric as a self-serving move to win over regulators and developers.",
+              "exampleCn": "一些分析师认为，扎克伯格关于开放AI的言论其实是为了讨好监管者和开发者的自利之举。"
+            },
+            {
+              "word": "take [sth] at face value",
+              "pos": "phrase",
+              "meaning": "照字面或表面意思相信某事，不加质疑地全盘接受；比 believe 更强调《未经深究就采信》的批判视角，新闻评论中常提醒读者不要轻信企业声明的表层说辞。",
+              "etymology": "源自19世纪金融术语 face value（票据、货币的票面价值），指不考虑市场折价，直接按印在票面上的数字计价，后引申为《照表面意思采信》。",
+              "morphology": "face（表面，名词）+ value（价值，名词）；固定搭配 face value 可类比 par value（票面价值）、market value（市场价值）。",
+              "mnemonic": "想象一张钞票，《面值》就印在正面——你不去查它背后有没有折价或造假，直接照着这个数字相信，这就是 take at face value 的画面。",
+              "exampleEn": "Few in the AI industry are willing to take Zuckerberg's letter at face value.",
+              "exampleCn": "AI行业里很少有人愿意对扎克伯格这封信照单全收。"
+            }
+          ]
+        },
+        {
+          "id": "20260816-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/15/cash-money-market-funds-bonds.html",
+          "headlineEn": "Investors Flee to Ultra-Short Bonds as Long-Term Debt Markets Falter",
+          "headlineCn": "长债失灵，投资者转向超短债避险",
+          "summaryEn": "As worries about a possible stock market correction grow, investors are shifting cash into ultra-short bond funds instead of traditional long-term Treasurys. Long-duration bonds, once a dependable buffer during downturns, have grown unpredictable as inflation concerns and heavy government debt issuance keep pushing yields higher, eroding bond prices. With short-term cash also earning next to nothing in some cases, money managers are treating ultra-short funds as the most practical middle ground — a play for safety that still pays something while everyone waits to see which way stocks break next.",
+          "summaryCn": "随着市场对股市回调的担忧升温，投资者正把资金从传统长期国债转向超短债基金。长债本应是下跌行情中的可靠避风港，如今却因通胀顾虑和政府发债规模膨胀而变得难以预测，收益率走高、债券价格承压。与此同时，部分现金类工具几乎不产生收益，超短债基金因此成为兼顾安全与收益的折中选择，让投资者在观望股市走向时也能获得一点回报。",
+          "excerpt": "Investors have flocked to short-term investments like ultra-short bond funds, anticipating a stock market correction and wary of long-term bonds that no longer behave as a reliable hedge. With cash yielding almost nothing in some corners of the market, these funds have become one of the few trades offering both safety and a modest return.",
+          "vocab": [
+            {
+              "word": "park",
+              "pos": "v.",
+              "meaning": "把资金临时存放在某处（口语化金融隐喻，像把车停进车位一样，强调暂时、可随时开走，比 invest 更强调临时性和低风险）",
+              "etymology": "源自古法语 parc（围场、猎苑），16世纪进入英语指围起来的地块；20世纪中期金融俚语引申为把钱或车暂放某处的比喻用法。",
+              "morphology": "单音节动词，无需拆解；常见搭配：parking lot（停车场，字面义）、park oneself（口语，赖着不走）、parked funds（金融，闲置资金）。",
+              "mnemonic": "想象把车停进车位——你不会把车永久留在那儿，只是暂时停放，随时准备开走；资金park在超短债里也是同样道理：图个安稳，随时能撤。",
+              "exampleEn": "With volatility rising, many fund managers are parking cash in ultra-short bond funds until the market finds direction.",
+              "exampleCn": "随着波动加剧，许多基金经理正把资金暂存在超短债基金里，等待市场明朗。"
+            },
+            {
+              "word": "duration",
+              "pos": "n.",
+              "meaning": "债券对利率变化的敏感度指标，行话中也直接代指长久期债券本身；比单纯说 long-term bonds 更专业，是债券交易员和分析师的必备术语。",
+              "etymology": "源自拉丁语 durare（持续、延续），经古法语 duree 进入英语，14世纪起表示持续时间；20世纪金融学界借用为衡量债券价格对利率敏感度的专业术语。",
+              "morphology": "dur-（拉丁词根，坚固/持续）+ -ation（名词后缀，表状态）；同根词：durable（耐用的）、endure（忍受，延续）、during（在…期间）。",
+              "mnemonic": "记住 dur- 就是durable耐用的词根——债券的duration越长，价格越耐不住利率变化的冲击，波动就越剧烈，正好和字面直觉相反，值得留意。",
+              "exampleEn": "Investors have been cutting duration in their portfolios, favoring short bonds over anything that stretches past a few years.",
+              "exampleCn": "投资者一直在缩短投资组合的久期，比起期限超过几年的债券，更青睐短债。"
+            },
+            {
+              "word": "dry powder",
+              "pos": "phrase",
+              "meaning": "尚未投入市场、随时可动用的现金储备；军事隐喻（火药未点燃），比 cash reserves 更有画面感，常见于私募和机构投资者语境，暗示蓄势待发而非闲置。",
+              "etymology": "短语源自17世纪火药武器时代，士兵需保持火药干燥才能随时开火；19世纪起被金融界借用，比喻随时可用的资金弹药。",
+              "morphology": "短语/复合词，无独立词源；dry（干的）+ powder（粉末/火药），两个基础词组合成固定金融俚语，不可拆解为词根分析。",
+              "mnemonic": "想象一个士兵把火药袋捂得严严实实，生怕受潮打不着——机构投资者手里的dry powder也是同理：捂着现金，等市场出现便宜筹码时再一次性开火。",
+              "exampleEn": "Several hedge funds are sitting on record dry powder, waiting for valuations to come down before buying back in.",
+              "exampleCn": "多家对冲基金手握创纪录的可动用现金，等待估值回落后再重新入场。"
+            },
+            {
+              "word": "on the sidelines",
+              "pos": "phrase",
+              "meaning": "暂时不入场、观望的状态；体育隐喻（球员坐在场边等待上场），比 wait and see 更形象，常用来描述资金或投资者按兵不动。",
+              "etymology": "短语源自19世纪末美式橄榄球场的sideline（边线），指未上场球员站立等候的区域；20世纪中期被商业/投资语境借用，比喻暂不参与。",
+              "morphology": "短语/复合词，无独立词源；side（边）+ line（线）构成sideline，加介词on the构成固定表达。",
+              "mnemonic": "想象替补球员坐在球场边线上，系着鞋带、盯着场内，随时准备被叫上场——投资者资金on the sidelines也是这种蓄势待发的观望状态，而非彻底离场。",
+              "exampleEn": "A lot of retail money has stayed on the sidelines this year, unwilling to chase a market that feels overextended.",
+              "exampleCn": "今年很多散户资金一直按兵不动，不愿追高这个看起来已经透支的市场。"
+            },
+            {
+              "word": "issuance",
+              "pos": "n.",
+              "meaning": "政府或公司发行债券/证券的行为或数量；比 supply 更精确，特指新发这一动作和规模，是债券市场分析报告里的高频专业名词。",
+              "etymology": "源自古法语 issue（流出、出口），来自拉丁语 exire（走出）；15世纪英语中演变为发出、颁布之意，20世纪金融界固定用于证券发行。",
+              "morphology": "issu-（词根，源自流出）+ -ance（名词后缀，表行为/结果）；同根词：issue（发行，动词/名词）、reissue（重新发行）、issuer（发行方）。",
+              "mnemonic": "把issuance拆成issue + -ance——政府issue（发行）债券这个动作一旦名词化，就变成市场天天讨论的issuance（发行量），发得越多，供给压力越大，价格就越难撑住。",
+              "exampleEn": "Heavy Treasury issuance this year has added to the pressure on long-term bond prices.",
+              "exampleCn": "今年国债发行量大增，进一步给长期债券价格带来压力。"
+            }
+          ]
+        },
+        {
+          "id": "20260816-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/15/strategic-petroleum-reserve-spr-oil-iran-war-caverns.html",
+          "headlineEn": "Draining U.S. Strategic Oil Reserve Nears Level That Could Damage Storage Caverns",
+          "headlineCn": "美国战略石油储备加速消耗，逼近可能损害储油洞穴的临界水平",
+          "summaryEn": "The U.S. Strategic Petroleum Reserve, once the world's largest emergency oil stockpile, has been drawn down so aggressively in recent years that its level is nearing a threshold engineers consider risky. Experts warn that pumping oil out of underground salt caverns too quickly can stress and eventually damage the rock formations that hold it, potentially reducing their capacity permanently. Rebuilding the reserve to a safer level would take years and billions of dollars, raising questions about how prepared the country would be for a future energy-supply shock.",
+          "summaryCn": "美国战略石油储备近年被大幅抽取，储量逼近工程师认为存在风险的临界点。专家警告，从地下盐洞中过快抽油可能损伤岩层，永久削弱储存能力，重建储备需耗费数年和数十亿美元，凸显应对能源冲击的准备不足。",
+          "excerpt": "The rapid drawdown of the U.S. Strategic Petroleum Reserve could damage the underground caverns that store the oil, experts warn, as officials weigh how quickly to keep selling barrels from the emergency stockpile without risking permanent harm to the storage sites themselves.",
+          "vocab": [
+            {
+              "word": "deplete",
+              "pos": "v.",
+              "meaning": "逐渐耗尽、使枯竭；常用于资源、储备、库存的语境，比《use up》更正式，更强调「储量下降到危险水平」的过程感，财经新闻中常见于 deplete reserves/inventories 搭配。",
+              "etymology": "源自拉丁语 deplere（de-「完全」+ plere「填满」），原义为「排空、耗尽」，16世纪进入英语后多用于医学「放血」，后引申为资源消耗。",
+              "morphology": "de-（表「去除/相反」）+ ple（词根，「填满」，同源于 complete、supply、replenish）+ -te。同根词：complete, replete, supplement。",
+              "mnemonic": "想象一个装满石油的巨大容器，de-（拿走）不断把 ple（满）的部分抽走，直到见底——deplete 就是被一点点掏空的画面。",
+              "exampleEn": "Analysts fear the country's grain reserves have been depleted faster than farmers can replant.",
+              "exampleCn": "分析师担心该国的粮食储备被消耗的速度快于农民补种的速度。"
+            },
+            {
+              "word": "cavern",
+              "pos": "n.",
+              "meaning": "大型地下洞穴；本文特指美国战略石油储备所用的地下盐岩洞穴（salt cavern），是能源报道中描述地下储油/储气设施的专业词，比普通的《cave》更强调规模宏大、常用于工业储存语境。",
+              "etymology": "源自古法语 caverne，追溯至拉丁语 caverna（「洞穴」），caverna 又来自 cavus（「中空的」）。",
+              "morphology": "cav-（词根，「中空」，同源于 cave, concave, excavate）+ -ern（名词后缀）。同根词：excavate（挖掘）、concave（凹的）。",
+              "mnemonic": "把 cavern 想象成比 cave 更大、更深、回声更响的地下空间——就像把石油藏进地球肚子里的一个巨大房间。",
+              "exampleEn": "Engineers monitor pressure inside the salt caverns to make sure the walls don't crack under strain.",
+              "exampleCn": "工程师监测盐洞内部的压力，以确保洞壁不会因压力过大而开裂。"
+            },
+            {
+              "word": "brine",
+              "pos": "n.",
+              "meaning": "高浓度盐水；石油储备洞穴多由向地下盐层注水、溶解岩盐后形成，brine 是这一工艺的关键词，属于能源/化工报道中的专业但常见词汇，比日常的《salt water》更强调工业浓缩盐水。",
+              "etymology": "源自古英语 bryne/brine，具体词源不明，可能与古弗里斯语或古撒克逊语中表示「盐水」的词有关，中世纪起专指腌制或工业用高浓度盐水。",
+              "morphology": "不可再拆分的简单词。常见搭配：brine solution, brine well, brine pit；相关词：briny（adj. 咸的、盐水的）。",
+              "mnemonic": "联想 brine 和「腌黄瓜的卤水」——工人往盐层里灌水造出这种卤水，把盐溶掉，腾出空间来存石油。",
+              "exampleEn": "Operators pump water underground to dissolve the salt, then pump out the resulting brine to hollow out the cavern.",
+              "exampleCn": "操作人员向地下注水溶解盐层，再把产生的盐水抽出，从而挖空洞穴。"
+            },
+            {
+              "word": "corrode",
+              "pos": "v.",
+              "meaning": "腐蚀、侵蚀；不仅指金属生锈，也常用于比喻「逐渐削弱、破坏」（如信任、结构完整性），在基础设施类新闻中比《damage》更精确地传达「缓慢、持续侵蚀」的过程。",
+              "etymology": "源自拉丁语 corrodere（con-「彻底地」+ rodere「啃、咬」），原义为「彻底啃噬」，14世纪进入英语，指物质被逐渐蚀坏的过程。",
+              "morphology": "cor-（con- 的变体，表「共同/彻底」）+ rod（词根，「啃咬」，同源于 rodent、erode）+ -e。同根词：erode（侵蚀）、rodent（啮齿动物）。",
+              "mnemonic": "把 corrode 和 rodent（老鼠）联系起来——rod 词根就是「啃咬」，想象生锈的过程就像无数看不见的老鼠日夜啃噬金属表面。",
+              "exampleEn": "Prolonged exposure to fluctuating pressure can corrode the rock walls of a storage cavern over time.",
+              "exampleCn": "长期承受波动的压力会逐渐侵蚀储油洞穴的岩壁。"
+            },
+            {
+              "word": "stockpile",
+              "pos": "n./v.",
+              "meaning": "（战略性）储备、库存；既可作名词指囤积的物资，也可作动词表示「囤积」，常见于 emergency stockpile、stockpile grain 等搭配，比单纯的《supply》更强调「为应对危机而预先大量囤积」的意图。",
+              "etymology": "复合词，由 stock（物资、储备）+ pile（堆）组成，20世纪初在英语中开始用于军事/工业语境，指为紧急情况囤积的物资堆。",
+              "morphology": "stock（名词，「库存/物资」）+ pile（名词，「堆」）复合而成，无独立词缀。相关词：stockpiling（囤积行为，动名词）。",
+              "mnemonic": "字面意思就是把库存（stock）堆成一座山（pile）——想象仓库里石油桶堆得像小山一样高，那就是 stockpile 的画面。",
+              "exampleEn": "Governments often stockpile essential commodities like oil and grain to cushion against sudden supply shocks.",
+              "exampleCn": "各国政府常常囤积石油和粮食等重要商品，以缓冲突发的供应冲击。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-15": {
       "label": "8月15日 (周六)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "mnemonic": "把货币政策想象成一根皮带——联储「tightening」就是在勒紧皮带，让市面上的钱变少、变贵。反之 easing 就是松皮带放水。两词一紧一松，永远成对记",
               "exampleEn": "The prolonged tightening cycle has significantly raised borrowing costs for both businesses and consumers.",
               "exampleCn": "持续的货币紧缩周期已大幅推高了企业和消费者的借贷成本。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-15": {
-      "label": "7月15日 (周三)",
-      "stories": [
-        {
-          "id": "20260715-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html",
-          "headlineEn": "Apple in Talks with Startup to Shrink AI Models for iPhone",
-          "headlineCn": "苹果洽谈引入AI压缩技术，助力大模型在iPhone本地运行",
-          "summaryEn": "Apple is reportedly in discussions with PrismML, a startup specializing in compressing large AI models for deployment on smartphones. The company claims its optimized version of Alibaba's Qwen model requires up to 15 times less memory than the original — potentially making sophisticated AI processing viable without relying on cloud servers. The talks signal Apple's determination to advance on-device intelligence, a priority that could sharpen its competitive edge in privacy, latency, and independence from data centers.",
-          "summaryCn": "据报道，苹果正与专注于AI模型压缩的初创公司PrismML展开洽谈。PrismML称，其优化版阿里巴巴Qwen模型的内存占用最多可降低15倍，有望让复杂的AI推理任务直接在iPhone上本地运行，无需借助云端服务器。此次洽谈折射出苹果推进端侧智能的坚定决心——这一策略可帮助苹果在隐私保护、响应延迟和减少数据中心依赖方面建立差异化竞争优势。",
-          "excerpt": "PrismML says its compressed version of Alibaba's Qwen model uses up to 15 times less memory than the original — a potential breakthrough that could make sophisticated AI processing viable directly on an iPhone, without tapping cloud servers.",
-          "vocab": [
-            {
-              "word": "compress",
-              "pos": "v. / n. compression",
-              "meaning": "压缩（数据、模型）；在AI语境中专指将大模型通过技术手段减小体积，使其能在资源受限的设备上运行。比「reduce」更专业，隐含「在不丧失核心功能的前提下精简」的意思，是端侧AI报道中的核心动词",
-              "etymology": "来自拉丁语 comprimere：com-（共同、完全）+ premere（按压）。原义「用力挤压在一起」，中世纪英语延伸为「缩减体积」，20世纪后进入计算机领域专指数据与文件压缩",
-              "morphology": "com-（一起）+ press（按压词根，源自拉丁语 premere）→ compress；加 -ion 得名词 compression。同词根横向扩展：depress（向下压→情绪低落）、express（向外挤出→表达）、impress（压入→留下印象）",
-              "mnemonic": "想象把一个巨大气球（700亿参数大模型）用双手 com（合拢）press（按压），压成可以装进手机口袋的小球——这就是 compress。压缩前后的体积比就是 compression ratio（压缩比），画面感强、好记",
-              "exampleEn": "The startup developed a pipeline to compress a 70-billion-parameter model into a version that runs efficiently on edge devices.",
-              "exampleCn": "这家初创公司开发了一套流程，将700亿参数模型压缩为能在边缘设备上高效运行的版本。"
-            },
-            {
-              "word": "quantization",
-              "pos": "n.",
-              "meaning": "（模型）量化；AI压缩的核心技术，将模型权重从高精度浮点数（如32位）转换为低精度整数（如8位或4位），大幅降低内存占用与计算量。理解边缘AI和端侧部署话题的必备术语，财经/科技报道中高频出现",
-              "etymology": "源于拉丁语 quantum（多少、量）；物理学中量子力学将能量「量子化」为离散单元，计算机科学借用此概念，表示「将连续的高精度数值离散化为有限精度级别」",
-              "morphology": "quantum（量）→ quantize（动词，使量化）→ quantization（名词，量化过程）。同族词：quantity（数量）、quantify（量化评估）、quantum（量子，最小不可分单位）",
-              "mnemonic": "quant（宽客，量化交易员）把复杂市场信号压缩成可执行交易指令；AI量化同理，把32位高精度权重「压缩」成4位低精度数字——都是「用更少的位数承载更多的意义」，宽客和AI工程师做的是同一件事",
-              "exampleEn": "Through aggressive quantization, the team cut the model's memory requirement from 28 GB down to under 2 GB.",
-              "exampleCn": "通过激进的量化处理，团队将模型的内存需求从28GB压缩至不足2GB。"
-            },
-            {
-              "word": "viable",
-              "pos": "adj.",
-              "meaning": "可行的、切实可行的；比「possible」更正式，隐含「经过评估、具备实际落地条件」的意思。商业写作高频搭配：commercially viable（商业可行）、viable alternative（可行替代方案）、viable path（可行路径）。注意与「feasible」的区别——feasible 偏工程技术判断，viable 偏商业与生态层面的判断",
-              "etymology": "来自法语 viable，源于拉丁语 vita（生命）。原义「有生命力的、能存活的」（如医学术语 viable fetus，可存活胎儿），后延伸至商业与技术领域，表示「能够正常运作、走得通」",
-              "morphology": "vi-（vita，生命词根）+ -able（能够…的形容词后缀）→ viable。同词根扩展：vital（至关重要的）、vitality（活力）、vitamin（维生素，维持生命之素）。名词派生：viability（可行性）",
-              "mnemonic": "via（通过、路径）+ able（有能力）→ 「能够通过这条路」→ 可行的。当你在 pitch 中说「this is a viable path to market」，画面是：这条路走得通，不是死路。viable 的对立面是 dead end",
-              "exampleEn": "Compression technology is making real-time AI translation a commercially viable feature for budget smartphones in emerging markets.",
-              "exampleCn": "压缩技术正让实时AI翻译成为新兴市场经济型智能手机上商业可行的功能。"
-            },
-            {
-              "word": "shrink",
-              "pos": "v. (shrink–shrank–shrunk)",
-              "meaning": "（使）缩小、收缩；在科技报道中常指缩减模型尺寸或内存占用，比「reduce」更生动，带有「显著且可感知地变小」的语感。注意不规则变化：shrink → shrank（过去式）→ shrunk（过去分词），与 drink–drank–drunk 同一变化模式，需牢记",
-              "etymology": "来自古英语 scrincan（收缩、萎缩），与古诺尔斯语 skreppa（缩小）同源，原指布料遇水后自然缩水。工业时代扩展至制造业语境，现代科技报道中进一步延伸至模型与芯片领域",
-              "morphology": "不可拆解的日耳曼语系古词。常见派生词：shrinkage（收缩量、零售库存损耗）、shrink-wrapped（真空密封包装的）。另一常见义：shrink 在口语中还可指「心理治疗师」（因帮人「缩小」心理问题），常见于美剧",
-              "mnemonic": "衣服下水洗后 shrink 缩水——把一件超大号大模型「机洗一遍」，shrink 成装得进 iPhone 口袋的迷你版。变化规律速记：shrink / shrank / shrunk，和 drink / drank / drunk 押韵，一起背绝不会混",
-              "exampleEn": "The new compression algorithm managed to shrink the model from 13 billion to just 1 billion parameters without significant accuracy loss.",
-              "exampleCn": "这种新压缩算法成功将模型从130亿参数缩减至仅10亿参数，且精度损失微乎其微。"
-            },
-            {
-              "word": "distill",
-              "pos": "v. / n. distillation",
-              "meaning": "提炼、蒸馏；在AI领域特指「知识蒸馏」（knowledge distillation）——用大模型（教师模型）指导小模型（学生模型）学习，是模型压缩的重要技术路线。在商业与咨询写作中也指「从海量信息中提炼核心要点」，是高级英语写作的常用动词，值得掌握",
-              "etymology": "来自拉丁语 destillare：de-（向下）+ stillare（滴落）。原义「液体加热气化后冷凝、一滴一滴落下」，即蒸馏提纯过程，后引申为「去除杂质、提取精华」的比喻用法",
-              "morphology": "de-（向下/去除）+ still（拉丁语 stilla，水滴）+ -ation（过程名词后缀）→ distillation。同族词：instill（灌输，使知识一滴一滴渗入）、distillery（蒸馏厂）、distillate（蒸馏产物）",
-              "mnemonic": "把原油（大模型）放进蒸馏塔：杂质沉在底部，精华向上蒸发并凝结——这就是 knowledge distillation。还可拆记：「de（去除）+ still（静止的水滴）」= 把嘈杂的大模型提炼成安静精准的小模型，去芜存菁",
-              "exampleEn": "Researchers used knowledge distillation to transfer the capabilities of a 70B model into a compact 7B student model suited for mobile deployment.",
-              "exampleCn": "研究人员采用知识蒸馏技术，将700亿参数模型的能力迁移至适合移动端部署的70亿参数学生模型中。"
-            }
-          ]
-        },
-        {
-          "id": "20260715-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/14/ibm-warns-second-quarter-earnings-fell-short-of-expectations.html",
-          "headlineEn": "IBM Stock Suffers Worst Single-Day Crash on Record After Q2 Earnings Warning",
-          "headlineCn": "IBM 股价创纪录单日暴跌 25%，Q2 盈利预警震惊市场",
-          "summaryEn": "IBM's stock plummeted 25% in a single trading session — its worst day since the company went public — after it issued a second-quarter earnings warning. CEO Arvind Krishna blamed the shortfall on declining revenue in IBM's software and infrastructure divisions, as enterprise clients redirected spending toward hardware rather than services. The steep sell-off illustrates how swiftly investor confidence can collapse when a blue-chip tech name fails to meet financial expectations, raising fresh concerns about broader corporate IT spending trends.",
-          "summaryCn": "IBM 股价单日暴跌 25%，创下上市以来最差单日表现，原因是公司发布了第二季度盈利预警。首席执行官将业绩不达标归因于软件和基础设施业务收入疲软，称企业客户将支出重心转向硬件采购，导致服务业务承压。此次暴跌表明，当蓝筹科技公司未能兑现财务承诺时，市场信心崩塌的速度有多快，同时也引发了外界对企业 IT 支出走势的新一轮担忧。",
-          "excerpt": "IBM shares cratered 25% on Tuesday — the worst single-session decline ever recorded — after the company issued a second-quarter earnings warning. The CEO said enterprise clients had shifted spending away from software and infrastructure toward hardware purchases, creating a revenue gap that caught the market entirely off guard.",
-          "vocab": [
-            {
-              "word": "profit warning",
-              "pos": "phrase",
-              "meaning": "盈利预警。上市公司在正式发布财报前，主动告知投资者业绩将低于市场预期的声明。比「bad news」更值得学，因为它是资本市场高频术语，一旦发出往往引发股价暴跌，阅读财经新闻必须掌握。",
-              "etymology": "profit 源自拉丁语 profectus（进展、收益，pro- 向前 + facere 做）；warning 源自古英语 waernian（告知危险）。两词在 20 世纪随现代资本市场成熟而固定组合，成为专指上市公司正式下调业绩预期的术语。",
-              "morphology": "profit: pro-（向前）+ fit（源自拉丁 facere，做）→ 向前做事所得 → 利润；派生词：profitable（有利可图的）、profitability（盈利能力）。warning: warn（v.）+ -ing（名词化后缀）；派生词：forewarning（预先警告）、unwarned（未被警告的）。",
-              "mnemonic": "想象公司 CEO 手持红旗冲进交易所大喊「Warning!」——股民们一听到「profit warning」就像听到火警铃，立刻抛售。记住：profit warning = 公司主动「预警」，往往比真实财报更早引爆市场情绪。",
-              "exampleEn": "The retailer issued a profit warning last Friday, saying a weaker-than-expected holiday season would cut annual earnings by nearly 20%.",
-              "exampleCn": "这家零售商上周五发布盈利预警，称节日季销售不及预期，将导致全年收益缩减近 20%。"
-            },
-            {
-              "word": "on record",
-              "pos": "phrase",
-              "meaning": "有记录以来（的）。用于强调某事件在可查证历史中是最极端的情况，常搭配 worst / best / highest / lowest 使用。比 ever 更正式、更具数据支撑感，是商业报道描述历史极值的标配表达，值得作为固定搭配整块记忆。",
-              "etymology": "record 源自拉丁语 recordari（回忆，re- 再次 + cor 心），中世纪演变为「记录在案的文件」。「on record」字面意为「被正式记录在册」，引申为「有据可查的历史之最」，16 世纪起广泛用于英语书面语。",
-              "morphology": "re-（再次）+ cord（心/记忆，拉丁词根 cor）→ 再次记于心中 → 记录；同族词：recorder（记录者）、accord（协议，使心意一致）、discord（不和，心意相悖）、cordial（出自内心的，热诚的）。",
-              "mnemonic": "想象一本巨大的吉尼斯世界纪录本，所有「on record」的事件都被郑重写进去了。「worst day on record」= 惨到足以写入史册的一天，IBM 这次 25% 的跌幅显然「够格上记录」。",
-              "exampleEn": "The tech giant posted its highest quarterly revenue on record, driven by a surge in cloud computing contracts.",
-              "exampleCn": "受云计算合同激增推动，这家科技巨头创下历史最高季度营收纪录。"
-            },
-            {
-              "word": "shift",
-              "pos": "v. / n.",
-              "meaning": "（将资源/支出/战略重心）转移、转向。商业语境中描述客户、资本或企业战略的结构性迁移，比 move 更强调方向性和持续性，暗示一种趋势变化而非一次性动作。搭配 spending / budget / focus 极为高频。",
-              "etymology": "源自古英语 sciftan（安排、分配），原意为「分开、换班」，后引申为「改变方向或位置」。日耳曼语系词汇，与德语 schichten（分层）同源，工业革命后大量用于描述生产和经济的结构性变化。",
-              "morphology": "单一词根，无前缀后缀；常见派生词与搭配：shifty（adj. 鬼鬼祟祟的）、shift key（Shift 键）、gear shift（变速挡）；固定搭配：a shift in strategy（战略转变）、shift spending（转移支出）、paradigm shift（范式转变）。",
-              "mnemonic": "想象驾驶手动挡汽车换挡（gear shift）——每次换挡都意味着速度和方向的改变。IBM 的客户「shifted spending toward hardware」= 把挡位从「软件档」换到「硬件档」，IBM 软件部门立刻熄火。",
-              "exampleEn": "As generative AI tools became mainstream, many enterprises shifted their IT budgets from legacy software maintenance to model deployment infrastructure.",
-              "exampleCn": "随着生成式 AI 工具普及，许多企业将 IT 预算从传统软件维护转向了模型部署基础设施。"
-            },
-            {
-              "word": "weakness",
-              "pos": "n.",
-              "meaning": "（业务板块）疲软、不振。财经英语中的委婉说法，描述收入下滑或表现欠佳的业务领域。比 failure 或 collapse 语气更中性，是 CEO 和分析师的「外交辞令」首选——越是轻描淡写，往往意味着问题越严重，是读懂财报季的关键词。",
-              "etymology": "源自古英语 wēac（软弱的，原始日耳曼语 *waikwaz），加抽象名词后缀 -ness 构成。原义指身体虚弱，后扩展至经济、市场等抽象领域，成为商业语言中描述表现不佳的「礼貌用词」。",
-              "morphology": "weak（adj.）+ -ness（名词后缀，表示性质或状态）→ weakness；同族词：weaken（v. 削弱）、weakening（持续走弱）；程度梯度对比：weakness（疲软）→ softness（软化）→ decline（下滑）→ slump（暴跌）→ collapse（崩溃）。",
-              "mnemonic": "记住这个场景：财报电话会上 CEO 面不改色地说「we saw some weakness in X」，背后却是业绩大幅下滑。学会「weakness」就学会了华尔街的语言艺术——话说得越轻，信号往往越重。",
-              "exampleEn": "The CFO pointed to persistent weakness in the European market as the main reason for the company's missed revenue target.",
-              "exampleCn": "首席财务官将欧洲市场持续疲软列为公司错过收入目标的主要原因。"
-            },
-            {
-              "word": "guidance",
-              "pos": "n.",
-              "meaning": "（公司）业绩指引、前瞻展望。企业向投资者提供的对未来营收或利润的预测性声明。区别于 forecast（分析师预测），guidance 特指来自公司官方的预期声明，是影响股价最直接的信号之一，财报季新闻中极高频。",
-              "etymology": "源自中古法语 guider（引导），再往前追溯至古北欧语 vísa（指引）或古德语同源词。-ance 为法语来源的名词后缀，表示行为或状态。现代金融英语中专指公司对投资者发布的方向性收益预测声明。",
-              "morphology": "guide（v./n. 引导/向导）+ -ance（名词后缀）→ guidance；同族词：guideline（指导方针）、misguide（v. 误导）；近义词辨析：guidance（公司官方预期）vs. forecast（分析师预测）vs. outlook（整体前景展望）——来源和权威性各不相同。",
-              "mnemonic": "想象公司 CEO 是举旗的导游（guide），每季财报后告诉投资者「我们下季度往这个方向走」——这就是 guidance。「cut guidance」= 导游突然说「对不起，目的地改了，而且没那么好」，股价当然立刻跳水。",
-              "exampleEn": "The semiconductor maker cut its full-year revenue guidance by 8%, citing weaker-than-expected demand from smartphone manufacturers.",
-              "exampleCn": "受智能手机制造商需求不及预期拖累，这家半导体公司将全年营收指引下调了 8%。"
-            }
-          ]
-        },
-        {
-          "id": "20260715-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/14/warsh-promises-inflation-will-be-a-thing-of-the-past-cites-benefits-of-ai-investment-boom.html",
-          "headlineEn": "Warsh Pledges Fed 'Regime Change' to Defeat Inflation 'Tax' on Americans",
-          "headlineCn": "沃什承诺推动美联储「政策制度变革」，终结通胀「税」",
-          "summaryEn": "Kevin Warsh, a leading candidate to chair the Federal Reserve, pledged Tuesday to fundamentally restructure the Fed's policy framework, calling for a 'regime change' to combat inflation that has eroded household purchasing power for five years. He framed persistent inflation as a hidden 'tax' on American families and vowed to restore price stability, signaling a more disciplined, rules-based approach should he take the helm at the central bank.",
-          "summaryCn": "被视为美联储主席热门人选的凯文·沃什周二承诺，将从根本上重构央行政策框架，呼吁推动「政策制度变革」，以应对五年来持续侵蚀家庭购买力的通胀问题。他将持续通胀形象地比作加诸美国家庭的一种隐性「税负」，并誓言恢复价格稳定，暗示若出任央行掌门人，将推行更具纪律性、以规则为导向的货币政策框架。",
-          "excerpt": "Kevin Warsh pledged Tuesday to 'get monetary policy right' and defeat the inflation that has bedeviled the central bank for the past five years. Calling persistent price pressures an effective 'tax' on American households, Warsh said a fundamental regime change in Fed policy was long overdue.",
-          "vocab": [
-            {
-              "word": "regime change",
-              "pos": "phrase",
-              "meaning": "「政权更迭」的隐喻迁移至政策领域，指体制性、根本性的政策框架转变。值得学的原因：在金融媒体中，regime change 比 policy shift 更强调系统性与不可逆性——不是微调，而是整套规则换了。常出现在对央行、监管体系的批评性报道中",
-              "etymology": "regime 来自法语 régime，源自拉丁语 regimen（统治、管理），词根 reg- 表「统治」。change 源自古法语 changier。两词原属政治术语，指政府政权更替，20世纪后引申至经济政策语境，尤用于描述货币政策框架的根本性转向",
-              "morphology": "re·gime（reg- 统治词根 + -ime 后缀）+ change。同词根扩展：regal（王室的）、regent（摄政者）、regulate（管控）、reign（统治）——这一词族都围绕「权力与管理」展开，横向记忆效率极高",
-              "mnemonic": "想象一面代表「通胀旧政权」的旗帜被降下，新旗升起——regime change 就是「改朝换代」，不是「换个部长」。记住：regime = 整套统治体系，change = 彻底换掉，合起来比 reform（改革）激烈得多",
-              "exampleEn": "Analysts warn that a regime change in Fed policy could trigger significant repricing across global bond markets.",
-              "exampleCn": "分析师警告称，美联储政策的制度性变革可能引发全球债券市场的大幅重新定价。"
-            },
-            {
-              "word": "bedevil",
-              "pos": "v.",
-              "meaning": "持续困扰、使深受其苦。值得学的原因：比 trouble 更强调「挥之不去、反复折磨」的特质，带有「被恶魔缠上」的隐喻色彩，语气更有张力。财经报道中常见搭配：bedevil the economy、bedevil policymakers，暗示问题长期存在且难以根治",
-              "etymology": "由前缀 be-（使……）+ devil（魔鬼）构成，字面义为「被魔鬼附身」，引申为「持续折磨、难以摆脱」。be- 是英语中高产的使动前缀，可将名词变为动词，强调「使某人或物处于某种困境状态」",
-              "morphology": "be-（使动前缀）+ devil（n. 魔鬼）→ bedevil（v. 折磨）。同前缀同构词：bewitch（施魔咒）、befuddle（使迷糊）、bemuse（使困惑）、beguile（诱惑）。派生形式：bedeviled（adj.）、bedeviling（v.-ing）",
-              "mnemonic": "be + devil = 「被小鬼缠上了」。通胀就像个红色小魔鬼，跟着美联储五年都甩不掉——bedevil the central bank for five years。每次看到 be + 名词 构成的动词，就想「被它死死缠住了」",
-              "exampleEn": "Persistent supply chain bottlenecks have bedeviled chipmakers for years, slowing their ability to meet surging AI demand.",
-              "exampleCn": "持续的供应链瓶颈多年来困扰着芯片制造商，削弱了他们满足激增人工智能需求的能力。"
-            },
-            {
-              "word": "inflation tax",
-              "pos": "phrase / n.",
-              "meaning": "「通胀税」——通胀侵蚀购买力的经济效果，实质上相当于一种隐性税收：政府无需立法即可从持有货币者手中「抽走」财富。值得学的原因：这是货币主义批评宽松政策的核心话语武器，出现在政治演讲或标题中时，通常暗示对央行强烈的批评立场",
-              "etymology": "inflation 来自拉丁语 inflatio（膨胀），源自 in-（进入）+ flare（吹）；tax 来自拉丁语 taxare（估价、课税）。两词复合形成经济学术语，由弗里德曼等货币主义经济学家推广，用以揭示通胀的再分配本质",
-              "morphology": "inflation（in- + flat- 吹 + -ion 名词后缀）+ tax（taxare → tax）。同词根扩展：deflation（通缩）、reflation（再通胀）、stagflation（滞胀）——这一系列「-flation」词族是财经词汇的核心板块，值得整组记忆",
-              "mnemonic": "想象政府悄悄印钞票，你钱包里的钱「被无形抽走了一层」——没有税单，没有法案，但效果和交税一样。Inflation tax = 「看不见的抢劫」。记住这个隐喻，就能理解为何批评者称通胀为「穷人税」",
-              "exampleEn": "Critics argue that years of ultra-loose monetary policy have imposed a heavy inflation tax on savers and wage earners alike.",
-              "exampleCn": "批评者认为，多年超宽松货币政策对储户和工薪阶层都征收了沉重的「通胀税」。"
-            },
-            {
-              "word": "rid [sb/sth] of",
-              "pos": "phrasal v.",
-              "meaning": "使……摆脱、根除……的困扰。值得学的原因：比 remove 更强调「彻底清除不想要之物」的决心，常出现在政策宣示和新闻标题中。固定搭配：rid the economy of X、rid the market of X——语气比 eliminate 更口语，但比 get rid of 更正式，适合书面新闻语境",
-              "etymology": "rid 来自古诺尔斯语 ryðja（清理、疏通道路），中古英语时期进入英语，最初指「清理道路上的障碍物」，后扩展至抽象含义，表「消除不需要的事物」",
-              "morphology": "rid 本身是不规则动词（rid / rid / rid，过去式与原形相同）。固定搭配 rid + of 不可拆分。派生词：riddance（解脱），常见于感叹句 Good riddance!（「终于甩掉了！」）——记住这个口语表达，能帮助记住整个词族",
-              "mnemonic": "rid 联想「清扫道路（road）」——road 去掉多余字母剩下 rid。Get rid of = 把路上的石头踢走。记住口语感叹 Good riddance!（「终于走了！」），从这个情绪化表达反推 rid 含义，一步到位",
-              "exampleEn": "The new regulation aims to rid the lending market of predatory practices that have long trapped vulnerable borrowers.",
-              "exampleCn": "新法规旨在消除长期陷害弱势借款人的贷款市场掠夺性行为。"
-            },
-            {
-              "word": "purchasing power",
-              "pos": "phrase / n.",
-              "meaning": "购买力——货币实际能兑换多少商品和服务的能力。值得学的原因：理解通胀最核心的概念，通胀上升等于购买力下降。财经报道中必须整组记忆的超高频搭配：erode purchasing power（侵蚀购买力）、preserve purchasing power（保护购买力）、real purchasing power（实际购买力）",
-              "etymology": "purchase 来自古法语 purchaser（追求、获取），含义是「通过努力获得」；power 来自古法语 pooir，源自拉丁语 potere（能够）。两词合成后，18世纪随经济学兴起成为衡量货币价值的核心术语",
-              "morphology": "purchase（pur- + chase 追求）+ -ing（动名词化）+ power（potere → power）。同词根扩展：potent（强效的）、potential（潜力）、empower（赋权）、omnipotent（全能的）——词根 pot- 都表示「能力、力量」",
-              "mnemonic": "购买力 = 你的钱「有多大劲儿」。想象一张百元钞票能举起多重的购物袋——通胀来了，袋子越来越空，价格标签越来越高，这就是 purchasing power 在下降。牢记搭配：erode purchasing power，像酸水腐蚀金属一样无声无息",
-              "exampleEn": "Years of elevated inflation have significantly eroded the purchasing power of middle-class households, forcing many to cut discretionary spending.",
-              "exampleCn": "多年高通胀显著侵蚀了中产阶级家庭的购买力，迫使许多家庭削减可自由支配的消费。"
             }
           ]
         }
