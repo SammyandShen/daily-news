@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-14T02:38:51.644461+00:00",
+  "lastUpdated": "2026-08-15T05:13:24.122804+00:00",
   "level": "B2",
   "days": {
+    "2026-08-15": {
+      "label": "8月15日 (周六)",
+      "stories": [
+        {
+          "id": "20260815-1",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+          "headlineEn": "OpenAI and Anthropic Cut Prices as Chinese AI Rivals Close In",
+          "headlineCn": "OpenAI与Anthropic降价应战，中国AI追兵逼近",
+          "summaryEn": "OpenAI and Anthropic have launched cheaper versions of their flagship models, marking an escalation in the price war gripping the AI industry. The move comes as Chinese labs release increasingly capable open-source models at a fraction of the cost, chipping away at the pricing power that once let US firms justify trillion-dollar valuations. For a sector built on the promise of ever-larger, ever-pricier models, the shift signals growing pressure to prove that cutting-edge AI can also be affordable, raising doubts about long-term profitability across the industry.",
+          "summaryCn": "OpenAI和Anthropic相继推出更便宜的旗舰模型版本，标志着AI行业价格战进一步升级。背景是中国实验室不断推出性能强劲、成本却低得多的开源模型，正在削弱美国公司过去赖以支撑万亿美元估值的定价权。对于一个建立在「模型越大越贵」逻辑上的行业来说，这一转变意味着企业必须证明前沿AI也能物美价廉，同时也让整个行业的长期盈利能力面临更多疑问。",
+          "excerpt": "US groups release cheaper models after new challenges to their trillion-dollar ambitions. The price cuts follow a wave of competitive Chinese open-source releases that match Western performance at a fraction of the cost, forcing OpenAI and Anthropic to defend market share instead of chasing premium pricing alone.",
+          "vocab": [
+            {
+              "word": "slash",
+              "pos": "v.",
+              "meaning": "大幅削减（价格/成本/预算），比cut语气更强烈、更突然，常用于财经报道中描述价格战、裁员、预算削减，带有果断、剧烈的意味。",
+              "etymology": "源自中古英语slaschen，最初指用刀剑猛力挥砍的动作，由古法语相关词汇演变而来，17世纪起引申出大幅削减的比喻义。",
+              "morphology": "单音节动词，不可再拆分；常见搭配为slash prices/costs/jobs/budget，名词形式slash也指削减或斜线符号。",
+              "mnemonic": "想象一把刀猛地劈下去（slash!）——价格战里公司就是这样一刀砍下价格，比cut更有画面感和力度。",
+              "exampleEn": "To keep pace with cheaper Chinese rivals, OpenAI slashed the price of its flagship model by more than half.",
+              "exampleCn": "为了跟上更便宜的中国竞争对手，OpenAI将其旗舰模型的价格削减了一半以上。"
+            },
+            {
+              "word": "commoditize",
+              "pos": "v.",
+              "meaning": "使产品/服务商品化，即失去差异化、只能靠价格竞争。这是描述技术优势被抹平的核心词，比cheapen更精准地捕捉从独特产品沦为无差异商品的过程。",
+              "etymology": "源自拉丁语commoditas（便利、适宜），经古法语进入英语；20世纪后期经济学界将其动词化，专指产品失去独特卖点、沦为可互换商品的过程。",
+              "morphology": "commodity（n. 商品）+ -ize（动词后缀，表示使成为…），同类词有modernize、standardize；名词形式为commoditization。",
+              "mnemonic": "拆成commodity + -ize：本来独一无二的AI模型，被ize成了跟大米、石油一样谁便宜买谁的commodity，技术光环没了，只剩价格战。",
+              "exampleEn": "Analysts warn that cheap Chinese models risk commoditizing large language models faster than expected.",
+              "exampleCn": "分析师警告，廉价的中国模型可能会比预期更快地让大语言模型沦为同质化商品。"
+            },
+            {
+              "word": "race to the bottom",
+              "pos": "phrase",
+              "meaning": "恶性竞争，比谁更便宜或更低劣的竞赛，通常指企业或国家为争夺市场不断压低价格、标准或成本。比单纯说price war更强调竞争失控和负面后果。",
+              "etymology": "短语/复合词，无独立词源；20世纪美国法学界用于描述各州放松公司监管以吸引企业注册的现象，后被经济学界广泛借用。",
+              "morphology": "race（n. 竞赛）+ to the bottom（介词短语），固定搭配，不可拆分改写；常见变体有race to the top作为褒义对照。",
+              "mnemonic": "想象所有公司都在往悬崖底部狂奔，谁先到底价格最低谁赢，但摔到底部其实谁都不好受，这就是race to the bottom的画面。",
+              "exampleEn": "Some investors fear the AI price war could turn into a race to the bottom that squeezes everyone's margins.",
+              "exampleCn": "一些投资者担心，这场AI价格战可能演变成一场比谁更低价的恶性竞赛，压缩所有人的利润空间。"
+            },
+            {
+              "word": "nip at [sb]'s heels",
+              "pos": "phrase",
+              "meaning": "紧追不舍、步步紧逼，常用于描述后来者在市场份额或技术上迅速追赶行业领先者，带有小狗咬脚跟的生动画面感，比catch up with更形象。",
+              "etymology": "短语/复合词，无独立词源；源自牧羊犬追赶牲畜时咬其脚跟以驱赶方向的行为，19世纪起被引申用于描述竞争对手紧逼追赶。",
+              "morphology": "nip（v. 轻咬、夹）+ at + heels（n. 脚跟），固定介词搭配；nip本身也可单独表示急速行动，如nip out。",
+              "mnemonic": "脑补一只小狗在你脚后跟不停地小口咬，甩都甩不掉，这正是中国AI公司让OpenAI感受到的那种追得很紧的压力。",
+              "exampleEn": "With Chinese labs nipping at their heels, OpenAI and Anthropic had little choice but to cut prices.",
+              "exampleCn": "随着中国实验室紧追不舍，OpenAI和Anthropic几乎别无选择，只能降价。"
+            },
+            {
+              "word": "encroach",
+              "pos": "v.",
+              "meaning": "逐渐侵占、蚕食市场份额或领地，强调缓慢但持续的渗透过程，常与on/upon连用，比compete with更能体现步步蚕食既有地盘的紧张感。",
+              "etymology": "源自古法语encrochier（钩住、抓取），由en-（使…）+ croche（钩子）构成，14世纪进入英语，本义为用钩子抓取他人财物，后引申为逐步侵占。",
+              "morphology": "en-（使动前缀）+ croche（钩子，词根）；同源词有crochet（钩针编织）、crook（钩状物、骗子），都与钩、弯曲的意象相关。",
+              "mnemonic": "想象一个钩子一点点把别人的东西钩过来，中国AI公司就是这样一点点把市场份额从美国巨头手里钩走的。",
+              "exampleEn": "Cheaper, capable open-source models from China are encroaching on territory once dominated by US labs.",
+              "exampleCn": "来自中国的更便宜、性能更强的开源模型正在蚕食曾经由美国实验室主导的市场领地。"
+            }
+          ]
+        },
+        {
+          "id": "20260815-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+          "headlineEn": "PayPal Sale Talks With Stripe, Advent Reportedly Intensify",
+          "headlineCn": "PayPal传与Stripe、Advent收购谈判升温",
+          "summaryEn": "PayPal is reportedly deep in negotiations over a potential sale to payments rival Stripe and private equity firm Advent International, according to people familiar with the matter. The talks come as PayPal's newly installed chief executive pushes a turnaround plan to revive growth and fend off younger checkout rivals. A deal of this size would rank among the largest fintech transactions in years, reshaping the online payments landscape and testing whether a legacy player can regain relevance through acquisition rather than a slow organic recovery.",
+          "summaryCn": "据知情人士透露，PayPal正与老对手Stripe及私募股权公司Advent就潜在收购展开深入谈判。此时正值其新任CEO力推转型计划，意在扭转增长颓势并抵御新兴收单对手的冲击。若交易达成，将成为近年金融科技领域规模最大的并购案之一，重塑在线支付格局。",
+          "excerpt": "PayPal is reportedly still negotiating a potential sale to Stripe and private equity firm Advent, as the fintech company's new CEO tries to turn the struggling payments giant around and restore investor confidence.",
+          "vocab": [
+            {
+              "word": "buyout",
+              "pos": "n.",
+              "meaning": "（企业）收购、并购，尤指私募股权主导的整体收购；比acquisition更强调买断所有权/控制权，常与private equity buyout、leveraged buyout搭配，财经报道高频词。",
+              "etymology": "英语内部合成词，由buy（购买，古英语bycgan）+ out（表示彻底、完全的方向副词）组合而成，无外来词源，19世纪末在商业英语中固定为专有名词用法。",
+              "morphology": "buy（词根：购买）+ out（副词后缀化，表彻底完成）；同类构词有sell-out（抛售/卖光）、payout（支付款项）、takeout（外卖/带走），均以动词+out构成名词。",
+              "mnemonic": "想象一家公司被买(buy)光(out)——原股东全部出局，新买家把股份买断，画面感强，记住buyout就是整体买断。",
+              "exampleEn": "The private equity firm structured the buyout with a mix of cash and debt financing.",
+              "exampleCn": "这家私募股权公司通过现金与债务融资相结合的方式安排了这笔收购。"
+            },
+            {
+              "word": "newly installed",
+              "pos": "phrase/adj.",
+              "meaning": "刚上任的、新任命的（多用于高管、CEO）；比new CEO更正式、更强调被正式任命就位的动作感，常见于财经新闻描述人事变动后的过渡期。",
+              "etymology": "install源自拉丁语installare（in-进入 + stallum座位/位置），本义为安置于席位，中世纪用于教会圣职授任仪式，后引申为任命就职。",
+              "morphology": "in-（进入）+ stall（座位，源自古法语estal）+ -ed（过去分词后缀）；同词根词有installment（分期付款）、install（安装/装设，引申义）、stall（摊位）。",
+              "mnemonic": "联想教堂里给新神父安排座位（stall）上任的画面——install最初就是给某人安排席位，newly installed CEO就是刚被请上宝座的新老板。",
+              "exampleEn": "The newly installed chief executive wasted no time announcing a cost-cutting plan.",
+              "exampleCn": "这位新上任的首席执行官毫不拖延地宣布了削减成本的计划。"
+            },
+            {
+              "word": "checkout",
+              "pos": "n.",
+              "meaning": "（网购/支付场景中的）结账环节、收银流程；在金融科技报道中特指支付公司竞争的核心战场——谁能让用户结账更顺畅，常与checkout experience、checkout rival搭配。",
+              "etymology": "英语内部合成词，由check（核对，源自古法语eschec将军，引申为核查）+ out（完成、离开）组成，20世纪中期从酒店退房用法扩展到零售结账场景。",
+              "morphology": "check（核查/核对）+ out（表完成/离开）；同构词有check-in（入住/登记）、workout（锻炼）、payout（支付）。",
+              "mnemonic": "想象超市收银台前核对（check）完商品后离开（out）的动作——checkout就是购物流程的最后一站，支付公司都想抢占这最后一站的生意。",
+              "exampleEn": "Newer checkout rivals have chipped away at PayPal's share of online payments.",
+              "exampleCn": "更新的结账支付对手已经蚕食了PayPal在线支付领域的份额。"
+            },
+            {
+              "word": "revive",
+              "pos": "v.",
+              "meaning": "使复苏、重振（业绩、增长、行业等）；比improve更强调从衰弱/近乎停滞的状态中被救活，常用于企业转型报道中描述扭转颓势的努力。",
+              "etymology": "源自拉丁语revivere（re-再次 + vivere生存/存活），本义为重新活过来，14世纪经古法语revivre进入英语，最初用于宗教语境复活，后世俗化为泛指恢复生机。",
+              "morphology": "re-（再次）+ viv（词根，拉丁语生命，同源词vivid生动的、survive幸存、vital至关重要的）；派生词有revival（复苏、复兴）、revivalist。",
+              "mnemonic": "viv=life（生命），re=again（再次）——revive字面就是让生命再来一次，把奄奄一息的公司业绩当成病人急救，救活它就是revive。",
+              "exampleEn": "The new CEO is betting that a major deal could revive PayPal's stalled growth.",
+              "exampleCn": "这位新任CEO押注一笔大交易或许能重振PayPal停滞不前的增长。"
+            },
+            {
+              "word": "reshape",
+              "pos": "v.",
+              "meaning": "重塑、重新塑造（行业格局、市场版图）；比change更有画面感，暗示大幅度、结构性地改变原有形态，财经报道中常用来形容重大并购对行业格局的冲击。",
+              "etymology": "英语内部合成词，re-（拉丁语前缀，表再次）+ shape（古英语sceapan，意为塑造、创造），二者组合于近代英语，字面即重新塑造。",
+              "morphology": "re-（再次）+ shape（塑造，名词兼动词）；同前缀词有rebuild（重建）、rebrand（重塑品牌）、reform（改革，字面重新成型）。",
+              "mnemonic": "把行业格局想象成一块黏土（shape），一笔巨额收购就像一只手把它重新捏塑（re-shape）成新形状——记住重新捏一遍就是reshape。",
+              "exampleEn": "A tie-up between PayPal and Stripe would reshape the competitive map of digital payments.",
+              "exampleCn": "PayPal与Stripe的联手将重塑数字支付领域的竞争格局。"
+            }
+          ]
+        },
+        {
+          "id": "20260815-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
+          "headlineEn": "10-Year Treasury Yield Ticks Up as Investors Weigh Weak Retail Sales, Iran Tensions",
+          "headlineCn": "10年期美债收益率小幅走高，投资者消化疲软零售数据与中东局势",
+          "summaryEn": "The yield on the 10-year U.S. Treasury note edged higher on Friday as investors weighed newly released retail sales data that came in below forecasts, alongside escalating tensions in the Middle East. U.S. officials said the naval blockade of Iranian ports could remain in place indefinitely, adding a geopolitical risk premium to markets already grappling with signs of a cooling consumer. The combination left traders uncertain whether the Federal Reserve's next move will lean toward supporting growth or containing inflation.",
+          "summaryCn": "周五，10年期美债收益率小幅走高，市场一面消化低于预期的零售销售数据，一面关注中东局势升温。美国官员称，对伊朗港口的海上封锁可能无限期持续，为本已消费降温的市场增添地缘政治风险溢价。交易员因此难判美联储下一步是偏向支持增长还是遏制通胀。",
+          "excerpt": "The moves come after the latest retail sales figures missed expectations and the U.S. said its naval blockade of Iranian ports could continue indefinitely, leaving investors to weigh softer consumer spending against a fresh geopolitical flashpoint in the Middle East that shows no sign of resolving soon.",
+          "vocab": [
+            {
+              "word": "inch up",
+              "pos": "phrasal v.",
+              "meaning": "以极小幅度逐步移动/上升，多用于描述价格、指标的微小变动，比 rise 或 increase 更强调「一点点、缓慢」的画面感，财经报道中常用来形容波动不大的市场。",
+              "etymology": "源自名词 inch（英寸，古英语 ynce，来自拉丁语 uncia「十二分之一」），后引申为动词，比喻像英寸那样一点点地移动。",
+              "morphology": "不可拆解的简单词，由名词转为动词；常见搭配 inch up / inch higher / inch forward / inch closer，均表示「缓慢挪动」。",
+              "mnemonic": "想象一把尺子，价格像蜗牛一样一英寸一英寸地往前挪——inch up 就是这种「龟速上涨」的画面感。",
+              "exampleEn": "Bond yields inched up for a third straight session as traders awaited fresh inflation data.",
+              "exampleCn": "在交易员等待新通胀数据之际，债券收益率连续第三个交易日小幅走高。"
+            },
+            {
+              "word": "miss expectations",
+              "pos": "phrase",
+              "meaning": "表现不及预期，常用于财报或经济数据报道，比「be lower than expected」更简洁地道，是财经新闻里的固定搭配。",
+              "etymology": "miss 源自古英语 missan「未击中目标」；expectation 源自拉丁语 exspectare「向外看、等待」，二者组合成描述数据不及预测的标准财经短语。",
+              "morphology": "miss（动词）+ expectations（expect + ation 名词化后缀，表示「被期待之事」）；同根词 expect, expected, unexpected, expectancy。",
+              "mnemonic": "想象射箭比赛，箭（数据）本该正中预测的靶心（expectations），结果却「miss」偏了——数据不及预期就像脱靶。",
+              "exampleEn": "Shares tumbled after quarterly earnings missed expectations by a wide margin.",
+              "exampleCn": "由于季度盈利大幅不及预期，该股股价大跌。"
+            },
+            {
+              "word": "indefinitely",
+              "pos": "adv.",
+              "meaning": "无限期地，不设明确结束时间，常用于描述制裁、封锁、暂停等政策，比「forever」更正式、更强调「没有设定终点」而非「永远」。",
+              "etymology": "源自拉丁语 in-（否定前缀）+ definire「界定、划定界限」（de- + finis「边界、终点」），字面意思是「未被界定终点的」。",
+              "morphology": "in-（否定）+ de-（加强）+ fin（词根，边界/终结，同源词 finish, final, finite）+ -ite + -ly；同根词还有 definite, definition, infinite。",
+              "mnemonic": "记住词根 fin 就是「终点、边界」（想想电影结尾的「FIN」字幕）；indefinitely 就是「没有结尾字幕」的状态——不知道什么时候才会结束。",
+              "exampleEn": "The company suspended its share buyback program indefinitely, citing market uncertainty.",
+              "exampleCn": "由于市场不确定性，该公司无限期暂停了股票回购计划。"
+            },
+            {
+              "word": "soft",
+              "pos": "adj.",
+              "meaning": "（经济数据语境）疲软的、不及预期的，比 weak 更口语化、更常见于财经报道对单次数据的临时性描述，隐含「可能只是暂时走软而非趋势性恶化」的语气。",
+              "etymology": "源自古英语 softe「温和的、舒适的」，本义与硬度/质地相关，19世纪后逐渐引申至经济学领域，用来形容需求、价格、数据的疲软。",
+              "morphology": "不可拆解的基础词；常见派生/搭配：soften（动词，走软/软化）、softness（名词）、soft landing（经济学术语，软着陆）。",
+              "mnemonic": "把「疲软数据」想象成一块变软的面包——不是彻底坏掉，只是没有原来那么挺括，这正是 soft 在财经语境里的微妙含义。",
+              "exampleEn": "A soft jobs report raised bets that the central bank would cut rates sooner than planned.",
+              "exampleCn": "疲软的就业报告加大了市场对央行提前降息的押注。"
+            },
+            {
+              "word": "naval",
+              "pos": "adj.",
+              "meaning": "海军的、与海上军事行动相关的，用于描述国家间的海上军事部署，是地缘政治新闻中的高频修饰词，比 military 更具体地指向海上力量。",
+              "etymology": "源自拉丁语 navalis，来自 navis「船」，同源词还有 navy, navigate, naval base 等。",
+              "morphology": "nav（词根，船/航行）+ -al（形容词后缀）；同根词：navy（名词，海军）、navigate（动词，航行/导航）、navigation（名词）。",
+              "mnemonic": "词根 nav 就是「船」——想象一艘军舰在港口外巡逻，naval 就是「与船/海军有关的」这个画面。",
+              "exampleEn": "Analysts warned that a prolonged naval standoff could push global shipping costs sharply higher.",
+              "exampleCn": "分析师警告称，持续的海上军事对峙可能大幅推高全球航运成本。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-14": {
       "label": "8月14日 (周五)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "mnemonic": "购买力 = 你的钱「有多大劲儿」。想象一张百元钞票能举起多重的购物袋——通胀来了，袋子越来越空，价格标签越来越高，这就是 purchasing power 在下降。牢记搭配：erode purchasing power，像酸水腐蚀金属一样无声无息",
               "exampleEn": "Years of elevated inflation have significantly eroded the purchasing power of middle-class households, forcing many to cut discretionary spending.",
               "exampleCn": "多年高通胀显著侵蚀了中产阶级家庭的购买力，迫使许多家庭削减可自由支配的消费。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-10": {
-      "label": "7月10日 (周五)",
-      "stories": [
-        {
-          "id": "20260710-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/09/meta-jumps-into-ai-coding-market-to-chase-anthropic-and-openai.html",
-          "headlineEn": "Meta Enters AI Coding Race to Challenge Anthropic and OpenAI",
-          "headlineCn": "Meta强势入局AI编程市场，追赶Anthropic与OpenAI",
-          "summaryEn": "Meta is making a significant push into the AI coding assistant market, long dominated by Anthropic and OpenAI. Under the leadership of AI chief Alexandr Wang, the company is upgrading its Muse Spark model to better compete in this rapidly growing space. The move signals Meta's ambition to close the gap with its rivals and capture a share of the lucrative enterprise software development market, where AI-assisted coding tools are seeing explosive demand.",
-          "summaryCn": "Meta正大力进军AI编程助手市场，将矛头直指Anthropic与OpenAI。在AI负责人王仲磊（Alexandr Wang）的主导下，公司正对Muse Spark模型进行升级迭代。此举表明Meta有意在高速成长的AI辅助编程赛道上缩小与竞争对手的差距，争夺利润丰厚的企业级软件开发市场份额，预计将进一步加剧AI编程工具领域的竞争格局。",
-          "excerpt": "Meta is upgrading its Muse Spark AI model in a bid to break into the competitive AI coding assistant market, where Anthropic and OpenAI currently lead. The effort, spearheaded by Meta's AI chief Alexandr Wang, reflects the company's determination to vie for a meaningful share of this fast-growing sector.",
-          "vocab": [
-            {
-              "word": "vie",
-              "pos": "v.",
-              "meaning": "竞争，争夺（市场份额或地位）。比「compete」更正式、更书面，多见于财经报道头条，常见搭配「vie for market share / vie for dominance」，语气带有积极争抢、势均力敌的意味。值得学：它是新闻写作中替换 compete 的首选高频词。",
-              "etymology": "源自中古英语「vien」，借自古法语「envier」（挑战、押注），最终可追溯至拉丁语「invitare」（邀请、挑战）。16世纪起进入英语，语义从「发出挑战」逐渐演变为「积极争夺」，书面色彩浓厚。",
-              "morphology": "单音节动词，无可拆解前后缀。变形：vie → vying（现在分词）→ vied（过去式）。同义词梯度：vie（书面正式，争夺感强）vs. compete（中性通用）vs. rival（强调对立关系）。记住 vying 的拼写：vie 变 vy 再加 ing。",
-              "mnemonic": "把「vie」想成「V」字形叉路口——两条路各自争着通向同一个终点，就像两个竞争者争夺同一市场。发音与「why」相近，可联想：Why are they fighting? Because they're vying! 短促有力，发音好记。",
-              "exampleEn": "Several tech giants are vying for dominance in the AI coding assistant space.",
-              "exampleCn": "多家科技巨头正在争夺AI编程助手领域的主导地位。"
-            },
-            {
-              "word": "leapfrog",
-              "pos": "v.",
-              "meaning": "跨越式超越（竞争对手）。源于儿童游戏「跳背」，商业语境中指无需逐步追赶、直接一跃领先，带有「弯道超车」含义。常见搭配「leapfrog the competition / leapfrog rivals」，是科技和战略报道的高频隐喻词，远比「overtake」生动。",
-              "etymology": "由「leap（跳跃）+ frog（青蛙）」组合而成，原指儿童游戏中玩家跨越伏地同伴向前推进的动作。20世纪中期引入商业与军事语境，比喻跨越式发展——不走同一赛道，而是直接越过对手落在前方。",
-              "morphology": "复合词：leap（古英语 hlēapan，跳跃）+ frog（古英语 frogga，青蛙）。leapfrog 既可作动词（to leapfrog rivals）也可作名词（a leapfrog strategy）。同族词：leap → leapt / leaping。类似结构复合词：piggyback（搭便车），同样源自儿童游戏意象。",
-              "mnemonic": "想象一只青蛙在田埂上猛地一跳，直接越过前面所有青蛙落在最前方——这就是「leapfrog the competition」：不是一步步追赶，而是一跃超越。记忆公式：青蛙跳 → 跨越 → 超前，三个画面绑定这个词。",
-              "exampleEn": "By investing heavily in AI infrastructure, the startup managed to leapfrog established rivals.",
-              "exampleCn": "通过大力投资AI基础设施，这家初创公司成功实现了对老牌竞争对手的跨越式超越。"
-            },
-            {
-              "word": "at the helm",
-              "pos": "phrase",
-              "meaning": "掌舵，主导（某组织或项目）。「helm」本义为船舵，引申为最高领导职位。商业报道中常见「at the helm of / with X at the helm」，比「in charge」更具权威感和画面感，多用于描述CEO或核心高管角色，是财经写作的地道表达。",
-              "etymology": "「helm」来自古英语「helma」（船舵），源自原始日耳曼语，与德语「Helm」（舵）、荷兰语「helm」同源。比喻领导地位的用法自16世纪起在英语中固定下来，核心语义是「掌控方向、引领前进」。",
-              "morphology": "介词短语，核心词「helm」为名词。注意「helm」还有「头盔」的义项（源自另一日耳曼词根 *helmaz），两者拼写相同但语义分离。派生词：helmsman（舵手，引申为领导者）。常见句式：「with X at the helm」或「under X's helm」。",
-              "mnemonic": "想象一艘巨轮的船长站在驾驶台上，双手紧握大圆舵盘（helm）——「at the helm」就是「站在那个掌舵位置上」。每次见到这个词就浮现大船和舵盘的画面，就知道在说「谁在主导、谁在掌舵」。",
-              "exampleEn": "With a seasoned executive at the helm, the company successfully navigated the market downturn.",
-              "exampleCn": "在一位经验丰富的高管掌舵下，公司成功度过了市场下行期。"
-            },
-            {
-              "word": "latecomer",
-              "pos": "n.",
-              "meaning": "后来者，后入局者。指进入某一市场或领域较晚的公司或参与者，常含「需要追赶先发者」的语义，但也可中性使用于讨论「后发优势（late-mover advantage）」。值得学：分析竞争格局和市场进入时机时的高频词，教科书几乎不教。",
-              "etymology": "复合词，late（迟，古英语 lǣt，「迟缓的、延迟的」）+ comer（来者，由动词 come 派生的名词）。字面意思「迟到的人」，商业英语中直接引申为「晚进入市场的参与者」，语义透明，无复杂演变路径。",
-              "morphology": "late（形容词/副词）+ comer（名词后缀，来自动词 come）。同类复合词：newcomer（新来者）、first-comer（先来者）、early adopter（早期采用者，意思相对）。注意 latecomer 通常不加连字符，是标准写法。",
-              "mnemonic": "「late（迟）+ comer（来的人）」直接相加 = 迟到的入场者。想象一场重要会议，所有人已就座热烈讨论，Meta 这时才推门走进来——尴尬又落后，这就是「latecomer」。联想自己上课迟到时的感觉，记忆更深刻。",
-              "exampleEn": "As a latecomer to the AI coding market, Meta faces the challenge of winning over developers already loyal to rival tools.",
-              "exampleCn": "作为AI编程市场的后来者，Meta面临着争取已对竞品建立忠诚度的开发者这一挑战。"
-            },
-            {
-              "word": "jockey for position",
-              "pos": "phrase",
-              "meaning": "争相抢占有利地位（市场位置、谈判筹码等）。源自赛马骑师争抢最优跑道位置的画面，商业报道中描述公司在竞争中的策略性布局，语气生动且带有紧迫感，比「compete for market share」更强调过程中的策略博弈，是地道的商业英语隐喻。",
-              "etymology": "「jockey」原指职业赛马骑师，源自苏格兰语 Jockey（即 John 的民间昵称，因骑手多为平民故得名）。动词用法「jockey」意为「耍手段、策略性争夺」，与「for position」结合后成为固定搭配，专指竞争中抢占有利位置的行为。",
-              "morphology": "jockey（动词，由名词「骑师」语义扩展而来）+ for（介词）+ position（名词，源自拉丁语 positio，「放置、位置」）。常见于进行时「jockeying for position」，强调正在进行的争夺动作。相关词：jockey（n. 骑师；v. 耍手段操控）。",
-              "mnemonic": "想象赛马场弯道处——多名骑手（jockeys）相互争挤，抢占内圈最快路线，谁先卡好位谁就占优势。「jockey for position」就是这个画面：在拥挤的竞争赛道上策略性地抢最有利的位置。Meta 就是那个正在挤弯道的新骑手。",
-              "exampleEn": "Tech giants are jockeying for position in the AI coding market before major enterprise contracts are locked in.",
-              "exampleCn": "在大型企业合同签订之前，科技巨头们正争相抢占AI编程市场的有利地位。"
-            }
-          ]
-        },
-        {
-          "id": "20260710-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/09/anduril-ceo-ipo-defense.html",
-          "headlineEn": "Anduril CEO Warns Against Going Public During Market Hype Cycle",
-          "headlineCn": "安杜里尔CEO：在市场炒作高峰期上市是错误决策",
-          "summaryEn": "Anduril, the defense technology startup co-founded by Palmer Luckey, recently reached a $61 billion valuation, ranking among the most valuable private companies in the US. Despite this milestone, CEO Brian Schimpf cautioned against rushing to IPO during a market hype cycle, arguing that going public at peak enthusiasm saddles companies with unrealistic investor expectations. When sentiment eventually cools, those firms face brutal valuation corrections that damage long-term credibility and strategic focus.",
-          "summaryCn": "国防科技创业公司安杜里尔近期估值达到610亿美元，跻身美国最具价值的私人科技企业之列。尽管估值亮眼，CEO布莱恩·希姆普夫却警告说，在市场炒作周期的高峰期贸然上市是一个错误。他认为，当投资者情绪过热时选择IPO，往往会给公司套上脱离实际的高期望枷锁；一旦市场情绪降温，公司将遭遇估值大幅修正，长期公信力和战略执行力也会随之受损。保持私有化状态让安杜里尔得以专注于长期国防合同，而非迎合短期市场压力。",
-          "excerpt": "Anduril recently hit a $61 billion valuation, making it one of the most valuable private tech companies in the US. Its CEO argues that IPO-ing in the middle of a hype cycle is a mistake — peak-enthusiasm listings saddle firms with unsustainable expectations and expose them to brutal corrections when sentiment inevitably cools.",
-          "vocab": [
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；对公司或资产价值的综合评估结果。与「价格」不同，valuation 是基于收入、增长潜力、市场份额等多维因素推算出的「认定价值」，是融资谈判和IPO定价的核心锚点。掌握它能读懂几乎所有科技公司融资新闻，区分「高估值」与「高股价」也靠这个词。",
-              "etymology": "源自拉丁语 valere（「有力量、有价值」），经由中古法语 valuation 进入英语，16世纪起用于财产与商业评估语境，后演变为现代金融核心术语。",
-              "morphology": "val-（词根，价值/力量）+ -ation（名词后缀，表示过程或结果）。同族词：value（价值）、evaluate（评估，e-+val-+uate）、valid（有效的）、prevalent（普遍的，pre-+val-+ent）。",
-              "mnemonic": "把 valuation 拆成「value + ation」——想象一位分析师拿着计算器，把公司从头到脚「量」了一遍（value 量出来），最后打印出一张写着 $61B 的报告。估值 = 被「量」出来的价值。",
-              "exampleEn": "The startup's latest valuation of $10 billion surprised analysts who had expected a more modest figure given its thin profit margins.",
-              "exampleCn": "这家初创公司最新的100亿美元估值令分析师们感到意外，因为他们此前预期，鉴于其微薄利润率，估值会更为保守。"
-            },
-            {
-              "word": "exit",
-              "pos": "n. / v.",
-              "meaning": "（投资）退出；VC/PE语境中特指通过IPO、并购或二级市场出售股份来变现投资回报的行为。区别于字面「出口」，这里强调「兑现收益、离场」。「exit strategy」（退出策略）是风险投资最核心的终局设计，不懂这个词就读不懂创投逻辑。",
-              "etymology": "源自拉丁语 exitus（「出去」），由 ex-（出）+ ire（走）构成；16世纪进入英语，最初指舞台上演员的退场，20世纪后半叶被风险投资界借用为「退出投资」的专业术语。",
-              "morphology": "ex-（前缀，「出/向外」）+ -it（拉丁语词根 ire 的变形，「走」）。同族词：exhibit（展示，ex+hibit）、export（出口，ex+port）；与 entry（进入）构成反义对。",
-              "mnemonic": "想象VC投资人在机场看到绿色「EXIT」指示牌，手里握着一张大支票——他们等了五年，终于找到了「出口」把钱套现离场。IPO就是最典型的 exit。",
-              "exampleEn": "The venture capital firm secured a profitable exit when the portfolio company went public at a valuation three times higher than their initial investment.",
-              "exampleCn": "当这家被投公司以高出初始投资三倍的估值成功上市时，该风险投资公司获得了一次丰厚的退出回报。"
-            },
-            {
-              "word": "roadshow",
-              "pos": "n.",
-              "meaning": "（IPO前的）路演；公司高管在正式上市前巡回向机构投资者进行推介展示的活动。掌握这个词能读懂所有IPO流程报道。它也暗含一层讽刺意味：高管们像「演员」一样四处「表演」以说服投资者认购——这正是为什么有CEO批评IPO时机问题。",
-              "etymology": "复合词，road（道路）+ show（表演/展示）；源自20世纪初美国巡回马戏团与剧院的「roadshow」（巡演），后被金融行业借用指上市前巡回投资者推介，1990年代随互联网IPO浪潮广泛流行于商业英语。",
-              "morphology": "短语/复合词，无独立词源可拆解；相关表达：dog and pony show（花里胡哨的展示，roadshow的俗称）、book building（配股建账，路演的后续环节）、investor presentation（正式说法）。",
-              "mnemonic": "想象CEO穿着西装登上豪华大巴（road），在纽约、波士顿、伦敦各大基金公司门口一一「演出」（show），PPT放完收订单。路演 = 上市前的巡回「秀」。",
-              "exampleEn": "During the two-week roadshow, the company's executives met with over 200 institutional investors across New York, London, and Hong Kong to build appetite for the offering.",
-              "exampleCn": "在为期两周的路演中，公司高管在纽约、伦敦和香港会见了逾200家机构投资者，为此次股票发行积累认购需求。"
-            },
-            {
-              "word": "lock-up",
-              "pos": "n. / adj.",
-              "meaning": "（IPO后的）锁定期；上市后规定创始人、早期投资者等内部人士在一定期限内（通常90至180天）不得出售所持股份的限制安排。理解这个词能解释为何IPO后股价常在锁定期到期前后剧烈波动——内部人集中套现会压低股价，是读懂IPO后市场行为的关键词。",
-              "etymology": "复合词，lock（锁定）+ up（完全封闭）；lock 源自古英语 loc（「门闩/封闭物」），up 作副词强调「完全锁住」状态。金融语境中，lock-up 的「锁」意象极为直观：内部人的股票被「锁」在保险箱里，无法流通。",
-              "morphology": "lock（古英语 loc，锁）+ up（副词，强调完成封闭态）；相关词：lockdown（封锁）、deadlock（僵局，dead+lock）、lock-up period（锁定期，正式表达）、unlock（解锁，反义前缀 un-）。",
-              "mnemonic": "想象创始人的股票证书被装进上了锁的保险箱（lock + up），钥匙由投行保管180天。解禁那天保险箱打开，市场上突然涌现大批卖单——这就是为什么「解禁」常引发股价下跌。",
-              "exampleEn": "When the 180-day lock-up period expired, insiders sold millions of shares, pushing the company's stock price down nearly 15 percent in a single session.",
-              "exampleCn": "当180天锁定期届满，内部人士抛售了数百万股，导致公司股价在单个交易日内下跌近15%。"
-            },
-            {
-              "word": "underwriter",
-              "pos": "n.",
-              "meaning": "（IPO）承销商；负责帮助公司定价、向机构投资者销售股票并在必要时承接剩余股票风险的投行机构。理解这个词能看懂「高盛担任首席承销商」类表述，也能理解为何IPO定价往往偏低——承销商倾向于留出「上涨空间」以确保销售成功、降低自身风险。",
-              "etymology": "源自17世纪英国保险业：under-（「在…之下」）+ write（「书写」）+ -er（执行者后缀）；原指在劳合社（Lloyd's of London）保单下方签名承担风险的人，后延伸至金融承销领域，语义从「保险」迁移至「股票发行担保」。",
-              "morphology": "under-（前缀，「在…之下」）+ write（书写，古英语 writan）+ -er（名词后缀，表示执行者）；同族词：underwrite（承销/承保，动词）、underwriting（承销业务，动名词）、underwritten（已承销的，过去分词）。",
-              "mnemonic": "想象劳合社的商人们围坐在一张大桌旁，在保险合同「下方」（under）依次签名（write）——谁签名谁承担风险。现代承销商就是在IPO文件下签名、保证「卖不完我来兜底」的那家投行。",
-              "exampleEn": "Goldman Sachs and Morgan Stanley served as co-underwriters for the tech giant's $5 billion IPO, helping price the shares and distribute them to institutional buyers.",
-              "exampleCn": "高盛和摩根士丹利作为联席承销商，协助这家科技巨头完成了50亿美元的IPO，负责股票定价并向机构买家分销股份。"
-            }
-          ]
-        },
-        {
-          "id": "20260710-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/09/kalshi-traders-see-roughly-50percent-odds-of-a-rate-hike-in-2026-as-fed-is-split-on-policy.html",
-          "headlineEn": "Kalshi Traders Put 54% Odds on a Fed Rate Hike Before 2027",
-          "headlineCn": "预测市场押注美联储2027年前加息概率达54%",
-          "summaryEn": "The Federal Reserve released its meeting minutes on Wednesday, revealing a deeply divided committee over the future direction of interest rates. Some officials fear persistent inflation may force a rate increase, while others remain wary of overtightening. On prediction market platform Kalshi, traders now assign a 54% likelihood that the Fed will raise rates at least once before 2027. The split outlook reflects genuine uncertainty about whether the central bank will shift toward tightening or hold its current stance.",
-          "summaryCn": "美联储于周三发布会议纪要，显示联邦公开市场委员会在利率走向问题上存在严重分歧。部分官员担忧通胀顽固，认为可能被迫重启加息；另一部分则对过度紧缩心存顾虑。预测市场平台Kalshi的交易者目前认为，美联储在2027年前至少加息一次的概率为54%，折射出市场对央行政策转向的高度不确定性。",
-          "excerpt": "Wednesday's Fed minutes revealed a deeply split committee on the direction of interest rates. On prediction market platform Kalshi, traders currently price in a 54% likelihood of a rate hike before 2027, underscoring real uncertainty about whether the Fed will tighten further.",
-          "vocab": [
-            {
-              "word": "odds",
-              "pos": "n.",
-              "meaning": "「赔率；概率」——在金融和预测市场语境中专指「以比值表示的可能性」，比 probability 更口语化，在英美财经媒体报道预测市场时几乎是标配词汇。值得学的原因：它兼具「概率」和「胜算」双重含义，搭配灵活，如 the odds of a hike、at 2-to-1 odds、beat the odds",
-              "etymology": "源自古英语 odd（奇数/多余部分），中古英语演变为表示「差距/优势」，17世纪起在赌博语境中固定为「赔率」含义，后延伸至统计概率领域",
-              "morphology": "简单词，无可拆解词根。常见派生及固定搭配：odd（adj. 奇数的/奇怪的）→ odds（n. 赔率）→ at odds with（与……相左）、odds-on（最有可能的）、long odds（低概率）、by all odds（无疑地）",
-              "mnemonic": "想象掷骰子——奇数点（odd number）出现与偶数点出现的「数量差」就是 odds。记住「奇」→「odds」：赢的次数和输的次数之比，就是赔率。奇数 odd → 差距 odds，一脉相承",
-              "exampleEn": "Analysts put the odds of a soft landing at roughly 40% given current inflation data.",
-              "exampleCn": "考虑到当前通胀数据，分析师认为经济软着陆的概率约为40%。"
-            },
-            {
-              "word": "split",
-              "pos": "adj. / v.",
-              "meaning": "「（意见）分裂的；存在分歧」——作为形容词在政策和商业报道中极常见，如 a split vote、a split committee，比 divided 更简洁有力，常用于描述机构内部势均力敌的意见对立。此外在金融中还有「股票分拆」（stock split）含义，一词多义值得掌握",
-              "etymology": "源自中古荷兰语 splitten（劈开木材），最初指物理上将木头劈裂，16世纪进入英语后逐渐引申为意见、票数、股权的分裂",
-              "morphology": "简单动词，无前缀后缀。横向扩展固定搭配：split decision（平分裁决）、stock split（股票分拆）、split personality（双重人格）、banana split（香蕉船）、split the difference（各让一步折中）",
-              "mnemonic": "想象一根原木被斧头正中央劈成两半——意见「split」就是这样对半开，两边旗鼓相当。记住：斧头劈木 = 委员会意见分歧，左一半右一半，谁也说服不了谁",
-              "exampleEn": "The board was split on whether to approve the merger, with six members in favor and five opposed.",
-              "exampleCn": "董事会在是否批准合并一事上存在分歧，六票赞成，五票反对。"
-            },
-            {
-              "word": "minutes",
-              "pos": "n. (plural only)",
-              "meaning": "「会议纪要；会议记录」——在金融语境中特指官方正式会议记录，尤其是「Fed minutes」（美联储会议纪要），是全球金融市场最受关注的政策文件之一。关键用法提示：永远用复数形式，不能说「a minute」来表示会议记录；发布时间通常是会议结束三周后",
-              "etymology": "源自中世纪拉丁语 minuta scriptura（微小的书写），因为历史上书记员用缩写小字速记会议内容，后缩短为 minutes 固定指会议记录",
-              "morphology": "minute（adj. 微小的 / n. 分钟）→ minutes（n. 会议纪要）。注意 minute 的两个读音：/ˈmɪnɪt/（分钟）vs /maɪˈnjuːt/（微小的）。同源词：minutiae（细枝末节，拉丁语复数形式，发音 /mɪˈnjuːʃiː/）",
-              "mnemonic": "历史上书记官用「极小的字」（minute writing）飞速记录会议——所以 minutes 是「微小文字的集合」。联想：会议上「分分钟」记下的东西 = minutes。时间的 minute 和记录的 minutes，都来自「细小」这个根",
-              "exampleEn": "Investors worldwide parse the Fed minutes closely for any hint of a policy shift.",
-              "exampleCn": "全球投资者仔细研读美联储会议纪要，寻找任何政策转向的蛛丝马迹。"
-            },
-            {
-              "word": "outlook",
-              "pos": "n.",
-              "meaning": "「前景；展望；预期立场」——商业经济报道中极高频词，既指对未来的预判（economic outlook），也指某人或机构的政策立场（divided outlook on rates）。比 forecast 更主观，比 view 更正式，是财经写作黄金词汇。常见搭配：revise the outlook、a divided outlook、near-term outlook",
-              "etymology": "源自古英语 ūt（向外）+ lōcian（看），原义为「向外眺望」，后引申为「对未来的展望与预判」",
-              "morphology": "out-（向外）+ look（看）= outlook（展望）。同前缀词：output（产出）、outperform（跑赢）、outreach（拓展覆盖）。注意与 look out（当心！）的区别——语序不同，语义完全相反",
-              "mnemonic": "站在山顶「向外看」（out + look）就能眺望远方的地形——对未来的 outlook 就是站在当下「向前眺望」形势。看出去的景象 = 对未来的预期。记住：眼睛朝外看 = outlook",
-              "exampleEn": "The company revised its revenue outlook downward after weak Q2 sales figures were released.",
-              "exampleCn": "公司在发布疲软的第二季度销售数据后，下调了收入预期。"
-            },
-            {
-              "word": "likelihood",
-              "pos": "n.",
-              "meaning": "「可能性；概率」——正式书面用语，比 chance 更学术，比 probability 更易读，是经济学报告和高质量新闻写作的标准用词。值得学的原因：固定搭配丰富——a 54% likelihood of X、in all likelihood（很可能）、increase the likelihood（提升可能性），在央行政策报道中出现频率极高",
-              "etymology": "源自中古英语 likely（可能的）+ -hood（表示「状态/性质」的名词后缀），字面义「处于可能性的状态」，与 childhood、neighborhood 构词方式完全相同",
-              "morphology": "likely（adj. 可能的）+ -hood（名词后缀）= likelihood。横向扩展：likely → unlikely → likelihood。同后缀词：childhood（童年）、neighborhood（邻里）、falsehood（谎言）、livelihood（生计）",
-              "mnemonic": "记住 child → childhood，同理 likely → likelihood，只是把「孩子」换成「可能」。如果你能造出「可能性」的状态，就是 likelihood。或者联想：「likely 的 hood（罩子）盖住了确定性」= 可能性",
-              "exampleEn": "There is a high likelihood that the central bank will pause its tightening cycle if inflation falls below 3%.",
-              "exampleCn": "如果通胀率降至3%以下，央行很可能暂停收紧周期。"
             }
           ]
         }
