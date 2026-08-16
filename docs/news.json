@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-15T23:04:29.271892+00:00",
+  "lastUpdated": "2026-08-16T23:04:15.046965+00:00",
   "level": "B2",
   "days": {
+    "2026-08-17": {
+      "label": "8月17日 (周一)",
+      "stories": [
+        {
+          "id": "20260817-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+          "headlineEn": "OpenAI Reportedly Disbands Its AI Safety Preparedness Team",
+          "headlineCn": "OpenAI被曝解散其AI风险预警团队",
+          "summaryEn": "The Financial Times reports that OpenAI quietly disbanded its preparedness team in late July, the group responsible for assessing whether its models could pose catastrophic risks — including scenarios where an AI system might act autonomously and hack outside networks. Oversight duties have reportedly been merged into other safety functions rather than eliminated outright. The move raises questions about how seriously AI labs are tracking worst-case scenarios as they race to ship increasingly capable models, especially amid growing calls for transparency and accountability in the industry.",
+          "summaryCn": "英国《金融时报》报道，OpenAI已于7月底解散负责评估模型灾难性风险的预警团队——包括AI系统自主行动、入侵外部网络等极端情形。相关监督职责据称已并入其他安全部门，而非彻底取消。此举令外界质疑，在各实验室竞相发布更强模型之际，行业对最坏情况的追踪是否仍然到位。",
+          "excerpt": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The team's job was to assess whether models posed serious risks and to develop ways to mitigate them — including the possibility that a model could act autonomously and hack another company's systems.",
+          "vocab": [
+            {
+              "word": "disband",
+              "pos": "v.",
+              "meaning": "解散（组织、团队）。比《break up》更正式，是企业重组、机构撤销新闻中的首选词，语域偏书面/新闻体。",
+              "etymology": "源自古法语 desbander，dis-（分开）+ band（带子/团体，源自日耳曼语《绑在一起》），字面意为《解开捆绑》，引申为解散团体。",
+              "morphology": "dis-（否定/相反前缀）+ band（词根，绑/团体）。同前缀词：dismantle（拆除）、disperse（驱散）；同词根词：bandage（绷带）、band together（联合）。",
+              "mnemonic": "想象一支橡皮筋（band）被剪开（dis-），原本捆在一起的团队瞬间散开——这就是disband：把《团队》这条绑带剪断。",
+              "exampleEn": "The company quietly disbanded its ethics advisory board after several senior members resigned.",
+              "exampleCn": "几位高级成员辞职后，该公司悄然解散了其伦理顾问委员会。"
+            },
+            {
+              "word": "mitigate",
+              "pos": "v.",
+              "meaning": "减轻、缓解（风险/损害）。风险管理语境高频词，强调《降低严重程度》而非完全消除，比《reduce》更专业。",
+              "etymology": "源自拉丁语 mitigare，mitis（温和的）+ agere（使...做/驱动），字面意为《使变得温和》，14世纪进入英语。",
+              "morphology": "miti-（词根，温和）+ -gate（使动后缀，源自agere）。同词根词：mitigation（名词，缓解措施）、mitigating（形容词，如《mitigating circumstances》减轻情节）。",
+              "mnemonic": "mit-谐音《米特》，联想把激烈的风险《软化》到米特（mild）可控的程度，就是mitigate。",
+              "exampleEn": "The safety team was tasked with identifying risks and proposing steps to mitigate them before deployment.",
+              "exampleCn": "安全团队的任务是识别风险，并在部署前提出缓解措施。"
+            },
+            {
+              "word": "reshuffle",
+              "pos": "n./v.",
+              "meaning": "（人事/组织）重组、洗牌。常用于公司高层调整、部门重组，带《打乱重排》的隐喻，比《restructure》更口语化、常见于新闻标题。",
+              "etymology": "re-（再次）+ shuffle（洗牌，拟声词，模拟纸牌摩擦声，15世纪方言词），19世纪起引申为人事调动的比喻用法。",
+              "morphology": "re-（重复前缀）+ shuffle（词根，源自拟声）。同前缀词：rearrange（重新安排）、reorganize（重组）；固定搭配：cabinet reshuffle（内阁改组）。",
+              "mnemonic": "想象一副扑克牌被重新洗牌（shuffle）——团队成员像牌一样被打乱重新分配位置，这就是organizational reshuffle。",
+              "exampleEn": "Analysts expect a management reshuffle once the safety division merges with the broader compliance unit.",
+              "exampleCn": "分析人士预计，一旦安全部门与更大的合规部门合并，管理层将迎来人事重组。"
+            },
+            {
+              "word": "oversight",
+              "pos": "n.",
+              "meaning": "监督、监管。名词有双重含义——《监督》（如regulatory oversight）与《疏忽》（因未注意而犯的错误），语境决定词义，是财经科技新闻中极易混淆但高频的词。",
+              "etymology": "over-（在...之上）+ sight（视线，古英语 sihþ），字面意为《在上方看管》，17世纪起同时发展出《监督》与《疏忽》两个看似矛盾的词义。",
+              "morphology": "over-（前缀，表覆盖/超越）+ sight（词根，视力/看）。同前缀词：overlook（俯瞰/忽略，恰好也有双重含义）、oversee（监督）；派生词：overseer（监督者）。",
+              "mnemonic": "拆成《over + sight》：站在高处（over）俯视（sight）一切就是《监督》；但若视线（sight）恰好越过（over）了细节，就变成《疏忽》——同一个词，两种《看》的结果。",
+              "exampleEn": "Regulators are pushing for stronger oversight of how AI companies evaluate catastrophic risk before launch.",
+              "exampleCn": "监管机构正推动加强对AI公司发布前评估灾难性风险方式的监督。"
+            },
+            {
+              "word": "phase out",
+              "pos": "phrasal v.",
+              "meaning": "逐步淘汰、逐步取消。强调《渐进式》停止某项业务/职能，区别于《scrap》的突然性，是商业新闻中描述组织缓慢调整的常用搭配。",
+              "etymology": "短语动词，phase源自希腊语 phasis（显现，与月相phase同源），指事物按阶段逐步显现或消退；out表示《完全、彻底》的方向。",
+              "morphology": "phase（词根，阶段）+ out（方向副词，表完成/消失）。相关短语：phase in（逐步引入，反义词）、phase-out（名词形式，如《nuclear phase-out》）。",
+              "mnemonic": "想象月相（phase）从满月逐渐（out）消失到看不见——phase out就是这样一个循序渐进、最终完全消失的过程。",
+              "exampleEn": "The startup plans to phase out its legacy risk-review process in favor of an automated system.",
+              "exampleCn": "这家初创公司计划逐步淘汰其旧有的风险审查流程，转而采用自动化系统。"
+            }
+          ]
+        },
+        {
+          "id": "20260817-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
+          "headlineEn": "Wall Street's Top Analysts Favor 3 Dividend Stocks for Steady Income",
+          "headlineCn": "华尔街顶级分析师看好这三只稳健派息股",
+          "summaryEn": "Top Wall Street analysts have singled out three dividend-paying stocks, largely in the energy sector, as attractive picks for investors seeking steady income. Their recommendations rest on strong track records of payouts, healthy cash flow, and resilient business models that can weather commodity price swings. For income-focused investors worried about market volatility, these stalwart names offer a way to collect regular distributions while limiting downside risk. The picks matter because dividend stocks with analyst conviction tend to signal durable earnings power rather than one-off yield spikes.",
+          "summaryCn": "华尔街顶级分析师筛选出三只派息股，主要集中在能源板块，适合追求稳定收入的投资者。这些公司拥有稳健的派息记录、健康的现金流和抗周期的商业模式，能够在大宗商品价格波动中保持韧性。对于担心市场波动的收入型投资者而言，这些可靠的标的能持续提供分红，同时降低下行风险。分析师的高度看好也意味着这些股票的盈利能力具有持续性，而非昙花一现的高派息。",
+          "excerpt": "Investors looking for steady income are turning to dividend-paying energy stocks. Wall Street analysts have flagged three names with strong payout histories and resilient cash flows, arguing they offer a reliable way to generate regular income even as broader markets stay volatile.",
+          "vocab": [
+            {
+              "word": "payout",
+              "pos": "n.",
+              "meaning": "派息/派发的资金，尤指定期分红。比dividend更口语化，强调「实际到手的钱」，常用于dividend payout、payout ratio等固定搭配。",
+              "etymology": "复合词，由pay（古法语payer，源自拉丁paccare「使满意」）+ out（古英语ut，表示「向外」）组合而成，字面意为「付出去的钱」。",
+              "morphology": "pay（付款）+ out（向外，副词后缀化）构成复合名词；同类构词如payoff（回报）、payroll（工资单）、layout（布局）。",
+              "mnemonic": "想象公司像水龙头一样把利润pay out（付出去）给股东，钱从公司账户流出到你的银行卡——这就是payout。",
+              "exampleEn": "The company has raised its dividend payout for ten consecutive years, a track record income investors prize.",
+              "exampleCn": "这家公司已连续十年提高股息派发，这样的记录深受收入型投资者青睐。"
+            },
+            {
+              "word": "stalwart",
+              "pos": "adj./n.",
+              "meaning": "可靠稳健、历经考验仍表现坚挺的（股票/公司）。比reliable更有褒义色彩，隐含「久经沙场却依然强壮」的意味，财经媒体常用来形容穿越周期的老牌蓝筹。",
+              "etymology": "源自古英语stælwierþe，由stæl（位置、根基）与wierþe（值得的）组成，本义为「站得稳、值得信赖的」，中古英语演变为苏格兰语stalworth，后固定为stalwart。",
+              "morphology": "不可拆分的简单词，但常见搭配有stalwart supporter（坚定支持者）、party stalwart（政党元老）；名词形式与形容词形式相同。",
+              "mnemonic": "联想stall（站稳、不倒）+ wart（疣，长在身上很难去掉）——一个stalwart就像长在原地、怎么甩都甩不掉的老将，稳如磐石。",
+              "exampleEn": "Even during the downturn, this energy stalwart kept its dividend intact, reassuring cautious shareholders.",
+              "exampleCn": "即便在下行周期中，这只能源板块的老牌稳健股依然保持分红不变，让谨慎的股东们安心。"
+            },
+            {
+              "word": "compounding",
+              "pos": "n./v.",
+              "meaning": "复利增长，尤指分红再投资带来的滚雪球效应。比单纯growth更精确，强调「利滚利」的数学机制，是长期投资叙事中的核心词。",
+              "etymology": "源自拉丁语componere（com-「一起」+ ponere「放置」），本义为「合并、放在一起」，17世纪起在金融语境中特指利息叠加利息的过程。",
+              "morphology": "com-（共同）+ pound（放置、构成，源自ponere）+ -ing（动名词后缀）；同根词有component（组成部分）、compose（组成）、compound interest（复利）。",
+              "mnemonic": "把compounding想象成滚雪球——每一圈都把之前滚过的雪都合并（com-）进新的一层，越滚越大，这就是复利的画面感。",
+              "exampleEn": "Reinvesting dividends year after year lets compounding quietly turn modest income stocks into a sizable nest egg.",
+              "exampleCn": "年复一年地将股息再投资，复利会悄然把不起眼的收入股滚成一笔可观的养老金。"
+            },
+            {
+              "word": "coverage ratio",
+              "pos": "phrase (n.)",
+              "meaning": "派息覆盖率，衡量公司盈利/现金流相对于所派股息的倍数，比safety更具体量化，是判断分红是否可持续的关键指标。",
+              "etymology": "短语/复合词，无独立词源；coverage源自动词cover（古法语couvrir，覆盖、保护），ratio源自拉丁语ratio（计算、比例）。",
+              "morphology": "cover（覆盖）+ -age（名词后缀，表状态/范围）构成coverage；ratio为独立拉丁借词；同类搭配如insurance coverage（保险覆盖范围）、debt-to-equity ratio（负债权益比）。",
+              "mnemonic": "想象派息像一把伞（cover），公司的盈利必须足够大才能盖住股息不被淋湿——覆盖率越高，这把伞就越结实。",
+              "exampleEn": "Analysts checked the company's dividend coverage ratio before recommending it, wary of payouts that outpace actual earnings.",
+              "exampleCn": "分析师在推荐这只股票前查看了它的股息覆盖率，以防派息超出实际盈利能力。"
+            },
+            {
+              "word": "conviction",
+              "pos": "n.",
+              "meaning": "（分析师的）坚定看好、高确信度评级，常见搭配high-conviction pick，比单纯opinion更强调「经过深思熟虑、愿意押注」的态度。",
+              "etymology": "源自拉丁语convincere（con-「彻底」+ vincere「战胜、说服」），本义为「彻底说服」，16世纪引申出法律上的「定罪」及后来心理上的「坚信」双重含义。",
+              "morphology": "con-（加强）+ vinc（战胜，词根同victory）+ -tion（名词后缀）；同根词有convince（说服）、victor（胜利者）、invincible（不可战胜的）。",
+              "mnemonic": "conviction的词根vinc等于win/战胜——分析师对一只股票有conviction，就像内心已经战胜了所有疑虑，笃定地站队看多。",
+              "exampleEn": "The analyst's high-conviction call on the dividend stock reflected years of confidence in its cash-generating business.",
+              "exampleCn": "分析师对这只派息股的高度看好，反映了他们多年来对其现金创造能力的信心。"
+            }
+          ]
+        },
+        {
+          "id": "20260817-3",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+          "headlineEn": "U.S. Stock Futures Steady as Investors Weigh the Fed's Next Move",
+          "headlineCn": "美股期货持稳 投资者揣摩美联储下一步动向",
+          "summaryEn": "U.S. stock-index futures barely moved on Sunday evening, extending a subdued week on Wall Street as traders held off on major bets ahead of fresh signals from the Federal Reserve. With no major economic data due, investors are parsing recent comments from policymakers for clues on whether interest rates will stay elevated or start coming down later this year. The muted price action reflects broader caution: after months of volatility, markets appear to be pausing until the central bank's intentions become clearer.",
+          "summaryCn": "周日晚间，美股期货几乎未变，延续本周华尔街的低迷走势。由于近期缺乏重磅经济数据，投资者正仔细揣摩美联储官员的最新表态，判断利率是维持高位还是年内开始下调。这种平淡走势反映出市场的谨慎情绪——历经数月震荡后，投资者选择观望，等待央行态度更明朗。",
+          "excerpt": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors held their positions and awaited fresh hints from the Federal Reserve concerning the outlook for interest rates.",
+          "vocab": [
+            {
+              "word": "muted",
+              "pos": "adj.",
+              "meaning": "(市场、情绪)低迷的、受抑制的；比 quiet 或 flat 更专业，强调波动和反应被压低，而非彻底静止，暗含一种被压抑的紧绷感。",
+              "etymology": "源自拉丁语 mutus（哑的、无声的），经古法语 muet 演变为英语 mute，原指人不能说话，后引申为声音或反应被压制、抑制。",
+              "morphology": "mute（哑的，词根）+ -d（过去分词后缀，构成形容词）。相关词：muteness（n. 沉默）、unmuted（adj. 未静音的）；注意与 mutation 不同源。",
+              "mnemonic": "想象把电视按了静音键（mute button）——声音被压下去但设备还在运转；muted market 就像那样：交易仍在进行，只是反应被压低了，没有大声喧哗。",
+              "exampleEn": "Trading was muted on Wall Street as investors waited for clearer signals from the central bank before placing big bets.",
+              "exampleCn": "由于投资者在押下重注前等待央行给出更清晰的信号，华尔街的交易显得低迷。"
+            },
+            {
+              "word": "Fed-speak",
+              "pos": "n.",
+              "meaning": "美联储式措辞，指央行官员刻意使用的模糊、留有余地的表达方式，让市场难以准确预判政策方向；财经记者和交易员天天用的行话，教科书几乎不教。",
+              "etymology": "复合新词，20世纪后期由 Fed（美联储简称）加上 speak 仿照奥威尔小说《1984》里的 Newspeak（新话）造出，暗讽这种语言故意含糊其辞。",
+              "morphology": "Fed（Federal Reserve 的缩写）+ speak（作后缀，表示某种特定语体）。同类构词：doublespeak（模棱两可的话）、legalese（法律用语，-ese 后缀）、corporate-speak（公司套话）。",
+              "mnemonic": "把 Fed-speak 想成美联储主席开新闻发布会时说的那种话——句句都说了，你却还是猜不出他到底要不要加息，这种绕来绕去的说法就是 Fed-speak。",
+              "exampleEn": "Analysts spent the whole press conference trying to decode the chair's Fed-speak for clues about the next rate decision.",
+              "exampleCn": "分析师们花了整场发布会的时间，试图解读主席的美联储式措辞，寻找下一次利率决策的线索。"
+            },
+            {
+              "word": "read the tea leaves",
+              "pos": "phrase",
+              "meaning": "根据零星、不明确的迹象推测未来走向，类似中文的《揣摩》《看风向》；比 guess 或 predict 更形象，暗示信息不完整，只能靠蛛丝马迹推断，常用于解读官方措辞或数据。",
+              "etymology": "源自19世纪西方的茶叶占卜习俗（tasseography），占卜者通过观察杯底残留的茶叶形状预测未来，后引申为根据零碎线索做推测的比喻用法。",
+              "morphology": "短语/习语，不可拆解为词根词缀，可与近义习语对比记忆：read the writing on the wall（预见不祥征兆）、connect the dots（把线索串联起来）。",
+              "mnemonic": "想象一个占卜师盯着杯底的茶叶渣，皱着眉头猜测未来——投资者盯着美联储官员的只言片语，也是在做同样的事：没有确切答案，只能连蒙带猜。",
+              "exampleEn": "With no clear guidance from policymakers, traders are left reading the tea leaves to figure out when rates might move.",
+              "exampleCn": "由于政策制定者没有给出明确指引，交易员们只能靠揣摩蛛丝马迹来判断利率何时会变动。"
+            },
+            {
+              "word": "pencil in",
+              "pos": "phrasal v.",
+              "meaning": "暂定、初步安排(计划、日期或预期数值)，暗示安排并非最终确定，随时可能因新信息而修改；财经语境中常指《市场暂时预计某个利率决定》，比 expect 更强调临时性、可调整。",
+              "etymology": "短语/复合词，源自实际用铅笔（而非钢笔）书写日程表的习惯——铅笔字迹可擦除，象征安排的临时性和可修改性。",
+              "morphology": "pencil（铅笔，名词转动词）+ in（副词小品词，表示写入、安排进去）。同类结构：pen in（用笔正式写定，与之相对）、fit in（安排进日程）。",
+              "mnemonic": "想象秘书用铅笔而不是钢笔在日历上写下会议时间——因为随时可能要擦掉重排；市场 pencil in 一次降息预期，就是这种《先写着，不确定的话随时擦掉》的状态。",
+              "exampleEn": "Investors have penciled in a rate cut for later this year, though the Fed has given no firm commitment.",
+              "exampleCn": "投资者已经暂时把今年晚些时候的一次降息计入预期，尽管美联储并未做出明确承诺。"
+            },
+            {
+              "word": "sit tight",
+              "pos": "phrase",
+              "meaning": "按兵不动、耐心等待，不采取行动；比 wait 更强调《克制住冲动、稳住不动》，常用来描述投资者在不确定局势中选择观望而非交易。",
+              "etymology": "短语/复合词，最初为骑马或坐姿相关的字面表达（骑手坐稳以免摔落），19世纪末引申为保持现状、不轻举妄动的比喻义。",
+              "morphology": "sit（坐，基础动词）+ tight（紧地，副词，强调牢牢地）。同类结构：hold tight（抓紧）、hang tight（稍安勿躁，近义短语）。",
+              "mnemonic": "想象骑手在颠簸的马背上死死坐稳，不敢乱动——投资者在市场震荡、消息不明朗时也是这样《坐稳了不动》，等尘埃落定再说。",
+              "exampleEn": "Rather than chasing the rumor, most fund managers decided to sit tight until the Fed's statement was released.",
+              "exampleCn": "大多数基金经理没有跟风追逐传闻，而是选择按兵不动，直到美联储的声明发布。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-16": {
       "label": "8月16日 (周日)",
       "stories": [
@@ -5383,200 +5577,6 @@
               "etymology": "",
               "morphology": "",
               "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-17": {
-      "label": "7月17日 (周五)",
-      "stories": [
-        {
-          "id": "20260717-1",
-          "category": "tech",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/uncanny-valley-podcase-apple-sued-openai-new-york-data-center-moratorium-cyclosporiasis-outbreak/",
-          "headlineEn": "Apple Sues OpenAI as Legal and Reputational Troubles Threaten Its Edge Over Anthropic",
-          "headlineCn": "苹果起诉OpenAI，法律与声誉双重危机恐削弱其对抗Anthropic的竞争优势",
-          "summaryEn": "Apple has filed a lawsuit against OpenAI, adding to the company's mounting legal and reputational pressures. OpenAI is already navigating intense scrutiny over its corporate governance and business practices. These challenges come at a critical juncture as OpenAI battles Anthropic for dominance in the AI assistant market. Analysts warn that sustained negative headlines could erode enterprise confidence in OpenAI's products, potentially accelerating customer migration toward rivals. The legal dispute with Apple underscores the increasingly complex web of partnerships and conflicts shaping the AI industry.",
-          "summaryCn": "苹果公司已对OpenAI提起诉讼，进一步加剧了这家AI巨头所面临的法律与声誉双重压力。与此同时，OpenAI在公司治理方面持续承受外界审视。在与Anthropic激烈争夺AI助手市场主导权的关键时刻，接连不断的负面事件引发业界担忧：企业客户信心或因此受损，进而加速流向竞争对手。苹果与OpenAI的法律纠纷，折射出当前AI产业合作与冲突并存的复杂生态。",
-          "excerpt": "OpenAI's troubles are mounting. A fresh lawsuit from Apple adds to the company's growing list of legal and reputational headaches, raising serious questions about whether the AI giant can maintain its edge over rivals like Anthropic—especially as enterprise customers increasingly weigh stability and trustworthiness alongside raw capability.",
-          "vocab": [
-            {
-              "word": "unpack",
-              "pos": "v.",
-              "meaning": "深入剖析；逐层拆解（复杂话题）。在播客和新闻评论中，「unpack」不是字面意思的「打开包裹」，而是指对复杂议题条分缕析，比「analyze」更生动形象，常见搭配：「unpack the implications（剖析深层含义）」「let's unpack this story（我们来逐一解读这条新闻）」",
-              "etymology": "来自古英语前缀 un-（表反向、取消）+ pack（包裹，来自中古荷兰语 pak）。字面义为「打开包裹」，20世纪后语义引申为「剖析复杂概念」，将抽象思想比作待拆解的行李箱",
-              "morphology": "un-（反向/取消前缀）+ pack（动词「打包」）。同前缀词：undo（撤销）、unwrap（拆开）、unlock（解锁）。常见衍生短语：unpack the data（解读数据）、unpack the implications（剖析含义）",
-              "mnemonic": "想象你收到一个装满「复杂信息」的行李箱，unpack 就是把每件物品（每个论点）一一取出摆在桌上检视。每次听到媒体说「let's unpack this」，脑中浮现打开手提箱、逐件取出的画面",
-              "exampleEn": "During the earnings call, the CFO took fifteen minutes to unpack the factors driving the unexpected revenue shortfall.",
-              "exampleCn": "在业绩说明会上，首席财务官花了十五分钟逐一剖析导致营收意外下滑的各项因素。"
-            },
-            {
-              "word": "reputational",
-              "pos": "adj.",
-              "meaning": "与声誉相关的。商业语境中「reputational risk（声誉风险）」「reputational damage（声誉损害）」是固定搭配，频繁出现于企业年报风险提示章节，比「image」更正式，是企业风险管理的核心词汇，读懂英文财经新闻必备",
-              "etymology": "来自拉丁语 reputatio（考量），由 re-（再次）+ putare（计算、思考）构成，后经古法语 réputation 进入英语。原义为「他人反复思量后对某人的评价」，现代商业中专指企业或个人形象资产",
-              "morphology": "repute（声誉，来自拉丁 reputare）+ -ation（名词后缀，表过程/状态）+ -al（形容词后缀）。同词根词：reputation（名誉）、reputable（有声望的）、disrepute（声名狼藉）",
-              "mnemonic": "re-（反复）+ put（放置）：别人一次次把评价「放置」在你身上，积累成你的 reputation（声誉）。-al 后缀让它变成形容词，「reputational crisis」就是声誉大厦出现裂缝",
-              "exampleEn": "The data breach caused significant reputational damage to the fintech firm, driving away several institutional clients.",
-              "exampleCn": "此次数据泄露事件给这家金融科技公司造成了严重的声誉损害，导致多家机构客户相继离去。"
-            },
-            {
-              "word": "embroiled",
-              "pos": "adj. / v.",
-              "meaning": "深陷（纷争、丑闻、诉讼）之中。比「involved」更强调被动卷入且难以脱身的困境感，语气更重，常见搭配：embroiled in controversy（深陷争议）、embroiled in litigation（身陷诉讼），是财经新闻报道法律纠纷时的高频词",
-              "etymology": "来自法语 embrouiller（使混乱），由 em-（进入某状态）+ brouiller（混淆、搅乱）构成。16世纪进入英语，原指「使局势陷入混乱」，后专指「将某人牵扯进无法脱身的纷争」",
-              "morphology": "em-（使进入某状态，源自拉丁 in-）+ broil（纷争、激烈争吵，源自古法语 brouiller）+ -ed（过去分词）。同前缀词：empower（赋权）、embrace（拥抱）、embed（嵌入）",
-              "mnemonic": "「broil」听起来像「boil（沸腾）」——embroiled 就是被「扔进沸腾的争议锅」里，越挣扎陷得越深。OpenAI embroiled in lawsuits = OpenAI在法律纠纷的「沸锅」中无法自拔",
-              "exampleEn": "The startup found itself embroiled in a patent dispute with a tech giant just weeks after its product launch.",
-              "exampleCn": "这家初创公司在产品发布仅数周后，便深陷与一家科技巨头的专利纠纷之中。"
-            },
-            {
-              "word": "litigation",
-              "pos": "n.",
-              "meaning": "诉讼；完整的法律诉讼程序。比「lawsuit」更正式，指整个司法过程而非单一起诉动作，常出现于企业财报风险提示「litigation risk（诉讼风险）」「litigation costs（诉讼费用）」，是读懂英文财报必备词",
-              "etymology": "来自拉丁语 litigatio（争论、诉讼），由 litigare（争讼）构成，源自 lis/litis（诉讼、争端）+ agere（行动、推进）。约16世纪进入英语，专指通过法庭手段解决争端的全过程",
-              "morphology": "litig（诉讼，来自拉丁 lis）+ -ation（过程/状态名词后缀）。同族词：litigate（v. 提起诉讼）、litigant（n. 诉讼当事人）、litigious（adj. 好打官司的）。记住 litigious 有助于反向锁定词义",
-              "mnemonic": "lis（争端）+ agere（行动）= 为争端而采取行动，即诉讼。联想「力提」——打官司要「用力提起」证据和论点去说服法官，整个「提起」过程就是 litigation",
-              "exampleEn": "The company set aside $500 million to cover potential litigation costs stemming from the data breach.",
-              "exampleCn": "该公司拨备5亿美元，以应对数据泄露事件可能引发的潜在诉讼费用。"
-            },
-            {
-              "word": "turmoil",
-              "pos": "n.",
-              "meaning": "动荡；剧烈混乱状态。常用于描述公司、市场或政治局势的动荡，如「market turmoil（市场动荡）」「corporate turmoil（公司内部混乱）」，比「chaos」更中性、更正式，值得与 turbulence（更偏外部冲击）区分记忆，两者均为财经新闻高频词",
-              "etymology": "来源不明确，16世纪英语中出现，可能源自古法语 tromouiller（搅动）或中古英语 turben（扰动）。原指物理上的「翻腾搅动」，后泛指任何领域的剧烈混乱状态",
-              "morphology": "词源不规则，无标准前缀/词根可拆。近义词族：turbulence（湍流→动荡）、tumult（骚乱）、turmoil 三词均含「tu-」音节，均携混乱之意，可作一组记忆。固定搭配：in turmoil（处于动荡中）",
-              "mnemonic": "「tur-」联想 turbine（涡轮）高速旋转，「moil」谐音「磨」——就像被涡轮和磨盘同时搅动，身处其中天旋地转。「corporate turmoil = 公司被各种力量搅得天翻地覆」",
-              "exampleEn": "OpenAI's leadership turmoil last year rattled investors and sparked a wave of talent departures across the company.",
-              "exampleCn": "OpenAI去年的高层动荡令投资者忧虑，并在公司内部引发了一波人才流失潮。"
-            }
-          ]
-        },
-        {
-          "id": "20260717-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
-          "headlineEn": "Uber's $14.8B Delivery Hero Acquisition Could Nearly Double Its Global Reach",
-          "headlineCn": "Uber斥资148亿美元收购Delivery Hero，全球版图有望翻倍",
-          "summaryEn": "In a landmark $14.8 billion all-stock deal, Uber has agreed to acquire Delivery Hero, the German food-delivery giant operating in over 70 countries. The transaction would nearly double Uber's global footprint and create one of the world's largest food-delivery platforms outside China. For Uber, which has already exited several international markets, this acquisition signals a bold return to global growth through consolidation rather than organic expansion, potentially reshaping the competitive landscape of on-demand delivery worldwide.",
-          "summaryCn": "据报道，Uber已与德国外卖巨头Delivery Hero就148亿美元的全股票交易达成收购协议。Delivery Hero在全球逾70个国家开展业务，若交易完成，Uber的全球业务版图将近乎翻倍，并打造出中国以外全球最大的外卖平台之一。这一举措标志着Uber从此前退出多个国际市场的策略转向，转而以整合并购的方式重新拥抱全球化扩张，有望深刻重塑全球即时配送行业的竞争格局。",
-          "excerpt": "Uber has agreed to acquire Delivery Hero in a $14.8 billion all-stock deal that would nearly double the company's global reach and create one of the world's largest food-delivery platforms outside China, marking a decisive shift in the ride-hailing giant's international strategy.",
-          "vocab": [
-            {
-              "word": "synergy",
-              "pos": "n.",
-              "meaning": "协同效应；指并购后合并体创造的价值大于各部分单独之和。几乎是所有M&A报道的标配词，投行路演和财报电话会议中极高频，学会它可直接读懂大量商业英语报道。",
-              "etymology": "来自希腊语synergia，由syn-（共同/一起）与ergon（工作）合成，原意「共同协作」，17世纪进入英语，20世纪被商业和管理学领域大量借用，演变为「合力产生超额价值」的并购专用术语。",
-              "morphology": "syn-（共同）+ erg（工作，来自希腊ergon）+ -y（名词后缀）；同词根扩展：energy（en-内在+ergy工作）、ergonomic（人体工程学）、synergize（动词形式，产生协同效应）。",
-              "mnemonic": "把synergy拆成syn（同）+ energy（能量）：两节电池串联后总电压超过单节之和——这就是synergy的核心画面。商业并购里永远绕不开这个词，CEO开发布会必说「we expect significant synergies」。",
-              "exampleEn": "The merger was projected to generate $500 million in annual synergies through shared distribution networks and reduced overhead costs.",
-              "exampleCn": "预计此次并购将通过共享配送网络和削减运营开销，每年产生5亿美元的协同效益。"
-            },
-            {
-              "word": "moat",
-              "pos": "n.",
-              "meaning": "「护城河」，比喻企业难以被竞争者复制的持久竞争优势。由巴菲特系统推广至投资分析领域，比competitive advantage更生动，是阅读英文投研报告和《经济学人》的必备词汇。",
-              "etymology": "来自古法语mote（土丘/堡垒），本指城堡外围的防御性壕沟，用于阻止敌军入侵。比喻义由沃伦·巴菲特在20世纪90年代引入投资语境，此后成为评估企业竞争壁垒的标准术语。",
-              "morphology": "单一词根，无前后缀可拆解；常见搭配：economic moat（经济护城河）、wide/narrow moat（宽/窄护城河）、deepen the moat（加深护城河）；形容词派生：moated（有护城河保护的）。",
-              "mnemonic": "想象迪士尼乐园城堡外的护城河(moat)——你看得见里面，却无法轻易复制一座。亚马逊的Prime会员体系、微信的社交关系链，都是商业世界的moat，让竞争者望河兴叹、无从逾越。",
-              "exampleEn": "Uber's combined user base and driver network form a deep moat that makes it extremely difficult for new entrants to challenge its market position.",
-              "exampleCn": "Uber合并后庞大的用户群和司机网络将构筑一道深厚的护城河，使新进入者极难挑战其市场地位。"
-            },
-            {
-              "word": "logistics",
-              "pos": "n.",
-              "meaning": "物流；对货物从起点到终点的系统性调配与管理。在外卖、电商语境中侧重配送调度网络的运营效率，比supply chain更聚焦执行层面，logistics network和logistics platform是行业高频搭配。",
-              "etymology": "来自法语logistique，词根源于古法语loger（安置/驻扎），最初是军事术语，指战时军需物资的运输与补给管理。19世纪末被商业领域借用，20世纪随电商和全球供应链爆发成为核心商业词汇。",
-              "morphology": "log-（安置，来自法语loger）+ -istic（形容词后缀）转名词，通常不可数；同族派生词：logistic（形容词）、logistical（形容词，侧重实操层面）、logistically（副词，如logistically challenging）。",
-              "mnemonic": "记住拿破仑远征俄国的失败：兵力再强，败于logistics（补给线太长，粮草跟不上）。外卖平台的核心竞争力同理——骑手调度和即时配送效率，就是现代版的战场logistics，决定胜负。",
-              "exampleEn": "Delivery Hero's logistics network across more than 70 countries gives Uber an immediate operational advantage in markets it had previously exited.",
-              "exampleCn": "Delivery Hero在逾70个国家铺设的物流网络，使Uber在其此前退出的市场中即刻获得运营优势。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "估值；对公司或资产市场价值的评估结果及其背后方法论。与price（成交价）不同，valuation强调基于财务模型的理性价值判断，在M&A、融资和IPO报道中无处不在，是读懂财经英语的核心词。",
-              "etymology": "来自拉丁语valere（有价值、有力量），经由中世纪法语valuation进入英语，16世纪起用于土地和财产评估，随现代金融体系的发展在20世纪成为并购与投资分析的标准术语。",
-              "morphology": "valu-（价值，来自拉丁valere）+ -ation（名词化后缀，表示行为或结果）；同族扩展：value（n./v.）、evaluate（评估）、devalue（贬值）、undervalued（被低估的）、overvalued（被高估的）。",
-              "mnemonic": "val = value（价值）+ -ation（名词化）：valuation就是「把价值量化成一个数字」的过程。记住区别：你报价14.8 billion是price，但背后如何算出这个数字的分析过程和结论就叫valuation。",
-              "exampleEn": "At a $14.8 billion valuation, analysts are questioning whether Uber is overpaying for Delivery Hero's international delivery network.",
-              "exampleCn": "以148亿美元的估值来看，分析师质疑Uber为Delivery Hero的国际配送网络所支付的价格是否过高。"
-            },
-            {
-              "word": "on-demand",
-              "pos": "adj.",
-              "meaning": "按需的；描述用户随时发起请求、平台即时响应的商业模式，与subscription（订阅制）形成对照。外卖、打车、流媒体均属于on-demand经济，是平台经济报道中绕不开的核心定语，作定语时须加连字符。",
-              "etymology": "由on（运行/激活状态）与demand（需求，来自拉丁demandare「委托/要求」）复合而成，无独立词源。20世纪末随互联网平台经济兴起成为高频商业术语，Uber、Airbnb等公司的崛起使其在全球广泛传播。",
-              "morphology": "复合形容词，on（副词/介词）+ demand（名词）；demand来自de-（完全）+ mandare（命令/委托），同族词：mandate（授权/强制要求）、mandatory（强制性的）、command（命令）；作定语须加连字符，作表语则不加。",
-              "mnemonic": "on-demand = 「需求(demand)一到就立刻on（启动）」。想象你饿了打开外卖App，系统瞬间「开机」响应你的需求——按需即时，无需等待，这就是on-demand经济与传统零售最根本的区别所在。",
-              "exampleEn": "The merger would create one of the largest on-demand delivery ecosystems in the world, serving hundreds of millions of consumers across six continents.",
-              "exampleCn": "此次并购将打造全球最大的按需配送生态系统之一，为遍布六大洲的数亿消费者提供服务。"
-            }
-          ]
-        },
-        {
-          "id": "20260717-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
-          "headlineEn": "Dallas Fed's Logan Calls for Modestly Higher Interest Rates",
-          "headlineCn": "达拉斯联储主席罗根呼吁适度上调利率",
-          "summaryEn": "Dallas Federal Reserve President Lorie Logan stated that while this week's inflation data showed improvement, it was not sufficient to justify pausing rate increases. Logan advocated for 'modestly' higher interest rates, signaling a cautious yet continued tightening stance. Her comments reflect ongoing concern within the Fed about whether inflation is easing fast enough toward the 2% target, underscoring the challenge of calibrating policy when economic signals remain mixed.",
-          "summaryCn": "达拉斯联储主席洛里·罗根表示，尽管本周公布的通胀数据有所好转，但仍不足以停止加息步伐。她主张「适度」上调利率，表明联储内部对于通胀能否足够快速地回落至2%目标仍存疑虑。这一立场反映出政策制定者在解读喜忧参半的经济数据时所面临的困境，也凸显了在信号复杂时校准政策节奏的难度。",
-          "excerpt": "Dallas Fed President Lorie Logan said this week's favorable inflation reading was 'not good enough' to justify a pause in rate hikes. She called for modestly higher borrowing costs, reflecting a cautious but still-firm posture as the central bank works to bring inflation fully back under control.",
-          "vocab": [
-            {
-              "word": "calibrate",
-              "pos": "v.",
-              "meaning": "校准；精确调整（政策力度或策略）。在经济语境中指根据数据精确拿捏政策松紧，比 adjust 更强调专业性与精确度，是央行官员发言的高频词，常见搭配：calibrate the response / calibrate policy",
-              "etymology": "源自阿拉伯语 qālib（模具/铸模），经中世纪拉丁语 calibrare 进入英语，原义指测量枪管口径（caliber），后引申为「精确测量、精准调整」",
-              "morphology": "calib(r)-（口径/量规）+ -ate（使动词后缀）。同族词：caliber/calibre（口径；能力水准），recalibrate（重新校准），calibration（校准过程）",
-              "mnemonic": "想象枪匠用精密仪器量枪管口径（caliber），字根相同。联储「calibrate」政策就像枪匠精确调校每一毫米——差之毫厘，谬以千里",
-              "exampleEn": "The central bank must carefully calibrate its rate decisions to avoid triggering a recession while controlling inflation.",
-              "exampleCn": "央行必须审慎校准其利率决策，以在控制通胀的同时避免引发经济衰退。"
-            },
-            {
-              "word": "policymaker",
-              "pos": "n.",
-              "meaning": "政策制定者；决策层官员。在财经新闻中专指有权制定公共政策的官员（如央行委员、政府部长），是 official 的更精准替代词，出现即意味着「重要决策人物发言」",
-              "etymology": "复合词：policy（政策，来自希腊语 polis 城邦，经古法语 policie 进入英语）+ maker（制造者）。policy 的词根 polis 也是 politics、polite 的来源",
-              "morphology": "policy + -maker（施动名词后缀）。类比词：decision-maker（决策者），lawmaker（立法者），market-maker（做市商），kingmaker（幕后操盘手）",
-              "mnemonic": "policy = 政策，maker = 制造者，直接拼合。记住：做市场的叫 market-maker，定政策的叫 policymaker——凡在新闻中看到此词，必是重量级官员开口",
-              "exampleEn": "Several Fed policymakers have signaled they are open to one more rate hike before year-end.",
-              "exampleCn": "数位联储政策制定者已暗示，他们对年底前再加息一次持开放态度。"
-            },
-            {
-              "word": "underscore",
-              "pos": "v.",
-              "meaning": "强调；突出（某一论点或事实）。在商业写作和新闻报道中比 emphasize 更书面正式，暗含「以数据或事件为佐证」的语气，常用于分析报告的结论句",
-              "etymology": "under-（在下方）+ score（线/刻痕，来自古诺斯语 skor，原义「刻痕、切口」）。字面义为「在文字下方划线」以标记重点，后引申为「着重强调」",
-              "morphology": "under-（下方）+ score（线）。同前缀词：underline（下划线；强调），underpin（支撑），undercut（削弱）。score 本身还有「得分/乐谱」义，三义共一词",
-              "mnemonic": "给重点单词画下划线（score a line under = underscore）的动作就是字面来源。背单词时用荧光笔划线的那一刻，就是在 underscore 它",
-              "exampleEn": "The earnings miss underscores the growing pressure on tech companies to demonstrate a clear path to profitability.",
-              "exampleCn": "业绩未达预期一事，凸显了科技公司在证明清晰盈利路径方面所承受的日益增大的压力。"
-            },
-            {
-              "word": "trajectory",
-              "pos": "n.",
-              "meaning": "轨迹；走势；发展路径。在金融语境中专指利率、股价、经济指标的变化路径，如 rate trajectory（利率走势）、growth trajectory（增长路径），比 trend 更强调动态的演变过程和可预测性",
-              "etymology": "来自拉丁语 trajectoria，由 trans-（穿越）+ jacere（投掷）构成，原指抛射体的飞行弧线，后引申为任何事物随时间推移的发展路径",
-              "morphology": "tra(ns)-（穿越）+ -ject-（投掷，核心词根）+ -ory（名词后缀）。同词根词：project（投射/项目），inject（注入），eject（弹出），reject（拒绝/驳回）",
-              "mnemonic": "想象一枚火箭划破天空的飞行弧线——那条弧就是 trajectory。联储官员讨论「rate trajectory」，就是在预判利率这枚「火箭」接下来的飞行路线",
-              "exampleEn": "Investors are watching the Fed's rate trajectory closely to determine when to rotate their portfolios from bonds to equities.",
-              "exampleCn": "投资者正密切关注联储的利率走势，以判断何时将投资组合从债券转向股票。"
-            },
-            {
-              "word": "tightening",
-              "pos": "n.",
-              "meaning": "（货币）紧缩；收紧（信贷条件）。在央行语境中专指加息或缩减资产负债表等收紧流动性的操作，是鹰派立场的具体体现。与 easing/loosening（宽松）相对，是理解央行政策方向的核心词对",
-              "etymology": "tight（紧的，来自古英语 þȳht，原义「密实的/强壮的」）+ -en（动词化后缀）+ -ing（动名词后缀）。常见隐喻：tighten the screws（拧紧螺丝，即施压）",
-              "morphology": "tight + -en（动词化）+ -ing。派生词链：tight → tighten → tightening → tightened。对立词链：loose → loosen → loosening，亦可替换为 easing",
-              "mnemonic": "把货币政策想象成一根皮带——联储「tightening」就是在勒紧皮带，让市面上的钱变少、变贵。反之 easing 就是松皮带放水。两词一紧一松，永远成对记",
-              "exampleEn": "The prolonged tightening cycle has significantly raised borrowing costs for both businesses and consumers.",
-              "exampleCn": "持续的货币紧缩周期已大幅推高了企业和消费者的借贷成本。"
             }
           ]
         }
