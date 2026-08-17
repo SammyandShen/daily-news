@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-16T23:04:15.046965+00:00",
+  "lastUpdated": "2026-08-17T23:04:44.110738+00:00",
   "level": "B2",
   "days": {
+    "2026-08-18": {
+      "label": "8月18日 (周二)",
+      "stories": [
+        {
+          "id": "20260818-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+          "headlineEn": "AI Chipmaker Groq Raises $350M, Pivots to Neocloud Business",
+          "headlineCn": "芯片新贵Groq完成3.5亿美元融资，转型云服务商",
+          "summaryEn": "Groq, once known for making custom AI inference chips, raised $350 million in a new funding round that values the company at $3.5 billion. The startup is pivoting away from selling hardware and toward becoming a \"neocloud\" — a cloud provider that rents out AI computing capacity, much of it powered by Nvidia GPUs rather than Groq's own chips. The shift reflects growing demand for ready-to-use AI compute and intensifying competition among specialized cloud operators racing to build out data centers for enterprise customers.",
+          "summaryCn": "Groq曾以自研AI推理芯片闻名，如今完成3.5亿美元融资，估值达35亿美元。公司正从卖硬件转向「云新贵」——出租AI算力的云服务商，算力多来自英伟达GPU而非自研芯片。这一转型折射出企业对即用AI算力需求激增，也凸显云服务商间数据中心扩张的激烈竞争。",
+          "excerpt": "Groq raised $350 million at a $3.5 billion valuation as the AI chipmaker pivots to a neocloud business, expanding its Nvidia-powered data center footprint to meet surging demand for rentable AI computing capacity.",
+          "vocab": [
+            {
+              "word": "pivot",
+              "pos": "v. / n.",
+              "meaning": "指企业战略方向的转变，尤其是从原有业务模式转向新赛道；比change更精准地传达『以某个支点为轴心转向』的战略感，是创投和商业报道高频词。",
+              "etymology": "源自古法语pivot（枢轴、轴心），最初指机械装置中旋转所依靠的固定点，16世纪进入英语，20世纪后期被商业语境借用，比喻企业围绕核心能力转换方向。",
+              "morphology": "名词pivot直接转为动词使用（零派生），派生词pivotal（adj. 关键的、枢纽性的）；同源词还有pivoting（现在分词作名词，创业圈常说the pivot指转型动作本身）。",
+              "mnemonic": "想象一扇旋转门——门轴固定不动，门扇却能转向任意方向；企业的pivot也是如此：核心资源（人才、技术）不变，业务方向却整体转向。",
+              "exampleEn": "After struggling to sell chips directly to hyperscalers, the startup decided to pivot toward renting out its own computing capacity.",
+              "exampleCn": "在难以直接向超大规模云厂商卖芯片后，这家初创公司决定转型，转而出租自己的算力。"
+            },
+            {
+              "word": "hyperscaler",
+              "pos": "n.",
+              "meaning": "指亚马逊、微软、谷歌等能够以近乎无限规模扩展数据中心和云服务的科技巨头；比笼统的tech giant更精确，专门用于云计算/AI基础设施语境，暗示其规模远超普通云服务商。",
+              "etymology": "由hyper-（希腊语前缀，意为超出、过度）+ scale（拉丁语scala，梯子，引申为规模）+ -er构成，21世纪初随云计算行业兴起而被创造出的新词。",
+              "morphology": "hyper-（超）+ scale（规模，动词化为scale up）+ -er（施动者后缀）；同前缀词有hyperlink、hyperinflation；同根词有scalable（adj. 可扩展的）、scalability（n. 可扩展性）。",
+              "mnemonic": "把hyper想成夸张放大，scaler想成能无限放大规模的玩家——合起来就是能把数据中心开到全球规模的超级公司，一下就能锁定亚马逊、微软这类企业。",
+              "exampleEn": "Smaller AI startups often rely on hyperscalers for cloud infrastructure before they can afford to build their own data centers.",
+              "exampleCn": "规模较小的AI初创公司在有能力自建数据中心之前，往往依赖超大规模云厂商提供云基础设施。"
+            },
+            {
+              "word": "runway",
+              "pos": "n.",
+              "meaning": "指初创公司现有资金能维持运营的时长（还能撑多久），是创投圈衡量融资紧迫性的核心指标；比funds更形象，直接传递还能飞多久、会不会没油的紧迫感。",
+              "etymology": "源自古英语run（跑）+ way（路），最初指机场供飞机起降滑行的跑道，20世纪后期风险投资圈借用这一意象，比喻公司在起飞（盈利或下一轮融资）前还能滑行多久。",
+              "morphology": "run（跑，动词）+ way（路，名词）复合而成；同类复合词有driveway（车道）、runway model（T台模特，另一引申义）；无独立词根变化。",
+              "mnemonic": "想象一架飞机在跑道上加速——跑道越长，起飞前能纠错的机会越多；初创公司的runway也是同理：资金越多，公司在实现盈利前能试错飞行的时间就越长。",
+              "exampleEn": "The fresh $350 million round should give Groq enough runway to expand its data centers before it needs to raise again.",
+              "exampleCn": "这轮3.5亿美元的新融资应能让Groq在下一次融资前有足够的资金撑到扩建数据中心。"
+            },
+            {
+              "word": "moat",
+              "pos": "n.",
+              "meaning": "商业语境中指企业难以被竞争对手复制的持久竞争优势（如专利、网络效应、规模成本），源自护城河这一巴菲特常用的投资比喻；比advantage更强调防御性和持久性。",
+              "etymology": "源自古法语motte（土墩、城堡地基），中古英语借入后指环绕城堡的壕沟，用于抵御外敌入侵；20世纪末投资人沃伦·巴菲特将其引申为企业的经济护城河概念。",
+              "morphology": "moat为不可再拆分的简单名词；常见搭配有economic moat（经济护城河）、widen the moat（拓宽护城河）；无常规派生动词或形容词形式，多以固定短语出现。",
+              "mnemonic": "想象中世纪城堡外的一圈壕沟，敌军想攻进城堡必须先渡河——企业的moat同理：竞争对手想抢占市场，得先跨过技术壁垒或规模成本这道河。",
+              "exampleEn": "Owning its own chip design was once seen as Groq's moat, but the shift to renting Nvidia GPUs raises questions about what protects it now.",
+              "exampleCn": "自研芯片设计曾被视为Groq的护城河，但转向租用英伟达GPU的做法，让人质疑现在还有什么能保护它的市场地位。"
+            },
+            {
+              "word": "build out",
+              "pos": "phrasal v.",
+              "meaning": "指大规模扩建基础设施（如数据中心、网络、产能），强调从无到有、逐步建成完整体系的过程；比简单的expand更聚焦于物理设施的落地建设，是科技/能源报道高频搭配。",
+              "etymology": "短语动词，由build（古英语byldan，建造）+ out（古英语ut，向外）组合而成，19世纪起用于铁路、公用设施等大型基础设施建设语境，21世纪延伸到数据中心、光纤网络等科技基础设施。",
+              "morphology": "build（建造，动词）+ out（向外，副词小品词）；名词化形式为build-out（如data center build-out）；同结构短语动词有roll out、scale up、branch out。",
+              "mnemonic": "想象工地上工人不断向外搭脚手架、一层层往外扩建——build强调造，out强调向外扩张，合起来就是把一个小机房逐步扩建成遍布各地的数据中心网络。",
+              "exampleEn": "Groq plans to use the new funding to build out its Nvidia-powered data centers across multiple regions.",
+              "exampleCn": "Groq计划用这笔新融资，在多个地区扩建由英伟达芯片驱动的数据中心。"
+            }
+          ]
+        },
+        {
+          "id": "20260818-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/17/l3harris-ceo-chris-kubasik-lhx-defense-mehta.html",
+          "headlineEn": "L3Harris Ousts CEO Chris Kubasik Over Unspecified Conduct Issue",
+          "headlineCn": "L3Harris以行为问题为由罢免CEO库巴西克，股价跌4%",
+          "summaryEn": "Defense contractor L3Harris Technologies abruptly removed CEO Chris Kubasik from his post, citing unspecified issues related to his conduct without providing further details. The announcement sent L3Harris shares tumbling roughly 4%, as investors weighed the sudden leadership vacuum at the defense and aerospace company. Notably, Kubasik faced a similar exit before: he was pushed out as Lockheed Martin's incoming CEO in 2012, after the company disclosed he had engaged in a close personal relationship with a subordinate employee.",
+          "summaryCn": "L3Harris突然罢免CEO库巴西克，理由是其存在未具体说明的行为问题，未透露细节，消息令公司股价一度下跌约4%。值得注意的是，库巴西克2012年也曾因与一名下属员工关系密切，被撤销出任洛克希德·马丁CEO的任命。",
+          "excerpt": "Chris Kubasik was ousted as Lockheed Martin's incoming CEO in 2012 after what that company called a 'close personal relationship with a subordinate employee.' Now L3Harris has removed him again, this time citing unspecified conduct issues, without elaborating on what triggered the abrupt decision.",
+          "vocab": [
+            {
+              "word": "misconduct",
+              "pos": "n.",
+              "meaning": "不当行为，尤指违反职业道德或公司规定的行为；商业新闻中常用于描述高管因道德/操守问题下台，比bad behavior更正式、更具法律和纪律色彩。",
+              "etymology": "前缀mis-（错误的，源自古英语/古法语）+ conduct（引导、行为，源自拉丁语conducere「一起带领」）。字面意为「错误的行为方式」。",
+              "morphology": "mis-（表否定/错误）+ conduct（行为，动词兼名词）。同前缀词：misinformation（错误信息）、misuse（误用）；同词根词：conductor（指挥/导体）、conductive（导电的）。",
+              "mnemonic": "想象一个乐队指挥conductor指挥错了拍子（mis-），场面失控——misconduct就是「指挥错了自己的行为」，多用于高管、员工的失范举动。",
+              "exampleEn": "The board launched an internal investigation after allegations of financial misconduct surfaced.",
+              "exampleCn": "董事会在财务不当行为的指控浮出水面后展开了内部调查。"
+            },
+            {
+              "word": "step down",
+              "pos": "phrasal v.",
+              "meaning": "（从职位）主动或被迫辞职、卸任；比resign更口语化、更常出现在新闻标题中，且不带强烈的自愿色彩，可用于被迫离职的语境。",
+              "etymology": "短语动词，由本族词step（古英语stæppan，行走）+ down（古英语dūn，向下）组合而成，无独立词源，字面意象为「从高处走下来」。",
+              "morphology": "step（走一步）+ down（向下），组合成短语动词；类似结构：step up（站出来/接任）、step aside（让位）、step in（介入）。",
+              "mnemonic": "把职位想象成一个讲台，领导站在台上；出事后他必须「走下讲台」（step down），画面感很直接，容易记住这是卸任而非登台。",
+              "exampleEn": "The CFO agreed to step down amid mounting pressure from shareholders.",
+              "exampleCn": "在股东施加的压力不断增大之下，这位首席财务官同意卸任。"
+            },
+            {
+              "word": "interim",
+              "pos": "adj.",
+              "meaning": "临时的、过渡期的，常用于interim CEO（临时首席执行官）这类搭配，强调职位空缺期间的过渡安排，比temporary更正式、更常见于公司治理语境。",
+              "etymology": "源自拉丁语interim，意为「与此同时、在这期间」，由inter-（在……之间）演变而来，16世纪进入英语作副词/形容词使用。",
+              "morphology": "inter-（在……之间，常见于international、interact）+ im（拉丁语时间后缀）；相关词：interval（间隔）、interlude（幕间休息）。",
+              "mnemonic": "联想inter像「两点之间」，公司CEO离职到新CEO上任之间的空档，就是interim（过渡）阶段——想象一座临时搭建的桥连接两任领导。",
+              "exampleEn": "The company named its chief operating officer as interim CEO while the board searches for a permanent replacement.",
+              "exampleCn": "在董事会寻找永久继任者期间，公司任命首席运营官担任临时CEO。"
+            },
+            {
+              "word": "tarnish",
+              "pos": "v.",
+              "meaning": "（名誉、形象）玷污、损害，原指金属表面失去光泽，引申为声誉受损；在商业新闻中比damage更形象，暗示一种缓慢、难以完全去除的负面印记。",
+              "etymology": "源自古法语ternir（使变暗淡），可能源自日耳曼语词根，与「暗淡、无光泽」相关；16世纪引入英语，最初指金属氧化失去光泽。",
+              "morphology": "不可拆解的简单词；常见派生：tarnished（形容词，如tarnished reputation）；反义词式表达：untarnished（未受损的）。",
+              "mnemonic": "想象一枚崭新的银牌放久了变得暗淡无光（tarnish的本义），把这个画面套用到名誉上——丑闻就像空气中的湿气，会让原本闪亮的声誉逐渐失去光泽。",
+              "exampleEn": "The scandal tarnished the executive's reputation just as he was about to take the top job.",
+              "exampleCn": "这起丑闻恰好在他即将出任最高职位之际，玷污了这位高管的声誉。"
+            },
+            {
+              "word": "abrupt",
+              "pos": "adj.",
+              "meaning": "突然的、意外的，尤指变化或决定发生得毫无预兆、令人措手不及；比sudden更强调唐突、缺乏铺垫的语感，常用于形容人事变动、政策转向。",
+              "etymology": "源自拉丁语abruptus（断裂的），是动词abrumpere（ab-「离开」+ rumpere「打破」）的过去分词，字面意为「被突然折断」。",
+              "morphology": "ab-（离开，见absent缺席、abnormal反常）+ rupt（打破，见rupture破裂、disrupt扰乱、interrupt打断）。",
+              "mnemonic": "记住词根rupt=break破裂，abrupt就像一根绳子突然啪地断裂（break off abruptly）——没有预警，瞬间发生，用来形容突如其来的辞职或决定再合适不过。",
+              "exampleEn": "Investors were caught off guard by the company's abrupt decision to remove its chief executive.",
+              "exampleCn": "公司突然决定罢免首席执行官，让投资者措手不及。"
+            }
+          ]
+        },
+        {
+          "id": "20260818-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
+          "headlineEn": "30-Year Treasury Yield Tops 5.31%, Highest in 19 Years",
+          "headlineCn": "30年期美债收益率突破5.31%，创19年新高",
+          "summaryEn": "The yield on the 30-year U.S. Treasury bond topped 5.31% on Monday, its highest level in 19 years, as traders repositioned ahead of this week's FOMC minutes release. Rising long-term yields reflect growing concern over the term premium demanded for holding longer-dated government debt amid persistent inflation worries and heavy federal borrowing. The move matters because it pushes up borrowing costs across the economy, from mortgages to corporate financing, and signals investors expect rates to stay elevated longer than previously priced in.",
+          "summaryCn": "周一，30年期美国国债收益率突破5.31%，创19年新高，因交易员正等待本周公布的美联储会议纪要。长期收益率走高反映市场要求更高的期限溢价，通胀担忧与联邦借贷压力仍是背后推手。这一变化直接推高房贷、企业融资等借贷成本，也显示投资者预期利率将比此前定价维持更久的高位。",
+          "excerpt": "Treasury yields climbed broadly on Monday as traders awaited the latest FOMC minutes, due later this week, for clues on the Fed's next policy moves. The 30-year yield led gains, pushing past 5.31% and touching its highest level in nearly two decades.",
+          "vocab": [
+            {
+              "word": "top",
+              "pos": "v.",
+              "meaning": "突破/超过（某一数值或纪录）。财经新闻标题高频动词，比exceed更简洁有力，隐含《登顶》的画面感，常用于描述价格或利率创新高。",
+              "etymology": "源自古英语 top（顶点、山巅），本义指物体最高处；14世纪起引申为动词，表示达到或超过顶点。",
+              "morphology": "单音节词，无法进一步拆解；常见搭配有 top out（触顶回落）、top up（补充至满）、on top of（掌控/领先于）。",
+              "mnemonic": "想象登山者终于站上（top）山顶——收益率像登山者一样《登顶》5.31%，比reach多了一种冲破纪录的画面感。",
+              "exampleEn": "Oil prices topped $90 a barrel for the first time this year after the OPEC announcement.",
+              "exampleCn": "欧佩克宣布消息后，油价今年首次突破每桶90美元。"
+            },
+            {
+              "word": "minutes",
+              "pos": "n. (usu. pl.)",
+              "meaning": "（会议）纪要/记录。财经新闻高频词，尤指美联储FOMC会议纪要，市场常据此揣测未来货币政策方向，比notes更正式、更具制度性。",
+              "etymology": "源自拉丁语 minuta scriptura（小字书写，即简要记录），中世纪拉丁语指简略笔记；17世纪起专指会议的正式书面记录。",
+              "morphology": "与表示时间的minute（分钟）同形同源，均来自拉丁 minutus（微小的）；引申词有 minute（adj. 微小的）、diminish（减少）。",
+              "mnemonic": "把minutes想成秘书在会议进行的每一《分钟》（minute）里记下的笔记——分钟记录攒起来，就成了会议纪要。",
+              "exampleEn": "Traders parsed the Fed minutes for clues about the pace of future rate cuts.",
+              "exampleCn": "交易员仔细研读美联储会议纪要，寻找未来降息节奏的线索。"
+            },
+            {
+              "word": "term premium",
+              "pos": "n. phrase",
+              "meaning": "期限溢价，指投资者为持有更长期限债券而要求的额外收益补偿。这是理解长债收益率飙升的核心概念，比笼统的risk更精确。",
+              "etymology": "短语/复合词，无独立词源；term 源自拉丁语 terminus（边界、期限），premium 源自拉丁语 praemium（奖赏、额外所得）。",
+              "morphology": "term（期限）+ premium（溢价）两个独立名词组合而成的金融术语；同类搭配有 risk premium（风险溢价）、liquidity premium（流动性溢价）。",
+              "mnemonic": "把钱借给别人30年比借1年《任期更长》（term），自然要多要一份《奖金》（premium）作为补偿——这份多要的钱就是term premium。",
+              "exampleEn": "Rising term premium, not just inflation fears, has pushed long-term yields sharply higher.",
+              "exampleCn": "期限溢价上升，而不仅仅是通胀担忧，推动长期收益率大幅走高。"
+            },
+            {
+              "word": "auction",
+              "pos": "n. / v.",
+              "meaning": "（国债）拍卖/招标发行。财政部通过auction向市场发行债券，拍卖结果（认购倍数、得标利率）是判断市场对长债需求强弱的关键指标。",
+              "etymology": "源自拉丁语 augere（增加），经由 auctio（增价出售）演变而来，本义为竞价抬高的买卖方式。",
+              "morphology": "词根 auc-/aug- 表示增加，同源词有 augment（增加）、author（原意为促成者、增加者）；auction 加 -eer 后缀构成 auctioneer（拍卖师）。",
+              "mnemonic": "记住拍卖会上价格不断augment（增加）直到成交——auction和augment同根，联想《竞价抬高》就记住了词源。",
+              "exampleEn": "Weak demand at Wednesday's 30-year bond auction sent yields climbing further.",
+              "exampleCn": "周三30年期国债拍卖需求疲软，导致收益率进一步攀升。"
+            },
+            {
+              "word": "borrowing costs",
+              "pos": "n. phrase",
+              "meaning": "借贷成本，指企业、政府或个人为融资所需支付的利息代价。这是把抽象的利率变化翻译成普通读者能感知的经济后果的常用表达，财经报道几乎必用。",
+              "etymology": "短语/复合词，无独立词源；borrow 源自古英语 borgian（借入、以...作担保），cost 源自古法语 coust（花费）。",
+              "morphology": "borrowing（borrow动名词化，动词转名词）+ costs（复数名词）；同根词有 borrower（借款人）、lend/lender（相对概念，出借人）。",
+              "mnemonic": "拆成《借（borrow）钱要付的代价（cost）》——最直白的画面：银行柜台前贴着一张利率单，那就是你的borrowing cost。",
+              "exampleEn": "Higher Treasury yields translate directly into higher borrowing costs for homebuyers and corporations alike.",
+              "exampleCn": "美债收益率上升直接转化为购房者和企业更高的借贷成本。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-17": {
       "label": "8月17日 (周一)",
       "stories": [
@@ -5503,80 +5697,6 @@
               "mnemonic": "extra（额外、超出）——把已知的折线图往右边「额外」延长，就是 extrapolate。想象一位分析师拿着尺子，把美联储那条态度曲线笔直地延伸到未来，这就是 extrapolate 的动作",
               "exampleEn": "Without regular Fed commentary, analysts must extrapolate policy direction from scattered economic data and rare official remarks.",
               "exampleCn": "缺乏定期的美联储评论，分析师不得不从零散的经济数据和偶发的官员表态中推断政策方向。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-18": {
-      "label": "7月18日 (周六)",
-      "stories": [
-        {
-          "id": "20260718-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
-          "headlineEn": "Patreon stops asking AI bots not to scrape — and starts blocking them",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260718-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
-          "headlineEn": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260718-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/17/iran-war-oil-tanker-strait-hormuz-traffic-attacks-trump.html",
-          "headlineEn": "Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "One seafarer was killed and three were injured in attack on the crude oil tanker Al Bahyah off Oman's coast on Tuesday.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
             }
           ]
         }
