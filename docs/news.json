@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-17T23:04:44.110738+00:00",
+  "lastUpdated": "2026-08-19T02:50:30.340928+00:00",
   "level": "B2",
   "days": {
+    "2026-08-19": {
+      "label": "8月19日 (周三)",
+      "stories": [
+        {
+          "id": "20260819-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+          "headlineEn": "OpenAI Rolls Out New Safeguards Following Hugging Face Security Breach",
+          "headlineCn": "OpenAI在Hugging Face遭安全漏洞后推出新防护措施",
+          "summaryEn": "OpenAI has introduced a new set of internal safeguards after a security breach affecting Hugging Face, the popular platform for hosting and sharing AI models. The updated measures include more granular monitoring of models throughout the development pipeline, letting engineers instrument each stage for suspicious activity. OpenAI is also placing greater emphasis on alignment and security checks during the post-training process, when models are fine-tuned before public release. The move signals growing industry concern that vulnerabilities in shared infrastructure could let malicious actors exfiltrate proprietary model data or tamper with training pipelines.",
+          "summaryCn": "OpenAI在Hugging Face平台发生安全漏洞事件后，宣布升级内部防护体系。新措施包括在模型开发全流程中实施更精细化的监控，让工程师能在每个环节及时发现异常活动；同时在训练后阶段，也就是模型微调、准备发布前的关键环节，进一步强化对齐与安全审查。此举反映出业界对共享基础设施安全隐患的担忧日益加深——一旦被攻破，攻击者可能窃取专有模型数据或篡改训练流程。",
+          "excerpt": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process, OpenAI said, as AI companies race to shore up defenses against increasingly sophisticated attacks on shared model infrastructure.",
+          "vocab": [
+            {
+              "word": "instrument",
+              "pos": "v.",
+              "meaning": "为系统加装监测、记录装置，使其可被观察和追踪；在科技语境中比monitor更强调预先植入观测能力这一动作本身，常用于软件工程和安全领域。",
+              "etymology": "源自拉丁语instrumentum（工具、器具），由动词instruere（装备、建造）演变而来，16世纪后英语中衍生出为…安装监测装置的动词用法。",
+              "morphology": "in-（使…）+ stru（建造，词根同structure, construct）+ -ment（名词后缀，转为动词用法）；同根词：construct, instruct, structure。",
+              "mnemonic": "想象给一台机器（instrument乐器/仪器）装满传感器——instrument作动词就是给系统装上仪表盘，让你能随时读出数据。",
+              "exampleEn": "Engineers instrumented every stage of the training pipeline to flag anomalies in real time.",
+              "exampleCn": "工程师在训练流程的每个环节都加装了监测装置，以便实时标记异常。"
+            },
+            {
+              "word": "exfiltrate",
+              "pos": "v.",
+              "meaning": "黑客秘密窃取并转移数据；比steal更专业，特指网络安全语境下未经授权将数据偷运出系统的行为，常见于数据泄露报道。",
+              "etymology": "源自拉丁语前缀ex-（向外）+ filum（丝线，引申为排成一列），军事术语exfiltrate原指秘密撤出被围困地区的人员，20世纪后被网络安全界借用形容数据外泄。",
+              "morphology": "ex-（出）+ filtrate（过滤、渗出，词根同filter）；同根词：filter, infiltrate（渗透进入），filtration。",
+              "mnemonic": "infiltrate是偷偷潜入，exfiltrate就是反方向——偷偷带出去；把数据想象成被过滤filtrate出系统的液体，只是这次是被恶意抽走。",
+              "exampleEn": "Hackers exfiltrated thousands of proprietary model weights before the breach was detected.",
+              "exampleCn": "在漏洞被发现之前，黑客已经窃取并转移了数千份专有模型权重。"
+            },
+            {
+              "word": "granular",
+              "pos": "adj.",
+              "meaning": "细粒度的、精细化的；在数据和监控语境中，比detailed更强调可拆分到最小单位的分析层级，是科技公司描述权限、监控、计费颗粒度时的高频词。",
+              "etymology": "源自拉丁语granum（谷粒、颗粒），19世纪进入英语描述颗粒状物理特性，20世纪后引申出细致到最小单位的抽象含义，常见于数据分析和IT领域。",
+              "morphology": "gran（颗粒，词根同grain, granite）+ -ular（形容词后缀，表具有…性质的）；同根词：grain, granite, granulate。",
+              "mnemonic": "想象把一整块信息磨成一粒粒沙（grain），granular就是颗粒状的——监控做到granular，就是把系统拆解到最细的沙粒级别去观察。",
+              "exampleEn": "The platform now offers more granular monitoring, tracking each model checkpoint instead of just the final release.",
+              "exampleCn": "该平台现在提供更精细化的监控，追踪每一个模型检查点，而不只是最终发布版本。"
+            },
+            {
+              "word": "beef up",
+              "pos": "phrasal v.",
+              "meaning": "大幅加强、充实（防御、力量、团队等）；比strengthen更口语化、更有画面感，常用于商业和安全报道中形容临时性、力度较大的强化动作。",
+              "etymology": "短语/复合词，无独立词源；20世纪初美式俚语，字面意为给…增添牛肉beef，引申为增添分量、增强实力。",
+              "morphology": "beef（牛肉，引申为实力、分量）+ up（向上、增强方向的小品词）；类似结构短语：bulk up, ramp up, gear up。",
+              "mnemonic": "想象一个瘦弱的保安突然吃了很多牛肉beef变得强壮——beef up就是给…补充牛肉，让防御变得更结实。",
+              "exampleEn": "OpenAI is beefing up its internal review process to catch alignment issues before models ship.",
+              "exampleCn": "OpenAI正在大幅加强内部审查流程，以便在模型发布前发现对齐问题。"
+            },
+            {
+              "word": "overhaul",
+              "pos": "n./v.",
+              "meaning": "全面检修、彻底改革；比update或change程度更深，隐含拆开重新检查每个部件的画面，常用于描述企业对流程、系统或政策的系统性重构。",
+              "etymology": "源自航海术语，17世纪指拉紧、检查船帆索具（haul over），19世纪引申为对机械设备的全面检修，20世纪后广泛用于制度、流程等抽象层面的改革。",
+              "morphology": "over-（全面、彻底）+ haul（拖、拉，词源与haul cargo相关）；同根词：haul, hauler, overhaul（名词/动词同形）。",
+              "mnemonic": "想象把一艘船的所有绳索haul都从头到尾over检查一遍——overhaul就是从头到尾彻底检修，不放过任何一个环节。",
+              "exampleEn": "The security breach triggered a full overhaul of how AI labs vet third-party hosting platforms.",
+              "exampleCn": "这次安全漏洞事件引发了AI实验室对第三方托管平台审查方式的全面改革。"
+            }
+          ]
+        },
+        {
+          "id": "20260819-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html",
+          "headlineEn": "Brunswick Turns to AI Navigation and New Revenue Streams as Boat Sales Stall",
+          "headlineCn": "布伦瑞克押注AI导航与新收入来源，应对游艇销量疲软",
+          "summaryEn": "Brunswick Corp., the parent of Sea Ray and Boston Whaler, is leaning on artificial-intelligence navigation systems and fresh revenue streams to offset a stall in overall boat sales. CEO David Foulkes told CNBC that premium models are still finding buyers, even as cheaper, value-oriented boats struggle to move off dealer lots. The divergence highlights how affluent buyers keep spending while budget-conscious households pull back, pushing Brunswick to lean on tech-driven services rather than unit volume for future growth.",
+          "summaryCn": "游艇制造商布伦瑞克（Sea Ray、Boston Whaler母公司）CEO戴维·福克斯在CNBC表示，高端游艇销售依然稳健，但面向大众市场的入门级产品明显疲软。为应对这种消费分化，公司正押注AI导航系统等新技术，并开发新的收入来源，试图减少对传统整船销量的依赖，寻找新的增长引擎。",
+          "excerpt": "Brunswick Corp. CEO David Foulkes told CNBC that premium boat sales are staying resilient even as budget models struggle to find buyers. The Sea Ray and Boston Whaler parent is now counting on AI-powered navigation tools and new revenue streams to keep growth afloat despite a broader slowdown in unit sales.",
+          "vocab": [
+            {
+              "word": "stay afloat",
+              "pos": "phrase",
+              "meaning": "字面指船只漂浮不沉，引申为企业或财务状况勉强维持、不倒闭，用在游艇公司的报道里是双关表达，比 survive 更形象、更能体现挣扎维持的动态感。",
+              "etymology": "源自古英语 flotian（漂浮）演变而来的 float，加上前缀 a-（表示状态），afloat 最初指船只浮于水面，17世纪起延伸出财务上未沉没的比喻义。",
+              "morphology": "a-（表示处于某状态，如 asleep, awake）+ float（漂浮）。同源词：float, floating rate, flotilla。",
+              "mnemonic": "想象一艘船在风浪中拼命不下沉——afloat 就是那种勉强漂着没沉的画面，用在公司身上就是账面没崩、还在硬撑。",
+              "exampleEn": "Even as unit sales stall, Brunswick is counting on service revenue to keep its boat division afloat.",
+              "exampleCn": "尽管整船销量停滞，布伦瑞克仍希望靠服务收入让游艇业务维持运转。"
+            },
+            {
+              "word": "big-ticket",
+              "pos": "adj.",
+              "meaning": "指单价高、金额大的商品或支出，如游艇、汽车、房产，常用于描述大宗消费品，比 expensive 更专业，隐含消费者需要犹豫权衡或贷款的语感。",
+              "etymology": "20世纪美式英语俚语，字面指大额账单或票据（big + ticket），二战后消费经济兴起后被广泛用作零售业术语。",
+              "morphology": "big（大）+ ticket（票、价签，源自古法语 estiquette，意为小标签）。同源短语：price tag, sticker price。",
+              "mnemonic": "想象商场里挂着一个巨大的价格标签，大到需要两个人才能抬起——那就是 big-ticket item，买的时候要下狠心。",
+              "exampleEn": "Big-ticket purchases like yachts are often the first to slow when consumers grow cautious.",
+              "exampleCn": "游艇这类大宗消费品，往往是消费者转向谨慎时最先放缓购买的。"
+            },
+            {
+              "word": "trade down",
+              "pos": "phrasal v.",
+              "meaning": "指消费者从高价、高端选项转向更便宜的替代品，是零售与消费行业分析中的核心术语，比 downgrade 更贴近消费者主动省钱的行为描述，常与 trade up 相对。",
+              "etymology": "短语动词，无独立词源。19世纪商业英语中 trade 已有交换、买卖之意，up/down 表示价格档次的方向变化。",
+              "morphology": "trade（交易，源自中古低地德语 trade，意为足迹、路径）+ down（方位副词）。反义短语：trade up。",
+              "mnemonic": "想象顾客走进商店，本想买贵的款式，最后默默把手伸向货架下层更便宜的那一款——这就是 trade down 的画面。",
+              "exampleEn": "As budgets tighten, more buyers are trading down from luxury yachts to smaller, cheaper boats.",
+              "exampleCn": "随着预算收紧，越来越多买家从豪华游艇转向更小、更便宜的船只。"
+            },
+            {
+              "word": "cyclical",
+              "pos": "adj.",
+              "meaning": "指行业或需求随经济周期起伏波动，与防御性行业相对，是分析船只、汽车等消费类硬件时常用的行业分类词，比 unstable 更精确地指出波动是周期性、可预测的。",
+              "etymology": "源自希腊语 kyklos（圆、循环），经拉丁语 cyclus 进入英语，19世纪起被用于描述经济学中的周期性现象。",
+              "morphology": "cycl（圆，词根 kyklos）+ -ic（形容词后缀）+ -al（再加强形容词性）。同根词：cycle, bicycle, recycle。",
+              "mnemonic": "想象经济像自行车轮一样不停转动，涨了会跌、跌了会涨——cyclical 行业就是坐在这个轮子上的行业，比如游艇制造业。",
+              "exampleEn": "Boatbuilding is a highly cyclical business, booming when consumer confidence is high and slumping when it fades.",
+              "exampleCn": "造船业是高度周期性的行业，消费者信心高涨时繁荣，信心消退时便陷入低迷。"
+            },
+            {
+              "word": "retrofit",
+              "pos": "v.",
+              "meaning": "指给已有产品或设备加装新技术或部件，而非从头设计，常用于科技升级旧硬件的语境，比 upgrade 更强调事后改装、非原生设计的技术含义。",
+              "etymology": "20世纪中期美式英语造词，由拉丁语前缀 retro-（向后、回溯）与 fit（安装、使合适）拼接而成，最初用于航空航天和军事装备的技术改造。",
+              "morphology": "retro-（向后、回溯，如 retroactive, retrospect）+ fit（安装、配备）。同前缀词：retrograde, retrospective。",
+              "mnemonic": "把 retro（复古）和 fit（装配）连起来想象——给一艘老式游艇回头装上崭新的AI导航系统，就像给复古外壳塞进未来的大脑。",
+              "exampleEn": "Brunswick plans to retrofit existing boats with AI navigation systems to create new subscription revenue.",
+              "exampleCn": "布伦瑞克计划为现有船只加装AI导航系统，以创造新的订阅收入。"
+            }
+          ]
+        },
+        {
+          "id": "20260819-3",
+          "category": "econ",
+          "sourceName": "BBC Business",
+          "sourceUrl": "https://www.bbc.co.uk/news/articles/c1k1x1zdywdo?at_medium=RSS&at_campaign=rss",
+          "headlineEn": "Global Borrowing Costs Hit Fresh Highs on Oil, AI and Inflation",
+          "headlineCn": "全球借贷成本因油价、AI与通胀飙升至新高",
+          "summaryEn": "Yields on long-term government bonds in the US, UK, Germany and Japan have surged to levels not seen in years, pushing up the cost of borrowing worldwide. Investors point to a mix of rising oil prices, heavy government spending tied to the AI boom, and persistently high inflation as the main drivers. Because these bond yields serve as a benchmark for everything from mortgages to corporate loans, the increase matters far beyond financial markets — it raises costs for governments, businesses and households alike, and could slow economic growth if it persists.",
+          "summaryCn": "美国、英国、德国和日本的长期国债收益率大幅攀升，达到多年来的高位，推高了全球借贷成本。分析师认为，油价上涨、与AI热潮相关的巨额财政支出，以及居高不下的通胀是主要推手。由于这些国债收益率是房贷、企业贷款等众多利率的基准，其上升的影响远超金融市场本身，将加重政府、企业和家庭的负担，若持续下去甚至可能拖累经济增长。",
+          "excerpt": "Interest rates on long-term government debt in the US, UK, Germany and Japan have soared to fresh highs, as investors demand higher returns amid surging oil prices, AI-driven spending, and stubborn inflation — a shift that is quietly raising the cost of money across the global economy.",
+          "vocab": [
+            {
+              "word": "gilt",
+              "pos": "n.",
+              "meaning": "英国政府发行的国债的俗称（类似美国的treasury），因早期债券证书边缘镀金而得名；在英国财经报道中几乎是《government bond》的默认说法，比直译更地道。",
+              "etymology": "源自古英语gyldan（意为镀金），与gold同源；19世纪起，英国政府债券证书边缘常有金色装饰，因此被称为gilt-edged securities，后简称gilts。",
+              "morphology": "gilt本身是gild（镀金）的过去分词形式，词根与gold相通；同源词包括gilded（镀金的，如gilded age）、gild the lily（画蛇添足）。",
+              "mnemonic": "想象一张边缘镀了金边的债券证书——gilt听起来像guilt，但意思完全不同：一个是《金边债券》，一个是《负罪感》，别搞混了。",
+              "exampleEn": "Gilt yields jumped to their highest level since the 1990s after the inflation data came in hotter than expected.",
+              "exampleCn": "通胀数据高于预期后，英国国债收益率跳升至上世纪90年代以来的最高水平。"
+            },
+            {
+              "word": "crowd out",
+              "pos": "phrasal v.",
+              "meaning": "（政府大量举债）挤占民间资本/投资空间，使私人部门难以获得资金；是宏观经济学描述财政赤字副作用的核心隐喻，比《reduce》或《limit》更精准地传达出挤压排挤的画面感。",
+              "etymology": "短语/复合词，无独立词源；crowd来自古英语crudan（推挤），out表方向，组合后字面即《挤出去》。",
+              "morphology": "crowd（推挤，名词/动词）+ out（方位副词）；同类结构的短语动词还有push out、squeeze out、edge out，都带有以力排他的意味。",
+              "mnemonic": "想象一间挤满人的电梯——政府这个大块头一进来占用大量空间（资金），普通乘客（私营企业）就被挤出了门外，借不到钱。",
+              "exampleEn": "Economists warn that heavy government borrowing could crowd out private investment just as companies ramp up AI spending.",
+              "exampleCn": "经济学家警告称，政府大规模举债可能会挤占民间投资，而此时企业正在加大AI支出。"
+            },
+            {
+              "word": "rout",
+              "pos": "n. / v.",
+              "meaning": "（市场的）溃败、暴跌，通常指价格在短时间内急剧下挫、卖盘失控的局面；比《decline》或《drop》更强调兵败如山倒的混乱与恐慌感，常用于形容债券、股票市场的剧烈抛售。",
+              "etymology": "源自古法语route（溃败的军队），可追溯至拉丁语rupta（断裂的、被打散的），原指军队溃散逃跑，19世纪起被借用到金融语境形容市场崩溃。",
+              "morphology": "不可再拆解的简单词；常见搭配为bond rout（债市溃败）、market rout（市场暴跌），动词用法如bonds were routed。",
+              "mnemonic": "联想route（路线）加一个字母变成rout（溃败）——一支军队本该沿着route前进，结果却被打得四散奔逃，成了rout；债市溃败时投资者也是四散逃离。",
+              "exampleEn": "The bond rout deepened this week as yields on 30-year debt touched levels not seen in over a decade.",
+              "exampleCn": "本周债市溃败加剧，30年期国债收益率触及十多年来的最高水平。"
+            },
+            {
+              "word": "stagflation",
+              "pos": "n.",
+              "meaning": "滞胀，即经济停滞（低增长）与高通胀同时出现的罕见组合；对当前油价、通胀与利率交织的叙事而言是关键概念，能解释央行为何陷入两难——加息抗通胀会进一步拖累本已疲软的增长。",
+              "etymology": "20世纪60年代英国经济学家创造的合成词，由stagnation（停滞，源自拉丁语stagnum，死水）与inflation（通胀，源自拉丁语inflare，吹胀）拼接而成。",
+              "morphology": "stag(nation) + (in)flation的截拼词（blend/portmanteau）；类似构词法的词还有brunch（breakfast+lunch）、smog（smoke+fog）。",
+              "mnemonic": "把经济想象成一潭死水（stag，联想stagnant water）却同时在充气膨胀（flation，联想inflate a balloon）——一边死气沉沉，一边物价却在膨胀，两种矛盾状态同时发生。",
+              "exampleEn": "Rising oil prices combined with sluggish growth have revived fears of stagflation across major economies.",
+              "exampleCn": "油价上涨叠加经济增长乏力，令主要经济体重新担忧滞胀风险。"
+            },
+            {
+              "word": "debt-servicing",
+              "pos": "n. / adj.",
+              "meaning": "偿债（支付利息和本金）的行为或成本；debt-servicing costs是财经报道中描述政府或企业为偿还债务利息所需支出的固定搭配，比简单说paying debt更专业、更常出现在财政新闻中。",
+              "etymology": "service源自拉丁语servitium（奴役、服务），中世纪起引申出维护、履行义务之意；20世纪金融语境中，service a debt演变为按期支付利息本金的固定用法。",
+              "morphology": "debt（债务，源自拉丁debitum）+ servicing（service的动名词形式，维护/履行）；同类搭配有service a loan、service charge、self-service。",
+              "mnemonic": "把service想成给债务做保养——就像车要定期保养（service the car）才能继续跑，债务也要定期service（付息还本）才不会违约抛锚。",
+              "exampleEn": "As yields climb, governments face sharply higher debt-servicing costs just to keep existing bonds afloat.",
+              "exampleCn": "随着收益率攀升，各国政府仅维持现有债券运转，就要面对大幅上升的偿债成本。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-18": {
       "label": "8月18日 (周二)",
       "stories": [
@@ -5503,200 +5697,6 @@
               "mnemonic": "vocal 里藏着 voice（声音）的影子——voc = voice。一个 vocal 的批评者就是「声音很大的」批评者。脑补一个拿着大喇叭高声呐喊的人，那就是 vocal",
               "exampleEn": "The CEO has been vocal about her opposition to the proposed merger, issuing multiple public statements.",
               "exampleCn": "这位首席执行官对拟议中的并购案公开表示反对，多次发表公开声明。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-20": {
-      "label": "7月20日 (周一)",
-      "stories": [
-        {
-          "id": "20260720-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-          "headlineEn": "Can Apple's Lawsuit Derail OpenAI's Hardware and IPO Plans?",
-          "headlineCn": "苹果起诉能否打乱OpenAI的硬件与上市计划？",
-          "summaryEn": "Apple has filed a lawsuit against OpenAI, sparking debate about whether the legal action could derail the AI company's ambitious plans to enter the consumer hardware market and eventually go public. Discussed on TechCrunch's Equity podcast, the case may create a significant legal overhang just as OpenAI seeks to develop physical devices and attract investors. Analysts are divided on whether the suit will merely slow OpenAI's momentum or fundamentally cloud its long-term strategy.",
-          "summaryCn": "苹果公司对OpenAI提起诉讼，引发外界对这家AI企业进军消费硬件领域并计划上市前景的广泛讨论。TechCrunch旗下Equity播客对此进行了深度辩论，认为这场诉讼可能在OpenAI积极推进硬件布局、争取资本市场认可的关键时刻，形成重大的法律压制效应。分析人士对此看法不一：这场法律纠纷究竟只是暂时阻力，还是会从根本上动摇OpenAI的长期战略？",
-          "excerpt": "Apple's legal action against OpenAI could cast a long shadow over the company's ambitions to break into consumer hardware and eventually go public. On the Equity podcast, analysts debated whether the lawsuit represents a manageable headwind or a fundamental threat capable of derailing OpenAI's entire strategic roadmap.",
-          "vocab": [
-            {
-              "word": "derail",
-              "pos": "v.",
-              "meaning": "使（计划或项目）脱轨、彻底失败。比「disrupt（扰乱）」语气更强，暗含不可逆的破坏性，商业报道中常用来描述诉讼、政策变化或竞争对手行动让某一计划「完全偏离轨道」。值得学习在于其画面感强、语气到位，是财经记者的首选动词。",
-              "etymology": "来自法语 dérailler，前缀 dé-（离开）+ rail（铁轨），19世纪铁路时代进入英语，原指「火车脱轨」，后引申为使计划或进程偏离既定轨道，语义迁移路径清晰。",
-              "morphology": "de-（反向/离开）+ rail（轨道）。同前缀词：deconstruct（解构）、dethrone（废黜）、devalue（贬值）；同根词：railway（铁路）、railing（扶栏）、rail against（强烈抗议某事）。",
-              "mnemonic": "想象OpenAI的计划是一列高速列车，苹果的诉讼是突然落在铁轨上的巨石——de（脱离）+ rail（铁轨）= 脱轨。列车出轨的画面一旦在脑中成形，这个词就难以忘记。",
-              "exampleEn": "A surprise regulatory ruling could derail the company's plans to launch its AI assistant in European markets next quarter.",
-              "exampleCn": "一项突如其来的监管裁决可能使该公司下季度在欧洲市场推出AI助手的计划付诸东流。"
-            },
-            {
-              "word": "overhang",
-              "pos": "n.",
-              "meaning": "悬而未决的压制性风险，尤指诉讼、监管或大量待售股票对市场或计划造成的不确定性压力。金融报道核心词，如「legal overhang（法律悬案）」「supply overhang（供应过剩压力）」，教科书几乎不教，但华尔街日报每周可见。",
-              "etymology": "古英语 oferhangan，over-（在…之上）+ hang（悬挂），原义为「悬于上方之物」。金融语境中约20世纪中期演变为「悬压在头顶的风险」，形容压制性的未解因素，如同悬而未落之剑。",
-              "morphology": "over-（在…之上）+ hang（悬挂），名词与动词同形。常见搭配：legal overhang（法律不确定性）、supply overhang（供应过剩）、debt overhang（债务压制）；同前缀词：oversight（监管）、overture（提议）。",
-              "mnemonic": "想象一块巨石（诉讼风险）悬在OpenAI头顶，像「悬顶石」随时可能落下——overhang = 悬在「over」头上的「hang」（悬挂物）。市场里说某只股票「有overhang」，就是有这块石头压着涨不动。",
-              "exampleEn": "The ongoing antitrust investigation created a significant legal overhang that kept institutional investors cautious about the tech giant's valuation.",
-              "exampleCn": "持续进行的反垄断调查形成了重大法律悬案，令机构投资者对这家科技巨头的估值持谨慎态度。"
-            },
-            {
-              "word": "go public",
-              "pos": "phrasal v.",
-              "meaning": "（公司）首次公开募股、上市。比「IPO」更口语化，是商业播客和新闻报道中最自然的表达。必学在于其反义短语：go public（上市）↔ go private（私有化退市），这对反义搭配在并购报道中频繁出现，混淆了会误读整句意思。",
-              "etymology": "短语/复合词，无独立词源。public 来自拉丁语 publicus（属于人民的，源自 populus 人民），go public 字面义「走向公众」，指公司向普通投资者开放股权，将原本私有的所有权「公开化」。",
-              "morphology": "go（动词）+ public（形容词）。相关表达体系：go public（上市）↔ go private（私有化）；public offering（公开募股）、public company（上市公司）、publicly traded（公开交易的）、take a company public（带领公司上市）。",
-              "mnemonic": "公司一直是「私下的」(private)，上市就是「走向公众」——go public。想象原来在小房间里谈生意的老板突然走上大舞台面对成千上万股东，这就是go public的感觉，和go private方向完全相反。",
-              "exampleEn": "OpenAI is widely expected to go public within the next two years, though any major lawsuit could significantly complicate its timeline.",
-              "exampleCn": "外界普遍预期OpenAI将在未来两年内上市，但任何重大诉讼都可能显著拖延这一时间表。"
-            },
-            {
-              "word": "cloud",
-              "pos": "v.",
-              "meaning": "使（前景、计划或判断）蒙上阴影、变得不确定。动词用法在财经报道中极为常见，如「cloud the outlook（使前景不明朗）」，比「affect（影响）」更具画面感且程度更重，暗示阴云笼罩式的压抑，不熟悉动词用法的学习者常误以为只是名词「云」。",
-              "etymology": "古英语 clud 原指「岩石/土块」（与 clod 同源），约13世纪因云朵形似岩块而语义转移为「云」；动词义「使模糊/蒙上阴影」约16世纪出现，商业语境中引申为「给计划带来不确定性」。",
-              "morphology": "cloud（名→动，零派生转换，无需添加后缀）。派生词：cloudy（adj. 阴天的/不清晰的）、clouded（adj. 蒙上阴影的）；常见搭配：cloud the outlook（使前景不明朗）、cloud judgment（影响判断力）、cloud the issue（使问题复杂化）。",
-              "mnemonic": "晴朗蓝天（清晰的商业计划）突然被乌云（诉讼/风险）遮住——cloud one's plans就是「给计划盖上乌云」。名词直接变动词，零派生逻辑：有云→被云遮住→蒙上阴影，三步走完。",
-              "exampleEn": "Escalating trade restrictions clouded the chipmaker's revenue outlook for the second half of the year, sending shares lower.",
-              "exampleCn": "不断升级的贸易限制措施使这家芯片制造商下半年的收入前景蒙上阴影，导致股价下跌。"
-            },
-            {
-              "word": "dampen",
-              "pos": "v.",
-              "meaning": "抑制（热情、增长或情绪）；比「reduce（减少）」更具隐喻感，暗示让原本高涨的东西「受潮变软」而非彻底消失，程度上是削弱而非扼杀。商业报道经典搭配：dampen investor enthusiasm（抑制投资者热情）、dampen growth（压制增长）。",
-              "etymology": "来自 damp（潮湿），中古英语借自中低地德语 damp（蒸汽/雾气），动词 dampen 约17世纪出现，原义「使潮湿/使变暗」，引申为「压制/削弱」，如同潮湿让火焰减弱但未必熄灭。",
-              "morphology": "damp（形容词/名词）+ -en（使动后缀，将形容词转为动词）。同构词：brighten（使变亮）、tighten（使收紧）、heighten（使增高）、worsen（使恶化）；派生词：dampener（抑制因素）、dampening effect（抑制效应）。",
-              "mnemonic": "damp（潮湿）→ dampen（使受潮/压制）。想象熊熊燃烧的投资热情（火焰）被一盆冷水（坏消息）泼湿——火没有完全熄灭，只是「受潮减弱」。这正是dampen和extinguish（彻底熄灭）的关键区别。",
-              "exampleEn": "The unexpected regulatory delay is likely to dampen investor enthusiasm ahead of the company's planned market debut next month.",
-              "exampleCn": "意外的监管延误可能会在该公司计划于下月上市前夕，抑制投资者的热情。"
-            }
-          ]
-        },
-        {
-          "id": "20260720-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/19/american-airlines-ceo.html",
-          "headlineEn": "American Airlines CEO Outlines Plan to Close $3 Billion Profit Gap",
-          "headlineCn": "美国航空CEO阐述缩小逾30亿美元利润差距的计划",
-          "summaryEn": "American Airlines CEO Robert Isom has outlined a comprehensive strategy to narrow a profit gap of more than $3 billion compared to rivals Delta and United. The plan centers on improving on-time performance and operational reliability, expanding premium cabin seating, and upgrading airport lounges to attract higher-spending passengers. The airline is also evaluating proposals from Boeing and Airbus for a major wide-body aircraft order, signaling a significant shift as American attempts to recapture premium travelers it lost during years of aggressive cost-cutting.",
-          "summaryCn": "美国航空首席执行官罗伯特·伊森近日系统阐述了缩小与达美航空、联合航空逾30亿美元利润差距的战略规划。该计划核心包括提升航班准点率与运营可靠性、扩充商务舱座位供给，以及升级机场贵宾休息室，以吸引高消费旅客回流。与此同时，公司正评估波音与空客的宽体飞机订单方案。此举标志着美国航空在经历多年激进成本削减后，正大力争夺流失的高端旅客群体，谋求业绩全面扭转。",
-          "excerpt": "The carrier is working on improving reliability, investing in more premium seats and lounges, and is considering both Boeing and Airbus for a new wide-body plane order — a move that signals a broader push to win back high-margin passengers and close the gap with more profitable rivals.",
-          "vocab": [
-            {
-              "word": "carrier",
-              "pos": "n.",
-              "meaning": "承运人；航空公司。在商业英语中，carrier 特指提供运输服务的企业（航空、航运、电信均适用），比 airline 或 company 更正式、更具行业属性，是财经新闻报道航空或物流板块的标准用词。值得学习的原因在于它跨行业通用且逻辑一贯，读懂财经报道必备。",
-              "etymology": "来自拉丁语 carrus（四轮大车），经古法语 carier（运载）演变为中世纪英语 carrier，核心义为「以工具承载或运送之人与机构」，后扩展至电信领域指「信号承载商」，语义演变路径清晰。",
-              "morphology": "carry（动词词根，搬运）+ -er（施动者后缀），构词规律与 player、driver 相同。同根词：cargo（货物）、carriage（车厢/运费）、carry-on（随身行李），横向扩展丰富，掌握词根可触类旁通。",
-              "mnemonic": "把 carrier 拆成 carry（搬运）+ er（执行者）——就是「专门帮人运东西的实体」。一架飞机在天上 carry 着旅客，航空公司就是 carrier。记住：达美是 Delta carrier，美联航是 United carrier，套路固定。",
-              "exampleEn": "The budget carrier reported record passenger numbers but still failed to turn a profit amid rising fuel costs.",
-              "exampleCn": "这家廉价航空公司报告了创纪录的旅客数量，但在燃油成本上升的情况下仍未能实现盈利。"
-            },
-            {
-              "word": "lay out",
-              "pos": "phrasal v.",
-              "meaning": "详细阐述；系统说明（计划、愿景、战略等）。lay out 比 explain 或 describe 更强调「有条理地将内容铺展开来」，常见于企业战略发布、CEO演讲、财报电话会，语气正式且带有主动展示感，是商业英语里极为实用的高频搭配，区别于口语化的 talk about。",
-              "etymology": "lay 源自古英语 lecgan（放置），out 为方向副词（向外展开），合用意为「将内容摊开铺陈」，引申为「条理清晰地呈现」；此义项在14世纪起有书面文字记录，语义从物理铺展演变为抽象陈述。",
-              "morphology": "lay（放置，动词）+ out（向外，副词），名词形式为 layout（版面布局；平面图）。同族短语：lay down（制定规则）、lay off（裁员）、lay the groundwork（奠定基础）；注意 lay 与 lie 是高频易混词对。",
-              "mnemonic": "想象一个CEO把公司战略「一张张铺在会议桌上」（lay out on the table）——每一步计划都摊开让所有人看清楚。这个「铺开展示」的画面就是 lay out 的核心意象，可与 map out（规划路径）对照记忆，两者常在同一段落出现。",
-              "exampleEn": "The CFO laid out a three-year roadmap for reducing debt and restoring the company's investment-grade credit rating.",
-              "exampleCn": "首席财务官详细阐述了一份降低债务、恢复公司投资级信用评级的三年路线图。"
-            },
-            {
-              "word": "wide-body",
-              "pos": "adj. / n.",
-              "meaning": "宽体（飞机）。指机身宽度可容纳双通道、两侧各有多排座位的大型客机（如波音787、空客A350），是航空业区分机型的核心术语。理解此词对读懂航空公司扩张战略、飞机订单新闻及长途航线布局至关重要，也是分析航空公司盈利能力时绕不开的概念。",
-              "etymology": "复合词，无独立词源。wide 源自古英语 wīd（宽阔），body 源自古英语 bodig（躯干/主体），两词直接拼合描述飞机「宽机身」的物理特征，是典型的技术性描述性术语，形成于现代航空工业兴起时期。",
-              "morphology": "wide（宽，形容词）+ body（机身/主体，名词）构成复合形容词，亦可名词化（a wide-body）。对比词：narrow-body（窄体机，如波音737、空客A320），两者构成清晰的反义对，记住一个即同时记住另一个。",
-              "mnemonic": "对比「wide」（宽）与「narrow」（窄）——宽体机机舱内两侧都有通道，走道宽敞不用侧身。记住这条逻辑链：宽体机 = 双通道 = 国际长途 = 更贵机票 = 更高利润，这正是美国航空下宽体机订单被视为重大战略信号的原因。",
-              "exampleEn": "The airline placed an order for 30 wide-body jets to expand its long-haul international network over the next decade.",
-              "exampleCn": "该航空公司订购了30架宽体喷气机，计划在未来十年内扩大其长途国际航线网络。"
-            },
-            {
-              "word": "turnaround",
-              "pos": "n.",
-              "meaning": "（企业）扭亏为盈；转型复苏。turnaround 特指陷入困境的公司通过战略调整实现业绩逆转的过程，是商业英语中极高频词汇，常见于「turnaround story」「turnaround plan」「turnaround CEO」等固定搭配。掌握此词可快速理解企业重组报道的核心叙事逻辑，也可指「（车辆/船只）调头所需时间」。",
-              "etymology": "turn（转动）+ around（转向），字面意为「调头转向」，源自航海术语（船只在港口调头），17世纪引申至商业领域，指企业从下行轨道到上行轨道的「方向逆转」，兼有「周转时间」（turnaround time）之义。",
-              "morphology": "turn（转，动词词根）+ around（转向，副词）复合而成。同族词：turnover（营业额；员工流失率）、turnaround time（周转时间）、U-turn（政策急转弯）。注意 turnover 与 turnaround 意思截然不同，是财经英语的高频易混词对。",
-              "mnemonic": "想象一辆即将坠崖的大卡车猛踩刹车、猛打方向盘「turn around」掉头，惊险逃脱——这就是企业扭亏为盈的紧迫感与戏剧性。「turnaround CEO」就是那个在最后关头打方向盘的人，美国航空的新战略正是市场期待的这种剧情。",
-              "exampleEn": "Investors are betting that the new management team can execute a successful turnaround within two fiscal years.",
-              "exampleCn": "投资者押注新管理团队能在两个财年内成功实现业绩扭转。"
-            },
-            {
-              "word": "amenity",
-              "pos": "n.",
-              "meaning": "增值配套设施；舒适服务（尤指高端的）。amenity 在商业英语中常指酒店、航空、房地产提供的「令人愉悦的附加体验」（如贵宾休息室、机内Wi-Fi、免费早餐），比 facility（设施）更强调「愉悦感与附加价值」，是溢价定价与品牌差异化报道的核心词汇，财经文章中多以复数 amenities 出现。",
-              "etymology": "来自拉丁语 amoenus（令人愉快的、宜人的），经法语 aménité 进入英语，核心义为「使环境令人愉快之事物」；16世纪起广泛用于指代具体的舒适设施，现代商业英语中语义进一步收窄为「付费或高端服务的配套项目」。",
-              "morphology": "词根 am-（喜爱/令人愉快，源自拉丁语 amare），同根词：amiable（友善的）、amicable（和睦的）、amour（爱情，法语借词）；后缀 -ity 构成抽象名词（如 quality、ability）。记住「am = 爱/令人愉快」这个词根即可横向扩展。",
-              "mnemonic": "amenity 和 amiable（友善的）同根，词根 am- 意为「爱与令人愉快」——贵宾室、平躺座椅、免费香槟都是航空公司对你「示好」的方式，让你爱上这个品牌。am（爱）+ 配套 = 让你心甘情愿多掏钱的那些东西。",
-              "exampleEn": "Business travelers are willing to pay a 30% premium for flights offering enhanced in-flight amenities such as lie-flat seats and high-speed Wi-Fi.",
-              "exampleCn": "商务旅客愿意为提供平躺座椅和高速Wi-Fi等增强型机上配套服务的航班多支付30%的费用。"
-            }
-          ]
-        },
-        {
-          "id": "20260720-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html",
-          "headlineEn": "'WarshGPT': How Wall Street Is Using AI to Read the Fed's Silence",
-          "headlineCn": "「WarshGPT」：华尔街如何借助AI解读美联储的新沉默时代",
-          "summaryEn": "As Federal Reserve Chair Kevin Warsh shifts toward fewer public statements, Wall Street investment firms are preparing for a world with scarce central bank signals. Asset managers are turning to AI-powered tools — dubbed 'WarshGPT' — to parse rare Fed communications and extrapolate policy direction. The trend highlights how dependent financial markets have become on central bank commentary, and signals a growing role for AI in macro investing.",
-          "summaryCn": "随着美联储主席沃什推行「少说话」的新沟通风格，华尔街投资机构正积极备战。公开表态减少意味着可参考的政策信号日益稀缺，资产管理公司纷纷借助AI工具——业界戏称「WarshGPT」——逐句解析有限的官方表态，并从中推断政策走向。这一趋势凸显了金融市场对央行沟通的高度依赖，也预示着AI将在宏观投资决策中扮演越来越关键的角色。",
-          "excerpt": "Investment firms are bracing for an era with less public commentary from the Federal Reserve. With policy signals growing scarce, some are deploying AI tools — nicknamed 'WarshGPT' — to parse official statements and glean hidden market cues from limited Fed communications.",
-          "vocab": [
-            {
-              "word": "parse",
-              "pos": "v.",
-              "meaning": "逐字逐句分析文本以提炼含义。在金融和AI语境下，指对央行声明、财报等进行细致解读；比 analyze 更强调「逐词逐句」的精读过程，常以「parse a statement / parse data」形式出现，是科技与金融跨界的核心高频词",
-              "etymology": "来自拉丁语 pars（orationis），意为「话语的部分」，原为语法术语，指判断词性与句法结构（16世纪进入英语）。20世纪被计算机科学借用，表示对代码或数据的逐步解析，近年再延伸至商业与金融分析语境",
-              "morphology": "单一词根，无前缀后缀。派生词：parser（解析器）、parsing（解析过程）、parse tree（解析树）。同语义场扩展词：tokenize（分词）、decode（解码）、dissect（剖析）",
-              "mnemonic": "联想「parts」——parse 就是把整体切成一个个 parts（部分）来逐一检视。想象一位分析师在美联储声明上用荧光笔一段一段标注，这就是 parse 的感觉",
-              "exampleEn": "Analysts are using NLP models to parse the Fed's statement for any subtle shift in tone on interest rates.",
-              "exampleCn": "分析师正使用自然语言处理模型逐句解析美联储声明，寻找利率措辞的细微语气变化。"
-            },
-            {
-              "word": "opaque",
-              "pos": "adj.",
-              "meaning": "（政策/信息/意图）不透明的、晦涩难懂的。在金融语境中常指央行或企业刻意保持含糊，与 transparent 相对；比 unclear 更正式，且带有「有意为之」的隐含意味，是描述监管和央行沟通风格的高频形容词",
-              "etymology": "来自拉丁语 opacus（阴暗的、遮蔽的），经古法语 opaque 进入英语（17世纪）。物理意义为「不透光的」，后引申为信息或意图层面的「不透明」，与 transparent（透明）形成经典对照",
-              "morphology": "opaque → opacity（n. 不透明性）→ opaquely（adv.）。反义构词：transparent → transparency。同族联想：translucent（半透明，拉丁 lucere 发光）、lucid（清晰的，同词根）",
-              "mnemonic": "op（阻拦）+ aque（水/液体）——「连水都被挡住了，光当然透不过去」。想象一堵玻璃砖墙，隐约看到里面有动静但看不清，这就是 opaque 的感觉",
-              "exampleEn": "The central bank's increasingly opaque communication style has left bond traders scrambling for alternative signals.",
-              "exampleCn": "央行越来越不透明的沟通风格让债券交易员争相寻找替代信号。"
-            },
-            {
-              "word": "glean",
-              "pos": "v.",
-              "meaning": "从零散、有限的来源中逐步收集并提炼信息。比 gather 更强调「在资源匮乏情况下艰难筛取」，常以「glean insights from / glean information from」形式出现；带有化零为整的努力感，适合描述从稀少信号中挖掘价值",
-              "etymology": "来自古法语 glener（拾穗），源自拉丁晚期 glennare（可能为高卢词源）。原指农民在收割后从田间捡拾遗落麦穗的行为，后引申为从碎片化信息中「拾遗补阙」",
-              "morphology": "简单动词，无明显词缀。派生词：gleaning（n.，常用复数 gleanings，意为「收集到的零散信息」）。同义辨析：glean（零散拾取）vs. gather（主动汇集）vs. harvest（大规模收割）vs. extract（定向提取）",
-              "mnemonic": "想象一个农民弯腰在收割后的麦田里一粒粒捡麦穗——就像分析师从寥寥数语的央行声明里一字一句挖取信号。「拾」字可帮助记忆这种逐粒收集的动作",
-              "exampleEn": "Fund managers are trying to glean any forward-looking signals from the Fed chair's rare public appearances.",
-              "exampleCn": "基金经理们正试图从美联储主席难得的公开露面中捕捉任何前瞻性信号。"
-            },
-            {
-              "word": "gauge",
-              "pos": "v. / n.",
-              "meaning": "（v.）研判、估量（形势、情绪、意图）；（n.）衡量标准、指标。金融语境中常用「gauge market sentiment」「gauge the Fed's intent」；比 measure 更强调主观判断，是宏观分析文章的高频词，尤其用于描述「读取」模糊信号的过程",
-              "etymology": "来自古北法语 gauge（测量工具），可能源自日耳曼语。原指测量液体容量的工具（如酒桶量规），后引申为任何形式的估量或判断。仪表盘上的刻度表至今仍称 gauge",
-              "morphology": "简单词。派生词：misgauge（误判）、gauging（估量中）。同义词对比：gauge（主观研判）vs. assess（正式评估）vs. measure（客观量化）vs. infer（逻辑推断）",
-              "mnemonic": "想象汽车仪表盘上的油表（fuel gauge）——指针指向哪里就是你对「剩余量」的读数。分析师 gauge 美联储意图，就是在心里拨动那根指针，判断政策停在哪个刻度上",
-              "exampleEn": "Investors are struggling to gauge the Fed's true policy intentions with fewer speeches and press briefings on offer.",
-              "exampleCn": "在演讲和新闻发布会减少的情况下，投资者越来越难以研判美联储真实的政策意图。"
-            },
-            {
-              "word": "extrapolate",
-              "pos": "v.",
-              "meaning": "基于已知数据或趋势，向外推断未知情况。在金融/经济分析中常指「从有限信号推导未来走势」；比 predict 更强调「延伸现有规律」的逻辑过程，带有理性推演色彩，是量化分析和宏观研究报告的标志性用词",
-              "etymology": "19世纪数学/统计学术语，来自拉丁语 extra（超出范围之外）+ polire（打磨、延伸）。原指将已知数据曲线「延伸」到未知区域，与 interpolate（在已知点之间插值）相对",
-              "morphology": "extra-（超出）+ -polate（来自 interpolate）。派生词：extrapolation（n. 外推法）、extrapolative（adj.）。前缀 extra- 同族：extraordinary（非凡的）、extracurricular（课外的）、extraterrestrial（外星的）",
-              "mnemonic": "extra（额外、超出）——把已知的折线图往右边「额外」延长，就是 extrapolate。想象一位分析师拿着尺子，把美联储那条态度曲线笔直地延伸到未来，这就是 extrapolate 的动作",
-              "exampleEn": "Without regular Fed commentary, analysts must extrapolate policy direction from scattered economic data and rare official remarks.",
-              "exampleCn": "缺乏定期的美联储评论，分析师不得不从零散的经济数据和偶发的官员表态中推断政策方向。"
             }
           ]
         }
