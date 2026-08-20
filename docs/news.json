@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-19T02:50:30.340928+00:00",
+  "lastUpdated": "2026-08-20T02:25:18.929030+00:00",
   "level": "B2",
   "days": {
+    "2026-08-20": {
+      "label": "8月20日 (周四)",
+      "stories": [
+        {
+          "id": "20260820-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+          "headlineEn": "Cognition CEO Refutes Reports of SpaceX Acquisition Talks",
+          "headlineCn": "Cognition CEO否认SpaceX收购传闻",
+          "summaryEn": "Cognition's CEO has pushed back on reports that SpaceX was negotiating to acquire the AI coding startup, calling the claims inaccurate. The rumor mill was spurred by SpaceX's recent purchase of Cursor, another AI coding tool, as Elon Musk's company races to build enterprise AI capabilities to rival OpenAI and Anthropic. The denial highlights how closely investors are watching for consolidation in the fast-growing AI coding sector, where major players are competing to lock down talent and technology through acquisitions rather than building everything in-house.",
+          "summaryCn": "Cognition首席执行官否认了有关SpaceX正洽谈收购该AI编程初创公司的传闻,称报道不实。此前SpaceX已收购同类工具Cursor,正加速布局企业级AI以追赶OpenAI和Anthropic。这一否认也反映出AI编程赛道并购整合升温,各厂商都在通过收购争夺人才与技术,而非完全自研。",
+          "excerpt": "SpaceX was reportedly negotiating to buy AI coding startup Cognition, following its earlier acquisition of coding tool Cursor. The talks would have marked another aggressive move as SpaceX pushes into enterprise AI to compete with OpenAI and Anthropic, though Cognition's CEO now says the report was inaccurate.",
+          "vocab": [
+            {
+              "word": "refute",
+              "pos": "v.",
+              "meaning": "反驳、驳斥某个说法或指控,比deny更正式、更强调「用证据证明其错误」,常用于回应媒体报道或公开指控。",
+              "etymology": "源自拉丁语refutare(re-表示回+futare表示打击、压制),原义为击退、驳倒,16世纪进入英语后专指用论据驳斥说法。",
+              "morphology": "re-(回、反)+fute(打击,同源于confute驳倒、futile徒劳的),同前缀词还有refuse拒绝、reject反驳。",
+              "mnemonic": "联想re+future谐音——把对方想让你相信的未来说法一脚踢回去,即驳回；也可记成给对方的说法判死刑(refute≈re+执行)。",
+              "exampleEn": "The company moved quickly to refute allegations of accounting fraud.",
+              "exampleCn": "该公司迅速反驳了会计造假的指控。"
+            },
+            {
+              "word": "consolidation",
+              "pos": "n.",
+              "meaning": "行业整合、并购潮,常指多家公司通过收购合并减少竞争对手数量,财经报道中形容赛道从混战走向集中的过程。",
+              "etymology": "源自拉丁语consolidare(con-共同+solidare使坚固,来自solidus坚实的),原指使牢固合一,17世纪后引申为公司合并、整合。",
+              "morphology": "con-(共同)+solid(坚实,同solidify固化)+-ation(名词后缀),同族词有solidarity团结、solidify。",
+              "mnemonic": "记住solid(坚实)——多家公司拼成一块更坚实的大公司,就是consolidation；想象几块碎砖被粘合成一堵牢固的墙。",
+              "exampleEn": "Analysts expect further consolidation among AI coding startups this year.",
+              "exampleCn": "分析师预计今年AI编程初创公司之间会出现进一步的整合并购。"
+            },
+            {
+              "word": "swoop in",
+              "pos": "phrasal v.",
+              "meaning": "像老鹰一样突然出手、迅速介入,常用于形容公司抓住时机快速收购或抢占市场,带有出其不意、动作迅猛的画面感。",
+              "etymology": "swoop源自古英语swāpan(挥动、猛扑),原本描述鸟类俯冲抓猎物的动作,20世纪起被商业新闻借用来形容企业的突然收购行为。",
+              "morphology": "短语动词,由动词swoop(俯冲)+副词in(进入)组成,无独立词根；相关词有sweep(横扫)、swipe(猛击),都带快速挥动的意象。",
+              "mnemonic": "想象一只老鹰(swoop)从天而降猛扑地面的猎物——公司像老鹰一样在对手反应过来之前就扑上去完成收购。",
+              "exampleEn": "Rivals feared a bigger player might swoop in and buy the promising startup first.",
+              "exampleCn": "竞争对手担心会有更大的公司抢先出手收购这家前景不错的初创企业。"
+            },
+            {
+              "word": "rumor mill",
+              "pos": "phrase",
+              "meaning": "小道消息制造机,指媒体、业内人士反复传播、加工未经证实的传闻的整体机制,常用来委婉表示消息未必可靠。",
+              "etymology": "短语/复合词,无独立词源；mill本义磨坊,18世纪起被比喻用于持续运转、产出大量东西的机制,与rumor(谣言)组合成谣言被不断磨制加工的意象。",
+              "morphology": "rumor(谣言,来自拉丁语rumor喧哗声)+mill(磨坊,古英语mylen),复合名词；类似结构还有gossip mill、grapevine(小道消息)。",
+              "mnemonic": "想象磨坊里的石磨不停转动,把一点点风声磨成越传越大的谣言——rumor mill就是这台造谣机器。",
+              "exampleEn": "The rumor mill went into overdrive after reports of a possible SpaceX-Cognition deal surfaced.",
+              "exampleCn": "SpaceX可能收购Cognition的消息传出后,小道消息满天飞。"
+            },
+            {
+              "word": "spree",
+              "pos": "n.",
+              "meaning": "购物/收购等狂热的连续行动,常搭配acquisition spree、shopping spree,形容公司短期内密集完成多笔收购,带有停不下来的语感。",
+              "etymology": "词源不明确,推测源自18-19世纪苏格兰方言,原指狂欢、放纵作乐,20世纪商业英语借用其停不下来的冲动行为含义,搭配acquisition构成固定短语。",
+              "morphology": "单音节简单词,常见搭配有spending spree(挥霍消费)、buying spree(疯狂购买)、killing spree(连续行凶),记住这些固定搭配即可扩展用法。",
+              "mnemonic": "联想spree发音像斯普瑞——像喝了瓶喷出来的香槟一样兴奋失控地连续买买买,一发不可收拾。",
+              "exampleEn": "SpaceX's acquisition spree in enterprise AI has put rivals on edge.",
+              "exampleCn": "SpaceX在企业级AI领域的收购狂潮让竞争对手感到紧张。"
+            }
+          ]
+        },
+        {
+          "id": "20260820-2",
+          "category": "biz",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/newegg-promo-code/",
+          "headlineEn": "Newegg's August 2026 Promo Codes Offer Up to 10% Off Gaming PCs and Parts",
+          "headlineCn": "Newegg 8月促销码：整单最高立减10%",
+          "summaryEn": "Wired's roundup of Newegg promo codes for August 2026 highlights discounts of up to 10% off an entire order, alongside targeted deals on gaming PCs, laptops, and individual computer parts like GPUs and SSDs. As one of the largest US electronics retailers, Newegg relies heavily on coupon aggregators like Wired to drive traffic during slower shopping months. For budget-conscious builders and gamers, stacking these codes with existing clearance pricing can meaningfully cut the cost of a new rig, though the fine print on minimum spend and exclusions still applies.",
+          "summaryCn": "Wired 汇总 Newegg 2026年8月促销码，整单最高减10%，并有游戏主机、笔记本电脑、显卡及固态硬盘等专项折扣。作为美国大型电子零售商，Newegg 淡季常靠此类优惠聚合站引流，攒机玩家叠加清仓折扣可显著降低整机成本，但需留意订单门槛等细则。",
+          "excerpt": "Enjoy up to 10 percent off your entire order with Newegg's latest promo codes this August. Shoppers can stack discounts across gaming PCs, laptops, and computer components, with additional coupon codes trimming prices further on select GPUs, memory, and storage during the back-to-school shopping window.",
+          "vocab": [
+            {
+              "word": "markup",
+              "pos": "n.",
+              "meaning": "商家在成本价基础上加价的幅度；与「涨价」不同，markup强调定价环节的加成逻辑，常用于讨论零售利润空间，比simple price increase更专业、更贴近财务语境。",
+              "etymology": "源自古英语 mearcian（标记）+ up，19世纪末在美式商业英语中固定为「标价加成」之意，最初指商人在商品上标注售价的动作。",
+              "morphology": "mark（标记）+ up（向上）构成的复合词；同类构词还有 markdown（降价）、write-up（书面报告）、setup（设置）。",
+              "mnemonic": "想象售货员拿笔在商品标签上往上画一条线（mark it up），把成本价改成更高的售价——这条「向上的标记」就是markup。",
+              "exampleEn": "Retailers like Newegg often apply a modest markup before offering coupon codes to make the final discount look more generous.",
+              "exampleCn": "像 Newegg 这样的零售商常常先小幅加价，再发放优惠码，让最终的折扣看起来更划算。"
+            },
+            {
+              "word": "aggregator",
+              "pos": "n.",
+              "meaning": "聚合多方信息或优惠于一处的平台，如优惠券聚合网站；比website或platform更精准地点出「整合分散资源」这一商业模式核心。",
+              "etymology": "源自拉丁语 aggregare（把……聚集成群，ad-向 + grex畜群），16世纪进入英语表示「聚集」，20世纪末互联网兴起后衍生出「信息聚合平台」这一新义。",
+              "morphology": "ag-（表方向）+ greg（群，词根同 gregarious合群的、congregate聚集）+ -ate（动词后缀）+ -or（施动者后缀）；同根词还有 segregate（隔离）、egregious（离群出众的）。",
+              "mnemonic": "把 aggregator 拆成 a-greg-ator，联想到「牧羊人把散落的羊群（greg=herd）赶到一起」——聚合网站就是把散落各处的优惠码赶到一个页面里。",
+              "exampleEn": "Wired functions partly as a deal aggregator, collecting Newegg's scattered promo codes into a single, regularly updated list.",
+              "exampleCn": "Wired 在某种程度上扮演了优惠聚合者的角色，把 Newegg 分散各处的促销码整理成一份持续更新的清单。"
+            },
+            {
+              "word": "cashback",
+              "pos": "n.",
+              "meaning": "消费后返还给买家的一部分现金，是零售促销中常见的让利方式；比discount更强调「先付全款再拿回一部分」的资金流动过程，常与信用卡、购物平台绑定。",
+              "etymology": "短语/复合词，无独立词源；由 cash（现金，源自古法语 casse，钱箱）与 back（返回，古英语 bæc）组合而成，20世纪后期随信用卡奖励计划普及。",
+              "morphology": "cash（现金）+ back（返回）；同类复合词还有 cashflow（现金流）、payback（回本）、kickback（回扣）。",
+              "mnemonic": "想象付完款后，收银机又把一小沓现金推回你面前——cash 往 back（回来）走的画面就是 cashback。",
+              "exampleEn": "Some Newegg promo codes can be combined with credit-card cashback offers for an even bigger effective discount.",
+              "exampleCn": "部分 Newegg 促销码可以和信用卡返现活动叠加使用，从而拿到更大幅度的实际折扣。"
+            },
+            {
+              "word": "fine print",
+              "pos": "phrase",
+              "meaning": "合同或优惠条款中用小字印刷、容易被忽略的限制性细则；比terms and conditions更口语化、更带有「暗藏猫腻」的警示意味，商业英语中常用来提醒读者仔细核查。",
+              "etymology": "短语/复合词，无独立词源；源自20世纪初印刷惯例——重要但不利于商家的条款常用比正文更小的字号印刷，因而得名。",
+              "morphology": "fine（细小的，源自古法语 fin）+ print（印刷文字）；类似构词还有 small print（同义表达）、footnote（脚注）、disclaimer（免责声明）。",
+              "mnemonic": "想象一张优惠券背面密密麻麻的小字，你必须眯起眼睛才能看清——那些「细小的印刷体」正是藏着限制条件的 fine print。",
+              "exampleEn": "Before checking out, savvy shoppers always read the fine print on minimum order amounts attached to a promo code.",
+              "exampleCn": "精明的消费者在结账前总会仔细阅读促销码背后关于最低消费金额的细则。"
+            },
+            {
+              "word": "brick-and-mortar",
+              "pos": "adj.",
+              "meaning": "指传统实体店铺（相对于线上电商），常用于对比零售业态时凸显「有实体门店」这一特征，比physical store更地道、更常见于商业报道。",
+              "etymology": "短语/复合词，无独立词源；brick（砖，源自中古法语 brique）与 mortar（砂浆，源自古法语 mortier）组合，字面指建造实体建筑所用的材料，20世纪末互联网零售兴起后被借用来对比线上业务。",
+              "morphology": "brick（砖）+ and + mortar（砂浆）；对照词还有 click-and-mortar（线上线下结合的零售模式）、pure-play（纯线上企业）。",
+              "mnemonic": "想象一栋用砖块和砂浆砌成的实体店铺，摸得着、看得见——这就是与虚拟网店相对的 brick-and-mortar business。",
+              "exampleEn": "Newegg's aggressive online promo codes put pressure on brick-and-mortar electronics stores that can't easily match such discounts.",
+              "exampleCn": "Newegg 力度颇大的线上促销码给那些难以匹配同等折扣的实体电子产品门店带来了不小的压力。"
+            }
+          ]
+        },
+        {
+          "id": "20260820-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/19/bessent-treasury-buybacks-yields-warsh-fed.html",
+          "headlineEn": "Bessent Moves to Curb Treasury Yields, Ratcheting Up Pressure on Warsh's Fed",
+          "headlineCn": "贝森特出手压低美债收益率，给沃什执掌的美联储再添压力",
+          "summaryEn": "US Treasury Secretary Scott Bessent has expanded buybacks of long-term government debt, a move that helped cool a selloff in Treasury yields after weeks of market jitters. While the intervention eased immediate borrowing costs, economists caution it blurs the line between fiscal and monetary policy, raising fresh questions about central bank independence. The timing adds pressure on Kevin Warsh, widely seen as the administration's pick to lead the Federal Reserve, who may now face scrutiny over whether the central bank is being nudged toward accommodating the Treasury's borrowing needs rather than fighting inflation.",
+          "summaryCn": "美国财政部长贝森特扩大了对长期国债的回购规模，此举帮助遏制了近期美债收益率的抛售潮，短期内缓解了政府融资成本压力。但经济学家警告，这种财政与货币政策边界模糊的做法可能埋下新的通胀隐患，并引发对美联储独立性的质疑。这一时机也让被普遍视为美联储主席热门人选的沃什承受更大压力，外界担心美联储正被推向配合财政部融资需求，而非专注抑制通胀的方向。",
+          "excerpt": "Treasury's decision to buy back more long-term debt helped cool a bond selloff this week, offering the market some relief. But economists warn the intervention could stoke new inflation risks and raise fresh questions about the Federal Reserve's independence under its next leadership.",
+          "vocab": [
+            {
+              "word": "jawbone",
+              "pos": "v. (also n. informal)",
+              "meaning": "用口头施压/劝说（尤指官员对市场或谈判对象喊话施压）而非直接干预；比《pressure》更具体，专指靠嘴皮子影响市场预期或对方行为，常见于央行/财政官员话术语境。",
+              "etymology": "源自jaw（下颚，俚语中指说话/唠叨）+bone（骨头），19世纪美式俚语，字面指用下巴骨说话，20世纪起在政界/金融界引申为施压劝说。",
+              "morphology": "jaw（下颚/说话，俚语动词）+ bone（骨头，此处为复合名词化后缀）；同类构词如 jawbreaker（绕口令）、jawing（唠叨）。",
+              "mnemonic": "想象官员对着麦克风动嘴皮子（jaw）向市场喊话，不用真金白银干预，只靠一张嘴（bone骨头象征硬气的下巴）把市场说服。",
+              "exampleEn": "Fed officials have been jawboning markets for months, hoping words alone would keep long-term yields in check.",
+              "exampleCn": "美联储官员已经用口头施压的方式喊话市场数月，希望仅凭言语就能压住长期收益率。"
+            },
+            {
+              "word": "fiscal dominance",
+              "pos": "phrase (n.)",
+              "meaning": "财政主导，指政府债务/赤字压力大到迫使央行牺牲抗通胀目标、被动配合财政部融资需求的局面；这是宏观圈判断央行独立性丧失的核心术语，比《political pressure》精确得多。",
+              "etymology": "短语由fiscal（拉丁语fiscus，原指国库/钱袋）+dominance（拉丁语dominari，统治）组合而成，20世纪末宏观经济学界用以描述财政对货币政策的支配关系。",
+              "morphology": "fisc-（国库词根）+ -al（形容词后缀）；domin-（统治词根，如dominate, dominant）+ -ance（名词后缀，表状态）。",
+              "mnemonic": "把fiscal想成财政部这个钱袋子，dominance想成它骑在央行头上发号施令——财政部说了算，央行只能听话印钱配合。",
+              "exampleEn": "Some economists fear the debt buyback signals early fiscal dominance, with the Treasury effectively steering monetary policy.",
+              "exampleCn": "一些经济学家担心，此次国债回购是财政主导的早期信号，财政部实际上在左右货币政策。"
+            },
+            {
+              "word": "buyback",
+              "pos": "n. / v.",
+              "meaning": "回购，此处特指财政部主动买回已发行的长期国债以吸收供给、压低收益率；与issuance（发债）相对，是理解国债市场供需操作的关键词，比笼统的purchase更精准。",
+              "etymology": "复合词，由buy（古英语bycgan，购买）+back（古英语bæc，返回/回）组合，字面即买回，19世纪已用于商业语境。",
+              "morphology": "buy（动词词根）+ back（方向副词）；同构词如 payback（回报）、feedback（反馈）、setback（挫折）。",
+              "mnemonic": "想象财政部把之前卖出去的国债又花钱买回来（buy+back），就像把借出去的东西赎回来，市场上流通的债券少了，价格自然稳住。",
+              "exampleEn": "The Treasury expanded its buyback program to soak up excess long-term bonds and stabilize the yield curve.",
+              "exampleCn": "财政部扩大了回购计划，以吸纳过剩的长期国债并稳定收益率曲线。"
+            },
+            {
+              "word": "maturity wall",
+              "pos": "phrase (n.)",
+              "meaning": "到期高墙，指某一时期集中到期、需要大规模再融资的债务；用来形容偿债压力在时间轴上堆成一堵墙，比单纯说a lot of debt due更形象、更专业。",
+              "etymology": "短语组合，maturity源自拉丁语maturus（成熟的），金融语境指债券到期；wall为古英语weall，本义砖石墙，隐喻堆积如山的障碍。",
+              "morphology": "matur-（成熟词根，如mature, maturation）+ -ity（名词后缀）；wall为不可再拆的基础词，常见搭配debt wall, refinancing wall。",
+              "mnemonic": "想象一堆债券到期日像日历上密密麻麻排成一堵墙（wall），政府必须一次性翻越这堵到期墙才能继续融资，翻不过去就违约。",
+              "exampleEn": "With a huge maturity wall approaching next year, the government needed the buyback to ease refinancing pressure.",
+              "exampleCn": "由于明年将迎来巨大的到期高墙，政府需要通过回购来缓解再融资压力。"
+            },
+            {
+              "word": "strong-arm",
+              "pos": "v. / adj.",
+              "meaning": "强行施压、以强力手段迫使对方就范；比pressure更带贬义色彩，暗示带有胁迫性质，常用于描述政府对独立机构（如央行）施加不当影响力的批评语境。",
+              "etymology": "复合词，由strong（古英语strang，强壮的）+arm（古英语earm，手臂）组成，字面强壮的手臂，20世纪初美式俚语引申为武力/强力胁迫。",
+              "morphology": "strong（形容词）+ arm（名词），复合为动词/形容词；同类复合词如 strong-willed（意志坚强的）、arm-twisting（施压逼迫）。",
+              "mnemonic": "想象一只强壮的手臂（strong arm）直接把对方胳膊拧到背后逼其就范——用来形容财政部硬掰央行政策方向的强硬手段。",
+              "exampleEn": "Critics accused the administration of trying to strong-arm the Fed into keeping long-term borrowing costs artificially low.",
+              "exampleCn": "批评人士指责政府试图强行施压美联储，人为压低长期借贷成本。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-19": {
       "label": "8月19日 (周三)",
       "stories": [
@@ -5503,200 +5697,6 @@
               "mnemonic": "「expire」= ex（出去）+ pire（联想 fire 火焰或 breath 呼吸）——关税「呼出最后一口气」就过期了，就像蜡烛燃尽熄灭。护照 expires、订阅 expires、贸易关税也会 expire，都是「最后一口气」的隐喻，画面鲜明。",
               "exampleEn": "The temporary tariff exemptions are set to expire at the end of the quarter unless Congress acts to extend them.",
               "exampleCn": "临时关税豁免将于本季度末到期，除非国会采取行动予以延续。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-21": {
-      "label": "7月21日 (周二)",
-      "stories": [
-        {
-          "id": "20260721-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
-          "headlineEn": "AMD Unveils Helios AI Rack System, Wins Microsoft as Newest Customer",
-          "headlineCn": "AMD发布Helios AI机架系统，微软成为最新买家",
-          "summaryEn": "AMD has unveiled Helios, its first rack-scale AI system, taking direct aim at Nvidia's grip on AI infrastructure. Microsoft has come on board as the latest customer, joining Meta, OpenAI, and Oracle. Helios marks AMD's most ambitious push yet to offer enterprises a complete, integrated AI hardware alternative. The backing of major cloud providers validates AMD's strategy and puts significant pressure on Nvidia to defend its commanding position in the AI chip market.",
-          "summaryCn": "AMD正式发布了首款机架级AI系统Helios，直接向英伟达在AI基础设施市场的主导地位发起挑战。微软成为最新买家，加入了Meta、OpenAI和甲骨文的行列。Helios是AMD迄今最具野心的战略举措，旨在为企业客户提供一套完整的集成化AI硬件替代方案。主要云计算巨头的加入为AMD的战略提供了有力背书，也迫使英伟达竭力捍卫其在AI芯片市场的领先地位。",
-          "excerpt": "AMD's Helios is the company's first rack-scale AI system, designed to compete head-to-head with Nvidia. Microsoft has signed on as the latest buyer, joining Meta, OpenAI, and Oracle — a lineup that signals growing willingness among cloud giants to adopt competing AI hardware platforms.",
-          "vocab": [
-            {
-              "word": "take aim at",
-              "pos": "phrase",
-              "meaning": "将矛头指向；刻意挑战某对手。商业报道中比 challenge 更有「蓄谋已久、精准出击」的进攻意味，常搭配竞争对手或市场地位使用，语气主动且带有战略意图",
-              "etymology": "复合短语，无独立词源。take 源自古英语 tacan（抓取），aim 源自古法语 aesmer（估算、瞄准），原指射击前把武器对准目标，后引申为「将策略或攻势锁定在某对手身上」",
-              "morphology": "短语动词，无可拆分词素。相关表达：set one's sights on（瞄准，更书面），take a shot at（尝试挑战，更口语），aim for（以……为目标，中性）——三者语气由强到弱",
-              "mnemonic": "想象弓箭手拉弓瞄准靶心的画面：take aim at就是「举弓、瞄准、锁定那个靶」。AMD举起弓，靶心上写着「Nvidia」——这就是新闻标题的核心动作，画面一出绝不忘词",
-              "exampleEn": "The startup is taking aim at Google's dominance in cloud search by offering a faster, cheaper alternative.",
-              "exampleCn": "这家初创公司通过提供更快、更便宜的替代方案，将矛头直指谷歌在云端搜索领域的主导地位。"
-            },
-            {
-              "word": "unveil",
-              "pos": "v.",
-              "meaning": "正式发布；揭幕。科技和商业报道的高频词，比 launch 更强调「揭开神秘面纱」的仪式感，多用于产品发布会或重大战略公开场景，隐含「之前对外保密」的意味",
-              "etymology": "由 un-（否定前缀）和 veil（面纱）构成；veil 源自拉丁语 velum（布、帆、遮蔽物）。原义是「去除遮盖物使其可见」，16世纪进入英语，后引申为正式向公众公开某项事物",
-              "morphology": "un-（否定/逆转前缀）+ veil（面纱，n. 转 v.）。同前缀衍生词：uncover（揭露），unravel（解开），unwrap（拆开）。名词形式：unveiling（揭幕仪式）",
-              "mnemonic": "veil是婚礼面纱——新娘掀开面纱的瞬间就是 unveil。每次苹果、AMD举办发布会，都是为自家新品「掀开面纱」。记住这个新娘形象，launch 和 unveil 的区别也就清楚了：前者强调上市，后者强调揭秘",
-              "exampleEn": "Tesla unveiled its next-generation semi-truck at a packed event in Nevada, sending its stock up 8% overnight.",
-              "exampleCn": "特斯拉在内华达州的一场盛大发布会上揭幕了下一代半挂卡车，其股价隔夜随即上涨了8%。"
-            },
-            {
-              "word": "rack",
-              "pos": "n.",
-              "meaning": "机架（服务器机架）。数据中心核心术语，指用于安装服务器、交换机等设备的标准化金属框架。「rack-scale system」指把芯片、网络、散热集成在单一机柜内的整体解决方案，是读懂AI基础设施报道的必备词汇",
-              "etymology": "源自中古荷兰语 rec 或古北欧语 rekkr，原义为「用于挂放或固定物品的支架、框架」；16世纪进入英语，最初指放酒桶或干草的架子，19世纪后随工业化扩展至电信与计算机设备领域",
-              "morphology": "单纯词根，无前后缀。常见复合词：rack unit（机架单元，高度单位，缩写「U」），rack-mounted（adj.，机架式安装的），off-the-rack（成衣，「从货架取下的」，同一词根的商业延伸义）",
-              "mnemonic": "超市里一排排整齐的货架（rack）= 数据中心里一排排黑色金属机架，里面插满发光的服务器卡。形状完全一样，只是货物从商品换成了芯片——画面对齐，词义自然记住",
-              "exampleEn": "The new AI cluster fills an entire rack with eight GPUs, 400G networking switches, and liquid cooling in a single integrated unit.",
-              "exampleCn": "这套新型AI集群将八块GPU、400G网络交换机与液冷系统整合进单一机架，形成一体化解决方案。"
-            },
-            {
-              "word": "woo",
-              "pos": "v.",
-              "meaning": "争取；拉拢（客户/合作伙伴）。商业语境中指「主动、积极地吸引目标客户」，带有软性公关与价值展示的含义，比 attract 更生动，比 court 更口语化，是科技竞争与市场拓展报道的高频词",
-              "etymology": "源自古英语 wōgian（求爱、追求），原专指向女性求婚的行为；中世纪后词义扩展，泛指「积极争取任何对象的好感、支持或合作」，完成从情感领域向商业领域的完整迁移",
-              "morphology": "简单词根，无可拆分词素。派生词：wooer（n.，追求者/拉拢者），wooing（n./adj.，追求行为）。近义词对比：woo（主动热情），court（更正式），lure（含诱导意味，语气偏负面）",
-              "mnemonic": "woo 的发音像中文「喔～」——想象一位销售员对大客户连连点头、满脸笑容地说「喔，您真是我们最理想的合作伙伴！」这种积极讨好的姿态就是 wooing。音义合一，一记即牢",
-              "exampleEn": "AMD is wooing hyperscalers with competitive pricing and an open software ecosystem to challenge Nvidia's grip on AI computing.",
-              "exampleCn": "AMD正以极具竞争力的定价和开放软件生态积极拉拢各大超大规模云厂商，以挑战英伟达对AI计算市场的掌控。"
-            },
-            {
-              "word": "validate",
-              "pos": "v.",
-              "meaning": "验证；为……背书。商业/科技语境中特指「权威的外部力量（大客户、市场数据）证实某产品或战略具有真实价值」，比 confirm 更强调外部认可对市场信心的提振作用，是融资路演和产品发布报道中的高频词",
-              "etymology": "源自中世纪拉丁语 validare（使有效、使合法），词根 validus（强健的、有力的）来自拉丁语 valere（有价值、有力量）——与 value（价值）、valor（英勇）、equivalent（等值的）同源",
-              "morphology": "valid（adj.，有效的）+ -ate（动词化后缀）。家族词链：valere（拉丁）→ valid → validate（v.）→ validation（n.）→ invalidate（v.，使无效）→ equivalent（同根，等值的）",
-              "mnemonic": "valid = 「有效的、被认可的」，-ate = 「使……」→ validate = 「使它获得认可」。微软买了AMD的芯片，就等于对全市场宣告：「这东西有效，我们认可！」——这就是最有力的 validation，比任何广告都管用",
-              "exampleEn": "Landing Microsoft as a customer validates AMD's claim that Helios can compete with Nvidia's AI infrastructure at scale.",
-              "exampleCn": "赢得微软作为客户，印证了AMD关于Helios能够在规模化AI基础设施领域与英伟达一较高下的主张。"
-            }
-          ]
-        },
-        {
-          "id": "20260721-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/20/judge-pauses-110b-paramount-warner-bros-merger/",
-          "headlineEn": "Judge Pauses $110B Paramount-Warner Bros. Merger Over Harm Concerns",
-          "headlineCn": "法官叫停1100亿美元派拉蒙与华纳兄弟合并案",
-          "summaryEn": "A federal judge has issued a temporary injunction halting the proposed $110 billion merger between Paramount and Warner Bros. Discovery. The legal challenge, brought by a coalition of U.S. states, alleges the deal would harm movie theaters, basic cable distributors, and audiences by concentrating too much market power in a single entity. The case adds fresh regulatory scrutiny to an already turbulent media consolidation wave and raises questions about how courts balance corporate growth against consumer protection.",
-          "summaryCn": "一名联邦法官发出临时禁令，暂停派拉蒙与华纳兄弟探索公司价值1100亿美元的合并计划。此次法律挑战由多个美国州联合提起，原告指控该交易将损害电影院、基本有线电视分销商及普通观众的利益，因为合并后将形成过度集中的市场支配力。这一案件为本已动荡的媒体整合浪潮增添了新的监管审查压力，也引发了外界对法院如何平衡企业扩张与消费者保护的广泛质疑。",
-          "excerpt": "A coalition of state attorneys general filed suit alleging the $110 billion merger would harm movie theaters, cable distributors, and ordinary audiences. The judge sided with the plaintiffs, issuing a temporary pause while the court weighs the case — a significant setback for two of Hollywood's most storied studios.",
-          "vocab": [
-            {
-              "word": "injunction",
-              "pos": "n.",
-              "meaning": "（法院发出的）禁令、强制令。在并购报道中极为高频，专指法院命令当事方停止某一行为，比 「ban」或 「order」更具法律效力。常见搭配：issue / grant / lift an injunction（发出／批准／解除禁令）。值得学是因为它精准区分了「行政命令」与「司法命令」这一英文中的重要细分。",
-              "etymology": "源自拉丁语 injungere（in-「施加于」+ jungere「连接、约束」），原义为「强加约束于某人」。中世纪法律拉丁语中演变专指「法院的强制命令」，14世纪经由法语进入英语法律词汇。",
-              "morphology": "in-（施加、使进入）+ junct（词根 jungere，连接）+ -ion（名词后缀）。同词根词：junction（交叉路口）、conjunction（连词）、adjunct（附属物）——都含「连接」核心义，injunction 是「把约束连接到当事人身上」。",
-              "mnemonic": "把 injunction 拆成「in + junction（路口）」——法院在并购交易的「十字路口」插了一块「禁止通行」的大牌子，整条路被堵死。画面感极强，每次看到 junction 就能想到这块牌子。",
-              "exampleEn": "The startup sought a court injunction to prevent its rival from using the patented algorithm before the trial concluded.",
-              "exampleCn": "这家初创公司在庭审结束前申请法院禁令，阻止竞争对手使用其专利算法。"
-            },
-            {
-              "word": "allege",
-              "pos": "v.",
-              "meaning": "（在未经证实前）声称、指控。法律新闻必备词，专用于「尚待法庭裁定的指控」，语气中立且保留法律保护空间。区别于 claim（更口语、日常）和 assert（强调说话人的自信），allege 明确信号：这是一方之词，真伪未定。新闻报道中出现频率极高，名词形式 allegation 同样常见。",
-              "etymology": "源自拉丁语 allegare（al- 即 ad-「向」+ legare「派遣、引用」），原义为「向法庭引用证据支持某观点」。进入古法语后词义收窄，至英语中专指「提出尚未证实的指控」，约14世纪固定用法。",
-              "morphology": "al-（= ad-，趋向）+ lege（词根 legare，引用／委派）。核心派生词：allegation（n. 指控）、allegedly（adv. 据称）、unsubstantiated allegation（未经证实的指控）。注意勿混淆 allege 与 allegiance（忠诚，来自不同词根 liege）。",
-              "mnemonic": "联想「all + ledge（台阶/壁架）」——律师把所有「证据」一件件摆上证台的「台阶」，但法官还没敲锤确认，所以只是「声称」。台阶是过渡，真相悬而未定。",
-              "exampleEn": "The regulators allege that the tech giant engaged in anticompetitive practices to squeeze smaller rivals out of the market.",
-              "exampleCn": "监管机构指控这家科技巨头实施反竞争行为，将规模较小的竞争对手排挤出市场。"
-            },
-            {
-              "word": "plaintiff",
-              "pos": "n.",
-              "meaning": "（民事诉讼中的）原告，即主动提起诉讼的一方。与 defendant（被告）相对，是阅读财经法律新闻时绕不开的基础术语。本文中「the states」即扮演 plaintiff 角色。区别于刑事案件中的 prosecutor（检察官），plaintiff 专用于民事场景，值得学是因为媒体并购诉讼几乎都是民事案件。",
-              "etymology": "来自古法语 plaintif（「发出投诉之人」），源于拉丁语 plangere（悲叹、击胸表达痛苦），与英语 complaint 同族。原义指「在法庭上哭诉受害经历的人」，后词义中性化为「提起诉讼的一方」。",
-              "morphology": "plain-（源自 plaint，诉状、投诉）+ -iff（古法语名词后缀，表行为主体，如 bailiff 法警）。对立词记忆：plaintiff（原告，主动诉）vs defendant（被告，de-「离开」+ fend「抵御」，被动防守）。联想：complaint → complain → plaintiff，投诉链条一脉相承。",
-              "mnemonic": "plaintiff 里有 「plain」（平原）——想象原告孤身站在法庭中央空旷的「平原」上，举手申诉，而被告躲在角落全力防守。原告在明处，被告在暗处，一目了然。",
-              "exampleEn": "The plaintiffs, a group of independent cinema operators, argued that the merger would eliminate competition and drive up ticket prices.",
-              "exampleCn": "原告方——一群独立影院运营商——主张此次合并将消除竞争并推高票价。"
-            },
-            {
-              "word": "at stake",
-              "pos": "phrase",
-              "meaning": "处于危险中、岌岌可危；（某重要利益）悬而未决。在财经新闻中 stake 特指「已押上的赌注／风险敞口」，at stake 强调「一旦输掉便彻底失去」的紧迫感，比 at risk 语气更重、更具戏剧性。常与 billions、jobs、credibility 等重量级词搭配，是财经写作中营造紧张感的标配短语。",
-              "etymology": "stake 源自古英语 staca（木桩），源于古日耳曼语。赌博习俗中，赌注以实物插在桩子上，赢者拔桩取财。「at stake」即「赌注已钉在桩上」——胜负未分，生死系于一线。约17世纪起固定为惯用语。",
-              "morphology": "短语／复合词，无独立词源。stake 核心衍生短语：stakeholder（利益相关方，持有「桩上赌注」的人）、high-stakes（高风险的）、raise the stakes（加大赌注／升级风险）、sweepstakes（抽彩赌博，由此引申为大奖赛）。",
-              "mnemonic": "想象牛仔把所有财产装进袋子，绑在一根木桩（stake）上，然后走进赌场。此刻一切都「at stake」——系在那根桩上，赢则得，输则空。画面感极强，下次遇到绝对忘不了。",
-              "exampleEn": "With billions of dollars and thousands of jobs at stake, both companies are racing to persuade regulators that the deal serves the public interest.",
-              "exampleCn": "数十亿美元的利益和数千个就业岗位悬而未决，两家公司都在争分夺秒地说服监管机构，这笔交易符合公共利益。"
-            },
-            {
-              "word": "scrutiny",
-              "pos": "n.",
-              "meaning": "严密审查、细致审视。监管与并购报道中极为高频，常见搭配：come under scrutiny（受到审查）、face regulatory scrutiny（面临监管审查）、withstand scrutiny（经得起审视）。语气比 examination 更强，暗含「带有怀疑目的、寻找问题漏洞」的色彩。值得学是因为它精准捕捉了监管环境中「不信任前提下的主动审查」这一独特语境。",
-              "etymology": "源自拉丁语 scrutinium（彻底搜查），词根 scrutari 意为「翻拣垃圾堆寻找有价值之物」，scruta 指「破烂杂物堆」。原义是「在废品中翻找」，引申为「仔细检查以寻找隐藏问题」，精准传达了审查的「挑剔性」与「彻底性」。",
-              "morphology": "scrutin-（词根，细查翻找）+ -y（名词后缀）。派生词：scrutinize（v. 仔细检查，动词形式）、scrutineer（n. 选举监票员）。近义词辨析：inspection（例行、制度性检查）vs scrutiny（带质疑动机的严密审视）vs audit（财务审计，有既定流程）。",
-              "mnemonic": "scrutiny 里藏着 「scru」——想象侦探戴着单片放大镜（scrut-），蹲在「垃圾堆」里逐件翻检，不放过任何蛛丝马迹。这种「宁可翻遍废品堆也要找出破绽」的执念，就是 scrutiny 的灵魂。",
-              "exampleEn": "The proposed acquisition came under intense regulatory scrutiny after consumer groups raised concerns about market dominance.",
-              "exampleCn": "在消费者团体对市场支配地位表达担忧后，这项拟议收购受到了监管机构的严密审查。"
-            }
-          ]
-        },
-        {
-          "id": "20260721-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/20/trump-tariffs-canada-trade.html",
-          "headlineEn": "Trump Imposes 50% Tariffs on Canadian Goods Over Trade Discrimination Claims",
-          "headlineCn": "特朗普以贸易歧视为由对加拿大商品征收50%关税",
-          "summaryEn": "President Trump has announced 50% tariffs on select Canadian goods, citing alleged trade discrimination against American businesses. The move marks a further escalation as U.S.-Canada relations have steadily deteriorated under Trump's aggressive tariff agenda. It also casts fresh doubt on the durability of the trilateral trade pact shared by the U.S., Canada, and Mexico — a deal Trump has repeatedly criticized as unfair to American workers and industries.",
-          "summaryCn": "特朗普总统宣布对部分加拿大商品征收50%关税，理由是加拿大存在针对美国企业的贸易歧视行为。此举标志着两国关系的进一步恶化——在特朗普强硬关税政策的推动下，美加关系已持续走低。与此同时，美国、加拿大与墨西哥三国共同签订的贸易协定（即《美墨加协定》）的前景也因此蒙上阴影，特朗普此前曾多次批评该协定对美国工人和产业不公平。",
-          "excerpt": "Canada's relationship with the U.S. has frayed considerably under Trump's tariff-heavy agenda. Washington cited alleged trade discrimination as justification for the sweeping 50% levy, raising fresh doubts about the durability of the nations' trilateral trade pact with Mexico.",
-          "vocab": [
-            {
-              "word": "fray",
-              "pos": "v. / n.",
-              "meaning": "（关系或神经）磨损、破裂。在「Canada's relationship has frayed」中用作比喻动词，比「deteriorate」更生动地传达出边缘被反复摩擦撕裂的质感，常见于正式新闻写作中描述外交或商业关系的恶化",
-              "etymology": "来自中古法语 frayer，源自拉丁语 fricare（摩擦）。原义指布料边缘因反复摩擦而散开脱线，后引申为「关系或情绪因长期压力而逐渐破损」",
-              "morphology": "不可再拆分的简单词根。派生词：frayed（adj. 磨损的、紧张的）、fraying（n. 磨损过程）。与同拉丁词根 fricare 相关的词：friction（摩擦）、friable（易碎的）",
-              "mnemonic": "想象一根绳子在石头上来回摩擦，末端纤维一根根散开脱落——这就是 fray 的画面。外交关系「has frayed」，就像那根快要断掉的绳子，随时可能彻底崩断",
-              "exampleEn": "Years of failed negotiations have frayed the trade relationship between the two economies.",
-              "exampleCn": "多年谈判破裂使两国经济关系逐渐走向瓦解。"
-            },
-            {
-              "word": "trilateral",
-              "pos": "adj.",
-              "meaning": "三边的、三方的。专指涉及三个国家或主体的协议或谈判。相较于 multilateral（多边的），trilateral 精确指定三方，在贸易协定报道中高频出现，是财经新闻的核心词汇之一",
-              "etymology": "来自拉丁语 tri-（三）与 lateralis（侧面的，源自 latus「边」），字面义为「三个边的」，16世纪起用于描述三方几何关系，后延伸至外交与贸易领域",
-              "morphology": "tri-（三）+ lateral（侧边）+ -al（形容词后缀）。同前缀扩展：triangle（三角形）、trilogy（三部曲）、tripartite（三方的）；同词根扩展：bilateral（双边的）、unilateral（单边的）、multilateral（多边的）",
-              "mnemonic": "tri = 3，想到 tricycle（三轮车）；lateral = 边，想到足球里的 lateral pass（横传）。三边协定就是三国站成三角形各守一边，美墨加协定（USMCA）就是最典型的 trilateral pact",
-              "exampleEn": "The trilateral summit brought together leaders from all three nations to renegotiate key trade provisions.",
-              "exampleCn": "三边峰会汇聚三国领导人，就关键贸易条款重新展开谈判。"
-            },
-            {
-              "word": "discrimination",
-              "pos": "n.",
-              "meaning": "歧视；在贸易语境中特指「差别对待」——对某国商品或企业设置不对等壁垒。「trade discrimination」是WTO规则中的核心概念（违反最惠国待遇原则），比「unfair treatment」更具法律效力，常出现在正式指控和贸易争端文件中",
-              "etymology": "来自拉丁语 discriminare（区分、分开），词根 discrimen 意为「区分的标准或界线」，原义为「做出区别判断」，后逐渐演变为负面义「不公正地区别对待某一群体」",
-              "morphology": "dis-（分开）+ crimin-（区分、判断）+ -ation（名词后缀）。同族词：discriminate（v. 歧视/辨别）、discriminatory（adj. 歧视性的）、indiscriminate（adj. 不加区分的）",
-              "mnemonic": "discrimin- 让人联想到 criminal（罪犯）——把某个群体当罪犯一样区别对待，就是 discrimination。贸易歧视就是把某国货物当「经济罪犯」来区别处理",
-              "exampleEn": "The WTO ruling found that the import quotas amounted to trade discrimination against developing nations.",
-              "exampleCn": "世贸组织裁定，这些进口配额构成对发展中国家的贸易歧视。"
-            },
-            {
-              "word": "pact",
-              "pos": "n.",
-              "meaning": "条约、协定。比 agreement 正式、比 treaty 简短，常用于描述政治性或贸易性协议。在新闻标题和正文中高频出现，语感紧凑有力，是财经和外交报道的标配词汇",
-              "etymology": "来自拉丁语 pactum（协议），源自 pacisci（约定、讲和），与 peace（和平）、pacify（安抚）同属词根 pac——和平往往通过达成协定来实现",
-              "morphology": "不可拆解的简单词。近义派生词：compact（n. 契约；adj. 紧凑的）。注意 peace、pacify、appease 均来自同一拉丁词根 pac-（和平/平息），构成一个词族",
-              "mnemonic": "pact 和 peace 长相相似、词根相同——签了 pact（协定）才有 peace（和平）。想象两国领导人握手签字的场景，那张文件就是 pact",
-              "exampleEn": "The two tech giants announced a cross-licensing pact to settle their long-running patent dispute.",
-              "exampleCn": "两家科技巨头宣布达成交叉授权协议，以解决旷日持久的专利纠纷。"
-            },
-            {
-              "word": "vocal",
-              "pos": "adj.",
-              "meaning": "直言不讳的、公开表态的。「vocal displeasure」比「public dissatisfaction」语气更强，暗示主动、响亮地发声表达不满。新闻中常用「vocal critic」「vocal opponent」描述立场鲜明、积极发声的人或机构，是政经报道高频修饰语",
-              "etymology": "来自拉丁语 vocalis（有声音的），词根 vox/vocis 意为「声音」，原义为「用声音表达的」，后引申为「积极发声、公开表态」而非沉默隐忍",
-              "morphology": "词根 voc-（声音）+ -al（形容词后缀）。同族词：vocation（职业，「被召唤」的工作）、advocate（倡导者，ad- + voc-「为某事发声」）、provoke（激怒，「引发叫声」）、evoke（唤起）",
-              "mnemonic": "vocal 里藏着 voice（声音）的影子——voc = voice。一个 vocal 的批评者就是「声音很大的」批评者。脑补一个拿着大喇叭高声呐喊的人，那就是 vocal",
-              "exampleEn": "The CEO has been vocal about her opposition to the proposed merger, issuing multiple public statements.",
-              "exampleCn": "这位首席执行官对拟议中的并购案公开表示反对，多次发表公开声明。"
             }
           ]
         }
