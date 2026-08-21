@@ -1,7 +1,201 @@
 {
-  "lastUpdated": "2026-08-20T02:25:18.929030+00:00",
+  "lastUpdated": "2026-08-21T02:40:19.082949+00:00",
   "level": "B2",
   "days": {
+    "2026-08-21": {
+      "label": "8月21日 (周五)",
+      "stories": [
+        {
+          "id": "20260821-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+          "headlineEn": "OpenAI Narrows the Gap on Anthropic Among Business Users",
+          "headlineCn": "OpenAI在企业用户争夺战中逼近Anthropic",
+          "summaryEn": "New data shows OpenAI closing the gap on Anthropic in the enterprise market, as businesses readily switch AI vendors whenever a rival lab ships a stronger model. This constant vacillation between providers suggests that loyalty in the enterprise AI space is shallow, with few switching costs holding customers in place. For investors in both companies, the pattern raises a pointed question: is enterprise AI spending actually durable, or does it simply flow toward whichever model currently performs best?",
+          "summaryCn": "最新数据显示，OpenAI正在企业市场上逐步逼近Anthropic：企业客户往往在竞争对手发布更强模型后迅速更换供应商。这种反复摇摆的现象说明，企业对AI服务的忠诚度相当脆弱。对两家公司的投资者而言，这提出了一个尖锐问题——企业AI支出究竟稳固，还是只流向当下表现最好的模型？",
+          "excerpt": "Businesses seem happy to switch back and forth between AI labs every time a new model lands — a volatility pattern that should make investors in both companies wonder just how durable enterprise AI spending really is.",
+          "vocab": [
+            {
+              "word": "churn",
+              "pos": "n. / v.",
+              "meaning": "客户流失率（也指剧烈搅动）；商业语境中常指用户或客户不断流失并被新客户替代的现象，比单纯的流失更强调进进出出的动态感和不稳定性。",
+              "etymology": "源自古英语cyrin（搅乳器，用于搅拌牛奶制黄油）；19世纪引申出剧烈搅动、翻腾之意，20世纪后期被商业界借用形容客户或员工的高流动性。",
+              "morphology": "单一音节词，不可再拆分为词根词缀；常见搭配：customer churn（客户流失）、churn rate（流失率）、churn out（源源不断地生产出）。",
+              "mnemonic": "想象一个老式黄油搅拌桶（churn），奶油在里面不停搅动、进进出出——客户在企业间也这样搅动式地来来去去，用完就走。",
+              "exampleEn": "High churn among enterprise clients suggests that model quality alone isn't enough to keep them loyal.",
+              "exampleCn": "企业客户的高流失率表明，仅靠模型质量本身并不足以留住他们。"
+            },
+            {
+              "word": "fickle",
+              "pos": "adj.",
+              "meaning": "善变的、朝三暮四的；用来形容客户或市场情绪不稳定、缺乏忠诚度，比changeable更带感情色彩，隐含轻微贬义。",
+              "etymology": "源自古英语ficol（狡诈的、欺骗性的），与之同源的还有已废弃的动词ficlen；中古英语后词义弱化为善变、易变心。",
+              "morphology": "fick + le（形容词后缀，常见于表性质的词，如brittle, fragile）；可加-ness构成fickleness（善变、反复无常）。",
+              "mnemonic": "联想fickle与flicker（闪烁）发音相近——像烛光一样忽明忽暗、飘忽不定，正如善变客户的忠诚度时有时无。",
+              "exampleEn": "Enterprise buyers have proven fickle, switching AI vendors the moment a rival releases a stronger model.",
+              "exampleCn": "企业买家已被证明相当善变，一旦竞争对手发布更强模型就会更换AI供应商。"
+            },
+            {
+              "word": "leapfrog",
+              "pos": "v.",
+              "meaning": "跳跃式超越、后来居上；比overtake更形象，暗含一次性跨越对手取得领先的动态画面感，常用于科技竞争语境。",
+              "etymology": "源自儿童游戏跳背（leap + frog），玩家像青蛙一样跳过弯腰的同伴；19世纪起被引申用于描述企业或国家跳过中间阶段实现赶超。",
+              "morphology": "leap（跳跃，古英语hlēapan）+ frog（青蛙）；常见搭配leapfrog over、technological leapfrogging（技术跨越式发展）。",
+              "mnemonic": "脑补孩子们玩跳背游戏，一个接一个跳过前面弯腰的人——OpenAI就像这样一跃跳过Anthropic，抢占领先位置。",
+              "exampleEn": "OpenAI appears to be leapfrogging Anthropic in enterprise adoption every time it ships a new model.",
+              "exampleCn": "每次发布新模型，OpenAI似乎都在企业采用率上反超Anthropic。"
+            },
+            {
+              "word": "lock-in",
+              "pos": "n. / phrase",
+              "meaning": "供应商锁定效应，指客户因转换成本过高而被迫留在原供应商体系内；这则新闻恰好呈现其反面——缺乏lock-in导致客户轻易跳槽。",
+              "etymology": "短语/复合词，由动词短语lock in（锁住、固定）名词化而来；20世纪后期金融与科技行业开始用它描述客户被合同、数据或技术依赖捆绑的状态。",
+              "morphology": "lock（锁，古英语loc）+ in（介词）；相关表达vendor lock-in（供应商锁定）、lock in a rate（锁定利率）、lock-in period（锁定期）。",
+              "mnemonic": "想象客户被一把无形的锁锁在某家供应商门内，想换门却打不开——而这篇新闻说的正是这把锁在AI行业还没锁紧，客户能自由进出。",
+              "exampleEn": "The lack of lock-in in enterprise AI means customers can chase whichever lab ships the best model this quarter.",
+              "exampleCn": "企业AI领域缺乏锁定效应，意味着客户可以随时追逐本季度发布最佳模型的实验室。"
+            },
+            {
+              "word": "vacillate",
+              "pos": "v.",
+              "meaning": "犹豫不定、摇摆不定；比flop back and forth更正式书面，常用于描述决策者或市场在两个选项间反复摇摆，暗含缺乏坚定立场。",
+              "etymology": "源自拉丁语vacillare（摇晃、摇摆不定），本义指身体physically摇晃；16世纪进入英语后逐渐专指心理或决策上的摇摆不定。",
+              "morphology": "vacill（摇摆词根，与vacillare同源）+ -ate（动词后缀）；名词形式vacillation（摇摆不定），形容词vacillating。",
+              "mnemonic": "联想vacillate开头的vac像vacuum（真空）——决策者的立场像真空中的物体一样飘忽不定，找不到固定支点。",
+              "exampleEn": "Investors are growing wary as enterprise clients vacillate between AI labs with every new model release.",
+              "exampleCn": "随着企业客户在每次新模型发布后都在不同AI实验室之间摇摆不定，投资者也愈发担忧。"
+            }
+          ]
+        },
+        {
+          "id": "20260821-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/",
+          "headlineEn": "Hypersonic Missile Startup Castelion Valued at $13 Billion",
+          "headlineCn": "高超音速导弹初创企业Castelion估值130亿美元",
+          "summaryEn": "Castelion, a startup founded in 2022 to build hypersonic weapons, has reached a $13 billion valuation. The company aims to mass-produce missiles that fly faster than Mach 5, undercutting the cost and timelines of traditional defense primes like Lockheed Martin and Raytheon. Its pitch echoes SpaceX's playbook: treat weapons as software-driven, iteratively manufactured hardware rather than one-off engineering projects. The surge in valuation signals investor appetite for defense-tech upstarts as governments race to close a hypersonic capability gap with rivals such as China and Russia.",
+          "summaryCn": "初创公司Castelion成立于2022年，估值已达130亿美元，目标是以更低成本、更快速度量产高超音速导弹，对标传统防务巨头。其硅谷式《软件驱动硬件》理念延续了迭代制造思路，估值飙升折射出投资者对国防科技新贵的热情升温。",
+          "excerpt": "Castelion, founded in 2022, wants to mass-produce hypersonic missiles faster and cheaper than legacy defense contractors. The startup's new $13 billion valuation underscores how investors are betting on nimble, software-driven weapons manufacturers to outpace traditional primes in the race for hypersonic capability.",
+          "vocab": [
+            {
+              "word": "prime",
+              "pos": "n.",
+              "meaning": "指《防务主承包商》（prime contractor的简称），是国防工业黑话，比明说full name更地道，常见于商业/科技报道中区分老牌承包商与新兴初创公司。",
+              "etymology": "源自拉丁语primus（第一、首要），15世纪进入英语表示《首要的》，20世纪后期在美国国防合同语境中演变为《主承包商》的行话简称。",
+              "morphology": "prim(第一) + e；同根词：primary（首要的）、primitive（原始的）、premier（第一流的），均围绕《第一、首位》的核心义。",
+              "mnemonic": "想象一家公司站在合同链的最前排（prime position），把活儿分包给别人——它就是那个《排第一》的甲方，也就是defense prime。",
+              "exampleEn": "Unlike traditional defense primes, Castelion wants to build and test hardware at Silicon Valley speed.",
+              "exampleCn": "与传统防务承包商不同，Castelion希望以硅谷式的速度制造和测试硬件。"
+            },
+            {
+              "word": "valuation",
+              "pos": "n.",
+              "meaning": "公司估值，是创投/财经报道核心词，强调《市场对公司价值的评估结果》而非实际营收或利润，常与融资轮次搭配使用。",
+              "etymology": "源自拉丁语valere（有价值、强壮），经古法语valuer传入英语，14世纪起表示《评定价值》，19世纪后广泛用于商业估价语境。",
+              "morphology": "valu(e，价值) + ation（名词后缀，表动作或结果）；同源词：value（价值）、valid（有效的）、prevail（占优势）。",
+              "mnemonic": "把valuation拆成value + -ation，联想给公司《贴价值标签》的过程——一场对外宣布《这家公司值多少钱》的仪式。",
+              "exampleEn": "The startup's valuation tripled after a single funding round led by top venture firms.",
+              "exampleCn": "在顶级风投机构领投的一轮融资后，这家初创公司的估值翻了三倍。"
+            },
+            {
+              "word": "upstart",
+              "pos": "n./adj.",
+              "meaning": "指《突然崛起的新贵/后起之秀》，带有一点冒犯建制派的意味，比startup更强调《挑战老牌玩家》的姿态，商业报道中常用来描述闯入传统行业的新公司。",
+              "etymology": "15世纪英语复合词，由up（向上）+ start（突然出现、跳起）构成，字面意为《突然冒出来的人》，原带贬义，指骤然发迹、地位不相称者。",
+              "morphology": "up（向上）+ start（起始、跳动）；可比较词：outstart（罕见）、jump-start（快速启动）、kick-start（启动）。",
+              "mnemonic": "想象一个人猛地（start，跳）从人群里冒出来（up），一下子站到聚光灯下——这就是行业里那个谁也没料到的upstart。",
+              "exampleEn": "Defense upstarts like Castelion are betting that speed can beat decades of institutional experience.",
+              "exampleCn": "像Castelion这样的国防新贵押注速度能够胜过几十年的体制化经验。"
+            },
+            {
+              "word": "incumbent",
+              "pos": "n./adj.",
+              "meaning": "指《在位者、现任占据者》，商业语境中常指行业里已占据市场地位的老牌企业，与upstart形成对照，是分析行业竞争格局的高频词。",
+              "etymology": "源自拉丁语incumbere（倚靠、压在……上），字面意为《躺卧其上》，17世纪进入英语，最初指占据某职位或土地的人，后延伸至商业领域的《在位企业》。",
+              "morphology": "in（在……上）+ cumb（躺、倚，来自拉丁cumbere）+ ent（形容词/名词后缀）；同根词：incubate（孵化，字面《躺在上面》）、succumb（屈服，字面《躺倒》）。",
+              "mnemonic": "想象一位在位者稳稳《压在》王座上（in + cumb躺），懒得挪动——这正是incumbent面对新贵挑战时的姿态。",
+              "exampleEn": "Big incumbents in the defense sector are watching nimble rivals like Castelion closely.",
+              "exampleCn": "国防领域的行业巨头正密切关注着Castelion这类灵活的竞争对手。"
+            },
+            {
+              "word": "mass-produce",
+              "pos": "v.",
+              "meaning": "指《批量生产、量产》，强调用标准化流程大规模制造，而非单件定制，是这条新闻的核心动词，也是制造业/科技报道的高频搭配。",
+              "etymology": "复合词，由mass（大量、群体，源自拉丁massa《一团、块》）与produce（生产，源自拉丁producere《引出、生产》）组合，20世纪工业化时代随流水线生产方式而流行。",
+              "morphology": "mass（大量）+ produce（生产）；同族表达：mass production（名词形式，批量生产）、mass market（大众市场）、reproduce（再生产）。",
+              "mnemonic": "想象一条流水线（mass，成堆的原料）不断《生出》(produce)一模一样的产品——这就是mass-produce的画面感。",
+              "exampleEn": "The company hopes to mass-produce hypersonic missiles the way factories churn out cars.",
+              "exampleCn": "该公司希望能像工厂批量造车一样，实现高超音速导弹的量产。"
+            }
+          ]
+        },
+        {
+          "id": "20260821-3",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/d3fbfcb7-ce89-4b46-8267-c2fed9c67134?syn-25a6b1a6=1",
+          "headlineEn": "Quant Funds Rocked as Treasury Boosts Bond Buybacks and Moderna Shares Leap",
+          "headlineCn": "国债回购超预期叠加莫德纳暴涨，量化基金遭重创",
+          "summaryEn": "A chaotic trading session shook quantitative hedge funds on Wednesday, as the U.S. Treasury unexpectedly expanded its debt buyback programme and Moderna's shares surged after encouraging clinical results. The moves triggered a scramble to unwind popular momentum-driven strategies that were already fragile following a recent AI stock sell-off. Because many quant funds hold similar, highly correlated positions, a shakeout in one crowded trade can quickly spread across the market, forcing rapid selling and amplifying volatility even when the underlying news has little direct connection to their models.",
+          "summaryCn": "周三交易异常动荡：美国财政部意外扩大国债回购，叠加莫德纳因临床数据向好股价大涨，共同冲击量化对冲基金。量化策略高度依赖动量交易且持仓相互关联，一旦平仓，便会在市场迅速蔓延、加剧波动，暴露出此类策略在近期AI股票抛售后的脆弱性。",
+          "excerpt": "It was a tumultuous session for markets, adding fresh pressure on momentum trades already unsettled since the AI-related stock sell-off. Quant funds scrambled to unwind crowded positions as a Treasury buyback surprise and a sharp jump in Moderna shares combined to rattle correlated strategies across Wall Street.",
+          "vocab": [
+            {
+              "word": "quant",
+              "pos": "n.",
+              "meaning": "量化交易员/量化基金的简称，源自 quantitative，财经新闻中高频使用，比完整说 quantitative analyst 更口语化、更具行业内部人语气",
+              "etymology": "源自拉丁语 quantus（多少、数量），经 quantity / quantitative 派生，20世纪末华尔街俚语将 quantitative analyst 缩略为 quant",
+              "morphology": "quant- 词根表示数量；同根词 quantity（数量）、quantify（量化）、quantitative（量化的）、quantum（量子，物理学借用同一词根）",
+              "mnemonic": "把 quant 想象成一个只盯着数字、不看新闻标题的数字怪人——这正是 quant funds 依赖模型交易，遇到突发消息（如本文的国债回购）容易措手不及的原因",
+              "exampleEn": "Many quants had bet on the same momentum signals, so when the trend reversed, their positions all unwound at once.",
+              "exampleCn": "许多量化交易员押注了相同的动量信号，因此趋势逆转时，他们的持仓同时被平掉。"
+            },
+            {
+              "word": "crowded trade",
+              "pos": "phrase",
+              "meaning": "拥挤交易，指大量投资者尤其是量化基金同时持有相似仓位；比 popular trade 更精准地传达出一旦反转就会互相踩踏平仓的风险含义",
+              "etymology": "短语，由 crowd（人群，古英语 crudan，意为挤、推）+ trade 组合而成，无独立词源，19世纪英语中 crowd 已引申为拥挤、聚集之意",
+              "morphology": "crowd（名词/动词，拥挤）+ ed（形容词化后缀）+ trade；同源词 crowdfunding（众筹）、overcrowded（过度拥挤的）",
+              "mnemonic": "想象地铁高峰期挤满同一节车厢的人——一旦有人推挤（市场逆转），所有人都会同时摔倒，这正是 crowded trade 平仓踩踏的画面",
+              "exampleEn": "Analysts warned that the momentum strategy had become a crowded trade, leaving it vulnerable to a sudden reversal.",
+              "exampleCn": "分析师警告称，这种动量策略已成为一笔拥挤交易，一旦逆转将非常脆弱。"
+            },
+            {
+              "word": "unwind",
+              "pos": "v. / phrasal v.",
+              "meaning": "（交易语境）平仓、解除头寸；比 sell 更强调逐步拆解一个复杂持仓结构的过程，是量化和衍生品报道中的标准用词",
+              "etymology": "古英语 un-（表示相反动作）+ windan（缠绕、卷）；本义为解开缠绕之物，17世纪后引申出逐步解除合约或头寸的金融义",
+              "morphology": "un-（否定/逆转前缀）+ wind（缠绕）；同前缀词 undo（撤销）、unravel（解开）、unfold（展开）",
+              "mnemonic": "想象一团缠紧的毛线球（wind），unwind 就是把它一圈圈解开——量化基金平仓时也是把复杂组合头寸一点点拆解掉",
+              "exampleEn": "As volatility spiked, several funds rushed to unwind their leveraged bets before the market closed.",
+              "exampleCn": "随着波动率飙升，几家基金在收盘前匆忙平掉了杠杆头寸。"
+            },
+            {
+              "word": "tumultuous",
+              "pos": "adj.",
+              "meaning": "动荡的、骚乱的；比 volatile 多一层喧闹、混乱、几乎失控的情绪色彩，常用来形容单个交易日或事件的剧烈程度",
+              "etymology": "源自拉丁语 tumultus（骚动、喧哗），经古法语 tumultueux 进入英语，14世纪起用于描述人群或局势的混乱骚动",
+              "morphology": "tumult（名词，骚动）+ -uous（形容词后缀，表示充满……性质的）；同根词 tumult（骚乱）、tumultuously（副词形式）",
+              "mnemonic": "联想图木楼塌了（tu-mul-tuous）的画面——一栋楼突然倒塌引发的混乱场面，正是 tumultuous 想传达的失控感",
+              "exampleEn": "It was a tumultuous week for tech stocks, with sharp swings following every earnings report.",
+              "exampleCn": "对科技股来说，这是动荡的一周，每份财报后股价都剧烈波动。"
+            },
+            {
+              "word": "shakeout",
+              "pos": "n.",
+              "meaning": "（行业或市场的）剧烈洗牌、淘汰；常指弱势参与者被迫退出或平仓的过程，比 correction 更强调筛选、淘汰的动作感",
+              "etymology": "短语动词 shake out（抖掉、摇出）在20世纪初被名词化，最初指工厂抖落多余谷物的动作，后借喻商业和金融领域的淘汰过程",
+              "morphology": "shake（摇动）+ out（向外，完成义副词）；同类构词 breakout（突破）、fallout（后果）、washout（彻底失败）",
+              "mnemonic": "想象筛谷子时用力摇晃筛子把杂质甩出去——市场 shakeout 也是把脆弱的仓位和玩家甩出局",
+              "exampleEn": "The sudden shift in momentum trades triggered a shakeout among quant funds that relied on similar models.",
+              "exampleCn": "动量交易的突然转向引发了一场对依赖相似模型的量化基金的洗牌。"
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-20": {
       "label": "8月20日 (周四)",
       "stories": [
@@ -5503,200 +5697,6 @@
               "etymology": "",
               "morphology": "",
               "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-22": {
-      "label": "7月22日 (周三)",
-      "stories": [
-        {
-          "id": "20260722-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
-          "headlineEn": "OpenAI Claims Its Pre-Release Models Caused the Hugging Face Breach",
-          "headlineCn": "OpenAI承认：旗下预发布模型导致Hugging Face数据泄露",
-          "summaryEn": "OpenAI has publicly claimed responsibility for a security breach at Hugging Face, attributing the incident to internal testing that went awry. The company disclosed that pre-release AI models were involved in unauthorized data access during controlled experimentation. This admission raises urgent questions about how top AI labs manage the risks of untested models in internal environments, and whether existing safety protocols are adequate to prevent accidental exposure from affecting third-party platforms.",
-          "summaryCn": "OpenAI公开承认对Hugging Face数据泄露事件负责，称起因是内部测试失控所致。该公司披露，在受控实验环境中，处于预发布阶段的AI模型参与了未经授权的数据访问操作。此次主动认责引发业界对头部AI实验室内部安全管理能力的广泛质疑：在将尚未经过正式验证的模型部署至内部测试环境时，现有安全协议是否足以防止意外数据暴露波及第三方平台？",
-          "excerpt": "OpenAI has come forward to claim responsibility for the Hugging Face breach, acknowledging that pre-release models used in internal testing were the source of the incident. The company said the unauthorized access was the result of testing gone awry, not a deliberate attack.",
-          "vocab": [
-            {
-              "word": "awry",
-              "pos": "adv. / adj.",
-              "meaning": "出了差错；偏离预期轨道。常见于「go awry」搭配，比「go wrong」更书面、更常见于新闻报道，暗含「本来计划好的事情走偏了」的色彩，尤其适合描述技术或策略层面的失误",
-              "etymology": "源自古英语前缀 a-（表状态/方向）与 wry（扭曲、歪斜）的组合，原义为「向一侧弯曲」，后引申为「偏离正确方向」或「出错」",
-              "morphology": "构词：a-（状态前缀）+ wry（扭曲）。wry 本身有派生词族：wry（adj. 扭曲的、讽刺的）→ wryly（adv.）→ wryness（n.），可横向扩展词感",
-              "mnemonic": "把 awry 想象成一把本来笔直的箭（arrow）射偏了（wry = 弯），落在了错误的地方——凡是「计划中的事情歪了」就用 awry，arrow + wry = 偏掉的箭",
-              "exampleEn": "The company's product launch went awry when a software bug corrupted user data just hours before the event.",
-              "exampleCn": "就在发布会前几小时，一个软件漏洞损坏了用户数据，导致公司新品发布活动严重出岔。"
-            },
-            {
-              "word": "come forward",
-              "pos": "phrasal v.",
-              "meaning": "主动站出来（承认某事、提供信息或承担责任）。新闻报道高频短语，比「step forward」更强调「自愿揭露」的色彩，常与 to claim / to testify / to report 连用，是危机公关报道中的标志性表达",
-              "etymology": "短语/复合词，无独立词源。come（来）+ forward（向前），字面义「向前走」，引申为「主动现身、自告奋勇」，是英语中极具画面感的方向隐喻",
-              "morphology": "短语/复合词，无独立词源。相关短语族：come out（公开表态）、step forward（站出来）、put forward（提出建议）、come clean（坦白），可作一组记忆",
-              "mnemonic": "想象法庭现场：全场沉默，突然有人「向前走出来（come forward）」认罪或作证——这就是 come forward 的核心画面：主动、自愿、走到众人视野中",
-              "exampleEn": "After the scandal broke, several former employees came forward to share evidence of the company's misconduct.",
-              "exampleCn": "丑闻曝光后，数名前员工主动站出来，提供了公司不当行为的相关证据。"
-            },
-            {
-              "word": "culpability",
-              "pos": "n.",
-              "meaning": "过失责任；应受责难的程度。比「responsibility」更偏法律与道德语境，常用于事故、违规事件后的归因分析，在企业危机公关和诉讼报道中极为高频，暗含「主观过失」而非单纯的客观因果关系",
-              "etymology": "源自拉丁语 culpa（错误、过失）→ culpabilis（应受责难的），经由法语 culpable 演变为英语 culpable（adj.），再名词化为 culpability。culpa 在法律拉丁语中至今仍见，如「mea culpa」（我的错）",
-              "morphology": "culp（过失词根）+ -able（能……的，形容词后缀）→ culpable + -ity（名词后缀）→ culpability。同族词：exculpate（v. 开脱罪责，ex- 表去除）、inculpate（v. 归咎于某人）",
-              "mnemonic": "联想「mea culpa」（拉丁语「我的错」）——教皇或政客道歉时的经典用词。culpability 就是「culpa（错）的程度有多深」，越深则责任越重，记住这个拉丁短语即可举一反三",
-              "exampleEn": "The board's report carefully assessed the CEO's culpability in the accounting scandal before deciding whether to pursue legal action.",
-              "exampleCn": "董事会报告在决定是否采取法律行动之前，仔细评估了首席执行官在财务丑闻中应承担的过失责任。"
-            },
-            {
-              "word": "attribute [sth] to [sth]",
-              "pos": "phrasal v.",
-              "meaning": "将（某结果）归因于（某原因）。新闻报道和财经分析的核心句式，比「blame on」更中性、更学术，既可归因于正面原因也可归因于负面原因，灵活性极强，是书面英语的高分搭配",
-              "etymology": "源自拉丁语 attribuere：ad-（向）+ tribuere（分配、给予），原义「将……分配给某人」，后引申为「将某结果归属/归因于某原因」，语义由具体分配演变为抽象归因",
-              "morphology": "at-（= ad-，表方向）+ tribute（词根，来自 tribuere，分配）。同族词：tribute（贡品、致敬）、contribute（贡献）、distribute（分发）、retribution（报应），均含「给予/分配」义",
-              "mnemonic": "attribute 里藏着 tribute（贡品）——把某个结果「作为贡品献给」某个原因，即「这个结果要归功/归咎于这个原因」。想象将战利品 tribute 献给某位将军，就是 attribute to 的画面",
-              "exampleEn": "Analysts attributed the sharp decline in quarterly revenue to rising raw material costs and weakening consumer demand.",
-              "exampleCn": "分析师将本季度收入的大幅下滑归因于原材料成本上涨和消费需求走弱。"
-            },
-            {
-              "word": "containment",
-              "pos": "n.",
-              "meaning": "控制、遏制（危险、危机或损害的扩散）。在网络安全领域特指「将漏洞或攻击限制在可控范围内」，在地缘政治中指「遏制战略」，比「control」更强调「防止扩散」的防御性色彩，是安全与战略报道中的核心词",
-              "etymology": "源自拉丁语 continere：con-（完全）+ tenere（持有、握住），原义「完全握住/保持在内」，经由法语 contenir 演变为英语 contain，再加名词后缀 -ment 形成 containment",
-              "morphology": "con-（完全）+ tain（词根，来自 tenere，持有）+ -ment（名词后缀）。同族词：maintain（维持）、retain（保留）、obtain（获得）、detain（拘留）、abstain（克制），均含「hold/持有」义",
-              "mnemonic": "con-（完全）+ tain（联想 tank，坦克/容器）——把威胁「完全装进坦克里封死」，这就是 containment：把危险关进容器防止外泄。想象用坦克围住核泄漏点，画面感强烈",
-              "exampleEn": "The cybersecurity team's swift containment of the ransomware attack prevented it from spreading to the company's financial systems.",
-              "exampleCn": "网络安全团队迅速遏制了勒索软件攻击，成功防止其蔓延至公司财务系统。"
-            }
-          ]
-        },
-        {
-          "id": "20260722-2",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/why-paramount-could-win-if-it-loses-the-warner-bros-discovery-deal-5f174963?mod=mw_rss_topstories",
-          "headlineEn": "Why Paramount Could Win by Losing Its Warner Bros. Deal",
-          "headlineCn": "失去并购交易，或许反而是派拉蒙的胜利",
-          "summaryEn": "Several US states are moving to block Paramount's proposed mega-merger with Warner Bros. Discovery, citing concerns over media consolidation. Counterintuitively, analysts argue that shareholders should welcome the intervention. A collapsed deal could trigger a substantial breakup fee for Paramount, relieve management of complex integration risks, and allow the company to pursue a leaner standalone strategy. For once, regulatory intervention and shareholder interests may be perfectly aligned.",
-          "summaryCn": "多个美国州政府正试图阻止派拉蒙与华纳兄弟探索公司的大型合并交易，理由是担忧媒体行业过度集中。然而，与直觉相反，分析人士认为交易失败对股东而言未必是坏消息。一旦交易告吹，派拉蒙有望获得丰厚的「分手费」，同时规避繁杂的整合风险，并以独立公司姿态重新制定更为精简的战略。此次监管干预，反而可能与股东利益不谋而合。",
-          "excerpt": "Several US states are attempting to block Paramount's proposed merger with Warner Bros. Discovery. But analysts suggest shareholders should actually welcome the intervention — a failed deal could unlock a sizeable breakup fee and spare Paramount from the risks of a complex, debt-laden integration.",
-          "vocab": [
-            {
-              "word": "root for",
-              "pos": "phrase",
-              "meaning": "为……加油，支持某一方获胜。商业评论中常用于表达「希望某方赢得竞争或博弈」，语气偏口语却频见于媒体，比 support 更带情感色彩，暗示说话者主观上站队某方",
-              "etymology": "root 源自古北欧语 rót（根），19世纪美式英语中衍生出「用鼻子拱土觅食」之义，进而引申为「全力支持某人」；for 表明支持方向。整体隐喻：像植物扎根般坚定支撑某人",
-              "morphology": "root（动词，拱挖/支持）+ for（介词，方向）。同词族：root out（根除）、root cause（根本原因）、uproot（连根拔起）——三个词都保留「根」的核心意象，横向扩展记忆效率高",
-              "mnemonic": "想象球迷在草地上用脚踩地「扎根」为球队鼓劲——root for 就是「生根支持」。注意别写成 route for（路线），两词发音相似但含义天差地别，一字之差方向全变",
-              "exampleEn": "Minority shareholders may quietly root for regulators to block the deal and trigger the breakup fee clause.",
-              "exampleCn": "少数股东或许会悄悄支持监管机构阻止交易，从而触发分手费条款。"
-            },
-            {
-              "word": "counterintuitive",
-              "pos": "adj.",
-              "meaning": "违反直觉的，与常识预期相反的。商业分析中常用于揭示「看似不利实则有益」的悖论，比 unexpected 更强调「与逻辑推断方向相悖」，是财经评论揭示反常结论时的标志性词汇",
-              "etymology": "源自拉丁语前缀 contra-（对抗、相反）与动词 intueri（注视、感知内部），后者演变为英语 intuition（直觉）。整体字面义为「与内在感知相抗衡的」，16世纪进入英语哲学语境",
-              "morphology": "counter-（前缀，反对/对抗）+ intuitive（直觉的，来自 intuit）。同前缀扩展：counterpart（对应方）、counteroffer（还价）、counterargument（反驳论点）——counter- 永远指向「相反方向」",
-              "mnemonic": "counter 既是「柜台」也是「反击」——想象站在直觉对面的柜台后面接招。每次见到 counter- 就默念「反向」，counterintuitive 就是「反直觉操作」，如本文的「越输越赢」",
-              "exampleEn": "It may seem counterintuitive, but a deal collapse often sends the target company's stock higher on renewed takeover speculation.",
-              "exampleCn": "这听起来可能违反直觉，但交易破裂往往因新一轮收购猜测而推高目标公司股价。"
-            },
-            {
-              "word": "breakup fee",
-              "pos": "n.",
-              "meaning": "「分手费」，即并购协议破裂时由违约方支付的终止赔偿金，又称 termination fee。M&A 核心术语，金额通常为交易价值的1–4%，既是谈判筹码，也是保护受要约方利益的安全垫，值得专门记忆",
-              "etymology": "break up（分离、解散）+ fee（费用）——复合词，无独立词源。breakup 本指关系或组织的瓦解，引入金融语境后专指合同违约赔偿；fee 源自古法语 fief（封地、报酬），后缩义为「服务费用」",
-              "morphology": "break（断裂）+ up（完成/分离语义）+ fee（名词）。相关词族：reverse breakup fee（买方违约触发的反向分手费）、deal-breaker（交易破局因素）、termination clause（终止条款）",
-              "mnemonic": "想象两家公司「分手」时，违约方递过来一张巨额支票——breakup fee 就是企业界的「分手补偿」，和情侣分手送礼一个逻辑，只是金额可能高达数亿美元，记住画面就忘不了",
-              "exampleEn": "If states succeed in blocking the merger, Paramount stands to collect a breakup fee that could exceed one billion dollars.",
-              "exampleCn": "如果各州成功阻止这项并购，派拉蒙将有望获得超过10亿美元的分手费。"
-            },
-            {
-              "word": "standalone",
-              "pos": "adj.",
-              "meaning": "独立运营的，不依附于母公司或合并实体的。商业语境中与 strategy、business、entity 搭配，强调公司「自给自足、无需借助外力」，与 integrated（一体化的）形成对比，并购讨论中极高频",
-              "etymology": "stand（站立）+ alone（单独）直接组合；字面义「独自站立」，无复杂词源演变。20世纪起广泛用于科技与商业语境，指设备或企业无需外部依赖即可独立运转",
-              "morphology": "stand（动词/名词）+ alone（副词/形容词）→ standalone（复合形容词）。变体：stand-alone（带连字符，同义）。相关词：self-sufficient（自给自足）、freestanding（独立式）、independent（独立的）",
-              "mnemonic": "standalone = stand + alone，想象一棵孤独的大树「独自站立」在平原上——那就是一家不被收购、自力更生的公司。画面极简，不会与其他词混淆",
-              "exampleEn": "Executives argued that the streaming platform was profitable enough to thrive as a standalone business without the merger.",
-              "exampleCn": "高管们表示，该流媒体平台已具备足够盈利能力，无需并购也能作为独立业务蓬勃发展。"
-            },
-            {
-              "word": "upside",
-              "pos": "n.",
-              "meaning": "上行空间，潜在收益（反义词：downside）。金融分析极高频词，指「若情况向好，还有多少涨幅或收益空间」。常见搭配：limited upside（有限上行）、capture the upside（捕捉收益）；比 potential gain 更简洁，是分析师日常口语",
-              "etymology": "up（向上）+ side（方面、侧面）；17世纪起用于表示「上方、顶部」的字面义，20世纪金融语境中演变为「潜在收益方向」，与 downside 构成对称的风险收益分析框架",
-              "morphology": "up-（方向前缀，向上）+ side（名词，方面）。对应词：downside（下行风险）；同前缀：upswing（上扬趋势）、upbeat（乐观的）。注意 upside down（颠倒）是完全不同的固定短语，不要混用",
-              "mnemonic": "把投资回报想象成一个盒子——upside 是盖子上方还有多少空间，downside 是底部还能跌多深。up = 涨，side = 方向/空间，合起来就是「向上的空间」，对称记忆效果最好",
-              "exampleEn": "Analysts see meaningful upside for Paramount's stock if the merger collapses and the company refocuses on its core content business.",
-              "exampleCn": "分析师认为，如果并购破裂且公司重新聚焦核心内容业务，派拉蒙股票存在可观的上行空间。"
-            }
-          ]
-        },
-        {
-          "id": "20260722-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/21/trump-trade-tariffs-greer-section-301.html",
-          "headlineEn": "White House Signals New Tariff Action as Current Duties Near Expiry",
-          "headlineCn": "白宫暗示即将推出新关税措施，现行关税期限将至",
-          "summaryEn": "U.S. Trade Representative Jamieson Greer signaled that the Trump administration may impose fresh tariffs just as existing duties are set to expire, hinting at a deliberate strategy to maintain trade leverage. The move suggests the White House aims to reconstitute a broad global tariff framework rather than let pressure ease. Analysts warn that prolonged tariff uncertainty could dampen business investment and disrupt global supply chains, making this a critical development for trade watchers and equity investors alike.",
-          "summaryCn": "美国贸易代表詹姆森·格里尔暗示，特朗普政府可能在现有关税到期前推出新一轮措施，显示白宫有意重建全球关税体系、维持贸易谈判筹码。分析人士警告，持续的关税不确定性可能抑制企业投资、扰乱全球供应链，各方贸易参与者与股票投资者均需密切关注后续动向。",
-          "excerpt": "The Trump administration is preparing new tariff actions as existing duties approach their expiration date. U.S. Trade Representative Jamieson Greer indicated the move is coming soon, suggesting the White House intends to sustain trade pressure on partners rather than allow a window of reduced friction to open.",
-          "vocab": [
-            {
-              "word": "tease",
-              "pos": "v.",
-              "meaning": "（在正式宣布前）公开暗示、预告某事即将到来。在商业和传播语境中，「tease」专指有意释放模糊信号以制造期待或谈判压力，比 hint（暗示）更具策略性，比 announce（宣布）更模糊。新闻标题中常见 tease a policy / tease a deal 等搭配，值得重点掌握。",
-              "etymology": "源自古英语 tæsan，原义为「梳理、拉扯羊毛纤维」，后引申为「挑逗、撩拨」，再演变为「以若隐若现的方式预告信息」。20 世纪广告业将其固定为「预热式营销信号」的专用动词。",
-              "morphology": "简单词根，无前后缀。常见派生词：teaser（n. 预告片；吊胃口的声明）、tease out（phrasal v. 逐步引出信息）。横向扩展：相同「挑逗」语义族有 tantalize、entice，语气依次递增。",
-              "mnemonic": "想象一只猫用爪子拨弄猎物却不抓住——这就是 tease。白宫「teases」新关税，就像猫爪在贸易伙伴面前晃悠，让对方看得见却摸不着，从而在谈判桌上维持心理压力。",
-              "exampleEn": "The tech giant teased a foldable device at CES without revealing specs or pricing, sparking speculation across the industry.",
-              "exampleCn": "这家科技巨头在 CES 上预告了一款可折叠设备，但未透露规格或售价，在业内引发广泛猜测。"
-            },
-            {
-              "word": "telegraph",
-              "pos": "v.",
-              "meaning": "（官员或发言人）通过公开言论提前透露政策意图，但未作正式宣告。在财经报道中，「telegraph」专指政策制定者以话语「放风」，市场据此提前定价，比 hint（暗示）更正式，比 announce（宣布）更留有余地，是美联储与贸易官员常用的隐性沟通手段，读财经英语必须掌握。",
-              "etymology": "源自希腊语 tele-（远）+ graphein（书写）。19 世纪电报机（telegraph）发明后，「telegraph」作为动词意指「用电报传递消息」；20 世纪后引申为「提前发出信号」，如今广泛见于政治与金融评论。",
-              "morphology": "前缀 tele-（远距离）+ 词根 -graph（书写、信号）。同族词：telephone、telescope、telegram；-graph 族：photograph、infographic、paragraph。记住 tele- 前缀，涉及「远程传输」的词基本都含此前缀。",
-              "mnemonic": "老式电报机在消息正式抵达前就嗒嗒发出莫尔斯电码——贸易代表「telegraphs」政策，就像提前发出电码信号，市场听懂了就开始行动，但官方声明还没来。信号先于行动，这就是 telegraph。",
-              "exampleEn": "The Fed chair telegraphed a potential rate pause by repeatedly emphasizing data dependency in his congressional testimony.",
-              "exampleCn": "美联储主席在国会证词中反复强调数据依赖性，从而向市场预告了可能暂停加息的意图。"
-            },
-            {
-              "word": "impose",
-              "pos": "v.",
-              "meaning": "（政府或权威机构）强制推行某项措施，尤指税收、制裁或限制，不经对方同意。在贸易语境中，impose tariffs / impose sanctions 是核心固定搭配，强调单方面权力行使，比 introduce（推出）语气强硬，比 enforce（执行）更侧重「原创性强制」而非「规则执行」，是理解贸易战新闻的关键词。",
-              "etymology": "源自拉丁语 imponere，由 im-（upon，置于之上）+ ponere（to place，放置）构成，字面义为「强行置于……之上」。经古法语 imposer 传入英语后，法律与财政义项逐渐固定。",
-              "morphology": "前缀 im-（in/on）+ 词根 pos/pon（放置，来自拉丁 ponere）。同词根族：compose（组合放置）、deposit（存放）、expose（暴露在外）、position（位置）。掌握 ponere 词根，大量「放置」类词汇均可触类旁通。",
-              "mnemonic": "「impose」= 强行给你「摆了个 pose（姿势）」——政府把关税这块石头 pose（放）在你背上，你没得选。记住：impose 带有不可拒绝的强制感，比 introduce 重得多，读到 impose tariffs 就知道是「硬上」。",
-              "exampleEn": "The government imposed a 25% tariff on steel imports to protect domestic manufacturers from foreign competition.",
-              "exampleCn": "政府对钢铁进口征收 25% 的关税，以保护国内制造商免受外国竞争冲击。"
-            },
-            {
-              "word": "duties",
-              "pos": "n. (plural)",
-              "meaning": "进出口关税；海关税。duty 在贸易法律语境中特指政府对跨境商品征收的税款，与 tariff 几乎同义但更常见于法律条文和海关文件。区别于泛指的 tax，duties 专属边境贸易场景。duty-free（免税）、anti-dumping duties（反倾销税）均为高频搭配，理解贸易协定和 WTO 规则必须掌握。",
-              "etymology": "源自古法语 dueté（应尽之责、所欠之物），来自拉丁语 debitus（owed，应欠的），由 debere（to owe）派生。14 世纪进入英语后，「应缴之费」义项固定，15 世纪起专指海关税。",
-              "morphology": "duty（n.）→ duties（复数）。词根来自 deb-/due-（欠、应得）：同族有 due（到期的；应得的）、due diligence（尽职调查）、debt（债务）。派生形容词：dutiable（应纳税的）、duty-free（免税的）。",
-              "mnemonic": "「duties」和「due」同根——这是你「欠」政府的钱。进口商品过关时，关税就是你对国家 due（应付）的账单。记住：duty-free 免税店里的商品，就是那些「免还这笔债」的货物。欠债还钱，欠税缴税。",
-              "exampleEn": "Under the new trade deal, import duties on agricultural goods will be phased out over a five-year period.",
-              "exampleCn": "根据新贸易协议，农产品进口关税将在五年内逐步取消。"
-            },
-            {
-              "word": "expire",
-              "pos": "v.",
-              "meaning": "（法律授权、协议、关税措施等）到期失效。在政策与金融语境中，expire 专指时限届满而自动终止，无需人为撤销，与 lapse（失效）近义但更常用于正式条文。读懂贸易战、合同法、期权到期日等新闻，必须掌握 expire 及其名词形式 expiration / expiry。",
-              "etymology": "源自拉丁语 expirare，由 ex-（out，向外）+ spirare（to breathe，呼吸）构成，字面义为「呼出最后一口气」，即死亡或终结。后引申为任何有时限之物的「寿终正寝」。",
-              "morphology": "前缀 ex-（out）+ 词根 spir-（呼吸，来自拉丁 spirare）。同词根族：inspire（吸气→激励）、aspire（向上呼吸→渴望）、respire（重新呼吸）、spirit（气息→精神）。记住 spir- = 呼吸，整个词族都围绕「气息」展开，记一个带一串。",
-              "mnemonic": "「expire」= ex（出去）+ pire（联想 fire 火焰或 breath 呼吸）——关税「呼出最后一口气」就过期了，就像蜡烛燃尽熄灭。护照 expires、订阅 expires、贸易关税也会 expire，都是「最后一口气」的隐喻，画面鲜明。",
-              "exampleEn": "The temporary tariff exemptions are set to expire at the end of the quarter unless Congress acts to extend them.",
-              "exampleCn": "临时关税豁免将于本季度末到期，除非国会采取行动予以延续。"
             }
           ]
         }
