@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-22T23:59:00.314600+00:00",
+  "lastUpdated": "2026-08-23T23:00:56.763840+00:00",
   "level": "B2",
   "days": {
+    "2026-08-24": {
+      "label": "8月24日 (周一)",
+      "stories": [
+        {
+          "id": "20260824-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
+          "headlineEn": "Nvidia customers reportedly warned about AI-related price hikes",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260824-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+          "headlineEn": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260824-3",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/40ae9cd3-fbc8-4a55-adaa-c24bc80481c9?syn-25a6b1a6=1",
+          "headlineEn": "Warsh seeks to soothe investors’ nerves as signs of economic strain mount",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Economists criticise Fed chair’s communication strategy as policymakers prepare to gather at Jackson Hole symposium",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Economists criticise Fed chair’s communication strategy as policymakers prepare to gather at Jackson Hole symposium",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-23": {
       "label": "8月23日 (周日)",
       "stories": [
@@ -5383,200 +5457,6 @@
               "mnemonic": "想象一枚新买的硬币，起初闪闪发光，放久了氧化变暗——协议、明星股票也一样，一旦别人拿到更好的条件，它就 lose its shine，不再耀眼",
               "exampleEn": "Once hailed as a triumph, the trade deal has begun to lose its shine as rivals strike better terms.",
               "exampleCn": "这份曾被誉为胜利的贸易协议，如今随着对手谈到更优条款而逐渐失去光彩。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-25": {
-      "label": "7月25日 (周六)",
-      "stories": [
-        {
-          "id": "20260725-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
-          "headlineEn": "Nvidia, Microsoft, Meta Warn Against 'Premature' Curbs on Open-Weight AI Models",
-          "headlineCn": "英伟达、微软、Meta联合警告：勿仓促限制开放权重AI模型",
-          "summaryEn": "Nvidia, Microsoft and Meta have signed a joint letter urging U.S. policymakers not to impose premature restrictions on open-weight AI models, whose source code and parameters are freely shared. The warning comes as Chinese developers release increasingly competitive open-weight models that rival top American offerings, intensifying pressure on Washington to avoid regulation that could hand an advantage to overseas rivals. Notably, OpenAI and Anthropic, both known for keeping their flagship models closed, declined to sign the letter, underscoring a split within the industry over how open AI development should be.",
-          "summaryCn": "英伟达、微软和Meta联合签署公开信，呼吁美国决策者不要过早限制开放权重AI模型——这类模型的代码和参数可自由获取。随着中国厂商推出的开放权重模型日益逼近甚至媲美美国顶尖产品，业界担心过度监管反而会把优势拱手让给海外对手。值得注意的是，一贯坚持闭源路线的OpenAI和Anthropic并未在这封信上签字，凸显行业内部对AI开放程度的分歧。",
-          "excerpt": "Nvidia, Microsoft and Meta are pushing back against calls for tighter AI regulation, warning that premature restrictions on open-weight models could backfire. Chinese open-weight models are gaining steam against leading American offerings, and notably, OpenAI and Anthropic chose not to sign the joint letter.",
-          "vocab": [
-            {
-              "word": "gain steam",
-              "pos": "phrase",
-              "meaning": "「势头增强、逐渐获得动能」——比《become popular》更形象，源自蒸汽机比喻，暗示从缓慢积累到加速的过程，常用于描述趋势、运动或产品采纳度的上升，财经科技报道高频搭配。",
-              "etymology": "短语，字面意为《积蓄蒸汽压力》，源自19世纪蒸汽机时代——锅炉需先积蓄足够蒸汽压力才能驱动机器运转，后引申为《积累动力、逐渐加速》。",
-              "morphology": "短语/复合词，无独立词源；可横向记忆同类比喻短语：run out of steam（丧失动力）、full steam ahead（全速前进）、let off steam（发泄）。",
-              "mnemonic": "想象一台老式蒸汽火车，一开始车轮几乎不动，锅炉里蒸汽越积越多，直到《噗》一声全速冲出——这正是gain steam的画面：起初缓慢，随后加速冲刺。",
-              "exampleEn": "Domestic AI chip startups are gaining steam as more cloud providers test their hardware in production.",
-              "exampleCn": "随着越来越多云服务商在生产环境中测试国产AI芯片初创公司的硬件，这些公司正逐渐获得动能。"
-            },
-            {
-              "word": "signatory",
-              "pos": "n.",
-              "meaning": "「（协议、联名信的）签署方」——比《person who signs》更正式精准，常见于外交、法律和企业联署声明语境，暗示具有正式约束力或代表性的身份，而非随手签字。",
-              "etymology": "源自拉丁语signare（《做记号、盖章》），经古法语signer演变为英语sign，signatory由sign+-atory（表《与……相关的人》）构成，19世纪起用于正式文件语境。",
-              "morphology": "sign（签名，词根）+ -atory（拉丁后缀，构成名词/形容词，表《具有……性质》）；同源词：signature（签名）、designate（指定）、consign（托付）。",
-              "mnemonic": "把signatory拆成sign（签）+ story（故事）——每一位signatory都在为这份联名信《签下自己的一段故事》，成为这份文件历史的正式一部分。",
-              "exampleEn": "As a signatory to the letter, Nvidia joins dozens of tech firms pushing back against tighter AI rules.",
-              "exampleCn": "作为这封联名信的签署方之一，英伟达加入了数十家反对收紧AI监管的科技公司行列。"
-            },
-            {
-              "word": "premature",
-              "pos": "adj.",
-              "meaning": "「为时过早的、仓促的」——比《early》更强调《尚未成熟就贸然行动》带来的风险，常用于批评决策、判断或行动缺乏充分依据，商业和政策语境中隐含负面评价。",
-              "etymology": "源自拉丁语praematurus，由prae-（《提前》）+ maturus（《成熟的》）组成，字面义为《未成熟即行动》，16世纪进入英语，最初用于医学（早产），后扩展至判断、决策等抽象领域。",
-              "morphology": "pre-（前缀，表《之前》）+ matur（词根，《成熟》）+ -e（形容词后缀）；同根词：mature（成熟的）、maturity（成熟度）、immature（不成熟的）。",
-              "mnemonic": "联想premature baby（早产儿）——还没到《成熟》（mature）的时间点就提前（pre-）出生了；同理，premature restriction就是监管还没到该出台的成熟时机就仓促推出。",
-              "exampleEn": "Regulators worry that premature restrictions could stifle innovation before the technology fully matures.",
-              "exampleCn": "监管机构担心，在技术尚未完全成熟之前就仓促实施限制，可能会扼杀创新。"
-            },
-            {
-              "word": "rival",
-              "pos": "v. / n.",
-              "meaning": "「匹敌、媲美」（动词）或「竞争对手」（名词）——作动词时比《compete with》更突出《实力相当、旗鼓相当》的对比意味，常用于描述新兴产品或公司追平行业领先者的水平。",
-              "etymology": "源自拉丁语rivalis（《共用一条河流的人》，由rivus《河流》派生），古时河流两岸争水的邻居常起争执，词义由此引申为《竞争者》，14世纪进入英语。",
-              "morphology": "riv（词根，《河流》，同源于river）+ -al（形容词/名词后缀）；同源词：river（河流）、derive（源自，字面《从河中引出》）、arrive（到达，本义《到岸边》）。",
-              "mnemonic": "想象两户人家共用一条河（river）取水，为争水源争得面红耳赤——这就是rival的词源画面：因共享资源而竞争的邻居，后来泛指任何《匹敌、对抗》的对手。",
-              "exampleEn": "The latest Chinese open-weight model now rivals top U.S. systems on several coding benchmarks.",
-              "exampleCn": "最新的中国开放权重模型如今在多项编程基准测试中已能媲美美国顶尖系统。"
-            },
-            {
-              "word": "offering",
-              "pos": "n.",
-              "meaning": "「（企业推出的）产品、服务或方案」——比单纯说《product》更书面、更常用于科技/金融语境，强调这是公司主动《呈上》给市场的成果，常见于《leading offerings》《product offerings》等搭配。",
-              "etymology": "源自古英语offrian（《献祭、呈献》，源自拉丁语offerre：《奉上》，由ob-《朝向》+ferre《携带》构成），中世纪多用于宗教献祭语境，现代逐渐世俗化，泛指公司推出的产品或服务。",
-              "morphology": "offer（动词，《提供》）+ -ing（名词化后缀，表《……的行为或结果》）；同源词：offer（提供）、proffer（呈递）、ferry（摆渡，同源于《携带》义）。",
-              "mnemonic": "把offering想象成公司在《献祭台》上摆出自己的产品——就像古人向神明offer祭品一样，企业如今向市场《呈上》自己的最新offering（产品/服务），供用户《检阅》挑选。",
-              "exampleEn": "Analysts say the startup's cloud offering still lags behind established players in reliability.",
-              "exampleCn": "分析师表示，这家初创公司的云服务产品在可靠性方面仍落后于成熟厂商。"
-            }
-          ]
-        },
-        {
-          "id": "20260725-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/",
-          "headlineEn": "Anduril Reportedly in Talks to Raise Funding at $100 Billion Valuation, Tripling Last Year's Mark",
-          "headlineCn": "防务科技公司Anduril洽谈融资，估值或达1000亿美元",
-          "summaryEn": "Defense technology startup Anduril Industries is reportedly negotiating a new funding round that could value the company at roughly $100 billion, according to Reuters — more than triple the roughly $30.5 billion valuation it commanded just last year. Founded by Palmer Luckey, Anduril builds autonomous drones, missiles, and AI-powered defense systems, and has become one of the most closely watched names in the booming defense-tech sector. The eye-catching jump shows how eagerly investors are chasing companies sitting at the crossroads of artificial intelligence and national security spending.",
-          "summaryCn": "据路透社报道，防务科技公司Anduril正洽谈新一轮融资，估值或达约1000亿美元，约为去年305亿美元估值的三倍。公司由帕尔默·勒基创立，专注自主无人机与AI防务系统，此次估值跃升显示资本对AI与国防结合领域的浓厚兴趣。",
-          "excerpt": "Anduril Industries is said to be closing in on a new funding round that could push its valuation to around $100 billion, according to Reuters — a dramatic leap from the roughly $30.5 billion mark the defense-tech company held just last year.",
-          "vocab": [
-            {
-              "word": "in talks",
-              "pos": "phrase",
-              "meaning": "表示双方处于早期磋商/谈判阶段，常见于财经报道中描述并购、融资传闻，比「negotiate」更口语化、更常见于新闻标题，暗示尚未确定，随时可能生变。",
-              "etymology": "短语，来自「talk」（古英语talu，意为叙述/讲述），引申为正式磋商；无独立词源。",
-              "morphology": "短语/固定搭配，无法拆解词根；同类搭配包括「in the works」（正在筹备中）、「under discussion」（正在讨论中）。",
-              "mnemonic": "想象两家公司代表围坐圆桌，正在talk（说话），但门还没关上——协议随时可能谈崩，这就是in talks的悬而未决感。",
-              "exampleEn": "The two rivals are reportedly in talks to merge their cloud businesses.",
-              "exampleCn": "据报道，这两家竞争对手正在洽谈合并各自的云业务。"
-            },
-            {
-              "word": "catapult",
-              "pos": "v.",
-              "meaning": "使…骤然跃升到新高度，常用于形容估值、股价、知名度的急速飙升，比「boost」更有画面感——像被弹射器猛地抛出去一样。",
-              "etymology": "源自希腊语「katapeltēs」（穿盾之物），经拉丁语catapulta进入英语，原指古代军事投石/弩炮，17世纪起引申为「猛烈抛射」。",
-              "morphology": "cata-（向下/穿过）+ -pult（投掷），同源词包括「catapult」本身作名词（弹射器）；可对比「launch」「hurl」等类似隐喻用法。",
-              "mnemonic": "想象中世纪攻城弹弓catapult猛地把石头弹上天——公司估值也像被这台机器狠狠弹射到了新高度。",
-              "exampleEn": "A viral product launch can catapult a small startup into a multi-billion-dollar valuation almost overnight.",
-              "exampleCn": "一次爆红的产品发布几乎能在一夜之间把一家小型初创公司弹射至数十亿美元估值。"
-            },
-            {
-              "word": "war chest",
-              "pos": "n. phrase",
-              "meaning": "指企业为并购、扩张或应对竞争而储备的大笔资金，原指军队打仗用的军饷箱，用在商业语境里比「funds」更形象，暗示这是一笔用于攻势行动的储备。",
-              "etymology": "字面直译自英语「war」（战争）+「chest」（箱子），中世纪军队用木箱运送军饷和物资，19世纪起被商界借用为比喻。",
-              "morphology": "复合词war + chest，两个独立单词直接组合；同类隐喻复合词有「nest egg」（储蓄金）、「rainy-day fund」（应急基金）。",
-              "mnemonic": "脑补一只上了锁的木箱，里面装满金币，士兵们围着它准备开战——公司的war chest就是留着打并购战、抢市场的那笔巨款。",
-              "exampleEn": "With a fresh $100 billion valuation, Anduril would have an enormous war chest to outbid rivals for defense contracts.",
-              "exampleCn": "若估值达到1000亿美元，Anduril将拥有一大笔充裕资金，足以在国防合同竞标中压过对手。"
-            },
-            {
-              "word": "deep-pocketed",
-              "pos": "adj.",
-              "meaning": "形容资金雄厚、财力充裕的投资者或机构，比单纯说「rich」更专业，常见于描述能持续为初创公司输血的大型基金或战略投资者。",
-              "etymology": "源自英语习语「deep pockets」（口袋很深，意指钱多到装不满），19世纪末在美国口语中出现，20世纪进入法律与商业用语。",
-              "morphology": "deep（形容词，深）+ pocket（名词，口袋）+ -ed（形容词化后缀，构成复合形容词）；类似构词有「tight-fisted」（吝啬的）、「cash-strapped」（缺钱的）。",
-              "mnemonic": "想象一位投资人穿着一件口袋深不见底的大衣，随手一掏就能拿出几十亿美元——这就是deep-pocketed的画面感。",
-              "exampleEn": "Only a handful of deep-pocketed sovereign wealth funds could write a check that size.",
-              "exampleCn": "只有少数几家资金雄厚的主权财富基金才能开出这么大金额的支票。"
-            },
-            {
-              "word": "cash injection",
-              "pos": "n. phrase",
-              "meaning": "指注入企业的一笔资金，常用于融资、纾困语境，比「investment」更强调及时输血、缓解资金压力或加速扩张的即时性。",
-              "etymology": "inject源自拉丁语injicere（in-投入 + jacere投掷），16世纪起用于医学「注射」，20世纪中期借用到金融领域比喻资金注入。",
-              "morphology": "in-（进入）+ ject（投掷，词根同project、reject、eject）+ -ion（名词后缀）；同根词包括project（投射/项目）、reject（拒绝）、eject（弹出）。",
-              "mnemonic": "想象一支巨大的注射器，把一沓沓现金直接打进公司的静脉——cash injection就是给公司注入的这剂强心针。",
-              "exampleEn": "The startup survived its cash crunch thanks to a timely cash injection from an existing investor.",
-              "exampleCn": "多亏现有投资者及时注入的一笔资金，这家初创公司才挺过了现金短缺危机。"
-            }
-          ]
-        },
-        {
-          "id": "20260725-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/24/treasury-yields-fed-mortgage-rates.html",
-          "headlineEn": "Why Bond Yields Are Pushing Some Consumer Interest Rates Higher",
-          "headlineCn": "债市收益率上升，为何推高你的部分贷款利率",
-          "summaryEn": "Many consumer loans, from 30-year mortgages to certain business loans, don't track the Federal Reserve's short-term rate directly. Instead, lenders peg them to the yield on the 10-year Treasury bond, which reflects what investors demand to lend the U.S. government money for a decade. As bond investors worry about inflation and rising government debt, they have pushed that yield higher in recent weeks. Because banks add a spread on top of the Treasury yield to cover their own risk, the increase quickly filters through to what ordinary borrowers pay each month.",
-          "summaryCn": "许多消费贷款（如30年期房贷）并不直接跟随美联储短期利率，而是与10年期美国国债收益率挂钩，这反映了投资者借钱给美国政府十年所要求的回报。近期债券投资者担忧通胀与政府债务，不断抛售债券，把收益率推高。银行会在国债收益率基础上再加一层利差以覆盖风险，这种上涨很快传导到普通人每月要还的贷款金额上。",
-          "excerpt": "Many types of consumer loans, such as mortgages, peg their interest rate to the yield on the 10-year Treasury bond — and that yield has been climbing steadily in recent weeks, quietly nudging up borrowing costs for millions of ordinary households and small businesses across the country.",
-          "vocab": [
-            {
-              "word": "peg",
-              "pos": "v.",
-              "meaning": "表示将某个数值/价格与另一个基准绑定，金融文本高频动词，比《link》更强调固定比例关系，隐含《钉住不动》的意象。",
-              "etymology": "源自中古英语《pegge》，指用来固定的木钉/木栓，16世纪起延伸出《钉住、固定》之意，20世纪广泛用于金融语境表示汇率、利率的挂钩。",
-              "morphology": "单音节词根peg（钉子）直接动词化，无前后缀；相关词：pegboard（钉板）、pegged exchange rate（钉住汇率）、unpegged（未挂钩的）。",
-              "mnemonic": "想象把一个衣夹（peg）夹在晾衣绳上——衣物的位置完全跟着绳子走，动弹不得；同样，被peg住的利率也只能跟着基准利率的涨跌走。",
-              "exampleEn": "The central bank pegged the local currency to the U.S. dollar to keep import prices stable.",
-              "exampleCn": "该央行将本国货币与美元挂钩，以保持进口价格稳定。"
-            },
-            {
-              "word": "creep up",
-              "pos": "phrasal v.",
-              "meaning": "强调数值一点点、不知不觉地攀升，语气比《rise》或《surge》更温和，常用于描述通胀、利率等缓慢累积的变化，暗含《不易察觉却难以逆转》的意味。",
-              "etymology": "creep源自古英语《creopan》，本义为《匍匐爬行》；up表方向。二者组合的《creep up》在19世纪开始用于比喻价格、数值的缓慢上涨。",
-              "morphology": "creep（爬）+ up（向上），属于动词+副词构成的短语动词；同类结构如creep into（悄悄渗入）、creep along（缓慢前进）。",
-              "mnemonic": "想象一只虫子（creep原义爬行）一点点往上爬——利率也是这样，不是突然跳涨，而是像虫子爬墙一样一天涨一点，等你发现时已经爬得很高了。",
-              "exampleEn": "Grocery prices have been creeping up for months, even as headline inflation cools.",
-              "exampleCn": "尽管总体通胀在降温，食品杂货价格却已经悄悄上涨了好几个月。"
-            },
-            {
-              "word": "spread",
-              "pos": "n.",
-              "meaning": "指两个相关利率或价格之间的差额，例如贷款利率与国债收益率之间银行加收的部分；金融文本核心术语，比《difference》更专业、更强调风险溢价的含义。",
-              "etymology": "源自古英语《spraedan》，本义为《展开、铺开》，16世纪起衍生出《差距、幅度》之意，20世纪初被华尔街借用来指买卖价差或利率差。",
-              "morphology": "动词spread（展开）转化为名词，零派生（无后缀变化）；相关搭配：bid-ask spread（买卖价差）、credit spread（信用利差）、spread out（展开）。",
-              "mnemonic": "把spread想象成三明治里涂开的（spread）那层果酱——中间那层《多出来的东西》就是银行在国债利率上多涂的一层利差，越厚，你付的利息就越多。",
-              "exampleEn": "Banks widened the spread over Treasury yields as default risk on consumer loans increased.",
-              "exampleCn": "由于消费贷款违约风险上升，银行扩大了相对于国债收益率的利差。"
-            },
-            {
-              "word": "hinge on",
-              "pos": "phrasal v.",
-              "meaning": "表示结果完全依赖某个核心因素，比《depend on》更书面、更强调《转折点》式的决定性，常用于描述政策或市场走向的关键变量。",
-              "etymology": "hinge源自中古英语《heng(e)》，本义为门的《合页/铰链》，14世纪起比喻用法出现，指事情像门一样《围绕某个支点转动》。",
-              "morphology": "名词hinge（铰链）转化为动词，加介词on构成短语动词；相关词：unhinged（失去理智，字面《脱离铰链》）、hinge joint（铰链关节）。",
-              "mnemonic": "想象一扇门，所有的开合动作都围绕那个小小的合页（hinge）转——利率走势也一样，未来涨跌全《挂》在通胀数据这一个合页上转动。",
-              "exampleEn": "Whether the central bank cuts rates again hinges on next month's inflation report.",
-              "exampleCn": "央行是否会再次降息，取决于下个月的通胀报告。"
-            },
-            {
-              "word": "in lockstep",
-              "pos": "phrase",
-              "meaning": "形容两个变量像列队行进的士兵一样完全同步变动，比《together》更形象、更强调《毫无偏差的一致性》，常用于描述市场利率与基准之间紧密跟随的关系。",
-              "etymology": "lockstep源自19世纪军事/监狱术语，指囚犯列队行走时脚步紧扣前一人、彼此不留间隙的行进方式，20世纪引申为《完全同步》的比喻用法。",
-              "morphology": "lock（锁住）+ step（脚步）构成复合词，字面意为《锁住的步伐》；常见搭配：march in lockstep、move in lockstep、fall out of lockstep（步调不一致）。",
-              "mnemonic": "想象一队囚犯脚镣相连、必须同时迈步——如果国债收益率往上迈一步，房贷利率就像被无形脚镣锁住一样，被迫跟着同时迈出一步。",
-              "exampleEn": "Mortgage rates have moved in lockstep with the 10-year Treasury yield for decades.",
-              "exampleCn": "几十年来，房贷利率一直与10年期国债收益率同步变动。"
             }
           ]
         }
