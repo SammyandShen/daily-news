@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-22T07:51:52.828839+00:00",
+  "lastUpdated": "2026-08-22T23:59:00.314600+00:00",
   "level": "B2",
   "days": {
+    "2026-08-23": {
+      "label": "8月23日 (周日)",
+      "stories": [
+        {
+          "id": "20260823-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "headlineEn": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260823-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html",
+          "headlineEn": "Warren Buffett Watch: It's Buffett, not Abel, who appears to be calling the shots on stocks",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "New Berkshire Hathaway CEO Greg Abel appears to be letting Warren Buffett and portfolio manager Ted Weschler make all the decisions on the company's equities.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "New Berkshire Hathaway CEO Greg Abel appears to be letting Warren Buffett and portfolio manager Ted Weschler make all the decisions on the company's equities.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260823-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+          "headlineEn": "As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "New 50% Trump administration tariffs on some Canadian exports went into place after the U.S. and Canada failed to reach a deal on Friday.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-22": {
       "label": "8月22日 (周六)",
       "stories": [
@@ -5503,200 +5577,6 @@
               "mnemonic": "想象一队囚犯脚镣相连、必须同时迈步——如果国债收益率往上迈一步，房贷利率就像被无形脚镣锁住一样，被迫跟着同时迈出一步。",
               "exampleEn": "Mortgage rates have moved in lockstep with the 10-year Treasury yield for decades.",
               "exampleCn": "几十年来，房贷利率一直与10年期国债收益率同步变动。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-24": {
-      "label": "7月24日 (周五)",
-      "stories": [
-        {
-          "id": "20260724-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
-          "headlineEn": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
-          "headlineCn": "AI芯片初创公司Etched估值飙至103亿美元，力压质疑声",
-          "summaryEn": "Etched, an AI chip startup founded by three Harvard dropouts, has reached a $10.3 billion valuation after a funding round backed by high-profile investors. The company claims its custom chips and memory components speed up inference — running trained AI models — for any model, without needing GPUs at all. The eye-watering price tag marks a sharp reversal for a startup that early skeptics doubted could challenge established AI hardware makers, highlighting how hungry investors now are for alternatives to traditional graphics processors.",
-          "summaryCn": "AI芯片初创公司Etched由三名哈佛辍学生创立，最新融资后估值飙升至103亿美元，获多家知名机构青睐。公司称其自研芯片与内存组件无需GPU即可为任意模型加速推理，这一估值也让早期的质疑声不攻自破，凸显资本对GPU替代方案的旺盛需求。",
-          "excerpt": "Etched, founded by three Harvard dropouts, says its new chips and memory components can speed up inference on any AI model without requiring GPUs at all. The claim has helped the startup secure a $10.3 billion valuation from a roster of high-profile backers.",
-          "vocab": [
-            {
-              "word": "defy",
-              "pos": "v.",
-              "meaning": "公然违抗、挑战某种预期或权威；比challenge语气更强，带有对抗看似不可撼动之力的意味，常见搭配defy expectations/gravity/skeptics，商业报道中形容逆势而为。",
-              "etymology": "源自古法语defier，来自拉丁语dis-（相反）+ fidare（信任，源自fides信任），原意为断绝信任关系、宣战，后引申为公然反抗、不服从。",
-              "morphology": "de-（相反/去除）+ fy（源自拉丁-ficare使成为，动词化后缀）；同类词：satisfy（使满足）、fortify（加固）、defiance（名词，反抗）。",
-              "mnemonic": "想象一个人对权威大喊De-fy you（拒绝相信你），画面是小创业公司像举着盾牌一样defy华尔街的质疑者，硬是杀出一条路。",
-              "exampleEn": "The startup's soaring valuation defies analysts who warned that AI chip bets were overhyped.",
-              "exampleCn": "这家初创公司飙升的估值，让那些警告AI芯片投资被过度炒作的分析师大跌眼镜。"
-            },
-            {
-              "word": "eye-watering",
-              "pos": "adj. phrase",
-              "meaning": "（数字、价格、估值）高得惊人；比huge或significant更生动，专用于金融报道形容夸张到近乎荒谬的金额，带一点调侃语气。",
-              "etymology": "字面意为让眼睛流泪的，源自英式口语，原指气味刺激到流泪（如芥末呛鼻），20世纪后期被财经媒体借用来形容令人咋舌的数字。",
-              "morphology": "eye（眼睛）+ water（流泪，动词化）+ -ing（形容词化分词后缀）；复合形容词，类似结构：mouth-watering（令人垂涎的）、breathtaking（令人屏息的）。",
-              "mnemonic": "想象看到账单上一串10,300,000,000美元，你的眼睛真的开始流泪（water），这就是eye-watering的画面感。",
-              "exampleEn": "Investors agreed to an eye-watering $10.3 billion valuation for a company with no finished product yet.",
-              "exampleCn": "投资者们竟然为一家产品尚未问世的公司，开出了高达103亿美元的惊人估值。"
-            },
-            {
-              "word": "bottleneck",
-              "pos": "n.",
-              "meaning": "瓶颈，指流程或系统中限制整体速度的关键卡点；科技报道中常指算力瓶颈、推理瓶颈，比笼统的problem更精准地指出是哪个环节在拖后腿。",
-              "etymology": "字面指瓶子的颈部，19世纪末从字面义引申为比喻义，因瓶颈处最窄、液体流速最慢，1890年代起进入工业与交通领域表示限制流量的关键点。",
-              "morphology": "bottle（瓶子）+ neck（颈部），复合名词，直接由物理形状转喻而来；相关词：bottlenecked（形容词，受阻的）。",
-              "mnemonic": "想象把水倒进细颈瓶子，水流被卡在最窄处，怎么倒都快不起来，这正是AI芯片行业常说的推理瓶颈。",
-              "exampleEn": "Etched claims its chips remove the inference bottleneck that slows down large language models on standard GPUs.",
-              "exampleCn": "Etched声称其芯片能消除让大语言模型在普通GPU上运行变慢的推理瓶颈。"
-            },
-            {
-              "word": "pedigree",
-              "pos": "n.",
-              "meaning": "出身背景、履历渊源，常带褒义，暗示血统纯正、来头不小；比background更强调值得炫耀的资历，常形容创始团队的名校或大厂背景为公司增信。",
-              "etymology": "源自古法语pié de grue（鹤脚），因家谱图上分支线条形似鹤爪而得名，13世纪起指纯种动物血统，后扩展指人的家世或机构的资历。",
-              "morphology": "不可拆解的复合借词，无独立词根前后缀；常见搭配：impressive pedigree、academic pedigree、of good pedigree。",
-              "mnemonic": "联想到纯种赛马的血统证书pedigree，创始人从哈佛辍学的经历就像给这家芯片公司贴上了一张闪亮的血统证书。",
-              "exampleEn": "The founders' Harvard pedigree helped Etched win over investors despite having no mass-market product yet.",
-              "exampleCn": "尽管还没有面向大众市场的产品，创始团队的哈佛背景仍帮助Etched赢得了投资者的信任。"
-            },
-            {
-              "word": "long shot",
-              "pos": "phrase (n.)",
-              "meaning": "成功概率很低的尝试、冷门赌注；源自赛马赔率极高的马匹，商业语境中形容不被看好却可能爆冷的项目，比unlikely更形象、更带赌博色彩。",
-              "etymology": "源自19世纪射击、赛马术语，指命中率极低的远距离射击，后来赛马博彩借用此词形容赔率高、鲜少获胜的马，20世纪引申为泛指希望渺茫的尝试。",
-              "morphology": "long（长的，远的）+ shot（射击、投篮），复合名词，无需前后缀拆解；相关搭配：not by a long shot（远不止如此）。",
-              "mnemonic": "想象赛马场赔率牌上写着50比1的那匹马，几乎没人下注，但它偏偏最后冲线夺冠，这就是当初大家眼中的Etched。",
-              "exampleEn": "Three Harvard dropouts building GPU-free AI chips seemed like a long shot until the funding rounds proved otherwise.",
-              "exampleCn": "三个哈佛辍学生想造出不需要GPU的AI芯片，原本看起来希望渺茫，直到一轮轮融资证明了他们的实力。"
-            }
-          ]
-        },
-        {
-          "id": "20260724-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
-          "headlineEn": "Intel Stock Surges as AI Boom Drives Fastest Revenue Growth in 15 Years",
-          "headlineCn": "英特尔股价大涨：搭上AI浪潮，营收增速创近15年新高",
-          "summaryEn": "Intel shares surged after the chipmaker posted blowout quarterly results and upbeat guidance, driven by surging demand for AI-related chips and data-center hardware. Revenue grew at its fastest pace in almost 15 years, beating Wall Street estimates and rebounding from a long slump in Intel's core PC and server businesses. The results suggest Intel is finally catching the AI tailwind that turned Nvidia into a trillion-dollar juggernaut, giving investors fresh hope that the chipmaker's turnaround is starting to pay off after years of losing ground to rivals.",
-          "summaryCn": "英特尔公布远超预期的季度业绩和乐观展望，受AI芯片及数据中心硬件需求激增推动，股价大幅上涨。营收增速创近15年最快纪录，超出华尔街预期，PC和服务器业务的低迷也随之反弹。这或许意味着英特尔终于搭上了让英伟达市值破万亿的AI顺风车，为苦苦转型的芯片巨头带来新希望。",
-          "excerpt": "Intel rallied sharply after the chipmaker reported blowout quarterly earnings and issued bullish guidance for the months ahead, with executives pointing to booming demand for AI chips and data-center hardware as the key driver behind the company's strongest revenue growth in almost fifteen years.",
-          "vocab": [
-            {
-              "word": "tailwind",
-              "pos": "n.",
-              "meaning": "顺风、助力因素；商业报道里常用来指一股外部力量在背后推着业绩往前走，比直接说《利好因素》更形象、更常见于财经标题，还常与反义词headwind（逆风/阻力）成对出现",
-              "etymology": "由古英语tægl（尾巴）+ wind（风）组成，字面指从后方吹来、能加速前进的风；20世纪中期开始被经济学与商业媒体借用，比喻任何推动增长的外部有利因素",
-              "morphology": "复合词：tail（尾部）+ wind（风），不可再拆分前后缀。同类复合词：headwind（逆风）、downwind（顺风向）、upwind（逆风向）",
-              "mnemonic": "想象帆船顺风而行，风从背后推着你加速前进——这就是tailwind。财经新闻里说《AI tailwind》，就是AI热潮在背后推着公司业绩往前冲",
-              "exampleEn": "Intel is enjoying a strong AI tailwind that helped push quarterly revenue to its fastest growth in fifteen years.",
-              "exampleCn": "英特尔正享受着强劲的AI顺风助力，这帮助其季度营收增速创下十五年来最快纪录。"
-            },
-            {
-              "word": "windfall",
-              "pos": "n.",
-              "meaning": "意外之财、飞来横财；专指没花力气就获得的额外收益，比《unexpected profit》更地道、更生动，财经报道常用来形容行业景气带来的额外利润",
-              "etymology": "中古英语wind（风）+ fall（落下）组成，字面指被风吹落的果实或树枝——按古代英国法律，这些落果归平民所有而非地主，16世纪起引申为任何不劳而获的意外收益",
-              "morphology": "复合词：wind + fall，无独立前后缀。常见搭配：windfall profit（意外利润）、windfall tax（暴利税）",
-              "mnemonic": "想象暴风雨过后，苹果树下掉了一地熟透的苹果——不用爬树就能白捡。公司的windfall profit就像这些白捡的苹果，是没预料到的额外收获",
-              "exampleEn": "The chip shortage created a windfall for memory makers who suddenly could charge premium prices.",
-              "exampleCn": "芯片短缺给存储芯片制造商带来了一笔意外之财，他们得以突然抬高售价。"
-            },
-            {
-              "word": "rebound",
-              "pos": "v./n.",
-              "meaning": "（触底后）反弹、回升；比simple的《recover》更强调《先跌到底、再猛地弹回来》的画面感，常用于描述股价、销量触底后的强劲回升",
-              "etymology": "源自古法语rebondir（re-《再次/返回》+ bondir《跳跃、回响》），14世纪进入英语，本指球撞到硬物后弹回，后延伸用于市场、经济从低谷《弹起》",
-              "morphology": "re-（再次/返回）+ bound（跳跃）→ rebound。同源词：bound（跳跃）、bounce（弹跳）、rebounding（现在分词形式）",
-              "mnemonic": "想象篮球砸在篮筐上又弹了回来——这就是rebound（篮板球）。股价的rebound就像这个球，先触底，再猛地弹回高处",
-              "exampleEn": "Intel's stock rebounded sharply after months of disappointing sales figures.",
-              "exampleCn": "在数月令人失望的销售数据之后，英特尔股价出现了大幅反弹。"
-            },
-            {
-              "word": "beat",
-              "pos": "v.",
-              "meaning": "（业绩）超出预期，财经语境中固定搭配《beat estimates/expectations》，比《exceed》更口语化、更常见于财经头条，反义词是同样常见的miss（不及预期）",
-              "etymology": "源自古英语beatan，本义为反复用力击打；中古英语时期衍生出《击败对手》的体育竞技义项，20世纪财经新闻借用这一竞技感，用来形容业绩《打败》了分析师预期",
-              "morphology": "不规则动词变化：beat-beat-beaten。相关用法：a beat（名词，指超出预期的幅度，如《a 5-cent beat》）、beatable（可战胜的）",
-              "mnemonic": "想象拳击手一拳把对手打倒——财报季里，公司《beat》华尔街预期，就像一拳击溃了分析师原本设定的低门槛",
-              "exampleEn": "The chipmaker beat Wall Street's revenue estimates by a wide margin, sending shares soaring.",
-              "exampleCn": "这家芯片制造商的营收大幅超出华尔街预期，推动股价飙升。"
-            },
-            {
-              "word": "juggernaut",
-              "pos": "n.",
-              "meaning": "势不可挡的庞然大物、碾压式的强大力量；常用来形容行业里那种谁都挡不住的巨头企业或趋势，比《dominant player》多了一层《无法阻挡、势如破竹》的画面感",
-              "etymology": "源自印地语/梵语Jagannath（意为《世界之主》，印度教克里希纳神的称号）；英国殖民时期的记述（多有夸张）描述信徒在庆典中被巨大的神庙战车碾压，由此衍生出英语里《无法阻挡的碾压力量》这一比喻义",
-              "morphology": "借词，无法用英语词缀拆解；在英语中基本只作名词使用，没有常见的派生词形式",
-              "mnemonic": "想象一辆巨大无比的战车轰隆隆向前碾压，谁也挡不住——这就是juggernaut背后的画面。当AI芯片需求猛到连老牌厂商都被卷入时，就可以说某公司成了行业里的juggernaut",
-              "exampleEn": "Nvidia has become such a juggernaut in AI chips that rivals are racing just to keep up.",
-              "exampleCn": "英伟达已成为AI芯片领域势不可挡的巨头，竞争对手只能拼命追赶。"
-            }
-          ]
-        },
-        {
-          "id": "20260724-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html",
-          "headlineEn": "10-Year Treasury Yield Hits 18-Month High as Oil Surge Revives Inflation Worries",
-          "headlineCn": "10年期美债收益率因油价飙升引发通胀担忧升至18个月新高",
-          "summaryEn": "U.S. Treasury yields rose sharply on Wednesday, tracking a jump in oil prices that reignited worries about inflation. The move came as traders also digested a report showing a slump in weekly jobless claims, a sign the labor market remains tighter than expected. Together, the two data points pushed the benchmark 10-year yield to its highest level since January 2025. Rising yields matter because they raise borrowing costs for households, businesses, and the government, and they often pressure stock valuations, especially for rate-sensitive sectors like tech.",
-          "summaryCn": "周三美债收益率随油价大涨而走高，通胀担忧再度升温。同时公布的每周初请失业金人数意外骤降，显示劳动力市场依然偏紧，进一步推升了收益率。受两大因素影响，基准10年期美债收益率升至2025年1月以来最高水平，借贷成本上升，科技股等利率敏感板块承压。",
-          "excerpt": "U.S. Treasury yields climbed on Wednesday, tracking oil prices higher, as traders also reacted to a surprising slump in weekly claims for unemployment insurance — a signal that the labor market may be cooling more slowly than expected.",
-          "vocab": [
-            {
-              "word": "rekindle",
-              "pos": "v.",
-              "meaning": "重新点燃（希望、担忧、兴趣等抽象事物），比revive更强调《火种重新被点着》的画面感，财经报道中常用来描述某个旧问题（如通胀）再度被引爆。",
-              "etymology": "前缀re-（拉丁语，意为再次）+ kindle（源自古诺尔斯语kynda，意为点火、点燃），字面即重新点火。",
-              "morphology": "re-（再次）+ kindle（点燃）。同前缀词：revive、reignite、restore；同词根词：kindling（引火物）。",
-              "mnemonic": "想象炉子里快熄灭的炭火，被人重新吹了一口气又燃起来——re-kindle就是给快灭的担忧或希望重新吹口气。",
-              "exampleEn": "The central bank's dovish comments briefly rekindled hopes of a rate cut before oil prices spoiled the mood.",
-              "exampleCn": "央行偏鸽派的言论一度重新点燃了市场对降息的希望，直到油价上涨打乱了这一情绪。"
-            },
-            {
-              "word": "slump",
-              "pos": "n. / v.",
-              "meaning": "（数据、销量、价格等）骤然下滑，比decline/decrease更口语化、更强调《猛然跌落》的动感，财经新闻里常用于经济数据或股价的突然走弱。",
-              "etymology": "拟声词起源，模仿物体沉重跌落时发出的闷响，19世纪进入英语，最初指人瘫坐、物体塌陷，后引申为经济数据下滑。",
-              "morphology": "不可拆分的单音节词。常见搭配：economic slump（经济萧条）、sales slump（销售低迷）、slump in demand（需求骤降）。",
-              "mnemonic": "联想一个人瘫坐（slump）在沙发上，无精打采——数据slump就像图表突然瘫软下垂。",
-              "exampleEn": "Investors were caught off guard by the sudden slump in weekly jobless claims, which pointed to a tighter labor market.",
-              "exampleCn": "投资者对每周初请失业金人数骤然下滑感到意外，这一数据显示劳动力市场比预期更为紧张。"
-            },
-            {
-              "word": "basis point",
-              "pos": "n. phrase",
-              "meaning": "基点，等于0.01个百分点，是债券和利率市场描述微小变动的标准单位，比直接说百分比更精确，财经记者几乎必用。",
-              "etymology": "短语/复合词，无独立词源；basis源自希腊语basis（意为基础、底座），point表示计量单位，二者组合于20世纪金融业形成专业术语。",
-              "morphology": "basis（基础）+ point（点）。缩写为bp或bps（复数）。同类计量词：percentage point（百分点）。",
-              "mnemonic": "把1%想象成一块蛋糕切成100份，每一份就是一个basis point——债市里动辄涨了5个基点，就是切走了蛋糕的一小角。",
-              "exampleEn": "The 10-year yield climbed about 15 basis points after the inflation data surprised to the upside.",
-              "exampleCn": "在通胀数据意外走高后，10年期国债收益率上涨了约15个基点。"
-            },
-            {
-              "word": "safe haven",
-              "pos": "n. phrase",
-              "meaning": "避险资产/避风港，指经济动荡时资金涌入的资产（如美债、黄金），与risk-off情绪相对，是理解债市资金流向的核心概念。",
-              "etymology": "haven源自古英语hæfen，本义为港口、停泊处；safe+haven字面即安全的港湾，16世纪起比喻用法进入英语。",
-              "morphology": "safe（安全的）+ haven（港湾）。同源词：harbor（港口，同源异形）；反义搭配：risk asset（风险资产）。",
-              "mnemonic": "想象暴风雨中的渔船纷纷驶入避风港——市场恐慌时，资金也会像渔船一样涌向美债这个safe haven。",
-              "exampleEn": "Rising yields suggest Treasuries are losing some of their appeal as a safe haven for nervous investors.",
-              "exampleCn": "收益率上升表明，美债作为紧张投资者避风港的吸引力有所减弱。"
-            },
-            {
-              "word": "flight to quality",
-              "pos": "phrase",
-              "meaning": "资金转向高质量/低风险资产的行为，专指恐慌时投资者抛售风险资产、买入国债等安全资产的现象，是解读美债走势必备的术语。",
-              "etymology": "短语/复合词，无独立词源；flight在此取逃离、飞奔之义（源自古英语fleon，意为逃跑），quality指资产的信用质量。",
-              "morphology": "flight（逃离）+ to（介词）+ quality（质量）。近义短语：flight to safety（意义几乎相同，safety替换quality）。",
-              "mnemonic": "把市场恐慌想象成一群人从着火的房子（风险资产）逃向坚固的防空洞（优质资产）——这场逃亡就是flight to quality。",
-              "exampleEn": "A slowdown in the flight to quality helped push Treasury yields to their highest level in 18 months.",
-              "exampleCn": "资金流向优质资产的避险行为有所放缓，这推动美债收益率升至18个月来的最高水平。"
             }
           ]
         }
