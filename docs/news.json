@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-24T23:00:12.574477+00:00",
+  "lastUpdated": "2026-08-25T23:11:00.128430+00:00",
   "level": "B2",
   "days": {
+    "2026-08-26": {
+      "label": "8月26日 (周三)",
+      "stories": [
+        {
+          "id": "20260826-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/25/apple-announces-new-mac-mini-and-mac-studio-models-with-ai-upgrades.html",
+          "headlineEn": "Apple announces new Mac Mini and Mac Studio models with AI upgrades",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "\"With these frameworks and new chips, developers can run and fine-tune large AI models locally on their Mac,\" Apple said.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "\"With these frameworks and new chips, developers can run and fine-tune large AI models locally on their Mac,\" Apple said.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260826-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/25/2-of-our-software-stocks-face-major-tests-of-whether-their-rallies-are-for-real.html",
+          "headlineEn": "2 of our software stocks face major tests of whether their rallies are for real",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Here are the questions we are looking to answer when CrowdStrike and Salesforce report earnings Wednesday evening.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Here are the questions we are looking to answer when CrowdStrike and Salesforce report earnings Wednesday evening.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260826-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html",
+          "headlineEn": "Canada unveils retaliatory tariffs on about $20 billion of U.S. goods",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Canadian trade negotiators left the U.S. last week after failing to clinch a trade deal that would stop President Donald Trump's new tariffs from taking effect.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Canadian trade negotiators left the U.S. last week after failing to clinch a trade deal that would stop President Donald Trump's new tariffs from taking effect.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-25": {
       "label": "8月25日 (周二)",
       "stories": [
@@ -5143,200 +5217,6 @@
               "mnemonic": "utter和outer同源——想象把话从嘴里往外(outer)吐出来，就是utter(说出)，而这个动作的结果就叫utterance。",
               "exampleEn": "Traders scrutinized every utterance from the Fed chair for hints about future policy.",
               "exampleCn": "交易者仔细审视美联储主席的每一句发言，寻找未来政策的蛛丝马迹。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-27": {
-      "label": "7月27日 (周一)",
-      "stories": [
-        {
-          "id": "20260727-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-          "headlineEn": "Hugging Face CEO Calls for 'Radical Transparency' After 'Unprecedented' OpenAI Hack",
-          "headlineCn": "OpenAI遭「史无前例」黑客攻击，CEO呼吁彻底透明",
-          "summaryEn": "Hugging Face CEO Clement Delangue publicly urged 'radical transparency' after news broke of what he called an 'unprecedented' hack targeting OpenAI, reportedly carried out with the help of an autonomous AI agent. Delangue argued that if AI systems can now be weaponized to launch cyberattacks with minimal human oversight, companies developing them owe the public a far more open account of what happened, how it happened, and what safeguards are being built to prevent a repeat. His comments intensify pressure on OpenAI to disclose fuller details of the breach.",
-          "summaryCn": "Hugging Face CEO Clement Delangue就OpenAI一起「史无前例」的黑客攻击（据称由自主AI代理协助发起）呼吁「彻底透明」。他认为AI能用于攻击，企业就应坦诚公开经过与防范措施。此言论加大了外界要求OpenAI披露更多细节的压力。",
-          "excerpt": "The first autonomous agent cyberattack is an unprecedented event, Hugging Face CEO Clement Delangue said, arguing it deserves an unprecedented response from the companies involved in building and deploying the technology.",
-          "vocab": [
-            {
-              "word": "unprecedented",
-              "pos": "adj.",
-              "meaning": "史无前例的，前所未有的。比 unusual 更强调《从未有过任何先例可循》，常用于形容重大危机、政策转向或市场剧烈波动，语域偏正式，常见于新闻标题以制造紧迫感。",
-              "etymology": "源自拉丁语 praecedere（prae-《在前》+ cedere《走、行进》），经古法语 precedent 演变为《先例》，加否定前缀 un- 构成《无先例可循》。",
-              "morphology": "un-（否定前缀）+ precedent（先例，名词）+ -ed（形容词化后缀）。同根词：precedent（先例）、precede（先于）、proceed（继续进行，注意拼写易混）。",
-              "mnemonic": "拆成 un + precede + nt：想象法庭上律师翻遍所有《先前判例》（precedent）却一个都找不到（un-），只能说《这事前所未有》。",
-              "exampleEn": "Regulators called the AI-driven breach unprecedented, warning that existing cybersecurity rules were never designed for autonomous attackers.",
-              "exampleCn": "监管机构称这起由AI主导的入侵事件史无前例，并警告现有网络安全规则从未考虑过自主攻击者的情况。"
-            },
-            {
-              "word": "sound the alarm",
-              "pos": "phrase",
-              "meaning": "（对潜在危险）发出警报、敲响警钟。比直白的 warn 更有画面感，暗示情况紧急、需要立刻行动，常用于科技高管或分析师对新型风险的公开预警。",
-              "etymology": "短语源自军事/消防场景中实际敲响警铃（alarm 源自意大利语 all'arme，意为《拿起武器》）以示危险迫近，19世纪起被引申用于比喻性的公开警告。",
-              "morphology": "短语/复合词，无独立词源可拆；可与近义搭配对比记忆：raise the alarm、trigger an alarm、set off alarm bells。",
-              "mnemonic": "想象消防站里有人猛拉警铃绳（sound=发出声音，alarm=警报），画面感直接对应《敲响警钟、大声疾呼》。",
-              "exampleEn": "Several AI safety researchers sounded the alarm months before the breach, but few companies changed their defenses.",
-              "exampleCn": "几位AI安全研究员早在入侵事件发生前几个月就敲响了警钟，但很少有公司因此改进防御措施。"
-            },
-            {
-              "word": "vulnerability",
-              "pos": "n.",
-              "meaning": "（系统、网络的）安全漏洞，脆弱点。区别于日常义《脆弱、易受伤》，在网络安全语境中特指可被利用的技术缺陷，是安全报告和黑客攻击报道里的高频专业术语。",
-              "etymology": "源自拉丁语 vulnerare（《使受伤》，来自 vulnus《伤口》），16世纪进入英语表示《易受攻击的状态》，20世纪后期被计算机安全领域借用指代系统缺陷。",
-              "morphology": "vulner-（词根，《伤》）+ -able（能……的）+ -ity（名词后缀，表性质）。同根词：vulnerable（形容词）、invulnerable（无懈可击的，加否定前缀 in-）。",
-              "mnemonic": "词根 vulner 让人联想到 vulture（秃鹫）盯上受伤猎物——系统一旦有 vulnerability（伤口），攻击者就像秃鹫一样扑上来。",
-              "exampleEn": "The autonomous agent reportedly exploited a previously unknown vulnerability to gain access to internal systems.",
-              "exampleCn": "据报道，这个自主代理利用了一个此前未知的安全漏洞，从而获得了内部系统的访问权限。"
-            },
-            {
-              "word": "orchestrate",
-              "pos": "v.",
-              "meaning": "精心策划、协调组织（一场复杂行动）。源自音乐指挥的隐喻，比 organize 多了《多方协调、幕后指挥》的意味，常用于形容黑客攻击、公关危机或复杂交易的幕后操盘。",
-              "etymology": "源自法语 orchestrer，源头是希腊语 orkhestra（古希腊剧场中乐队所在的表演区），19世纪引申出《像指挥乐队一样统筹安排》的比喻义。",
-              "morphology": "orchestr-（词根，《乐队、乐团》）+ -ate（动词后缀，表《使……》）。同根词：orchestra（管弦乐队）、orchestration（编排、协调，名词形式）。",
-              "mnemonic": "想象一个黑客坐在控制台前，像乐队指挥（orchestra conductor）一样挥手调度各个AI代理去执行攻击的不同环节——这就是 orchestrate 的画面。",
-              "exampleEn": "Investigators believe the attack was orchestrated by an AI agent capable of chaining together multiple exploits without human input.",
-              "exampleCn": "调查人员认为，这次攻击是由一个AI代理策划的，它能够在无需人类干预的情况下串联多个漏洞发起攻击。"
-            },
-            {
-              "word": "wake-up call",
-              "pos": "n. phrase",
-              "meaning": "警醒、当头一棒（促使人们意识到问题严重性的事件）。比 warning 更强调《猝不及防的震动式提醒》，常用来形容一起标志性事件如何促使整个行业改变态度或政策。",
-              "etymology": "字面原指酒店的《叫醒电话服务》，20世纪后期被引申为比喻用法，指某个突发事件像清晨闹铃一样把人从麻痹状态中《叫醒》。",
-              "morphology": "短语/复合词，无独立词源；wake（醒来）+ up（起来，构成短语动词 wake up）+ call（电话/呼叫）拼合成名词短语。",
-              "mnemonic": "想象你在酒店睡过头，前台突然打来 wake-up call 把你吓醒——这次AI黑客事件对整个科技行业而言就是这样一通《惊醒电话》。",
-              "exampleEn": "For many in Silicon Valley, the incident was a wake-up call about the risks of deploying autonomous agents without adequate safeguards.",
-              "exampleCn": "对硅谷许多人来说，这起事件是一记警钟，提醒大家在没有充分防护措施的情况下部署自主代理存在风险。"
-            }
-          ]
-        },
-        {
-          "id": "20260727-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/26/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-          "headlineEn": "3 Things to Watch in Stocks This Week: Earnings, the Fed and Inflation",
-          "headlineCn": "本周股市三大看点：科技财报、美联储会议与通胀数据",
-          "summaryEn": "Investors face a packed week on Wall Street, with several of the largest technology companies reporting quarterly earnings, the Federal Reserve holding its policy meeting, and fresh inflation data due out. Together these events could set the tone for stocks heading into the second half of the year. Big Tech results will show whether heavy spending on AI infrastructure is paying off, while the Fed's tone will hint at how soon rate cuts might arrive, and any surprise in inflation could quickly reshape expectations.",
-          "summaryCn": "本周美股将迎来密集的关键事件：多家科技巨头公布季度财报、美联储召开政策会议，以及最新通胀数据出炉。这三大焦点将共同决定下半年股市的走向。科技巨头的业绩将检验其在人工智能基础设施上的巨额投入能否兑现回报；美联储的决定与措辞将透露降息的时间窗口；而通胀数据一旦超出预期，也可能迅速改变市场对政策路径的判断。",
-          "excerpt": "It's a busy week filled with Big Tech earnings, a Federal Reserve meeting and fresh inflation data — three catalysts that could determine whether the market's recent rally has legs or stalls out as investors weigh corporate spending against the path of interest rates.",
-          "vocab": [
-            {
-              "word": "on deck",
-              "pos": "phrase",
-              "meaning": "即将登场、排在下一位。源自棒球术语，比直接说next更形象，常用于财经新闻描述接下来要发生的重大事件（如财报、议息会议），带有排队等候上场的画面感。",
-              "etymology": "源自棒球运动术语on deck，指下一位击球员在场边等待上场；因站在球员休息区的甲板状台阶上而得名，后引申为泛指即将轮到、排在下一位。",
-              "morphology": "介词短语，不可拆解为词根词缀；同类棒球引申短语还有step up to the plate（挺身而出）、strike out（失败）、touch base（联系一下）。",
-              "mnemonic": "想象棒球场上下一位击球手站在甲板边上摩拳擦掌等待上场——本周财报和会议就像排队等着上场影响市场。",
-              "exampleEn": "With earnings season in full swing, results from three more Big Tech firms are on deck this week.",
-              "exampleCn": "财报季正如火如荼，本周还有三家科技巨头的业绩即将登场。"
-            },
-            {
-              "word": "data-dependent",
-              "pos": "adj./phrase",
-              "meaning": "（尤指央行）依据数据行事、不预设立场。比flexible更精确地道出央行决策逻辑——不提前承诺路径，而是紧盯每一份新数据再决定，是财经报道中描述美联储的高频术语。",
-              "etymology": "复合词，由data（拉丁语datum，意为给定之物）与dependent（拉丁语dependere，意为悬挂、依附于）组合而成，字面即依附于数据。",
-              "morphology": "data + depend + -ent（形容词后缀，表具有某种性质）；同后缀词如confident、resident、consistent，可类比记忆。",
-              "mnemonic": "把美联储想象成一只悬挂在数据线上的木偶——每一个新数据点一动，它的决策就跟着摆动，绝不提前定好走向。",
-              "exampleEn": "The central bank has repeatedly stressed that it remains data-dependent rather than committed to a fixed rate path.",
-              "exampleCn": "央行反复强调，其决策依然依据数据行事，而非锁定固定的降息路径。"
-            },
-            {
-              "word": "digest",
-              "pos": "v.",
-              "meaning": "（市场）消化、吸收信息或冲击。比process更生动的隐喻用法，把海量财报和数据比作食物，强调市场需要时间咀嚼才能反映到价格上。",
-              "etymology": "源自拉丁语digerere（分开、分散、消化），由di-（分开）加gerere（携带、搬运）构成，本义为分解搬运，后专指食物的消化过程，进而引申为吸收信息。",
-              "morphology": "di-（分开）+ ger（携带，同根词见gesture、suggest）+ -est；同根词还有congest（拥堵）、ingest（摄入）。",
-              "mnemonic": "把市场想象成一个巨大的胃：本周的财报、会议纪要、通胀数据像一顿信息大餐一股脑塞进去，价格需要时间才能把这些食物消化完。",
-              "exampleEn": "Traders will need a few sessions to digest the flood of earnings and macro data hitting the tape this week.",
-              "exampleCn": "交易员需要几个交易日才能消化本周涌入市场的大量财报和宏观数据。"
-            },
-            {
-              "word": "marquee",
-              "pos": "adj./n.",
-              "meaning": "头牌的、招牌级的（事件或名字）。源自剧院门口的巨型灯箱招牌，专指最耀眼、最吸睛的那一个，财经报道常用来形容最受瞩目的财报或事件，比important更强调其明星效应和吸睛程度。",
-              "etymology": "源自法语marquise（原指贵族女性的遮篷/顶棚），17世纪指宅邸门前的大帐篷或雨棚，20世纪初在美国演变为剧院门口悬挂演员姓名的大型广告牌，引申出头牌、招牌之意。",
-              "morphology": "不可拆解的借词（法语来源）；常见搭配有marquee name（招牌人物）、marquee event（重磅活动）、marquee player（明星球员）。",
-              "mnemonic": "想象百老汇剧院门口那块闪着霓虹灯的大招牌，上面只印最大牌明星的名字——本周几家marquee科技公司的财报就是市场的头牌节目。",
-              "exampleEn": "Investors are circling the marquee earnings from the world's biggest tech companies due later this week.",
-              "exampleCn": "投资者正紧盯本周晚些时候将公布的几家全球科技巨头的招牌级财报。"
-            },
-            {
-              "word": "wall of worry",
-              "pos": "phrase",
-              "meaning": "担忧之墙——指市场在一堆负面消息和风险担忧的包围下依然上涨的现象。比单纯说risks更形象地捕捉了华尔街的经典谚语climb a wall of worry，强调市场对坏消息的韧性。",
-              "etymology": "短语/复合词，源自华尔街俗语stocks climb a wall of worry，最早可追溯到20世纪中期的市场评论，用砌墙的意象比喻层层叠加的忧虑。",
-              "morphology": "wall（古英语weall，墙）+ of + worry（可能源自古英语wyrgan，意为勒死、困扰）；固定搭配climb a wall of worry中常见动词还有scale、climb。",
-              "mnemonic": "想象股市是个攀岩者，面前是一堵由加息、通胀、地缘政治等担忧堆砌成的高墙，但它偏偏一路向上攀爬——这就是wall of worry。",
-              "exampleEn": "Despite trade tensions and rate uncertainty, the market has kept climbing a wall of worry all year.",
-              "exampleCn": "尽管贸易紧张局势和利率的不确定性挥之不去，今年以来市场依然一路攀过这堵担忧之墙持续上涨。"
-            }
-          ]
-        },
-        {
-          "id": "20260727-3",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/the-treasury-market-is-sending-fed-chair-kevin-warsh-a-clear-warning-about-rates-d0026da9?mod=mw_rss_topstories",
-          "headlineEn": "Treasury Market Sends Fed Chair Kevin Warsh a Warning on Rates",
-          "headlineCn": "美债市场向美联储主席沃什发出加息警告",
-          "summaryEn": "Long-term Treasury yields have been climbing even as the Federal Reserve talks tough on inflation, a sign that bond investors doubt the central bank will actually follow through. Analysts say the market is 'enormously worried' that new Fed Chair Kevin Warsh could face pressure to cut rates prematurely, letting price growth run hot. Rising yields raise borrowing costs for mortgages, corporate debt and the government itself, making the bond market's skepticism a real-world constraint on how far the Fed can deviate from its inflation-fighting stance.",
-          "summaryCn": "尽管美联储言辞强硬地对抗通胀，长期美债收益率却持续攀升，显示债券投资者并不完全相信美联储会说到做到。分析人士称，市场对新任主席沃什可能顶不住压力过早降息、放任通胀感到「极度担忧」。收益率上升将推高房贷、企业债和政府融资成本，令债市的怀疑成为美联储政策空间的现实制约。",
-          "excerpt": "Rising Treasury yields show how enormously worried the market is about inflation—and whether the Fed will back up its tough talk with real policy action. Investors are watching Kevin Warsh's first moves closely, wary that political pressure could push him toward premature rate cuts even as price pressures persist.",
-          "vocab": [
-            {
-              "word": "bond vigilante",
-              "pos": "n. phrase",
-              "meaning": "「债券义警」，指通过抛售国债、推高收益率来惩罚政府财政或央行货币政策的投资者；比investor更精准地传达出「用市场力量施压政策制定者」的隐喻，财经报道高频出现。",
-              "etymology": "vigilante源自西班牙语vigilante（警惕的），源自拉丁语vigilare（保持清醒/警戒）；20世纪80年代经济学家Ed Yardeni首创bond vigilante一词，比喻债券投资者像民间治安员一样自行「执法」。",
-              "morphology": "vigil（拉丁词根vigil-，警觉）+ -ante（法语后缀，表示施动者）；同源词：vigilant（警惕的）、vigilance（警觉性）、surveillance（监视，同源于veiller）。",
-              "mnemonic": "想象一群债券持有者像西部片里的义警一样，看到政府乱花钱、央行放水就集体抛售国债、把收益率抬高，用市场的「枪」惩罚政策制定者——这就是bond vigilante。",
-              "exampleEn": "If inflation keeps climbing, bond vigilantes could push 10-year yields even higher, forcing the Fed's hand.",
-              "exampleCn": "如果通胀持续攀升，债券义警可能会把十年期收益率推得更高，从而倒逼美联储采取行动。"
-            },
-            {
-              "word": "unmoored",
-              "pos": "adj.",
-              "meaning": "「（预期）脱锚的」，多用于inflation expectations become unmoored；字面是「船缆解开、漂离」，比unstable更强调「原本固定、现在失控漂移」的过程感。",
-              "etymology": "源自古英语mor（沼泽/系泊处）演变出moor（系泊）；加否定前缀un-构成unmoored，字面义为「解开缆绳」，19世纪起被引申用于比喻情绪、预期等失去锚定。",
-              "morphology": "un-（否定前缀）+ moor（系泊，动词）+ -ed（过去分词后缀）；同族词：moor（v. 系泊）、mooring（n. 系泊设施）、anchor（近义词，源自希腊语ankyra）。",
-              "mnemonic": "想象一艘船（inflation expectations）本来被缆绳（Fed credibility）系在码头上，缆绳一旦解开，船就漫无目的地漂走——通胀预期一旦unmoored，就会像失控的船一样越飘越远。",
-              "exampleEn": "If long-term yields keep rising, it may signal that inflation expectations are becoming unmoored.",
-              "exampleCn": "如果长期收益率持续上升，这可能表明通胀预期正在变得脱锚失控。"
-            },
-            {
-              "word": "steepen",
-              "pos": "v.",
-              "meaning": "「（收益率曲线）变陡」，专指yield curve steepen——短端和长端利率差扩大；比动词rise更专业，是债券市场描述曲线形态变化的标准动词。",
-              "etymology": "源自古英语steap（陡峭的，本义指高耸、险峻的地形）；加动词化后缀-en，中古英语时期开始出现表示「使变陡/变得陡峭」的动词用法。",
-              "morphology": "steep（形容词，陡峭）+ -en（动词化后缀，表示「使变成…」）；同构词：deepen（加深）、widen（加宽）、sharpen（使锐利）——都是「形容词+en=使变得…的动词」模式。",
-              "mnemonic": "把收益率曲线想象成一座山坡，短期利率是山脚、长期利率是山顶；当山顶被越垫越高，坡度就steepen（变陡）——这正是市场担心长期通胀风险时的典型图形。",
-              "exampleEn": "The yield curve began to steepen sharply as investors demanded more compensation for long-term inflation risk.",
-              "exampleCn": "由于投资者要求更高的长期通胀风险补偿，收益率曲线开始急剧变陡。"
-            },
-            {
-              "word": "tantrum",
-              "pos": "n.",
-              "meaning": "「（市场）情绪性剧烈波动」，常见搭配taper tantrum/bond market tantrum，把市场抛售比作孩童发脾气——生动传达出「反应过激、非理性宣泄」的语域色彩，比selloff更带贬义和画面感。",
-              "etymology": "词源不确定，可能源自英国方言，18世纪开始使用，指儿童因得不到满足而突然发脾气的动作；20世纪金融媒体借用此词描述市场对政策消息的过激反应。",
-              "morphology": "不可拆解的简单词；常见搭配：throw a tantrum（发脾气）、temper tantrum（同义强调）、taper tantrum（金融专用语，指2013年美联储缩表引发的市场恐慌）。",
-              "mnemonic": "想象一个小孩因为玩具被拿走而躺地上又哭又闹——市场遇到政策意外收紧时也会像这样「撒泼」，疯狂抛售资产，这就是市场版的tantrum。",
-              "exampleEn": "Traders fear a repeat of the 2013 taper tantrum if the Fed signals tighter policy too abruptly.",
-              "exampleCn": "如果美联储过于突然地释放收紧信号，交易员担心会重演2013年的缩表恐慌。"
-            },
-            {
-              "word": "back up",
-              "pos": "phrasal v.",
-              "meaning": "「用实际行动兑现（言论/承诺）」，back up one's words/talk with action，强调「言行一致」；比support更口语化、更具画面感，财经评论中常用来质疑官员是否会说到做到。",
-              "etymology": "back（古英语bæc，脊背）+ up（古英语up，向上）；短语组合，字面义为「从后方支撑」，17世纪起引申为「用证据或行动支持某种说法」。",
-              "morphology": "back（名词/副词，后方）+ up（副词，向上/加强义）；相关短语：back down（让步）、back off（退让）、back out（退出承诺）——同一back衍生出多个方向相反的短语动词。",
-              "mnemonic": "想象说话的人站在台前夸下海口，而后面站着一个人随时准备用行动「撑」住他的话——如果没人backing up，空话就会被拆穿，这正是市场质疑美联储的地方。",
-              "exampleEn": "Investors want to see the Fed back up its hawkish rhetoric with concrete policy action.",
-              "exampleCn": "投资者希望看到美联储用切实的政策行动来兑现其鹰派言论。"
             }
           ]
         }
