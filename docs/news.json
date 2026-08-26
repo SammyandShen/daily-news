@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-25T23:11:00.128430+00:00",
+  "lastUpdated": "2026-08-26T23:00:13.900451+00:00",
   "level": "B2",
   "days": {
+    "2026-08-27": {
+      "label": "8月27日 (周四)",
+      "stories": [
+        {
+          "id": "20260827-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+          "headlineEn": "OpenAI releases its official report on the Hugging Face breach",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260827-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/26/paramount-merger-delay-wbd-limbo.html",
+          "headlineEn": "Lost in limbo: Where the Paramount merger delay leaves WBD, and what may come next",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260827-3",
+          "category": "econ",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-infrastructure/",
+          "headlineEn": "FBI Disrupts Chinese Proxy Tools Used in Mass Hacking of US Agencies and Infrastructure",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-26": {
       "label": "8月26日 (周三)",
       "stories": [
@@ -5023,200 +5097,6 @@
               "mnemonic": "想象一家公司被放到显微镜（microscope）下，每一个细微的账目瑕疵都被放大千倍——「under the microscope」就是这种被无限放大检视的感觉。",
               "exampleEn": "With the FTC probe now public, Shein's U.S. business practices will be under the microscope for months to come.",
               "exampleCn": "随着FTC调查曝光，希音的美国业务运作方式在未来数月都将受到严密审视。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-28": {
-      "label": "7月28日 (周二)",
-      "stories": [
-        {
-          "id": "20260728-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-          "headlineEn": "Microsoft launches its first AI security model and a new agentic cybersecurity platform",
-          "headlineCn": "微软推出首款AI安全模型及智能体安全新系统",
-          "summaryEn": "Microsoft this week unveiled its first proprietary AI model built specifically for cybersecurity, alongside a new agentic security platform designed to detect and respond to threats with less human intervention. The model aims to analyze attack patterns and flag anomalies faster than existing tools, while the platform lets autonomous AI agents investigate incidents, triage alerts, and recommend fixes across a company's network. The launch signals Microsoft's push to embed AI deeper into enterprise security products, as cyberattacks grow more sophisticated and security teams struggle to keep pace with alert volumes.",
-          "summaryCn": "本周微软发布首款网络安全AI模型，并推出新的智能体安全平台。该模型分析攻击模式、快速识别异常；平台让AI智能体自主调查安全事件、分级警报并提出修复建议。此举显示微软正加速将AI嵌入企业安全产品，以应对日趋复杂的攻击和团队难以消化的海量警报。",
-          "excerpt": "Microsoft strengthened its AI-driven cybersecurity lineup this week, rolling out its first purpose-built security model alongside a new agentic platform. The system lets AI agents investigate alerts and respond to threats with minimal human oversight, as the company races to keep pace with increasingly sophisticated cyberattacks.",
-          "vocab": [
-            {
-              "word": "harden",
-              "pos": "v.",
-              "meaning": "加固，使更难被攻破；网络安全语境常用《harden a system/network》表示系统加固，比\"strengthen\"更专业、更具技术语域感。",
-              "etymology": "源自古英语 heard（坚硬的）+ 动词后缀 -en，本义\"使变硬\"，中世纪后引申出\"使更能抵抗攻击/侵蚀\"的比喻义，19世纪起广泛用于军事和工业语境。",
-              "morphology": "hard（坚硬，形容词）+ -en（动词后缀，表示\"使成为\"）；同类构词：strengthen, weaken, tighten。",
-              "mnemonic": "想象把一块软泥放进窑里烧硬——系统加固（harden）就是把松软的防御烧成坚硬的外壳，黑客的手指戳不进去。",
-              "exampleEn": "The IT team spent the weekend hardening its servers after the ransomware warning.",
-              "exampleCn": "收到勒索软件预警后，IT团队周末一直在加固服务器安全。"
-            },
-            {
-              "word": "foothold",
-              "pos": "n.",
-              "meaning": "立足点，引申为攻击者在系统中获得的初始入侵点；比\"access\"更形象，强调站稳脚跟、进一步扩张的动态过程。",
-              "etymology": "复合词，foot（脚）+ hold（抓握），源自古英语 fōt 和 haldan，字面指攀爬时脚能稳定站立之处，19世纪起衍生出军事、商业上《立足点、据点》的比喻义。",
-              "morphology": "foot（脚）+ hold（持有，抓牢）；同类比喻词：toehold（脚趾立足点），stronghold（据点）。",
-              "mnemonic": "想象攻击者像登山者一样，先找一个石缝（foothold）踩稳，然后才能一步步往上爬进入整个系统。",
-              "exampleEn": "Once hackers gain a foothold in the network, they often move laterally to reach sensitive data.",
-              "exampleCn": "黑客一旦在网络中获得立足点，往往会横向移动以接触敏感数据。"
-            },
-            {
-              "word": "safeguard",
-              "pos": "v./n.",
-              "meaning": "保护措施；作动词表示采取预防性手段防止损害，比\"protect\"更强调预先设置的防护机制，常见于合规与安全语境。",
-              "etymology": "源自古法语 sauvegarde，由 sauf（安全的，源自拉丁语 salvus）+ garde（守卫，源自法兰克语 wardōn）组成，14世纪进入英语，原指皇室颁发的保护令。",
-              "morphology": "safe（安全的）+ guard（守卫）；同源词：guardian, vanguard, rearguard。",
-              "mnemonic": "把safe（保险箱）和guard（保安）连在一起想象——safeguard就是给保险箱配一个保安，双重防护。",
-              "exampleEn": "The new platform includes automated safeguards that block suspicious login attempts in real time.",
-              "exampleCn": "这一新平台包含自动化防护措施，可实时拦截可疑的登录尝试。"
-            },
-            {
-              "word": "sandbox",
-              "pos": "n./v.",
-              "meaning": "沙盒，隔离测试环境；网络安全中指将可疑程序放入隔离空间运行观察，不影响真实系统，是《隔离试运行》概念在科技语境下的核心术语。",
-              "etymology": "字面指儿童玩耍用的沙坑（sand + box），20世纪计算机领域借用这一意象，指代可自由试验、出错也不会波及外部的隔离环境，1990年代起成为安全领域标准术语。",
-              "morphology": "sand（沙）+ box（盒子）；类似比喻构词：playground（游乐场，喻指自由试验空间）。",
-              "mnemonic": "想象小孩在沙盒里堆城堡、挖洞，就算弄乱了也不会影响客厅——可疑程序在sandbox里捣乱，也不会波及真实系统。",
-              "exampleEn": "The security model runs unfamiliar files in a sandbox before allowing them onto the main network.",
-              "exampleCn": "该安全模型会先在沙盒环境中运行不熟悉的文件，然后才允许其进入主网络。"
-            },
-            {
-              "word": "spearhead",
-              "pos": "v.",
-              "meaning": "率先推动，领头发起；比\"lead\"更具画面感和攻击性隐喻，常用于描述公司或团队在某项技术、行动中打头阵。",
-              "etymology": "复合词，spear（矛，源自古英语 spere）+ head（矛头），字面指长矛最前端的尖锐部分，17世纪起引申为率先突破、打头阵的军事比喻，20世纪广泛用于商业与政治语境。",
-              "morphology": "spear（矛）+ head（头部/前端）；类似构词：arrowhead（箭头），forefront（最前沿）。",
-              "mnemonic": "想象一支长矛（spear）冲锋时，矛头（head）永远最先刺入敌阵——spearhead就是打头阵、领头冲锋的那个人或项目。",
-              "exampleEn": "Microsoft is spearheading efforts to bring autonomous AI agents into enterprise cybersecurity.",
-              "exampleCn": "微软正率先推动将自主AI智能体引入企业网络安全领域。"
-            }
-          ]
-        },
-        {
-          "id": "20260728-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/27/as-rivals-chase-acquisitions-peacock-bets-on-bundles-through-a-new-deal-with-youtube/",
-          "headlineEn": "As Rivals Chase Acquisitions, Peacock Bets on Bundles Through New YouTube Deal",
-          "headlineCn": "对手忙并购，孔雀台押注捆绑策略，与YouTube达成新协议",
-          "summaryEn": "While competitors like Warner Bros. Discovery and Paramount pursue costly acquisitions to strengthen their streaming portfolios, NBCUniversal is taking a different tack. Peacock has struck a distribution deal with YouTube that lets subscribers watch its shows and movies directly inside the YouTube app, without switching platforms. The partnership reflects a broader industry shift: rather than buying rivals outright, media companies are increasingly bundling content and distribution to reach viewers wherever they already spend their time, cutting costs while expanding audience reach.",
-          "summaryCn": "华纳探索、派拉蒙等对手忙于砸钱并购、扩充流媒体版图之际，NBC环球旗下Peacock却另辟蹊径：与YouTube达成协议，让用户无需切换平台即可在YouTube内观看其剧集和电影。这折射出行业新趋势——与其收购对手，媒体公司更愿捆绑内容与渠道，在用户已聚集之处触达观众，既省钱又能扩大覆盖面。",
-          "excerpt": "The deal integrates Peacock's content directly into the YouTube experience, letting viewers discover and watch NBCUniversal's shows and movies without ever leaving the platform. It's a distribution play that sidesteps the acquisition arms race gripping much of the streaming industry this year.",
-          "vocab": [
-            {
-              "word": "bundle",
-              "pos": "v./n.",
-              "meaning": "捆绑（销售/整合）；n.捆绑套餐。商业语境中常指把多个产品或服务打包销售、整合渠道，比同义词combine更贴近电信、媒体行业的定价与分销策略术语。",
-              "etymology": "源自中古英语bundel，意为一捆、一束（如柴捆），14世纪起使用，19世纪后期扩展出商业上捆绑销售的引申义。",
-              "morphology": "词根bund-（捆扎之意，与bind同源）+名词后缀-le，指小捆之物；由名词转化为动词表示捆绑。同源词：bind, bond, bundle up。",
-              "mnemonic": "想象一捆报纸(bundle of newspapers)被绳子扎在一起——商业上的bundle就是把内容、服务像报纸一样捆在一起卖给你。",
-              "exampleEn": "Telecom operators often bundle streaming subscriptions with mobile plans to boost customer retention.",
-              "exampleCn": "电信运营商常常把流媒体订阅与手机套餐捆绑销售，以提高客户留存率。"
-            },
-            {
-              "word": "friction",
-              "pos": "n.",
-              "meaning": "（交易或使用中的）阻力、摩擦成本；商业语境常用来形容用户完成某个动作（购买、切换、观看）时遇到的不便，比difficulty更精准地暗示本可避免的小阻碍。",
-              "etymology": "源自拉丁语fricare（摩擦）的过去分词frictus，16世纪进入英语表示物理摩擦，20世纪后广泛引申为经济、用户体验中的阻力。",
-              "morphology": "词根fric-（摩擦）+名词后缀-tion。同根词：friction, frictionless, fricative（语音学摩擦音）。",
-              "mnemonic": "联想两块砂纸互相摩擦(friction)发热——用户体验里的friction就是那种让人不舒服、想放弃的阻力感。",
-              "exampleEn": "By embedding its shows in YouTube, Peacock hopes to remove the friction of switching apps.",
-              "exampleCn": "通过把节目嵌入YouTube，Peacock希望消除用户切换应用的阻力。"
-            },
-            {
-              "word": "gatekeeper",
-              "pos": "n.",
-              "meaning": "把关者、渠道守门人；指掌握流量入口、决定内容能否触达用户的平台或中间方，商业媒体语境中常用来描述YouTube、应用商店这类掌握分发权的巨头。",
-              "etymology": "复合词，字面意为看守大门的人，最早指看守城门或庄园门的守卫，20世纪中期起被新闻学和传播学借用，泛指信息流通的把关角色。",
-              "morphology": "gate（门）+keeper（看守者，来自动词keep）。同类复合词：housekeeper, timekeeper, bookkeeper。",
-              "mnemonic": "想象YouTube像一座城堡的守门人(gatekeeper)，决定哪些内容能顺利进城、被观众看到。",
-              "exampleEn": "Streaming platforms increasingly rely on tech gatekeepers like YouTube to reach new audiences.",
-              "exampleCn": "流媒体平台越来越依赖YouTube这类科技把关者来触达新观众。"
-            },
-            {
-              "word": "cannibalize",
-              "pos": "v.",
-              "meaning": "（新业务或产品）蚕食自家原有业务；商业语境特指公司推出新渠道或产品时反而抢走自己原有产品的用户或收入，比compete with更强调自己人打自己人的负面含义。",
-              "etymology": "源自cannibal（食人者，16世纪西班牙语经由加勒比原住民语言进入英语），20世纪初商业英语借用其自我吞噬的意象，形容企业内部业务互相侵蚀。",
-              "morphology": "cannibal（食人者）+动词化后缀-ize。同源词：cannibal, cannibalism, cannibalistic。",
-              "mnemonic": "想象一家公司的新产品像同类相食(cannibalize)一样，反过来吃掉了自己老产品的用户。",
-              "exampleEn": "Executives worried the YouTube deal might cannibalize traffic to Peacock's own app.",
-              "exampleCn": "高管们担心这项YouTube协议可能会蚕食Peacock自家应用的流量。"
-            },
-            {
-              "word": "monetize",
-              "pos": "v.",
-              "meaning": "将流量、内容或用户变现；商业与科技语境高频词，强调把非直接收入的资源（如浏览量、用户注意力）转化为实际收益，比笼统的earn money更专业、更贴合互联网行业表达。",
-              "etymology": "源自拉丁语moneta（货币，源自女神Juno Moneta的神庙，古罗马铸币厂所在地），19世纪本指使某物成为法定货币，20世纪末互联网时代衍生出将资源转化为收入的新义。",
-              "morphology": "money（钱）+动词后缀-ize（使…化）。同源词：money, monetary, monetization, demonetize。",
-              "mnemonic": "把monetize拆成money+ize——就是把它变成钱，无论是内容、流量还是用户数据。",
-              "exampleEn": "Media companies are experimenting with new ways to monetize content across third-party platforms.",
-              "exampleCn": "媒体公司正在尝试通过第三方平台探索内容变现的新方式。"
-            }
-          ]
-        },
-        {
-          "id": "20260728-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
-          "headlineEn": "Kalshi Traders Bet on Which Words Fed Chair Warsh Will Utter This Week",
-          "headlineCn": "卡尔希交易员押注沃什本周记者会将说出的关键词",
-          "summaryEn": "Traders on the prediction market Kalshi are wagering on which specific words new Fed Chairman Kevin Warsh will use at this week's press conference, ranging from 'oil' to 'shock.' Many bettors expect him to reference last week's oil-related supply shock. This unusual betting activity shows how closely investors now scrutinize every phrase from Fed officials, turning individual words into tradable signals about the central bank's next move on interest rates.",
-          "summaryCn": "预测市场卡尔希的交易者正押注美联储新任主席沃什本周记者会上会说出哪些具体词汇，从《石油》到《冲击》不等，许多人预计他会提到上周的石油供给冲击。这场不寻常的押注反映出投资者如今对美联储官员的每一句措辞都高度敏感，甚至把单个词汇变成了可交易的政策信号。",
-          "excerpt": "Kalshi traders are betting on which words Federal Reserve Chairman Kevin Warsh will use during this week's press conference, with wagers ranging from 'oil' to 'shock.' Most expect him to acknowledge last week's supply shock in oil markets, treating his exact phrasing as a signal for future monetary policy.",
-          "vocab": [
-            {
-              "word": "wager",
-              "pos": "v./n.",
-              "meaning": "押注、打赌；比bet更书面、专业，常用于金融预测市场和正式语境中描述下注某个结果的行为，比日常口语的bet更适合财经报道语域。",
-              "etymology": "源自古法语wagier，意为承诺、抵押，与wage同根，原指以物担保履行承诺，14世纪进入英语后逐渐专指下注、打赌。",
-              "morphology": "wage(承诺/抵押)+ -r 名词化；同源词有wage(工资，原指承诺支付)、engage(卷入承诺)、mortgage(抵押，mort+gage)。",
-              "mnemonic": "想象wage(工资)被你拿去wager(打赌)——工资和赌注同根，都关乎承诺兑现，把钱押上去博一个结果。",
-              "exampleEn": "Traders on Kalshi are wagering real money on which buzzwords the Fed chair will use.",
-              "exampleCn": "卡尔希平台上的交易者正用真金白银押注美联储主席会用到哪些关键词。"
-            },
-            {
-              "word": "hawkish",
-              "pos": "adj.",
-              "meaning": "(货币政策)鹰派的，倾向收紧、强调抗通胀；与dovish(鸽派)相对，是解读美联储表态时最核心的一对反义词，必须成对掌握。",
-              "etymology": "源自古英语hafoc(鹰)，鹰是猛禽、主动出击的捕食者，19世纪美国政治语境中借用鹰象征强硬、主动的立场，20世纪后期扩展到货币政策语境。",
-              "morphology": "hawk(鹰)+ -ish(形容词后缀，表具有…特征的)；同类构词如boyish、childish、bookish，均表带有该名词特质。",
-              "mnemonic": "鹰(hawk)俯冲捕猎、动作凌厉——鹰派官员讲话强硬、主动加息出击，就像鹰扑向猎物一样果断。",
-              "exampleEn": "Investors read his hawkish remarks as a signal that rate cuts are off the table.",
-              "exampleCn": "投资者将他的鹰派言论解读为降息已被排除在外的信号。"
-            },
-            {
-              "word": "handicap",
-              "pos": "v.",
-              "meaning": "预估、评估(某事的胜算/难度)；源自赛马术语，金融媒体常用来形容分析师给...打分排队、预测胜出概率，比predict更带专业赌盘色彩。",
-              "etymology": "源自17世纪英国赌博游戏hand in cap(把手放进帽子里抽签定输赢)，后专指赛马中为拉平胜率而加重较强马匹负重，19世纪引申为泛指评估相对胜算。",
-              "morphology": "hand(手)+ in + cap(帽子)三词缩合成一词；引申义中常见搭配handicapper(赛马预测师)、handicapping(评估胜率)。",
-              "mnemonic": "想象赛马前，人们把纸条塞进帽子(hand in cap)抽签定负重——后来handicap就变成给各方胜算打分的动作。",
-              "exampleEn": "Analysts are handicapping the odds that the Fed will pause hikes through year-end.",
-              "exampleCn": "分析师们正在评估美联储今年剩余时间暂停加息的可能性。"
-            },
-            {
-              "word": "hedge",
-              "pos": "v./n.",
-              "meaning": "对冲、留后路；金融语境下指同时押注相反方向以降低风险，日常语境也可指说话留有余地(hedge one's words)，一词兼具交易与修辞双重用法。",
-              "etymology": "源自古英语hecg(树篱)，树篱是田地边界，引申为设置边界、留出保护空间，17世纪起进入金融领域表示用反向操作设边界防风险。",
-              "morphology": "单音节词根，无前后缀；常见派生hedger(对冲者)、hedge fund(对冲基金)、unhedged(未对冲的)。",
-              "mnemonic": "把hedge想象成花园里的树篱(hedge)——既是边界也是屏障，金融对冲就是给风险筑一道篱笆挡住损失。",
-              "exampleEn": "Some traders hedged their word bets by wagering on multiple likely phrases.",
-              "exampleCn": "一些交易者通过同时押注多个可能出现的短语来对冲自己的赌注。"
-            },
-            {
-              "word": "utterance",
-              "pos": "n.",
-              "meaning": "(正式场合的)言辞、发言；比words或remarks更强调说出口的具体话语这一行为本身，常用于分析官员措辞的语言学/媒体报道语境。",
-              "etymology": "源自中古英语utteren(说出、表达)，该词又源自古英语ut-(向外的，与out同源)，本义是把内心想法向外发出。",
-              "morphology": "utter(说出/向外的)+ -ance(名词后缀，表行为或结果)；同根词utter(v.发出声音)、outer(向外的，同源于ut-)。",
-              "mnemonic": "utter和outer同源——想象把话从嘴里往外(outer)吐出来，就是utter(说出)，而这个动作的结果就叫utterance。",
-              "exampleEn": "Traders scrutinized every utterance from the Fed chair for hints about future policy.",
-              "exampleCn": "交易者仔细审视美联储主席的每一句发言，寻找未来政策的蛛丝马迹。"
             }
           ]
         }
