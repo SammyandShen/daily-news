@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-26T23:00:13.900451+00:00",
+  "lastUpdated": "2026-08-27T23:00:13.110606+00:00",
   "level": "B2",
   "days": {
+    "2026-08-28": {
+      "label": "8月28日 (周五)",
+      "stories": [
+        {
+          "id": "20260828-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+          "headlineEn": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260828-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/26/nvidia-70percent-growth-forecast-puts-it-on-track-to-be-tech-no-2-company.html",
+          "headlineEn": "Nvidia’s 70% growth forecast puts it on track to become tech’s No. 2 company by revenue",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "\"Our demand is much greater than 70%,\" CEO Jensen Huang said on the earnings call.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "\"Our demand is much greater than 70%,\" CEO Jensen Huang said on the earnings call.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260828-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/27/what-warsh-will-say-and-how-the-market-will-react-according-to-prediction-markets.html",
+          "headlineEn": "What Warsh will say and how the market will react, according to prediction markets",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-27": {
       "label": "8月27日 (周四)",
       "stories": [
@@ -4903,200 +4977,6 @@
               "mnemonic": "把 faze 想象成一阵风想把你「吹歪」（近音 phase 阶段/波动），而 un- 就是给你穿上了一件防风外套——不管外面风浪多大，你都稳稳站着，毫发无损。",
               "exampleEn": "The Fed chair appeared unfazed by reporters' questions about a potential oil-driven inflation spike.",
               "exampleCn": "面对记者关于油价可能推高通胀的追问，美联储主席显得镇定自若。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-29": {
-      "label": "7月29日 (周三)",
-      "stories": [
-        {
-          "id": "20260729-1",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
-          "headlineEn": "AI Leaders Urge Governments to Rein In Runaway AI Development",
-          "headlineCn": "AI巨头联名致信政府 呼吁监管失控的人工智能发展",
-          "summaryEn": "Employees from OpenAI, Anthropic, Google, Meta, Microsoft, Mistral, and other leading AI labs have signed a joint statement urging the US government to curb the risks of increasingly autonomous, self-improving AI systems. The signatories are not necessarily calling for a halt to research, but for faster, coordinated global governance so that safety keeps pace with capability. The letter argues that while AI could bring major benefits, unchecked automation of AI development itself could outrun human oversight, raising the stakes for policymakers worldwide.",
-          "summaryCn": "来自OpenAI、Anthropic、谷歌、Meta、微软、Mistral等顶尖AI实验室的员工联合签署声明，呼吁美国政府正视前沿AI失控发展的风险。联署者并非要求叫停研究，而是希望加快全球协调监管的步伐，让安全机制的推进速度赶上AI能力的提升。声明指出，AI虽能带来巨大益处，但如果AI自我改进的自动化进程不受约束，人类监督可能被远远甩在后面，这让各国决策者面临前所未有的压力。",
-          "excerpt": "AI could help create a dramatically better world. Employees across OpenAI, Anthropic, Google, Meta, and other frontier labs have jointly urged Washington to accelerate coordinated oversight of AI development, warning that automated, self-improving systems could soon move faster than governments' ability to track or rein them in.",
-          "vocab": [
-            {
-              "word": "rein in",
-              "pos": "phrasal v.",
-              "meaning": "收紧缰绳、加以约束/控制，尤指对失控或过快发展的事物加以限制；比control更形象，隐含《原本奔跑失控，现在拉住缰绳》的画面，商业/科技语境常用来说监管机构对新兴产业的管控。",
-              "etymology": "源自古法语rêne（缰绳），最终可追溯至拉丁语retinere（意为拉住、保留）。原指骑手拉紧马缰绳以控制马匹速度和方向，17世纪起引申为对抽象事物的约束。",
-              "morphology": "rein（缰绳，名词）+ in（介词，表示收拢的方向）构成短语动词；同源词包括retain（保留）、retinue（随从），均含拉住/保持的核心义。",
-              "mnemonic": "想象一匹狂奔的马（比喻迅猛发展的AI），骑手用力拉紧缰绳（rein in）让它慢下来——AI监管就是给狂奔的技术《勒住缰绳》。",
-              "exampleEn": "Regulators are racing to rein in frontier AI systems before their capabilities outpace human oversight.",
-              "exampleCn": "监管机构正争分夺秒，力图在前沿AI能力超出人类监督之前将其约束住。"
-            },
-            {
-              "word": "curb",
-              "pos": "v./n.",
-              "meaning": "抑制、遏制（某种趋势或行为），也可作名词《路缘石》；作动词时比stop更温和，强调部分限制而非彻底禁止，常用于政策类新闻描述对某种发展势头的抑制。",
-              "etymology": "源自古法语courbe（弯曲的），可追溯至拉丁语curvus（弯曲）。最初指套在马嘴上使其低头、弯曲脖颈的马勒链条，用以控制马匹，17世纪引申为抑制、克制。",
-              "morphology": "词根curv-（弯曲）演变为curb；同源词包括curve（曲线）、curvature（曲率）；作名词时的《路缘》义与动词义分开发展但拼写相同。",
-              "mnemonic": "联想curb和curve长得像——马勒链条弯曲套住马嘴，就像政策《弯下腰》去压制某种失控的势头。",
-              "exampleEn": "The joint letter calls on lawmakers to curb the unchecked pace of AI self-improvement.",
-              "exampleCn": "这封联署信呼吁立法者遏制AI自我改进不受约束的发展速度。"
-            },
-            {
-              "word": "urge",
-              "pos": "v.",
-              "meaning": "敦促、力劝，语气比ask更强烈、更迫切，常用于新闻报道中转述呼吁性内容，隐含说话者认为事态紧急、不容拖延。",
-              "etymology": "源自拉丁语urgere（意为驱使、逼迫、施压），经古法语urger进入英语，14世纪起用于表示强烈催促。",
-              "morphology": "动词urge可派生出名词urgency（紧迫性）、形容词urgent（紧急的）；同根词还有exigent（紧急的，源自同一拉丁词根ex-urgere）。",
-              "mnemonic": "urge和urgent同根——想象一件事urge你去做，就像它自带《urgent紧急》标签，逼着你立刻行动。",
-              "exampleEn": "Employees at major AI labs are urging Washington to speed up coordinated governance of frontier models.",
-              "exampleCn": "各大AI实验室的员工正敦促华盛顿方面加快对前沿模型的协同治理。"
-            },
-            {
-              "word": "consensus",
-              "pos": "n.",
-              "meaning": "共识，指多方经过讨论后达成的一致意见；在国际治理或行业协调语境中，比agreement更强调经过充分讨论、代表广泛意见的过程，隐含耗时与来之不易。",
-              "etymology": "源自拉丁语consensus，由con-（共同）+ sentire（感觉、认为）构成，字面意为共同的感觉/看法，19世纪起在英语中固定为普遍一致意见之义。",
-              "morphology": "con-（共同）+ sens（感觉，词根同sense、sentiment）+ -us（名词后缀）；同根词包括sentiment（情感）、consent（同意）、dissent（异议）。",
-              "mnemonic": "拆成con-（一起）+ sense（感觉）——大家《一起产生同样的感觉》，就是consensus（共识）。",
-              "exampleEn": "Building global consensus on AI governance is proving harder than developing the technology itself.",
-              "exampleCn": "在AI治理问题上凝聚全球共识，被证明比开发这项技术本身更加困难。"
-            },
-            {
-              "word": "unchecked",
-              "pos": "adj.",
-              "meaning": "不受约束的、未经核查的，强调某事物在缺乏监督或制衡机制下自由发展，常用来形容风险、权力或增长失去控制。",
-              "etymology": "check源自古法语eschec（意为将军，源自波斯语shah，国际象棋术语），16世纪引申出阻止、核查之义；加否定前缀un-构成未被阻止/核查。",
-              "morphology": "un-（否定前缀）+ check（核查、阻止）+ -ed（形容词后缀，表被动完成状态）；同源词有checkpoint（检查站）、checkmate（将死）。",
-              "mnemonic": "国际象棋中check（将军）意味着对方受到牵制；unchecked就是没人《将军》你，可以横冲直撞——正如不受监管的AI发展。",
-              "exampleEn": "Left unchecked, automated AI research could accelerate capability gains beyond what current safety tools can handle.",
-              "exampleCn": "如果任其不受约束地发展，AI自动化研究的能力提升速度可能会超出现有安全工具的应对能力。"
-            }
-          ]
-        },
-        {
-          "id": "20260729-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/28/paypal-leaves-the-door-open-to-a-higher-takeover-offer-following-earnings-beat/",
-          "headlineEn": "PayPal Signals Openness to a Sweetened Takeover Bid After Strong Earnings",
-          "headlineCn": "财报超预期后，PayPal不排除接受更高收购报价",
-          "summaryEn": "PayPal posted stronger-than-expected second-quarter results, easing investor concerns about its slow AI-driven turnaround. Executives said the company remains committed to its current strategy but would entertain a sweetened takeover bid if it clearly created more value for shareholders than staying independent. The comments come amid persistent speculation that PayPal, once a fintech darling, could become an acquisition target as its stock has lagged rivals. The earnings beat gives management stronger footing to negotiate from, rather than being forced into a deal out of weakness.",
-          "summaryCn": "PayPal公布好于预期的第二季度业绩，缓解了市场对其AI驱动转型进展缓慢的担忧。管理层表示会坚持现有战略，但若报价能为股东创造更高价值，也愿意考虑更高的收购报价。此前市场猜测这家昔日金融科技明星可能成为并购目标，如今业绩改善让管理层谈判时更有底气。",
-          "excerpt": "After reporting better-than-expected second-quarter results, PayPal said it remains focused on its AI-driven turnaround strategy, but signaled it would entertain a takeover offer if such a deal created more value for shareholders than the company could generate on its own over time.",
-          "vocab": [
-            {
-              "word": "entertain",
-              "pos": "v.",
-              "meaning": "认真考虑（一项提议、报价等），并非「娱乐」之意；商业谈判中常用来表示愿意把提议纳入考虑范围，比consider更强调对提议本身持开放、审慎的态度。",
-              "etymology": "源自古法语entretenir，由拉丁语inter-（在...之间）+tenere（持有、保持）构成，原义为维系、招待，后引申出心中容纳某种想法的含义。",
-              "morphology": "enter-（间，来自inter-）+tain（held，来自tenere持有）。同词根词：contain（包含）、maintain（维持）、retain（保留）。",
-              "mnemonic": "想象把一个提议请进屋里坐下、好好招待——entertain an offer就是把这个报价当客人一样认真接待，而不是直接关门拒绝。",
-              "exampleEn": "The board agreed to entertain a higher bid only if it came with firm financing.",
-              "exampleCn": "董事会同意，只有在有确凿融资保障的情况下才会考虑接受更高的报价。"
-            },
-            {
-              "word": "sweeten",
-              "pos": "v.",
-              "meaning": "为使提议更有吸引力而加码、提高条件，字面是加糖变甜，商业语境中专指改善收购、合同等报价的条款，比单纯increase更形象地传达讨好对方的意味。",
-              "etymology": "源自古英语swēte（甜的），加动词后缀-en构成使动动词，字面使...变甜，14世纪起逐渐产生使交易更有利的比喻用法。",
-              "morphology": "sweet（甜）+-en（使动后缀，使...化）。同构词：deepen（加深）、strengthen（加强）、widen（拓宽）。",
-              "mnemonic": "谈判桌上诚意不够，就像咖啡不够甜——sweeten the deal就是往报价里多加几勺糖（现金或股票），让对方更愿意点头。",
-              "exampleEn": "The acquirer sweetened its offer by adding a cash bonus for early shareholder approval.",
-              "exampleCn": "收购方通过为提前批准的股东追加现金奖励，提高了报价的吸引力。"
-            },
-            {
-              "word": "suitor",
-              "pos": "n.",
-              "meaning": "并购语境中指潜在收购方，字面原指求婚者/追求者，商业新闻常借此比喻收购意向方对目标公司的追求，比acquirer多一层主动示好、竞相争取的意味。",
-              "etymology": "源自古法语suitour，来自suite（跟随、随从），最终追溯到拉丁语sequi（跟随）。原指诉讼中的原告或求婚追求者，20世纪起被商业媒体借用于并购语境。",
-              "morphology": "su(it)（跟随，源自sequi）+-or（表人后缀）。同源词：pursue（追求）、sequence（顺序）、ensue（随后发生）。",
-              "mnemonic": "把收购方想象成向心仪对象求婚的人——a potential suitor就是那个捧着报价单、想娶下目标公司的追求者，报价越高诚意越足。",
-              "exampleEn": "Analysts speculated that a rival payments company could emerge as a suitor for PayPal.",
-              "exampleCn": "分析师猜测，一家竞争对手支付公司可能会成为PayPal的潜在收购方。"
-            },
-            {
-              "word": "float",
-              "pos": "v.",
-              "meaning": "非正式地提出、抛出某个想法或方案以试探反应，常用于float an idea/proposal，比propose更随意、更强调先探探风声、不做正式承诺。",
-              "etymology": "源自古英语flotian（漂浮），与古诺斯语flota（船）同源，本义是物体在水面漂浮，19世纪引申出让想法悬浮在空中供人评估的比喻用法。",
-              "morphology": "float为不可再拆分的基础词。派生词：floating（形容词，浮动的，如floating rate浮动利率）、afloat（形容词，未沉没的，财务上引申为未破产的）。",
-              "mnemonic": "把一个想法像纸船一样轻轻放到水面上，看它是沉是浮——float a proposal就是先试探性地把方案放出去，看市场反应再决定要不要正式推进。",
-              "exampleEn": "Executives floated the idea of a strategic partnership before any formal talks began.",
-              "exampleCn": "在正式谈判开始前，管理层先试探性地提出了战略合作的想法。"
-            },
-            {
-              "word": "rebuff",
-              "pos": "v./n.",
-              "meaning": "断然拒绝（提议、示好），语气比reject更强调冷淡、不留情面地打回去，常用于描述公司对收购要约或合作提议的强硬回绝。",
-              "etymology": "源自意大利语ribuffo（斥责、抵挡），由ri-（重复/回）+buffo（吹气、冲击）构成，16世纪经法语rebuffer传入英语，原带有猛烈回击的意味。",
-              "morphology": "re-（回、反）+buff（冲击，源自古法语buffe，一击）。同源可联想buffet（撞击，如be buffeted by逆风冲击）。",
-              "mnemonic": "想象伸手求合作却被人啪地一下打回来——rebuff带有那种被冷脸拒绝、碰了一鼻子灰的画面感，比礼貌的reject更刺痛。",
-              "exampleEn": "The startup rebuffed an early buyout offer, betting it could raise its valuation independently.",
-              "exampleCn": "这家初创公司回绝了早期的收购报价，赌自己能够独立提升估值。"
-            }
-          ]
-        },
-        {
-          "id": "20260729-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/28/shein-discloses-its-under-investigation-by-the-ftc.html",
-          "headlineEn": "Shein Discloses FTC Investigation Ahead of Hong Kong IPO Plans",
-          "headlineCn": "希音承认遭美国FTC调查，正筹备香港上市",
-          "summaryEn": "Fast-fashion giant Shein has disclosed that the U.S. Federal Trade Commission is investigating its American business, though the company has not specified what the probe concerns. The disclosure comes as Shein pushes ahead with plans for a Hong Kong stock listing, after earlier IPO attempts in London and New York stalled amid political and regulatory pushback. An active federal inquiry could complicate investor confidence and add fresh uncertainty to the listing timeline, since exchanges typically weigh pending legal matters before approving a company to sell shares publicly.",
-          "summaryCn": "快时尚巨头希音（Shein）披露，美国联邦贸易委员会（FTC）正在对其美国业务展开调查，但具体调查内容尚未公开。此次披露正值希音积极推进香港上市计划——此前该公司在伦敦和纽约的上市尝试均因政治与监管阻力而搁浅。分析人士认为，一项仍在进行中的联邦调查可能影响投资者信心，为其上市时间表增添新的不确定性，因为交易所通常会在企业公开发行股票前权衡其未决法律事务。",
-          "excerpt": "Shein has confirmed that the U.S. Federal Trade Commission is investigating its American operations, though the fast-fashion giant says the exact focus of the probe remains unclear. The disclosure arrives just as the company prepares to move forward with a long-anticipated stock listing in Hong Kong.",
-          "vocab": [
-            {
-              "word": "probe",
-              "pos": "n. / v.",
-              "meaning": "「调查」的新闻体简称，比investigation更简短有力，常见于新闻标题（headlinese），尤指官方对企业或个人展开的正式核查行动。",
-              "etymology": "源自拉丁语probare（测试、证明），16世纪进入英语最初指用探针检查伤口，17世纪后引申为深入调查、探究真相。",
-              "morphology": "不可拆分的简单词；名词/动词同形。常见搭配：probe into sth（对……展开调查）、a criminal probe（刑事调查）、probe question（探究性问题）。",
-              "mnemonic": "想象医生用一根细长的「探针」（probe）伸进伤口探查——新闻里的「probe」就是监管机构伸进公司账本里探查真相的动作，简短、直接、带侵入感。",
-              "exampleEn": "Regulators launched a probe into the company's overseas payment practices after whistleblower complaints surfaced.",
-              "exampleCn": "在举报人投诉浮出水面后，监管机构对该公司的海外支付行为展开了调查。"
-            },
-            {
-              "word": "run afoul of",
-              "pos": "phrase",
-              "meaning": "触犯、违反（法律、规定），常用于描述企业行为不慎导致与监管机构产生冲突，语气比violate更生动、带航海隐喻色彩。",
-              "etymology": "源自航海用语afoul，指船只缆绳缠绕或船只相撞（16-17世纪水手用语），19世纪起引申为陷入纠纷或触犯规则。",
-              "morphology": "短语动词，由run + a-（古英语前缀，表示处于……状态）+ foul（肮脏、纠缠）构成；同源词有foul play（犯规）、entangle。",
-              "mnemonic": "想象两艘船在海上缆绳缠成一团（afoul），动弹不得——企业「run afoul of the law」就像自己的船跟法律的船缆绳缠在了一起，进退两难。",
-              "exampleEn": "The startup ran afoul of data-privacy rules soon after expanding into the European market.",
-              "exampleCn": "这家初创公司在拓展欧洲市场后不久就触犯了数据隐私法规。"
-            },
-            {
-              "word": "murky",
-              "pos": "adj.",
-              "meaning": "（情况、动机等）含糊不清、难以看透，常用来形容调查细节、公司账目或政治意图的不透明状态，比unclear更带有浑浊、见不得光的画面感。",
-              "etymology": "源自古英语mirce（黑暗的），与古诺斯语同源，本义指光线昏暗、水质浑浊，14世纪后引申出比喻义含糊、可疑。",
-              "morphology": "murk（名词，昏暗/浑浊）+ -y（形容词后缀，表示具有……性质）；同类构词如murky waters（浑水，常喻指复杂难辨的局面）。",
-              "mnemonic": "联想「murky water」——一潭浑浊看不到底的水，你不知道里面藏着什么。当新闻说调查细节「murky」，就是说这潭水浑得让人看不清真相。",
-              "exampleEn": "The exact scope of the antitrust probe remains murky, leaving investors guessing about the potential penalties.",
-              "exampleCn": "反垄断调查的具体范围仍然含糊不清，投资者只能猜测可能面临的处罚。"
-            },
-            {
-              "word": "list",
-              "pos": "v.",
-              "meaning": "（公司）挂牌上市，使股票在证券交易所公开交易，是IPO语境下常与go public互换但更正式的动词，常见搭配「list on the Hong Kong Stock Exchange」。",
-              "etymology": "源自古法语liste（名单、条纹），最初指登记名单；19世纪金融语境中引申为将证券正式登记于交易所名录，即上市。",
-              "morphology": "简单词，可作名词（名单）与动词（列出/上市）；派生词包括listing（上市，名词）、listed company（上市公司）、dual-listed（双重上市）。",
-              "mnemonic": "把公司想象成要被写进交易所的「名单」（list）才能被投资者买卖——「list on an exchange」就是把公司名字正式加入那份挂牌名单。",
-              "exampleEn": "After stalled attempts elsewhere, the retailer is now aiming to list on the Hong Kong Stock Exchange by year-end.",
-              "exampleCn": "在其他地方的尝试搁浅后，这家零售商目前计划年底前在香港交易所挂牌上市。"
-            },
-            {
-              "word": "under the microscope",
-              "pos": "phrase",
-              "meaning": "处于被密切审视、严格检查的状态，常用于描述企业或个人因调查、丑闻而受到媒体或监管机构的高度关注，比「scrutinized」更形象、更口语化。",
-              "etymology": "短语/复合词，无独立词源；microscope源自希腊语mikros（微小）+ skopein（观察），17世纪发明显微镜后进入英语，20世纪起比喻义被极细致地审视广泛流行。",
-              "morphology": "micro-（希腊前缀，微小）+ scope（希腊词根，观察、瞄准）；同根词有telescope（望远镜）、periscope（潜望镜）、scope（范围/审视）。",
-              "mnemonic": "想象一家公司被放到显微镜（microscope）下，每一个细微的账目瑕疵都被放大千倍——「under the microscope」就是这种被无限放大检视的感觉。",
-              "exampleEn": "With the FTC probe now public, Shein's U.S. business practices will be under the microscope for months to come.",
-              "exampleCn": "随着FTC调查曝光，希音的美国业务运作方式在未来数月都将受到严密审视。"
             }
           ]
         }
