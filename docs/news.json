@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-27T23:00:13.110606+00:00",
+  "lastUpdated": "2026-08-28T23:00:16.205547+00:00",
   "level": "B2",
   "days": {
+    "2026-08-29": {
+      "label": "8月29日 (周六)",
+      "stories": [
+        {
+          "id": "20260829-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+          "headlineEn": "Neocloud Lambda secures $1B in debt to buy more chips",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260829-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
+          "headlineEn": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Salesforce's stock had its second-best day on record following earnings, as Wall Street shows renewed confidence in CEO Marc Benioff's AI story.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Salesforce's stock had its second-best day on record following earnings, as Wall Street shows renewed confidence in CEO Marc Benioff's AI story.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260829-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/treasury-yields-jackson-hole.html",
+          "headlineEn": "2-year Treasury yield jumps as Warsh says Fed may 'have work to do'",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Investors assessed Federal Reserve Chair Kevin Warsh's hawkish message in his keynote address at Jackson Hole.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Investors assessed Federal Reserve Chair Kevin Warsh's hawkish message in his keynote address at Jackson Hole.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-28": {
       "label": "8月28日 (周五)",
       "stories": [
@@ -4783,200 +4857,6 @@
               "mnemonic": "想象有人挥拳假打你的脸，你会不自觉地眨眼、缩脖子——这个本能反应就是flinch；决策者会不会flinch，就像市场挥拳吓唬他，他会不会眨眼退缩。",
               "exampleEn": "Despite the market turmoil, the chairman refused to flinch on his inflation-fighting stance.",
               "exampleCn": "尽管市场动荡不安，这位主席仍拒绝在抗通胀立场上退缩。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-30": {
-      "label": "7月30日 (周四)",
-      "stories": [
-        {
-          "id": "20260730-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
-          "headlineEn": "Microsoft Logs $3.2B Anthropic Gain, but OpenAI Stake Delivers Mixed Results",
-          "headlineCn": "微软录得32亿美元Anthropic投资收益，OpenAI持股表现好坏参半",
-          "summaryEn": "Microsoft's fiscal 2026 fourth-quarter earnings revealed how its bets on two rival AI labs are paying off differently. The company logged a $3.2 billion gain tied to its investment in Anthropic, whose valuation has climbed sharply this year. Its stake in OpenAI, by contrast, produced a mixed bag of results, reflecting the startup's own volatile finances and mounting spending. The disclosure offers a rare window into how Microsoft's AI bets are performing on paper, even as both partnerships remain central to its cloud strategy.",
-          "summaryCn": "微软公布2026财年第四季度财报时披露：因持有Anthropic股份，微软录得32亿美元账面收益；而OpenAI持股表现则好坏参半，受累于该初创公司波动的财务状况和攀升的支出。这让外界得以一窥微软AI投资的真实回报。",
-          "excerpt": "When Microsoft posted blockbuster fourth-quarter results for fiscal 2026, it quietly revealed how its bets on two rival AI labs are playing out. The company logged a $3.2 billion gain from its Anthropic stake, while its investment in OpenAI delivered a far more uneven performance.",
-          "vocab": [
-            {
-              "word": "log",
-              "pos": "v.",
-              "meaning": "（正式）记录、录得（收益/数据），常见于财报语境，比record更强调系统化、正式登记的动作，如日志式记账。",
-              "etymology": "源自古挪威语lag（倒下的树/木料），15世纪英语中指船上用于测速的浮木，后引申为航海日志logbook，17世纪起衍生出记录的动词义。",
-              "morphology": "单音节词，无法再拆分前后缀；常见衍生词：logbook（航海日志）、blog（web+log的缩合词）、catalog（cata-+log）。",
-              "mnemonic": "想象一艘船在海上抛下一根木头（log）计算航速，水手把结果写进《航海日志》——后来log就变成了把数字正式记下来的动词，财报里logs $3.2B就像给账本盖了个章。",
-              "exampleEn": "The chipmaker logged record revenue last quarter after demand for AI accelerators surged.",
-              "exampleCn": "由于AI加速器需求激增，这家芯片制造商上个季度录得创纪录营收。"
-            },
-            {
-              "word": "mixed bag",
-              "pos": "phrase",
-              "meaning": "好坏参半、喜忧参半的结果组合，比单说good and bad更形象，常用于财报、业绩点评，暗示里面什么都有、无法一概而论。",
-              "etymology": "短语源自19世纪英语口语，字面指装了各种杂物的袋子，20世纪起被引申用来形容结果、评价或群体中好坏混杂的抽象概念。",
-              "morphology": "短语/复合词，无独立词源；mixed为动词mix（拉丁语miscere混合）的过去分词，bag源自中古英语baggle（口袋）。",
-              "mnemonic": "想象打开一个旧行李袋，里面有崭新的礼物也有破损的旧物——倒出来一看好坏都有，这就是mixed bag，用来形容那种让人说不清是喜是忧的业绩。",
-              "exampleEn": "Investors called the earnings report a mixed bag, with strong cloud growth offset by weak hardware sales.",
-              "exampleCn": "投资者认为这份财报好坏参半，云业务的强劲增长被疲软的硬件销售所抵消。"
-            },
-            {
-              "word": "paper gain",
-              "pos": "n. phrase",
-              "meaning": "账面浮盈，指基于估值变化产生的未兑现收益，与realized gain（已兑现收益）相对，是区分《纸上富贵》和真实现金流的关键财经词。",
-              "etymology": "paper作形容词修饰gain，源于19世纪金融俚语paper profit，指仅存在于账簿/纸面记录上、尚未变现的收益。",
-              "morphology": "复合名词短语；paper（拉丁语papyrus纸莎草）+ gain（古法语gaain收获）；同类搭配还有paper loss（账面亏损）、paper wealth（纸面财富）。",
-              "mnemonic": "想象你的股票账户显示+320万，但这笔钱还锁在股份里没卖出变现——它只存在于对账单的纸面上，一旦市场回调就可能消失，这就是paper gain。",
-              "exampleEn": "The startup's founders are sitting on a huge paper gain, but none of it is liquid until the company goes public.",
-              "exampleCn": "这家初创公司的创始人坐拥巨额账面浮盈，但在公司上市之前这些钱都无法变现。"
-            },
-            {
-              "word": "stake",
-              "pos": "n.",
-              "meaning": "（在公司中持有的）股份、权益，比share更强调《利益攸关、押上了什么》的意味，常搭配动词hold/take/build a stake in。",
-              "etymology": "源自古英语staca（木桩），最初指插在地上标记领地边界的木桩，17世纪赌博用语中引申为下注的赌本，后扩展到利益、股份之意。",
-              "morphology": "单音节词根，不可再拆分；常见搭配：stakeholder（利益相关者，stake+holder）、high stakes（高风险局面）、at stake（处于危险之中）。",
-              "mnemonic": "想象古时候人们用木桩（stake）在土地上圈出自己的地盘——今天公司里的stake就是你在这块地盘里插下的那根桩子，标记着你拥有多少份额。",
-              "exampleEn": "Microsoft holds a sizable stake in Anthropic, giving it exposure to the AI lab's rising valuation.",
-              "exampleCn": "微软持有Anthropic的大量股份，因此能从这家AI实验室不断攀升的估值中获益。"
-            },
-            {
-              "word": "tidbit",
-              "pos": "n.",
-              "meaning": "（有趣的）小道消息、花絮式信息片段，比detail更强调《零星但吸引人》，常用于财报、新闻里顺带提及的小信息点。",
-              "etymology": "源自17世纪英语tid（温柔的、可口的，古英语tidre）+ bit（一小块），原指美味的小块食物，后引申为引人兴味的小段信息。",
-              "morphology": "复合词 tid（可口的）+ bit（小片段，古英语bita）；同类构词：morsel、snippet、nugget（都表示信息或食物的小块）。",
-              "mnemonic": "把它想象成一小口美味的开胃菜——在长篇财报里塞进的这一小段《Anthropic赚了32亿》，就像正餐之间递上的一口小点心，让人眼前一亮。",
-              "exampleEn": "Buried in the earnings call was a tidbit about Microsoft's growing exposure to rival AI labs.",
-              "exampleCn": "在这场财报电话会议中，藏着一个关于微软对竞争性AI实验室敞口不断扩大的小细节。"
-            }
-          ]
-        },
-        {
-          "id": "20260730-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/29/tim-cooks-last-earnings-call-comes-at-momentous-time-for-apple-.html",
-          "headlineEn": "Tim Cook Steers Apple to $5 Trillion Milestone in Final Earnings Call",
-          "headlineCn": "库克最后一次财报电话会：苹果市值破5万亿美元",
-          "summaryEn": "Apple has crossed a $5 trillion market valuation for the first time, a striking backdrop for Tim Cook's final earnings call as chief executive. Even as investors celebrate the milestone, Cook still faces questions about iPhone demand, Apple's artificial intelligence strategy, and how smoothly his successor will assume stewardship of the company. The timing matters: a record valuation doesn't erase scrutiny — if anything, it raises the bar for what comes next, making this call a pivotal test of Apple's direction beyond Cook's time leading the company.",
-          "summaryCn": "苹果市值首次突破5万亿美元，创下历史新高，恰逢库克以CEO身份主持的最后一次财报电话会。尽管这一里程碑令投资者振奋，库克仍需回应iPhone需求、人工智能战略及交接能否平稳的追问。这也说明：股价创新高不代表审视减少，反而让外界对苹果下一步方向提出更高期待。",
-          "excerpt": "Apple just crossed the $5 trillion mark in market value for the first time in its history, an extraordinary milestone that arrives just as Tim Cook prepares to lead his last earnings call as chief executive — with plenty of pressing questions still ahead.",
-          "vocab": [
-            {
-              "word": "milestone",
-              "pos": "n.",
-              "meaning": "里程碑，指标志重大进展的关键节点；比“important event”更精确，暗含“沿途标记进度”的意象，财经报道中常用于市值、营收等数字突破。",
-              "etymology": "源自拉丁语 milia（千）+ 英语 stone，最初指古罗马道路上每隔一英里设立的石碑，用于标记距离，后引申为人生或事业中的关键节点。",
-              "morphology": "mile（英里）+ stone（石头），复合词直译为“里程碑石”；可类比同类复合词 milepost（里程标）、cornerstone（基石）、touchstone（试金石）。",
-              "mnemonic": "想象古代驿道上每隔一英里立着一块石头，旅人看到它就知道自己走了多远——公司市值破5万亿美元，就是这样一块写着5 trillion的路标石。",
-              "exampleEn": "Crossing the $5 trillion valuation was a major milestone for Apple, even as questions about its next chapter lingered.",
-              "exampleCn": "突破5万亿美元估值对苹果而言是一个重要里程碑，尽管外界对其下一阶段仍有疑问。"
-            },
-            {
-              "word": "successor",
-              "pos": "n.",
-              "meaning": "继任者，接替某职位的人；商业语境中常与“CEO succession”搭配，比笼统的“replacement”更正式、更强调制度化的交接过程。",
-              "etymology": "源自拉丁语 succedere（sub-在下方 + cedere走、让），本义为“走到（某人）之下接替位置”，14世纪经古法语进入英语，指继承王位或职位的人。",
-              "morphology": "suc-（sub-的变体，表“接续”）+ ceed/cess（词根，来自cedere走）+ -or（施动者后缀）；同根词有proceed（前进）、exceed（超过）、succeed（成功/继承）。",
-              "mnemonic": "succeed既有“成功”也有“继承”之意——把它拆成suc(接续)+ceed(走)，想象一个人接过前任的脚步继续往前走，那个人就是successor。",
-              "exampleEn": "Investors are eager to know who Apple's board has chosen as Tim Cook's successor.",
-              "exampleCn": "投资者都急于知道苹果董事会选定了谁来接替库克。"
-            },
-            {
-              "word": "steer",
-              "pos": "v.",
-              "meaning": "掌舵、引导（公司/团队朝某方向发展）；比“lead”或“manage”更形象，暗含在不确定或有阻力的环境中把握方向盘的画面感，商业报道中常形容高管带领企业穿越挑战。",
-              "etymology": "源自古英语 steran，与古诺斯语 stýra 同源，本义为“操纵船舵”，中古英语后逐渐扩展到驾驶车辆及比喻性地“引导、掌控方向”。",
-              "morphology": "不可再拆分的简单词；常见搭配及派生词包括 steering wheel（方向盘）、steer clear of（避开）、steersman（掌舵人）。",
-              "mnemonic": "想象一艘大船的船长手握舵轮（steering wheel），在风浪中稳住航向——CEO steer公司，就像船长在市场风浪里掌舵前行。",
-              "exampleEn": "Cook has spent over a decade steering Apple through supply-chain shocks, regulatory battles, and shifting consumer tastes.",
-              "exampleCn": "十多年来，库克带领苹果穿越了供应链冲击、监管纠纷和消费者口味的变化。"
-            },
-            {
-              "word": "legacy",
-              "pos": "n.",
-              "meaning": "遗产、留下的成果或影响；在商业语境中常指离任高管留下的战略、文化或业绩印记，比“achievement”更强调“传承给后人”的时间维度。",
-              "etymology": "源自古法语 legacie，最终来自拉丁语 legare（委托、遗赠），本指法律上的遗产馈赠，15世纪后引申为泛指任何人留给后世的影响或成就。",
-              "morphology": "leg-（词根，来自legare委托）+ -acy（名词后缀，表状态）；同根词有delegate（委派）、legislate（立法）、colleague（同事，字面“共同被委托者”）。",
-              "mnemonic": "legacy和legal长得像——都跟legare（法律上的委托/遗赠）有关；把库克的legacy想象成一份写好的遗嘱，交代他给苹果留下了什么。",
-              "exampleEn": "Analysts say Cook's legacy will be defined as much by Apple's services growth as by the iPhone's continued dominance.",
-              "exampleCn": "分析师认为，库克留下的遗产不仅在于iPhone持续的主导地位，也在于苹果服务业务的增长。"
-            },
-            {
-              "word": "stewardship",
-              "pos": "n.",
-              "meaning": "管理职责、受托管理；强调“代人打理、对结果负责”的责任感，比单纯的“management”更带有道德托付色彩，常用于形容CEO对公司资产、股东利益的照管。",
-              "etymology": "源自古英语 stiweard（sty猪圈/畜舍 + weard守护者），本指庄园里管理牲畜和财产的管家，中世纪后扩展为泛指对他人财产或事务的负责任管理。",
-              "morphology": "steward（管家，名词）+ -ship（后缀，表状态/职位）；同类构词如 leadership（领导职位）、ownership（所有权）、membership（成员资格）。",
-              "mnemonic": "把steward想象成中世纪庄园里替主人看管牲畜和粮仓的管家——CEO对公司的stewardship，就是替股东看管好这个庄园的责任。",
-              "exampleEn": "The board praised Cook's stewardship of Apple's balance sheet, which funded years of buybacks and dividends.",
-              "exampleCn": "董事会称赞库克对苹果资产负债表的管理有方，多年来支撑了股票回购和股息发放。"
-            }
-          ]
-        },
-        {
-          "id": "20260730-3",
-          "category": "econ",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/c4eedbe8-6345-48b6-8d44-5cc5b0bea2c7?syn-25a6b1a6=1",
-          "headlineEn": "US Treasury Yields Hit 19-Year High as Fed Holds Rates Steady",
-          "headlineCn": "美联储不为通胀担忧所动，美债收益率创19年新高",
-          "summaryEn": "The Federal Reserve left interest rates unchanged this week, even as investors braced for a fresh jolt of inflation stemming from Trump's military conflict with Iran. Treasury yields, which move inversely to bond prices, climbed to their highest level in nearly two decades as markets priced in prolonged elevated borrowing costs. The decision signals the central bank's confidence in the economy's resilience, but critics warn that staying unfazed by geopolitical shocks could leave policymakers behind the curve if oil-driven inflation accelerates faster than expected.",
-          "summaryCn": "美联储本周维持利率不变，尽管市场担忧特朗普对伊朗的军事行动将推高通胀。美国国债收益率因此升至近19年最高，显示投资者已将偏高借贷成本计入预期。此举显现央行对经济韧性的信心，但批评者警告，若油价推升通胀快于预期，保持淡定或让政策制定者陷入被动。",
-          "excerpt": "Central bank stands pat on rates even as investors worry Trump's Iran war could trigger a fresh jolt of price growth, sending Treasury yields to their highest level in nearly two decades and testing the Fed's resolve to stay unfazed by geopolitical shocks.",
-          "vocab": [
-            {
-              "word": "stand pat",
-              "pos": "phrase",
-              "meaning": "保持现状、不采取行动（尤指政策/立场），源自扑克牌局中「不换牌」的策略；比 maintain 更形象，暗含「顶住压力也不改变」的语气，财经报道中常用来形容央行维持利率不变。",
-              "etymology": "源自19世纪美式扑克术语，pat hand 指玩家认为手牌已经足够好，选择不更换任何牌；20世纪初这一意象被政治评论借用，泛指「坚持既定立场，拒绝调整」。",
-              "morphology": "短语动词，由 stand（站立、保持）+ pat（扑克术语，引申为『恰到好处的』）构成；同类扑克借词还有 fold（放弃/退出）、bluff（虚张声势）、ante up（预先投入）。",
-              "mnemonic": "想象一位牌手看着手里的牌，说「这手牌够好了，我不换」——然后把这份自信搬到美联储主席身上：面对通胀担忧，他也像攥着一手好牌一样纹丝不动。",
-              "exampleEn": "Despite mounting pressure from Wall Street, the central bank chose to stand pat on interest rates for a third straight meeting.",
-              "exampleCn": "尽管华尔街施压不断，央行仍连续第三次会议选择维持利率不变。"
-            },
-            {
-              "word": "yield",
-              "pos": "n.",
-              "meaning": "（债券）收益率，指投资者持有债券所能获得的年化回报率，与债券价格反向波动；财经报道高频词，需与 return 区分——yield 特指利率类回报，且常隐含「市场对未来风险/通胀的定价」这层意思。",
-              "etymology": "源自古英语 gieldan，本义为「支付、偿还」，中古英语演变为 yield，先有「产出、出产」之意（如农作物产量），17世纪后延伸至金融领域，指投资「产出」的回报率。",
-              "morphology": "单音节词，不可再拆分；常见搭配：bond yield（债券收益率）、dividend yield（股息率）、yield curve（收益率曲线）；动词形式同形，如 yield to（屈服于）。",
-              "mnemonic": "把 yield 想象成田地「产出」的庄稼——农民种债券、收利息，收成越好，yield 越高；同时别忘了交通标志上的「YIELD」（让行），提醒你收益率也会「让位」给价格波动。",
-              "exampleEn": "As investors sold off bonds, the yield on 10-year Treasuries climbed to its highest point since the financial crisis.",
-              "exampleCn": "随着投资者抛售债券，10年期美国国债收益率升至金融危机以来的最高点。"
-            },
-            {
-              "word": "price in",
-              "pos": "phrasal v.",
-              "meaning": "（市场）将某预期因素计入当前价格，即投资者已提前消化某利好/利空消息，导致该消息公布后价格反而波动不大；比 expect 更精准，专指「已经反映在价格里」这一市场行为。",
-              "etymology": "短语动词，由 price（定价）+ in（计入、包含）组合而成，20世纪金融交易术语，用来描述市场对未来事件预期的即时反应机制。",
-              "morphology": "price（名词/动词，定价）+ in（副词小品词，表示『纳入』）；同类结构还有 factor in（考虑进去）、build in（内置）、bake in（固化计入，同义俚语）。",
-              "mnemonic": "想象价格是一个购物篮，交易员把「未来可能发生的坏消息」也一并「装进」篮子里定价——所以等坏消息真正来临时，篮子里的价格早已涨过了，不会再大幅波动。",
-              "exampleEn": "Analysts say markets have already priced in another rate hike, so the announcement is unlikely to move stocks much.",
-              "exampleCn": "分析师表示市场已经将下一次加息计入价格，因此该消息公布后股市不太可能出现大幅波动。"
-            },
-            {
-              "word": "jolt",
-              "pos": "n./v.",
-              "meaning": "突然的冲击、震动（多指价格、市场情绪的骤然波动），语气比 shock 更强调「猝不及防的一下」，常用于描述地缘政治或突发事件对经济数据造成的瞬间冲击。",
-              "etymology": "词源不确定，推测16世纪源自方言词 jolte，本义为「颠簸、震动」（如马车行驶中的颠簸感），后引申为抽象意义上的「情绪或经济上的猛然冲击」。",
-              "morphology": "单音节词，不可再拆分；常见搭配：a jolt to confidence（对信心的打击）、economic jolt（经济冲击）；派生形容词 jolting（令人震惊的）。",
-              "mnemonic": "想象坐在颠簸的马车上突然被「咯噔」一下弹起来——这种猝不及防的物理震动，就是 jolt 在经济新闻里想传达的「价格/情绪突然被震了一下」的感觉。",
-              "exampleEn": "A surge in oil prices could deliver a fresh jolt to inflation just as central banks were hoping to declare victory.",
-              "exampleCn": "就在各国央行满心以为已经战胜通胀之际，油价飙升可能带来新一轮通胀冲击。"
-            },
-            {
-              "word": "unfazed",
-              "pos": "adj.",
-              "meaning": "（面对压力、批评或意外状况）不为所动、镇定自若，比 calm 更强调「本该受到冲击却毫发无损」的反差感，财经语境常用来形容决策者在市场动荡中保持定力。",
-              "etymology": "词根 faze 源自19世纪美国方言 feeze（意为『使不安、使惊慌』），可能与古英语 fesian（驱赶）有关；否定前缀 un- 加上过去分词构成「未被扰乱」之意，20世纪起在英语中广泛使用。",
-              "morphology": "un-（否定前缀）+ faze（使惊慌，动词）+ -ed（过去分词后缀）；同前缀词如 unmoved、undeterred、unshaken，都表达「不受影响」的坚定语气。",
-              "mnemonic": "把 faze 想象成一阵风想把你「吹歪」（近音 phase 阶段/波动），而 un- 就是给你穿上了一件防风外套——不管外面风浪多大，你都稳稳站着，毫发无损。",
-              "exampleEn": "The Fed chair appeared unfazed by reporters' questions about a potential oil-driven inflation spike.",
-              "exampleCn": "面对记者关于油价可能推高通胀的追问，美联储主席显得镇定自若。"
             }
           ]
         }
