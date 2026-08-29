@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-28T23:00:16.205547+00:00",
+  "lastUpdated": "2026-08-29T23:00:19.801974+00:00",
   "level": "B2",
   "days": {
+    "2026-08-30": {
+      "label": "8月30日 (周日)",
+      "stories": [
+        {
+          "id": "20260830-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+          "headlineEn": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260830-2",
+          "category": "biz",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
+          "headlineEn": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260830-3",
+          "category": "econ",
+          "sourceName": "BBC Business",
+          "sourceUrl": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
+          "headlineEn": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-29": {
       "label": "8月29日 (周六)",
       "stories": [
@@ -4663,200 +4737,6 @@
               "mnemonic": "想象一匹马挣脱缰绳狂奔——runaway inflation 就是通胀像脱缰野马一样，谁也拉不住缰绳。",
               "exampleEn": "Dissenting policymakers warned that hesitating now could let inflation turn into a runaway problem by next year.",
               "exampleCn": "持异议的决策者警告称，如果现在还犹豫不决，通胀可能在明年演变成完全失控的局面。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-07-31": {
-      "label": "7月31日 (周五)",
-      "stories": [
-        {
-          "id": "20260731-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
-          "headlineEn": "Nscale Buys Anyscale to Expand Its AI Compute Stack",
-          "headlineCn": "英国云商Nscale收购Anyscale，扩张AI算力版图",
-          "summaryEn": "British AI neocloud Nscale has agreed to acquire Anyscale, a startup whose software helps companies distribute AI workloads across data centers and servers. The deal lets Nscale fold Anyscale's orchestration technology directly into its own infrastructure, rather than relying on outside tools to manage how customer workloads run. For Nscale, which rents GPU capacity to AI labs and enterprises, owning more of the software layer above raw compute could make its offering stickier and harder for rivals to replicate, as the AI compute stack becomes an increasingly contested battleground.",
-          "summaryCn": "英国AI云服务商Nscale宣布收购初创公司Anyscale，后者的软件能帮助企业把AI计算任务分配到不同数据中心和服务器上运行。通过此次收购，Nscale可以把Anyscale的调度技术直接整合进自己的基础设施，而不必依赖第三方工具管理客户的计算负载。对于以出租GPU算力为主业的Nscale来说，掌握更多软件层的技术，意味着产品粘性更强，也更难被对手复制，凸显出AI算力堆栈正成为云厂商激烈争夺的新战场。",
-          "excerpt": "British AI neocloud Nscale is buying Anyscale, a startup whose software helps companies scale their AI workloads across data centers and servers, as the compute provider seeks to own more layers of the stack that AI labs and enterprises depend on to run their models.",
-          "vocab": [
-            {
-              "word": "neocloud",
-              "pos": "n.",
-              "meaning": "专指专营AI算力租赁的新兴云服务商（区别于AWS/Azure等传统综合云），是行业黑话，报道AI基础设施新闻时高频出现",
-              "etymology": "前缀neo-源自希腊语neos（新的），与cloud（计算隐喻词，源于网络拓扑图里代表互联网的云朵符号）组合而成的21世纪新造词",
-              "morphology": "neo-(新) + cloud(云)；同前缀词如neoliberal（新自由主义）、neonatal（新生儿的）；cloud也见于cloud computing、cloud-native",
-              "mnemonic": "想象传统云厂商是老牌综合超市，而neocloud是专门给AI模型练粮草（GPU）的新兴专卖店——只卖一种商品：算力",
-              "exampleEn": "Several neoclouds have emerged in the past two years, competing to rent out Nvidia GPUs to AI startups.",
-              "exampleCn": "过去两年涌现出多家neocloud，争相把英伟达GPU租给AI初创公司。"
-            },
-            {
-              "word": "stack",
-              "pos": "n.",
-              "meaning": "技术语境下指《技术栈》——完成某项任务所需的分层软硬件组合，比layers更地道，是工程师和科技媒体的标准说法",
-              "etymology": "源自古英语stakk，本义为干草垛，指整齐堆叠之物；20世纪中期计算机科学借用此意象描述数据/程序按层堆叠的结构",
-              "morphology": "不可再拆分的基础词；常见搭配full-stack（全栈）、stack up（叠加/相提并论）、tech stack（技术栈）",
-              "mnemonic": "把AI compute stack想象成一叠煎饼：最底层是芯片，中间是数据中心和调度软件，最上层是应用——Nscale想把中间那几层煎饼也占为己有",
-              "exampleEn": "The company wants to control every layer of the AI compute stack, from chips to scheduling software.",
-              "exampleCn": "该公司希望掌控AI算力堆栈的每一层，从芯片到调度软件都不放过。"
-            },
-            {
-              "word": "workload",
-              "pos": "n.",
-              "meaning": "计算机语境下指《计算任务/工作负载》，比task或job更强调需要被分配、调度、承载的量，是云计算报道的核心术语",
-              "etymology": "work（古英语weorc，劳作）+ load（古英语lad，负荷），合成词直译工作的负荷量，20世纪中期进入计算机术语体系",
-              "morphology": "work + load 复合词；同类复合词有payload（有效载荷）、download/upload；也可作动词短语load a workload onto a server",
-              "mnemonic": "把workload想象成快递公司要处理的包裹总量——AI workload就是要被分配到不同数据中心服务器上《配送》的计算任务包裹",
-              "exampleEn": "Anyscale's software automatically distributes AI workloads across hundreds of servers to avoid bottlenecks.",
-              "exampleCn": "Anyscale的软件能自动把AI工作负载分配到数百台服务器上，避免出现瓶颈。"
-            },
-            {
-              "word": "scale",
-              "pos": "v.",
-              "meaning": "商业语境下指《规模化扩展》，尤指让某个系统/业务在不牺牲效率的前提下变大，是创投和科技报道里几乎必用的动词",
-              "etymology": "源自拉丁语scala（梯子、台阶），经古法语进入英语，原指攀爬的阶梯，17世纪后引申出按比例放大之意",
-              "morphology": "scale(规模) → scalable(adj. 可扩展的) → scalability(n. 可扩展性)；同根词escalate（逐步升级）也源自拉丁scala",
-              "mnemonic": "想象爬梯子（scala）一级一级往上——scale a workload就是把计算任务像爬梯子一样一层层铺展到更多服务器上",
-              "exampleEn": "Fast-growing AI labs need infrastructure that can scale seamlessly as their models grow larger.",
-              "exampleCn": "快速成长的AI实验室需要能随模型规模扩大而无缝扩展的基础设施。"
-            },
-            {
-              "word": "own",
-              "pos": "v.",
-              "meaning": "商业语境下own a market/layer指对某个领域拥有主导性控制权，而非字面《拥有产权》，隐含《占据主导、别人难以撼动》的战略意味",
-              "etymology": "源自古英语agan（拥有、亏欠），与ought同源；中古英语后逐渐固定为表示所有权的现代用法",
-              "morphology": "own(动词/形容词) → owner(n. 所有者) → ownership(n. 所有权)；商业习语常见own the space、own the narrative",
-              "mnemonic": "区分own和buy：buy只是完成交易的动作，own是交易之后真正掌控局面的状态——Nscale买下Anyscale，目的是own整条技术栈的话语权",
-              "exampleEn": "By acquiring Anyscale, Nscale hopes to own a bigger share of the AI compute stack instead of just renting out raw hardware.",
-              "exampleCn": "通过收购Anyscale，Nscale希望能掌控AI算力堆栈中更大的份额，而不只是出租裸的硬件。"
-            }
-          ]
-        },
-        {
-          "id": "20260731-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/30/reformation-ipo-public-nyse-listing.html",
-          "headlineEn": "Reformation Closes Flat in NYSE Debut as CEO Declares Company 'Ready to Scale'",
-          "headlineCn": "服装品牌Reformation纽交所上市首日收平，CEO称公司已准备好扩张",
-          "summaryEn": "Sustainable fashion retailer Reformation debuted on the New York Stock Exchange on Thursday under the ticker REF, with shares closing unchanged from their IPO price on the first trading day. CEO Hali Borenstein said the company is 'ready to scale' as it transitions from a privately held apparel brand into the public markets. The flat debut suggests investors are cautiously watchful rather than euphoric, a signal worth tracking as more consumer brands test IPO appetite this year.",
-          "summaryCn": "可持续时尚零售商Reformation周四以股票代码REF在纽约证券交易所挂牌上市，首日收盘价与发行价持平。首席执行官表示公司已「准备好扩张」，标志着这家原本私有的服装品牌正式迈入公开市场。收盘持平而非大涨，反映投资者态度谨慎观望而非狂热追捧，这一信号值得关注，尤其是在更多消费品牌今年测试IPO市场胃口之际。",
-          "excerpt": "Retailer Reformation made its IPO on the New York Stock Exchange on Thursday under the ticker symbol 'REF.' Shares neither rose nor fell on their opening day, closing exactly where they priced, even as the CEO struck an upbeat tone about the company's growth prospects ahead.",
-          "vocab": [
-            {
-              "word": "debut",
-              "pos": "n./v.",
-              "meaning": "首次亮相/首次登场（尤指公开市场首秀）；比'first appearance'更地道，常用于金融、娱乐语境，如'stock market debut'、'album debut'",
-              "etymology": "源自法语 débuter（开始，尤指台球游戏中的开球），17世纪进入英语，18世纪起专指演员或产品的首次公开亮相",
-              "morphology": "不可拆解的简单词，源自法语前缀 dé-（表示从...出发）+ but（目标/球门）；常见搭配：make one's debut, debut album, market debut",
-              "mnemonic": "联想法语发音'day-BYOO'，想象一位演员第一次登台时紧张地debut——记住它专指'第一次正式登场'，无论是新股上市还是新人出道",
-              "exampleEn": "The fintech startup's stock market debut drew heavy media attention after months of hype.",
-              "exampleCn": "这家金融科技初创公司的股票市场首秀，在数月炒作后吸引了大量媒体关注。"
-            },
-            {
-              "word": "flat",
-              "pos": "adj.",
-              "meaning": "（价格）持平、无涨跌；金融语境下比'unchanged'更口语化、更常用于财经新闻标题，如'stocks closed flat'",
-              "etymology": "源自古诺尔斯语 flatr（平坦的），13世纪进入英语，19世纪起衍生出'（价格）没有波动'的比喻义",
-              "morphology": "单音节词，无需拆解；常见派生词：flatten（使变平，动词）、flatly（断然地，副词）、flatness（名词）",
-              "mnemonic": "想象一条心电图上完全水平的直线——没有起伏就是flat；再联想'flat tire'（漏气轮胎，没有弹性），价格flat就像轮胎没气，没有向上的冲劲",
-              "exampleEn": "Tech shares traded flat for most of the session before a late rally.",
-              "exampleCn": "科技股在大部分交易时段内价格持平，直到尾盘才出现一波上涨。"
-            },
-            {
-              "word": "apparel",
-              "pos": "n.",
-              "meaning": "服装、衣物的正式/行业用语，比'clothes'更常见于商业报告和零售行业术语中，如'apparel industry', 'apparel retailer'",
-              "etymology": "源自古法语 apareillier（准备、装备），追溯至拉丁语 ad-（向）+ par（相配/成对），原意是'使配备齐全'，14世纪起专指'衣着装扮'",
-              "morphology": "不可拆解的简单词；同源词包括 apparatus（装备、器械，同样源自拉丁语 ad- + par- 词根的变体）",
-              "mnemonic": "把 apparel 和 apparatus（装备）联想在一起——两者词源相近，都表示'为某个目的而准备的东西'，衣服就是身体的'装备'",
-              "exampleEn": "The apparel maker reported weaker sales as shoppers cut back on discretionary purchases.",
-              "exampleCn": "这家服装制造商公布销售疲软，原因是消费者削减了非必需品支出。"
-            },
-            {
-              "word": "footprint",
-              "pos": "n.",
-              "meaning": "企业的实体门店网络或市场覆盖范围，比'presence'更形象，常用于零售、地产语境，如'retail footprint', 'store footprint'",
-              "etymology": "foot（脚）+ print（印记）复合词，字面意为'脚印'，20世纪中期起被商业和科技领域借用，比喻'占据的空间或影响范围'",
-              "morphology": "foot（脚，古英语 fōt）+ print（印记，源自古法语 preinte）复合而成；类似复合词还有 carbon footprint（碳足迹）、blueprint（蓝图）",
-              "mnemonic": "想象一家连锁店在城市地图上留下的'脚印'——每开一家新店，就在版图上多踩一个脚印，门店越多，footprint 越大",
-              "exampleEn": "The retailer plans to shrink its physical footprint while investing more heavily in e-commerce.",
-              "exampleCn": "这家零售商计划缩小实体门店规模，同时加大电商投入。"
-            },
-            {
-              "word": "niche",
-              "pos": "n./adj.",
-              "meaning": "细分市场、利基市场；指规模虽小但目标明确、竞争较少的市场定位，商业语境中常与'mainstream'对比使用",
-              "etymology": "源自法语 niche（壁龛，墙上凹陷处放雕像的位置），追溯至拉丁语 nidus（鸟巢），16世纪指建筑中的壁龛，19世纪起引申为'适合某物生存或发展的特定位置'",
-              "morphology": "不可拆解的借词，法语发音保留（/niːʃ/或/nɪtʃ/均可）；常见搭配：niche market, niche brand, carve out a niche",
-              "mnemonic": "想象墙上一个专为一尊雕像量身定做的壁龛——大小刚好，别的东西放不进去；niche market 也是如此，是为特定客群量身定做的小众市场",
-              "exampleEn": "Reformation built its brand by targeting a niche of environmentally conscious shoppers before going mainstream.",
-              "exampleCn": "Reformation在走向主流之前，先通过瞄准注重环保的细分客群来打造品牌。"
-            }
-          ]
-        },
-        {
-          "id": "20260731-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/29/kevin-warsh-fed-treasury-yields-inflation-credibility-interest-rates.html",
-          "headlineEn": "Fed Chairman Warsh's Credibility Questioned After Holding Rates Steady",
-          "headlineCn": "美联储主席沃什按兵不动，市场质疑其信誉",
-          "summaryEn": "The Federal Reserve left interest rates unchanged this week, a move Chairman Kevin Warsh had framed as necessary to keep inflation in check. Instead of calming markets, the decision backfired: long-term Treasury yields jumped as investors bet the Fed is dragging its feet. Analysts now question whether Warsh has the resolve to tighten policy aggressively if inflation keeps climbing, warning that his cautious stance could rattle confidence in the central bank at a moment when decisive action matters most.",
-          "summaryCn": "美联储本周维持利率不变，主席沃什曾表示这是遏制通胀失控所必需的举措。然而市场并未因此平静，长期美债收益率反而应声上扬，投资者担忧美联储行动迟缓。分析人士开始质疑，若通胀持续攀升，沃什是否真有决心大力收紧政策；他偏谨慎的姿态也可能动摇市场对央行执行力与信誉的信心。",
-          "excerpt": "The Fed held interest rates steady this week, but the reaction on Wall Street was anything but calm. Long-term Treasury yields jumped almost immediately, as investors openly questioned whether Chairman Warsh will act forcefully enough to keep inflation from spiraling out of control.",
-          "vocab": [
-            {
-              "word": "shore up",
-              "pos": "phrasal v.",
-              "meaning": "支撑、巩固（信心、防线等），财经语境常见搭配为shore up confidence/balance sheet，比support更强调「在出现裂缝迹象时紧急加固」的画面感。",
-              "etymology": "shore源自中古荷兰语/古挪威语schore（意为支撑木桩），最初指用木桩支撑建筑物或船只，19世纪后引申为抽象的支撑、维系。",
-              "morphology": "shore（支柱，名词）+ up（副词，表示强化/补足动作），构成短语动词；同类结构如prop up（撑住）、back up（支持）、bolster up（加固，较少见）。",
-              "mnemonic": "想象一栋摇摇欲坠的老房子，工人们用一根根木头斜撑住墙面——央行shore up市场信心，就像在信心快要塌陷时紧急打入几根支撑木。",
-              "exampleEn": "The central bank cut rates in an attempt to shore up investor confidence after the sell-off.",
-              "exampleCn": "抛售潮过后，央行降息以试图巩固投资者信心。"
-            },
-            {
-              "word": "rattle",
-              "pos": "v.",
-              "meaning": "（使）不安、动摇，常见搭配为rattle investors/markets，比worry更生动，暗含物体碰撞发出咔嗒声那种突然的心理震动。",
-              "etymology": "源自中古英语ratelen，拟声词，模仿物体碰撞发出的咔嗒声，14世纪起由发出格格声引申为使人心神不宁。",
-              "morphology": "拟声词根，无前后缀；常见搭配有rattle sb's cage（激怒某人）、rattlesnake（响尾蛇，因尾部发出rattle声得名）。",
-              "mnemonic": "想象响尾蛇摇动尾巴发出咔嗒咔嗒的警告声——市场消息像这声音一样，让投资者瞬间警觉、心跳加速。",
-              "exampleEn": "The unexpectedly hawkish comments rattled markets, sending yields sharply higher.",
-              "exampleCn": "出人意料的鹰派言论令市场不安，收益率大幅走高。"
-            },
-            {
-              "word": "second-guess",
-              "pos": "v.",
-              "meaning": "事后质疑、揣测（某人的判断），财经语境中常指市场反复猜测决策者下一步会怎么做，比doubt更强调在结果出来后才来评判的意味。",
-              "etymology": "短语/复合词，19世纪美式英语棒球术语，原指教练在赛后质疑球员的临场判断，后扩展到商业与政治语境泛指事后诸葛亮式质疑。",
-              "morphology": "second（第二，序数词）+ guess（猜测，动词），复合动词字面意为猜第二次，即在别人已下判断后再插一脚重新评判；常见现在分词形式second-guessing。",
-              "mnemonic": "想象老板做完决定后，同事在会议室外交头接耳，说他这次判断恐怕不对——这种事后诸葛亮式的窃窃私语就是second-guess。",
-              "exampleEn": "Traders are second-guessing the Fed chairman's ability to control inflation.",
-              "exampleCn": "交易员们正在质疑这位美联储主席控制通胀的能力。"
-            },
-            {
-              "word": "resolve",
-              "pos": "n.",
-              "meaning": "坚定的决心，常见搭配为test sb's resolve，比determination更书面、更常出现在政策与危机语境，暗含在压力下是否会动摇的张力。",
-              "etymology": "源自拉丁语resolvere（re再次 + solvere解开），本义为解开、分解，17世纪演变出下定决心解决问题之意，名词化后指坚定的决心。",
-              "morphology": "re-（再次）+ solve（解决，源自solvere解开）；同根词有resolution（决议/决心）、resolute（坚决的，形容词）、dissolve（溶解）。",
-              "mnemonic": "把resolve拆成re加solve——遇到难题反复去solve解决，这种屡败屡战的劲头就是resolve所表达的坚定决心。",
-              "exampleEn": "Investors are testing the new chairman's resolve to keep fighting inflation.",
-              "exampleCn": "投资者正在考验这位新主席对抗通胀的决心究竟有多坚定。"
-            },
-            {
-              "word": "flinch",
-              "pos": "v.",
-              "meaning": "（因压力而）退缩、畏缩，财经语境中常指决策者在关键时刻是否会因市场压力而软化立场，比hesitate更强调本能性、几乎不受控制的退缩反应。",
-              "etymology": "源自古法语flenchir（意为转身、扭动），16世纪进入英语后逐渐固定为因痛苦或恐惧而突然退缩之意。",
-              "morphology": "不可拆解的简单词，无常见词缀派生；需注意与形近词区分：flinch（畏缩）vs. clinch（敲定/紧抱）vs. flint（燧石），拼写相近但含义完全不同。",
-              "mnemonic": "想象有人挥拳假打你的脸，你会不自觉地眨眼、缩脖子——这个本能反应就是flinch；决策者会不会flinch，就像市场挥拳吓唬他，他会不会眨眼退缩。",
-              "exampleEn": "Despite the market turmoil, the chairman refused to flinch on his inflation-fighting stance.",
-              "exampleCn": "尽管市场动荡不安，这位主席仍拒绝在抗通胀立场上退缩。"
             }
           ]
         }
