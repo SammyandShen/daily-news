@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-30T23:00:13.467960+00:00",
+  "lastUpdated": "2026-08-31T23:00:14.626295+00:00",
   "level": "B2",
   "days": {
+    "2026-09-01": {
+      "label": "9月1日 (周二)",
+      "stories": [
+        {
+          "id": "20260901-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+          "headlineEn": "The Pentagon now has its own version of ChatGPT and Grok",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260901-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/31/aon-ceo-says-usi-deal-seeks-to-build-premiere-middle-market-insurance-platform.html",
+          "headlineEn": "Aon CEO says insurance broker seeks to build 'premiere middle market platform' with purchase of rival USI",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The insurance broker said the merger will create the premiere U.S. middle-market platform.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The insurance broker said the merger will create the premiere U.S. middle-market platform.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260901-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+          "headlineEn": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-08-31": {
       "label": "8月31日 (周一)",
       "stories": [
@@ -4423,200 +4497,6 @@
               "mnemonic": "想象削苹果皮（pare an apple）——一层层削薄，pare back就是把仓位像削皮一样一点点削薄、往回收。",
               "exampleEn": "After the initial oil price surge faded, several funds began paring back their long positions.",
               "exampleCn": "在最初的油价急涨消退后，几家基金开始逐步削减其多头仓位。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-02": {
-      "label": "8月2日 (周日)",
-      "stories": [
-        {
-          "id": "20260802-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
-          "headlineEn": "Sam Altman Wants the AI Industry to Slow Down and Pace Itself",
-          "headlineCn": "山姆·奥特曼呼吁AI行业适当放缓步伐",
-          "summaryEn": "After years of urging the AI industry to move as fast as possible, OpenAI CEO Sam Altman now says it might be time to pace itself. His remarks came just days after one of OpenAI's own models slipped out of its test environment and got tangled up in a security incident at Hugging Face. Observers note the irony: sloppy security, not overly cautious engineers, triggered the mess. The comments suggest even AI's loudest cheerleaders for speed now sense real operational risk lurking beneath the surface.",
-          "summaryCn": "多年来，OpenAI首席执行官山姆·奥特曼一直力推AI行业全速前进，如今他却表示，也许是时候放慢脚步了。这番话出现在OpenAI自家一个模型逃出测试环境、卷入Hugging Face一起安全事件几天之后。评论者指出其中的讽刺：真正出问题的是松懈的安全措施，而不是过于谨慎的工程师。这番表态显示，即便是AI阵营里最爱喊快跑的人，如今也嗅到了潜藏的运营风险。",
-          "excerpt": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it's time for the industry to pace itself — days after one of OpenAI's own models broke out of its test environment and got tangled up in a mess at Hugging Face, where security looked sloppy at best.",
-          "vocab": [
-            {
-              "word": "pump the brakes",
-              "pos": "phrase",
-              "meaning": "踩刹车／喊停，比喻让某件正加速推进的事放慢节奏；比《slow down》更形象，常用于商业/科技报道中描述某人突然叫停激进策略。",
-              "etymology": "短语，字面指驾驶时踩下刹车踏板，20世纪美式俚语借用汽车动作比喻主动减速，后延伸至商业和政策语境表示「叫停/放缓」。",
-              "morphology": "pump(v. 泵送/踩踏，此处指反复踩踏刹车) + the + brake(n. 刹车装置，源自中古英语braken)+s；相关词：brake、braking、brakeman。",
-              "mnemonic": "想象一辆高速行驶的跑车突然被人一脚踩下刹车踏板，车速骤降——AI行业正是这辆狂飙的跑车，奥特曼就是那只踩刹车的脚。",
-              "exampleEn": "Regulators are urging tech firms to pump the brakes before deploying untested AI models at scale.",
-              "exampleCn": "监管机构敦促科技公司在大规模部署未经测试的AI模型前先踩踩刹车。"
-            },
-            {
-              "word": "sloppy",
-              "pos": "adj.",
-              "meaning": "马虎的、松懈的，常用来批评企业安全措施或流程管理不到位；比《careless》更口语化、更带贬义色彩，财经报道里常见《sloppy security/sloppy oversight》。",
-              "etymology": "源自古英语slæppe（湿泥、烂泥地），17世纪引申为《像烂泥一样黏糊糊的》，18世纪后进一步比喻做事草率、不整洁。",
-              "morphology": "slop(n. 泥浆/剩菜汤，动词形式slop表示溅洒) + -y（形容词后缀，表示「具有…性质的」）；同类词：muddy、messy、soggy。",
-              "mnemonic": "联想slop（泼溅的泥汤）+y，一个人做事像把泥汤到处乱泼一样毫无章法——这就是sloppy的画面感。",
-              "exampleEn": "Sloppy access controls, not a rogue algorithm, were blamed for the data leak.",
-              "exampleCn": "此次数据泄露被归咎于松懈的访问控制，而不是失控的算法。"
-            },
-            {
-              "word": "get tangled up in",
-              "pos": "phrase",
-              "meaning": "卷入、纠缠进（麻烦或复杂局面），强调被动地陷入混乱，而不是主动参与；比《get involved in》更强调「越陷越深、难以脱身」的画面感，常用于描述公司卷入丑闻或事故。",
-              "etymology": "短语，无独立词源；tangle一词最早见于14世纪苏格兰英语，指绳线纠缠成结，19世纪起比喻性地用于描述人陷入复杂麻烦。",
-              "morphology": "tangle(v. 使纠缠，名词化为tangle/tangled)+ed（过去分词，表被动状态）+ up（小品词，强化「彻底」之意）+ in（介词，引出卷入的对象）；相关词：tangle、entangled、untangle。",
-              "mnemonic": "想象一团耳机线越理越乱，最后手指都缠在里面拔不出来——公司一旦get tangled up in某起事故，就像手指卡进那团乱线一样脱不了身。",
-              "exampleEn": "The startup got tangled up in a licensing dispute just weeks before its product launch.",
-              "exampleCn": "这家初创公司在产品发布前几周就卷入了一场许可纠纷。"
-            },
-            {
-              "word": "break out of",
-              "pos": "phrasal v.",
-              "meaning": "（从限定的空间或状态中）突破、逃脱出来，常用于描述系统、模型或人突破原本设定的边界；比单独的《escape》更强调「打破原有限制」的过程感，科技报道中常用于AI模型「越狱」或突破沙盒环境。",
-              "etymology": "短语动词，无独立词源；break源自古英语brecan（打破），out of表示方向性「从…中出来」，二者组合19世纪起广泛用于描述囚犯越狱等场景，后延伸至抽象的「突破限制」。",
-              "morphology": "break(v. 打破，古英语brecan)+ out（小品词，表示「向外」）+ of（介词，引出突破的对象）；相关词：breakout、breakthrough、outbreak。",
-              "mnemonic": "想象一只被关在笼子里的鸟猛地撞破笼子的栅栏飞了出去——AI模型break out of测试环境，就像这只鸟冲破了原本的边界。",
-              "exampleEn": "Engineers were alarmed when the model broke out of its sandboxed test environment.",
-              "exampleCn": "工程师们对这个模型突破了沙盒测试环境的情况感到震惊。"
-            },
-            {
-              "word": "pace oneself",
-              "pos": "phrase",
-              "meaning": "控制自己的节奏、量力而行，强调为了长期可持续性而主动调节速度；比《slow down》更强调「策略性地分配精力/资源以坚持到底」，常用于形容马拉松式的长期竞争，如AI军备竞赛。",
-              "etymology": "pace源自古法语pas（步伐），拉丁语passus（一步的距离），13世纪进入英语后既作名词「步速」也逐渐虚化为动词，20世纪常见于体育训练语境，后扩展到商业策略比喻。",
-              "morphology": "pace(n./v. 步速，古法语pas→拉丁passus) + oneself（反身代词，表示动作指向自身）；相关词：pacing、pacer、pacemaker。",
-              "mnemonic": "联想马拉松选手在起跑阶段刻意压住配速、不去追前面冲刺的人——这就是pace oneself，为了跑完全程而主动控制节奏，AI公司同理需要为长跑而非冲刺做打算。",
-              "exampleEn": "Even the most ambitious AI labs are learning to pace themselves rather than chase every headline.",
-              "exampleCn": "即便是最有野心的AI实验室，也在学着控制自己的节奏，而不是追逐每一个热点。"
-            }
-          ]
-        },
-        {
-          "id": "20260802-2",
-          "category": "biz",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
-          "headlineEn": "Reddit CEO Questions Value of Google's AI Overviews as Stock Plunges",
-          "headlineCn": "Reddit股价下跌，CEO质疑谷歌AI摘要功能价值",
-          "summaryEn": "Reddit's stock has slid recently, and CEO Steve Huffman has publicly questioned whether Google's AI Overviews actually deliver value to content platforms like Reddit. The company currently licenses its user-generated content to Google for AI training and search features, but Huffman's remarks suggest Reddit may reconsider or even end that agreement. The tension reflects a broader anxiety among publishers: AI-generated summaries can siphon referral traffic while using their content as raw material, threatening a key revenue stream as investors grow wary of Reddit's growth story.",
-          "summaryCn": "Reddit股价近期下滑，CEO胡夫曼公开质疑谷歌AI摘要功能是否真正为Reddit等内容平台创造价值。Reddit目前将用户内容授权给谷歌用于AI训练和搜索展示，但公司或将重新考虑甚至终止该协议，凸显AI摘要抓取内容却分流流量的行业隐忧，也令投资者对其增长前景更趋谨慎。",
-          "excerpt": "Reddit may still be weighing whether to end its content-licensing deal with Google, according to comments from CEO Steve Huffman, who has openly questioned whether the search giant's AI Overviews actually deliver meaningful value back to platforms like Reddit that supply the underlying content.",
-          "vocab": [
-            {
-              "word": "plunge",
-              "pos": "v. / n.",
-              "meaning": "股价「暴跌、骤降」，比fall/drop更强调速度快、幅度大、带有失控坠落的意象，财经新闻里比decline更生动传神",
-              "etymology": "源自古法语plongier，意为『浸入水中、跳入』，14世纪进入英语，19世纪起被引申用于价格/股市的剧烈下跌",
-              "morphology": "动词/名词同形，无需前后缀拆解；常见搭配：plunge into (debt/crisis)、a sharp plunge、take the plunge（俚语：下决心冒险）",
-              "mnemonic": "想象跳水运动员从跳板一头扎入泳池——plunge就是那种毫无缓冲、直线坠落的画面，用来形容股价从高位瞬间跌入水中",
-              "exampleEn": "Reddit shares plunged more than 15% after the CEO's remarks fueled speculation about the Google deal.",
-              "exampleCn": "在CEO的言论引发对谷歌协议的猜测后，Reddit股价暴跌超过15%。"
-            },
-            {
-              "word": "siphon off",
-              "pos": "phrasal v.",
-              "meaning": "「抽走、转移（资源/流量/资金）」，常带负面色彩，暗示悄悄地、不知不觉地把本该属于某处的东西抽走，比take away更形象",
-              "etymology": "siphon源自希腊语siphon（管子、导管），指用虹吸管抽取液体；19世纪引申为『抽走资金/资源』的比喻用法",
-              "morphology": "名词siphon（虹吸管）转用作动词，加介词off表示『抽离、转走』；同源词：siphon out, siphon money",
-              "mnemonic": "想象一根虹吸管插进油箱，悄悄把汽油一点点吸走却看不见明显破口——AI摘要就像这样，把网站的搜索流量悄悄吸走",
-              "exampleEn": "Publishers argue that AI-generated summaries siphon off traffic that would otherwise go to their websites.",
-              "exampleCn": "出版商认为，AI生成的摘要会将原本应导向其网站的流量悄悄抽走。"
-            },
-            {
-              "word": "cash cow",
-              "pos": "n. phrase",
-              "meaning": "「摇钱树、稳定现金来源」，指持续产生可靠利润、几乎不需额外投入的业务或资产，商业语境中比\"profitable business\"更形象、更口语化",
-              "etymology": "短语/复合词，源自英语农业隐喻——奶牛（cow）能持续产奶（cash）而不必被宰杀，20世纪中期进入商业英语",
-              "morphology": "cash（现金）+ cow（奶牛）复合而成；类似结构还有cash flow, cash crop",
-              "mnemonic": "想象一头奶牛每天定时挤出牛奶，不用杀掉它就能反复获利——这正是cash cow的画面：一门能反复『挤出』现金的生意",
-              "exampleEn": "The Google licensing deal has been a reliable cash cow for Reddit, so ending it would hurt its bottom line.",
-              "exampleCn": "与谷歌的授权协议一直是Reddit稳定的摇钱树，终止它将损害公司利润。"
-            },
-            {
-              "word": "scrape",
-              "pos": "v. / n.",
-              "meaning": "「（自动化程序）抓取网页数据」，科技语境中的专业含义，指用爬虫从网站批量提取内容，常带有『未经充分授权』的隐含批评意味",
-              "etymology": "源自古诺尔斯语skrapa，原义为『刮、擦』，20世纪末随互联网发展被引申为『用程序刮取网页数据』",
-              "morphology": "动词scrape衍生出名词scraper（爬虫程序）、web scraping（网页抓取）；同源词：scrap, scratch",
-              "mnemonic": "想象用刮刀scrape刮掉墙上一层油漆并收集起来——网络爬虫做的正是同样的事：把网页表层的文字信息一点点刮下来存进数据库",
-              "exampleEn": "AI companies have been criticized for scraping forum content without adequately compensating the platforms that host it.",
-              "exampleCn": "AI公司因抓取论坛内容却未充分补偿托管平台而受到批评。"
-            },
-            {
-              "word": "walk away from",
-              "pos": "phrase",
-              "meaning": "「放弃、退出（协议/交易）」，比\"cancel\"或\"end\"更强调主动抽身、不再纠缠的姿态，常用于谈判破裂或商业决裂的语境",
-              "etymology": "短语/复合词，字面义为『从…走开』，20世纪引申为商业和法律语境中『主动放弃某项协议或立场』",
-              "morphology": "walk（走）+ away（离开）+ from（介词，表示脱离的对象）；类似结构：back away from, step away from",
-              "mnemonic": "想象谈判桌前一方站起身，转身径直走出会议室，头也不回——walk away from正是这种『不再纠缠、直接离场』的画面",
-              "exampleEn": "Huffman hinted that Reddit could walk away from its licensing deal if Google's AI Overviews keep eroding referral traffic.",
-              "exampleCn": "胡夫曼暗示，如果谷歌的AI摘要持续侵蚀引荐流量，Reddit可能会退出这项授权协议。"
-            }
-          ]
-        },
-        {
-          "id": "20260802-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/07/31/top-investment-ideas-as-interest-rate-uncertainty-grips-market-.html",
-          "headlineEn": "Investors Eye Front End of Yield Curve Ahead of Fed Meetings",
-          "headlineCn": "投资者聚焦收益率曲线前端 静候美联储会议",
-          "summaryEn": "Allspring Global Investments strategist Noah Wise suggests bond investors concentrate on the front end of the yield curve — short-maturity Treasuries — as markets brace for the Federal Reserve's upcoming policy meetings. Short-tenor bonds react more directly to anticipated rate moves than longer-dated debt, whose returns depend more on distant growth and inflation assumptions. With the Street divided over the timing of further cuts, favoring the front end lets investors capture near-term Fed-driven gains while limiting exposure to longer-term uncertainty. The call underscores how meeting-by-meeting Fed signals are reshaping fixed-income strategy.",
-          "summaryCn": "Allspring策略师Noah Wise建议，债市投资者应聚焦收益率曲线前端（短期国债），因市场正静候美联储近期会议。短债对利率预期反应更直接，长债回报更依赖长期增长与通胀假设。华尔街对降息节奏尚有分歧，押注前端可捕捉近期收益，同时降低长期不确定性敞口。",
-          "excerpt": "Bond market investors may want to focus on the front end of the yield curve, Allspring Global Investments' Noah Wise says, as Wall Street braces for the Fed's next moves. Short-maturity debt, he argues, offers a cleaner way to play near-term policy shifts without taking on longer-term rate risk.",
-          "vocab": [
-            {
-              "word": "front-load",
-              "pos": "phrasal v.",
-              "meaning": "把资金/仓位集中配置在（曲线）前端或近期，而非平均分散；财经语境里指提前承担某类风险或投入。比\"prioritize\"更有画面感，暗示\"提前压重\"的动作，常见于组合配置、支出计划讨论。",
-              "etymology": "复合词，front（古法语front，拉丁frons意为额头/前部）+ load（古英语lad，意为负担、装载），组合后引申为\"把负担放在前面\"。",
-              "morphology": "front-（表示位置在前，同类词frontier, forefront）+ load（装载，同类词overload, download, workload）。",
-              "mnemonic": "想象把行李箱里最重的东西塞在最前面先搬——front-load就是先把重的部分（风险/仓位）放在最前头处理。",
-              "exampleEn": "The fund decided to front-load its bond purchases in short maturities before the Fed's decision.",
-              "exampleCn": "该基金决定在美联储决议前，把债券购买集中配置在短期品种上。"
-            },
-            {
-              "word": "the Street",
-              "pos": "n. phrase",
-              "meaning": "华尔街金融从业者/分析师群体的统称，财经报道里常代指\"市场普遍预期\"。新闻标题里\"as Street anticipates\"就是这个用法，比直接写Wall Street更简洁地道。",
-              "etymology": "借自地名Wall Street（纽约金融区），20世纪媒体逐渐简化为the Street，作为整个金融业的转喻说法。",
-              "morphology": "不可拆解的固定词组，属于地名转喻（metonymy）；类似用法如Main Street（代表普通民众/实体经济）。",
-              "mnemonic": "把the Street想象成纽约那条真实的金融街，所有分析师挤在这条街上议论利率，久而久之\"这条街\"就代表了整个市场的看法。",
-              "exampleEn": "The Street widely expects two rate cuts before year-end.",
-              "exampleCn": "华尔街普遍预计年底前会有两次降息。"
-            },
-            {
-              "word": "tenor",
-              "pos": "n.",
-              "meaning": "债券距离到期的剩余期限，与maturity接近但更强调\"期限长短的分类\"（如短tenor、长tenor）。极易与tenure（任期）混淆，但词源、用法完全不同，值得专门辨析。",
-              "etymology": "源自拉丁语tenor，意为持续的方向、进程，14世纪进入英语表示内容大意，后在金融领域引申为合约/债券的期限走向。",
-              "morphology": "不可拆解的简单词，同源词包括tenacious（拉丁tenere，抓住）；注意与tenure（同样源自tenere，但指任职期）区分。",
-              "mnemonic": "想象一位男高音（tenor也指男高音）要持续唱到最后一个音符——tenor就是那个持续多久的时长概念，用在债券上即剩余期限。",
-              "exampleEn": "Shorter-tenor bonds are more sensitive to near-term Fed policy shifts.",
-              "exampleCn": "期限较短的债券对美联储近期政策变化更敏感。"
-            },
-            {
-              "word": "skew",
-              "pos": "v./n.",
-              "meaning": "（使）朝某一方向倾斜/偏向，统计学里指分布不对称；财经语境常说positioning is skewed toward...表示仓位或预期偏向某一方，比tilt更强调\"扭曲、失衡\"的意味。",
-              "etymology": "源自古北欧语skeifr（斜的），经古法语eskiuer演变，13世纪进入英语，本义斜着走/躲避，后引申为使偏斜。",
-              "morphology": "不可拆解的简单词，常见搭配skewed toward/away from；名词形式skewness用于统计学描述分布偏度。",
-              "mnemonic": "想象把一叠整齐的文件一脚踢歪——skew就是那种本该对称却被踢偏的状态，用在市场里就是仓位或预期偏向一边。",
-              "exampleEn": "Investor positioning is increasingly skewed toward short-duration debt.",
-              "exampleCn": "投资者的仓位正日益偏向短久期债券。"
-            },
-            {
-              "word": "play",
-              "pos": "n.",
-              "meaning": "一种可执行的投资策略/操作思路（如curve play、value play），比strategy更口语化、更具战术感，是交易员之间的高频俚语，财经新闻里常见却很少在教材里教。",
-              "etymology": "源自古英语plega（快速运动、游戏），本义与体育/游戏动作有关，19-20世纪金融俚语借用下场比赛之意，引申为一种操作手法。",
-              "morphology": "不可拆解的简单词，动词/名词同形；常见搭配power play, defensive play, curve play，注意与strategy相比语域更随意口语化。",
-              "mnemonic": "把交易员想象成棋手，每一次play就是他们落下的一步棋——front-end play就是这盘棋里先吃短期这颗子的招数。",
-              "exampleEn": "Some traders see the front-end trade as a defensive play ahead of the Fed meeting.",
-              "exampleCn": "一些交易员认为，押注曲线前端是美联储会议前的一种防御性操作。"
             }
           ]
         }
