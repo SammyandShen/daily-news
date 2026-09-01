@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-08-31T23:00:14.626295+00:00",
+  "lastUpdated": "2026-09-01T23:00:13.150360+00:00",
   "level": "B2",
   "days": {
+    "2026-09-02": {
+      "label": "9月2日 (周三)",
+      "stories": [
+        {
+          "id": "20260902-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
+          "headlineEn": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260902-2",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
+          "headlineEn": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Enterprise cyber threats and AI adoption are giving Palo Alto Networks ‘durable tailwinds,’ according to CEO Nikesh Arora, but the stock retreated after an earnings beat",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Enterprise cyber threats and AI adoption are giving Palo Alto Networks ‘durable tailwinds,’ according to CEO Nikesh Arora, but the stock retreated after an earnings beat",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260902-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
+          "headlineEn": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-01": {
       "label": "9月1日 (周二)",
       "stories": [
@@ -4303,200 +4377,6 @@
               "mnemonic": "想象一杯水倒得太满，水顺着杯壁spill over漫出来弄湿桌面——日元问题如果处理不好，也会像水一样溢出，弄湿其他市场。",
               "exampleEn": "Officials worry that yen weakness could cause spillover into broader Asian currency markets.",
               "exampleCn": "官员们担心日元疲软可能外溢至更广泛的亚洲货币市场。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-03": {
-      "label": "8月3日 (周一)",
-      "stories": [
-        {
-          "id": "20260803-1",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-          "headlineEn": "Is Paying Artists Enough to Convince Them to Embrace AI?",
-          "headlineCn": "付钱够多，插画师就会接受AI吗？",
-          "summaryEn": "Illustrators have long criticized generative AI companies for training models on their artwork without consent, calling it outright theft, while AI advocates insist such data use is essential for the technology to keep improving. The dispute has spilled into numerous lawsuits, but now some AI firms are trying a different tactic: offering artists licensing payments to use their work legally. The open question is whether money alone can repair the deep distrust between creators and an industry many still view as exploitative.",
-          "summaryCn": "插画师多年来一直抨击生成式AI公司未经许可用其作品训练模型，直指这是变相偷窃；而AI阵营则辩称这类数据是技术进化的必要条件。这场争执已演变成多起诉讼，如今部分AI公司转而尝试用付费授权的方式化解矛盾。问题在于，仅靠金钱补偿，能否真正修复创作者与AI行业之间的深层不信任？",
-          "excerpt": "For years, illustrators have accused generative AI startups of training their models on artists' work without permission, calling the practice tantamount to theft. AI advocates counter that such data is essential for the technology to keep advancing — a clash that has fueled numerous lawsuits.",
-          "vocab": [
-            {
-              "word": "tantamount to",
-              "pos": "phrase",
-              "meaning": "相当于……（含负面评判色彩），常用于把某行为定性为更严重的事，比\"equal to\"更带谴责语气，商业/法律语境常见，如「tantamount to fraud」",
-              "etymology": "源自古法语 tant amont，意为「到……那么多的程度」，14世纪进入英语，逐渐固化为「等同于」的正式用语",
-              "morphology": "tant（如此多）+ amount（数量）融合而成，不可再拆分；可联想 amount（数量）、amounting to（总计达到）",
-              "mnemonic": "想象天平两端，一边是「投诉」，一边是「盗窃」，tantamount 就是那根让天平持平的横杆——把两件事画上等号",
-              "exampleEn": "Critics say the company's use of copyrighted images without payment is tantamount to theft.",
-              "exampleCn": "批评者称，该公司未付费使用受版权保护的图片，无异于盗窃。"
-            },
-            {
-              "word": "infringe",
-              "pos": "v.",
-              "meaning": "侵犯（权利、版权等），法律/商业语境常用词，比\"break\"更正式，常搭配 infringe on/upon",
-              "etymology": "源自拉丁语 infringere（in-向内 + frangere折断），原意「打破、破坏」，16世纪起用于「违反法律或权利」",
-              "morphology": "in-（向内/使…）+ fring（词根来自 frangere 断裂）+ -e；同根词：fragment（碎片）、fracture（骨折）、fragile（易碎的）",
-              "mnemonic": "frangere=break，想象把别人的版权「掰断」占为己有——侵权就是把权利硬生生折断",
-              "exampleEn": "The startup was sued for infringing on artists' copyrights by scraping their work without consent.",
-              "exampleCn": "这家初创公司因未经同意抓取艺术家作品而侵犯版权被起诉。"
-            },
-            {
-              "word": "royalty",
-              "pos": "n.",
-              "meaning": "版税、专利/版权使用费，易与「royalty」（王室）混淆，商业语境中特指按销售额或使用量支付给版权/专利所有者的费用",
-              "etymology": "源自古法语 roialte（royal的名词形式），本义「王权、王室身份」，17世纪衍生出「支付给版权/专利所有人的费用」这一商业含义，因早期专营权由王室授予而来",
-              "morphology": "royal（皇家的）+ -ty（名词后缀，表性质/状态）；同根词：royal（皇家的）、viceroy（总督）",
-              "mnemonic": "把版税想象成「艺术家的小王国」——每次作品被使用，创作者就像国王一样收取一份贡品",
-              "exampleEn": "Some AI firms now offer artists a royalty each time their style is used to train a model.",
-              "exampleCn": "一些AI公司现在承诺，每当艺术家的风格被用于训练模型时就支付版税。"
-            },
-            {
-              "word": "appease",
-              "pos": "v.",
-              "meaning": "安抚、平息（不满情绪），商业/外交语境常见，隐含「用让步换取平静」，比\"satisfy\"更强调对抗后的妥协意味",
-              "etymology": "源自古法语 apaisier（a- + pais和平），原意「使…和平」，14世纪进入英语，20世纪因「绥靖政策(appeasement)」一词带上一定负面色彩",
-              "morphology": "a-（使成为）+ peace（和平，拼写演变为pease）+ -e；同根词：peace（和平）、peaceful（和平的）、appeasement（绥靖）",
-              "mnemonic": "a + peace，「使…和平」——想象给愤怒的艺术家递上一张支票，试图把战火浇灭",
-              "exampleEn": "Paying artists a licensing fee may not fully appease those who see AI training as outright theft.",
-              "exampleCn": "支付许可费或许无法完全平息那些认为AI训练无异于赤裸盗窃的艺术家的不满。"
-            },
-            {
-              "word": "goodwill",
-              "pos": "n.",
-              "meaning": "商誉/善意，双重含义：日常指「善意、友好态度」，会计/商业语境特指企业并购中的无形资产「商誉」，学习者常只记住前者",
-              "etymology": "good（好的）+ will（意愿）复合而成，古英语已有类似表达，19世纪起被会计学界借用为专业术语，指企业声誉带来的额外价值",
-              "morphology": "good（好的）+ will（意愿），复合词，不可再拆；同类复合词：goodbye、goodnight",
-              "mnemonic": "把 goodwill 想成两层意思的礼物——普通人送的是「善意的笑容」，公司账本上记的却是「看不见的品牌价值」",
-              "exampleEn": "The company hopes licensing payments will help rebuild goodwill with the artist community it once alienated.",
-              "exampleCn": "该公司希望通过支付许可费，重新赢得曾被自己疏远的艺术家群体的好感。"
-            }
-          ]
-        },
-        {
-          "id": "20260803-2",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/financial-stocks-are-crushing-it-these-charts-show-why-the-breakout-rally-may-have-just-begun-6db3cc12?mod=mw_rss_topstories",
-          "headlineEn": "Bank Stocks Hit Record Highs as 'Breakout' Rally May Just Be Starting",
-          "headlineCn": "银行股齐创新高，突破式上涨行情或才刚开始",
-          "summaryEn": "Financial stocks have broken out to record highs, and market charts suggest the rally has real staying power. Banks have posted stronger-than-expected earnings this season, while their valuations remain reasonable compared with the broader market — a combination investors rarely see together. Analysts say this mix of solid fundamentals and room to run could keep pushing bank shares higher in the months ahead. For everyday investors, the takeaway is that the financial sector, often overlooked during the tech-driven bull market, may now be entering a fresh leg of outperformance.",
-          "summaryCn": "金融股近期突破历史新高，图表显示这波涨势可能才刚开始。银行业本季盈利好于预期，估值也相对合理，基本面与估值双重利好的组合并不常见。分析师认为，这为银行股未来数月的上涨留出了空间，此前被科技股风头盖过的金融板块，或将迎来补涨行情。",
-          "excerpt": "The breakout to record highs by bank stocks, combined with strong earnings and favorable valuations, points to more good times ahead for the financial sector. Chart patterns suggest this rally still has plenty of room left to run before it loses steam.",
-          "vocab": [
-            {
-              "word": "momentum",
-              "pos": "n.",
-              "meaning": "势头/动能；金融语境中指价格或趋势的持续推动力，比 trend 更强调「速度感」和「不易逆转」的物理隐喻，常见搭配 gain/lose/build momentum",
-              "etymology": "源自拉丁语 movimentum，来自 movere（移动），本义为物理学中的「动量」，17世纪进入英语后逐渐被经济金融领域借用来描述价格趋势的推动力",
-              "morphology": "mov-（移动词根）+ -ment（名词后缀，表示状态/结果）+ -um（拉丁语中性名词后缀）；同词根词：move, movement, motive, motion",
-              "mnemonic": "想象一颗从山坡滚下的球，越滚越快、越难停下——这就是momentum，金融新闻里常说rally has momentum就像股价这颗球正在加速冲上坡",
-              "exampleEn": "Bank stocks have built strong momentum this quarter, with each earnings beat pushing shares to fresh records.",
-              "exampleCn": "本季度银行股势头强劲，每一次财报超预期都把股价推向新高。"
-            },
-            {
-              "word": "underpin",
-              "pos": "v.",
-              "meaning": "为...打下基础/支撑；比 support 更强调「结构性、根基性的支撑」，常用于描述业绩、政策或数据支撑某个趋势或论点，是财经报道中描述底层驱动力的高频词",
-              "etymology": "由 under（下方）+ pin（钉子/支柱）构成，字面义为「在下方钉支柱」，源自建筑术语，指在建筑物地基下加固支撑，19世纪起被引申用于比喻抽象事物的支撑",
-              "morphology": "under-（前缀，表示在...之下）+ pin（词根，钉子/支柱）；同前缀词：undermine, underlie, undergird, underscore",
-              "mnemonic": "想象工人在老房子地基下打入新的钢筋支柱防止塌陷——underpin 就是这种暗中加固的动作，财报数据就像悄悄撑住股价大厦的地基",
-              "exampleEn": "Strong quarterly profits and reasonable price-to-earnings ratios are underpinning the sector's rally.",
-              "exampleCn": "强劲的季度利润和合理的市盈率正在为该板块的上涨提供支撑。"
-            },
-            {
-              "word": "cushion",
-              "pos": "n. / v.",
-              "meaning": "缓冲垫/缓冲空间；金融语境中常指资本或利润的安全垫，比 buffer 更口语化、画面感更强，尤其常见于描述银行资本充足率或估值留有余地",
-              "etymology": "源自古法语 coissin，来自通俗拉丁语 coxinum（源自 coxa，臀部/大腿），本义是坐垫、靠垫，14世纪进入英语，19世纪后引申出缓冲、减震的比喻义",
-              "morphology": "不可拆解的简单词；常见派生：cushion（名词/动词同形）、cushioned（形容词，有缓冲的）、cushiony（口语形容词）",
-              "mnemonic": "想象沙发上厚厚的坐垫，摔倒时能减轻冲击——银行的资本cushion就是这样一层缓冲垫，市场下跌时能防止股价直接摔到地板上",
-              "exampleEn": "Favorable valuations give financial stocks a cushion even if the broader market wobbles.",
-              "exampleCn": "有利的估值水平为金融股提供了一层缓冲，即便大盘出现波动也不至于重挫。"
-            },
-            {
-              "word": "at a discount",
-              "pos": "phrase",
-              "meaning": "以折价/低于应有价值交易；财经语境中常用来形容某板块或个股相对同业或历史均值被低估，暗示有补涨空间，比单纯说 cheap 更专业、更精确",
-              "etymology": "discount 源自中世纪拉丁语 discomputare（dis-否定 + computare计算），原指从总额中扣除的部分，16世纪金融领域开始用来描述低于面值或市场价的交易",
-              "morphology": "dis-（前缀，表示相反/去除）+ count（词根，计算）；同前缀词：discredit, disqualify, discourage",
-              "mnemonic": "把discount想象成商场打折标签——「银行股在打折」意味着它们的价格标签比应有身价更便宜，聪明的买家会趁打折入手",
-              "exampleEn": "Even after the breakout, some regional banks are still trading at a discount to their historical average.",
-              "exampleCn": "即便股价已经突破新高，一些地区性银行相对其历史均值仍处于折价状态。"
-            },
-            {
-              "word": "broad-based",
-              "pos": "adj.",
-              "meaning": "广泛的/全面铺开的；用来形容涨势、支持或影响不局限于个别成分，而是覆盖整个板块或群体，比 widespread 更常出现在描述市场行情的语境中，暗含根基扎实、不是个别股票在硬拉的意味",
-              "etymology": "broad（古英语 brad，宽阔的）+ based（base 源自古法语 bas，来自拉丁语 basis，基础），组合词最早用于描述基础宽广，20世纪中期起广泛用于经济、政治领域描述影响范围",
-              "morphology": "broad（形容词词根，宽阔）+ base（名词词根，基础）+ -ed（形容词后缀）；同类构词：wide-ranging, deep-rooted, well-founded",
-              "mnemonic": "想象一张桌子的桌脚又粗又多——broad-based 就是这种底盘宽厚、不容易被推倒的稳定感，用来形容涨势就是说这波行情不是靠一两只股票撑着",
-              "exampleEn": "The rally in financial stocks has been broad-based, lifting everything from big banks to regional lenders.",
-              "exampleCn": "金融股这波涨势相当全面，从大型银行到地区性放贷机构无一不涨。"
-            }
-          ]
-        },
-        {
-          "id": "20260803-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/02/oil-prices-iran-war-energy-market.html",
-          "headlineEn": "Investors Profited From Iran War Oil Swings, But Staying Long Won't Be Easy",
-          "headlineCn": "伊朗冲突助推油价大涨，长线持仓难度加大",
-          "summaryEn": "When the U.S. and Iran traded strikes this summer, crude oil prices swung wildly, handing sharp gains to traders who timed the moves correctly. But those short-term wins don't easily translate into a lasting strategy. Analysts warn that chasing the same trade now, after the initial shock has faded, carries a much higher chance of getting burned by a reversal. For investors seeking durable exposure to energy markets, a smarter approach may be shifting toward broader structural themes like supply discipline and refining capacity, rather than betting on renewed geopolitical tension.",
-          "summaryCn": "今年夏天美伊冲突令原油价格剧烈波动，精准踩点的交易者获利丰厚。但这类短期战果难以复制为长期策略——分析师提醒，冲突高峰已过，此时再追进同一笔交易，翻车概率大增。对追求持续收益的投资者而言，不如把目光转向供给纪律、炼油产能等更稳健的能源主题。",
-          "excerpt": "Oil price volatility triggered by the U.S.-Iran war handed traders quick, outsized gains this summer. But for buy-and-hold investors hoping to repeat that performance, the setup looks far less favorable now — and several longer-term energy themes may offer steadier returns instead.",
-          "vocab": [
-            {
-              "word": "be long",
-              "pos": "phrase",
-              "meaning": "表示持有某资产/交易的多头仓位，押注其上涨；比buy更专业，明确传递『仍持仓、押注上涨』的立场，常见于对冲基金和交易员口中。",
-              "etymology": "源自19世纪美式英语期货交易术语，long本义为『长的』，引申为『长期持有以待升值』的仓位状态，与short（做空）相对。",
-              "morphology": "不可拆解的简单词；常见搭配有 go long / long position / long-term，与反义词 short 构成金融领域的核心对立概念对。",
-              "mnemonic": "想象一条长长的绳子拴住股票不放手——你打算长期抓住它等它涨，这就是be long。",
-              "exampleEn": "Even after the rally cooled, the hedge fund stayed long crude futures, betting on another leg up.",
-              "exampleCn": "即便涨势降温，这家对冲基金仍持有原油期货多头仓位，押注价格还会再涨一波。"
-            },
-            {
-              "word": "fade",
-              "pos": "v.",
-              "meaning": "交易术语，指『反向操作、逆势做单』——行情大涨时反而卖出，赌它涨不动了；比bet against更专业，隐含『预期动能耗尽、行情会回落』的判断。",
-              "etymology": "源自英语普通动词fade（褪色、逐渐消失，14世纪古法语fader演变而来），金融语境中借喻『势头逐渐消退』，20世纪后期被交易圈借用为专业术语。",
-              "morphology": "不可拆解简单词；常见派生 fading（现在分词作形容词，如fading momentum）。近义搭配：fade the rally / fade the move。",
-              "mnemonic": "想象颜色褪色（fade）的过程——交易员fade一笔交易时，就是笃定这波行情的色彩（动能）正在慢慢褪去，于是反向下注。",
-              "exampleEn": "Some traders started fading the rally, convinced oil couldn't hold its wartime gains for long.",
-              "exampleCn": "一些交易员开始反向做空这波涨势，笃定油价撑不住这波战时涨幅。"
-            },
-            {
-              "word": "mean reversion",
-              "pos": "phrase",
-              "meaning": "指价格或数据在偏离历史平均水平后，倾向于逐渐回归均值的现象；比单纯说『回调』更精确，强调这是统计规律而非单纯情绪驱动。",
-              "etymology": "源自统计学术语regression toward the mean，19世纪英国科学家Francis Galton研究遗传身高时提出，20世纪后被金融量化领域借用描述价格行为。",
-              "morphology": "mean（古英语mǣne，意为『中间、平均』）+ reversion（拉丁词根revertere，『返回』，re-回+vertere转）；同根词有revert、reverse、diversion。",
-              "mnemonic": "把价格想象成一根被拉伸的橡皮筋——外力（如战争冲击）一旦消失，它就会回弹到原本的平均长度，这就是mean reversion。",
-              "exampleEn": "Quant funds are watching for mean reversion once the geopolitical premium drains out of oil prices.",
-              "exampleCn": "一旦油价中的地缘政治溢价消退，量化基金就在等待价格回归均值。"
-            },
-            {
-              "word": "chase",
-              "pos": "v.",
-              "meaning": "指『追高、迟到入场』——行情已大幅上涨后才追进场，隐含『贪心、怕错过（FOMO）』的负面意味，比单纯的buy更能体现交易心理和时机风险。",
-              "etymology": "源自古法语chacier（追赶、驱赶），拉丁语captiare（试图抓住），本义为『追捕猎物』，14世纪进入英语后逐渐衍生出金融语境中『追涨』的用法。",
-              "morphology": "不可拆解简单词；常见派生 chaser（追随者）、chase down（追查）。金融搭配：chase a rally / chase yield / chase performance。",
-              "mnemonic": "想象猎犬在追逐（chase）猎物——投资者看到价格已经跑远了还在气喘吁吁地追，往往追到手时利润早已跑光。",
-              "exampleEn": "Retail investors who chased the rally late often ended up buying near the top.",
-              "exampleCn": "那些晚入场追涨的散户投资者，往往最终买在了高点附近。"
-            },
-            {
-              "word": "pare back",
-              "pos": "phrasal v.",
-              "meaning": "指『逐步削减、缩减仓位或规模』，语气比cut更温和、更强调渐进式调整，常用于描述机构投资者谨慎收缩风险敞口的过程。",
-              "etymology": "pare源自古法语parer（削皮、修剪），拉丁语parare（准备、修整）；back强化『往回收』的方向感，二者组合于20世纪成为英语商业新闻常用短语动词。",
-              "morphology": "pare（削减）+ back（副词，表方向『往回』）；同源词有 paring（削减的部分）、prepare（pre-事先+parare准备）、repair（re-再+parare修整）。",
-              "mnemonic": "想象削苹果皮（pare an apple）——一层层削薄，pare back就是把仓位像削皮一样一点点削薄、往回收。",
-              "exampleEn": "After the initial oil price surge faded, several funds began paring back their long positions.",
-              "exampleCn": "在最初的油价急涨消退后，几家基金开始逐步削减其多头仓位。"
             }
           ]
         }
