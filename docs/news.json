@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-02T23:00:14.117324+00:00",
+  "lastUpdated": "2026-09-04T00:26:58.453325+00:00",
   "level": "B2",
   "days": {
+    "2026-09-04": {
+      "label": "9月4日 (周五)",
+      "stories": [
+        {
+          "id": "20260904-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "headlineEn": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't [&#8230;]",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"cr",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260904-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/03/zscaler-zs-q4-earnings-2026.html",
+          "headlineEn": "Zscaler stock rises on earnings beat, upbeat guidance",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "CEO Jay Chaudhry said he's \"very bullish\" on Zscaler's agentic Zero Trust offering, which is gaining early momentum",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "CEO Jay Chaudhry said he's \"very bullish\" on Zscaler's agentic Zero Trust offering, which is gaining early momentum",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260904-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+          "headlineEn": "The big August jobs report is due out Friday. Here's what to expect for what has been a jobless summer",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "August nonfarm payrolls are expected to rise by 53,000 as a subdued labor market keeps Fed attention focused on inflation.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "August nonfarm payrolls are expected to rise by 53,000 as a subdued labor market keeps Fed attention focused on inflation.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-03": {
       "label": "9月3日 (周四)",
       "stories": [
@@ -4063,200 +4137,6 @@
               "mnemonic": "把通胀想象成一锅煮沸的汤，央行加息就是往锅里加冰块——那个让汤 cool 下来的动作，正是货币政策试图给经济降温。",
               "exampleEn": "Officials hope tighter policy will cool inflation without tipping the economy into recession.",
               "exampleCn": "官员们希望收紧的政策能给通胀降温，同时不会把经济拖入衰退。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-05": {
-      "label": "8月5日 (周三)",
-      "stories": [
-        {
-          "id": "20260805-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
-          "headlineEn": "Anthropic Signs $10B Cloud Deal with AI Startup Volta",
-          "headlineCn": "Anthropic与AI云初创Volta签下百亿美元大单",
-          "summaryEn": "Anthropic has reportedly agreed to a $10 billion deal with Volta, an AI cloud startup, marking the latest in a string of cloud partnerships the company has struck in recent months. The agreement is expected to give Anthropic dedicated access to compute capacity needed to train and run its models at scale. As demand for AI computing continues to outpace supply, deals like this one illustrate how leading AI labs are locking in long-term infrastructure arrangements with smaller, fast-growing cloud providers rather than relying solely on the biggest established providers.",
-          "summaryCn": "据报道，Anthropic与AI云初创企业Volta达成一笔价值100亿美元的合作协议，是该公司近几个月一系列云计算合作中的最新一笔，将为其训练和运行大模型提供稳定算力。随着AI算力需求持续超过供给，头部实验室正越来越多地与新兴云服务商锁定长期合作，而非只依赖传统云巨头。",
-          "excerpt": "Anthropic has struck a string of cloud partnerships in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta — a bet that locking in dedicated compute capacity now will pay off as demand for AI infrastructure keeps climbing.",
-          "vocab": [
-            {
-              "word": "bankroll",
-              "pos": "v.",
-              "meaning": "「出资/为...提供资金」，比fund更具画面感——让人联想到卷起来的一沓钞票，常用于形容金主为项目或交易砸钱，语域略带口语色彩，商业新闻中常见于描述大额投资方。",
-              "etymology": "复合词，bank（银行，源自意大利语banca「长凳/柜台」，中世纪货币兑换商摆摊的长凳）+ roll（卷，源自古法语role「卷轴」）。字面意为银行卷，19世纪美式英语中引申为资金，20世纪演变为动词出资。",
-              "morphology": "bank + roll，无前后缀的复合词。同类构词：roll还出现在payroll（工资单）中；bank可扩展为banker（银行家）、banking（银行业）。",
-              "mnemonic": "想象一叠现金被卷成一卷（roll）塞进银行金库——谁bankroll了这笔交易，就是谁把这一卷钱掏了出来。",
-              "exampleEn": "Investors are said to be bankrolling Volta's expansion so it can meet Anthropic's compute needs.",
-              "exampleCn": "据称投资者正在为Volta的扩张提供资金，以满足Anthropic的算力需求。"
-            },
-            {
-              "word": "insatiable",
-              "pos": "adj.",
-              "meaning": "「无法满足的（欲望/需求）」，比huge或strong更强调永远填不满的动态感，常用来形容AI公司对算力、数据、资金的贪婪需求，带有轻微夸张的修辞色彩。",
-              "etymology": "源自拉丁语insatiabilis，由in-（不）+ satiare（使饱足，词根satis「足够」）构成，14世纪经古法语进入英语，字面即不能被喂饱的。",
-              "morphology": "in-（否定前缀）+ sati（词根，来自satis足够）+ able（能够，形容词后缀）。同词根词：satisfy（满足）、satiate（使饱）、saturate（使饱和）。",
-              "mnemonic": "把in-satiable拆成不-能被sate（喂饱）的——想象AI模型的胃口是个无底洞，倒多少算力进去都填不满。",
-              "exampleEn": "Anthropic's insatiable appetite for compute is reshaping the AI cloud market.",
-              "exampleCn": "Anthropic对算力近乎无法满足的需求，正在重塑AI云计算市场格局。"
-            },
-            {
-              "word": "compute",
-              "pos": "n.",
-              "meaning": "「算力」，名词化用法，指可购买、可分配的计算资源，区别于动词计算，是AI行业财报和新闻中的高频黑话，直接说computing power显得啰嗦，业内人士默认用compute这个缩略名词。",
-              "etymology": "源自拉丁语computare，com-（共同）+ putare（计算，本义修剪/清理，引申为盘算）。原为动词，2010年代随云计算和AI行业兴起，被业内直接名词化使用。",
-              "morphology": "com-（前缀，共同/一起）+ put（词根，思考/计算）。同词根词：computer（计算机）、computation（计算）、dispute（争论）。",
-              "mnemonic": "把compute想象成AI公司账本上的一种商品——像买电、买水一样按小时或按芯片购买的计算力，而不是数学课上计算这个动作。",
-              "exampleEn": "The $10 billion deal secures Anthropic a steady supply of compute for years to come.",
-              "exampleCn": "这笔百亿美元交易为Anthropic未来数年锁定了稳定的算力供应。"
-            },
-            {
-              "word": "fledgling",
-              "pos": "adj.",
-              "meaning": "「羽翼未丰的，新生的」，形容初创公司比new或young更形象——原指刚长出羽毛还不会飞的雏鸟，用在商业语境里暗示稚嫩但有潜力，比startup多了一层尚待证明自己的隐含语气。",
-              "etymology": "源自古英语fleogan（飞）的派生词fledge（长出羽毛、能飞），14世纪演变出fledgling一词，字面指刚会飞的幼鸟，19世纪起比喻用于形容新兴事物或新手。",
-              "morphology": "fledge（词根，长出羽毛）+ -ling（后缀，表小/幼小的个体，同见于duckling鸭仔、sapling树苗）。同源词：full-fledged（羽翼丰满的，喻成熟的）。",
-              "mnemonic": "想象一只刚长出翅膀、还站在悬崖边试飞的小鸟——fledgling startup就是那种刚敢往外跳但还没证明自己能飞多远的新公司。",
-              "exampleEn": "Volta is still a fledgling player compared with established cloud giants.",
-              "exampleCn": "相较于成熟的云计算巨头，Volta仍是一家羽翼未丰的新兴企业。"
-            },
-            {
-              "word": "capital-intensive",
-              "pos": "adj.",
-              "meaning": "「资本密集型的」，形容需要巨额前期投入才能运转的行业，比笼统说expensive更精准地指出钱是投入生产要素而非消耗品，是财经报道描述基础设施型business model的标准术语。",
-              "etymology": "capital源自拉丁语capitalis（关乎头部/首要的，词根caput「头」），16世纪起在经济学中指资本、本金；intensive源自拉丁语intendere（用力伸展），19世纪与capital组合成复合形容词。",
-              "morphology": "capital（名词，资本，词根caput头/首要）+ intensive（形容词，密集的，intend-词根+ -ive后缀）。类似复合词：labor-intensive（劳动密集型）、asset-intensive（资产密集型）。",
-              "mnemonic": "把capital-intensive理解为资本像被用力挤压进这个行业——AI数据中心就是典型：不砸钱建芯片和电厂，业务根本转不起来。",
-              "exampleEn": "Building AI data centers is a capital-intensive business that favors well-funded players.",
-              "exampleCn": "建设AI数据中心是一门资本密集型生意，更利好资金雄厚的玩家。"
-            }
-          ]
-        },
-        {
-          "id": "20260805-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/04/spacex-doubles-revenues-on-anthropic-and-google-compute-deals-starlink-growth/",
-          "headlineEn": "SpaceX Doubles Revenue as Anthropic, Google Compute Deals and Starlink Fuel Growth",
-          "headlineCn": "SpaceX营收翻倍：Anthropic、谷歌算力订单与星链增长齐发力",
-          "summaryEn": "SpaceX reported that its revenue doubled year over year, according to its first-ever quarterly earnings disclosure since the company went public in June. The jump was driven partly by new compute-capacity agreements with AI firms Anthropic and Google, which are leasing SpaceX's satellite infrastructure and data resources, alongside continued expansion of its Starlink broadband service. The results mark an early test of how SpaceX performs under public shareholder scrutiny, and they signal that satellite operators are increasingly diversifying beyond launch and connectivity into supporting the booming AI compute market.",
-          "summaryCn": "SpaceX公布上市以来首份季度财报，营收同比翻倍。增长得益于与Anthropic、谷歌达成的算力合作，双方租用其卫星基础设施与数据资源，星链宽带业务也持续扩张。这是SpaceX上市后首次接受公开股东审视，也显示卫星运营商正加速向支撑AI算力需求的方向拓展业务。",
-          "excerpt": "SpaceX said its revenue doubled from a year earlier, marking the company's first quarterly earnings report since it went public in June — a result driven by new compute deals with Anthropic and Google alongside steady growth in its Starlink satellite broadband business.",
-          "vocab": [
-            {
-              "word": "fuel",
-              "pos": "v.",
-              "meaning": "作动词，喻指为…提供动力、推动，比drive/boost更生动形象。财经报道常用它描述业绩增长背后的驱动因素，带有燃料助推的画面感。",
-              "etymology": "源自古法语fouaille（木柴、燃料），再溯至拉丁语focus（壁炉、火塘）。中世纪英语借入后先指燃料，18世纪起引申出为…提供动力的比喻用法。",
-              "morphology": "名词fuel→动词fuel，零派生无需加后缀。同源词：focus（同源自拉丁focus，壁炉→焦点）；refuel（re-再+fuel，重新加油）；fuel-efficient（燃料高效的）。",
-              "mnemonic": "想象一台火箭（正是SpaceX）加满燃料才能升空——新闻里deals fueled growth就像给营收火箭加满油，一下子冲上天。",
-              "exampleEn": "Strong demand for AI compute fueled a sharp rise in the company's quarterly revenue.",
-              "exampleCn": "对AI算力的强劲需求推动了该公司季度营收的大幅增长。"
-            },
-            {
-              "word": "diversify",
-              "pos": "v.",
-              "meaning": "动词，指企业拓展业务范围、实现多元化经营以分散风险，常与revenue streams、portfolio搭配，比expand更强调从单一走向多样的战略意图。",
-              "etymology": "源自拉丁语diversus（转向不同方向的，divertere的过去分词）加中古法语diversifier。14世纪进入英语，最初指使多样化，20世纪后成为商业金融术语。",
-              "morphology": "di-（分离前缀）+ vers（词根，来自vertere，转动）+ -ify（动词后缀，使…化）。同根词：diverse（形容词）、diversity（名词）、divert（转移）、universe（uni-一+versus，转向一体）。",
-              "mnemonic": "di-（两个方向）加verse（转动）——想象公司业务像指南针一样朝多个方向分散转动，而不是只押注一个赛道，这就是diversify。",
-              "exampleEn": "SpaceX is diversifying its revenue by selling compute capacity to AI companies, not just launching rockets.",
-              "exampleCn": "SpaceX正在实现营收多元化，不仅发射火箭，还向AI公司出售算力资源。"
-            },
-            {
-              "word": "blue-chip",
-              "pos": "adj./n.",
-              "meaning": "形容词或名词，指绩优、信誉卓著的公司或客户，源自赌场筹码颜色，财经语境中形容大型稳健、备受信赖的合作方，比famous或big更专业也更有画面感。",
-              "etymology": "源自赌场扑克筹码的颜色等级，蓝色筹码面值最高。20世纪初约1920年代被证券分析师借用来形容股价高、信誉好的大公司股票。",
-              "morphology": "复合词，blue（蓝色）加chip（筹码），不可再拆分词根。相关表达：blue-chip stock（蓝筹股）、blue-chip client（顶级客户）、chip in（凑份子，另一层含义）。",
-              "mnemonic": "想象赌桌上最值钱的那枚蓝色筹码——像Anthropic、谷歌这样的蓝筹客户，就是SpaceX手里最有分量的那几枚筹码。",
-              "exampleEn": "Landing blue-chip clients like Google gave SpaceX's earnings report extra credibility with investors.",
-              "exampleCn": "拿下谷歌这样的蓝筹客户，让SpaceX的财报在投资者眼中更具说服力。"
-            },
-            {
-              "word": "ramp up",
-              "pos": "phrasal v.",
-              "meaning": "短语动词，指产量、规模或投入快速提升爬坡，比单纯increase更强调从低水平逐步加速攀升的过程，常见于产能、投资、招聘等商业语境。",
-              "etymology": "ramp源自古法语ramper（爬、攀爬），13世纪指建筑中的斜坡。20世纪中期美式英语中衍生出ramp up的比喻用法，喻指像沿斜坡向上加速。",
-              "morphology": "ramp（名词/动词，斜坡）加up（副词，向上），短语动词无法进一步拆解词根。相关表达：ramp down（逐步缩减）、on-ramp（引导车道，喻入门通道）。",
-              "mnemonic": "想象高速公路的匝道——车辆沿着斜坡逐渐加速汇入主路，ramp up就是这种从慢到快、逐步提速的画面。",
-              "exampleEn": "SpaceX has been ramping up Starlink satellite launches to keep pace with subscriber growth.",
-              "exampleCn": "SpaceX一直在加快星链卫星的发射节奏，以跟上用户增长的步伐。"
-            },
-            {
-              "word": "anchor",
-              "pos": "n./adj.",
-              "meaning": "名词或形容词，指业务或收入的压舱石式核心客户，比喻像船锚一样为公司提供稳定支撑，财经语境中常用anchor client/anchor tenant形容支撑营收的关键合作方。",
-              "etymology": "源自古英语ancor，可追溯至拉丁语ancora，再往前是希腊语ankyra（弯钩、锚）。原指船锚，16世纪后逐渐引申出稳定支撑物的比喻义。",
-              "morphology": "名词anchor→动词anchor（使固定）→形容词anchored。相关表达：anchor tenant（主力承租商）、anchorman（新闻主播，喻稳住节目的人）。",
-              "mnemonic": "想象一艘船抛下船锚稳稳停住——Anthropic和谷歌这样的大客户，就是稳住SpaceX营收这艘船的锚。",
-              "exampleEn": "Anthropic and Google are emerging as anchor customers for SpaceX's growing compute business.",
-              "exampleCn": "Anthropic和谷歌正成为SpaceX日益壮大的算力业务的核心客户。"
-            }
-          ]
-        },
-        {
-          "id": "20260805-3",
-          "category": "econ",
-          "sourceName": "BBC Business",
-          "sourceUrl": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&at_campaign=rss",
-          "headlineEn": "Oil Prices Ease as Hopes Rise for Strait of Hormuz Reopening",
-          "headlineCn": "石油价格因霍尔木兹海峡有望重开而下跌",
-          "summaryEn": "Oil prices fell after US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both signaled that talks had advanced enough to reopen the Strait of Hormuz, the narrow waterway through which roughly a fifth of the world's oil passes. The strait had come under threat amid regional tensions, raising fears that tanker traffic could be blocked. Signs of a diplomatic thaw eased those fears, prompting traders to trim the risk premium built into crude prices, since a secure shipping route lowers the odds of a sudden supply shock.",
-          "summaryCn": "美国国务卿鲁比奥与财政部长贝森特均表示，相关谈判已取得进展，霍尔木兹海峡——承载全球约五分之一石油运输的关键水道——有望重新开放。此前地区局势紧张曾令市场担忧油轮通行受阻，如今外交回暖缓解了这一担忧，交易员因此削减了油价中的风险溢价。",
-          "excerpt": "US Secretary of State Marco Rubio and Treasury Secretary Scott Bessent both announced that talks had progressed toward reopening the Strait of Hormuz, allowing oil shipments to resume. The news eased fears of a supply disruption through the critical waterway, pulling crude prices lower as traders priced in a calmer outlook.",
-          "vocab": [
-            {
-              "word": "chokepoint",
-              "pos": "n.",
-              "meaning": "咽喉要道/关键节点，常用于地缘政治和供应链语境，形容一旦阻断就会造成大范围影响的关键节点，比key point更形象生动。",
-              "etymology": "源自 choke（古英语 aceocian，掐住喉咙）+ point，字面「掐住的点」，20世纪军事地理学借用为「兵家必争的狭窄通道」，后扩展到经济/供应链领域。",
-              "morphology": "choke（动词，掐住）+ point（名词，位置点）的复合词；同类复合词有 checkpoint（检查点）、breakpoint（断点）、tipping point（临界点）。",
-              "mnemonic": "想象一根水管被人用手掐住（choke）中间某一点（point），水流几乎断绝——霍尔木兹海峡就是全球石油供应这根管子被掐住的那一点。",
-              "exampleEn": "Analysts warn that any disruption at this chokepoint could send global oil prices soaring within days.",
-              "exampleCn": "分析师警告，这一咽喉要道一旦中断，全球油价可能在几天内飙升。"
-            },
-            {
-              "word": "de-escalate",
-              "pos": "v.",
-              "meaning": "缓和局势/降级冲突，商业和外交语境常用，比calm down更正式、更强调从紧张状态主动降低烈度的过程性。",
-              "etymology": "escalate 源自 escalator（1900年代美国造词，本义自动扶梯），逆向构词得 de-escalate（20世纪冷战时期军事术语），表示与升级相反的过程。",
-              "morphology": "de-（前缀，表示去除、逆转）+ escalate（词根，升级）；同前缀词有 de-risk（去风险化）、devalue（贬值）、decelerate（减速）。",
-              "mnemonic": "escalate 让你想到 escalator（电梯往上走），de- 就是往下走的反向电梯——把紧张局势一级级送回地面。",
-              "exampleEn": "Both governments moved to de-escalate the standoff before it disrupted shipping routes further.",
-              "exampleCn": "两国政府都采取行动缓和对峙，以免进一步扰乱航运路线。"
-            },
-            {
-              "word": "thaw",
-              "pos": "n./v.",
-              "meaning": "（关系、局势的）解冻回暖，比improvement更有画面感，暗示此前是冰冻的对立状态，常用于外交、贸易关系报道。",
-              "etymology": "源自古英语 thawian，本义冰雪融化，14世纪后开始比喻用于人际或政治关系的缓和，20世纪冷战报道中固定为外交术语。",
-              "morphology": "不可再拆分的单音节词；常见搭配有名词化的 a thaw in relations，动词形式 relations thaw / begin to thaw。",
-              "mnemonic": "想象一块冻结的冰块（外交僵局）在阳光下慢慢融化（thaw）——这条新闻里，紧张的地区局势正在经历同样的解冻过程。",
-              "exampleEn": "The diplomatic thaw between the two sides gave markets enough confidence to bid oil prices lower.",
-              "exampleCn": "双方外交关系的回暖让市场有足够信心把油价往下压。"
-            },
-            {
-              "word": "tanker",
-              "pos": "n.",
-              "meaning": "油轮/油罐车，商业新闻高频词，但学习者常与carrier混淆——tanker特指运输液态货物（原油、天然气）的船只或车辆，词义更具体。",
-              "etymology": "源自 tank（17世纪印地语 tankh，蓄水池）+ -er（表示……的载具），19世纪末随石油工业兴起而专指运油船只。",
-              "morphology": "tank（名词，罐/池）+ -er（后缀，表示实施某动作或承载某物的物体）；同后缀词有 carrier、container、freighter。",
-              "mnemonic": "把 tank（坦克/油罐）加上 -er 想象成长了轮子（或船身）的巨型油罐在海上或路上移动，就是 tanker。",
-              "exampleEn": "Dozens of tankers were forced to reroute while the strait remained a flashpoint for regional tension.",
-              "exampleCn": "在该海峡仍是地区紧张焦点期间，数十艘油轮被迫改道。"
-            },
-            {
-              "word": "ease",
-              "pos": "v.",
-              "meaning": "（价格、压力等）缓步回落/减轻，比fall更精确地表达渐进、温和地下降，是财经报道描述价格变动幅度和节奏时的常用动词，区别于剧烈的plunge或crash。",
-              "etymology": "源自古法语 aise（舒适、便利），13世纪进入英语，本义使舒适，逐渐引申出减轻负担、放松压力，20世纪起固定为经济数据温和回落的专用词。",
-              "morphology": "单音节词，常见派生词：easy（形容词，容易的/轻松的）、easily（副词）、easing（现在分词/名词，如 monetary easing 货币宽松）。",
-              "mnemonic": "把 ease 联想成轻轻松一口气——价格不是暴跌（crash），只是像人松了口气一样温和地往下滑一点点。",
-              "exampleEn": "Crude prices eased for a second session as investors weighed the prospect of a reopened shipping lane.",
-              "exampleCn": "在投资者权衡航运通道重开的前景之际，原油价格连续第二个交易日温和回落。"
             }
           ]
         }
