@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-06T23:00:13.132701+00:00",
+  "lastUpdated": "2026-09-07T23:00:14.557075+00:00",
   "level": "B2",
   "days": {
+    "2026-09-08": {
+      "label": "9月8日 (周二)",
+      "stories": [
+        {
+          "id": "20260908-1",
+          "category": "tech",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/why-the-launch-of-openais-latest-astra-model-reignited-the-memory-chip-trade-809e2edb?mod=mw_rss_topstories",
+          "headlineEn": "Why the launch of OpenAI’s latest Astra model reignited the memory chip trade",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Since troughing on July 29, the semiconductor sector has been recovering steadily with the OpenAI ChatGPT-6 Astra release bolstering sentiment further",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Since troughing on July 29, the semiconductor sector has been recovering steadily with the OpenAI ChatGPT-6 Astra release bolstering sentiment further",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260908-2",
+          "category": "biz",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/labor-day-mattress-deals-9-7-2026/",
+          "headlineEn": "The Best Labor Day Mattress Deals on Beds We’ve Tried in Our Homes",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "It’s one of the best times of the year to buy a mattress, and our top tested picks are on sale.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "It’s one of the best times of the year to buy a mattress, and our top tested picks are on sale.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260908-3",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
+          "headlineEn": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-07": {
       "label": "9月7日 (周一)",
       "stories": [
@@ -3583,200 +3657,6 @@
               "mnemonic": "想象猎人在湖面放一只假鸭子引真鸭子上钩——新闻里的对抗图案某种程度上就像给摄像头看的假鸭子，专门把AI的注意力引向错误判断。",
               "exampleEn": "The company launched a cheaper decoy subscription tier just to make its premium plan look like better value.",
               "exampleCn": "该公司推出了一个更便宜的「诱饵」订阅档位，只是为了让高级套餐显得更划算。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-09": {
-      "label": "8月9日 (周日)",
-      "stories": [
-        {
-          "id": "20260809-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
-          "headlineEn": "Hugging Face Hack Signals a Dangerous New Era of AI Cyberattacks",
-          "headlineCn": "Hugging Face遭黑客攻击，标志危险AI网络安全时代来临",
-          "summaryEn": "Hugging Face, the popular AI model-sharing platform, was hit by hackers just as the Black Hat cybersecurity conference opened in Las Vegas, where researchers are also detailing a growing string of AI agent hacks affecting Anthropic, Meta and OpenAI. Experts warn this incident signals the start of a new era of AI-focused cyberattacks, one that many companies deploying AI agents are not even aware they face, leaving critical systems dangerously exposed to manipulation and data theft.",
-          "summaryCn": "Hugging Face在拉斯维加斯Black Hat大会开幕之际遭黑客入侵，会上研究人员同时披露了针对Anthropic、Meta和OpenAI的多起AI代理攻击事件。专家警告，危险的AI网络攻击新时代已开启，许多部署AI代理的企业甚至还没意识到自己面临的风险。",
-          "excerpt": "The Black Hat cybersecurity conference in Las Vegas couldn't have come at a better time: AI agent hacks have been piling up, with incidents tied to Anthropic, Meta and OpenAI emerging just as the Hugging Face hack exposed the industry's blind spots.",
-          "vocab": [
-            {
-              "word": "attack surface",
-              "pos": "n. phrase",
-              "meaning": "网络安全术语，指系统可能被攻击的所有入口点总和；比单个漏洞更宏观，强调整体暴露面，商业报告中常用来评估风险敞口。",
-              "etymology": "由attack（拉丁attaccare经法语借入，意为进攻）+ surface（拉丁superficies，意为表面）组合而成，20世纪末计算机安全领域借用几何学表面概念形成的专业术语。",
-              "morphology": "attack（攻击，动词/名词）+ surface（表面，名词）= 复合名词；同源词：attacker（攻击者）、surface-level（表面的）、resurface（重新浮现）。",
-              "mnemonic": "想象一座城堡，城墙上每一扇窗户、每一道门都是attack surface——门窗越多越容易被攻破；企业联网设备越多，同理风险越大。",
-              "exampleEn": "As companies connect more AI agents to their internal systems, their attack surface expands dramatically.",
-              "exampleCn": "随着企业将更多AI代理接入内部系统，它们的攻击面正急剧扩大。"
-            },
-            {
-              "word": "blind spot",
-              "pos": "n. phrase",
-              "meaning": "字面指视觉盲区，引申为组织未察觉的风险区域；比一般的弱点更精准，强调根本没意识到，而不是知道但薄弱。",
-              "etymology": "源自19世纪生理学术语，指视网膜上没有感光细胞的区域；20世纪起被商业与心理学广泛借用为认知或管理上的疏漏。",
-              "morphology": "blind（瞎的，形容词，古英语blind）+ spot（斑点/地点，名词）= 复合名词；同源词：blindfold（蒙眼布）、spotlight（聚光灯）、spot-check（抽查）。",
-              "mnemonic": "开车时后视镜照不到的那块区域就是blind spot——你以为路上没车，其实有辆车正藏在那里；公司安全体系里的AI风险也常藏在这个看不见的角落。",
-              "exampleEn": "Many firms have a blind spot when it comes to how their AI agents could be manipulated by hackers.",
-              "exampleCn": "许多企业在AI代理可能被黑客操纵这一点上存在盲区。"
-            },
-            {
-              "word": "fend off",
-              "pos": "phrasal v.",
-              "meaning": "击退、抵御攻击或批评，比defend更口语化，更强调仓促应对的动作感，常用于描述企业临时应对危机的场景。",
-              "etymology": "源自古法语defendre（防御）缩略为fend，14世纪起与off搭配表示挡开的动作，原指用武器格挡攻击。",
-              "morphology": "fend（挡开，动词）+ off（离开，副词）= 短语动词；同源词：defend（防御）、offense（进攻）、fender（防撞装置，如汽车挡泥板）。",
-              "mnemonic": "联想汽车的fender（挡泥板），它的作用就是把泥土fend off（挡开）；企业用防火墙和补丁把黑客攻击挡开，是同一个画面。",
-              "exampleEn": "Security teams scrambled to fend off a wave of attacks targeting AI agents built by major tech firms.",
-              "exampleCn": "安全团队紧急行动，抵御针对各大科技公司AI代理的一波攻击。"
-            },
-            {
-              "word": "patch",
-              "pos": "v. / n.",
-              "meaning": "给软件打补丁、修复漏洞；名词指补丁程序本身。日常义是补丁布，科技语境高频借用，比fix更专业、更具行业辨识度。",
-              "etymology": "源自中世纪英语pecche，可能来自古法语pieche（碎布），本义为缝补衣物的布片；20世纪中期计算机行业借用为修复代码缺陷。",
-              "morphology": "patch（补丁，名词/动词）；同源词：patchwork（拼布，引申为拼凑而成的东西）、patchy（不均匀的）、unpatched（未打补丁的）。",
-              "mnemonic": "想象牛仔裤破了个洞，缝上一块布补丁——软件出了漏洞，工程师也是缝上一块代码补丁，画面完全一致，容易记住动词用法。",
-              "exampleEn": "Hugging Face rushed to patch the vulnerability before more accounts could be compromised.",
-              "exampleCn": "Hugging Face紧急修补了这一漏洞，以防更多账户被攻陷。"
-            },
-            {
-              "word": "proof of concept",
-              "pos": "n. phrase",
-              "meaning": "概念验证，指用最小化演示证明某种攻击或技术在理论上可行；安全研究语境中常指黑客证明漏洞确实可被利用的示范性攻击，比单纯说demo更严谨、更具技术含量。",
-              "etymology": "短语由proof（证明，源自拉丁probare）+ of + concept（概念，源自拉丁conceptus，意为构想）组成，20世纪工程与科研领域形成的固定搭配。",
-              "morphology": "proof（证明，名词，动词prove）+ concept（概念，名词，形容词conceptual）= 名词短语；同源词：provable（可证明的）、conceptualize（使概念化）。",
-              "mnemonic": "科学家先在白板上画个草图模型证明点子行得通，再去造真产品；黑客展示的proof of concept也是同理——先证明能攻破，还没大规模作恶。",
-              "exampleEn": "Researchers at Black Hat presented a proof of concept showing how an AI agent could be tricked into leaking data.",
-              "exampleCn": "Black Hat大会上，研究人员展示了一个概念验证，演示了AI代理如何被诱骗泄露数据。"
-            }
-          ]
-        },
-        {
-          "id": "20260809-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/08/berkshire-hathaway-earnings-q2-2026.html",
-          "headlineEn": "Berkshire Profits Climb as Abel Starts Deploying Buffett's Cash Pile",
-          "headlineCn": "伯克希尔利润增长，阿贝尔开始动用巴菲特巨额现金",
-          "summaryEn": "Berkshire Hathaway reported higher quarterly earnings, as gains in its energy, railroad and manufacturing units more than offset a weaker showing from its insurance business, where underwriting profit fell. The results offer an early test for Greg Abel, who succeeded Warren Buffett as CEO and is now beginning to deploy the conglomerate's roughly $340 billion cash pile. Investors have wondered whether Abel would pursue acquisitions more boldly than his predecessor, and this quarter gave the first hints of how he intends to put that idle capital to work.",
-          "summaryCn": "伯克希尔上季度利润增长，能源、铁路和制造业务的强劲表现抵消了保险承保利润下滑。新任CEO格雷格·阿贝尔已开始动用公司约3400亿美元的现金储备，市场正关注他能否比前任更积极地展开并购。",
-          "excerpt": "Berkshire Hathaway's energy, railroad and manufacturing businesses turned in a strong quarter, more than offsetting weaker results from its insurance division. The performance gave investors an early look at how incoming CEO Greg Abel is managing the sprawling conglomerate, even as questions remain about how aggressively he'll deploy Buffett's cash reserves.",
-          "vocab": [
-            {
-              "word": "deploy",
-              "pos": "v.",
-              "meaning": "动用、部署（资金/资源）。比 use 更正式，带有战略调配的意味，常搭配 capital/resources，财经报道中常用来描述企业有计划地投入现金储备。",
-              "etymology": "源自古法语 desployer，由拉丁语 dis-（分开）+ plicare（折叠）构成，本义为《展开军队/旗帜》，后引申为有计划地调配资源。",
-              "morphology": "de-（分开/相反前缀）+ ploy（源自 plicare 折叠），同根词有 employ（雇用）、exploit（利用）、imply（暗含）。",
-              "mnemonic": "想象军队《展开阵型》的画面——把卷起的队形打开、派往战场；企业把现金像军队一样《派遣》到并购和投资中。",
-              "exampleEn": "Berkshire's new CEO is expected to deploy the firm's cash reserves more actively than his predecessor did.",
-              "exampleCn": "伯克希尔的新任CEO预计会比前任更积极地动用公司的现金储备。"
-            },
-            {
-              "word": "anoint",
-              "pos": "v.",
-              "meaning": "（正式地）指定、钦点继任者。字面义是《涂油封圣》，用在商业语境里比 appoint 更强调仪式感和权威赋予，暗示接班经过郑重认定。",
-              "etymology": "源自古法语 enoint，来自拉丁语 inunguere（in-《在……上》+ unguere《涂油》），最初指宗教仪式中涂油以示神圣任命国王或祭司。",
-              "morphology": "an-（源自 in- 的音变）+ oint（源自 unguere 涂抹），同源词有 ointment（药膏）、unguent（软膏）、inunction（涂油法）。",
-              "mnemonic": "联想中世纪加冕仪式，主教用圣油为新王《anoint》额头——巴菲特把重任像涂油封圣一样《钦点》给阿贝尔。",
-              "exampleEn": "Buffett formally anointed Greg Abel as his successor years before stepping back from day-to-day management.",
-              "exampleCn": "巴菲特在正式退出日常管理数年前，就已钦点格雷格·阿贝尔为接班人。"
-            },
-            {
-              "word": "premium",
-              "pos": "n.",
-              "meaning": "保险费；引申为《溢价》。在保险语境指投保人定期缴纳的费用，是保险公司收入核心；广义上也指高于正常水平的额外费用或估值，是财经英语一词两用的高频词。",
-              "etymology": "源自拉丁语 praemium（prae-《预先》+ emere《购买/获取》），本义是《预先获得的奖赏》，17世纪进入保险业指《预付的保费》。",
-              "morphology": "pre-（之前）+ mium（源自 emere 取得），同根词有 exempt（免除）、redeem（赎回）、example（样本，取自《取出示范》）。",
-              "mnemonic": "记住 pre-（提前）加想象你提前付一笔钱买安心——这笔《提前付的钱》就是 premium；股票《溢价》也是提前多付的那部分。",
-              "exampleEn": "Berkshire's insurance arm collected fewer premiums than expected, dragging down its underwriting results.",
-              "exampleCn": "伯克希尔的保险部门收取的保费低于预期，拖累了其承保业绩。"
-            },
-            {
-              "word": "conglomerate",
-              "pos": "n.",
-              "meaning": "企业集团，尤指跨多个不相关行业经营的大型多元化公司。区别于普通 company，强调业务版图横跨能源、铁路、保险等毫不相关的领域，是描述伯克希尔这类《控股帝国》的标准词。",
-              "etymology": "源自拉丁语 conglomerare（con-《共同》+ glomerare《卷成一团》，来自 glomus《线球》），本义是《聚合成团》，20世纪中期开始用于形容多元化企业。",
-              "morphology": "con-（一起）+ glomer（源自 glomus 球状物）+ -ate（名词/动词后缀），同根词有 agglomerate（聚集物）、glomerulus（肾小球，同样取球状聚合之意）。",
-              "mnemonic": "想象把不同颜色的毛线（能源、铁路、保险……）胡乱缠成一个大线球（glomus）——这就是 conglomerate，看似杂乱却被一根线（控股公司）串在一起。",
-              "exampleEn": "As a sprawling conglomerate, Berkshire's fortunes depend on dozens of businesses that have little in common.",
-              "exampleCn": "作为一家业务庞杂的企业集团，伯克希尔的业绩取决于几十项几乎毫无关联的业务。"
-            },
-            {
-              "word": "offset",
-              "pos": "v.",
-              "meaning": "抵消、抵消掉（不利因素）。财报英语中描述《一方面的强劲弥补另一方面的疲软》的标准搭配，常见 more than offset（不仅抵消还有盈余）固定用法，比 cancel out 更书面、更专业。",
-              "etymology": "源自古英语 offsettan（off-《离开》+ settan《放置》），最初是《抵消印刷版偏移》的印刷术语（offset printing），17世纪起引申为财务上的相互抵消。",
-              "morphology": "off-（离开/相对）+ set（放置），同根词有 upset（打翻/使不安）、outset（开端）、onset（发作/开始），都以 set 为核心表达《放置某种状态》。",
-              "mnemonic": "想象天平两端，一边放能源、铁路的盈利，一边放保险的亏损——off（偏离中心）加 set（放置），两边互相《抵消》让天平重新持平。",
-              "exampleEn": "Strong railroad earnings more than offset a decline in insurance underwriting profit this quarter.",
-              "exampleCn": "本季度铁路业务的强劲盈利不仅抵消了保险承保利润的下滑，还实现了净增长。"
-            }
-          ]
-        },
-        {
-          "id": "20260809-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/08/rate-uncertainty-sparking-demand-for-clo-exposure-among-etfs-vettafi.html",
-          "headlineEn": "Collateralized Loan Obligations Could Be ETF Industry's Next Growth Engine",
-          "headlineCn": "银行贷款抵押债券或成ETF行业下一个增长引擎",
-          "summaryEn": "As uncertainty over the path of interest rates continues to unsettle bond markets, collateralized loan obligations (CLOs) are drawing fresh interest from ETF issuers looking to expand beyond traditional fixed-income products. These structured securities, built from pools of leveraged corporate loans, offer floating-rate yields that adjust as rates move, making them attractive when the Federal Reserve's next step is hard to predict. Asset managers report growing investor appetite for such instruments, and several new CLO-focused ETFs have already launched, suggesting the category could become a major growth area for the industry.",
-          "summaryCn": "随着市场对利率走向的不确定性持续存在，银行贷款抵押债券（CLO）正吸引ETF发行商的关注，试图突破传统固定收益产品的局限。这类结构化证券由杠杆企业贷款组成，票息随利率浮动，在美联储下一步动向难以预测时格外具有吸引力。资产管理公司观察到投资者对此类工具的需求正在上升，多只聚焦CLO的新ETF已经推出，显示这一品类有望成为行业下一个重要增长点。",
-          "excerpt": "Collateralized loan obligations may become the next big push in the exchange-traded fund industry, as issuers race to package these floating-rate, leveraged-loan-backed securities into new funds that promise resilience when interest rate expectations keep shifting.",
-          "vocab": [
-            {
-              "word": "tranche",
-              "pos": "n.",
-              "meaning": "分层证券中的一层/份额；金融术语，源自法语「切片」，CLO等结构化产品按风险高低切分成不同tranche卖给不同风险偏好的投资者，比portion更精确专业",
-              "etymology": "源自法语 trancher（切割），可追溯到拉丁语 truncare（截断）；19世纪末进入英语金融语境，指债券发行中按风险/优先级划分的一部分",
-              "morphology": "不可再拆分的外来借词；相关词根衍生词：truncate（截断）、retrench（削减）、trench（壕沟，同源于「切割」意象）",
-              "mnemonic": "想象一块蛋糕（loan pool）被「切」（trancher）成几层，最上层最先吃到还款（优先级最高、风险最低），最底层风险最高但收益也最高——这就是tranche的分层逻辑",
-              "exampleEn": "The senior tranche of the CLO offers lower yields but is the first to be repaid if borrowers default.",
-              "exampleCn": "该CLO的优先层收益较低，但一旦借款人违约，会最先获得偿付。"
-            },
-            {
-              "word": "floating-rate",
-              "pos": "adj.",
-              "meaning": "浮动利率的，指利率随基准利率变动而调整；在利率不确定的环境下，浮动利率产品比固定利率更受青睐，因为能自动跟随加息或降息调整",
-              "etymology": "float 源自古英语 flotian（漂浮），13世纪起引申出「不固定、随波动」之意；rate 源自拉丁语 rata（计算出的比例）",
-              "morphology": "float（漂浮）+ -ing（进行）+ rate（比率）；同族词：floatation/flotation（浮动、上市）、afloat（漂浮着的）、fixed-rate（固定利率，反义搭配）",
-              "mnemonic": "想象利率像一艘小船「漂浮」在水面上，随海浪（市场利率）起伏——这正是floating-rate的画面感，与死死钉住海底的fixed-rate锚形成对比",
-              "exampleEn": "Investors favored floating-rate loans because their payouts rise automatically when the central bank hikes rates.",
-              "exampleCn": "投资者青睐浮动利率贷款，因为央行加息时其收益会自动上升。"
-            },
-            {
-              "word": "leveraged loan",
-              "pos": "n. phrase",
-              "meaning": "杠杆贷款，指发放给已背负较高债务或信用评级较低企业的贷款，通常用于并购或再融资；是CLO的底层资产，理解它是理解CLO风险来源的关键",
-              "etymology": "leverage 源自法语 levier（杠杆、撬棍），源自拉丁语 levare（举起）；19世纪末金融界借用物理学中「用小力撬动大物」的意象，指用借债放大资本回报",
-              "morphology": "lever（杠杆）+ -age（名词后缀，表示动作/结果）；同族词：leverage（杠杆作用）、lever（撬动）、alleviate（同源自levare，减轻）",
-              "mnemonic": "想象用一根撬棍（lever）撬动一块大石头——企业借很少的自有资金（小力），靠借款（撬棍）撬动一笔大收购（大石头），这就是leveraged loan的杠杆逻辑",
-              "exampleEn": "The private equity firm relied on a leveraged loan to fund most of the acquisition price.",
-              "exampleCn": "这家私募股权公司主要依靠一笔杠杆贷款来筹措大部分收购款。"
-            },
-            {
-              "word": "appetite",
-              "pos": "n.",
-              "meaning": "（投资者对某类资产的）需求意愿、胃口；常搭配investor appetite，比demand更强调主动、渴望的心理状态，隐喻投资者像饥饿的人一样想吃某种资产",
-              "etymology": "源自古法语 apetit，可追溯到拉丁语 appetitus（渴望、追求），由 ad-（朝向）+ petere（寻求、追逐）构成",
-              "morphology": "ap-（ad-的变体，朝向）+ pet（词根，寻求）+ -ite（名词后缀）；同根词：petition（请愿，同样含「寻求」之意）、compete（competere，共同追逐）",
-              "mnemonic": "把appetite想象成「吃饭的胃口」直接搬进金融世界——投资者对CLO的胃口越大，说明他们越愿意买入，就像饿了就想吃东西一样直观",
-              "exampleEn": "Investor appetite for floating-rate products grew as the outlook on interest rates became harder to read.",
-              "exampleCn": "随着利率前景愈发难以判断，投资者对浮动利率产品的需求意愿不断增强。"
-            },
-            {
-              "word": "package",
-              "pos": "v.",
-              "meaning": "把（多笔贷款等资产）打包组合成可交易的证券；描述从零散贷款到CLO成品的转化过程，比combine更强调「包装成商品出售」的意味",
-              "etymology": "源自中古荷兰语/低地德语 pak（包裹），15-16世纪进入英语，17世纪衍生出动词用法；金融界20世纪借用「打包」意象描述证券化过程",
-              "morphology": "pack（打包，词根）+ -age（名词后缀）→ package（名词），再转为动词；同族词：packaging（包装）、unpack（拆包）、repackage（重新打包，常见于金融重组）",
-              "mnemonic": "想象银行把成百上千笔零散的企业贷款像快递员打包快递一样，捆扎成一个个包裹（tranche），贴上标签卖给不同投资者——这就是package在CLO中的画面",
-              "exampleEn": "Banks package hundreds of leveraged loans into a single CLO before selling slices to different investors.",
-              "exampleCn": "银行把数百笔杠杆贷款打包成一只CLO，再将不同份额出售给各类投资者。"
             }
           ]
         }
