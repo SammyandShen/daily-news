@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-07T23:00:14.557075+00:00",
+  "lastUpdated": "2026-09-08T23:00:14.963321+00:00",
   "level": "B2",
   "days": {
+    "2026-09-09": {
+      "label": "9月9日 (周三)",
+      "stories": [
+        {
+          "id": "20260909-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+          "headlineEn": "Qualcomm issues warrants to Amazon to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Qualcomm is trying to move into the data center business, where Nvidia has been the dominant player in the AI boom.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Qualcomm is trying to move into the data center business, where Nvidia has been the dominant player in the AI boom.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260909-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
+          "headlineEn": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Shares of Qualcom, Corning, Intel, Advanced Micro Devices and others tied to the AI infrastructure trade popped on Tuesday.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Shares of Qualcom, Corning, Intel, Advanced Micro Devices and others tied to the AI infrastructure trade popped on Tuesday.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260909-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
+          "headlineEn": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The U.S. and Iran traded new attacks around the Strait of Hormuz, as President Donald Trump insists oil prices will drop fast once the Iran war ends.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The U.S. and Iran traded new attacks around the Strait of Hormuz, as President Donald Trump insists oil prices will drop fast once the Iran war ends.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-08": {
       "label": "9月8日 (周二)",
       "stories": [
@@ -3463,200 +3537,6 @@
               "mnemonic": "联想「settle down」（安定下来）——两家公司打官司就像坐立不安，一旦settle，双方就像终于坐定，纷争尘埃落定。",
               "exampleEn": "The two companies settled their trade-secret dispute as part of the acquisition agreement.",
               "exampleCn": "作为收购协议的一部分，两家公司了结了商业机密纠纷。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-10": {
-      "label": "8月10日 (周一)",
-      "stories": [
-        {
-          "id": "20260810-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
-          "headlineEn": "Small Israeli Startup Linked to AI Hacking Incidents at OpenAI, Anthropic, Meta",
-          "headlineCn": "以色列初创公司牵出OpenAI、Anthropic、Meta黑客事件",
-          "summaryEn": "A little-known Israeli startup called Irregular has emerged as a common thread linking a string of AI-related hacking incidents at OpenAI, Anthropic and Meta. The company, which specializes in stress-testing AI models for security flaws before they launch, was reportedly involved behind the scenes in flagging or investigating these episodes. The revelation shows how a handful of small, specialized security firms now quietly shape trust and safety decisions across the world's biggest AI labs, raising fresh questions about oversight in an industry racing to ship increasingly powerful systems.",
-          "summaryCn": "一家鲜为人知的以色列初创公司Irregular，被曝是OpenAI、Anthropic和Meta近期一系列AI黑客事件背后的共同线索。这家公司专注于在AI模型上线前对其进行安全测试，据称在幕后参与了相关事件的排查与上报工作。此事揭示了少数专业安全公司如何在幕后悄然影响各大AI实验室的信任与安全决策，也引发了业界对AI快速迭代过程中监管是否到位的新一轮担忧。",
-          "excerpt": "When security researchers dug into a series of unusual AI-related hacking episodes at OpenAI, Anthropic and Meta, they kept hitting the same name: Irregular, a little-known Israeli startup that quietly tests AI models for security flaws before they reach the public.",
-          "vocab": [
-            {
-              "word": "shadowy",
-              "pos": "adj.",
-              "meaning": "神秘的、隐蔽的，常用来形容不透明、行踪难辨的组织或人物；比secretive更具画面感和文学色彩，常见于新闻报道中描述幕后势力。",
-              "etymology": "源自古英语sceadu（影子），14世纪起衍生出比喻义『模糊不清、难以捉摸』，19世纪后常用于描述神秘组织或人物。",
-              "morphology": "shadow（名词，影子）+ -y（形容词后缀，表示具有某种性质）。同类构词：cloudy（多云的）、murky（昏暗的）、foggy（多雾的）。",
-              "mnemonic": "想象一个人站在阴影（shadow）里，你看不清他的脸——这就是shadowy的画面：模糊、隐蔽、说不清底细。",
-              "exampleEn": "Little is known about the shadowy startup that quietly audits AI models for the industry's biggest labs.",
-              "exampleCn": "关于这家悄悄为业内顶尖实验室审计AI模型的神秘初创公司，外界知之甚少。"
-            },
-            {
-              "word": "trace back to",
-              "pos": "phrasal v.",
-              "meaning": "追溯到、查明源头；比attribute to更强调侦查、逐步倒推的过程，常用于事故调查、资金流向或技术漏洞的溯源报道。",
-              "etymology": "trace源自古法语tracier（画线、追踪路径），back为古英语方位副词；组合短语16世纪后逐渐固定为『追溯根源』之意。",
-              "morphology": "动词短语，由trace（追踪）+ back（向后）+ to（介词，指向目标）组成。同源词：retrace（重新追溯）、traceable（可追溯的）、tracer（示踪剂）。",
-              "mnemonic": "想象侦探沿着脚印（trace）一路往回走（back），最终走到（to）案发起点——trace back to就是这种倒推溯源的动作。",
-              "exampleEn": "Investigators traced the security incident back to a single misconfigured API key.",
-              "exampleCn": "调查人员将这起安全事件追溯到一个配置错误的API密钥。"
-            },
-            {
-              "word": "red-team",
-              "pos": "v.",
-              "meaning": "（对系统、模型）进行模拟攻击式安全测试，即组建『红队』扮演攻击者寻找漏洞；在AI安全语境中已从军事术语演变为高频动词，比笼统的test更精准传达对抗性测试的含义。",
-              "etymology": "源自冷战时期美军演习术语，red team代表假想敌，后被网络安全行业借用，21世纪后AI行业也沿用这一说法并动词化。",
-              "morphology": "red（颜色，象征敌方）+ team（队伍），名词转动词用法（to red-team something）。相关表达：red-teamer（红队测试员）、red-teaming exercise（红队演练）。",
-              "mnemonic": "想象公司内部养了一支红军，专门扮演黑客攻打自家系统，抢在真正的坏人之前找到破绽——这就是red-team的核心画面。",
-              "exampleEn": "Before releasing a new model, the lab hires outside experts to red-team it for potential misuse.",
-              "exampleCn": "在发布新模型前，该实验室会聘请外部专家对其进行红队测试，排查潜在的滥用风险。"
-            },
-            {
-              "word": "smoking gun",
-              "pos": "phrase",
-              "meaning": "确凿的证据、铁证，尤指能直接证明某人有罪或某事件起因的关键线索；比proof或evidence更生动，带有当场抓获的画面感，常见于调查性报道。",
-              "etymology": "源自19世纪侦探小说场景——凶案现场发现枪口还冒烟的手枪，直接指向凶手，水门事件报道后在新闻界广泛流行为『决定性证据』的惯用语。",
-              "morphology": "短语/复合词，无独立词源；由smoking（冒烟的，现在分词作形容词）+ gun（枪）构成，不可拆解为独立词根。",
-              "mnemonic": "想象案发现场一把枪口还在冒烟——不用多问，凶手就是拿枪的人。smoking gun就是这种一眼定案的铁证。",
-              "exampleEn": "Researchers were still looking for the smoking gun that would confirm exactly how the hackers had gotten in.",
-              "exampleCn": "研究人员仍在寻找能确切证实黑客究竟如何入侵的铁证。"
-            },
-            {
-              "word": "outfit",
-              "pos": "n.",
-              "meaning": "（非正式）公司、机构、团队；比company或firm更口语化、略带随意的语气，常用于财经/科技报道形容规模不大或身份不明的公司，隐含『这帮人』的意味。",
-              "etymology": "源自古英语ut（出）+ fitten（装备），16世纪原指『整套装备、装束』，19世纪美国俚语中引申为『一群共事的人、一家机构』。",
-              "morphology": "out（向外）+ fit（合适、装配）构成复合词；本义『配备齐全的一套东西』，引申为『班底、团队』。相关表达：a small outfit（小公司）、a rival outfit（竞争对手机构）。",
-              "mnemonic": "想象给一支探险队配齐装备（outfit）出发——后来这个词就用来指代那整支装备齐全的队伍，也就是一家公司或团队。",
-              "exampleEn": "Few people outside the security world had heard of the tiny outfit before its name surfaced in the investigation.",
-              "exampleCn": "在这次调查曝光之前，安全圈之外几乎没人听说过这家小公司。"
-            }
-          ]
-        },
-        {
-          "id": "20260810-2",
-          "category": "biz",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/297a8bf7-ce8b-44fe-bc51-3e2ec2e47699?syn-25a6b1a6=1",
-          "headlineEn": "European Stocks Draw Investors Back as Earnings Growth Outshines Iran War Worries",
-          "headlineCn": "强劲财报驱散伊朗战云，投资者重返欧股",
-          "summaryEn": "European equities are pulling in fresh capital as corporate results outshine expectations. Companies in the Stoxx Europe 600 are on track to post a 22% jump in second-quarter profits, according to analysts, a striking turn from earlier worries that the Iran-Israel conflict would stall growth. The earnings strength is persuading fund managers who had retreated to safer assets in June to shift back into European shares, a sign that solid corporate fundamentals can outweigh geopolitical anxiety, at least for now, in shaping where money flows this reporting season.",
-          "summaryCn": "欧洲股市资金回流，企业财报表现亮眼。Stoxx欧洲600指数成分公司二季度利润预计增长22%，扭转此前因伊以冲突产生的悲观情绪。强劲财报说服此前避险离场的基金经理重新增持欧股，显示稳健的企业基本面眼下足以压过地缘政治焦虑。",
-          "excerpt": "Companies in the Stoxx Europe 600 are on track to deliver a 22% increase in profits in the second quarter, according to analysts' estimates, as European equities draw back investors who had pulled money out during the height of the Iran-Israel conflict earlier this summer.",
-          "vocab": [
-            {
-              "word": "headwind",
-              "pos": "n.",
-              "meaning": "逆风，比喻阻碍增长或进展的不利因素（常用于财报/宏观语境，与tailwind顺风相对，比obstacle更形象、更常见于财经报道）",
-              "etymology": "复合词，来自古英语héafod（头/前方）+ wind（风），本义指迎面吹来的风，19世纪起用于航空，20世纪后期被商业媒体借用为比喻义",
-              "morphology": "head（头/前方）+ wind（风）；同类合成词：tailwind（顺风）、crosswind（侧风）、windfall（意外之财）",
-              "mnemonic": "想象飞机顶着风前进、速度被拖慢的画面——公司业绩就像飞机，遇到headwind就飞不快，遇到高利率、强美元这类逆风时利润增长会被拖累",
-              "exampleEn": "Rising energy costs remain a major headwind for European manufacturers this quarter.",
-              "exampleCn": "不断上涨的能源成本仍是本季度欧洲制造企业面临的一大逆风。"
-            },
-            {
-              "word": "capitulate",
-              "pos": "v.",
-              "meaning": "（投资者/市场）屈服、投降式抛售，名词形式capitulation是财经常见词（恐慌性抛售/投降式下跌），比give up更书面、更强调长期抵抗后的彻底放弃",
-              "etymology": "源自拉丁语capitulare（按条款签订协议），来自caput（头/首要条款），中世纪指军队按条件投降，17世纪引申为泛指屈服",
-              "morphology": "capit-（头，词根同capital、captain）+ -ulate（动词后缀）；同根词：capital（资本，字面头等重要的）、decapitate（斩首）",
-              "mnemonic": "联想capital（资本）——当投资者对抗市场太久、最终资本投降，把手里的股票割肉卖出，就是capitulate；军队举白旗投降的画面能帮你记住这种彻底放弃抵抗的意味",
-              "exampleEn": "Many bearish investors finally capitulated and bought back into European stocks as results kept topping forecasts.",
-              "exampleCn": "随着业绩持续超出预期，许多看空的投资者最终投降，重新买入欧洲股票。"
-            },
-            {
-              "word": "recoup",
-              "pos": "v.",
-              "meaning": "挽回、弥补（亏损/成本），常搭配recoup losses/costs/investment，语域比get back更正式，隐含通过后续努力补回之前损失的意味",
-              "etymology": "源自法语recouper（重新裁剪/扣减），由re-（重新）+ couper（切）构成，16-17世纪进入英语法律用语指从债务中扣除相抵，后引申为补回损失",
-              "morphology": "re-（再次）+ coup（法语切/打击，与英语coup政变同源）+ -er动词化；相关词：recuperate（恢复）、coupon（优惠券，原指可裁剪下的票据）",
-              "mnemonic": "把recoup拆成re + coup（政变/一击）——想象投资者遭受重创后卷土重来，再打一次胜仗把损失的钱赢回来，就是recoup losses",
-              "exampleEn": "The airline expects to recoup its pandemic-era losses within the next two profitable quarters.",
-              "exampleCn": "这家航空公司预计将在接下来两个盈利季度内弥补其疫情期间的亏损。"
-            },
-            {
-              "word": "in the black",
-              "pos": "phrase",
-              "meaning": "盈利、账面为正（与in the red亏损相对），源自会计传统用黑色墨水记录盈余，比直接说profitable更地道、更常见于财经口语和报道标题",
-              "etymology": "短语源自会计传统——19世纪起簿记员习惯用黑色墨水记录盈利数字、红色墨水记录亏损数字，短语由此固定下来",
-              "morphology": "短语/固定搭配，无法拆解词根；对比记忆：in the red（亏损）/ in the black（盈利）/ break even（收支平衡）",
-              "mnemonic": "想象一本旧式账本——盈利的数字用黑笔写，亏损的数字用红笔写，翻开账本一看颜色就知道公司赚没赚钱，in the black就是账本一片黑，代表在赚钱",
-              "exampleEn": "After three quarters of losses, the startup finally moved back into the black this spring.",
-              "exampleCn": "在连续三个季度亏损后，这家初创公司今年春天终于恢复盈利。"
-            },
-            {
-              "word": "buoy",
-              "pos": "v.",
-              "meaning": "支撑、提振（信心/价格/情绪），字面指使漂浮，比boost多一层托举、防止下沉的画面感，财经报道常用来描述好消息拉抬市场情绪",
-              "etymology": "源自古荷兰语/中古法语boie，本义指系泊用的浮标，16世纪进入英语，17世纪后引申出使振作、提振的比喻义",
-              "morphology": "原为名词浮标，转化为动词使漂浮/提振；相关派生：buoyant（adj. 轻快的/景气的）、buoyancy（n. 浮力/景气）",
-              "mnemonic": "想象海面上的浮标buoy永远不会沉底——当动词用就是像浮标一样把某样东西托住不让它下沉，好财报就像给股价绑上了浮标，把投资者情绪buoy up",
-              "exampleEn": "Strong quarterly profits buoyed investor confidence across European markets this week.",
-              "exampleCn": "强劲的季度利润在本周提振了整个欧洲市场的投资者信心。"
-            }
-          ]
-        },
-        {
-          "id": "20260810-3",
-          "category": "econ",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/09/this-adversarial-pattern-can-prevent-surveillance-cameras-from-detecting-you/",
-          "headlineEn": "New 'Adversarial' Pattern Can Hide People From Surveillance Cameras",
-          "headlineCn": "研究员设计对抗图案，可让人躲避监控摄像头识别",
-          "summaryEn": "A security researcher has developed an algorithm that generates computer-crafted patterns capable of camouflaging people, faces, and vehicles from AI-powered surveillance cameras. Printed onto clothing or vinyl wraps, the adversarial pattern exploits weaknesses in object-detection models, causing the software to fail to recognize a person or car even when it is clearly visible to the human eye. The work highlights a growing tension between computer-vision surveillance and privacy-focused countermeasures, raising fresh questions about how easily current detection algorithms can be fooled in the real world.",
-          "summaryCn": "一位安全研究员开发出一种算法，可生成印在衣物或车身上的特殊图案，让人、面孔和车辆躲过AI监控摄像头的识别。这种「对抗图案」利用了目标检测模型的漏洞，即使肉眼清晰可见，软件也可能识别失败，凸显了监控技术与隐私保护之间日益加剧的博弈。",
-          "excerpt": "A security researcher has designed an algorithm that produces computer-generated patterns able to camouflage people, faces, and vehicles, defeating detection by AI-powered surveillance cameras. Printed onto clothing or vehicle wraps, the pattern exploits weaknesses in object-recognition models, potentially offering a low-cost way to dodge automated tracking in public spaces.",
-          "vocab": [
-            {
-              "word": "adversarial",
-              "pos": "adj.",
-              "meaning": "对抗性的、对立的。在机器学习语境中特指刻意设计用来欺骗算法的（如adversarial attack、adversarial example），比笼统的hostile更精准地指向系统性、有策略的对抗而非情绪化敌意，因此在科技与商业文献中出现频率极高。",
-              "etymology": "源自拉丁语adversus（面对、相反，ad-朝向+vertere转），经古法语adversaire进入英语，14世纪起指对手，20世纪后期扩展到博弈论与AI领域，表示刻意制造对抗条件。",
-              "morphology": "ad-（朝向）+ vers（转，来自vertere）+ -ial（形容词后缀）。同根词：adverse（不利的）、controversy（争论，contra+vertere）、reverse（逆转）、convert（转变）。",
-              "mnemonic": "想象两个人面对面（ad-向）互相转身（vers-转）对抗——AI研究员和算法互相较劲，一方设计图案骗过系统，一方拼命想识别，双方像拔河一样对着干。",
-              "exampleEn": "The startup trained its fraud-detection model against thousands of adversarial examples to make it harder to fool.",
-              "exampleCn": "这家初创公司用数千个对抗样本训练其反欺诈模型，以增加被欺骗的难度。"
-            },
-            {
-              "word": "camouflage",
-              "pos": "v./n.",
-              "meaning": "伪装、掩饰。本义指军事伪装，现广泛用于商业语境，表示掩盖真实意图或数据（如公司用财务操作camouflage亏损），比hide更强调用外在伪装物主动混淆视觉或算法识别，画面感更强。",
-              "etymology": "源自法语军事俚语camoufler（19世纪末，意为掩饰、伪装，可能源自意大利方言camuffare乔装打扮），一战期间被英语借入，专指军队用图案伪装装备。",
-              "morphology": "不可拆解的外来简单词，常见派生形式：camouflaged（已伪装的）、camouflaging（正在伪装）。可横向联想同为法语借词的sabotage、espionage。",
-              "mnemonic": "记住迷彩服camouflage jacket——把这个词直接映射到军队迷彩图案，再联想新闻里的对抗图案，就是给人和车穿上数字时代的迷彩服，专门骗过摄像头的眼睛。",
-              "exampleEn": "Some retailers camouflage declining store traffic by emphasizing online sales growth in their earnings calls.",
-              "exampleCn": "一些零售商在财报电话会议中强调线上销售增长，以此掩盖实体店客流下滑的事实。"
-            },
-            {
-              "word": "circumvent",
-              "pos": "v.",
-              "meaning": "绕过、规避（规则、限制或系统）。在监管和技术语境中比avoid更强调通过巧妙手段绕开障碍，常见于讨论企业规避监管、黑客绕过安全系统等场景，带有一丝钻空子的意味。",
-              "etymology": "源自拉丁语circumvenire（circum-围绕+venire来、走），字面意为绕着走到某物周围，16世纪进入英语后引申为用计谋绕过或智取。",
-              "morphology": "circum-（周围，同见于circumference周长、circumstance环境）+ vent（来，同根词venue场地、convene召集、prevent阻止）。",
-              "mnemonic": "circum（环绕）+ vent（来）——想象一个人绕着障碍物走一圈过来，就像图案设计者不硬闯监控系统，而是绕道而行，找到系统死角悄悄通过。",
-              "exampleEn": "Regulators worry the new algorithm could let bad actors circumvent facial-recognition checks at airports.",
-              "exampleCn": "监管机构担心这种新算法可能让不法分子绕过机场的人脸识别检查。"
-            },
-            {
-              "word": "spoof",
-              "pos": "v./n.",
-              "meaning": "伪造、欺骗（尤指让系统或设备误判）。在网络安全语境中是高频词（如IP spoofing、GPS spoofing），比fake更专指用假信号或假数据愚弄机器或系统，是理解安全新闻的必备词。",
-              "etymology": "该词源于19世纪末英国喜剧演员Arthur Roberts发明的一种恶作剧游戏Spoof，20世纪初引申为戏弄、恶搞，二战后被计算机安全领域借用，专指伪造信号欺骗系统。",
-              "morphology": "单音节简单词，不可再拆分。常见派生词：spoofing（动名词，指伪造攻击本身，如email spoofing）、spoofer（伪造者或伪造设备）。",
-              "mnemonic": "发音短促像poof——想象骗子对着摄像头poof一下变魔术，摄像头瞬间失明认错人，这种拟声般的发音正好配上瞬间蒙骗系统的画面。",
-              "exampleEn": "Hackers used a spoofed signal to trick the drone's navigation system into flying off course.",
-              "exampleCn": "黑客用伪造信号欺骗了无人机的导航系统，使其偏离航线。"
-            },
-            {
-              "word": "decoy",
-              "pos": "n./v.",
-              "meaning": "诱饵、伪装物，用来转移注意力或欺骗侦测系统。商业上常指诱饵定价（decoy pricing）等营销策略，安全领域则指诱骗攻击者或探测器的假目标，比distraction更强调刻意设置、专为诱骗而存在。",
-              "etymology": "可能源自荷兰语de kooi（意为the cage/trap，捕鸟笼），17世纪随荷兰猎鸟技术传入英语，原指诱捕野鸭的假鸭子，后引申为一切诱骗手段。",
-              "morphology": "不可拆解的复合借词（de+kooi融合而成），常见搭配：decoy duck（诱饵鸭）、decoy pricing（诱饵定价）、act as a decoy（充当诱饵）。",
-              "mnemonic": "想象猎人在湖面放一只假鸭子引真鸭子上钩——新闻里的对抗图案某种程度上就像给摄像头看的假鸭子，专门把AI的注意力引向错误判断。",
-              "exampleEn": "The company launched a cheaper decoy subscription tier just to make its premium plan look like better value.",
-              "exampleCn": "该公司推出了一个更便宜的「诱饵」订阅档位，只是为了让高级套餐显得更划算。"
             }
           ]
         }
