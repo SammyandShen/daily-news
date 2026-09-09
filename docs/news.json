@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-08T23:00:14.963321+00:00",
+  "lastUpdated": "2026-09-09T23:12:13.313977+00:00",
   "level": "B2",
   "days": {
+    "2026-09-10": {
+      "label": "9月10日 (周四)",
+      "stories": [
+        {
+          "id": "20260910-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/09/there-are-new-shiny-iphones-so-apple-is-making-you-pay-more-for-older-models/",
+          "headlineEn": "There are new shiny iPhones, so Apple is making you pay more for older models",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Apple is raising the price of its existing iPhone models by $100, including iPhone 16, iPhone 17, and iPhone Air.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Apple is raising the price of its existing iPhone models by $100, including iPhone 16, iPhone 17, and iPhone Air.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260910-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/09/doj-wants-more-answers-on-foxs-22b-roku-deal/",
+          "headlineEn": "DOJ wants more answers on Fox’s $22B Roku deal",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The investigation also comes as the DOJ has faced criticism over how it handles major mergers, including questions about political influence.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The investigation also comes as the DOJ has faced criticism over how it handles major mergers, including questions about political influence.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260910-3",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+          "headlineEn": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "A prolonged oil shock could keep consumer prices elevated and complicate the path for central banks already navigating a difficult policy environment.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "A prolonged oil shock could keep consumer prices elevated and complicate the path for central banks already navigating a difficult policy environment.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-09": {
       "label": "9月9日 (周三)",
       "stories": [
@@ -3343,200 +3417,6 @@
               "mnemonic": "想象超市门口摆着超低价的鸡蛋，本身亏钱卖，却像领头羊一样把顾客领进店里买其他东西，这就是loss leader",
               "exampleEn": "Some analysts suspect the steep feeder discount functions as a loss leader to draw shoppers into Petlibro's accessory ecosystem.",
               "exampleCn": "有分析师猜测，喂食器的大幅降价其实是一种亏本引流手段，目的是把顾客引入Petlibro的配件生态。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-11": {
-      "label": "8月11日 (周二)",
-      "stories": [
-        {
-          "id": "20260811-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
-          "headlineEn": "Meta to Open-Source Its Most Powerful AI Model, Taking a Swipe at OpenAI and Anthropic",
-          "headlineCn": "Meta开源最强AI模型 剑指OpenAI、Anthropic",
-          "summaryEn": "Meta unveiled its Muse Glimmer AI model and confirmed plans to release the weights for Muse Spark 1.2, a move that lets developers download and modify the system rather than access it only through an API. The decision, driven by Mark Zuckerberg's push for U.S. dominance in open AI development, positions Meta against competitors OpenAI and Anthropic, which keep their flagship models proprietary. Open-sourcing could accelerate global uptake of Meta's technology and pressure peers to reconsider their closed strategies, reshaping how the AI industry balances openness with commercial advantage.",
-          "summaryCn": "Meta发布Muse Glimmer模型，并确认将开放Muse Spark 1.2的权重，允许开发者下载修改系统，而非仅通过API调用。此举源于扎克伯格力推美国主导开放AI，使Meta与坚持闭源专有策略的OpenAI、Anthropic形成对比，或将加速其技术全球普及，促使同行重新审视封闭策略。",
-          "excerpt": "Meta unveiled Muse Glimmer and confirmed it will release the weights behind Muse Spark 1.2, letting developers freely download and modify the model. Mark Zuckerberg framed the move as part of a broader push for U.S. leadership in open AI, directly challenging OpenAI and Anthropic's closed approach.",
-          "vocab": [
-            {
-              "word": "take a swipe at",
-              "pos": "phrase",
-              "meaning": "「趁机批评/含蓄攻击」——不点名却意图明显的批评，常见于新闻标题描述企业或政客间的隐性交锋，比criticize更带一点挑衅和随意的语气。",
-              "etymology": "短语，源自拳击/棒球中swipe（挥击、扫打）的动作，19世纪起口语化为猛地一击，20世纪转喻为言语攻击。",
-              "morphology": "swipe本身为拟态词，模仿挥臂声；常见搭配take a swipe at、swipe left/right（划走）、swipe card（刷卡），词形不易再拆分。",
-              "mnemonic": "想象有人擦肩而过时随手挥了一下（swipe），不是正面交手，只是顺带甩出一击——这正是take a swipe at的语感：捎带着讽刺一下。",
-              "exampleEn": "The CEO took a swipe at rival startups during the earnings call, calling their pricing unsustainable.",
-              "exampleCn": "这位CEO在财报电话会议上顺带讽刺了竞争对手的初创公司，称其定价方式不可持续。"
-            },
-            {
-              "word": "flagship",
-              "pos": "n./adj.",
-              "meaning": "「旗舰产品/拿手项目」——一家公司最重要、最具代表性的产品或业务，隐喻自海军旗舰，比main product更强调地位和象征意义。",
-              "etymology": "源自航海用语，flag（旗帜）+ship（船），指舰队司令官所在、悬挂指挥旗的主力战舰，17世纪英语军事用语。",
-              "morphology": "flag（旗）+ ship（船）复合词；同类比喻构词如flagship store（旗舰店）、flagship model（旗舰机型）。",
-              "mnemonic": "想象一支船队里插着最大旗帜、走在最前面的那艘船——公司的flagship产品就是那艘领航旗舰，最显眼、最能代表实力。",
-              "exampleEn": "Muse Spark is now Meta's flagship AI model, competing directly with the industry's top closed systems.",
-              "exampleCn": "Muse Spark如今是Meta的旗舰AI模型，直接与行业顶尖的闭源系统竞争。"
-            },
-            {
-              "word": "proprietary",
-              "pos": "adj.",
-              "meaning": "「专有的、私有产权的」——技术或产品归某公司独家所有、不公开细节，常与open-source相对，比private更强调法律产权和商业垄断意味。",
-              "etymology": "源自拉丁语proprietarius（所有者的），源自proprius（自己的、专属的），16世纪进入英语指法律上的所有权。",
-              "morphology": "propri-（自己的）+ -etary（形容词后缀）；同源词有property（财产）、appropriate（挪用）、proprietor（业主）。",
-              "mnemonic": "记住proprietor是店主，proprietary就是像店主一样把技术锁在自己店里——不对外公开，只有主人能用。",
-              "exampleEn": "Unlike Meta's open models, OpenAI's flagship system remains proprietary and accessible only via API.",
-              "exampleCn": "与Meta的开放模型不同，OpenAI的旗舰系统仍属专有技术，只能通过API访问。"
-            },
-            {
-              "word": "weights",
-              "pos": "n.",
-              "meaning": "（机器学习语境）「模型权重」——神经网络训练后得到的数值参数，是模型真正的核心，公开weights意味着任何人都能下载并直接运行、微调模型，而不仅是调用接口。",
-              "etymology": "日常词weight（重量）源自古英语wiht，本义重量、分量；20世纪后期被机器学习借用，指神经元连接的数值强度。",
-              "morphology": "weigh（称重，动词）+ -t（名词化）；派生词包括weighted（加权的）、outweigh（超过）、counterweight（配重）。",
-              "mnemonic": "把神经网络想象成一台天平，每个连接上都挂着不同砝码（weight）决定信号强弱——发布weights就是把这些砝码的数值全部公开。",
-              "exampleEn": "Releasing the model's weights lets researchers fine-tune it locally instead of relying on a paid API.",
-              "exampleCn": "公开模型权重让研究者可以在本地对其进行微调，而不必依赖付费API。"
-            },
-            {
-              "word": "trail",
-              "pos": "v.",
-              "meaning": "「落后于、被甩在后面」——在竞赛、排名或技术进展中处于劣势，比lose更强调持续追赶中的差距，常用于描述公司间的技术或市场份额比较。",
-              "etymology": "源自古法语trailler（拖拽、拖曳），13世纪进入英语，本义拖在后面，后引申为比赛或竞争中落后。",
-              "morphology": "trail作动词/名词同形；派生词有trailer（拖车/预告片）、trailing（拖尾的，如trailing edge尾部效应）。",
-              "mnemonic": "想象登山队伍里走在最后、拖着脚步的人（trail本义是拖曳）——在AI竞赛里，暂时trail的公司就是还在后面追赶的选手。",
-              "exampleEn": "Despite its recent launch, Meta still trails OpenAI in enterprise adoption of large language models.",
-              "exampleCn": "尽管近期发布了新模型，Meta在大语言模型的企业端普及上仍落后于OpenAI。"
-            }
-          ]
-        },
-        {
-          "id": "20260811-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
-          "headlineEn": "SpaceX Stock Rallies Past $135 IPO Price for First Time in Weeks",
-          "headlineCn": "SpaceX股价反弹，收盘价数周来首次突破135美元发行价",
-          "summaryEn": "SpaceX shares closed above their $135 IPO price this week, the first time they have done so in several weeks. The rally came after the company reported second-quarter revenue that exceeded analyst expectations, easing concerns that had weighed on the stock. Because SpaceX shares trade on private markets rather than a public exchange, moves like this offer one of the few real-time signals of how investors are pricing the company's growth, from Starlink subscriptions to Falcon and Starship launch schedules. Reclaiming the IPO level suggests renewed confidence after weeks of softer sentiment.",
-          "summaryCn": "SpaceX股价本周收盘价重新站上135美元的发行价，这是数周以来的首次。此前公司公布的第二季度营收超出分析师预期，缓解了此前笼罩股价的担忧情绪。由于SpaceX股票在私募市场而非公开交易所流通，这类价格波动是投资者如何为公司增长定价的少数实时信号之一，涵盖星链订阅业务到猎鹰与星舰发射计划。重新夺回发行价水平，意味着在数周情绪偏弱之后，市场信心有所回升。",
-          "excerpt": "SpaceX reported stronger-than-expected revenue in its second-quarter earnings last week, and the momentum has carried into the stock market: shares have now closed above the company's $135 IPO price for the first time in weeks, a sign that investor sentiment is turning more positive.",
-          "vocab": [
-            {
-              "word": "reclaim",
-              "pos": "v.",
-              "meaning": "夺回、重新取得（原本拥有但一度失去的东西）；金融语境常用于股价重新站上某个关键点位，比regain更强调「从被拿走的状态中要回来」的主动感和一点点胜利感。",
-              "etymology": "来自古法语reclamer，进一步溯源到拉丁语re-（再次）+clamare（呼喊、宣称）。原义是再次呼喊主张所有权，后引申为要回、收复。",
-              "morphology": "re-（重新）+ claim（拉丁clamare宣称）。同根词：claim（主张、索赔）、exclaim（惊呼，ex-向外+claim）、proclaim（宣布，pro-向前+claim）、disclaim（否认，dis-否定+claim）。",
-              "mnemonic": "想象股价像一块被别人抢走的领土，公司股价reclaim这个IPO价位，就像举着旗子喊「这块地是我的」把它夺回来——claim本身就带呼喊主张的画面感。",
-              "exampleEn": "After a rocky quarter, the company reclaimed its pre-IPO valuation once revenue growth resumed.",
-              "exampleCn": "在经历了动荡的一个季度后，随着营收增长恢复，公司重新夺回了IPO前的估值水平。"
-            },
-            {
-              "word": "rally",
-              "pos": "n./v.",
-              "meaning": "（股价、市场的）快速上涨、反攻；比rise或increase更带集体动能和士气回升的画面，常用来形容一波持续多日的上涨行情。",
-              "etymology": "源自法语rallier，由re-（重新）+allier（拉丁alligare，绑在一起）构成，原指军队重新集结，17世纪后引申到金融市场表示价格重新聚拢上涨。",
-              "morphology": "词根与ally（盟友）、alliance（联盟）同源，都来自alligare（系在一起）。记住rally和ally是表亲：一个是集结军队，一个是结盟伙伴。",
-              "mnemonic": "把rally想象成溃散的士兵听到号角后重新集结、士气大振地反攻——股价下跌后突然被集结号叫醒，一路向上冲锋。",
-              "exampleEn": "Tech stocks staged a broad rally after the Fed hinted at slower rate hikes.",
-              "exampleCn": "在美联储暗示放缓加息后，科技股掀起了一波全面上涨行情。"
-            },
-            {
-              "word": "notch",
-              "pos": "v.",
-              "meaning": "（非正式地）取得、录得某个成绩或纪录，常用于财经新闻描述公司拿下某个数字或里程碑，比achieve更口语化、更有刻下一道记号的具体感。",
-              "etymology": "名词notch源自中古英语，可能与古法语oche（刻痕）相关；本义是刻在木头上的凹槽，用来记数或计分，19世纪后动词化，引申为记录下一次成绩。",
-              "morphology": "notch本身是简单词，不可再拆分。常见搭配：notch a win（赢一场）、notch a record（创纪录）、notch up（记上一笔）。",
-              "mnemonic": "想象古代猎人在木棍上刻一道痕notch来记录猎物数量——公司每notch一次营收纪录，就像在成绩单上多刻一道痕迹。",
-              "exampleEn": "The company notched its strongest quarterly revenue since going public.",
-              "exampleCn": "该公司录得了自上市以来最强劲的季度营收。"
-            },
-            {
-              "word": "print",
-              "pos": "v.",
-              "meaning": "交易黑话，指价格、数据被记录打印出来，即某个价格实际成交或某项数据正式公布；比report更贴近交易员口语，暗示这是市场上实打实出现的数字。",
-              "etymology": "源自古法语preinte，拉丁语premere（按压）。原义是按压留下印记，印刷术兴起后指印刷，20世纪金融交易中引申为价格被记录在行情纸带上。",
-              "morphology": "与press同源（premere压），比较impress（印象，im-向内+press）、express（表达，ex-向外+press）、compress（压缩，com-一起+press）。",
-              "mnemonic": "想象老式股票行情机吐出纸带，每一笔成交价都啪地打印在纸上——这就是print，价格一旦成交就像被机器盖了章、留下了实实在在的印记。",
-              "exampleEn": "Shares printed a new 52-week high before paring some of the gains.",
-              "exampleCn": "股价一度创下52周新高，随后回吐了部分涨幅。"
-            },
-            {
-              "word": "close",
-              "pos": "v.",
-              "meaning": "特指股票在某个交易日收盘于某价位，和日常关门的意思完全不同；财经报道几乎离不开这个词，但很多学习者只学过关闭这一层，忽略了它作为交易日定格价格的专业用法。",
-              "etymology": "源自拉丁语claudere（关闭、封住），经古法语clos进入英语。金融语境的收盘义是引申用法：一天的交易像被关上，定格在最后一个成交价。",
-              "morphology": "与closure（结束）、enclose（围住，en-进入+close）、disclose（披露，dis-打开+close，字面反着关即揭开）同根。记住disclose字面矛盾感：把关闭反过来就是揭露。",
-              "mnemonic": "把交易日想象成一扇门，收盘价就是这扇门关上前最后定格的那个瞬间的价格——门咔哒一关close，当天的价格就再也不变了。",
-              "exampleEn": "The stock closed at $138, its highest finish in over a month.",
-              "exampleCn": "该股收盘价为138美元，创下一个多月来的最高收盘水平。"
-            }
-          ]
-        },
-        {
-          "id": "20260811-3",
-          "category": "econ",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/10/archer-buys-former-rival-wisk-aero/",
-          "headlineEn": "Archer Aviation Buys Former Rival Wisk Aero, Ending Years-Long IP Feud",
-          "headlineCn": "Archer收购昔日对手Wisk Aero，了结商业机密纠纷",
-          "summaryEn": "Archer Aviation has agreed to acquire Wisk Aero, the Boeing-backed eVTOL air-taxi maker that once accused Archer of trade secret theft in a bitter 2021 lawsuit. The two settled that dispute out of court, and now Wisk will be folded into Archer's operations rather than compete against it. The deal marks a striking reversal for two firms that were once locked in litigation, and signals consolidation in the young, capital-intensive electric air-taxi industry as fewer players race toward certification.",
-          "summaryCn": "Archer Aviation宣布收购Wisk Aero——这家由波音支持的电动垂直起降（eVTOL）空中出租车公司，曾在2021年指控Archer窃取商业机密并对簿公堂。如今双方庭外和解，Wisk将被并入Archer，而不再是竞争对手。这笔交易标志着两家昔日诉讼对手关系的戏剧性反转，也反映出这个仍处早期、资金密集的电动空中出租车行业正在走向整合，竞争者数量进一步收窄。",
-          "excerpt": "The two companies were once embroiled in a bitter trade secret theft lawsuit that dragged on for years. Now, in a striking turnaround, Wisk Aero is being absorbed into Archer, its former courtroom rival, as the electric air-taxi industry consolidates around fewer, better-funded players.",
-          "vocab": [
-            {
-              "word": "absorb",
-              "pos": "v.",
-              "meaning": "收购后将其纳入公司体系，比merge更强调「被并吞、失去独立性」的语感，商业新闻里常用于弱势一方被大公司吞并的场景。",
-              "etymology": "源自拉丁语absorbere，ab-（远离）+ sorbere（吸、啜饮），本义为「吸干、吸尽」，16世纪起引申出「吸收、并入」之意，18世纪进入商业语境表示公司被并购。",
-              "morphology": "ab-（表分离/彻底）+ sorb（吸收词根，来自sorbere）；同根词：absorption(n. 吸收/合并)、absorbent(adj. 吸水的)、sorbet(源自同一拉丁词根，本义啜饮的饮品)。",
-              "mnemonic": "想象一块海绵把一滴水完全吸进去，水滴的形态从此消失——公司被absorb后就像那滴水，独立品牌不复存在，只剩下被吸收的痕迹。",
-              "exampleEn": "Once the acquisition closes, the startup's engineering team will be absorbed into the parent company's autonomy division.",
-              "exampleCn": "收购完成后，这家初创公司的工程团队将被并入母公司的自动驾驶部门。"
-            },
-            {
-              "word": "bury the hatchet",
-              "pos": "phrase",
-              "meaning": "化干戈为玉帛、和解，源自北美原住民的和平仪式，商业新闻里常用来形容曾打官司的对手最终握手言和，比「resolve a dispute」更生动、更强调过去积怨已深。",
-              "etymology": "源自17世纪北美原住民（尤其是易洛魁联盟）的和平仪式——交战双方达成停战协议后会把战斧埋入地下，象征战争结束；该短语被英语殖民者借用后逐渐比喻化解私人恩怨。",
-              "morphology": "短语/复合词，无独立词源；由动词bury（埋葬）+ 名词hatchet（小斧）构成，字面「埋葬斧头」。",
-              "mnemonic": "脑补两个曾互相起诉的CEO，当众把一把斧头埋进土里，握手言和——画面感强，一看到「hatchet」就联想到埋掉的恩怨。",
-              "exampleEn": "After three years of litigation, the two founders finally buried the hatchet and agreed to a joint venture.",
-              "exampleCn": "经过三年的诉讼后，两位创始人终于握手言和，同意成立合资公司。"
-            },
-            {
-              "word": "poach",
-              "pos": "v.",
-              "meaning": "挖角、盗猎，商业语境里指从竞争对手那里挖走员工、技术或客户，带有偷偷摸摸、不太光彩的语感，比「hire away」更传神。",
-              "etymology": "源自古法语pocher，本义「戳、刺入口袋」，16世纪英语中演变为「非法捕猎他人领地上的猎物」，19世纪末引申到商业领域表示挖走对手的人才或资源。",
-              "morphology": "不可拆解的简单词；常见派生：poacher(n. 盗猎者/挖角者)、poaching(n./v-ing 挖角行为)。",
-              "mnemonic": "想象一个猎人偷偷溜进邻居的猎场抓走猎物——公司挖角对手员工就像「poaching」别人地盘上的人才，理直气壮不起来。",
-              "exampleEn": "The lawsuit alleged that engineers had poached proprietary flight-control algorithms before jumping to the rival startup.",
-              "exampleCn": "诉讼指控这些工程师在跳槽到竞争对手初创公司之前，窃取了专有的飞控算法。"
-            },
-            {
-              "word": "fold into",
-              "pos": "phrasal v.",
-              "meaning": "并入、纳入某个更大的组织或体系，语气比「merge with」更柔和、更强调被动融入，常用于描述小公司或部门被整合进大公司架构。",
-              "etymology": "短语/复合词，无独立词源；由fold（源自古英语faldan，折叠）+ into组合而成，字面「折叠进入」，20世纪起在商业英语中比喻整合进另一实体。",
-              "morphology": "fold(基础动词，折叠) + into(介词，表方向)；相关表达：fold up(倒闭/收摊)、unfold(展开，反义方向的比喻用法)。",
-              "mnemonic": "想象把一张纸对折后塞进一个大文件夹里——「fold into」就是这种被塞进去、成为其中一部分的动作感。",
-              "exampleEn": "Wisk's autonomous-flight team will be folded into Archer's engineering organization over the next few months.",
-              "exampleCn": "未来几个月，Wisk的自动飞行团队将被并入Archer的工程组织。"
-            },
-            {
-              "word": "settle",
-              "pos": "v.",
-              "meaning": "（庭外）和解、了结纠纷，特指诉讼双方达成协议结束官司，区别于「resolve」（泛指解决问题）——settle特指法律或商业纠纷的正式了结，常搭配a lawsuit/a dispute/a claim。",
-              "etymology": "源自古英语setlan，意为「使坐下、安顿」，与seat同源；16世纪引申出「使稳定、了结账目或争端」之意，19世纪固定为法律术语「庭外和解」。",
-              "morphology": "不可拆解的基础词；常见派生：settlement(n. 和解协议/定居点)、settler(n. 定居者)、unsettled(adj. 未解决的/动荡的)。",
-              "mnemonic": "联想「settle down」（安定下来）——两家公司打官司就像坐立不安，一旦settle，双方就像终于坐定，纷争尘埃落定。",
-              "exampleEn": "The two companies settled their trade-secret dispute as part of the acquisition agreement.",
-              "exampleCn": "作为收购协议的一部分，两家公司了结了商业机密纠纷。"
             }
           ]
         }
