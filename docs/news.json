@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-09T23:12:13.313977+00:00",
+  "lastUpdated": "2026-09-11T00:29:16.177740+00:00",
   "level": "B2",
   "days": {
+    "2026-09-11": {
+      "label": "9月11日 (周五)",
+      "stories": [
+        {
+          "id": "20260911-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/10/openai-anthropic-ai-safety-slowdown-extinction.html",
+          "headlineEn": "'Extinction' warnings ramp up as more OpenAI, Anthropic researchers join calls for an AI slowdown",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "There is growing concern globally about the capability of AI, following numerous cyberattacks and security incidents in recent months by rogue models",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "There is growing concern globally about the capability of AI, following numerous cyberattacks and security incidents in recent months by rogue models",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260911-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html",
+          "headlineEn": "Oracle's stock edges up on earnings beat as cloud infrastructure revenue more than doubles",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Oracle's results for the quarter came in stronger than expected, as did its revenue backlog.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Oracle's results for the quarter came in stronger than expected, as did its revenue backlog.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260911-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/10/us-treasurys-bonds-yield.html",
+          "headlineEn": "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Treasury yields moved higher on Thursday as U.S. oil prices hit $100 per barrel.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Treasury yields moved higher on Thursday as U.S. oil prices hit $100 per barrel.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-10": {
       "label": "9月10日 (周四)",
       "stories": [
@@ -3223,200 +3297,6 @@
               "mnemonic": "discretion（判断力）+ -ary，把它想成这笔钱花不花全凭你自己的判断（discretion）——外出吃饭、旅游都是可以自由取舍的 discretionary spending。",
               "exampleEn": "As inflation bites, many families are cutting discretionary spending on dining out and travel.",
               "exampleCn": "随着通胀加剧，许多家庭正在削减外出就餐和旅行等非必需开支。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-12": {
-      "label": "8月12日 (周三)",
-      "stories": [
-        {
-          "id": "20260812-1",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-          "headlineEn": "ChatGPT and Gemini Both Cross 1 Billion Users",
-          "headlineCn": "ChatGPT与Gemini双双突破10亿用户",
-          "summaryEn": "Google's Gemini has reached 1 billion monthly users, CEO Sundar Pichai announced on X, calling it the company's fastest-growing product ever and the 14th Google product to hit that scale. OpenAI's ChatGPT crossed the same threshold around the same time, making this the first case of two rival AI chatbots both claiming billion-user status within weeks of each other. The near-simultaneous milestone shows how fast generative AI has moved from novelty to daily habit, intensifying the rivalry between Google and OpenAI for dominance in consumer AI.",
-          "summaryCn": "谷歌CEO桑达尔·皮查伊在X上宣布，Gemini月活用户已突破10亿，是谷歌历史上增长最快的产品，也是第14款达到这一规模的谷歌产品。几乎同一时期，OpenAI的ChatGPT也跨过10亿用户门槛，这是两款针锋相对的AI聊天机器人首次几乎同时达成这一节点，凸显生成式AI已从新奇事物迅速变为大众日常习惯，谷歌与OpenAI在消费级AI领域的争夺进一步升温。",
-          "excerpt": "For the 14th time, a Google product has hit 1 billion users. CEO Sundar Pichai says a billion people now use Gemini every month, calling it Google's fastest-growing product ever — though Google isn't alone, as OpenAI's ChatGPT has also crossed the same billion-user threshold.",
-          "vocab": [
-            {
-              "word": "eclipse",
-              "pos": "v.",
-              "meaning": "使…相形见绌、盖过风头；比 surpass 更形象化，带有『遮蔽对方光芒』的隐喻，常用于科技/商业竞争报道中描述后来者压过对手声势。",
-              "etymology": "源自希腊语 ekleipsis（消失、缺席），来自 ekleipein（未能出现），由 ek-（出）+ leipein（离开）构成，经拉丁语 eclipsis、古法语 éclipse 进入英语，原指日月食。",
-              "morphology": "现代英语中已不易再拆分；同词根词还有 ellipsis（省略号，字面『省去』）；同前缀 ek-/ex- 词族包括 exit、exodus，可类比记忆『向外离开』的核心意象。",
-              "mnemonic": "想象月亮挡住太阳的日食画面——一家公司的用户数据像月亮一样『遮住』了对手的光芒，风头被完全盖过。",
-              "exampleEn": "Gemini's rapid user growth threatens to eclipse ChatGPT's early lead in the AI chatbot race.",
-              "exampleCn": "Gemini用户数的快速增长可能会盖过ChatGPT在AI聊天机器人赛道上的早期领先优势。"
-            },
-            {
-              "word": "neck and neck",
-              "pos": "phrase",
-              "meaning": "势均力敌、不相上下；源自赛马术语，比『very close』更生动画面感强，财经报道常用它形容两家公司在市场份额或关键指标上难分高下。",
-              "etymology": "短语/复合词，源于19世纪赛马术语，指两匹马冲线时脖子高度齐平、难分先后，后引申为泛指任何势均力敌的竞争。",
-              "morphology": "由 neck（脖子）+ and + neck 重复构成的固定搭配，无法拆解词根；类似的赛马衍生短语还有 in the home stretch（冲刺阶段）。",
-              "mnemonic": "脑补两匹赛马冲过终点线时脖子齐平的画面——裁判都很难判断谁赢，用来形容两家公司数据咬得极紧。",
-              "exampleEn": "With both apps now claiming a billion users, Google and OpenAI are running neck and neck for AI supremacy.",
-              "exampleCn": "随着两款应用都宣称拥有10亿用户，谷歌和OpenAI在AI霸主之争上已是并驾齐驱。"
-            },
-            {
-              "word": "crown",
-              "pos": "v.",
-              "meaning": "正式认定/封为(冠军、赢家)；比『name』或『declare』更具仪式感和权威色彩，商业媒体常用被动式『be crowned』形容某公司或产品被公认为行业第一。",
-              "etymology": "源自拉丁语 corona（花环、王冠），经古法语 corone/coroune 进入英语，原指授予胜利者或君主的实物头饰，后引申为『正式确立为最高地位』。",
-              "morphology": "名词 crown（王冠）转化为动词『加冕』；同词根词有 coronation（加冕典礼）、coronary（冠状的，因血管形似王冠而得名）。",
-              "mnemonic": "想象把一顶国王的王冠戴在Gemini头上——媒体正式『加冕』它为『10亿用户俱乐部』的新成员。",
-              "exampleEn": "Analysts are hesitant to crown either company the outright winner of the AI chatbot war.",
-              "exampleCn": "分析师们仍不愿断言谷歌或OpenAI已经在AI聊天机器人大战中稳坐冠军宝座。"
-            },
-            {
-              "word": "swell",
-              "pos": "v.",
-              "meaning": "(数量、规模)膨胀式增长；比 grow/increase 更强调『从内部鼓胀扩张』的画面感，常用于描述用户数、库存、债务等数字急剧变大。",
-              "etymology": "源自古英语 swellan，日耳曼语族词汇，原指伤口、水面等物理性肿胀膨大，后引申为抽象意义上数量或规模的扩张。",
-              "morphology": "动词 swell → 名词 swelling（肿胀/膨胀）→ 形容词 swollen（肿大的）；口语中 swell 也可作形容词表示『极好』，注意与正式用法区分。",
-              "mnemonic": "想象一个气球被不断吹气、越胀越大——Gemini的用户数就像这个气球一样『鼓胀』着突破了10亿大关。",
-              "exampleEn": "Gemini's user base swelled past a billion just months after its major product overhaul.",
-              "exampleCn": "在完成重大产品改版仅几个月后，Gemini的用户规模就膨胀突破了10亿大关。"
-            },
-            {
-              "word": "coveted",
-              "pos": "adj.",
-              "meaning": "令人垂涎的、梦寐以求的；比『desirable』语气更强烈，暗含『别人也想要但难以获得』的竞争意味，常修饰奖项、头衔、市场地位等。",
-              "etymology": "源自古法语 coveitier，来自拉丁语 cupiditas（渴望、贪欲），与 cupid（丘比特，欲望之神）同源。",
-              "morphology": "动词 covet（觊觎）加 -ed 变为形容词 coveted；同源词还有 cupidity（贪婪）、Cupid（丘比特）。",
-              "mnemonic": "联想丘比特之箭射中人心引发强烈渴望——『10亿用户』这个头衔就是所有AI公司都想被丘比特之箭『射中』般渴求的目标。",
-              "exampleEn": "Hitting a billion monthly users is a coveted milestone that only a handful of tech products have ever reached.",
-              "exampleCn": "月活突破10亿是一个人人梦寐以求的高光节点，历史上只有极少数科技产品达到过这一规模。"
-            }
-          ]
-        },
-        {
-          "id": "20260812-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/11/coreweave-crwv-q2-earnings-report-2026.html",
-          "headlineEn": "CoreWeave Stock Jumps 14% as Revenue Doubles on AI Infrastructure Boom",
-          "headlineCn": "CoreWeave营收翻倍股价飙涨14%，AI基建需求加速",
-          "summaryEn": "CoreWeave's stock jumped 14% after the company reported that its revenue nearly doubled, driven by relentless demand for AI infrastructure. The cloud-computing provider, which rents out GPU-powered servers to AI labs, is scaling rapidly to keep pace with orders. Yet the growth is not without risk: CoreWeave is sitting on $35 billion in debt taken on to fund data-center buildouts. Investors are weighing whether the company's booming top line can outpace the cost of servicing that debt-fueled expansion, a tension that captures broader questions about the AI infrastructure boom's financial sustainability.",
-          "summaryCn": "CoreWeave股价大涨14%，此前公司公布营收几乎翻倍，AI基础设施需求持续加速。这家专注于出租GPU算力服务器的云计算公司正在快速扩张产能以满足订单需求。但快速增长背后是风险：公司背负着350亿美元债务，用于兴建数据中心。投资者正在权衡：营收增长能否跑赢偿债成本，这也折射出AI基础设施热潮能否持续的更大疑问。",
-          "excerpt": "CoreWeave's revenue is surging as the AI boom continues to fuel demand for GPU-powered cloud infrastructure, sending its stock up 14% in early trading. But the rapid expansion comes at a cost: the company is sitting on $35 billion in debt taken on to finance its data-center buildout.",
-          "vocab": [
-            {
-              "word": "sitting on",
-              "pos": "phrase",
-              "meaning": "「坐拥/背负（某项资产或负债）」，强调该资产或负债处于闲置或未处理状态，财经报道里常用来形容公司持有大量现金、债务或库存但迟迟未采取行动，比have更强调按兵不动的意味。",
-              "etymology": "短语/复合词，无独立词源；由动词sit（古英语sittan，坐）与介词on组合而成，字面意为坐在…上面，引申为持有、占据。",
-              "morphology": "sit（坐，古英语根词）+ on（介词）；同类动介短语搭配如sit on the board（担任董事）、sit on a decision（迟迟不做决定）、sit tight（按兵不动）。",
-              "mnemonic": "想象一个人直接坐在一堆钞票或账单上不肯挪窝——形象地表达持有巨额资产或债务却按兵不动的画面。",
-              "exampleEn": "The startup is sitting on nearly $2 million in unpaid invoices, but its founders refuse to raise financing.",
-              "exampleCn": "这家初创公司背负着近200万美元的未付账单，但创始人拒绝融资。"
-            },
-            {
-              "word": "capital expenditure",
-              "pos": "n. (phrase, capex)",
-              "meaning": "「资本性支出」，指企业用于购置、建设长期资产（如厂房、设备、数据中心）的支出，区别于日常运营开支；财经报道中常简称capex，是衡量企业扩张力度的关键指标。",
-              "etymology": "源自拉丁语capitalis（头等的、主要的，引申为本金）与expendere（花费，ex-向外+pendere称重、支付）；两词在19世纪会计学中组合成固定术语。",
-              "morphology": "capital（资本，来自拉丁caput头）+ expenditure（支出，来自拉丁pendere付款）；同根词：capitalize（资本化）、expend（花费）、expendable（可消耗的）。",
-              "mnemonic": "记成花大钱（capital）买能用很多年的东西——盖楼、买机器都算capex，而买咖啡、发工资不算，帮助区分它和日常开支。",
-              "exampleEn": "Heavy capital expenditure on data centers has pushed several cloud providers deep into debt.",
-              "exampleCn": "在数据中心上的大量资本性支出，已让多家云服务商债台高筑。"
-            },
-            {
-              "word": "debt-fueled",
-              "pos": "adj. (compound)",
-              "meaning": "「靠举债驱动的」，形容增长、扩张或收购由大量借款支撑，而非依靠自有现金流，隐含增长不可持续、风险较高的判断，比funded by debt更带批判色彩。",
-              "etymology": "短语/复合词，无独立词源；由debt（拉丁debitum，欠下的东西）与fuel（古法语fouaille，燃料）的分词形式组合而成，20世纪经济评论中常见搭配。",
-              "morphology": "debt（名词，欠款）+ fuel（动词，加燃料）+ -ed（过去分词后缀，构成形容词）；同类构词：cash-fueled、consumer-fueled、tech-fueled。",
-              "mnemonic": "想象一辆车不是加汽油而是加借条当燃料前进——跑得快但油箱（债务）越来越满，随时可能爆缸，形象记住靠债务驱动的风险感。",
-              "exampleEn": "Analysts warned that the company's debt-fueled acquisition spree could backfire if interest rates stay high.",
-              "exampleCn": "分析师警告称，如果利率持续走高，这家公司靠举债驱动的收购狂潮可能会适得其反。"
-            },
-            {
-              "word": "top line",
-              "pos": "n. (phrase)",
-              "meaning": "「营收（列于财报表格最上方一行）」，与bottom line（净利润，位于表格底部）相对，常用top line growth强调收入增长而不涉及是否盈利，是区分增收与增利的关键术语。",
-              "etymology": "短语/复合词，无独立词源；源自会计损益表的排版习惯——收入总列在最上方一行，利润列在最下方一行，19世纪会计实务中形成的比喻用法。",
-              "morphology": "top（顶部）+ line（一行）；对应词bottom line（底线、净利润）；同类财报术语：top-line growth、top-line miss、top-line guidance。",
-              "mnemonic": "想象一张财报表，最上面第一行写着大大的营收数字，最下面才是利润——记住top line在最上面，只管收入不管利润。",
-              "exampleEn": "CoreWeave's top line nearly doubled, but investors still worry about its mounting debt.",
-              "exampleCn": "CoreWeave的营收几乎翻了一倍，但投资者仍担忧其不断攀升的债务。"
-            },
-            {
-              "word": "outpace",
-              "pos": "v.",
-              "meaning": "「（在速度、增长上）超过、跑赢」，常用于比较两个增长率或速度的赛跑关系，比exceed更强调持续竞速的动态过程，财经报道中常用于营收增速跑赢成本或竞争对手等语境。",
-              "etymology": "由前缀out-（超过，古英语ut）与pace（步伐，源自古法语pas，来自拉丁passus脚步）组合，16世纪进入英语，字面意为走得比…快。",
-              "morphology": "out-（超越类前缀）+ pace（步伐，名词转动词）；同前缀词：outgrow（超越增长）、outperform（表现超越）、outlast（比…更持久）。",
-              "mnemonic": "想象一场赛跑，你的对手叫pace（步伐），你直接out（超出）他——outpace就是把对手的步伐甩在身后，跑赢一切竞速类比喻。",
-              "exampleEn": "The question is whether CoreWeave's revenue growth can outpace the interest payments on its debt.",
-              "exampleCn": "问题在于，CoreWeave的营收增速能否跑赢其债务利息支出。"
-            }
-          ]
-        },
-        {
-          "id": "20260812-3",
-          "category": "econ",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/petlibro-discount-code/",
-          "headlineEn": "Petlibro Cuts Prices by 30% for August Pet Supplies Sale",
-          "headlineCn": "Petlibro八月大促：宠物用品直降30%",
-          "summaryEn": "Petlibro, a maker of smart pet care devices, is running an August 2026 promotion offering 30% off automatic feeders, water fountains, and related accessories for cats and dogs. The discount covers core product lines that help owners automate feeding and hydration schedules, a growing niche as more households treat pet-tech gadgets as everyday essentials rather than luxuries. For consumers, the sale lowers the entry price for smart pet devices; for Petlibro, it is a chance to clear inventory and expand its customer base ahead of the fall shopping season.",
-          "summaryCn": "Petlibro是一家智能宠物用品品牌，2026年8月推出限时促销，旗下自动喂食器、饮水机及配件全线直降30%。此次促销覆盖了帮助宠物主人自动化喂食和饮水的核心产品线，反映出宠物科技产品正从小众奢侈品变为日常刚需的趋势。对消费者而言，折扣降低了入手智能宠物设备的门槛；对Petlibro来说，这是清理库存、在秋季购物季前扩大客户群的机会。",
-          "excerpt": "Petlibro is offering 30% off its lineup of automatic feeders, water fountains, and pet accessories throughout August, giving cat and dog owners an easy way to upgrade daily feeding and hydration routines at a lower price point.",
-          "vocab": [
-            {
-              "word": "markdown",
-              "pos": "n.",
-              "meaning": "零售商对商品永久或阶段性降价，比discount更专业，常见于零售/库存管理语境，指主动降价清库存的商业行为",
-              "etymology": "复合词，mark（标记/定价）+ down（向下），19世纪零售业用语，字面指把标价往下改",
-              "morphology": "mark（词根，标记）+ down（方向副词）构成复合名词；同类构词markup（加价）、write-down（减记）、pay-down（还款）",
-              "mnemonic": "想象店员拿笔把价格标签上的数字划掉往下改，动作本身就是词义：把价格标记往下移",
-              "exampleEn": "Retailers often apply steep markdowns on seasonal inventory once demand cools.",
-              "exampleCn": "零售商在季节性需求降温后，往往会对库存商品大幅降价。"
-            },
-            {
-              "word": "staple",
-              "pos": "n.",
-              "meaning": "生活必需品/常销品，商业中指长期稳定畅销、消费者反复购买的基础品类，比essential更强调稳定复购的商业属性",
-              "etymology": "源自古法语estaple（集市、交易场所），中世纪英语借入后指大宗贸易商品，后引申为基本必需品",
-              "morphology": "不可拆解的简单词；也可作形容词（staple food），常见搭配staple diet, staple goods, mainstay",
-              "mnemonic": "想象订书机上的staple钉子——把生活牢牢钉住、离不开的东西，就是必需品",
-              "exampleEn": "Automatic feeders are becoming a staple in the smart pet-care market.",
-              "exampleCn": "自动喂食器正逐渐成为智能宠物用品市场的常销品类。"
-            },
-            {
-              "word": "clearance",
-              "pos": "n.",
-              "meaning": "清货/清仓促销，指商家为腾出库存空间而进行的集中降价销售，语域偏零售业内部用语，比sale更强调处理存货的目的",
-              "etymology": "源自动词clear（清空，源自古法语clair，明亮/清晰），加名词后缀-ance表示动作或状态，19世纪起用于商业语境指清理库存",
-              "morphology": "clear（词根，清空）+ -ance（名词后缀，表状态/过程）；同后缀词allowance, maintenance, appearance",
-              "mnemonic": "把货架想象成需要清空出来的空间，商家打折就是为了腾地方，这就是clearance",
-              "exampleEn": "The August clearance let Petlibro move older feeder models before launching new ones.",
-              "exampleCn": "八月的清仓促销让Petlibro在推出新品前清掉了旧款喂食器库存。"
-            },
-            {
-              "word": "upsell",
-              "pos": "v.",
-              "meaning": "向上销售/推销升级产品，指在顾客已决定购买时引导其购买更贵或更多配件的策略，比promote更精准地描述利用现有购买意愿追加消费的手法",
-              "etymology": "复合词，20世纪中期美式英语零售业造词，up（向上，古英语up）+ sell（销售，古英语sellan，交付/给予）",
-              "morphology": "up（方向前缀）+ sell（词根，销售）；同构词cross-sell（交叉销售）、oversell（过度承诺）、resell（转售）",
-              "mnemonic": "想象顾客本想只买喂食器，店员再往上推一句要不要配滤芯——把销售额往上推，就是upsell",
-              "exampleEn": "Petlibro's site upsells shoppers from a basic feeder to a Wi-Fi-enabled model during checkout.",
-              "exampleCn": "Petlibro的网站在结账时会向顾客推销从基础款升级到带Wi-Fi功能的喂食器。"
-            },
-            {
-              "word": "loss leader",
-              "pos": "phrase",
-              "meaning": "亏本引流商品，指商家故意以低于成本或极低利润销售的商品来吸引顾客上门并带动其他消费，比discount item更精确地表达以亏损换客流的商业逻辑",
-              "etymology": "短语/复合词，无独立词源；loss（源自古英语los，失去）+ leader（源自古英语lædan，引导），字面意为带来亏损的引导商品，20世纪初美式零售业用语",
-              "morphology": "loss（名词，亏损）+ leader（名词，引导者/主打商品）并列复合；相关词market leader, price leader, category leader",
-              "mnemonic": "想象超市门口摆着超低价的鸡蛋，本身亏钱卖，却像领头羊一样把顾客领进店里买其他东西，这就是loss leader",
-              "exampleEn": "Some analysts suspect the steep feeder discount functions as a loss leader to draw shoppers into Petlibro's accessory ecosystem.",
-              "exampleCn": "有分析师猜测，喂食器的大幅降价其实是一种亏本引流手段，目的是把顾客引入Petlibro的配件生态。"
             }
           ]
         }
