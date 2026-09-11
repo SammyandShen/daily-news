@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-11T00:29:16.177740+00:00",
+  "lastUpdated": "2026-09-11T23:00:16.086504+00:00",
   "level": "B2",
   "days": {
+    "2026-09-12": {
+      "label": "9月12日 (周六)",
+      "stories": [
+        {
+          "id": "20260912-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+          "headlineEn": "Anthropic spent this week in hot water over cybersecurity",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel already raging concerns about cybersecurity and AI. [&#8230;]",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260912-2",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/oracle-shares-are-climbing-after-results-what-wall-street-analysts-are-saying-now-0d4517ae?mod=mw_rss_topstories",
+          "headlineEn": "Oracle shook off fears about AI spending, but its stock still loses ground",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "“Several of Oracle’s bear cases were addressed head on” in the latest earnings report, according to an analyst.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "“Several of Oracle’s bear cases were addressed head on” in the latest earnings report, according to an analyst.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260912-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/cramers-week-ahead-falling-oil-fed.html",
+          "headlineEn": "Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "CNBC’s Jim Cramer said falling oil prices helped fuel Friday’s rebound, but warned next week’s Federal Reserve meeting will be the next test for stocks.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "CNBC’s Jim Cramer said falling oil prices helped fuel Friday’s rebound, but warned next week’s Federal Reserve meeting will be the next test for stocks.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-11": {
       "label": "9月11日 (周五)",
       "stories": [
@@ -3103,200 +3177,6 @@
               "mnemonic": "记住merc和commerce（商业）同根——雇佣兵（mercenary）打仗不为信仰，只为钱（merce），谁给钱就为谁卖命，如今的网络雇佣军也是同理。",
               "exampleEn": "Some experts fear the program could give rise to a new class of cyber mercenaries operating with government blessing.",
               "exampleCn": "一些专家担心，该计划可能会催生一批在政府默许下活动的新型网络雇佣兵。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-13": {
-      "label": "8月13日 (周四)",
-      "stories": [
-        {
-          "id": "20260813-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/12/coreweave-counters-a-key-bear-case-on-the-ai-trade-what-it-means-for-our-data-center-stocks.html",
-          "headlineEn": "CoreWeave Pushes Back on a Top Bear Case in the AI Trade",
-          "headlineCn": "CoreWeave反驳AI交易关键看空论据",
-          "summaryEn": "CoreWeave, a cloud provider specializing in AI infrastructure, says it is seeing robust demand for Nvidia chips that are six years old — far outliving the two-to-three-year cycle that skeptics use to argue AI spending is unsustainable. That demand contradicts one of Wall Street's most persistent worries: that hyperscalers' massive capital outlays on GPUs will prove wasteful once newer chips arrive. If older silicon keeps earning revenue, the economics behind trillions in projected AI spending look considerably more durable, reassuring investors in data center stocks.",
-          "summaryCn": "CoreWeave表示，六年前推出的英伟达芯片仍有强劲租用需求，远超看空者所称的两三年折旧周期。这直接反驳了华尔街担忧的超大规模云厂商GPU支出会迅速贬值浪费的说法。若旧芯片仍能持续创收，支撑AI巨额支出的经济逻辑就更站得住脚，也提振了数据中心股信心。",
-          "excerpt": "CoreWeave is seeing strong demand for Nvidia chips that are six years old, a sign the aging GPUs are still generating solid returns for cloud customers. The finding helps justify the enormous capital spending hyperscalers continue pouring into AI data centers and infrastructure.",
-          "vocab": [
-            {
-              "word": "bear case",
-              "pos": "phrase (finance)",
-              "meaning": "看空/看跌的论据体系，即认为某资产会下跌的核心理由组合，与《bull case》（看多论据）相对。财经媒体常用《key bear case》指最有力的看跌论点，学会这个词组能让你更精准地讨论投资研究框架，而不是笼统说《negative opinion》。",
-              "etymology": "源自伦敦证券交易所18世纪俚语，bear（熊）被认为象征卖空者提前卖出尚未拥有的货（如熊皮商人预售未捕获的熊皮），后引申为看跌市场参与者。",
-              "morphology": "bear（熊，名词）+ case（论据/情形）构成复合名词短语；同源搭配还有 bear market（熊市）、bear raid（做空打压）、bearish（看跌的，形容词）。",
-              "mnemonic": "想象一只熊用巨掌把股价《拍》向地面——熊向下压制，牛（bull）用角向上顶，一压一顶正好对应看跌与看多两种市场论调。",
-              "exampleEn": "Analysts say the bear case on cloud stocks rests on the assumption that AI hardware depreciates faster than companies admit.",
-              "exampleCn": "分析师表示，云计算股票的看跌论据建立在AI硬件折旧速度快于企业承认的假设之上。"
-            },
-            {
-              "word": "depreciation",
-              "pos": "n.",
-              "meaning": "（资产的）折旧，指设备、厂房等固定资产随时间和使用而价值递减，是会计和投资分析中评估资本支出效率的核心概念。理解这个词能帮你看懂财报中为何利润和现金流经常不一致。",
-              "etymology": "源自拉丁语 depretiare（de-向下 + pretium 价格），意为《降低价格》，14世纪进入英语，18世纪起在会计学中固定指资产账面价值的系统性减少。",
-              "morphology": "de-（向下/减少）+ preci（拉丁词根，价格，同源词 precious, price, appraise）+ -ation（名词后缀，表过程）；动词形式 depreciate，形容词 depreciable。",
-              "mnemonic": "把 de-preci-ation 拆成《de（减）+ price（价）》，字面就是《价格一直在往下掉》——一台服务器买来越用越不值钱，就是折旧。",
-              "exampleEn": "Investors worry that rapid GPU depreciation could erode the returns on AI data center investments.",
-              "exampleCn": "投资者担心GPU的快速折旧可能会侵蚀AI数据中心投资的回报。"
-            },
-            {
-              "word": "sweat the assets",
-              "pos": "phrase (verb + object)",
-              "meaning": "榨取/最大化利用现有资产的价值，尤指延长设备使用寿命而非急于更新换代，以摊薄成本、提高回报。这是企业运营和私募股权圈的高频行话，比《use fully》更传神，带有《压榨到极致》的画面感。",
-              "etymology": "短语，无独立词源；sweat作动词表《使出汗、榨取劳动》的用法可追溯到工业革命时期对劳工的《血汗工厂》（sweatshop）比喻，19世纪末延伸到对机器/资本的类似压榨式使用。",
-              "morphology": "sweat（使流汗，动词，转喻《榨取》）+ the + assets（资产，来自法语 asetz，源自拉丁 ad satis《足够》）；同族词还有 sweatshop（血汗工厂）、asset-light（轻资产）。",
-              "mnemonic": "想象把一台旧机器逼得《满头大汗》地连轴转，直到榨干它最后一点剩余价值——这就是 sweat the assets 的画面。",
-              "exampleEn": "Instead of buying new servers every two years, some operators prefer to sweat the assets and keep older GPUs running.",
-              "exampleCn": "一些运营商不愿每两年就购买新服务器，而更愿意榨取现有资产的剩余价值，继续使用旧款GPU。"
-            },
-            {
-              "word": "workhorse",
-              "pos": "n.",
-              "meaning": "长期可靠、任劳任怨地承担核心工作的设备或人员，强调《不起眼但撑起大局》。在科技报道里常用来形容那些老旧却依然稳定服役的硬件，比直接说《reliable device》更生动、更带感情色彩。",
-              "etymology": "复合词，字面指农场里拉犁、干重活的马（work + horse），16世纪英语中已用于农业语境，20世纪起比喻意义扩展到设备和任劳任怨的员工。",
-              "morphology": "work（工作，古英语 weorc）+ horse（马，古英语 hors）直接复合；类似构词的还有 racehorse（赛马）、dark horse（黑马，喻爆冷人选）。",
-              "mnemonic": "脑补一匹老马仍在田里日复一日拉犁——不起眼、不炫技，但整个农场离不开它，这正是六岁的英伟达芯片在数据中心里的角色。",
-              "exampleEn": "Six-year-old Nvidia chips have become the workhorse of many AI data centers, still handling heavy workloads reliably.",
-              "exampleCn": "已使用六年的英伟达芯片已成为许多AI数据中心的主力老将，依然可靠地承担着繁重的运算任务。"
-            },
-            {
-              "word": "obsolescence",
-              "pos": "n.",
-              "meaning": "过时、被淘汰的状态，尤指因技术进步而非物理损坏导致的贬值，是科技行业分析产品生命周期时的核心概念。区别于简单的《old》，它强调《被更新一代比下去》的相对性淘汰。",
-              "etymology": "源自拉丁语 obsolescere（ob-朝向 + solescere，从 solere《习以为常》演变而来），原义为《逐渐停止使用》，17世纪进入英语，20世纪工业设计中衍生出《计划性淘汰》（planned obsolescence）一说。",
-              "morphology": "ob-（前缀，表《离去/相反》）+ solesc（词根，习惯/使用）+ -ence（名词后缀）；形容词形式 obsolete，动词 obsolesce，同前缀词还有 obstruct, obscure。",
-              "mnemonic": "记住 obsolete 就像手机厂商年年出新款，把去年的机型《晾在一边没人用》——ob（离开）+ sole（习惯）=渐渐被抛弃、不再是习惯选择。",
-              "exampleEn": "The bear case assumes rapid obsolescence, but CoreWeave's data suggests older chips retain real economic value for years.",
-              "exampleCn": "看跌论据假设芯片会被迅速淘汰，但CoreWeave的数据表明，旧芯片在多年后仍具有真实的经济价值。"
-            }
-          ]
-        },
-        {
-          "id": "20260813-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/12/cerebras-cbrs-q2-earnings-report-2026.html",
-          "headlineEn": "Cerebras Shares Nosedive 14% After Second Post-IPO Earnings Report Despite Raised Guidance",
-          "headlineCn": "Cerebras二季度营收超预期却仍遭股价暴跌14%",
-          "summaryEn": "AI chipmaker Cerebras Systems saw its shares plunge 14% even after posting second-quarter revenue that beat Wall Street estimates and raising its full-year outlook. The steep drop, coming in only the company's second earnings report since its IPO, illustrates how a stock priced for perfection can nosedive on any perceived shortfall — such as slowing order growth or margin pressure — regardless of otherwise solid headline numbers. The reaction highlights lingering investor skittishness toward newly public AI names.",
-          "summaryCn": "人工智能芯片公司Cerebras第二季度营收超预期，并上调全年业绩指引，但股价当天仍暴跌14%。这是该公司上市以来第二份财报，市场反应凸显投资者对新上市AI概念股的估值已透支到近乎苛刻——即便业绩亮眼，只要细节稍有瑕疵，股价仍可能大幅回落。",
-          "excerpt": "Cerebras Systems reported stronger-than-expected second-quarter revenue and raised its full-year guidance, yet investors sent the AI chipmaker's shares down 14% in a swift, knee-jerk sell-off — a reminder that even solid results can disappoint a stock priced for perfection so soon after its IPO.",
-          "vocab": [
-            {
-              "word": "sell-off",
-              "pos": "n.",
-              "meaning": "大规模抛售（尤指价格下跌后引发的连锁性甩卖）；比笼统的decline更精确，强调是投资者集中主动脱手引发的下跌，是财经报道描述暴跌场面的标配词。",
-              "etymology": "复合词，由动词sell（源自古英语sellan，意为给予、交付）与副词小品词off（表示脱离、甩掉）组合而成，19世纪末进入商业英语，用于描述批量脱手库存或证券。",
-              "morphology": "sell（动词，卖）+ off（小品词，表完全脱离）构成复合名词；同类结构还有write-off（注销）、spin-off（分拆）、payoff（回报）。",
-              "mnemonic": "想象交易大厅里所有人同时喊Sell it off！然后疯狂把手里的股票甩出去——sell-off就是这种集体甩卖的画面。",
-              "exampleEn": "The disappointing revenue outlook triggered a broad sell-off across chip stocks.",
-              "exampleCn": "令人失望的营收前景引发了芯片股的大规模抛售。"
-            },
-            {
-              "word": "priced for perfection",
-              "pos": "phrase",
-              "meaning": "股价已把完美业绩提前计入，估值透支到不容有任何瑕疵的地步；比overvalued更形象，精准点出哪怕业绩达标也会因未达到极致预期而下跌的机制。",
-              "etymology": "短语，由price（定价，源自古法语pris，拉丁语pretium表示价值）与perfection（完美，源自拉丁语perfectio，动词perficere意为做到极致）组合而成，20世纪后期成为华尔街常用俚语。",
-              "morphology": "price（动词化，定价）+ for（介词，为了）+ perfection（perfect完美 + -ion名词后缀）；同源词有perfect、perfectionist、imperfection。",
-              "mnemonic": "想象股价标签上写着仅当一切完美才值这个价——业绩只要有一丝瑕疵，价格立刻站不住脚，这就是priced for perfection的画面。",
-              "exampleEn": "After months of hype, the stock was priced for perfection, so even solid results couldn't satisfy investors.",
-              "exampleCn": "经过数月炒作，这只股票的估值已经透支了完美预期，以至于即便业绩稳健也无法让投资者满意。"
-            },
-            {
-              "word": "nosedive",
-              "pos": "n./v.",
-              "meaning": "股价、业绩等急速俯冲式下跌，比drop或fall更强调速度快、角度陡、近乎失控的下坠感，常用于描述单日暴跌。",
-              "etymology": "源自航空术语，指飞机机头朝下俯冲（nose+dive），20世纪初由飞行员用语引申进入财经和日常英语，形容任何急剧下跌。",
-              "morphology": "nose（名词，机头/鼻子）+ dive（动词，俯冲、跳水）；同根词有dive-bomb（俯冲轰炸）、diving board（跳水板）。",
-              "mnemonic": "想象一架飞机突然机头朝下垂直坠落——股价图上那根陡直向下的红线，就像飞机在做nosedive。",
-              "exampleEn": "Shares took a nosedive within minutes of the earnings call, despite the revenue upside.",
-              "exampleCn": "尽管营收超出预期，股价仍在财报电话会议后几分钟内急速俯冲下跌。"
-            },
-            {
-              "word": "frothy",
-              "pos": "adj.",
-              "meaning": "市场、估值泡沫化的、虚高的，字面指像泡沫一样，比overvalued更形象生动，暗示随时可能消泡破裂，常用于描述整体市场情绪过热。",
-              "etymology": "源自古英语froth（泡沫），本义指液体表面的泡沫，19世纪末引申进入金融语境，比喻资产价格中不真实的泡沫部分。",
-              "morphology": "froth（名词，泡沫）+ -y（形容词后缀，表示具有某性质）；同类构词有foamy（多泡沫的）、bubbly（起泡的）。",
-              "mnemonic": "想象一杯卡布奇诺上面厚厚一层奶泡——看着满满一杯，实际大半是空气；frothy市场也是同理，价格里裹着大量空气。",
-              "exampleEn": "Analysts warned that AI valuations had grown frothy after months of relentless rallies.",
-              "exampleCn": "分析师警告称，在连续数月的上涨之后，人工智能相关股票的估值已经变得泡沫化。"
-            },
-            {
-              "word": "knee-jerk",
-              "pos": "adj.",
-              "meaning": "膝跳反射式的、未经思考的本能反应，形容投资者对消息不加分析就立即抛售或买入，比impulsive更具画面感和医学隐喻色彩。",
-              "etymology": "源自医学术语膝跳反射，医生敲击膝盖下方肌腱引发不自主的腿部反应，20世纪中期被引申用于政治和财经语境，形容不经思考的自动反应。",
-              "morphology": "knee（名词，膝盖）+ jerk（名词/动词，猛地一动）；同类隐喻构词有gut reaction（本能反应）、reflex action（反射动作）。",
-              "mnemonic": "想象医生用小锤敲你的膝盖，腿自动弹起——你根本没决定要抬腿；投资者看到坏消息就抛售，也是同样不经大脑的反射动作。",
-              "exampleEn": "The knee-jerk sell-off faded once investors read through the actual numbers behind the headline.",
-              "exampleCn": "一旦投资者读懂了标题背后的真实数据，这种条件反射式的抛售就逐渐消退了。"
-            }
-          ]
-        },
-        {
-          "id": "20260813-3",
-          "category": "econ",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/56c300d3-3632-476e-96d6-da84d4558bda?syn-25a6b1a6=1",
-          "headlineEn": "Poorer Americans Struggle to Make Ends Meet, Top Fed Official Warns",
-          "headlineCn": "美联储高层警告：低收入美国人收支难平衡",
-          "summaryEn": "Susan Collins, president of the Federal Reserve Bank of Boston, said lower-income households are increasingly falling behind on bills and cutting discretionary spending as prices stay elevated, even as wealthier Americans keep spending freely. She indicated she would support raising interest rates again in September if inflation does not cool. The remarks highlight a widening K-shaped economy, in which affluent consumers prop up growth while poorer families struggle paycheck-to-paycheck — a divide that complicates the Fed's next policy move.",
-          "summaryCn": "波士顿联储行长苏珊·科林斯表示，物价高企下，低收入家庭正越来越难支付账单、被迫削减非必要开支，而富裕阶层消费几乎未受影响。她表示，若通胀持续高企，将支持九月加息。这番言论凸显美国经济呈「K型」分化：富裕消费者支撑增长，低收入家庭却在收支边缘挣扎。",
-          "excerpt": "Boston Federal Reserve president Susan Collins said she would support raising interest rates again in September if inflation stays elevated, even as she warned that lower-income Americans are increasingly struggling to make ends meet amid persistently high prices and a widening gap in consumer spending.",
-          "vocab": [
-            {
-              "word": "squeeze",
-              "pos": "n./v.",
-              "meaning": "财经语境中指（收入/利润/生活）受挤压、紧缩，比 pressure 更形象，暗示从两侧被夹紧的痛感，常见搭配 cost-of-living squeeze、margin squeeze、credit squeeze。",
-              "etymology": "源自中古英语 queisen，可能受古法语 escoussier（摇晃、挤压）影响，本义指物理挤压动作，16世纪起引申出经济压力义。",
-              "morphology": "单音节词，不可再拆分；常见搭配/派生：squeeze out（挤出、排挤）、squeeze play（棒球术语，喻紧逼战术）、squeezed（形容词，被压榨的）。",
-              "mnemonic": "想象把一个橙子用力挤（squeeze）出汁——低收入家庭的钱包正被物价这样挤干，一点余地都没有。",
-              "exampleEn": "Rising rents and grocery bills have put a painful squeeze on households living paycheck to paycheck.",
-              "exampleCn": "不断上涨的房租和杂货账单让那些收支勉强打平的家庭承受着痛苦的挤压。"
-            },
-            {
-              "word": "arrears",
-              "pos": "n.",
-              "meaning": "拖欠款项、逾期未付的账单，常用于 fall into arrears、in arrears，比 debt 更精确地强调本该已付却未付的时间维度，是财经报道中描述房贷/账单拖欠的标准用词。",
-              "etymology": "源自古法语 arere（在后面），再溯至拉丁语 ad retro（向后）。字面落在后面演变为拖欠、滞纳之意。",
-              "morphology": "常以复数形式固定使用；同源词：rear（后方）、arrearage（拖欠额，较少用）。",
-              "mnemonic": "arrears 谐音像 a-rears——账单像被落在了你身后（rear=后面）追着你跑，你越走越欠得多。",
-              "exampleEn": "More low-income borrowers are falling into arrears on credit-card payments as living costs climb.",
-              "exampleCn": "随着生活成本上升，越来越多低收入借款人的信用卡还款开始拖欠。"
-            },
-            {
-              "word": "paycheck-to-paycheck",
-              "pos": "phrase/adj",
-              "meaning": "月光族式的，形容收入刚好覆盖开支、毫无结余的生存状态，是描述经济脆弱性的标志性口语搭配，比 low-income 更强调现金流紧绷的生活状态。",
-              "etymology": "短语/复合词，无独立词源；由 paycheck（工资支票）重复叠加构成，强调从这张支票撑到下张支票的循环。",
-              "morphology": "paycheck = pay（支付）+ check（支票），复合名词；叠用两次中间加 to 构成形容词短语，可类比 hand-to-mouth（勉强糊口）。",
-              "mnemonic": "想象一个人手里攥着这个月的工资支票（paycheck），刚发下来就要马上花光，等着 to 下一张支票——完全没有缓冲垫。",
-              "exampleEn": "Nearly half of surveyed workers say they are living paycheck to paycheck despite steady employment.",
-              "exampleCn": "近半数受访员工表示，尽管有稳定工作，他们仍过着月光式的生活。"
-            },
-            {
-              "word": "K-shaped",
-              "pos": "adj.",
-              "meaning": "描述经济复苏/走势中富者愈富、穷者愈穷的分叉现象，图形上像字母K，一撇向上一撇向下，是近年财经媒体高频造词，比 uneven recovery 更具画面感和精确度。",
-              "etymology": "现代造词，直接借用字母 K 的视觉形状（两条线一升一降）来比喻经济数据的分化路径，属于形状隐喻词。",
-              "morphology": "K（字母）+ shaped（shape 的过去分词作形容词，呈…形状的），同构词：V-shaped recovery（V型复苏）、U-shaped（U型）、L-shaped（L型衰退）。",
-              "mnemonic": "把字母 K 想象成两条腿——一条腿（富人）往右上方迈开大步，另一条腿（穷人）往右下方越叉越远，这就是K型经济的画面。",
-              "exampleEn": "Economists point to a K-shaped economy in which affluent consumers keep spending while poorer households pull back.",
-              "exampleCn": "经济学家指出这是一种K型经济：富裕消费者持续消费，而低收入家庭却在收缩开支。"
-            },
-            {
-              "word": "discretionary",
-              "pos": "adj.",
-              "meaning": "非必需的、可自由支配的，常见搭配 discretionary spending/income，与必需开支 essential spending 形成对照，是分析消费者行为和零售业绩时的核心词，比 optional 更正式、更常见于财经报告。",
-              "etymology": "源自拉丁语 discretio（辨别、判断），经古法语 discrecion 演变而来，本义凭个人判断决定，17世纪后进入英语法律与财经语境，衍生出可自主决定是否花费之意。",
-              "morphology": "dis-（分开）+ cern（辨别，同 discern）+ -ion/-ary，同根词：discern（辨别）、discretion（判断力）、indiscreet（轻率的）。",
-              "mnemonic": "discretion（判断力）+ -ary，把它想成这笔钱花不花全凭你自己的判断（discretion）——外出吃饭、旅游都是可以自由取舍的 discretionary spending。",
-              "exampleEn": "As inflation bites, many families are cutting discretionary spending on dining out and travel.",
-              "exampleCn": "随着通胀加剧，许多家庭正在削减外出就餐和旅行等非必需开支。"
             }
           ]
         }
