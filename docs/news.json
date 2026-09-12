@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-11T23:00:16.086504+00:00",
+  "lastUpdated": "2026-09-12T23:00:15.709176+00:00",
   "level": "B2",
   "days": {
+    "2026-09-13": {
+      "label": "9月13日 (周日)",
+      "stories": [
+        {
+          "id": "20260913-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+          "headlineEn": "Anthropic CEO outlines plan to slow AI development",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260913-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
+          "headlineEn": "Matt Mullenweg tells (trolls?) Automattic staff, saying he’s back in control after CEO ouster",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "In a Slack message seen by TechCrunch, Matt Mullenweg told Automattic employees he’s back in control of the company, days after its board put him on leave. Automattic has not yet confirmed the apparent reversal.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "In a Slack message seen by TechCrunch, Matt Mullenweg told Automattic employees he’s back in control of the company, days after its board put him on leave. Automattic has not yet confirmed the apparent reversal.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260913-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/12/stocks-stumble-on-inflation-fears-but-2-names-give-us-reasons-to-stay-bullish.html",
+          "headlineEn": "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Stocks came under pressure last week as surging oil prices and bond yields stoked renewed concerns about inflation and the Fed's next move.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Stocks came under pressure last week as surging oil prices and bond yields stoked renewed concerns about inflation and the Fed's next move.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-12": {
       "label": "9月12日 (周六)",
       "stories": [
@@ -2983,200 +3057,6 @@
               "mnemonic": "词根 nav 就是「船」——想象一艘军舰在港口外巡逻，naval 就是「与船/海军有关的」这个画面。",
               "exampleEn": "Analysts warned that a prolonged naval standoff could push global shipping costs sharply higher.",
               "exampleCn": "分析师警告称，持续的海上军事对峙可能大幅推高全球航运成本。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-14": {
-      "label": "8月14日 (周五)",
-      "stories": [
-        {
-          "id": "20260814-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/13/big-short-investor-steve-eisman-sees-an-achilles-heel-in-the-ai-boom.html",
-          "headlineEn": "Big Short Investor Steve Eisman Flags AI Boom's Two-Company Dependency",
-          "headlineCn": "《大空头》投资人艾斯曼警告：AI热潮命脉系于两家公司",
-          "summaryEn": "Steve Eisman, the investor famed for predicting the 2008 subprime mortgage collapse depicted in The Big Short, says the artificial intelligence boom now rests precariously on just two companies, OpenAI and Anthropic. He argues this narrow concentration creates a systemic vulnerability: if either firm stumbles on funding, technology, or execution, the shockwaves could rattle the broader AI trade, from chipmakers to cloud providers, that has powered much of this year's stock market gains.",
-          "summaryCn": "因预测2008年次贷危机而闻名的投资人艾斯曼（《大空头》原型）警告，AI热潮已过度依赖OpenAI与Anthropic两家公司。他认为一旦其中一家在资金或技术上出问题，冲击将波及芯片、云服务等整条产业链，动摇支撑美股上涨的核心逻辑。",
-          "excerpt": "Steve Eisman is warning that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies, OpenAI and Anthropic — a concentration he sees as a genuine Achilles' heel for markets that have ridden the AI trade to record highs this year.",
-          "vocab": [
-            {
-              "word": "Achilles' heel",
-              "pos": "phrase",
-              "meaning": "致命弱点/软肋；用于形容看似强大的系统或公司唯一的致命破绽，比weakness更有画面感，暗示'整体强大但有一处足以致命'",
-              "etymology": "源自希腊神话：英雄阿喀琉斯全身刀枪不入，唯独脚踵是母亲提他浸入冥河时被手捏住而未浸润的部位，成为其唯一致命弱点。",
-              "morphology": "专有名词短语，无法拆解词根；同类隐喻表达还有chink in the armor（盔甲的裂缝）、fatal flaw（致命缺陷）。",
-              "mnemonic": "想象一个所向无敌的巨人，唯独脚后跟没穿盔甲——把AI热潮想象成这个巨人，OpenAI和Anthropic就是它唯一暴露的脚踵。",
-              "exampleEn": "Analysts say the market's reliance on two AI labs could prove to be its Achilles' heel if either stumbles.",
-              "exampleCn": "分析师认为，市场对两家AI实验室的依赖可能成为其致命弱点，一旦其中一家出问题便会波及全局。"
-            },
-            {
-              "word": "duopoly",
-              "pos": "n.",
-              "meaning": "双寡头垄断，指某个行业被两家公司主导的格局；比monopoly更精确地描述'二人转'式竞争结构，财经报道中常用来形容AI大模型、芯片等赛道",
-              "etymology": "源自希腊语duo（二）+ polein（出售），与monopoly（mono单一+polein出售）同源，19世纪末进入英语经济学术语体系。",
-              "morphology": "du-（二，参见duet二重奏、duplicate复制）+ -opoly（出售/市场，参见monopoly垄断、oligopoly寡头垄断）。",
-              "mnemonic": "记住duo就是'二人组合'（像音乐组合duo），-opoly来自垄断游戏Monopoly——两者拼起来就是'两家公司玩的垄断游戏'。",
-              "exampleEn": "OpenAI and Anthropic now form a de facto duopoly at the frontier of large language model development.",
-              "exampleCn": "OpenAI和Anthropic如今在大语言模型前沿领域形成了事实上的双寡头格局。"
-            },
-            {
-              "word": "linchpin",
-              "pos": "n.",
-              "meaning": "核心支柱/关键纽带，字面指车轮轴上防止车轮脱落的销钉，比core或key更生动，强调'一旦抽走整个系统就会散架'",
-              "etymology": "源自古英语lynis（车轴）+ pin（销钉），指插入车轴末端防止车轮滑脱的金属销，14世纪起用于英语，19世纪衍生出比喻义。",
-              "morphology": "linch（车轴，古词根，现已不单独使用）+ pin（销钉，参见hairpin发夹、pinpoint精确定位）。",
-              "mnemonic": "想象马车轮子上那根不起眼的小销钉——一旦拔掉，整个轮子就会脱落散架，这正是linchpin的画面感。",
-              "exampleEn": "Eisman argues the two firms have become the linchpin of the entire AI investment narrative.",
-              "exampleCn": "艾斯曼认为，这两家公司已成为整个AI投资叙事的核心支柱。"
-            },
-            {
-              "word": "precarious",
-              "pos": "adj.",
-              "meaning": "不稳固的/岌岌可危的，常形容依赖单一因素、随时可能崩塌的处境，比risky更强调'摇摇欲坠、缺乏根基'的即视感",
-              "etymology": "源自拉丁语precarius（靠恳求得来的，取决于他人善意），派生自precari（祈求），17世纪进入英语，后引申为'不稳定的'。",
-              "morphology": "prec-（祈求，参见pray祈祷、deprecate反对/贬低，同源于拉丁语precari）+ -arious（形容词后缀，参见various多样的、gregarious群居的）。",
-              "mnemonic": "联想pray（祈祷）——precarious的处境就像'只能靠祈祷才能维持'的状态，随时可能因一点风吹草动而崩塌。",
-              "exampleEn": "The AI sector's rally looks precarious if it truly depends on just two companies staying on track.",
-              "exampleCn": "如果AI板块的上涨真的只依赖两家公司保持稳健，那这种涨势就显得岌岌可危。"
-            },
-            {
-              "word": "contingent on",
-              "pos": "phrase",
-              "meaning": "取决于/以……为条件，比depend on更正式，常见于财经与法律语境，强调'结果尚未确定，视某个条件是否满足而定'",
-              "etymology": "源自拉丁语contingere（con-共同 + tangere触碰），本义'接触、触及'，引申为'偶然发生的事'，16世纪进入英语后衍生出'取决于'的用法。",
-              "morphology": "con-（共同/一起，参见connect连接、combine结合）+ tingent（源自拉丁tangere触碰，参见tangent切线、tactile触觉的）。",
-              "mnemonic": "记住词根tang/tact＝'触碰'（如tactile触觉），contingent on就是'结果和某个条件紧紧相连'，条件不满足结果就碰不到。",
-              "exampleEn": "The market's continued optimism is largely contingent on OpenAI and Anthropic sustaining investor confidence.",
-              "exampleCn": "市场持续乐观的情绪，很大程度上取决于OpenAI和Anthropic能否维持投资者信心。"
-            }
-          ]
-        },
-        {
-          "id": "20260814-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/13/these-charts-show-why-stocks-keep-rallying-profit-margins-are-highest-on-record.html",
-          "headlineEn": "Corporate Profit Margins Hit Record Highs, Fueling the Stock Rally",
-          "headlineCn": "企业利润率创历史新高，推动股市持续上涨",
-          "summaryEn": "New data from FactSet shows that U.S. corporate profit margins have climbed to their highest level on record, and this expansion — not just stronger sales — is driving much of the recent earnings growth. Companies have squeezed more profit out of each dollar of revenue through cost control, pricing power, and efficiency gains. Investors see this margin expansion as a key reason stocks keep climbing, since it suggests firms can grow earnings even if the economy slows and sales growth stays modest.",
-          "summaryCn": "最新FactSet数据显示，美国企业利润率已升至历史最高水平，而这种利润率扩张——而非单纯的销售增长——正是近期盈利增长的主要推动力。企业通过控制成本、提升定价权和提高运营效率，从每一美元营收中榨取出更多利润。投资者将这种利润率的持续扩张视为股市不断上涨的关键原因，因为这意味着即便经济放缓、销售增速温和，企业仍有能力实现盈利增长。",
-          "excerpt": "Recent FactSet data show that the rise in earnings is not coming from sales growth alone. Instead, companies are squeezing more profit out of every dollar of revenue, pushing margins to their highest level on record and giving the stock market fresh fuel to keep rallying.",
-          "vocab": [
-            {
-              "word": "margin expansion",
-              "pos": "phrase",
-              "meaning": "利润率扩张，指企业单位营收带来的利润占比提高。比profit growth更精确，因为它区分了利润增长是来自营收扩大还是效率提升，是财报电话会和分析师报告里的高频术语。",
-              "etymology": "margin源自拉丁语margo（边缘），15世纪进入英语指纸张空白边，19世纪引申为商业中收入与成本之间的余量；expansion源自拉丁语expandere（展开、扩大）。",
-              "morphology": "margin（边缘、余量，无需拆解）+ expansion = ex-（向外）+ pand（展开，同源词：expand, expanse）+ -sion（名词后缀）。",
-              "mnemonic": "想象一张纸的空白边（margin）被逐渐拉宽（expansion）——公司把成本压缩到营收这张纸的边缘之外，留出的空白越来越大，就是利润率扩张。",
-              "exampleEn": "Analysts credited disciplined cost control for the company's margin expansion this quarter.",
-              "exampleCn": "分析师将该公司本季度的利润率扩张归功于严格的成本控制。"
-            },
-            {
-              "word": "streamline",
-              "pos": "v.",
-              "meaning": "精简、使流程更高效，常用于描述企业削减冗余环节以提高利润率，比cut costs更中性、更强调优化而非单纯削减，财经报道中常见于streamline operations这一搭配。",
-              "etymology": "源自19世纪工程学术语streamline（流线型），指物体表面平滑以减少空气或水的阻力，20世纪中期引申为商业管理中减少摩擦、提高效率。",
-              "morphology": "stream（水流）+ line（线条）构成复合词；引申动词义。同类构词：mainstream, pipeline, streamlined（形容词）。",
-              "mnemonic": "想象水流（stream）沿着一条顺滑的线（line）无阻力地流动——企业把繁琐流程流线化，让业务像水流一样顺畅高效地产生利润。",
-              "exampleEn": "The retailer streamlined its supply chain, which helped push profit margins to a record high.",
-              "exampleCn": "这家零售商精简了供应链，这帮助利润率升至历史新高。"
-            },
-            {
-              "word": "bottom line",
-              "pos": "phrase",
-              "meaning": "净利润、最终盈利结果，与top line（营收）相对，因为利润表把净利润列在最后一行而得名。B2学习者常混淆二者，掌握这对术语能精准区分营收增长和利润增长这两个常被新闻混用的概念。",
-              "etymology": "短语源自会计报表的排版惯例：19世纪末企业损益表中，净利润总是印在页面最底部一行，因此得名。",
-              "morphology": "bottom（底部，古英语botm）+ line（行，古法语ligne），复合名词短语。相关搭配：top line, bottom-line growth, bottom-line impact。",
-              "mnemonic": "想象一张损益表，营收在最顶端（top line），层层扣除成本后，剩下的真金白银写在纸的最底部一行（bottom line）——那才是公司真正赚到的钱。",
-              "exampleEn": "Even with flat sales, cost cuts boosted the company's bottom line significantly.",
-              "exampleCn": "尽管销售额持平，成本削减仍大幅提升了该公司的净利润。"
-            },
-            {
-              "word": "outperform",
-              "pos": "v.",
-              "meaning": "表现优于（大盘、同行或预期），是股市报道中评价个股或板块相对表现的核心动词，比笼统的do well更精确地暗示了对比基准的含义，常见于分析师评级outperform rating。",
-              "etymology": "out-（超越，古英语前缀，表方向或程度上超过）+ perform（表演、执行，源自古法语parfournir，意为彻底完成）。",
-              "morphology": "out-（超出）+ perform（表现，词根来自法语parfournir）。同类构词：outpace, outlast, outgrow, underperform（反义）。",
-              "mnemonic": "把out-想象成跑出、超出——outperform就是表现跑出了对手之外，即甩开基准线，领先一步。",
-              "exampleEn": "High-margin tech stocks have outperformed the broader market this earnings season.",
-              "exampleCn": "本财报季，高利润率的科技股表现优于大盘。"
-            },
-            {
-              "word": "belt-tightening",
-              "pos": "n.",
-              "meaning": "勒紧裤腰带、紧缩开支，形象地指企业或政府削减支出以渡过困难或提高效率，比cost cutting更口语化、更带画面感，常用于描述经济下行期企业的应对策略。",
-              "etymology": "短语源自人在饥饿或体重下降时需要把腰带扣紧几个孔的日常经验，20世纪初开始被借用到经济和财政语境中，形容缩减开支。",
-              "morphology": "belt（腰带，古英语belt）+ tighten（收紧，tight + -en动词后缀）+ -ing（名词化）。同类构词：tighten, tightening, loosen（反义）。",
-              "mnemonic": "想象一位CEO像饿肚子的人一样，把公司的腰带一个孔一个孔地勒紧——每省下一分钱开支，利润率的腰围就瘦一分。",
-              "exampleEn": "Years of corporate belt-tightening have helped push profit margins to record levels.",
-              "exampleCn": "多年的企业紧缩开支帮助利润率升至历史高位。"
-            }
-          ]
-        },
-        {
-          "id": "20260814-3",
-          "category": "econ",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
-          "headlineEn": "Trump Administration to Let Private Firms Launch Cyberattacks Abroad",
-          "headlineCn": "特朗普政府拟准许私营企业境外发动网络攻击",
-          "summaryEn": "The Trump administration is preparing a new program that would let private cybersecurity firms carry out offensive cyberattacks against foreign criminal networks, according to a presidential memorandum reported by Bloomberg. These firms would operate under federal government control and oversight, gaining authority to surveil and disrupt hackers and scammers operating from abroad. The move marks a significant shift in U.S. cyber policy, effectively outsourcing offensive operations once reserved for intelligence agencies to private contractors, raising questions about accountability and unintended escalation.",
-          "summaryCn": "特朗普政府拟推出新计划，允许私营网络安全公司在政府监督下，对境外犯罪网络发动进攻性网络攻击，包括监视和打击黑客、诈骗团伙。此举标志美国网络政策重大转变，将原属情报机构的职能外包给私人承包商，引发对问责与监督的担忧。",
-          "excerpt": "The Trump administration is launching a program allowing private firms to conduct cyberattacks against foreign criminals. Operating under federal government control and oversight, these companies would be permitted to surveil and disrupt criminal networks, according to a presidential memorandum published Wednesday and first reported by Bloomberg.",
-          "vocab": [
-            {
-              "word": "hack back",
-              "pos": "phrasal v.",
-              "meaning": "以攻击性网络行动反击黑客，即以黑制黑；在网络安全语境中特指企业或政府主动出击（而非被动防御）回击攻击者，比retaliate更专业、更具行业术语色彩，常用于讨论进攻性网络安全政策的合法性争议。",
-              "etymology": "短语/复合词，无独立词源；hack源自古英语haccian（砍、劈），20世纪中期在计算机语境中衍生出侵入系统之义，hack back是21世纪网络安全领域新造的口语化术语。",
-              "morphology": "hack（动词，侵入/砍）+ back（副词，回击）构成动副结构短语；同类结构如fight back（反击）、strike back（回击）、push back（顶回去）。",
-              "mnemonic": "想象黑客先砸开你家的门（hack），你翻墙冲到他家把门也砸了（back）——以其人之道还治其人之身，一来一回就是hack back。",
-              "exampleEn": "Under the new policy, licensed firms could legally hack back against ransomware gangs operating overseas.",
-              "exampleCn": "根据新政策，获得许可的公司可以合法地对境外的勒索软件团伙实施反制性网络攻击。"
-            },
-            {
-              "word": "outsource",
-              "pos": "v.",
-              "meaning": "把原本由内部（政府/公司）承担的职能外包给外部第三方；在本文中指政府把专属情报机构的进攻性网络行动外包给私营公司，商业语境中常用于讨论成本、责任转移与风险外溢。",
-              "etymology": "20世纪80年代美国商业英语新造词，由out（向外）+ source（来源，源自拉丁语surgere升起、产生）组合而成，最初指企业将生产环节转移到外部供应商。",
-              "morphology": "out-（前缀，向外）+ source（词根，来源）；同族词：source（来源）、resource（资源）、outsourcing（外包，名词形式）、in-house（与之相对，内部完成）。",
-              "mnemonic": "把source（源头）out（推出去）——原本自己做的事，现在把源头推到公司外面找人做，就是outsource。",
-              "exampleEn": "Rather than expand its own cyber division, the agency chose to outsource offensive operations to vetted contractors.",
-              "exampleCn": "该机构没有扩充自身的网络部门，而是选择把进攻性行动外包给经过审核的承包商。"
-            },
-            {
-              "word": "blur the line",
-              "pos": "phrase",
-              "meaning": "使原本清晰的界限变得模糊不清；常用于讨论职责、身份或合法性边界被打破的情形，比confuse更形象，带有模糊地带滋生风险的隐含意味，是政策评论中的高频比喻。",
-              "etymology": "短语/复合词，无独立词源；blur约16世纪起指使模糊、弄脏，line源自拉丁语linea（亚麻线，引申为界限），二者结合成19世纪以后常见的比喻搭配。",
-              "morphology": "blur（动词，使模糊）+ the line（名词短语，界限）；相关搭配：cross the line（越界）、draw the line（划清界限）、a fine line（微妙的界限）。",
-              "mnemonic": "想象一支铅笔画出的国界线（the line）被人用橡皮蹭（blur）得看不清了——公私界限被蹭模糊，就是blur the line。",
-              "exampleEn": "Critics warn that arming private firms with offensive cyber tools could blur the line between state and corporate power.",
-              "exampleCn": "批评者警告，赋予私营企业进攻性网络工具可能会模糊国家权力与企业权力之间的界限。"
-            },
-            {
-              "word": "carve out",
-              "pos": "phrasal v.",
-              "meaning": "从既有规则或体系中开辟出一块特殊的例外空间；商业/法律语境常用于描述争取到特殊许可、豁免或市场份额，比create更强调从限制中硬挤出一块的费力过程。",
-              "etymology": "短语/复合词，无独立词源；字面义为雕刻、剜出（carve源自古英语ceorfan切割），16世纪起就有字面用法，20世纪扩展为法律与商业隐喻。",
-              "morphology": "carve（动词，雕刻/切割）+ out（副词，向外/出来）；同类结构：cut out（剪出）、carve up（瓜分）、carve-out（名词，特批的例外条款）。",
-              "mnemonic": "想象在一整块法律大蛋糕上，用刀（carve）挖出（out）一小块专属特权——政府给私企carve out了一块合法开展网络攻击的空间。",
-              "exampleEn": "The memorandum carves out a legal exception allowing licensed firms to conduct cyber operations abroad.",
-              "exampleCn": "这份备忘录开辟了一项法律例外，允许获得许可的公司在境外开展网络行动。"
-            },
-            {
-              "word": "mercenary",
-              "pos": "n./adj.",
-              "meaning": "雇佣兵；转喻指受雇执行危险或有争议任务的私营行为者，在网络安全报道中常用来形容被政府雇佣、游走于法律边缘的黑客公司，带有一定的负面警惕色彩，比contractor更具历史与道德张力。",
-              "etymology": "源自拉丁语merces（工资、报酬），经古法语mercenaire演变为英语，14世纪起指为钱而非忠诚而战的士兵，现代扩展比喻任何纯粹为利益行事的行为者。",
-              "morphology": "merc（词根，报酬，同源于commerce商业、merchant商人）+ -enary（形容词/名词后缀）；同源词：commerce（商业）、merchandise（商品）；mercenary的名词与形容词同形。",
-              "mnemonic": "记住merc和commerce（商业）同根——雇佣兵（mercenary）打仗不为信仰，只为钱（merce），谁给钱就为谁卖命，如今的网络雇佣军也是同理。",
-              "exampleEn": "Some experts fear the program could give rise to a new class of cyber mercenaries operating with government blessing.",
-              "exampleCn": "一些专家担心，该计划可能会催生一批在政府默许下活动的新型网络雇佣兵。"
             }
           ]
         }
