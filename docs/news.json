@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-12T23:00:15.709176+00:00",
+  "lastUpdated": "2026-09-14T02:16:31.574777+00:00",
   "level": "B2",
   "days": {
+    "2026-09-14": {
+      "label": "9月14日 (周一)",
+      "stories": [
+        {
+          "id": "20260914-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+          "headlineEn": "Insight Partners’ Devin Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260914-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/13/larry-ellison-cancels-7-5-billion-sale-of-oracle-stock/",
+          "headlineEn": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Oracle had previously disclosed that Ellison planned to sell 50 million shares worth around $7.5 billion.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Oracle had previously disclosed that Ellison planned to sell 50 million shares worth around $7.5 billion.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260914-3",
+          "category": "econ",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/column/994172/your-car-is-selling-your-data",
+          "headlineEn": "Your car is selling your data",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Earlier this year, the Federal Trade Commission [&#8230;]",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on cars, data privacy, and autonomous vehicles, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Earlier this ye",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-13": {
       "label": "9月13日 (周日)",
       "stories": [
@@ -2863,200 +2937,6 @@
               "mnemonic": "字面意思就是把库存（stock）堆成一座山（pile）——想象仓库里石油桶堆得像小山一样高，那就是 stockpile 的画面。",
               "exampleEn": "Governments often stockpile essential commodities like oil and grain to cushion against sudden supply shocks.",
               "exampleCn": "各国政府常常囤积石油和粮食等重要商品，以缓冲突发的供应冲击。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-15": {
-      "label": "8月15日 (周六)",
-      "stories": [
-        {
-          "id": "20260815-1",
-          "category": "tech",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-          "headlineEn": "OpenAI and Anthropic Cut Prices as Chinese AI Rivals Close In",
-          "headlineCn": "OpenAI与Anthropic降价应战，中国AI追兵逼近",
-          "summaryEn": "OpenAI and Anthropic have launched cheaper versions of their flagship models, marking an escalation in the price war gripping the AI industry. The move comes as Chinese labs release increasingly capable open-source models at a fraction of the cost, chipping away at the pricing power that once let US firms justify trillion-dollar valuations. For a sector built on the promise of ever-larger, ever-pricier models, the shift signals growing pressure to prove that cutting-edge AI can also be affordable, raising doubts about long-term profitability across the industry.",
-          "summaryCn": "OpenAI和Anthropic相继推出更便宜的旗舰模型版本，标志着AI行业价格战进一步升级。背景是中国实验室不断推出性能强劲、成本却低得多的开源模型，正在削弱美国公司过去赖以支撑万亿美元估值的定价权。对于一个建立在「模型越大越贵」逻辑上的行业来说，这一转变意味着企业必须证明前沿AI也能物美价廉，同时也让整个行业的长期盈利能力面临更多疑问。",
-          "excerpt": "US groups release cheaper models after new challenges to their trillion-dollar ambitions. The price cuts follow a wave of competitive Chinese open-source releases that match Western performance at a fraction of the cost, forcing OpenAI and Anthropic to defend market share instead of chasing premium pricing alone.",
-          "vocab": [
-            {
-              "word": "slash",
-              "pos": "v.",
-              "meaning": "大幅削减（价格/成本/预算），比cut语气更强烈、更突然，常用于财经报道中描述价格战、裁员、预算削减，带有果断、剧烈的意味。",
-              "etymology": "源自中古英语slaschen，最初指用刀剑猛力挥砍的动作，由古法语相关词汇演变而来，17世纪起引申出大幅削减的比喻义。",
-              "morphology": "单音节动词，不可再拆分；常见搭配为slash prices/costs/jobs/budget，名词形式slash也指削减或斜线符号。",
-              "mnemonic": "想象一把刀猛地劈下去（slash!）——价格战里公司就是这样一刀砍下价格，比cut更有画面感和力度。",
-              "exampleEn": "To keep pace with cheaper Chinese rivals, OpenAI slashed the price of its flagship model by more than half.",
-              "exampleCn": "为了跟上更便宜的中国竞争对手，OpenAI将其旗舰模型的价格削减了一半以上。"
-            },
-            {
-              "word": "commoditize",
-              "pos": "v.",
-              "meaning": "使产品/服务商品化，即失去差异化、只能靠价格竞争。这是描述技术优势被抹平的核心词，比cheapen更精准地捕捉从独特产品沦为无差异商品的过程。",
-              "etymology": "源自拉丁语commoditas（便利、适宜），经古法语进入英语；20世纪后期经济学界将其动词化，专指产品失去独特卖点、沦为可互换商品的过程。",
-              "morphology": "commodity（n. 商品）+ -ize（动词后缀，表示使成为…），同类词有modernize、standardize；名词形式为commoditization。",
-              "mnemonic": "拆成commodity + -ize：本来独一无二的AI模型，被ize成了跟大米、石油一样谁便宜买谁的commodity，技术光环没了，只剩价格战。",
-              "exampleEn": "Analysts warn that cheap Chinese models risk commoditizing large language models faster than expected.",
-              "exampleCn": "分析师警告，廉价的中国模型可能会比预期更快地让大语言模型沦为同质化商品。"
-            },
-            {
-              "word": "race to the bottom",
-              "pos": "phrase",
-              "meaning": "恶性竞争，比谁更便宜或更低劣的竞赛，通常指企业或国家为争夺市场不断压低价格、标准或成本。比单纯说price war更强调竞争失控和负面后果。",
-              "etymology": "短语/复合词，无独立词源；20世纪美国法学界用于描述各州放松公司监管以吸引企业注册的现象，后被经济学界广泛借用。",
-              "morphology": "race（n. 竞赛）+ to the bottom（介词短语），固定搭配，不可拆分改写；常见变体有race to the top作为褒义对照。",
-              "mnemonic": "想象所有公司都在往悬崖底部狂奔，谁先到底价格最低谁赢，但摔到底部其实谁都不好受，这就是race to the bottom的画面。",
-              "exampleEn": "Some investors fear the AI price war could turn into a race to the bottom that squeezes everyone's margins.",
-              "exampleCn": "一些投资者担心，这场AI价格战可能演变成一场比谁更低价的恶性竞赛，压缩所有人的利润空间。"
-            },
-            {
-              "word": "nip at [sb]'s heels",
-              "pos": "phrase",
-              "meaning": "紧追不舍、步步紧逼，常用于描述后来者在市场份额或技术上迅速追赶行业领先者，带有小狗咬脚跟的生动画面感，比catch up with更形象。",
-              "etymology": "短语/复合词，无独立词源；源自牧羊犬追赶牲畜时咬其脚跟以驱赶方向的行为，19世纪起被引申用于描述竞争对手紧逼追赶。",
-              "morphology": "nip（v. 轻咬、夹）+ at + heels（n. 脚跟），固定介词搭配；nip本身也可单独表示急速行动，如nip out。",
-              "mnemonic": "脑补一只小狗在你脚后跟不停地小口咬，甩都甩不掉，这正是中国AI公司让OpenAI感受到的那种追得很紧的压力。",
-              "exampleEn": "With Chinese labs nipping at their heels, OpenAI and Anthropic had little choice but to cut prices.",
-              "exampleCn": "随着中国实验室紧追不舍，OpenAI和Anthropic几乎别无选择，只能降价。"
-            },
-            {
-              "word": "encroach",
-              "pos": "v.",
-              "meaning": "逐渐侵占、蚕食市场份额或领地，强调缓慢但持续的渗透过程，常与on/upon连用，比compete with更能体现步步蚕食既有地盘的紧张感。",
-              "etymology": "源自古法语encrochier（钩住、抓取），由en-（使…）+ croche（钩子）构成，14世纪进入英语，本义为用钩子抓取他人财物，后引申为逐步侵占。",
-              "morphology": "en-（使动前缀）+ croche（钩子，词根）；同源词有crochet（钩针编织）、crook（钩状物、骗子），都与钩、弯曲的意象相关。",
-              "mnemonic": "想象一个钩子一点点把别人的东西钩过来，中国AI公司就是这样一点点把市场份额从美国巨头手里钩走的。",
-              "exampleEn": "Cheaper, capable open-source models from China are encroaching on territory once dominated by US labs.",
-              "exampleCn": "来自中国的更便宜、性能更强的开源模型正在蚕食曾经由美国实验室主导的市场领地。"
-            }
-          ]
-        },
-        {
-          "id": "20260815-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
-          "headlineEn": "PayPal Sale Talks With Stripe, Advent Reportedly Intensify",
-          "headlineCn": "PayPal传与Stripe、Advent收购谈判升温",
-          "summaryEn": "PayPal is reportedly deep in negotiations over a potential sale to payments rival Stripe and private equity firm Advent International, according to people familiar with the matter. The talks come as PayPal's newly installed chief executive pushes a turnaround plan to revive growth and fend off younger checkout rivals. A deal of this size would rank among the largest fintech transactions in years, reshaping the online payments landscape and testing whether a legacy player can regain relevance through acquisition rather than a slow organic recovery.",
-          "summaryCn": "据知情人士透露，PayPal正与老对手Stripe及私募股权公司Advent就潜在收购展开深入谈判。此时正值其新任CEO力推转型计划，意在扭转增长颓势并抵御新兴收单对手的冲击。若交易达成，将成为近年金融科技领域规模最大的并购案之一，重塑在线支付格局。",
-          "excerpt": "PayPal is reportedly still negotiating a potential sale to Stripe and private equity firm Advent, as the fintech company's new CEO tries to turn the struggling payments giant around and restore investor confidence.",
-          "vocab": [
-            {
-              "word": "buyout",
-              "pos": "n.",
-              "meaning": "（企业）收购、并购，尤指私募股权主导的整体收购；比acquisition更强调买断所有权/控制权，常与private equity buyout、leveraged buyout搭配，财经报道高频词。",
-              "etymology": "英语内部合成词，由buy（购买，古英语bycgan）+ out（表示彻底、完全的方向副词）组合而成，无外来词源，19世纪末在商业英语中固定为专有名词用法。",
-              "morphology": "buy（词根：购买）+ out（副词后缀化，表彻底完成）；同类构词有sell-out（抛售/卖光）、payout（支付款项）、takeout（外卖/带走），均以动词+out构成名词。",
-              "mnemonic": "想象一家公司被买(buy)光(out)——原股东全部出局，新买家把股份买断，画面感强，记住buyout就是整体买断。",
-              "exampleEn": "The private equity firm structured the buyout with a mix of cash and debt financing.",
-              "exampleCn": "这家私募股权公司通过现金与债务融资相结合的方式安排了这笔收购。"
-            },
-            {
-              "word": "newly installed",
-              "pos": "phrase/adj.",
-              "meaning": "刚上任的、新任命的（多用于高管、CEO）；比new CEO更正式、更强调被正式任命就位的动作感，常见于财经新闻描述人事变动后的过渡期。",
-              "etymology": "install源自拉丁语installare（in-进入 + stallum座位/位置），本义为安置于席位，中世纪用于教会圣职授任仪式，后引申为任命就职。",
-              "morphology": "in-（进入）+ stall（座位，源自古法语estal）+ -ed（过去分词后缀）；同词根词有installment（分期付款）、install（安装/装设，引申义）、stall（摊位）。",
-              "mnemonic": "联想教堂里给新神父安排座位（stall）上任的画面——install最初就是给某人安排席位，newly installed CEO就是刚被请上宝座的新老板。",
-              "exampleEn": "The newly installed chief executive wasted no time announcing a cost-cutting plan.",
-              "exampleCn": "这位新上任的首席执行官毫不拖延地宣布了削减成本的计划。"
-            },
-            {
-              "word": "checkout",
-              "pos": "n.",
-              "meaning": "（网购/支付场景中的）结账环节、收银流程；在金融科技报道中特指支付公司竞争的核心战场——谁能让用户结账更顺畅，常与checkout experience、checkout rival搭配。",
-              "etymology": "英语内部合成词，由check（核对，源自古法语eschec将军，引申为核查）+ out（完成、离开）组成，20世纪中期从酒店退房用法扩展到零售结账场景。",
-              "morphology": "check（核查/核对）+ out（表完成/离开）；同构词有check-in（入住/登记）、workout（锻炼）、payout（支付）。",
-              "mnemonic": "想象超市收银台前核对（check）完商品后离开（out）的动作——checkout就是购物流程的最后一站，支付公司都想抢占这最后一站的生意。",
-              "exampleEn": "Newer checkout rivals have chipped away at PayPal's share of online payments.",
-              "exampleCn": "更新的结账支付对手已经蚕食了PayPal在线支付领域的份额。"
-            },
-            {
-              "word": "revive",
-              "pos": "v.",
-              "meaning": "使复苏、重振（业绩、增长、行业等）；比improve更强调从衰弱/近乎停滞的状态中被救活，常用于企业转型报道中描述扭转颓势的努力。",
-              "etymology": "源自拉丁语revivere（re-再次 + vivere生存/存活），本义为重新活过来，14世纪经古法语revivre进入英语，最初用于宗教语境复活，后世俗化为泛指恢复生机。",
-              "morphology": "re-（再次）+ viv（词根，拉丁语生命，同源词vivid生动的、survive幸存、vital至关重要的）；派生词有revival（复苏、复兴）、revivalist。",
-              "mnemonic": "viv=life（生命），re=again（再次）——revive字面就是让生命再来一次，把奄奄一息的公司业绩当成病人急救，救活它就是revive。",
-              "exampleEn": "The new CEO is betting that a major deal could revive PayPal's stalled growth.",
-              "exampleCn": "这位新任CEO押注一笔大交易或许能重振PayPal停滞不前的增长。"
-            },
-            {
-              "word": "reshape",
-              "pos": "v.",
-              "meaning": "重塑、重新塑造（行业格局、市场版图）；比change更有画面感，暗示大幅度、结构性地改变原有形态，财经报道中常用来形容重大并购对行业格局的冲击。",
-              "etymology": "英语内部合成词，re-（拉丁语前缀，表再次）+ shape（古英语sceapan，意为塑造、创造），二者组合于近代英语，字面即重新塑造。",
-              "morphology": "re-（再次）+ shape（塑造，名词兼动词）；同前缀词有rebuild（重建）、rebrand（重塑品牌）、reform（改革，字面重新成型）。",
-              "mnemonic": "把行业格局想象成一块黏土（shape），一笔巨额收购就像一只手把它重新捏塑（re-shape）成新形状——记住重新捏一遍就是reshape。",
-              "exampleEn": "A tie-up between PayPal and Stripe would reshape the competitive map of digital payments.",
-              "exampleCn": "PayPal与Stripe的联手将重塑数字支付领域的竞争格局。"
-            }
-          ]
-        },
-        {
-          "id": "20260815-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/14/treasury-yields-us-iran-economic-sanctions.html",
-          "headlineEn": "10-Year Treasury Yield Ticks Up as Investors Weigh Weak Retail Sales, Iran Tensions",
-          "headlineCn": "10年期美债收益率小幅走高，投资者消化疲软零售数据与中东局势",
-          "summaryEn": "The yield on the 10-year U.S. Treasury note edged higher on Friday as investors weighed newly released retail sales data that came in below forecasts, alongside escalating tensions in the Middle East. U.S. officials said the naval blockade of Iranian ports could remain in place indefinitely, adding a geopolitical risk premium to markets already grappling with signs of a cooling consumer. The combination left traders uncertain whether the Federal Reserve's next move will lean toward supporting growth or containing inflation.",
-          "summaryCn": "周五，10年期美债收益率小幅走高，市场一面消化低于预期的零售销售数据，一面关注中东局势升温。美国官员称，对伊朗港口的海上封锁可能无限期持续，为本已消费降温的市场增添地缘政治风险溢价。交易员因此难判美联储下一步是偏向支持增长还是遏制通胀。",
-          "excerpt": "The moves come after the latest retail sales figures missed expectations and the U.S. said its naval blockade of Iranian ports could continue indefinitely, leaving investors to weigh softer consumer spending against a fresh geopolitical flashpoint in the Middle East that shows no sign of resolving soon.",
-          "vocab": [
-            {
-              "word": "inch up",
-              "pos": "phrasal v.",
-              "meaning": "以极小幅度逐步移动/上升，多用于描述价格、指标的微小变动，比 rise 或 increase 更强调「一点点、缓慢」的画面感，财经报道中常用来形容波动不大的市场。",
-              "etymology": "源自名词 inch（英寸，古英语 ynce，来自拉丁语 uncia「十二分之一」），后引申为动词，比喻像英寸那样一点点地移动。",
-              "morphology": "不可拆解的简单词，由名词转为动词；常见搭配 inch up / inch higher / inch forward / inch closer，均表示「缓慢挪动」。",
-              "mnemonic": "想象一把尺子，价格像蜗牛一样一英寸一英寸地往前挪——inch up 就是这种「龟速上涨」的画面感。",
-              "exampleEn": "Bond yields inched up for a third straight session as traders awaited fresh inflation data.",
-              "exampleCn": "在交易员等待新通胀数据之际，债券收益率连续第三个交易日小幅走高。"
-            },
-            {
-              "word": "miss expectations",
-              "pos": "phrase",
-              "meaning": "表现不及预期，常用于财报或经济数据报道，比「be lower than expected」更简洁地道，是财经新闻里的固定搭配。",
-              "etymology": "miss 源自古英语 missan「未击中目标」；expectation 源自拉丁语 exspectare「向外看、等待」，二者组合成描述数据不及预测的标准财经短语。",
-              "morphology": "miss（动词）+ expectations（expect + ation 名词化后缀，表示「被期待之事」）；同根词 expect, expected, unexpected, expectancy。",
-              "mnemonic": "想象射箭比赛，箭（数据）本该正中预测的靶心（expectations），结果却「miss」偏了——数据不及预期就像脱靶。",
-              "exampleEn": "Shares tumbled after quarterly earnings missed expectations by a wide margin.",
-              "exampleCn": "由于季度盈利大幅不及预期，该股股价大跌。"
-            },
-            {
-              "word": "indefinitely",
-              "pos": "adv.",
-              "meaning": "无限期地，不设明确结束时间，常用于描述制裁、封锁、暂停等政策，比「forever」更正式、更强调「没有设定终点」而非「永远」。",
-              "etymology": "源自拉丁语 in-（否定前缀）+ definire「界定、划定界限」（de- + finis「边界、终点」），字面意思是「未被界定终点的」。",
-              "morphology": "in-（否定）+ de-（加强）+ fin（词根，边界/终结，同源词 finish, final, finite）+ -ite + -ly；同根词还有 definite, definition, infinite。",
-              "mnemonic": "记住词根 fin 就是「终点、边界」（想想电影结尾的「FIN」字幕）；indefinitely 就是「没有结尾字幕」的状态——不知道什么时候才会结束。",
-              "exampleEn": "The company suspended its share buyback program indefinitely, citing market uncertainty.",
-              "exampleCn": "由于市场不确定性，该公司无限期暂停了股票回购计划。"
-            },
-            {
-              "word": "soft",
-              "pos": "adj.",
-              "meaning": "（经济数据语境）疲软的、不及预期的，比 weak 更口语化、更常见于财经报道对单次数据的临时性描述，隐含「可能只是暂时走软而非趋势性恶化」的语气。",
-              "etymology": "源自古英语 softe「温和的、舒适的」，本义与硬度/质地相关，19世纪后逐渐引申至经济学领域，用来形容需求、价格、数据的疲软。",
-              "morphology": "不可拆解的基础词；常见派生/搭配：soften（动词，走软/软化）、softness（名词）、soft landing（经济学术语，软着陆）。",
-              "mnemonic": "把「疲软数据」想象成一块变软的面包——不是彻底坏掉，只是没有原来那么挺括，这正是 soft 在财经语境里的微妙含义。",
-              "exampleEn": "A soft jobs report raised bets that the central bank would cut rates sooner than planned.",
-              "exampleCn": "疲软的就业报告加大了市场对央行提前降息的押注。"
-            },
-            {
-              "word": "naval",
-              "pos": "adj.",
-              "meaning": "海军的、与海上军事行动相关的，用于描述国家间的海上军事部署，是地缘政治新闻中的高频修饰词，比 military 更具体地指向海上力量。",
-              "etymology": "源自拉丁语 navalis，来自 navis「船」，同源词还有 navy, navigate, naval base 等。",
-              "morphology": "nav（词根，船/航行）+ -al（形容词后缀）；同根词：navy（名词，海军）、navigate（动词，航行/导航）、navigation（名词）。",
-              "mnemonic": "词根 nav 就是「船」——想象一艘军舰在港口外巡逻，naval 就是「与船/海军有关的」这个画面。",
-              "exampleEn": "Analysts warned that a prolonged naval standoff could push global shipping costs sharply higher.",
-              "exampleCn": "分析师警告称，持续的海上军事对峙可能大幅推高全球航运成本。"
             }
           ]
         }
