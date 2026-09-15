@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-14T23:00:12.953074+00:00",
+  "lastUpdated": "2026-09-15T23:00:14.188608+00:00",
   "level": "B2",
   "days": {
+    "2026-09-16": {
+      "label": "9月16日 (周三)",
+      "stories": [
+        {
+          "id": "20260916-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/15/nvidia-and-anthropic-ceos-diverge-on-ai-safety-at-dreamforce.html",
+          "headlineEn": "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Comments from the two tech leaders landed days after Anthropic's Dario Amodei published an essay urging the AI industry to slow the pace of model development.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Comments from the two tech leaders landed days after Anthropic's Dario Amodei published an essay urging the AI industry to slow the pace of model development.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260916-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/09/15/wonder-scores-a-425-million-partnership-with-doordash-as-it-builds-its-food-empire/",
+          "headlineEn": "Wonder scores a $425 million partnership with DoorDash as it builds its food empire",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Founded by veteran e-commerce entrepreneur Marc Lore, Wonder is slowly building a massive portfolio of restaurants and delivery companies.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Founded by veteran e-commerce entrepreneur Marc Lore, Wonder is slowly building a massive portfolio of restaurants and delivery companies.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260916-3",
+          "category": "econ",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/why-a-federal-reserve-rate-hike-could-be-a-rare-win-for-your-retirement-money-3ae337df?mod=mw_rss_topstories",
+          "headlineEn": "Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "There may be better savings yields, but beware rising credit-card rates",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "There may be better savings yields, but beware rising credit-card rates",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-15": {
       "label": "9月15日 (周二)",
       "stories": [
@@ -2623,200 +2697,6 @@
               "mnemonic": "拆成《借（borrow）钱要付的代价（cost）》——最直白的画面：银行柜台前贴着一张利率单，那就是你的borrowing cost。",
               "exampleEn": "Higher Treasury yields translate directly into higher borrowing costs for homebuyers and corporations alike.",
               "exampleCn": "美债收益率上升直接转化为购房者和企业更高的借贷成本。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-17": {
-      "label": "8月17日 (周一)",
-      "stories": [
-        {
-          "id": "20260817-1",
-          "category": "tech",
-          "sourceName": "The Verge",
-          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-          "headlineEn": "OpenAI Reportedly Disbands Its AI Safety Preparedness Team",
-          "headlineCn": "OpenAI被曝解散其AI风险预警团队",
-          "summaryEn": "The Financial Times reports that OpenAI quietly disbanded its preparedness team in late July, the group responsible for assessing whether its models could pose catastrophic risks — including scenarios where an AI system might act autonomously and hack outside networks. Oversight duties have reportedly been merged into other safety functions rather than eliminated outright. The move raises questions about how seriously AI labs are tracking worst-case scenarios as they race to ship increasingly capable models, especially amid growing calls for transparency and accountability in the industry.",
-          "summaryCn": "英国《金融时报》报道，OpenAI已于7月底解散负责评估模型灾难性风险的预警团队——包括AI系统自主行动、入侵外部网络等极端情形。相关监督职责据称已并入其他安全部门，而非彻底取消。此举令外界质疑，在各实验室竞相发布更强模型之际，行业对最坏情况的追踪是否仍然到位。",
-          "excerpt": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The team's job was to assess whether models posed serious risks and to develop ways to mitigate them — including the possibility that a model could act autonomously and hack another company's systems.",
-          "vocab": [
-            {
-              "word": "disband",
-              "pos": "v.",
-              "meaning": "解散（组织、团队）。比《break up》更正式，是企业重组、机构撤销新闻中的首选词，语域偏书面/新闻体。",
-              "etymology": "源自古法语 desbander，dis-（分开）+ band（带子/团体，源自日耳曼语《绑在一起》），字面意为《解开捆绑》，引申为解散团体。",
-              "morphology": "dis-（否定/相反前缀）+ band（词根，绑/团体）。同前缀词：dismantle（拆除）、disperse（驱散）；同词根词：bandage（绷带）、band together（联合）。",
-              "mnemonic": "想象一支橡皮筋（band）被剪开（dis-），原本捆在一起的团队瞬间散开——这就是disband：把《团队》这条绑带剪断。",
-              "exampleEn": "The company quietly disbanded its ethics advisory board after several senior members resigned.",
-              "exampleCn": "几位高级成员辞职后，该公司悄然解散了其伦理顾问委员会。"
-            },
-            {
-              "word": "mitigate",
-              "pos": "v.",
-              "meaning": "减轻、缓解（风险/损害）。风险管理语境高频词，强调《降低严重程度》而非完全消除，比《reduce》更专业。",
-              "etymology": "源自拉丁语 mitigare，mitis（温和的）+ agere（使...做/驱动），字面意为《使变得温和》，14世纪进入英语。",
-              "morphology": "miti-（词根，温和）+ -gate（使动后缀，源自agere）。同词根词：mitigation（名词，缓解措施）、mitigating（形容词，如《mitigating circumstances》减轻情节）。",
-              "mnemonic": "mit-谐音《米特》，联想把激烈的风险《软化》到米特（mild）可控的程度，就是mitigate。",
-              "exampleEn": "The safety team was tasked with identifying risks and proposing steps to mitigate them before deployment.",
-              "exampleCn": "安全团队的任务是识别风险，并在部署前提出缓解措施。"
-            },
-            {
-              "word": "reshuffle",
-              "pos": "n./v.",
-              "meaning": "（人事/组织）重组、洗牌。常用于公司高层调整、部门重组，带《打乱重排》的隐喻，比《restructure》更口语化、常见于新闻标题。",
-              "etymology": "re-（再次）+ shuffle（洗牌，拟声词，模拟纸牌摩擦声，15世纪方言词），19世纪起引申为人事调动的比喻用法。",
-              "morphology": "re-（重复前缀）+ shuffle（词根，源自拟声）。同前缀词：rearrange（重新安排）、reorganize（重组）；固定搭配：cabinet reshuffle（内阁改组）。",
-              "mnemonic": "想象一副扑克牌被重新洗牌（shuffle）——团队成员像牌一样被打乱重新分配位置，这就是organizational reshuffle。",
-              "exampleEn": "Analysts expect a management reshuffle once the safety division merges with the broader compliance unit.",
-              "exampleCn": "分析人士预计，一旦安全部门与更大的合规部门合并，管理层将迎来人事重组。"
-            },
-            {
-              "word": "oversight",
-              "pos": "n.",
-              "meaning": "监督、监管。名词有双重含义——《监督》（如regulatory oversight）与《疏忽》（因未注意而犯的错误），语境决定词义，是财经科技新闻中极易混淆但高频的词。",
-              "etymology": "over-（在...之上）+ sight（视线，古英语 sihþ），字面意为《在上方看管》，17世纪起同时发展出《监督》与《疏忽》两个看似矛盾的词义。",
-              "morphology": "over-（前缀，表覆盖/超越）+ sight（词根，视力/看）。同前缀词：overlook（俯瞰/忽略，恰好也有双重含义）、oversee（监督）；派生词：overseer（监督者）。",
-              "mnemonic": "拆成《over + sight》：站在高处（over）俯视（sight）一切就是《监督》；但若视线（sight）恰好越过（over）了细节，就变成《疏忽》——同一个词，两种《看》的结果。",
-              "exampleEn": "Regulators are pushing for stronger oversight of how AI companies evaluate catastrophic risk before launch.",
-              "exampleCn": "监管机构正推动加强对AI公司发布前评估灾难性风险方式的监督。"
-            },
-            {
-              "word": "phase out",
-              "pos": "phrasal v.",
-              "meaning": "逐步淘汰、逐步取消。强调《渐进式》停止某项业务/职能，区别于《scrap》的突然性，是商业新闻中描述组织缓慢调整的常用搭配。",
-              "etymology": "短语动词，phase源自希腊语 phasis（显现，与月相phase同源），指事物按阶段逐步显现或消退；out表示《完全、彻底》的方向。",
-              "morphology": "phase（词根，阶段）+ out（方向副词，表完成/消失）。相关短语：phase in（逐步引入，反义词）、phase-out（名词形式，如《nuclear phase-out》）。",
-              "mnemonic": "想象月相（phase）从满月逐渐（out）消失到看不见——phase out就是这样一个循序渐进、最终完全消失的过程。",
-              "exampleEn": "The startup plans to phase out its legacy risk-review process in favor of an automated system.",
-              "exampleCn": "这家初创公司计划逐步淘汰其旧有的风险审查流程，转而采用自动化系统。"
-            }
-          ]
-        },
-        {
-          "id": "20260817-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/16/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
-          "headlineEn": "Wall Street's Top Analysts Favor 3 Dividend Stocks for Steady Income",
-          "headlineCn": "华尔街顶级分析师看好这三只稳健派息股",
-          "summaryEn": "Top Wall Street analysts have singled out three dividend-paying stocks, largely in the energy sector, as attractive picks for investors seeking steady income. Their recommendations rest on strong track records of payouts, healthy cash flow, and resilient business models that can weather commodity price swings. For income-focused investors worried about market volatility, these stalwart names offer a way to collect regular distributions while limiting downside risk. The picks matter because dividend stocks with analyst conviction tend to signal durable earnings power rather than one-off yield spikes.",
-          "summaryCn": "华尔街顶级分析师筛选出三只派息股，主要集中在能源板块，适合追求稳定收入的投资者。这些公司拥有稳健的派息记录、健康的现金流和抗周期的商业模式，能够在大宗商品价格波动中保持韧性。对于担心市场波动的收入型投资者而言，这些可靠的标的能持续提供分红，同时降低下行风险。分析师的高度看好也意味着这些股票的盈利能力具有持续性，而非昙花一现的高派息。",
-          "excerpt": "Investors looking for steady income are turning to dividend-paying energy stocks. Wall Street analysts have flagged three names with strong payout histories and resilient cash flows, arguing they offer a reliable way to generate regular income even as broader markets stay volatile.",
-          "vocab": [
-            {
-              "word": "payout",
-              "pos": "n.",
-              "meaning": "派息/派发的资金，尤指定期分红。比dividend更口语化，强调「实际到手的钱」，常用于dividend payout、payout ratio等固定搭配。",
-              "etymology": "复合词，由pay（古法语payer，源自拉丁paccare「使满意」）+ out（古英语ut，表示「向外」）组合而成，字面意为「付出去的钱」。",
-              "morphology": "pay（付款）+ out（向外，副词后缀化）构成复合名词；同类构词如payoff（回报）、payroll（工资单）、layout（布局）。",
-              "mnemonic": "想象公司像水龙头一样把利润pay out（付出去）给股东，钱从公司账户流出到你的银行卡——这就是payout。",
-              "exampleEn": "The company has raised its dividend payout for ten consecutive years, a track record income investors prize.",
-              "exampleCn": "这家公司已连续十年提高股息派发，这样的记录深受收入型投资者青睐。"
-            },
-            {
-              "word": "stalwart",
-              "pos": "adj./n.",
-              "meaning": "可靠稳健、历经考验仍表现坚挺的（股票/公司）。比reliable更有褒义色彩，隐含「久经沙场却依然强壮」的意味，财经媒体常用来形容穿越周期的老牌蓝筹。",
-              "etymology": "源自古英语stælwierþe，由stæl（位置、根基）与wierþe（值得的）组成，本义为「站得稳、值得信赖的」，中古英语演变为苏格兰语stalworth，后固定为stalwart。",
-              "morphology": "不可拆分的简单词，但常见搭配有stalwart supporter（坚定支持者）、party stalwart（政党元老）；名词形式与形容词形式相同。",
-              "mnemonic": "联想stall（站稳、不倒）+ wart（疣，长在身上很难去掉）——一个stalwart就像长在原地、怎么甩都甩不掉的老将，稳如磐石。",
-              "exampleEn": "Even during the downturn, this energy stalwart kept its dividend intact, reassuring cautious shareholders.",
-              "exampleCn": "即便在下行周期中，这只能源板块的老牌稳健股依然保持分红不变，让谨慎的股东们安心。"
-            },
-            {
-              "word": "compounding",
-              "pos": "n./v.",
-              "meaning": "复利增长，尤指分红再投资带来的滚雪球效应。比单纯growth更精确，强调「利滚利」的数学机制，是长期投资叙事中的核心词。",
-              "etymology": "源自拉丁语componere（com-「一起」+ ponere「放置」），本义为「合并、放在一起」，17世纪起在金融语境中特指利息叠加利息的过程。",
-              "morphology": "com-（共同）+ pound（放置、构成，源自ponere）+ -ing（动名词后缀）；同根词有component（组成部分）、compose（组成）、compound interest（复利）。",
-              "mnemonic": "把compounding想象成滚雪球——每一圈都把之前滚过的雪都合并（com-）进新的一层，越滚越大，这就是复利的画面感。",
-              "exampleEn": "Reinvesting dividends year after year lets compounding quietly turn modest income stocks into a sizable nest egg.",
-              "exampleCn": "年复一年地将股息再投资，复利会悄然把不起眼的收入股滚成一笔可观的养老金。"
-            },
-            {
-              "word": "coverage ratio",
-              "pos": "phrase (n.)",
-              "meaning": "派息覆盖率，衡量公司盈利/现金流相对于所派股息的倍数，比safety更具体量化，是判断分红是否可持续的关键指标。",
-              "etymology": "短语/复合词，无独立词源；coverage源自动词cover（古法语couvrir，覆盖、保护），ratio源自拉丁语ratio（计算、比例）。",
-              "morphology": "cover（覆盖）+ -age（名词后缀，表状态/范围）构成coverage；ratio为独立拉丁借词；同类搭配如insurance coverage（保险覆盖范围）、debt-to-equity ratio（负债权益比）。",
-              "mnemonic": "想象派息像一把伞（cover），公司的盈利必须足够大才能盖住股息不被淋湿——覆盖率越高，这把伞就越结实。",
-              "exampleEn": "Analysts checked the company's dividend coverage ratio before recommending it, wary of payouts that outpace actual earnings.",
-              "exampleCn": "分析师在推荐这只股票前查看了它的股息覆盖率，以防派息超出实际盈利能力。"
-            },
-            {
-              "word": "conviction",
-              "pos": "n.",
-              "meaning": "（分析师的）坚定看好、高确信度评级，常见搭配high-conviction pick，比单纯opinion更强调「经过深思熟虑、愿意押注」的态度。",
-              "etymology": "源自拉丁语convincere（con-「彻底」+ vincere「战胜、说服」），本义为「彻底说服」，16世纪引申出法律上的「定罪」及后来心理上的「坚信」双重含义。",
-              "morphology": "con-（加强）+ vinc（战胜，词根同victory）+ -tion（名词后缀）；同根词有convince（说服）、victor（胜利者）、invincible（不可战胜的）。",
-              "mnemonic": "conviction的词根vinc等于win/战胜——分析师对一只股票有conviction，就像内心已经战胜了所有疑虑，笃定地站队看多。",
-              "exampleEn": "The analyst's high-conviction call on the dividend stock reflected years of confidence in its cash-generating business.",
-              "exampleCn": "分析师对这只派息股的高度看好，反映了他们多年来对其现金创造能力的信心。"
-            }
-          ]
-        },
-        {
-          "id": "20260817-3",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
-          "headlineEn": "U.S. Stock Futures Steady as Investors Weigh the Fed's Next Move",
-          "headlineCn": "美股期货持稳 投资者揣摩美联储下一步动向",
-          "summaryEn": "U.S. stock-index futures barely moved on Sunday evening, extending a subdued week on Wall Street as traders held off on major bets ahead of fresh signals from the Federal Reserve. With no major economic data due, investors are parsing recent comments from policymakers for clues on whether interest rates will stay elevated or start coming down later this year. The muted price action reflects broader caution: after months of volatility, markets appear to be pausing until the central bank's intentions become clearer.",
-          "summaryCn": "周日晚间，美股期货几乎未变，延续本周华尔街的低迷走势。由于近期缺乏重磅经济数据，投资者正仔细揣摩美联储官员的最新表态，判断利率是维持高位还是年内开始下调。这种平淡走势反映出市场的谨慎情绪——历经数月震荡后，投资者选择观望，等待央行态度更明朗。",
-          "excerpt": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors held their positions and awaited fresh hints from the Federal Reserve concerning the outlook for interest rates.",
-          "vocab": [
-            {
-              "word": "muted",
-              "pos": "adj.",
-              "meaning": "(市场、情绪)低迷的、受抑制的；比 quiet 或 flat 更专业，强调波动和反应被压低，而非彻底静止，暗含一种被压抑的紧绷感。",
-              "etymology": "源自拉丁语 mutus（哑的、无声的），经古法语 muet 演变为英语 mute，原指人不能说话，后引申为声音或反应被压制、抑制。",
-              "morphology": "mute（哑的，词根）+ -d（过去分词后缀，构成形容词）。相关词：muteness（n. 沉默）、unmuted（adj. 未静音的）；注意与 mutation 不同源。",
-              "mnemonic": "想象把电视按了静音键（mute button）——声音被压下去但设备还在运转；muted market 就像那样：交易仍在进行，只是反应被压低了，没有大声喧哗。",
-              "exampleEn": "Trading was muted on Wall Street as investors waited for clearer signals from the central bank before placing big bets.",
-              "exampleCn": "由于投资者在押下重注前等待央行给出更清晰的信号，华尔街的交易显得低迷。"
-            },
-            {
-              "word": "Fed-speak",
-              "pos": "n.",
-              "meaning": "美联储式措辞，指央行官员刻意使用的模糊、留有余地的表达方式，让市场难以准确预判政策方向；财经记者和交易员天天用的行话，教科书几乎不教。",
-              "etymology": "复合新词，20世纪后期由 Fed（美联储简称）加上 speak 仿照奥威尔小说《1984》里的 Newspeak（新话）造出，暗讽这种语言故意含糊其辞。",
-              "morphology": "Fed（Federal Reserve 的缩写）+ speak（作后缀，表示某种特定语体）。同类构词：doublespeak（模棱两可的话）、legalese（法律用语，-ese 后缀）、corporate-speak（公司套话）。",
-              "mnemonic": "把 Fed-speak 想成美联储主席开新闻发布会时说的那种话——句句都说了，你却还是猜不出他到底要不要加息，这种绕来绕去的说法就是 Fed-speak。",
-              "exampleEn": "Analysts spent the whole press conference trying to decode the chair's Fed-speak for clues about the next rate decision.",
-              "exampleCn": "分析师们花了整场发布会的时间，试图解读主席的美联储式措辞，寻找下一次利率决策的线索。"
-            },
-            {
-              "word": "read the tea leaves",
-              "pos": "phrase",
-              "meaning": "根据零星、不明确的迹象推测未来走向，类似中文的《揣摩》《看风向》；比 guess 或 predict 更形象，暗示信息不完整，只能靠蛛丝马迹推断，常用于解读官方措辞或数据。",
-              "etymology": "源自19世纪西方的茶叶占卜习俗（tasseography），占卜者通过观察杯底残留的茶叶形状预测未来，后引申为根据零碎线索做推测的比喻用法。",
-              "morphology": "短语/习语，不可拆解为词根词缀，可与近义习语对比记忆：read the writing on the wall（预见不祥征兆）、connect the dots（把线索串联起来）。",
-              "mnemonic": "想象一个占卜师盯着杯底的茶叶渣，皱着眉头猜测未来——投资者盯着美联储官员的只言片语，也是在做同样的事：没有确切答案，只能连蒙带猜。",
-              "exampleEn": "With no clear guidance from policymakers, traders are left reading the tea leaves to figure out when rates might move.",
-              "exampleCn": "由于政策制定者没有给出明确指引，交易员们只能靠揣摩蛛丝马迹来判断利率何时会变动。"
-            },
-            {
-              "word": "pencil in",
-              "pos": "phrasal v.",
-              "meaning": "暂定、初步安排(计划、日期或预期数值)，暗示安排并非最终确定，随时可能因新信息而修改；财经语境中常指《市场暂时预计某个利率决定》，比 expect 更强调临时性、可调整。",
-              "etymology": "短语/复合词，源自实际用铅笔（而非钢笔）书写日程表的习惯——铅笔字迹可擦除，象征安排的临时性和可修改性。",
-              "morphology": "pencil（铅笔，名词转动词）+ in（副词小品词，表示写入、安排进去）。同类结构：pen in（用笔正式写定，与之相对）、fit in（安排进日程）。",
-              "mnemonic": "想象秘书用铅笔而不是钢笔在日历上写下会议时间——因为随时可能要擦掉重排；市场 pencil in 一次降息预期，就是这种《先写着，不确定的话随时擦掉》的状态。",
-              "exampleEn": "Investors have penciled in a rate cut for later this year, though the Fed has given no firm commitment.",
-              "exampleCn": "投资者已经暂时把今年晚些时候的一次降息计入预期，尽管美联储并未做出明确承诺。"
-            },
-            {
-              "word": "sit tight",
-              "pos": "phrase",
-              "meaning": "按兵不动、耐心等待，不采取行动；比 wait 更强调《克制住冲动、稳住不动》，常用来描述投资者在不确定局势中选择观望而非交易。",
-              "etymology": "短语/复合词，最初为骑马或坐姿相关的字面表达（骑手坐稳以免摔落），19世纪末引申为保持现状、不轻举妄动的比喻义。",
-              "morphology": "sit（坐，基础动词）+ tight（紧地，副词，强调牢牢地）。同类结构：hold tight（抓紧）、hang tight（稍安勿躁，近义短语）。",
-              "mnemonic": "想象骑手在颠簸的马背上死死坐稳，不敢乱动——投资者在市场震荡、消息不明朗时也是这样《坐稳了不动》，等尘埃落定再说。",
-              "exampleEn": "Rather than chasing the rumor, most fund managers decided to sit tight until the Fed's statement was released.",
-              "exampleCn": "大多数基金经理没有跟风追逐传闻，而是选择按兵不动，直到美联储的声明发布。"
             }
           ]
         }
