@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-16T23:18:07.001022+00:00",
+  "lastUpdated": "2026-09-18T03:27:16.857812+00:00",
   "level": "B2",
   "days": {
+    "2026-09-18": {
+      "label": "9月18日 (周五)",
+      "stories": [
+        {
+          "id": "20260918-1",
+          "category": "tech",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
+          "headlineEn": "The AI Slowdown Debate Crashed Salesforce’s Party",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The Dreamforce conference became an unlikely battleground for the CEOs of OpenAI, Anthropic, and Nvidia to debate whether AI development should slow down.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The Dreamforce conference became an unlikely battleground for the CEOs of OpenAI, Anthropic, and Nvidia to debate whether AI development should slow down.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260918-2",
+          "category": "biz",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+          "headlineEn": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Group plans to be largely out of commission for several weeks.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Group plans to be largely out of commission for several weeks.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260918-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+          "headlineEn": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The Bank of England kept rates steady Thursday, even after U.K. inflation rose to 3.1% and energy costs put pressure on prices.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The Bank of England kept rates steady Thursday, even after U.K. inflation rose to 3.1% and energy costs put pressure on prices.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-17": {
       "label": "9月17日 (周四)",
       "stories": [
@@ -2383,200 +2457,6 @@
               "mnemonic": "想象一只强壮的手臂（strong arm）直接把对方胳膊拧到背后逼其就范——用来形容财政部硬掰央行政策方向的强硬手段。",
               "exampleEn": "Critics accused the administration of trying to strong-arm the Fed into keeping long-term borrowing costs artificially low.",
               "exampleCn": "批评人士指责政府试图强行施压美联储，人为压低长期借贷成本。"
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-19": {
-      "label": "8月19日 (周三)",
-      "stories": [
-        {
-          "id": "20260819-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-          "headlineEn": "OpenAI Rolls Out New Safeguards Following Hugging Face Security Breach",
-          "headlineCn": "OpenAI在Hugging Face遭安全漏洞后推出新防护措施",
-          "summaryEn": "OpenAI has introduced a new set of internal safeguards after a security breach affecting Hugging Face, the popular platform for hosting and sharing AI models. The updated measures include more granular monitoring of models throughout the development pipeline, letting engineers instrument each stage for suspicious activity. OpenAI is also placing greater emphasis on alignment and security checks during the post-training process, when models are fine-tuned before public release. The move signals growing industry concern that vulnerabilities in shared infrastructure could let malicious actors exfiltrate proprietary model data or tamper with training pipelines.",
-          "summaryCn": "OpenAI在Hugging Face平台发生安全漏洞事件后，宣布升级内部防护体系。新措施包括在模型开发全流程中实施更精细化的监控，让工程师能在每个环节及时发现异常活动；同时在训练后阶段，也就是模型微调、准备发布前的关键环节，进一步强化对齐与安全审查。此举反映出业界对共享基础设施安全隐患的担忧日益加深——一旦被攻破，攻击者可能窃取专有模型数据或篡改训练流程。",
-          "excerpt": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process, OpenAI said, as AI companies race to shore up defenses against increasingly sophisticated attacks on shared model infrastructure.",
-          "vocab": [
-            {
-              "word": "instrument",
-              "pos": "v.",
-              "meaning": "为系统加装监测、记录装置，使其可被观察和追踪；在科技语境中比monitor更强调预先植入观测能力这一动作本身，常用于软件工程和安全领域。",
-              "etymology": "源自拉丁语instrumentum（工具、器具），由动词instruere（装备、建造）演变而来，16世纪后英语中衍生出为…安装监测装置的动词用法。",
-              "morphology": "in-（使…）+ stru（建造，词根同structure, construct）+ -ment（名词后缀，转为动词用法）；同根词：construct, instruct, structure。",
-              "mnemonic": "想象给一台机器（instrument乐器/仪器）装满传感器——instrument作动词就是给系统装上仪表盘，让你能随时读出数据。",
-              "exampleEn": "Engineers instrumented every stage of the training pipeline to flag anomalies in real time.",
-              "exampleCn": "工程师在训练流程的每个环节都加装了监测装置，以便实时标记异常。"
-            },
-            {
-              "word": "exfiltrate",
-              "pos": "v.",
-              "meaning": "黑客秘密窃取并转移数据；比steal更专业，特指网络安全语境下未经授权将数据偷运出系统的行为，常见于数据泄露报道。",
-              "etymology": "源自拉丁语前缀ex-（向外）+ filum（丝线，引申为排成一列），军事术语exfiltrate原指秘密撤出被围困地区的人员，20世纪后被网络安全界借用形容数据外泄。",
-              "morphology": "ex-（出）+ filtrate（过滤、渗出，词根同filter）；同根词：filter, infiltrate（渗透进入），filtration。",
-              "mnemonic": "infiltrate是偷偷潜入，exfiltrate就是反方向——偷偷带出去；把数据想象成被过滤filtrate出系统的液体，只是这次是被恶意抽走。",
-              "exampleEn": "Hackers exfiltrated thousands of proprietary model weights before the breach was detected.",
-              "exampleCn": "在漏洞被发现之前，黑客已经窃取并转移了数千份专有模型权重。"
-            },
-            {
-              "word": "granular",
-              "pos": "adj.",
-              "meaning": "细粒度的、精细化的；在数据和监控语境中，比detailed更强调可拆分到最小单位的分析层级，是科技公司描述权限、监控、计费颗粒度时的高频词。",
-              "etymology": "源自拉丁语granum（谷粒、颗粒），19世纪进入英语描述颗粒状物理特性，20世纪后引申出细致到最小单位的抽象含义，常见于数据分析和IT领域。",
-              "morphology": "gran（颗粒，词根同grain, granite）+ -ular（形容词后缀，表具有…性质的）；同根词：grain, granite, granulate。",
-              "mnemonic": "想象把一整块信息磨成一粒粒沙（grain），granular就是颗粒状的——监控做到granular，就是把系统拆解到最细的沙粒级别去观察。",
-              "exampleEn": "The platform now offers more granular monitoring, tracking each model checkpoint instead of just the final release.",
-              "exampleCn": "该平台现在提供更精细化的监控，追踪每一个模型检查点，而不只是最终发布版本。"
-            },
-            {
-              "word": "beef up",
-              "pos": "phrasal v.",
-              "meaning": "大幅加强、充实（防御、力量、团队等）；比strengthen更口语化、更有画面感，常用于商业和安全报道中形容临时性、力度较大的强化动作。",
-              "etymology": "短语/复合词，无独立词源；20世纪初美式俚语，字面意为给…增添牛肉beef，引申为增添分量、增强实力。",
-              "morphology": "beef（牛肉，引申为实力、分量）+ up（向上、增强方向的小品词）；类似结构短语：bulk up, ramp up, gear up。",
-              "mnemonic": "想象一个瘦弱的保安突然吃了很多牛肉beef变得强壮——beef up就是给…补充牛肉，让防御变得更结实。",
-              "exampleEn": "OpenAI is beefing up its internal review process to catch alignment issues before models ship.",
-              "exampleCn": "OpenAI正在大幅加强内部审查流程，以便在模型发布前发现对齐问题。"
-            },
-            {
-              "word": "overhaul",
-              "pos": "n./v.",
-              "meaning": "全面检修、彻底改革；比update或change程度更深，隐含拆开重新检查每个部件的画面，常用于描述企业对流程、系统或政策的系统性重构。",
-              "etymology": "源自航海术语，17世纪指拉紧、检查船帆索具（haul over），19世纪引申为对机械设备的全面检修，20世纪后广泛用于制度、流程等抽象层面的改革。",
-              "morphology": "over-（全面、彻底）+ haul（拖、拉，词源与haul cargo相关）；同根词：haul, hauler, overhaul（名词/动词同形）。",
-              "mnemonic": "想象把一艘船的所有绳索haul都从头到尾over检查一遍——overhaul就是从头到尾彻底检修，不放过任何一个环节。",
-              "exampleEn": "The security breach triggered a full overhaul of how AI labs vet third-party hosting platforms.",
-              "exampleCn": "这次安全漏洞事件引发了AI实验室对第三方托管平台审查方式的全面改革。"
-            }
-          ]
-        },
-        {
-          "id": "20260819-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/18/sea-ray-parent-brunswick-ai-recurring-revenue-boat-sales.html",
-          "headlineEn": "Brunswick Turns to AI Navigation and New Revenue Streams as Boat Sales Stall",
-          "headlineCn": "布伦瑞克押注AI导航与新收入来源，应对游艇销量疲软",
-          "summaryEn": "Brunswick Corp., the parent of Sea Ray and Boston Whaler, is leaning on artificial-intelligence navigation systems and fresh revenue streams to offset a stall in overall boat sales. CEO David Foulkes told CNBC that premium models are still finding buyers, even as cheaper, value-oriented boats struggle to move off dealer lots. The divergence highlights how affluent buyers keep spending while budget-conscious households pull back, pushing Brunswick to lean on tech-driven services rather than unit volume for future growth.",
-          "summaryCn": "游艇制造商布伦瑞克（Sea Ray、Boston Whaler母公司）CEO戴维·福克斯在CNBC表示，高端游艇销售依然稳健，但面向大众市场的入门级产品明显疲软。为应对这种消费分化，公司正押注AI导航系统等新技术，并开发新的收入来源，试图减少对传统整船销量的依赖，寻找新的增长引擎。",
-          "excerpt": "Brunswick Corp. CEO David Foulkes told CNBC that premium boat sales are staying resilient even as budget models struggle to find buyers. The Sea Ray and Boston Whaler parent is now counting on AI-powered navigation tools and new revenue streams to keep growth afloat despite a broader slowdown in unit sales.",
-          "vocab": [
-            {
-              "word": "stay afloat",
-              "pos": "phrase",
-              "meaning": "字面指船只漂浮不沉，引申为企业或财务状况勉强维持、不倒闭，用在游艇公司的报道里是双关表达，比 survive 更形象、更能体现挣扎维持的动态感。",
-              "etymology": "源自古英语 flotian（漂浮）演变而来的 float，加上前缀 a-（表示状态），afloat 最初指船只浮于水面，17世纪起延伸出财务上未沉没的比喻义。",
-              "morphology": "a-（表示处于某状态，如 asleep, awake）+ float（漂浮）。同源词：float, floating rate, flotilla。",
-              "mnemonic": "想象一艘船在风浪中拼命不下沉——afloat 就是那种勉强漂着没沉的画面，用在公司身上就是账面没崩、还在硬撑。",
-              "exampleEn": "Even as unit sales stall, Brunswick is counting on service revenue to keep its boat division afloat.",
-              "exampleCn": "尽管整船销量停滞，布伦瑞克仍希望靠服务收入让游艇业务维持运转。"
-            },
-            {
-              "word": "big-ticket",
-              "pos": "adj.",
-              "meaning": "指单价高、金额大的商品或支出，如游艇、汽车、房产，常用于描述大宗消费品，比 expensive 更专业，隐含消费者需要犹豫权衡或贷款的语感。",
-              "etymology": "20世纪美式英语俚语，字面指大额账单或票据（big + ticket），二战后消费经济兴起后被广泛用作零售业术语。",
-              "morphology": "big（大）+ ticket（票、价签，源自古法语 estiquette，意为小标签）。同源短语：price tag, sticker price。",
-              "mnemonic": "想象商场里挂着一个巨大的价格标签，大到需要两个人才能抬起——那就是 big-ticket item，买的时候要下狠心。",
-              "exampleEn": "Big-ticket purchases like yachts are often the first to slow when consumers grow cautious.",
-              "exampleCn": "游艇这类大宗消费品，往往是消费者转向谨慎时最先放缓购买的。"
-            },
-            {
-              "word": "trade down",
-              "pos": "phrasal v.",
-              "meaning": "指消费者从高价、高端选项转向更便宜的替代品，是零售与消费行业分析中的核心术语，比 downgrade 更贴近消费者主动省钱的行为描述，常与 trade up 相对。",
-              "etymology": "短语动词，无独立词源。19世纪商业英语中 trade 已有交换、买卖之意，up/down 表示价格档次的方向变化。",
-              "morphology": "trade（交易，源自中古低地德语 trade，意为足迹、路径）+ down（方位副词）。反义短语：trade up。",
-              "mnemonic": "想象顾客走进商店，本想买贵的款式，最后默默把手伸向货架下层更便宜的那一款——这就是 trade down 的画面。",
-              "exampleEn": "As budgets tighten, more buyers are trading down from luxury yachts to smaller, cheaper boats.",
-              "exampleCn": "随着预算收紧，越来越多买家从豪华游艇转向更小、更便宜的船只。"
-            },
-            {
-              "word": "cyclical",
-              "pos": "adj.",
-              "meaning": "指行业或需求随经济周期起伏波动，与防御性行业相对，是分析船只、汽车等消费类硬件时常用的行业分类词，比 unstable 更精确地指出波动是周期性、可预测的。",
-              "etymology": "源自希腊语 kyklos（圆、循环），经拉丁语 cyclus 进入英语，19世纪起被用于描述经济学中的周期性现象。",
-              "morphology": "cycl（圆，词根 kyklos）+ -ic（形容词后缀）+ -al（再加强形容词性）。同根词：cycle, bicycle, recycle。",
-              "mnemonic": "想象经济像自行车轮一样不停转动，涨了会跌、跌了会涨——cyclical 行业就是坐在这个轮子上的行业，比如游艇制造业。",
-              "exampleEn": "Boatbuilding is a highly cyclical business, booming when consumer confidence is high and slumping when it fades.",
-              "exampleCn": "造船业是高度周期性的行业，消费者信心高涨时繁荣，信心消退时便陷入低迷。"
-            },
-            {
-              "word": "retrofit",
-              "pos": "v.",
-              "meaning": "指给已有产品或设备加装新技术或部件，而非从头设计，常用于科技升级旧硬件的语境，比 upgrade 更强调事后改装、非原生设计的技术含义。",
-              "etymology": "20世纪中期美式英语造词，由拉丁语前缀 retro-（向后、回溯）与 fit（安装、使合适）拼接而成，最初用于航空航天和军事装备的技术改造。",
-              "morphology": "retro-（向后、回溯，如 retroactive, retrospect）+ fit（安装、配备）。同前缀词：retrograde, retrospective。",
-              "mnemonic": "把 retro（复古）和 fit（装配）连起来想象——给一艘老式游艇回头装上崭新的AI导航系统，就像给复古外壳塞进未来的大脑。",
-              "exampleEn": "Brunswick plans to retrofit existing boats with AI navigation systems to create new subscription revenue.",
-              "exampleCn": "布伦瑞克计划为现有船只加装AI导航系统，以创造新的订阅收入。"
-            }
-          ]
-        },
-        {
-          "id": "20260819-3",
-          "category": "econ",
-          "sourceName": "BBC Business",
-          "sourceUrl": "https://www.bbc.co.uk/news/articles/c1k1x1zdywdo?at_medium=RSS&at_campaign=rss",
-          "headlineEn": "Global Borrowing Costs Hit Fresh Highs on Oil, AI and Inflation",
-          "headlineCn": "全球借贷成本因油价、AI与通胀飙升至新高",
-          "summaryEn": "Yields on long-term government bonds in the US, UK, Germany and Japan have surged to levels not seen in years, pushing up the cost of borrowing worldwide. Investors point to a mix of rising oil prices, heavy government spending tied to the AI boom, and persistently high inflation as the main drivers. Because these bond yields serve as a benchmark for everything from mortgages to corporate loans, the increase matters far beyond financial markets — it raises costs for governments, businesses and households alike, and could slow economic growth if it persists.",
-          "summaryCn": "美国、英国、德国和日本的长期国债收益率大幅攀升，达到多年来的高位，推高了全球借贷成本。分析师认为，油价上涨、与AI热潮相关的巨额财政支出，以及居高不下的通胀是主要推手。由于这些国债收益率是房贷、企业贷款等众多利率的基准，其上升的影响远超金融市场本身，将加重政府、企业和家庭的负担，若持续下去甚至可能拖累经济增长。",
-          "excerpt": "Interest rates on long-term government debt in the US, UK, Germany and Japan have soared to fresh highs, as investors demand higher returns amid surging oil prices, AI-driven spending, and stubborn inflation — a shift that is quietly raising the cost of money across the global economy.",
-          "vocab": [
-            {
-              "word": "gilt",
-              "pos": "n.",
-              "meaning": "英国政府发行的国债的俗称（类似美国的treasury），因早期债券证书边缘镀金而得名；在英国财经报道中几乎是《government bond》的默认说法，比直译更地道。",
-              "etymology": "源自古英语gyldan（意为镀金），与gold同源；19世纪起，英国政府债券证书边缘常有金色装饰，因此被称为gilt-edged securities，后简称gilts。",
-              "morphology": "gilt本身是gild（镀金）的过去分词形式，词根与gold相通；同源词包括gilded（镀金的，如gilded age）、gild the lily（画蛇添足）。",
-              "mnemonic": "想象一张边缘镀了金边的债券证书——gilt听起来像guilt，但意思完全不同：一个是《金边债券》，一个是《负罪感》，别搞混了。",
-              "exampleEn": "Gilt yields jumped to their highest level since the 1990s after the inflation data came in hotter than expected.",
-              "exampleCn": "通胀数据高于预期后，英国国债收益率跳升至上世纪90年代以来的最高水平。"
-            },
-            {
-              "word": "crowd out",
-              "pos": "phrasal v.",
-              "meaning": "（政府大量举债）挤占民间资本/投资空间，使私人部门难以获得资金；是宏观经济学描述财政赤字副作用的核心隐喻，比《reduce》或《limit》更精准地传达出挤压排挤的画面感。",
-              "etymology": "短语/复合词，无独立词源；crowd来自古英语crudan（推挤），out表方向，组合后字面即《挤出去》。",
-              "morphology": "crowd（推挤，名词/动词）+ out（方位副词）；同类结构的短语动词还有push out、squeeze out、edge out，都带有以力排他的意味。",
-              "mnemonic": "想象一间挤满人的电梯——政府这个大块头一进来占用大量空间（资金），普通乘客（私营企业）就被挤出了门外，借不到钱。",
-              "exampleEn": "Economists warn that heavy government borrowing could crowd out private investment just as companies ramp up AI spending.",
-              "exampleCn": "经济学家警告称，政府大规模举债可能会挤占民间投资，而此时企业正在加大AI支出。"
-            },
-            {
-              "word": "rout",
-              "pos": "n. / v.",
-              "meaning": "（市场的）溃败、暴跌，通常指价格在短时间内急剧下挫、卖盘失控的局面；比《decline》或《drop》更强调兵败如山倒的混乱与恐慌感，常用于形容债券、股票市场的剧烈抛售。",
-              "etymology": "源自古法语route（溃败的军队），可追溯至拉丁语rupta（断裂的、被打散的），原指军队溃散逃跑，19世纪起被借用到金融语境形容市场崩溃。",
-              "morphology": "不可再拆解的简单词；常见搭配为bond rout（债市溃败）、market rout（市场暴跌），动词用法如bonds were routed。",
-              "mnemonic": "联想route（路线）加一个字母变成rout（溃败）——一支军队本该沿着route前进，结果却被打得四散奔逃，成了rout；债市溃败时投资者也是四散逃离。",
-              "exampleEn": "The bond rout deepened this week as yields on 30-year debt touched levels not seen in over a decade.",
-              "exampleCn": "本周债市溃败加剧，30年期国债收益率触及十多年来的最高水平。"
-            },
-            {
-              "word": "stagflation",
-              "pos": "n.",
-              "meaning": "滞胀，即经济停滞（低增长）与高通胀同时出现的罕见组合；对当前油价、通胀与利率交织的叙事而言是关键概念，能解释央行为何陷入两难——加息抗通胀会进一步拖累本已疲软的增长。",
-              "etymology": "20世纪60年代英国经济学家创造的合成词，由stagnation（停滞，源自拉丁语stagnum，死水）与inflation（通胀，源自拉丁语inflare，吹胀）拼接而成。",
-              "morphology": "stag(nation) + (in)flation的截拼词（blend/portmanteau）；类似构词法的词还有brunch（breakfast+lunch）、smog（smoke+fog）。",
-              "mnemonic": "把经济想象成一潭死水（stag，联想stagnant water）却同时在充气膨胀（flation，联想inflate a balloon）——一边死气沉沉，一边物价却在膨胀，两种矛盾状态同时发生。",
-              "exampleEn": "Rising oil prices combined with sluggish growth have revived fears of stagflation across major economies.",
-              "exampleCn": "油价上涨叠加经济增长乏力，令主要经济体重新担忧滞胀风险。"
-            },
-            {
-              "word": "debt-servicing",
-              "pos": "n. / adj.",
-              "meaning": "偿债（支付利息和本金）的行为或成本；debt-servicing costs是财经报道中描述政府或企业为偿还债务利息所需支出的固定搭配，比简单说paying debt更专业、更常出现在财政新闻中。",
-              "etymology": "service源自拉丁语servitium（奴役、服务），中世纪起引申出维护、履行义务之意；20世纪金融语境中，service a debt演变为按期支付利息本金的固定用法。",
-              "morphology": "debt（债务，源自拉丁debitum）+ servicing（service的动名词形式，维护/履行）；同类搭配有service a loan、service charge、self-service。",
-              "mnemonic": "把service想成给债务做保养——就像车要定期保养（service the car）才能继续跑，债务也要定期service（付息还本）才不会违约抛锚。",
-              "exampleEn": "As yields climb, governments face sharply higher debt-servicing costs just to keep existing bonds afloat.",
-              "exampleCn": "随着收益率攀升，各国政府仅维持现有债券运转，就要面对大幅上升的偿债成本。"
             }
           ]
         }
