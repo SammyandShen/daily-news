@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-18T23:00:17.412618+00:00",
+  "lastUpdated": "2026-09-19T23:01:20.108146+00:00",
   "level": "B2",
   "days": {
+    "2026-09-20": {
+      "label": "9月20日 (周日)",
+      "stories": [
+        {
+          "id": "20260920-1",
+          "category": "tech",
+          "sourceName": "The Verge",
+          "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "headlineEn": "Gemini went rogue, hacked three companies, and Google hid it",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't [&#8230;]",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in sim",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260920-2",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/like-costco-walmart-to-sell-medicare-advantage-plans-b31977d2?mod=mw_rss_topstories",
+          "headlineEn": "Like Costco, Walmart will sell Medicare Advantage plans",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Walmart will sell Medicare Advantage plans as part of a new partnership with a nonprofit health insurer.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Walmart will sell Medicare Advantage plans as part of a new partnership with a nonprofit health insurer.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260920-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+          "headlineEn": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The chairman both explained this week's decision to raise interest rates, and raised vexing questions about what comes next",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The chairman both explained this week's decision to raise interest rates, and raised vexing questions about what comes next",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-19": {
       "label": "9月19日 (周六)",
       "stories": [
@@ -2143,200 +2217,6 @@
               "etymology": "",
               "morphology": "",
               "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-21": {
-      "label": "8月21日 (周五)",
-      "stories": [
-        {
-          "id": "20260821-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
-          "headlineEn": "OpenAI Narrows the Gap on Anthropic Among Business Users",
-          "headlineCn": "OpenAI在企业用户争夺战中逼近Anthropic",
-          "summaryEn": "New data shows OpenAI closing the gap on Anthropic in the enterprise market, as businesses readily switch AI vendors whenever a rival lab ships a stronger model. This constant vacillation between providers suggests that loyalty in the enterprise AI space is shallow, with few switching costs holding customers in place. For investors in both companies, the pattern raises a pointed question: is enterprise AI spending actually durable, or does it simply flow toward whichever model currently performs best?",
-          "summaryCn": "最新数据显示，OpenAI正在企业市场上逐步逼近Anthropic：企业客户往往在竞争对手发布更强模型后迅速更换供应商。这种反复摇摆的现象说明，企业对AI服务的忠诚度相当脆弱。对两家公司的投资者而言，这提出了一个尖锐问题——企业AI支出究竟稳固，还是只流向当下表现最好的模型？",
-          "excerpt": "Businesses seem happy to switch back and forth between AI labs every time a new model lands — a volatility pattern that should make investors in both companies wonder just how durable enterprise AI spending really is.",
-          "vocab": [
-            {
-              "word": "churn",
-              "pos": "n. / v.",
-              "meaning": "客户流失率（也指剧烈搅动）；商业语境中常指用户或客户不断流失并被新客户替代的现象，比单纯的流失更强调进进出出的动态感和不稳定性。",
-              "etymology": "源自古英语cyrin（搅乳器，用于搅拌牛奶制黄油）；19世纪引申出剧烈搅动、翻腾之意，20世纪后期被商业界借用形容客户或员工的高流动性。",
-              "morphology": "单一音节词，不可再拆分为词根词缀；常见搭配：customer churn（客户流失）、churn rate（流失率）、churn out（源源不断地生产出）。",
-              "mnemonic": "想象一个老式黄油搅拌桶（churn），奶油在里面不停搅动、进进出出——客户在企业间也这样搅动式地来来去去，用完就走。",
-              "exampleEn": "High churn among enterprise clients suggests that model quality alone isn't enough to keep them loyal.",
-              "exampleCn": "企业客户的高流失率表明，仅靠模型质量本身并不足以留住他们。"
-            },
-            {
-              "word": "fickle",
-              "pos": "adj.",
-              "meaning": "善变的、朝三暮四的；用来形容客户或市场情绪不稳定、缺乏忠诚度，比changeable更带感情色彩，隐含轻微贬义。",
-              "etymology": "源自古英语ficol（狡诈的、欺骗性的），与之同源的还有已废弃的动词ficlen；中古英语后词义弱化为善变、易变心。",
-              "morphology": "fick + le（形容词后缀，常见于表性质的词，如brittle, fragile）；可加-ness构成fickleness（善变、反复无常）。",
-              "mnemonic": "联想fickle与flicker（闪烁）发音相近——像烛光一样忽明忽暗、飘忽不定，正如善变客户的忠诚度时有时无。",
-              "exampleEn": "Enterprise buyers have proven fickle, switching AI vendors the moment a rival releases a stronger model.",
-              "exampleCn": "企业买家已被证明相当善变，一旦竞争对手发布更强模型就会更换AI供应商。"
-            },
-            {
-              "word": "leapfrog",
-              "pos": "v.",
-              "meaning": "跳跃式超越、后来居上；比overtake更形象，暗含一次性跨越对手取得领先的动态画面感，常用于科技竞争语境。",
-              "etymology": "源自儿童游戏跳背（leap + frog），玩家像青蛙一样跳过弯腰的同伴；19世纪起被引申用于描述企业或国家跳过中间阶段实现赶超。",
-              "morphology": "leap（跳跃，古英语hlēapan）+ frog（青蛙）；常见搭配leapfrog over、technological leapfrogging（技术跨越式发展）。",
-              "mnemonic": "脑补孩子们玩跳背游戏，一个接一个跳过前面弯腰的人——OpenAI就像这样一跃跳过Anthropic，抢占领先位置。",
-              "exampleEn": "OpenAI appears to be leapfrogging Anthropic in enterprise adoption every time it ships a new model.",
-              "exampleCn": "每次发布新模型，OpenAI似乎都在企业采用率上反超Anthropic。"
-            },
-            {
-              "word": "lock-in",
-              "pos": "n. / phrase",
-              "meaning": "供应商锁定效应，指客户因转换成本过高而被迫留在原供应商体系内；这则新闻恰好呈现其反面——缺乏lock-in导致客户轻易跳槽。",
-              "etymology": "短语/复合词，由动词短语lock in（锁住、固定）名词化而来；20世纪后期金融与科技行业开始用它描述客户被合同、数据或技术依赖捆绑的状态。",
-              "morphology": "lock（锁，古英语loc）+ in（介词）；相关表达vendor lock-in（供应商锁定）、lock in a rate（锁定利率）、lock-in period（锁定期）。",
-              "mnemonic": "想象客户被一把无形的锁锁在某家供应商门内，想换门却打不开——而这篇新闻说的正是这把锁在AI行业还没锁紧，客户能自由进出。",
-              "exampleEn": "The lack of lock-in in enterprise AI means customers can chase whichever lab ships the best model this quarter.",
-              "exampleCn": "企业AI领域缺乏锁定效应，意味着客户可以随时追逐本季度发布最佳模型的实验室。"
-            },
-            {
-              "word": "vacillate",
-              "pos": "v.",
-              "meaning": "犹豫不定、摇摆不定；比flop back and forth更正式书面，常用于描述决策者或市场在两个选项间反复摇摆，暗含缺乏坚定立场。",
-              "etymology": "源自拉丁语vacillare（摇晃、摇摆不定），本义指身体physically摇晃；16世纪进入英语后逐渐专指心理或决策上的摇摆不定。",
-              "morphology": "vacill（摇摆词根，与vacillare同源）+ -ate（动词后缀）；名词形式vacillation（摇摆不定），形容词vacillating。",
-              "mnemonic": "联想vacillate开头的vac像vacuum（真空）——决策者的立场像真空中的物体一样飘忽不定，找不到固定支点。",
-              "exampleEn": "Investors are growing wary as enterprise clients vacillate between AI labs with every new model release.",
-              "exampleCn": "随着企业客户在每次新模型发布后都在不同AI实验室之间摇摆不定，投资者也愈发担忧。"
-            }
-          ]
-        },
-        {
-          "id": "20260821-2",
-          "category": "biz",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/",
-          "headlineEn": "Hypersonic Missile Startup Castelion Valued at $13 Billion",
-          "headlineCn": "高超音速导弹初创企业Castelion估值130亿美元",
-          "summaryEn": "Castelion, a startup founded in 2022 to build hypersonic weapons, has reached a $13 billion valuation. The company aims to mass-produce missiles that fly faster than Mach 5, undercutting the cost and timelines of traditional defense primes like Lockheed Martin and Raytheon. Its pitch echoes SpaceX's playbook: treat weapons as software-driven, iteratively manufactured hardware rather than one-off engineering projects. The surge in valuation signals investor appetite for defense-tech upstarts as governments race to close a hypersonic capability gap with rivals such as China and Russia.",
-          "summaryCn": "初创公司Castelion成立于2022年，估值已达130亿美元，目标是以更低成本、更快速度量产高超音速导弹，对标传统防务巨头。其硅谷式《软件驱动硬件》理念延续了迭代制造思路，估值飙升折射出投资者对国防科技新贵的热情升温。",
-          "excerpt": "Castelion, founded in 2022, wants to mass-produce hypersonic missiles faster and cheaper than legacy defense contractors. The startup's new $13 billion valuation underscores how investors are betting on nimble, software-driven weapons manufacturers to outpace traditional primes in the race for hypersonic capability.",
-          "vocab": [
-            {
-              "word": "prime",
-              "pos": "n.",
-              "meaning": "指《防务主承包商》（prime contractor的简称），是国防工业黑话，比明说full name更地道，常见于商业/科技报道中区分老牌承包商与新兴初创公司。",
-              "etymology": "源自拉丁语primus（第一、首要），15世纪进入英语表示《首要的》，20世纪后期在美国国防合同语境中演变为《主承包商》的行话简称。",
-              "morphology": "prim(第一) + e；同根词：primary（首要的）、primitive（原始的）、premier（第一流的），均围绕《第一、首位》的核心义。",
-              "mnemonic": "想象一家公司站在合同链的最前排（prime position），把活儿分包给别人——它就是那个《排第一》的甲方，也就是defense prime。",
-              "exampleEn": "Unlike traditional defense primes, Castelion wants to build and test hardware at Silicon Valley speed.",
-              "exampleCn": "与传统防务承包商不同，Castelion希望以硅谷式的速度制造和测试硬件。"
-            },
-            {
-              "word": "valuation",
-              "pos": "n.",
-              "meaning": "公司估值，是创投/财经报道核心词，强调《市场对公司价值的评估结果》而非实际营收或利润，常与融资轮次搭配使用。",
-              "etymology": "源自拉丁语valere（有价值、强壮），经古法语valuer传入英语，14世纪起表示《评定价值》，19世纪后广泛用于商业估价语境。",
-              "morphology": "valu(e，价值) + ation（名词后缀，表动作或结果）；同源词：value（价值）、valid（有效的）、prevail（占优势）。",
-              "mnemonic": "把valuation拆成value + -ation，联想给公司《贴价值标签》的过程——一场对外宣布《这家公司值多少钱》的仪式。",
-              "exampleEn": "The startup's valuation tripled after a single funding round led by top venture firms.",
-              "exampleCn": "在顶级风投机构领投的一轮融资后，这家初创公司的估值翻了三倍。"
-            },
-            {
-              "word": "upstart",
-              "pos": "n./adj.",
-              "meaning": "指《突然崛起的新贵/后起之秀》，带有一点冒犯建制派的意味，比startup更强调《挑战老牌玩家》的姿态，商业报道中常用来描述闯入传统行业的新公司。",
-              "etymology": "15世纪英语复合词，由up（向上）+ start（突然出现、跳起）构成，字面意为《突然冒出来的人》，原带贬义，指骤然发迹、地位不相称者。",
-              "morphology": "up（向上）+ start（起始、跳动）；可比较词：outstart（罕见）、jump-start（快速启动）、kick-start（启动）。",
-              "mnemonic": "想象一个人猛地（start，跳）从人群里冒出来（up），一下子站到聚光灯下——这就是行业里那个谁也没料到的upstart。",
-              "exampleEn": "Defense upstarts like Castelion are betting that speed can beat decades of institutional experience.",
-              "exampleCn": "像Castelion这样的国防新贵押注速度能够胜过几十年的体制化经验。"
-            },
-            {
-              "word": "incumbent",
-              "pos": "n./adj.",
-              "meaning": "指《在位者、现任占据者》，商业语境中常指行业里已占据市场地位的老牌企业，与upstart形成对照，是分析行业竞争格局的高频词。",
-              "etymology": "源自拉丁语incumbere（倚靠、压在……上），字面意为《躺卧其上》，17世纪进入英语，最初指占据某职位或土地的人，后延伸至商业领域的《在位企业》。",
-              "morphology": "in（在……上）+ cumb（躺、倚，来自拉丁cumbere）+ ent（形容词/名词后缀）；同根词：incubate（孵化，字面《躺在上面》）、succumb（屈服，字面《躺倒》）。",
-              "mnemonic": "想象一位在位者稳稳《压在》王座上（in + cumb躺），懒得挪动——这正是incumbent面对新贵挑战时的姿态。",
-              "exampleEn": "Big incumbents in the defense sector are watching nimble rivals like Castelion closely.",
-              "exampleCn": "国防领域的行业巨头正密切关注着Castelion这类灵活的竞争对手。"
-            },
-            {
-              "word": "mass-produce",
-              "pos": "v.",
-              "meaning": "指《批量生产、量产》，强调用标准化流程大规模制造，而非单件定制，是这条新闻的核心动词，也是制造业/科技报道的高频搭配。",
-              "etymology": "复合词，由mass（大量、群体，源自拉丁massa《一团、块》）与produce（生产，源自拉丁producere《引出、生产》）组合，20世纪工业化时代随流水线生产方式而流行。",
-              "morphology": "mass（大量）+ produce（生产）；同族表达：mass production（名词形式，批量生产）、mass market（大众市场）、reproduce（再生产）。",
-              "mnemonic": "想象一条流水线（mass，成堆的原料）不断《生出》(produce)一模一样的产品——这就是mass-produce的画面感。",
-              "exampleEn": "The company hopes to mass-produce hypersonic missiles the way factories churn out cars.",
-              "exampleCn": "该公司希望能像工厂批量造车一样，实现高超音速导弹的量产。"
-            }
-          ]
-        },
-        {
-          "id": "20260821-3",
-          "category": "econ",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/d3fbfcb7-ce89-4b46-8267-c2fed9c67134?syn-25a6b1a6=1",
-          "headlineEn": "Quant Funds Rocked as Treasury Boosts Bond Buybacks and Moderna Shares Leap",
-          "headlineCn": "国债回购超预期叠加莫德纳暴涨，量化基金遭重创",
-          "summaryEn": "A chaotic trading session shook quantitative hedge funds on Wednesday, as the U.S. Treasury unexpectedly expanded its debt buyback programme and Moderna's shares surged after encouraging clinical results. The moves triggered a scramble to unwind popular momentum-driven strategies that were already fragile following a recent AI stock sell-off. Because many quant funds hold similar, highly correlated positions, a shakeout in one crowded trade can quickly spread across the market, forcing rapid selling and amplifying volatility even when the underlying news has little direct connection to their models.",
-          "summaryCn": "周三交易异常动荡：美国财政部意外扩大国债回购，叠加莫德纳因临床数据向好股价大涨，共同冲击量化对冲基金。量化策略高度依赖动量交易且持仓相互关联，一旦平仓，便会在市场迅速蔓延、加剧波动，暴露出此类策略在近期AI股票抛售后的脆弱性。",
-          "excerpt": "It was a tumultuous session for markets, adding fresh pressure on momentum trades already unsettled since the AI-related stock sell-off. Quant funds scrambled to unwind crowded positions as a Treasury buyback surprise and a sharp jump in Moderna shares combined to rattle correlated strategies across Wall Street.",
-          "vocab": [
-            {
-              "word": "quant",
-              "pos": "n.",
-              "meaning": "量化交易员/量化基金的简称，源自 quantitative，财经新闻中高频使用，比完整说 quantitative analyst 更口语化、更具行业内部人语气",
-              "etymology": "源自拉丁语 quantus（多少、数量），经 quantity / quantitative 派生，20世纪末华尔街俚语将 quantitative analyst 缩略为 quant",
-              "morphology": "quant- 词根表示数量；同根词 quantity（数量）、quantify（量化）、quantitative（量化的）、quantum（量子，物理学借用同一词根）",
-              "mnemonic": "把 quant 想象成一个只盯着数字、不看新闻标题的数字怪人——这正是 quant funds 依赖模型交易，遇到突发消息（如本文的国债回购）容易措手不及的原因",
-              "exampleEn": "Many quants had bet on the same momentum signals, so when the trend reversed, their positions all unwound at once.",
-              "exampleCn": "许多量化交易员押注了相同的动量信号，因此趋势逆转时，他们的持仓同时被平掉。"
-            },
-            {
-              "word": "crowded trade",
-              "pos": "phrase",
-              "meaning": "拥挤交易，指大量投资者尤其是量化基金同时持有相似仓位；比 popular trade 更精准地传达出一旦反转就会互相踩踏平仓的风险含义",
-              "etymology": "短语，由 crowd（人群，古英语 crudan，意为挤、推）+ trade 组合而成，无独立词源，19世纪英语中 crowd 已引申为拥挤、聚集之意",
-              "morphology": "crowd（名词/动词，拥挤）+ ed（形容词化后缀）+ trade；同源词 crowdfunding（众筹）、overcrowded（过度拥挤的）",
-              "mnemonic": "想象地铁高峰期挤满同一节车厢的人——一旦有人推挤（市场逆转），所有人都会同时摔倒，这正是 crowded trade 平仓踩踏的画面",
-              "exampleEn": "Analysts warned that the momentum strategy had become a crowded trade, leaving it vulnerable to a sudden reversal.",
-              "exampleCn": "分析师警告称，这种动量策略已成为一笔拥挤交易，一旦逆转将非常脆弱。"
-            },
-            {
-              "word": "unwind",
-              "pos": "v. / phrasal v.",
-              "meaning": "（交易语境）平仓、解除头寸；比 sell 更强调逐步拆解一个复杂持仓结构的过程，是量化和衍生品报道中的标准用词",
-              "etymology": "古英语 un-（表示相反动作）+ windan（缠绕、卷）；本义为解开缠绕之物，17世纪后引申出逐步解除合约或头寸的金融义",
-              "morphology": "un-（否定/逆转前缀）+ wind（缠绕）；同前缀词 undo（撤销）、unravel（解开）、unfold（展开）",
-              "mnemonic": "想象一团缠紧的毛线球（wind），unwind 就是把它一圈圈解开——量化基金平仓时也是把复杂组合头寸一点点拆解掉",
-              "exampleEn": "As volatility spiked, several funds rushed to unwind their leveraged bets before the market closed.",
-              "exampleCn": "随着波动率飙升，几家基金在收盘前匆忙平掉了杠杆头寸。"
-            },
-            {
-              "word": "tumultuous",
-              "pos": "adj.",
-              "meaning": "动荡的、骚乱的；比 volatile 多一层喧闹、混乱、几乎失控的情绪色彩，常用来形容单个交易日或事件的剧烈程度",
-              "etymology": "源自拉丁语 tumultus（骚动、喧哗），经古法语 tumultueux 进入英语，14世纪起用于描述人群或局势的混乱骚动",
-              "morphology": "tumult（名词，骚动）+ -uous（形容词后缀，表示充满……性质的）；同根词 tumult（骚乱）、tumultuously（副词形式）",
-              "mnemonic": "联想图木楼塌了（tu-mul-tuous）的画面——一栋楼突然倒塌引发的混乱场面，正是 tumultuous 想传达的失控感",
-              "exampleEn": "It was a tumultuous week for tech stocks, with sharp swings following every earnings report.",
-              "exampleCn": "对科技股来说，这是动荡的一周，每份财报后股价都剧烈波动。"
-            },
-            {
-              "word": "shakeout",
-              "pos": "n.",
-              "meaning": "（行业或市场的）剧烈洗牌、淘汰；常指弱势参与者被迫退出或平仓的过程，比 correction 更强调筛选、淘汰的动作感",
-              "etymology": "短语动词 shake out（抖掉、摇出）在20世纪初被名词化，最初指工厂抖落多余谷物的动作，后借喻商业和金融领域的淘汰过程",
-              "morphology": "shake（摇动）+ out（向外，完成义副词）；同类构词 breakout（突破）、fallout（后果）、washout（彻底失败）",
-              "mnemonic": "想象筛谷子时用力摇晃筛子把杂质甩出去——市场 shakeout 也是把脆弱的仓位和玩家甩出局",
-              "exampleEn": "The sudden shift in momentum trades triggered a shakeout among quant funds that relied on similar models.",
-              "exampleCn": "动量交易的突然转向引发了一场对依赖相似模型的量化基金的洗牌。"
             }
           ]
         }
