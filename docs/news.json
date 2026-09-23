@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-21T23:00:15.109920+00:00",
+  "lastUpdated": "2026-09-23T01:15:37.250244+00:00",
   "level": "B2",
   "days": {
+    "2026-09-23": {
+      "label": "9月23日 (周三)",
+      "stories": [
+        {
+          "id": "20260923-1",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+          "headlineEn": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The frontier AI model race has entered its comparison shopping phase.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The frontier AI model race has entered its comparison shopping phase.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260923-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/22/aurora-autonomous-semi-ride.html",
+          "headlineEn": "Autonomous trucking company Aurora looks to accelerate toward profitability",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Aurora's founder and CEO told CNBC the company is targeting positive free cash flow by 2028, driven by a substantial increase in the number autonomous trucks.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Aurora's founder and CEO told CNBC the company is targeting positive free cash flow by 2028, driven by a substantial increase in the number autonomous trucks.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260923-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/21/trump-xi-china-summit-trade-tariffs.html",
+          "headlineEn": "Trump, Xi seek trade stability and deals, but AI, tariffs and Iran loom large. What to watch",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Trump, facing low approval on the economy ahead of the midterm election, has an added incentive to emerge from the summit with China's Xi touting trade wins.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Trump, facing low approval on the economy ahead of the midterm election, has an added incentive to emerge from the summit with China's Xi touting trade wins.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-22": {
       "label": "9月22日 (周二)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "Cramer said investors should watch long-term Treasury yields, which have surged amid inflation concerns, government borrowing and AI-related corporate debt issuances.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "Cramer said investors should watch long-term Treasury yields, which have surged amid inflation concerns, government borrowing and AI-related corporate debt issuances.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-24": {
-      "label": "8月24日 (周一)",
-      "stories": [
-        {
-          "id": "20260824-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html",
-          "headlineEn": "Nvidia customers reportedly warned about AI-related price hikes",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The chipmaker has told some of its largest customers that the prices of servers containing its AI chips could move more than 15% higher, Bloomberg News reported.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260824-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
-          "headlineEn": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260824-3",
-          "category": "econ",
-          "sourceName": "Financial Times",
-          "sourceUrl": "https://www.ft.com/content/40ae9cd3-fbc8-4a55-adaa-c24bc80481c9?syn-25a6b1a6=1",
-          "headlineEn": "Warsh seeks to soothe investors’ nerves as signs of economic strain mount",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Economists criticise Fed chair’s communication strategy as policymakers prepare to gather at Jackson Hole symposium",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Economists criticise Fed chair’s communication strategy as policymakers prepare to gather at Jackson Hole symposium",
           "vocab": [
             {
               "word": "（自动生成失败）",
