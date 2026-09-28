@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-27T23:05:20.577728+00:00",
+  "lastUpdated": "2026-09-28T23:00:18.491022+00:00",
   "level": "B2",
   "days": {
+    "2026-09-29": {
+      "label": "9月29日 (周二)",
+      "stories": [
+        {
+          "id": "20260929-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/09/28/warren-senate-ai-subsidies-meta-google-amazon-microsoft.html",
+          "headlineEn": "Meta, Google, Amazon, Microsoft draw Sen. Warren questions about AI tax subsidies",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Sen. Elizabeth Warren is asking the leaders of Meta, Google, Amazon and Microsoft about AI and data center subsidies authorized by GOP legislation.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Sen. Elizabeth Warren is asking the leaders of Meta, Google, Amazon and Microsoft about AI and data center subsidies authorized by GOP legislation.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260929-2",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/before-you-invest-in-the-oura-ipo-understand-what-youre-buying-1d88d868?mod=mw_rss_topstories",
+          "headlineEn": "Before you invest in the Oura IPO, understand what you’re buying",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The health-data company could see a pop in its stock price, but there are plenty of warning signs",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The health-data company could see a pop in its stock price, but there are plenty of warning signs",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20260929-3",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/d751ad99-531d-4990-9a4c-ee89a9fc1b2d?syn-25a6b1a6=1",
+          "headlineEn": "Bond sell-off deepens and oil rises as Iran-US deal hopes fade",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Brent crude jumps and 10-year Treasury yield surpasses 5.2% as hopes for US-Iran agreement fade",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Brent crude jumps and 10-year Treasury yield surpasses 5.2% as hopes for US-Iran agreement fade",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-09-28": {
       "label": "9月28日 (周一)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "Kalshi sees a low chance that Federal Reserve Chairman Kevin Warsh will mention \"bond market\" or \"rate cut\" at the annual Jackson Hole Symposium.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-27": {
-      "label": "8月27日 (周四)",
-      "stories": [
-        {
-          "id": "20260827-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-          "headlineEn": "OpenAI releases its official report on the Hugging Face breach",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260827-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/26/paramount-merger-delay-wbd-limbo.html",
-          "headlineEn": "Lost in limbo: Where the Paramount merger delay leaves WBD, and what may come next",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Paramount Skydance's acquisition of Warner Bros. Discovery is stalled due to an antitrust lawsuit, leaving WBD in limbo during a pivotal moment for media.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260827-3",
-          "category": "econ",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-infrastructure/",
-          "headlineEn": "FBI Disrupts Chinese Proxy Tools Used in Mass Hacking of US Agencies and Infrastructure",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
           "vocab": [
             {
               "word": "（自动生成失败）",
