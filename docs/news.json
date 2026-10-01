@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-09-30T23:00:13.414225+00:00",
+  "lastUpdated": "2026-10-01T23:00:16.403256+00:00",
   "level": "B2",
   "days": {
+    "2026-10-02": {
+      "label": "10月2日 (周五)",
+      "stories": [
+        {
+          "id": "20261002-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/01/google-gemini-4-arrives-as-wall-street-shifts-to-personal-agents.html",
+          "headlineEn": "Google unveils latest AI model, but Wall Street wants a breakout personal agent",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Google is promising major advances in coding and cybersecurity, but the company is quickly falling behind in personal agents.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Google is promising major advances in coding and cybersecurity, but the company is quickly falling behind in personal agents.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261002-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/10/01/this-startup-wants-to-turn-idle-car-inventory-into-rental-revenue/",
+          "headlineEn": "This startup wants to turn idle car inventory into rental revenue",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "When Igor Dobrianskyi looks at a car dealership lot, he doesn't see rows of cars — he sees millions of dollars just sitting there, depreciating. Come see MyMonthlyCar in the Startup Battlefield 200 at TechCrunch Disrupt, taking place October 13 to 15 in San Francisco.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "When Igor Dobrianskyi looks at a car dealership lot, he doesn't see rows of cars — he sees millions of dollars just sitting there, depreciating. Come see MyMonthlyCar in the Startup Battlefield 200 at TechCrunch Disrupt, taking place October 13 to 15 in San Francisco.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261002-3",
+          "category": "econ",
+          "sourceName": "Financial Times",
+          "sourceUrl": "https://www.ft.com/content/e3a53272-385d-40a8-ac77-408f4c136f6f?syn-25a6b1a6=1",
+          "headlineEn": "Top Fed official signals central bank will keep rates on hold in October",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Vice-chair for monetary policy Philip Jefferson echoes dovish remarks made by New York central bank head John Williams",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Vice-chair for monetary policy Philip Jefferson echoes dovish remarks made by New York central bank head John Williams",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-10-01": {
       "label": "10月1日 (周四)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "When the U.S.-Canada trade war erupted, the market repriced metals and materials stocks and ETFs, but longer-term investors should be wary.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "When the U.S.-Canada trade war erupted, the market repriced metals and materials stocks and ETFs, but longer-term investors should be wary.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-08-30": {
-      "label": "8月30日 (周日)",
-      "stories": [
-        {
-          "id": "20260830-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-          "headlineEn": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260830-2",
-          "category": "biz",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands/",
-          "headlineEn": "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260830-3",
-          "category": "econ",
-          "sourceName": "BBC Business",
-          "sourceUrl": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&at_campaign=rss",
-          "headlineEn": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Kevin Warsh remarks suggest interest rates could be increased if policymakers think inflation is running too high.",
           "vocab": [
             {
               "word": "（自动生成失败）",
