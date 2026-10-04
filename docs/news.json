@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-10-03T23:00:17.144634+00:00",
+  "lastUpdated": "2026-10-04T23:00:13.426663+00:00",
   "level": "B2",
   "days": {
+    "2026-10-05": {
+      "label": "10月5日 (周一)",
+      "stories": [
+        {
+          "id": "20261005-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/04/ai-wearables-oura-ipo-privacy.html",
+          "headlineEn": "A 'weird' IPO pull, a tainted reputation and the stalled breakout moment for AI wearables",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Apple, Google and Meta are pushing new AI devices and assistants amid growing privacy concerns around wearables.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Apple, Google and Meta are pushing new AI devices and assistants amid growing privacy concerns around wearables.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261005-2",
+          "category": "biz",
+          "sourceName": "MarketWatch",
+          "sourceUrl": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
+          "headlineEn": "Corporate America has never been this upbeat about future profits",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261005-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/04/trump-5000-checks-cash-payments-midterms.html",
+          "headlineEn": "Trump reiterates pledge to send $5,000 checks, and hands out smaller payments, as midterm elections loom",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Trump is promoting two federal payment programs already underway while reiterating a $5,000 dividend promise contingent on Republicans retaining Congress.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Trump is promoting two federal payment programs already underway while reiterating a $5,000 dividend promise contingent on Republicans retaining Congress.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-10-04": {
       "label": "10月4日 (周日)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "New York Fed President John Williams said higher Treasury yields reflect a strong economy as he weighs whether another interest rate hike is needed.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "New York Fed President John Williams said higher Treasury yields reflect a strong economy as he weighs whether another interest rate hike is needed.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-09-02": {
-      "label": "9月2日 (周三)",
-      "stories": [
-        {
-          "id": "20260902-1",
-          "category": "tech",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
-          "headlineEn": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "OpenAI said it will make Astra available \"soon,\" but access to its cybersecurity capabilities will be limited.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260902-2",
-          "category": "biz",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
-          "headlineEn": "Palo Alto Networks’ stock falls despite strong AI cybersecurity demand",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Enterprise cyber threats and AI adoption are giving Palo Alto Networks ‘durable tailwinds,’ according to CEO Nikesh Arora, but the stock retreated after an earnings beat",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Enterprise cyber threats and AI adoption are giving Palo Alto Networks ‘durable tailwinds,’ according to CEO Nikesh Arora, but the stock retreated after an earnings beat",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260902-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/09/01/bonds-treasury-yields-middle-east-tensions.html",
-          "headlineEn": "10-year yield hits highest since January 2025 as higher oil prices stoke inflation worries",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Treasury yields increased on Tuesday as investors monitored a reignition of tensions in the Middle East.",
           "vocab": [
             {
               "word": "（自动生成失败）",
