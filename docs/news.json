@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-10-04T23:00:13.426663+00:00",
+  "lastUpdated": "2026-10-05T23:00:13.583330+00:00",
   "level": "B2",
   "days": {
+    "2026-10-06": {
+      "label": "10月6日 (周二)",
+      "stories": [
+        {
+          "id": "20261006-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/",
+          "headlineEn": "5 startups that caught VCs’ attention at the latest PearX demo day",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "TechCrunch attended Pear’s latest demo day and discovered which startups generated the most buzz, from spatial models to chips for local AI.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "TechCrunch attended Pear’s latest demo day and discovered which startups generated the most buzz, from spatial models to chips for local AI.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261006-2",
+          "category": "biz",
+          "sourceName": "Wired",
+          "sourceUrl": "https://www.wired.com/story/amazon-prime-day-early-deals-10-05-2026/",
+          "headlineEn": "The Best Early Amazon Prime Day Deals 2026: WIRED-Tested Picks to Shop Now",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Amazon Prime Big Deal Days officially begin tomorrow, but I’ve already spotted early discounts on gear our team recommends.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Amazon Prime Big Deal Days officially begin tomorrow, but I’ve already spotted early discounts on gear our team recommends.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261006-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
+          "headlineEn": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "A new bill bans federal candidates from trading prediction market contracts related to their own elections and would result in a fine if violated.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "A new bill bans federal candidates from trading prediction market contracts related to their own elections and would result in a fine if violated.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-10-05": {
       "label": "10月5日 (周一)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "August nonfarm payrolls are expected to rise by 53,000 as a subdued labor market keeps Fed attention focused on inflation.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "August nonfarm payrolls are expected to rise by 53,000 as a subdued labor market keeps Fed attention focused on inflation.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-09-03": {
-      "label": "9月3日 (周四)",
-      "stories": [
-        {
-          "id": "20260903-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-          "headlineEn": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260903-2",
-          "category": "biz",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
-          "headlineEn": "Broadcom delivers strong earnings view as CEO touts growth with AI labs",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Broadcom gave a disappointing revenue forecast for the current quarter but provided robust earnings guidance for fiscal 2028.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Broadcom gave a disappointing revenue forecast for the current quarter but provided robust earnings guidance for fiscal 2028.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260903-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
-          "headlineEn": "New York Fed's Williams says yield surge due to strong economic prospects",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "New York Fed President John Williams said higher Treasury yields reflect a strong economy as he weighs whether another interest rate hike is needed.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "New York Fed President John Williams said higher Treasury yields reflect a strong economy as he weighs whether another interest rate hike is needed.",
           "vocab": [
             {
               "word": "（自动生成失败）",
