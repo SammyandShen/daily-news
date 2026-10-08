@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-10-07T23:03:36.875873+00:00",
+  "lastUpdated": "2026-10-08T23:00:14.121035+00:00",
   "level": "B2",
   "days": {
+    "2026-10-09": {
+      "label": "10月9日 (周五)",
+      "stories": [
+        {
+          "id": "20261009-1",
+          "category": "tech",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+          "headlineEn": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The new device shows Microsoft remains committed to making its own PCs even though it's not one of the top device makers.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The new device shows Microsoft remains committed to making its own PCs even though it's not one of the top device makers.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261009-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/08/starbucks-chipotle-acquisition.html",
+          "headlineEn": "Why a Starbucks takeover of Chipotle would — and wouldn't — make sense for both companies",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Starbucks has reportedly been working with advisers on a takeover proposal for Chipotle, but a potential deal comes with pros and cons for investors.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Starbucks has reportedly been working with advisers on a takeover proposal for Chipotle, but a potential deal comes with pros and cons for investors.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261009-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
+          "headlineEn": "Treasury yields are lower after reaching multiyear highs, traders weigh latest bond auction",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Traders digested comments from a top Federal Reserve official while awaiting another long-dated bond auction.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-10-08": {
       "label": "10月8日 (周四)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "We initiated positions in defensive stocks to balance our AI exposure amid higher oil prices and Treasury yields.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "We initiated positions in defensive stocks to balance our AI exposure amid higher oil prices and Treasury yields.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-09-06": {
-      "label": "9月6日 (周日)",
-      "stories": [
-        {
-          "id": "20260906-1",
-          "category": "tech",
-          "sourceName": "TechCrunch",
-          "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-          "headlineEn": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260906-2",
-          "category": "biz",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
-          "headlineEn": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260906-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
-          "headlineEn": "Trump turns up the heat on Warsh as Fed rate hike looms",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Ten days ahead of the next Federal Reserve meeting, the Trump administration looks to be in a full-court press to halt a rate hike in its tracks.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Ten days ahead of the next Federal Reserve meeting, the Trump administration looks to be in a full-court press to halt a rate hike in its tracks.",
           "vocab": [
             {
               "word": "（自动生成失败）",
