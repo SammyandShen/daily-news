@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-10-10T00:14:29.033213+00:00",
+  "lastUpdated": "2026-10-11T23:03:01.835752+00:00",
   "level": "B2",
   "days": {
+    "2026-10-12": {
+      "label": "10月12日 (周一)",
+      "stories": [
+        {
+          "id": "20261012-1",
+          "category": "tech",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+          "headlineEn": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261012-2",
+          "category": "biz",
+          "sourceName": "TechCrunch",
+          "sourceUrl": "https://techcrunch.com/2026/10/11/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
+          "headlineEn": "What to know about the landmark Warner Bros. Discovery sale",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261012-3",
+          "category": "econ",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/make-it/2026/10/11/psychologist-couples-end-fight-before-escalates-partial-yield.html",
+          "headlineEn": "I’m a psychologist who studies couples: The No. 1 way to end a fight before it escalates—it works ‘almost immediately’",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "\"In my experience, nothing de-escalates a conflict faster,\" says psychologist Mark Travers. Why a \"partial yield\" works, and how to use it.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-10-10": {
       "label": "10月10日 (周六)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "The U.S. and Iran traded new attacks around the Strait of Hormuz, as President Donald Trump insists oil prices will drop fast once the Iran war ends.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "The U.S. and Iran traded new attacks around the Strait of Hormuz, as President Donald Trump insists oil prices will drop fast once the Iran war ends.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-09-08": {
-      "label": "9月8日 (周二)",
-      "stories": [
-        {
-          "id": "20260908-1",
-          "category": "tech",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/why-the-launch-of-openais-latest-astra-model-reignited-the-memory-chip-trade-809e2edb?mod=mw_rss_topstories",
-          "headlineEn": "Why the launch of OpenAI’s latest Astra model reignited the memory chip trade",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Since troughing on July 29, the semiconductor sector has been recovering steadily with the OpenAI ChatGPT-6 Astra release bolstering sentiment further",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Since troughing on July 29, the semiconductor sector has been recovering steadily with the OpenAI ChatGPT-6 Astra release bolstering sentiment further",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260908-2",
-          "category": "biz",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/labor-day-mattress-deals-9-7-2026/",
-          "headlineEn": "The Best Labor Day Mattress Deals on Beds We’ve Tried in Our Homes",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "It’s one of the best times of the year to buy a mattress, and our top tested picks are on sale.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "It’s one of the best times of the year to buy a mattress, and our top tested picks are on sale.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260908-3",
-          "category": "econ",
-          "sourceName": "MarketWatch",
-          "sourceUrl": "https://www.marketwatch.com/story/oil-prices-hit-near-seven-week-highs-before-edging-lower-as-iran-plans-to-increase-control-of-hormuz-5070167c?mod=mw_rss_topstories",
-          "headlineEn": "Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The West Texas Intermediate and Brent crude contracts previously rose to near-seven-week highs.",
           "vocab": [
             {
               "word": "（自动生成失败）",
