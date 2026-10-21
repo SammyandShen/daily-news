@@ -1,7 +1,81 @@
 {
-  "lastUpdated": "2026-10-21T02:01:55.991789+00:00",
+  "lastUpdated": "2026-10-21T23:04:10.637355+00:00",
   "level": "B2",
   "days": {
+    "2026-10-22": {
+      "label": "10月22日 (周四)",
+      "stories": [
+        {
+          "id": "20261022-1",
+          "category": "tech",
+          "sourceName": "Ars Technica",
+          "sourceUrl": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+          "headlineEn": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261022-2",
+          "category": "biz",
+          "sourceName": "CNBC Top News",
+          "sourceUrl": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
+          "headlineEn": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        },
+        {
+          "id": "20261022-3",
+          "category": "econ",
+          "sourceName": "BBC Business",
+          "sourceUrl": "https://www.bbc.co.uk/news/articles/cm3wv9pn22e5o?at_medium=RSS&at_campaign=rss",
+          "headlineEn": "Faisal Islam: Inflation and borrowing figures illustrate chancellor's Budget challenge",
+          "headlineCn": "（生成失败 · 见下方摘要）",
+          "summaryEn": "The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.",
+          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
+          "excerpt": "The economic figures released on Wednesday show the constraints for John Healey as he puts the finishing touches to his Budget.",
+          "vocab": [
+            {
+              "word": "（自动生成失败）",
+              "pos": "—",
+              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
+              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
+              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
+              "etymology": "",
+              "morphology": "",
+              "mnemonic": ""
+            }
+          ]
+        }
+      ]
+    },
     "2026-10-21": {
       "label": "10月21日 (周三)",
       "stories": [
@@ -2133,80 +2207,6 @@
           "summaryEn": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
           "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
           "excerpt": "Central banks around the world have hiked rates as high energy prices are pushing up inflation.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        }
-      ]
-    },
-    "2026-09-18": {
-      "label": "9月18日 (周五)",
-      "stories": [
-        {
-          "id": "20260918-1",
-          "category": "tech",
-          "sourceName": "Wired",
-          "sourceUrl": "https://www.wired.com/story/are-rogue-ai-agents-really-just-a-cybersecurity-problem/",
-          "headlineEn": "The AI Slowdown Debate Crashed Salesforce’s Party",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The Dreamforce conference became an unlikely battleground for the CEOs of OpenAI, Anthropic, and Nvidia to debate whether AI development should slow down.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The Dreamforce conference became an unlikely battleground for the CEOs of OpenAI, Anthropic, and Nvidia to debate whether AI development should slow down.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260918-2",
-          "category": "biz",
-          "sourceName": "Ars Technica",
-          "sourceUrl": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
-          "headlineEn": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "Group plans to be largely out of commission for several weeks.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "Group plans to be largely out of commission for several weeks.",
-          "vocab": [
-            {
-              "word": "（自动生成失败）",
-              "pos": "—",
-              "meaning": "Claude Code 调用失败。请检查 logs/ 目录下的日志，确认 claude 命令可用且已登录 Pro 订阅。",
-              "exampleEn": "Run `claude login` and `daily-update.sh` again to retry.",
-              "exampleCn": "运行 claude login 重新登录后再次执行 daily-update.sh。",
-              "etymology": "",
-              "morphology": "",
-              "mnemonic": ""
-            }
-          ]
-        },
-        {
-          "id": "20260918-3",
-          "category": "econ",
-          "sourceName": "CNBC Top News",
-          "sourceUrl": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
-          "headlineEn": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
-          "headlineCn": "（生成失败 · 见下方摘要）",
-          "summaryEn": "The Bank of England kept rates steady Thursday, even after U.K. inflation rose to 3.1% and energy costs put pressure on prices.",
-          "summaryCn": "（自动生成失败 · 请查看日志，或手动重跑 daily-update.sh）",
-          "excerpt": "The Bank of England kept rates steady Thursday, even after U.K. inflation rose to 3.1% and energy costs put pressure on prices.",
           "vocab": [
             {
               "word": "（自动生成失败）",
